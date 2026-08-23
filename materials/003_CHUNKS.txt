@@ -2,7 +2,7 @@ MOUSETRAP SCRIPT TRAINER - 003 CHUNKS
 
 Material ID: 003
 Filename: 003_CHUNKS.txt
-Status: IN_PROGRESS (1-A + 1-B COMPLETE)
+Status: IN_PROGRESS (1-A + 1-B + 1-C COMPLETE)
 Source authority: user-supplied The Mousetrap 台本.pdf
 Encoding: UTF-8
 Purpose: grammatical + semantic + memorization-oriented chunk boundaries for every spoken Sentence ID.
@@ -30,12 +30,12 @@ Sentence integrity = SHA-256 over the exact normalized spoken sentence.
 PARTS
 003-01_CHUNKS_A01S01.txt = COMPLETE / 453 sentences / 1554 chunks / QA PASS
 003-02_CHUNKS_A01S02.txt = COMPLETE / 643 sentences / 2221 chunks / QA PASS
-003-03A_CHUNKS_A02S01_FIRST_HALF.txt = NOT_STARTED
+003-03A_CHUNKS_A02S01_FIRST_HALF.txt = COMPLETE / 590 sentences / 2300 chunks / QA PASS
 003-03B_CHUNKS_A02S01_SECOND_HALF.txt = NOT_STARTED
 
 CURRENT TOTAL
-completed sentences: 1096 / 2277
-completed chunks: 3775
+completed sentences: 1686 / 2277
+completed chunks: 6075
 unresolved QA: 0
 
-003 overall remains IN_PROGRESS until 1-C and 1-D are completed and the 2,277-sentence global set is validated.
+003 overall remains IN_PROGRESS until 1-D is completed and the full 2,277-sentence global set is validated.
