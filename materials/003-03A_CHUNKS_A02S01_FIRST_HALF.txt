@@ -1,0 +1,64 @@
+MOUSETRAP SCRIPT TRAINER - 003-03A CHUNKS A02S01 FIRST HALF
+
+Material family: 003
+Part: 1-C
+Filename: 003-03A_CHUNKS_A02S01_FIRST_HALF.txt
+Status: COMPLETE
+Scene: SCN-A02-S01 / Act II (first half)
+Coverage: canonical dialogue units U-A02-S01-0002 through U-A02-S01-0320 inclusive
+Source speaker spans: 319
+Source PDF pages represented: 44-63
+Source authority: user-supplied The Mousetrap 台本.pdf
+Source PDF SHA-256: 94d46d2afe7504d2010c10b3ef4f1017bc3adfe0c09ab86bfd837167357c397b
+Dependency: PDF-revalidated 002 canonical allocation
+Encoding: UTF-8
+
+CANONICAL COUNTS
+spoken sentences: 590
+chunks: 2300
+average chunks/sentence: 3.8983
+scene-part sentence-set digest: fc50aa000189dbda0c28c202d1991f933d6701a85db7ad8ae18624695d2273bf
+
+COPYRIGHT-SAFE STORAGE
+The copyrighted sentence text is not duplicated in this material. The compact data shards store
+Sentence-ID-derived coordinates and grammatical metadata only. Character spans are zero-based,
+half-open offsets into the separately authorized canonical spoken-sentence text.
+
+ID RULES
+Sentence: SEN-U-A02-S01-{UNITSEQ}-{SENTNN}
+Chunk: CHK-SEN-U-A02-S01-{UNITSEQ}-{SENTNN}-{chunkNN}
+
+ROLE SCHEMA
+S / V / O / C / M / S' / V' / O' / C'
+
+GRAMMAR SCHEMA
+NP / VP / PP / AdvP / AdjP / NC / AC / AdvC / Inf / Gerund / Participle / PhrasalVerb / FixedExpression
+
+COMPACT RECORD SCHEMA
+UNITSEQ.SENTNN[!]|chunkNN@charStart-charEnd:ROLE:GRAMMAR;...
+! = content-reviewed high-risk sentence.
+Absence of ! = automated + structural QA passed without a manual-review trigger.
+
+DATA SHARDS
+003-03A1_CHUNKS_A02S01_FIRST_HALF.txt = 197 records / first 0002.01 / last 0099.03 / SHA-256 4055a47633eb22e33a30f9c77aeb4f203b5a7eed47c62939de21d7a080f29684
+003-03A2_CHUNKS_A02S01_FIRST_HALF.txt = 197 records / first 0100.01 / last 0208.03 / SHA-256 e17b27eeaee7af2fe1ce3123b65b4fae7af3f51fb1cd6c9c46f2c657feb322ff
+003-03A3_CHUNKS_A02S01_FIRST_HALF.txt = 196 records / first 0209.01 / last 0320.01 / SHA-256 444fad4fe58e7345a740116556bf2331bf7f8da80afb8816d4af79af2dedd37e
+
+QA
+003-03A_CHUNKS_A02S01_FIRST_HALF_QA.txt = PASS
+manual high-risk sentences reviewed: 58
+manual boundary overrides after review: 42
+unresolved QA: 0
+reconstruction mismatches: 0
+stage-direction contamination: 0
+curated fixed/phrasal-expression boundary violations: 0
+forbidden isolated function-word chunks: 0
+chunks >=10 lexical words: 0
+
+BOUNDARY
+1-C ends exactly after U-A02-S01-0320 / source speaker ordinal 319.
+1-D starts at U-A02-S01-0321 / source speaker ordinal 320.
+This split does not divide a canonical dialogue unit or Sentence ID.
+
+FINAL RESULT: 1-C COMPLETE
+NEXT: 1-D / second half of SCN-A02-S01.
