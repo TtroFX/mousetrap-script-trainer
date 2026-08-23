@@ -1,0 +1,68 @@
+MOUSETRAP SCRIPT TRAINER - 003-02 A01S02 QA
+Status: PASS / 1-B COMPLETE
+Source PDF SHA-256: 94d46d2afe7504d2010c10b3ef4f1017bc3adfe0c09ab86bfd837167357c397b
+Scene: SCN-A01-S02
+
+CANONICAL COVERAGE
+speaker spans expected/processed: 336 / 336
+spoken sentences expected/processed: 643 / 643
+canonical unit rows expected/processed: 338 / 338 (including PREAMBLE + CURTAIN)
+missing Sentence IDs: 0
+extra Sentence IDs: 0
+duplicate Sentence IDs: 0
+canonical Sentence ID order: PASS
+per-unit spoken-sentence counts vs PDF-revalidated 002: PASS / mismatches 0
+
+CHUNK INTEGRITY
+chunks: 2221
+average chunks/sentence: 3.4541
+duplicate Chunk IDs: 0
+empty chunks: 0
+range errors: 0
+chunk sequence gaps: 0
+character coverage gaps/overlaps: 0
+sentence reconstruction mismatches: 0
+stage-direction / curtain-marker contamination: 0
+printed-page-footer contamination: 0
+invalid ROLE labels: 0
+invalid GRAMMAR labels: 0
+unresolved QA flags: 0
+
+CONTENT QA
+manual high-risk sentences reviewed: 82
+manual reviewed chunks: 440
+fixed/phrasal-expression occurrences audited: 44
+fixed/phrasal expressions split across chunk boundaries: 0
+single-word chunks: 1158 / 2221 (52.14%)
+forbidden isolated function-word chunks (the/a/an/of/to/very/for/in/on/at/with/from/by): 0
+chunks >=10 lexical words: 0
+maximum lexical words in one chunk: 9
+
+The one-word count is dominated by structurally meaningful pronoun Subjects, auxiliary/main Verb
+chunks, coordinators used as discourse links, and short spoken markers. A dedicated audit found zero
+isolated articles, bare prepositions, or 'very' chunks from the prohibited over-segmentation set.
+
+MANUAL REVIEW COVERAGE
+- direct / indirect questions and inversion
+- all detected tag questions
+- conditional if vs embedded if/whether-like content
+- noun clauses, relative clauses and zero-relative material
+- infinitive / gerund / participial constructions
+- contractions, perfect/progressive/modal chains and passive voice
+- locative/existential there distinctions
+- stranded-preposition and separable phrasal-verb cases
+- validated phrasal verbs / idioms / fixed expressions
+- vocatives, parentheticals, ellipsis and em-dash interruptions
+- source fragments and elliptical omitted-subject predicates
+- all initially >=10-word chunks, re-split where useful for memorization
+
+CANONICAL SPECIAL CASES VERIFIED
+- speech ordinal 77 telephone hesitation/confirmation follows canonical 10-sentence allocation
+- speech ordinal 164 keeps Hullo!... as one terminal unit before the following speech material
+- speech ordinal 187 retains the canonical six-sentence allocation for the Corrigans/list fragment
+- speech ordinal 207 rhyme/reaction remains one canonical Sentence ID as allocated in 002
+- speech ordinal 288 ellipsis + following clause remains one canonical Sentence ID
+- speech ordinal 308 malformed-bracket movement cue is excluded from spoken text
+
+FINAL RESULT: PASS
+NEXT: 1-C / first half of SCN-A02-S01.
