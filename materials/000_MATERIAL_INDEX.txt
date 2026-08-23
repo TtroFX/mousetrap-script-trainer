@@ -12,7 +12,8 @@ Status: COMPLETE
 001_SCRIPT_STRUCTURE.txt
 Purpose: Act / Scene / page-range / speaker / stage-direction structure and stable IDs.
 Depends on: source PDF only.
-Status: NOT_STARTED
+Status: COMPLETE
+Commit: cfd902896fd11974a8e74b35937241e64354e6e6
 
 002_SCRIPT_UNITS.txt
 Purpose: dialogue/stage-direction units, sentence boundaries, and stable unit IDs linked to 001.
