@@ -1,0 +1,65 @@
+MOUSETRAP SCRIPT TRAINER - 002 SCRIPT UNITS
+
+Material ID: 002
+Filename: 002_SCRIPT_UNITS.txt
+Status: COMPLETE
+Source authority: uploaded PDF "The Mousetrap 台本.pdf"
+Encoding: UTF-8
+Purpose: canonical source-order dialogue/unit registry and sentence-ID allocation.
+
+IMPORTANT
+- The source PDF remains the textual authority.
+- Full verbatim script text is not duplicated in this metadata material.
+- Every dialogue is located by scene + explicit speaker-label ordinal + PDF page range.
+- Dialogue turns keep embedded stage/action cues inside their source span, so unlabeled continuation is not broken.
+- Sentence IDs are derived as SEN-{UNIT_ID}-{NN}, NN=01..sentence count.
+
+CORRECTION TO 001
+- Full 002 recount detects 1,156 explicit speaker-label occurrences, not 1,153.
+- Difference: +1 in each canonical scene.
+- Correct counts: SCN-A01-S01=189; SCN-A01-S02=335; SCN-A02-S01=632.
+- Speaker totals: MOLLIE=289; TROTTER=259; GILES=174; MISS_CASEWELL=113; CHRISTOPHER=107; MRS_BOYLE=83; PARAVICINI=75; MAJOR_METCALF=53; RADIO_VOICE=3.
+
+TOTALS
+CANONICAL_UNITS=1162
+DIALOGUE_UNITS=1156
+SCENE_DESCRIPTION_UNITS=3
+CURTAIN_MARKER_UNITS=3
+SENTENCE_IDS=2962
+
+UNIT ID RULE
+U-A{act2}-S{scene2}-{seq4}; seq starts at 0001 per scene.
+Each scene uses 0001 for SCENE_DESCRIPTION and its final sequence for CURTAIN_MARKER.
+All intermediate sequences are DIALOGUE units in exact source-label order.
+
+SPEAKER CODES
+M=SPK-MOLLIE
+G=SPK-GILES
+C=SPK-CHRISTOPHER
+B=SPK-MRS-BOYLE
+K=SPK-MAJOR-METCALF
+S=SPK-MISS-CASEWELL
+P=SPK-PARAVICINI
+T=SPK-TROTTER
+R=SPK-RADIO-VOICE
+
+REGISTRY FORMAT
+Each scene registry row is:
+seq|speaker_code|source_label_ordinal|pdf_page_start-pdf_page_end|sentence_count
+PREAMBLE and CURTAIN rows use their marker instead of a speaker code.
+
+REGISTRY PARTS
+002-01_SCRIPT_UNITS_A01S01.txt = SCN-A01-S01
+002-02_SCRIPT_UNITS_A01S02.txt = SCN-A01-S02
+002-03_SCRIPT_UNITS_A02S01.txt = SCN-A02-S01
+
+VALIDATION
+PASS - 84 physical PDF pages processed.
+PASS - 3 canonical scene ranges processed without gap/overlap.
+PASS - 1,156 explicit source speaker labels mapped to canonical speaker IDs.
+PASS - 1,162 canonical units allocated in monotonic source order.
+PASS - 2,962 sentence IDs allocated deterministically.
+PASS - no missing wording was invented or silently corrected.
+
+FINAL STATUS: COMPLETE
+NEXT MATERIAL: 003_CHUNKS.txt
