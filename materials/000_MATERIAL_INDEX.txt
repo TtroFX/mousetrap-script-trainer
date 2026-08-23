@@ -14,11 +14,17 @@ Purpose: Act / Scene / page-range / speaker / stage-direction structure and stab
 Depends on: source PDF only.
 Status: COMPLETE
 Commit: cfd902896fd11974a8e74b35937241e64354e6e6
+Note: 002 full-source validation corrected the explicit speaker-label cross-check from 1,153 to 1,156. Scene structure and stable IDs are unchanged.
 
 002_SCRIPT_UNITS.txt
-Purpose: dialogue/stage-direction units, sentence boundaries, and stable unit IDs linked to 001.
+Purpose: canonical source-order dialogue/unit registry and sentence-ID allocation linked to 001.
 Depends on: 001
-Status: NOT_STARTED
+Status: COMPLETE
+Parts:
+- 002-01_SCRIPT_UNITS_A01S01.txt
+- 002-02_SCRIPT_UNITS_A01S02.txt
+- 002-03_SCRIPT_UNITS_A02S01.txt
+Validated totals: 1,156 dialogue units; 1,162 canonical units; 2,962 sentence IDs.
 
 003_CHUNKS.txt
 Purpose: meaning-based chunk segmentation for each sentence/unit.
