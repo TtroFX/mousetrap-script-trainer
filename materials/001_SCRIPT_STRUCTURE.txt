@@ -1,0 +1,288 @@
+MOUSETRAP SCRIPT TRAINER — 001 SCRIPT STRUCTURE
+
+Material ID: 001
+Filename: 001_SCRIPT_STRUCTURE.txt
+Status: COMPLETE
+Repository: TtroFX/mousetrap-script-trainer
+Source authority: uploaded PDF "The Mousetrap 台本.pdf"
+Source PDF metadata title: Taro-2027年度 高３英語劇 台本
+Source PDF pages: 84
+Printed script pagination: 1-83; PDF page 1 is the cover/title page.
+Encoding: UTF-8
+Purpose: define the canonical document/Act/Scene structure, speaker registry, structural unit types, page mapping, and stable ID rules used by every later material.
+
+============================================================
+1. SOURCE AND AUTHORITY RULES
+============================================================
+
+1.1 The uploaded PDF is the sole textual authority for the script in this material sequence.
+1.2 PDF page numbers in this file mean physical PDF pages, starting with the cover as PDF page 1.
+1.3 Printed script page numbers are the numbers printed in the script itself. They are offset by one from PDF pages because the cover is unnumbered.
+1.4 Wording of dialogue and stage directions is not normalized, modernized, corrected, or silently reconstructed in 001.
+1.5 001 is structural only. Full dialogue text and stage-direction text belong to 002_SCRIPT_UNITS.txt.
+1.6 If later extraction reveals an ambiguity, the source PDF wins and the ambiguity must be recorded instead of guessed.
+
+============================================================
+2. CANONICAL HIERARCHY
+============================================================
+
+DOCUMENT
+  -> ACT
+     -> SCENE
+        -> UNIT (defined/instantiated in 002)
+           -> SENTENCE (defined/instantiated in 002)
+              -> CHUNK (defined/instantiated in 003)
+
+Canonical document ID:
+DOC-MOUSETRAP
+
+Canonical Act IDs:
+ACT-01
+ACT-02
+
+Canonical Scene IDs:
+SCN-A01-S01
+SCN-A01-S02
+SCN-A02-S01
+
+Important source note:
+The source explicitly labels Act I as Scene I and Scene II. At the start of Act Two, the source gives the Act heading and a scene-setting heading but does not explicitly print "Scene I". For stable internal linking, the sole Act Two scene is assigned internal ID SCN-A02-S01. This is an application/material ID, not a claim that the PDF prints "Scene I" there.
+
+============================================================
+3. ACT / SCENE REGISTRY AND PAGE MAP
+============================================================
+
+[SCN-A01-S01]
+ACT_ID: ACT-01
+ACT_DISPLAY: ACT I
+SOURCE_SCENE_LABEL: Scene I
+LOCATION: Great Hall at Monkswell Manor
+TIME: late afternoon
+PDF_PAGE_START: 2
+PDF_PAGE_END: 19
+PRINTED_PAGE_START: 1
+PRINTED_PAGE_END: 18
+END_MARKER: curtain
+NEXT_SCENE: SCN-A01-S02
+
+[SCN-A01-S02]
+ACT_ID: ACT-01
+ACT_DISPLAY: ACT I
+SOURCE_SCENE_LABEL: Scene II
+LOCATION: same location as SCN-A01-S01
+TIME: following afternoon
+PDF_PAGE_START: 20
+PDF_PAGE_END: 43
+PRINTED_PAGE_START: 19
+PRINTED_PAGE_END: 42
+END_MARKER: curtain
+NEXT_SCENE: SCN-A02-S01
+
+[SCN-A02-S01]
+ACT_ID: ACT-02
+ACT_DISPLAY: ACT TWO
+SOURCE_SCENE_LABEL: not separately numbered in the PDF
+LOCATION: same location as previous scenes
+TIME: ten minutes later
+PDF_PAGE_START: 44
+PDF_PAGE_END: 84
+PRINTED_PAGE_START: 43
+PRINTED_PAGE_END: 83
+END_MARKER: quick curtain
+NEXT_SCENE: NONE
+
+STRUCTURE VALIDATION:
+- 3 canonical scenes total.
+- Script body covers PDF pages 2-84 continuously.
+- Printed pages cover 1-83 continuously.
+- No page gap exists between registered scenes.
+
+============================================================
+4. CANONICAL SPEAKER REGISTRY
+============================================================
+
+The following labels are the distinct dialogue-speaker labels detected in the source PDF. IDs below are canonical and must be reused in all later materials.
+
+[SPK-MOLLIE]
+SOURCE_LABEL: MOLLIE
+DISPLAY_NAME: Mollie
+TYPE: character
+FIRST_DIALOGUE_PDF_PAGE: 3
+
+[SPK-GILES]
+SOURCE_LABEL: GILES
+DISPLAY_NAME: Giles
+TYPE: character
+FIRST_DIALOGUE_PDF_PAGE: 4
+
+[SPK-CHRISTOPHER]
+SOURCE_LABEL: CHRISTOPHER
+DISPLAY_NAME: Christopher
+TYPE: character
+FIRST_DIALOGUE_PDF_PAGE: 7
+
+[SPK-MRS-BOYLE]
+SOURCE_LABEL: MRS. BOYLE
+DISPLAY_NAME: Mrs. Boyle
+TYPE: character
+FIRST_DIALOGUE_PDF_PAGE: 10
+
+[SPK-MAJOR-METCALF]
+SOURCE_LABEL: MAJOR METCALF
+DISPLAY_NAME: Major Metcalf
+TYPE: character
+FIRST_DIALOGUE_PDF_PAGE: 12
+
+[SPK-MISS-CASEWELL]
+SOURCE_LABEL: MISS CASEWELL
+DISPLAY_NAME: Miss Casewell
+TYPE: character
+FIRST_DIALOGUE_PDF_PAGE: 14
+
+[SPK-PARAVICINI]
+SOURCE_LABEL: PARAVICINI
+DISPLAY_NAME: Paravicini
+TYPE: character
+FIRST_DIALOGUE_PDF_PAGE: 18
+
+[SPK-TROTTER]
+SOURCE_LABEL: TROTTER
+DISPLAY_NAME: Trotter
+TYPE: character
+FIRST_DIALOGUE_PDF_PAGE: 29
+
+[SPK-RADIO-VOICE]
+SOURCE_LABEL: VOICE ON THE RADIO
+DISPLAY_NAME: Voice on the Radio
+TYPE: broadcast_voice
+FIRST_DIALOGUE_PDF_PAGE: 3
+
+SPEAKER RULES:
+- Speaker IDs represent source speaker labels, not inferred identities.
+- Character aliases, role descriptions, and identity notes belong to 010_CHARACTER_INDEX.txt.
+- Offstage delivery, tone notes, and inline action notes do not create a new speaker ID.
+- Collective references such as EVERYONE in stage directions are not speaker IDs unless the PDF gives them a dialogue label.
+
+============================================================
+5. DIALOGUE-LABEL CROSS-CHECK COUNTS
+============================================================
+
+These counts are extraction cross-checks for the number of explicit speaker-label occurrences detected in the PDF text. They are not yet canonical UNIT counts; 002 will validate page joins and unit boundaries before finalizing units.
+
+TOTAL_EXPLICIT_SPEAKER_LABEL_OCCURRENCES: 1153
+
+BY_SPEAKER:
+SPK-MOLLIE: 288
+SPK-TROTTER: 258
+SPK-GILES: 174
+SPK-MISS-CASEWELL: 113
+SPK-CHRISTOPHER: 106
+SPK-MRS-BOYLE: 83
+SPK-PARAVICINI: 75
+SPK-MAJOR-METCALF: 53
+SPK-RADIO-VOICE: 3
+
+BY_SCENE:
+SCN-A01-S01: 188
+SCN-A01-S02: 334
+SCN-A02-S01: 631
+
+These values are validation targets only. If 002 produces a different count, the discrepancy must be explained by source layout/page-boundary behavior rather than silently adjusted.
+
+============================================================
+6. STRUCTURAL UNIT TYPES FOR 002
+============================================================
+
+002 must classify sequential script content using these structural types.
+
+DIALOGUE
+- Spoken text associated with one canonical speaker ID.
+- May include a delivery/action cue attached to the speaker label or embedded in the turn.
+
+STAGE_DIRECTION
+- Bracketed or standalone dramatic action, movement, entrance, exit, lighting, sound, curtain, prop, or blocking direction.
+
+SCENE_DESCRIPTION
+- Opening location/time/set/state description belonging to a scene rather than a speaker.
+
+SOUND_OR_MUSIC_CUE
+- Non-dialogue sound/music event when represented as a distinct script event.
+- If a sound description is embedded inside a larger stage direction, 002 may keep it inside that stage-direction unit rather than splitting it artificially.
+
+CURTAIN_MARKER
+- CURTAIN / QUICK CURTAIN or equivalent explicit scene-ending marker.
+
+STRUCTURAL_HEADING
+- Act heading, Scene heading, or source scene-setting heading.
+- These are represented by 001 scene metadata and ordinarily are not duplicated as learning dialogue.
+
+============================================================
+7. STABLE UNIT ID CONVENTION
+============================================================
+
+Unit IDs will be instantiated in 002 in strict source order inside each scene.
+
+Format:
+U-A{act2}-S{scene2}-{sequence4}
+
+Examples of format only:
+U-A01-S01-0001
+U-A01-S01-0002
+U-A01-S02-0001
+U-A02-S01-0001
+
+Rules:
+- sequence4 starts at 0001 for each scene.
+- Sequence follows source order, not speaker order.
+- Once 002 is validated, a unit ID must never be reused for different source content.
+- Later insertion caused by a proven extraction omission must not trigger casual renumbering. If insertion becomes necessary after downstream materials exist, use an explicit insertion suffix policy documented at that time.
+
+============================================================
+8. DERIVED ID CONVENTIONS RESERVED FOR LATER MATERIALS
+============================================================
+
+Sentence IDs (002):
+SEN-{unit_id}-{sentence2}
+Example format: SEN-U-A01-S01-0001-01
+
+Chunk IDs (003):
+CHK-{sentence_id}-{chunk2}
+Example format: CHK-SEN-U-A01-S01-0001-01-01
+
+Vocabulary lemma IDs (005):
+VOC-{normalized_lemma}
+Exact normalization rules will be fixed in 005 before use.
+
+Vocabulary occurrence IDs (006):
+WUSE-{sentence_id}-{token_or_occurrence_sequence}
+Exact token-sequence rules will be fixed in 006.
+
+Context/translation/expression/memory files must reference the canonical IDs above rather than duplicating script text as their primary key.
+
+============================================================
+9. PAGE-BOUNDARY RULES FOR 002
+============================================================
+
+9.1 A PDF page break is not a dialogue/unit boundary by itself.
+9.2 Wrapped dialogue continuing on the next physical page remains one dialogue unit if the source structure shows the same turn continuing.
+9.3 Stage directions split by a page break remain one unit when they are grammatically/structurally continuous.
+9.4 Printed page numbers, headers, and cover text are metadata and must not become dialogue units.
+9.5 Scene boundaries defined in Section 3 always terminate the current scene sequence.
+9.6 Speaker labels are preserved exactly as source labels in source_label fields; normalized display names are separate metadata.
+
+============================================================
+10. VALIDATION RESULT
+============================================================
+
+PASS CONDITIONS CHECKED:
+PASS - PDF metadata and physical page count confirmed.
+PASS - Script pagination mapping confirmed: PDF 2-84 corresponds to printed 1-83.
+PASS - Act/Scene transition pages confirmed.
+PASS - Three canonical scene ranges cover the complete script body with no gaps.
+PASS - Nine distinct dialogue speaker labels detected and assigned canonical speaker IDs.
+PASS - Explicit speaker-label occurrence counts captured as 002 cross-check targets.
+PASS - Stable Act, Scene, Speaker, Unit, Sentence, and Chunk ID conventions established.
+PASS - Act Two source-label ambiguity handled without inventing a printed scene number.
+
+FINAL STATUS: COMPLETE
+NEXT MATERIAL: 002_SCRIPT_UNITS.txt
