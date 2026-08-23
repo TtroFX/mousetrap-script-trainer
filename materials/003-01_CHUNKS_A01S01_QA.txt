@@ -1,0 +1,59 @@
+MOUSETRAP SCRIPT TRAINER - 003-01 A01S01 QA
+Status: PASS / 1-A COMPLETE
+Source PDF SHA-256: 94d46d2afe7504d2010c10b3ef4f1017bc3adfe0c09ab86bfd837167357c397b
+Scene: SCN-A01-S01
+
+CANONICAL COVERAGE
+speaker spans expected/processed: 190 / 190
+spoken sentences expected/processed: 453 / 453
+missing Sentence IDs: 0
+extra Sentence IDs: 0
+duplicate Sentence IDs: 0
+canonical Sentence ID order: PASS
+
+CHUNK INTEGRITY
+chunks: 1554
+average chunks/sentence: 3.4305
+duplicate Chunk IDs: 0
+empty chunks: 0
+range errors: 0
+chunk sequence gaps: 0
+character coverage gaps/overlaps: 0
+sentence reconstruction mismatches: 0
+stage-direction / curtain-marker contamination: 0
+printed-page-footer contamination: 0
+invalid ROLE labels: 0
+invalid GRAMMAR labels: 0
+unresolved QA flags: 0
+
+CONTENT QA
+manual high-risk sentences reviewed: 55
+manual reviewed chunks: 232
+fixed/phrasal-expression occurrences audited: 52
+fixed/phrasal expressions split across chunk boundaries: 0
+single-word chunks: 780 / 1554 (50.19%)
+forbidden isolated function-word chunks (the/a/an/of/to/very/for/in/on/at/with): 0
+chunks >=10 lexical words: 3
+maximum lexical words in one chunk: 10
+
+The one-word count is dominated by structurally meaningful pronoun Subjects, auxiliary/main Verb
+chunks, and spoken discourse markers in short dialogue. A separate audit found zero isolated articles,
+bare prepositions, or 'very' chunks from the forbidden over-segmentation set.
+
+MANUAL REVIEW COVERAGE
+- direct and indirect questions / inversion
+- tag questions and elliptical omitted-subject predicates
+- if / so-long-as / before / relative-clause structures
+- noun clauses and omitted-that clauses
+- infinitive and participial constructions
+- contractions and be-going-to / have-to style verb chains
+- phrasal verbs / fixed expressions
+- parenthetical and vocative material
+- em-dash interruptions and comma-spliced dramatic dialogue
+- long enumerative fragments
+
+LONG-CHUNK AUDIT
+All remaining >=10-word chunks are coherent clause-level units; none exceeds 10 lexical words.
+
+FINAL RESULT: PASS
+NEXT: 1-B / SCN-A01-S02 only after user instruction.
