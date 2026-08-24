@@ -1,0 +1,8 @@
+# Private/copyrighted build inputs — never commit to public repository
+mousetrap_script_data.json
+mousetrap_line_translations.json
+mousetrap_line_vocabulary.json
+mousetrap_line_grammar.json
+mousetrap_word_dictionary.json
+private/
+*.private.json
