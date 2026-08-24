@@ -1,0 +1,26 @@
+name: Pre-P6 HTTP E2E
+on:
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+jobs:
+  structural-http-e2e:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 20}
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Generate non-copyright structural fixture
+        run: node tests/generate_fixture.mjs
+      - name: Run real HTTP browser E2E
+        run: npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pre-p6-http-e2e-results
+          path: app/test-results/
