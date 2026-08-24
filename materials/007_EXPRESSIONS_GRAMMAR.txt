@@ -1,0 +1,29 @@
+MOUSETRAP SCRIPT TRAINER - 007 EXPRESSIONS / GRAMMAR
+
+Material ID: 007
+Status: EXTERNAL CONTENT COMPLETE / CANONICAL REGISTERED
+Depends on: 002, 003, 004
+Validated payload: mousetrap_line_grammar.json
+Validation payload: mousetrap_grammar_span_validation.json
+QA: mousetrap_line_grammar_QA.md = PASS
+Coverage: 1164 / 1164 canonical speech IDs
+Annotated speeches: 417
+Grammar entries: 692
+Span validation records: 692
+Missing/extra/invalid/contradiction/guard FAIL/unresolved: 0
+Grammar SHA-256: 9033ce0b8a4e8cd77cb0eb5c4766721e7948894495009a77eea8c37d0114ac88
+Span validation SHA-256: eddba6c7bdd518b367a207b98b76974cabe481e03d66a0148dc3f9676a5ccf34
+Join key: speechId -> materials/003-00_CANONICAL_ID_MAP.txt.
+
+VALIDATION CONTRACT
+- source-span validation records: 692
+- source span missing: 0
+- grammar/validation mapping mismatch: 0
+- contradiction: 0
+- independent semantic guard FAIL: 0
+- unresolved critical issue: 0
+
+ROLE
+007 supplies line-level grammar/expression annotations. It supplements but does not replace the structural S/V/O/C/M chunk metadata frozen in 003.
+
+FINAL STATUS: REGISTERED / READY FOR PRIVATE BUILD INPUT
