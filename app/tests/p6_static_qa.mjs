@@ -44,8 +44,8 @@ for(const token of ['version:2','getVerifiedResponse','prepare','validateAll','D
 for(const forbidden of ['FileReader','privateDataFiles','accept="application/json','install(import'])if(resolver.includes(forbidden))fail(`manual/import production fallback remains: ${forbidden}`);
 
 const p5=read('p5_app.js');new vm.Script(p5,{filename:'p5_app.js'});
-for(const token of ["['act1-scene1','act1-scene1-speech-',190","['act1-scene2','act1-scene2-speech-',336","['act2','act2-speech-',638","mousetrap_script_data.json","mousetrap_line_translations.json","mousetrap_line_vocabulary.json","mousetrap_line_grammar.json","mousetrap_word_dictionary.json","mts.reader.progress","data-reader-mode","#/search","mts.practice.cue.ratings","mts.practice.rehearsal.state"])if(!p5.includes(token))fail(`P5 production invariant missing ${token}`);
-if(p5.includes('prototypeData')||p5.includes('embeddedPrototype'))fail('prototype dependency detected');
+for(const token of ["['act1-scene1','act1-scene1-speech-',190","['act1-scene2','act1-scene2-speech-',336","['act2','act2-speech-',638","mousetrap_script_data.json","mousetrap_line_translations.json","mousetrap_line_vocabulary.json","mousetrap_line_grammar.json","mousetrap_word_dictionary.json","mts.reader.progress","data-reader-mode","#/search","mts.practice.cue.ratings","mts.practice.rehearsal.state","showDataFailure","verified production response unavailable"])if(!p5.includes(token))fail(`P5 production invariant missing ${token}`);
+for(const forbidden of ['prototypeData','embeddedPrototype','importDataBtn','privateDataFiles','MTS_PRIVATE_DATA.install','Private production JSONをImport'])if(p5.includes(forbidden))fail(`dead/non-production P5 path remains: ${forbidden}`);
 
 const learning=read('P2_learning.html');
 for(const token of ['translationSource','Headword','contextMeaning','Grammar / Usage','#/rehearsal?scene=','Dictionary entryが見つかりません','このspeechには登録Vocabularyがありません','このspeechには追加Grammar noteがありません'])if(!learning.includes(token))fail(`Learning UI missing ${token}`);
@@ -63,7 +63,10 @@ if(pkg.scripts?.['assemble:production']!=='node scripts/assemble-production.mjs'
 
 const productionRuntime=['index.html','p5_app.js','p6_private_data.js','p6_pwa.js','P2_learning.html','008_cue_practice_P3.html','009_rehearsal_P4.html','sw.js'];
 const unresolved=/\b(?:TODO|FIXME|coming soon|not implemented|placeholder|dummy|fake|temporary)\b/i;
-for(const file of productionRuntime)if(unresolved.test(read(file)))fail(`blocking placeholder marker in ${file}`);
+for(const file of productionRuntime){
+  const source=read(file).replace(/\bplaceholder\s*=\s*(["']).*?\1/gi,'');
+  if(unresolved.test(source))fail(`blocking placeholder marker in ${file}`);
+}
 
 console.log(JSON.stringify({
   status:'PASS',
