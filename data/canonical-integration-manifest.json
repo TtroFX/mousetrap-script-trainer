@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "status": "COMPLETE",
+  "purpose": "Copyright-safe canonical registry and build-time join contract for the single PWA data pipeline.",
+  "sourceAuthority": {
+    "file": "The Mousetrap 台本.pdf",
+    "sha256": "94d46d2afe7504d2010c10b3ef4f1017bc3adfe0c09ab86bfd837167357c397b"
+  },
+  "canonical": {
+    "speakerSpans": 1164,
+    "canonicalUnits": 1170,
+    "spokenSentenceIds": 2276,
+    "chunkIds": 8055,
+    "sceneCounts": {
+      "SCN-A01-S01": {"speeches": 190, "sentences": 453, "chunks": 1554},
+      "SCN-A01-S02": {"speeches": 336, "sentences": 643, "chunks": 2221},
+      "SCN-A02-S01": {"speeches": 638, "sentences": 1180, "chunks": 4280}
+    },
+    "structure": "materials/001_SCRIPT_STRUCTURE.txt",
+    "unitRegistry": "materials/002_SCRIPT_UNITS.txt",
+    "idMap": "materials/003-00_CANONICAL_ID_MAP.txt",
+    "chunks": "materials/003_CHUNKS.txt",
+    "freeze": "materials/003_CANONICAL_FREEZE.txt",
+    "globalQa": "materials/003_GLOBAL_QA.txt",
+    "integrationQa": "materials/003_CANONICAL_INTEGRATION_QA.txt"
+  },
+  "externalAssets": {
+    "translations": {
+      "file": "mousetrap_line_translations.json",
+      "sha256": "3b6daf0d3b9103f2a5369e0d4311fad576078b496e57787c3353a10092dd758d",
+      "coverageSpeechIds": 1164,
+      "controlMaterial": "materials/004_CONTEXT_TRANSLATIONS.txt"
+    },
+    "lineVocabulary": {
+      "file": "mousetrap_line_vocabulary.json",
+      "sha256": "91918d29d9196136e56c24323624e6687967ebb4491973ff3cc4a9474dc67bfd",
+      "coverageSpeechIds": 1164,
+      "items": 1186,
+      "controlMaterial": "materials/006_VOCABULARY_USAGE.txt"
+    },
+    "wordDictionary": {
+      "file": "mousetrap_word_dictionary.json",
+      "sha256": "271fc8968ec4fc5e8877b64e4a8221201fcd036ec437000957e1be932e4fd629",
+      "entries": 578,
+      "controlMaterial": "materials/005_VOCABULARY_CORE.txt"
+    },
+    "lineGrammar": {
+      "file": "mousetrap_line_grammar.json",
+      "sha256": "9033ce0b8a4e8cd77cb0eb5c4766721e7948894495009a77eea8c37d0114ac88",
+      "coverageSpeechIds": 1164,
+      "entries": 692,
+      "controlMaterial": "materials/007_EXPRESSIONS_GRAMMAR.txt"
+    },
+    "grammarSpanValidation": {
+      "file": "mousetrap_grammar_span_validation.json",
+      "sha256": "eddba6c7bdd518b367a207b98b76974cabe481e03d66a0148dc3f9676a5ccf34",
+      "records": 692,
+      "failures": 0
+    }
+  },
+  "joinRules": {
+    "speechToUnit": "Within each scene, speech ordinal equals source_label_ordinal; Unit sequence is ordinal + 1 because Unit 0001 is PREAMBLE. The applicable final 002 registry row is authoritative.",
+    "unitToSentence": "For each dialogue Unit with spoken_sentence_count K, use SEN-{UNIT_ID}-01 through SEN-{UNIT_ID}-{K:02d}.",
+    "sentenceToChunk": "Chunk IDs use CHK-{SENTENCE_ID}-{chunk2}; exact ranges are read from the applicable 003 production shard.",
+    "translation": "Join by speechId.",
+    "lineVocabulary": "Join by speechId; then join normalized lemma to wordDictionary.",
+    "lineGrammar": "Join by speechId. Grammar is supplemental to the structural chunk metadata in 003."
+  },
+  "legacyExclusions": [
+    "008_cue_practice.html embedded Act II Script Data with 633 speeches",
+    "009_rehearsal.html as a canonical data authority until rebuilt against this manifest",
+    "any 1159-speaker aggregate",
+    "any 2277-spoken-sentence aggregate",
+    "any Act II 1181-spoken-sentence aggregate",
+    "QUICK_CURTAIN classified as spoken dialogue"
+  ],
+  "releaseGates": {
+    "brokenCanonicalReference": 0,
+    "duplicateCanonicalId": 0,
+    "orphanRegisteredSpeechAsset": 0,
+    "sceneOrderMismatch": 0,
+    "unresolvedCanonicalQa": 0
+  },
+  "payloadPolicy": "This manifest contains IDs, counts, hashes, paths and join rules only. It does not contain the full copyrighted play text or a full translated-script payload."
+}
