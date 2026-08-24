@@ -1,0 +1,14 @@
+# Private/copyright-bearing build inputs and outputs
+private/
+app/private/
+*.local.json
+*.private.json
+The Mousetrap 台本.pdf
+
+# Python / local tooling
+__pycache__/
+*.pyc
+.venv/
+
+# OS/editor
+.DS_Store
