@@ -4,6 +4,13 @@ Status: COMPLETE / CANONICAL INTEGRATION REGISTERED
 Canonical join map: materials/003-00_CANONICAL_ID_MAP.txt
 Machine manifest: data/canonical-integration-manifest.json
 
+CANONICAL BASIS
+speaker spans: 1164
+canonical units: 1170
+spoken Sentence IDs: 2277
+effective Chunk IDs: 8055
+scene Sentence counts: 453 / 643 / 1181
+
 REGISTERED VALIDATED LEARNING ASSETS
 
 1. Translation
@@ -46,14 +53,16 @@ REGISTERED VALIDATED LEARNING ASSETS
 
 JOIN CONTRACT
 - translation / line vocabulary / line grammar join by speechId.
-- speechId -> Unit/Sentence/Chunk mapping follows materials/003-00_CANONICAL_ID_MAP.txt.
+- speechId -> Unit/Sentence/effective Chunk mapping follows materials/003-00_CANONICAL_ID_MAP.txt.
 - dictionary joins from line vocabulary via normalized lemma.
+- consumers must apply materials/002-03A_CORRECTION_U0053.txt and materials/003-03A0_CORRECTION_U0053.txt.
 - no learning asset may redefine source order, speaker identity, Unit allocation or Sentence boundaries.
 
 LEGACY DATA EXCLUDED
 - 008_cue_practice.html embedded Act II Script Data: old 633-speech set; excluded as authority.
 - 009_rehearsal.html: UI prototype only; excluded as authority until rebuilt against the integration manifest.
-- any 1,159-speaker, 633-Act-II-speech, 2,277-sentence, or 1,181-Act-II-sentence aggregate: stale and rejected.
+- any 1,159-speaker or 633-Act-II-speech registry: stale and rejected.
+- the temporary 2,276 / Act II 1,180 tokenizer-derived undercount: superseded by the final source-proven U0053 overlay.
 - QUICK_CURTAIN is structural context, not spoken content.
 
 PUBLIC REPOSITORY PAYLOAD POLICY
