@@ -26,7 +26,7 @@ jobs:
           node --check app/pages_private_import.js
           (cd app && node tests/p6_static_qa.mjs)
 
-      - name: Verify bundled canonical JSON payloads
+      - name: Verify canonical JSON files from repository root
         run: |
           node <<'NODE'
           const fs = require('node:fs');
@@ -34,13 +34,14 @@ jobs:
           const version = JSON.parse(fs.readFileSync('app/pwa-version.json', 'utf8'));
           let failed = false;
           for (const entry of version.canonicalDataFiles) {
-            const path = `app/${entry.path}`;
+            const path = entry.path;
             if (!fs.existsSync(path)) {
-              console.error(`::error::Missing canonical JSON: ${path}`);
+              console.error(`::error::Missing canonical JSON at repository root: ${path}`);
               failed = true;
               continue;
             }
-            const actual = crypto.createHash('sha256').update(fs.readFileSync(path)).digest('hex');
+            const bytes = fs.readFileSync(path);
+            const actual = crypto.createHash('sha256').update(bytes).digest('hex');
             if (actual !== entry.sha256) {
               console.error(`::error::SHA-256 mismatch for ${path}: expected ${entry.sha256}, got ${actual}`);
               failed = true;
@@ -86,9 +87,11 @@ jobs:
             test -f "app/$file"
             cp "app/$file" "public/$file"
           done
+
+          # Canonical JSON files are intentionally supplied at repository root.
           for file in "${canonical[@]}"; do
-            test -f "app/$file"
-            cp "app/$file" "public/$file"
+            test -f "$file"
+            cp "$file" "public/$file"
           done
 
           cp app/icons/icon-192.png public/icons/
