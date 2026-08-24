@@ -1,0 +1,43 @@
+MOUSETRAP SCRIPT TRAINER - CANONICAL INTEGRATION QA
+
+Status: PASS
+
+CANONICAL
+speech IDs: 1164
+Unit IDs: 1164 speech units / 1170 total canonical units
+Sentence IDs: 2276
+Chunk IDs: 8055
+
+CROSSWALK
+unique speech IDs: PASS
+unique speech Unit IDs: PASS
+unique Sentence IDs: PASS
+missing speech -> Unit: 0
+missing Unit -> Sentence allocation: 0
+missing Sentence -> chunk namespace: 0
+scene crossover: 0
+source ordinal gaps: 0
+
+EXTERNAL ASSETS
+translations 1164/1164: PASS
+line vocabulary 1164/1164: PASS
+line vocabulary items: 1186
+dictionary 578/578 referenced: PASS
+line grammar 1164/1164: PASS
+grammar entries: 692
+grammar span records 692 / FAIL 0: PASS
+
+STALE DATA POLICY
+old Act II 633-speech embedded UI data: EXCLUDED
+stale 2277 / Act II 1181 aggregate: EXCLUDED
+QUICK_CURTAIN as speech: EXCLUDED
+legacy UI prototypes as canonical data authority: EXCLUDED
+
+FINAL GATES
+broken canonical reference: 0
+orphan registered speech asset: 0
+missing registered speech asset ID: 0
+canonical scene/order mismatch: 0
+unresolved canonical QA: 0
+
+FINAL RESULT: STAGES 2-4 CANONICAL / INTEGRATION METADATA PASS
