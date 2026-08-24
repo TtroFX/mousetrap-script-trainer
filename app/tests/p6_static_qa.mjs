@@ -1,12 +1,14 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
+import {spawnSync} from 'node:child_process';
 
 const cwd=process.cwd();
 const read=p=>fs.readFileSync(path.join(cwd,p),'utf8');
 const exists=p=>fs.existsSync(path.join(cwd,p));
 const fail=m=>{throw new Error(m)};
 const pngDimensions=p=>{const b=fs.readFileSync(path.join(cwd,p));if(b.length<24||b.toString('hex',0,8)!=='89504e470d0a1a0a')fail(`invalid PNG ${p}`);return[b.readUInt32BE(16),b.readUInt32BE(20)]};
+const syntaxCheck=p=>{const r=spawnSync(process.execPath,['--check',p],{cwd,encoding:'utf8'});if(r.status!==0)fail(`${p} syntax failed: ${r.stderr||r.stdout}`)};
 
 const manifest=JSON.parse(read('manifest.webmanifest'));
 for(const key of ['name','short_name','start_url','scope','display','background_color','theme_color','icons'])if(!manifest[key])fail(`manifest missing ${key}`);
@@ -48,11 +50,12 @@ if(p5.includes('prototypeData')||p5.includes('embeddedPrototype'))fail('prototyp
 const learning=read('P2_learning.html');
 for(const token of ['translationSource','Headword','contextMeaning','Grammar / Usage','#/rehearsal?scene=','Dictionary entryが見つかりません','このspeechには登録Vocabularyがありません','このspeechには追加Grammar noteがありません'])if(!learning.includes(token))fail(`Learning UI missing ${token}`);
 const cue=read('008_cue_practice_P3.html');
-for(const token of ['mousetrap_script_data.json','Speech ID','mts.practice.cue.ratings'])if(!cue.includes(token))fail(`Cue Practice invariant missing ${token}`);
+for(const token of ['mousetrap_script_data.json','mts.practice.cue.ratings','mts.practice.pending'])if(!cue.includes(token))fail(`Cue Practice invariant missing ${token}`);
 const rehearsal=read('009_rehearsal_P4.html');
 for(const token of ['id="skipBtn"','id="replayBtn"','function skip()','function replay()','mts.practice.rehearsal.state','SpeechRecognition','speechSynthesis'])if(!rehearsal.includes(token))fail(`Rehearsal production control missing ${token}`);
 
-const assembler=read('scripts/assemble-production.mjs');new vm.SourceTextModule(assembler,{identifier:'assemble-production.mjs'});
+syntaxCheck('scripts/assemble-production.mjs');
+const assembler=read('scripts/assemble-production.mjs');
 for(const token of ['--verify-only','MTS_PRODUCTION_DATA_DIR','SHA-256 mismatch','1186','692','578','production-bundle.json'])if(!assembler.includes(token))fail(`production assembler missing ${token}`);
 const pkg=JSON.parse(read('package.json'));
 if(pkg.scripts?.['verify:production']!=='node scripts/assemble-production.mjs --verify-only')fail('verify:production script missing');
