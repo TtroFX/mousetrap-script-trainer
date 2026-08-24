@@ -157,6 +157,7 @@ PASS - broadcast voice is retained but not role-selectable.
 PASS - no duplicate canonical Speaker ID.
 PASS - no UI alias creates a second progress identity.
 PASS - no hidden-identity spoiler is required for application functionality.
+PASS - materials/010_FINAL_MATERIAL_QA.txt reports unresolved material QA = 0.
 
 FINAL STATUS: COMPLETE
-MATERIAL SEQUENCE 000-010: CONTENT COMPLETE SUBJECT TO FINAL CROSS-MATERIAL QA
+MATERIAL SEQUENCE 000-010: COMPLETE / FINAL QA PASS
