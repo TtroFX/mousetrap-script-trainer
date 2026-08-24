@@ -2,6 +2,8 @@ name: Pre-P6 HTTP E2E
 on:
   push:
     branches: ["feature/p5-recovery-pre-p6-e2e"]
+  pull_request:
+    branches: ["main"]
   workflow_dispatch:
 jobs:
   structural-http-e2e:
