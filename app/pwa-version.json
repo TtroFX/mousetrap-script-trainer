@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "buildId": "p6-2026-08-24-r4",
+  "dataVersion": "p5-canonical-freeze-2026-08-24-r1",
+  "canonicalDataFiles": [
+    {"path":"mousetrap_script_data.json","sha256":"1835ca9ef6d4df5723e0c1666897aba8624f5a606917c2a36ca280b963c93213","role":"canonical-script"},
+    {"path":"mousetrap_line_translations.json","sha256":"3b6daf0d3b9103f2a5369e0d4311fad576078b496e57787c3353a10092dd758d","role":"translations"},
+    {"path":"mousetrap_line_vocabulary.json","sha256":"91918d29d9196136e56c24323624e6687967ebb4491973ff3cc4a9474dc67bfd","role":"vocabulary"},
+    {"path":"mousetrap_line_grammar.json","sha256":"9033ce0b8a4e8cd77cb0eb5c4766721e7948894495009a77eea8c37d0114ac88","role":"grammar"},
+    {"path":"mousetrap_word_dictionary.json","sha256":"271fc8968ec4fc5e8877b64e4a8221201fcd036ec437000957e1be932e4fd629","role":"dictionary"}
+  ]
+}

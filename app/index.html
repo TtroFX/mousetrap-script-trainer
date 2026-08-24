@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#F7F5F0">
+<meta name="color-scheme" content="light">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>Script to Stage — The Mousetrap Trainer</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="p5.css">
+<link rel="stylesheet" href="p6_pwa.css">
+</head>
+<body>
+<div id="app" aria-live="polite"></div>
+<div class="overlay" id="learningOverlay" hidden><iframe id="learningFrame" src="P2_learning.html" title="Line / Word Detail"></iframe></div>
+<div class="overlay dark" id="cueOverlay" hidden><iframe id="cueFrame" src="008_cue_practice_P3.html" title="Cue Practice"></iframe></div>
+<div class="overlay dark" id="rehearsalOverlay" hidden><iframe id="rehearsalFrame" src="009_rehearsal_P4.html" title="Rehearsal"></iframe></div>
+<div class="data-gate" id="dataGate">
+  <div class="card gate-card">
+    <div class="eyebrow">Production Data</div>
+    <h2>Script to Stage</h2>
+    <p>同一originにbundleされたcanonical data、またはこの端末に取り込んだ検証済みprivate dataを使って起動します。private JSONはGitHub Pagesへ送信・公開されません。</p>
+    <div class="gate-status" id="gateStatus">Loading…</div>
+    <div class="toolbar">
+      <button class="primary-btn" id="retryBtn">Retry</button>
+      <button class="ghost-btn" id="pagesDataBtn">Private dataを読み込む</button>
+    </div>
+    <input type="file" id="pagesDataFiles" accept="application/json,.json" multiple hidden>
+    <p class="muted">初回のみ5つのcanonical JSONを選択できます。SHA-256と全件構造検証に合格したbytesだけをこの端末のversioned Cache Storageへ保存します。学習progress・選択Role・Reader位置・Practice状態は別領域に保持され、PWA更新では削除されません。</p>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+<div class="pwa-status" id="pwaStatus" role="status" aria-live="polite" hidden></div>
+<script src="p6_private_data.js"></script>
+<script src="pages_private_import.js"></script>
+<script src="p5_app.js"></script>
+<script src="p6_pwa.js"></script>
+</body>
+</html>
