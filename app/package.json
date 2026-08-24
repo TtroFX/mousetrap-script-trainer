@@ -3,6 +3,8 @@
   "private": true,
   "scripts": {
     "test:static": "node tests/p6_static_qa.mjs",
+    "verify:production": "node scripts/assemble-production.mjs --verify-only",
+    "assemble:production": "node scripts/assemble-production.mjs",
     "test:e2e": "playwright test tests/p5.e2e.spec.js",
     "test:p6:e2e": "playwright test",
     "test:p6": "npm run test:static && npm run test:p6:e2e"

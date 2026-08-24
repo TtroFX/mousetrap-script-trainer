@@ -7,6 +7,7 @@ on:
     paths:
       - 'app/**'
       - '.github/workflows/p6-pwa-qa.yml'
+      - '.github/workflows/pages.yml'
 
 jobs:
   p6-qa:
@@ -23,6 +24,8 @@ jobs:
         run: npm install
       - name: Static P6 validation
         run: npm run test:static
+      - name: Pages private-data bootstrap syntax
+        run: node --check pages_private_import.js
       - name: Generate public-safe structural canonical fixture
         run: node tests/generate_fixture.mjs
       - name: Bind fixture hashes to the P6 data contract

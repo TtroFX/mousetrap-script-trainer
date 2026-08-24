@@ -35,12 +35,12 @@ test('Learning vocabulary preserves data-lemma compatibility selector',async({pa
   expect(lemma).toBeTruthy();
 });
 
-test('fail-closed marker remains explicit when a required dataset is unavailable',async({browser})=>{
+test('fail-closed state remains explicit when a required dataset is unavailable',async({browser})=>{
   const context=await browser.newContext();
   const page=await context.newPage();
   await page.route('**/mousetrap_line_translations.json',route=>route.fulfill({status:404,body:'missing'}));
   await page.goto(BASE);
   await expect(page.locator('#dataGate')).toBeVisible();
-  await expect(page.locator('#gateStatus')).toContainText('FAIL-CLOSED');
+  await expect(page.locator('#gateStatus')).toContainText('PRODUCTION DATA UNAVAILABLE');
   await context.close();
 });

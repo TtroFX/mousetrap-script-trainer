@@ -132,7 +132,7 @@ async function expectFailClosed(browser,pattern,handler){
   await p.route(pattern,handler);
   await p.goto(BASE);
   await expect(p.locator('#dataGate')).toBeVisible();
-  await expect(p.locator('#gateStatus')).toContainText('FAIL-CLOSED');
+  await expect(p.locator('#gateStatus')).toContainText('PRODUCTION DATA UNAVAILABLE');
   await context.close();
 }
 

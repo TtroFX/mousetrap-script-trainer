@@ -1,24 +1,189 @@
-(()=>{'use strict';
-const CACHE='mts-private-production-v1';
-const FILES=['mousetrap_script_data.json','mousetrap_line_translations.json','mousetrap_line_vocabulary.json','mousetrap_line_grammar.json','mousetrap_word_dictionary.json'];
-const EXPECTED_SCENES=[['act1-scene1','act1-scene1-speech-',190],['act1-scene2','act1-scene2-speech-',336],['act2','act2-speech-',638]];
-const EXPECTED_IDS=EXPECTED_SCENES.flatMap(([sid,prefix,n])=>Array.from({length:n},(_,i)=>prefix+String(i+1).padStart(4,'0'))),IDSET=new Set(EXPECTED_IDS);
+/* P6 production data resolver.
+ * The public source tree intentionally contains no copyrighted/private payload bytes.
+ * A production distribution MUST place the five canonical JSON files beside index.html.
+ * This runtime verifies those bundled bytes against pwa-version.json and persists only
+ * verified responses in the versioned PWA data cache. There is no fixture/manual-import
+ * fallback on the production path.
+ */
+(()=>{
+'use strict';
+
+const VERSION_PATH='pwa-version.json';
+const nativeFetch=globalThis.fetch.bind(globalThis);
+const EXPECTED_SCENES=Object.freeze([
+  {sceneId:'act1-scene1',prefix:'act1-scene1-speech-',count:190},
+  {sceneId:'act1-scene2',prefix:'act1-scene2-speech-',count:336},
+  {sceneId:'act2',prefix:'act2-speech-',count:638}
+]);
+const FILES=Object.freeze([
+  'mousetrap_script_data.json',
+  'mousetrap_line_translations.json',
+  'mousetrap_line_vocabulary.json',
+  'mousetrap_line_grammar.json',
+  'mousetrap_word_dictionary.json'
+]);
+const FILE_SET=new Set(FILES);
+const EXPECTED_IDS=Object.freeze(EXPECTED_SCENES.flatMap(s=>Array.from({length:s.count},(_,i)=>s.prefix+String(i+1).padStart(4,'0'))));
+const EXPECTED_ID_SET=new Set(EXPECTED_IDS);
 let contractPromise=null;
-const norm=s=>String(s||'').toLowerCase().trim();
-async function digest(bytes){const d=await crypto.subtle.digest('SHA-256',bytes);return [...new Uint8Array(d)].map(x=>x.toString(16).padStart(2,'0')).join('')}
-async function contract(){if(contractPromise)return contractPromise;contractPromise=(async()=>{const r=await fetch('pwa-version.json',{cache:'no-store'});if(!r.ok)throw Error(`pwa-version.json: HTTP ${r.status}`);const j=await r.json();if(j?.schemaVersion!==1||!Array.isArray(j.canonicalDataFiles))throw Error('Invalid production data contract');const byName=new Map(j.canonicalDataFiles.map(x=>[String(x.path).split('/').pop(),String(x.sha256||'').toLowerCase()]));for(const n of FILES)if(!/^[0-9a-f]{64}$/.test(byName.get(n)||''))throw Error(`Missing production hash: ${n}`);return{raw:j,byName}})().catch(e=>{contractPromise=null;throw e});return contractPromise}
-function exactKeys(v,name){if(!v||typeof v!=='object'||Array.isArray(v))throw Error(`${name}: object required`);const keys=Object.keys(v);const missing=EXPECTED_IDS.filter(id=>!(id in v)),extra=keys.filter(id=>!IDSET.has(id));if(keys.length!==1164||missing.length||extra.length)throw Error(`${name}: speech IDs mismatch`)}
-function validateScript(d){if(!d||typeof d!=='object'||Array.isArray(d))throw Error('script: object required');let total=0;for(const [sid,prefix,count] of EXPECTED_SCENES){const a=d[sid]?.speeches;if(!Array.isArray(a)||a.length!==count)throw Error(`script.${sid}: ${a?.length||0}/${count}`);a.forEach((s,i)=>{const expected=prefix+String(i+1).padStart(4,'0');if(s?.id!==expected||!String(s.speaker||'').trim()||!String(s.text||'').trim())throw Error(`script invalid: ${expected}`)});total+=a.length}if(total!==1164)throw Error('script total mismatch');return{speeches:1164,scenes:[190,336,638]}}
-function validateTranslations(d){exactKeys(d,'translations');for(const id of EXPECTED_IDS){const x=d[id];if(!x||typeof x!=='object'||!String(x.translation||'').trim()||!String(x.translationSource||'').trim())throw Error(`translation invalid: ${id}`)}return 1164}
-function validateVocabulary(d){exactKeys(d,'vocabulary');let count=0;for(const id of EXPECTED_IDS){const a=d[id];if(!Array.isArray(a))throw Error(`vocabulary invalid: ${id}`);for(const x of a){if(!x||typeof x!=='object'||!String(x.surface||'').trim()||!String(x.lemma||'').trim()||!String(x.meaning||'').trim())throw Error(`vocabulary item invalid: ${id}`);count++}}if(count!==1186)throw Error(`vocabulary items ${count}/1186`);return count}
-function validateGrammar(d){exactKeys(d,'grammar');let count=0;for(const id of EXPECTED_IDS){const a=d[id];if(!Array.isArray(a))throw Error(`grammar invalid: ${id}`);for(const x of a){if(!x||typeof x!=='object'||!String(x.pattern||'').trim()||!String(x.description||'').trim())throw Error(`grammar item invalid: ${id}`);count++}}if(count!==692)throw Error(`grammar items ${count}/692`);return count}
-function validateDictionary(d,vocab){if(!d||typeof d!=='object'||Array.isArray(d))throw Error('dictionary: object required');const keys=Object.keys(d);if(keys.length!==578)throw Error(`dictionary entries ${keys.length}/578`);const lemmas=new Set(keys.map(norm));for(const id of EXPECTED_IDS)for(const v of vocab[id])if(!lemmas.has(norm(v.lemma)))throw Error(`dictionary missing lemma: ${v.lemma}`);for(const k of keys){const x=d[k];if(!x||typeof x!=='object'||!String(x.coreMeaning||'').trim())throw Error(`dictionary invalid: ${k}`)}return 578}
-function validateAll(data){const script=validateScript(data['mousetrap_script_data.json']),translations=validateTranslations(data['mousetrap_line_translations.json']),vocabulary=validateVocabulary(data['mousetrap_line_vocabulary.json']),grammar=validateGrammar(data['mousetrap_line_grammar.json']),dictionary=validateDictionary(data['mousetrap_word_dictionary.json'],data['mousetrap_line_vocabulary.json']);return{script,translations,vocabulary,grammar,dictionary}}
-function cacheRequest(name){return new Request(new URL(name,location.href).href,{method:'GET'})}
-async function getVerifiedResponse(name){if(!FILES.includes(name)||!('caches'in window))return null;const c=await contract(),cache=await caches.open(CACHE),r=await cache.match(cacheRequest(name));if(!r||!r.ok)return null;const bytes=await r.clone().arrayBuffer(),actual=await digest(bytes);if(actual!==c.byName.get(name)){await cache.delete(cacheRequest(name));return null}return new Response(bytes,{status:200,headers:{'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-mts-private-data':'verified'}})}
-async function status(){const c=await contract(),out={complete:true,files:{}};for(const name of FILES){let ok=false,sha256='';try{const cache=await caches.open(CACHE),r=await cache.match(cacheRequest(name));if(r&&r.ok){const b=await r.clone().arrayBuffer();sha256=await digest(b);ok=sha256===c.byName.get(name)}}catch{}out.files[name]={ok,sha256,expected:c.byName.get(name)};if(!ok)out.complete=false}return out}
-async function refreshConsumers(){if('serviceWorker'in navigator)try{await navigator.serviceWorker.ready}catch{}for(const id of ['learningFrame','cueFrame','rehearsalFrame']){const f=document.getElementById(id);if(f){const src=f.getAttribute('src');if(src)f.setAttribute('src',src)}}}
-async function install(fileList){if(!crypto?.subtle||!('caches'in window))throw Error('Private Data Vault is unsupported in this browser');const c=await contract(),map=new Map(Array.from(fileList||[]).map(f=>[f.name,f]));const missing=FILES.filter(n=>!map.has(n));if(missing.length)throw Error(`Required files missing: ${missing.join(', ')}`);const prepared={},parsed={};for(const name of FILES){const f=map.get(name),bytes=await f.arrayBuffer(),actual=await digest(bytes),expected=c.byName.get(name);if(actual!==expected)throw Error(`${name}: SHA-256 mismatch`);let data;try{data=JSON.parse(new TextDecoder().decode(bytes))}catch{throw Error(`${name}: invalid JSON`)}prepared[name]=bytes;parsed[name]=data}const qa=validateAll(parsed),cache=await caches.open(CACHE);for(const name of FILES)await cache.delete(cacheRequest(name));for(const name of FILES)await cache.put(cacheRequest(name),new Response(prepared[name],{status:200,headers:{'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-mts-private-data':'verified'}}));await refreshConsumers();return{status:'PASS',cache:CACHE,qa,files:Object.fromEntries(FILES.map(n=>[n,c.byName.get(n)]))}}
-async function clear(){if('caches'in window)await caches.delete(CACHE)}
-window.MTS_PRIVATE_DATA=Object.freeze({version:1,cacheName:CACHE,files:[...FILES],contract,status,install,clear,getVerifiedResponse,validateAll,refreshConsumers});
+let preparePromise=null;
+let lastQA=null;
+
+function object(v,name){
+  if(!v||typeof v!=='object'||Array.isArray(v))throw Error(`${name}: object required`);
+}
+function canonicalName(path){
+  return String(path||'').split(/[\\/]/).pop().split(/[?#]/)[0];
+}
+async function sha256Hex(response){
+  if(!globalThis.crypto?.subtle)throw Error('SHA256_UNAVAILABLE');
+  const bytes=await response.clone().arrayBuffer();
+  const digest=await crypto.subtle.digest('SHA-256',bytes);
+  return [...new Uint8Array(digest)].map(b=>b.toString(16).padStart(2,'0')).join('');
+}
+function exactSpeechKeys(data,name){
+  object(data,name);
+  const keys=Object.keys(data);
+  if(keys.length!==EXPECTED_IDS.length)throw Error(`${name}: ${keys.length}/${EXPECTED_IDS.length} speech keys`);
+  const missing=EXPECTED_IDS.filter(id=>!Object.prototype.hasOwnProperty.call(data,id));
+  const extra=keys.filter(id=>!EXPECTED_ID_SET.has(id));
+  if(missing.length||extra.length)throw Error(`${name}: ID mismatch missing=${missing.length} extra=${extra.length}`);
+}
+function validateScript(data){
+  object(data,'script');
+  let total=0;
+  for(const scene of EXPECTED_SCENES){
+    const speeches=data[scene.sceneId]?.speeches;
+    if(!Array.isArray(speeches)||speeches.length!==scene.count)throw Error(`script.${scene.sceneId}: ${speeches?.length||0}/${scene.count}`);
+    speeches.forEach((speech,i)=>{
+      const expected=scene.prefix+String(i+1).padStart(4,'0');
+      if(speech?.id!==expected)throw Error(`script.${scene.sceneId}: id/order mismatch #${i+1}`);
+      if(!String(speech?.speaker||'').trim()||!String(speech?.text||'').trim())throw Error(`script: empty speaker/text ${expected}`);
+    });
+    total+=speeches.length;
+  }
+  if(total!==1164)throw Error(`script total: ${total}/1164`);
+  return {speeches:total,scenes:[190,336,638]};
+}
+function validateTranslations(data){
+  exactSpeechKeys(data,'translations');
+  for(const id of EXPECTED_IDS){
+    const entry=data[id];object(entry,`translations.${id}`);
+    if(!String(entry.translation||'').trim()||!String(entry.translationSource||'').trim())throw Error(`translations.${id}: invalid`);
+  }
+  return 1164;
+}
+function validateVocabulary(data){
+  exactSpeechKeys(data,'vocabulary');let count=0;
+  for(const id of EXPECTED_IDS){
+    const entries=data[id];if(!Array.isArray(entries))throw Error(`vocabulary.${id}: array required`);
+    for(const entry of entries){object(entry,`vocabulary.${id}`);for(const key of ['surface','lemma','meaning'])if(!String(entry[key]||'').trim())throw Error(`vocabulary.${id}.${key}: invalid`);count++}
+  }
+  if(count!==1186)throw Error(`vocabulary items: ${count}/1186`);
+  return count;
+}
+function validateGrammar(data){
+  exactSpeechKeys(data,'grammar');let count=0;
+  for(const id of EXPECTED_IDS){
+    const entries=data[id];if(!Array.isArray(entries))throw Error(`grammar.${id}: array required`);
+    for(const entry of entries){object(entry,`grammar.${id}`);if(!String(entry.pattern||'').trim()||!String(entry.description||'').trim())throw Error(`grammar.${id}: invalid entry`);count++}
+  }
+  if(count!==692)throw Error(`grammar items: ${count}/692`);
+  return count;
+}
+function validateDictionary(data,vocabulary){
+  object(data,'dictionary');const keys=Object.keys(data);
+  if(keys.length!==578)throw Error(`dictionary entries: ${keys.length}/578`);
+  const normalized=new Set(keys.map(k=>k.toLowerCase().trim()));
+  let missing=0;
+  for(const id of EXPECTED_IDS)for(const entry of vocabulary[id])if(!normalized.has(String(entry.lemma||'').toLowerCase().trim()))missing++;
+  if(missing)throw Error(`dictionary missing vocabulary refs: ${missing}`);
+  return keys.length;
+}
+function validateAll(payloads){
+  const script=validateScript(payloads['mousetrap_script_data.json']);
+  const translations=validateTranslations(payloads['mousetrap_line_translations.json']);
+  const vocabulary=validateVocabulary(payloads['mousetrap_line_vocabulary.json']);
+  const grammar=validateGrammar(payloads['mousetrap_line_grammar.json']);
+  const dictionary=validateDictionary(payloads['mousetrap_word_dictionary.json'],payloads['mousetrap_line_vocabulary.json']);
+  return Object.freeze({status:'PASS',script,translations,vocabulary,grammar,dictionary});
+}
+async function loadContract(){
+  if(contractPromise)return contractPromise;
+  contractPromise=(async()=>{
+    const response=await nativeFetch(VERSION_PATH,{cache:'no-store',credentials:'same-origin'});
+    if(!response.ok)throw Error(`VERSION_METADATA_HTTP_${response.status}`);
+    const raw=await response.json();
+    if(raw?.schemaVersion!==1||!String(raw.buildId||'')||!String(raw.dataVersion||''))throw Error('VERSION_METADATA_INVALID');
+    if(!Array.isArray(raw.canonicalDataFiles)||raw.canonicalDataFiles.length!==FILES.length)throw Error('DATA_CONTRACT_INVALID');
+    const byName=new Map();
+    for(const item of raw.canonicalDataFiles){
+      const name=canonicalName(item?.path),hash=String(item?.sha256||'').toLowerCase();
+      if(!FILE_SET.has(name)||byName.has(name)||!/^[0-9a-f]{64}$/.test(hash))throw Error('DATA_CONTRACT_INVALID');
+      byName.set(name,hash);
+    }
+    if(byName.size!==FILES.length)throw Error('DATA_CONTRACT_INCOMPLETE');
+    return Object.freeze({raw,byName,cacheName:`mts-pwa-data-${raw.dataVersion}`});
+  })().catch(error=>{contractPromise=null;throw error});
+  return contractPromise;
+}
+async function openVersionCache(contract){
+  if(!('caches'in globalThis))return null;
+  try{return await caches.open(contract.cacheName)}catch{return null}
+}
+async function verifiedCached(cache,name,expected){
+  if(!cache)return null;
+  for(const key of [`./${name}`,new URL(name,location.href).href]){
+    const response=await cache.match(key);
+    if(!response?.ok)continue;
+    try{
+      if(await sha256Hex(response)===expected)return response;
+      await cache.delete(key);
+    }catch{await cache.delete(key).catch(()=>{})}
+  }
+  return null;
+}
+async function getVerifiedResponse(path){
+  const name=canonicalName(path),contract=await loadContract();
+  if(!FILE_SET.has(name)||!contract.byName.has(name))throw Error(`DATA_NOT_IN_CONTRACT:${name}`);
+  const expected=contract.byName.get(name),cache=await openVersionCache(contract);
+  const cached=await verifiedCached(cache,name,expected);
+  if(cached)return cached.clone();
+  let response;
+  try{response=await nativeFetch(`./${name}`,{cache:'no-store',credentials:'same-origin'})}
+  catch{throw Error(`PRODUCTION_DATA_UNAVAILABLE:${name}`)}
+  if(!response.ok)throw Error(`PRODUCTION_DATA_HTTP_${response.status}:${name}`);
+  const actual=await sha256Hex(response);
+  if(actual!==expected)throw Error(`DATA_HASH_MISMATCH:${name}`);
+  if(cache)try{await cache.put(`./${name}`,response.clone())}catch{}
+  return response.clone();
+}
+async function prepare(){
+  if(preparePromise)return preparePromise;
+  preparePromise=(async()=>{
+    const payloads={};
+    await Promise.all(FILES.map(async name=>{payloads[name]=await (await getVerifiedResponse(name)).json()}));
+    lastQA=validateAll(payloads);
+    return lastQA;
+  })().catch(error=>{preparePromise=null;lastQA=null;throw error});
+  return preparePromise;
+}
+function getStatus(){return lastQA}
+function guardedFetch(input,init){
+  let name='';
+  try{name=canonicalName(typeof input==='string'?input:input?.url||'')}catch{}
+  if(FILE_SET.has(name))return Promise.reject(Error(`UNVERIFIED_CANONICAL_FETCH_BLOCKED:${name}`));
+  return nativeFetch(input,init);
+}
+
+window.MTS_PRIVATE_DATA=Object.freeze({
+  version:3,
+  files:FILES,
+  loadContract,
+  getVerifiedResponse,
+  prepare,
+  validateAll,
+  getStatus
+});
+globalThis.fetch=guardedFetch;
 })();
