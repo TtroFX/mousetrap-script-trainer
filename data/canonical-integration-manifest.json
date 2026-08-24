@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "COMPLETE",
+  "status": "COMPLETE / ALL BASIC MATERIALS REGISTERED",
   "purpose": "Copyright-safe canonical registry and build-time join contract for the single PWA data pipeline.",
   "sourceAuthority": {
     "file": "The Mousetrap 台本.pdf",
@@ -75,6 +75,39 @@
       "failures": 0
     }
   },
+  "finalMaterials": {
+    "contextNotes": {
+      "path": "materials/008_CONTEXT_NOTES.txt",
+      "status": "COMPLETE",
+      "coverageSpeechIds": 1164,
+      "previousRelations": 1161,
+      "nextRelations": 1161,
+      "derivation": "Canonical in-scene adjacency + validated 004/007 semantic layers; exact addressee only when source-supported."
+    },
+    "memoryUnits": {
+      "path": "materials/009_MEMORY_UNITS.txt",
+      "status": "COMPLETE",
+      "lineUnits": 1164,
+      "practiceSelectableLines": 1161,
+      "sentenceUnits": 2277,
+      "chunkUnits": 8055,
+      "realPreviousSpeechCuesForSelectableTargets": 1159,
+      "sceneStartCuesForSelectableTargets": 2,
+      "ratings": ["GOOD", "HARD", "AGAIN"]
+    },
+    "characterIndex": {
+      "path": "materials/010_CHARACTER_INDEX.txt",
+      "status": "COMPLETE",
+      "speakerIds": 9,
+      "practiceSelectableCharacters": 8,
+      "broadcastSpeakers": 1
+    },
+    "finalQa": {
+      "path": "materials/010_FINAL_MATERIAL_QA.txt",
+      "status": "PASS",
+      "unresolved": 0
+    }
+  },
   "joinRules": {
     "speechToUnit": "Within each scene, speech ordinal equals source_label_ordinal and Unit sequence is ordinal + 1 because Unit 0001 is PREAMBLE.",
     "unitRegistry": "Read the final 002 scene registry and apply any canonical overlay named by this manifest before deriving Sentence IDs.",
@@ -82,7 +115,10 @@
     "sentenceToChunk": "Read the 003 production shards and apply any canonical chunk overlay named by this manifest; Chunk IDs use CHK-{SENTENCE_ID}-{chunk2}.",
     "translation": "Join by speechId.",
     "lineVocabulary": "Join by speechId; then join normalized lemma to wordDictionary.",
-    "lineGrammar": "Join by speechId. Grammar is supplemental to the structural chunk metadata in 003."
+    "lineGrammar": "Join by speechId. Grammar is supplemental to the structural chunk metadata in 003.",
+    "context": "Derive previous/next/cue references from canonical scene order and use materials/008_CONTEXT_NOTES.txt for interpretation policy.",
+    "memory": "Derive MEM-LINE/MEM-SEN/MEM-CHK from frozen speech/Sentence/Chunk IDs using materials/009_MEMORY_UNITS.txt.",
+    "characters": "Resolve canonical SPK-* display and role-selection metadata through materials/010_CHARACTER_INDEX.txt."
   },
   "legacyExclusions": [
     "008_cue_practice.html embedded Act II Script Data with 633 speeches",
@@ -96,7 +132,8 @@
     "duplicateCanonicalId": 0,
     "orphanRegisteredSpeechAsset": 0,
     "sceneOrderMismatch": 0,
-    "unresolvedCanonicalQa": 0
+    "unresolvedCanonicalQa": 0,
+    "unresolvedFinalMaterialQa": 0
   },
   "payloadPolicy": "This manifest contains IDs, counts, hashes, paths and join rules only. It does not contain the full copyrighted play text or a full translated-script payload."
 }
