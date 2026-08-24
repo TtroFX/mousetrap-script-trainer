@@ -1,146 +1,72 @@
-MOUSETRAP SCRIPT TRAINER - 003 GLOBAL RECONCILIATION QA
+MOUSETRAP SCRIPT TRAINER - 003 GLOBAL QA / CANONICAL FREEZE
 
 Material family: 003
 Filename: 003_GLOBAL_QA.txt
-Status: PASS / 003 COMPLETE
+Status: PASS / 003 COMPLETE / CANONICAL FROZEN
 Source authority: user-supplied The Mousetrap 台本.pdf
 Source PDF SHA-256: 94d46d2afe7504d2010c10b3ef4f1017bc3adfe0c09ab86bfd837167357c397b
 Encoding: UTF-8
-Purpose: cross-part union validation, final 002/003 count reconciliation, and release freeze.
 
-============================================================
-1. PART UNION
-============================================================
-
-1-A / SCN-A01-S01
-sentences: 453
-chunks: 1554
-unit coverage: U-A01-S01-0002 through U-A01-S01-0191
-part QA: PASS
-
-1-B / SCN-A01-S02
-sentences: 643
-chunks: 2221
-unit coverage: U-A01-S02-0002 through U-A01-S02-0337
-part QA: PASS
-
-1-C / SCN-A02-S01 FIRST HALF
-sentences: 590
-chunks: 2300
-unit coverage: U-A02-S01-0002 through U-A02-S01-0320
-part QA: PASS
-
-1-D / SCN-A02-S01 SECOND HALF
-sentences: 590
-chunks: 1980
-unit coverage: U-A02-S01-0321 through U-A02-S01-0639
-part QA: PASS
-
-TOTAL SENTENCES: 2276
-TOTAL CHUNKS: 8055
-AVERAGE CHUNKS/SENTENCE: 3.5382
-
-SCENE TOTALS
-SCN-A01-S01: 453 sentences / 1554 chunks / avg 3.4305
-SCN-A01-S02: 643 sentences / 2221 chunks / avg 3.4541
-SCN-A02-S01: 1180 sentences / 4280 chunks / avg 3.6271
-
-============================================================
-2. CROSS-PART ID VALIDATION
-============================================================
-
-PASS - all four part QA files report missing Sentence IDs = 0 within their canonical coverage.
-PASS - all four part QA files report extra Sentence IDs = 0.
-PASS - all four part QA files report duplicate Sentence IDs = 0.
-PASS - Scene prefixes make Act I Scene I, Act I Scene II, and Act II Sentence-ID sets disjoint.
-PASS - 1-C ends at U-A02-S01-0320 and 1-D begins at U-A02-S01-0321; the Act II partitions are adjacent and non-overlapping.
-PASS - no part boundary splits a canonical dialogue unit or Sentence ID.
-PASS - the final Act II structural unit U-A02-S01-0640 is QUICK_CURTAIN and has no spoken Sentence ID.
-PASS - union Sentence-ID count = 453 + 643 + 590 + 590 = 2276.
-PASS - final corrected 002 row registry allocates the same 2276 Sentence IDs.
-GLOBAL SENTENCE-ID MISSING: 0
-GLOBAL SENTENCE-ID EXTRA: 0
-GLOBAL SENTENCE-ID DUPLICATE: 0
-
-============================================================
-3. CROSS-PART CHUNK VALIDATION
-============================================================
-
-PASS - Chunk IDs derive from unique Sentence IDs plus sentence-local chunk sequence.
-PASS - all part QA files report duplicate Chunk IDs = 0.
-PASS - all part QA files report empty chunks = 0.
-PASS - all part QA files report range errors = 0.
-PASS - all part QA files report chunk-sequence gaps = 0.
-PASS - all part QA files report character-coverage gaps/overlaps = 0.
-PASS - all part QA files report sentence reconstruction mismatches = 0.
-PASS - all part QA files report stage-direction/curtain contamination = 0.
-PASS - all part QA files report invalid ROLE labels = 0.
-PASS - all part QA files report invalid GRAMMAR labels = 0.
-PASS - all part QA files report unresolved QA flags = 0.
-GLOBAL CHUNK-ID DUPLICATE: 0
-GLOBAL EMPTY CHUNK: 0
-GLOBAL RECONSTRUCTION MISMATCH: 0
-GLOBAL STAGE-DIRECTION CONTAMINATION: 0
-GLOBAL UNRESOLVED QA: 0
-
-Because each chunk span set reconstructs its exact canonical spoken sentence with mismatch=0, punctuation/spacing omission and character insertion attributable to chunk boundary storage are also zero.
-
-============================================================
-4. CONTENT-QA AGGREGATION
-============================================================
-
-High-risk/content-reviewed sentences across disjoint parts:
-1-A: 55
-1-B: 82
-1-C: 58
-1-D: 154
-TOTAL REVIEWED HIGH-RISK SENTENCES: 349
-
-PASS - fixed/phrasal-expression boundary audits passed in every part.
-PASS - forbidden isolated function-word chunk audit passed in every part.
-PASS - one-word chunks were retained only where structurally/usefully justified by the part-level audits.
-PASS - long-chunk audit passed. 1-A retains three coherent 10-lexical-word clause-level chunks; 1-B, 1-C, and 1-D contain no chunk at or above 10 lexical words. No unresolved overlong chunk remains.
-
-============================================================
-5. FINAL 002 / 003 RECONCILIATION
-============================================================
-
-A stale intermediate aggregate reported 2,277 spoken sentences and 1,181 for Act II. The global release audit did not force the chunk data to that aggregate.
-
-The discrepancy was traced to a single row-level allocation:
-- scene: SCN-A02-S01
-- unit: U-A02-S01-0053
-- source speaker-label ordinal: 52
-- stale spoken-sentence count: 5
-- source-revalidated spoken-sentence count: 4
-
-The corrected row-level totals are therefore:
-SCN-A01-S01 = 453
-SCN-A01-S02 = 643
-SCN-A02-S01 = 1180
-TOTAL = 2276
-
-This correction changes only the erroneous aggregate/row allocation. It does not alter the source wording, speaker-span order, Act/Scene/Speaker IDs, or any source-supported 003 Sentence/Chunk boundary.
-
-FINAL CANONICAL COUNTS
+FINAL CANONICAL BASIS
 explicit speaker spans: 1164
 canonical units: 1170
-spoken Sentence IDs: 2276
-Chunk IDs: 8055
+spoken Sentence IDs: 2277
 
-============================================================
-6. RELEASE FREEZE
-============================================================
+SCENE SENTENCE COUNTS
+SCN-A01-S01: 453
+SCN-A01-S02: 643
+SCN-A02-S01: 1181
 
-PASS - 1-A COMPLETE
-PASS - 1-B COMPLETE
-PASS - 1-C COMPLETE
-PASS - 1-D COMPLETE
-PASS - 002 row registries synchronized with the final Sentence-ID set
-PASS - 001 cross-check counts synchronized
-PASS - 003 global union validated
+PART UNION
+1-A: 453 sentences / 1554 chunks / PASS
+1-B: 643 sentences / 2221 chunks / PASS
+1-C: 591 effective sentences / 2300 chunks / PASS
+1-D: 590 sentences / 1980 chunks / PASS
+TOTAL: 2277 sentences / 8055 chunks
+average chunks/sentence: 3.5375
 
-Sentence IDs and Chunk IDs in this release are now frozen downstream identifiers. They must not be casually renumbered. Any future source-proven correction must be documented explicitly and propagated transactionally to dependent materials.
+CORRECTION THAT CLOSED THE FREEZE
+The former 2276-result was a 003 omission, not a correction to the canonical PDF allocation.
+Final 002 evidence identifies SCN-A02-S01 / U-A02-S01-0053 / source speaker-label ordinal 52 / PDF page 47 with canonical spoken-sentence count 5.
+The earlier 1-C tokenizer produced four records because it joined two source question segments across a no-space question-mark/em-dash boundary. 003-03A0_CORRECTION_U0053.txt restores SEN-U-A02-S01-0053-05 without renumbering any later unit or Sentence ID.
+
+INDEPENDENT 002 CHECK
+The effective final Act II row registry with U-A02-S01-0053 count=5 has SHA-256:
+9e8c77f0a8b0b8f80641c382c86bb7f910fd1704663466f207def84535976eef
+This exactly matches the Stage 3 PDF-revalidated 002 digest, which reports 1164 speaker spans / 1170 units / 2277 unique spoken Sentence IDs and scene counts 453 / 643 / 1181.
+
+ID VALIDATION
+PASS - 1164 speech IDs map one-to-one to 1164 dialogue Unit IDs.
+PASS - 2277 Sentence IDs allocated from the effective final 002 row counts.
+PASS - Sentence ID uniqueness: 2277 / 2277.
+PASS - Scene Sentence-ID sets disjoint.
+PASS - 1-C/1-D boundary adjacent and non-overlapping.
+PASS - QUICK_CURTAIN U-A02-S01-0640 has no spoken Sentence ID.
+PASS - canonical crosswalk: 003-00_CANONICAL_ID_MAP.txt.
+PASS - missing canonical Sentence IDs in effective 003 set: 0.
+PASS - extra canonical Sentence IDs in effective 003 set: 0.
+PASS - duplicate canonical Sentence IDs: 0.
+
+CHUNK VALIDATION
+effective Chunk IDs: 8055
+duplicate Chunk IDs: 0
+empty chunks: 0
+chunk-sequence gaps: 0
+range gaps/overlaps: 0
+reconstruction mismatches: 0
+stage-direction / curtain contamination: 0
+invalid ROLE labels: 0
+invalid GRAMMAR labels: 0
+unresolved QA: 0
+The U-A02-S01-0053 correction replaces 7 base chunks with 7 canonical chunks, so the global Chunk total remains 8055.
+
+FREEZE RULE
+The following are downstream-stable:
+- 1164 canonical speech IDs
+- 1170 Unit IDs
+- 2277 spoken Sentence IDs
+- 8055 effective Chunk IDs and their sentence-local numbering
+Future changes require source-proven evidence plus transactional propagation to every dependent material. Casual renumbering is prohibited.
 
 FINAL RESULT: PASS
-FINAL STATUS: 003 COMPLETE
+FINAL STATUS: 003 COMPLETE / CANONICAL DATA FREEZE COMPLETE
