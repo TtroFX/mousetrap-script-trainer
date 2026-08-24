@@ -8,25 +8,34 @@ Source PDF SHA-256: 94d46d2afe7504d2010c10b3ef4f1017bc3adfe0c09ab86bfd837167357c
 FINAL CANONICAL COUNTS
 explicit speaker spans: 1164
 canonical units: 1170
-spoken Sentence IDs: 2276
-Chunk IDs: 8055
+spoken Sentence IDs: 2277
+effective Chunk IDs: 8055
 SCN-A01-S01: 190 speeches / 453 sentences / 1554 chunks
 SCN-A01-S02: 336 speeches / 643 sentences / 2221 chunks
-SCN-A02-S01: 638 speeches / 1180 sentences / 4280 chunks
+SCN-A02-S01: 638 speeches / 1181 sentences / 4280 chunks
 
 FREEZE ARTIFACTS
 - materials/001_SCRIPT_STRUCTURE.txt
-- materials/002_SCRIPT_UNITS.txt and its three scene registries
+- materials/002_SCRIPT_UNITS.txt
+- materials/002-01_SCRIPT_UNITS_A01S01.txt
+- materials/002-02_SCRIPT_UNITS_A01S02.txt
+- materials/002-03_SCRIPT_UNITS_A02S01.txt + materials/002-03A_CORRECTION_U0053.txt
 - materials/003-00_CANONICAL_ID_MAP.txt
-- materials/003_CHUNKS.txt and all production chunk parts
+- materials/003_CHUNKS.txt and production parts
+- materials/003-03A0_CORRECTION_U0053.txt
 - materials/003_GLOBAL_QA.txt
 - data/canonical-integration-manifest.json
+
+SOURCE-PROVEN U0053 CORRECTION
+U-A02-S01-0053 / source speaker-label ordinal 52 / PDF page 47 has five spoken sentences in the final PDF-revalidated 002 allocation.
+The effective Act II registry SHA-256 is 9e8c77f0a8b0b8f80641c382c86bb7f910fd1704663466f207def84535976eef and matches the Stage 3 validated final digest.
+003-03A0_CORRECTION_U0053.txt restores the fifth Sentence ID while keeping the effective chunk total at 8055.
 
 FREEZE RULES
 1. PDF remains the sole textual authority.
 2. Speech IDs are stable join keys for validated translation, vocabulary and grammar assets.
-3. Unit/Sentence/Chunk IDs are frozen downstream structural identifiers.
-4. No ID is renumbered to satisfy a stale aggregate.
+3. Unit/Sentence/effective Chunk IDs are frozen downstream structural identifiers.
+4. Effective overlays documented by the canonical materials are part of the frozen dataset and must be applied by consumers.
 5. Any future source-proven correction must be documented and propagated transactionally across every dependent asset.
 6. UI prototypes and embedded historical Script Data are never data authorities.
 7. Public-repository integration metadata does not duplicate the full copyrighted script or a full translated-script payload.
@@ -34,12 +43,12 @@ FREEZE RULES
 VALIDATION
 PASS - 1,164 speech IDs unique.
 PASS - 1,164 speech-span Unit IDs unique.
-PASS - 2,276 Sentence IDs unique.
-PASS - scene Sentence totals = 453 / 643 / 1,180.
+PASS - 2,277 effective Sentence IDs unique.
+PASS - scene Sentence totals = 453 / 643 / 1,181.
 PASS - speech ordinal -> Unit mapping monotonic in all scenes.
 PASS - stage-direction and curtain units excluded from spoken Sentence IDs.
-PASS - 003 chunk namespace linked for every Sentence ID.
-PASS - stale 2,277 / 1,181 aggregate rejected.
+PASS - effective 003 chunk namespace linked for every Sentence ID.
+PASS - final 003 missing/extra/duplicate Sentence IDs = 0 / 0 / 0.
 PASS - final 003 unresolved QA = 0 and reconstruction mismatch = 0.
 
 FINAL RESULT: CANONICAL DATA FREEZE COMPLETE
