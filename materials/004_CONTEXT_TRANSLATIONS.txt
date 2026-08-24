@@ -1,0 +1,26 @@
+MOUSETRAP SCRIPT TRAINER - 004 CONTEXT TRANSLATIONS
+
+Material ID: 004
+Status: EXTERNAL CONTENT COMPLETE / CANONICAL REGISTERED
+Depends on: 002, 003
+Join key: speechId -> materials/003-00_CANONICAL_ID_MAP.txt
+Validated payload: mousetrap_line_translations.json
+QA: mousetrap_line_translations_QA.md = COMPLETE
+Coverage: 1164 / 1164 canonical speech IDs
+Missing/extra/duplicate/empty: 0 / 0 / 0 / 0
+Payload SHA-256: 3b6daf0d3b9103f2a5369e0d4311fad576078b496e57787c3353a10092dd758d
+
+SCENE COVERAGE
+act1-scene1: 190 / 190
+act1-scene2: 336 / 336
+act2: 638 / 638
+
+SCHEMA CONTRACT
+Each speech-keyed payload entry contains only:
+- translation
+- translationSource
+No source-script text, vocabulary, grammar, speaker or ordinal data is duplicated here.
+
+Repository policy: this control material records schema, coverage, linkage and integrity only; the full translated-script payload is not duplicated in the public repository.
+
+FINAL STATUS: REGISTERED / READY FOR PRIVATE BUILD INPUT
