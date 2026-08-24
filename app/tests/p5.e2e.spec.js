@@ -14,7 +14,7 @@ test.beforeEach(async({page})=>{
 
 test('production-path HTTP resources and canonical gate',async({page})=>{
   const qa=await page.evaluate(()=>window.MTS_P5_QA);
-  expect(qa).toEqual({status:'PASS',speeches:1164,scenes:[190,336,638],vocabulary:1186,grammar:692,dictionary:578});
+  expect(qa).toEqual({status:'PASS',speeches:1164,scenes:[190,336,638],translations:1164,vocabulary:1186,grammar:692,dictionary:578});
 });
 
 test('Home -> Script -> Line Detail -> Word Detail -> Line Detail',async({page})=>{
