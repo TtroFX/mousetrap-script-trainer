@@ -1,0 +1,69 @@
+MOUSETRAP SCRIPT TRAINER - 003-03B CHUNKS A02S01 SECOND HALF
+
+Material family: 003
+Part: 1-D
+Filename: 003-03B_CHUNKS_A02S01_SECOND_HALF.txt
+Status: COMPLETE
+Scene: SCN-A02-S01 / Act II (second half)
+Coverage: canonical dialogue units U-A02-S01-0321 through U-A02-S01-0639 inclusive
+Source speaker spans: 319
+Source PDF pages represented: 63-84
+Source authority: user-supplied The Mousetrap 台本.pdf
+Source PDF SHA-256: 94d46d2afe7504d2010c10b3ef4f1017bc3adfe0c09ab86bfd837167357c397b
+Dependency: PDF-revalidated row-level 002 canonical allocation
+Encoding: UTF-8
+
+CANONICAL COUNTS
+spoken sentences: 590
+chunks: 1980
+average chunks/sentence: 3.3559
+scene-part sentence-set digest: 4ae8880b37eda3b0bf0562ecfaf7184dd1b916fd4b06c54cc895c0ec2554bd3e
+
+COPYRIGHT-SAFE STORAGE
+The copyrighted sentence text is not duplicated in this material. The compact data shards store
+Sentence-ID-derived coordinates and grammatical metadata only. Character spans are zero-based,
+half-open offsets into the separately authorized canonical spoken-sentence text.
+
+ID RULES
+Sentence: SEN-U-A02-S01-{UNITSEQ}-{SENTNN}
+Chunk: CHK-SEN-U-A02-S01-{UNITSEQ}-{SENTNN}-{chunkNN}
+
+ROLE SCHEMA
+S / V / O / C / M / S' / V' / O' / C'
+
+GRAMMAR SCHEMA
+NP / VP / PP / AdvP / AdjP / NC / AC / AdvC / Inf / Gerund / Participle / PhrasalVerb / FixedExpression
+
+COMPACT RECORD SCHEMA
+UNITSEQ.SENTNN[!]|chunkNN@charStart-charEnd:ROLE:GRAMMAR;...
+! = content-reviewed high-risk sentence.
+Absence of ! = automated + structural QA passed without a manual-review trigger.
+
+DATA SHARDS
+003-03B1_CHUNKS_A02S01_SECOND_HALF.txt = 197 records / first 0321.01 / last 0424.03 / SHA-256 29d389eb9761483ba76268f94baf06c25723cae83f3f9ca77a91e9b4f86bc271
+003-03B2_CHUNKS_A02S01_SECOND_HALF.txt = 197 records / first 0425.01 / last 0549.01 / SHA-256 bae5814d7afede839714e66bc0dd1606a11a51204ee796719b48ab63118f1df6
+003-03B3_CHUNKS_A02S01_SECOND_HALF.txt = 196 records / first 0550.01 / last 0639.01 / SHA-256 a64e72e03868e4c1ff9e89adb366e4cd52959ed44da3e27a7762966c8945b240
+
+QA
+003-03B_CHUNKS_A02S01_SECOND_HALF_QA.txt = PASS / SHA-256 1c6e8f46013678103f8058528dd82042a6af976019a3f5bca51cb6aa04aba4f2
+content-reviewed high-risk sentences: 154
+curated phrasal/separable-expression occurrences audited: 27
+unresolved QA: 0
+reconstruction mismatches: 0
+stage-direction contamination: 0
+forbidden isolated function-word chunks: 0
+chunks >=10 lexical words: 0
+
+BOUNDARY
+1-D starts exactly at U-A02-S01-0321 / source speaker ordinal 320.
+1-D ends exactly after U-A02-S01-0639 / source speaker ordinal 638.
+U-A02-S01-0640 is QUICK_CURTAIN and receives no spoken Sentence ID.
+Neither boundary divides a canonical dialogue unit or Sentence ID.
+
+RECONCILIATION
+Row-level 002 allocation gives 1,180 Act II spoken sentences (590 + 590) and 2,276 globally.
+The stale aggregate 1,181 / 2,277 total is corrected in the global 003 release metadata; no source
+wording or row-level Sentence ID is altered by this arithmetic reconciliation.
+
+FINAL RESULT: 1-D COMPLETE
+NEXT: 003 global release validation.
