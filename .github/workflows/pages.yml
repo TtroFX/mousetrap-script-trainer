@@ -1,6 +1,5 @@
-name: Deploy public PWA shell to GitHub Pages
+name: Deploy production PWA to GitHub Pages
 
-# Re-triggered after GitHub Pages was enabled.
 on:
   push:
     branches: ["main"]
@@ -22,35 +21,43 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Validate public PWA source
+      - name: Validate PWA source
         run: |
           node --check app/pages_private_import.js
           (cd app && node tests/p6_static_qa.mjs)
 
-      - name: Assert private/copyright-bearing payloads are absent
-        shell: bash
+      - name: Verify bundled canonical JSON payloads
         run: |
-          set -euo pipefail
-          forbidden=(
-            mousetrap_script_data.json
-            mousetrap_line_translations.json
-            mousetrap_line_vocabulary.json
-            mousetrap_line_grammar.json
-            mousetrap_word_dictionary.json
-          )
-          for name in "${forbidden[@]}"; do
-            if find . -type f -name "$name" -print -quit | grep -q .; then
-              echo "::error::Refusing public Pages deployment: private payload found: $name"
-              exit 1
-            fi
-          done
+          node <<'NODE'
+          const fs = require('node:fs');
+          const crypto = require('node:crypto');
+          const version = JSON.parse(fs.readFileSync('app/pwa-version.json', 'utf8'));
+          let failed = false;
+          for (const entry of version.canonicalDataFiles) {
+            const path = `app/${entry.path}`;
+            if (!fs.existsSync(path)) {
+              console.error(`::error::Missing canonical JSON: ${path}`);
+              failed = true;
+              continue;
+            }
+            const actual = crypto.createHash('sha256').update(fs.readFileSync(path)).digest('hex');
+            if (actual !== entry.sha256) {
+              console.error(`::error::SHA-256 mismatch for ${path}: expected ${entry.sha256}, got ${actual}`);
+              failed = true;
+            } else {
+              console.log(`Verified ${path}`);
+            }
+          }
+          if (failed) process.exit(1);
+          NODE
 
-      - name: Assemble public Pages artifact
+      - name: Assemble GitHub Pages artifact
         shell: bash
         run: |
           set -euo pipefail
           rm -rf public
           mkdir -p public/icons
+
           runtime=(
             index.html
             p5.css
@@ -67,16 +74,31 @@ jobs:
             offline.html
             sw.js
           )
+          canonical=(
+            mousetrap_script_data.json
+            mousetrap_line_translations.json
+            mousetrap_line_vocabulary.json
+            mousetrap_line_grammar.json
+            mousetrap_word_dictionary.json
+          )
+
           for file in "${runtime[@]}"; do
             test -f "app/$file"
             cp "app/$file" "public/$file"
           done
+          for file in "${canonical[@]}"; do
+            test -f "app/$file"
+            cp "app/$file" "public/$file"
+          done
+
           cp app/icons/icon-192.png public/icons/
           cp app/icons/icon-512.png public/icons/
           cp app/icons/icon-maskable-512.png public/icons/
           touch public/.nojekyll
+
           test -f public/index.html
           test -f public/sw.js
+          for file in "${canonical[@]}"; do test -f "public/$file"; done
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
