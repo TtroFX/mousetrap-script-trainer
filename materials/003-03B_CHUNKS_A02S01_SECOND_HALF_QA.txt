@@ -1,0 +1,63 @@
+MOUSETRAP SCRIPT TRAINER - 003-03B A02S01 SECOND HALF QA
+Status: PASS / 1-D COMPLETE
+Source PDF SHA-256: 94d46d2afe7504d2010c10b3ef4f1017bc3adfe0c09ab86bfd837167357c397b
+Scene: SCN-A02-S01
+Coverage: U-A02-S01-0321 through U-A02-S01-0639 inclusive
+
+CANONICAL COVERAGE
+source speaker spans expected/processed: 319 / 319
+spoken sentences expected/processed from row-level 002 allocation: 590 / 590
+first Sentence ID: SEN-U-A02-S01-0321-01
+last Sentence ID: SEN-U-A02-S01-0639-01
+missing Sentence IDs: 0
+extra Sentence IDs: 0
+duplicate Sentence IDs: 0
+canonical Sentence ID order: PASS
+1-C / 1-D boundary splits a canonical unit: NO
+final QUICK_CURTAIN unit U-A02-S01-0640 correctly has no spoken Sentence ID: PASS
+
+CHUNK INTEGRITY
+chunks: 1980
+average chunks/sentence: 3.3559
+duplicate Chunk IDs: 0
+empty chunks: 0
+punctuation/whitespace-only chunks: 0
+range errors: 0
+chunk sequence gaps: 0
+character coverage gaps/overlaps: 0
+sentence reconstruction mismatches: 0
+stage-direction contamination: 0
+invalid ROLE labels: 0
+invalid GRAMMAR labels: 0
+unresolved QA flags: 0
+
+CONTENT QA
+content-reviewed high-risk sentences: 154
+curated phrasal/separable-expression occurrences boundary-audited: 27
+curated phrasal/separable expressions split incorrectly: 0
+single-word chunks: 879 / 1980 (44.39%)
+forbidden isolated function-word chunks (the/a/an/of/to/very/for/in/on/at/with/from/by): 0
+chunks >=10 lexical words: 0
+maximum lexical words in one chunk: 9
+
+RECONCILIATION NOTE
+The corrected 002 row registry and direct source reconstruction agree on 590 spoken sentences for
+U-A02-S01-0321..0639. Together with 1-C's 590, the Act II row-level total is 1,180, not 1,181.
+The later 002 aggregate summary carried forward an offsetting +1 scene-total error after A01S01 was
+corrected from 452 to 453. Row-level counts are internally consistent: 453 + 643 + 1,180 = 2,276.
+No artificial sentence split was introduced to force the stale aggregate 2,277 total.
+
+MANUAL REVIEW FOCUS
+- direct / indirect questions and inversion
+- tag questions and negative-question responses
+- content clauses vs demonstratives
+- conditional / embedded if and whether
+- relative and adverbial clauses
+- infinitive / gerund / participial constructions
+- contractions and modal/perfect chains
+- phrasal / separable verbs and particle attachment
+- ellipsis, fragments, vocatives and em-dash interruptions
+- long sentences and initially oversized chunks
+
+FINAL RESULT: PASS / 1-D COMPLETE
+NEXT: global 003 reconciliation and release.
