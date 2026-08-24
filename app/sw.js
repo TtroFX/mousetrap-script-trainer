@@ -1,6 +1,6 @@
 'use strict';
 
-const BUILD_ID = 'p6-2026-08-24-r1';
+const BUILD_ID = 'p6-2026-08-24-r2';
 const DATA_VERSION = 'p5-canonical-freeze-2026-08-24-r1';
 const CACHE_PREFIX = 'mts-pwa-';
 const SHELL_CACHE = `${CACHE_PREFIX}shell-${BUILD_ID}`;
