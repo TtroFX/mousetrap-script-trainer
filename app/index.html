@@ -7,7 +7,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<title>Script to Stage — P5 Recovered Canonical</title>
+<title>Script to Stage — The Mousetrap Trainer</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
@@ -21,15 +21,21 @@
 <div class="overlay dark" id="rehearsalOverlay" hidden><iframe id="rehearsalFrame" src="009_rehearsal_P4.html" title="Rehearsal"></iframe></div>
 <div class="data-gate" id="dataGate">
   <div class="card gate-card">
-    <div class="eyebrow">P5 · Recovered Canonical</div>
+    <div class="eyebrow">Production Data Gate</div>
     <h2>Script to Stage</h2>
-    <p>canonical Script Dataと学習データを全件検証してから起動します。不整合時はfail-closedします。</p>
+    <p>canonical Script Dataと学習データを全件検証してから起動します。private payloadはpublic repositoryへ保存しません。</p>
     <div class="gate-status" id="gateStatus">Loading…</div>
-    <button class="primary-btn" id="retryBtn">Retry</button>
+    <div class="toolbar">
+      <button class="primary-btn" id="retryBtn">Retry</button>
+      <button class="ghost-btn" id="importDataBtn">Import private production data</button>
+    </div>
+    <input type="file" id="privateDataFiles" accept="application/json,.json" multiple hidden>
+    <p class="muted" id="privateDataStatus">Import時は5ファイルのSHA-256とcanonical countsを検証し、合格したbytesだけ端末のPrivate Data Vaultへ保存します。</p>
   </div>
 </div>
 <div class="toast" id="toast"></div>
 <div class="pwa-status" id="pwaStatus" role="status" aria-live="polite" hidden></div>
+<script src="p6_private_data.js"></script>
 <script src="p5_app.js"></script>
 <script src="p6_pwa.js"></script>
 </body>
