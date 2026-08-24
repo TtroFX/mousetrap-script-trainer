@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "buildId": "p6-2026-08-24-r2",
+  "buildId": "p6-2026-08-24-r3",
   "dataVersion": "p5-canonical-freeze-2026-08-24-r1",
   "canonicalDataFiles": [
     {"path":"mousetrap_script_data.json","sha256":"1835ca9ef6d4df5723e0c1666897aba8624f5a606917c2a36ca280b963c93213","role":"canonical-script"},
