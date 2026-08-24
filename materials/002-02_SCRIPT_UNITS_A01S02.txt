@@ -1,5 +1,5 @@
 SCN-A01-S02
-FORMAT: seq|type_or_speaker|source_label_ordinal|pdf_page_start-pdf_page_end|sentence_count
+FORMAT: seq|type_or_speaker|source_label_ordinal|pdf_page_start-pdf_page_end|spoken_sentence_count
 0001|PREAMBLE|-|20-20|0
 0002|B|1|20-20|1
 0003|K|2|20-20|6
@@ -16,7 +16,7 @@ FORMAT: seq|type_or_speaker|source_label_ordinal|pdf_page_start-pdf_page_end|sen
 0014|B|13|20-20|1
 0015|K|14|21-21|1
 0016|B|15|21-21|1
-0017|C|16|21-21|1
+0017|C|16|21-21|2
 0018|B|17|21-21|2
 0019|K|18|21-21|1
 0020|B|19|21-21|1
@@ -164,7 +164,7 @@ FORMAT: seq|type_or_speaker|source_label_ordinal|pdf_page_start-pdf_page_end|sen
 0162|M|161|30-30|1
 0163|C|162|30-30|2
 0164|B|163|30-30|2
-0165|K|164|30-30|2
+0165|K|164|30-30|3
 0166|M|165|30-30|1
 0167|K|166|30-30|1
 0168|C|167|30-30|3
@@ -187,7 +187,7 @@ FORMAT: seq|type_or_speaker|source_label_ordinal|pdf_page_start-pdf_page_end|sen
 0185|G|184|32-32|2
 0186|T|185|32-32|1
 0187|S|186|32-32|1
-0188|T|187|32-32|7
+0188|T|187|32-32|6
 0189|M|188|32-32|1
 0190|T|189|32-32|4
 0191|M|190|32-32|1
@@ -308,7 +308,7 @@ FORMAT: seq|type_or_speaker|source_label_ordinal|pdf_page_start-pdf_page_end|sen
 0306|G|305|40-40|2
 0307|T|306|40-40|1
 0308|G|307|40-40|1
-0309|T|308|40-40|2
+0309|T|308|40-40|1
 0310|G|309|40-40|1
 0311|M|310|41-41|1
 0312|G|311|41-41|3
