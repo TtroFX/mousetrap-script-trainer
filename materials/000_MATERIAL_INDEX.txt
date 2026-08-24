@@ -7,23 +7,24 @@ Numbering: fixed 3-digit prefix; validate before advancing.
 
 000_MATERIAL_INDEX.txt
 Purpose: master material registry and dependency status.
-Status: COMPLETE
+Status: COMPLETE / MATERIAL FINALIZATION SYNCHRONIZED
 
 001_SCRIPT_STRUCTURE.txt
 Purpose: Act / Scene / page-range / speaker structure and stable ID rules.
 Depends on: source PDF
 Status: COMPLETE / CANONICAL COUNTS SYNCHRONIZED
+Canonical speaker spans: 1164 = 190 / 336 / 638 by scene.
 
 002_SCRIPT_UNITS.txt
 Purpose: canonical source-order speaker spans, Units and spoken Sentence IDs.
 Depends on: 001
-Status: COMPLETE / PDF REVALIDATED / FROZEN
+Status: COMPLETE / PDF REVALIDATED / CANONICAL FROZEN
 Parts:
 - 002-01_SCRIPT_UNITS_A01S01.txt
 - 002-02_SCRIPT_UNITS_A01S02.txt
 - 002-03_SCRIPT_UNITS_A02S01.txt
-- 002-03A_CORRECTION_U0053.txt (canonical overlay)
-Final counts:
+- 002-03A_CORRECTION_U0053.txt — canonical overlay: U-A02-S01-0053 count 4 -> 5
+Final effective counts:
 - explicit speaker spans: 1164
 - canonical units: 1170
 - spoken Sentence IDs: 2277
@@ -39,36 +40,69 @@ Canonical parts:
 - 003-03A_CHUNKS_A02S01_FIRST_HALF.txt — 591 effective sentences / 2300 chunks
 - 003-03A0_CORRECTION_U0053.txt — canonical overlay restoring SEN-U-A02-S01-0053-05
 - 003-03B_CHUNKS_A02S01_SECOND_HALF.txt — 590 sentences / 1980 chunks
-Crosswalk:
-- 003-00_CANONICAL_ID_MAP.txt
-QA:
-- 003_GLOBAL_QA.txt
-Final 003 counts:
+Canonical integration controls:
+- 003-00_CANONICAL_ID_MAP.txt — FROZEN / PASS
+- 003_CANONICAL_FREEZE.txt — COMPLETE / FROZEN
+- 003_GLOBAL_QA.txt — PASS
+- 003_INTEGRATION_AUDIT.txt — PASS
+- 003_CANONICAL_INTEGRATION_QA.txt — PASS
+Final effective 003 counts:
 - spoken Sentence IDs: 2277
 - effective Chunk IDs: 8055
 - unresolved QA: 0
 - reconstruction mismatches: 0
 
 004_CONTEXT_TRANSLATIONS.txt
-Purpose: context-aware Japanese translations linked to canonical IDs.
+Purpose: context-aware Japanese translations linked to canonical speech IDs.
 Depends on: 002, 003
-Status: NOT_STARTED IN NUMBERED MATERIAL SEQUENCE
-Note: separately produced translation assets/QA may exist and will be integrated in the next material-integration stage.
+Status: EXTERNAL CONTENT COMPLETE / CANONICAL REGISTERED
+Validated payload: mousetrap_line_translations.json
+Coverage: 1164 / 1164 speech IDs
+QA: COMPLETE
+Payload SHA-256: 3b6daf0d3b9103f2a5369e0d4311fad576078b496e57787c3353a10092dd758d
 
 005_VOCABULARY_CORE.txt
-Purpose: vocabulary core/dictionary material.
+Purpose: vocabulary core / dictionary material.
 Depends on: 002
-Status: NOT_STARTED IN NUMBERED MATERIAL SEQUENCE
+Status: EXTERNAL CONTENT COMPLETE / CANONICAL REGISTERED
+Validated payload: mousetrap_word_dictionary.json
+Dictionary entries: 578 / referenced lemmas: 578
+QA: PASS
+Payload SHA-256: 271fc8968ec4fc5e8877b64e4a8221201fcd036ec437000957e1be932e4fd629
 
 006_VOCABULARY_USAGE.txt
 Purpose: occurrence-level word usage linked to canonical context.
 Depends on: 003, 004, 005
-Status: NOT_STARTED IN NUMBERED MATERIAL SEQUENCE
+Status: EXTERNAL CONTENT COMPLETE / CANONICAL REGISTERED
+Validated payload: mousetrap_line_vocabulary.json
+Coverage: 1164 / 1164 speech IDs
+Line vocabulary items: 1186
+QA: PASS
+Payload SHA-256: 91918d29d9196136e56c24323624e6687967ebb4491973ff3cc4a9474dc67bfd
 
 007_EXPRESSIONS_GRAMMAR.txt
-Purpose: idioms, phrasal verbs, fixed expressions and grammar.
+Purpose: idioms, phrasal verbs, fixed expressions and line-level grammar.
 Depends on: 002, 003, 004
-Status: NOT_STARTED IN NUMBERED MATERIAL SEQUENCE
+Status: EXTERNAL CONTENT COMPLETE / CANONICAL REGISTERED
+Validated payloads:
+- mousetrap_line_grammar.json — 692 entries / 1164 speech coverage
+- mousetrap_grammar_span_validation.json — 692 validation records / FAIL 0
+QA: PASS
+Grammar SHA-256: 9033ce0b8a4e8cd77cb0eb5c4766721e7948894495009a77eea8c37d0114ac88
+Span validation SHA-256: eddba6c7bdd518b367a207b98b76974cabe481e03d66a0148dc3f9676a5ccf34
+
+CANONICAL INTEGRATION MANIFEST
+data/canonical-integration-manifest.json
+Status: COMPLETE
+Purpose: machine-readable build-time join contract for canonical structure, effective overlays, chunks and registered learning assets.
+Contains metadata/IDs/hashes/join rules only; it does not duplicate the full copyrighted script or translated-script payload.
+
+LEGACY / NON-AUTHORITY POLICY
+- 008_cue_practice.html embedded Act II data with 633 speeches is a stale UI prototype dataset and is not a canonical authority.
+- 009_rehearsal.html is a UI prototype only until rebuilt against the canonical integration manifest.
+- 1,159-speaker and 633-Act-II-speech datasets are stale.
+- the temporary 2,276 / Act II 1,180 tokenizer undercount is superseded by the source-proven U0053 canonical overlays.
+- QUICK_CURTAIN is structural context, not spoken dialogue.
 
 008_CONTEXT_NOTES.txt
 Purpose: dramatic context, intent, nuance and adjacent-line relation.
@@ -85,9 +119,17 @@ Purpose: character/display/alias registry linked to canonical speaker IDs.
 Depends on: 001
 Status: NOT_STARTED IN NUMBERED MATERIAL SEQUENCE
 
+STAGES 2-4 FINALIZATION
+Stage 2 — Canonical Data Freeze: COMPLETE / PASS
+Stage 3 — Existing Material Integration + Stale Data Exclusion: COMPLETE / PASS
+Stage 4 — Integrated Build Manifest: COMPLETE / PASS
+
 FREEZE RULES
 1. Source PDF is the textual authority.
-2. Canonical speech/Unit/Sentence/Chunk IDs must not be casually renumbered after this freeze.
-3. Future source-proven corrections require explicit documentation and transactional propagation.
-4. Do not invent or silently normalize script wording.
-5. Application code consumes canonical materials; it does not become a competing source authority.
+2. Canonical speech/Unit/Sentence/effective Chunk IDs must not be casually renumbered after this freeze.
+3. Canonical overlays named by 002/003 are part of the effective dataset and must be applied by consumers.
+4. Future source-proven corrections require explicit documentation and transactional propagation.
+5. Do not invent or silently normalize script wording.
+6. Application code consumes canonical materials; it does not become a competing source authority.
+
+NEXT MATERIAL STAGE: 008_CONTEXT_NOTES.txt, unless the project intentionally begins application implementation before 008-010.
