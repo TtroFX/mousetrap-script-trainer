@@ -9,20 +9,37 @@
   "canonical": {
     "speakerSpans": 1164,
     "canonicalUnits": 1170,
-    "spokenSentenceIds": 2276,
-    "chunkIds": 8055,
+    "spokenSentenceIds": 2277,
+    "effectiveChunkIds": 8055,
     "sceneCounts": {
       "SCN-A01-S01": {"speeches": 190, "sentences": 453, "chunks": 1554},
       "SCN-A01-S02": {"speeches": 336, "sentences": 643, "chunks": 2221},
-      "SCN-A02-S01": {"speeches": 638, "sentences": 1180, "chunks": 4280}
+      "SCN-A02-S01": {"speeches": 638, "sentences": 1181, "chunks": 4280}
     },
     "structure": "materials/001_SCRIPT_STRUCTURE.txt",
     "unitRegistry": "materials/002_SCRIPT_UNITS.txt",
+    "act2UnitOverlay": "materials/002-03A_CORRECTION_U0053.txt",
     "idMap": "materials/003-00_CANONICAL_ID_MAP.txt",
     "chunks": "materials/003_CHUNKS.txt",
+    "act2ChunkOverlay": "materials/003-03A0_CORRECTION_U0053.txt",
     "freeze": "materials/003_CANONICAL_FREEZE.txt",
     "globalQa": "materials/003_GLOBAL_QA.txt",
     "integrationQa": "materials/003_CANONICAL_INTEGRATION_QA.txt"
+  },
+  "canonicalOverlays": {
+    "U-A02-S01-0053": {
+      "sourceLabelOrdinal": 52,
+      "pdfPage": 47,
+      "spokenSentenceCount": 5,
+      "effectiveSentenceIds": [
+        "SEN-U-A02-S01-0053-01",
+        "SEN-U-A02-S01-0053-02",
+        "SEN-U-A02-S01-0053-03",
+        "SEN-U-A02-S01-0053-04",
+        "SEN-U-A02-S01-0053-05"
+      ],
+      "effectiveAct2RegistrySha256": "9e8c77f0a8b0b8f80641c382c86bb7f910fd1704663466f207def84535976eef"
+    }
   },
   "externalAssets": {
     "translations": {
@@ -59,9 +76,10 @@
     }
   },
   "joinRules": {
-    "speechToUnit": "Within each scene, speech ordinal equals source_label_ordinal; Unit sequence is ordinal + 1 because Unit 0001 is PREAMBLE. The applicable final 002 registry row is authoritative.",
-    "unitToSentence": "For each dialogue Unit with spoken_sentence_count K, use SEN-{UNIT_ID}-01 through SEN-{UNIT_ID}-{K:02d}.",
-    "sentenceToChunk": "Chunk IDs use CHK-{SENTENCE_ID}-{chunk2}; exact ranges are read from the applicable 003 production shard.",
+    "speechToUnit": "Within each scene, speech ordinal equals source_label_ordinal and Unit sequence is ordinal + 1 because Unit 0001 is PREAMBLE.",
+    "unitRegistry": "Read the final 002 scene registry and apply any canonical overlay named by this manifest before deriving Sentence IDs.",
+    "unitToSentence": "For each effective dialogue Unit with spoken_sentence_count K, use SEN-{UNIT_ID}-01 through SEN-{UNIT_ID}-{K:02d}.",
+    "sentenceToChunk": "Read the 003 production shards and apply any canonical chunk overlay named by this manifest; Chunk IDs use CHK-{SENTENCE_ID}-{chunk2}.",
     "translation": "Join by speechId.",
     "lineVocabulary": "Join by speechId; then join normalized lemma to wordDictionary.",
     "lineGrammar": "Join by speechId. Grammar is supplemental to the structural chunk metadata in 003."
@@ -70,8 +88,7 @@
     "008_cue_practice.html embedded Act II Script Data with 633 speeches",
     "009_rehearsal.html as a canonical data authority until rebuilt against this manifest",
     "any 1159-speaker aggregate",
-    "any 2277-spoken-sentence aggregate",
-    "any Act II 1181-spoken-sentence aggregate",
+    "temporary 2276-spoken-sentence / Act II 1180 downstream tokenizer undercount",
     "QUICK_CURTAIN classified as spoken dialogue"
   ],
   "releaseGates": {
