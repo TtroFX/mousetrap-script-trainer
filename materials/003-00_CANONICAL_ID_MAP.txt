@@ -11,13 +11,13 @@ Purpose: deterministic copyright-safe mapping contract from speech ID -> Unit ID
 FINAL COUNTS
 speaker spans: 1164
 canonical units: 1170
-spoken Sentence IDs: 2276
-Chunk IDs: 8055
+spoken Sentence IDs: 2277
+effective Chunk IDs: 8055
 
 SCENE COUNTS
 act1-scene1 / SCN-A01-S01: 190 speeches / 453 sentences / 1554 chunks
 act1-scene2 / SCN-A01-S02: 336 speeches / 643 sentences / 2221 chunks
-act2 / SCN-A02-S01: 638 speeches / 1180 sentences / 4280 chunks
+act2 / SCN-A02-S01: 638 speeches / 1181 sentences / 4280 chunks
 
 SPEECH ID PREFIXES
 SCN-A01-S01 -> act1-scene1-speech-{ordinal4}
@@ -27,7 +27,7 @@ SCN-A02-S01 -> act2-speech-{ordinal4}
 SPEECH -> UNIT RULE
 For every canonical scene, dialogue source-label ordinals are contiguous from 1.
 PREAMBLE is Unit sequence 0001, therefore canonical speech ordinal N maps to Unit sequence N+1.
-The corresponding row in the scene's final 002 registry is authoritative for speaker code, PDF page range and spoken_sentence_count.
+The effective final 002 registry row is authoritative for speaker code, PDF page range and spoken_sentence_count.
 
 Examples of derivation only:
 act1-scene1-speech-0001 -> source_label_ordinal 1 -> U-A01-S01-0002
@@ -35,26 +35,37 @@ act1-scene2-speech-0001 -> source_label_ordinal 1 -> U-A01-S02-0002
 act2-speech-0001 -> source_label_ordinal 1 -> U-A02-S01-0002
 act2-speech-0638 -> source_label_ordinal 638 -> U-A02-S01-0639
 
+AUTHORITATIVE 002 REGISTRIES
+SCN-A01-S01 -> materials/002-01_SCRIPT_UNITS_A01S01.txt
+SCN-A01-S02 -> materials/002-02_SCRIPT_UNITS_A01S02.txt
+SCN-A02-S01 -> materials/002-03_SCRIPT_UNITS_A02S01.txt with materials/002-03A_CORRECTION_U0053.txt applied
+
+SPECIAL CANONICAL OVERLAY
+U-A02-S01-0053 / source_label_ordinal 52 / PDF page 47 has spoken_sentence_count=5.
+The overlay replaces the base row count 4 with 5.
+The effective Act II registry SHA-256 is 9e8c77f0a8b0b8f80641c382c86bb7f910fd1704663466f207def84535976eef, matching the Stage 3 PDF-revalidated final registry digest.
+
 UNIT -> SENTENCE RULE
-For a dialogue row with spoken_sentence_count K:
+For a dialogue Unit with spoken_sentence_count K:
 SEN-{UNIT_ID}-01 through SEN-{UNIT_ID}-{K:02d}
 Only spoken sentences receive Sentence IDs.
 PREAMBLE, stage/context material and CURTAIN/QUICK_CURTAIN receive no spoken Sentence ID.
 
 SENTENCE -> CHUNK RULE
-Chunk IDs are the frozen 003 namespace:
+Chunk IDs use:
 CHK-{SENTENCE_ID}-{chunk2}
-The exact chunk counts and character spans are stored in the applicable 003 data shard.
+Exact chunk counts and character spans are stored in the effective 003 dataset.
 
-AUTHORITATIVE REGISTRIES
-SCN-A01-S01 -> materials/002-01_SCRIPT_UNITS_A01S01.txt
-SCN-A01-S02 -> materials/002-02_SCRIPT_UNITS_A01S02.txt
-SCN-A02-S01 -> materials/002-03_SCRIPT_UNITS_A02S01.txt
-
-CHUNK PARTS
+EFFECTIVE 003 PARTS
 SCN-A01-S01 -> materials/003-01_CHUNKS_A01S01.txt
 SCN-A01-S02 -> materials/003-02_CHUNKS_A01S02.txt
-SCN-A02-S01 -> materials/003-03A_CHUNKS_A02S01_FIRST_HALF.txt + materials/003-03B_CHUNKS_A02S01_SECOND_HALF.txt
+SCN-A02-S01 first half -> materials/003-03A_CHUNKS_A02S01_FIRST_HALF.txt with materials/003-03A0_CORRECTION_U0053.txt applied
+SCN-A02-S01 second half -> materials/003-03B_CHUNKS_A02S01_SECOND_HALF.txt
+
+U0053 CHUNK OVERLAY
+For U-A02-S01-0053, discard base 003 records 0053.03 and 0053.04 and apply the three replacement records in 003-03A0_CORRECTION_U0053.txt.
+Effective Sentence IDs are SEN-U-A02-S01-0053-01 through -05.
+The overlay adds one Sentence ID while replacing 7 base chunks with 7 canonical chunks, so the global Chunk total remains 8055.
 
 SPEAKER CODES
 M=SPK-MOLLIE
@@ -67,19 +78,16 @@ P=SPK-PARAVICINI
 T=SPK-TROTTER
 R=SPK-RADIO-VOICE
 
-RECONCILIATION
-The stale intermediate 2,277 / Act II 1,181 aggregate is rejected.
-The final PDF/source audit corrected U-A02-S01-0053 / source_label_ordinal 52 from five spoken sentences to four.
-Final allocation: 453 + 643 + 1180 = 2276.
-No source wording was altered and no artificial Sentence ID was created.
-
-VALIDATION MATERIALIZATION
-A full 1,164-speech / 2,276-sentence crosswalk was independently materialized during the freeze pass.
-Materialized full-crosswalk SHA-256: e216806c557ea544ced2f378b49bda6fe24ef19e4007cd38ca07800a131bbb96
-Validation result: speech -> Unit missing 0; Unit -> Sentence missing 0; Sentence duplicates 0; scene crossover 0.
-The repository stores this compact deterministic contract rather than duplicating a large derived table.
+GLOBAL VALIDATION
+PASS - 1164 speech IDs map one-to-one to dialogue Unit IDs.
+PASS - effective Sentence ID count = 453 + 643 + 1181 = 2277.
+PASS - effective Chunk IDs = 8055.
+PASS - Sentence ID missing/extra/duplicate = 0 / 0 / 0.
+PASS - scene crossover = 0.
+PASS - QUICK_CURTAIN U-A02-S01-0640 has no spoken Sentence ID.
+PASS - 003_GLOBAL_QA.txt is the final release authority for the effective 003 union.
 
 FREEZE RULE
-Speech IDs, Unit IDs, Sentence IDs and Chunk IDs are downstream-stable after this release. Any future source-proven correction must be documented and propagated transactionally.
+Speech IDs, Unit IDs, Sentence IDs and effective Chunk IDs are downstream-stable after this release. Any future source-proven correction must be documented and propagated transactionally.
 
 FINAL STATUS: FROZEN / PASS
