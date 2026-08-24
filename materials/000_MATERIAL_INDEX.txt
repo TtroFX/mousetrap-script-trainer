@@ -12,59 +12,101 @@ Status: COMPLETE
 001_SCRIPT_STRUCTURE.txt
 Purpose: Act / Scene / page-range / speaker / stage-direction structure and stable IDs.
 Depends on: source PDF only.
-Status: COMPLETE
-Commit: cfd902896fd11974a8e74b35937241e64354e6e6
-Note: 002 full-source validation corrected the explicit speaker-label cross-check from 1,153 to 1,156. Scene structure and stable IDs are unchanged.
+Status: COMPLETE / SYNCHRONIZED
+Validated explicit speaker spans: 1,164 total = 190 / 336 / 638 by scene.
+Note: final PDF visual-layout revalidation resolved three wrapped-cue speaker labels and five visually explicit missing-colon Act II labels. Scene structure, page mapping, Speaker IDs, and ID naming conventions are unchanged.
 
 002_SCRIPT_UNITS.txt
-Purpose: canonical source-order dialogue/unit registry and sentence-ID allocation linked to 001.
+Purpose: canonical source-order dialogue/unit registry and spoken Sentence-ID allocation linked to 001.
 Depends on: 001
-Status: COMPLETE
+Status: COMPLETE / REVALIDATED / FROZEN WITH 003
 Parts:
 - 002-01_SCRIPT_UNITS_A01S01.txt
 - 002-02_SCRIPT_UNITS_A01S02.txt
 - 002-03_SCRIPT_UNITS_A02S01.txt
-Validated totals: 1,156 dialogue units; 1,162 canonical units; 2,962 sentence IDs.
+Validated totals:
+- explicit speaker spans: 1,164
+- canonical units: 1,170
+- spoken Sentence IDs: 2,276
+- SCN-A01-S01: 453 spoken sentences
+- SCN-A01-S02: 643 spoken sentences
+- SCN-A02-S01: 1,180 spoken sentences
+Reconciliation note: a stale intermediate 2,277 aggregate was traced to one Act II row-level +1 allocation and corrected from the PDF/source-supported sentence segmentation. No source wording was changed.
 
 003_CHUNKS.txt
-Purpose: meaning-based chunk segmentation for each sentence/unit.
+Purpose: grammatical + semantic + memorization-oriented chunk segmentation for every spoken Sentence ID.
 Depends on: 002
-Status: NOT_STARTED
+Status: COMPLETE
+Primary parts:
+- 003-01_CHUNKS_A01S01.txt
+- 003-02_CHUNKS_A01S02.txt
+- 003-03A_CHUNKS_A02S01_FIRST_HALF.txt
+- 003-03B_CHUNKS_A02S01_SECOND_HALF.txt
+Data shards:
+- 003-01A_CHUNKS_A01S01.txt
+- 003-01B_CHUNKS_A01S01.txt
+- 003-01C_CHUNKS_A01S01.txt
+- 003-02A_CHUNKS_A01S02.txt
+- 003-02B_CHUNKS_A01S02.txt
+- 003-02C_CHUNKS_A01S02.txt
+- 003-03A1_CHUNKS_A02S01_FIRST_HALF.txt
+- 003-03A2_CHUNKS_A02S01_FIRST_HALF.txt
+- 003-03A3_CHUNKS_A02S01_FIRST_HALF.txt
+- 003-03B1_CHUNKS_A02S01_SECOND_HALF.txt
+- 003-03B2_CHUNKS_A02S01_SECOND_HALF.txt
+- 003-03B3_CHUNKS_A02S01_SECOND_HALF.txt
+QA:
+- 003-01_CHUNKS_A01S01_QA.txt = PASS
+- 003-02_CHUNKS_A01S02_QA.txt = PASS
+- 003-03A_CHUNKS_A02S01_FIRST_HALF_QA.txt = PASS
+- 003-03B_CHUNKS_A02S01_SECOND_HALF_QA.txt = PASS
+- 003_GLOBAL_QA.txt = PASS / 003 COMPLETE
+Final totals:
+- Sentence IDs: 2,276
+- Chunk IDs: 8,055
+- average chunks/sentence: 3.5382
+- SCN-A01-S01: 453 sentences / 1,554 chunks
+- SCN-A01-S02: 643 sentences / 2,221 chunks
+- SCN-A02-S01: 1,180 sentences / 4,280 chunks
+- unresolved QA: 0
+- reconstruction mismatches: 0
+- stage-direction contamination: 0
+Sentence and Chunk IDs are frozen for downstream material linkage.
 
 004_CONTEXT_TRANSLATIONS.txt
 Purpose: context-aware Japanese translations linked to sentence/unit IDs; preserve scene and speaker context.
 Depends on: 002, 003
-Status: NOT_STARTED
+Status: NOT_STARTED in this numbered repository sequence.
 
 005_VOCABULARY_CORE.txt
 Purpose: lemma, part of speech, pronunciation, core meaning/core image, and general dictionary-level notes for words needed by the script.
 Depends on: 002
-Status: NOT_STARTED
+Status: NOT_STARTED in this numbered repository sequence.
 
 006_VOCABULARY_USAGE.txt
 Purpose: occurrence-level explanation of how each word is used in its specific script sentence/context, linked to 003 and 004.
 Depends on: 003, 004, 005
-Status: NOT_STARTED
+Status: NOT_STARTED in this numbered repository sequence.
 
 007_EXPRESSIONS_GRAMMAR.txt
 Purpose: idioms, phrasal verbs, fixed expressions, important grammar/constructions, and their script-specific roles.
 Depends on: 002, 003, 004
-Status: NOT_STARTED
+Status: NOT_STARTED in this numbered repository sequence.
 
 008_CONTEXT_NOTES.txt
 Purpose: speaker/addressee, local dramatic context, intent, nuance, and connections to preceding/following lines.
 Depends on: 001, 002
-Status: NOT_STARTED
+Status: NOT_STARTED in this numbered repository sequence.
 
 009_MEMORY_UNITS.txt
 Purpose: memorization hierarchy linking scene -> line -> sentence -> chunk, including reveal/hide stages without typed-answer testing.
 Depends on: 002, 003, 008
-Status: NOT_STARTED
+Status: NOT_STARTED in this numbered repository sequence.
 
 010_CHARACTER_INDEX.txt
 Purpose: character names, aliases/display names, role references, and speaker IDs used across materials.
 Depends on: 001
-Status: NOT_STARTED
+Status: NOT_STARTED in this numbered repository sequence.
 
 RULES
 1. Do not renumber an existing material after it is created.
@@ -72,3 +114,4 @@ RULES
 3. Do not invent missing script content. Ambiguities are flagged for review.
 4. Each material is validated before the next numbered material is started.
 5. Application code is not part of this material sequence and is created only after the required materials are complete enough for implementation.
+6. The final 002 Sentence-ID set and 003 Chunk-ID set are frozen after the 003 global release; any future source-proven correction must be documented and propagated transactionally.
