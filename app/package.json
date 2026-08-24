@@ -1,1 +1,12 @@
-{"name":"mousetrap-script-trainer-p5-recovery","private":true,"scripts":{"test:e2e":"playwright test"},"devDependencies":{"@playwright/test":"^1.55.0"}}
+{
+  "name": "mousetrap-script-trainer-p6",
+  "private": true,
+  "scripts": {
+    "test:static": "node tests/p6_static_qa.mjs",
+    "test:e2e": "playwright test",
+    "test:p6": "npm run test:static && npm run test:e2e"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}

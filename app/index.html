@@ -4,8 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#F7F5F0">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <title>Script to Stage — P5 Recovered Canonical</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
 <link rel="stylesheet" href="p5.css">
+<link rel="stylesheet" href="p6_pwa.css">
 </head>
 <body>
 <div id="app" aria-live="polite"></div>
@@ -22,6 +29,8 @@
   </div>
 </div>
 <div class="toast" id="toast"></div>
+<div class="pwa-status" id="pwaStatus" role="status" aria-live="polite" hidden></div>
 <script src="p5_app.js"></script>
+<script src="p6_pwa.js"></script>
 </body>
 </html>

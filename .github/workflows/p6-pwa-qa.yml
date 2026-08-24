@@ -1,0 +1,42 @@
+name: P6 PWA Offline QA
+on:
+  push:
+    branches:
+      - feature/p6-pwa-offline-final
+  pull_request:
+    paths:
+      - 'app/**'
+      - '.github/workflows/p6-pwa-qa.yml'
+
+jobs:
+  p6-qa:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install dependencies
+        run: npm install
+      - name: Static P6 validation
+        run: npm run test:static
+      - name: Generate public-safe structural canonical fixture
+        run: node tests/generate_fixture.mjs
+      - name: Bind fixture hashes to the P6 data contract
+        run: node tests/prepare_p6_fixture_contract.mjs
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Run P5 + P6 browser regression
+        run: npm run test:e2e
+      - name: Upload browser evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: p6-playwright-evidence
+          path: |
+            app/test-results
+            app/playwright-report
+          if-no-files-found: ignore
