@@ -5,7 +5,7 @@ const EXPECTED_IDS=EXPECTED.flatMap(([s,p,n])=>Array.from({length:n},(_,i)=>p+St
 const CAST=['MOLLIE','TROTTER','GILES','MISS CASEWELL','CHRISTOPHER','MRS. BOYLE','PARAVICINI','MAJOR METCALF'];
 const KEY={selectedScene:'mts.selectedSceneId',character:'mts.characterId',lineCurrent:'mts.lineDetail.current',practicePending:'mts.practice.pending',sceneProgress:'mts.sceneProgress',cueRatings:'mts.practice.cue.ratings',cueState:'mts.practice.cue.state',rehearsalState:'mts.practice.rehearsal.state',readerMode:'mts.reader.mode',readerProgress:'mts.reader.progress',readerLast:'mts.reader.lastPosition'};
 const $=id=>document.getElementById(id),app=$('app'),gate=$('dataGate'),status=$('gateStatus');let D=null,SEARCH=[],toastTimer=0;
-function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot',"'":'&#39;'}[c]||c))}
+function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]||c))}
 function parse(raw,f){try{return raw?JSON.parse(raw):f}catch{return f}}
 function obj(v,n){if(!v||typeof v!=='object'||Array.isArray(v))throw Error(`${n}: object required`)}
 function exactKeys(v,n){obj(v,n);const k=Object.keys(v);if(k.length!==1164)throw Error(`${n}: expected 1164 keys, got ${k.length}`);const miss=EXPECTED_IDS.filter(x=>!(x in v)),extra=k.filter(x=>!IDSET.has(x));if(miss.length||extra.length)throw Error(`${n}: ID mismatch missing=${miss.length} extra=${extra.length}`)}
