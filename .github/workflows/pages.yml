@@ -1,0 +1,97 @@
+name: Deploy public PWA shell to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate public PWA source
+        run: |
+          node --check app/pages_private_import.js
+          (cd app && node tests/p6_static_qa.mjs)
+
+      - name: Assert private/copyright-bearing payloads are absent
+        shell: bash
+        run: |
+          set -euo pipefail
+          forbidden=(
+            mousetrap_script_data.json
+            mousetrap_line_translations.json
+            mousetrap_line_vocabulary.json
+            mousetrap_line_grammar.json
+            mousetrap_word_dictionary.json
+          )
+          for name in "${forbidden[@]}"; do
+            if find . -type f -name "$name" -print -quit | grep -q .; then
+              echo "::error::Refusing public Pages deployment: private payload found: $name"
+              exit 1
+            fi
+          done
+
+      - name: Assemble public Pages artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf public
+          mkdir -p public/icons
+          runtime=(
+            index.html
+            p5.css
+            p5_app.js
+            p6_private_data.js
+            pages_private_import.js
+            p6_pwa.css
+            p6_pwa.js
+            P2_learning.html
+            008_cue_practice_P3.html
+            009_rehearsal_P4.html
+            manifest.webmanifest
+            pwa-version.json
+            offline.html
+            sw.js
+          )
+          for file in "${runtime[@]}"; do
+            test -f "app/$file"
+            cp "app/$file" "public/$file"
+          done
+          cp app/icons/icon-192.png public/icons/
+          cp app/icons/icon-512.png public/icons/
+          cp app/icons/icon-maskable-512.png public/icons/
+          touch public/.nojekyll
+          test -f public/index.html
+          test -f public/sw.js
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
