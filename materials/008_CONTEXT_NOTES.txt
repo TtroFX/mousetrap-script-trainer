@@ -1,0 +1,93 @@
+MOUSETRAP SCRIPT TRAINER - 008 CONTEXT NOTES
+
+Material ID: 008
+Filename: 008_CONTEXT_NOTES.txt
+Status: COMPLETE / CANONICAL DERIVATION FROZEN
+Source authority: user-supplied The Mousetrap 台本.pdf
+Depends on: 001, 002, 004, 007
+Encoding: UTF-8
+Purpose: provide copyright-safe dramatic context, adjacent-line relations, cue linkage, and context-sensitive interpretation rules for every canonical speech.
+
+CANONICAL COVERAGE
+canonical speech IDs: 1164
+SCN-A01-S01: 190
+SCN-A01-S02: 336
+SCN-A02-S01: 638
+scene-start speeches: 3
+scene-end speeches: 3
+speeches with a previous in-scene speech: 1161
+speeches with a next in-scene speech: 1161
+
+AUTHORITY MODEL
+- 008 does not duplicate the copyrighted script text.
+- Speech order, speaker identity, Unit mapping and source page location come from 001/002.
+- Translation and context-sensitive semantic interpretation come from the validated 004 payload.
+- Grammar/expression notes may supplement interpretation through 007 but never redefine source order or wording.
+- Historical UI prototypes are context aids only; their embedded script payloads are not canonical authorities.
+
+CONTEXT RECORD CONTRACT
+For every canonical speechId, the application/build pipeline derives one context record with:
+- sceneId
+- speechId
+- speakerId
+- unitId
+- sourceOrdinal
+- previousSpeechId: immediately preceding canonical speech in the same scene, or NONE at scene start
+- nextSpeechId: immediately following canonical speech in the same scene, or NONE at scene end
+- cueSpeechId: previousSpeechId when present; otherwise SCENE_START
+- contextWindow: previous/current/next canonical speech references
+- translationRef: speechId -> 004
+- grammarRef: speechId -> 007
+- addresseeMode: EXPLICIT_ONLY or CONTEXTUAL
+- intentMode: SOURCE_SUPPORTED_ONLY
+
+DETERMINISTIC ID RULES
+SCN-A01-S01 speech N -> act1-scene1-speech-{N:04d}
+SCN-A01-S02 speech N -> act1-scene2-speech-{N:04d}
+SCN-A02-S01 speech N -> act2-speech-{N:04d}
+Speech ordinal N maps to Unit sequence N+1 because Unit 0001 is PREAMBLE.
+
+ADJACENCY RULE
+Within a scene:
+- previousSpeechId(N) = speechId(N-1), N>1
+- nextSpeechId(N) = speechId(N+1), N<scene speech count
+- no cross-scene adjacency is created
+- a scene boundary is represented explicitly rather than pretending the first line of the next scene is a conversational continuation
+
+ADDRESSEE / INTENT SAFETY
+Exact addressee and dramatic intent are recorded only when directly supported by the source context or validated learning material. When multiple people are present and the addressee is not source-explicit, the value remains CONTEXTUAL rather than guessing a specific person. This is intentional completeness, not an unresolved QA flag.
+
+CONTEXT-SENSITIVE SEMANTIC NOTES ALREADY VALIDATED
+The following speech IDs were specifically rechecked during translation/context QA and are registered as high-value context cases for Line Detail and memorization support:
+- act1-scene1-speech-0043: formal greeting function; avoid interpreting it as a hospitality-service welcome.
+- act1-scene1-speech-0152: food reference is interpreted from the immediate meal/preparation context.
+- act1-scene2-speech-0273: short negative reply is resolved against the preceding negative-question context.
+- act2-speech-0082: short correction refers to the immediately discussed cellar/location point, not a politeness formula.
+- act2-speech-0198: negative-question reply must be interpreted from the preceding proposition.
+- act2-speech-0200: negative-question reply must be interpreted from the preceding proposition.
+- act2-speech-0612: the relevant state is loss of consciousness, not ordinary sleep.
+- act2-speech-0618: the action concerns retrieving/removing the previously hidden skis.
+- act2-speech-0624: terse negative response is preserved without adding unsupported emotional meaning.
+
+CUE PRACTICE CONTRACT
+Cue Practice uses the canonical adjacency relation above, not the old embedded 008_cue_practice.html data.
+- normal cue = immediately previous canonical speech in the same scene
+- scene-start target = SCENE_START synthetic context cue
+- target line itself is never used as its own cue
+- QUICK_CURTAIN is never treated as a spoken cue
+
+REHEARSAL CONTEXT CONTRACT
+Rehearsal traverses the complete canonical speech sequence for the selected scene. Other-character speeches remain context/cue material; selected-character speeches become recall targets according to 009_MEMORY_UNITS.txt.
+
+QA
+PASS - all 1164 speech IDs are covered by the deterministic context rule.
+PASS - scene order is authoritative from 002.
+PASS - previous/next relations never cross a scene boundary.
+PASS - 1161 previous relations and 1161 next relations are defined.
+PASS - source text is not duplicated.
+PASS - exact addressee is not fabricated when the source does not make it explicit.
+PASS - old 633-speech Act II UI payload is excluded as authority.
+PASS - context-sensitive cases identified by validated 004 QA are registered.
+
+FINAL STATUS: COMPLETE
+NEXT MATERIAL: 009_MEMORY_UNITS.txt
