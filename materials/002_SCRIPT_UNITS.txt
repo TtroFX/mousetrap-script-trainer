@@ -2,41 +2,19 @@ MOUSETRAP SCRIPT TRAINER - 002 SCRIPT UNITS
 
 Material ID: 002
 Filename: 002_SCRIPT_UNITS.txt
-Status: COMPLETE (PDF REVALIDATED; GLOBAL 003 RECONCILED)
+Status: COMPLETE / PDF REVALIDATED / CANONICAL FROZEN
 Source authority: uploaded PDF "The Mousetrap 台本.pdf"
 Source PDF SHA-256: 94d46d2afe7504d2010c10b3ef4f1017bc3adfe0c09ab86bfd837167357c397b
 Encoding: UTF-8
 Purpose: canonical source-order speaker-span registry and stable spoken-sentence ID allocation.
 
-AUTHORITY AND EXTRACTION RULES
+AUTHORITY
 - The source PDF is the sole textual authority.
-- Full verbatim script text is not duplicated in this public-repository metadata material.
-- Speaker boundaries are detected from PDF source layout/style as well as textual punctuation; a missing colon does not erase a visually explicit speaker label.
-- A source speaker span may contain bracketed stage/action directions. Those directions remain source-context material but are excluded from spoken-sentence IDs.
-- Scene-setting prose, movement/action cues, sound/lighting cues, and curtain markers do not receive spoken-sentence IDs.
-- Sentence IDs identify spoken/learnable English only.
+- Full verbatim script text is not duplicated in this public metadata.
+- Speaker boundaries use PDF layout/style as well as punctuation; a missing colon does not erase a visually explicit speaker label.
+- Stage directions, scene-setting prose, movement/action cues, sound/lighting cues and curtain markers do not receive spoken Sentence IDs.
 
-PDF REVALIDATION CORRECTIONS
-The original text-only extraction undercounted source speaker labels. Full visual-layout revalidation resolved eight omissions while preserving all existing Act/Scene/Speaker ID conventions:
-1) three explicit speaker labels whose bracketed delivery cues wrap across PDF text lines:
-   - CHRISTOPHER in SCN-A01-S01
-   - PARAVICINI in SCN-A01-S02
-   - TROTTER in SCN-A02-S01
-2) five visually explicit speaker labels in Act II whose source lines omit the normal colon:
-   - MOLLIE
-   - TROTTER
-   - CHRISTOPHER
-   - MISS CASEWELL
-   - MAJOR METCALF
-No source wording was invented, normalized, or corrected.
-
-SENTENCE-COUNT RECONCILIATION
-- SCN-A01-S01 was independently rechecked and contains 453 spoken Sentence IDs.
-- SCN-A01-S02 remains 643 after two offsetting source-span corrections: one Major Metcalf span contributes one additional spoken sentence, while a Trotter span containing a short spoken response followed by a malformed-bracket movement cue contributes one fewer.
-- During the final 003 union audit, the stale Act II aggregate 1,181 was traced to U-A02-S01-0053 / source-label ordinal 52. Direct source reconstruction gives four spoken sentences for that span, not five. The row registry was corrected from 5 to 4. No sentence was invented or removed outside the source-supported segmentation.
-- Final Act II spoken Sentence IDs = 1,180.
-
-VALIDATED EXPLICIT SPEAKER LABELS
+FINAL SPEAKER-SPAN REVALIDATION
 TOTAL=1164
 SCN-A01-S01=190
 SCN-A01-S02=336
@@ -58,21 +36,31 @@ CANONICAL_UNITS=1170
 SOURCE_SPEAKER_SPAN_UNITS=1164
 PREAMBLE_UNITS=3
 CURTAIN_MARKER_UNITS=3
-SPOKEN_SENTENCE_IDS=2276
+SPOKEN_SENTENCE_IDS=2277
 
 SPOKEN SENTENCES BY SCENE
 SCN-A01-S01=453
 SCN-A01-S02=643
-SCN-A02-S01=1180
+SCN-A02-S01=1181
+
+SENTENCE RECONCILIATION
+Final PDF/source validation confirms U-A02-S01-0053 / source speaker-label ordinal 52 / PDF page 47 has 5 spoken sentences.
+The effective final Act II row registry SHA-256 is:
+9e8c77f0a8b0b8f80641c382c86bb7f910fd1704663466f207def84535976eef
+This exactly matches the Stage 3 PDF-revalidated registry digest that reports Act II=1181 and global=2277.
+A later 003 tokenizer temporarily represented that unit with 4 sentences; that was a downstream omission and is corrected in 003-03A0_CORRECTION_U0053.txt. The canonical 002 allocation remains 5.
+
+EFFECTIVE ACT II REGISTRY
+Use 002-03_SCRIPT_UNITS_A02S01.txt with 002-03A_CORRECTION_U0053.txt applied. The overlay changes only U-A02-S01-0053 from spoken_sentence_count 4 to 5 and makes the effective registry byte-equivalent to the Stage 3 validated final digest above.
 
 RADIO SOURCE-LAYOUT EXCEPTION
-The first VOICE ON THE RADIO source span on PDF page 3 contains unbracketed scene-setting prose inserted between broadcast text. The scene-setting prose is excluded from spoken-sentence IDs while genuine radio speech before/after it is retained in source order. This is a source-layout exception, not an inferred rewrite.
+The first VOICE ON THE RADIO span on PDF page 3 contains unbracketed scene-setting prose inserted between broadcast text. Scene-setting prose is excluded from spoken Sentence IDs while genuine radio speech before/after it is retained in source order.
 
 UNIT ID RULE
 U-A{act2}-S{scene2}-{sequence4}
-- 0001 is PREAMBLE/context and has zero spoken sentence IDs.
+- 0001 is PREAMBLE/context and has zero spoken Sentence IDs.
 - 0002 onward follows every explicit source speaker span in exact source order.
-- The final unit is CURTAIN or QUICK_CURTAIN and has zero spoken sentence IDs.
+- Final unit is CURTAIN or QUICK_CURTAIN and has zero spoken Sentence IDs.
 
 SENTENCE ID RULE
 SEN-{UNIT_ID}-{NN}
@@ -93,27 +81,21 @@ R=SPK-RADIO-VOICE
 
 REGISTRY ROW
 seq|speaker_code|source_label_ordinal|pdf_page_start-pdf_page_end|spoken_sentence_count
-PREAMBLE and CURTAIN rows use their structural marker instead of a speaker code.
 
 REGISTRY PARTS
-002-01_SCRIPT_UNITS_A01S01.txt = SCN-A01-S01 / 192 rows / 190 speaker spans / 453 spoken sentences
-002-02_SCRIPT_UNITS_A01S02.txt = SCN-A01-S02 / 338 rows / 336 speaker spans / 643 spoken sentences
-002-03_SCRIPT_UNITS_A02S01.txt = SCN-A02-S01 / 640 rows / 638 speaker spans / 1180 spoken sentences
+002-01_SCRIPT_UNITS_A01S01.txt = 192 rows / 190 speaker spans / 453 spoken sentences
+002-02_SCRIPT_UNITS_A01S02.txt = 338 rows / 336 speaker spans / 643 spoken sentences
+002-03_SCRIPT_UNITS_A02S01.txt + 002-03A_CORRECTION_U0053.txt = 640 effective rows / 638 speaker spans / 1181 spoken sentences
 
 VALIDATION
-PASS - 84 physical PDF pages represented by the canonical scene mapping.
+PASS - 84 physical PDF pages represented.
 PASS - 3 canonical scene ranges cover the script body without gap/overlap.
-PASS - 1,164 explicit source speaker labels mapped in source order.
-PASS - Scene speaker-span counts = 190 / 336 / 638.
-PASS - Speaker totals = 290 / 261 / 174 / 114 / 109 / 83 / 76 / 54 / 3 as listed above.
-PASS - 1,170 canonical units allocated monotonically.
-PASS - PREAMBLE and CURTAIN/QUICK_CURTAIN have zero spoken sentence IDs.
-PASS - 2,276 spoken Sentence IDs allocated deterministically and uniquely.
-PASS - Scene spoken-sentence counts = 453 / 643 / 1,180.
-PASS - bracketed and malformed-bracket movement/action cues excluded from spoken IDs.
-PASS - first-radio scene-setting exception retained as non-spoken context.
-PASS - final 003 Sentence-ID union matches this row-level allocation with missing=0 / extra=0.
-PASS - no source wording silently corrected or reconstructed.
+PASS - 1164 explicit speaker spans mapped in source order.
+PASS - 1170 canonical units allocated monotonically.
+PASS - 2277 spoken Sentence IDs allocated deterministically and uniquely.
+PASS - scene counts = 453 / 643 / 1181.
+PASS - PREAMBLE and CURTAIN/QUICK_CURTAIN have zero spoken Sentence IDs.
+PASS - stage/action material excluded from spoken IDs without altering source spans.
+PASS - effective 003 Sentence-ID set reconciled to this allocation with missing=0 / extra=0.
 
-FINAL STATUS: COMPLETE / REVALIDATED / FROZEN WITH 003
-NEXT MATERIAL: 003_CHUNKS.txt
+FINAL STATUS: COMPLETE / FROZEN WITH 003
