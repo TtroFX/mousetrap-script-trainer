@@ -5,18 +5,20 @@ Status: PASS
 CANONICAL
 speech IDs: 1164
 Unit IDs: 1164 speech units / 1170 total canonical units
-Sentence IDs: 2276
-Chunk IDs: 8055
+Sentence IDs: 2277
+effective Chunk IDs: 8055
+scene Sentence counts: 453 / 643 / 1181
 
 CROSSWALK
 unique speech IDs: PASS
 unique speech Unit IDs: PASS
-unique Sentence IDs: PASS
+unique effective Sentence IDs: PASS
 missing speech -> Unit: 0
 missing Unit -> Sentence allocation: 0
-missing Sentence -> chunk namespace: 0
+missing Sentence -> effective chunk namespace: 0
 scene crossover: 0
 source ordinal gaps: 0
+U-A02-S01-0053 effective Sentence IDs 01..05: PASS
 
 EXTERNAL ASSETS
 translations 1164/1164: PASS
@@ -27,9 +29,15 @@ line grammar 1164/1164: PASS
 grammar entries: 692
 grammar span records 692 / FAIL 0: PASS
 
+CANONICAL OVERLAYS
+002-03A_CORRECTION_U0053.txt: REQUIRED / PASS
+003-03A0_CORRECTION_U0053.txt: REQUIRED / PASS
+effective Act II Sentence IDs: 1181
+global effective Sentence IDs: 2277
+
 STALE DATA POLICY
 old Act II 633-speech embedded UI data: EXCLUDED
-stale 2277 / Act II 1181 aggregate: EXCLUDED
+temporary 2276 / Act II 1180 downstream tokenizer undercount: SUPERSEDED
 QUICK_CURTAIN as speech: EXCLUDED
 legacy UI prototypes as canonical data authority: EXCLUDED
 
