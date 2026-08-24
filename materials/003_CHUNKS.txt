@@ -2,8 +2,9 @@ MOUSETRAP SCRIPT TRAINER - 003 CHUNKS
 
 Material ID: 003
 Filename: 003_CHUNKS.txt
-Status: IN_PROGRESS (1-A + 1-B + 1-C + 1-D COMPLETE; GLOBAL RECONCILIATION PENDING)
+Status: COMPLETE
 Source authority: user-supplied The Mousetrap 台本.pdf
+Source PDF SHA-256: 94d46d2afe7504d2010c10b3ef4f1017bc3adfe0c09ab86bfd837167357c397b
 Encoding: UTF-8
 Purpose: grammatical + semantic + memorization-oriented chunk boundaries for every spoken Sentence ID.
 
@@ -25,6 +26,7 @@ NP / VP / PP / AdvP / AdjP / NC / AC / AdvC / Inf / Gerund / Participle / Phrasa
 COORDINATES
 Zero-based half-open character spans into canonical normalized spoken-sentence text.
 Chunk ID = CHK-{Sentence ID}-{NN}.
+Sentence and Chunk IDs in this release are downstream-stable identifiers and must not be casually renumbered.
 
 PARTS
 003-01_CHUNKS_A01S01.txt = COMPLETE / 453 sentences / 1554 chunks / QA PASS
@@ -32,26 +34,45 @@ PARTS
 003-03A_CHUNKS_A02S01_FIRST_HALF.txt = COMPLETE / 590 sentences / 2300 chunks / QA PASS
 003-03B_CHUNKS_A02S01_SECOND_HALF.txt = COMPLETE / 590 sentences / 1980 chunks / QA PASS
 
-ROW-LEVEL TOTAL
-completed sentences: 2276 / 2276
-completed chunks: 8055
-average chunks/sentence: 3.538
-a01s01 sentences: 453
-a01s02 sentences: 643
-a02s01 sentences: 1180
-unresolved part-level QA: 0
+FINAL TOTAL
+spoken sentences: 2276
+chunks: 8055
+average chunks/sentence: 3.5382
+unresolved QA: 0
+reconstruction mismatches: 0
 
-RECONCILIATION NOTE
-The row-level canonical allocation and direct source reconstruction give 2,276 spoken Sentence IDs:
-453 + 643 + 590 + 590 = 2,276.
-An older aggregate summary carried 2,277 (and Act II 1,181) after A01S01 had been corrected from
-452 to 453. The four completed 003 parts independently preserve their row-level Sentence IDs and
-show no missing/extra IDs within their own coverage. No artificial sentence was added to force the
-stale aggregate total.
+SCENE TOTALS
+SCN-A01-S01 = 453 sentences / 1554 chunks / avg 3.4305
+SCN-A01-S02 = 643 sentences / 2221 chunks / avg 3.4541
+SCN-A02-S01 = 1180 sentences / 4280 chunks / avg 3.6271
 
-GLOBAL RELEASE GATE
-All four chunk-production parts are complete. 003 remains IN_PROGRESS only until a dedicated global
-reconciliation pass validates the union of all 2,276 Sentence IDs and 8,055 Chunk IDs, updates stale
-aggregate counts in 000/001/002 where necessary, and freezes the final canonical metadata.
+GLOBAL RECONCILIATION
+The four production parts form a disjoint, contiguous union over the final 002 spoken Sentence-ID allocation:
+- SCN-A01-S01: U-A01-S01-0002..0191
+- SCN-A01-S02: U-A01-S02-0002..0337
+- SCN-A02-S01 first half: U-A02-S01-0002..0320
+- SCN-A02-S01 second half: U-A02-S01-0321..0639
+The structural ending unit U-A02-S01-0640 is QUICK_CURTAIN and has no spoken Sentence ID.
 
-NEXT: global 003 reconciliation and release.
+A stale intermediate aggregate reported 2,277 spoken sentences and 1,181 in Act II. The release audit traced the +1 to U-A02-S01-0053 / source speaker-label ordinal 52: direct PDF/source reconstruction supports four spoken sentences, not five. The row registry, 002 aggregate, 001 cross-check, and 003 union are now synchronized at 2,276 total / 1,180 Act II. No source wording was altered and no artificial sentence was added to force the stale total.
+
+GLOBAL VALIDATION
+PASS - Sentence ID union matches final corrected 002: missing 0 / extra 0 / duplicate 0.
+PASS - Chunk ID duplicate 0.
+PASS - empty chunks 0.
+PASS - chunk-sequence gaps 0.
+PASS - character range gaps/overlaps 0.
+PASS - sentence reconstruction mismatches 0.
+PASS - punctuation/character loss or insertion attributable to chunk storage 0.
+PASS - stage-direction / curtain-marker contamination 0.
+PASS - invalid ROLE labels 0.
+PASS - invalid GRAMMAR labels 0.
+PASS - fixed/phrasal-expression boundary audits passed in all parts.
+PASS - over-segmentation and long-chunk audits passed in all parts.
+PASS - unresolved QA flags 0.
+
+GLOBAL QA
+003_GLOBAL_QA.txt = PASS / 003 COMPLETE
+
+FINAL STATUS: 003 COMPLETE
+NEXT MATERIAL: 004_CONTEXT_TRANSLATIONS.txt (not started by this release)
