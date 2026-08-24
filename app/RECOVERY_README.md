@@ -5,9 +5,10 @@ This directory is the durable, public-safe P5 source baseline. It intentionally 
 ## Required private inputs
 Place the five files listed in `P5_PRIVATE_INPUTS_MANIFEST.json` beside `index.html` only in a private build/test environment. Verify SHA-256 before using them for a production PASS gate.
 
-## Public CI
-`Pre-P6 HTTP E2E` uses structurally exact synthetic data (1164 / 190 / 336 / 638, vocabulary 1186, grammar 692, dictionary 578) to verify real HTTP navigation, resource loading, routing, state, progress weighting, and fail-closed behavior without publishing copyrighted content.
+## Real HTTP validation status
+The recovered source has now passed the real-Chromium / real-HTTP structural regression suite: **17 PASS / 0 FAIL**, with uncaught page errors 0 and request failures 0. See `PRE_P6_REAL_HTTP_EXECUTION_REPORT.md`.
 
-The workflow definition is also present on the default branch so pull-request runs execute on GitHub-hosted Chromium rather than the locally policy-blocked browser.
+This validates URL navigation, HTTP resource loading, iframe routing, exact Cue handoff/landing, localStorage restore, History, Rehearsal -> Progress, progress weighting, fail-closed behavior, TTS, and SpeechRecognition capability using structurally exact public-safe fixture data.
 
-A public-CI PASS is not by itself `PASS_PRE_P6`; the final strict gate still requires the five private production payloads to be materialized and hash-verified in a private unrestricted browser environment.
+## Strict production gate
+A structural browser PASS is not by itself `PASS_PRE_P6`. The final strict gate still requires the four private production learning payloads to be materialized, SHA-256 verified, and used in the same real-browser run. The public repository intentionally does not replicate those copyrighted/private content payloads.
