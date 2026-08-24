@@ -143,7 +143,7 @@ test('fail closed malformed canonical',async({browser})=>{
 test('fail closed missing / invalid JSON / invalid speech reference',async({browser})=>{
   await expectFailClosed(browser,'**/mousetrap_line_grammar.json',route=>route.fulfill({status:404,body:'missing'}));
   await expectFailClosed(browser,'**/mousetrap_line_translations.json',route=>route.fulfill({status:200,contentType:'application/json',body:'{bad json'}));
-  await expectFailClosed(browser,'**/mousetrap_line_vocabulary.json',async route=>{const r=await route.fetch();const d=await r.json();d['bad-speech-id']=d[Object.keys(d)[0]];delete d[Object.keys(d)[0]];await route.fulfill({status:200,contentType:'application/json',body:JSON.stringify(d)})});
+  await expectFailClosed(browser,'**/mousetrap_line_vocabulary.json',route=>route.fulfill({status:200,contentType:'application/json',body:JSON.stringify({'bad-speech-id':[]})}));
 });
 
 test('browser APIs: real TTS + SpeechRecognition capability/fallback',async({page})=>{
