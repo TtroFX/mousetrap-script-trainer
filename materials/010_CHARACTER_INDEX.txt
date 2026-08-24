@@ -1,0 +1,162 @@
+MOUSETRAP SCRIPT TRAINER - 010 CHARACTER INDEX
+
+Material ID: 010
+Filename: 010_CHARACTER_INDEX.txt
+Status: COMPLETE / CANONICAL CHARACTER REGISTRY FROZEN
+Depends on: 001, 002
+Encoding: UTF-8
+Purpose: define stable speaker/character display metadata for reader, role selection, Cue Practice and Rehearsal without introducing spoiler-only identity claims.
+
+CANONICAL SPEAKER IDS: 9
+PRACTICE-SELECTABLE STAGE CHARACTERS: 8
+BROADCAST / NON-SELECTABLE SPEAKER: 1
+TOTAL CANONICAL SPEECHES: 1164
+
+PRACTICE CAST ORDER
+1. SPK-MOLLIE
+2. SPK-GILES
+3. SPK-CHRISTOPHER
+4. SPK-MRS-BOYLE
+5. SPK-MAJOR-METCALF
+6. SPK-MISS-CASEWELL
+7. SPK-PARAVICINI
+8. SPK-TROTTER
+
+============================================================
+[SPK-MOLLIE]
+============================================================
+SOURCE_LABEL: MOLLIE
+DISPLAY_NAME: Mollie
+SPEAKER_CODE: M
+TYPE: character
+PRACTICE_SELECTABLE: YES
+CANONICAL_SPEECH_COUNT: 290
+SCRIPT_FACING_FORMS: Mollie; Mrs. Ralston
+UI_SHORT_NAME: Mollie
+
+============================================================
+[SPK-GILES]
+============================================================
+SOURCE_LABEL: GILES
+DISPLAY_NAME: Giles
+SPEAKER_CODE: G
+TYPE: character
+PRACTICE_SELECTABLE: YES
+CANONICAL_SPEECH_COUNT: 174
+SCRIPT_FACING_FORMS: Giles; Mr. Ralston
+UI_SHORT_NAME: Giles
+
+============================================================
+[SPK-CHRISTOPHER]
+============================================================
+SOURCE_LABEL: CHRISTOPHER
+DISPLAY_NAME: Christopher
+SPEAKER_CODE: C
+TYPE: character
+PRACTICE_SELECTABLE: YES
+CANONICAL_SPEECH_COUNT: 109
+SCRIPT_FACING_FORMS: Christopher; Christopher Wren; Mr. Wren
+UI_SHORT_NAME: Christopher
+
+============================================================
+[SPK-MRS-BOYLE]
+============================================================
+SOURCE_LABEL: MRS. BOYLE
+DISPLAY_NAME: Mrs. Boyle
+SPEAKER_CODE: B
+TYPE: character
+PRACTICE_SELECTABLE: YES
+CANONICAL_SPEECH_COUNT: 83
+SCRIPT_FACING_FORMS: Mrs. Boyle
+UI_SHORT_NAME: Mrs. Boyle
+
+============================================================
+[SPK-MAJOR-METCALF]
+============================================================
+SOURCE_LABEL: MAJOR METCALF
+DISPLAY_NAME: Major Metcalf
+SPEAKER_CODE: K
+TYPE: character
+PRACTICE_SELECTABLE: YES
+CANONICAL_SPEECH_COUNT: 54
+SCRIPT_FACING_FORMS: Major Metcalf; Major
+UI_SHORT_NAME: Major Metcalf
+
+============================================================
+[SPK-MISS-CASEWELL]
+============================================================
+SOURCE_LABEL: MISS CASEWELL
+DISPLAY_NAME: Miss Casewell
+SPEAKER_CODE: S
+TYPE: character
+PRACTICE_SELECTABLE: YES
+CANONICAL_SPEECH_COUNT: 114
+SCRIPT_FACING_FORMS: Miss Casewell; Leslie Casewell
+UI_SHORT_NAME: Miss Casewell
+
+============================================================
+[SPK-PARAVICINI]
+============================================================
+SOURCE_LABEL: PARAVICINI
+DISPLAY_NAME: Paravicini
+SPEAKER_CODE: P
+TYPE: character
+PRACTICE_SELECTABLE: YES
+CANONICAL_SPEECH_COUNT: 76
+SCRIPT_FACING_FORMS: Paravicini; Mr. Paravicini
+UI_SHORT_NAME: Paravicini
+
+============================================================
+[SPK-TROTTER]
+============================================================
+SOURCE_LABEL: TROTTER
+DISPLAY_NAME: Trotter
+SPEAKER_CODE: T
+TYPE: character
+PRACTICE_SELECTABLE: YES
+CANONICAL_SPEECH_COUNT: 261
+SCRIPT_FACING_FORMS: Trotter; Sergeant Trotter
+UI_SHORT_NAME: Trotter
+
+============================================================
+[SPK-RADIO-VOICE]
+============================================================
+SOURCE_LABEL: VOICE ON THE RADIO
+DISPLAY_NAME: Voice on the Radio
+SPEAKER_CODE: R
+TYPE: broadcast_voice
+PRACTICE_SELECTABLE: NO
+CANONICAL_SPEECH_COUNT: 3
+SCRIPT_FACING_FORMS: Voice on the Radio
+UI_SHORT_NAME: Radio
+
+COUNT VALIDATION
+290 + 174 + 109 + 83 + 54 + 114 + 76 + 261 + 3 = 1164
+Selectable stage-character speeches: 290 + 174 + 109 + 83 + 54 + 114 + 76 + 261 = 1161
+
+DISPLAY / ID RULES
+- SOURCE_LABEL preserves the canonical source speaker label from 001.
+- DISPLAY_NAME is a UI label, not a replacement for Speaker ID.
+- SCRIPT_FACING_FORMS are ordinary forms of address/name visible in the script context; they are not separate speaker IDs.
+- Aliases must never create duplicate progress identities. Progress joins by canonical SPK-* ID / speechId.
+- SPK-RADIO-VOICE remains part of script/rehearsal context but is disabled in character-selection UI.
+
+SPOILER POLICY
+010 intentionally contains only cast/display metadata needed by the learning application. It does not encode hidden-identity reveals, culprit labels, or ending-specific character transformations. If a future optional spoiler profile is added, it must be a separate explicitly gated layer and must not alter canonical Speaker IDs.
+
+SCENE / SPEECH LINKAGE
+Per-scene participation and exact speech order are derived from the 002 registries, not duplicated here. Total counts above are canonical cross-checks only.
+
+QA
+PASS - 9/9 canonical Speaker IDs represented.
+PASS - all source labels match 001 naming conventions.
+PASS - all speaker codes match 002.
+PASS - speech counts sum to 1164.
+PASS - eight stage characters are practice-selectable.
+PASS - broadcast voice is retained but not role-selectable.
+PASS - no duplicate canonical Speaker ID.
+PASS - no UI alias creates a second progress identity.
+PASS - no hidden-identity spoiler is required for application functionality.
+
+FINAL STATUS: COMPLETE
+MATERIAL SEQUENCE 000-010: CONTENT COMPLETE SUBJECT TO FINAL CROSS-MATERIAL QA
