@@ -167,27 +167,27 @@ SPEAKER RULES:
 5. DIALOGUE-LABEL CROSS-CHECK COUNTS
 ============================================================
 
-These counts are extraction cross-checks for the number of explicit speaker-label occurrences detected in the PDF text. 002 performed a complete source-order recount and corrected the preliminary 001 total from 1,153 to 1,156; the earlier pass was low by exactly one label in each canonical scene. Scene boundaries, speaker IDs, and all structural IDs are unchanged.
+These counts are extraction cross-checks for explicit source speaker-label occurrences. Full PDF visual-layout revalidation performed during 002/003 reconciliation found 1,164 occurrences. Relative to the earlier 1,156 cross-check, eight source labels had been missed: three labels attached to wrapped multi-line bracketed delivery cues and five visually explicit Act II speaker labels whose source lines omit the normal colon. Act/Scene/Speaker IDs, page mapping, and naming conventions are unchanged.
 
-TOTAL_EXPLICIT_SPEAKER_LABEL_OCCURRENCES: 1156
+TOTAL_EXPLICIT_SPEAKER_LABEL_OCCURRENCES: 1164
 
 BY_SPEAKER:
-SPK-MOLLIE: 289
-SPK-TROTTER: 259
+SPK-MOLLIE: 290
+SPK-TROTTER: 261
 SPK-GILES: 174
-SPK-MISS-CASEWELL: 113
-SPK-CHRISTOPHER: 107
+SPK-MISS-CASEWELL: 114
+SPK-CHRISTOPHER: 109
 SPK-MRS-BOYLE: 83
-SPK-PARAVICINI: 75
-SPK-MAJOR-METCALF: 53
+SPK-PARAVICINI: 76
+SPK-MAJOR-METCALF: 54
 SPK-RADIO-VOICE: 3
 
 BY_SCENE:
-SCN-A01-S01: 189
-SCN-A01-S02: 335
-SCN-A02-S01: 632
+SCN-A01-S01: 190
+SCN-A01-S02: 336
+SCN-A02-S01: 638
 
-These values are now validated 002 targets. Any later discrepancy must be explained by source layout/page-boundary behavior rather than silently adjusted.
+These values are the final PDF-revalidated 002 targets. The corresponding final spoken-sentence allocation is 453 / 643 / 1,180 = 2,276. Any later discrepancy must be explained from the source rather than silently adjusted.
 
 ============================================================
 6. STRUCTURAL UNIT TYPES FOR 002
@@ -280,9 +280,10 @@ PASS - Script pagination mapping confirmed: PDF 2-84 corresponds to printed 1-83
 PASS - Act/Scene transition pages confirmed.
 PASS - Three canonical scene ranges cover the complete script body with no gaps.
 PASS - Nine distinct dialogue speaker labels detected and assigned canonical speaker IDs.
-PASS - Explicit speaker-label occurrence counts corrected and validated by 002 full-source recount: 1,156 total.
+PASS - Explicit speaker-label occurrence counts PDF-revalidated: 1,164 total / 190 + 336 + 638 by scene.
+PASS - Final row-level spoken Sentence IDs = 2,276 / 453 + 643 + 1,180 by scene.
 PASS - Stable Act, Scene, Speaker, Unit, Sentence, and Chunk ID conventions established.
 PASS - Act Two source-label ambiguity handled without inventing a printed scene number.
 
-FINAL STATUS: COMPLETE
+FINAL STATUS: COMPLETE / SYNCHRONIZED WITH 002 + 003
 NEXT MATERIAL: 002_SCRIPT_UNITS.txt
