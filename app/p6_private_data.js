@@ -9,6 +9,7 @@
 'use strict';
 
 const VERSION_PATH='pwa-version.json';
+const nativeFetch=globalThis.fetch.bind(globalThis);
 const EXPECTED_SCENES=Object.freeze([
   {sceneId:'act1-scene1',prefix:'act1-scene1-speech-',count:190},
   {sceneId:'act1-scene2',prefix:'act1-scene2-speech-',count:336},
@@ -32,7 +33,7 @@ function object(v,name){
   if(!v||typeof v!=='object'||Array.isArray(v))throw Error(`${name}: object required`);
 }
 function canonicalName(path){
-  return String(path||'').split(/[\\/]/).pop();
+  return String(path||'').split(/[\\/]/).pop().split(/[?#]/)[0];
 }
 async function sha256Hex(response){
   if(!globalThis.crypto?.subtle)throw Error('SHA256_UNAVAILABLE');
@@ -110,7 +111,7 @@ function validateAll(payloads){
 async function loadContract(){
   if(contractPromise)return contractPromise;
   contractPromise=(async()=>{
-    const response=await fetch(VERSION_PATH,{cache:'no-store',credentials:'same-origin'});
+    const response=await nativeFetch(VERSION_PATH,{cache:'no-store',credentials:'same-origin'});
     if(!response.ok)throw Error(`VERSION_METADATA_HTTP_${response.status}`);
     const raw=await response.json();
     if(raw?.schemaVersion!==1||!String(raw.buildId||'')||!String(raw.dataVersion||''))throw Error('VERSION_METADATA_INVALID');
@@ -149,7 +150,7 @@ async function getVerifiedResponse(path){
   const cached=await verifiedCached(cache,name,expected);
   if(cached)return cached.clone();
   let response;
-  try{response=await fetch(`./${name}`,{cache:'no-store',credentials:'same-origin'})}
+  try{response=await nativeFetch(`./${name}`,{cache:'no-store',credentials:'same-origin'})}
   catch{throw Error(`PRODUCTION_DATA_UNAVAILABLE:${name}`)}
   if(!response.ok)throw Error(`PRODUCTION_DATA_HTTP_${response.status}:${name}`);
   const actual=await sha256Hex(response);
@@ -168,9 +169,15 @@ async function prepare(){
   return preparePromise;
 }
 function getStatus(){return lastQA}
+function guardedFetch(input,init){
+  let name='';
+  try{name=canonicalName(typeof input==='string'?input:input?.url||'')}catch{}
+  if(FILE_SET.has(name))return Promise.reject(Error(`UNVERIFIED_CANONICAL_FETCH_BLOCKED:${name}`));
+  return nativeFetch(input,init);
+}
 
 window.MTS_PRIVATE_DATA=Object.freeze({
-  version:2,
+  version:3,
   files:FILES,
   loadContract,
   getVerifiedResponse,
@@ -178,4 +185,5 @@ window.MTS_PRIVATE_DATA=Object.freeze({
   validateAll,
   getStatus
 });
+globalThis.fetch=guardedFetch;
 })();
