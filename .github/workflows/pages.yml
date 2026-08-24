@@ -1,5 +1,6 @@
 name: Deploy public PWA shell to GitHub Pages
 
+# Re-triggered after GitHub Pages was enabled.
 on:
   push:
     branches: ["main"]
