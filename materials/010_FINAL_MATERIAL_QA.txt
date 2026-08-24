@@ -1,0 +1,81 @@
+MOUSETRAP SCRIPT TRAINER - FINAL MATERIAL QA
+
+Filename: 010_FINAL_MATERIAL_QA.txt
+Status: PASS / BASIC MATERIALS 000-010 COMPLETE
+Scope: final cross-material validation for 008_CONTEXT_NOTES, 009_MEMORY_UNITS and 010_CHARACTER_INDEX against frozen 001-007 canonical/integration metadata.
+
+CANONICAL BASIS
+speaker spans: 1164
+canonical units: 1170
+spoken Sentence IDs: 2277
+effective Chunk IDs: 8055
+scene speech counts: 190 / 336 / 638
+scene sentence counts: 453 / 643 / 1181
+scene chunk counts: 1554 / 2221 / 4280
+
+008 CONTEXT NOTES
+PASS - canonical speech coverage = 1164 / 1164.
+PASS - three scene starts and three scene ends identified deterministically.
+PASS - previous in-scene relation count = 1161.
+PASS - next in-scene relation count = 1161.
+PASS - adjacency never crosses scene boundaries.
+PASS - cueSpeechId uses canonical previous speech or SCENE_START.
+PASS - exact addressee is not guessed when the source leaves it contextual.
+PASS - validated context-sensitive interpretation cases from 004 QA are registered.
+PASS - historical 633-speech Act II Cue Practice payload excluded as authority.
+
+009 MEMORY UNITS
+PASS - MEM-LINE derivation covers 1164 canonical speeches.
+PASS - MEM-SEN derivation covers 2277 Sentence IDs.
+PASS - MEM-CHK derivation covers 8055 effective Chunk IDs.
+PASS - selectable stage-character speeches = 1161.
+PASS - broadcast speeches = 3 and remain context-only for role selection.
+PASS - selectable targets with real previous-speech cue = 1159.
+PASS - selectable scene-start targets using SCENE_START = 2.
+PASS - cue self-reference = 0.
+PASS - cross-scene cue = 0.
+PASS - memorization stages M0_FULL -> M1_CHUNK_GAPS -> M2_INITIAL_HINTS -> M3_HIDDEN are defined.
+PASS - reveal + GOOD/HARD/AGAIN self-assessment is defined.
+PASS - typed-answer and spelling grading are not required.
+PASS - rehearsal consumes canonical scene order and selected-character ownership.
+
+010 CHARACTER INDEX
+PASS - canonical Speaker IDs represented = 9 / 9.
+PASS - practice-selectable stage characters = 8.
+PASS - non-selectable broadcast speaker = 1.
+PASS - canonical speech-count sum = 1164.
+PASS - selectable-character speech-count sum = 1161.
+PASS - speaker codes match 002 conventions.
+PASS - display aliases do not create duplicate canonical identities.
+PASS - no hidden-identity spoiler metadata is required for core application behavior.
+
+CROSS-MATERIAL LINKS
+PASS - 008 joins by canonical speechId and 003-00 Unit mapping.
+PASS - 009 joins speech -> Unit -> Sentence -> Chunk through frozen 002/003 rules and overlays.
+PASS - 010 canonical Speaker IDs match 001 and 002 speaker codes.
+PASS - 004 translations, 005 dictionary, 006 occurrence vocabulary and 007 grammar remain registered learning layers and are not redefined by 008-010.
+PASS - QUICK_CURTAIN remains structural, never a spoken memory target.
+PASS - U-A02-S01-0053 canonical overlay remains part of the effective 2277-Sentence dataset.
+
+COPYRIGHT / SOURCE AUTHORITY
+PASS - no complete script text is duplicated in 008-010.
+PASS - no complete translated script is duplicated in 008-010.
+PASS - source PDF remains textual authority.
+PASS - materials contain derived IDs, relations, learning rules and metadata only.
+
+FINAL MATERIAL SEQUENCE STATUS
+000 COMPLETE
+001 COMPLETE
+002 COMPLETE / FROZEN
+003 COMPLETE / FROZEN
+004 COMPLETE / REGISTERED
+005 COMPLETE / REGISTERED
+006 COMPLETE / REGISTERED
+007 COMPLETE / REGISTERED
+008 COMPLETE
+009 COMPLETE
+010 COMPLETE
+
+UNRESOLVED MATERIAL QA: 0
+FINAL RESULT: PASS
+NEXT: PRIVATE BUILD DATA ASSEMBLY AND PWA PRODUCTION IMPLEMENTATION
