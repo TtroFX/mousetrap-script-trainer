@@ -10,18 +10,24 @@ for(const key of ['name','short_name','start_url','scope','display','background_
 if(manifest.display!=='standalone') fail('manifest display must be standalone');
 for(const icon of manifest.icons){if(!icon.src||!exists(icon.src))fail(`missing icon ${icon.src||'(empty)'}`)}
 const version=JSON.parse(read('pwa-version.json'));
-if(version.schemaVersion!==1||!version.buildId||!version.dataVersion)fail('pwa-version invalid');
+if(version.schemaVersion!==1||version.buildId!=='p6-2026-08-24-r3'||!version.dataVersion)fail('pwa-version invalid');
 if(!Array.isArray(version.canonicalDataFiles)||version.canonicalDataFiles.length!==5)fail('canonical data contract must contain five files');
 const expected=new Set(['mousetrap_script_data.json','mousetrap_line_translations.json','mousetrap_line_vocabulary.json','mousetrap_line_grammar.json','mousetrap_word_dictionary.json']);
 for(const f of version.canonicalDataFiles){if(!expected.delete(f.path))fail(`unexpected/duplicate canonical path ${f.path}`);if(!/^[0-9a-f]{64}$/.test(f.sha256))fail(`bad sha256 ${f.path}`)}
 if(expected.size)fail(`missing canonical paths ${[...expected].join(',')}`);
 const html=read('index.html');
-for(const fragment of ['rel="manifest" href="manifest.webmanifest"','name="viewport"','name="theme-color"','src="p5_app.js"','src="p6_pwa.js"']) if(!html.includes(fragment))fail(`index missing ${fragment}`);
+for(const fragment of ['rel="manifest" href="manifest.webmanifest"','name="viewport"','name="theme-color"','src="p6_private_data.js"','src="p5_app.js"','src="p6_pwa.js"','id="importDataBtn"']) if(!html.includes(fragment))fail(`index missing ${fragment}`);
 if(/https?:\/\/|cdn\./i.test(html))fail('index contains external runtime dependency');
-for(const required of ['index.html','p5.css','p5_app.js','p6_pwa.css','p6_pwa.js','P2_learning.html','008_cue_practice_P3.html','009_rehearsal_P4.html','manifest.webmanifest','pwa-version.json','offline.html','sw.js']) if(!exists(required))fail(`missing required asset ${required}`);
+for(const required of ['index.html','p5.css','p5_app.js','p6_private_data.js','p6_pwa.css','p6_pwa.js','P2_learning.html','008_cue_practice_P3.html','009_rehearsal_P4.html','manifest.webmanifest','pwa-version.json','offline.html','sw.js']) if(!exists(required))fail(`missing required asset ${required}`);
 const sw=read('sw.js');new vm.Script(sw,{filename:'sw.js'});
-for(const token of ['install','activate','fetch','CACHE_PREFIX','DATA_VERSION','SKIP_WAITING','OFFLINE_DATA_MISSING','DATA_HASH_MISMATCH']) if(!sw.includes(token))fail(`sw missing ${token}`);
-const p5=read('p5_app.js');
-for(const token of ["['act1-scene1','act1-scene1-speech-',190","['act1-scene2','act1-scene2-speech-',336","['act2','act2-speech-',638","mousetrap_script_data.json","mousetrap_line_translations.json","mousetrap_line_vocabulary.json","mousetrap_line_grammar.json","mousetrap_word_dictionary.json"]) if(!p5.includes(token))fail(`P5 canonical invariant missing ${token}`);
+for(const token of ['p6-2026-08-24-r3','install','activate','fetch','CACHE_PREFIX','PRIVATE_CACHE','DATA_VERSION','SKIP_WAITING','OFFLINE_DATA_MISSING','DATA_HASH_MISMATCH','p6_private_data.js']) if(!sw.includes(token))fail(`sw missing ${token}`);
+const vault=read('p6_private_data.js');new vm.Script(vault,{filename:'p6_private_data.js'});
+for(const token of ['mts-private-production-v1','SHA-256 mismatch','validateAll','getVerifiedResponse','1186','692','578']) if(!vault.includes(token))fail(`private data vault missing ${token}`);
+const p5=read('p5_app.js');new vm.Script(p5,{filename:'p5_app.js'});
+for(const token of ["['act1-scene1','act1-scene1-speech-',190","['act1-scene2','act1-scene2-speech-',336","['act2','act2-speech-',638","mousetrap_script_data.json","mousetrap_line_translations.json","mousetrap_line_vocabulary.json","mousetrap_line_grammar.json","mousetrap_word_dictionary.json","mts.reader.progress","data-reader-mode","#/search","mts.practice.cue.ratings","mts.practice.rehearsal.state"]) if(!p5.includes(token))fail(`P5 production invariant missing ${token}`);
+const learning=read('P2_learning.html');
+for(const token of ['translationSource','Headword','contextMeaning','Grammar / Usage','#/rehearsal?scene=']) if(!learning.includes(token))fail(`Learning UI missing ${token}`);
+const rehearsal=read('009_rehearsal_P4.html');
+for(const token of ['id="skipBtn"','id="replayBtn"','function skip()','function replay()','mts.practice.rehearsal.state']) if(!rehearsal.includes(token))fail(`Rehearsal production control missing ${token}`);
 if(p5.includes('prototypeData')||p5.includes('embeddedPrototype'))fail('prototype dependency detected');
-console.log(JSON.stringify({status:'PASS',manifest:true,serviceWorkerSyntax:true,canonicalContract:5,p5CanonicalInvariants:true,externalRuntimeDependencies:0},null,2));
+console.log(JSON.stringify({status:'PASS',manifest:true,serviceWorkerSyntax:true,privateDataVaultSyntax:true,canonicalContract:5,p5ProductionInvariants:true,externalRuntimeDependencies:0},null,2));
