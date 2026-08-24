@@ -4,12 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#F7F5F0">
+<meta name="color-scheme" content="light">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <title>Script to Stage — The Mousetrap Trainer</title>
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" href="icons/icon-192.png" sizes="192x192">
+<link rel="icon" href="icons/icon-192.png" sizes="192x192" type="image/png">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <link rel="stylesheet" href="p5.css">
 <link rel="stylesheet" href="p6_pwa.css">
@@ -21,16 +22,12 @@
 <div class="overlay dark" id="rehearsalOverlay" hidden><iframe id="rehearsalFrame" src="009_rehearsal_P4.html" title="Rehearsal"></iframe></div>
 <div class="data-gate" id="dataGate">
   <div class="card gate-card">
-    <div class="eyebrow">Production Data Gate</div>
+    <div class="eyebrow">Production Data</div>
     <h2>Script to Stage</h2>
-    <p>canonical Script Dataと学習データを全件検証してから起動します。private payloadはpublic repositoryへ保存しません。</p>
+    <p>同一originにbundleされたcanonical Script / Translation / Vocabulary / Dictionary / Grammarを検証して起動します。検証済みデータはversioned Cache Storageへ保存され、以後offlineでも利用できます。</p>
     <div class="gate-status" id="gateStatus">Loading…</div>
-    <div class="toolbar">
-      <button class="primary-btn" id="retryBtn">Retry</button>
-      <button class="ghost-btn" id="importDataBtn">Import private production data</button>
-    </div>
-    <input type="file" id="privateDataFiles" accept="application/json,.json" multiple hidden>
-    <p class="muted" id="privateDataStatus">Import時は5ファイルのSHA-256とcanonical countsを検証し、合格したbytesだけ端末のPrivate Data Vaultへ保存します。</p>
+    <div class="toolbar"><button class="primary-btn" id="retryBtn">Retry</button></div>
+    <p class="muted">学習progress・選択Role・Reader位置・Practice状態はCache Storageと分離してlocal persistenceに保持され、PWA更新では削除されません。</p>
   </div>
 </div>
 <div class="toast" id="toast"></div>
