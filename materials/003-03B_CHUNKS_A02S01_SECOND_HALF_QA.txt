@@ -6,7 +6,7 @@ Coverage: U-A02-S01-0321 through U-A02-S01-0639 inclusive
 
 CANONICAL COVERAGE
 source speaker spans expected/processed: 319 / 319
-spoken sentences expected/processed from row-level 002 allocation: 590 / 590
+spoken sentences expected/processed: 590 / 590
 first Sentence ID: SEN-U-A02-S01-0321-01
 last Sentence ID: SEN-U-A02-S01-0639-01
 missing Sentence IDs: 0
@@ -35,29 +35,11 @@ CONTENT QA
 content-reviewed high-risk sentences: 154
 curated phrasal/separable-expression occurrences boundary-audited: 27
 curated phrasal/separable expressions split incorrectly: 0
-single-word chunks: 879 / 1980 (44.39%)
-forbidden isolated function-word chunks (the/a/an/of/to/very/for/in/on/at/with/from/by): 0
+forbidden isolated function-word chunks: 0
 chunks >=10 lexical words: 0
 maximum lexical words in one chunk: 9
 
-RECONCILIATION NOTE
-The corrected 002 row registry and direct source reconstruction agree on 590 spoken sentences for
-U-A02-S01-0321..0639. Together with 1-C's 590, the Act II row-level total is 1,180, not 1,181.
-The later 002 aggregate summary carried forward an offsetting +1 scene-total error after A01S01 was
-corrected from 452 to 453. Row-level counts are internally consistent: 453 + 643 + 1,180 = 2,276.
-No artificial sentence split was introduced to force the stale aggregate 2,277 total.
-
-MANUAL REVIEW FOCUS
-- direct / indirect questions and inversion
-- tag questions and negative-question responses
-- content clauses vs demonstratives
-- conditional / embedded if and whether
-- relative and adverbial clauses
-- infinitive / gerund / participial constructions
-- contractions and modal/perfect chains
-- phrasal / separable verbs and particle attachment
-- ellipsis, fragments, vocatives and em-dash interruptions
-- long sentences and initially oversized chunks
+GLOBAL RECONCILIATION
+1-D is unchanged at 590 sentences. Final PDF/002 verification proves U-A02-S01-0053 in 1-C has five spoken sentences. The 1-C canonical overlay restores SEN-U-A02-S01-0053-05. Therefore Act II = 591 + 590 = 1181 and global = 2277.
 
 FINAL RESULT: PASS / 1-D COMPLETE
-NEXT: global 003 reconciliation and release.
