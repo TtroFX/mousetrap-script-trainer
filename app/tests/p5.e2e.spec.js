@@ -2,6 +2,11 @@ const {test,expect}=require('@playwright/test');
 const BASE='http://127.0.0.1:4173/index.html';
 const CAST=['MOLLIE','TROTTER','GILES','MISS CASEWELL','CHRISTOPHER','MRS. BOYLE','PARAVICINI','MAJOR METCALF'];
 
+async function child(page,name){
+  await expect.poll(()=>page.frames().some(f=>f.url().includes(name))).toBe(true);
+  return page.frames().find(f=>f.url().includes(name));
+}
+
 test.beforeEach(async({page})=>{
   await page.goto(BASE);
   await expect(page.locator('#dataGate')).toBeHidden();
@@ -37,8 +42,11 @@ test('004 -> 008 lands on the exact selected speech and consumes pending handoff
   await page.locator('[data-line]').nth(5).click();
   await page.frameLocator('#learningFrame').getByRole('button',{name:'Cue Practice'}).click();
   await expect(page).toHaveURL(/#\/cue\?/);
-  const cueFrame=page.frameLocator('#cueFrame');
-  await expect(cueFrame.locator('#app')).toContainText(expected.cue.text);
+  const frame=await child(page,'008_cue_practice_P3.html');
+  await frame.waitForSelector('#practiceView:not([hidden])');
+  const landed=await frame.evaluate(()=>MTS008.getState());
+  expect(landed.current).toBe(expected.target.id);
+  await expect(frame.locator('#cueText')).toHaveText(expected.cue.text);
   expect(await page.evaluate(()=>localStorage.getItem('mts.characterId'))).toBe(expected.target.speaker);
   expect(await page.evaluate(()=>localStorage.getItem('mts.practice.pending'))).toBeNull();
 });
@@ -67,19 +75,24 @@ test('Practice -> Cue Practice and Practice -> Rehearsal',async({page})=>{
 });
 
 test('Rehearsal interaction persists progress',async({page})=>{
+  const key='act1-scene1|TROTTER';
   await page.goto(BASE+'#/practice');
-  await page.evaluate(()=>{localStorage.setItem('mts.characterId','TROTTER');localStorage.setItem('mts.selectedSceneId','act1-scene1');localStorage.removeItem('mts.sceneProgress')});
+  await page.evaluate(()=>{localStorage.setItem('mts.characterId','TROTTER');localStorage.setItem('mts.selectedSceneId','act1-scene1');localStorage.removeItem('mts.sceneProgress');localStorage.removeItem('mts.practice.rehearsal.state')});
   await page.reload();
   await page.getByRole('button',{name:'Rehearsal'}).first().click();
-  const frame=page.frameLocator('#rehearsalFrame');
+  const frame=await child(page,'009_rehearsal_P4.html');
+  await frame.waitForFunction(()=>MTS009&&MTS009.getState().total===190);
   for(let i=0;i<40;i++){
-    const state=await page.evaluate(()=>{try{return JSON.parse(localStorage.getItem('mts.practice.rehearsal.state')||'null')}catch{return null}});
-    if(state&&state.index>=12) break;
-    await frame.getByRole('button',{name:'Next'}).click();
+    const state=await frame.evaluate(()=>MTS009.getState());
+    if(state.index>=12) break;
+    await frame.evaluate(()=>MTS009.next());
   }
-  const state=await page.evaluate(()=>JSON.parse(localStorage.getItem('mts.practice.rehearsal.state')));
-  const progress=await page.evaluate(()=>JSON.parse(localStorage.getItem('mts.sceneProgress'))['act1-scene1']);
-  expect(state.index).toBeGreaterThanOrEqual(12);
+  const runtime=await frame.evaluate(()=>MTS009.getState());
+  const persisted=await page.evaluate(k=>JSON.parse(localStorage.getItem('mts.practice.rehearsal.state')||'{}')[k],key);
+  const progress=await page.evaluate(()=>JSON.parse(localStorage.getItem('mts.sceneProgress')||'{}')['act1-scene1']);
+  expect(runtime.index).toBeGreaterThanOrEqual(12);
+  expect(persisted.index).toBe(runtime.index);
+  expect(persisted.speechId).toBe(runtime.current);
   expect(progress).toBeGreaterThan(0);
 });
 
