@@ -30,7 +30,7 @@ jobs:
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
       - name: Run P5 + P6 browser regression
-        run: npm run test:e2e
+        run: npm run test:p6:e2e
       - name: Upload browser evidence
         if: always()
         uses: actions/upload-artifact@v4
