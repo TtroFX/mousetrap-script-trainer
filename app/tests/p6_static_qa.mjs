@@ -40,7 +40,7 @@ for(const token of ['p6-2026-08-24-r4','install','activate','fetch','CACHE_PREFI
 if(sw.includes("const PRIVATE_CACHE='mts-private-production-v1'"))fail('legacy private cache is still a production data source');
 
 const resolver=read('p6_private_data.js');new vm.Script(resolver,{filename:'p6_private_data.js'});
-for(const token of ['version:2','getVerifiedResponse','prepare','validateAll','DATA_HASH_MISMATCH','PRODUCTION_DATA_UNAVAILABLE','mts-pwa-data-','1186','692','578'])if(!resolver.includes(token))fail(`production data resolver missing ${token}`);
+for(const token of ['version:3','nativeFetch','guardedFetch','UNVERIFIED_CANONICAL_FETCH_BLOCKED','getVerifiedResponse','prepare','validateAll','DATA_HASH_MISMATCH','PRODUCTION_DATA_UNAVAILABLE','mts-pwa-data-','1186','692','578'])if(!resolver.includes(token))fail(`production data resolver missing ${token}`);
 for(const forbidden of ['FileReader','privateDataFiles','accept="application/json','install(import'])if(resolver.includes(forbidden))fail(`manual/import production fallback remains: ${forbidden}`);
 
 const p5=read('p5_app.js');new vm.Script(p5,{filename:'p5_app.js'});
@@ -48,11 +48,14 @@ for(const token of ["['act1-scene1','act1-scene1-speech-',190","['act1-scene2','
 for(const forbidden of ['prototypeData','embeddedPrototype','importDataBtn','privateDataFiles','MTS_PRIVATE_DATA.install','Private production JSONをImport'])if(p5.includes(forbidden))fail(`dead/non-production P5 path remains: ${forbidden}`);
 
 const learning=read('P2_learning.html');
-for(const token of ['translationSource','Headword','contextMeaning','Grammar / Usage','#/rehearsal?scene=','Dictionary entryが見つかりません','このspeechには登録Vocabularyがありません','このspeechには追加Grammar noteがありません'])if(!learning.includes(token))fail(`Learning UI missing ${token}`);
+for(const token of ['src="p6_private_data.js"','getVerifiedResponse','FAIL-CLOSED · PRODUCTION DATA UNAVAILABLE','translationSource','Headword','contextMeaning','Grammar / Usage','#/rehearsal?scene=','Dictionary entryが見つかりません','このspeechには登録Vocabularyがありません','このspeechには追加Grammar noteがありません'])if(!learning.includes(token))fail(`Learning UI missing ${token}`);
 const cue=read('008_cue_practice_P3.html');
-for(const token of ['mousetrap_script_data.json','mts.practice.cue.ratings','mts.practice.pending'])if(!cue.includes(token))fail(`Cue Practice invariant missing ${token}`);
+for(const token of ['src="p6_private_data.js"','getVerifiedResponse','FAIL-CLOSED · PRODUCTION DATA UNAVAILABLE','mousetrap_script_data.json','mts.practice.cue.ratings','mts.practice.pending'])if(!cue.includes(token))fail(`Cue Practice invariant missing ${token}`);
 const rehearsal=read('009_rehearsal_P4.html');
-for(const token of ['id="skipBtn"','id="replayBtn"','function skip()','function replay()','mts.practice.rehearsal.state','SpeechRecognition','speechSynthesis'])if(!rehearsal.includes(token))fail(`Rehearsal production control missing ${token}`);
+for(const token of ['src="p6_private_data.js"','getVerifiedResponse','FAIL-CLOSED · PRODUCTION DATA UNAVAILABLE','id="skipBtn"','id="replayBtn"','function skip()','function replay()','mts.practice.rehearsal.state','SpeechRecognition','speechSynthesis'])if(!rehearsal.includes(token))fail(`Rehearsal production control missing ${token}`);
+for(const [name,source] of [['P2_learning.html',learning],['008_cue_practice_P3.html',cue],['009_rehearsal_P4.html',rehearsal]]){
+  if(/fetch\s*\(\s*['"]mousetrap_[^'"]+\.json/i.test(source))fail(`unverified canonical direct fetch remains in ${name}`);
+}
 
 syntaxCheck('scripts/assemble-production.mjs');
 const assembler=read('scripts/assemble-production.mjs');
@@ -76,6 +79,8 @@ console.log(JSON.stringify({
   serviceWorkerSyntax:true,
   atomicOfflineInstall:true,
   automaticProductionDataResolver:true,
+  unverifiedCanonicalFetchBlocked:true,
+  childVerifiedResolver:true,
   manualImportPath:false,
   canonicalContract:5,
   productionAssembler:true,
