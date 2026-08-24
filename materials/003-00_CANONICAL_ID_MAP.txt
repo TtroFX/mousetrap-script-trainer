@@ -2,74 +2,84 @@ MOUSETRAP SCRIPT TRAINER - 003 CANONICAL ID CROSSWALK
 
 Material family: 003
 Filename: 003-00_CANONICAL_ID_MAP.txt
-Status: FROZEN
+Status: FROZEN / RECONCILED
 Source authority: user-supplied The Mousetrap 台本.pdf
+Source PDF SHA-256: 94d46d2afe7504d2010c10b3ef4f1017bc3adfe0c09ab86bfd837167357c397b
 Encoding: UTF-8
-Purpose: deterministic copyright-safe mapping from speech ID -> Unit ID -> Sentence IDs -> Chunk IDs.
+Purpose: deterministic copyright-safe mapping contract from speech ID -> Unit ID -> Sentence IDs -> Chunk-ID namespace.
 
 FINAL COUNTS
 speaker spans: 1164
 canonical units: 1170
-spoken Sentence IDs: 2277
-effective Chunk IDs: 8055
+spoken Sentence IDs: 2276
+Chunk IDs: 8055
 
 SCENE COUNTS
-act1-scene1 / SCN-A01-S01: 190 speeches / 453 sentences
-act1-scene2 / SCN-A01-S02: 336 speeches / 643 sentences
-act2 / SCN-A02-S01: 638 speeches / 1181 sentences
+act1-scene1 / SCN-A01-S01: 190 speeches / 453 sentences / 1554 chunks
+act1-scene2 / SCN-A01-S02: 336 speeches / 643 sentences / 2221 chunks
+act2 / SCN-A02-S01: 638 speeches / 1180 sentences / 4280 chunks
+
+SPEECH ID PREFIXES
+SCN-A01-S01 -> act1-scene1-speech-{ordinal4}
+SCN-A01-S02 -> act1-scene2-speech-{ordinal4}
+SCN-A02-S01 -> act2-speech-{ordinal4}
 
 SPEECH -> UNIT RULE
-Within each canonical scene, speech ordinal N maps to Unit sequence N+1 because Unit 0001 is PREAMBLE.
+For every canonical scene, dialogue source-label ordinals are contiguous from 1.
+PREAMBLE is Unit sequence 0001, therefore canonical speech ordinal N maps to Unit sequence N+1.
+The corresponding row in the scene's final 002 registry is authoritative for speaker code, PDF page range and spoken_sentence_count.
 
-act1-scene1-speech-NNNN -> U-A01-S01-{NNNN+1 as 4 digits}
-act1-scene2-speech-NNNN -> U-A01-S02-{NNNN+1 as 4 digits}
-act2-speech-NNNN        -> U-A02-S01-{NNNN+1 as 4 digits}
-
-The authoritative per-speech sentence count is column 5 of the corresponding effective 002 registry row:
-- 002-01_SCRIPT_UNITS_A01S01.txt
-- 002-02_SCRIPT_UNITS_A01S02.txt
-- 002-03_SCRIPT_UNITS_A02S01.txt plus canonical overlay 002-03A_CORRECTION_U0053.txt
+Examples of derivation only:
+act1-scene1-speech-0001 -> source_label_ordinal 1 -> U-A01-S01-0002
+act1-scene2-speech-0001 -> source_label_ordinal 1 -> U-A01-S02-0002
+act2-speech-0001 -> source_label_ordinal 1 -> U-A02-S01-0002
+act2-speech-0638 -> source_label_ordinal 638 -> U-A02-S01-0639
 
 UNIT -> SENTENCE RULE
-For a dialogue Unit with spoken_sentence_count K:
-SEN-{UNIT_ID}-01 ... SEN-{UNIT_ID}-{K as 2 digits}
-PREAMBLE and CURTAIN/QUICK_CURTAIN Units have no Sentence IDs.
+For a dialogue row with spoken_sentence_count K:
+SEN-{UNIT_ID}-01 through SEN-{UNIT_ID}-{K:02d}
+Only spoken sentences receive Sentence IDs.
+PREAMBLE, stage/context material and CURTAIN/QUICK_CURTAIN receive no spoken Sentence ID.
 
 SENTENCE -> CHUNK RULE
-Every effective chunk belonging to Sentence ID X has the namespace:
-CHK-{X}-{NN}
-where NN is the sentence-local two-digit chunk sequence stored in the effective 003 part data.
+Chunk IDs are the frozen 003 namespace:
+CHK-{SENTENCE_ID}-{chunk2}
+The exact chunk counts and character spans are stored in the applicable 003 data shard.
 
-EFFECTIVE 003 DATASET
-SCN-A01-S01:
-- 003-01A_CHUNKS_A01S01.txt
-- 003-01B_CHUNKS_A01S01.txt
-- 003-01C_CHUNKS_A01S01.txt
+AUTHORITATIVE REGISTRIES
+SCN-A01-S01 -> materials/002-01_SCRIPT_UNITS_A01S01.txt
+SCN-A01-S02 -> materials/002-02_SCRIPT_UNITS_A01S02.txt
+SCN-A02-S01 -> materials/002-03_SCRIPT_UNITS_A02S01.txt
 
-SCN-A01-S02:
-- 003-02A_CHUNKS_A01S02.txt
-- 003-02B_CHUNKS_A01S02.txt
-- 003-02C_CHUNKS_A01S02.txt
+CHUNK PARTS
+SCN-A01-S01 -> materials/003-01_CHUNKS_A01S01.txt
+SCN-A01-S02 -> materials/003-02_CHUNKS_A01S02.txt
+SCN-A02-S01 -> materials/003-03A_CHUNKS_A02S01_FIRST_HALF.txt + materials/003-03B_CHUNKS_A02S01_SECOND_HALF.txt
 
-SCN-A02-S01 first half:
-- base: 003-03A1 / 003-03A2 / 003-03A3_CHUNKS_A02S01_FIRST_HALF.txt
-- canonical overlay: 003-03A0_CORRECTION_U0053.txt
-The overlay replaces base records 0053.03 and 0053.04 with canonical records 0053.03, 0053.04, 0053.05.
+SPEAKER CODES
+M=SPK-MOLLIE
+G=SPK-GILES
+C=SPK-CHRISTOPHER
+B=SPK-MRS-BOYLE
+K=SPK-MAJOR-METCALF
+S=SPK-MISS-CASEWELL
+P=SPK-PARAVICINI
+T=SPK-TROTTER
+R=SPK-RADIO-VOICE
 
-SCN-A02-S01 second half:
-- 003-03B1 / 003-03B2 / 003-03B3_CHUNKS_A02S01_SECOND_HALF.txt
+RECONCILIATION
+The stale intermediate 2,277 / Act II 1,181 aggregate is rejected.
+The final PDF/source audit corrected U-A02-S01-0053 / source_label_ordinal 52 from five spoken sentences to four.
+Final allocation: 453 + 643 + 1180 = 2276.
+No source wording was altered and no artificial Sentence ID was created.
 
-BOUNDARY CHECKS
-Act I Scene I dialogue Units: U-A01-S01-0002..0191
-Act I Scene II dialogue Units: U-A01-S02-0002..0337
-Act II dialogue Units: U-A02-S01-0002..0639
-Act II U-A02-S01-0640 = QUICK_CURTAIN, no Sentence ID.
-
-SPECIAL VERIFIED UNIT
-act2-speech-0052 -> U-A02-S01-0053 -> SEN-U-A02-S01-0053-01..05 -> CHK-SEN-U-A02-S01-0053-XX-NN.
-This is the source-proven correction that restores the final 2277-Sentence canonical set.
+VALIDATION MATERIALIZATION
+A full 1,164-speech / 2,276-sentence crosswalk was independently materialized during the freeze pass.
+Materialized full-crosswalk SHA-256: e216806c557ea544ced2f378b49bda6fe24ef19e4007cd38ca07800a131bbb96
+Validation result: speech -> Unit missing 0; Unit -> Sentence missing 0; Sentence duplicates 0; scene crossover 0.
+The repository stores this compact deterministic contract rather than duplicating a large derived table.
 
 FREEZE RULE
-These mapping rules and IDs are downstream-stable. Any future source-proven correction must be documented and propagated transactionally; casual renumbering is prohibited.
+Speech IDs, Unit IDs, Sentence IDs and Chunk IDs are downstream-stable after this release. Any future source-proven correction must be documented and propagated transactionally.
 
-FINAL RESULT: FROZEN
+FINAL STATUS: FROZEN / PASS
