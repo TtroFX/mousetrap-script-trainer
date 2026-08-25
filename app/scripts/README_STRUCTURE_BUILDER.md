@@ -1,0 +1,1 @@
+This file intentionally documents that canonical line structure is generated at build time from materials/002, materials/003, and materials/010. The generated runtime file is mousetrap_line_structure.json and contains IDs, offsets, roles, grammar types, and character metadata only; it does not duplicate script text.
