@@ -1,0 +1,4351 @@
+{
+  "act1-scene1-speech-0001": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「are warned」の部分で確認できる。"
+    },
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「is expected」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there will be a certain freezing」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0002": [],
+  "act1-scene1-speech-0003": [],
+  "act1-scene1-speech-0004": [],
+  "act1-scene1-speech-0005": [
+    {
+      "pattern": "Shall I/we + 動詞原形 ...?",
+      "description": "この箇所では「Shall I/we + 動詞原形 ...?」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「Shall I stoke」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0006": [],
+  "act1-scene1-speech-0007": [],
+  "act1-scene1-speech-0008": [
+    {
+      "pattern": "have just + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「've just come」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0009": [],
+  "act1-scene1-speech-0010": [
+    {
+      "pattern": "had to + 動詞原形",
+      "description": "had to + 動詞原形で、過去の必要・義務「～しなければならなかった」を表す。 原文では「had to go」の部分で確認できる。"
+    },
+    {
+      "pattern": "'d + 過去分詞（had の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「I'd forgotten」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0011": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「Car was skidding」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0012": [
+    {
+      "pattern": "if only + 節",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「If only the pipes don't freeze」の部分で確認できる。"
+    },
+    {
+      "pattern": "do/does/did + 動詞原形（強調）",
+      "description": "この箇所では「do/does/did + 動詞原形（強調）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「I do hope」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0013": [
+    {
+      "pattern": "have to + 動詞原形",
+      "description": "have to + 動詞原形で、事情による必要・義務を表す。 原文では「have to keep」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0014": [
+    {
+      "pattern": "do/does/did + 動詞原形（強調）",
+      "description": "この箇所では「do/does/did + 動詞原形（強調）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「I do so want」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0015": [],
+  "act1-scene1-speech-0016": [],
+  "act1-scene1-speech-0017": [],
+  "act1-scene1-speech-0018": [],
+  "act1-scene1-speech-0019": [
+    {
+      "pattern": "as/so long as + S + V",
+      "description": "asを含む比較・接続表現で、前後の要素の関係を示す。固定表現との区別が重要。 原文では「So long as you don't ask me to cook」の部分で確認できる。"
+    },
+    {
+      "pattern": "ask + 人 + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「ask me to cook」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0020": [
+    {
+      "pattern": "be going to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「's going to be」の部分で確認できる。"
+    },
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「are snowed」の部分で確認できる。"
+    },
+    {
+      "pattern": "in case + S + V",
+      "description": "この箇所では「in case + S + V」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「in case we are snowed up」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0021": [
+    {
+      "pattern": "前置詞 + -ing",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「instead of having」の部分で確認できる。"
+    },
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「Got cold feet, have you?」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0022": [],
+  "act1-scene1-speech-0023": [],
+  "act1-scene1-speech-0024": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've left」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0025": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「But it doesn't really matter, does it?」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0026": [],
+  "act1-scene1-speech-0027": [
+    {
+      "pattern": "Shall I/we + 動詞原形 ...?",
+      "description": "この箇所では「Shall I/we + 動詞原形 ...?」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「Shall I bank」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0028": [
+    {
+      "pattern": "not ... until ...",
+      "description": "否定辞がどの語句・節にかかるかを確認し、否定の範囲を正確に読む。 原文では「don't do that until ten or eleven o'clock at night」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0029": [],
+  "act1-scene1-speech-0030": [
+    {
+      "pattern": "may/might (not) + 動詞原形",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「may arrive」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0031": [],
+  "act1-scene1-speech-0032": [],
+  "act1-scene1-speech-0033": [
+    {
+      "pattern": "to have + 過去分詞（完了不定詞）",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「to have got」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「wonder what all these people will be」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0034": [],
+  "act1-scene1-speech-0035": [],
+  "act1-scene1-speech-0036": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「If they don't pay we hang on to their luggage」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0037": [
+    {
+      "pattern": "ought (not) to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「ought to have」の部分で確認できる。"
+    },
+    {
+      "pattern": "to have + 過去分詞（完了不定詞）",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「to have taken」の部分で確認できる。"
+    },
+    {
+      "pattern": "be sure to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「're sure to get」の部分で確認できる。"
+    },
+    {
+      "pattern": "can't help + -ing",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「can't help thinking」の部分で確認できる。"
+    },
+    {
+      "pattern": "where should S be ...?（仮定的な帰結）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「where should we be then」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0038": [],
+  "act1-scene1-speech-0039": [],
+  "act1-scene1-speech-0040": [
+    {
+      "pattern": "as/so long as + S + V",
+      "description": "asを含む比較・接続表現で、前後の要素の関係を示す。固定表現との区別が重要。 原文では「so long as they pay us seven guineas every week」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0041": [],
+  "act1-scene1-speech-0042": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「are warned」の部分で確認できる。"
+    },
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「is expected」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0043": [],
+  "act1-scene1-speech-0044": [
+    {
+      "pattern": "would not + 動詞原形（拒否・意志）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「Wouldn't attempt」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0045": [],
+  "act1-scene1-speech-0046": [
+    {
+      "pattern": "'d + 過去分詞（had の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「I'd pictured」の部分で確認できる。"
+    },
+    {
+      "pattern": "have/has been + -ing",
+      "description": "have/has been + -ingで、過去から続く動作や現在に残る継続性を表す。 原文では「've been thinking」の部分で確認できる。"
+    },
+    {
+      "pattern": "would + 動詞原形（過去から見た未来・予想）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「you'd be terrifically grim」の部分で確認できる。"
+    },
+    {
+      "pattern": "would + 動詞原形（過去から見た未来・予想）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「would be simply crammed」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0047": [],
+  "act1-scene1-speech-0048": [],
+  "act1-scene1-speech-0049": [],
+  "act1-scene1-speech-0050": [],
+  "act1-scene1-speech-0051": [],
+  "act1-scene1-speech-0052": [],
+  "act1-scene1-speech-0053": [
+    {
+      "pattern": "would + 動詞原形（過去から見た未来・予想）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「guests would prefer」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0054": [
+    {
+      "pattern": "have to + 動詞原形",
+      "description": "have to + 動詞原形で、事情による必要・義務を表す。 原文では「have to have」の部分で確認できる。"
+    },
+    {
+      "pattern": "was/were being + 過去分詞（進行形の受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「I was being carried」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「If you had a mahogany dining table」の部分で確認できる。"
+    },
+    {
+      "pattern": "先行詞 + who + ...",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「the poor relation who acts as general dogsbody」の部分で確認できる。"
+    },
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「Terrible weather, isn't it?」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + 過去形 ... would + 動詞原形（仮定の結果）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「you'd have to have」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0055": [],
+  "act1-scene1-speech-0056": [],
+  "act1-scene1-speech-0057": [
+    {
+      "pattern": "動詞 + that + S + V（内容節）",
+      "description": "that節またはthatを含む構造の役割を、節内での文法機能から判別する。 原文では「hope that it's got a fourposter with little chintz roses」の部分で確認できる。"
+    },
+    {
+      "pattern": "do/does/did + 動詞原形（強調）",
+      "description": "この箇所では「do/does/did + 動詞原形（強調）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「I do hope」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0058": [],
+  "act1-scene1-speech-0059": [
+    {
+      "pattern": "be going to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「is going to like」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0060": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've been」の部分で確認できる。"
+    },
+    {
+      "pattern": "would like/love/prefer to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「'd like to go」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0061": [
+    {
+      "pattern": "do/does/did + 動詞原形（強調）",
+      "description": "この箇所では「do/does/did + 動詞原形（強調）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「I do so like」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0062": [],
+  "act1-scene1-speech-0063": [
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know what anyone is like ― or」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know what I'm thinking about now」の部分で確認できる。"
+    },
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「you don't know what I'm thinking about now, do you?」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0064": [],
+  "act1-scene1-speech-0065": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if they're portrait painters it comes out」の部分で確認できる。"
+    },
+    {
+      "pattern": "先行詞 + who + ...",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「The only people who really know」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know what other people are like are」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0066": [],
+  "act1-scene1-speech-0067": [
+    {
+      "pattern": "be going to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「'm going to like」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + that + S + V（内容節）",
+      "description": "that節またはthatを含む構造の役割を、節内での文法機能から判別する。 原文では「hope that I would be an architect」の部分で確認できる。"
+    },
+    {
+      "pattern": "as good as + 補語",
+      "description": "asを含む比較・接続表現で、前後の要素の関係を示す。固定表現との区別が重要。 原文では「As good as halfway home」の部分で確認できる。"
+    },
+    {
+      "pattern": "would + 動詞原形（過去から見た未来・予想）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「I would be an architect」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0068": [],
+  "act1-scene1-speech-0069": [],
+  "act1-scene1-speech-0070": [],
+  "act1-scene1-speech-0071": [],
+  "act1-scene1-speech-0072": [],
+  "act1-scene1-speech-0073": [],
+  "act1-scene1-speech-0074": [
+    {
+      "pattern": "Would/Could you + 動詞原形 ...?",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「Could you stoke」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0075": [],
+  "act1-scene1-speech-0076": [],
+  "act1-scene1-speech-0077": [],
+  "act1-scene1-speech-0078": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「Awful weather, isn't it?」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0079": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「A Major ― Metcalf, is it?」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0080": [],
+  "act1-scene1-speech-0081": [
+    {
+      "pattern": "had to + 動詞原形",
+      "description": "had to + 動詞原形で、過去の必要・義務「～しなければならなかった」を表す。 原文では「had to share」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there was great difficulty in getting」の部分で確認できる。"
+    },
+    {
+      "pattern": "would not + 動詞原形（拒否・意志）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「wouldn't risk coming up」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0082": [
+    {
+      "pattern": "would have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「'd have seen」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know what train you would be coming」の部分で確認できる。"
+    },
+    {
+      "pattern": "would be + -ing（過去から見た未来）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「you would be coming by」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0083": [
+    {
+      "pattern": "should have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「should have been」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0084": [
+    {
+      "pattern": "let + 人 + 動詞原形",
+      "description": "この箇所では「let + 人 + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「Let me take」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0085": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「have been」の部分で確認できる。"
+    },
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「been cleared」の部分で確認できる。"
+    },
+    {
+      "pattern": "I must say ...",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「I must say」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0086": [],
+  "act1-scene1-speech-0087": [],
+  "act1-scene1-speech-0088": [],
+  "act1-scene1-speech-0089": [],
+  "act1-scene1-speech-0090": [],
+  "act1-scene1-speech-0091": [],
+  "act1-scene1-speech-0092": [
+    {
+      "pattern": "have to + 動詞原形",
+      "description": "have to + 動詞原形で、事情による必要・義務を表す。 原文では「has to be」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「There has to be a beginning for everything」の部分で確認できる。"
+    },
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「There has to be a beginning for everything, hasn't there?」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0093": [],
+  "act1-scene1-speech-0094": [],
+  "act1-scene1-speech-0095": [
+    {
+      "pattern": "too + 形容詞/副詞 + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「too late to do」の部分で確認できる。"
+    },
+    {
+      "pattern": "not ... until ...",
+      "description": "否定辞がどの語句・節にかかるかを確認し、否定の範囲を正確に読む。 原文では「don't know they have got dry rot until it's too late to do anything about it」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0096": [],
+  "act1-scene1-speech-0097": [],
+  "act1-scene1-speech-0098": [],
+  "act1-scene1-speech-0099": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「If it goes on like this I should say you'll have five or six feet of snow by morning」の部分で確認できる。"
+    },
+    {
+      "pattern": "I should say/think/advise ...",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「I should say」の部分で確認できる。"
+    },
+    {
+      "pattern": "(I) thought ...（主語省略）",
+      "description": "この箇所では「(I) thought ...（主語省略）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「Thought at」の部分で確認できる。"
+    },
+    {
+      "pattern": "How d'you do?",
+      "description": "この箇所では「How d'you do?」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「How d'you do」の部分で確認できる。"
+    },
+    {
+      "pattern": "should + 動詞原形（過去から見た第一人称の見込み）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「we shouldn't make it」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0100": [],
+  "act1-scene1-speech-0101": [],
+  "act1-scene1-speech-0102": [],
+  "act1-scene1-speech-0103": [],
+  "act1-scene1-speech-0104": [],
+  "act1-scene1-speech-0105": [
+    {
+      "pattern": "先行詞 + who + ...",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「a good local woman who comes in」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0106": [],
+  "act1-scene1-speech-0107": [],
+  "act1-scene1-speech-0108": [],
+  "act1-scene1-speech-0109": [],
+  "act1-scene1-speech-0110": [
+    {
+      "pattern": "would have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「would have said」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + if + S + V（〜かどうか）",
+      "description": "ifが名詞節を導き「～かどうか」を表す。条件を表すifとは区別する。 原文では「ask if I am the only guest ― with Major Metcalf」の部分で確認できる。"
+    },
+    {
+      "pattern": "May I + 動詞原形 ...?",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「May I ask」の部分で確認できる。"
+    },
+    {
+      "pattern": "前置詞 + -ing",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「before opening」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + that + S + V（内容節）",
+      "description": "that節またはthatを含む構造の役割を、節内での文法機能から判別する。 原文では「said that a proper staff of servants was essential before opening this」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0111": [
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there are several here」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0112": [],
+  "act1-scene1-speech-0113": [],
+  "act1-scene1-speech-0114": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「I adore nursery rhymes, don't you?」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0115": [
+    {
+      "pattern": "May I + 動詞原形 ...?",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「May I introduce」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0116": [
+    {
+      "pattern": "How d'you do?",
+      "description": "この箇所では「How d'you do?」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「How d'you do」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0117": [],
+  "act1-scene1-speech-0118": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「have come」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + S + had + 過去分詞",
+      "description": "had + 過去分詞で、ある過去時点より前の出来事を示す。 原文では「If I had not believed」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + 過去完了 ... should have + 過去分詞（反実仮想）",
+      "description": "had + 過去分詞で、ある過去時点より前の出来事を示す。 原文では「I should never have come here」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0119": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if you are not satisfied」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「There is no obligation for you」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0120": [],
+  "act1-scene1-speech-0121": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「has been」の部分で確認できる。"
+    },
+    {
+      "pattern": "be + -ing（進行形）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「we are raising」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「If there has been any misapprehension it would perhaps be better if you went elsewhere」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there has been any misapprehension it would」の部分で確認できる。"
+    },
+    {
+      "pattern": "would + 動詞原形（仮定・控えめな判断）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「it would perhaps be better」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0122": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「have tried」の部分で確認できる。"
+    },
+    {
+      "pattern": "needn't + 動詞原形",
+      "description": "この箇所では「needn't + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「needn't think」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0123": [],
+  "act1-scene1-speech-0124": [
+    {
+      "pattern": "would like/love/prefer to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「'd love to see」の部分で確認できる。"
+    },
+    {
+      "pattern": "知覚動詞 + O + 動詞原形",
+      "description": "この箇所では「知覚動詞 + O + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「see you turn」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0125": [
+    {
+      "pattern": "have got to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「've got to forgo」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0126": [
+    {
+      "pattern": "(I'm) afraid ...（会話の主語・be省略）",
+      "description": "この箇所では「(I'm) afraid ...（会話の主語・be省略）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「Afraid my」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0127": [
+    {
+      "pattern": "let + 人 + 動詞原形",
+      "description": "この箇所では「let + 人 + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「Let me take」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0128": [],
+  "act1-scene1-speech-0129": [],
+  "act1-scene1-speech-0130": [],
+  "act1-scene1-speech-0131": [],
+  "act1-scene1-speech-0132": [
+    {
+      "pattern": "(I've) got to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「Got to get」の部分で確認できる。"
+    },
+    {
+      "pattern": "be going to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「're going to be」の部分で確認できる。"
+    },
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「be snowed」の部分で確認できる。"
+    },
+    {
+      "pattern": "as if / as though + S + V",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「as though you're going to be snowed up here」の部分で確認できる。"
+    },
+    {
+      "pattern": "(I) hope ...（主語省略）",
+      "description": "この箇所では「(I) hope ...（主語省略）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「Hope you」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0133": [],
+  "act1-scene1-speech-0134": [],
+  "act1-scene1-speech-0135": [],
+  "act1-scene1-speech-0136": [],
+  "act1-scene1-speech-0137": [],
+  "act1-scene1-speech-0138": [
+    {
+      "pattern": "seem + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「seem to think」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0139": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「have been」の部分で確認できる。"
+    },
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「been broadcast」の部分で確認できる。"
+    },
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「Doesn't say much, does it?」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0140": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「Fit pretty well anyone, wouldn't it?」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0141": [],
+  "act1-scene1-speech-0142": [],
+  "act1-scene1-speech-0143": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「was murdered」の部分で確認できる。"
+    },
+    {
+      "pattern": "先行詞 + who + ...",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「the woman who was murdered」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0144": [],
+  "act1-scene1-speech-0145": [],
+  "act1-scene1-speech-0146": [
+    {
+      "pattern": "seem + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「seem to have」の部分で確認できる。"
+    },
+    {
+      "pattern": "to have + 過去分詞（完了不定詞）",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「to have been」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0147": [],
+  "act1-scene1-speech-0148": [],
+  "act1-scene1-speech-0149": [
+    {
+      "pattern": "How d'you do?",
+      "description": "この箇所では「How d'you do?」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「How d'you do」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0150": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if you'd like a bath」の部分で確認できる。"
+    },
+    {
+      "pattern": "Would/Could you + 動詞原形 ...?",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「Would you like」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0151": [],
+  "act1-scene1-speech-0152": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「I was thinking」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0153": [
+    {
+      "pattern": "I should say/think/advise ...",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「I should think」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0154": [
+    {
+      "pattern": "let + 人 + 動詞原形",
+      "description": "この箇所では「let + 人 + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「let me help」の部分で確認できる。"
+    },
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「You've got eggs, haven't you?」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0155": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've put」の部分で確認できる。"
+    },
+    {
+      "pattern": "as ... as S should (do)（動詞句の省略）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「as well as they should」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0156": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if you've got a bottle of cheap」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0157": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「If our guests want to do the cooking themselves」の部分で確認できる。"
+    },
+    {
+      "pattern": "want + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「want to do」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0158": [],
+  "act1-scene1-speech-0159": [],
+  "act1-scene1-speech-0160": [],
+  "act1-scene1-speech-0161": [],
+  "act1-scene1-speech-0162": [],
+  "act1-scene1-speech-0163": [],
+  "act1-scene1-speech-0164": [
+    {
+      "pattern": "if you ask me（談話表現）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「If you ask me」の部分で確認できる。"
+    },
+    {
+      "pattern": "先行詞 + who + ...",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「those young men who go about」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there was nothing inside it」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0165": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「I think Miss Casewell's rather peculiar, don't you?」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0166": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if she is a female」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0167": [
+    {
+      "pattern": "評価表現 + that + S + should ...",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「hard that all our guests should be」の部分で確認できる。"
+    },
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「Anyway, I think Major Metcalf's all right, don't you?」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0168": [],
+  "act1-scene1-speech-0169": [],
+  "act1-scene1-speech-0170": [],
+  "act1-scene1-speech-0171": [],
+  "act1-scene1-speech-0172": [],
+  "act1-scene1-speech-0173": [],
+  "act1-scene1-speech-0174": [],
+  "act1-scene1-speech-0175": [],
+  "act1-scene1-speech-0176": [],
+  "act1-scene1-speech-0177": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「has run」の部分で確認できる。"
+    },
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「am saved」の部分で確認できる。"
+    },
+    {
+      "pattern": "let + 人 + 動詞原形",
+      "description": "この箇所では「let + 人 + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「let me have」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know where I am」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0178": [],
+  "act1-scene1-speech-0179": [],
+  "act1-scene1-speech-0180": [],
+  "act1-scene1-speech-0181": [],
+  "act1-scene1-speech-0182": [],
+  "act1-scene1-speech-0183": [],
+  "act1-scene1-speech-0184": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「have locked」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0185": [
+    {
+      "pattern": "Wouldn't it be better to do ...?",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「wouldn't it be better」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0186": [
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there will be no thieves abroad」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0187": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「are occupied」の部分で確認できる。"
+    }
+  ],
+  "act1-scene1-speech-0188": [],
+  "act1-scene1-speech-0189": [],
+  "act1-scene1-speech-0190": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「are cut」の部分で確認できる。"
+    },
+    {
+      "pattern": "先行詞 + who + ...",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「The guest who just arrived」の部分で確認できる。"
+    },
+    {
+      "pattern": "先行詞 + that + ...（関係節）",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「The guest that you did not invite」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there will be no more arrivals」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0001": [
+    {
+      "pattern": "to have + 過去分詞（完了不定詞）",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「to have told」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0002": [],
+  "act1-scene2-speech-0003": [
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there should be a proper staff」の部分で確認できる。"
+    },
+    {
+      "pattern": "There should be ...（必要・当然）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「there should be a proper staff」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0004": [],
+  "act1-scene2-speech-0005": [],
+  "act1-scene2-speech-0006": [],
+  "act1-scene2-speech-0007": [],
+  "act1-scene2-speech-0008": [],
+  "act1-scene2-speech-0009": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「been given」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「see why the best bedroom should have」の部分で確認できる。"
+    },
+    {
+      "pattern": "why + S + should have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「why the best bedroom should have been given」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0010": [],
+  "act1-scene2-speech-0011": [
+    {
+      "pattern": "would + 動詞原形（過去から見た未来・予想）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「this place would be like」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0012": [],
+  "act1-scene2-speech-0013": [],
+  "act1-scene2-speech-0014": [],
+  "act1-scene2-speech-0015": [
+    {
+      "pattern": "shan't + 動詞原形",
+      "description": "この箇所では「shan't + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「shan't stay」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0016": [],
+  "act1-scene2-speech-0017": [
+    {
+      "pattern": "I shouldn't be surprised / wonder",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「I shouldn't wonder」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0018": [],
+  "act1-scene2-speech-0019": [],
+  "act1-scene2-speech-0020": [],
+  "act1-scene2-speech-0021": [],
+  "act1-scene2-speech-0022": [],
+  "act1-scene2-speech-0023": [],
+  "act1-scene2-speech-0024": [],
+  "act1-scene2-speech-0025": [],
+  "act1-scene2-speech-0026": [],
+  "act1-scene2-speech-0027": [],
+  "act1-scene2-speech-0028": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if there was a fire」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there was a fire」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0029": [
+    {
+      "pattern": "should have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「should have been」の部分で確認できる。"
+    },
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「been done」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0030": [
+    {
+      "pattern": "had to + 動詞原形",
+      "description": "had to + 動詞原形で、過去の必要・義務「～しなければならなかった」を表す。 原文では「had to cook」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0031": [
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「There should be a proper staff」の部分で確認できる。"
+    },
+    {
+      "pattern": "There should be ...（必要・当然）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「There should be a proper staff」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0032": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「Not very easy to get nowadays, is it?」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0033": [
+    {
+      "pattern": "seem + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「seem to have」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0034": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「Got the bit between their teeth, haven't they?」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0035": [],
+  "act1-scene2-speech-0036": [
+    {
+      "pattern": "I wouldn't say ...（控えめな否定判断）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「I wouldn't say that」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0037": [],
+  "act1-scene2-speech-0038": [
+    {
+      "pattern": "have to + 動詞原形",
+      "description": "have to + 動詞原形で、事情による必要・義務を表す。 原文では「have to cook」の部分で確認できる。"
+    },
+    {
+      "pattern": "have to + 動詞原形",
+      "description": "have to + 動詞原形で、事情による必要・義務を表す。 原文では「have to do」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0039": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「has gone」の部分で確認できる。"
+    },
+    {
+      "pattern": "used to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「used to be」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0040": [],
+  "act1-scene2-speech-0041": [],
+  "act1-scene2-speech-0042": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「it's done」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0043": [],
+  "act1-scene2-speech-0044": [],
+  "act1-scene2-speech-0045": [],
+  "act1-scene2-speech-0046": [],
+  "act1-scene2-speech-0047": [
+    {
+      "pattern": "Would/Could you + 動詞原形 ...?",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「Would you mind」の部分で確認できる。"
+    },
+    {
+      "pattern": "Would you mind + -ing ...?",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「Would you mind not having」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0048": [],
+  "act1-scene2-speech-0049": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「If you don't particularly want to listen just now」の部分で確認できる。"
+    },
+    {
+      "pattern": "want + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「want to listen」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0050": [],
+  "act1-scene2-speech-0051": [],
+  "act1-scene2-speech-0052": [],
+  "act1-scene2-speech-0053": [],
+  "act1-scene2-speech-0054": [],
+  "act1-scene2-speech-0055": [
+    {
+      "pattern": "seems + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「seems to hunt」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0056": [],
+  "act1-scene2-speech-0057": [],
+  "act1-scene2-speech-0058": [],
+  "act1-scene2-speech-0059": [],
+  "act1-scene2-speech-0060": [],
+  "act1-scene2-speech-0061": [],
+  "act1-scene2-speech-0062": [
+    {
+      "pattern": "'d + 過去分詞（had の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「She'd pinched」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0063": [],
+  "act1-scene2-speech-0064": [],
+  "act1-scene2-speech-0065": [],
+  "act1-scene2-speech-0066": [
+    {
+      "pattern": "may/might have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「may have happened」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0067": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「Snow's rather lovely, isn't it?」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0068": [
+    {
+      "pattern": "make + 人 + 動詞原形",
+      "description": "この箇所では「make + 人 + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「make me forget」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0069": [],
+  "act1-scene2-speech-0070": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「I was thinking」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0071": [],
+  "act1-scene2-speech-0072": [],
+  "act1-scene2-speech-0073": [],
+  "act1-scene2-speech-0074": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「You didn't know I was a writer, did you?」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0075": [],
+  "act1-scene2-speech-0076": [],
+  "act1-scene2-speech-0077": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「're snowed」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0078": [
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know where there's another spade」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0079": [],
+  "act1-scene2-speech-0080": [],
+  "act1-scene2-speech-0081": [],
+  "act1-scene2-speech-0082": [],
+  "act1-scene2-speech-0083": [
+    {
+      "pattern": "would + 動詞句の省略（過去から見た未来）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「that he would」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0084": [],
+  "act1-scene2-speech-0085": [
+    {
+      "pattern": "had to + 動詞原形",
+      "description": "had to + 動詞原形で、過去の必要・義務「～しなければならなかった」を表す。 原文では「had to say」の部分で確認できる。"
+    },
+    {
+      "pattern": "what + S + V（先行詞を含む関係詞）",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「what I asked」の部分で確認できる。"
+    },
+    {
+      "pattern": "would not + 動詞原形（拒否・意志）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「he wouldn't say」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0086": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've done」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0087": [],
+  "act1-scene2-speech-0088": [
+    {
+      "pattern": "remember + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「remember to get」の部分で確認できる。"
+    },
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「I did remember to get the wireless licence, didn't I?」の部分で確認できる。"
+    },
+    {
+      "pattern": "do/does/did + 動詞原形（強調）",
+      "description": "この箇所では「do/does/did + 動詞原形（強調）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「I did remember」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0089": [],
+  "act1-scene2-speech-0090": [],
+  "act1-scene2-speech-0091": [
+    {
+      "pattern": "must have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「must have done」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0092": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've ignored」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0093": [
+    {
+      "pattern": "be going to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「're going to be」の部分で確認できる。"
+    },
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「be snowed」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0094": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've filled」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0095": [],
+  "act1-scene2-speech-0096": [],
+  "act1-scene2-speech-0097": [
+    {
+      "pattern": "be + -ing（進行形）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「I am paying」の部分で確認できる。"
+    },
+    {
+      "pattern": "want + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「want to freeze」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0098": [],
+  "act1-scene2-speech-0099": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if you don't mind my saying so」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0100": [],
+  "act1-scene2-speech-0101": [],
+  "act1-scene2-speech-0102": [],
+  "act1-scene2-speech-0103": [
+    {
+      "pattern": "seem + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「seem to think」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + that + S + V（内容節）",
+      "description": "that節またはthatを含む構造の役割を、節内での文法機能から判別する。 原文では「think that no one is educated but yourselves」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0104": [
+    {
+      "pattern": "would + 動詞原形（過去から見た未来・予想）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「he'd be an architect」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0105": [
+    {
+      "pattern": "if I were you",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if I were you」の部分で確認できる。"
+    },
+    {
+      "pattern": "should + 動詞原形（助言）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「I should make some enquiries」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0106": [
+    {
+      "pattern": "whether + S + V（〜かどうか）",
+      "description": "この箇所では「whether + S + V（〜かどうか）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「whether I like my guests」の部分で確認できる。"
+    },
+    {
+      "pattern": "whether + S + V（〜かどうか）",
+      "description": "この箇所では「whether + S + V（〜かどうか）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「whether I don't」の部分で確認できる。"
+    },
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「That is really all I need to know, isn't it?」の部分で確認できる。"
+    },
+    {
+      "pattern": "as + 形容詞/副詞 + as ...",
+      "description": "asを含む比較・接続表現で、前後の要素の関係を示す。固定表現との区別が重要。 原文では「as much as I know about you」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0107": [
+    {
+      "pattern": "should + 動詞原形（助言・当然）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「should welcome advice」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0108": [],
+  "act1-scene2-speech-0109": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「You weren't expecting him, were you?」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0110": [
+    {
+      "pattern": "should + 動詞原形（当然・助言）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「You should know that」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0111": [],
+  "act1-scene2-speech-0112": [],
+  "act1-scene2-speech-0113": [],
+  "act1-scene2-speech-0114": [],
+  "act1-scene2-speech-0115": [
+    {
+      "pattern": "知覚動詞 + O + 動詞原形",
+      "description": "この箇所では「知覚動詞 + O + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「hear you come」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0116": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if I do not want them to」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0117": [],
+  "act1-scene2-speech-0118": [
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there was a young lady」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0119": [
+    {
+      "pattern": "動詞 + if + S + V（〜かどうか）",
+      "description": "ifが名詞節を導き「～かどうか」を表す。条件を表すifとは区別する。 原文では「see if it's a little warmer in the drawing room」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0120": [],
+  "act1-scene2-speech-0121": [],
+  "act1-scene2-speech-0122": [
+    {
+      "pattern": "make + O + C（形容詞）",
+      "description": "この箇所では「make + O + C（形容詞）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「makes things difficult」の部分で確認できる。"
+    },
+    {
+      "pattern": "make + O + C（形容詞）",
+      "description": "この箇所では「make + O + C（形容詞）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「makes them easy」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0123": [
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know what you mean」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0124": [
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there is quite a lot you」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0125": [],
+  "act1-scene2-speech-0126": [],
+  "act1-scene2-speech-0127": [],
+  "act1-scene2-speech-0128": [
+    {
+      "pattern": "May I + 動詞原形 ...?",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「May I give」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0129": [],
+  "act1-scene2-speech-0130": [
+    {
+      "pattern": "先行詞 + who + ...",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「the people who sleep under your roof」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0131": [],
+  "act1-scene2-speech-0132": [],
+  "act1-scene2-speech-0133": [],
+  "act1-scene2-speech-0134": [
+    {
+      "pattern": "too + 形容詞/副詞 + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「too cold to sit」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0135": [
+    {
+      "pattern": "allow + 人 + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「Allow me to poke」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0136": [],
+  "act1-scene2-speech-0137": [],
+  "act1-scene2-speech-0138": [],
+  "act1-scene2-speech-0139": [],
+  "act1-scene2-speech-0140": [],
+  "act1-scene2-speech-0141": [],
+  "act1-scene2-speech-0142": [],
+  "act1-scene2-speech-0143": [
+    {
+      "pattern": "May I + 動詞原形 ...?",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「May I put」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0144": [],
+  "act1-scene2-speech-0145": [],
+  "act1-scene2-speech-0146": [],
+  "act1-scene2-speech-0147": [],
+  "act1-scene2-speech-0148": [],
+  "act1-scene2-speech-0149": [],
+  "act1-scene2-speech-0150": [],
+  "act1-scene2-speech-0151": [],
+  "act1-scene2-speech-0152": [],
+  "act1-scene2-speech-0153": [
+    {
+      "pattern": "may/might (not) + 動詞原形",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「may believe」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0154": [],
+  "act1-scene2-speech-0155": [],
+  "act1-scene2-speech-0156": [],
+  "act1-scene2-speech-0157": [
+    {
+      "pattern": "not + 全体性/程度表現（部分否定）",
+      "description": "否定辞がどの語句・節にかかるかを確認し、否定の範囲を正確に読む。 原文では「not quite」の部分で確認できる。"
+    },
+    {
+      "pattern": "as + 形容詞/副詞 + as ...",
+      "description": "asを含む比較・接続表現で、前後の要素の関係を示す。固定表現との区別が重要。 原文では「as young as I look」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0158": [],
+  "act1-scene2-speech-0159": [],
+  "act1-scene2-speech-0160": [
+    {
+      "pattern": "May I + 動詞原形 ...?",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「may I use」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0161": [],
+  "act1-scene2-speech-0162": [
+    {
+      "pattern": "動詞 + that + S + V（内容節）",
+      "description": "that節またはthatを含む構造の役割を、節内での文法機能から判別する。 原文では「think that policemen are very attractive」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0163": [],
+  "act1-scene2-speech-0164": [],
+  "act1-scene2-speech-0165": [],
+  "act1-scene2-speech-0166": [
+    {
+      "pattern": "'s + 過去分詞（has の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「line's gone」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0167": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「That's funny, isn't it?」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0168": [],
+  "act1-scene2-speech-0169": [],
+  "act1-scene2-speech-0170": [],
+  "act1-scene2-speech-0171": [],
+  "act1-scene2-speech-0172": [
+    {
+      "pattern": "if so（条件節の省略）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「If so」の部分で確認できる。"
+    },
+    {
+      "pattern": "want + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「want to see」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0173": [
+    {
+      "pattern": "If I might + 動詞原形 ...（控えめな申し出）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「If I might sit at this table」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if everybody's present」の部分で確認できる。"
+    },
+    {
+      "pattern": "may/might (not) + 動詞原形",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「might sit」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0174": [],
+  "act1-scene2-speech-0175": [],
+  "act1-scene2-speech-0176": [],
+  "act1-scene2-speech-0177": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if you understand me」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0178": [],
+  "act1-scene2-speech-0179": [
+    {
+      "pattern": "may/might have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「may have heard」の部分で確認できる。"
+    },
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「was murdered」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0180": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「was strangled」の部分で確認できる。"
+    },
+    {
+      "pattern": "先行詞 + who + ...",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「The woman who was strangled」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0181": [
+    {
+      "pattern": "know ... is if + S + V（〜かどうか）",
+      "description": "ifが名詞節を導き「～かどうか」を表す。条件を表すifとは区別する。 原文では「know is if you were acquainted with this Mrs」の部分で確認できる。"
+    },
+    {
+      "pattern": "want + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「want to know」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0182": [],
+  "act1-scene2-speech-0183": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「have known」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0184": [],
+  "act1-scene2-speech-0185": [],
+  "act1-scene2-speech-0186": [],
+  "act1-scene2-speech-0187": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「was found」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0188": [],
+  "act1-scene2-speech-0189": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「were sentenced」の部分で確認できる。"
+    },
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「was found」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0190": [],
+  "act1-scene2-speech-0191": [],
+  "act1-scene2-speech-0192": [],
+  "act1-scene2-speech-0193": [
+    {
+      "pattern": "動詞 + if + S + V（〜かどうか）",
+      "description": "ifが名詞節を導き「～かどうか」を表す。条件を表すifとは区別する。 原文では「find out if you knew of any connection between this house」の部分で確認できる。"
+    },
+    {
+      "pattern": "前置詞 + -ing",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「on receiving」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0194": [],
+  "act1-scene2-speech-0195": [
+    {
+      "pattern": "would have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「'd have come」の部分で確認できる。"
+    },
+    {
+      "pattern": "had + 過去分詞（過去完了）",
+      "description": "had + 過去分詞で、ある過去時点より前の出来事を示す。 原文では「had been」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + S + had + 過去分詞",
+      "description": "had + 過去分詞で、ある過去時点より前の出来事を示す。 原文では「if it had been」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0196": [
+    {
+      "pattern": "be going to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「is going to be」の部分で確認できる。"
+    },
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「be killed」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0197": [
+    {
+      "pattern": "want + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「want to frighten」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0198": [],
+  "act1-scene2-speech-0199": [],
+  "act1-scene2-speech-0200": [],
+  "act1-scene2-speech-0201": [],
+  "act1-scene2-speech-0202": [],
+  "act1-scene2-speech-0203": [
+    {
+      "pattern": "I must say ...",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「I must say」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0204": [],
+  "act1-scene2-speech-0205": [],
+  "act1-scene2-speech-0206": [
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know how it goes」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0207": [],
+  "act1-scene2-speech-0208": [
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「There were three children and one」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0209": [],
+  "act1-scene2-speech-0210": [],
+  "act1-scene2-speech-0211": [
+    {
+      "pattern": "would be ...（推量）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「would now be about twenty-two」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0212": [
+    {
+      "pattern": "先行詞 + who + ...",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「he who killed Mrs. Lyon」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + that + S + V（内容節）",
+      "description": "that節またはthatを含む構造の役割を、節内での文法機能から判別する。 原文では「think that it was he who killed Mrs」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0213": [],
+  "act1-scene2-speech-0214": [
+    {
+      "pattern": "try + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「try to kill」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0215": [
+    {
+      "pattern": "have got to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「've got to find」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there must be some connection」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0216": [],
+  "act1-scene2-speech-0217": [],
+  "act1-scene2-speech-0218": [],
+  "act1-scene2-speech-0219": [],
+  "act1-scene2-speech-0220": [
+    {
+      "pattern": "Do/Would you mind if + S + V ...?",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「Would you mind, Sergeant Trotter, if I went to the kitchen」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if you want me」の部分で確認できる。"
+    },
+    {
+      "pattern": "Would/Could you + 動詞原形 ...?",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「Would you mind」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0221": [],
+  "act1-scene2-speech-0222": [],
+  "act1-scene2-speech-0223": [
+    {
+      "pattern": "'d + 過去分詞（had の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「You'd planned」の部分で確認できる。"
+    },
+    {
+      "pattern": "'d + 過去分詞（had の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「You'd booked」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0224": [],
+  "act1-scene2-speech-0225": [],
+  "act1-scene2-speech-0226": [
+    {
+      "pattern": "have got to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「've got to know」の部分で確認できる。"
+    },
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「you were coming」の部分で確認できる。"
+    },
+    {
+      "pattern": "may/might (not) + 動詞原形",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「might know」の部分で確認できる。"
+    },
+    {
+      "pattern": "want + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「want to know」の部分で確認できる。"
+    },
+    {
+      "pattern": "seem + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「seem to have」の部分で確認できる。"
+    },
+    {
+      "pattern": "to have + 過去分詞（完了不定詞）",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「to have arrived」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know which one that is」の部分で確認できる。"
+    },
+    {
+      "pattern": "'s been + -ing（現在完了進行形）",
+      "description": "have/has been + -ingで、過去から続く動作や現在に残る継続性を表す。 原文では「who's been following」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0227": [
+    {
+      "pattern": "have/has been + -ing",
+      "description": "have/has been + -ingで、過去から続く動作や現在に残る継続性を表す。 原文では「have been talking」の部分で確認できる。"
+    },
+    {
+      "pattern": "what + S + V（先行詞を含む関係詞）",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「what you have」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0228": [],
+  "act1-scene2-speech-0229": [
+    {
+      "pattern": "why should + S + 動詞原形 ...?",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「Why on earth should I」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0230": [],
+  "act1-scene2-speech-0231": [],
+  "act1-scene2-speech-0232": [],
+  "act1-scene2-speech-0233": [],
+  "act1-scene2-speech-0234": [],
+  "act1-scene2-speech-0235": [],
+  "act1-scene2-speech-0236": [
+    {
+      "pattern": "have to + 動詞原形",
+      "description": "have to + 動詞原形で、事情による必要・義務を表す。 原文では「have to say」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if one of you gets murdered」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0237": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「He's very attractive, isn't he?」の部分で確認できる。"
+    },
+    {
+      "pattern": "do/does/did + 動詞原形（強調）",
+      "description": "この箇所では「do/does/did + 動詞原形（強調）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「I do admire」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0238": [],
+  "act1-scene2-speech-0239": [],
+  "act1-scene2-speech-0240": [],
+  "act1-scene2-speech-0241": [],
+  "act1-scene2-speech-0242": [],
+  "act1-scene2-speech-0243": [],
+  "act1-scene2-speech-0244": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「If you could just see your faces」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0245": [],
+  "act1-scene2-speech-0246": [],
+  "act1-scene2-speech-0247": [],
+  "act1-scene2-speech-0248": [
+    {
+      "pattern": "have/has been + -ing",
+      "description": "have/has been + -ingで、過去から続く動作や現在に残る継続性を表す。 原文では「has been behaving」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0249": [],
+  "act1-scene2-speech-0250": [
+    {
+      "pattern": "先行詞 + who + ...",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「people who say they have nerves」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0251": [],
+  "act1-scene2-speech-0252": [],
+  "act1-scene2-speech-0253": [],
+  "act1-scene2-speech-0254": [],
+  "act1-scene2-speech-0255": [],
+  "act1-scene2-speech-0256": [],
+  "act1-scene2-speech-0257": [],
+  "act1-scene2-speech-0258": [],
+  "act1-scene2-speech-0259": [],
+  "act1-scene2-speech-0260": [],
+  "act1-scene2-speech-0261": [],
+  "act1-scene2-speech-0262": [],
+  "act1-scene2-speech-0263": [],
+  "act1-scene2-speech-0264": [
+    {
+      "pattern": "as if / as though + S + V",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「as though he were quite young」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0265": [
+    {
+      "pattern": "will be + -ing",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「'll be wanting」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0266": [],
+  "act1-scene2-speech-0267": [],
+  "act1-scene2-speech-0268": [],
+  "act1-scene2-speech-0269": [],
+  "act1-scene2-speech-0270": [],
+  "act1-scene2-speech-0271": [],
+  "act1-scene2-speech-0272": [],
+  "act1-scene2-speech-0273": [],
+  "act1-scene2-speech-0274": [],
+  "act1-scene2-speech-0275": [],
+  "act1-scene2-speech-0276": [],
+  "act1-scene2-speech-0277": [],
+  "act1-scene2-speech-0278": [
+    {
+      "pattern": "動詞 + that + S + V（内容節）",
+      "description": "that節またはthatを含む構造の役割を、節内での文法機能から判別する。 原文では「say that what happened when you're a child matters more than anything」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0279": [],
+  "act1-scene2-speech-0280": [],
+  "act1-scene2-speech-0281": [],
+  "act1-scene2-speech-0282": [],
+  "act1-scene2-speech-0283": [],
+  "act1-scene2-speech-0284": [],
+  "act1-scene2-speech-0285": [],
+  "act1-scene2-speech-0286": [],
+  "act1-scene2-speech-0287": [],
+  "act1-scene2-speech-0288": [
+    {
+      "pattern": "make + 人 + 動詞原形",
+      "description": "この箇所では「make + 人 + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「make you remember」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0289": [],
+  "act1-scene2-speech-0290": [],
+  "act1-scene2-speech-0291": [],
+  "act1-scene2-speech-0292": [
+    {
+      "pattern": "be + -ing（進行形）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「I am talking」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know what I am talking about」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0293": [
+    {
+      "pattern": "be going to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「is going to affect」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0294": [],
+  "act1-scene2-speech-0295": [
+    {
+      "pattern": "Would/Could you + 動詞原形 ...?",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「Would you mind」の部分で確認できる。"
+    },
+    {
+      "pattern": "Would you mind + -ing ...?",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「Would you mind shutting」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + -ing（動名詞）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「mind shutting」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0296": [
+    {
+      "pattern": "have got to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「've got to get」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0297": [],
+  "act1-scene2-speech-0298": [],
+  "act1-scene2-speech-0299": [],
+  "act1-scene2-speech-0300": [],
+  "act1-scene2-speech-0301": [],
+  "act1-scene2-speech-0302": [],
+  "act1-scene2-speech-0303": [],
+  "act1-scene2-speech-0304": [
+    {
+      "pattern": "may/might have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「may have been」の部分で確認できる。"
+    },
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「been cut」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0305": [],
+  "act1-scene2-speech-0306": [
+    {
+      "pattern": "先行詞 + who + ...",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「these people who are staying in your guest house」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0307": [],
+  "act1-scene2-speech-0308": [],
+  "act1-scene2-speech-0309": [],
+  "act1-scene2-speech-0310": [],
+  "act1-scene2-speech-0311": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've told」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0312": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「be placed」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0313": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if this ― this maniac is trying to get here」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0314": [
+    {
+      "pattern": "unless + S + V",
+      "description": "この箇所では「unless + S + V」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「Unless he's here already」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0315": [],
+  "act1-scene2-speech-0316": [],
+  "act1-scene2-speech-0317": [],
+  "act1-scene2-speech-0318": [],
+  "act1-scene2-speech-0319": [
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there will be another here」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0320": [
+    {
+      "pattern": "hope + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「hope to prevent」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0321": [],
+  "act1-scene2-speech-0322": [],
+  "act1-scene2-speech-0323": [],
+  "act1-scene2-speech-0324": [
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「There are three darkish overcoats hanging」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「There are three lightish felt hats」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0325": [],
+  "act1-scene2-speech-0326": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「If it's been cut」の部分で確認できる。"
+    },
+    {
+      "pattern": "先行詞 + that + ...（関係節）",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「this telephone wire that worries」の部分で確認できる。"
+    },
+    {
+      "pattern": "'s been + 過去分詞（現在完了の受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「it's been cut」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0327": [],
+  "act1-scene2-speech-0328": [],
+  "act1-scene2-speech-0329": [],
+  "act1-scene2-speech-0330": [],
+  "act1-scene2-speech-0331": [],
+  "act1-scene2-speech-0332": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「Go and try it up there for me, will you?」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0333": [
+    {
+      "pattern": "'s + 過去分詞（has の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「Who's left」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0334": [
+    {
+      "pattern": "have to + 動詞原形",
+      "description": "have to + 動詞原形で、事情による必要・義務を表す。 原文では「have to study」の部分で確認できる。"
+    },
+    {
+      "pattern": "may/might (not) + 動詞原形",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「may term」の部分で確認できる。"
+    }
+  ],
+  "act1-scene2-speech-0335": [],
+  "act1-scene2-speech-0336": [],
+  "act2-speech-0001": [],
+  "act2-speech-0002": [],
+  "act2-speech-0003": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「been killed」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0004": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「I wouldn't hear anything else with that, would I?」の部分で確認できる。"
+    },
+    {
+      "pattern": "would + 動詞原形（仮定的な結果）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「I wouldn't hear anything else」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0005": [],
+  "act2-speech-0006": [],
+  "act2-speech-0007": [
+    {
+      "pattern": "may/might have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「might have done」の部分で確認できる。"
+    },
+    {
+      "pattern": "may/might have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「might have heard」の部分で確認できる。"
+    },
+    {
+      "pattern": "may/might have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「might have slipped」の部分で確認できる。"
+    },
+    {
+      "pattern": "had + 過去分詞（過去完了）",
+      "description": "had + 過去分詞で、ある過去時点より前の出来事を示す。 原文では「had left」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + S + had + 過去分詞",
+      "description": "had + 過去分詞で、ある過去時点より前の出来事を示す。 原文では「If the murderer had left」の部分で確認できる。"
+    },
+    {
+      "pattern": "知覚動詞 + O + -ing",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「heard you coming」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0008": [
+    {
+      "pattern": "知覚動詞 + O + 動詞原形",
+      "description": "この箇所では「知覚動詞 + O + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「heard a door creak」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0009": [],
+  "act2-speech-0010": [],
+  "act2-speech-0011": [],
+  "act2-speech-0012": [],
+  "act2-speech-0013": [],
+  "act2-speech-0014": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「has taken」の部分で確認できる。"
+    },
+    {
+      "pattern": "unless + S + V",
+      "description": "この箇所では「unless + S + V」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「Unless we get to the bottom of this ― and quickly」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there may be another death」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0015": [],
+  "act2-speech-0016": [
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there were three little blind mice」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0017": [
+    {
+      "pattern": "have to + 動詞原形",
+      "description": "have to + 動詞原形で、事情による必要・義務を表す。 原文では「have to be」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0018": [
+    {
+      "pattern": "have to + 動詞原形",
+      "description": "have to + 動詞原形で、事情による必要・義務を表す。 原文では「have to be」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0019": [],
+  "act2-speech-0020": [
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there were only two addresses in」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there was only one possible victim」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there is a wider field」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0021": [
+    {
+      "pattern": "評価表現 + that + S + should ...",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「unlikely coincidence that there should be」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there should be two people brought here」の部分で確認できる。"
+    },
+    {
+      "pattern": "would be ...（仮定的な評価）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「it would be a most unlikely coincidence」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0022": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「The radio was blaring」の部分で確認できる。"
+    },
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「was killed」の部分で確認できる。"
+    },
+    {
+      "pattern": "want + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「want to get」の部分で確認できる。"
+    },
+    {
+      "pattern": "would be ...（仮定的な評価）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「it wouldn't be so much of a coincidence」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0023": [],
+  "act2-speech-0024": [],
+  "act2-speech-0025": [
+    {
+      "pattern": "動詞 + if + S + V（〜かどうか）",
+      "description": "ifが名詞節を導き「～かどうか」を表す。条件を表すifとは区別する。 原文では「see if I could see any sign of the wires being cut there」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0026": [],
+  "act2-speech-0027": [],
+  "act2-speech-0028": [
+    {
+      "pattern": "I should say/think/advise ...",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「I should say」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0029": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「I was thinking」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0030": [],
+  "act2-speech-0031": [
+    {
+      "pattern": "'d + 過去分詞（had の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「I'd been」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + if + S + V（〜かどうか）",
+      "description": "ifが名詞節を導き「～かどうか」を表す。条件を表すifとは区別する。 原文では「seeing if there was anything I could do to help Mrs」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there was anything I could do」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0032": [],
+  "act2-speech-0033": [
+    {
+      "pattern": "want + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「want to be」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0034": [
+    {
+      "pattern": "wanted + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「wanted to be」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0035": [
+    {
+      "pattern": "wanted + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「wanted to brush」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0036": [
+    {
+      "pattern": "wanted + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「wanted to brush」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0037": [],
+  "act2-speech-0038": [],
+  "act2-speech-0039": [],
+  "act2-speech-0040": [],
+  "act2-speech-0041": [],
+  "act2-speech-0042": [],
+  "act2-speech-0043": [],
+  "act2-speech-0044": [],
+  "act2-speech-0045": [],
+  "act2-speech-0046": [],
+  "act2-speech-0047": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「have told」の部分で確認できる。"
+    },
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「I was playing」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0048": [
+    {
+      "pattern": "知覚動詞 + O + -ing",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「hear you playing」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0049": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「I was playing」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0050": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「You were playing」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0051": [],
+  "act2-speech-0052": [
+    {
+      "pattern": "Shall I/we + 動詞原形 ...?",
+      "description": "この箇所では「Shall I/we + 動詞原形 ...?」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「shall I say」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0053": [],
+  "act2-speech-0054": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「Someone was whistling」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0055": [],
+  "act2-speech-0056": [],
+  "act2-speech-0057": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「Who was whistling」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0058": [
+    {
+      "pattern": "would not + 動詞原形（意志・性向）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「I would not do a thing like that」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0059": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「you were playing」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0060": [],
+  "act2-speech-0061": [],
+  "act2-speech-0062": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「I was writing」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0063": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「what was going」の部分で確認できる。"
+    },
+    {
+      "pattern": "Would/Could you + 動詞原形 ...?",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「Could you hear」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0064": [
+    {
+      "pattern": "not ... until ...",
+      "description": "否定辞がどの語句・節にかかるかを確認し、否定の範囲を正確に読む。 原文では「didn't hear anything until Mrs」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0065": [],
+  "act2-speech-0066": [],
+  "act2-speech-0067": [],
+  "act2-speech-0068": [],
+  "act2-speech-0069": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「you were writing」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0070": [],
+  "act2-speech-0071": [],
+  "act2-speech-0072": [],
+  "act2-speech-0073": [
+    {
+      "pattern": "seem + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「seem to be」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0074": [],
+  "act2-speech-0075": [],
+  "act2-speech-0076": [],
+  "act2-speech-0077": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「I was writing」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + S + were to do",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if I were to hear」の部分で確認できる。"
+    },
+    {
+      "pattern": "前置詞 + -ing",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「before going」の部分で確認できる。"
+    },
+    {
+      "pattern": "知覚動詞 + O + -ing",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「hear someone screaming」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「see what was the matter」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + were to ... would + 動詞原形（仮定の結果）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「I'd take the time」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0078": [],
+  "act2-speech-0079": [],
+  "act2-speech-0080": [
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there was another door inside it」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0081": [],
+  "act2-speech-0082": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「is called」の部分で確認できる。"
+    },
+    {
+      "pattern": "I should say/think/advise ...",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「I should say」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0083": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「has told」の部分で確認できる。"
+    },
+    {
+      "pattern": "前置詞 + -ing",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「after killing」の部分で確認できる。"
+    },
+    {
+      "pattern": "知覚動詞 + O + 動詞原形",
+      "description": "この箇所では「知覚動詞 + O + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「heard a door shut」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0084": [],
+  "act2-speech-0085": [
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「There would be fingerprints on the inside」の部分で確認できる。"
+    },
+    {
+      "pattern": "There would be ...（仮定的な推論）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「There would be fingerprints」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0086": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「But most criminals are careful to wear gloves, aren't they?」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0087": [],
+  "act2-speech-0088": [
+    {
+      "pattern": "動詞 + if + S + V（〜かどうか）",
+      "description": "ifが名詞節を導き「～かどうか」を表す。条件を表すifとは区別する。 原文では「wonder, Sergeant, if that's really true」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0089": [],
+  "act2-speech-0090": [],
+  "act2-speech-0091": [],
+  "act2-speech-0092": [
+    {
+      "pattern": "have got to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「've got to establish」の部分で確認できる。"
+    },
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「was committed」の部分で確認できる。"
+    },
+    {
+      "pattern": "let + 人 + 動詞原形",
+      "description": "この箇所では「let + 人 + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「let me tell」の部分で確認できる。"
+    },
+    {
+      "pattern": "先行詞 + that + ...（関係節）",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「a flight of steps that leads」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「There are two staircases」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0093": [
+    {
+      "pattern": "as if / as though + S + V",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「as though we were all under suspicion」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0094": [],
+  "act2-speech-0095": [
+    {
+      "pattern": "先行詞 + who + ...",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「man who is now twenty-three years of age」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0096": [
+    {
+      "pattern": "be going to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「're going to frame」の部分で確認できる。"
+    },
+    {
+      "pattern": "what + S + V（先行詞を含む関係詞）",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「what it is」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0097": [],
+  "act2-speech-0098": [],
+  "act2-speech-0099": [],
+  "act2-speech-0100": [],
+  "act2-speech-0101": [
+    {
+      "pattern": "have got to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「've got to have」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0102": [
+    {
+      "pattern": "ought (not) to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「ought to be」の部分で確認できる。"
+    },
+    {
+      "pattern": "先行詞 + who + ...",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「person who fits the bill」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0103": [],
+  "act2-speech-0104": [],
+  "act2-speech-0105": [],
+  "act2-speech-0106": [],
+  "act2-speech-0107": [
+    {
+      "pattern": "'s + 過去分詞（has の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「what's come over you」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0108": [],
+  "act2-speech-0109": [
+    {
+      "pattern": "want + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「want to say」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0110": [
+    {
+      "pattern": "動詞 + that + S + V（内容節）",
+      "description": "that節またはthatを含む構造の役割を、節内での文法機能から判別する。 原文では「think that this ― this crazy killer must be the ― eldest」の部分で確認できる。"
+    },
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「the Farm ― but you don't know that, do you?」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0111": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「has been」の部分で確認できる。"
+    },
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「been killed」の部分で確認できる。"
+    },
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「been cut」の部分で確認できる。"
+    },
+    {
+      "pattern": "先行詞 + who + ...",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「the woman who joined with her husband」の部分で確認できる。"
+    },
+    {
+      "pattern": "先行詞 + who + ...",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「the woman magistrate who was responsible」の部分で確認できる。"
+    },
+    {
+      "pattern": "先行詞 + that + ...（関係節）",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「The telephone wire that links」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0112": [
+    {
+      "pattern": "may/might have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「may have been」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0113": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「was cut」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0114": [],
+  "act2-speech-0115": [],
+  "act2-speech-0116": [],
+  "act2-speech-0117": [],
+  "act2-speech-0118": [
+    {
+      "pattern": "seems + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「seems to point」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「There must be other possibilities」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0119": [],
+  "act2-speech-0120": [],
+  "act2-speech-0121": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「were taken」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0122": [],
+  "act2-speech-0123": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「If he's alive」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0124": [
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know where he is now」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0125": [
+    {
+      "pattern": "may/might (not) + 動詞原形",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「may take」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0126": [
+    {
+      "pattern": "may/might have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「may have been」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if the son is mentally unstable」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know where he may be at this」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0127": [],
+  "act2-speech-0128": [
+    {
+      "pattern": "had + 過去分詞（過去完了）",
+      "description": "had + 過去分詞で、ある過去時点より前の出来事を示す。 原文では「had gone」の部分で確認できる。"
+    },
+    {
+      "pattern": "had + 過去分詞（過去完了）",
+      "description": "had + 過去分詞で、ある過去時点より前の出来事を示す。 原文では「had died」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「If he came home」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if he came home and found his wife dead and that his children had gone through some」の部分で確認できる。"
+    },
+    {
+      "pattern": "may/might (not) + 動詞原形",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「might go」の部分で確認できる。"
+    },
+    {
+      "pattern": "前置詞 + -ing",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「after being」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0129": [],
+  "act2-speech-0130": [],
+  "act2-speech-0131": [],
+  "act2-speech-0132": [
+    {
+      "pattern": "had + 過去分詞（過去完了）",
+      "description": "had + 過去分詞で、ある過去時点より前の出来事を示す。 原文では「had rung」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0133": [],
+  "act2-speech-0134": [],
+  "act2-speech-0135": [],
+  "act2-speech-0136": [],
+  "act2-speech-0137": [],
+  "act2-speech-0138": [
+    {
+      "pattern": "had + 過去分詞（過去完了）",
+      "description": "had + 過去分詞で、ある過去時点より前の出来事を示す。 原文では「had rung」の部分で確認できる。"
+    },
+    {
+      "pattern": "do/does/did + 動詞原形（強調）",
+      "description": "この箇所では「do/does/did + 動詞原形（強調）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「Mr. Paravicini did drop」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0139": [],
+  "act2-speech-0140": [
+    {
+      "pattern": "as + 形容詞/副詞 + as ...",
+      "description": "asを含む比較・接続表現で、前後の要素の関係を示す。固定表現との区別が重要。 原文では「as old as he looks」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0141": [
+    {
+      "pattern": "評価表現 + that + S + should ...",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「anxious, aren't you, that it shouldn't be」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0142": [],
+  "act2-speech-0143": [
+    {
+      "pattern": "let + 人 + 動詞原形",
+      "description": "この箇所では「let + 人 + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「let me tell」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「There was a sister」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0144": [],
+  "act2-speech-0145": [
+    {
+      "pattern": "may/might have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「might have been」の部分で確認できる。"
+    },
+    {
+      "pattern": "could have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「could have been」の部分で確認できる。"
+    },
+    {
+      "pattern": "先行詞 + who + ...",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「a woman who killed Maureen Lyon」の部分で確認できる。"
+    },
+    {
+      "pattern": "先行詞 + that + ...（関係節）",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「the voice that gives」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0146": [],
+  "act2-speech-0147": [],
+  "act2-speech-0148": [],
+  "act2-speech-0149": [],
+  "act2-speech-0150": [],
+  "act2-speech-0151": [
+    {
+      "pattern": "比較級 + than ...",
+      "description": "この箇所では「比較級 + than ...」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「older than his years」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0152": [],
+  "act2-speech-0153": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've been」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0154": [],
+  "act2-speech-0155": [],
+  "act2-speech-0156": [],
+  "act2-speech-0157": [],
+  "act2-speech-0158": [],
+  "act2-speech-0159": [],
+  "act2-speech-0160": [],
+  "act2-speech-0161": [],
+  "act2-speech-0162": [],
+  "act2-speech-0163": [],
+  "act2-speech-0164": [],
+  "act2-speech-0165": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if you knew how many cases rather like yours we get」の部分で確認できる。"
+    },
+    {
+      "pattern": "used to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「used to make」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「knew how many cases rather like yours」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + 過去形 ... would + 動詞原形（仮定の結果）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「You'd be surprised」の部分で確認できる。"
+    },
+    {
+      "pattern": "'s + 過去分詞（has の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「he's been in the Air Force」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0166": [],
+  "act2-speech-0167": [],
+  "act2-speech-0168": [],
+  "act2-speech-0169": [],
+  "act2-speech-0170": [],
+  "act2-speech-0171": [],
+  "act2-speech-0172": [],
+  "act2-speech-0173": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「Only thirty miles from London, aren't you?」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0174": [],
+  "act2-speech-0175": [],
+  "act2-speech-0176": [],
+  "act2-speech-0177": [],
+  "act2-speech-0178": [],
+  "act2-speech-0179": [],
+  "act2-speech-0180": [],
+  "act2-speech-0181": [],
+  "act2-speech-0182": [],
+  "act2-speech-0183": [],
+  "act2-speech-0184": [],
+  "act2-speech-0185": [],
+  "act2-speech-0186": [
+    {
+      "pattern": "if only + 節",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「If only I could get away」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0187": [],
+  "act2-speech-0188": [],
+  "act2-speech-0189": [],
+  "act2-speech-0190": [
+    {
+      "pattern": "be going to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「're going to say」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0191": [],
+  "act2-speech-0192": [],
+  "act2-speech-0193": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「Well, it's true, isn't it?」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0194": [],
+  "act2-speech-0195": [
+    {
+      "pattern": "have got to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「've got to grow」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0196": [],
+  "act2-speech-0197": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「Your name isn't really Christopher Wren, is it?」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0198": [],
+  "act2-speech-0199": [],
+  "act2-speech-0200": [],
+  "act2-speech-0201": [],
+  "act2-speech-0202": [
+    {
+      "pattern": "used to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「used to laugh」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0203": [],
+  "act2-speech-0204": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「I was doing」の部分で確認できる。"
+    },
+    {
+      "pattern": "needn't + 動詞原形",
+      "description": "この箇所では「needn't + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「needn't go」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0205": [],
+  "act2-speech-0206": [
+    {
+      "pattern": "would have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「would have taken」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + S + had + 過去分詞",
+      "description": "had + 過去分詞で、ある過去時点より前の出来事を示す。 原文では「if she hadn't died」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + 過去完了 ... would + 動詞原形（反実仮想の結果）",
+      "description": "had + 過去分詞で、ある過去時点より前の出来事を示す。 原文では「Everything would be all right」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0207": [
+    {
+      "pattern": "have got to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「've got to bear」の部分で確認できる。"
+    },
+    {
+      "pattern": "have got to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「've got to go」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0208": [],
+  "act2-speech-0209": [],
+  "act2-speech-0210": [],
+  "act2-speech-0211": [],
+  "act2-speech-0212": [],
+  "act2-speech-0213": [],
+  "act2-speech-0214": [],
+  "act2-speech-0215": [],
+  "act2-speech-0216": [
+    {
+      "pattern": "must have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「must have been」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0217": [
+    {
+      "pattern": "try + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「try to put」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0218": [
+    {
+      "pattern": "前置詞 + -ing",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「instead of facing」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0219": [
+    {
+      "pattern": "seem + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「seem to know」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0220": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「Yes, it's odd, isn't it?」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0221": [],
+  "act2-speech-0222": [
+    {
+      "pattern": "ought (not) to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「ought to stick」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0223": [],
+  "act2-speech-0224": [
+    {
+      "pattern": "may/might (not) + 動詞原形",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「might pinch」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0225": [
+    {
+      "pattern": "would be ...（仮定的な評価）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「That would be frightfully stupid」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0226": [],
+  "act2-speech-0227": [
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know what he thinks」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0228": [],
+  "act2-speech-0229": [
+    {
+      "pattern": "先行詞 + that + ...（関係節）",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「Things that aren't」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0230": [],
+  "act2-speech-0231": [],
+  "act2-speech-0232": [],
+  "act2-speech-0233": [],
+  "act2-speech-0234": [],
+  "act2-speech-0235": [],
+  "act2-speech-0236": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if he was here all day」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0237": [],
+  "act2-speech-0238": [
+    {
+      "pattern": "do/does/did + 動詞原形（強調）",
+      "description": "この箇所では「do/does/did + 動詞原形（強調）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「he did go」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0239": [
+    {
+      "pattern": "'d + 過去分詞（had の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「he'd been」の部分で確認できる。"
+    },
+    {
+      "pattern": "why should + S + 動詞原形 ...?",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「why shouldn't he」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0240": [],
+  "act2-speech-0241": [],
+  "act2-speech-0242": [],
+  "act2-speech-0243": [
+    {
+      "pattern": "make + 人 + 動詞原形",
+      "description": "この箇所では「make + 人 + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「make you think」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + that + S + V（内容節）",
+      "description": "that節またはthatを含む構造の役割を、節内での文法機能から判別する。 原文では「feel that somebody you love and know well might be ― a」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know what the Sergeant thinks」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0244": [
+    {
+      "pattern": "seem + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「seem to be」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0245": [],
+  "act2-speech-0246": [],
+  "act2-speech-0247": [],
+  "act2-speech-0248": [],
+  "act2-speech-0249": [],
+  "act2-speech-0250": [],
+  "act2-speech-0251": [],
+  "act2-speech-0252": [],
+  "act2-speech-0253": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「I've already said so, haven't I?」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0254": [],
+  "act2-speech-0255": [
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「see who else does」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0256": [],
+  "act2-speech-0257": [],
+  "act2-speech-0258": [],
+  "act2-speech-0259": [],
+  "act2-speech-0260": [],
+  "act2-speech-0261": [],
+  "act2-speech-0262": [],
+  "act2-speech-0263": [
+    {
+      "pattern": "shan't + 動詞原形",
+      "description": "この箇所では「shan't + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「shan't be」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0264": [],
+  "act2-speech-0265": [],
+  "act2-speech-0266": [],
+  "act2-speech-0267": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if he was dangerous」の部分で確認できる。"
+    },
+    {
+      "pattern": "would + 動詞原形 ... if + 過去形（仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「I'd know if he was dangerous」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0268": [],
+  "act2-speech-0269": [],
+  "act2-speech-0270": [],
+  "act2-speech-0271": [],
+  "act2-speech-0272": [
+    {
+      "pattern": "'d + 過去分詞（had の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「you'd met」の部分で確認できる。"
+    },
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「All cooked up between you, was it?」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0273": [],
+  "act2-speech-0274": [
+    {
+      "pattern": "評価表現 + that + S + should ...",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「odd, isn't it, that he should come」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0275": [
+    {
+      "pattern": "比較級 + than ...",
+      "description": "この箇所では「比較級 + than ...」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「odder than that Miss Casewell and Major M」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0276": [
+    {
+      "pattern": "as if / as though + S + V",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「as though it were true」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0277": [],
+  "act2-speech-0278": [
+    {
+      "pattern": "have/has been + -ing",
+      "description": "have/has been + -ingで、過去から続く動作や現在に残る継続性を表す。 原文では「've been running」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0279": [],
+  "act2-speech-0280": [],
+  "act2-speech-0281": [],
+  "act2-speech-0282": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「you were wearing」の部分で確認できる。"
+    },
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「I was talking」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0283": [],
+  "act2-speech-0284": [],
+  "act2-speech-0285": [],
+  "act2-speech-0286": [],
+  "act2-speech-0287": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「you were racing」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0288": [],
+  "act2-speech-0289": [],
+  "act2-speech-0290": [],
+  "act2-speech-0291": [],
+  "act2-speech-0292": [],
+  "act2-speech-0293": [],
+  "act2-speech-0294": [
+    {
+      "pattern": "could have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「could have put」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0295": [],
+  "act2-speech-0296": [],
+  "act2-speech-0297": [],
+  "act2-speech-0298": [
+    {
+      "pattern": "d'you = do you",
+      "description": "この箇所では「d'you = do you」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「d'you」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0299": [],
+  "act2-speech-0300": [],
+  "act2-speech-0301": [],
+  "act2-speech-0302": [],
+  "act2-speech-0303": [],
+  "act2-speech-0304": [],
+  "act2-speech-0305": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've forgotten」の部分で確認できる。"
+    },
+    {
+      "pattern": "shan't + 動詞原形",
+      "description": "この箇所では「shan't + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「shan't tell」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0306": [
+    {
+      "pattern": "as if / as though + S + V",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「as though I don't know you any more」の部分で確認できる。"
+    },
+    {
+      "pattern": "'s + 過去分詞（has の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「what's come over you」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0307": [
+    {
+      "pattern": "'d + 過去分詞（had の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「I'd done」の部分で確認できる。"
+    },
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've been」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0308": [],
+  "act2-speech-0309": [],
+  "act2-speech-0310": [],
+  "act2-speech-0311": [
+    {
+      "pattern": "do/does/did + 動詞原形（強調）",
+      "description": "この箇所では「do/does/did + 動詞原形（強調）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「I do hope」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0312": [],
+  "act2-speech-0313": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「have been」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0314": [],
+  "act2-speech-0315": [
+    {
+      "pattern": "動詞 + that + S + V（内容節）",
+      "description": "that節またはthatを含む構造の役割を、節内での文法機能から判別する。 原文では「say that the Sergeant cannot find his skis and I'm afraid he」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0316": [],
+  "act2-speech-0317": [],
+  "act2-speech-0318": [
+    {
+      "pattern": "動詞 + if + S + V（〜かどうか）",
+      "description": "ifが名詞節を導き「～かどうか」を表す。条件を表すifとは区別する。 原文では「know if you have by any chance moved them」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0319": [],
+  "act2-speech-0320": [],
+  "act2-speech-0321": [],
+  "act2-speech-0322": [
+    {
+      "pattern": "'s + 過去分詞（has の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「Somebody's taken」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0323": [
+    {
+      "pattern": "make + 人 + 動詞原形",
+      "description": "この箇所では「make + 人 + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「made you happen」の部分で確認できる。"
+    },
+    {
+      "pattern": "happen + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「happen to look」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0324": [
+    {
+      "pattern": "be going to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「was going to ski」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0325": [
+    {
+      "pattern": "shan't + 動詞原形",
+      "description": "この箇所では「shan't + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「shan't do」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「there could be another reason」の部分で確認できる。"
+    },
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「But there could be another reason, couldn't there?」の部分で確認できる。"
+    },
+    {
+      "pattern": "'s + 過去分詞（has の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「Somebody's seen to it」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0326": [],
+  "act2-speech-0327": [
+    {
+      "pattern": "may/might (not) + 動詞原形",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「may want」の部分で確認できる。"
+    },
+    {
+      "pattern": "want + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「want to get」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0328": [],
+  "act2-speech-0329": [],
+  "act2-speech-0330": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「has hooked」の部分で確認できる。"
+    },
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「So our young architect has hooked it, has he?」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0331": [],
+  "act2-speech-0332": [],
+  "act2-speech-0333": [],
+  "act2-speech-0334": [
+    {
+      "pattern": "why should + S + 動詞原形 ...?",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「why should I」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0335": [
+    {
+      "pattern": "seemed + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「seemed to think」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0336": [
+    {
+      "pattern": "may/might have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「might have taken」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0337": [],
+  "act2-speech-0338": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「has removed」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0339": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「has gone」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0340": [],
+  "act2-speech-0341": [],
+  "act2-speech-0342": [],
+  "act2-speech-0343": [],
+  "act2-speech-0344": [],
+  "act2-speech-0345": [],
+  "act2-speech-0346": [],
+  "act2-speech-0347": [],
+  "act2-speech-0348": [
+    {
+      "pattern": "why should + S + 動詞原形 ...?",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「Why should I」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0349": [],
+  "act2-speech-0350": [],
+  "act2-speech-0351": [],
+  "act2-speech-0352": [],
+  "act2-speech-0353": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「If you say so」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0354": [],
+  "act2-speech-0355": [],
+  "act2-speech-0356": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「was killed」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0357": [
+    {
+      "pattern": "'d + 過去分詞（had の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「I'd gone」の部分で確認できる。"
+    },
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「was killed」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0358": [],
+  "act2-speech-0359": [],
+  "act2-speech-0360": [],
+  "act2-speech-0361": [],
+  "act2-speech-0362": [
+    {
+      "pattern": "動詞 + if + S + V（〜かどうか）",
+      "description": "ifが名詞節を導き「～かどうか」を表す。条件を表すifとは区別する。 原文では「remember if those skis were there then」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0363": [
+    {
+      "pattern": "whether + S + V（〜かどうか）",
+      "description": "この箇所では「whether + S + V（〜かどうか）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「whether the skis were there or not」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0364": [],
+  "act2-speech-0365": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「If I wanted to」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0366": [],
+  "act2-speech-0367": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if we all set to」の部分で確認できる。"
+    },
+    {
+      "pattern": "supposing + S + V",
+      "description": "この箇所では「supposing + S + V」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「Supposing we all set to」の部分で確認できる。"
+    },
+    {
+      "pattern": "ought (not) to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「Ought to be」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0368": [
+    {
+      "pattern": "be supposed/meant to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「are meant to do」の部分で確認できる。"
+    },
+    {
+      "pattern": "not + 全体性/程度表現（部分否定）",
+      "description": "否定辞がどの語句・節にかかるかを確認し、否定の範囲を正確に読む。 原文では「Not quite」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0369": [],
+  "act2-speech-0370": [
+    {
+      "pattern": "have got to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「've got to put」の部分で確認できる。"
+    },
+    {
+      "pattern": "have got to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「've got to ask」の部分で確認できる。"
+    },
+    {
+      "pattern": "have got to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「've got to try」の部分で確認できる。"
+    },
+    {
+      "pattern": "be going to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「's going to be」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if I don't」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0371": [],
+  "act2-speech-0372": [
+    {
+      "pattern": "be going to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「is going to hesitate」の部分で確認できる。"
+    },
+    {
+      "pattern": "had better + 動詞原形",
+      "description": "この箇所では「had better + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「had better come」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know which of you it is who」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「There are six of you here」の部分で確認できる。"
+    },
+    {
+      "pattern": "'s + 過去分詞（has の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「who's killed twice」の部分で確認できる。"
+    },
+    {
+      "pattern": "疑問詞の後ろの省略",
+      "description": "この箇所では「疑問詞の後ろの省略」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「I don't know which yet」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0373": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「has been」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「see what we can concoct together」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0374": [],
+  "act2-speech-0375": [],
+  "act2-speech-0376": [],
+  "act2-speech-0377": [
+    {
+      "pattern": "動詞 + that + S + V（内容節）",
+      "description": "that節またはthatを含む構造の役割を、節内での文法機能から判別する。 原文では「suppose that instead I am really」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0378": [],
+  "act2-speech-0379": [
+    {
+      "pattern": "would + 動詞原形（典型的な性質・反応）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「a child would adore」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0380": [],
+  "act2-speech-0381": [],
+  "act2-speech-0382": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「It's difficult to forget things, isn't it?」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0383": [],
+  "act2-speech-0384": [],
+  "act2-speech-0385": [],
+  "act2-speech-0386": [],
+  "act2-speech-0387": [
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「wonder what you mean by that」の部分で確認できる。"
+    },
+    {
+      "pattern": "do/does/did + 動詞原形（強調）",
+      "description": "この箇所では「do/does/did + 動詞原形（強調）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「I do wonder」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0388": [
+    {
+      "pattern": "have/has been + -ing",
+      "description": "have/has been + -ingで、過去から続く動作や現在に残る継続性を表す。 原文では「've been doing」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0389": [],
+  "act2-speech-0390": [
+    {
+      "pattern": "have/has been + -ing",
+      "description": "have/has been + -ingで、過去から続く動作や現在に残る継続性を表す。 原文では「've been wondering」の部分で確認できる。"
+    },
+    {
+      "pattern": "happened + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「happened to overturn」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0391": [],
+  "act2-speech-0392": [],
+  "act2-speech-0393": [],
+  "act2-speech-0394": [],
+  "act2-speech-0395": [],
+  "act2-speech-0396": [],
+  "act2-speech-0397": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「it has nothing to do with this predicament, has it?」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0398": [],
+  "act2-speech-0399": [],
+  "act2-speech-0400": [],
+  "act2-speech-0401": [],
+  "act2-speech-0402": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「with the ladies at your time of life, aren't you?」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0403": [],
+  "act2-speech-0404": [
+    {
+      "pattern": "have/has been + -ing",
+      "description": "have/has been + -ingで、過去から続く動作や現在に残る継続性を表す。 原文では「've been thinking」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0405": [],
+  "act2-speech-0406": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「If somebody goes about trying to look older」の部分で確認できる。"
+    },
+    {
+      "pattern": "try + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「try to look」の部分で確認できる。"
+    },
+    {
+      "pattern": "do/does/did + 動詞原形（強調）",
+      "description": "この箇所では「do/does/did + 動詞原形（強調）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「it does make」の部分で確認できる。"
+    },
+    {
+      "pattern": "as + 形容詞/副詞 + as ...",
+      "description": "asを含む比較・接続表現で、前後の要素の関係を示す。固定表現との区別が重要。 原文では「as old as you ― try to look」の部分で確認できる。"
+    },
+    {
+      "pattern": "比較級 + than ...",
+      "description": "この箇所では「比較級 + than ...」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「younger than they are」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0407": [],
+  "act2-speech-0408": [
+    {
+      "pattern": "may/might (not) + 動詞原形",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「might get」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0409": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if you have any more questions to ask」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0410": [],
+  "act2-speech-0411": [],
+  "act2-speech-0412": [],
+  "act2-speech-0413": [],
+  "act2-speech-0414": [],
+  "act2-speech-0415": [],
+  "act2-speech-0416": [],
+  "act2-speech-0417": [],
+  "act2-speech-0418": [],
+  "act2-speech-0419": [],
+  "act2-speech-0420": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「Enjoying this little game, aren't you?」の部分で確認できる。"
+    },
+    {
+      "pattern": "should not + 動詞原形（忠告）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「I shouldn't be too sure」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0421": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「have thought」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0422": [],
+  "act2-speech-0423": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「has hidden」の部分で確認できる。"
+    },
+    {
+      "pattern": "in case + S + V",
+      "description": "この箇所では「in case + S + V」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「in case someone has hidden them in the grand piano」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0424": [],
+  "act2-speech-0425": [],
+  "act2-speech-0426": [
+    {
+      "pattern": "would + 動詞原形（丁寧な依頼・提案）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「Perhaps you'd come and sit down」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0427": [],
+  "act2-speech-0428": [
+    {
+      "pattern": "may/might have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「may have heard」の部分で確認できる。"
+    },
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「I was asking」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0429": [],
+  "act2-speech-0430": [
+    {
+      "pattern": "would like/love/prefer to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「'd like to have」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0431": [
+    {
+      "pattern": "want + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「want to know」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0432": [],
+  "act2-speech-0433": [],
+  "act2-speech-0434": [],
+  "act2-speech-0435": [],
+  "act2-speech-0436": [],
+  "act2-speech-0437": [],
+  "act2-speech-0438": [],
+  "act2-speech-0439": [],
+  "act2-speech-0440": [],
+  "act2-speech-0441": [],
+  "act2-speech-0442": [],
+  "act2-speech-0443": [],
+  "act2-speech-0444": [],
+  "act2-speech-0445": [],
+  "act2-speech-0446": [
+    {
+      "pattern": "have/has been + -ing",
+      "description": "have/has been + -ingで、過去から続く動作や現在に残る継続性を表す。 原文では「have been staying」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0447": [],
+  "act2-speech-0448": [],
+  "act2-speech-0449": [],
+  "act2-speech-0450": [],
+  "act2-speech-0451": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've finished」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0452": [],
+  "act2-speech-0453": [],
+  "act2-speech-0454": [],
+  "act2-speech-0455": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「I was thinking」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0456": [],
+  "act2-speech-0457": [
+    {
+      "pattern": "先行詞 + that + ...（関係節）",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「a matter that concerns」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0458": [],
+  "act2-speech-0459": [],
+  "act2-speech-0460": [
+    {
+      "pattern": "Would/Could you + 動詞原形 ...?",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「Would you mind」の部分で確認できる。"
+    },
+    {
+      "pattern": "Would you mind + -ing ...?",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「Would you mind telling」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + -ing（動名詞）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「mind telling」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0461": [],
+  "act2-speech-0462": [],
+  "act2-speech-0463": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「You were thinking」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0464": [
+    {
+      "pattern": "先行詞 + who + ...",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「anyone in this country who can」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0465": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「have lived」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0466": [],
+  "act2-speech-0467": [],
+  "act2-speech-0468": [],
+  "act2-speech-0469": [],
+  "act2-speech-0470": [],
+  "act2-speech-0471": [],
+  "act2-speech-0472": [],
+  "act2-speech-0473": [
+    {
+      "pattern": "seems + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「seems to worry」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0474": [
+    {
+      "pattern": "do/does/did + 動詞原形（強調）",
+      "description": "この箇所では「do/does/did + 動詞原形（強調）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「It does worry」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0475": [],
+  "act2-speech-0476": [],
+  "act2-speech-0477": [],
+  "act2-speech-0478": [],
+  "act2-speech-0479": [],
+  "act2-speech-0480": [
+    {
+      "pattern": "want + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「want to know」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know what your name was when you」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0481": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've forgotten」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0482": [
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「There are things one doesn」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0483": [],
+  "act2-speech-0484": [],
+  "act2-speech-0485": [],
+  "act2-speech-0486": [],
+  "act2-speech-0487": [],
+  "act2-speech-0488": [],
+  "act2-speech-0489": [],
+  "act2-speech-0490": [],
+  "act2-speech-0491": [],
+  "act2-speech-0492": [
+    {
+      "pattern": "seem + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「seem to have」の部分で確認できる。"
+    },
+    {
+      "pattern": "to have + 過去分詞（完了不定詞）",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「to have upset」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0493": [],
+  "act2-speech-0494": [],
+  "act2-speech-0495": [],
+  "act2-speech-0496": [],
+  "act2-speech-0497": [
+    {
+      "pattern": "'d + 過去分詞（had の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「you'd seen」の部分で確認できる。"
+    },
+    {
+      "pattern": "as if / as though + S + V",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「as though you'd seen a ghost」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0498": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've seen」の部分で確認できる。"
+    },
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've been」の部分で確認できる。"
+    },
+    {
+      "pattern": "ought (not) to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「ought to have」の部分で確認できる。"
+    },
+    {
+      "pattern": "to have + 過去分詞（完了不定詞）",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「to have seen」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0499": [],
+  "act2-speech-0500": [
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know where they are」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0501": [
+    {
+      "pattern": "have/has been + -ing",
+      "description": "have/has been + -ingで、過去から続く動作や現在に残る継続性を表す。 原文では「have been helping」の部分で確認できる。"
+    },
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've looked」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know where Paravicini is」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0502": [],
+  "act2-speech-0503": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「has lost」の部分で確認できる。"
+    },
+    {
+      "pattern": "疑問詞 + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「where to find」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0504": [],
+  "act2-speech-0505": [],
+  "act2-speech-0506": [],
+  "act2-speech-0507": [
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「There are more important things than」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0508": [],
+  "act2-speech-0509": [
+    {
+      "pattern": "ask + 人 + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「ask Miss Casewell to come」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0510": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「been found」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0511": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「were taken」の部分で確認できる。"
+    },
+    {
+      "pattern": "may/might (not) + 動詞原形",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「may say」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0512": [
+    {
+      "pattern": "should + be + 過去分詞（勧告の受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「explanations should be kept」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0513": [],
+  "act2-speech-0514": [],
+  "act2-speech-0515": [],
+  "act2-speech-0516": [],
+  "act2-speech-0517": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「was committed」の部分で確認できる。"
+    },
+    {
+      "pattern": "may/might (not) + 動詞原形",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「may remember」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0518": [],
+  "act2-speech-0519": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「you were speaking」の部分で確認できる。"
+    },
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「one of you was lying」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if I discover that one of you lied to me」の部分で確認できる。"
+    },
+    {
+      "pattern": "may/might (not) + 動詞原形",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「may help」の部分で確認できる。"
+    },
+    {
+      "pattern": "先行詞 + that + ...（関係節）",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「a plan that may」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + that + S + V（内容節）",
+      "description": "that節またはthatを含む構造の役割を、節内での文法機能から判別する。 原文では「discover that one of you lied to me ― then I know」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know who the murderer is」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0520": [
+    {
+      "pattern": "may/might have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「may have lied」の部分で確認できる。"
+    },
+    {
+      "pattern": "not + 全体性/程度表現（部分否定）",
+      "description": "否定辞がどの語句・節にかかるかを確認し、否定の範囲を正確に読む。 原文では「Not necessarily」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0521": [],
+  "act2-speech-0522": [
+    {
+      "pattern": "have just + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「've just said」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0523": [
+    {
+      "pattern": "supposing + S + V",
+      "description": "この箇所では「supposing + S + V」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「supposing everyone was to go through these actions a second time」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0524": [],
+  "act2-speech-0525": [],
+  "act2-speech-0526": [],
+  "act2-speech-0527": [],
+  "act2-speech-0528": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if I don't make that clear just at the moment」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0529": [],
+  "act2-speech-0530": [],
+  "act2-speech-0531": [],
+  "act2-speech-0532": [],
+  "act2-speech-0533": [],
+  "act2-speech-0534": [],
+  "act2-speech-0535": [
+    {
+      "pattern": "hope + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「hope to find」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0536": [],
+  "act2-speech-0537": [],
+  "act2-speech-0538": [
+    {
+      "pattern": "動詞 + that + S + V（内容節）",
+      "description": "that節またはthatを含む構造の役割を、節内での文法機能から判別する。 原文では「believe that you're all guilty by the looks of you」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0539": [],
+  "act2-speech-0540": [],
+  "act2-speech-0541": [],
+  "act2-speech-0542": [],
+  "act2-speech-0543": [],
+  "act2-speech-0544": [],
+  "act2-speech-0545": [],
+  "act2-speech-0546": [],
+  "act2-speech-0547": [],
+  "act2-speech-0548": [],
+  "act2-speech-0549": [],
+  "act2-speech-0550": [
+    {
+      "pattern": "not + 全体性/程度表現（部分否定）",
+      "description": "否定辞がどの語句・節にかかるかを確認し、否定の範囲を正確に読む。 原文では「Not quite」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0551": [],
+  "act2-speech-0552": [],
+  "act2-speech-0553": [],
+  "act2-speech-0554": [],
+  "act2-speech-0555": [
+    {
+      "pattern": "動詞 + that + S + V（内容節）",
+      "description": "that節またはthatを含む構造の役割を、節内での文法機能から判別する。 原文では「understood that we were each to repeat our former roles」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0556": [
+    {
+      "pattern": "not + 全体性/程度表現（部分否定）",
+      "description": "否定辞がどの語句・節にかかるかを確認し、否定の範囲を正確に読む。 原文では「not necessarily」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0557": [],
+  "act2-speech-0558": [
+    {
+      "pattern": "Would/Could you + 動詞原形 ...?",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「would you mind」の部分で確認できる。"
+    },
+    {
+      "pattern": "Would/Could you + 動詞原形 ...?",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「would you go」の部分で確認できる。"
+    },
+    {
+      "pattern": "Would you mind + -ing ...?",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「would you mind going」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + -ing（動名詞）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「mind going」の部分で確認できる。"
+    },
+    {
+      "pattern": "There + be ...（存在構文）",
+      "description": "There + be + 名詞で、新しい存在を導入する存在構文。場所副詞thereとは区別する。 原文では「There is a point」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0559": [],
+  "act2-speech-0560": [
+    {
+      "pattern": "be + -ing（進行形）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「I am enacting」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0561": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「Taking a bit of a risk, aren't you?」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0562": [
+    {
+      "pattern": "知覚動詞 + O + 動詞原形",
+      "description": "この箇所では「知覚動詞 + O + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「hear me call」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0563": [],
+  "act2-speech-0564": [],
+  "act2-speech-0565": [
+    {
+      "pattern": "I should say/think/advise ...",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「I should advise」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0566": [],
+  "act2-speech-0567": [],
+  "act2-speech-0568": [
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know who the murderer is」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0569": [],
+  "act2-speech-0570": [],
+  "act2-speech-0571": [
+    {
+      "pattern": "ought (not) to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「ought to know」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0572": [],
+  "act2-speech-0573": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've been」の部分で確認できる。"
+    },
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've run」の部分で確認できる。"
+    },
+    {
+      "pattern": "前置詞 + -ing",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「by holding」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0574": [
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know what you mean」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0575": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've realized」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + that + S + V（内容節）",
+      "description": "that節またはthatを含む構造の役割を、節内での文法機能から判別する。 原文では「realized that you had firsthand knowledge of the Longridge Farm affair」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0576": [
+    {
+      "pattern": "wanted + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「wanted to forget」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0577": [],
+  "act2-speech-0578": [],
+  "act2-speech-0579": [],
+  "act2-speech-0580": [],
+  "act2-speech-0581": [
+    {
+      "pattern": "managed + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「managed to get」の部分で確認できる。"
+    },
+    {
+      "pattern": "先行詞 + who + ...",
+      "description": "関係詞節が先行詞を修飾し、人物・物について追加情報を与える。 原文では「the child who died」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0582": [],
+  "act2-speech-0583": [],
+  "act2-speech-0584": [
+    {
+      "pattern": "'d + 過去分詞（had の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「I'd known」の部分で確認できる。"
+    },
+    {
+      "pattern": "if only + 節",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「If only I hadn't been ill」の部分で確認できる。"
+    },
+    {
+      "pattern": "if only + 節",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if only I'd known」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0585": [],
+  "act2-speech-0586": [],
+  "act2-speech-0587": [
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「I was speaking」の部分で確認できる。"
+    },
+    {
+      "pattern": "動詞 + 疑問詞 + S + V（間接疑問）",
+      "description": "疑問詞が名詞節を導く間接疑問。埋め込まれた節では原則S+V語順になる。 原文では「know who I am」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0588": [],
+  "act2-speech-0589": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've grown」の部分で確認できる。"
+    },
+    {
+      "pattern": "be going to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「'm going to kill」の部分で確認できる。"
+    },
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if you do I shall fire this revolver」の部分で確認できる。"
+    },
+    {
+      "pattern": "would like/love/prefer to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「'd like to talk」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0590": [],
+  "act2-speech-0591": [
+    {
+      "pattern": "mind/matter + if ...（〜かどうか）",
+      "description": "ifが名詞節を導き「～かどうか」を表す。条件を表すifとは区別する。 原文では「don't really mind if I get away or not」の部分で確認できる。"
+    },
+    {
+      "pattern": "'s + 過去分詞（has の縮約）",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「Someone's hidden」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0592": [],
+  "act2-speech-0593": [],
+  "act2-speech-0594": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「Georgie, Georgie, you know me, don't you?」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0595": [],
+  "act2-speech-0596": [],
+  "act2-speech-0597": [],
+  "act2-speech-0598": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「Yes, Kathy ― you remember me now, don't you?」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0599": [],
+  "act2-speech-0600": [
+    {
+      "pattern": "used to + 動詞原形",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「used to do」の部分で確認できる。"
+    },
+    {
+      "pattern": "not ... until ...",
+      "description": "否定辞がどの語句・節にかかるかを確認し、否定の範囲を正確に読む。 原文では「didn't recognize you until you twirled your hair the way you always used to do」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0601": [],
+  "act2-speech-0602": [],
+  "act2-speech-0603": [],
+  "act2-speech-0604": [],
+  "act2-speech-0605": [],
+  "act2-speech-0606": [
+    {
+      "pattern": "would have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「would have dreamt」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0607": [],
+  "act2-speech-0608": [],
+  "act2-speech-0609": [
+    {
+      "pattern": "could have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「could have saved」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0610": [
+    {
+      "pattern": "should have + 過去分詞",
+      "description": "-ing形の役割を、進行形・動名詞・分詞のどれかとして周囲の構造から判断する。 原文では「should have told」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0611": [
+    {
+      "pattern": "wanted + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「wanted to forget」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0612": [
+    {
+      "pattern": "as + 形容詞/副詞 + as ...",
+      "description": "asを含む比較・接続表現で、前後の要素の関係を示す。固定表現との区別が重要。 原文では「as mad as a hatter」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0613": [],
+  "act2-speech-0614": [],
+  "act2-speech-0615": [],
+  "act2-speech-0616": [
+    {
+      "pattern": "let + 人 + 動詞原形",
+      "description": "この箇所では「let + 人 + 動詞原形」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「let me take」の部分で確認できる。"
+    },
+    {
+      "pattern": "agreed + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「agreed to let」の部分で確認できる。"
+    },
+    {
+      "pattern": "as soon as + S + V",
+      "description": "asを含む比較・接続表現で、前後の要素の関係を示す。固定表現との区別が重要。 原文では「As soon as we got hold of that notebook with \"Monkswell Manor\" wri」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0617": [],
+  "act2-speech-0618": [
+    {
+      "pattern": "疑問詞 + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「what to do」の部分で確認できる。"
+    },
+    {
+      "pattern": "should + 動詞原形（見込み・予想）",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「help should be here pretty soon」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0619": [],
+  "act2-speech-0620": [
+    {
+      "pattern": "if + S + V（条件・仮定）",
+      "description": "if節が条件・仮定を示す。主節の時制・助動詞との組合せから現実性を読む。 原文では「if they found a thousand or so Swiss watches in the spare wheel」の部分で確認できる。"
+    },
+    {
+      "pattern": "I shouldn't be surprised / wonder",
+      "description": "助動詞が可能性・義務・推量・仮定・丁寧さなどの話者判断を加える。 原文では「I shouldn't be surprised」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0621": [],
+  "act2-speech-0622": [
+    {
+      "pattern": "have/has + 過去分詞（現在完了）",
+      "description": "have/has + 過去分詞で、過去の出来事を現在の結果・経験・継続と結び付ける。 原文では「've been」の部分で確認できる。"
+    },
+    {
+      "pattern": "was/were + -ing（過去進行形）",
+      "description": "was/were + -ingで、過去のある時点で進行中だった動作を示す。 原文では「I was buying」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0623": [
+    {
+      "pattern": "want + 人 + to do",
+      "description": "to + 動詞原形の不定詞が、目的・内容・補語などとして働く。前置詞toとは区別する。 原文では「want you to know」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0624": [],
+  "act2-speech-0625": [
+    {
+      "pattern": "do/does/did + 動詞原形（強調）",
+      "description": "この箇所では「do/does/did + 動詞原形（強調）」の構造が使われている。語順と動詞形、節の境界を原文で確認する。 原文では「I do hope」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0626": [],
+  "act2-speech-0627": [],
+  "act2-speech-0628": [],
+  "act2-speech-0629": [],
+  "act2-speech-0630": [],
+  "act2-speech-0631": [],
+  "act2-speech-0632": [],
+  "act2-speech-0633": [],
+  "act2-speech-0634": [],
+  "act2-speech-0635": [
+    {
+      "pattern": "be + 過去分詞（受動態）",
+      "description": "be動詞 + 過去分詞で、主語が動作を受ける受動態を作る。 原文では「hair's done properly」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0636": [
+    {
+      "pattern": "発話 + tag question（付加疑問）",
+      "description": "文末の短い疑問形で、直前の発言について確認・同意・反応を求める付加疑問。 原文では「It is all right, isn't it?」の部分で確認できる。"
+    }
+  ],
+  "act2-speech-0637": [],
+  "act2-speech-0638": []
+}
