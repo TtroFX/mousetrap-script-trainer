@@ -61,24 +61,6 @@ async function loadContract(){
   })().catch(error=>{contractPromise=null;throw error});
   return contractPromise;
 }
-async function openCache(contract){if(!('caches'in globalThis))return null;try{return await withTimeout(caches.open(contract.cacheName),CACHE_TIMEOUT_MS,'CACHE_OPEN_TIMEOUT')}catch{return null}}
-async function readOfflineCache(contract,name,expected){
-  const cache=await openCache(contract);if(!cache)return null;
-  for(const key of [`./${name}`,new URL(name,location.href).href]){
-    let response=null;try{response=await withTimeout(cache.match(key),CACHE_TIMEOUT_MS,'CACHE_READ_TIMEOUT')}catch{}
-    if(!response?.ok)continue;
-    try{if(await sha256Hex(response)===expected){metrics.cacheFallbacks++;return response.clone()}}catch{}
-  }
-  return null;
-}
-function queueCacheWrite(contract,name,response){
-  if(!('caches'in globalThis))return;
-  metrics.cacheWritesQueued++;
-  Promise.resolve()
-    .then(()=>caches.open(contract.cacheName))
-    .then(cache=>cache.put(`./${name}`,response.clone()))
-    .catch(()=>{metrics.cacheWriteFailures++});
-}
 async function getVerifiedResponse(path){
   const name=canonicalName(path),contract=await loadContract();
   if(!FILE_SET.has(name)||!contract.byName.has(name))throw Error(`DATA_NOT_IN_CONTRACT:${name}`);
@@ -102,6 +84,24 @@ async function getVerifiedResponse(path){
   const cached=await readOfflineCache(contract,name,expected);
   if(cached){responseMemo.set(name,cached.clone());return cached.clone()}
   throw networkError||Error(`PRODUCTION_DATA_UNAVAILABLE:${name}`);
+}
+async function openCache(contract){if(!('caches'in globalThis))return null;try{return await withTimeout(caches.open(contract.cacheName),CACHE_TIMEOUT_MS,'CACHE_OPEN_TIMEOUT')}catch{return null}}
+async function readOfflineCache(contract,name,expected){
+  const cache=await openCache(contract);if(!cache)return null;
+  for(const key of [`./${name}`,new URL(name,location.href).href]){
+    let response=null;try{response=await withTimeout(cache.match(key),CACHE_TIMEOUT_MS,'CACHE_READ_TIMEOUT')}catch{}
+    if(!response?.ok)continue;
+    try{if(await sha256Hex(response)===expected){metrics.cacheFallbacks++;return response.clone()}}catch{}
+  }
+  return null;
+}
+function queueCacheWrite(contract,name,response){
+  if(!('caches'in globalThis))return;
+  metrics.cacheWritesQueued++;
+  Promise.resolve()
+    .then(()=>caches.open(contract.cacheName))
+    .then(cache=>cache.put(`./${name}`,response.clone()))
+    .catch(()=>{metrics.cacheWriteFailures++});
 }
 async function getVerifiedJson(path){const name=canonicalName(path);if(jsonMemo.has(name))return jsonMemo.get(name);const value=await (await getVerifiedResponse(name)).json();jsonMemo.set(name,value);return value}
 async function prepare(){if(preparePromise)return preparePromise;preparePromise=(async()=>{const payloads={};await Promise.all(FILES.map(async name=>{payloads[name]=await getVerifiedJson(name)}));lastQA=validateAll(payloads);progress('Production dataの準備が完了しました。',{status:'PASS'});return lastQA})().catch(error=>{preparePromise=null;lastQA=null;throw error});return preparePromise}
