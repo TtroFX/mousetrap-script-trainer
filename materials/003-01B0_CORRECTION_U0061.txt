@@ -1,0 +1,15 @@
+MOUSETRAP SCRIPT TRAINER - 003 CORRECTION U-A01-S01-0061
+Status: CANONICAL CHUNK OVERLAY / SOURCE-PDF RECONCILED
+Scene: SCN-A01-S01
+Target Unit: 0061
+Schema: UNITSEQ.SENTNN[!]|chunkNN@charStart-charEnd:ROLE:GRAMMAR;...
+
+0061.01|01@0-2:S:NP;02@2-24:V:VP;03@24-31:C:NP
+0061.02!|01@0-8:M:AdvP;02@8-11:S:NP;03@11-18:V:VP;04@18-46:C:Inf
+
+Effect:
+- replaces the effective Unit 0061 sentence set with two spoken Sentence records.
+- sentence 01 preserves the existing canonical structure.
+- sentence 02 restores the source-PDF spoken sentence omitted by the earlier malformed-bracket parse.
+- SCN-A01-S01 sentences 453 -> 454.
+- SCN-A01-S01 chunks 1554 -> 1558.
