@@ -1,5 +1,5 @@
 'use strict';
-const BUILD_ID='p6-2026-08-25-r11';
+const BUILD_ID='p6-2026-08-25-r12';
 const DATA_VERSION='p5-canonical-recovery-2026-08-25-r2';
 const CACHE_PREFIX='mts-pwa-';
 const SHELL_CACHE=`${CACHE_PREFIX}shell-${BUILD_ID}`;
@@ -9,7 +9,7 @@ const VERSION_PATH='./pwa-version.json';
 const OFFLINE_PATH='./offline.html';
 const SHELL_ASSETS=[
   './index.html','./p5.css','./p5_app.js','./reader_sheet.js','./p6_private_data.js','./pages_private_import.js','./p6_pwa.css','./p6_pwa.js',
-  './P2_learning.html','./008_cue_practice_P3.html','./009_rehearsal_P4.html','./manifest.webmanifest',VERSION_PATH,OFFLINE_PATH,
+  './P2_learning.html','./008_cue_practice_P3.html','./009_rehearsal_P4.html','./mousetrap_line_structure.json','./manifest.webmanifest',VERSION_PATH,OFFLINE_PATH,
   './icons/icon-192.png','./icons/icon-512.png','./icons/icon-maskable-512.png'
 ];
 const DATA_FILES=new Set(['mousetrap_script_data.json','mousetrap_line_translations.json','mousetrap_line_vocabulary.json','mousetrap_line_grammar.json','mousetrap_word_dictionary.json']);

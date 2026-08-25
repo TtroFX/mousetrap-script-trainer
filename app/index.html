@@ -18,12 +18,18 @@
 <body>
 <div id="app" aria-live="polite"></div>
 
-<!-- Full line explanation page. Non-highlighted script text opens this view. -->
-<div class="overlay" id="learningOverlay" hidden>
-  <iframe id="learningFrame" src="P2_learning.html" title="Line explanation"></iframe>
+<!-- Unified line explanation pull-up. Script/Search/Practice all use this sheet; no normal page transition. -->
+<div class="learning-sheet-backdrop" id="learningOverlay" hidden>
+  <section class="learning-sheet" id="learningSheet" role="dialog" aria-modal="true" aria-label="Line explanation">
+    <div class="learning-sheet-handle" id="learningSheetHandle">
+      <span class="learning-sheet-grabber" aria-hidden="true"></span>
+      <button class="learning-sheet-close" id="learningSheetClose" type="button" aria-label="一文解説を閉じる">×</button>
+    </div>
+    <iframe id="learningFrame" src="P2_learning.html" title="Line explanation"></iframe>
+  </section>
 </div>
 
-<!-- Lightweight dictionary pull-up. Highlighted vocabulary opens this without navigation. -->
+<!-- Lightweight dictionary pull-up. Underlined vocabulary opens this without navigation. -->
 <div class="word-sheet-backdrop" id="wordOverlay" hidden>
   <section class="word-sheet" id="wordSheet" role="dialog" aria-modal="true" aria-label="Word dictionary">
     <div class="word-sheet-handle" id="wordSheetHandle">
