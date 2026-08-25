@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "buildId": "p6-2026-08-25-r9",
+  "buildId": "p6-2026-08-25-r10",
   "dataVersion": "p5-canonical-recovery-2026-08-25-r2",
   "canonicalDataFiles": [
     {"path":"mousetrap_script_data.json","sha256":"c4bd5bcf1e0a225ade1bb860775a189e259c2977e971684ac6124558ad843230","role":"canonical-script"},
