@@ -1,0 +1,31 @@
+MOUSETRAP SCRIPT TRAINER - 009A MEMORY RECONCILIATION
+Status: COMPLETE / EFFECTIVE MEMORY CONTRACT
+Depends on: 009_MEMORY_UNITS.txt + 011_CANONICAL_RECONCILIATION.txt
+
+The behavioral contract in 009_MEMORY_UNITS.txt remains unchanged.
+Effective hierarchy counts after source reconciliation:
+- MEM-LINE units: 1164
+- MEM-SEN units: 2278
+- MEM-CHK units: 8059
+- practice-selectable line units: 1161
+
+Stages:
+M0_FULL -> M1_CHUNK_GAPS -> M2_INITIAL_HINTS -> M3_HIDDEN
+Ratings:
+GOOD / HARD / AGAIN
+
+Production progress key contract:
+mts.memory.progress.v1
+
+Minimum line record:
+- speechId
+- selectedCharacterId
+- currentStage
+- lastRating
+- attempts
+- reveals
+- lastPracticedAt
+- mastered
+
+GOOD advances one stage, HARD holds, AGAIN moves back one stage. A GOOD result at M3_HIDDEN may mark the line mastered.
+Cue and Rehearsal both read/write this shared canonical progress record.
