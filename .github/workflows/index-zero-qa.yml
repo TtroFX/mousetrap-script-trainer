@@ -1,0 +1,52 @@
+name: Index Zero Full Runtime QA
+
+on:
+  push:
+    branches: ["rewrite/index-zero-v1"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build canonical Structure
+        run: |
+          node --check app/scripts/build-learning-structure.mjs
+          node app/scripts/build-learning-structure.mjs --root . --out app/mousetrap_line_structure.json
+      - name: Syntax and architecture QA
+        working-directory: app
+        run: |
+          node --check src/config.js
+          node --check src/data-store.js
+          node --check src/state-store.js
+          node --check src/main.js
+          node --check sw.js
+          node tests/index_zero_static.mjs
+          node scripts/assemble-production.mjs --verify-only
+          node scripts/assemble-production.mjs --out-dir ../public
+      - name: Reject legacy runtime in artifact
+        run: |
+          test ! -e public/p5_app.js
+          test ! -e public/reader_sheet.js
+          test ! -e public/practice_navigation.js
+          test ! -e public/p6_private_data.js
+          test ! -e public/P2_learning.html
+          test ! -e public/008_cue_practice_P3.html
+          test ! -e public/009_rehearsal_P4.html
+          test -e public/src/main.js
+          test -e public/mousetrap_script_data.json
+      - name: Install browser QA dependencies
+        working-directory: app
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+      - name: Run full feature-parity Chromium QA
+        working-directory: app
+        run: npm run test:e2e
