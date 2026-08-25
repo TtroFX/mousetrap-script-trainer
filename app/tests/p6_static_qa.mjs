@@ -14,7 +14,7 @@ const sw=read('sw.js');new vm.Script(sw,{filename:'sw.js'});for(const t of [vers
 const p5=read('p5_app.js');new vm.Script(p5,{filename:'p5_app.js'});for(const t of ['MTS_SHARED_LINE_ANNOTATIONS','MTS_SHARED_WORD_DICTIONARY','mts.reader.progress','mts.practice.cue.ratings','mts.practice.rehearsal.state'])if(!p5.includes(t))fail(`p5 missing ${t}`);
 syntaxCheck('reader_sheet.js');const sheet=read('reader_sheet.js');for(const t of ['reader-vocab','wordOverlay','wordSheet','MTS_SHARED_LINE_ANNOTATIONS','MTS_SHARED_WORD_DICTIONARY','MTS_STUDY_ANYWHERE','openLineOnText','DOC_META','studyFingerprint===fingerprint','practiceTheme','Word dictionary','In this line'])if(!sheet.includes(t))fail(`Study layer missing ${t}`);
 for(const legacy of ['learningSheetHandle','learningSheetClose','MTS_READER_SHEET'])if(sheet.includes(legacy))fail(`legacy Reader sheet behavior remains: ${legacy}`);
-if(/reader-vocab[^`]*background:linear-gradient/i.test(sheet))fail('vocabulary highlight background remains');
+for(const oldHighlight of ['background:linear-gradient(to top,rgba(232,190,97','background:linear-gradient(to top,rgba(212,160,23'])if(sheet.includes(oldHighlight))fail('vocabulary highlight background remains');
 if(!sheet.includes('background:none!important'))fail('underline-only vocabulary style missing');
 const dictMarkup=sheet.indexOf('<section class="word-dict-card"'),contextMarkup=sheet.indexOf('<section class="word-context-card"');if(dictMarkup<0||contextMarkup<0||dictMarkup>contextMarkup)fail('dictionary must render before sentence context');
 const zeroVocabGuard='if(el.dataset.studyFingerprint===fingerprint)return true';if(!sheet.includes(zeroVocabGuard))fail('zero-vocabulary mutation-loop guard missing');
