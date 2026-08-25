@@ -28,7 +28,7 @@ for(const f of version.canonicalDataFiles){if(!expected.delete(f.path))fail(`une
 if(expected.size)fail(`missing canonical paths ${[...expected].join(',')}`);
 
 const html=read('index.html');
-for(const fragment of ['rel="manifest" href="manifest.webmanifest"','name="viewport"','name="theme-color"','src="p6_private_data.js"','src="p5_app.js"','src="reader_sheet.js"','src="p6_pwa.js"','id="learningSheet"','id="learningSheetClose"','id="retryBtn"'])if(!html.includes(fragment))fail(`index missing ${fragment}`);
+for(const fragment of ['rel="manifest" href="manifest.webmanifest"','name="viewport"','name="theme-color"','src="p6_private_data.js"','src="p5_app.js"','src="reader_sheet.js"','src="p6_pwa.js"','id="learningOverlay"','id="learningFrame"','id="wordOverlay"','id="wordSheet"','id="wordSheetClose"','id="retryBtn"'])if(!html.includes(fragment))fail(`index missing ${fragment}`);
 for(const forbidden of ['id="importDataBtn"','id="privateDataFiles"','Import private production data'])if(html.includes(forbidden))fail(`manual production-data path remains: ${forbidden}`);
 if(/https?:\/\/|cdn\./i.test(html))fail('index contains external runtime dependency');
 
@@ -44,12 +44,13 @@ for(const token of ['version:3','nativeFetch','guardedFetch','UNVERIFIED_CANONIC
 for(const forbidden of ['FileReader','privateDataFiles','accept="application/json','install(import'])if(resolver.includes(forbidden))fail(`manual/import production fallback remains: ${forbidden}`);
 
 const p5=read('p5_app.js');new vm.Script(p5,{filename:'p5_app.js'});
-for(const token of ["['act1-scene1','act1-scene1-speech-',190","['act1-scene2','act1-scene2-speech-',336","['act2','act2-speech-',638","mousetrap_script_data.json","mousetrap_line_translations.json","mousetrap_line_vocabulary.json","mousetrap_line_grammar.json","mousetrap_word_dictionary.json","mts.reader.progress","data-reader-mode","#/search","mts.practice.cue.ratings","mts.practice.rehearsal.state","showDataFailure","verified production response unavailable"])if(!p5.includes(token))fail(`P5 production invariant missing ${token}`);
+for(const token of ["['act1-scene1','act1-scene1-speech-',190","['act1-scene2','act1-scene2-speech-',336","['act2','act2-speech-',638","mousetrap_script_data.json","mousetrap_line_translations.json","mousetrap_line_vocabulary.json","mousetrap_line_grammar.json","mousetrap_word_dictionary.json","mts.reader.progress","data-reader-mode","#/search","mts.practice.cue.ratings","mts.practice.rehearsal.state","MTS_SHARED_LINE_ANNOTATIONS","MTS_SHARED_WORD_DICTIONARY","showDataFailure","verified production response unavailable"])if(!p5.includes(token))fail(`P5 production invariant missing ${token}`);
 for(const forbidden of ['prototypeData','embeddedPrototype','importDataBtn','privateDataFiles','MTS_PRIVATE_DATA.install','Private production JSONをImport'])if(p5.includes(forbidden))fail(`dead/non-production P5 path remains: ${forbidden}`);
 
 syntaxCheck('reader_sheet.js');
 const sheet=read('reader_sheet.js');
-for(const token of ['learningSheet','learningSheetHandle','learningSheetClose','line-sheet-open','pointerdown','mts:close-line','MTS_READER_SHEET','data-search-line','#prevLine','#nextLine'])if(!sheet.includes(token))fail(`Reader sheet missing ${token}`);
+for(const token of ['reader-vocab','wordOverlay','wordSheet','wordSheetHandle','wordSheetClose','word-sheet-open','pointerdown','MutationObserver','MTS_SHARED_LINE_ANNOTATIONS','MTS_SHARED_WORD_DICTIONARY','MTS_READER_V2','In this line','Word dictionary'])if(!sheet.includes(token))fail(`Reader v2 missing ${token}`);
+for(const forbidden of ['learningSheetHandle','learningSheetClose','MTS_READER_SHEET','#prevLine','#nextLine'])if(sheet.includes(forbidden))fail(`legacy Reader sheet behavior remains: ${forbidden}`);
 
 const learning=read('P2_learning.html');
 for(const token of ['src="p6_private_data.js"','getVerifiedResponse','FAIL-CLOSED · PRODUCTION DATA UNAVAILABLE','translationSource','Headword','contextMeaning','Grammar / Usage','#/rehearsal?scene=','Dictionary entryが見つかりません','このspeechには登録Vocabularyがありません','このspeechには追加Grammar noteがありません'])if(!learning.includes(token))fail(`Learning UI missing ${token}`);
@@ -72,7 +73,7 @@ const productionRuntime=['index.html','p5_app.js','reader_sheet.js','p6_private_
 const unresolved=/\b(?:TODO|FIXME|coming soon|not implemented|placeholder|dummy|fake|temporary)\b/i;
 for(const file of productionRuntime){
   const source=read(file).replace(/\bplaceholder\s*=\s*(["']).*?\1/gi,'');
-  if(unresolved.test(source))fail(`blocking placeholder marker in ${file}`);
+  if(unresolved.test(source))fail(`blocking marker in ${file}`);
 }
 
 console.log(JSON.stringify({
@@ -89,9 +90,11 @@ console.log(JSON.stringify({
   canonicalContract:5,
   productionAssembler:true,
   p5ProductionInvariants:true,
-  readerBottomSheet:true,
-  fixedLineNavigation:true,
-  dismissByBackdropSwipeAndClose:true,
+  readerVocabularyHighlights:true,
+  wordDictionaryPullup:true,
+  wordSheetContextSentenceAndTranslation:true,
+  nonHighlightedTextOpensLineExplanation:true,
+  dismissWordSheetByBackdropSwipeAndClose:true,
   externalRuntimeDependencies:0,
-  blockingPlaceholderMarkers:0
+  blockingMarkers:0
 },null,2));

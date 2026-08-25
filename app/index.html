@@ -17,15 +17,23 @@
 </head>
 <body>
 <div id="app" aria-live="polite"></div>
-<div class="learning-sheet-backdrop" id="learningOverlay" hidden>
-  <section class="learning-sheet" id="learningSheet" role="dialog" aria-modal="true" aria-label="Line / Word Detail">
-    <div class="learning-sheet-handle" id="learningSheetHandle">
-      <span class="learning-sheet-grabber" aria-hidden="true"></span>
-      <button class="learning-sheet-close" id="learningSheetClose" type="button" aria-label="詳細を閉じる">×</button>
+
+<!-- Full line explanation page. Non-highlighted script text opens this view. -->
+<div class="overlay" id="learningOverlay" hidden>
+  <iframe id="learningFrame" src="P2_learning.html" title="Line explanation"></iframe>
+</div>
+
+<!-- Lightweight dictionary pull-up. Highlighted vocabulary opens this without navigation. -->
+<div class="word-sheet-backdrop" id="wordOverlay" hidden>
+  <section class="word-sheet" id="wordSheet" role="dialog" aria-modal="true" aria-label="Word dictionary">
+    <div class="word-sheet-handle" id="wordSheetHandle">
+      <span class="word-sheet-grabber" aria-hidden="true"></span>
+      <button class="word-sheet-close" id="wordSheetClose" type="button" aria-label="辞書を閉じる">×</button>
     </div>
-    <iframe id="learningFrame" src="P2_learning.html" title="Line / Word Detail"></iframe>
+    <div class="word-sheet-content" id="wordSheetContent"></div>
   </section>
 </div>
+
 <div class="overlay dark" id="cueOverlay" hidden><iframe id="cueFrame" src="008_cue_practice_P3.html" title="Cue Practice"></iframe></div>
 <div class="overlay dark" id="rehearsalOverlay" hidden><iframe id="rehearsalFrame" src="009_rehearsal_P4.html" title="Rehearsal"></iframe></div>
 <div class="data-gate" id="dataGate">

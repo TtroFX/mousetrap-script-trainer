@@ -1,5 +1,5 @@
 'use strict';
-const BUILD_ID='p6-2026-08-25-r8';
+const BUILD_ID='p6-2026-08-25-r9';
 const DATA_VERSION='p5-canonical-recovery-2026-08-25-r2';
 const CACHE_PREFIX='mts-pwa-';
 const SHELL_CACHE=`${CACHE_PREFIX}shell-${BUILD_ID}`;
