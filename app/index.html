@@ -16,32 +16,19 @@
 <link rel="stylesheet" href="p6_pwa.css">
 </head>
 <body>
-<div id="app" aria-live="polite"></div>
-<div class="learning-sheet-backdrop" id="learningOverlay" hidden>
-  <section class="learning-sheet" id="learningSheet" role="dialog" aria-modal="true" aria-label="Line explanation">
-    <div class="learning-sheet-handle" id="learningSheetHandle"><span class="learning-sheet-grabber" aria-hidden="true"></span><button class="learning-sheet-close" id="learningSheetClose" type="button" aria-label="一文解説を閉じる">×</button></div>
-    <iframe id="learningFrame" src="P2_learning.html" title="Line explanation"></iframe>
-  </section>
+<div id="app" aria-live="polite">
+  <main class="shell">
+    <div class="top"><div><div class="eyebrow">Script to Stage · Production</div><div class="brand">The Mousetrap Trainer</div></div><button class="ghost-btn" data-pre-nav="more">Role</button></div>
+    <section class="card hero"><div class="eyebrow">Continue</div><h1>台本を覚える</h1><p class="muted">Reader・Cue Practice・Rehearsal・Progressを同じScene/Role状態で接続します。</p><div class="toolbar"><button class="primary-btn" data-pre-nav="script">Act I · Scene I を開く</button><button class="ghost-btn" data-pre-nav="practice">Practice</button><button class="ghost-btn" data-pre-nav="search">Search</button></div></section>
+    <section class="grid" style="margin-top:12px"><button class="scene-card" data-pre-scene="act1-scene1"><b>Act I · Scene I</b><div class="muted">190 speeches</div></button><button class="scene-card" data-pre-scene="act1-scene2"><b>Act I · Scene II</b><div class="muted">336 speeches</div></button><button class="scene-card" data-pre-scene="act2"><b>Act II</b><div class="muted">638 speeches</div></button></section>
+  </main>
+  <nav class="bottom-nav"><button data-pre-nav="home" class="active">Home</button><button data-pre-nav="script">Script</button><button data-pre-nav="practice">Practice</button><button data-pre-nav="progress">Progress</button><button data-pre-nav="more">More</button></nav>
 </div>
-<div class="word-sheet-backdrop" id="wordOverlay" hidden>
-  <section class="word-sheet" id="wordSheet" role="dialog" aria-modal="true" aria-label="Word dictionary">
-    <div class="word-sheet-handle" id="wordSheetHandle"><span class="word-sheet-grabber" aria-hidden="true"></span><button class="word-sheet-close" id="wordSheetClose" type="button" aria-label="辞書を閉じる">×</button></div>
-    <div class="word-sheet-content" id="wordSheetContent"></div>
-  </section>
-</div>
+<div class="learning-sheet-backdrop" id="learningOverlay" hidden><section class="learning-sheet" id="learningSheet" role="dialog" aria-modal="true" aria-label="Line explanation"><div class="learning-sheet-handle" id="learningSheetHandle"><span class="learning-sheet-grabber" aria-hidden="true"></span><button class="learning-sheet-close" id="learningSheetClose" type="button" aria-label="一文解説を閉じる">×</button></div><iframe id="learningFrame" src="P2_learning.html" title="Line explanation"></iframe></section></div>
+<div class="word-sheet-backdrop" id="wordOverlay" hidden><section class="word-sheet" id="wordSheet" role="dialog" aria-modal="true" aria-label="Word dictionary"><div class="word-sheet-handle" id="wordSheetHandle"><span class="word-sheet-grabber" aria-hidden="true"></span><button class="word-sheet-close" id="wordSheetClose" type="button" aria-label="辞書を閉じる">×</button></div><div class="word-sheet-content" id="wordSheetContent"></div></section></div>
 <div class="overlay dark" id="cueOverlay" hidden><iframe id="cueFrame" src="008_cue_practice_P3.html" title="Cue Practice"></iframe></div>
 <div class="overlay dark" id="rehearsalOverlay" hidden><iframe id="rehearsalFrame" src="009_rehearsal_P4.html" title="Rehearsal"></iframe></div>
-<div class="data-gate" id="dataGate">
-  <div class="card gate-card">
-    <div class="eyebrow">Production Data</div>
-    <h2>Script to Stage</h2>
-    <p>検証済みcanonical dataを使って起動します。学習progress・選択Role・Reader位置・Practice状態はPWA更新でも保持されます。</p>
-    <div class="gate-status" id="gateStatus">起動準備中…</div>
-    <div class="toolbar"><button class="primary-btn" id="retryBtn">Retry</button><button class="ghost-btn" id="pagesDataBtn">Private dataを読み込む</button></div>
-    <input type="file" id="pagesDataFiles" accept="application/json,.json" multiple hidden>
-    <p class="muted">初回のみ5つのcanonical JSONを選択できます。SHA-256と全件構造検証に合格したbytesだけを端末内へ保存します。</p>
-  </div>
-</div>
+<div class="pwa-status" id="dataStatus" role="status" aria-live="polite" hidden></div>
 <div class="toast" id="toast"></div>
 <div class="pwa-status" id="pwaStatus" role="status" aria-live="polite" hidden></div>
 <script src="bootstrap_entry.js"></script>
