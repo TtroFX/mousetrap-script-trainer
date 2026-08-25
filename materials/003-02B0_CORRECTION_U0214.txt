@@ -1,0 +1,13 @@
+MOUSETRAP SCRIPT TRAINER - 003 CORRECTION U-A01-S02-0214
+Status: CANONICAL CHUNK OVERLAY / SOURCE-PDF RECONCILED
+Scene: SCN-A01-S02
+Target Unit: 0214
+Schema: UNITSEQ.SENTNN[!]|chunkNN@charStart-charEnd:ROLE:GRAMMAR;...
+
+0214.01!|01@0-4:M:AdvP
+
+Effect:
+- replaces the erroneous 16-character / three-chunk base record for source speech ordinal 213.
+- source PDF and Production Script both contain a four-character affirmative reply.
+- SCN-A01-S02 sentence count remains 643.
+- SCN-A01-S02 effective chunks 2223 -> 2221.
