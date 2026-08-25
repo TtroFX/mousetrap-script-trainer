@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {"path":"mousetrap_script_data.json","sha256":"c4bd5bcf1e0a225ade1bb860775a189e259c2977e971684ac6124558ad843230"},
+    {"path":"mousetrap_line_translations.json","sha256":"3b6daf0d3b9103f2a5369e0d4311fad576078b496e57787c3353a10092dd758d"},
+    {"path":"mousetrap_line_vocabulary.json","sha256":"7092c967b7bd8fc1071bb9bd9e74a8158673da145a7734348bb3d682fc16924e"},
+    {"path":"mousetrap_line_grammar.json","sha256":"ae05707b801f5db59041a9233406b33dd77275fcbce7ac379835a9a3c6d14a10"},
+    {"path":"mousetrap_word_dictionary.json","sha256":"abd2e9e214d21728e5eef7e44f800e4b1e873de18eca43c4675c452a45c8fdf1"}
+  ]
+}
