@@ -17,29 +17,18 @@
 </head>
 <body>
 <div id="app" aria-live="polite"></div>
-
-<!-- Unified line explanation pull-up. Script/Search/Practice all use this sheet; no normal page transition. -->
 <div class="learning-sheet-backdrop" id="learningOverlay" hidden>
   <section class="learning-sheet" id="learningSheet" role="dialog" aria-modal="true" aria-label="Line explanation">
-    <div class="learning-sheet-handle" id="learningSheetHandle">
-      <span class="learning-sheet-grabber" aria-hidden="true"></span>
-      <button class="learning-sheet-close" id="learningSheetClose" type="button" aria-label="一文解説を閉じる">×</button>
-    </div>
+    <div class="learning-sheet-handle" id="learningSheetHandle"><span class="learning-sheet-grabber" aria-hidden="true"></span><button class="learning-sheet-close" id="learningSheetClose" type="button" aria-label="一文解説を閉じる">×</button></div>
     <iframe id="learningFrame" src="P2_learning.html" title="Line explanation"></iframe>
   </section>
 </div>
-
-<!-- Lightweight dictionary pull-up. Underlined vocabulary opens this without navigation. -->
 <div class="word-sheet-backdrop" id="wordOverlay" hidden>
   <section class="word-sheet" id="wordSheet" role="dialog" aria-modal="true" aria-label="Word dictionary">
-    <div class="word-sheet-handle" id="wordSheetHandle">
-      <span class="word-sheet-grabber" aria-hidden="true"></span>
-      <button class="word-sheet-close" id="wordSheetClose" type="button" aria-label="辞書を閉じる">×</button>
-    </div>
+    <div class="word-sheet-handle" id="wordSheetHandle"><span class="word-sheet-grabber" aria-hidden="true"></span><button class="word-sheet-close" id="wordSheetClose" type="button" aria-label="辞書を閉じる">×</button></div>
     <div class="word-sheet-content" id="wordSheetContent"></div>
   </section>
 </div>
-
 <div class="overlay dark" id="cueOverlay" hidden><iframe id="cueFrame" src="008_cue_practice_P3.html" title="Cue Practice"></iframe></div>
 <div class="overlay dark" id="rehearsalOverlay" hidden><iframe id="rehearsalFrame" src="009_rehearsal_P4.html" title="Rehearsal"></iframe></div>
 <div class="data-gate" id="dataGate">
@@ -48,10 +37,7 @@
     <h2>Script to Stage</h2>
     <p>同一originにbundleされたcanonical data、またはこの端末に取り込んだ検証済みprivate dataを使って起動します。private JSONはGitHub Pagesへ送信・公開されません。</p>
     <div class="gate-status" id="gateStatus">Loading…</div>
-    <div class="toolbar">
-      <button class="primary-btn" id="retryBtn">Retry</button>
-      <button class="ghost-btn" id="pagesDataBtn">Private dataを読み込む</button>
-    </div>
+    <div class="toolbar"><button class="primary-btn" id="retryBtn">Retry</button><button class="ghost-btn" id="pagesDataBtn">Private dataを読み込む</button></div>
     <input type="file" id="pagesDataFiles" accept="application/json,.json" multiple hidden>
     <p class="muted">初回のみ5つのcanonical JSONを選択できます。SHA-256と全件構造検証に合格したbytesだけをこの端末のversioned Cache Storageへ保存します。学習progress・選択Role・Reader位置・Practice状態は別領域に保持され、PWA更新では削除されません。</p>
   </div>
@@ -61,7 +47,6 @@
 <script src="p6_private_data.js"></script>
 <script src="pages_private_import.js"></script>
 <script src="p5_app.js"></script>
-<script src="bootstrap_watchdog.js"></script>
 <script src="practice_navigation.js"></script>
 <script src="reader_sheet.js"></script>
 <script src="p6_pwa.js"></script>
