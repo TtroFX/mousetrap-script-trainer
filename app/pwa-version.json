@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "buildId": "p6-2026-08-24-r5",
-  "dataVersion": "p5-canonical-freeze-2026-08-24-r1",
+  "buildId": "p6-2026-08-25-r6",
+  "dataVersion": "p5-canonical-recovery-2026-08-25-r2",
   "canonicalDataFiles": [
-    {"path":"mousetrap_script_data.json","sha256":"1835ca9ef6d4df5723e0c1666897aba8624f5a606917c2a36ca280b963c93213","role":"canonical-script"},
+    {"path":"mousetrap_script_data.json","sha256":"c4bd5bcf1e0a225ade1bb860775a189e259c2977e971684ac6124558ad843230","role":"canonical-script"},
     {"path":"mousetrap_line_translations.json","sha256":"3b6daf0d3b9103f2a5369e0d4311fad576078b496e57787c3353a10092dd758d","role":"translations"},
-    {"path":"mousetrap_line_vocabulary.json","sha256":"91918d29d9196136e56c24323624e6687967ebb4491973ff3cc4a9474dc67bfd","role":"vocabulary"},
-    {"path":"mousetrap_line_grammar.json","sha256":"9033ce0b8a4e8cd77cb0eb5c4766721e7948894495009a77eea8c37d0114ac88","role":"grammar"},
-    {"path":"mousetrap_word_dictionary.json","sha256":"271fc8968ec4fc5e8877b64e4a8221201fcd036ec437000957e1be932e4fd629","role":"dictionary"}
+    {"path":"mousetrap_line_vocabulary.json","sha256":"7092c967b7bd8fc1071bb9bd9e74a8158673da145a7734348bb3d682fc16924e","role":"vocabulary"},
+    {"path":"mousetrap_line_grammar.json","sha256":"ae05707b801f5db59041a9233406b33dd77275fcbce7ac379835a9a3c6d14a10","role":"grammar"},
+    {"path":"mousetrap_word_dictionary.json","sha256":"abd2e9e214d21728e5eef7e44f800e4b1e873de18eca43c4675c452a45c8fdf1","role":"dictionary"}
   ]
 }
