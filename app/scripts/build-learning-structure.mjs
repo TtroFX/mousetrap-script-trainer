@@ -63,8 +63,13 @@ for(const name of chunkFiles){
 for(const [key,record] of overlay)base.set(key,record);
 
 if(base.size!==2277)fail(`Sentence records ${base.size}/2277`);
+const rawSceneStats={};
+for(const spec of Object.values(SCENES)){
+  const records=[...base.values()].filter(r=>r.sceneId===spec.sceneId);
+  rawSceneStats[spec.sceneId]={sentences:records.length,chunks:records.reduce((n,r)=>n+r.chunks.length,0),expectedSentences:spec.expectedSentences,expectedChunks:spec.expectedChunks};
+}
 let chunkCount=0;for(const r of base.values())chunkCount+=r.chunks.length;
-if(chunkCount!==8055)fail(`Chunk records ${chunkCount}/8055`);
+if(chunkCount!==8055)fail(`Chunk records ${chunkCount}/8055; sceneStats=${JSON.stringify(rawSceneStats)}`);
 
 const script=JSON.parse(read(path.join(root,'mousetrap_script_data.json')));
 function skipWs(text,cursor){while(cursor<text.length&&/\s/u.test(text[cursor]))cursor++;return cursor}
