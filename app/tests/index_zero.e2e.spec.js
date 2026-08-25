@@ -13,13 +13,6 @@ async function selectRole(page,role='MOLLIE'){
   expect(await page.evaluate(()=>localStorage.getItem('mts.characterId'))).toBe(role);
 }
 
-test.beforeEach(async({page})=>{
-  await page.addInitScript(()=>{
-    localStorage.clear();
-    if('serviceWorker' in navigator) navigator.serviceWorker.getRegistrations().then(rs=>rs.forEach(r=>r.unregister())).catch(()=>{});
-  });
-});
-
 test('new index boots immediately with no legacy runtime or iframe',async({page})=>{
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.goto(BASE,{waitUntil:'domcontentloaded'});
