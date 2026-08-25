@@ -2,7 +2,7 @@ name: Deploy production PWA to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "r17-static-data-cleanup"]
   workflow_dispatch:
 
 permissions:
@@ -26,112 +26,47 @@ jobs:
           node --check app/scripts/build-learning-structure.mjs
           node app/scripts/build-learning-structure.mjs --root . --out app/mousetrap_line_structure.json
 
-      - name: Validate PWA source and real startup
+      - name: Validate static PWA source and startup
         run: |
           node --check app/bootstrap_entry.js
-          node --check app/pages_private_import.js
           node --check app/practice_navigation.js
           node --check app/reader_sheet.js
-          node --check app/p6_private_data.js
           node --check app/p6_pwa.js
           node --check app/sw.js
           node --check app/tests/startup_smoke.mjs
           (cd app && node tests/p6_static_qa.mjs)
           (cd app && node tests/startup_smoke.mjs)
 
-      - name: Verify canonical JSON files from repository root
+      - name: Verify canonical repository data
         run: |
-          node <<'NODE'
-          const fs = require('node:fs');
-          const crypto = require('node:crypto');
-          const version = JSON.parse(fs.readFileSync('app/pwa-version.json', 'utf8'));
-          let failed = false;
-          for (const entry of version.canonicalDataFiles) {
-            const path = entry.path;
-            if (!fs.existsSync(path)) {
-              console.error(`::error::Missing canonical JSON at repository root: ${path}`);
-              failed = true;
-              continue;
-            }
-            const bytes = fs.readFileSync(path);
-            const actual = crypto.createHash('sha256').update(bytes).digest('hex');
-            if (actual !== entry.sha256) {
-              console.error(`::error::SHA-256 mismatch for ${path}: expected ${entry.sha256}, got ${actual}`);
-              failed = true;
-            } else {
-              console.log(`Verified ${path}`);
-            }
-          }
-          if (failed) process.exit(1);
-          NODE
+          (cd app && node scripts/assemble-production.mjs --verify-only)
 
       - name: Assemble GitHub Pages artifact
-        shell: bash
         run: |
-          set -euo pipefail
           rm -rf public
-          mkdir -p public/icons
-
-          runtime=(
-            index.html
-            p5.css
-            bootstrap_entry.js
-            p5_app.js
-            practice_navigation.js
-            reader_sheet.js
-            p6_private_data.js
-            pages_private_import.js
-            p6_pwa.css
-            p6_pwa.js
-            P2_learning.html
-            008_cue_practice_P3.html
-            009_rehearsal_P4.html
-            mousetrap_line_structure.json
-            manifest.webmanifest
-            pwa-version.json
-            offline.html
-            sw.js
-          )
-          canonical=(
-            mousetrap_script_data.json
-            mousetrap_line_translations.json
-            mousetrap_line_vocabulary.json
-            mousetrap_line_grammar.json
-            mousetrap_word_dictionary.json
-          )
-
-          for file in "${runtime[@]}"; do
-            test -f "app/$file"
-            cp "app/$file" "public/$file"
-          done
-
-          for file in "${canonical[@]}"; do
-            test -f "$file"
-            cp "$file" "public/$file"
-          done
-
-          cp app/icons/icon-192.png public/icons/
-          cp app/icons/icon-512.png public/icons/
-          cp app/icons/icon-maskable-512.png public/icons/
+          (cd app && node scripts/assemble-production.mjs --out-dir ../public)
           touch public/.nojekyll
-
-          test -f public/index.html
-          test -f public/bootstrap_entry.js
-          test -f public/sw.js
-          test -f public/practice_navigation.js
-          test -f public/reader_sheet.js
-          test -f public/mousetrap_line_structure.json
-          for file in "${canonical[@]}"; do test -f "public/$file"; done
+          node <<'NODE'
+          const fs=require('node:fs'),crypto=require('node:crypto');
+          const contract=JSON.parse(fs.readFileSync('data/canonical-production-contract.json','utf8'));
+          const sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
+          for(const entry of contract.files){const root=sha(entry.path),artifact=sha(`public/${entry.path}`);if(root!==entry.sha256||artifact!==root)throw Error(`artifact SHA mismatch: ${entry.path}`)}
+          if(fs.existsSync('public/p6_private_data.js')||fs.existsSync('public/pages_private_import.js')||fs.existsSync('public/bootstrap_watchdog.js'))throw Error('legacy startup runtime leaked into Pages artifact');
+          console.log('Pages artifact canonical JSON matches repository root byte-for-byte.');
+          NODE
 
       - name: Configure GitHub Pages
+        if: github.ref == 'refs/heads/main'
         uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
+        if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
 
   deploy:
+    if: github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
