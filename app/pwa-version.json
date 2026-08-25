@@ -1,26 +1,5 @@
 {
   "schemaVersion": 1,
-  "buildId": "p6-2026-08-25-r16",
-  "dataVersion": "p5-canonical-recovery-2026-08-25-r2",
-  "canonicalDataFiles": [
-    {"path":"mousetrap_script_data.json","sha256":"c4bd5bcf1e0a225ade1bb860775a189e259c2977e971684ac6124558ad843230","role":"canonical-script"},
-    {"path":"mousetrap_line_translations.json","sha256":"3b6daf0d3b9103f2a5369e0d4311fad576078b496e57787c3353a10092dd758d","role":"translations"},
-    {"path":"mousetrap_line_vocabulary.json","sha256":"7092c967b7bd8fc1071bb9bd9e74a8158673da145a7734348bb3d682fc16924e","role":"vocabulary"},
-    {"path":"mousetrap_line_grammar.json","sha256":"ae05707b801f5db59041a9233406b33dd77275fcbce7ac379835a9a3c6d14a10","role":"grammar"},
-    {"path":"mousetrap_word_dictionary.json","sha256":"abd2e9e214d21728e5eef7e44f800e4b1e873de18eca43c4675c452a45c8fdf1","role":"dictionary"}
-  ],
-  "derivedRuntimeData": [
-    {
-      "path":"mousetrap_line_structure.json",
-      "schemaVersion":1,
-      "speeches":1164,
-      "sentences":2277,
-      "declaredChunks":8055,
-      "materializedChunks":8057,
-      "fullCoverageSpeeches":1161,
-      "fallbackSpeeches":3,
-      "reconciliationStatus":"DECLARED_METADATA_MISMATCH",
-      "source":"canonical materials 002/003/010"
-    }
-  ]
+  "buildId": "p6-2026-08-25-r17",
+  "dataVersion": "p5-canonical-recovery-2026-08-25-r2"
 }
