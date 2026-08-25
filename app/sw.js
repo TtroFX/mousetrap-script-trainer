@@ -1,5 +1,5 @@
 'use strict';
-const BUILD_ID='p6-2026-08-25-r7';
+const BUILD_ID='p6-2026-08-25-r8';
 const DATA_VERSION='p5-canonical-recovery-2026-08-25-r2';
 const CACHE_PREFIX='mts-pwa-';
 const SHELL_CACHE=`${CACHE_PREFIX}shell-${BUILD_ID}`;
@@ -106,7 +106,10 @@ async function atomicInstall(){
     throw error;
   }
 }
-self.addEventListener('install',event=>event.waitUntil(atomicInstall()));
+self.addEventListener('install',event=>event.waitUntil((async()=>{
+  await atomicInstall();
+  await self.skipWaiting();
+})()));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{
   const names=await caches.keys().catch(()=>[]);
   await Promise.all(names.map(name=>{
@@ -116,6 +119,8 @@ self.addEventListener('activate',event=>event.waitUntil((async()=>{
     return caches.delete(name);
   }));
   await self.clients.claim();
+  const clients=await self.clients.matchAll({type:'window',includeUncontrolled:true});
+  await Promise.allSettled(clients.map(client=>client.navigate(client.url)));
 })()));
 function shellRelativePath(url){
   const scope=new URL(self.registration.scope);
