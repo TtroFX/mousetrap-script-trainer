@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 
 const argv=process.argv.slice(2);
 const arg=(name,fallback)=>{const i=argv.indexOf(name);return i>=0&&argv[i+1]?argv[i+1]:fallback};
@@ -16,6 +17,11 @@ const SCENES={
 };
 const ROLE_SET=new Set(['S','V','O','C','M',"S'","V'","O'","C'"]);
 const TYPE_SET=new Set(['NP','VP','PP','AdvP','AdjP','NC','AC','AdvC','Inf','Gerund','Participle','PhrasalVerb','FixedExpression']);
+const FROZEN_A01S02_SHARDS={
+  '003-02A_CHUNKS_A01S02.txt':'0d7d49e346d3a2e96f6d339a8027eb778116142e3e94f532c55d929a91067307',
+  '003-02B_CHUNKS_A01S02.txt':'bd24466fd9293a70cb0f550609f3c9c4dad943cf62c3a3ad80c238d11b59283a',
+  '003-02C_CHUNKS_A01S02.txt':'2ee444bb916b573fec29944e93eff4046fa505cd5e9ce540b26b9b92ce7fe892'
+};
 
 function sceneSpec(filename,text=''){
   const joined=`${filename}\n${text.slice(0,300)}`;
@@ -48,6 +54,12 @@ function parseRecord(line,spec,source){
     cursor=c.end;
   });
   return {sceneId:spec.sceneId,sceneCode:spec.sceneCode,unitSeq,sentNo,highRisk,chunks,length:cursor,source};
+}
+
+for(const [name,expected] of Object.entries(FROZEN_A01S02_SHARDS)){
+  const file=path.join(materials,name);if(!fs.existsSync(file))fail(`Missing frozen shard ${name}`);
+  const actual=crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
+  if(actual!==expected)fail(`Frozen shard SHA mismatch ${name}: expected=${expected} actual=${actual}`);
 }
 
 const entries=fs.readdirSync(materials,{withFileTypes:true}).filter(x=>x.isFile()).map(x=>x.name);
