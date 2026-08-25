@@ -1,3 +1,4 @@
+// Reader bottom-sheet interaction layer, r7.
 (()=>{'use strict';
 const overlay=document.getElementById('learningOverlay');
 const panel=document.getElementById('learningSheet');
@@ -102,7 +103,7 @@ function injectFrameUI(){
   if(doc.documentElement.dataset.mtsReaderSheetBound==='1')return;
   doc.documentElement.dataset.mtsReaderSheetBound='1';
   doc.addEventListener('click',event=>{
-    const el=event.target instanceof Element?event.target.closest('#close,#closeFail,#prevLine,#nextLine'):null;
+    const el=event.target?.closest?event.target.closest('#close,#closeFail,#prevLine,#nextLine'):null;
     if(!el)return;
     event.preventDefault();event.stopPropagation();event.stopImmediatePropagation();
     if(el.id==='close'||el.id==='closeFail'){closeSheet();return}
