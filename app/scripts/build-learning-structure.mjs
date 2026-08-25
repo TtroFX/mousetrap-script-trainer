@@ -41,7 +41,12 @@ function parseRecord(line,spec,source){
   if(!chunks.length)fail(`Empty sentence record ${source}: ${line}`);
   chunks.sort((a,b)=>a.start-b.start||a.end-b.end);
   let cursor=0;
-  for(const c of chunks){if(c.start!==cursor)fail(`Chunk coverage gap/overlap ${source} ${unitSeq}.${sentNo}: expected ${cursor}, got ${c.start}`);cursor=c.end}
+  chunks.forEach((c,i)=>{
+    const expected=String(i+1).padStart(2,'0');
+    if(c.chunkNo!==expected)fail(`Chunk number sequence ${source} ${unitSeq}.${sentNo}: expected ${expected}, got ${c.chunkNo}`);
+    if(c.start!==cursor)fail(`Chunk coverage gap/overlap ${source} ${unitSeq}.${sentNo}: expected ${cursor}, got ${c.start}`);
+    cursor=c.end;
+  });
   return {sceneId:spec.sceneId,sceneCode:spec.sceneCode,unitSeq,sentNo,highRisk,chunks,length:cursor,source};
 }
 
@@ -64,12 +69,14 @@ for(const [key,record] of overlay)base.set(key,record);
 
 if(base.size!==2277)fail(`Sentence records ${base.size}/2277`);
 const rawSceneStats={};
+const rawSourceStats={};
 for(const spec of Object.values(SCENES)){
   const records=[...base.values()].filter(r=>r.sceneId===spec.sceneId);
   rawSceneStats[spec.sceneId]={sentences:records.length,chunks:records.reduce((n,r)=>n+r.chunks.length,0),expectedSentences:spec.expectedSentences,expectedChunks:spec.expectedChunks};
+  for(const r of records){const k=r.source;rawSourceStats[k]??={sentences:0,chunks:0};rawSourceStats[k].sentences++;rawSourceStats[k].chunks+=r.chunks.length}
 }
 let chunkCount=0;for(const r of base.values())chunkCount+=r.chunks.length;
-if(chunkCount!==8055)fail(`Chunk records ${chunkCount}/8055; sceneStats=${JSON.stringify(rawSceneStats)}`);
+if(chunkCount!==8055)fail(`Chunk records ${chunkCount}/8055; sceneStats=${JSON.stringify(rawSceneStats)}; sourceStats=${JSON.stringify(rawSourceStats)}`);
 
 const script=JSON.parse(read(path.join(root,'mousetrap_script_data.json')));
 function skipWs(text,cursor){while(cursor<text.length&&/\s/u.test(text[cursor]))cursor++;return cursor}
