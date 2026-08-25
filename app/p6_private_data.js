@@ -74,7 +74,10 @@ async function readOfflineCache(contract,name,expected){
 function queueCacheWrite(contract,name,response){
   if(!('caches'in globalThis))return;
   metrics.cacheWritesQueued++;
-  Promise.resolve().then(async()=>{const cache=await caches.open(contract.cacheName);await cache.put(`./${name}`,response.clone())}).catch(()=>{metrics.cacheWriteFailures++});
+  Promise.resolve()
+    .then(()=>caches.open(contract.cacheName))
+    .then(cache=>cache.put(`./${name}`,response.clone()))
+    .catch(()=>{metrics.cacheWriteFailures++});
 }
 async function getVerifiedResponse(path){
   const name=canonicalName(path),contract=await loadContract();
