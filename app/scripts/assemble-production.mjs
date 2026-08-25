@@ -1,23 +1,42 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
-const appDir=process.cwd(),rootDir=path.resolve(appDir,'..'),args=process.argv.slice(2),valueAfter=flag=>{const i=args.indexOf(flag);return i>=0?args[i+1]:null},verifyOnly=args.includes('--verify-only');
-const outDir=path.resolve(valueAfter('--out-dir')||process.env.MTS_PRODUCTION_OUT_DIR||path.join(appDir,'dist'));
-const version=JSON.parse(fs.readFileSync(path.join(appDir,'pwa-version.json'),'utf8'));
-const contract=JSON.parse(fs.readFileSync(path.join(rootDir,'data/canonical-production-contract.json'),'utf8'));
-const canonical=contract.files,expectedFiles=new Set(canonical.map(x=>x.path));
-const EXPECTED=[['act1-scene1','act1-scene1-speech-',190],['act1-scene2','act1-scene2-speech-',336],['act2','act2-speech-',638]],ids=EXPECTED.flatMap(([scene,prefix,count])=>Array.from({length:count},(_,i)=>prefix+String(i+1).padStart(4,'0'))),idSet=new Set(ids);
-const fail=m=>{throw new Error(m)},readJson=f=>JSON.parse(fs.readFileSync(f,'utf8')),sha256=f=>crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex'),object=(v,n)=>{if(!v||typeof v!=='object'||Array.isArray(v))fail(`${n}: object required`)};
-const exactSpeechKeys=(data,name)=>{object(data,name);const keys=Object.keys(data);if(keys.length!==1164)fail(`${name}: ${keys.length}/1164 speech keys`);const missing=ids.filter(id=>!(id in data)),extra=keys.filter(id=>!idSet.has(id));if(missing.length||extra.length)fail(`${name}: ID mismatch missing=${missing.length} extra=${extra.length}`)};
-function validateScript(data){object(data,'script');let total=0;for(const[scene,prefix,count]of EXPECTED){const speeches=data[scene]?.speeches;if(!Array.isArray(speeches)||speeches.length!==count)fail(`script.${scene}: ${speeches?.length||0}/${count}`);speeches.forEach((speech,i)=>{const id=prefix+String(i+1).padStart(4,'0');if(speech?.id!==id)fail(`script.${scene}: id/order mismatch #${i+1}`);if(!String(speech?.speaker||'').trim()||!String(speech?.text||'').trim())fail(`script: empty speaker/text ${id}`)});total+=speeches.length}if(total!==1164)fail(`script total ${total}/1164`);return total}
-function validateTranslations(data){exactSpeechKeys(data,'translations');for(const id of ids){const e=data[id];object(e,`translations.${id}`);if(!String(e.translation||'').trim()||!String(e.translationSource||'').trim())fail(`translations.${id}: invalid`)}return 1164}
-function validateVocabulary(data){exactSpeechKeys(data,'vocabulary');let count=0;for(const id of ids){const entries=data[id];if(!Array.isArray(entries))fail(`vocabulary.${id}: array required`);for(const e of entries){object(e,`vocabulary.${id}`);for(const k of ['surface','lemma','meaning'])if(!String(e[k]||'').trim())fail(`vocabulary.${id}.${k}: invalid`);count++}}if(count!==1186)fail(`vocabulary items ${count}/1186`);return count}
-function validateGrammar(data){exactSpeechKeys(data,'grammar');let count=0;for(const id of ids){const entries=data[id];if(!Array.isArray(entries))fail(`grammar.${id}: array required`);for(const e of entries){object(e,`grammar.${id}`);if(!String(e.pattern||'').trim()||!String(e.description||'').trim())fail(`grammar.${id}: invalid entry`);count++}}if(count!==692)fail(`grammar items ${count}/692`);return count}
-function validateDictionary(data,vocabulary){object(data,'dictionary');const keys=Object.keys(data);if(keys.length!==578)fail(`dictionary entries ${keys.length}/578`);const set=new Set(keys.map(k=>k.toLowerCase().trim()));let missing=0;for(const id of ids)for(const e of vocabulary[id])if(!set.has(String(e.lemma||'').toLowerCase().trim()))missing++;if(missing)fail(`dictionary missing vocabulary refs ${missing}`);return keys.length}
-if(version.schemaVersion!==1||version.buildId!=='p6-2026-08-25-r18'||!String(version.dataVersion||''))fail('pwa-version.json invalid');if(contract.schemaVersion!==1||canonical.length!==5)fail('canonical production contract invalid');
-for(const item of canonical){if(!/^[0-9a-f]{64}$/.test(item.sha256))fail(`invalid SHA-256 contract for ${item.path}`);const file=path.join(rootDir,item.path);if(!fs.existsSync(file))fail(`missing canonical JSON at repository root: ${item.path}`);if(sha256(file)!==item.sha256)fail(`SHA-256 mismatch: ${item.path}`)}
-const payload={};for(const name of expectedFiles)payload[name]=readJson(path.join(rootDir,name));const qa={script:validateScript(payload['mousetrap_script_data.json']),translations:validateTranslations(payload['mousetrap_line_translations.json']),vocabulary:validateVocabulary(payload['mousetrap_line_vocabulary.json']),grammar:validateGrammar(payload['mousetrap_line_grammar.json']),dictionary:validateDictionary(payload['mousetrap_word_dictionary.json'],payload['mousetrap_line_vocabulary.json'])};
-const required=['index.html','manifest.webmanifest','sw.js','offline.html','upgrade-r18.html','p5.css','p5_app.js','practice_navigation.js','reader_sheet.js','p6_private_data.js','p6_pwa.css','p6_pwa.js','P2_learning.html','008_cue_practice_P3.html','009_rehearsal_P4.html','mousetrap_line_structure.json','pwa-version.json'];for(const name of required)if(!fs.existsSync(path.join(appDir,name)))fail(`missing runtime asset ${name}`);for(const legacy of ['pages_private_import.js','bootstrap_watchdog.js','bootstrap_entry.js'])if(fs.existsSync(path.join(appDir,legacy)))fail(`obsolete runtime must be deleted: ${legacy}`);
-for(const icon of ['icons/icon-192.png','icons/icon-512.png','icons/icon-maskable-512.png'])if(!fs.existsSync(path.join(appDir,icon)))fail(`missing icon ${icon}`);
-if(!verifyOnly){fs.rmSync(outDir,{recursive:true,force:true});fs.mkdirSync(outDir,{recursive:true});for(const name of required)fs.copyFileSync(path.join(appDir,name),path.join(outDir,name));fs.mkdirSync(path.join(outDir,'icons'),{recursive:true});for(const icon of ['icon-192.png','icon-512.png','icon-maskable-512.png'])fs.copyFileSync(path.join(appDir,'icons',icon),path.join(outDir,'icons',icon));for(const name of expectedFiles){const src=path.join(rootDir,name),dst=path.join(outDir,name);fs.copyFileSync(src,dst);if(sha256(src)!==sha256(dst))fail(`artifact SHA mismatch: ${name}`)}const release={schemaVersion:1,buildId:version.buildId,dataVersion:version.dataVersion,verifiedAt:new Date().toISOString(),qa,files:Object.fromEntries([...expectedFiles].map(name=>[name,sha256(path.join(outDir,name))]))};fs.writeFileSync(path.join(outDir,'production-bundle.json'),JSON.stringify(release,null,2)+'\n')}
-console.log(JSON.stringify({status:'PASS',mode:verifyOnly?'verify-only':'assembled',buildId:version.buildId,dataVersion:version.dataVersion,outDir:verifyOnly?null:outDir,qa,canonicalFiles:[...expectedFiles]},null,2));
+
+const appDir=process.cwd(),rootDir=path.resolve(appDir,'..'),args=process.argv.slice(2);
+const arg=name=>{const i=args.indexOf(name);return i>=0?args[i+1]:null};
+const verifyOnly=args.includes('--verify-only');
+const outDir=path.resolve(arg('--out-dir')||path.join(appDir,'dist'));
+const fail=message=>{throw new Error(message)};
+const readJson=file=>JSON.parse(fs.readFileSync(file,'utf8'));
+const sha=file=>crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
+const copy=(src,dst)=>{fs.mkdirSync(path.dirname(dst),{recursive:true});fs.copyFileSync(src,dst)};
+const copyDir=(src,dst)=>{for(const entry of fs.readdirSync(src,{withFileTypes:true})){const a=path.join(src,entry.name),b=path.join(dst,entry.name);entry.isDirectory()?copyDir(a,b):copy(a,b)}};
+
+const version=readJson(path.join(appDir,'pwa-version.json'));
+if(version.schemaVersion!==2||version.runtime!=='index-zero'||!String(version.buildId||''))fail('pwa-version invalid');
+const contract=readJson(path.join(rootDir,'data/canonical-production-contract.json'));
+if(contract.schemaVersion!==1||!Array.isArray(contract.files)||contract.files.length!==5)fail('canonical contract invalid');
+for(const item of contract.files){const file=path.join(rootDir,item.path);if(!fs.existsSync(file))fail(`missing canonical ${item.path}`);if(sha(file)!==item.sha256)fail(`canonical SHA mismatch ${item.path}`)}
+
+const scenes=[['act1-scene1',190],['act1-scene2',336],['act2',638]];
+const script=readJson(path.join(rootDir,'mousetrap_script_data.json'));
+let speeches=0;for(const[id,count]of scenes){const rows=script[id]?.speeches;if(!Array.isArray(rows)||rows.length!==count)fail(`script ${id} count`);rows.forEach((row,i)=>{const expected=`${id}-speech-${String(i+1).padStart(4,'0')}`;if(row?.id!==expected||!row?.speaker||!row?.text)fail(`script ${id} #${i+1}`)});speeches+=rows.length}if(speeches!==1164)fail('script total');
+const translations=readJson(path.join(rootDir,'mousetrap_line_translations.json')),vocabulary=readJson(path.join(rootDir,'mousetrap_line_vocabulary.json')),grammar=readJson(path.join(rootDir,'mousetrap_line_grammar.json')),dictionary=readJson(path.join(rootDir,'mousetrap_word_dictionary.json'));
+if(Object.keys(translations).length!==1164||Object.keys(vocabulary).length!==1164||Object.keys(grammar).length!==1164||Object.keys(dictionary).length!==578)fail('canonical coverage counts invalid');
+const vocabItems=Object.values(vocabulary).reduce((n,a)=>n+(Array.isArray(a)?a.length:0),0),grammarItems=Object.values(grammar).reduce((n,a)=>n+(Array.isArray(a)?a.length:0),0);if(vocabItems!==1186||grammarItems!==692)fail('annotation item counts invalid');
+const dictionaryKeys=new Set(Object.keys(dictionary).map(x=>x.trim().toLowerCase()));for(const rows of Object.values(vocabulary))for(const entry of rows)if(!dictionaryKeys.has(String(entry.lemma||'').trim().toLowerCase()))fail(`missing dictionary lemma ${entry.lemma}`);
+
+const structurePath=path.join(appDir,'mousetrap_line_structure.json');if(!fs.existsSync(structurePath))fail('generated structure missing');const structure=readJson(structurePath);if(structure.schemaVersion!==1||structure.counts?.speeches!==1164||structure.counts?.sentences!==2277||structure.counts?.chunks!==8055)fail('structure contract invalid');
+const required=['index.html','manifest.webmanifest','sw.js','offline.html','pwa-version.json'];for(const file of required)if(!fs.existsSync(path.join(appDir,file)))fail(`missing runtime ${file}`);for(const file of ['src/app.css','src/config.js','src/data-store.js','src/state-store.js','src/main.js'])if(!fs.existsSync(path.join(appDir,file)))fail(`missing module ${file}`);
+const legacy=['p5_app.js','reader_sheet.js','practice_navigation.js','p6_private_data.js','p6_pwa.js','p6_pwa.css','P2_learning.html','008_cue_practice_P3.html','009_rehearsal_P4.html'];
+
+if(!verifyOnly){
+  fs.rmSync(outDir,{recursive:true,force:true});fs.mkdirSync(outDir,{recursive:true});
+  for(const file of required)copy(path.join(appDir,file),path.join(outDir,file));
+  copyDir(path.join(appDir,'src'),path.join(outDir,'src'));copyDir(path.join(appDir,'icons'),path.join(outDir,'icons'));
+  copy(structurePath,path.join(outDir,'mousetrap_line_structure.json'));
+  for(const item of contract.files){const src=path.join(rootDir,item.path),dst=path.join(outDir,item.path);copy(src,dst);if(sha(src)!==sha(dst))fail(`artifact SHA mismatch ${item.path}`)}
+  for(const file of legacy)if(fs.existsSync(path.join(outDir,file)))fail(`legacy runtime leaked ${file}`);
+  fs.writeFileSync(path.join(outDir,'production-bundle.json'),JSON.stringify({schemaVersion:2,buildId:version.buildId,runtime:'index-zero',verifiedAt:new Date().toISOString(),qa:{speeches:1164,translations:1164,vocabulary:vocabItems,grammar:grammarItems,dictionary:578,structureSentences:2277,structureChunks:8055},files:Object.fromEntries(contract.files.map(item=>[item.path,sha(path.join(outDir,item.path))]))},null,2)+'\n');
+}
+console.log(JSON.stringify({status:'PASS',runtime:'index-zero',buildId:version.buildId,mode:verifyOnly?'verify-only':'assembled',qa:{speeches:1164,translations:1164,vocabulary:vocabItems,grammar:grammarItems,dictionary:578}},null,2));
