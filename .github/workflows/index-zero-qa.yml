@@ -8,6 +8,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: index-zero-branch-qa
+  cancel-in-progress: true
+
 jobs:
   verify:
     runs-on: ubuntu-latest
