@@ -2,7 +2,7 @@ name: Deploy production PWA to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "r18-sw-escape-and-practice-cleanup"]
   workflow_dispatch:
 
 permissions:
@@ -28,9 +28,9 @@ jobs:
 
       - name: Validate static PWA source and startup
         run: |
-          node --check app/bootstrap_entry.js
           node --check app/practice_navigation.js
           node --check app/reader_sheet.js
+          node --check app/p6_private_data.js
           node --check app/p6_pwa.js
           node --check app/sw.js
           node --check app/tests/startup_smoke.mjs
@@ -51,19 +51,24 @@ jobs:
           const contract=JSON.parse(fs.readFileSync('data/canonical-production-contract.json','utf8'));
           const sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
           for(const entry of contract.files){const root=sha(entry.path),artifact=sha(`public/${entry.path}`);if(root!==entry.sha256||artifact!==root)throw Error(`artifact SHA mismatch: ${entry.path}`)}
-          if(fs.existsSync('public/p6_private_data.js')||fs.existsSync('public/pages_private_import.js')||fs.existsSync('public/bootstrap_watchdog.js'))throw Error('legacy startup runtime leaked into Pages artifact');
+          for(const legacy of ['bootstrap_entry.js','pages_private_import.js','bootstrap_watchdog.js'])if(fs.existsSync(`public/${legacy}`))throw Error(`obsolete startup runtime leaked into Pages artifact: ${legacy}`);
+          const compat=fs.readFileSync('public/p6_private_data.js','utf8');
+          if(!compat.includes('STATIC_COMPAT_ONLY')||/caches\.open|crypto\.subtle|sha256/i.test(compat))throw Error('static compatibility adapter is not thin');
           console.log('Pages artifact canonical JSON matches repository root byte-for-byte.');
           NODE
 
       - name: Configure GitHub Pages
+        if: github.ref == 'refs/heads/main'
         uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
+        if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
 
   deploy:
+    if: github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
