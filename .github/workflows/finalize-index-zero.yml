@@ -1,0 +1,67 @@
+name: Finalize Index Zero
+
+on:
+  push:
+    branches: ["rewrite/index-zero-v1"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: index-zero-finalizer
+  cancel-in-progress: true
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: rewrite/index-zero-v1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Remove startup Study prefetch
+        run: |
+          node <<'NODE'
+          const fs=require('node:fs');
+          const p='app/src/main.js';
+          let s=fs.readFileSync(p,'utf8');
+          const before=s;
+          s=s.replace(/^function scheduleStudyLoad\(\).*\n/m,'');
+          s=s.replaceAll('scheduleStudyLoad();','');
+          if(s.includes('scheduleStudyLoad')) throw new Error('scheduleStudyLoad remains');
+          if(s===before) throw new Error('no startup Study prefetch patch applied');
+          fs.writeFileSync(p,s);
+          NODE
+          node --check app/src/main.js
+      - name: Build canonical Structure
+        run: |
+          node --check app/scripts/build-learning-structure.mjs
+          node app/scripts/build-learning-structure.mjs --root . --out app/mousetrap_line_structure.json
+      - name: Static and artifact QA
+        working-directory: app
+        run: |
+          node tests/index_zero_static.mjs
+          node scripts/assemble-production.mjs --verify-only
+          node scripts/assemble-production.mjs --out-dir ../public
+      - name: Install Chromium QA
+        working-directory: app
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+      - name: Full feature-parity Chromium QA
+        working-directory: app
+        run: npm run test:e2e
+      - name: Assert Study is not fetched on Home startup
+        working-directory: app
+        run: |
+          node -e "const s=require('fs').readFileSync('src/main.js','utf8'); if(s.includes('scheduleStudyLoad')) process.exit(1); console.log('Study startup prefetch: disabled')"
+      - name: Commit finalized source and remove one-shot workflow
+        run: |
+          rm .github/workflows/finalize-index-zero.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main.js .github/workflows/finalize-index-zero.yml
+          git commit -m "index-zero: make Study data fully on-demand"
+          git push origin HEAD:rewrite/index-zero-v1
