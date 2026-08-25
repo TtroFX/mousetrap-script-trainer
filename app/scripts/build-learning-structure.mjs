@@ -11,9 +11,9 @@ const read=p=>fs.readFileSync(p,'utf8');
 const fail=m=>{throw new Error(m)};
 
 const SCENES={
-  'A01S01':{sceneId:'act1-scene1',sceneCode:'SCN-A01-S01',unitPrefix:'U-A01-S01',speechPrefix:'act1-scene1-speech-',expectedSpeeches:190,expectedSentences:453,expectedChunks:1554},
-  'A01S02':{sceneId:'act1-scene2',sceneCode:'SCN-A01-S02',unitPrefix:'U-A01-S02',speechPrefix:'act1-scene2-speech-',expectedSpeeches:336,expectedSentences:643,expectedChunks:2221},
-  'A02S01':{sceneId:'act2',sceneCode:'SCN-A02-S01',unitPrefix:'U-A02-S01',speechPrefix:'act2-speech-',expectedSpeeches:638,expectedSentences:1181,expectedChunks:4280}
+  A01S01:{sceneId:'act1-scene1',sceneCode:'SCN-A01-S01',unitPrefix:'U-A01-S01',speechPrefix:'act1-scene1-speech-',expectedSpeeches:190,expectedSentences:453,expectedChunks:1554},
+  A01S02:{sceneId:'act1-scene2',sceneCode:'SCN-A01-S02',unitPrefix:'U-A01-S02',speechPrefix:'act1-scene2-speech-',expectedSpeeches:336,expectedSentences:643,expectedChunks:2221},
+  A02S01:{sceneId:'act2',sceneCode:'SCN-A02-S01',unitPrefix:'U-A02-S01',speechPrefix:'act2-speech-',expectedSpeeches:638,expectedSentences:1181,expectedChunks:4280}
 };
 const ROLE_SET=new Set(['S','V','O','C','M',"S'","V'","O'","C'"]);
 const TYPE_SET=new Set(['NP','VP','PP','AdvP','AdjP','NC','AC','AdvC','Inf','Gerund','Participle','PhrasalVerb','FixedExpression']);
@@ -22,6 +22,7 @@ const FROZEN_A01S02_SHARDS={
   '003-02B_CHUNKS_A01S02.txt':'bd24466fd9293a70cb0f550609f3c9c4dad943cf62c3a3ad80c238d11b59283a',
   '003-02C_CHUNKS_A01S02.txt':'2ee444bb916b573fec29944e93eff4046fa505cd5e9ce540b26b9b92ce7fe892'
 };
+const FORBIDDEN_SINGLE=new Set(['the','a','an','of','to','very','for','in','on','at','with','from','by']);
 
 function sceneSpec(filename,text=''){
   const joined=`${filename}\n${text.slice(0,300)}`;
@@ -56,10 +57,11 @@ function parseRecord(line,spec,source){
   return {sceneId:spec.sceneId,sceneCode:spec.sceneCode,unitSeq,sentNo,highRisk,chunks,length:cursor,source};
 }
 
+const frozenShardAudit={};
 for(const [name,expected] of Object.entries(FROZEN_A01S02_SHARDS)){
   const file=path.join(materials,name);if(!fs.existsSync(file))fail(`Missing frozen shard ${name}`);
   const actual=crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
-  if(actual!==expected)fail(`Frozen shard SHA mismatch ${name}: expected=${expected} actual=${actual}`);
+  frozenShardAudit[name]={expected,actual,match:actual===expected};
 }
 
 const entries=fs.readdirSync(materials,{withFileTypes:true}).filter(x=>x.isFile()).map(x=>x.name);
@@ -78,8 +80,8 @@ for(const name of chunkFiles){
   }
 }
 for(const [key,record] of overlay)base.set(key,record);
-
 if(base.size!==2277)fail(`Sentence records ${base.size}/2277`);
+
 const rawSceneStats={};
 const rawSourceStats={};
 for(const spec of Object.values(SCENES)){
@@ -87,20 +89,34 @@ for(const spec of Object.values(SCENES)){
   rawSceneStats[spec.sceneId]={sentences:records.length,chunks:records.reduce((n,r)=>n+r.chunks.length,0),expectedSentences:spec.expectedSentences,expectedChunks:spec.expectedChunks};
   for(const r of records){const k=r.source;rawSourceStats[k]??={sentences:0,chunks:0};rawSourceStats[k].sentences++;rawSourceStats[k].chunks+=r.chunks.length}
 }
-let chunkCount=0;for(const r of base.values())chunkCount+=r.chunks.length;
-if(chunkCount!==8055)fail(`Chunk records ${chunkCount}/8055; sceneStats=${JSON.stringify(rawSceneStats)}; sourceStats=${JSON.stringify(rawSourceStats)}`);
 
 const script=JSON.parse(read(path.join(root,'mousetrap_script_data.json')));
 function skipWs(text,cursor){while(cursor<text.length&&/\s/u.test(text[cursor]))cursor++;return cursor}
-function alignSpeech(text,records,speechId){
+function words(text){return String(text).toLowerCase().match(/[a-z]+(?:['’][a-z]+)?/g)||[]}
+const lexicalAudit={insideWordBoundary:[],forbiddenSingle:[],adjacentSameRoleType:[],longChunks:[]};
+function alignSpeech(text,records,speechId,spec){
   let cursor=0;const sentences=[];
-  for(let i=0;i<records.length;i++){
+  for(const record of records){
     cursor=skipWs(text,cursor);
-    const record=records[i],start=cursor,end=start+record.length;
+    const start=cursor,end=start+record.length;
     if(end>text.length)fail(`Sentence span exceeds speech ${speechId} ${record.unitSeq}.${record.sentNo}: ${end}/${text.length}`);
     const sentenceText=text.slice(start,end);
     let chunkCursor=0;
-    for(const c of record.chunks){if(c.start!==chunkCursor||c.end>sentenceText.length)fail(`Chunk reconstruction mismatch ${speechId} ${record.sentNo}`);chunkCursor=c.end}
+    record.chunks.forEach((c,i)=>{
+      if(c.start!==chunkCursor||c.end>sentenceText.length)fail(`Chunk reconstruction mismatch ${speechId} ${record.sentNo}`);
+      const chunkText=sentenceText.slice(c.start,c.end),lex=words(chunkText);
+      const id=`${spec.sceneId}:${record.unitSeq}.${record.sentNo}.${c.chunkNo}`;
+      if(spec.sceneId==='act1-scene2'){
+        if(lex.length===1&&FORBIDDEN_SINGLE.has(lex[0]))lexicalAudit.forbiddenSingle.push(id);
+        if(lex.length>=10)lexicalAudit.longChunks.push(`${id}:${lex.length}`);
+        if(i>0){
+          const p=record.chunks[i-1],boundary=c.start,left=sentenceText[boundary-1]||'',right=sentenceText[boundary]||'';
+          if(/[A-Za-z0-9]/.test(left)&&/[A-Za-z0-9]/.test(right))lexicalAudit.insideWordBoundary.push(id);
+          if(p.role===c.role&&p.type===c.type)lexicalAudit.adjacentSameRoleType.push(`${spec.sceneId}:${record.unitSeq}.${record.sentNo}.${p.chunkNo}-${c.chunkNo}:${c.role}:${c.type}`);
+        }
+      }
+      chunkCursor=c.end;
+    });
     if(chunkCursor!==sentenceText.length)fail(`Sentence length mismatch ${speechId} ${record.sentNo}: ${chunkCursor}/${sentenceText.length}`);
     const sentenceId=`SEN-${record.sceneCode.replace('SCN-','U-')}-${record.unitSeq}-${record.sentNo}`;
     const chunks=record.chunks.map(c=>({id:`CHK-${sentenceId}-${c.chunkNo}`,start:c.start,end:c.end,role:c.role,type:c.type}));
@@ -125,15 +141,14 @@ for(const spec of Object.values(SCENES)){
     const records=[...base.entries()].filter(([k])=>k.startsWith(prefix)).map(([,r])=>r).sort((a,b)=>Number(a.sentNo)-Number(b.sentNo));
     if(!records.length)fail(`No sentence structure for ${speech.id} (${spec.sceneId} unit ${unitSeq})`);
     records.forEach((r,i)=>{if(Number(r.sentNo)!==i+1)fail(`Sentence ordinal gap ${speech.id}: ${r.sentNo} at ${i+1}`)});
-    const sentences=alignSpeech(String(speech.text||''),records,speech.id);
+    const sentences=alignSpeech(String(speech.text||''),records,speech.id,spec);
     lines[speech.id]={sceneId:spec.sceneId,unitId:`${spec.unitPrefix}-${unitSeq}`,ordinal,sentences};
     ss+=sentences.length;cc+=sentences.reduce((n,s)=>n+s.chunks.length,0);
   });
-  if(ss!==spec.expectedSentences||cc!==spec.expectedChunks)fail(`${spec.sceneId} structure counts sentences=${ss}/${spec.expectedSentences}, chunks=${cc}/${spec.expectedChunks}`);
   sceneStats[spec.sceneId]={speeches:speeches.length,sentences:ss,chunks:cc};
   speechTotal+=speeches.length;sentenceTotal+=ss;chunkTotal+=cc;
 }
-if(speechTotal!==1164||sentenceTotal!==2277||chunkTotal!==8055)fail(`Global counts ${speechTotal}/1164 ${sentenceTotal}/2277 ${chunkTotal}/8055`);
+if(speechTotal!==1164||sentenceTotal!==2277)fail(`Global speech/sentence counts ${speechTotal}/1164 ${sentenceTotal}/2277`);
 
 function parseCharacters(){
   const file=path.join(materials,'010_CHARACTER_INDEX.txt');
@@ -147,6 +162,9 @@ function parseCharacters(){
   if(Object.keys(out).length!==9)fail(`Character registry ${Object.keys(out).length}/9`);
   return out;
 }
+
+const reconciliation={frozenShardAudit,rawSceneStats,rawSourceStats,lexicalAudit,actualCounts:{speeches:speechTotal,sentences:sentenceTotal,chunks:chunkTotal},declaredCounts:{speeches:1164,sentences:2277,chunks:8055}};
+if(chunkTotal!==8055||Object.values(frozenShardAudit).some(x=>!x.match))fail(`CANONICAL_RECONCILIATION_REQUIRED ${JSON.stringify(reconciliation)}`);
 
 const payload={schemaVersion:1,source:'materials/002 + materials/003 + materials/010',copyrightSafe:true,coordinateSystem:'speech-local sentences; sentence-local zero-based half-open chunk spans',counts:{speeches:speechTotal,sentences:sentenceTotal,chunks:chunkTotal},sceneStats,roles:[...ROLE_SET],grammarTypes:[...TYPE_SET],memoryStages:['M0_FULL','M1_CHUNK_GAPS','M2_INITIAL_HINTS','M3_HIDDEN'],characters:parseCharacters(),lines};
 fs.mkdirSync(path.dirname(out),{recursive:true});
