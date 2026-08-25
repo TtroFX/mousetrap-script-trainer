@@ -1,33 +1,34 @@
 'use strict';
-const BUILD_ID='p6-2026-08-25-r13';
+const BUILD_ID='p6-2026-08-25-r14';
 const DATA_VERSION='p5-canonical-recovery-2026-08-25-r2';
-const SHELL_REV='bootstrap-recovery-2026-08-25-1';
 const CACHE_PREFIX='mts-pwa-';
-const SHELL_CACHE=`${CACHE_PREFIX}shell-${BUILD_ID}-${SHELL_REV}`;
-const DATA_CACHE=`${CACHE_PREFIX}data-${DATA_VERSION}`;
+const SHELL_CACHE=`${CACHE_PREFIX}shell-${BUILD_ID}`;
 const LEGACY_PRIVATE_CACHE='mts-private-production-v1';
 const VERSION_PATH='./pwa-version.json';
 const OFFLINE_PATH='./offline.html';
 const SHELL_ASSETS=[
-  './index.html','./p5.css','./p5_app.js','./bootstrap_watchdog.js','./practice_navigation.js','./reader_sheet.js','./p6_private_data.js','./pages_private_import.js','./p6_pwa.css','./p6_pwa.js',
+  './index.html','./p5.css','./p5_app.js','./practice_navigation.js','./reader_sheet.js','./p6_private_data.js','./pages_private_import.js','./p6_pwa.css','./p6_pwa.js',
   './P2_learning.html','./008_cue_practice_P3.html','./009_rehearsal_P4.html','./mousetrap_line_structure.json','./manifest.webmanifest',VERSION_PATH,OFFLINE_PATH,
   './icons/icon-192.png','./icons/icon-512.png','./icons/icon-maskable-512.png'
 ];
-const DATA_FILES=new Set(['mousetrap_script_data.json','mousetrap_line_translations.json','mousetrap_line_vocabulary.json','mousetrap_line_grammar.json','mousetrap_word_dictionary.json']);
-let contractPromise=null;
 function noStore(source){const r=typeof source==='string'?new Request(source):source;return new Request(r,{cache:'no-store',credentials:'same-origin'})}
 async function openCache(name){try{return await caches.open(name)}catch{return null}}
-async function sha256(response){const bytes=await response.clone().arrayBuffer(),hash=await crypto.subtle.digest('SHA-256',bytes);return [...new Uint8Array(hash)].map(b=>b.toString(16).padStart(2,'0')).join('')}
-async function readContract(){if(contractPromise)return contractPromise;contractPromise=(async()=>{let response=null;const shell=await openCache(SHELL_CACHE);if(shell)response=await shell.match(VERSION_PATH);if(!response)response=await fetch(noStore(VERSION_PATH));if(!response?.ok)throw Error('VERSION_METADATA_UNAVAILABLE');const raw=await response.json();if(raw?.schemaVersion!==1||raw.buildId!==BUILD_ID||raw.dataVersion!==DATA_VERSION)throw Error('VERSION_MISMATCH');if(!Array.isArray(raw.canonicalDataFiles)||raw.canonicalDataFiles.length!==DATA_FILES.size)throw Error('DATA_CONTRACT_INVALID');const byName=new Map();for(const item of raw.canonicalDataFiles){const name=String(item?.path||'').split('/').pop(),hash=String(item?.sha256||'').toLowerCase();if(!DATA_FILES.has(name)||!/^[0-9a-f]{64}$/.test(hash)||byName.has(name))throw Error('DATA_CONTRACT_INVALID');byName.set(name,hash)}if(byName.size!==DATA_FILES.size)throw Error('DATA_CONTRACT_INCOMPLETE');return{raw,byName}})().catch(e=>{contractPromise=null;throw e});return contractPromise}
-async function precacheShell(){const cache=await openCache(SHELL_CACHE);if(!cache)throw Error('CACHE_UNAVAILABLE');for(const asset of SHELL_ASSETS){const response=await fetch(noStore(asset));if(!response.ok)throw Error(`SHELL_ASSET_${response.status}:${asset}`);await cache.put(asset,response)}}
-async function verified(cache,name,expected){if(!cache)return null;for(const key of [`./${name}`,new URL(name,self.registration.scope).href]){const response=await cache.match(key);if(!response?.ok)continue;try{if(await sha256(response)===expected)return response;await cache.delete(key)}catch{await cache.delete(key).catch(()=>{})}}return null}
-async function warmCanonicalData(){const contract=await readContract(),cache=await openCache(DATA_CACHE);if(!cache)throw Error('DATA_CACHE_UNAVAILABLE');for(const name of DATA_FILES){const expected=contract.byName.get(name);if(await verified(cache,name,expected))continue;const response=await fetch(noStore(`./${name}`));if(!response.ok)throw Error(`PRODUCTION_DATA_HTTP_${response.status}:${name}`);if(await sha256(response)!==expected)throw Error(`DATA_HASH_MISMATCH:${name}`);await cache.put(`./${name}`,response)}}
-async function atomicInstall(){try{await precacheShell();await warmCanonicalData()}catch(e){await Promise.allSettled([caches.delete(SHELL_CACHE),caches.delete(DATA_CACHE)]);throw e}}
-self.addEventListener('install',event=>event.waitUntil((async()=>{await atomicInstall();await self.skipWaiting()})()));
-self.addEventListener('activate',event=>event.waitUntil((async()=>{const names=await caches.keys().catch(()=>[]);await Promise.all(names.map(name=>{if(name===LEGACY_PRIVATE_CACHE)return caches.delete(name);if(!name.startsWith(CACHE_PREFIX)||name===SHELL_CACHE||name===DATA_CACHE)return false;return caches.delete(name)}));await self.clients.claim();const clients=await self.clients.matchAll({type:'window',includeUncontrolled:true});await Promise.allSettled(clients.map(c=>c.navigate(c.url)))})()));
+async function precacheShell(){
+  const cache=await openCache(SHELL_CACHE);if(!cache)throw Error('CACHE_UNAVAILABLE');
+  const entries=await Promise.all(SHELL_ASSETS.map(async asset=>{const response=await fetch(noStore(asset));if(!response.ok)throw Error(`SHELL_ASSET_${response.status}:${asset}`);return[asset,response]}));
+  await Promise.all(entries.map(([asset,response])=>cache.put(asset,response)));
+}
+self.addEventListener('install',event=>event.waitUntil((async()=>{try{await precacheShell();await self.skipWaiting()}catch(error){await caches.delete(SHELL_CACHE).catch(()=>{});throw error}})()));
+self.addEventListener('activate',event=>event.waitUntil((async()=>{
+  const names=await caches.keys().catch(()=>[]);
+  await Promise.all(names.map(name=>{
+    if(name===LEGACY_PRIVATE_CACHE)return caches.delete(name);
+    if(name.startsWith(`${CACHE_PREFIX}shell-`)&&name!==SHELL_CACHE)return caches.delete(name);
+    return false;
+  }));
+  await self.clients.claim();
+})()));
 function relative(url){const scope=new URL(self.registration.scope);if(url.origin!==scope.origin||!url.pathname.startsWith(scope.pathname))return null;let rel=url.pathname.slice(scope.pathname.length);if(!rel||rel==='/')rel='index.html';return `./${rel}`}
-function errorResponse(code,message,status=503){return new Response(JSON.stringify({ok:false,code,message,buildId:BUILD_ID,dataVersion:DATA_VERSION}),{status,headers:{'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-mts-pwa-error':code}})}
-async function canonical(request){const name=new URL(request.url).pathname.split('/').pop();let contract;try{contract=await readContract()}catch(e){return errorResponse('VERSION_MISMATCH',String(e?.message||e))}const expected=contract.byName.get(name);if(!expected)return errorResponse('DATA_CONTRACT_MISSING',name);const cache=await openCache(DATA_CACHE),cached=await verified(cache,name,expected);if(cached)return cached;let response;try{response=await fetch(noStore(request))}catch{return errorResponse('OFFLINE_DATA_MISSING',name)}if(!response.ok)return errorResponse('DATA_NETWORK_ERROR',`${name}:${response.status}`,response.status);try{if(await sha256(response)!==expected)return errorResponse('DATA_HASH_MISMATCH',name)}catch{return errorResponse('DATA_HASH_UNAVAILABLE',name)}if(cache)await cache.put(`./${name}`,response.clone()).catch(()=>{});return response}
 async function shell(request){const cache=await openCache(SHELL_CACHE),rel=relative(new URL(request.url));if(cache&&rel){const hit=await cache.match(rel);if(hit)return hit}try{const response=await fetch(noStore(request));if(response.ok)return response}catch{}if(cache){const fallback=await cache.match(OFFLINE_PATH);if(fallback)return fallback}return new Response('Offline',{status:503})}
-self.addEventListener('fetch',event=>{if(event.request.method!=='GET')return;const url=new URL(event.request.url);if(url.origin!==self.location.origin)return;const name=url.pathname.split('/').pop();if(DATA_FILES.has(name)){event.respondWith(canonical(event.request));return}const rel=relative(url);if(event.request.mode==='navigate'){event.respondWith(shell(event.request));return}if(rel&&SHELL_ASSETS.includes(rel))event.respondWith(shell(event.request))});
-self.addEventListener('message',event=>{const m=event.data||{};if(m.type==='SKIP_WAITING'){self.skipWaiting();return}if(m.type==='GET_VERSION'&&event.source)event.source.postMessage({type:'MTS_PWA_VERSION',buildId:BUILD_ID,dataVersion:DATA_VERSION,shellRev:SHELL_REV})});
+self.addEventListener('fetch',event=>{if(event.request.method!=='GET')return;const url=new URL(event.request.url);if(url.origin!==self.location.origin)return;const rel=relative(url);if(event.request.mode==='navigate'){event.respondWith(shell(event.request));return}if(rel&&SHELL_ASSETS.includes(rel))event.respondWith(shell(event.request))});
+self.addEventListener('message',event=>{const m=event.data||{};if(m.type==='SKIP_WAITING'){self.skipWaiting();return}if(m.type==='GET_VERSION'&&event.source)event.source.postMessage({type:'MTS_PWA_VERSION',buildId:BUILD_ID,dataVersion:DATA_VERSION})});
