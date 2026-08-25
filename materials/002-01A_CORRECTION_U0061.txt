@@ -1,0 +1,17 @@
+MOUSETRAP SCRIPT TRAINER - 002 CORRECTION U-A01-S01-0061
+Status: CANONICAL OVERLAY / SOURCE-PDF RECONCILED
+Source authority: The Mousetrap 台本.pdf
+Source PDF SHA-256: 94d46d2afe7504d2010c10b3ef4f1017bc3adfe0c09ab86bfd837167357c397b
+Target: SCN-A01-S01 / source speaker-label ordinal 60 / PDF page 8
+Reason: the source contains a malformed opening stage-direction bracket before the second spoken sentence. The earlier 002 pass treated the remainder as direction text and undercounted this source turn by one spoken sentence.
+
+BASE ROW
+0061|M|60|8-8|1
+
+EFFECTIVE ROW
+0061|M|60|8-8|2
+
+Effect:
+SCN-A01-S01 spoken sentences 453 -> 454
+Global spoken Sentence IDs 2277 -> 2278
+No speaker-span or Unit ID changes.
