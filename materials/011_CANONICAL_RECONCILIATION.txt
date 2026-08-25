@@ -1,0 +1,41 @@
+MOUSETRAP SCRIPT TRAINER - 011 CANONICAL RECONCILIATION
+Status: PASS / EFFECTIVE CANONICAL AUTHORITY
+Date: 2026-08-25
+Source authority: The Mousetrap 台本.pdf
+Source PDF SHA-256: 94d46d2afe7504d2010c10b3ef4f1017bc3adfe0c09ab86bfd837167357c397b
+Purpose: reconcile the three source/Production mismatches discovered while connecting 002/003 Structure to all 1,164 Production speeches.
+
+SOURCE-PROVEN CORRECTIONS
+1. U-A01-S01-0061
+   - Earlier 002/003 omitted one spoken sentence after a malformed source stage-direction bracket.
+   - Apply materials/002-01A_CORRECTION_U0061.txt.
+   - Apply materials/003-01B0_CORRECTION_U0061.txt.
+
+2. U-A01-S02-0214
+   - Earlier 003 stored a 16-character three-chunk structure for a four-character affirmative reply.
+   - Apply materials/003-02B0_CORRECTION_U0214.txt.
+
+3. act1-scene2-speech-0308
+   - Production base Script Data retains the historical malformed stage-direction tail.
+   - The verified Production resolver and build pipeline apply the source-proven spoken-text overlay after hash verification.
+   - 002/003 sentence allocation for this Unit was already correct.
+
+EFFECTIVE CANONICAL COUNTS
+speaker spans: 1164
+canonical Units: 1170
+spoken Sentence IDs: 2278
+effective Chunk IDs: 8059
+
+SCENE COUNTS
+SCN-A01-S01: speeches=190 / sentences=454 / chunks=1558
+SCN-A01-S02: speeches=336 / sentences=643 / chunks=2221
+SCN-A02-S01: speeches=638 / sentences=1181 / chunks=4280
+
+RUNTIME JOIN RESULT
+Production speech-to-Structure exact mapping: 1164 / 1164
+unsafe/fallback Structure mappings: 0
+
+SUPERSESSION
+Earlier files that state 2277 sentences / 8055 chunks are retained as historical pre-reconciliation snapshots. Effective builds MUST apply this reconciliation and its overlays. data/canonical-integration-manifest.json is the machine-readable current authority.
+
+FINAL RESULT: PASS
