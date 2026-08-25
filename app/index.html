@@ -31,6 +31,17 @@
 <div class="pwa-status" id="dataStatus" role="status" aria-live="polite" hidden></div>
 <div class="toast" id="toast"></div>
 <div class="pwa-status" id="pwaStatus" role="status" aria-live="polite" hidden></div>
-<script src="bootstrap_entry.js"></script>
+<script>
+(()=>{'use strict';
+  const showPending=()=>{const host=document.getElementById('dataStatus');if(host&&!window.MTS_P5_QA){host.textContent='台本データを読み込んでいます…';host.hidden=false}}
+  document.querySelectorAll('[data-pre-nav]').forEach(button=>button.addEventListener('click',()=>{location.hash=`#/${button.dataset.preNav}`;showPending()}));
+  document.querySelectorAll('[data-pre-scene]').forEach(button=>button.addEventListener('click',()=>{try{localStorage.setItem('mts.selectedSceneId',button.dataset.preScene)}catch{}location.hash='#/script';showPending()}));
+  setTimeout(()=>{if(!window.MTS_P5_QA){const host=document.getElementById('dataStatus');if(host){host.textContent='台本データの読み込みに時間がかかっています。通信を確認して再読み込みしてください。';host.hidden=false}}},12000);
+})();
+</script>
+<script src="p5_app.js?v=r18"></script>
+<script src="practice_navigation.js?v=r18"></script>
+<script src="reader_sheet.js?v=r18"></script>
+<script src="p6_pwa.js?v=r18"></script>
 </body>
 </html>
