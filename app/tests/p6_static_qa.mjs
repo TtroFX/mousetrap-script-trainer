@@ -28,15 +28,15 @@ for(const f of version.canonicalDataFiles){if(!expected.delete(f.path))fail(`une
 if(expected.size)fail(`missing canonical paths ${[...expected].join(',')}`);
 
 const html=read('index.html');
-for(const fragment of ['rel="manifest" href="manifest.webmanifest"','name="viewport"','name="theme-color"','src="p6_private_data.js"','src="p5_app.js"','src="p6_pwa.js"','id="retryBtn"'])if(!html.includes(fragment))fail(`index missing ${fragment}`);
+for(const fragment of ['rel="manifest" href="manifest.webmanifest"','name="viewport"','name="theme-color"','src="p6_private_data.js"','src="p5_app.js"','src="reader_sheet.js"','src="p6_pwa.js"','id="learningSheet"','id="learningSheetClose"','id="retryBtn"'])if(!html.includes(fragment))fail(`index missing ${fragment}`);
 for(const forbidden of ['id="importDataBtn"','id="privateDataFiles"','Import private production data'])if(html.includes(forbidden))fail(`manual production-data path remains: ${forbidden}`);
 if(/https?:\/\/|cdn\./i.test(html))fail('index contains external runtime dependency');
 
-const required=['index.html','p5.css','p5_app.js','p6_private_data.js','p6_pwa.css','p6_pwa.js','P2_learning.html','008_cue_practice_P3.html','009_rehearsal_P4.html','manifest.webmanifest','pwa-version.json','offline.html','sw.js','scripts/assemble-production.mjs'];
+const required=['index.html','p5.css','p5_app.js','reader_sheet.js','p6_private_data.js','p6_pwa.css','p6_pwa.js','P2_learning.html','008_cue_practice_P3.html','009_rehearsal_P4.html','manifest.webmanifest','pwa-version.json','offline.html','sw.js','scripts/assemble-production.mjs'];
 for(const file of required)if(!exists(file))fail(`missing required asset ${file}`);
 
 const sw=read('sw.js');new vm.Script(sw,{filename:'sw.js'});
-for(const token of [version.buildId,version.dataVersion,'install','activate','fetch','CACHE_PREFIX','DATA_CACHE','DATA_VERSION','atomicInstall','warmCanonicalData','SKIP_WAITING','OFFLINE_DATA_MISSING','DATA_HASH_MISMATCH','LEGACY_PRIVATE_CACHE'])if(!sw.includes(token))fail(`sw missing ${token}`);
+for(const token of [version.buildId,version.dataVersion,'install','activate','fetch','CACHE_PREFIX','DATA_CACHE','DATA_VERSION','atomicInstall','warmCanonicalData','SKIP_WAITING','OFFLINE_DATA_MISSING','DATA_HASH_MISMATCH','LEGACY_PRIVATE_CACHE','reader_sheet.js'])if(!sw.includes(token))fail(`sw missing ${token}`);
 if(sw.includes("const PRIVATE_CACHE='mts-private-production-v1'"))fail('legacy private cache is still a production data source');
 
 const resolver=read('p6_private_data.js');new vm.Script(resolver,{filename:'p6_private_data.js'});
@@ -46,6 +46,10 @@ for(const forbidden of ['FileReader','privateDataFiles','accept="application/jso
 const p5=read('p5_app.js');new vm.Script(p5,{filename:'p5_app.js'});
 for(const token of ["['act1-scene1','act1-scene1-speech-',190","['act1-scene2','act1-scene2-speech-',336","['act2','act2-speech-',638","mousetrap_script_data.json","mousetrap_line_translations.json","mousetrap_line_vocabulary.json","mousetrap_line_grammar.json","mousetrap_word_dictionary.json","mts.reader.progress","data-reader-mode","#/search","mts.practice.cue.ratings","mts.practice.rehearsal.state","showDataFailure","verified production response unavailable"])if(!p5.includes(token))fail(`P5 production invariant missing ${token}`);
 for(const forbidden of ['prototypeData','embeddedPrototype','importDataBtn','privateDataFiles','MTS_PRIVATE_DATA.install','Private production JSONをImport'])if(p5.includes(forbidden))fail(`dead/non-production P5 path remains: ${forbidden}`);
+
+syntaxCheck('reader_sheet.js');
+const sheet=read('reader_sheet.js');
+for(const token of ['learningSheet','learningSheetHandle','learningSheetClose','line-sheet-open','pointerdown','mts:close-line','MTS_READER_SHEET','data-search-line','#prevLine','#nextLine'])if(!sheet.includes(token))fail(`Reader sheet missing ${token}`);
 
 const learning=read('P2_learning.html');
 for(const token of ['src="p6_private_data.js"','getVerifiedResponse','FAIL-CLOSED · PRODUCTION DATA UNAVAILABLE','translationSource','Headword','contextMeaning','Grammar / Usage','#/rehearsal?scene=','Dictionary entryが見つかりません','このspeechには登録Vocabularyがありません','このspeechには追加Grammar noteがありません'])if(!learning.includes(token))fail(`Learning UI missing ${token}`);
@@ -64,7 +68,7 @@ const pkg=JSON.parse(read('package.json'));
 if(pkg.scripts?.['verify:production']!=='node scripts/assemble-production.mjs --verify-only')fail('verify:production script missing');
 if(pkg.scripts?.['assemble:production']!=='node scripts/assemble-production.mjs')fail('assemble:production script missing');
 
-const productionRuntime=['index.html','p5_app.js','p6_private_data.js','p6_pwa.js','P2_learning.html','008_cue_practice_P3.html','009_rehearsal_P4.html','sw.js'];
+const productionRuntime=['index.html','p5_app.js','reader_sheet.js','p6_private_data.js','p6_pwa.js','P2_learning.html','008_cue_practice_P3.html','009_rehearsal_P4.html','sw.js'];
 const unresolved=/\b(?:TODO|FIXME|coming soon|not implemented|placeholder|dummy|fake|temporary)\b/i;
 for(const file of productionRuntime){
   const source=read(file).replace(/\bplaceholder\s*=\s*(["']).*?\1/gi,'');
@@ -85,6 +89,9 @@ console.log(JSON.stringify({
   canonicalContract:5,
   productionAssembler:true,
   p5ProductionInvariants:true,
+  readerBottomSheet:true,
+  fixedLineNavigation:true,
+  dismissByBackdropSwipeAndClose:true,
   externalRuntimeDependencies:0,
   blockingPlaceholderMarkers:0
 },null,2));

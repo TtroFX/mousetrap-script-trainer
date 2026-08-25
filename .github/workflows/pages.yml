@@ -24,6 +24,7 @@ jobs:
       - name: Validate PWA source
         run: |
           node --check app/pages_private_import.js
+          node --check app/reader_sheet.js
           (cd app && node tests/p6_static_qa.mjs)
 
       - name: Verify canonical JSON files from repository root
@@ -63,6 +64,7 @@ jobs:
             index.html
             p5.css
             p5_app.js
+            reader_sheet.js
             p6_private_data.js
             pages_private_import.js
             p6_pwa.css
@@ -101,6 +103,7 @@ jobs:
 
           test -f public/index.html
           test -f public/sw.js
+          test -f public/reader_sheet.js
           for file in "${canonical[@]}"; do test -f "public/$file"; done
 
       - name: Configure GitHub Pages
