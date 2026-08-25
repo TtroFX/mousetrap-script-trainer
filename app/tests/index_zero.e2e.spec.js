@@ -65,8 +65,8 @@ test('Dictionary opens from a registered vocabulary item without iframe',async({
   const target=await page.evaluate(async()=>{await MTS_INDEX_ZERO.store.loadStudy();for(const s of ['act1-scene1','act1-scene2','act2'])for(const x of MTS_INDEX_ZERO.store.getScene(s)){const v=MTS_INDEX_ZERO.store.getVocabulary(x.id);if(v.length)return{scene:s,line:x.id}}return null});
   expect(target).toBeTruthy();
   await page.goto(`${BASE}#/line?scene=${target.scene}&line=${target.line}`);
-  await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasStudy());
-  await page.reload();await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasCore()&&MTS_INDEX_ZERO.store.hasStudy());
+  await page.waitForFunction(({line})=>MTS_INDEX_ZERO.store.hasCore()&&MTS_INDEX_ZERO.store.hasStudy()&&MTS_INDEX_ZERO.store.getVocabulary(line).length>0,{line:target.line},{timeout:15000});
+  await page.waitForFunction(()=>!!document.querySelector('[data-detail-word]'),null,{timeout:15000});
   await page.getByText('詳しく見る',{exact:true}).click();
   const word=page.locator('[data-detail-word]').first();await expect(word).toBeVisible();await word.click();
   await expect(page.locator('#word-overlay')).toBeVisible();
