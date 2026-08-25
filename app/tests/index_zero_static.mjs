@@ -3,8 +3,10 @@ import path from 'node:path';
 const root=process.cwd();
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
 const fail=m=>{throw new Error(m)};
-const required=['index.html','src/app.css','src/config.js','src/data-store.js','src/state-store.js','src/main.js','sw.js'];
+const required=['index.html','src/app.css','src/config.js','src/data-store.js','src/state-store.js','src/main.js','sw.js','playwright.index-zero.config.js','tests/index_zero.e2e.spec.js'];
 for(const f of required)if(!fs.existsSync(path.join(root,f)))fail(`missing ${f}`);
+const legacySource=['p5.css','p5_app.js','reader_sheet.js','practice_navigation.js','p6_private_data.js','p6_pwa.js','p6_pwa.css','P2_learning.html','008_cue_practice_P3.html','009_rehearsal_P4.html','upgrade-r18.html','playwright.config.js','tests/p5.e2e.spec.js','tests/p6.pwa.spec.js','tests/p6_completion_regression.spec.js','tests/p6_static_qa.mjs','tests/startup_smoke.mjs','tests/generate_fixture.mjs','tests/prepare_p6_fixture_contract.mjs'];
+for(const f of legacySource)if(fs.existsSync(path.join(root,f)))fail(`legacy source still exists: ${f}`);
 const index=read('index.html'),main=read('src/main.js'),data=read('src/data-store.js'),state=read('src/state-store.js'),sw=read('sw.js');
 if(!index.includes('type="module" src="./src/main.js"'))fail('index does not boot the new module runtime');
 for(const forbidden of ['<iframe','p5_app.js','reader_sheet.js','practice_navigation.js','p6_private_data.js','P2_learning.html','008_cue_practice_P3.html','009_rehearsal_P4.html','Production Data','dataGate'])if(index.includes(forbidden))fail(`legacy dependency in index: ${forbidden}`);
@@ -17,4 +19,4 @@ if(!main.includes('Cue Practice')||!main.includes('Rehearsal')||!main.includes('
 if(!main.includes('Full')||!main.includes('Mine')||!main.includes('Cue Focus')||!main.includes('Structure')||!main.includes('Grammar / Usage'))fail('reader/study feature parity missing');
 const openPos=sw.indexOf('await timeoutFetch(request)'),cachePos=sw.indexOf('await caches.open(cacheName)');
 if(openPos<0||cachePos<0||openPos>cachePos)fail('service worker is not network-first before Cache Storage');
-console.log(JSON.stringify({status:'PASS',runtime:'index-zero',iframes:0,directViewFetches:0,dataStore:'single-owner',legacyRuntimeDependencies:0},null,2));
+console.log(JSON.stringify({status:'PASS',runtime:'index-zero',iframes:0,directViewFetches:0,dataStore:'single-owner',legacyRuntimeDependencies:0,legacySourceFiles:0},null,2));
