@@ -1,14 +1,15 @@
 'use strict';
 const BUILD_ID='p6-2026-08-25-r13';
 const DATA_VERSION='p5-canonical-recovery-2026-08-25-r2';
+const SHELL_REV='bootstrap-recovery-2026-08-25-1';
 const CACHE_PREFIX='mts-pwa-';
-const SHELL_CACHE=`${CACHE_PREFIX}shell-${BUILD_ID}`;
+const SHELL_CACHE=`${CACHE_PREFIX}shell-${BUILD_ID}-${SHELL_REV}`;
 const DATA_CACHE=`${CACHE_PREFIX}data-${DATA_VERSION}`;
 const LEGACY_PRIVATE_CACHE='mts-private-production-v1';
 const VERSION_PATH='./pwa-version.json';
 const OFFLINE_PATH='./offline.html';
 const SHELL_ASSETS=[
-  './index.html','./p5.css','./p5_app.js','./practice_navigation.js','./reader_sheet.js','./p6_private_data.js','./pages_private_import.js','./p6_pwa.css','./p6_pwa.js',
+  './index.html','./p5.css','./p5_app.js','./bootstrap_watchdog.js','./practice_navigation.js','./reader_sheet.js','./p6_private_data.js','./pages_private_import.js','./p6_pwa.css','./p6_pwa.js',
   './P2_learning.html','./008_cue_practice_P3.html','./009_rehearsal_P4.html','./mousetrap_line_structure.json','./manifest.webmanifest',VERSION_PATH,OFFLINE_PATH,
   './icons/icon-192.png','./icons/icon-512.png','./icons/icon-maskable-512.png'
 ];
@@ -29,4 +30,4 @@ function errorResponse(code,message,status=503){return new Response(JSON.stringi
 async function canonical(request){const name=new URL(request.url).pathname.split('/').pop();let contract;try{contract=await readContract()}catch(e){return errorResponse('VERSION_MISMATCH',String(e?.message||e))}const expected=contract.byName.get(name);if(!expected)return errorResponse('DATA_CONTRACT_MISSING',name);const cache=await openCache(DATA_CACHE),cached=await verified(cache,name,expected);if(cached)return cached;let response;try{response=await fetch(noStore(request))}catch{return errorResponse('OFFLINE_DATA_MISSING',name)}if(!response.ok)return errorResponse('DATA_NETWORK_ERROR',`${name}:${response.status}`,response.status);try{if(await sha256(response)!==expected)return errorResponse('DATA_HASH_MISMATCH',name)}catch{return errorResponse('DATA_HASH_UNAVAILABLE',name)}if(cache)await cache.put(`./${name}`,response.clone()).catch(()=>{});return response}
 async function shell(request){const cache=await openCache(SHELL_CACHE),rel=relative(new URL(request.url));if(cache&&rel){const hit=await cache.match(rel);if(hit)return hit}try{const response=await fetch(noStore(request));if(response.ok)return response}catch{}if(cache){const fallback=await cache.match(OFFLINE_PATH);if(fallback)return fallback}return new Response('Offline',{status:503})}
 self.addEventListener('fetch',event=>{if(event.request.method!=='GET')return;const url=new URL(event.request.url);if(url.origin!==self.location.origin)return;const name=url.pathname.split('/').pop();if(DATA_FILES.has(name)){event.respondWith(canonical(event.request));return}const rel=relative(url);if(event.request.mode==='navigate'){event.respondWith(shell(event.request));return}if(rel&&SHELL_ASSETS.includes(rel))event.respondWith(shell(event.request))});
-self.addEventListener('message',event=>{const m=event.data||{};if(m.type==='SKIP_WAITING'){self.skipWaiting();return}if(m.type==='GET_VERSION'&&event.source)event.source.postMessage({type:'MTS_PWA_VERSION',buildId:BUILD_ID,dataVersion:DATA_VERSION})});
+self.addEventListener('message',event=>{const m=event.data||{};if(m.type==='SKIP_WAITING'){self.skipWaiting();return}if(m.type==='GET_VERSION'&&event.source)event.source.postMessage({type:'MTS_PWA_VERSION',buildId:BUILD_ID,dataVersion:DATA_VERSION,shellRev:SHELL_REV})});
