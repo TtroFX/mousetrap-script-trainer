@@ -21,7 +21,7 @@ for(const [src,size] of [['icons/icon-192.png',192],['icons/icon-512.png',512],[
 if(!String(declared.get('icons/icon-maskable-512.png')?.purpose||'').split(/\s+/).includes('maskable'))fail('maskable icon purpose missing');
 
 const version=JSON.parse(read('pwa-version.json'));
-if(version.schemaVersion!==1||version.buildId!=='p6-2026-08-24-r5'||version.dataVersion!=='p5-canonical-freeze-2026-08-24-r1')fail('pwa-version invalid');
+if(version.schemaVersion!==1||!String(version.buildId||'')||!String(version.dataVersion||''))fail('pwa-version invalid');
 if(!Array.isArray(version.canonicalDataFiles)||version.canonicalDataFiles.length!==5)fail('canonical data contract must contain five files');
 const expected=new Set(['mousetrap_script_data.json','mousetrap_line_translations.json','mousetrap_line_vocabulary.json','mousetrap_line_grammar.json','mousetrap_word_dictionary.json']);
 for(const f of version.canonicalDataFiles){if(!expected.delete(f.path))fail(`unexpected/duplicate canonical path ${f.path}`);if(!/^[0-9a-f]{64}$/.test(f.sha256))fail(`bad sha256 ${f.path}`)}
@@ -36,7 +36,7 @@ const required=['index.html','p5.css','p5_app.js','p6_private_data.js','p6_pwa.c
 for(const file of required)if(!exists(file))fail(`missing required asset ${file}`);
 
 const sw=read('sw.js');new vm.Script(sw,{filename:'sw.js'});
-for(const token of ['p6-2026-08-24-r5','install','activate','fetch','CACHE_PREFIX','DATA_CACHE','DATA_VERSION','atomicInstall','warmCanonicalData','SKIP_WAITING','OFFLINE_DATA_MISSING','DATA_HASH_MISMATCH','LEGACY_PRIVATE_CACHE'])if(!sw.includes(token))fail(`sw missing ${token}`);
+for(const token of [version.buildId,version.dataVersion,'install','activate','fetch','CACHE_PREFIX','DATA_CACHE','DATA_VERSION','atomicInstall','warmCanonicalData','SKIP_WAITING','OFFLINE_DATA_MISSING','DATA_HASH_MISMATCH','LEGACY_PRIVATE_CACHE'])if(!sw.includes(token))fail(`sw missing ${token}`);
 if(sw.includes("const PRIVATE_CACHE='mts-private-production-v1'"))fail('legacy private cache is still a production data source');
 
 const resolver=read('p6_private_data.js');new vm.Script(resolver,{filename:'p6_private_data.js'});
