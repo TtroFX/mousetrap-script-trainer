@@ -118,7 +118,7 @@ test('core network failure never creates an infinite blocking gate',async({brows
   await page.getByRole('button',{name:'Role'}).click();
   await expect(page.getByRole('heading',{name:'役を選択'})).toBeVisible();
   await page.goto(BASE+'#/script');
-  await expect(page.getByText('台本データを読み込めませんでした。')).toBeVisible({timeout:12000});
+  await expect(page.getByText('台本データを読み込めませんでした。',{exact:true})).toBeVisible({timeout:12000});
   expect(await page.locator('iframe').count()).toBe(0);
   await context.close();
 });
