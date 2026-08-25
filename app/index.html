@@ -24,24 +24,24 @@
   </main>
   <nav class="bottom-nav"><button data-pre-nav="home" class="active">Home</button><button data-pre-nav="script">Script</button><button data-pre-nav="practice">Practice</button><button data-pre-nav="progress">Progress</button><button data-pre-nav="more">More</button></nav>
 </div>
-<div class="learning-sheet-backdrop" id="learningOverlay" hidden><section class="learning-sheet" id="learningSheet" role="dialog" aria-modal="true" aria-label="Line explanation"><div class="learning-sheet-handle" id="learningSheetHandle"><span class="learning-sheet-grabber" aria-hidden="true"></span><button class="learning-sheet-close" id="learningSheetClose" type="button" aria-label="一文解説を閉じる">×</button></div><iframe id="learningFrame" src="P2_learning.html" title="Line explanation"></iframe></section></div>
+<div class="learning-sheet-backdrop" id="learningOverlay" hidden><section class="learning-sheet" id="learningSheet" role="dialog" aria-modal="true" aria-label="Line explanation"><div class="learning-sheet-handle" id="learningSheetHandle"><span class="learning-sheet-grabber" aria-hidden="true"></span><button class="learning-sheet-close" id="learningSheetClose" type="button" aria-label="一文解説を閉じる">×</button></div><iframe id="learningFrame" data-src="P2_learning.html" title="Line explanation"></iframe></section></div>
 <div class="word-sheet-backdrop" id="wordOverlay" hidden><section class="word-sheet" id="wordSheet" role="dialog" aria-modal="true" aria-label="Word dictionary"><div class="word-sheet-handle" id="wordSheetHandle"><span class="word-sheet-grabber" aria-hidden="true"></span><button class="word-sheet-close" id="wordSheetClose" type="button" aria-label="辞書を閉じる">×</button></div><div class="word-sheet-content" id="wordSheetContent"></div></section></div>
-<div class="overlay dark" id="cueOverlay" hidden><iframe id="cueFrame" src="008_cue_practice_P3.html" title="Cue Practice"></iframe></div>
-<div class="overlay dark" id="rehearsalOverlay" hidden><iframe id="rehearsalFrame" src="009_rehearsal_P4.html" title="Rehearsal"></iframe></div>
+<div class="overlay dark" id="cueOverlay" hidden><iframe id="cueFrame" data-src="008_cue_practice_P3.html" title="Cue Practice"></iframe></div>
+<div class="overlay dark" id="rehearsalOverlay" hidden><iframe id="rehearsalFrame" data-src="009_rehearsal_P4.html" title="Rehearsal"></iframe></div>
 <div class="pwa-status" id="dataStatus" role="status" aria-live="polite" hidden></div>
 <div class="toast" id="toast"></div>
 <div class="pwa-status" id="pwaStatus" role="status" aria-live="polite" hidden></div>
 <script>
 (()=>{'use strict';
-  const showPending=()=>{const host=document.getElementById('dataStatus');if(host&&!window.MTS_P5_QA){host.textContent='台本データを読み込んでいます…';host.hidden=false}}
-  document.querySelectorAll('[data-pre-nav]').forEach(button=>button.addEventListener('click',()=>{location.hash=`#/${button.dataset.preNav}`;showPending()}));
-  document.querySelectorAll('[data-pre-scene]').forEach(button=>button.addEventListener('click',()=>{try{localStorage.setItem('mts.selectedSceneId',button.dataset.preScene)}catch{}location.hash='#/script';showPending()}));
-  setTimeout(()=>{if(!window.MTS_P5_QA){const host=document.getElementById('dataStatus');if(host){host.textContent='台本データの読み込みに時間がかかっています。通信を確認して再読み込みしてください。';host.hidden=false}}},12000);
+  const pendingRoute=()=>{const host=document.getElementById('dataStatus');if(host&&window.MTS_DATA?.snapshot().coreStatus!=='ready'){host.textContent='台本データを読み込んでいます…';host.hidden=false}}
+  document.querySelectorAll('[data-pre-nav]').forEach(button=>button.addEventListener('click',()=>{location.hash=`#/${button.dataset.preNav}`;pendingRoute()}));
+  document.querySelectorAll('[data-pre-scene]').forEach(button=>button.addEventListener('click',()=>{try{localStorage.setItem('mts.selectedSceneId',button.dataset.preScene)}catch{}location.hash='#/script';pendingRoute()}));
 })();
 </script>
-<script src="p5_app.js?v=r18"></script>
-<script src="practice_navigation.js?v=r18"></script>
-<script src="reader_sheet.js?v=r18"></script>
-<script src="p6_pwa.js?v=r18"></script>
+<script src="data_store.js?v=r19"></script>
+<script src="p5_app.js?v=r19"></script>
+<script src="practice_navigation.js?v=r19"></script>
+<script src="reader_sheet.js?v=r19"></script>
+<script src="p6_pwa.js?v=r19"></script>
 </body>
 </html>
