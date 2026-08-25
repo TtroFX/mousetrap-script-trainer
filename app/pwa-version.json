@@ -1,5 +1,6 @@
 {
-  "schemaVersion": 1,
-  "buildId": "p6-2026-08-25-r18",
-  "dataVersion": "p5-canonical-recovery-2026-08-25-r2"
+  "schemaVersion": 2,
+  "buildId": "index-zero-2026-08-26-r1",
+  "runtime": "index-zero",
+  "dataVersion": "canonical-2026-08-25"
 }
