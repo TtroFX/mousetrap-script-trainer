@@ -54,6 +54,7 @@ test('Search opens Line Detail and study/structure load on demand',async({page})
   await expect(page.getByText('Translation',{exact:true})).toBeVisible();
   await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasStudy()&&MTS_INDEX_ZERO.store.hasStructure(),null,{timeout:15000});
   await expect(page.getByText('Structure',{exact:true})).toBeVisible();
+  await page.getByText('詳しく見る',{exact:true}).click();
   await expect(page.getByText('Grammar / Usage',{exact:true})).toBeVisible();
   const d=await page.evaluate(()=>MTS_INDEX_ZERO.diagnostics().data);
   expect(d.metrics.requests).toBeLessThanOrEqual(6);
@@ -66,6 +67,7 @@ test('Dictionary opens from a registered vocabulary item without iframe',async({
   await page.goto(`${BASE}#/line?scene=${target.scene}&line=${target.line}`);
   await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasStudy());
   await page.reload();await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasCore()&&MTS_INDEX_ZERO.store.hasStudy());
+  await page.getByText('詳しく見る',{exact:true}).click();
   const word=page.locator('[data-detail-word]').first();await expect(word).toBeVisible();await word.click();
   await expect(page.locator('#word-overlay')).toBeVisible();
   await expect(page.getByText('Word dictionary',{exact:true})).toBeVisible();
