@@ -29,9 +29,10 @@ jobs:
       - name: Validate PWA source
         run: |
           node --check app/pages_private_import.js
-          node --check app/bootstrap_watchdog.js
           node --check app/practice_navigation.js
           node --check app/reader_sheet.js
+          node --check app/p6_private_data.js
+          node --check app/p6_pwa.js
           node --check app/sw.js
           (cd app && node tests/p6_static_qa.mjs)
 
@@ -72,7 +73,6 @@ jobs:
             index.html
             p5.css
             p5_app.js
-            bootstrap_watchdog.js
             practice_navigation.js
             reader_sheet.js
             p6_private_data.js
@@ -113,7 +113,6 @@ jobs:
 
           test -f public/index.html
           test -f public/sw.js
-          test -f public/bootstrap_watchdog.js
           test -f public/practice_navigation.js
           test -f public/reader_sheet.js
           test -f public/mousetrap_line_structure.json
