@@ -35,20 +35,15 @@
   <div class="card gate-card">
     <div class="eyebrow">Production Data</div>
     <h2>Script to Stage</h2>
-    <p>同一originにbundleされたcanonical data、またはこの端末に取り込んだ検証済みprivate dataを使って起動します。private JSONはGitHub Pagesへ送信・公開されません。</p>
-    <div class="gate-status" id="gateStatus">Loading…</div>
+    <p>検証済みcanonical dataを使って起動します。学習progress・選択Role・Reader位置・Practice状態はPWA更新でも保持されます。</p>
+    <div class="gate-status" id="gateStatus">起動準備中…</div>
     <div class="toolbar"><button class="primary-btn" id="retryBtn">Retry</button><button class="ghost-btn" id="pagesDataBtn">Private dataを読み込む</button></div>
     <input type="file" id="pagesDataFiles" accept="application/json,.json" multiple hidden>
-    <p class="muted">初回のみ5つのcanonical JSONを選択できます。SHA-256と全件構造検証に合格したbytesだけをこの端末のversioned Cache Storageへ保存します。学習progress・選択Role・Reader位置・Practice状態は別領域に保持され、PWA更新では削除されません。</p>
+    <p class="muted">初回のみ5つのcanonical JSONを選択できます。SHA-256と全件構造検証に合格したbytesだけを端末内へ保存します。</p>
   </div>
 </div>
 <div class="toast" id="toast"></div>
 <div class="pwa-status" id="pwaStatus" role="status" aria-live="polite" hidden></div>
-<script src="p6_private_data.js"></script>
-<script src="pages_private_import.js"></script>
-<script src="p5_app.js"></script>
-<script src="practice_navigation.js"></script>
-<script src="reader_sheet.js"></script>
-<script src="p6_pwa.js"></script>
+<script src="bootstrap_entry.js"></script>
 </body>
 </html>
