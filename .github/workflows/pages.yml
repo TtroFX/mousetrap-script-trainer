@@ -1,4 +1,4 @@
-name: Deploy production PWA to GitHub Pages
+name: Deploy Index Zero PWA to GitHub Pages
 
 on:
   push:
@@ -15,52 +15,63 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  build-and-verify:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
 
       - name: Build canonical learning structure
         run: |
           node --check app/scripts/build-learning-structure.mjs
           node app/scripts/build-learning-structure.mjs --root . --out app/mousetrap_line_structure.json
 
-      - name: Validate static PWA source and startup
+      - name: Validate Index Zero architecture
+        working-directory: app
         run: |
-          node --check app/practice_navigation.js
-          node --check app/reader_sheet.js
-          node --check app/p6_private_data.js
-          node --check app/p6_pwa.js
-          node --check app/sw.js
-          node --check app/tests/startup_smoke.mjs
-          (cd app && node tests/p6_static_qa.mjs)
-          (cd app && node tests/startup_smoke.mjs)
+          node --check src/config.js
+          node --check src/data-store.js
+          node --check src/state-store.js
+          node --check src/main.js
+          node --check sw.js
+          node tests/index_zero_static.mjs
+          node scripts/assemble-production.mjs --verify-only
 
-      - name: Verify canonical repository data
-        run: |
-          (cd app && node scripts/assemble-production.mjs --verify-only)
-
-      - name: Assemble GitHub Pages artifact
+      - name: Assemble exact Pages artifact
         run: |
           rm -rf public
           (cd app && node scripts/assemble-production.mjs --out-dir ../public)
           touch public/.nojekyll
-          node <<'NODE'
-          const fs=require('node:fs'),crypto=require('node:crypto');
-          const contract=JSON.parse(fs.readFileSync('data/canonical-production-contract.json','utf8'));
-          const sha=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
-          for(const entry of contract.files){const root=sha(entry.path),artifact=sha(`public/${entry.path}`);if(root!==entry.sha256||artifact!==root)throw Error(`artifact SHA mismatch: ${entry.path}`)}
-          for(const legacy of ['bootstrap_entry.js','pages_private_import.js','bootstrap_watchdog.js'])if(fs.existsSync(`public/${legacy}`))throw Error(`obsolete startup runtime leaked into Pages artifact: ${legacy}`);
-          const compat=fs.readFileSync('public/p6_private_data.js','utf8');
-          if(!compat.includes('STATIC_COMPAT_ONLY')||/caches\.open|crypto\.subtle|sha256/i.test(compat))throw Error('static compatibility adapter is not thin');
-          console.log('Pages artifact canonical JSON matches repository root byte-for-byte.');
-          NODE
+          test -e public/index.html
+          test -e public/src/main.js
+          test -e public/mousetrap_script_data.json
+          test ! -e public/p5_app.js
+          test ! -e public/reader_sheet.js
+          test ! -e public/practice_navigation.js
+          test ! -e public/p6_private_data.js
+          test ! -e public/P2_learning.html
+          test ! -e public/008_cue_practice_P3.html
+          test ! -e public/009_rehearsal_P4.html
+
+      - name: Install Chromium QA
+        working-directory: app
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+
+      - name: Run full feature-parity QA against exact artifact
+        working-directory: app
+        run: npm run test:e2e
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload Pages artifact
+      - name: Upload verified Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
@@ -70,7 +81,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
+    needs: build-and-verify
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
