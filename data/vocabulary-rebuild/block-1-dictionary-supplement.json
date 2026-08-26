@@ -6,8 +6,11 @@
     "a thousand pardons": {"pos":"定型表現","meaning":"非常に丁寧・大げさに謝る『どうかお許しを』という表現。","tags":["formal","dated"]},
     "coke": {"pos":"名詞","meaning":"石炭を乾留して作る固体燃料のコークス。"},
     "cut off": {"pos":"句動詞","meaning":"つながり・供給・交通などを断つ、孤立させる。"},
+    "freezing": {"pos":"名詞・形容詞","meaning":"凍結、氷点下の寒さ。凍るほど寒い。"},
+    "habitation": {"pos":"名詞","meaning":"人が住む場所・住居。居住すること。","tags":["formal"]},
     "impression": {"pos":"名詞","meaning":"人・物から受ける印象、感じ。"},
     "in case": {"pos":"接続・前置詞的表現","meaning":"～の場合に備えて、～だといけないので。"},
+    "particularly": {"pos":"副詞","meaning":"特に、とりわけ。"},
     "put down eggs": {"pos":"動詞句","meaning":"卵を後で使えるよう保存処理して蓄える。","tags":["British","historical-domestic"]}
   }
 }
