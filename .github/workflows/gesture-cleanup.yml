@@ -16,15 +16,7 @@ jobs:
         run: |
           rm -rf app/node_modules app/test-results public
           rm -f app/mousetrap_line_structure.json app/package-lock.json
-          cat >> .gitignore <<'EOF'
-
-# Generated app QA/build artifacts
-app/node_modules/
-app/test-results/
-app/mousetrap_line_structure.json
-app/package-lock.json
-public/
-EOF
+          printf '\n# Generated app QA/build artifacts\napp/node_modules/\napp/test-results/\napp/mousetrap_line_structure.json\napp/package-lock.json\npublic/\n' >> .gitignore
           rm -f .github/workflows/gesture-cleanup.yml
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
