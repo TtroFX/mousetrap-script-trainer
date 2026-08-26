@@ -1,14 +1,17 @@
-name: Interpretation Scene QA
+name: Interpretation QA
 
 on:
   push:
     branches:
+      - "main"
       - "feature/interpretation-act1-scene1"
       - "feature/interpretation-act1-scene2"
       - "feature/interpretation-act2"
+      - "feature/review-all-interpretations-truth-aware"
     paths:
       - 'data/interpretation/**'
       - 'scripts/validate-interpretation-scene.mjs'
+      - 'scripts/validate-interpretation-truth-aware.mjs'
       - '.github/workflows/interpretation-scene-qa.yml'
   workflow_dispatch:
 
@@ -23,13 +26,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Validate interpretation data
+      - name: Validate available interpretation scenes
         shell: bash
         run: |
-          case "${GITHUB_REF_NAME}" in
-            feature/interpretation-act1-scene1) SCENE=act1-scene1 ;;
-            feature/interpretation-act1-scene2) SCENE=act1-scene2 ;;
-            feature/interpretation-act2) SCENE=act2 ;;
-            *) echo "Unsupported branch: ${GITHUB_REF_NAME}"; exit 1 ;;
-          esac
-          node scripts/validate-interpretation-scene.mjs "$SCENE"
+          set -euo pipefail
+          for scene in act1-scene1 act1-scene2 act2; do
+            if [[ -f "data/interpretation/${scene}.json" ]]; then
+              node scripts/validate-interpretation-scene.mjs "$scene"
+            fi
+          done
+          if [[ -f data/interpretation/truth-ledger.json ]]; then
+            node scripts/validate-interpretation-truth-aware.mjs
+          fi
