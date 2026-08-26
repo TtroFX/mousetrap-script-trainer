@@ -6,7 +6,7 @@ from pathlib import Path
 import spacy
 
 HERE = Path(__file__).resolve().parent
-SPEC = importlib.util.spec_from_file_location("chunking_v1", HERE / "build-chunking-v1.py")
+SPEC = importlib.util.spec_from_file_location("chunking_v1", HERE / "chunking-v1-runtime.py")
 mod = importlib.util.module_from_spec(SPEC)
 assert SPEC and SPEC.loader
 SPEC.loader.exec_module(mod)
@@ -22,13 +22,8 @@ def analyze(text: str):
 
 
 def marked(row, text, marker):
-    out = []
-    sent_start = row["start"]
     sentence_text = text[row["start"]:row["end"]]
-    for c in row["chunks"]:
-        if c["marker"] == marker:
-            out.append(sentence_text[c["start"]:c["end"]])
-    return out
+    return [sentence_text[c["start"]:c["end"]] for c in row["chunks"] if c["marker"] == marker]
 
 
 # AC/BC correspondence + ACC + separate unnumbered HV.
@@ -56,8 +51,7 @@ assert marked(row, text, "C2") == ["right"]
 
 # A clause itself can be the subject of an outer clause; no flattening.
 row, text = analyze("That he lied surprised me.")
-markers = [c["marker"] for c in row["clauses"]]
-assert markers == ["NC1", "BC2"], row["clauses"]
+assert [c["marker"] for c in row["clauses"]] == ["NC1", "BC2"], row["clauses"]
 assert marked(row, text, "S2") == ["That he lied"]
 assert marked(row, text, "V2") == ["surprised"]
 assert marked(row, text, "O2") == ["me"]
