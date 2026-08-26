@@ -11,25 +11,25 @@
   "lines": {
     "act2-speech-0003": [
       {
-        "surface": "only just",
-        "lemma": "only just",
+        "surface": "got to",
+        "lemma": "got to",
         "contextMeaning": ""
       },
       {
-        "surface": "got to",
-        "lemma": "got to",
+        "surface": "only just",
+        "lemma": "only just",
         "contextMeaning": ""
       }
     ],
     "act2-speech-0004": [
       {
-        "surface": "Just",
-        "lemma": "just",
+        "surface": "blaring",
+        "lemma": "blare",
         "contextMeaning": ""
       },
       {
-        "surface": "blaring",
-        "lemma": "blare",
+        "surface": "Just",
+        "lemma": "just",
         "contextMeaning": ""
       },
       {
@@ -59,17 +59,27 @@
     ],
     "act2-speech-0008": [
       {
-        "surface": "just",
-        "lemma": "just",
+        "surface": "came out",
+        "lemma": "come out",
         "contextMeaning": ""
       },
       {
-        "surface": "came out",
-        "lemma": "come out",
+        "surface": "just",
+        "lemma": "just",
         "contextMeaning": ""
       }
     ],
     "act2-speech-0014": [
+      {
+        "surface": "get to the bottom of",
+        "lemma": "get to the bottom of",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "held out on",
+        "lemma": "hold out on",
+        "contextMeaning": ""
+      },
       {
         "surface": "investigating",
         "lemma": "investigate",
@@ -81,18 +91,18 @@
         "contextMeaning": ""
       },
       {
+        "surface": "seriously",
+        "lemma": "seriously",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Unless",
+        "lemma": "unless",
+        "contextMeaning": ""
+      },
+      {
         "surface": "Up to now",
         "lemma": "up to now",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "held out on",
-        "lemma": "hold out on",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "get to the bottom of",
-        "lemma": "get to the bottom of",
         "contextMeaning": ""
       }
     ],
@@ -100,6 +110,11 @@
       {
         "surface": "business",
         "lemma": "business",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "connection",
+        "lemma": "connection",
         "contextMeaning": ""
       }
     ],
@@ -117,11 +132,6 @@
     ],
     "act2-speech-0021": [
       {
-        "surface": "coincidence",
-        "lemma": "coincidence",
-        "contextMeaning": ""
-      },
-      {
         "surface": "by chance",
         "lemma": "by chance",
         "contextMeaning": ""
@@ -130,13 +140,6 @@
         "surface": "case",
         "lemma": "case",
         "contextMeaning": ""
-      }
-    ],
-    "act2-speech-0022": [
-      {
-        "surface": "Given certain circumstances",
-        "lemma": "given certain circumstances",
-        "contextMeaning": ""
       },
       {
         "surface": "coincidence",
@@ -144,18 +147,30 @@
         "contextMeaning": ""
       },
       {
-        "surface": "Think it out",
-        "lemma": "think it out",
+        "surface": "Nonsense",
+        "lemma": "nonsense",
         "contextMeaning": ""
       },
       {
-        "surface": "get down quite clearly",
-        "lemma": "get down clearly",
+        "surface": "share",
+        "lemma": "share",
         "contextMeaning": ""
       },
       {
-        "surface": "statement",
-        "lemma": "statement",
+        "surface": "Surely",
+        "lemma": "surely",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "unlikely",
+        "lemma": "unlikely",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0022": [
+      {
+        "surface": "blaring",
+        "lemma": "blare",
         "contextMeaning": ""
       },
       {
@@ -164,8 +179,33 @@
         "contextMeaning": ""
       },
       {
+        "surface": "circumstances",
+        "lemma": "circumstance",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "coincidence",
+        "lemma": "coincidence",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "get down quite clearly",
+        "lemma": "get down clearly",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Given certain circumstances",
+        "lemma": "given certain circumstances",
+        "contextMeaning": ""
+      },
+      {
         "surface": "passage",
         "lemma": "passage",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "statement",
+        "lemma": "statement",
         "contextMeaning": ""
       },
       {
@@ -174,25 +214,35 @@
         "contextMeaning": ""
       },
       {
-        "surface": "blaring",
-        "lemma": "blare",
+        "surface": "switched off",
+        "lemma": "switch off",
         "contextMeaning": ""
       },
       {
-        "surface": "switched off",
-        "lemma": "switch off",
+        "surface": "Think it out",
+        "lemma": "think it out",
         "contextMeaning": ""
       }
     ],
     "act2-speech-0024": [
+      {
+        "surface": "at once",
+        "lemma": "at once",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "extension telephone",
+        "lemma": "extension telephone",
+        "contextMeaning": ""
+      },
       {
         "surface": "more or less",
         "lemma": "more or less",
         "contextMeaning": ""
       },
       {
-        "surface": "at once",
-        "lemma": "at once",
+        "surface": "occupy",
+        "lemma": "occupy",
         "contextMeaning": ""
       },
       {
@@ -201,8 +251,8 @@
         "contextMeaning": ""
       },
       {
-        "surface": "extension telephone",
-        "lemma": "extension telephone",
+        "surface": "wire",
+        "lemma": "wire",
         "contextMeaning": ""
       }
     ],
@@ -213,13 +263,23 @@
         "contextMeaning": ""
       },
       {
+        "surface": "Just after",
+        "lemma": "just after",
+        "contextMeaning": ""
+      },
+      {
         "surface": "looked out",
         "lemma": "look out",
         "contextMeaning": ""
       },
       {
-        "surface": "Just after",
-        "lemma": "just after",
+        "surface": "rushed",
+        "lemma": "rush",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "wires",
+        "lemma": "wire",
         "contextMeaning": ""
       }
     ],
@@ -293,13 +353,13 @@
     ],
     "act2-speech-0058": [
       {
-        "surface": "Inspector",
-        "lemma": "inspector",
+        "surface": "I beg your pardon",
+        "lemma": "beg your pardon",
         "contextMeaning": ""
       },
       {
-        "surface": "I beg your pardon",
-        "lemma": "beg your pardon",
+        "surface": "Inspector",
+        "lemma": "inspector",
         "contextMeaning": ""
       }
     ],
@@ -314,6 +374,11 @@
       {
         "surface": "offended",
         "lemma": "offended",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "offended",
+        "lemma": "offend",
         "contextMeaning": ""
       }
     ],
@@ -361,6 +426,11 @@
     ],
     "act2-speech-0077": [
       {
+        "surface": "fold",
+        "lemma": "fold",
+        "contextMeaning": ""
+      },
+      {
         "surface": "pick up",
         "lemma": "pick up",
         "contextMeaning": ""
@@ -375,6 +445,21 @@
     ],
     "act2-speech-0080": [
       {
+        "surface": "cellars",
+        "lemma": "cellar",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "curious",
+        "lemma": "curious",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "junk",
+        "lemma": "junk",
+        "contextMeaning": ""
+      },
+      {
         "surface": "Just",
         "lemma": "just",
         "contextMeaning": ""
@@ -385,18 +470,8 @@
         "contextMeaning": ""
       },
       {
-        "surface": "junk",
-        "lemma": "junk",
-        "contextMeaning": ""
-      },
-      {
         "surface": "sports tackle",
         "lemma": "sports tackle",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "cellars",
-        "lemma": "cellar",
         "contextMeaning": ""
       }
     ],
@@ -404,6 +479,11 @@
       {
         "surface": "antiquarian",
         "lemma": "antiquarian",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "engaged",
+        "lemma": "engaged",
         "contextMeaning": ""
       },
       {
@@ -434,6 +514,11 @@
         "surface": "criminals",
         "lemma": "criminal",
         "contextMeaning": ""
+      },
+      {
+        "surface": "gloves",
+        "lemma": "glove",
+        "contextMeaning": ""
       }
     ],
     "act2-speech-0087": [
@@ -450,23 +535,8 @@
         "contextMeaning": ""
       },
       {
-        "surface": "establish",
-        "lemma": "establish",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "opportunity",
-        "lemma": "opportunity",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "motive",
-        "lemma": "motive",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "go up",
-        "lemma": "go up",
+        "surface": "cellars",
+        "lemma": "cellar",
         "contextMeaning": ""
       },
       {
@@ -475,18 +545,43 @@
         "contextMeaning": ""
       },
       {
+        "surface": "come up",
+        "lemma": "come up",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "committed",
+        "lemma": "commit",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "establish",
+        "lemma": "establish",
+        "contextMeaning": ""
+      },
+      {
         "surface": "go down to",
         "lemma": "go down to",
         "contextMeaning": ""
       },
       {
-        "surface": "cellars",
-        "lemma": "cellar",
+        "surface": "go up",
+        "lemma": "go up",
         "contextMeaning": ""
       },
       {
-        "surface": "come up",
-        "lemma": "come up",
+        "surface": "motive",
+        "lemma": "motive",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "murder",
+        "lemma": "murder",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "opportunity",
+        "lemma": "opportunity",
         "contextMeaning": ""
       },
       {
@@ -498,39 +593,29 @@
         "surface": "vital",
         "lemma": "vital",
         "contextMeaning": ""
-      },
-      {
-        "surface": "murder",
-        "lemma": "murder",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "committed",
-        "lemma": "commit",
-        "contextMeaning": ""
       }
     ],
     "act2-speech-0093": [
       {
-        "surface": "as though",
-        "lemma": "as though",
+        "surface": "absurd",
+        "lemma": "absurd",
         "contextMeaning": ""
       },
       {
-        "surface": "absurd",
-        "lemma": "absurd",
+        "surface": "as though",
+        "lemma": "as though",
         "contextMeaning": ""
       }
     ],
     "act2-speech-0094": [
       {
-        "surface": "murder",
-        "lemma": "murder",
+        "surface": "case",
+        "lemma": "case",
         "contextMeaning": ""
       },
       {
-        "surface": "case",
-        "lemma": "case",
+        "surface": "murder",
+        "lemma": "murder",
         "contextMeaning": ""
       },
       {
@@ -560,13 +645,13 @@
     ],
     "act2-speech-0102": [
       {
-        "surface": "just",
-        "lemma": "just",
+        "surface": "fits the bill",
+        "lemma": "fit the bill",
         "contextMeaning": ""
       },
       {
-        "surface": "fits the bill",
-        "lemma": "fit the bill",
+        "surface": "just",
+        "lemma": "just",
         "contextMeaning": ""
       },
       {
@@ -589,13 +674,13 @@
     ],
     "act2-speech-0111": [
       {
-        "surface": "ill-treating",
-        "lemma": "ill-treat",
+        "surface": "headquarters",
+        "lemma": "headquarters",
         "contextMeaning": ""
       },
       {
-        "surface": "starving",
-        "lemma": "starve",
+        "surface": "ill-treating",
+        "lemma": "ill-treat",
         "contextMeaning": ""
       },
       {
@@ -604,8 +689,18 @@
         "contextMeaning": ""
       },
       {
-        "surface": "headquarters",
-        "lemma": "headquarters",
+        "surface": "responsible",
+        "lemma": "responsible",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "starving",
+        "lemma": "starve",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "wire",
+        "lemma": "wire",
         "contextMeaning": ""
       }
     ],
@@ -637,18 +732,23 @@
     ],
     "act2-speech-0117": [
       {
+        "surface": "desertion",
+        "lemma": "desertion",
+        "contextMeaning": ""
+      },
+      {
         "surface": "instability",
         "lemma": "instability",
         "contextMeaning": ""
       },
       {
-        "surface": "mentality",
-        "lemma": "mentality",
+        "surface": "mental",
+        "lemma": "mental",
         "contextMeaning": ""
       },
       {
-        "surface": "desertion",
-        "lemma": "desertion",
+        "surface": "mentality",
+        "lemma": "mentality",
         "contextMeaning": ""
       },
       {
@@ -661,6 +761,11 @@
       {
         "surface": "point to",
         "lemma": "point to",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "therefore",
+        "lemma": "therefore",
         "contextMeaning": ""
       }
     ],
@@ -697,12 +802,22 @@
         "contextMeaning": ""
       },
       {
+        "surface": "discharged",
+        "lemma": "discharge",
+        "contextMeaning": ""
+      },
+      {
         "surface": "probably discharged from the Army",
         "lemma": "be discharged from the Army",
         "contextMeaning": ""
       }
     ],
     "act2-speech-0125": [
+      {
+        "surface": "assure",
+        "lemma": "assure",
+        "contextMeaning": ""
+      },
       {
         "surface": "trace",
         "lemma": "trace",
@@ -711,18 +826,33 @@
     ],
     "act2-speech-0128": [
       {
-        "surface": "Japs",
-        "lemma": "Japs",
-        "contextMeaning": ""
-      },
-      {
         "surface": "gone through",
         "lemma": "go through",
         "contextMeaning": ""
       },
       {
+        "surface": "Japs",
+        "lemma": "Japs",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "prisoner",
+        "lemma": "prisoner",
+        "contextMeaning": ""
+      },
+      {
         "surface": "revenge",
         "lemma": "revenge",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "suffered",
+        "lemma": "suffer",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "terribly",
+        "lemma": "terribly",
         "contextMeaning": ""
       }
     ],
@@ -735,8 +865,8 @@
     ],
     "act2-speech-0132": [
       {
-        "surface": "murderer",
-        "lemma": "murderer",
+        "surface": "frightfully",
+        "lemma": "frightfully",
         "contextMeaning": ""
       },
       {
@@ -745,13 +875,18 @@
         "contextMeaning": ""
       },
       {
+        "surface": "murderer",
+        "lemma": "murderer",
+        "contextMeaning": ""
+      },
+      {
         "surface": "rung up",
         "lemma": "ring up",
         "contextMeaning": ""
       },
       {
-        "surface": "frightfully",
-        "lemma": "frightfully",
+        "surface": "upset",
+        "lemma": "upset",
         "contextMeaning": ""
       }
     ],
@@ -759,6 +894,11 @@
       {
         "surface": "Middle-aged",
         "lemma": "middle-aged",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "perfectly",
+        "lemma": "perfectly",
         "contextMeaning": ""
       },
       {
@@ -776,18 +916,18 @@
     ],
     "act2-speech-0140": [
       {
-        "surface": "quite",
-        "lemma": "quite",
+        "surface": "definitely",
+        "lemma": "definitely",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "disguised",
+        "lemma": "disguised",
         "contextMeaning": ""
       },
       {
         "surface": "foreign",
         "lemma": "foreign",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "definitely",
-        "lemma": "definitely",
         "contextMeaning": ""
       },
       {
@@ -801,8 +941,8 @@
         "contextMeaning": ""
       },
       {
-        "surface": "disguised",
-        "lemma": "disguised",
+        "surface": "quite",
+        "lemma": "quite",
         "contextMeaning": ""
       }
     ],
@@ -825,6 +965,11 @@
         "surface": "muffler",
         "lemma": "muffler",
         "contextMeaning": ""
+      },
+      {
+        "surface": "whispered",
+        "lemma": "whisper",
+        "contextMeaning": ""
       }
     ],
     "act2-speech-0147": [
@@ -841,17 +986,22 @@
     ],
     "act2-speech-0149": [
       {
-        "surface": "Whatever",
-        "lemma": "whatever",
+        "surface": "means of checking",
+        "lemma": "means of checking",
         "contextMeaning": ""
       },
       {
-        "surface": "means of checking",
-        "lemma": "means of checking",
+        "surface": "Whatever",
+        "lemma": "whatever",
         "contextMeaning": ""
       }
     ],
     "act2-speech-0151": [
+      {
+        "surface": "Actual",
+        "lemma": "actual",
+        "contextMeaning": ""
+      },
       {
         "surface": "much of an age",
         "lemma": "much of an age",
@@ -881,8 +1031,13 @@
     ],
     "act2-speech-0165": [
       {
-        "surface": "rather",
-        "lemma": "rather",
+        "surface": "absconding",
+        "lemma": "abscond",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "affairs",
+        "lemma": "affair",
         "contextMeaning": ""
       },
       {
@@ -891,28 +1046,28 @@
         "contextMeaning": ""
       },
       {
-        "surface": "just",
-        "lemma": "just",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "relations",
-        "lemma": "relation",
-        "contextMeaning": ""
-      },
-      {
         "surface": "backgrounds",
         "lemma": "background",
         "contextMeaning": ""
       },
       {
-        "surface": "nowadays",
-        "lemma": "nowadays",
+        "surface": "clerk",
+        "lemma": "clerk",
         "contextMeaning": ""
       },
       {
-        "surface": "settle their own affairs",
-        "lemma": "settle one’s own affairs",
+        "surface": "consented",
+        "lemma": "consent",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "deserter",
+        "lemma": "deserter",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "engagement",
+        "lemma": "engagement",
         "contextMeaning": ""
       },
       {
@@ -921,18 +1076,43 @@
         "contextMeaning": ""
       },
       {
+        "surface": "equally",
+        "lemma": "equally",
+        "contextMeaning": ""
+      },
+      {
         "surface": "find out",
         "lemma": "find out",
         "contextMeaning": ""
       },
       {
-        "surface": "absconding",
-        "lemma": "abscond",
+        "surface": "just",
+        "lemma": "just",
         "contextMeaning": ""
       },
       {
-        "surface": "deserter",
-        "lemma": "deserter",
+        "surface": "nowadays",
+        "lemma": "nowadays",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "rather",
+        "lemma": "rather",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "relations",
+        "lemma": "relation",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "relatives",
+        "lemma": "relative",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "settle their own affairs",
+        "lemma": "settle one’s own affairs",
         "contextMeaning": ""
       },
       {
@@ -950,6 +1130,11 @@
     ],
     "act2-speech-0168": [
       {
+        "surface": "absolutely",
+        "lemma": "absolutely",
+        "contextMeaning": ""
+      },
+      {
         "surface": "absurd",
         "lemma": "absurd",
         "contextMeaning": ""
@@ -957,6 +1142,11 @@
       {
         "surface": "homicidal maniac",
         "lemma": "homicidal maniac",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "horrible",
+        "lemma": "horrible",
         "contextMeaning": ""
       },
       {
@@ -974,6 +1164,11 @@
       {
         "surface": "netting",
         "lemma": "netting",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "wire",
+        "lemma": "wire",
         "contextMeaning": ""
       }
     ],
@@ -995,6 +1190,135 @@
       {
         "surface": "Just",
         "lemma": "just",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0016": [
+      {
+        "surface": "blind",
+        "lemma": "blind",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0050": [
+      {
+        "surface": "Blind",
+        "lemma": "blind",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0057": [
+      {
+        "surface": "Blind",
+        "lemma": "blind",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0090": [
+      {
+        "surface": "charge",
+        "lemma": "charge",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "investigation",
+        "lemma": "investigation",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0042": [
+      {
+        "surface": "Curious",
+        "lemma": "curious",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0081": [
+      {
+        "surface": "Glad",
+        "lemma": "glad",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0053": [
+      {
+        "surface": "horrible",
+        "lemma": "horrible",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0097": [
+      {
+        "surface": "lad",
+        "lemma": "lad",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Steady",
+        "lemma": "steady",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0015": [
+      {
+        "surface": "Nonsense",
+        "lemma": "nonsense",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0150": [
+      {
+        "surface": "ridiculous",
+        "lemma": "ridiculous",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0152": [
+      {
+        "surface": "silly",
+        "lemma": "silly",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0136": [
+      {
+        "surface": "suspect",
+        "lemma": "suspect",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0089": [
+      {
+        "surface": "wasting",
+        "lemma": "waste",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0088": [
+      {
+        "surface": "wonder",
+        "lemma": "wonder",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0011": [
+      {
+        "surface": "Close",
+        "lemma": "close",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0054": [
+      {
+        "surface": "yet",
+        "lemma": "yet",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0073": [
+      {
+        "surface": "yet",
+        "lemma": "yet",
         "contextMeaning": ""
       }
     ]

@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "blockId": "block-4",
+  "includedReviewCount": 49,
+  "excludedReviewCount": 42,
+  "appliedEntryCount": 58,
+  "application": [
+    {
+      "word": "absolutely",
+      "lemma": "absolutely",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0168"
+      ]
+    },
+    {
+      "word": "actual",
+      "lemma": "actual",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0151"
+      ]
+    },
+    {
+      "word": "affair",
+      "lemma": "affair",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0165"
+      ]
+    },
+    {
+      "word": "assure",
+      "lemma": "assure",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0125"
+      ]
+    },
+    {
+      "word": "blind",
+      "lemma": "blind",
+      "cefr": "B2",
+      "matchedSpeechCount": 3,
+      "addedEntryCount": 3,
+      "matchedSpeechIds": [
+        "act2-speech-0016",
+        "act2-speech-0050",
+        "act2-speech-0057"
+      ]
+    },
+    {
+      "word": "charge",
+      "lemma": "charge",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0090"
+      ]
+    },
+    {
+      "word": "circumstance",
+      "lemma": "circumstance",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0022"
+      ]
+    },
+    {
+      "word": "clerk",
+      "lemma": "clerk",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0165"
+      ]
+    },
+    {
+      "word": "connection",
+      "lemma": "connection",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0017"
+      ]
+    },
+    {
+      "word": "consent",
+      "lemma": "consent",
+      "cefr": "C1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0165"
+      ]
+    },
+    {
+      "word": "curious",
+      "lemma": "curious",
+      "cefr": "B2",
+      "matchedSpeechCount": 2,
+      "addedEntryCount": 2,
+      "matchedSpeechIds": [
+        "act2-speech-0042",
+        "act2-speech-0080"
+      ]
+    },
+    {
+      "word": "discharge",
+      "lemma": "discharge",
+      "cefr": "C1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0123"
+      ]
+    },
+    {
+      "word": "engaged",
+      "lemma": "engaged",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0083"
+      ]
+    },
+    {
+      "word": "engagement",
+      "lemma": "engagement",
+      "cefr": "C1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0165"
+      ]
+    },
+    {
+      "word": "equally",
+      "lemma": "equally",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0165"
+      ]
+    },
+    {
+      "word": "fold",
+      "lemma": "fold",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0077"
+      ]
+    },
+    {
+      "word": "glad",
+      "lemma": "glad",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0081"
+      ]
+    },
+    {
+      "word": "glove",
+      "lemma": "glove",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0086"
+      ]
+    },
+    {
+      "word": "horrible",
+      "lemma": "horrible",
+      "cefr": "B1",
+      "matchedSpeechCount": 2,
+      "addedEntryCount": 2,
+      "matchedSpeechIds": [
+        "act2-speech-0053",
+        "act2-speech-0168"
+      ]
+    },
+    {
+      "word": "investigation",
+      "lemma": "investigation",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0090"
+      ]
+    },
+    {
+      "word": "lad",
+      "lemma": "lad",
+      "cefr": "C1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0097"
+      ]
+    },
+    {
+      "word": "mental",
+      "lemma": "mental",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0117"
+      ]
+    },
+    {
+      "word": "nonsense",
+      "lemma": "nonsense",
+      "cefr": "C1",
+      "matchedSpeechCount": 2,
+      "addedEntryCount": 2,
+      "matchedSpeechIds": [
+        "act2-speech-0015",
+        "act2-speech-0021"
+      ]
+    },
+    {
+      "word": "occupy",
+      "lemma": "occupy",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0024"
+      ]
+    },
+    {
+      "word": "offend",
+      "lemma": "offend",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0060"
+      ]
+    },
+    {
+      "word": "perfectly",
+      "lemma": "perfectly",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0134"
+      ]
+    },
+    {
+      "word": "prisoner",
+      "lemma": "prisoner",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0128"
+      ]
+    },
+    {
+      "word": "relative",
+      "lemma": "relative",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0165"
+      ]
+    },
+    {
+      "word": "responsible",
+      "lemma": "responsible",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0111"
+      ]
+    },
+    {
+      "word": "ridiculous",
+      "lemma": "ridiculous",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0150"
+      ]
+    },
+    {
+      "word": "rush",
+      "lemma": "rush",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0025"
+      ]
+    },
+    {
+      "word": "seriously",
+      "lemma": "seriously",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0014"
+      ]
+    },
+    {
+      "word": "silly",
+      "lemma": "silly",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0152"
+      ]
+    },
+    {
+      "word": "steady",
+      "lemma": "steady",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0097"
+      ]
+    },
+    {
+      "word": "suffer",
+      "lemma": "suffer",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0128"
+      ]
+    },
+    {
+      "word": "surely",
+      "lemma": "surely",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0021"
+      ]
+    },
+    {
+      "word": "suspect",
+      "lemma": "suspect",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0136"
+      ]
+    },
+    {
+      "word": "terribly",
+      "lemma": "terribly",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0128"
+      ]
+    },
+    {
+      "word": "therefore",
+      "lemma": "therefore",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0118"
+      ]
+    },
+    {
+      "word": "unless",
+      "lemma": "unless",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0014"
+      ]
+    },
+    {
+      "word": "unlikely",
+      "lemma": "unlikely",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0021"
+      ]
+    },
+    {
+      "word": "upset",
+      "lemma": "upset",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0132"
+      ]
+    },
+    {
+      "word": "waste",
+      "lemma": "waste",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0089"
+      ]
+    },
+    {
+      "word": "whisper",
+      "lemma": "whisper",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0145"
+      ]
+    },
+    {
+      "word": "wire",
+      "lemma": "wire",
+      "cefr": "B2",
+      "matchedSpeechCount": 4,
+      "addedEntryCount": 4,
+      "matchedSpeechIds": [
+        "act2-speech-0024",
+        "act2-speech-0025",
+        "act2-speech-0111",
+        "act2-speech-0170"
+      ]
+    },
+    {
+      "word": "wonder",
+      "lemma": "wonder",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0088"
+      ]
+    },
+    {
+      "word": "close",
+      "lemma": "close",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0011"
+      ]
+    },
+    {
+      "word": "share",
+      "lemma": "share",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act2-speech-0021"
+      ]
+    },
+    {
+      "word": "yet",
+      "lemma": "yet",
+      "cefr": "B2",
+      "matchedSpeechCount": 2,
+      "addedEntryCount": 2,
+      "matchedSpeechIds": [
+        "act2-speech-0054",
+        "act2-speech-0073"
+      ]
+    }
+  ]
+}
