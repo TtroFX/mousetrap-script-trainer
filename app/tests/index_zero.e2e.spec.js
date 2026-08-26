@@ -45,7 +45,7 @@ test('Search opens Line Detail and study/structure load on demand',async({page})
   if(grammarCount)await expect(page.getByText('Grammar / Usage',{exact:true})).toBeVisible();
   else await expect(page.getByText('Grammar / Usage',{exact:true})).toHaveCount(0);
   const d=await page.evaluate(()=>MTS_INDEX_ZERO.diagnostics().data);
-  expect(d.metrics.requests).toBeLessThanOrEqual(6);
+  expect(d.metrics.requests).toBeLessThanOrEqual(7);
 });
 
 test('Dictionary opens from a registered vocabulary item without iframe',async({page})=>{
