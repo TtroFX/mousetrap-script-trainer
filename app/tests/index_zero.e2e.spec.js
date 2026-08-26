@@ -11,8 +11,8 @@ test('new index boots immediately with no legacy runtime or iframe',async({page}
 
 test('core has exactly 1164 speeches and Home navigation remains usable',async({page})=>{
   await ready(page);
-  const d=await page.evaluate(()=>MTS_INDEX_ZERO.diagnostics().data);
-  expect(d.counts.speeches).toBe(1164);
+  const count=await page.evaluate(()=>['act1-scene1','act1-scene2','act2'].reduce((n,scene)=>n+MTS_INDEX_ZERO.store.getScene(scene).length,0));
+  expect(count).toBe(1164);
   await page.getByRole('button',{name:/Open Act I/}).click();
   await expect(page).toHaveURL(/#\/script/);
   await expect(page.locator('[data-line]').first()).toBeVisible();
@@ -97,7 +97,7 @@ test('core network failure never creates an infinite blocking gate',async({page}
   await page.goto(BASE,{waitUntil:'domcontentloaded'});
   await expect(page.getByRole('heading',{name:'Learn Your Lines'})).toBeVisible();
   await page.goto(BASE+'#/script');
-  await expect(page.getByText(/Script data could not be loaded|Loading script/)).toBeVisible({timeout:12000});
+  await expect(page.getByText('Script data could not be loaded.',{exact:true})).toBeVisible({timeout:12000});
   expect(await page.locator('#dataGate').count()).toBe(0);
 });
 
