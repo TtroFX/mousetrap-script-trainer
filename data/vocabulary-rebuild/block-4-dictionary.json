@@ -5,9 +5,11 @@
   "entries": {
     "ABC": {
       "pos": "固有名詞",
-      "meaning": "英国の鉄道時刻表（ABC Railway Guide）",
+      "meaning": "英国で列車時刻を調べるために使われた鉄道時刻表・案内書（ABC Railway Guide）。",
       "tags": [
-        "needs-neutral-review"
+        "British",
+        "dated",
+        "reference"
       ]
     },
     "abroad": {
@@ -88,10 +90,7 @@
     },
     "background": {
       "pos": "名詞",
-      "meaning": "身元・経歴",
-      "tags": [
-        "needs-neutral-review"
-      ]
+      "meaning": "人の経歴・家庭環境・これまでの事情など、その人を理解する背景情報。"
     },
     "barrister": {
       "pos": "名詞",
