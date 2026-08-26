@@ -8,6 +8,8 @@ const safeRemove = key => { try { localStorage.removeItem(key); } catch {} };
 const jsonSet = (key, value) => safeSet(key, JSON.stringify(value));
 const stamp = () => new Date().toISOString();
 const timeValue = value => Number.isFinite(Date.parse(value || '')) ? Date.parse(value) : 0;
+const resumePriority = Object.freeze({ script: 1, cue: 2, rehearsal: 3, lineDetail: 4 });
+const resumeSort = (a, b) => (timeValue(b.updatedAt) - timeValue(a.updatedAt)) || ((resumePriority[b.kind] || 0) - (resumePriority[a.kind] || 0));
 
 export class StateStore extends EventTarget {
   constructor(dataStore) { super(); this.data = dataStore; }
@@ -36,11 +38,11 @@ export class StateStore extends EventTarget {
   latestResume() {
     const all = this.resumeState();
     const entries = [all.script, all.cue, all.rehearsal, all.lineDetail].filter(x => x && !x.completed);
-    return entries.sort((a, b) => timeValue(b.updatedAt) - timeValue(a.updatedAt))[0] || null;
+    return entries.sort(resumeSort)[0] || null;
   }
   latestPracticeResume() {
     const all = this.resumeState();
-    return [all.cue, all.rehearsal].filter(x => x && !x.completed).sort((a, b) => timeValue(b.updatedAt) - timeValue(a.updatedAt))[0] || null;
+    return [all.cue, all.rehearsal].filter(x => x && !x.completed).sort(resumeSort)[0] || null;
   }
 
   bookmarks() { const raw = safeParse(safeGet(STORAGE_KEYS.bookmarks), {}) || {}; return raw && typeof raw === 'object' ? raw : {}; }
