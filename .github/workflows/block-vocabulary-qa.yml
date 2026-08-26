@@ -22,3 +22,13 @@ jobs:
           node-version: '22'
       - name: Validate Block 1 vocabulary rebuild
         run: node scripts/validate-vocabulary-block.mjs block-1
+
+  block-2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate Block 2 vocabulary rebuild
+        run: node scripts/validate-vocabulary-block.mjs block-2
