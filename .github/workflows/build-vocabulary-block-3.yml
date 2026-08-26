@@ -23,6 +23,29 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Preflight neutral dictionary coverage
+        run: |
+          node --input-type=module <<'EOF'
+          import fs from 'node:fs';
+          const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+          const oldVocab=read('mousetrap_line_vocabulary.json');
+          const oldDict=read('mousetrap_word_dictionary.json');
+          const b1={...(read('data/vocabulary-rebuild/block-1-dictionary.json').entries||{}),...(read('data/vocabulary-rebuild/block-1-dictionary-supplement.json').entries||{})};
+          const b2=read('data/vocabulary-rebuild/block-2-dictionary.json').entries||{};
+          const seed=read('data/vocabulary-rebuild/block-3-neutral-seed.json').entries||{};
+          const missing=new Map();
+          for(let n=179;n<=336;n++){
+            const id=`act1-scene2-speech-${String(n).padStart(4,'0')}`;
+            for(const e of oldVocab[id]||[]){
+              const lemma=String(e.lemma||e.surface||'').trim();
+              if(!lemma) continue;
+              if(b2[lemma]?.meaning||b1[lemma]?.meaning||seed[lemma]?.meaning||oldDict[lemma]?.coreMeaning) continue;
+              if(!missing.has(lemma)) missing.set(lemma,[]);
+              missing.get(lemma).push({speechId:id,surface:e.surface,legacyMeaning:e.meaning});
+            }
+          }
+          console.log(JSON.stringify({missingCount:missing.size,missing:Object.fromEntries(missing)},null,2));
+          EOF
       - name: Build Block 3 vocabulary data
         run: node scripts/build-vocabulary-block-3.mjs
       - name: Validate Block 1 regression
