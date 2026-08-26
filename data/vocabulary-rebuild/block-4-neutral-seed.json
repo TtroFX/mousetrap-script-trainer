@@ -29,6 +29,8 @@
     "turn out to be": {"pos":"句動詞的表現","meaning":"結果として～だと分かる、実際には～であることが判明する。"},
     "all in": {"pos":"形容詞的表現","meaning":"ひどく疲れ切っている。","tags":["informal","British-compatible"]},
     "catchy": {"pos":"形容詞","meaning":"覚えやすく、頭に残りやすい。"},
-    "haunting": {"pos":"形容詞","meaning":"強い印象を残し、長く心や記憶に残る。"}
+    "haunting": {"pos":"形容詞","meaning":"強い印象を残し、長く心や記憶に残る。"},
+    "ABC": {"pos":"固有名詞","meaning":"英国で列車時刻を調べるために使われた鉄道時刻表・案内書（ABC Railway Guide）。","tags":["British","dated","reference"]},
+    "background": {"pos":"名詞","meaning":"人の経歴・家庭環境・これまでの事情など、その人を理解する背景情報。"}
   }
 }
