@@ -1,0 +1,1130 @@
+{
+  "unresolvedCount": 99,
+  "safeCount": 57,
+  "ambiguousCount": 42,
+  "safeMissingNeutral": [
+    "absolutely",
+    "abuse",
+    "admire",
+    "amusing",
+    "attempt",
+    "being",
+    "childhood",
+    "conduct",
+    "connection",
+    "creep",
+    "difficulty",
+    "distress",
+    "extension",
+    "fancy",
+    "fellow",
+    "forgive",
+    "found",
+    "frighten",
+    "greatly",
+    "hang",
+    "hardly",
+    "hearing",
+    "hidden",
+    "horrible",
+    "household",
+    "indeed",
+    "measure",
+    "mechanic",
+    "melt",
+    "mere",
+    "nerve",
+    "nonsense",
+    "ought",
+    "overturn",
+    "patience",
+    "plenty",
+    "powder",
+    "private",
+    "relate",
+    "remind",
+    "reside",
+    "ridiculous",
+    "sensible",
+    "servant",
+    "skip",
+    "sometime",
+    "spoken",
+    "throat",
+    "till",
+    "treatment",
+    "unless",
+    "whisper",
+    "wire",
+    "wonder",
+    "worth",
+    "written",
+    "yard"
+  ],
+  "safe": [
+    {
+      "word": "absolutely",
+      "forms": [
+        "absolutely"
+      ],
+      "levels": [
+        "adverb:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "abuse",
+      "forms": [
+        "abuse"
+      ],
+      "levels": [
+        "noun:c1",
+        "verb:c1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "admire",
+      "forms": [
+        "admire"
+      ],
+      "levels": [
+        "verb:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "amusing",
+      "forms": [
+        "amusing"
+      ],
+      "levels": [
+        "adjective:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "attempt",
+      "forms": [
+        "attempted"
+      ],
+      "levels": [
+        "noun:b2",
+        "verb:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "being",
+      "forms": [
+        "being"
+      ],
+      "levels": [
+        "noun:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "childhood",
+      "forms": [
+        "childhood"
+      ],
+      "levels": [
+        "noun:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "conduct",
+      "forms": [
+        "conducted"
+      ],
+      "levels": [
+        "noun:b2",
+        "verb:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "connection",
+      "forms": [
+        "connection"
+      ],
+      "levels": [
+        "noun:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "creep",
+      "forms": [
+        "creep"
+      ],
+      "levels": [
+        "verb:c1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "difficulty",
+      "forms": [
+        "difficulty"
+      ],
+      "levels": [
+        "noun:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "distress",
+      "forms": [
+        "distressing"
+      ],
+      "levels": [
+        "noun:c1",
+        "verb:c1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "extension",
+      "forms": [
+        "extension"
+      ],
+      "levels": [
+        "noun:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "fancy",
+      "forms": [
+        "fancy"
+      ],
+      "levels": [
+        "adjective:b1",
+        "verb:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "fellow",
+      "forms": [
+        "fellows"
+      ],
+      "levels": [
+        "adjective:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "forgive",
+      "forms": [
+        "forgive"
+      ],
+      "levels": [
+        "verb:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "found",
+      "forms": [
+        "found"
+      ],
+      "levels": [
+        "verb:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "frighten",
+      "forms": [
+        "frighten"
+      ],
+      "levels": [
+        "verb:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "greatly",
+      "forms": [
+        "greatly"
+      ],
+      "levels": [
+        "adverb:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "hang",
+      "forms": [
+        "hanging"
+      ],
+      "levels": [
+        "verb:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "hardly",
+      "forms": [
+        "hardly"
+      ],
+      "levels": [
+        "adverb:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "hearing",
+      "forms": [
+        "hearing"
+      ],
+      "levels": [
+        "noun:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "hidden",
+      "forms": [
+        "hidden"
+      ],
+      "levels": [
+        "adjective:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "horrible",
+      "forms": [
+        "horrible"
+      ],
+      "levels": [
+        "adjective:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "household",
+      "forms": [
+        "household"
+      ],
+      "levels": [
+        "noun:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "indeed",
+      "forms": [
+        "indeed"
+      ],
+      "levels": [
+        "adverb:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "measure",
+      "forms": [
+        "measures"
+      ],
+      "levels": [
+        "noun:b1",
+        "verb:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "mechanic",
+      "forms": [
+        "mechanics"
+      ],
+      "levels": [
+        "noun:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "melt",
+      "forms": [
+        "melts"
+      ],
+      "levels": [
+        "verb:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "mere",
+      "forms": [
+        "mere"
+      ],
+      "levels": [
+        "adjective:c1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "nerve",
+      "forms": [
+        "nerves"
+      ],
+      "levels": [
+        "noun:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "nonsense",
+      "forms": [
+        "nonsense"
+      ],
+      "levels": [
+        "noun:c1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "ought",
+      "forms": [
+        "ought"
+      ],
+      "levels": [
+        "modal verb:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "overturn",
+      "forms": [
+        "overturned"
+      ],
+      "levels": [
+        "verb:c1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "patience",
+      "forms": [
+        "patience"
+      ],
+      "levels": [
+        "noun:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "plenty",
+      "forms": [
+        "plenty"
+      ],
+      "levels": [
+        "pronoun:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "powder",
+      "forms": [
+        "powder"
+      ],
+      "levels": [
+        "noun:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "private",
+      "forms": [
+        "private"
+      ],
+      "levels": [
+        "adjective:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "relate",
+      "forms": [
+        "relates"
+      ],
+      "levels": [
+        "verb:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "remind",
+      "forms": [
+        "reminds"
+      ],
+      "levels": [
+        "verb:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "reside",
+      "forms": [
+        "resided"
+      ],
+      "levels": [
+        "verb:c1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "ridiculous",
+      "forms": [
+        "ridiculous"
+      ],
+      "levels": [
+        "adjective:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "sensible",
+      "forms": [
+        "sensible"
+      ],
+      "levels": [
+        "adjective:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "servant",
+      "forms": [
+        "servants"
+      ],
+      "levels": [
+        "noun:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "skip",
+      "forms": [
+        "skips"
+      ],
+      "levels": [
+        "verb:c1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "sometime",
+      "forms": [
+        "sometimes"
+      ],
+      "levels": [
+        "adverb:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "spoken",
+      "forms": [
+        "spoken"
+      ],
+      "levels": [
+        "adjective:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "throat",
+      "forms": [
+        "throat"
+      ],
+      "levels": [
+        "noun:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "till",
+      "forms": [
+        "till"
+      ],
+      "levels": [
+        "conjunction:b1",
+        "preposition:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "treatment",
+      "forms": [
+        "treatment"
+      ],
+      "levels": [
+        "noun:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "unless",
+      "forms": [
+        "unless"
+      ],
+      "levels": [
+        "conjunction:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "whisper",
+      "forms": [
+        "whisper"
+      ],
+      "levels": [
+        "noun:b2",
+        "verb:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "wire",
+      "forms": [
+        "wire"
+      ],
+      "levels": [
+        "noun:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "wonder",
+      "forms": [
+        "wonder"
+      ],
+      "levels": [
+        "noun:b1",
+        "verb:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "worth",
+      "forms": [
+        "worth"
+      ],
+      "levels": [
+        "adjective:b1",
+        "noun:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "written",
+      "forms": [
+        "written"
+      ],
+      "levels": [
+        "adjective:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "yard",
+      "forms": [
+        "yard"
+      ],
+      "levels": [
+        "noun:b1"
+      ],
+      "hasNeutral": false
+    }
+  ],
+  "ambiguous": [
+    {
+      "word": "address",
+      "forms": [
+        "address",
+        "addresses"
+      ],
+      "levels": [
+        "noun:a1",
+        "verb:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "better",
+      "forms": [
+        "better"
+      ],
+      "levels": [
+        "adjective:a1",
+        "adverb:a2",
+        "noun:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "blow",
+      "forms": [
+        "blows"
+      ],
+      "levels": [
+        "noun:b2",
+        "verb:a2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "but",
+      "forms": [
+        "but"
+      ],
+      "levels": [
+        "conjunction:a1",
+        "preposition:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "by",
+      "forms": [
+        "by"
+      ],
+      "levels": [
+        "adverb:b1",
+        "preposition:a1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "cut",
+      "forms": [
+        "cut"
+      ],
+      "levels": [
+        "noun:b1",
+        "verb:a1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "even",
+      "forms": [
+        "even",
+        "evening"
+      ],
+      "levels": [
+        "adjective:b2",
+        "adverb:a1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "except",
+      "forms": [
+        "except"
+      ],
+      "levels": [
+        "conjunction:b1",
+        "preposition:a2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "far",
+      "forms": [
+        "far"
+      ],
+      "levels": [
+        "adjective:b1",
+        "adverb:a1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "feel",
+      "forms": [
+        "feel"
+      ],
+      "levels": [
+        "noun:b2",
+        "verb:a1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "following",
+      "forms": [
+        "following"
+      ],
+      "levels": [
+        "adjective:a2",
+        "noun:b1",
+        "preposition:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "hand",
+      "forms": [
+        "hands"
+      ],
+      "levels": [
+        "noun:a1",
+        "verb:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "house",
+      "forms": [
+        "house"
+      ],
+      "levels": [
+        "noun:a1",
+        "verb:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "kind",
+      "forms": [
+        "kind"
+      ],
+      "levels": [
+        "adjective:b1",
+        "noun:a1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "leave",
+      "forms": [
+        "leave"
+      ],
+      "levels": [
+        "noun:b2",
+        "verb:a1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "like",
+      "forms": [
+        "like"
+      ],
+      "levels": [
+        "noun:b1",
+        "preposition:a1",
+        "verb:a1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "line",
+      "forms": [
+        "line's",
+        "lines"
+      ],
+      "levels": [
+        "noun:a1",
+        "verb:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "local",
+      "forms": [
+        "local"
+      ],
+      "levels": [
+        "adjective:a1",
+        "noun:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "move",
+      "forms": [
+        "moves"
+      ],
+      "levels": [
+        "noun:b1",
+        "verb:a1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "now",
+      "forms": [
+        "now"
+      ],
+      "levels": [
+        "adverb:a1",
+        "conjunction:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "power",
+      "forms": [
+        "power"
+      ],
+      "levels": [
+        "noun:a2",
+        "verb:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "produce",
+      "forms": [
+        "produced"
+      ],
+      "levels": [
+        "noun:b2",
+        "verb:a2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "result",
+      "forms": [
+        "result"
+      ],
+      "levels": [
+        "noun:a1",
+        "verb:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "say",
+      "forms": [
+        "say",
+        "says"
+      ],
+      "levels": [
+        "noun:c1",
+        "verb:a1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "since",
+      "forms": [
+        "since"
+      ],
+      "levels": [
+        "adverb:b1",
+        "conjunction:a2",
+        "preposition:a2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "sort",
+      "forms": [
+        "sort"
+      ],
+      "levels": [
+        "noun:a2",
+        "verb:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "state",
+      "forms": [
+        "state"
+      ],
+      "levels": [
+        "adjective:b1",
+        "noun:a2",
+        "verb:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "still",
+      "forms": [
+        "still"
+      ],
+      "levels": [
+        "adjective:b1",
+        "adverb:a1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "term",
+      "forms": [
+        "term",
+        "terms"
+      ],
+      "levels": [
+        "noun:a2",
+        "verb:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "that",
+      "forms": [
+        "that",
+        "that's"
+      ],
+      "levels": [
+        "adverb:b1",
+        "conjunction:a1",
+        "determiner:a1",
+        "pronoun:a1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "this",
+      "forms": [
+        "this"
+      ],
+      "levels": [
+        "adverb:b1",
+        "determiner:a1",
+        "pronoun:a1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "time",
+      "forms": [
+        "time"
+      ],
+      "levels": [
+        "noun:a1",
+        "verb:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "tour",
+      "forms": [
+        "tour"
+      ],
+      "levels": [
+        "noun:a2",
+        "verb:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "try",
+      "forms": [
+        "tried",
+        "tries",
+        "try",
+        "trying"
+      ],
+      "levels": [
+        "noun:b2",
+        "verb:a1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "very",
+      "forms": [
+        "very"
+      ],
+      "levels": [
+        "adjective:b2",
+        "adverb:a1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "way",
+      "forms": [
+        "way"
+      ],
+      "levels": [
+        "adverb:b2",
+        "noun:a1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "well",
+      "forms": [
+        "well"
+      ],
+      "levels": [
+        "adjective:a1",
+        "adverb:a1",
+        "exclamation:a1",
+        "noun:c1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "whole",
+      "forms": [
+        "whole"
+      ],
+      "levels": [
+        "adjective:a2",
+        "noun:b1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "will",
+      "forms": [
+        "will"
+      ],
+      "levels": [
+        "noun:b1",
+        "modal verb:a1"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "worry",
+      "forms": [
+        "worries"
+      ],
+      "levels": [
+        "noun:b1",
+        "verb:a2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "wrong",
+      "forms": [
+        "wrong"
+      ],
+      "levels": [
+        "adjective:a1",
+        "adverb:b1",
+        "noun:b2"
+      ],
+      "hasNeutral": false
+    },
+    {
+      "word": "yet",
+      "forms": [
+        "yet"
+      ],
+      "levels": [
+        "adverb:a2",
+        "conjunction:b2"
+      ],
+      "hasNeutral": false
+    }
+  ]
+}
