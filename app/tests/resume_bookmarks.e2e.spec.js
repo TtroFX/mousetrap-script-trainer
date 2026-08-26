@@ -1,0 +1,85 @@
+const {test,expect}=require('@playwright/test');
+const BASE='http://127.0.0.1:4173/index.html';
+
+async function ready(page){
+  await page.goto(BASE,{waitUntil:'domcontentloaded'});
+  await expect(page.getByRole('heading',{name:'台本を覚える'})).toBeVisible();
+  await page.waitForFunction(()=>window.MTS_INDEX_ZERO?.store?.hasCore?.(),null,{timeout:12000});
+}
+
+async function selectRole(page,role='MOLLIE'){
+  await page.goto(BASE+'#/more');
+  await page.getByRole('button',{name:new RegExp(`^${role}`)}).click();
+}
+
+test('Resume Continue restores the last studied location',async({page})=>{
+  await ready(page);await selectRole(page,'MOLLIE');
+  const line=await page.evaluate(()=>MTS_INDEX_ZERO.store.getScene('act1-scene1')[5].id);
+  await page.goto(BASE+'#/line?scene=act1-scene1&line='+line);
+  await page.waitForFunction(id=>MTS_INDEX_ZERO.state.latestResume()?.lineId===id,line);
+  await page.goto(BASE+'#/home');
+  await expect(page.getByRole('button',{name:'続きから'})).toBeVisible();
+  await page.getByRole('button',{name:'続きから'}).click();
+  await expect(page).toHaveURL(new RegExp('#\\/line\\?scene=act1-scene1&line='+line+'$'));
+  await page.reload();await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasCore());
+  expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.latestResume()?.lineId===id,line)).toBe(true);
+});
+
+test('Cue Practice and Rehearsal both produce resumable state',async({page})=>{
+  await ready(page);await selectRole(page,'MOLLIE');
+  await page.goto(BASE+'#/cue?scene=act1-scene1');
+  await expect(page.getByText(/YOUR LINE · MOLLIE/)).toBeVisible();
+  await page.getByRole('button',{name:'Reveal'}).click();
+  await page.getByRole('button',{name:/Got it/}).click();
+  let resume=await page.evaluate(()=>MTS_INDEX_ZERO.state.resumeState().cue);
+  expect(resume?.sceneId).toBe('act1-scene1');expect(resume?.role).toBe('MOLLIE');
+  await page.goto(BASE+'#/rehearsal?scene=act1-scene1');
+  await page.getByRole('button',{name:/Skip/}).click();
+  resume=await page.evaluate(()=>MTS_INDEX_ZERO.state.resumeState().rehearsal);
+  expect(resume?.sceneId).toBe('act1-scene1');expect(resume?.role).toBe('MOLLIE');
+});
+
+test('Bookmark persists, opens, deletes in one click, and supports Undo',async({page})=>{
+  await ready(page);
+  await page.goto(BASE+'#/script');
+  const first=page.locator('[data-line]').first(),line=await first.getAttribute('data-line');
+  const star=first.locator('[data-bookmark-toggle]');
+  await expect(star).toBeVisible();await star.click();
+  expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),line)).toBe(true);
+  await page.reload();await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasCore());
+  await expect(page.locator('[data-line="'+line+'"] [data-bookmark-toggle]')).toHaveText('★');
+  await page.goto(BASE+'#/bookmarks');
+  await expect(page.locator('[data-bookmark-row="'+line+'"]').first()).toBeVisible();
+  await page.locator('[data-bookmark-row="'+line+'"] [data-bookmark-open]').click();
+  await expect(page).toHaveURL(new RegExp('#\\/line\\?.*line='+line));
+  await page.goto(BASE+'#/bookmarks');
+  await page.locator('[data-bookmark-row="'+line+'"] [data-bookmark-remove]').click();
+  expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),line)).toBe(false);
+  await page.getByRole('button',{name:'元に戻す'}).click();
+  expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),line)).toBe(true);
+  await expect(page.locator('[data-bookmark-row="'+line+'"]').first()).toBeVisible();
+});
+
+test('Line Detail can add/remove Bookmark and bookmark page is mobile-safe',async({page})=>{
+  await ready(page);
+  const line=await page.evaluate(()=>MTS_INDEX_ZERO.store.getScene('act1-scene1')[10].id);
+  await page.goto(BASE+'#/line?scene=act1-scene1&line='+line);
+  const toggle=page.locator('.line-detail-bookmark');
+  await expect(toggle).toBeVisible();await toggle.click();
+  expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),line)).toBe(true);
+  await page.goto(BASE+'#/bookmarks');
+  await page.setViewportSize({width:390,height:844});
+  const size=await page.evaluate(()=>({s:document.documentElement.scrollWidth,c:document.documentElement.clientWidth}));
+  expect(size.s).toBeLessThanOrEqual(size.c+1);
+  await page.locator('[data-bookmark-row="'+line+'"] [data-bookmark-remove]').click();
+  expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),line)).toBe(false);
+});
+
+test('Bookmark page filters by scene in canonical order',async({page})=>{
+  await ready(page);
+  const ids=await page.evaluate(()=>[MTS_INDEX_ZERO.store.getScene('act1-scene1')[2].id,MTS_INDEX_ZERO.store.getScene('act2')[2].id]);
+  await page.evaluate(([a,b])=>{MTS_INDEX_ZERO.state.addBookmark('act1-scene1',a);MTS_INDEX_ZERO.state.addBookmark('act2',b)},ids);
+  await page.goto(BASE+'#/bookmarks?scene=act2');
+  await expect(page.locator('[data-bookmark-row="'+ids[1]+'"]').first()).toBeVisible();
+  await expect(page.locator('[data-bookmark-row="'+ids[0]+'"]').first()).toHaveCount(0);
+});
