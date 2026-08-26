@@ -1,0 +1,864 @@
+{
+  "schemaVersion": 2,
+  "blockId": "block-5",
+  "policy": "Neutral shared meanings only; no play-specific context.",
+  "entries": {
+    "after all": {
+      "pos": "副詞句",
+      "meaning": "事情を再考して結論を修正・確認する談話表現。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "alas": {
+      "pos": "間投詞",
+      "meaning": "悲しみ・残念さを表す『ああ、残念ながら』。",
+      "tags": [
+        "literary",
+        "dated"
+      ]
+    },
+    "amour": {
+      "pos": "名詞",
+      "meaning": "恋愛関係、情事。フランス語由来で気取った響きを持つことがある。",
+      "tags": [
+        "French",
+        "literary"
+      ]
+    },
+    "architect": {
+      "pos": "名詞",
+      "meaning": "建築物を設計する建築家。"
+    },
+    "architecture": {
+      "pos": "名詞",
+      "meaning": "建物の設計・構造・様式全体。"
+    },
+    "as though": {
+      "pos": "接続表現",
+      "meaning": "as if と同様の比較・様態。やや書き言葉寄り。",
+      "tags": [
+        "grammar",
+        "chunk"
+      ]
+    },
+    "association": {
+      "pos": "名詞",
+      "meaning": "人・団体・出来事の結びつき。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "at least": {
+      "pos": "副詞句",
+      "meaning": "最低限の数量・評価・譲歩を示す。",
+      "tags": [
+        "grammar",
+        "chunk"
+      ]
+    },
+    "at once": {
+      "pos": "副詞句",
+      "meaning": "文脈により immediately または simultaneously。",
+      "tags": [
+        "context",
+        "chunk"
+      ]
+    },
+    "at present": {
+      "pos": "副詞句",
+      "meaning": "現在という限られた時点・期間を表す。",
+      "tags": [
+        "fixed expression",
+        "chunk"
+      ]
+    },
+    "barmy": {
+      "pos": "形容詞",
+      "meaning": "英国口語の古めの形容詞。人に対しては侮蔑的になり得る。",
+      "tags": [
+        "British English",
+        "informal",
+        "dated"
+      ]
+    },
+    "be apt to": {
+      "pos": "定型表現",
+      "meaning": "～しがちである、～する傾向がある。"
+    },
+    "be fond of": {
+      "pos": "定型表現",
+      "meaning": "like よりやや持続的な好みを表す。",
+      "tags": [
+        "collocation",
+        "chunk"
+      ]
+    },
+    "beastly": {
+      "pos": "形容詞",
+      "meaning": "英国の古めの口語で very unpleasant。",
+      "tags": [
+        "British English",
+        "dated",
+        "informal"
+      ]
+    },
+    "bound for": {
+      "pos": "定型表現",
+      "meaning": "～へ向かっている、～を目的地としている。"
+    },
+    "business": {
+      "pos": "名詞",
+      "meaning": "「取り組むべき事柄」が中心で、文脈により仕事・用事・事件を指す。",
+      "tags": [
+        "context"
+      ]
+    },
+    "by any chance": {
+      "pos": "定型表現",
+      "meaning": "ひょっとして、もしかして。"
+    },
+    "by the way": {
+      "pos": "談話表現",
+      "meaning": "ところで、ちなみに。話題を付け加えたり変えたりする。"
+    },
+    "cancel out": {
+      "pos": "句動詞",
+      "meaning": "互いの効果を打ち消す、または対象から除外する。"
+    },
+    "case": {
+      "pos": "名詞",
+      "meaning": "調査・議論の対象となる一件。in case などは別の句として扱う。",
+      "tags": [
+        "context",
+        "legal"
+      ]
+    },
+    "cellar": {
+      "pos": "名詞",
+      "meaning": "特に食料・酒などを置く地下室。",
+      "tags": [
+        "British English"
+      ]
+    },
+    "circumstance": {
+      "pos": "名詞",
+      "meaning": "出来事を取り巻き、状況に影響する条件・事情。"
+    },
+    "come in": {
+      "pos": "句動詞",
+      "meaning": "外から内部へ移動する。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "come out with something": {
+      "pos": "句動詞",
+      "meaning": "隠していたこと・言いにくいことを口に出す。"
+    },
+    "come over someone": {
+      "pos": "句動詞",
+      "meaning": "感情が人の上に「やって来る」比喩。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "commit": {
+      "pos": "動詞",
+      "meaning": "行為を実行する。crime と結び付くと「犯罪を犯す」。",
+      "tags": [
+        "crime",
+        "context"
+      ]
+    },
+    "concoct": {
+      "pos": "動詞",
+      "meaning": "材料を組み合わせて料理・飲み物などを作る。転じて話や計画を作り上げる。"
+    },
+    "conveniently": {
+      "pos": "副詞",
+      "meaning": "都合よく、好都合な形で。文脈によっては『都合がよすぎるほど』という皮肉を含み得る。"
+    },
+    "cunning": {
+      "pos": "形容詞",
+      "meaning": "目的達成のため巧みに策略を使う。"
+    },
+    "deal with": {
+      "pos": "句動詞",
+      "meaning": "問題・人などを扱って処理する。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "discretion": {
+      "pos": "名詞",
+      "meaning": "秘密や他人の事情を慎重に扱う配慮、口外しない慎重さ。"
+    },
+    "dishonourable": {
+      "pos": "形容詞",
+      "meaning": "名誉に反する、不誠実で道義に反する。",
+      "tags": [
+        "British spelling"
+      ]
+    },
+    "fancy someone's doing": {
+      "pos": "動詞構文",
+      "meaning": "人が～することを好む、望む。否定形では『～してほしくない』。",
+      "tags": [
+        "British"
+      ]
+    },
+    "fit the bill": {
+      "pos": "慣用表現",
+      "meaning": "求められる条件・特徴に合う。"
+    },
+    "frankly": {
+      "pos": "副詞",
+      "meaning": "遠回しにせず話者の判断を明示する談話副詞。",
+      "tags": [
+        "discourse"
+      ]
+    },
+    "frightfully": {
+      "pos": "副詞",
+      "meaning": "英国上流・中流の古めの強調副詞。字義の「恐ろしく」から弱まった用法。",
+      "tags": [
+        "British English",
+        "dated"
+      ]
+    },
+    "fun and games": {
+      "pos": "慣用表現",
+      "meaning": "軽い遊びや冗談として楽しめる事柄。否定文では『遊びではない』という強調に使われる。"
+    },
+    "gay": {
+      "pos": "形容詞",
+      "meaning": "この1950年代の台詞では「陽気で軽快な」の意味。現代では主に性的指向を表す語として広く使われる。",
+      "tags": [
+        "dated sense",
+        "context"
+      ]
+    },
+    "get away": {
+      "pos": "句動詞",
+      "meaning": "ある場所・拘束・危険から離れる。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "get hold of": {
+      "pos": "句動詞",
+      "meaning": "物を手に入れる、入手する。"
+    },
+    "go about": {
+      "pos": "句動詞",
+      "meaning": "あるやり方で行動する、または各所を動き回る。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "go down to": {
+      "pos": "句動詞",
+      "meaning": "英国口語で town/village などへ「出かける」感覚にも使う。",
+      "tags": [
+        "context",
+        "chunk"
+      ]
+    },
+    "go into": {
+      "pos": "句動詞",
+      "meaning": "話題・問題について詳しく立ち入って扱う。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "go into something": {
+      "pos": "句動詞",
+      "meaning": "ある話題・事情について詳しく話す、検討する。"
+    },
+    "go off": {
+      "pos": "句動詞",
+      "meaning": "中心から離れるのが核で、文脈により退去・作動など。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "go on": {
+      "pos": "句動詞",
+      "meaning": "出来事・行動が継続する。文脈により「起こる」の意味もある。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "go on as usual": {
+      "pos": "定型表現",
+      "meaning": "困難があっても通常の生活を継続する。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "go out of one’s mind": {
+      "pos": "熟語",
+      "meaning": "mind を正気・判断力の比喩に使う。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "go up": {
+      "pos": "句動詞",
+      "meaning": "低い位置から高い位置へ移動する。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "Good Lord": {
+      "pos": "感嘆表現",
+      "meaning": "驚き・困惑・強い反応を表す感嘆句。宗教的語源を持つが、日常では間投詞的に使われる。",
+      "tags": [
+        "interjection"
+      ]
+    },
+    "got to": {
+      "pos": "助動詞的表現",
+      "meaning": "have got to の口語形。",
+      "tags": [
+        "informal",
+        "grammar",
+        "chunk"
+      ]
+    },
+    "grant someone that": {
+      "pos": "定型表現",
+      "meaning": "その点については相手の言うことを認める。"
+    },
+    "grow up": {
+      "pos": "句動詞",
+      "meaning": "成長して子どもの段階を離れる。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "had better": {
+      "pos": "助動詞的表現",
+      "meaning": "強い助言・警告。形式は had だが現在・未来についても使う。",
+      "tags": [
+        "grammar",
+        "chunk"
+      ]
+    },
+    "hold out on": {
+      "pos": "句動詞",
+      "meaning": "相手に必要なもの・情報を渡さず保持する。",
+      "tags": [
+        "informal",
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "homicidal": {
+      "pos": "形容詞",
+      "meaning": "殺人を犯そうとする、殺人的な。"
+    },
+    "homicidal maniac": {
+      "pos": "古い表現",
+      "meaning": "殺人衝動があるとみなされた人を指す古い非臨床的・侮蔑的な表現。",
+      "tags": [
+        "dated",
+        "stigmatizing"
+      ]
+    },
+    "hook it": {
+      "pos": "口語表現",
+      "meaning": "急いで立ち去る、逃げる。",
+      "tags": [
+        "British",
+        "dated",
+        "informal"
+      ]
+    },
+    "Hullo": {
+      "pos": "間投詞",
+      "meaning": "hello の古い綴り・発音表記。英国の古い作品でよく見られる。",
+      "tags": [
+        "British English",
+        "dated"
+      ]
+    },
+    "Hunt the Thimble": {
+      "pos": "固有表現",
+      "meaning": "隠した小物を探す昔ながらの室内ゲーム。",
+      "tags": [
+        "British",
+        "culture"
+      ]
+    },
+    "in case": {
+      "pos": "接続・前置詞的表現",
+      "meaning": "～の場合に備えて、～だといけないので。"
+    },
+    "innocent": {
+      "pos": "形容詞",
+      "meaning": "犯罪・非難に関して責任がない。",
+      "tags": [
+        "legal"
+      ]
+    },
+    "innocent fun": {
+      "pos": "名詞句",
+      "meaning": "害意のない単なる遊び・冗談。"
+    },
+    "inquisition": {
+      "pos": "名詞",
+      "meaning": "しつこく厳しい尋問・詮索。歴史上の異端審問を踏まえた比喩でも使われる。"
+    },
+    "jealous": {
+      "pos": "形容詞",
+      "meaning": "大切な人・関係を他者に奪われる不安や羨望を感じる。"
+    },
+    "just": {
+      "pos": "副詞",
+      "meaning": "時間・数量・一致などを「狭く限定する」のが中心。",
+      "tags": [
+        "context"
+      ]
+    },
+    "keep away from": {
+      "pos": "句動詞",
+      "meaning": "距離を保ち、接触を避ける。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "keep one step ahead": {
+      "pos": "慣用表現",
+      "meaning": "相手より先を読み、一歩先んじた状態を保つ。"
+    },
+    "look after": {
+      "pos": "句動詞",
+      "meaning": "人・物を安全な状態に保つよう世話する。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "look as though": {
+      "pos": "定型表現",
+      "meaning": "外見・状況から推測した印象を表す。",
+      "tags": [
+        "grammar",
+        "chunk"
+      ]
+    },
+    "lovers' quarrel": {
+      "pos": "名詞句",
+      "meaning": "恋人・夫婦など親密な二人の間の口論。"
+    },
+    "misunderstand": {
+      "pos": "動詞",
+      "meaning": "発言・状況を意図と違って理解する。"
+    },
+    "mixed up in": {
+      "pos": "句動詞的表現",
+      "meaning": "好ましくない事件・問題などに関わっている。"
+    },
+    "murder": {
+      "pos": "名詞・動詞",
+      "meaning": "故意に人を殺す犯罪、殺人。人を故意に殺す。"
+    },
+    "murderer": {
+      "pos": "名詞",
+      "meaning": "人を故意に殺した者、殺人犯。"
+    },
+    "mustard": {
+      "pos": "名詞",
+      "meaning": "香辛料・調味料。",
+      "tags": [
+        "food"
+      ]
+    },
+    "nevertheless": {
+      "pos": "副詞",
+      "meaning": "前の事実を認めつつ反対方向の内容を続ける硬い接続副詞。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "nightmare": {
+      "pos": "名詞",
+      "meaning": "恐ろしい夢。比喩的に現実感が崩れる状況にも使う。"
+    },
+    "no good": {
+      "pos": "定型表現",
+      "meaning": "good を「効用」の意味で使う定型表現。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "occupation": {
+      "pos": "名詞",
+      "meaning": "人が通常従事している仕事。警察の身元確認で使う硬めの語。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "on one’s way": {
+      "pos": "定型表現",
+      "meaning": "目的地へ移動中であることを表す。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "on the sly": {
+      "pos": "慣用表現",
+      "meaning": "人に知られないようこっそり、秘密に。",
+      "tags": [
+        "informal"
+      ]
+    },
+    "one step ahead of": {
+      "pos": "定型表現",
+      "meaning": "相手の次の行動を先読みしている状態。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "opportunity": {
+      "pos": "名詞",
+      "meaning": "一般には「機会」。捜査文脈では犯行を実行できた機会。",
+      "tags": [
+        "crime",
+        "context"
+      ]
+    },
+    "ought to": {
+      "pos": "準助動詞",
+      "meaning": "～すべきだ、～のはずだ。"
+    },
+    "out with it": {
+      "pos": "定型表現",
+      "meaning": "隠さず早く言え、話してしまえ。",
+      "tags": [
+        "informal"
+      ]
+    },
+    "out-of-the-way": {
+      "pos": "形容詞",
+      "meaning": "人里離れた、交通や人の往来から外れた。"
+    },
+    "overcoat": {
+      "pos": "名詞",
+      "meaning": "衣服の上に着る厚手の外套・コート。"
+    },
+    "particularly": {
+      "pos": "副詞",
+      "meaning": "特に、とりわけ。"
+    },
+    "permanency": {
+      "pos": "名詞",
+      "meaning": "永続すること、恒久性。"
+    },
+    "permanent": {
+      "pos": "形容詞",
+      "meaning": "一時的ではなく長期間続く。"
+    },
+    "pinch": {
+      "pos": "動詞・名詞",
+      "meaning": "指などでつまむ。また口語では、物を盗む・無断で取るという意味になることがある。",
+      "tags": [
+        "informal-sense"
+      ]
+    },
+    "play the markets": {
+      "pos": "定型表現",
+      "meaning": "金融市場で売買・投機を行う。"
+    },
+    "policeman": {
+      "pos": "名詞",
+      "meaning": "男性の警察官を指す語。現代では police officer などの性別を限定しない表現も一般的。"
+    },
+    "position": {
+      "pos": "名詞",
+      "meaning": "捜査文脈では事件時にいた場所。一般には立場・位置。",
+      "tags": [
+        "context"
+      ]
+    },
+    "predicament": {
+      "pos": "名詞",
+      "meaning": "簡単には抜け出せない厄介な状況。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "profession": {
+      "pos": "名詞",
+      "meaning": "訓練を要する職業、または職業一般。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "prospective victim": {
+      "pos": "名詞句",
+      "meaning": "今後被害者になる可能性があると見込まれる人。"
+    },
+    "protection": {
+      "pos": "名詞",
+      "meaning": "危険・害を防いで守ること。"
+    },
+    "prove a negative": {
+      "pos": "定型表現",
+      "meaning": "ある事実・性質が存在しないことを証明する。"
+    },
+    "put oneself in someone's place": {
+      "pos": "定型表現",
+      "meaning": "相手の立場に自分を置いて考える。"
+    },
+    "put something into someone's head": {
+      "pos": "慣用表現",
+      "meaning": "人にある考え・疑念などを抱かせる。"
+    },
+    "put something out of one's mind": {
+      "pos": "定型表現",
+      "meaning": "あることを意識的に考えないようにする。"
+    },
+    "quite": {
+      "pos": "副詞",
+      "meaning": "British English では形容詞によって「かなり」と「完全に」の両方を取る。",
+      "tags": [
+        "British English",
+        "context"
+      ]
+    },
+    "rather": {
+      "pos": "副詞",
+      "meaning": "British English で程度を控えめに強めることが多い。",
+      "tags": [
+        "British English",
+        "context"
+      ]
+    },
+    "reinforcement": {
+      "pos": "名詞",
+      "meaning": "人員・力を追加して強化するもの。警察なら応援要員。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "reproach": {
+      "pos": "名詞",
+      "meaning": "相手の失敗・非をとがめること。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "reproach oneself": {
+      "pos": "動詞句",
+      "meaning": "自分の行為を責める、後ろめたく思う。"
+    },
+    "run around with": {
+      "pos": "句動詞",
+      "meaning": "ある人と頻繁に付き合い、行動を共にする口語表現。",
+      "tags": [
+        "informal",
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "run away": {
+      "pos": "句動詞",
+      "meaning": "危険・責任・状況から逃げて離れる。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "run away from something": {
+      "pos": "句動詞",
+      "meaning": "問題・現実・責任などから逃げて向き合わない。"
+    },
+    "sadistic": {
+      "pos": "形容詞",
+      "meaning": "加虐的な",
+      "tags": [
+        "needs-neutral-review"
+      ]
+    },
+    "sadistic tendency": {
+      "pos": "名詞句",
+      "meaning": "他人の苦痛を楽しむ方向への傾向。"
+    },
+    "see to": {
+      "pos": "句動詞",
+      "meaning": "必要なことを確実に行う。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "see to it that": {
+      "pos": "定型表現",
+      "meaning": "確実に～となるよう取り計らう。"
+    },
+    "set eyes on": {
+      "pos": "熟語",
+      "meaning": "人・物を実際に目にする。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "set to": {
+      "pos": "句動詞",
+      "meaning": "仕事などに勢いよく取りかかる。",
+      "tags": [
+        "British-compatible"
+      ]
+    },
+    "shan’t": {
+      "pos": "短縮表現",
+      "meaning": "shall not の短縮。現代では主に英国英語で古風・限定的。",
+      "tags": [
+        "British English",
+        "dated",
+        "chunk"
+      ]
+    },
+    "snowdrift": {
+      "pos": "名詞",
+      "meaning": "風で吹き寄せられてできた雪の吹きだまり。"
+    },
+    "somehow": {
+      "pos": "副詞",
+      "meaning": "方法・理由が不明または非特定。"
+    },
+    "soupçon": {
+      "pos": "名詞",
+      "meaning": "ほんの少量、わずかな気配。フランス語由来。",
+      "tags": [
+        "French",
+        "formal/playful"
+      ]
+    },
+    "specification": {
+      "pos": "名詞",
+      "meaning": "条件明細、規格／人物像の条件",
+      "tags": [
+        "needs-neutral-review"
+      ]
+    },
+    "spinach": {
+      "pos": "名詞",
+      "meaning": "葉物野菜。",
+      "tags": [
+        "food"
+      ]
+    },
+    "station": {
+      "pos": "名詞",
+      "meaning": "駅、停留所。また配置場所・局。"
+    },
+    "stick it out": {
+      "pos": "慣用表現",
+      "meaning": "困難な状況を途中で逃げず最後まで耐え抜く。"
+    },
+    "stockbroker": {
+      "pos": "名詞",
+      "meaning": "顧客のため株式などの売買を仲介する職業。",
+      "tags": [
+        "finance"
+      ]
+    },
+    "stranger": {
+      "pos": "名詞",
+      "meaning": "面識がなく正体をよく知らない人。"
+    },
+    "sympathy": {
+      "pos": "名詞",
+      "meaning": "他人の苦しみ・感情を理解し気の毒に思うこと。"
+    },
+    "tête-à-tête": {
+      "pos": "名詞",
+      "meaning": "二人だけで行う私的な会話。"
+    },
+    "the forgetting kind": {
+      "pos": "名詞的表現",
+      "meaning": "物事を容易に忘れるタイプの人。"
+    },
+    "tune": {
+      "pos": "名詞",
+      "meaning": "歌詞とは別のメロディー部分。",
+      "tags": [
+        "music"
+      ]
+    },
+    "victim": {
+      "pos": "名詞",
+      "meaning": "犯罪・事故などで害を受けた人。",
+      "tags": [
+        "crime"
+      ]
+    },
+    "whacking": {
+      "pos": "形容詞",
+      "meaning": "非常に大きい、ものすごい。",
+      "tags": [
+        "British",
+        "informal"
+      ]
+    },
+    "whacking great": {
+      "pos": "形容表現",
+      "meaning": "whacking は英国口語の強調語。",
+      "tags": [
+        "British English",
+        "informal",
+        "chunk"
+      ]
+    },
+    "what’s the matter": {
+      "pos": "定型表現",
+      "meaning": "体調・状況の異変を尋ねる定型表現。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "whoever": {
+      "pos": "代名詞",
+      "meaning": "人について範囲を限定しない複合関係語。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    "wretched": {
+      "pos": "形容詞",
+      "meaning": "非常に不快・不幸な状態を強く表す古めの語。",
+      "tags": [
+        "British English",
+        "dated"
+      ]
+    }
+  }
+}

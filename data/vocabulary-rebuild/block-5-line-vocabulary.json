@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 2,
+  "blockId": "block-5",
+  "sceneId": "act2",
+  "processedSpeechRange": [
+    180,
+    423
+  ],
+  "processedSpeechCount": 244,
+  "policy": "Context-specific meanings first; blank means neutral dictionary sense is sufficient.",
+  "lines": {
+    "act2-speech-0191": [
+      {
+        "surface": "running away from things",
+        "lemma": "run away from something",
+        "contextMeaning": "MollieはChristopherに、問題や過去から逃げ続ける生き方そのものをやめるよう促している。単にその場から逃走する意味ではない。"
+      }
+    ],
+    "act2-speech-0204": [
+      {
+        "surface": "needn't go into that",
+        "lemma": "go into something",
+        "contextMeaning": "Christopherが本名について詳しく話すことを避け、話題を打ち切ろうとしている。"
+      }
+    ],
+    "act2-speech-0217": [
+      {
+        "surface": "put it out of my mind",
+        "lemma": "put something out of one's mind",
+        "contextMeaning": "Mollieが過去のつらい出来事を思い出さないよう意識的に抑え込んでいるという意味。出来事の内容自体はまだ明かされない。"
+      }
+    ],
+    "act2-speech-0222": [
+      {
+        "surface": "stick it out",
+        "lemma": "stick it out",
+        "contextMeaning": "Christopherが疑われている状況から逃げず、Monkswell Manorに残って耐えること。"
+      }
+    ],
+    "act2-speech-0224": [
+      {
+        "surface": "pinch the sergeant's skis",
+        "lemma": "pinch",
+        "contextMeaning": "ここでは「つねる」ではなく、ChristopherがTrotterのスキーを盗んで逃げる案を半ば冗談めかして口にしている英国口語。"
+      }
+    ],
+    "act2-speech-0229": [
+      {
+        "surface": "puts things into your head",
+        "lemma": "put something into someone's head",
+        "contextMeaning": "MollieはTrotterの質問が、それまで考えなかった疑念を人の心に植え付けると感じている。"
+      }
+    ],
+    "act2-speech-0232": [
+      {
+        "surface": "out with it",
+        "lemma": "out with it",
+        "contextMeaning": "ChristopherがMollieに、何を疑っているのか隠さず言うよう強く促している。"
+      }
+    ],
+    "act2-speech-0249": [
+      {
+        "surface": "Tête-à-têtes",
+        "lemma": "tête-à-tête",
+        "contextMeaning": "GilesはMollieとChristopherの二人きりの親密な会話を警戒し、嫉妬と殺人への疑念を込めて問題視している。"
+      }
+    ],
+    "act2-speech-0253": [
+      {
+        "surface": "fit the bill",
+        "lemma": "fit the bill",
+        "contextMeaning": "GilesはChristopherが警察の想定する若い男性の犯人像に合う、と強く決めつけている。これはGilesの疑いであって事実認定ではない。"
+      }
+    ],
+    "act2-speech-0274": [
+      {
+        "surface": "out-of-the-way place",
+        "lemma": "out-of-the-way",
+        "contextMeaning": "GilesがMonkswell Manorを、人目につきにくい辺鄙な場所として捉え、Christopherがそこを選んだことを疑っている。"
+      }
+    ],
+    "act2-speech-0278": [
+      {
+        "surface": "on the sly",
+        "lemma": "on the sly",
+        "contextMeaning": "Gilesが、Mollieが自分に隠れてChristopherと密会していたのではないかと嫉妬から疑っている。事実ではない。"
+      }
+    ],
+    "act2-speech-0292": [
+      {
+        "surface": "get hold of that",
+        "lemma": "get hold of",
+        "contextMeaning": "Gilesが、Mollieが自分のポケットにあったロンドンの新聞をどのように手に入れたのか問いただしている。"
+      }
+    ],
+    "act2-speech-0306": [
+      {
+        "surface": "what's come over you",
+        "lemma": "come over someone",
+        "contextMeaning": "Gilesが、Mollieの態度が突然別人のように変わったことに戸惑って「どうしたんだ」と問いかけている。"
+      }
+    ],
+    "act2-speech-0311": [
+      {
+        "surface": "apt to",
+        "lemma": "be apt to",
+        "contextMeaning": "Paraviciniが、夫婦喧嘩では人は本心以上のことをつい言いがちだ、と二人の対立を軽く扱っている。"
+      },
+      {
+        "surface": "lovers' quarrels",
+        "lemma": "lovers' quarrel",
+        "contextMeaning": "MollieとGilesの深刻な相互不信を、Paraviciniが単なる恋人同士の口論のように茶化している。"
+      }
+    ],
+    "act2-speech-0318": [
+      {
+        "surface": "by any chance",
+        "lemma": "by any chance",
+        "contextMeaning": "Paraviciniが、Gilesがひょっとしてスキーを動かしたのではないかと柔らかい形で尋ねている。"
+      }
+    ],
+    "act2-speech-0325": [
+      {
+        "surface": "seen to it that you certainly shan't do that",
+        "lemma": "see to it that",
+        "contextMeaning": "誰かがTrotterを警察署へ行かせないよう、意図的にスキーを隠した可能性をParaviciniが示している。"
+      }
+    ],
+    "act2-speech-0330": [
+      {
+        "surface": "hooked it",
+        "lemma": "hook it",
+        "contextMeaning": "Paraviciniが、Christopherがスキーを持って逃げ出したのではないかと面白がって推測している。実際にはこの直後Christopherが現れる。"
+      }
+    ],
+    "act2-speech-0365": [
+      {
+        "surface": "grant you that",
+        "lemma": "grant someone that",
+        "contextMeaning": "Metcalfが、自分にもスキーを取る機会があったというTrotterの指摘だけは認めている。"
+      }
+    ],
+    "act2-speech-0367": [
+      {
+        "surface": "set to",
+        "lemma": "set to",
+        "contextMeaning": "Metcalfが全員で手分けしてすぐスキー探しを始めようと提案している。"
+      },
+      {
+        "surface": "Hunt the Thimble",
+        "lemma": "Hunt the Thimble",
+        "contextMeaning": "小さな物を探す室内遊びになぞらえ、巨大なスキーなら簡単に見つかるはずだと冗談めかしている。"
+      },
+      {
+        "surface": "Whacking great things",
+        "lemma": "whacking",
+        "contextMeaning": "スキーが隠しにくいほど非常に大きい、と英国口語で強調している。"
+      }
+    ],
+    "act2-speech-0370": [
+      {
+        "surface": "put myself in the place of",
+        "lemma": "put oneself in someone's place",
+        "contextMeaning": "Trotterが犯人の思考を想像し、その次の行動を予測しようとしている。共感ではなく捜査上の思考実験。"
+      },
+      {
+        "surface": "keep just one step ahead",
+        "lemma": "keep one step ahead",
+        "contextMeaning": "犯人が動く前に意図を読み、次の殺人を防げる程度に先回りすること。"
+      }
+    ],
+    "act2-speech-0372": [
+      {
+        "surface": "cancelled out",
+        "lemma": "cancel out",
+        "contextMeaning": "Trotterが童謡の三匹のネズミになぞらえ、すでに二人が殺されたことを冷たく数え上げる比喩的表現。"
+      },
+      {
+        "surface": "prospective victim",
+        "lemma": "prospective victim",
+        "contextMeaning": "Trotterが、館内の誰かを犯人が次の標的としている可能性が高いと警告している。誰なのかはまだ不明。"
+      },
+      {
+        "surface": "reproach themselves for",
+        "lemma": "reproach oneself",
+        "contextMeaning": "Longridge Farm事件について少しでも自分に責任・後ろめたさがある者は、それを認めるべきだという意味。"
+      },
+      {
+        "surface": "come out with it",
+        "lemma": "come out with something",
+        "contextMeaning": "Longridge Farmとの隠れた関係をこれ以上伏せず、今すぐTrotterに打ち明けること。"
+      }
+    ],
+    "act2-speech-0373": [
+      {
+        "surface": "soupçon",
+        "lemma": "soupçon",
+        "contextMeaning": "Paraviciniが料理を気取って説明し、「ほんのわずかな」マスタードというしゃれた言い回しを使っている。"
+      }
+    ],
+    "act2-speech-0375": [
+      {
+        "surface": "doesn't fancy your being alone with me",
+        "lemma": "fancy someone's doing",
+        "contextMeaning": "GilesがMollieをParaviciniと二人きりにしたくない、という警戒をParaviciniがからかって表現している。"
+      },
+      {
+        "surface": "sadistic tendencies",
+        "lemma": "sadistic tendency",
+        "contextMeaning": "Paraviciniが、Gilesは自分を性的なライバルとしてではなく危険人物として恐れている、とブラックユーモアで自分を物騒に描写している。"
+      }
+    ],
+    "act2-speech-0377": [
+      {
+        "surface": "prove a negative",
+        "lemma": "prove a negative",
+        "contextMeaning": "自分が殺人犯ではないことのように「存在しないこと」を証明するのは難しい、とParaviciniが自分への疑いを面白がっている。"
+      }
+    ],
+    "act2-speech-0382": [
+      {
+        "surface": "the forgetting kind",
+        "lemma": "the forgetting kind",
+        "contextMeaning": "ParaviciniがMollieを、つらいことを簡単に忘れられる人ではないと見抜いたように語り、彼女の過去にも不穏な含みを持たせている。"
+      }
+    ],
+    "act2-speech-0385": [
+      {
+        "surface": "innocent fun",
+        "lemma": "innocent fun",
+        "contextMeaning": "ParaviciniはMollieを怖がらせた言動を「害のない冗談」にすぎないと軽く扱っており、Trotterは次の発言でそれを否定する。"
+      }
+    ],
+    "act2-speech-0390": [
+      {
+        "surface": "so conveniently",
+        "lemma": "conveniently",
+        "contextMeaning": "TrotterはParaviciniの車が都合よくMonkswell Manor近くで動けなくなったという説明を皮肉に疑っており、「好都合すぎる」の意。"
+      }
+    ],
+    "act2-speech-0392": [
+      {
+        "surface": "bound for",
+        "lemma": "bound for",
+        "contextMeaning": "Trotterが、事故を起こす前にParaviciniが本来どこを目的地としていたのか確認している。"
+      }
+    ],
+    "act2-speech-0401": [
+      {
+        "surface": "An amour",
+        "lemma": "amour",
+        "contextMeaning": "Paraviciniが訪問先を明かさない理由として、秘密の情事だった可能性を芝居がかった調子でほのめかしている。"
+      },
+      {
+        "surface": "discretion",
+        "lemma": "discretion",
+        "contextMeaning": "秘密の恋愛なら相手の名を言わないのは慎み・秘密保持のためだ、とParaviciniが逃げ口上に使っている。"
+      }
+    ],
+    "act2-speech-0415": [
+      {
+        "surface": "dislike permanency",
+        "lemma": "permanency",
+        "contextMeaning": "Paraviciniが恒久的な住所を答える代わりに「定住が嫌い」と洒落た言い回しで質問をかわしている。"
+      }
+    ],
+    "act2-speech-0417": [
+      {
+        "surface": "play the markets",
+        "lemma": "play the markets",
+        "contextMeaning": "Paraviciniは職業を明確にせず、金融市場で投機しているという曖昧で遊びめいた答えを返している。"
+      }
+    ],
+    "act2-speech-0420": [
+      {
+        "surface": "mixed up in a murder case",
+        "lemma": "mixed up in",
+        "contextMeaning": "TrotterがParaviciniに、好むと好まざるとにかかわらず実際の殺人捜査に関係する立場にいると警告している。"
+      },
+      {
+        "surface": "fun and games",
+        "lemma": "fun and games",
+        "contextMeaning": "Trotterが、実際の殺人はParaviciniが楽しむような冗談や遊びではない、と強く釘を刺している。"
+      }
+    ],
+    "act2-speech-0421": [
+      {
+        "surface": "inquisition",
+        "lemma": "inquisition",
+        "contextMeaning": "ParaviciniがTrotterの厳しい尋問を大げさに「異端審問」のようだと皮肉っている。"
+      }
+    ]
+  }
+}

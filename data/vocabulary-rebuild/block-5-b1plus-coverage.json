@@ -1,0 +1,981 @@
+{
+  "schemaVersion": 2,
+  "blockId": "block-5",
+  "sceneId": "act2",
+  "processedSpeechRange": [
+    180,
+    423
+  ],
+  "processedSpeechCount": 244,
+  "policy": "Legacy candidates plus later CEFR B1+ audit additions. contextMeaning must remain blank.",
+  "lines": {
+    "act2-speech-0186": [
+      {
+        "surface": "Somehow",
+        "lemma": "somehow",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "get away",
+        "lemma": "get away",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0190": [
+      {
+        "surface": "frightfully",
+        "lemma": "frightfully",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "committed",
+        "lemma": "commit",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "murders",
+        "lemma": "murder",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "particularly",
+        "lemma": "particularly",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0191": [
+      {
+        "surface": "go on",
+        "lemma": "go on",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "running away",
+        "lemma": "run away",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0194": [
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0195": [
+      {
+        "surface": "'ve got to",
+        "lemma": "got to",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "grow up",
+        "lemma": "grow up",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0199": [
+      {
+        "surface": "architect",
+        "lemma": "architect",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0202": [
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "association",
+        "lemma": "association",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0204": [
+      {
+        "surface": "beastly",
+        "lemma": "beastly",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "murderer",
+        "lemma": "murderer",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "specification",
+        "lemma": "specification",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "go into",
+        "lemma": "go into",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "ran away",
+        "lemma": "run away",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0206": [
+      {
+        "surface": "looked after",
+        "lemma": "look after",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0207": [
+      {
+        "surface": "go on",
+        "lemma": "go on",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "looked after",
+        "lemma": "look after",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "'ve got to",
+        "lemma": "got to",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "go on just as usual",
+        "lemma": "go on as usual",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0218": [
+      {
+        "surface": "running away",
+        "lemma": "run away",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0219": [
+      {
+        "surface": "rather",
+        "lemma": "rather",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0221": [
+      {
+        "surface": "sympathy",
+        "lemma": "sympathy",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0222": [
+      {
+        "surface": "ought to",
+        "lemma": "ought to",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0223": [
+      {
+        "surface": "frankly",
+        "lemma": "frankly",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0224": [
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0225": [
+      {
+        "surface": "frightfully",
+        "lemma": "frightfully",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0227": [
+      {
+        "surface": "At least",
+        "lemma": "at least",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0237": [
+      {
+        "surface": "went off",
+        "lemma": "go off",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0238": [
+      {
+        "surface": "go up",
+        "lemma": "go up",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "after all",
+        "lemma": "after all",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0240": [
+      {
+        "surface": "murder",
+        "lemma": "murder",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0241": [
+      {
+        "surface": "murder",
+        "lemma": "murder",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0242": [
+      {
+        "surface": "Good Lord",
+        "lemma": "Good Lord",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0243": [
+      {
+        "surface": "stranger",
+        "lemma": "stranger",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "nightmare",
+        "lemma": "nightmare",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0245": [
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "spinach",
+        "lemma": "spinach",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0249": [
+      {
+        "surface": "keep away from",
+        "lemma": "keep away from",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "at present",
+        "lemma": "at present",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0251": [
+      {
+        "surface": "keep away from",
+        "lemma": "keep away from",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "victim",
+        "lemma": "victim",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0254": [
+      {
+        "surface": "fit the bill",
+        "lemma": "fit the bill",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0256": [
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0263": [
+      {
+        "surface": "shan't",
+        "lemma": "shan’t",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0264": [
+      {
+        "surface": "homicidal maniac",
+        "lemma": "homicidal maniac",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0266": [
+      {
+        "surface": "got to",
+        "lemma": "got to",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "barmy",
+        "lemma": "barmy",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0267": [
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "look after",
+        "lemma": "look after",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0270": [
+      {
+        "surface": "wretched",
+        "lemma": "wretched",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0273": [
+      {
+        "surface": "gone out of your mind",
+        "lemma": "go out of one’s mind",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0274": [
+      {
+        "surface": "Rather",
+        "lemma": "rather",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0276": [
+      {
+        "surface": "homicidal",
+        "lemma": "homicidal",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Looks as though",
+        "lemma": "look as though",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "going on",
+        "lemma": "go on",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0277": [
+      {
+        "surface": "set eyes on",
+        "lemma": "set eyes on",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0281": [
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0292": [
+      {
+        "surface": "get hold of",
+        "lemma": "get hold of",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0293": [
+      {
+        "surface": "overcoat",
+        "lemma": "overcoat",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0300": [
+      {
+        "surface": "What's the matter",
+        "lemma": "what’s the matter",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0305": [
+      {
+        "surface": "shan't",
+        "lemma": "shan’t",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0306": [
+      {
+        "surface": "come over you",
+        "lemma": "come over someone",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "as though",
+        "lemma": "as though",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0313": [
+      {
+        "surface": "Quite",
+        "lemma": "quite",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0314": [
+      {
+        "surface": "business",
+        "lemma": "business",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0315": [
+      {
+        "surface": "business",
+        "lemma": "business",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "came in",
+        "lemma": "come in",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0324": [
+      {
+        "surface": "reinforcements",
+        "lemma": "reinforcement",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "station",
+        "lemma": "station",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0325": [
+      {
+        "surface": "seen to",
+        "lemma": "see to",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "shan't",
+        "lemma": "shan’t",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0327": [
+      {
+        "surface": "get away",
+        "lemma": "get away",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0328": [
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0330": [
+      {
+        "surface": "architect",
+        "lemma": "architect",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0332": [
+      {
+        "surface": "after all",
+        "lemma": "after all",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0336": [
+      {
+        "surface": "is very fond of",
+        "lemma": "be fond of",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0338": [
+      {
+        "surface": "at once",
+        "lemma": "at once",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0343": [
+      {
+        "surface": "Hullo",
+        "lemma": "Hullo",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0348": [
+      {
+        "surface": "Good Lord",
+        "lemma": "Good Lord",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0350": [
+      {
+        "surface": "Nevertheless",
+        "lemma": "nevertheless",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0357": [
+      {
+        "surface": "gone down to",
+        "lemma": "go down to",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "cellar",
+        "lemma": "cellar",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0363": [
+      {
+        "surface": "No good",
+        "lemma": "no good",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "cellars",
+        "lemma": "cellar",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Architecture",
+        "lemma": "architecture",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "went on",
+        "lemma": "go on",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0364": [
+      {
+        "surface": "opportunity",
+        "lemma": "opportunity",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0367": [
+      {
+        "surface": "Ought to",
+        "lemma": "ought to",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "case",
+        "lemma": "case",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Whacking great",
+        "lemma": "whacking great",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0368": [
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0370": [
+      {
+        "surface": "position",
+        "lemma": "position",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "'ve got to",
+        "lemma": "got to",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "cunning",
+        "lemma": "cunning",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "one step ahead of",
+        "lemma": "one step ahead of",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0372": [
+      {
+        "surface": "dealt with",
+        "lemma": "deal with",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "held out on",
+        "lemma": "hold out on",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "whoever",
+        "lemma": "whoever",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "holding out on",
+        "lemma": "hold out on",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "protection",
+        "lemma": "protection",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "reproach",
+        "lemma": "reproach",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "business",
+        "lemma": "business",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "had better",
+        "lemma": "had better",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0373": [
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "mustard",
+        "lemma": "mustard",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "concoct",
+        "lemma": "concoct",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "occupation",
+        "lemma": "occupation",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0375": [
+      {
+        "surface": "Quite",
+        "lemma": "quite",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "circumstances",
+        "lemma": "circumstance",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "sadistic",
+        "lemma": "sadistic",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "dishonourable",
+        "lemma": "dishonourable",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Alas",
+        "lemma": "alas",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0377": [
+      {
+        "surface": "homicidal maniac",
+        "lemma": "homicidal maniac",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0379": [
+      {
+        "surface": "gay",
+        "lemma": "gay",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "tune",
+        "lemma": "tune",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Just",
+        "lemma": "just",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "grow up",
+        "lemma": "grow up",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0380": [
+      {
+        "surface": "at once",
+        "lemma": "at once",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0383": [
+      {
+        "surface": "spinach",
+        "lemma": "spinach",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0385": [
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "innocent",
+        "lemma": "innocent",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "been fond of",
+        "lemma": "be fond of",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0390": [
+      {
+        "surface": "snowdrift",
+        "lemma": "snowdrift",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0392": [
+      {
+        "surface": "rather",
+        "lemma": "rather",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Just",
+        "lemma": "just",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "by the way",
+        "lemma": "by the way",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0393": [
+      {
+        "surface": "on my way",
+        "lemma": "on one’s way",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0397": [
+      {
+        "surface": "predicament",
+        "lemma": "predicament",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0401": [
+      {
+        "surface": "jealous",
+        "lemma": "jealous",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0402": [
+      {
+        "surface": "Rather",
+        "lemma": "rather",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "running around with",
+        "lemma": "run around with",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0403": [
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0404": [
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0406": [
+      {
+        "surface": "goes about",
+        "lemma": "go about",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0414": [
+      {
+        "surface": "permanent",
+        "lemma": "permanent",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0415": [
+      {
+        "surface": "permanency",
+        "lemma": "permanency",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0416": [
+      {
+        "surface": "business",
+        "lemma": "business",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "profession",
+        "lemma": "profession",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0418": [
+      {
+        "surface": "Stockbroker",
+        "lemma": "stockbroker",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0419": [
+      {
+        "surface": "misunderstand",
+        "lemma": "misunderstand",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0420": [
+      {
+        "surface": "murder",
+        "lemma": "murder",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "case",
+        "lemma": "case",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0421": [
+      {
+        "surface": "murder",
+        "lemma": "murder",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "policemen",
+        "lemma": "policeman",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0423": [
+      {
+        "surface": "Just",
+        "lemma": "just",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "in case",
+        "lemma": "in case",
+        "contextMeaning": ""
+      }
+    ]
+  }
+}
