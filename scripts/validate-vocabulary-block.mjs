@@ -5,7 +5,8 @@ const configs = {
   'block-1': { sceneId: 'act1-scene1', first: 1, last: 190 },
   'block-2': { sceneId: 'act1-scene2', first: 1, last: 178 },
   'block-3': { sceneId: 'act1-scene2', first: 179, last: 336 },
-  'block-4': { sceneId: 'act2', first: 1, last: 179 }
+  'block-4': { sceneId: 'act2', first: 1, last: 179 },
+  'block-5': { sceneId: 'act2', first: 180, last: 423 }
 };
 const config = configs[blockId];
 if (!config) throw new Error(`Unsupported block: ${blockId}`);
