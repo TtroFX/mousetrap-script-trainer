@@ -1,0 +1,97 @@
+name: Finalize Resume and Bookmarks
+
+on:
+  push:
+    branches: ["feature/resume-bookmarks"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: resume-bookmarks-finalize
+  cancel-in-progress: true
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/resume-bookmarks
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Integrate Resume and Bookmarks into runtime
+        run: |
+          node <<'NODE'
+          const fs=require('node:fs');
+          const mainPath='app/src/main.js';
+          let main=fs.readFileSync(mainPath,'utf8');
+          if(!main.includes("./resume-bookmarks.js")) main=main.replace("import { StateStore } from './state-store.js';", "import { StateStore } from './state-store.js';\nimport { ResumeBookmarksUI } from './resume-bookmarks.js';");
+          if(!main.includes('const resumeBookmarks=new ResumeBookmarksUI')) main=main.replace('const loadingCard=', "const resumeBookmarks=new ResumeBookmarksUI({app,store,state,go,chrome,sceneMeta,esc});\nconst loadingCard=");
+          main=main.replace('<div class="eyebrow">Continue</div><h1>台本を覚える</h1>', '<div class="eyebrow">Home</div><h1>台本を覚える</h1>');
+          const route=/function renderRoute\(\)\{[^\n]*\}\nfunction registerPwaLater/;
+          if(!main.includes("case'/bookmarks'")){
+            if(!route.test(main)) throw new Error('renderRoute patch target missing');
+            main=main.replace(route, `function renderRoute(){routeGeneration++;const raw=location.hash.replace(/^#/,'')||'/home',[path,qs='']=raw.split('?'),q=new URLSearchParams(qs);stopRecognition();switch(path){case'/home':homeView();break;case'/script':scriptView(q);break;case'/scene':sceneView();break;case'/practice':practiceView();break;case'/progress':progressView();break;case'/more':moreView();break;case'/search':searchView(q);break;case'/line':lineView(q);break;case'/cue':cueView(q);break;case'/rehearsal':rehearsalView(q);break;case'/bookmarks':resumeBookmarks.renderBookmarks(q);break;default:history.replaceState(null,'','#/home');homeView()}if(path!=='/bookmarks')resumeBookmarks.afterRoute(path,q)}\nfunction registerPwaLater`);
+          }
+          fs.writeFileSync(mainPath,main);
+
+          const cssPath='app/src/app.css';
+          let css=fs.readFileSync(cssPath,'utf8');
+          if(!css.includes('resume-bookmarks-r2')) css += `\n/* resume-bookmarks-r2 */\n.resume-card{border-color:#d8c3b2;background:linear-gradient(135deg,#fff 0%,#fbf4ed 100%)}.resume-main{display:flex;align-items:center;justify-content:space-between;gap:14px}.resume-main h2{margin:.2em 0}.resume-main p{margin:0;color:var(--muted);font-size:13px}.resume-practice-link{border:0;background:transparent;color:var(--accent);padding:8px 0 0;font-weight:850}.bookmark-home-card{display:flex;align-items:center;justify-content:space-between;gap:14px}.bookmark-home-card h3{margin:.25em 0}.bookmarkable-line{position:relative;padding-right:52px}.bookmark-toggle{display:inline-grid;place-items:center;width:36px;height:36px;border-radius:50%;background:#f3ece5;color:#8a7c70;font-size:23px;line-height:1;cursor:pointer;user-select:none}.bookmark-toggle.active{background:#f4e2c5;color:#8a5b3a}.line-bookmark-toggle{position:absolute;right:9px;top:50%;transform:translateY(-50%)}.line-bookmark-holder{display:flex;align-items:center;justify-content:flex-end;gap:8px;margin-bottom:6px;color:var(--muted);font-size:11px}.line-detail-bookmark{position:static}.bookmark-filters{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}.bookmark-list{display:grid;gap:8px}.bookmark-row{display:grid;grid-template-columns:minmax(0,1fr) 48px;gap:7px}.bookmark-open{display:grid;text-align:left;border:1px solid var(--line);border-radius:15px;background:var(--card);padding:13px 14px;color:var(--ink);box-shadow:var(--shadow)}.bookmark-open span:first-child{font-size:11px;color:var(--muted);margin-bottom:5px}.bookmark-open span:last-child{font:650 16px/1.62 Georgia,"Times New Roman",serif}.bookmark-remove{border:1px solid #e1c9ad;border-radius:15px;background:#f7e8d0;color:var(--accent);font-size:23px}.bookmark-empty{text-align:center}.toast.actionable{pointer-events:auto;display:flex;align-items:center;gap:10px}.toast.actionable button{border:0;border-radius:999px;background:#fff;color:#2d2824;padding:5px 8px;font-size:11px;font-weight:900}@media(max-width:520px){.resume-main,.bookmark-home-card{align-items:stretch;flex-direction:column}.resume-main .primary-btn,.bookmark-home-card .ghost-btn{width:100%}.bookmark-row{grid-template-columns:minmax(0,1fr) 44px}}\n`;
+          fs.writeFileSync(cssPath,css);
+
+          const asmPath='app/scripts/assemble-production.mjs';
+          let asm=fs.readFileSync(asmPath,'utf8');
+          asm=asm.replace("'src/state-store.js','src/main.js'", "'src/state-store.js','src/resume-bookmarks.js','src/main.js'");
+          fs.writeFileSync(asmPath,asm);
+
+          const staticPath='app/tests/index_zero_static.mjs';
+          let st=fs.readFileSync(staticPath,'utf8');
+          st=st.replace("'src/state-store.js','src/main.js'", "'src/state-store.js','src/resume-bookmarks.js','src/main.js'");
+          st=st.replace("'mts.practice.rehearsal.state','mts.memory.stages'", "'mts.practice.rehearsal.state','mts.memory.stages','mts.resume.v1','mts.bookmarks.v1'");
+          if(!st.includes("feature parity missing: Resume/Bookmarks")) st=st.replace("if(!main.includes('Full')", "if(!main.includes(\"case'/bookmarks'\")||!read('src/resume-bookmarks.js').includes('Continue')||!read('src/resume-bookmarks.js').includes('Bookmark一覧'))fail('feature parity missing: Resume/Bookmarks');\nif(!main.includes('Full')");
+          fs.writeFileSync(staticPath,st);
+
+          const swPath='app/sw.js';
+          let sw=fs.readFileSync(swPath,'utf8').replaceAll('index-zero-2026-08-26-r1','index-zero-2026-08-26-r2');
+          fs.writeFileSync(swPath,sw);
+          const verPath='app/pwa-version.json';
+          let ver=fs.readFileSync(verPath,'utf8').replaceAll('index-zero-2026-08-26-r1','index-zero-2026-08-26-r2');
+          fs.writeFileSync(verPath,ver);
+
+          const testPath='app/tests/index_zero.e2e.spec.js';
+          let tests=fs.readFileSync(testPath,'utf8');
+          if(!tests.includes('Resume Continue restores the last studied location')) tests += `\n\ntest('Resume Continue restores the last studied location',async({page})=>{\n  await ready(page);await selectRole(page,'MOLLIE');\n  const line=await page.evaluate(()=>MTS_INDEX_ZERO.store.getScene('act1-scene1')[5].id);\n  await page.goto(\`${BASE}#/line?scene=act1-scene1&line=\${line}\`);\n  await page.waitForFunction(id=>MTS_INDEX_ZERO.state.latestResume()?.lineId===id,line);\n  await page.goto(BASE+'#/home');\n  await expect(page.getByRole('button',{name:'続きから'})).toBeVisible();\n  await page.getByRole('button',{name:'続きから'}).click();\n  await expect(page).toHaveURL(new RegExp(\`#\\/line\\?scene=act1-scene1&line=\${line}$\`));\n  await page.reload();await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasCore());\n  expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.latestResume()?.lineId===id,line)).toBeTruthy();\n});\n\ntest('Bookmark persists, opens, deletes in one click, and supports Undo',async({page})=>{\n  await ready(page);\n  await page.goto(BASE+'#/script');\n  const first=page.locator('[data-line]').first(),line=await first.getAttribute('data-line');\n  const star=first.locator('[data-bookmark-toggle]');await expect(star).toBeVisible();await star.click();\n  expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),line)).toBe(true);\n  await page.reload();await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasCore());\n  await expect(page.locator(\`[data-line=\"\${line}\"] [data-bookmark-toggle]\`)).toHaveText('★');\n  await page.goto(BASE+'#/bookmarks');\n  await expect(page.locator(\`[data-bookmark-row=\"\${line}\"]\`)).toBeVisible();\n  await page.locator(\`[data-bookmark-row=\"\${line}\"] [data-bookmark-open]\`).click();\n  await expect(page).toHaveURL(new RegExp(\`#\\/line\\?.*line=\${line}\`));\n  await page.goto(BASE+'#/bookmarks');\n  await page.locator(\`[data-bookmark-row=\"\${line}\"] [data-bookmark-remove]\`).click();\n  expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),line)).toBe(false);\n  await page.getByRole('button',{name:'元に戻す'}).click();\n  expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),line)).toBe(true);\n  await expect(page.locator(\`[data-bookmark-row=\"\${line}\"]\`)).toBeVisible();\n});\n\ntest('Line Detail can add and remove Bookmark and bookmark route is mobile-safe',async({page})=>{\n  await ready(page);\n  const line=await page.evaluate(()=>MTS_INDEX_ZERO.store.getScene('act1-scene1')[10].id);\n  await page.goto(\`${BASE}#/line?scene=act1-scene1&line=\${line}\`);\n  const toggle=page.locator('.line-detail-bookmark');await expect(toggle).toBeVisible();await toggle.click();\n  expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),line)).toBe(true);\n  await page.goto(BASE+'#/bookmarks');await page.setViewportSize({width:390,height:844});\n  const size=await page.evaluate(()=>({s:document.documentElement.scrollWidth,c:document.documentElement.clientWidth}));expect(size.s).toBeLessThanOrEqual(size.c+1);\n  await page.locator(\`[data-bookmark-row=\"\${line}\"] [data-bookmark-remove]\`).click();\n  expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),line)).toBe(false);\n});\n`;
+          tests=tests.replace("['home','script','scene','practice','progress','more','search']", "['home','script','scene','practice','progress','more','search','bookmarks']");
+          fs.writeFileSync(testPath,tests);
+          NODE
+          node --check app/src/main.js
+          node --check app/src/state-store.js
+          node --check app/src/resume-bookmarks.js
+      - name: Build canonical Structure
+        run: |
+          node app/scripts/build-learning-structure.mjs --root . --out app/mousetrap_line_structure.json
+      - name: Static and artifact QA
+        working-directory: app
+        run: |
+          node tests/index_zero_static.mjs
+          node scripts/assemble-production.mjs --verify-only
+          node scripts/assemble-production.mjs --out-dir ../public
+      - name: Install Chromium QA
+        working-directory: app
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+      - name: Full Chromium QA
+        working-directory: app
+        run: npm run test:e2e
+      - name: Commit verified implementation
+        run: |
+          rm .github/workflows/resume-bookmarks-finalize.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main.js app/src/app.css app/src/resume-bookmarks.js app/src/config.js app/src/state-store.js app/sw.js app/pwa-version.json app/scripts/assemble-production.mjs app/tests/index_zero_static.mjs app/tests/index_zero.e2e.spec.js .github/workflows/resume-bookmarks-finalize.yml
+          git commit -m "resume-bookmarks: complete Continue and Bookmark features"
+          git push origin HEAD:feature/resume-bookmarks
