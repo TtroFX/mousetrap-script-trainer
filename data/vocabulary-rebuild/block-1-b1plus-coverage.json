@@ -72,9 +72,6 @@
     "act1-scene1-speech-0081": [
       {"surface":"station","lemma":"station","contextMeaning":""}
     ],
-    "act1-scene1-speech-0091": [
-      {"surface":"experience","lemma":"experience","contextMeaning":""}
-    ],
     "act1-scene1-speech-0096": [
       {"surface":"condition","lemma":"condition","contextMeaning":""}
     ],
@@ -114,7 +111,6 @@
       {"surface":"crisis","lemma":"crisis","contextMeaning":""}
     ],
     "act1-scene1-speech-0139": [
-      {"surface":"description","lemma":"description","contextMeaning":""},
       {"surface":"medium","lemma":"medium","contextMeaning":""},
       {"surface":"effect","lemma":"effect","contextMeaning":""}
     ],
