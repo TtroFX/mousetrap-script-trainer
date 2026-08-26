@@ -1,0 +1,33 @@
+name: Cleanup Gesture Branch
+on:
+  push:
+    branches: ["feature/gesture-controls"]
+permissions:
+  contents: write
+jobs:
+  cleanup:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Remove generated artifacts and harden gitignore
+        run: |
+          rm -rf app/node_modules app/test-results public
+          rm -f app/mousetrap_line_structure.json app/package-lock.json
+          cat >> .gitignore <<'EOF'
+
+# Generated app QA/build artifacts
+app/node_modules/
+app/test-results/
+app/mousetrap_line_structure.json
+app/package-lock.json
+public/
+EOF
+          rm -f .github/workflows/gesture-cleanup.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "r4: remove generated QA artifacts"
+          git push origin HEAD:feature/gesture-controls
