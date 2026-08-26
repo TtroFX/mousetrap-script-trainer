@@ -1,0 +1,981 @@
+{
+  "schemaVersion": 2,
+  "blockId": "block-3",
+  "policy": "Neutral shared meanings only; no play-specific context.",
+  "entries": {
+    "police record": {
+      "pos": "名詞句",
+      "meaning": "警察が保有する、逮捕・有罪歴などに関する記録。"
+    },
+    "on file": {
+      "pos": "定型表現",
+      "meaning": "記録として保管・登録されている。"
+    },
+    "in need of care and protection": {
+      "pos": "法的表現",
+      "meaning": "保護や養護を必要とする状態にあることを示す法的・行政的表現。",
+      "tags": [
+        "legal",
+        "dated"
+      ]
+    },
+    "criminal neglect": {
+      "pos": "名詞句",
+      "meaning": "法的責任を問われ得る重大な養育・管理上の怠慢。",
+      "tags": [
+        "legal"
+      ]
+    },
+    "persistent ill-treatment": {
+      "pos": "名詞句",
+      "meaning": "継続的・反復的な虐待やひどい扱い。"
+    },
+    "serve a sentence": {
+      "pos": "動詞句",
+      "meaning": "裁判で科された刑期を服する。",
+      "tags": [
+        "legal"
+      ]
+    },
+    "full particulars": {
+      "pos": "名詞句",
+      "meaning": "必要な詳細事項・完全な情報。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "take measures": {
+      "pos": "動詞句",
+      "meaning": "目的のために必要な措置・対策を取る。"
+    },
+    "far-fetched": {
+      "pos": "形容詞",
+      "meaning": "ありそうになく、こじつけに見える。"
+    },
+    "Three Blind Mice": {
+      "pos": "固有名詞",
+      "meaning": "英語圏の伝承童謡『Three Blind Mice』の題名。",
+      "tags": [
+        "nursery-rhyme"
+      ]
+    },
+    "trace someone's whereabouts": {
+      "pos": "動詞句",
+      "meaning": "人の現在地・行方を調べて突き止める。"
+    },
+    "desert from the army": {
+      "pos": "動詞句",
+      "meaning": "軍務を無断で離脱して脱走する。",
+      "tags": [
+        "military"
+      ]
+    },
+    "queer in the head": {
+      "pos": "古い口語表現",
+      "meaning": "精神状態がおかしいという意味で用いられた古い侮蔑的な言い方。",
+      "tags": [
+        "dated",
+        "offensive"
+      ]
+    },
+    "homicidal maniac": {
+      "pos": "古い表現",
+      "meaning": "殺人衝動があるとみなされた人を指す古い非臨床的・侮蔑的な表現。",
+      "tags": [
+        "dated",
+        "stigmatizing"
+      ]
+    },
+    "what someone is getting at": {
+      "pos": "慣用表現",
+      "meaning": "人が言おうとしている要点・意図。"
+    },
+    "deadly danger": {
+      "pos": "名詞句",
+      "meaning": "命に関わるほど重大な危険。"
+    },
+    "bygone years": {
+      "pos": "名詞句",
+      "meaning": "ずっと以前の過ぎ去った年月・時代。",
+      "tags": [
+        "literary"
+      ]
+    },
+    "have oneself to blame": {
+      "pos": "定型表現",
+      "meaning": "悪い結果について自分自身にも責任がある。"
+    },
+    "hardboiled": {
+      "pos": "形容詞",
+      "meaning": "感情に流されず、強硬でタフな。"
+    },
+    "signature tune": {
+      "pos": "名詞句",
+      "meaning": "人物・番組などを特徴づけるお決まりの曲・テーマ曲。"
+    },
+    "get a kick out of": {
+      "pos": "慣用表現",
+      "meaning": "～から強い楽しみ・刺激を得る。",
+      "tags": [
+        "informal"
+      ]
+    },
+    "neurotic": {
+      "pos": "形容詞",
+      "meaning": "不安・強迫などを広く neurotic と呼んだ時代的表現。現代の診断語として単純には用いない。",
+      "tags": [
+        "dated",
+        "psychology"
+      ]
+    },
+    "on the Bench": {
+      "pos": "法的表現",
+      "meaning": "裁判官・治安判事として法廷で職務に就いて。",
+      "tags": [
+        "legal",
+        "British"
+      ]
+    },
+    "hold someone responsible": {
+      "pos": "動詞句",
+      "meaning": "人に責任があるとみなす。"
+    },
+    "public duty": {
+      "pos": "名詞句",
+      "meaning": "社会・公的立場のために果たすべき義務。"
+    },
+    "spiv": {
+      "pos": "名詞",
+      "meaning": "闇取引などで稼ぐ、派手で信用しにくい男を指した英国の古い口語。",
+      "tags": [
+        "British",
+        "dated",
+        "informal"
+      ]
+    },
+    "get over something": {
+      "pos": "句動詞",
+      "meaning": "つらい経験・病気などから立ち直る、克服する。"
+    },
+    "humbug": {
+      "pos": "名詞",
+      "meaning": "でたらめ、たわごと、見せかけだとして退ける語。",
+      "tags": [
+        "dated"
+      ]
+    },
+    "hooey": {
+      "pos": "名詞",
+      "meaning": "ばかげた話、でたらめ。",
+      "tags": [
+        "informal",
+        "dated"
+      ]
+    },
+    "look back": {
+      "pos": "句動詞",
+      "meaning": "過去を振り返る、過去のことを思い返す。"
+    },
+    "give in": {
+      "pos": "句動詞",
+      "meaning": "抵抗をやめて屈する、負ける。"
+    },
+    "turn one's back on": {
+      "pos": "慣用表現",
+      "meaning": "～を意図的に拒絶する、背を向ける。"
+    },
+    "face something": {
+      "pos": "動詞句",
+      "meaning": "困難・事実などから逃げずに向き合う。"
+    },
+    "get the lay of the land": {
+      "pos": "慣用表現",
+      "meaning": "場所の配置や状況の全体像を把握する。"
+    },
+    "out of the blue": {
+      "pos": "慣用表現",
+      "meaning": "まったく予期せず、突然。"
+    },
+    "place reliance on": {
+      "pos": "動詞句",
+      "meaning": "～を信頼できる根拠として頼りにする。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "here already": {
+      "pos": "文脈表現",
+      "meaning": "問題の人物がすでにこの場所の中にいること。"
+    },
+    "indeterminate build": {
+      "pos": "名詞句",
+      "meaning": "体格をはっきり特定できないこと。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "muffler": {
+      "pos": "名詞",
+      "meaning": "首や顔の周りに巻いて防寒する厚手のスカーフ。",
+      "tags": [
+        "British",
+        "dated"
+      ]
+    },
+    "mechanics of fear": {
+      "pos": "名詞句",
+      "meaning": "恐怖がどのように生じ、働くかという仕組み。"
+    },
+    "murder": {
+      "pos": "名詞・動詞",
+      "meaning": "故意に人を殺す犯罪、殺人。人を故意に殺す。"
+    },
+    "instant": {
+      "pos": "名詞",
+      "meaning": "the fifteenth instant の instant は「今月の」の古い商用・法務表現。",
+      "tags": [
+        "dated",
+        "formal",
+        "context"
+      ]
+    },
+    "case": {
+      "pos": "名詞",
+      "meaning": "調査・議論の対象となる一件。in case などは別の句として扱う。",
+      "tags": [
+        "context",
+        "legal"
+      ]
+    },
+    "wireless": {
+      "pos": "名詞",
+      "meaning": "英国で radio を指す古い語。wireless set の短縮。",
+      "tags": [
+        "British English",
+        "dated"
+      ]
+    },
+    "strangle": {
+      "pos": "動詞",
+      "meaning": "首を締めて呼吸できなくする。"
+    },
+    "acquainted": {
+      "pos": "形容詞",
+      "meaning": "be acquainted with で「面識がある・知識がある」。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "fingerprint": {
+      "pos": "名詞",
+      "meaning": "個人識別に使われる指の紋様。",
+      "tags": [
+        "crime"
+      ]
+    },
+    "court": {
+      "pos": "名詞",
+      "meaning": "ここではスポーツのコートでなく司法機関。",
+      "tags": [
+        "legal",
+        "context"
+      ]
+    },
+    "protection": {
+      "pos": "名詞",
+      "meaning": "危険・害を防いで守ること。"
+    },
+    "subsequently": {
+      "pos": "副詞",
+      "meaning": "時間順序で、前の出来事より後に。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "sensation": {
+      "pos": "名詞",
+      "meaning": "劇中では人々の注目を集める「大事件・評判」の意味になり得る。",
+      "tags": [
+        "context"
+      ]
+    },
+    "sentence": {
+      "pos": "名詞・動詞",
+      "meaning": "legal context では punishment decided by court。文の sentence とは別。",
+      "tags": [
+        "legal",
+        "context"
+      ]
+    },
+    "terms": {
+      "pos": "名詞",
+      "meaning": "条件、取り決め。料金・支払条件を指すこともある。"
+    },
+    "imprisonment": {
+      "pos": "名詞",
+      "meaning": "刑務所に収容される刑罰・状態。",
+      "tags": [
+        "legal"
+      ]
+    },
+    "duly": {
+      "pos": "副詞",
+      "meaning": "必要な手順・時期に従って適切に。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "release": {
+      "pos": "動詞",
+      "meaning": "拘束・制限から自由にする。",
+      "tags": [
+        "legal",
+        "context"
+      ]
+    },
+    "notebook": {
+      "pos": "名詞",
+      "meaning": "劇中では捜査上の手がかりとなる小型のノート。",
+      "tags": [
+        "context"
+      ]
+    },
+    "pick up": {
+      "pos": "句動詞",
+      "meaning": "下から手元へ取る。文脈により電話・情報などにも拡張。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "superintendent": {
+      "pos": "名詞",
+      "meaning": "英国警察では階級名 Superintendent。",
+      "tags": [
+        "British English",
+        "police"
+      ]
+    },
+    "imperative": {
+      "pos": "形容詞",
+      "meaning": "「～しなければならない」ほど重要。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "come out": {
+      "pos": "句動詞",
+      "meaning": "外へ出る、明らかになる、表面に現れるなど。"
+    },
+    "find out": {
+      "pos": "句動詞",
+      "meaning": "調査・経験を通じて未知の事実を知る。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "coincidence": {
+      "pos": "名詞",
+      "meaning": "因果関係がないのに出来事が一致すること。"
+    },
+    "get full particulars": {
+      "pos": "定型表現",
+      "meaning": "particulars は公的文脈で「詳細事項・身上事項」。",
+      "tags": [
+        "formal",
+        "police",
+        "chunk"
+      ]
+    },
+    "report back": {
+      "pos": "句動詞",
+      "meaning": "任務先から上司などへ結果を報告する。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "ensure the safety of": {
+      "pos": "コロケーション",
+      "meaning": "ensure + safety の公的・硬い結びつき。",
+      "tags": [
+        "formal",
+        "collocation",
+        "chunk"
+      ]
+    },
+    "Good Lord": {
+      "pos": "未分類",
+      "meaning": "なんてことだ／まったく",
+      "tags": [
+        "needs-neutral-review"
+      ]
+    },
+    "frankly": {
+      "pos": "副詞",
+      "meaning": "遠回しにせず話者の判断を明示する談話副詞。",
+      "tags": [
+        "discourse"
+      ]
+    },
+    "bar of music": {
+      "pos": "名詞句",
+      "meaning": "bar はここでは酒場でなく「小節」。",
+      "tags": [
+        "music",
+        "context"
+      ]
+    },
+    "tune": {
+      "pos": "名詞",
+      "meaning": "歌詞とは別のメロディー部分。",
+      "tags": [
+        "music"
+      ]
+    },
+    "nursery rhyme": {
+      "pos": "名詞",
+      "meaning": "幼児向けに伝承される短い童謡・韻文。"
+    },
+    "adopt": {
+      "pos": "動詞",
+      "meaning": "法的・社会的に自分の子として迎える。"
+    },
+    "trace": {
+      "pos": "動詞",
+      "meaning": "手がかりをたどって人・物・原因を見つける。",
+      "tags": [
+        "police"
+      ]
+    },
+    "present": {
+      "pos": "形容詞・名詞",
+      "meaning": "「目の前・今ここにある」が形容詞の中心。名詞では贈り物。",
+      "tags": [
+        "context"
+      ]
+    },
+    "whereabouts": {
+      "pos": "名詞",
+      "meaning": "where に -abouts がつき、おおよその居場所・所在。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "elder": {
+      "pos": "形容詞",
+      "meaning": "二人・限られた兄弟姉妹などで「年長の」。older より関係性を強く示す。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "desert": {
+      "pos": "動詞",
+      "meaning": "軍務を許可なく離れる。砂漠 desert（名詞）と発音・意味が異なる。",
+      "tags": [
+        "military",
+        "context"
+      ]
+    },
+    "according to": {
+      "pos": "前置詞句",
+      "meaning": "情報源・基準に沿って内容を示す。",
+      "tags": [
+        "collocation",
+        "chunk"
+      ]
+    },
+    "psychologist": {
+      "pos": "名詞",
+      "meaning": "心理の研究・評価を行う専門家。psychiatrist（医師）とは別。",
+      "tags": [
+        "psychology"
+      ]
+    },
+    "definitely": {
+      "pos": "副詞",
+      "meaning": "曖昧さを排して確信を示す。"
+    },
+    "schizophrenic": {
+      "pos": "形容詞",
+      "meaning": "劇中の時代的な診断表現。現代では人を病名だけで呼ぶ名詞用法は避ける傾向。",
+      "tags": [
+        "medical",
+        "dated"
+      ]
+    },
+    "queer": {
+      "pos": "形容詞",
+      "meaning": "この台詞では「頭がおかしい」のような古い意味。現代では LGBTQ+ の自己称としても使われるため文脈に注意。",
+      "tags": [
+        "dated",
+        "context"
+      ]
+    },
+    "turn up": {
+      "pos": "句動詞",
+      "meaning": "予定外・突然に姿を現す。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "got to": {
+      "pos": "助動詞的表現",
+      "meaning": "have got to の口語形。",
+      "tags": [
+        "informal",
+        "grammar",
+        "chunk"
+      ]
+    },
+    "would you mind": {
+      "pos": "定型表現",
+      "meaning": "mind「嫌がる」を使う丁寧な依頼。",
+      "tags": [
+        "polite",
+        "grammar",
+        "chunk"
+      ]
+    },
+    "quite": {
+      "pos": "副詞",
+      "meaning": "British English では形容詞によって「かなり」と「完全に」の両方を取る。",
+      "tags": [
+        "British English",
+        "context"
+      ]
+    },
+    "merely": {
+      "pos": "副詞",
+      "meaning": "範囲を小さく限定する硬めの副詞。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "in advance": {
+      "pos": "副詞句",
+      "meaning": "前もって、事前に。"
+    },
+    "snowdrift": {
+      "pos": "名詞",
+      "meaning": "風で吹き寄せられてできた雪の吹きだまり。"
+    },
+    "get at": {
+      "pos": "句動詞",
+      "meaning": "what ... getting at で「何を言いたいのか」。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "just": {
+      "pos": "副詞",
+      "meaning": "時間・数量・一致などを「狭く限定する」のが中心。",
+      "tags": [
+        "context"
+      ]
+    },
+    "business": {
+      "pos": "名詞",
+      "meaning": "「取り組むべき事柄」が中心で、文脈により仕事・用事・事件を指す。",
+      "tags": [
+        "context"
+      ]
+    },
+    "more or less": {
+      "pos": "副詞句",
+      "meaning": "厳密ではない程度・数量を表す。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "inspector": {
+      "pos": "名詞",
+      "meaning": "英国警察では Inspector は階級名。",
+      "tags": [
+        "British English",
+        "police"
+      ]
+    },
+    "stranger": {
+      "pos": "名詞",
+      "meaning": "面識がなく正体をよく知らない人。"
+    },
+    "affair": {
+      "pos": "名詞",
+      "meaning": "public event から private matter まで「ひとまとまりの事柄」。",
+      "tags": [
+        "formal",
+        "context"
+      ]
+    },
+    "impertinence": {
+      "pos": "名詞",
+      "meaning": "立場をわきまえない失礼な態度。",
+      "tags": [
+        "formal",
+        "dated"
+      ]
+    },
+    "distressing": {
+      "pos": "形容詞",
+      "meaning": "strongly upsetting で、精神的苦痛を与える。"
+    },
+    "personal": {
+      "pos": "形容詞",
+      "meaning": "公的・一般的ではなく本人に直接関係する。"
+    },
+    "look round": {
+      "pos": "句動詞",
+      "meaning": "英国英語で look around と同様。",
+      "tags": [
+        "British English",
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "melodramatic": {
+      "pos": "形容詞",
+      "meaning": "melodrama のように感情・危機を過度に強調する。"
+    },
+    "attractive": {
+      "pos": "形容詞",
+      "meaning": "人の注意・好意を引く性質。"
+    },
+    "stern": {
+      "pos": "形容詞",
+      "meaning": "厳格な、厳しい、険しい。"
+    },
+    "thrill": {
+      "pos": "名詞",
+      "meaning": "興奮・スリルを感じさせること。"
+    },
+    "signature": {
+      "pos": "名詞",
+      "meaning": "本人が自分の名前を書き、文書の真正性を示すもの。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "murderer": {
+      "pos": "名詞",
+      "meaning": "人を故意に殺した者、殺人犯。"
+    },
+    "in fact": {
+      "pos": "副詞句",
+      "meaning": "前の内容を訂正・強化する事実を導く。",
+      "tags": [
+        "discourse",
+        "chunk"
+      ]
+    },
+    "macabre": {
+      "pos": "形容詞",
+      "meaning": "死や恐怖を連想させる、不気味で陰惨な。"
+    },
+    "singularly": {
+      "pos": "副詞",
+      "meaning": "singular「並外れた」から、程度が目立っていることを示す古めの副詞。",
+      "tags": [
+        "dated",
+        "formal"
+      ]
+    },
+    "policeman": {
+      "pos": "名詞",
+      "meaning": "男性の警察官を指す語。現代では police officer などの性別を限定しない表現も一般的。"
+    },
+    "architect": {
+      "pos": "名詞",
+      "meaning": "建築物を設計する建築家。"
+    },
+    "nervy": {
+      "pos": "形容詞",
+      "meaning": "British English では「神経質・緊張した」の意味がある。",
+      "tags": [
+        "British English",
+        "context"
+      ]
+    },
+    "nowadays": {
+      "pos": "副詞",
+      "meaning": "過去と対比して「現代では」。"
+    },
+    "daresay": {
+      "pos": "動詞的表現",
+      "meaning": "たぶん～だろう、～と思う。",
+      "tags": [
+        "British"
+      ]
+    },
+    "magistrate": {
+      "pos": "名詞",
+      "meaning": "比較的軽い事件などを扱う権限を持つ司法官。英国では治安判事などを指す。",
+      "tags": [
+        "legal",
+        "British"
+      ]
+    },
+    "be held responsible": {
+      "pos": "定型表現",
+      "meaning": "hold A responsible「Aに責任があるとする」の受動形。",
+      "tags": [
+        "formal",
+        "chunk"
+      ]
+    },
+    "welfare worker": {
+      "pos": "名詞句",
+      "meaning": "社会福祉の支援・調査を行う職員。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "anxious": {
+      "pos": "形容詞",
+      "meaning": "悪いことを心配する意味と「強く望む」意味がある。",
+      "tags": [
+        "context"
+      ]
+    },
+    "satisfactory": {
+      "pos": "形容詞",
+      "meaning": "要求・基準を満たしている。"
+    },
+    "out-of-doors life": {
+      "pos": "名詞句",
+      "meaning": "out-of-doors は古めの「屋外での」。",
+      "tags": [
+        "dated",
+        "British English",
+        "chunk"
+      ]
+    },
+    "starvation": {
+      "pos": "名詞",
+      "meaning": "食物不足で生命・健康が脅かされる状態。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "thoroughly": {
+      "pos": "副詞",
+      "meaning": "完全に、徹底的に、十分に。"
+    },
+    "vicious": {
+      "pos": "形容詞",
+      "meaning": "意図的に害を与えるほど悪質・攻撃的。"
+    },
+    "make one’s face up": {
+      "pos": "定型表現",
+      "meaning": "make up one’s face の語順変形。",
+      "tags": [
+        "dated",
+        "British English",
+        "chunk"
+      ]
+    },
+    "rouge": {
+      "pos": "名詞",
+      "meaning": "頬を赤く見せる化粧品。blush より古風。",
+      "tags": [
+        "dated"
+      ]
+    },
+    "make up": {
+      "pos": "句動詞",
+      "meaning": "文脈により、作り上げる・でっち上げる・化粧するなどを表す。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "as though": {
+      "pos": "接続表現",
+      "meaning": "as if と同様の比較・様態。やや書き言葉寄り。",
+      "tags": [
+        "grammar",
+        "chunk"
+      ]
+    },
+    "get over": {
+      "pos": "句動詞",
+      "meaning": "困難・病気・感情的打撃を乗り越える。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "a good thing": {
+      "pos": "定型表現",
+      "meaning": "良い結果につながる事情を表す。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "go straight ahead": {
+      "pos": "定型表現",
+      "meaning": "物理的にも比喩的にも前進を続ける。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "turn one’s back on": {
+      "pos": "熟語",
+      "meaning": "人・考え・責任などを拒絶し、関わりを断つ。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "draught": {
+      "pos": "名詞",
+      "meaning": "British spelling。米語 draft。劇中では室内に入る冷たい隙間風。",
+      "tags": [
+        "British English",
+        "spelling"
+      ]
+    },
+    "suspicious": {
+      "pos": "形容詞",
+      "meaning": "何か不正・危険があると疑わせる、または人が疑っている。"
+    },
+    "just after": {
+      "pos": "定型表現",
+      "meaning": "時間的にごく近い後を表す。",
+      "tags": [
+        "time",
+        "chunk"
+      ]
+    },
+    "get through": {
+      "pos": "句動詞",
+      "meaning": "障害を越えて目的側へ到達する。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "ration book": {
+      "pos": "名詞句",
+      "meaning": "戦後英国の配給制度で食品等を受け取るための冊子。",
+      "tags": [
+        "British English",
+        "historical"
+      ]
+    },
+    "reliance": {
+      "pos": "名詞",
+      "meaning": "rely on の名詞形。人・物を頼みとすること。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "evidence": {
+      "pos": "名詞",
+      "meaning": "主張・犯罪事実を裏づける情報や物。",
+      "tags": [
+        "legal",
+        "crime"
+      ]
+    },
+    "maniac": {
+      "pos": "名詞",
+      "meaning": "異常なほど興奮・執着した人。古い用法では精神異常者を指すこともある。",
+      "tags": [
+        "dated-sensitive"
+      ]
+    },
+    "description": {
+      "pos": "名詞",
+      "meaning": "人・物・状況の特徴を言葉で説明したもの。"
+    },
+    "medium height": {
+      "pos": "名詞句",
+      "meaning": "人物描写の定型的な言い方。",
+      "tags": [
+        "description"
+      ]
+    },
+    "indeterminate": {
+      "pos": "形容詞",
+      "meaning": "境界・値・状態が一つに定まらない。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "darkish": {
+      "pos": "形容詞",
+      "meaning": "-ish が「～がかった／やや～」を表す。",
+      "tags": [
+        "word formation"
+      ]
+    },
+    "overcoat": {
+      "pos": "名詞",
+      "meaning": "衣服の上に着る厚手の外套・コート。"
+    },
+    "felt": {
+      "pos": "名詞・形容詞",
+      "meaning": "圧縮した繊維で作るフェルト、フェルト製の。"
+    },
+    "lightish": {
+      "pos": "形容詞",
+      "meaning": "-ish が「～がかった／やや～」を表す。",
+      "tags": [
+        "word formation"
+      ]
+    },
+    "get on with": {
+      "pos": "句動詞",
+      "meaning": "仕事・活動を中断せず進める。",
+      "tags": [
+        "phrasal verb",
+        "British English",
+        "chunk"
+      ]
+    },
+    "beg your pardon": {
+      "pos": "定型表現",
+      "meaning": "謝罪または聞き返しに使う丁寧な定型表現。",
+      "tags": [
+        "British English",
+        "polite",
+        "chunk"
+      ]
+    },
+    "precise": {
+      "pos": "形容詞",
+      "meaning": "曖昧さ・誤差が少なく特定されている。"
+    },
+    "for instance": {
+      "pos": "副詞句",
+      "meaning": "具体例を導入する。",
+      "tags": [
+        "formal",
+        "chunk"
+      ]
+    },
+    "programme": {
+      "pos": "名詞",
+      "meaning": "British spelling。米語 program。劇中では放送番組等の意味。",
+      "tags": [
+        "British English",
+        "spelling"
+      ]
+    },
+    "turn out": {
+      "pos": "句動詞",
+      "meaning": "外へ出す、追い出す。結果的に～になる、判明する。"
+    }
+  }
+}
