@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Persistent dramatic-context outline used before vocabulary, grammar, and line-context work. Each block outline must be written here before that block is processed.",
+  "source": {
+    "script": "mousetrap_script_data.json",
+    "speechCount": 1164
+  },
+  "rules": {
+    "contextFirst": true,
+    "outlineBeforeProcessing": true,
+    "blockBoundariesDoNotLimitContext": true,
+    "boundaryContext": "When interpretation depends on material outside the current block, consult the preceding/following block as needed.",
+    "appendPolicy": "Add each block outline as work progresses; preserve completed outlines unless a later correction is required."
+  },
+  "blockPlan": [
+    {
+      "blockId": "block-1",
+      "scope": "Act I Scene I",
+      "speechCount": 190,
+      "boundaryPolicy": "whole scene"
+    },
+    {
+      "blockId": "block-2",
+      "scope": "Act I Scene II — first half",
+      "boundaryPolicy": "choose a natural dramatic/conversation break near the midpoint"
+    },
+    {
+      "blockId": "block-3",
+      "scope": "Act I Scene II — second half",
+      "boundaryPolicy": "starts at the natural break selected for block-2 and continues to scene end"
+    },
+    {
+      "blockId": "block-4",
+      "scope": "Act II — first section",
+      "boundaryPolicy": "choose a natural dramatic/conversation break near one third of the act"
+    },
+    {
+      "blockId": "block-5",
+      "scope": "Act II — middle section",
+      "boundaryPolicy": "between the natural breaks selected for block-4 and block-6"
+    },
+    {
+      "blockId": "block-6",
+      "scope": "Act II — final section",
+      "boundaryPolicy": "starts at the final selected natural break and continues to act end"
+    }
+  ],
+  "outlines": {}
+}
