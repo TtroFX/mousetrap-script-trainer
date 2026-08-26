@@ -38,6 +38,7 @@
     "prove a negative": {"pos":"定型表現","meaning":"ある事実・性質が存在しないことを証明する。"},
     "the forgetting kind": {"pos":"名詞的表現","meaning":"物事を容易に忘れるタイプの人。"},
     "innocent fun": {"pos":"名詞句","meaning":"害意のない単なる遊び・冗談。"},
+    "conveniently": {"pos":"副詞","meaning":"都合よく、好都合な形で。文脈によっては『都合がよすぎるほど』という皮肉を含み得る。"},
     "bound for": {"pos":"定型表現","meaning":"～へ向かっている、～を目的地としている。"},
     "amour": {"pos":"名詞","meaning":"恋愛関係、情事。フランス語由来で気取った響きを持つことがある。","tags":["French","literary"]},
     "discretion": {"pos":"名詞","meaning":"秘密や他人の事情を慎重に扱う配慮、口外しない慎重さ。"},
