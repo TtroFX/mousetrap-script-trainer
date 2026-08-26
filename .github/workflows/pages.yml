@@ -26,10 +26,10 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Build canonical learning structure
+      - name: Validate committed chunking v1 canonical data
         run: |
-          node --check app/scripts/build-learning-structure.mjs
-          node app/scripts/build-learning-structure.mjs --root . --out app/mousetrap_line_structure.json
+          python3 -m py_compile app/scripts/validate-chunking-v1.py
+          python3 app/scripts/validate-chunking-v1.py --root . --structure app/mousetrap_line_structure.json --report /tmp/chunking-v1-pages-qa.json
 
       - name: Validate Index Zero architecture
         working-directory: app
@@ -39,6 +39,7 @@ jobs:
           node --check src/state-store.js
           node --check src/main.js
           node --check sw.js
+          node --check scripts/assemble-production.mjs
           node tests/index_zero_static.mjs
           node scripts/assemble-production.mjs --verify-only
 
@@ -50,6 +51,17 @@ jobs:
           test -e public/index.html
           test -e public/src/main.js
           test -e public/mousetrap_script_data.json
+          test -e public/mousetrap_line_structure.json
+          python3 - <<'PY'
+          import json
+          p=json.load(open('public/mousetrap_line_structure.json',encoding='utf-8'))
+          assert p['schemaVersion']==2 and p['ruleSet']=='chunking-v1'
+          assert p['counts']['speeches']==1164
+          assert p['counts']['sentences']==2334
+          assert p['counts']['clauses']==2939
+          assert p['counts']['chunks']==11810
+          assert 'rawLines' not in p
+          PY
           test ! -e public/p5_app.js
           test ! -e public/reader_sheet.js
           test ! -e public/practice_navigation.js
