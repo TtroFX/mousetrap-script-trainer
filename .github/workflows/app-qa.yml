@@ -1,0 +1,56 @@
+name: App Production QA
+
+on:
+  pull_request:
+    paths:
+      - 'app/**'
+      - 'data/interpretation/**'
+      - 'mousetrap_*.json'
+      - 'scripts/validate-interpretation-*.mjs'
+      - '.github/workflows/app-qa.yml'
+  push:
+    branches-ignore: ['main']
+    paths:
+      - 'app/**'
+      - 'data/interpretation/**'
+      - 'mousetrap_*.json'
+      - 'scripts/validate-interpretation-*.mjs'
+      - '.github/workflows/app-qa.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate source interpretation scenes
+        run: |
+          node scripts/validate-interpretation-scene.mjs act1-scene1
+          node scripts/validate-interpretation-scene.mjs act1-scene2
+          node scripts/validate-interpretation-scene.mjs act2
+          node scripts/validate-interpretation-truth-aware.mjs
+      - name: Validate runtime and assemble exact artifact
+        working-directory: app
+        run: |
+          node --check src/config.js
+          node --check src/data-store.js
+          node --check src/main.js
+          node --check sw.js
+          node --check scripts/assemble-production.mjs
+          node tests/index_zero_static.mjs
+          node scripts/assemble-production.mjs --verify-only
+          node scripts/assemble-production.mjs --out-dir ../public
+          test -e ../public/mousetrap_line_interpretation.json
+      - name: Install browser QA
+        working-directory: app
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+      - name: Run complete UI regression
+        working-directory: app
+        run: npm run test:e2e
