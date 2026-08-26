@@ -1,0 +1,715 @@
+{
+  "schemaVersion": 1,
+  "blockId": "block-5",
+  "includedReviewCount": 52,
+  "excludedReviewCount": 47,
+  "addedEntryCount": 68,
+  "contextAddedCount": 7,
+  "thresholdAddedCount": 61,
+  "application": [
+    {
+      "word": "absolutely",
+      "lemma": "absolutely",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0277",
+          "surface": "absolutely",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "admit",
+      "lemma": "admit",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0288",
+          "surface": "admit",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "annoyed",
+      "lemma": "annoyed",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0315",
+          "surface": "annoyed",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "attract",
+      "lemma": "attract",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0276",
+          "surface": "attract",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "blind",
+      "lemma": "blind",
+      "cefr": "B2",
+      "applications": [
+        {
+          "speechId": "act2-speech-0256",
+          "surface": "blind",
+          "contextMeaningAdded": true
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "surface": "blind",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "charming",
+      "lemma": "charming",
+      "cefr": "B2",
+      "applications": [
+        {
+          "speechId": "act2-speech-0373",
+          "surface": "charming",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "communication",
+      "lemma": "communication",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0338",
+          "surface": "communication",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "countryside",
+      "lemma": "countryside",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0239",
+          "surface": "countryside",
+          "contextMeaningAdded": false
+        },
+        {
+          "speechId": "act2-speech-0286",
+          "surface": "countryside",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "cruel",
+      "lemma": "cruel",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0379",
+          "surface": "Cruel",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "dare",
+      "lemma": "dare",
+      "cefr": "B2",
+      "applications": [
+        {
+          "speechId": "act2-speech-0273",
+          "surface": "dare",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "doubt",
+      "lemma": "doubt",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0243",
+          "surface": "doubt",
+          "contextMeaningAdded": false
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "surface": "doubt",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "fool",
+      "lemma": "fool",
+      "cefr": "B2",
+      "applications": [
+        {
+          "speechId": "act2-speech-0303",
+          "surface": "fool",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "frighten",
+      "lemma": "frighten",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0380",
+          "surface": "frightening",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "glove",
+      "lemma": "glove",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0282",
+          "surface": "gloves",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "goodness",
+      "lemma": "thank goodness",
+      "cefr": "B2",
+      "applications": [
+        {
+          "speechId": "act2-speech-0332",
+          "surface": "thank goodness",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "grand",
+      "lemma": "grand piano",
+      "cefr": "B2",
+      "applications": [
+        {
+          "speechId": "act2-speech-0423",
+          "surface": "grand piano",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "guilty",
+      "lemma": "guilty",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0225",
+          "surface": "guilty",
+          "contextMeaningAdded": false
+        },
+        {
+          "speechId": "act2-speech-0226",
+          "surface": "guilty",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "hell",
+      "lemma": "hell",
+      "cefr": "B2",
+      "applications": [
+        {
+          "speechId": "act2-speech-0202",
+          "surface": "hell",
+          "contextMeaningAdded": true
+        },
+        {
+          "speechId": "act2-speech-0259",
+          "surface": "hell",
+          "contextMeaningAdded": true
+        },
+        {
+          "speechId": "act2-speech-0310",
+          "surface": "hell",
+          "contextMeaningAdded": true
+        }
+      ]
+    },
+    {
+      "word": "hesitate",
+      "lemma": "hesitate",
+      "cefr": "B2",
+      "applications": [
+        {
+          "speechId": "act2-speech-0372",
+          "surface": "hesitate",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "horrible",
+      "lemma": "horrible",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0217",
+          "surface": "horrible",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "humour",
+      "lemma": "humour",
+      "cefr": "B2",
+      "applications": [
+        {
+          "speechId": "act2-speech-0421",
+          "surface": "humour",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "indeed",
+      "lemma": "indeed",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0389",
+          "surface": "Indeed",
+          "contextMeaningAdded": true
+        }
+      ]
+    },
+    {
+      "word": "interrupt",
+      "lemma": "interrupt",
+      "cefr": "B2",
+      "applications": [
+        {
+          "speechId": "act2-speech-0244",
+          "surface": "interrupting",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "liver",
+      "lemma": "liver",
+      "cefr": "C1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0373",
+          "surface": "livers",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "loose",
+      "lemma": "loose",
+      "cefr": "B2",
+      "applications": [
+        {
+          "speechId": "act2-speech-0253",
+          "surface": "loose",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "neighbourhood",
+      "lemma": "neighbourhood",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0394",
+          "surface": "neighbourhood",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "odd",
+      "lemma": "odd",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0220",
+          "surface": "odd",
+          "contextMeaningAdded": false
+        },
+        {
+          "speechId": "act2-speech-0274",
+          "surface": "odd",
+          "contextMeaningAdded": false
+        },
+        {
+          "speechId": "act2-speech-0275",
+          "surface": "odder",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "overturn",
+      "lemma": "overturn",
+      "cefr": "C1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0390",
+          "surface": "overturn",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "perfectly",
+      "lemma": "perfectly",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0264",
+          "surface": "Perfectly",
+          "contextMeaningAdded": false
+        },
+        {
+          "speechId": "act2-speech-0279",
+          "surface": "perfectly",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "poet",
+      "lemma": "poet",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0313",
+          "surface": "poet",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "possibly",
+      "lemma": "possibly",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0229",
+          "surface": "possibly",
+          "contextMeaningAdded": true
+        }
+      ]
+    },
+    {
+      "word": "prepared",
+      "lemma": "prepared",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0264",
+          "surface": "prepared",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "pretend",
+      "lemma": "pretend",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0239",
+          "surface": "pretend",
+          "contextMeaningAdded": false
+        },
+        {
+          "speechId": "act2-speech-0243",
+          "surface": "pretending",
+          "contextMeaningAdded": false
+        },
+        {
+          "speechId": "act2-speech-0256",
+          "surface": "pretend",
+          "contextMeaningAdded": false
+        },
+        {
+          "speechId": "act2-speech-0272",
+          "surface": "pretend",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "ridiculous",
+      "lemma": "ridiculous",
+      "cefr": "B2",
+      "applications": [
+        {
+          "speechId": "act2-speech-0277",
+          "surface": "ridiculous",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "safety",
+      "lemma": "safety",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0257",
+          "surface": "safety",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "silly",
+      "lemma": "silly",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0381",
+          "surface": "silly",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "slight",
+      "lemma": "slight",
+      "cefr": "B2",
+      "applications": [
+        {
+          "speechId": "act2-speech-0372",
+          "surface": "slight",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "sudden",
+      "lemma": "all of a sudden",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0306",
+          "surface": "all of a sudden",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "suffer",
+      "lemma": "suffer",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0307",
+          "surface": "suffered",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "surely",
+      "lemma": "surely",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0242",
+          "surface": "Surely",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "tail",
+      "lemma": "tail",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0379",
+          "surface": "tails",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "trust",
+      "lemma": "trust",
+      "cefr": "B2",
+      "applications": [
+        {
+          "speechId": "act2-speech-0243",
+          "surface": "trust",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "unknown",
+      "lemma": "unknown",
+      "cefr": "B2",
+      "applications": [
+        {
+          "speechId": "act2-speech-0204",
+          "surface": "unknown",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "upset",
+      "lemma": "upset",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0384",
+          "surface": "upset",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "whether",
+      "lemma": "whether",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0363",
+          "surface": "whether",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "whilst",
+      "lemma": "whilst",
+      "cefr": "C1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0204",
+          "surface": "whilst",
+          "contextMeaningAdded": false
+        },
+        {
+          "speechId": "act2-speech-0286",
+          "surface": "Whilst",
+          "contextMeaningAdded": false
+        },
+        {
+          "speechId": "act2-speech-0287",
+          "surface": "Whilst",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "wire",
+      "lemma": "chicken wire",
+      "cefr": "B2",
+      "applications": [
+        {
+          "speechId": "act2-speech-0237",
+          "surface": "chicken wire",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "wise",
+      "lemma": "wise",
+      "cefr": "B2",
+      "applications": [
+        {
+          "speechId": "act2-speech-0377",
+          "surface": "wise",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "wonder",
+      "lemma": "wonder",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0387",
+          "surface": "wonder",
+          "contextMeaningAdded": false
+        },
+        {
+          "speechId": "act2-speech-0388",
+          "surface": "wondering",
+          "contextMeaningAdded": false
+        },
+        {
+          "speechId": "act2-speech-0390",
+          "surface": "wondering",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "bear",
+      "lemma": "bear",
+      "cefr": "B2",
+      "applications": [
+        {
+          "speechId": "act2-speech-0207",
+          "surface": "bear",
+          "contextMeaningAdded": true
+        }
+      ]
+    },
+    {
+      "word": "face",
+      "lemma": "face something",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0218",
+          "surface": "facing them",
+          "contextMeaningAdded": false
+        }
+      ]
+    },
+    {
+      "word": "fear",
+      "lemma": "fear",
+      "cefr": "B1",
+      "applications": [
+        {
+          "speechId": "act2-speech-0375",
+          "surface": "fears",
+          "contextMeaningAdded": false
+        }
+      ]
+    }
+  ]
+}

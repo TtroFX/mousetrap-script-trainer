@@ -3,6 +3,14 @@
   "blockId": "block-5",
   "policy": "Neutral shared meanings only; no play-specific context.",
   "entries": {
+    "absolutely": {
+      "pos": "未分類",
+      "meaning": "完全に、まったく。強い程度を表す副詞。"
+    },
+    "admit": {
+      "pos": "未分類",
+      "meaning": "事実・非などを認める。"
+    },
     "after all": {
       "pos": "副詞句",
       "meaning": "事情を再考して結論を修正・確認する談話表現。",
@@ -19,6 +27,10 @@
         "dated"
       ]
     },
+    "all of a sudden": {
+      "pos": "未分類",
+      "meaning": "突然、不意に。"
+    },
     "amour": {
       "pos": "名詞",
       "meaning": "恋愛関係、情事。フランス語由来で気取った響きを持つことがある。",
@@ -26,6 +38,10 @@
         "French",
         "literary"
       ]
+    },
+    "annoyed": {
+      "pos": "未分類",
+      "meaning": "いら立った、腹を立てた。"
     },
     "architect": {
       "pos": "名詞",
@@ -74,6 +90,10 @@
         "chunk"
       ]
     },
+    "attract": {
+      "pos": "未分類",
+      "meaning": "人の関心・好意などを引きつける。"
+    },
     "barmy": {
       "pos": "形容詞",
       "meaning": "英国口語の古めの形容詞。人に対しては侮蔑的になり得る。",
@@ -95,6 +115,10 @@
         "chunk"
       ]
     },
+    "bear": {
+      "pos": "未分類",
+      "meaning": "苦痛・困難・責任などに耐える、受け止める。"
+    },
     "beastly": {
       "pos": "形容詞",
       "meaning": "英国の古めの口語で very unpleasant。",
@@ -103,6 +127,10 @@
         "dated",
         "informal"
       ]
+    },
+    "blind": {
+      "pos": "未分類",
+      "meaning": "目が見えない；比喩的に、明らかなことに気づかない。"
     },
     "bound for": {
       "pos": "定型表現",
@@ -142,6 +170,14 @@
         "British English"
       ]
     },
+    "charming": {
+      "pos": "未分類",
+      "meaning": "魅力的な、感じのよい。"
+    },
+    "chicken wire": {
+      "pos": "未分類",
+      "meaning": "鶏小屋などの囲いに使う、細い金属線でできた網状の金網。"
+    },
     "circumstance": {
       "pos": "名詞",
       "meaning": "出来事を取り巻き、状況に影響する条件・事情。"
@@ -175,6 +211,10 @@
         "context"
       ]
     },
+    "communication": {
+      "pos": "未分類",
+      "meaning": "情報を伝え合うこと；連絡・通信。"
+    },
     "concoct": {
       "pos": "動詞",
       "meaning": "材料を組み合わせて料理・飲み物などを作る。転じて話や計画を作り上げる。"
@@ -183,9 +223,21 @@
       "pos": "副詞",
       "meaning": "都合よく、好都合な形で。文脈によっては『都合がよすぎるほど』という皮肉を含み得る。"
     },
+    "countryside": {
+      "pos": "未分類",
+      "meaning": "都市部ではない田園・地方一帯。"
+    },
+    "cruel": {
+      "pos": "未分類",
+      "meaning": "人や動物に苦痛を与えることを気にしない、残酷な。"
+    },
     "cunning": {
       "pos": "形容詞",
       "meaning": "目的達成のため巧みに策略を使う。"
+    },
+    "dare": {
+      "pos": "未分類",
+      "meaning": "勇気を出して～する；How dare ... で、よくも～できるものだ。"
     },
     "deal with": {
       "pos": "句動詞",
@@ -206,6 +258,14 @@
         "British spelling"
       ]
     },
+    "doubt": {
+      "pos": "未分類",
+      "meaning": "確かではないと思う、疑う；疑念。"
+    },
+    "face something": {
+      "pos": "未分類",
+      "meaning": "問題・困難などから逃げず、正面から向き合う。"
+    },
     "fancy someone's doing": {
       "pos": "動詞構文",
       "meaning": "人が～することを好む、望む。否定形では『～してほしくない』。",
@@ -213,9 +273,17 @@
         "British"
       ]
     },
+    "fear": {
+      "pos": "未分類",
+      "meaning": "危険・不快なことを恐れる。"
+    },
     "fit the bill": {
       "pos": "慣用表現",
       "meaning": "求められる条件・特徴に合う。"
+    },
+    "fool": {
+      "pos": "未分類",
+      "meaning": "愚かな人、ばかなことをする人。"
     },
     "frankly": {
       "pos": "副詞",
@@ -223,6 +291,10 @@
       "tags": [
         "discourse"
       ]
+    },
+    "frighten": {
+      "pos": "未分類",
+      "meaning": "人を怖がらせる。"
     },
     "frightfully": {
       "pos": "副詞",
@@ -255,6 +327,10 @@
     "get hold of": {
       "pos": "句動詞",
       "meaning": "物を手に入れる、入手する。"
+    },
+    "glove": {
+      "pos": "未分類",
+      "meaning": "手袋。"
     },
     "go about": {
       "pos": "句動詞",
@@ -344,6 +420,10 @@
         "chunk"
       ]
     },
+    "grand piano": {
+      "pos": "未分類",
+      "meaning": "弦を水平に張った大型のグランドピアノ。"
+    },
     "grant someone that": {
       "pos": "定型表現",
       "meaning": "その点については相手の言うことを認める。"
@@ -356,6 +436,10 @@
         "chunk"
       ]
     },
+    "guilty": {
+      "pos": "未分類",
+      "meaning": "犯罪・過失などについて罪がある、有罪の。"
+    },
     "had better": {
       "pos": "助動詞的表現",
       "meaning": "強い助言・警告。形式は had だが現在・未来についても使う。",
@@ -363,6 +447,14 @@
         "grammar",
         "chunk"
       ]
+    },
+    "hell": {
+      "pos": "未分類",
+      "meaning": "地獄；比喩的に非常につらい状態を表し、口語では強い驚き・怒りの強調にも使う。"
+    },
+    "hesitate": {
+      "pos": "未分類",
+      "meaning": "ためらう、すぐ行動せず迷う。"
     },
     "hold out on": {
       "pos": "句動詞",
@@ -394,12 +486,23 @@
         "informal"
       ]
     },
+    "horrible": {
+      "pos": "未分類",
+      "meaning": "非常に不快・恐ろしい、ひどい。"
+    },
     "Hullo": {
       "pos": "間投詞",
       "meaning": "hello の古い綴り・発音表記。英国の古い作品でよく見られる。",
       "tags": [
         "British English",
         "dated"
+      ]
+    },
+    "humour": {
+      "pos": "未分類",
+      "meaning": "ユーモア、物事のおかしさを理解し楽しむ感覚。",
+      "tags": [
+        "British spelling"
       ]
     },
     "Hunt the Thimble": {
@@ -413,6 +516,10 @@
     "in case": {
       "pos": "接続・前置詞的表現",
       "meaning": "～の場合に備えて、～だといけないので。"
+    },
+    "indeed": {
+      "pos": "未分類",
+      "meaning": "実に、確かに；相手の発言への反応として「そうですか」「本当に」の意にもなる。"
     },
     "innocent": {
       "pos": "形容詞",
@@ -428,6 +535,10 @@
     "inquisition": {
       "pos": "名詞",
       "meaning": "しつこく厳しい尋問・詮索。歴史上の異端審問を踏まえた比喩でも使われる。"
+    },
+    "interrupt": {
+      "pos": "未分類",
+      "meaning": "会話・行動などを途中で遮る。"
     },
     "jealous": {
       "pos": "形容詞",
@@ -452,6 +563,10 @@
       "pos": "慣用表現",
       "meaning": "相手より先を読み、一歩先んじた状態を保つ。"
     },
+    "liver": {
+      "pos": "未分類",
+      "meaning": "肝臓；食材としてのレバー。"
+    },
     "look after": {
       "pos": "句動詞",
       "meaning": "人・物を安全な状態に保つよう世話する。",
@@ -467,6 +582,10 @@
         "grammar",
         "chunk"
       ]
+    },
+    "loose": {
+      "pos": "未分類",
+      "meaning": "固定・拘束されていない；人・動物が逃げ出して自由になっている。"
     },
     "lovers' quarrel": {
       "pos": "名詞句",
@@ -495,6 +614,13 @@
         "food"
       ]
     },
+    "neighbourhood": {
+      "pos": "未分類",
+      "meaning": "近所、周辺地域。",
+      "tags": [
+        "British spelling"
+      ]
+    },
     "nevertheless": {
       "pos": "副詞",
       "meaning": "前の事実を認めつつ反対方向の内容を続ける硬い接続副詞。",
@@ -520,6 +646,10 @@
       "tags": [
         "formal"
       ]
+    },
+    "odd": {
+      "pos": "未分類",
+      "meaning": "普通ではなく奇妙な、不思議な。"
     },
     "on one’s way": {
       "pos": "定型表現",
@@ -571,9 +701,17 @@
       "pos": "名詞",
       "meaning": "衣服の上に着る厚手の外套・コート。"
     },
+    "overturn": {
+      "pos": "未分類",
+      "meaning": "ひっくり返る、転覆する；ひっくり返す。"
+    },
     "particularly": {
       "pos": "副詞",
       "meaning": "特に、とりわけ。"
+    },
+    "perfectly": {
+      "pos": "未分類",
+      "meaning": "完全に、まったく；十分に。"
     },
     "permanency": {
       "pos": "名詞",
@@ -594,6 +732,10 @@
       "pos": "定型表現",
       "meaning": "金融市場で売買・投機を行う。"
     },
+    "poet": {
+      "pos": "未分類",
+      "meaning": "詩を書く人、詩人。"
+    },
     "policeman": {
       "pos": "名詞",
       "meaning": "男性の警察官を指す語。現代では police officer などの性別を限定しない表現も一般的。"
@@ -605,12 +747,24 @@
         "context"
       ]
     },
+    "possibly": {
+      "pos": "未分類",
+      "meaning": "もしかすると；可能な限り。否定語とともに強い不可能を表すことがある。"
+    },
     "predicament": {
       "pos": "名詞",
       "meaning": "簡単には抜け出せない厄介な状況。",
       "tags": [
         "formal"
       ]
+    },
+    "prepared": {
+      "pos": "未分類",
+      "meaning": "準備ができた；～する覚悟・意思がある。"
+    },
+    "pretend": {
+      "pos": "未分類",
+      "meaning": "事実ではないことを事実であるように装う、ふりをする。"
     },
     "profession": {
       "pos": "名詞",
@@ -677,6 +831,10 @@
       "pos": "動詞句",
       "meaning": "自分の行為を責める、後ろめたく思う。"
     },
+    "ridiculous": {
+      "pos": "未分類",
+      "meaning": "ばかげた、道理に合わない。"
+    },
     "run around with": {
       "pos": "句動詞",
       "meaning": "ある人と頻繁に付き合い、行動を共にする口語表現。",
@@ -705,6 +863,10 @@
     "sadistic tendency": {
       "pos": "名詞句",
       "meaning": "他人の苦痛を楽しむ方向への傾向。"
+    },
+    "safety": {
+      "pos": "未分類",
+      "meaning": "危険がなく安全であること。"
     },
     "see to": {
       "pos": "句動詞",
@@ -741,6 +903,14 @@
         "dated",
         "chunk"
       ]
+    },
+    "silly": {
+      "pos": "未分類",
+      "meaning": "愚かな、ばかげた；軽率な。"
+    },
+    "slight": {
+      "pos": "未分類",
+      "meaning": "程度・量などがごく小さい、わずかな。"
     },
     "snowdrift": {
       "pos": "名詞",
@@ -788,17 +958,37 @@
       "pos": "名詞",
       "meaning": "面識がなく正体をよく知らない人。"
     },
+    "suffer": {
+      "pos": "未分類",
+      "meaning": "苦痛・困難などを経験する、苦しむ。"
+    },
+    "surely": {
+      "pos": "未分類",
+      "meaning": "確かに；相手も同意するはずだという気持ちで「まさか～ではないでしょう」のように使う。"
+    },
     "sympathy": {
       "pos": "名詞",
       "meaning": "他人の苦しみ・感情を理解し気の毒に思うこと。"
+    },
+    "tail": {
+      "pos": "未分類",
+      "meaning": "動物の尾、しっぽ。"
     },
     "tête-à-tête": {
       "pos": "名詞",
       "meaning": "二人だけで行う私的な会話。"
     },
+    "thank goodness": {
+      "pos": "未分類",
+      "meaning": "安堵や感謝を表して「よかった」「ありがたい」と言う定型表現。"
+    },
     "the forgetting kind": {
       "pos": "名詞的表現",
       "meaning": "物事を容易に忘れるタイプの人。"
+    },
+    "trust": {
+      "pos": "未分類",
+      "meaning": "人・物を信頼する；信頼。"
     },
     "tune": {
       "pos": "名詞",
@@ -806,6 +996,14 @@
       "tags": [
         "music"
       ]
+    },
+    "unknown": {
+      "pos": "未分類",
+      "meaning": "知られていない、正体・詳細が不明な。"
+    },
+    "upset": {
+      "pos": "未分類",
+      "meaning": "人を動揺・不快・悲しい気持ちにさせる；動揺した。"
     },
     "victim": {
       "pos": "名詞",
@@ -839,12 +1037,31 @@
         "chunk"
       ]
     },
+    "whether": {
+      "pos": "未分類",
+      "meaning": "～かどうか；複数の可能性を示す接続詞。"
+    },
+    "whilst": {
+      "pos": "未分類",
+      "meaning": "～する間に、～である一方。whileに相当する英国英語。",
+      "tags": [
+        "British"
+      ]
+    },
     "whoever": {
       "pos": "代名詞",
       "meaning": "人について範囲を限定しない複合関係語。",
       "tags": [
         "grammar"
       ]
+    },
+    "wise": {
+      "pos": "未分類",
+      "meaning": "知恵があり判断が適切な、賢明な。"
+    },
+    "wonder": {
+      "pos": "未分類",
+      "meaning": "～だろうかと考える、不思議に思う；疑問・驚き。"
     },
     "wretched": {
       "pos": "形容詞",

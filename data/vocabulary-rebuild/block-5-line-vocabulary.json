@@ -46,6 +46,13 @@
     ],
     "act2-speech-0229": [
       {
+        "surface": "possibly",
+        "lemma": "possibly",
+        "contextMeaning": "can't possibly be true で「絶対に本当であるはずがない」と、Mollieが疑念を強く拒んでいる。",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
         "surface": "puts things into your head",
         "lemma": "put something into someone's head",
         "contextMeaning": "MollieはTrotterの質問が、それまで考えなかった疑念を人の心に植え付けると感じている。"
@@ -142,14 +149,14 @@
     ],
     "act2-speech-0367": [
       {
-        "surface": "set to",
-        "lemma": "set to",
-        "contextMeaning": "Metcalfが全員で手分けしてすぐスキー探しを始めようと提案している。"
-      },
-      {
         "surface": "Hunt the Thimble",
         "lemma": "Hunt the Thimble",
         "contextMeaning": "小さな物を探す室内遊びになぞらえ、巨大なスキーなら簡単に見つかるはずだと冗談めかしている。"
+      },
+      {
+        "surface": "set to",
+        "lemma": "set to",
+        "contextMeaning": "Metcalfが全員で手分けしてすぐスキー探しを始めようと提案している。"
       },
       {
         "surface": "Whacking great things",
@@ -159,14 +166,14 @@
     ],
     "act2-speech-0370": [
       {
-        "surface": "put myself in the place of",
-        "lemma": "put oneself in someone's place",
-        "contextMeaning": "Trotterが犯人の思考を想像し、その次の行動を予測しようとしている。共感ではなく捜査上の思考実験。"
-      },
-      {
         "surface": "keep just one step ahead",
         "lemma": "keep one step ahead",
         "contextMeaning": "犯人が動く前に意図を読み、次の殺人を防げる程度に先回りすること。"
+      },
+      {
+        "surface": "put myself in the place of",
+        "lemma": "put oneself in someone's place",
+        "contextMeaning": "Trotterが犯人の思考を想像し、その次の行動を予測しようとしている。共感ではなく捜査上の思考実験。"
       }
     ],
     "act2-speech-0372": [
@@ -174,6 +181,11 @@
         "surface": "cancelled out",
         "lemma": "cancel out",
         "contextMeaning": "Trotterが童謡の三匹のネズミになぞらえ、すでに二人が殺されたことを冷たく数え上げる比喩的表現。"
+      },
+      {
+        "surface": "come out with it",
+        "lemma": "come out with something",
+        "contextMeaning": "Longridge Farmとの隠れた関係をこれ以上伏せず、今すぐTrotterに打ち明けること。"
       },
       {
         "surface": "prospective victim",
@@ -184,11 +196,6 @@
         "surface": "reproach themselves for",
         "lemma": "reproach oneself",
         "contextMeaning": "Longridge Farm事件について少しでも自分に責任・後ろめたさがある者は、それを認めるべきだという意味。"
-      },
-      {
-        "surface": "come out with it",
-        "lemma": "come out with something",
-        "contextMeaning": "Longridge Farmとの隠れた関係をこれ以上伏せず、今すぐTrotterに打ち明けること。"
       }
     ],
     "act2-speech-0373": [
@@ -273,14 +280,14 @@
     ],
     "act2-speech-0420": [
       {
-        "surface": "mixed up in a murder case",
-        "lemma": "mixed up in",
-        "contextMeaning": "TrotterがParaviciniに、好むと好まざるとにかかわらず実際の殺人捜査に関係する立場にいると警告している。"
-      },
-      {
         "surface": "fun and games",
         "lemma": "fun and games",
         "contextMeaning": "Trotterが、実際の殺人はParaviciniが楽しむような冗談や遊びではない、と強く釘を刺している。"
+      },
+      {
+        "surface": "mixed up in a murder case",
+        "lemma": "mixed up in",
+        "contextMeaning": "TrotterがParaviciniに、好むと好まざるとにかかわらず実際の殺人捜査に関係する立場にいると警告している。"
       }
     ],
     "act2-speech-0421": [
@@ -288,6 +295,60 @@
         "surface": "inquisition",
         "lemma": "inquisition",
         "contextMeaning": "ParaviciniがTrotterの厳しい尋問を大げさに「異端審問」のようだと皮肉っている。"
+      }
+    ],
+    "act2-speech-0256": [
+      {
+        "surface": "blind",
+        "lemma": "blind",
+        "contextMeaning": "ChristopherがGilesを、明白な別の可能性に気づかない、または意図的に見ようとしていないと非難している比喩。",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0202": [
+      {
+        "surface": "hell",
+        "lemma": "hell",
+        "contextMeaning": "Christopherにとって学校生活が『地獄のようにつらかった』という比喩。",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0259": [
+      {
+        "surface": "hell",
+        "lemma": "hell",
+        "contextMeaning": "Gilesの驚きと怒りを強める what the hell の一部で、「いったい何なんだ」のような強い反応。",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0310": [
+      {
+        "surface": "hell",
+        "lemma": "hell",
+        "contextMeaning": "GilesがParaviciniの割り込みに苛立って「いったい何を…」と強く反応している。",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0389": [
+      {
+        "surface": "Indeed",
+        "lemma": "indeed",
+        "contextMeaning": "ParaviciniがTrotterの含みのある発言に「ほう、そうですか？」と探るように返している。",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0207": [
+      {
+        "surface": "bear",
+        "lemma": "bear",
+        "contextMeaning": "MollieがChristopherに、人生で起きるつらい出来事を受け止めて耐えながら生き続ける必要がある、と言っている。",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ]
   }

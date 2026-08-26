@@ -3,105 +3,822 @@
   "blockId": "block-5",
   "basis": "Reviewed against the actual Act II 0180-0423 usage. Include only actual Oxford 3000/5000 B1-C1 uses; exclude lower-level same-spelling uses and morphology false positives. Context-specific meaning is supplied when the local theatrical sense materially differs from the neutral meaning.",
   "includeLexemes": [
-    {"word":"absolutely","lemma":"absolutely","cefr":"B1","forms":["absolutely"],"speechIds":["act2-speech-0277"],"meaning":"完全に、まったく。強い程度を表す副詞。"},
-    {"word":"admit","lemma":"admit","cefr":"B1","forms":["admit"],"speechIds":["act2-speech-0288"],"meaning":"事実・非などを認める。"},
-    {"word":"annoyed","lemma":"annoyed","cefr":"B1","forms":["annoyed"],"speechIds":["act2-speech-0315"],"meaning":"いら立った、腹を立てた。"},
-    {"word":"attract","lemma":"attract","cefr":"B1","forms":["attract"],"speechIds":["act2-speech-0276"],"meaning":"人の関心・好意などを引きつける。"},
-    {"word":"blind","lemma":"blind","cefr":"B2","forms":["blind"],"speechIds":["act2-speech-0256","act2-speech-0372"],"meaning":"目が見えない；比喩的に、明らかなことに気づかない。","contextMeanings":{"act2-speech-0256":"ChristopherがGilesを、明白な別の可能性に気づかない、または意図的に見ようとしていないと非難している比喩。"}},
-    {"word":"charming","lemma":"charming","cefr":"B2","forms":["charming"],"speechIds":["act2-speech-0373"],"meaning":"魅力的な、感じのよい。"},
-    {"word":"communication","lemma":"communication","cefr":"B1","forms":["communication"],"speechIds":["act2-speech-0338"],"meaning":"情報を伝え合うこと；連絡・通信。"},
-    {"word":"countryside","lemma":"countryside","cefr":"B1","forms":["countryside"],"speechIds":["act2-speech-0239","act2-speech-0286"],"meaning":"都市部ではない田園・地方一帯。"},
-    {"word":"cruel","lemma":"cruel","cefr":"B1","forms":["cruel"],"speechIds":["act2-speech-0379"],"meaning":"人や動物に苦痛を与えることを気にしない、残酷な。"},
-    {"word":"dare","lemma":"dare","cefr":"B2","forms":["dare"],"speechIds":["act2-speech-0273"],"meaning":"勇気を出して～する；How dare ... で、よくも～できるものだ。"},
-    {"word":"doubt","lemma":"doubt","cefr":"B1","forms":["doubt"],"speechIds":["act2-speech-0243","act2-speech-0372"],"meaning":"確かではないと思う、疑う；疑念。"},
-    {"word":"fool","lemma":"fool","cefr":"B2","forms":["fool"],"speechIds":["act2-speech-0303"],"meaning":"愚かな人、ばかなことをする人。"},
-    {"word":"frighten","lemma":"frighten","cefr":"B1","forms":["frightening"],"speechIds":["act2-speech-0380"],"meaning":"人を怖がらせる。"},
-    {"word":"glove","lemma":"glove","cefr":"B1","forms":["gloves"],"speechIds":["act2-speech-0282"],"meaning":"手袋。"},
-    {"word":"goodness","lemma":"thank goodness","cefr":"B2","forms":["goodness"],"surface":"thank goodness","speechIds":["act2-speech-0332"],"meaning":"安堵や感謝を表して「よかった」「ありがたい」と言う定型表現。"},
-    {"word":"grand","lemma":"grand piano","cefr":"B2","forms":["grand"],"surface":"grand piano","speechIds":["act2-speech-0423"],"meaning":"弦を水平に張った大型のグランドピアノ。"},
-    {"word":"guilty","lemma":"guilty","cefr":"B1","forms":["guilty"],"speechIds":["act2-speech-0225","act2-speech-0226"],"meaning":"犯罪・過失などについて罪がある、有罪の。"},
-    {"word":"hell","lemma":"hell","cefr":"B2","forms":["hell"],"speechIds":["act2-speech-0202","act2-speech-0259","act2-speech-0310"],"meaning":"地獄；比喩的に非常につらい状態を表し、口語では強い驚き・怒りの強調にも使う。","contextMeanings":{"act2-speech-0202":"Christopherにとって学校生活が『地獄のようにつらかった』という比喩。","act2-speech-0259":"Gilesの驚きと怒りを強める what the hell の一部で、「いったい何なんだ」のような強い反応。","act2-speech-0310":"GilesがParaviciniの割り込みに苛立って「いったい何を…」と強く反応している。"}},
-    {"word":"hesitate","lemma":"hesitate","cefr":"B2","forms":["hesitate"],"speechIds":["act2-speech-0372"],"meaning":"ためらう、すぐ行動せず迷う。"},
-    {"word":"horrible","lemma":"horrible","cefr":"B1","forms":["horrible"],"speechIds":["act2-speech-0217"],"meaning":"非常に不快・恐ろしい、ひどい。"},
-    {"word":"humour","lemma":"humour","cefr":"B2","forms":["humour"],"speechIds":["act2-speech-0421"],"meaning":"ユーモア、物事のおかしさを理解し楽しむ感覚。","tags":["British spelling"]},
-    {"word":"indeed","lemma":"indeed","cefr":"B1","forms":["indeed"],"speechIds":["act2-speech-0389"],"meaning":"実に、確かに；相手の発言への反応として「そうですか」「本当に」の意にもなる。","contextMeanings":{"act2-speech-0389":"ParaviciniがTrotterの含みのある発言に「ほう、そうですか？」と探るように返している。"}},
-    {"word":"interrupt","lemma":"interrupt","cefr":"B2","forms":["interrupting"],"speechIds":["act2-speech-0244"],"meaning":"会話・行動などを途中で遮る。"},
-    {"word":"liver","lemma":"liver","cefr":"C1","forms":["livers"],"speechIds":["act2-speech-0373"],"meaning":"肝臓；食材としてのレバー。"},
-    {"word":"loose","lemma":"loose","cefr":"B2","forms":["loose"],"speechIds":["act2-speech-0253"],"meaning":"固定・拘束されていない；人・動物が逃げ出して自由になっている。"},
-    {"word":"neighbourhood","lemma":"neighbourhood","cefr":"B1","forms":["neighbourhood"],"speechIds":["act2-speech-0394"],"meaning":"近所、周辺地域。","tags":["British spelling"]},
-    {"word":"odd","lemma":"odd","cefr":"B1","forms":["odd","odder"],"speechIds":["act2-speech-0220","act2-speech-0274","act2-speech-0275"],"meaning":"普通ではなく奇妙な、不思議な。"},
-    {"word":"overturn","lemma":"overturn","cefr":"C1","forms":["overturn"],"speechIds":["act2-speech-0390"],"meaning":"ひっくり返る、転覆する；ひっくり返す。"},
-    {"word":"perfectly","lemma":"perfectly","cefr":"B1","forms":["perfectly"],"speechIds":["act2-speech-0264","act2-speech-0279"],"meaning":"完全に、まったく；十分に。"},
-    {"word":"poet","lemma":"poet","cefr":"B1","forms":["poet"],"speechIds":["act2-speech-0313"],"meaning":"詩を書く人、詩人。"},
-    {"word":"possibly","lemma":"possibly","cefr":"B1","forms":["possibly"],"speechIds":["act2-speech-0229"],"meaning":"もしかすると；可能な限り。否定語とともに強い不可能を表すことがある。","contextMeanings":{"act2-speech-0229":"can't possibly be true で「絶対に本当であるはずがない」と、Mollieが疑念を強く拒んでいる。"}},
-    {"word":"prepared","lemma":"prepared","cefr":"B1","forms":["prepared"],"speechIds":["act2-speech-0264"],"meaning":"準備ができた；～する覚悟・意思がある。"},
-    {"word":"pretend","lemma":"pretend","cefr":"B1","forms":["pretend","pretending"],"speechIds":["act2-speech-0239","act2-speech-0243","act2-speech-0256","act2-speech-0272"],"meaning":"事実ではないことを事実であるように装う、ふりをする。"},
-    {"word":"ridiculous","lemma":"ridiculous","cefr":"B2","forms":["ridiculous"],"speechIds":["act2-speech-0277"],"meaning":"ばかげた、道理に合わない。"},
-    {"word":"safety","lemma":"safety","cefr":"B1","forms":["safety"],"speechIds":["act2-speech-0257"],"meaning":"危険がなく安全であること。"},
-    {"word":"silly","lemma":"silly","cefr":"B1","forms":["silly"],"speechIds":["act2-speech-0381"],"meaning":"愚かな、ばかげた；軽率な。"},
-    {"word":"slight","lemma":"slight","cefr":"B2","forms":["slight"],"speechIds":["act2-speech-0372"],"meaning":"程度・量などがごく小さい、わずかな。"},
-    {"word":"sudden","lemma":"all of a sudden","cefr":"B1","forms":["sudden"],"surface":"all of a sudden","speechIds":["act2-speech-0306"],"meaning":"突然、不意に。"},
-    {"word":"suffer","lemma":"suffer","cefr":"B1","forms":["suffered"],"speechIds":["act2-speech-0307"],"meaning":"苦痛・困難などを経験する、苦しむ。"},
-    {"word":"surely","lemma":"surely","cefr":"B1","forms":["surely"],"speechIds":["act2-speech-0242"],"meaning":"確かに；相手も同意するはずだという気持ちで「まさか～ではないでしょう」のように使う。"},
-    {"word":"tail","lemma":"tail","cefr":"B1","forms":["tails"],"speechIds":["act2-speech-0379"],"meaning":"動物の尾、しっぽ。"},
-    {"word":"trust","lemma":"trust","cefr":"B2","forms":["trust"],"speechIds":["act2-speech-0243"],"meaning":"人・物を信頼する；信頼。"},
-    {"word":"unknown","lemma":"unknown","cefr":"B2","forms":["unknown"],"speechIds":["act2-speech-0204"],"meaning":"知られていない、正体・詳細が不明な。"},
-    {"word":"upset","lemma":"upset","cefr":"B1","forms":["upset"],"speechIds":["act2-speech-0384"],"meaning":"人を動揺・不快・悲しい気持ちにさせる；動揺した。"},
-    {"word":"whether","lemma":"whether","cefr":"B1","forms":["whether"],"speechIds":["act2-speech-0363"],"meaning":"～かどうか；複数の可能性を示す接続詞。"},
-    {"word":"whilst","lemma":"whilst","cefr":"C1","forms":["whilst"],"speechIds":["act2-speech-0204","act2-speech-0286","act2-speech-0287"],"meaning":"～する間に、～である一方。whileに相当する英国英語。","tags":["British"]},
-    {"word":"wire","lemma":"chicken wire","cefr":"B2","forms":["wire"],"surface":"chicken wire","speechIds":["act2-speech-0237"],"meaning":"鶏小屋などの囲いに使う、細い金属線でできた網状の金網。"},
-    {"word":"wise","lemma":"wise","cefr":"B2","forms":["wise"],"speechIds":["act2-speech-0377"],"meaning":"知恵があり判断が適切な、賢明な。"},
-    {"word":"wonder","lemma":"wonder","cefr":"B1","forms":["wonder","wondering"],"speechIds":["act2-speech-0387","act2-speech-0388","act2-speech-0390"],"meaning":"～だろうかと考える、不思議に思う；疑問・驚き。"},
-    {"word":"bear","lemma":"bear","cefr":"B2","forms":["bear"],"speechIds":["act2-speech-0207"],"meaning":"苦痛・困難・責任などに耐える、受け止める。","contextMeanings":{"act2-speech-0207":"MollieがChristopherに、人生で起きるつらい出来事を受け止めて耐えながら生き続ける必要がある、と言っている。"}},
-    {"word":"face","lemma":"face something","cefr":"B1","forms":["facing"],"surface":"facing them","speechIds":["act2-speech-0218"],"meaning":"問題・困難などから逃げず、正面から向き合う。"},
-    {"word":"fear","lemma":"fear","cefr":"B1","forms":["fears"],"speechIds":["act2-speech-0375"],"meaning":"危険・不快なことを恐れる。"}
+    {
+      "word": "absolutely",
+      "lemma": "absolutely",
+      "cefr": "B1",
+      "forms": [
+        "absolutely"
+      ],
+      "speechIds": [
+        "act2-speech-0277"
+      ],
+      "meaning": "完全に、まったく。強い程度を表す副詞。"
+    },
+    {
+      "word": "admit",
+      "lemma": "admit",
+      "cefr": "B1",
+      "forms": [
+        "admit"
+      ],
+      "speechIds": [
+        "act2-speech-0288"
+      ],
+      "meaning": "事実・非などを認める。"
+    },
+    {
+      "word": "annoyed",
+      "lemma": "annoyed",
+      "cefr": "B1",
+      "forms": [
+        "annoyed"
+      ],
+      "speechIds": [
+        "act2-speech-0315"
+      ],
+      "meaning": "いら立った、腹を立てた。"
+    },
+    {
+      "word": "attract",
+      "lemma": "attract",
+      "cefr": "B1",
+      "forms": [
+        "attract"
+      ],
+      "speechIds": [
+        "act2-speech-0276"
+      ],
+      "meaning": "人の関心・好意などを引きつける。"
+    },
+    {
+      "word": "blind",
+      "lemma": "blind",
+      "cefr": "B2",
+      "forms": [
+        "blind"
+      ],
+      "speechIds": [
+        "act2-speech-0256",
+        "act2-speech-0372"
+      ],
+      "meaning": "目が見えない；比喩的に、明らかなことに気づかない。",
+      "contextMeanings": {
+        "act2-speech-0256": "ChristopherがGilesを、明白な別の可能性に気づかない、または意図的に見ようとしていないと非難している比喩。"
+      }
+    },
+    {
+      "word": "charming",
+      "lemma": "charming",
+      "cefr": "B2",
+      "forms": [
+        "charming"
+      ],
+      "speechIds": [
+        "act2-speech-0373"
+      ],
+      "meaning": "魅力的な、感じのよい。"
+    },
+    {
+      "word": "communication",
+      "lemma": "communication",
+      "cefr": "B1",
+      "forms": [
+        "communication"
+      ],
+      "speechIds": [
+        "act2-speech-0338"
+      ],
+      "meaning": "情報を伝え合うこと；連絡・通信。"
+    },
+    {
+      "word": "countryside",
+      "lemma": "countryside",
+      "cefr": "B1",
+      "forms": [
+        "countryside"
+      ],
+      "speechIds": [
+        "act2-speech-0239",
+        "act2-speech-0286"
+      ],
+      "meaning": "都市部ではない田園・地方一帯。"
+    },
+    {
+      "word": "cruel",
+      "lemma": "cruel",
+      "cefr": "B1",
+      "forms": [
+        "cruel"
+      ],
+      "speechIds": [
+        "act2-speech-0379"
+      ],
+      "meaning": "人や動物に苦痛を与えることを気にしない、残酷な。"
+    },
+    {
+      "word": "dare",
+      "lemma": "dare",
+      "cefr": "B2",
+      "forms": [
+        "dare"
+      ],
+      "speechIds": [
+        "act2-speech-0273"
+      ],
+      "meaning": "勇気を出して～する；How dare ... で、よくも～できるものだ。"
+    },
+    {
+      "word": "doubt",
+      "lemma": "doubt",
+      "cefr": "B1",
+      "forms": [
+        "doubt"
+      ],
+      "speechIds": [
+        "act2-speech-0243",
+        "act2-speech-0372"
+      ],
+      "meaning": "確かではないと思う、疑う；疑念。"
+    },
+    {
+      "word": "fool",
+      "lemma": "fool",
+      "cefr": "B2",
+      "forms": [
+        "fool"
+      ],
+      "speechIds": [
+        "act2-speech-0303"
+      ],
+      "meaning": "愚かな人、ばかなことをする人。"
+    },
+    {
+      "word": "frighten",
+      "lemma": "frighten",
+      "cefr": "B1",
+      "forms": [
+        "frightening"
+      ],
+      "speechIds": [
+        "act2-speech-0380"
+      ],
+      "meaning": "人を怖がらせる。"
+    },
+    {
+      "word": "glove",
+      "lemma": "glove",
+      "cefr": "B1",
+      "forms": [
+        "gloves"
+      ],
+      "speechIds": [
+        "act2-speech-0282"
+      ],
+      "meaning": "手袋。"
+    },
+    {
+      "word": "goodness",
+      "lemma": "thank goodness",
+      "cefr": "B2",
+      "forms": [
+        "goodness"
+      ],
+      "surface": "thank goodness",
+      "speechIds": [
+        "act2-speech-0332"
+      ],
+      "meaning": "安堵や感謝を表して「よかった」「ありがたい」と言う定型表現。"
+    },
+    {
+      "word": "grand",
+      "lemma": "grand piano",
+      "cefr": "B2",
+      "forms": [
+        "grand"
+      ],
+      "surface": "grand piano",
+      "speechIds": [
+        "act2-speech-0423"
+      ],
+      "meaning": "弦を水平に張った大型のグランドピアノ。"
+    },
+    {
+      "word": "guilty",
+      "lemma": "guilty",
+      "cefr": "B1",
+      "forms": [
+        "guilty"
+      ],
+      "speechIds": [
+        "act2-speech-0225",
+        "act2-speech-0226"
+      ],
+      "meaning": "犯罪・過失などについて罪がある、有罪の。"
+    },
+    {
+      "word": "hell",
+      "lemma": "hell",
+      "cefr": "B2",
+      "forms": [
+        "hell"
+      ],
+      "speechIds": [
+        "act2-speech-0202",
+        "act2-speech-0259",
+        "act2-speech-0310"
+      ],
+      "meaning": "地獄；比喩的に非常につらい状態を表し、口語では強い驚き・怒りの強調にも使う。",
+      "contextMeanings": {
+        "act2-speech-0202": "Christopherにとって学校生活が『地獄のようにつらかった』という比喩。",
+        "act2-speech-0259": "Gilesの驚きと怒りを強める what the hell の一部で、「いったい何なんだ」のような強い反応。",
+        "act2-speech-0310": "GilesがParaviciniの割り込みに苛立って「いったい何を…」と強く反応している。"
+      }
+    },
+    {
+      "word": "hesitate",
+      "lemma": "hesitate",
+      "cefr": "B2",
+      "forms": [
+        "hesitate"
+      ],
+      "speechIds": [
+        "act2-speech-0372"
+      ],
+      "meaning": "ためらう、すぐ行動せず迷う。"
+    },
+    {
+      "word": "horrible",
+      "lemma": "horrible",
+      "cefr": "B1",
+      "forms": [
+        "horrible"
+      ],
+      "speechIds": [
+        "act2-speech-0217"
+      ],
+      "meaning": "非常に不快・恐ろしい、ひどい。"
+    },
+    {
+      "word": "humour",
+      "lemma": "humour",
+      "cefr": "B2",
+      "forms": [
+        "humour"
+      ],
+      "speechIds": [
+        "act2-speech-0421"
+      ],
+      "meaning": "ユーモア、物事のおかしさを理解し楽しむ感覚。",
+      "tags": [
+        "British spelling"
+      ]
+    },
+    {
+      "word": "indeed",
+      "lemma": "indeed",
+      "cefr": "B1",
+      "forms": [
+        "indeed"
+      ],
+      "speechIds": [
+        "act2-speech-0389"
+      ],
+      "meaning": "実に、確かに；相手の発言への反応として「そうですか」「本当に」の意にもなる。",
+      "contextMeanings": {
+        "act2-speech-0389": "ParaviciniがTrotterの含みのある発言に「ほう、そうですか？」と探るように返している。"
+      }
+    },
+    {
+      "word": "interrupt",
+      "lemma": "interrupt",
+      "cefr": "B2",
+      "forms": [
+        "interrupting"
+      ],
+      "speechIds": [
+        "act2-speech-0244"
+      ],
+      "meaning": "会話・行動などを途中で遮る。"
+    },
+    {
+      "word": "liver",
+      "lemma": "liver",
+      "cefr": "C1",
+      "forms": [
+        "livers"
+      ],
+      "speechIds": [
+        "act2-speech-0373"
+      ],
+      "meaning": "肝臓；食材としてのレバー。"
+    },
+    {
+      "word": "loose",
+      "lemma": "loose",
+      "cefr": "B2",
+      "forms": [
+        "loose"
+      ],
+      "speechIds": [
+        "act2-speech-0253"
+      ],
+      "meaning": "固定・拘束されていない；人・動物が逃げ出して自由になっている。"
+    },
+    {
+      "word": "neighbourhood",
+      "lemma": "neighbourhood",
+      "cefr": "B1",
+      "forms": [
+        "neighbourhood"
+      ],
+      "speechIds": [
+        "act2-speech-0394"
+      ],
+      "meaning": "近所、周辺地域。",
+      "tags": [
+        "British spelling"
+      ]
+    },
+    {
+      "word": "odd",
+      "lemma": "odd",
+      "cefr": "B1",
+      "forms": [
+        "odd",
+        "odder"
+      ],
+      "speechIds": [
+        "act2-speech-0220",
+        "act2-speech-0274",
+        "act2-speech-0275"
+      ],
+      "meaning": "普通ではなく奇妙な、不思議な。"
+    },
+    {
+      "word": "overturn",
+      "lemma": "overturn",
+      "cefr": "C1",
+      "forms": [
+        "overturn"
+      ],
+      "speechIds": [
+        "act2-speech-0390"
+      ],
+      "meaning": "ひっくり返る、転覆する；ひっくり返す。"
+    },
+    {
+      "word": "perfectly",
+      "lemma": "perfectly",
+      "cefr": "B1",
+      "forms": [
+        "perfectly"
+      ],
+      "speechIds": [
+        "act2-speech-0264",
+        "act2-speech-0279"
+      ],
+      "meaning": "完全に、まったく；十分に。"
+    },
+    {
+      "word": "poet",
+      "lemma": "poet",
+      "cefr": "B1",
+      "forms": [
+        "poet"
+      ],
+      "speechIds": [
+        "act2-speech-0313"
+      ],
+      "meaning": "詩を書く人、詩人。"
+    },
+    {
+      "word": "possibly",
+      "lemma": "possibly",
+      "cefr": "B1",
+      "forms": [
+        "possibly"
+      ],
+      "speechIds": [
+        "act2-speech-0229"
+      ],
+      "meaning": "もしかすると；可能な限り。否定語とともに強い不可能を表すことがある。",
+      "contextMeanings": {
+        "act2-speech-0229": "can't possibly be true で「絶対に本当であるはずがない」と、Mollieが疑念を強く拒んでいる。"
+      }
+    },
+    {
+      "word": "prepared",
+      "lemma": "prepared",
+      "cefr": "B1",
+      "forms": [
+        "prepared"
+      ],
+      "speechIds": [
+        "act2-speech-0264"
+      ],
+      "meaning": "準備ができた；～する覚悟・意思がある。"
+    },
+    {
+      "word": "pretend",
+      "lemma": "pretend",
+      "cefr": "B1",
+      "forms": [
+        "pretend",
+        "pretending"
+      ],
+      "speechIds": [
+        "act2-speech-0239",
+        "act2-speech-0243",
+        "act2-speech-0256",
+        "act2-speech-0272"
+      ],
+      "meaning": "事実ではないことを事実であるように装う、ふりをする。"
+    },
+    {
+      "word": "ridiculous",
+      "lemma": "ridiculous",
+      "cefr": "B2",
+      "forms": [
+        "ridiculous"
+      ],
+      "speechIds": [
+        "act2-speech-0277"
+      ],
+      "meaning": "ばかげた、道理に合わない。"
+    },
+    {
+      "word": "safety",
+      "lemma": "safety",
+      "cefr": "B1",
+      "forms": [
+        "safety"
+      ],
+      "speechIds": [
+        "act2-speech-0257"
+      ],
+      "meaning": "危険がなく安全であること。"
+    },
+    {
+      "word": "silly",
+      "lemma": "silly",
+      "cefr": "B1",
+      "forms": [
+        "silly"
+      ],
+      "speechIds": [
+        "act2-speech-0381"
+      ],
+      "meaning": "愚かな、ばかげた；軽率な。"
+    },
+    {
+      "word": "slight",
+      "lemma": "slight",
+      "cefr": "B2",
+      "forms": [
+        "slight"
+      ],
+      "speechIds": [
+        "act2-speech-0372"
+      ],
+      "meaning": "程度・量などがごく小さい、わずかな。"
+    },
+    {
+      "word": "sudden",
+      "lemma": "all of a sudden",
+      "cefr": "B1",
+      "forms": [
+        "sudden"
+      ],
+      "surface": "all of a sudden",
+      "speechIds": [
+        "act2-speech-0306"
+      ],
+      "meaning": "突然、不意に。"
+    },
+    {
+      "word": "suffer",
+      "lemma": "suffer",
+      "cefr": "B1",
+      "forms": [
+        "suffered"
+      ],
+      "speechIds": [
+        "act2-speech-0307"
+      ],
+      "meaning": "苦痛・困難などを経験する、苦しむ。"
+    },
+    {
+      "word": "surely",
+      "lemma": "surely",
+      "cefr": "B1",
+      "forms": [
+        "surely"
+      ],
+      "speechIds": [
+        "act2-speech-0242"
+      ],
+      "meaning": "確かに；相手も同意するはずだという気持ちで「まさか～ではないでしょう」のように使う。"
+    },
+    {
+      "word": "tail",
+      "lemma": "tail",
+      "cefr": "B1",
+      "forms": [
+        "tails"
+      ],
+      "speechIds": [
+        "act2-speech-0379"
+      ],
+      "meaning": "動物の尾、しっぽ。"
+    },
+    {
+      "word": "trust",
+      "lemma": "trust",
+      "cefr": "B2",
+      "forms": [
+        "trust"
+      ],
+      "speechIds": [
+        "act2-speech-0243"
+      ],
+      "meaning": "人・物を信頼する；信頼。"
+    },
+    {
+      "word": "unknown",
+      "lemma": "unknown",
+      "cefr": "B2",
+      "forms": [
+        "unknown"
+      ],
+      "speechIds": [
+        "act2-speech-0204"
+      ],
+      "meaning": "知られていない、正体・詳細が不明な。"
+    },
+    {
+      "word": "upset",
+      "lemma": "upset",
+      "cefr": "B1",
+      "forms": [
+        "upset"
+      ],
+      "speechIds": [
+        "act2-speech-0384"
+      ],
+      "meaning": "人を動揺・不快・悲しい気持ちにさせる；動揺した。"
+    },
+    {
+      "word": "whether",
+      "lemma": "whether",
+      "cefr": "B1",
+      "forms": [
+        "whether"
+      ],
+      "speechIds": [
+        "act2-speech-0363"
+      ],
+      "meaning": "～かどうか；複数の可能性を示す接続詞。"
+    },
+    {
+      "word": "whilst",
+      "lemma": "whilst",
+      "cefr": "C1",
+      "forms": [
+        "whilst"
+      ],
+      "speechIds": [
+        "act2-speech-0204",
+        "act2-speech-0286",
+        "act2-speech-0287"
+      ],
+      "meaning": "～する間に、～である一方。whileに相当する英国英語。",
+      "tags": [
+        "British"
+      ]
+    },
+    {
+      "word": "wire",
+      "lemma": "chicken wire",
+      "cefr": "B2",
+      "forms": [
+        "wire"
+      ],
+      "surface": "chicken wire",
+      "speechIds": [
+        "act2-speech-0237"
+      ],
+      "meaning": "鶏小屋などの囲いに使う、細い金属線でできた網状の金網。"
+    },
+    {
+      "word": "wise",
+      "lemma": "wise",
+      "cefr": "B2",
+      "forms": [
+        "wise"
+      ],
+      "speechIds": [
+        "act2-speech-0377"
+      ],
+      "meaning": "知恵があり判断が適切な、賢明な。"
+    },
+    {
+      "word": "wonder",
+      "lemma": "wonder",
+      "cefr": "B1",
+      "forms": [
+        "wonder",
+        "wondering"
+      ],
+      "speechIds": [
+        "act2-speech-0387",
+        "act2-speech-0388",
+        "act2-speech-0390"
+      ],
+      "meaning": "～だろうかと考える、不思議に思う；疑問・驚き。"
+    },
+    {
+      "word": "bear",
+      "lemma": "bear",
+      "cefr": "B2",
+      "forms": [
+        "bear"
+      ],
+      "speechIds": [
+        "act2-speech-0207"
+      ],
+      "meaning": "苦痛・困難・責任などに耐える、受け止める。",
+      "contextMeanings": {
+        "act2-speech-0207": "MollieがChristopherに、人生で起きるつらい出来事を受け止めて耐えながら生き続ける必要がある、と言っている。"
+      }
+    },
+    {
+      "word": "face",
+      "lemma": "face something",
+      "cefr": "B1",
+      "forms": [
+        "facing"
+      ],
+      "surface": "facing them",
+      "speechIds": [
+        "act2-speech-0218"
+      ],
+      "meaning": "問題・困難などから逃げず、正面から向き合う。"
+    },
+    {
+      "word": "fear",
+      "lemma": "fear",
+      "cefr": "B1",
+      "forms": [
+        "fears"
+      ],
+      "speechIds": [
+        "act2-speech-0375"
+      ],
+      "meaning": "危険・不快なことを恐れる。"
+    }
   ],
   "excludeWords": {
-    "annoy":{"reason":"The script has 'is very annoyed', the B1 adjective annoyed; Oxford verb annoy is only reached by morphology."},
-    "carve":{"reason":"'carving knife' is a lexical compound modifier here, not the C1 verb carve in use."},
-    "charm":{"reason":"The script uses the B2 adjective charming, not the C1 noun charm."},
-    "fellow":{"reason":"'young fellow' uses fellow as a noun/person; the audited Oxford entry is adjective B2."},
-    "found":{"reason":"'I found her' is the past form of find, not Oxford B2 verb found meaning establish."},
-    "frightening":{"reason":"'Stop frightening my wife' is the progressive form of verb frighten B1, not adjective frightening."},
-    "hidden":{"reason":"'has hidden them' is the past participle of hide, not the B2 adjective hidden."},
-    "mix":{"reason":"The local expression is already selected contextually as 'mixed up in'; a separate base-word mix entry would duplicate morphology."},
-    "planning":{"reason":"'is planning to do next' is the progressive verb plan, not Oxford B1 noun planning."},
-    "tracing":{"reason":"False morphology match from 'racing'; the word tracing is not present."},
-    "used":{"reason":"'used to laugh' is the grammatical used-to construction, not the B1 adjective used."},
-    "address":{"reason":"All occurrences are noun 'address' (A1); Oxford B2 verb address is not used."},
-    "back":{"reason":"Occurrences are adverb/adjectival uses such as brought back/back stairs, all lower-level uses, not B2 verb back."},
-    "but":{"reason":"All occurrences are the A1 conjunction, not Oxford B2 preposition but."},
-    "cut":{"reason":"The occurrence is A1 verb 'cut off', not Oxford B1 noun cut."},
-    "driving":{"reason":"'had been driving' is the verb drive in progressive form, not C1 adjective driving."},
-    "even":{"reason":"Actual 'even' is A1 adverb; 'evening' occurrences are morphology noise, not B2 adjective even."},
-    "far":{"reason":"Occurrences are A1 adverb far, not B1 adjective far."},
-    "feel":{"reason":"All occurrences are A1 verb feel, not B2 noun feel."},
-    "hand":{"reason":"The occurrence is noun hand inside 'give you a hand'; Oxford B1 verb hand is not used. The useful phrase can be handled separately from the CEFR word audit."},
-    "hate":{"reason":"Occurrences are A1 verb hate; Oxford B1 noun hate is not used."},
-    "house":{"reason":"Occurrences are A1 noun house, not B2 verb house."},
-    "leave":{"reason":"The occurrence is A1 verb leave, not B2 noun leave."},
-    "like":{"reason":"Occurrences are A1 preposition/verb like, not B1 noun like."},
-    "make":{"reason":"Occurrences are A1 verb make, not B2 noun make."},
-    "market":{"reason":"Market Hampton is a proper-name component and 'play the markets' is already selected as a context phrase; no B1 verb market is used."},
-    "move":{"reason":"The occurrence is A1 verb move, not B1 noun move."},
-    "need":{"reason":"Occurrences are ordinary A1 lexical verb need, not B1 modal-verb use."},
-    "next":{"reason":"Occurrences are A1 adjective/adverb next, not B1 noun next."},
-    "now":{"reason":"Occurrences are A1 adverb/discourse-marker now, not B1 conjunction now."},
-    "pass":{"reason":"Occurrences are A2 verb pass, not B1 noun pass."},
-    "pick":{"reason":"'picked it up' is A2 verb pick, not B2 noun pick."},
-    "round":{"reason":"Occurrences are A2 adverb/preposition round, not B2 noun round."},
-    "say":{"reason":"Occurrences are A1 verb say, not C1 noun say."},
-    "sense":{"reason":"'sense of humour' uses A2 noun sense; Oxford B2 verb sense is not used."},
-    "sort":{"reason":"'a sort of' is A2 noun sort, not B1 verb sort."},
-    "still":{"reason":"Occurrences are A1 adverb still, not B1 adjective still."},
-    "this":{"reason":"Occurrences are A1 determiner/pronoun this, not B1 adverb this."},
-    "time":{"reason":"Occurrences are A1 noun time, not B2 verb time."},
-    "touch":{"reason":"Occurrences are A2 verb touch, not B1 noun touch."},
-    "try":{"reason":"Occurrences are A1 verb try, not B2 noun try."},
-    "well":{"reason":"Occurrences are A1 adverb/exclamation well, not C1 noun well."},
-    "will":{"reason":"The occurrence is A1 modal will, not B1 noun will."},
-    "worry":{"reason":"'I'm worrying' is A2 verb worry, not B1 noun worry."},
-    "yet":{"reason":"The occurrence is A2 adverb yet, not B2 conjunction yet."},
-    "young":{"reason":"Occurrences are A1 adjective young, not B1 noun young."}
+    "annoy": {
+      "reason": "The script has 'is very annoyed', the B1 adjective annoyed; Oxford verb annoy is only reached by morphology."
+    },
+    "carve": {
+      "reason": "'carving knife' is a lexical compound modifier here, not the C1 verb carve in use."
+    },
+    "charm": {
+      "reason": "The script uses the B2 adjective charming, not the C1 noun charm."
+    },
+    "fellow": {
+      "reason": "'young fellow' uses fellow as a noun/person; the audited Oxford entry is adjective B2."
+    },
+    "found": {
+      "reason": "'I found her' is the past form of find, not Oxford B2 verb found meaning establish."
+    },
+    "frightening": {
+      "reason": "'Stop frightening my wife' is the progressive form of verb frighten B1, not adjective frightening."
+    },
+    "hidden": {
+      "reason": "'has hidden them' is the past participle of hide, not the B2 adjective hidden."
+    },
+    "mix": {
+      "reason": "The local expression is already selected contextually as 'mixed up in'; a separate base-word mix entry would duplicate morphology."
+    },
+    "planning": {
+      "reason": "'is planning to do next' is the progressive verb plan, not Oxford B1 noun planning."
+    },
+    "tracing": {
+      "reason": "False morphology match from 'racing'; the word tracing is not present."
+    },
+    "used": {
+      "reason": "'used to laugh' is the grammatical used-to construction, not the B1 adjective used."
+    },
+    "address": {
+      "reason": "All occurrences are noun 'address' (A1); Oxford B2 verb address is not used."
+    },
+    "back": {
+      "reason": "Occurrences are adverb/adjectival uses such as brought back/back stairs, all lower-level uses, not B2 verb back."
+    },
+    "but": {
+      "reason": "All occurrences are the A1 conjunction, not Oxford B2 preposition but."
+    },
+    "cut": {
+      "reason": "The occurrence is A1 verb 'cut off', not Oxford B1 noun cut."
+    },
+    "driving": {
+      "reason": "'had been driving' is the verb drive in progressive form, not C1 adjective driving."
+    },
+    "even": {
+      "reason": "Actual 'even' is A1 adverb; 'evening' occurrences are morphology noise, not B2 adjective even."
+    },
+    "far": {
+      "reason": "Occurrences are A1 adverb far, not B1 adjective far."
+    },
+    "feel": {
+      "reason": "All occurrences are A1 verb feel, not B2 noun feel."
+    },
+    "hand": {
+      "reason": "The occurrence is noun hand inside 'give you a hand'; Oxford B1 verb hand is not used. The useful phrase can be handled separately from the CEFR word audit."
+    },
+    "hate": {
+      "reason": "Occurrences are A1 verb hate; Oxford B1 noun hate is not used."
+    },
+    "house": {
+      "reason": "Occurrences are A1 noun house, not B2 verb house."
+    },
+    "leave": {
+      "reason": "The occurrence is A1 verb leave, not B2 noun leave."
+    },
+    "like": {
+      "reason": "Occurrences are A1 preposition/verb like, not B1 noun like."
+    },
+    "make": {
+      "reason": "Occurrences are A1 verb make, not B2 noun make."
+    },
+    "market": {
+      "reason": "Market Hampton is a proper-name component and 'play the markets' is already selected as a context phrase; no B1 verb market is used."
+    },
+    "move": {
+      "reason": "The occurrence is A1 verb move, not B1 noun move."
+    },
+    "need": {
+      "reason": "Occurrences are ordinary A1 lexical verb need, not B1 modal-verb use."
+    },
+    "next": {
+      "reason": "Occurrences are A1 adjective/adverb next, not B1 noun next."
+    },
+    "now": {
+      "reason": "Occurrences are A1 adverb/discourse-marker now, not B1 conjunction now."
+    },
+    "pass": {
+      "reason": "Occurrences are A2 verb pass, not B1 noun pass."
+    },
+    "pick": {
+      "reason": "'picked it up' is A2 verb pick, not B2 noun pick."
+    },
+    "round": {
+      "reason": "Occurrences are A2 adverb/preposition round, not B2 noun round."
+    },
+    "say": {
+      "reason": "Occurrences are A1 verb say, not C1 noun say."
+    },
+    "sense": {
+      "reason": "'sense of humour' uses A2 noun sense; Oxford B2 verb sense is not used."
+    },
+    "sort": {
+      "reason": "'a sort of' is A2 noun sort, not B1 verb sort."
+    },
+    "still": {
+      "reason": "Occurrences are A1 adverb still, not B1 adjective still."
+    },
+    "this": {
+      "reason": "Occurrences are A1 determiner/pronoun this, not B1 adverb this."
+    },
+    "time": {
+      "reason": "Occurrences are A1 noun time, not B2 verb time."
+    },
+    "touch": {
+      "reason": "Occurrences are A2 verb touch, not B1 noun touch."
+    },
+    "try": {
+      "reason": "Occurrences are A1 verb try, not B2 noun try."
+    },
+    "well": {
+      "reason": "Occurrences are A1 adverb/exclamation well, not C1 noun well."
+    },
+    "will": {
+      "reason": "The occurrence is A1 modal will, not B1 noun will."
+    },
+    "worry": {
+      "reason": "'I'm worrying' is A2 verb worry, not B1 noun worry."
+    },
+    "yet": {
+      "reason": "The occurrence is A2 adverb yet, not B2 conjunction yet."
+    },
+    "young": {
+      "reason": "Occurrences are A1 adjective young, not B1 noun young."
+    },
+    "racing": {
+      "reason": "The script has 'racing round the countryside' as the progressive form of verb race; Oxford B1 noun racing (the sport/activity) is not used."
+    }
   }
 }

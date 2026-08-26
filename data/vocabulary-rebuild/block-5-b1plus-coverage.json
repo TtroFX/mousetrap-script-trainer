@@ -11,25 +11,25 @@
   "lines": {
     "act2-speech-0186": [
       {
-        "surface": "Somehow",
-        "lemma": "somehow",
+        "surface": "get away",
+        "lemma": "get away",
         "contextMeaning": ""
       },
       {
-        "surface": "get away",
-        "lemma": "get away",
+        "surface": "Somehow",
+        "lemma": "somehow",
         "contextMeaning": ""
       }
     ],
     "act2-speech-0190": [
       {
-        "surface": "frightfully",
-        "lemma": "frightfully",
+        "surface": "committed",
+        "lemma": "commit",
         "contextMeaning": ""
       },
       {
-        "surface": "committed",
-        "lemma": "commit",
+        "surface": "frightfully",
+        "lemma": "frightfully",
         "contextMeaning": ""
       },
       {
@@ -83,13 +83,13 @@
     ],
     "act2-speech-0202": [
       {
-        "surface": "just",
-        "lemma": "just",
+        "surface": "association",
+        "lemma": "association",
         "contextMeaning": ""
       },
       {
-        "surface": "association",
-        "lemma": "association",
+        "surface": "just",
+        "lemma": "just",
         "contextMeaning": ""
       }
     ],
@@ -97,6 +97,11 @@
       {
         "surface": "beastly",
         "lemma": "beastly",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "go into",
+        "lemma": "go into",
         "contextMeaning": ""
       },
       {
@@ -110,19 +115,28 @@
         "contextMeaning": ""
       },
       {
+        "surface": "ran away",
+        "lemma": "run away",
+        "contextMeaning": ""
+      },
+      {
         "surface": "specification",
         "lemma": "specification",
         "contextMeaning": ""
       },
       {
-        "surface": "go into",
-        "lemma": "go into",
-        "contextMeaning": ""
+        "surface": "unknown",
+        "lemma": "unknown",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
       },
       {
-        "surface": "ran away",
-        "lemma": "run away",
-        "contextMeaning": ""
+        "surface": "whilst",
+        "lemma": "whilst",
+        "contextMeaning": "",
+        "cefrLevel": "C1",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0206": [
@@ -134,27 +148,34 @@
     ],
     "act2-speech-0207": [
       {
-        "surface": "go on",
-        "lemma": "go on",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "looked after",
-        "lemma": "look after",
-        "contextMeaning": ""
-      },
-      {
         "surface": "'ve got to",
         "lemma": "got to",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "go on",
+        "lemma": "go on",
         "contextMeaning": ""
       },
       {
         "surface": "go on just as usual",
         "lemma": "go on as usual",
         "contextMeaning": ""
+      },
+      {
+        "surface": "looked after",
+        "lemma": "look after",
+        "contextMeaning": ""
       }
     ],
     "act2-speech-0218": [
+      {
+        "surface": "facing them",
+        "lemma": "face something",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
       {
         "surface": "running away",
         "lemma": "run away",
@@ -201,6 +222,13 @@
         "surface": "frightfully",
         "lemma": "frightfully",
         "contextMeaning": ""
+      },
+      {
+        "surface": "guilty",
+        "lemma": "guilty",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0227": [
@@ -212,6 +240,13 @@
     ],
     "act2-speech-0237": [
       {
+        "surface": "chicken wire",
+        "lemma": "chicken wire",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
         "surface": "went off",
         "lemma": "go off",
         "contextMeaning": ""
@@ -219,13 +254,13 @@
     ],
     "act2-speech-0238": [
       {
-        "surface": "go up",
-        "lemma": "go up",
+        "surface": "after all",
+        "lemma": "after all",
         "contextMeaning": ""
       },
       {
-        "surface": "after all",
-        "lemma": "after all",
+        "surface": "go up",
+        "lemma": "go up",
         "contextMeaning": ""
       }
     ],
@@ -248,12 +283,26 @@
         "surface": "Good Lord",
         "lemma": "Good Lord",
         "contextMeaning": ""
+      },
+      {
+        "surface": "Surely",
+        "lemma": "surely",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0243": [
       {
-        "surface": "stranger",
-        "lemma": "stranger",
+        "surface": "doubt",
+        "lemma": "doubt",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "just",
+        "lemma": "just",
         "contextMeaning": ""
       },
       {
@@ -262,9 +311,23 @@
         "contextMeaning": ""
       },
       {
-        "surface": "just",
-        "lemma": "just",
+        "surface": "pretending",
+        "lemma": "pretend",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "stranger",
+        "lemma": "stranger",
         "contextMeaning": ""
+      },
+      {
+        "surface": "trust",
+        "lemma": "trust",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0245": [
@@ -281,13 +344,13 @@
     ],
     "act2-speech-0249": [
       {
-        "surface": "keep away from",
-        "lemma": "keep away from",
+        "surface": "at present",
+        "lemma": "at present",
         "contextMeaning": ""
       },
       {
-        "surface": "at present",
-        "lemma": "at present",
+        "surface": "keep away from",
+        "lemma": "keep away from",
         "contextMeaning": ""
       }
     ],
@@ -315,6 +378,13 @@
         "surface": "just",
         "lemma": "just",
         "contextMeaning": ""
+      },
+      {
+        "surface": "pretend",
+        "lemma": "pretend",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0263": [
@@ -329,17 +399,31 @@
         "surface": "homicidal maniac",
         "lemma": "homicidal maniac",
         "contextMeaning": ""
+      },
+      {
+        "surface": "Perfectly",
+        "lemma": "perfectly",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "prepared",
+        "lemma": "prepared",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0266": [
       {
-        "surface": "got to",
-        "lemma": "got to",
+        "surface": "barmy",
+        "lemma": "barmy",
         "contextMeaning": ""
       },
       {
-        "surface": "barmy",
-        "lemma": "barmy",
+        "surface": "got to",
+        "lemma": "got to",
         "contextMeaning": ""
       }
     ],
@@ -364,6 +448,13 @@
     ],
     "act2-speech-0273": [
       {
+        "surface": "dare",
+        "lemma": "dare",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
         "surface": "gone out of your mind",
         "lemma": "go out of one’s mind",
         "contextMeaning": ""
@@ -371,12 +462,31 @@
     ],
     "act2-speech-0274": [
       {
+        "surface": "odd",
+        "lemma": "odd",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
         "surface": "Rather",
         "lemma": "rather",
         "contextMeaning": ""
       }
     ],
     "act2-speech-0276": [
+      {
+        "surface": "attract",
+        "lemma": "attract",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "going on",
+        "lemma": "go on",
+        "contextMeaning": ""
+      },
       {
         "surface": "homicidal",
         "lemma": "homicidal",
@@ -386,14 +496,23 @@
         "surface": "Looks as though",
         "lemma": "look as though",
         "contextMeaning": ""
-      },
-      {
-        "surface": "going on",
-        "lemma": "go on",
-        "contextMeaning": ""
       }
     ],
     "act2-speech-0277": [
+      {
+        "surface": "absolutely",
+        "lemma": "absolutely",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "ridiculous",
+        "lemma": "ridiculous",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
       {
         "surface": "set eyes on",
         "lemma": "set eyes on",
@@ -437,25 +556,39 @@
     ],
     "act2-speech-0306": [
       {
-        "surface": "come over you",
-        "lemma": "come over someone",
-        "contextMeaning": ""
+        "surface": "all of a sudden",
+        "lemma": "all of a sudden",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
       },
       {
         "surface": "as though",
         "lemma": "as though",
         "contextMeaning": ""
+      },
+      {
+        "surface": "come over you",
+        "lemma": "come over someone",
+        "contextMeaning": ""
       }
     ],
     "act2-speech-0313": [
       {
-        "surface": "Quite",
-        "lemma": "quite",
+        "surface": "just",
+        "lemma": "just",
         "contextMeaning": ""
       },
       {
-        "surface": "just",
-        "lemma": "just",
+        "surface": "poet",
+        "lemma": "poet",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "Quite",
+        "lemma": "quite",
         "contextMeaning": ""
       }
     ],
@@ -468,18 +601,25 @@
     ],
     "act2-speech-0315": [
       {
+        "surface": "annoyed",
+        "lemma": "annoyed",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
         "surface": "business",
         "lemma": "business",
         "contextMeaning": ""
       },
       {
-        "surface": "just",
-        "lemma": "just",
+        "surface": "came in",
+        "lemma": "come in",
         "contextMeaning": ""
       },
       {
-        "surface": "came in",
-        "lemma": "come in",
+        "surface": "just",
+        "lemma": "just",
         "contextMeaning": ""
       }
     ],
@@ -533,6 +673,13 @@
         "surface": "after all",
         "lemma": "after all",
         "contextMeaning": ""
+      },
+      {
+        "surface": "thank goodness",
+        "lemma": "thank goodness",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0336": [
@@ -552,6 +699,13 @@
         "surface": "at once",
         "lemma": "at once",
         "contextMeaning": ""
+      },
+      {
+        "surface": "communication",
+        "lemma": "communication",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0343": [
@@ -577,20 +731,20 @@
     ],
     "act2-speech-0357": [
       {
-        "surface": "gone down to",
-        "lemma": "go down to",
+        "surface": "cellar",
+        "lemma": "cellar",
         "contextMeaning": ""
       },
       {
-        "surface": "cellar",
-        "lemma": "cellar",
+        "surface": "gone down to",
+        "lemma": "go down to",
         "contextMeaning": ""
       }
     ],
     "act2-speech-0363": [
       {
-        "surface": "No good",
-        "lemma": "no good",
+        "surface": "Architecture",
+        "lemma": "architecture",
         "contextMeaning": ""
       },
       {
@@ -599,14 +753,21 @@
         "contextMeaning": ""
       },
       {
-        "surface": "Architecture",
-        "lemma": "architecture",
+        "surface": "No good",
+        "lemma": "no good",
         "contextMeaning": ""
       },
       {
         "surface": "went on",
         "lemma": "go on",
         "contextMeaning": ""
+      },
+      {
+        "surface": "whether",
+        "lemma": "whether",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0364": [
@@ -618,13 +779,13 @@
     ],
     "act2-speech-0367": [
       {
-        "surface": "Ought to",
-        "lemma": "ought to",
+        "surface": "case",
+        "lemma": "case",
         "contextMeaning": ""
       },
       {
-        "surface": "case",
-        "lemma": "case",
+        "surface": "Ought to",
+        "lemma": "ought to",
         "contextMeaning": ""
       },
       {
@@ -641,11 +802,6 @@
       }
     ],
     "act2-speech-0370": [
-      {
-        "surface": "position",
-        "lemma": "position",
-        "contextMeaning": ""
-      },
       {
         "surface": "'ve got to",
         "lemma": "got to",
@@ -665,12 +821,41 @@
         "surface": "one step ahead of",
         "lemma": "one step ahead of",
         "contextMeaning": ""
+      },
+      {
+        "surface": "position",
+        "lemma": "position",
+        "contextMeaning": ""
       }
     ],
     "act2-speech-0372": [
       {
+        "surface": "blind",
+        "lemma": "blind",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "business",
+        "lemma": "business",
+        "contextMeaning": ""
+      },
+      {
         "surface": "dealt with",
         "lemma": "deal with",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "doubt",
+        "lemma": "doubt",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "had better",
+        "lemma": "had better",
         "contextMeaning": ""
       },
       {
@@ -679,9 +864,11 @@
         "contextMeaning": ""
       },
       {
-        "surface": "whoever",
-        "lemma": "whoever",
-        "contextMeaning": ""
+        "surface": "hesitate",
+        "lemma": "hesitate",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
       },
       {
         "surface": "holding out on",
@@ -699,30 +886,46 @@
         "contextMeaning": ""
       },
       {
-        "surface": "business",
-        "lemma": "business",
-        "contextMeaning": ""
+        "surface": "slight",
+        "lemma": "slight",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
       },
       {
-        "surface": "had better",
-        "lemma": "had better",
+        "surface": "whoever",
+        "lemma": "whoever",
         "contextMeaning": ""
       }
     ],
     "act2-speech-0373": [
+      {
+        "surface": "charming",
+        "lemma": "charming",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "concoct",
+        "lemma": "concoct",
+        "contextMeaning": ""
+      },
       {
         "surface": "just",
         "lemma": "just",
         "contextMeaning": ""
       },
       {
-        "surface": "mustard",
-        "lemma": "mustard",
-        "contextMeaning": ""
+        "surface": "livers",
+        "lemma": "liver",
+        "contextMeaning": "",
+        "cefrLevel": "C1",
+        "cefrSource": "Oxford 3000/5000 review"
       },
       {
-        "surface": "concoct",
-        "lemma": "concoct",
+        "surface": "mustard",
+        "lemma": "mustard",
         "contextMeaning": ""
       },
       {
@@ -733,8 +936,8 @@
     ],
     "act2-speech-0375": [
       {
-        "surface": "Quite",
-        "lemma": "quite",
+        "surface": "Alas",
+        "lemma": "alas",
         "contextMeaning": ""
       },
       {
@@ -743,18 +946,25 @@
         "contextMeaning": ""
       },
       {
-        "surface": "sadistic",
-        "lemma": "sadistic",
-        "contextMeaning": ""
-      },
-      {
         "surface": "dishonourable",
         "lemma": "dishonourable",
         "contextMeaning": ""
       },
       {
-        "surface": "Alas",
-        "lemma": "alas",
+        "surface": "fears",
+        "lemma": "fear",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "Quite",
+        "lemma": "quite",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "sadistic",
+        "lemma": "sadistic",
         "contextMeaning": ""
       }
     ],
@@ -763,17 +973,31 @@
         "surface": "homicidal maniac",
         "lemma": "homicidal maniac",
         "contextMeaning": ""
+      },
+      {
+        "surface": "wise",
+        "lemma": "wise",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0379": [
+      {
+        "surface": "Cruel",
+        "lemma": "cruel",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
       {
         "surface": "gay",
         "lemma": "gay",
         "contextMeaning": ""
       },
       {
-        "surface": "tune",
-        "lemma": "tune",
+        "surface": "grow up",
+        "lemma": "grow up",
         "contextMeaning": ""
       },
       {
@@ -782,8 +1006,15 @@
         "contextMeaning": ""
       },
       {
-        "surface": "grow up",
-        "lemma": "grow up",
+        "surface": "tails",
+        "lemma": "tail",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "tune",
+        "lemma": "tune",
         "contextMeaning": ""
       }
     ],
@@ -792,6 +1023,13 @@
         "surface": "at once",
         "lemma": "at once",
         "contextMeaning": ""
+      },
+      {
+        "surface": "frightening",
+        "lemma": "frighten",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0383": [
@@ -803,8 +1041,8 @@
     ],
     "act2-speech-0385": [
       {
-        "surface": "just",
-        "lemma": "just",
+        "surface": "been fond of",
+        "lemma": "be fond of",
         "contextMeaning": ""
       },
       {
@@ -813,22 +1051,36 @@
         "contextMeaning": ""
       },
       {
-        "surface": "been fond of",
-        "lemma": "be fond of",
+        "surface": "just",
+        "lemma": "just",
         "contextMeaning": ""
       }
     ],
     "act2-speech-0390": [
       {
+        "surface": "overturn",
+        "lemma": "overturn",
+        "contextMeaning": "",
+        "cefrLevel": "C1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
         "surface": "snowdrift",
         "lemma": "snowdrift",
         "contextMeaning": ""
+      },
+      {
+        "surface": "wondering",
+        "lemma": "wonder",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0392": [
       {
-        "surface": "rather",
-        "lemma": "rather",
+        "surface": "by the way",
+        "lemma": "by the way",
         "contextMeaning": ""
       },
       {
@@ -837,8 +1089,8 @@
         "contextMeaning": ""
       },
       {
-        "surface": "by the way",
-        "lemma": "by the way",
+        "surface": "rather",
+        "lemma": "rather",
         "contextMeaning": ""
       }
     ],
@@ -938,11 +1190,6 @@
     ],
     "act2-speech-0420": [
       {
-        "surface": "murder",
-        "lemma": "murder",
-        "contextMeaning": ""
-      },
-      {
         "surface": "case",
         "lemma": "case",
         "contextMeaning": ""
@@ -951,9 +1198,21 @@
         "surface": "just",
         "lemma": "just",
         "contextMeaning": ""
+      },
+      {
+        "surface": "murder",
+        "lemma": "murder",
+        "contextMeaning": ""
       }
     ],
     "act2-speech-0421": [
+      {
+        "surface": "humour",
+        "lemma": "humour",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
       {
         "surface": "murder",
         "lemma": "murder",
@@ -967,14 +1226,224 @@
     ],
     "act2-speech-0423": [
       {
-        "surface": "Just",
-        "lemma": "just",
-        "contextMeaning": ""
+        "surface": "grand piano",
+        "lemma": "grand piano",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
       },
       {
         "surface": "in case",
         "lemma": "in case",
         "contextMeaning": ""
+      },
+      {
+        "surface": "Just",
+        "lemma": "just",
+        "contextMeaning": ""
+      }
+    ],
+    "act2-speech-0288": [
+      {
+        "surface": "admit",
+        "lemma": "admit",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0239": [
+      {
+        "surface": "countryside",
+        "lemma": "countryside",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "pretend",
+        "lemma": "pretend",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0286": [
+      {
+        "surface": "countryside",
+        "lemma": "countryside",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "Whilst",
+        "lemma": "whilst",
+        "contextMeaning": "",
+        "cefrLevel": "C1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0303": [
+      {
+        "surface": "fool",
+        "lemma": "fool",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0282": [
+      {
+        "surface": "gloves",
+        "lemma": "glove",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0226": [
+      {
+        "surface": "guilty",
+        "lemma": "guilty",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0217": [
+      {
+        "surface": "horrible",
+        "lemma": "horrible",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0244": [
+      {
+        "surface": "interrupting",
+        "lemma": "interrupt",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0253": [
+      {
+        "surface": "loose",
+        "lemma": "loose",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0394": [
+      {
+        "surface": "neighbourhood",
+        "lemma": "neighbourhood",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0220": [
+      {
+        "surface": "odd",
+        "lemma": "odd",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0275": [
+      {
+        "surface": "odder",
+        "lemma": "odd",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0279": [
+      {
+        "surface": "perfectly",
+        "lemma": "perfectly",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0272": [
+      {
+        "surface": "pretend",
+        "lemma": "pretend",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0257": [
+      {
+        "surface": "safety",
+        "lemma": "safety",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0381": [
+      {
+        "surface": "silly",
+        "lemma": "silly",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0307": [
+      {
+        "surface": "suffered",
+        "lemma": "suffer",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0384": [
+      {
+        "surface": "upset",
+        "lemma": "upset",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0287": [
+      {
+        "surface": "Whilst",
+        "lemma": "whilst",
+        "contextMeaning": "",
+        "cefrLevel": "C1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0387": [
+      {
+        "surface": "wonder",
+        "lemma": "wonder",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0388": [
+      {
+        "surface": "wondering",
+        "lemma": "wonder",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ]
   }
