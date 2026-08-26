@@ -10,6 +10,7 @@ on:
       - 'mousetrap_word_dictionary.json'
       - 'data/vocabulary-rebuild/block-1-dictionary.json'
       - 'data/vocabulary-rebuild/block-1-dictionary-supplement.json'
+      - 'data/vocabulary-rebuild/block-2-neutral-seed.json'
 
 permissions:
   contents: write
@@ -22,6 +23,25 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Merge Block 2 neutral seed into build workspace
+        run: |
+          node --input-type=module <<'EOF'
+          import fs from 'node:fs';
+          const rootPath = 'mousetrap_word_dictionary.json';
+          const seedPath = 'data/vocabulary-rebuild/block-2-neutral-seed.json';
+          const root = JSON.parse(fs.readFileSync(rootPath, 'utf8'));
+          const seed = JSON.parse(fs.readFileSync(seedPath, 'utf8')).entries;
+          for (const [lemma, entry] of Object.entries(seed)) {
+            root[lemma] = {
+              lemma,
+              pos: entry.pos,
+              coreMeaning: entry.meaning,
+              tags: entry.tags || []
+            };
+          }
+          fs.writeFileSync(rootPath, JSON.stringify(root, null, 2) + '\n');
+          console.log(`Merged ${Object.keys(seed).length} neutral seed entries in build workspace.`);
+          EOF
       - name: Build Block 2 vocabulary data
         run: node scripts/build-vocabulary-block-2.mjs
       - name: Commit generated Block 2 data
@@ -36,4 +56,4 @@ jobs:
           git commit -m 'Generate Block 2 vocabulary rebuild'
           git push
 
-# Trigger marker: block-2-generation-v1
+# Trigger marker: block-2-generation-v2
