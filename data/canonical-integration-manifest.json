@@ -1,139 +1,96 @@
 {
-  "schemaVersion": 1,
-  "status": "COMPLETE / ALL BASIC MATERIALS REGISTERED",
-  "purpose": "Copyright-safe canonical registry and build-time join contract for the single PWA data pipeline.",
-  "sourceAuthority": {
-    "file": "The Mousetrap 台本.pdf",
-    "sha256": "94d46d2afe7504d2010c10b3ef4f1017bc3adfe0c09ab86bfd837167357c397b"
-  },
-  "canonical": {
-    "speakerSpans": 1164,
-    "canonicalUnits": 1170,
-    "spokenSentenceIds": 2277,
-    "effectiveChunkIds": 8055,
+  "schemaVersion": 2,
+  "status": "CHUNKING_V1_CANONICAL",
+  "purpose": "Canonical production registry. Structural chunking is derived only from the canonical script JSON and is validated as an exact-offset, deterministic dataset.",
+  "script": {
+    "file": "mousetrap_script_data.json",
+    "sha256": "c4bd5bcf1e0a225ade1bb860775a189e259c2977e971684ac6124558ad843230",
+    "speeches": 1164,
     "sceneCounts": {
-      "SCN-A01-S01": {"speeches": 190, "sentences": 453, "chunks": 1554},
-      "SCN-A01-S02": {"speeches": 336, "sentences": 643, "chunks": 2221},
-      "SCN-A02-S01": {"speeches": 638, "sentences": 1181, "chunks": 4280}
-    },
-    "structure": "materials/001_SCRIPT_STRUCTURE.txt",
-    "unitRegistry": "materials/002_SCRIPT_UNITS.txt",
-    "act2UnitOverlay": "materials/002-03A_CORRECTION_U0053.txt",
-    "idMap": "materials/003-00_CANONICAL_ID_MAP.txt",
-    "chunks": "materials/003_CHUNKS.txt",
-    "act2ChunkOverlay": "materials/003-03A0_CORRECTION_U0053.txt",
-    "freeze": "materials/003_CANONICAL_FREEZE.txt",
-    "globalQa": "materials/003_GLOBAL_QA.txt",
-    "integrationQa": "materials/003_CANONICAL_INTEGRATION_QA.txt"
-  },
-  "canonicalOverlays": {
-    "U-A02-S01-0053": {
-      "sourceLabelOrdinal": 52,
-      "pdfPage": 47,
-      "spokenSentenceCount": 5,
-      "effectiveSentenceIds": [
-        "SEN-U-A02-S01-0053-01",
-        "SEN-U-A02-S01-0053-02",
-        "SEN-U-A02-S01-0053-03",
-        "SEN-U-A02-S01-0053-04",
-        "SEN-U-A02-S01-0053-05"
-      ],
-      "effectiveAct2RegistrySha256": "9e8c77f0a8b0b8f80641c382c86bb7f910fd1704663466f207def84535976eef"
+      "act1-scene1": 190,
+      "act1-scene2": 336,
+      "act2": 638
     }
   },
-  "externalAssets": {
+  "chunking": {
+    "file": "app/mousetrap_line_structure.json",
+    "schemaVersion": 2,
+    "ruleSet": "chunking-v1",
+    "sourceSha256": "c4bd5bcf1e0a225ade1bb860775a189e259c2977e971684ac6124558ad843230",
+    "structureSha256": "dc1d24c4fe04f23106fd2d8aa1c799ae140f4d8c641149135244237c422e71dd",
+    "rules": "data/chunking-v1-rules.md",
+    "qaFile": "data/chunking-v1-qa.json",
+    "qaStatus": "PASS",
+    "qaErrorCount": 0,
+    "counts": {
+      "speeches": 1164,
+      "sentences": 2334,
+      "fragments": 550,
+      "clauses": 2939,
+      "chunks": 11810,
+      "clause_AC": 205,
+      "clause_BC": 1784,
+      "clause_NC": 567,
+      "clause_RC": 102,
+      "marker_ACC": 196,
+      "marker_Adj": 40,
+      "marker_Adv": 953,
+      "marker_C": 684,
+      "marker_Conj": 355,
+      "marker_Frag": 93,
+      "marker_HV": 1293,
+      "marker_Int": 267,
+      "marker_N": 307,
+      "marker_O": 1494,
+      "marker_Prep": 601,
+      "marker_Resp": 37,
+      "marker_S": 2443,
+      "marker_V": 3047
+    },
+    "sceneStats": {
+      "act1-scene1": {"speeches":190,"sentences":457,"fragments":120,"clauses":541,"chunks":2243},
+      "act1-scene2": {"speeches":336,"sentences":659,"fragments":169,"clauses":793,"chunks":3175},
+      "act2": {"speeches":638,"sentences":1218,"fragments":261,"clauses":1605,"chunks":6392}
+    },
+    "joinRule": "Join by speechId to lines[speechId]. Sentence offsets are relative to canonical speech text; chunk and clause offsets are relative to their sentence. Nested clauses may also carry an explicit outer S/O/C role relation.",
+    "invariants": [
+      "No rawLines or fallback structural payload is permitted.",
+      "No Vi, Vt, VBN, or numbered HV marker is permitted.",
+      "HV is unnumbered and separate from the numbered lexical V role.",
+      "Clause numbers and S/V/O/C role numbers must correspond.",
+      "All 1164 canonical speech IDs must be present in canonical order.",
+      "Rebuilding with the pinned parser must produce byte-identical JSON."
+    ]
+  },
+  "studyAssets": {
     "translations": {
       "file": "mousetrap_line_translations.json",
       "sha256": "3b6daf0d3b9103f2a5369e0d4311fad576078b496e57787c3353a10092dd758d",
-      "coverageSpeechIds": 1164,
-      "controlMaterial": "materials/004_CONTEXT_TRANSLATIONS.txt"
+      "coverageSpeechIds": 1164
     },
     "lineVocabulary": {
       "file": "mousetrap_line_vocabulary.json",
-      "sha256": "91918d29d9196136e56c24323624e6687967ebb4491973ff3cc4a9474dc67bfd",
-      "coverageSpeechIds": 1164,
-      "items": 1186,
-      "controlMaterial": "materials/006_VOCABULARY_USAGE.txt"
-    },
-    "wordDictionary": {
-      "file": "mousetrap_word_dictionary.json",
-      "sha256": "271fc8968ec4fc5e8877b64e4a8221201fcd036ec437000957e1be932e4fd629",
-      "entries": 578,
-      "controlMaterial": "materials/005_VOCABULARY_CORE.txt"
+      "sha256": "7092c967b7bd8fc1071bb9bd9e74a8158673da145a7734348bb3d682fc16924e",
+      "coverageSpeechIds": 1164
     },
     "lineGrammar": {
       "file": "mousetrap_line_grammar.json",
-      "sha256": "9033ce0b8a4e8cd77cb0eb5c4766721e7948894495009a77eea8c37d0114ac88",
-      "coverageSpeechIds": 1164,
-      "entries": 692,
-      "controlMaterial": "materials/007_EXPRESSIONS_GRAMMAR.txt"
+      "sha256": "ae05707b801f5db59041a9233406b33dd77275fcbce7ac379835a9a3c6d14a10",
+      "coverageSpeechIds": 1164
     },
-    "grammarSpanValidation": {
-      "file": "mousetrap_grammar_span_validation.json",
-      "sha256": "eddba6c7bdd518b367a207b98b76974cabe481e03d66a0148dc3f9676a5ccf34",
-      "records": 692,
-      "failures": 0
+    "wordDictionary": {
+      "file": "mousetrap_word_dictionary.json",
+      "sha256": "abd2e9e214d21728e5eef7e44f800e4b1e873de18eca43c4675c452a45c8fdf1",
+      "entries": 578
     }
   },
-  "finalMaterials": {
-    "contextNotes": {
-      "path": "materials/008_CONTEXT_NOTES.txt",
-      "status": "COMPLETE",
-      "coverageSpeechIds": 1164,
-      "previousRelations": 1161,
-      "nextRelations": 1161,
-      "derivation": "Canonical in-scene adjacency + validated 004/007 semantic layers; exact addressee only when source-supported."
-    },
-    "memoryUnits": {
-      "path": "materials/009_MEMORY_UNITS.txt",
-      "status": "COMPLETE",
-      "lineUnits": 1164,
-      "practiceSelectableLines": 1161,
-      "sentenceUnits": 2277,
-      "chunkUnits": 8055,
-      "realPreviousSpeechCuesForSelectableTargets": 1159,
-      "sceneStartCuesForSelectableTargets": 2,
-      "ratings": ["GOOD", "HARD", "AGAIN"]
-    },
-    "characterIndex": {
-      "path": "materials/010_CHARACTER_INDEX.txt",
-      "status": "COMPLETE",
-      "speakerIds": 9,
-      "practiceSelectableCharacters": 8,
-      "broadcastSpeakers": 1
-    },
-    "finalQa": {
-      "path": "materials/010_FINAL_MATERIAL_QA.txt",
-      "status": "PASS",
-      "unresolved": 0
-    }
-  },
-  "joinRules": {
-    "speechToUnit": "Within each scene, speech ordinal equals source_label_ordinal and Unit sequence is ordinal + 1 because Unit 0001 is PREAMBLE.",
-    "unitRegistry": "Read the final 002 scene registry and apply any canonical overlay named by this manifest before deriving Sentence IDs.",
-    "unitToSentence": "For each effective dialogue Unit with spoken_sentence_count K, use SEN-{UNIT_ID}-01 through SEN-{UNIT_ID}-{K:02d}.",
-    "sentenceToChunk": "Read the 003 production shards and apply any canonical chunk overlay named by this manifest; Chunk IDs use CHK-{SENTENCE_ID}-{chunk2}.",
-    "translation": "Join by speechId.",
-    "lineVocabulary": "Join by speechId; then join normalized lemma to wordDictionary.",
-    "lineGrammar": "Join by speechId. Grammar is supplemental to the structural chunk metadata in 003.",
-    "context": "Derive previous/next/cue references from canonical scene order and use materials/008_CONTEXT_NOTES.txt for interpretation policy.",
-    "memory": "Derive MEM-LINE/MEM-SEN/MEM-CHK from frozen speech/Sentence/Chunk IDs using materials/009_MEMORY_UNITS.txt.",
-    "characters": "Resolve canonical SPK-* display and role-selection metadata through materials/010_CHARACTER_INDEX.txt."
-  },
-  "legacyExclusions": [
-    "008_cue_practice.html embedded Act II Script Data with 633 speeches",
-    "009_rehearsal.html as a canonical data authority until rebuilt against this manifest",
-    "any 1159-speaker aggregate",
-    "temporary 2276-spoken-sentence / Act II 1180 downstream tokenizer undercount",
-    "QUICK_CURTAIN classified as spoken dialogue"
-  ],
+  "legacyChunkingRemoved": true,
   "releaseGates": {
-    "brokenCanonicalReference": 0,
-    "duplicateCanonicalId": 0,
-    "orphanRegisteredSpeechAsset": 0,
-    "sceneOrderMismatch": 0,
-    "unresolvedCanonicalQa": 0,
-    "unresolvedFinalMaterialQa": 0
+    "chunkingQaErrors": 0,
+    "missingSpeechIds": 0,
+    "legacyFallbacks": 0,
+    "legacyMarkers": 0,
+    "deterministicRebuildMismatch": 0
   },
-  "payloadPolicy": "This manifest contains IDs, counts, hashes, paths and join rules only. It does not contain the full copyrighted play text or a full translated-script payload."
+  "payloadPolicy": "The structural JSON stores offsets, roles, clause relations, and parser metadata; canonical play text remains owned by mousetrap_script_data.json and is not duplicated into the structure payload."
 }
