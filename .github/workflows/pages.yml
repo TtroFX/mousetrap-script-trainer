@@ -38,6 +38,9 @@ jobs:
           node --check src/data-store.js
           node --check src/state-store.js
           node --check src/main.js
+          node --check src/study/structure-model.js
+          node --check src/study/structure-view.js
+          node --check src/study/dictionary-sheet.js
           node --check sw.js
           node --check scripts/assemble-production.mjs
           node tests/index_zero_static.mjs
@@ -50,6 +53,10 @@ jobs:
           touch public/.nojekyll
           test -e public/index.html
           test -e public/src/main.js
+          test -e public/src/study/study.css
+          test -e public/src/study/structure-model.js
+          test -e public/src/study/structure-view.js
+          test -e public/src/study/dictionary-sheet.js
           test -e public/mousetrap_script_data.json
           test -e public/mousetrap_line_interpretation.json
           test -e public/mousetrap_line_structure.json
