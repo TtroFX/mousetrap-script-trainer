@@ -14,25 +14,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Classify candidates
+      - name: Extract ambiguous contexts
         run: |
           node --input-type=module <<'EOF'
           import fs from 'node:fs';
           const r=JSON.parse(fs.readFileSync('data/vocabulary-rebuild/block-3-oxford-audit.json','utf8'));
-          const d=JSON.parse(fs.readFileSync('mousetrap_word_dictionary.json','utf8'));
-          const safe=[], ambiguous=[];
+          const script=JSON.parse(fs.readFileSync('mousetrap_script_data.json','utf8'));
+          const byId=new Map(script['act1-scene2'].speeches.map(s=>[s.id,s]));
+          const ambiguous=[];
           for(const x of r.unresolved){
-            const lower=x.oxfordEntries.some(e=>['a1','a2'].includes(e.level));
-            const rec={word:x.word,forms:x.observedForms,levels:x.oxfordEntries.map(e=>`${e.pos}:${e.level}`),hasNeutral:Boolean(d[x.word]?.coreMeaning)};
-            (lower?ambiguous:safe).push(rec);
+            if(!x.oxfordEntries.some(e=>['a1','a2'].includes(e.level))) continue;
+            ambiguous.push({
+              word:x.word,
+              oxfordEntries:x.oxfordEntries,
+              occurrences:x.occurrences.map(o=>{
+                const s=byId.get(o.speechId);
+                return {speechId:o.speechId,form:o.form,speaker:s?.speaker||'',text:s?.text||''};
+              })
+            });
           }
-          const out={unresolvedCount:r.unresolvedCount,safeCount:safe.length,ambiguousCount:ambiguous.length,safeMissingNeutral:safe.filter(x=>!x.hasNeutral).map(x=>x.word),safe,ambiguous};
-          fs.writeFileSync('data/vocabulary-rebuild/block-3-oxford-summary.json',JSON.stringify(out,null,2)+'\n');
+          fs.writeFileSync('data/vocabulary-rebuild/block-3-oxford-ambiguous-context.json',JSON.stringify({count:ambiguous.length,entries:ambiguous},null,2)+'\n');
           EOF
-      - name: Commit summary
+      - name: Commit contexts
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/vocabulary-rebuild/block-3-oxford-summary.json
-          git commit -m 'Classify Block 3 Oxford candidates'
+          git add data/vocabulary-rebuild/block-3-oxford-ambiguous-context.json
+          git commit -m 'Extract Block 3 ambiguous Oxford contexts'
           git push
