@@ -1,0 +1,668 @@
+{
+  "count": 25,
+  "entries": [
+    {
+      "word": "being",
+      "oxfordEntries": [
+        {
+          "pos": "noun",
+          "level": "b2"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0226",
+          "form": "being",
+          "speaker": "TROTTER",
+          "text": "I see. What I'm getting at is that anyone who's been following you around might know very well that you were coming here. Now, there's just one thing I want to know, and I want to know it quick. Which one of you is it that has some connection with that business at Longridge Farm? You're not being very sensible, you know. One of you is in danger ― deadly danger. I've got to know which one that is. All right, I'll ask you one by one. You, first, since you seem to have arrived here more or less by accident, Mr. Pari ―?"
+        }
+      ]
+    },
+    {
+      "word": "distress",
+      "oxfordEntries": [
+        {
+          "pos": "noun",
+          "level": "c1"
+        },
+        {
+          "pos": "verb",
+          "level": "c1"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0229",
+          "form": "distressing",
+          "speaker": "MRS. BOYLE",
+          "text": "Boyle. I don't see ― really I consider it an impertinence...Why on earth should I have anything to do with such ― this distressing business?"
+        }
+      ]
+    },
+    {
+      "word": "fellow",
+      "oxfordEntries": [
+        {
+          "pos": "adjective",
+          "level": "b2"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0249",
+          "form": "fellows",
+          "speaker": "MAJOR METCALF",
+          "text": "Young fellows seem nervy nowadays. Daresay he'll grow out of it."
+        }
+      ]
+    },
+    {
+      "word": "found",
+      "oxfordEntries": [
+        {
+          "pos": "verb",
+          "level": "b2"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0187",
+          "form": "found",
+          "speaker": "TROTTER",
+          "text": "That's right, Miss. The Corrigans. Two boys and a girl. Brought before the court as in need of care and protection. A home was found for them with Mr. and Mrs. Stanning at Longridge Farm. One of the children subsequently died as the result of criminal neglect and persistent ill-treatment. Case made a bit of a sensation at the time."
+        },
+        {
+          "speechId": "act1-scene2-speech-0189",
+          "form": "found",
+          "speaker": "TROTTER",
+          "text": "The Stannings were sentenced to terms of imprisonment. Stanning died in prison. Mrs. Stanning served her sentence and was duly released. Yesterday, as I say, she was found strangled at twenty-four Culver Street."
+        }
+      ]
+    },
+    {
+      "word": "hand",
+      "oxfordEntries": [
+        {
+          "pos": "noun",
+          "level": "a1"
+        },
+        {
+          "pos": "verb",
+          "level": "b1"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0241",
+          "form": "hands",
+          "speaker": "CHRISTOPHER",
+          "text": "But just wait, Mrs. Boyle. Till I creep up behind you, and you feel my hands on your throat."
+        }
+      ]
+    },
+    {
+      "word": "hang",
+      "oxfordEntries": [
+        {
+          "pos": "verb",
+          "level": "b1"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0324",
+          "form": "hanging",
+          "speaker": "TROTTER",
+          "text": "Medium height, indeterminate build, darkish overcoat, soft felt hat, face hidden by a muffler. Spoke in a whisper. There are three darkish overcoats hanging up in the hall now. One of them is yours, Mr. Ralston...There are three lightish felt hats..."
+        }
+      ]
+    },
+    {
+      "word": "hearing",
+      "oxfordEntries": [
+        {
+          "pos": "noun",
+          "level": "b2"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0235",
+          "form": "hearing",
+          "speaker": "CHRISTOPHER",
+          "text": "Christopher Wren. I was a mere child at the time. I don't remember even hearing about it."
+        }
+      ]
+    },
+    {
+      "word": "house",
+      "oxfordEntries": [
+        {
+          "pos": "noun",
+          "level": "a1"
+        },
+        {
+          "pos": "verb",
+          "level": "b2"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0193",
+          "form": "house",
+          "speaker": "TROTTER",
+          "text": "Yes, sir. That's why Superintendent Hogben, on receiving this information from Scotland Yard, thought it imperative for me to come out here and find out if you knew of any connection between this house, or anyone in this house, and the Longridge Farm case."
+        },
+        {
+          "speechId": "act1-scene2-speech-0195",
+          "form": "house",
+          "speaker": "TROTTER",
+          "text": "Superintendent Hogben doesn't think it is a coincidence, sir. He'd have come himself if it had been in anyway possible. Under the weather conditions, and as I can ski, he sent me with instructions to get full particulars of everyone in the house, to report back to him by phone, and to take what measures I thought fit to ensure the safety of the household."
+        },
+        {
+          "speechId": "act1-scene2-speech-0236",
+          "form": "house",
+          "speaker": "TROTTER",
+          "text": "And that's all you have to say ― any of you? Well, if one of you gets murdered, you'll have yourself to blame. Now then, Mr. Ralston, can I have a look round the house?"
+        },
+        {
+          "speechId": "act1-scene2-speech-0247",
+          "form": "house",
+          "speaker": "MISS CASEWELL",
+          "text": "Taking our policeman on a conducted tour of the house."
+        },
+        {
+          "speechId": "act1-scene2-speech-0306",
+          "form": "house",
+          "speaker": "TROTTER",
+          "text": "Mr. Ralston...Just how much do you know about these people who are staying in your guest house?"
+        }
+      ]
+    },
+    {
+      "word": "kind",
+      "oxfordEntries": [
+        {
+          "pos": "adjective",
+          "level": "b1"
+        },
+        {
+          "pos": "noun",
+          "level": "a1"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0222",
+          "form": "kind",
+          "speaker": "MRS. BOYLE",
+          "text": "This is quite ridiculous. We are merely staying in a kind of hotel. We only arrived yesterday. We've nothing to do with this place."
+        }
+      ]
+    },
+    {
+      "word": "leave",
+      "oxfordEntries": [
+        {
+          "pos": "noun",
+          "level": "b2"
+        },
+        {
+          "pos": "verb",
+          "level": "a1"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0267",
+          "form": "leave",
+          "speaker": "MRS. BOYLE",
+          "text": "Now where did I leave my pen?"
+        }
+      ]
+    },
+    {
+      "word": "measure",
+      "oxfordEntries": [
+        {
+          "pos": "noun",
+          "level": "b1"
+        },
+        {
+          "pos": "verb",
+          "level": "b1"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0195",
+          "form": "measures",
+          "speaker": "TROTTER",
+          "text": "Superintendent Hogben doesn't think it is a coincidence, sir. He'd have come himself if it had been in anyway possible. Under the weather conditions, and as I can ski, he sent me with instructions to get full particulars of everyone in the house, to report back to him by phone, and to take what measures I thought fit to ensure the safety of the household."
+        }
+      ]
+    },
+    {
+      "word": "mechanic",
+      "oxfordEntries": [
+        {
+          "pos": "noun",
+          "level": "b2"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0334",
+          "form": "mechanics",
+          "speaker": "VOICE ON THE RADIO",
+          "text": "...to understand what I may term as the mechanics of fear, you have to study the precise effect produced on the human mind. Imagine, for instance, that you are alone in a room. It is late in the afternoon. A door opens softly behind you..."
+        }
+      ]
+    },
+    {
+      "word": "skip",
+      "oxfordEntries": [
+        {
+          "pos": "verb",
+          "level": "c1"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0264",
+          "form": "skips",
+          "speaker": "MOLLIE",
+          "text": "And yet he skips about as though he were quite young."
+        }
+      ]
+    },
+    {
+      "word": "sometime",
+      "oxfordEntries": [
+        {
+          "pos": "adverb",
+          "level": "b2"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0288",
+          "form": "sometimes",
+          "speaker": "MOLLIE",
+          "text": "I expect you're right... But sometimes things happen ― to make you remember..."
+        },
+        {
+          "speechId": "act1-scene2-speech-0292",
+          "form": "sometimes",
+          "speaker": "MOLLIE",
+          "text": "Sometimes, I hardly know what I am talking about."
+        }
+      ]
+    },
+    {
+      "word": "spoken",
+      "oxfordEntries": [
+        {
+          "pos": "adjective",
+          "level": "b1"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0256",
+          "form": "spoken",
+          "speaker": "MRS. BOYLE",
+          "text": "But how was I to know? They were very civilly spoken."
+        }
+      ]
+    },
+    {
+      "word": "state",
+      "oxfordEntries": [
+        {
+          "pos": "adjective",
+          "level": "b1"
+        },
+        {
+          "pos": "noun",
+          "level": "a2"
+        },
+        {
+          "pos": "verb",
+          "level": "b1"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0215",
+          "form": "state",
+          "speaker": "TROTTER",
+          "text": "That's what I've got to find out from you. As the Superintendent sees it, there must be some connection. Now you state, sir, that you yourself have never had any connection with the Longridge Farm case?"
+        }
+      ]
+    },
+    {
+      "word": "still",
+      "oxfordEntries": [
+        {
+          "pos": "adjective",
+          "level": "b1"
+        },
+        {
+          "pos": "adverb",
+          "level": "a1"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0311",
+          "form": "still",
+          "speaker": "GILES",
+          "text": "Wren wrote from Hampstead and the Casewell woman from a private hotel in Kensington. Paravicini, as we've told you, turned up out of the blue last night. Still, I suppose they've all got ration books ― that sort of thing."
+        },
+        {
+          "speechId": "act1-scene2-speech-0325",
+          "form": "still",
+          "speaker": "MOLLIE",
+          "text": "I still can't believe it."
+        }
+      ]
+    },
+    {
+      "word": "term",
+      "oxfordEntries": [
+        {
+          "pos": "noun",
+          "level": "a2"
+        },
+        {
+          "pos": "verb",
+          "level": "b2"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0189",
+          "form": "terms",
+          "speaker": "TROTTER",
+          "text": "The Stannings were sentenced to terms of imprisonment. Stanning died in prison. Mrs. Stanning served her sentence and was duly released. Yesterday, as I say, she was found strangled at twenty-four Culver Street."
+        },
+        {
+          "speechId": "act1-scene2-speech-0334",
+          "form": "term",
+          "speaker": "VOICE ON THE RADIO",
+          "text": "...to understand what I may term as the mechanics of fear, you have to study the precise effect produced on the human mind. Imagine, for instance, that you are alone in a room. It is late in the afternoon. A door opens softly behind you..."
+        }
+      ]
+    },
+    {
+      "word": "that",
+      "oxfordEntries": [
+        {
+          "pos": "adverb",
+          "level": "b1"
+        },
+        {
+          "pos": "conjunction",
+          "level": "a1"
+        },
+        {
+          "pos": "determiner",
+          "level": "a1"
+        },
+        {
+          "pos": "pronoun",
+          "level": "a1"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0181",
+          "form": "that's",
+          "speaker": "TROTTER",
+          "text": "That's right, madam. The first thing I want to know is if you were acquainted with this Mrs. Lyon."
+        },
+        {
+          "speechId": "act1-scene2-speech-0184",
+          "form": "that",
+          "speaker": "GILES",
+          "text": "Longridge Farm! Wasn't that where those children...?"
+        },
+        {
+          "speechId": "act1-scene2-speech-0187",
+          "form": "that's",
+          "speaker": "TROTTER",
+          "text": "That's right, Miss. The Corrigans. Two boys and a girl. Brought before the court as in need of care and protection. A home was found for them with Mr. and Mrs. Stanning at Longridge Farm. One of the children subsequently died as the result of criminal neglect and persistent ill-treatment. Case made a bit of a sensation at the time."
+        },
+        {
+          "speechId": "act1-scene2-speech-0191",
+          "form": "that",
+          "speaker": "TROTTER",
+          "text": "I'm coming to that, madam. A notebook was picked up near the scene of the crime. In that notebook was written two addresses. One was twenty-four Culver Street. The other was Monkswell Manor."
+        },
+        {
+          "speechId": "act1-scene2-speech-0193",
+          "form": "that's",
+          "speaker": "TROTTER",
+          "text": "Yes, sir. That's why Superintendent Hogben, on receiving this information from Scotland Yard, thought it imperative for me to come out here and find out if you knew of any connection between this house, or anyone in this house, and the Longridge Farm case."
+        },
+        {
+          "speechId": "act1-scene2-speech-0196",
+          "form": "that",
+          "speaker": "GILES",
+          "text": "Safety? What danger does he think we're in? Good Lord, he's not suggesting that somebody is going to be killed here."
+        },
+        {
+          "speechId": "act1-scene2-speech-0197",
+          "form": "that",
+          "speaker": "TROTTER",
+          "text": "I don't want to frighten any of the ladies ― but frankly, yes, that is the idea."
+        },
+        {
+          "speechId": "act1-scene2-speech-0199",
+          "form": "that's",
+          "speaker": "TROTTER",
+          "text": "That's what I'm here to find out."
+        },
+        {
+          "speechId": "act1-scene2-speech-0201",
+          "form": "that",
+          "speaker": "TROTTER",
+          "text": "Yes, sir. It's because it's crazy that it's dangerous."
+        },
+        {
+          "speechId": "act1-scene2-speech-0205",
+          "form": "that",
+          "speaker": "MOLLIE",
+          "text": "Is there something that you haven't told us, Sergeant?"
+        },
+        {
+          "speechId": "act1-scene2-speech-0211",
+          "form": "that's",
+          "speaker": "TROTTER",
+          "text": "The girl was adopted by someone. We haven't been able to trace her present whereabouts. The elder boy would now be about twenty-two. Deserted from the Army and has not been heard of since. According to the Army psychologist, was definitely schizophrenic. A bit queer in the head, that's to say."
+        },
+        {
+          "speechId": "act1-scene2-speech-0212",
+          "form": "that",
+          "speaker": "MOLLIE",
+          "text": "They think that it was he who killed Mrs. Lyon ― Mrs. Stanning?"
+        }
+      ]
+    },
+    {
+      "word": "whole",
+      "oxfordEntries": [
+        {
+          "pos": "adjective",
+          "level": "a2"
+        },
+        {
+          "pos": "noun",
+          "level": "b1"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0200",
+          "form": "whole",
+          "speaker": "GILES",
+          "text": "But the whole thing's crazy!"
+        },
+        {
+          "speechId": "act1-scene2-speech-0237",
+          "form": "whole",
+          "speaker": "CHRISTOPHER",
+          "text": "My dears, how melodramatic. He's very attractive, isn't he? I do admire the police. So stern and hardboiled. Quite a thrill, this whole business. Three Blind Mice. How does the tune go?"
+        },
+        {
+          "speechId": "act1-scene2-speech-0283",
+          "form": "whole",
+          "speaker": "MISS CASEWELL",
+          "text": "A good thing for you you haven't. It's all a lot of hooey ― the whole thing. Life's what you make of it. Go straight ahead ― don't look back."
+        }
+      ]
+    },
+    {
+      "word": "will",
+      "oxfordEntries": [
+        {
+          "pos": "noun",
+          "level": "b1"
+        },
+        {
+          "pos": "modal verb",
+          "level": "a1"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0214",
+          "form": "will",
+          "speaker": "MOLLIE",
+          "text": "And that he's a homicidal maniac and that he will turn up here and try to kill someone ― but why?"
+        },
+        {
+          "speechId": "act1-scene2-speech-0285",
+          "form": "will",
+          "speaker": "MISS CASEWELL",
+          "text": "Nonsense. It's a question of will power."
+        },
+        {
+          "speechId": "act1-scene2-speech-0319",
+          "form": "will",
+          "speaker": "GILES",
+          "text": "Crimes? There's only been one crime. In Culver Street. Why are you sure there will be another here?"
+        },
+        {
+          "speechId": "act1-scene2-speech-0320",
+          "form": "will",
+          "speaker": "TROTTER",
+          "text": "That it will happen here, no ― I hope to prevent that. That it will be attempted, yes."
+        },
+        {
+          "speechId": "act1-scene2-speech-0332",
+          "form": "will",
+          "speaker": "TROTTER",
+          "text": "Go and try it up there for me, will you?"
+        }
+      ]
+    },
+    {
+      "word": "worry",
+      "oxfordEntries": [
+        {
+          "pos": "noun",
+          "level": "b1"
+        },
+        {
+          "pos": "verb",
+          "level": "a2"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0326",
+          "form": "worries",
+          "speaker": "TROTTER",
+          "text": "You see? It's this telephone wire that worries me. If it's been cut..."
+        }
+      ]
+    },
+    {
+      "word": "written",
+      "oxfordEntries": [
+        {
+          "pos": "adjective",
+          "level": "b1"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0191",
+          "form": "written",
+          "speaker": "TROTTER",
+          "text": "I'm coming to that, madam. A notebook was picked up near the scene of the crime. In that notebook was written two addresses. One was twenty-four Culver Street. The other was Monkswell Manor."
+        },
+        {
+          "speechId": "act1-scene2-speech-0206",
+          "form": "written",
+          "speaker": "TROTTER",
+          "text": "Yes, Mrs. Ralston. Below the two addresses was written \"Three Blind Mice.\" And on the dead woman's body was a paper with \"This is the First\" written on it, and below the words, a drawing of three little mice and a bar of music. The music was the tune of the nursery rhyme Three Blind Mice. You know how it goes. \"Three Blind Mice...\""
+        }
+      ]
+    },
+    {
+      "word": "wrong",
+      "oxfordEntries": [
+        {
+          "pos": "adjective",
+          "level": "a1"
+        },
+        {
+          "pos": "adverb",
+          "level": "b1"
+        },
+        {
+          "pos": "noun",
+          "level": "b2"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0290",
+          "form": "wrong",
+          "speaker": "MOLLIE",
+          "text": "Is that really the right way? I wonder. Perhaps that's all wrong. Perhaps one ought really to face them."
+        }
+      ]
+    },
+    {
+      "word": "yet",
+      "oxfordEntries": [
+        {
+          "pos": "adverb",
+          "level": "a2"
+        },
+        {
+          "pos": "conjunction",
+          "level": "b2"
+        }
+      ],
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0264",
+          "form": "yet",
+          "speaker": "MOLLIE",
+          "text": "And yet he skips about as though he were quite young."
+        },
+        {
+          "speechId": "act1-scene2-speech-0266",
+          "form": "yet",
+          "speaker": "MOLLIE",
+          "text": "It's almost dark and yet it's only four in the afternoon. I'll turn the lights on. That's better."
+        }
+      ]
+    }
+  ]
+}
