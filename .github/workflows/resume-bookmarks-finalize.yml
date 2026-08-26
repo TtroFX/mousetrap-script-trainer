@@ -50,29 +50,21 @@ jobs:
           const staticPath='app/tests/index_zero_static.mjs';
           let st=fs.readFileSync(staticPath,'utf8');
           st=st.replace("'src/state-store.js','src/main.js'", "'src/state-store.js','src/resume-bookmarks.js','src/main.js'");
+          st=st.replace("'tests/index_zero.e2e.spec.js'", "'tests/index_zero.e2e.spec.js','tests/resume_bookmarks.e2e.spec.js'");
           st=st.replace("'mts.practice.rehearsal.state','mts.memory.stages'", "'mts.practice.rehearsal.state','mts.memory.stages','mts.resume.v1','mts.bookmarks.v1'");
           if(!st.includes("feature parity missing: Resume/Bookmarks")) st=st.replace("if(!main.includes('Full')", "if(!main.includes(\"case'/bookmarks'\")||!read('src/resume-bookmarks.js').includes('Continue')||!read('src/resume-bookmarks.js').includes('Bookmark一覧'))fail('feature parity missing: Resume/Bookmarks');\nif(!main.includes('Full')");
           fs.writeFileSync(staticPath,st);
 
-          const swPath='app/sw.js';
-          let sw=fs.readFileSync(swPath,'utf8').replaceAll('index-zero-2026-08-26-r1','index-zero-2026-08-26-r2');
-          fs.writeFileSync(swPath,sw);
-          const verPath='app/pwa-version.json';
-          let ver=fs.readFileSync(verPath,'utf8').replaceAll('index-zero-2026-08-26-r1','index-zero-2026-08-26-r2');
-          fs.writeFileSync(verPath,ver);
-
-          const testPath='app/tests/index_zero.e2e.spec.js';
-          let tests=fs.readFileSync(testPath,'utf8');
-          if(!tests.includes('Resume Continue restores the last studied location')) tests += `\n\ntest('Resume Continue restores the last studied location',async({page})=>{\n  await ready(page);await selectRole(page,'MOLLIE');\n  const line=await page.evaluate(()=>MTS_INDEX_ZERO.store.getScene('act1-scene1')[5].id);\n  await page.goto(\`${BASE}#/line?scene=act1-scene1&line=\${line}\`);\n  await page.waitForFunction(id=>MTS_INDEX_ZERO.state.latestResume()?.lineId===id,line);\n  await page.goto(BASE+'#/home');\n  await expect(page.getByRole('button',{name:'続きから'})).toBeVisible();\n  await page.getByRole('button',{name:'続きから'}).click();\n  await expect(page).toHaveURL(new RegExp(\`#\\/line\\?scene=act1-scene1&line=\${line}$\`));\n  await page.reload();await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasCore());\n  expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.latestResume()?.lineId===id,line)).toBeTruthy();\n});\n\ntest('Bookmark persists, opens, deletes in one click, and supports Undo',async({page})=>{\n  await ready(page);\n  await page.goto(BASE+'#/script');\n  const first=page.locator('[data-line]').first(),line=await first.getAttribute('data-line');\n  const star=first.locator('[data-bookmark-toggle]');await expect(star).toBeVisible();await star.click();\n  expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),line)).toBe(true);\n  await page.reload();await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasCore());\n  await expect(page.locator(\`[data-line=\"\${line}\"] [data-bookmark-toggle]\`)).toHaveText('★');\n  await page.goto(BASE+'#/bookmarks');\n  await expect(page.locator(\`[data-bookmark-row=\"\${line}\"]\`)).toBeVisible();\n  await page.locator(\`[data-bookmark-row=\"\${line}\"] [data-bookmark-open]\`).click();\n  await expect(page).toHaveURL(new RegExp(\`#\\/line\\?.*line=\${line}\`));\n  await page.goto(BASE+'#/bookmarks');\n  await page.locator(\`[data-bookmark-row=\"\${line}\"] [data-bookmark-remove]\`).click();\n  expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),line)).toBe(false);\n  await page.getByRole('button',{name:'元に戻す'}).click();\n  expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),line)).toBe(true);\n  await expect(page.locator(\`[data-bookmark-row=\"\${line}\"]\`)).toBeVisible();\n});\n\ntest('Line Detail can add and remove Bookmark and bookmark route is mobile-safe',async({page})=>{\n  await ready(page);\n  const line=await page.evaluate(()=>MTS_INDEX_ZERO.store.getScene('act1-scene1')[10].id);\n  await page.goto(\`${BASE}#/line?scene=act1-scene1&line=\${line}\`);\n  const toggle=page.locator('.line-detail-bookmark');await expect(toggle).toBeVisible();await toggle.click();\n  expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),line)).toBe(true);\n  await page.goto(BASE+'#/bookmarks');await page.setViewportSize({width:390,height:844});\n  const size=await page.evaluate(()=>({s:document.documentElement.scrollWidth,c:document.documentElement.clientWidth}));expect(size.s).toBeLessThanOrEqual(size.c+1);\n  await page.locator(\`[data-bookmark-row=\"\${line}\"] [data-bookmark-remove]\`).click();\n  expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),line)).toBe(false);\n});\n`;
-          tests=tests.replace("['home','script','scene','practice','progress','more','search']", "['home','script','scene','practice','progress','more','search','bookmarks']");
-          fs.writeFileSync(testPath,tests);
+          for(const file of ['app/sw.js','app/pwa-version.json']){
+            let s=fs.readFileSync(file,'utf8').replaceAll('index-zero-2026-08-26-r1','index-zero-2026-08-26-r2');
+            fs.writeFileSync(file,s);
+          }
           NODE
           node --check app/src/main.js
           node --check app/src/state-store.js
           node --check app/src/resume-bookmarks.js
       - name: Build canonical Structure
-        run: |
-          node app/scripts/build-learning-structure.mjs --root . --out app/mousetrap_line_structure.json
+        run: node app/scripts/build-learning-structure.mjs --root . --out app/mousetrap_line_structure.json
       - name: Static and artifact QA
         working-directory: app
         run: |
@@ -92,6 +84,6 @@ jobs:
           rm .github/workflows/resume-bookmarks-finalize.yml
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add app/src/main.js app/src/app.css app/src/resume-bookmarks.js app/src/config.js app/src/state-store.js app/sw.js app/pwa-version.json app/scripts/assemble-production.mjs app/tests/index_zero_static.mjs app/tests/index_zero.e2e.spec.js .github/workflows/resume-bookmarks-finalize.yml
+          git add app/src/main.js app/src/app.css app/sw.js app/pwa-version.json app/scripts/assemble-production.mjs app/tests/index_zero_static.mjs .github/workflows/resume-bookmarks-finalize.yml
           git commit -m "resume-bookmarks: complete Continue and Bookmark features"
           git push origin HEAD:feature/resume-bookmarks
