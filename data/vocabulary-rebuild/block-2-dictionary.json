@@ -1,0 +1,1033 @@
+{
+  "schemaVersion": 1,
+  "blockId": "block-2",
+  "purpose": "Deduplicated neutral dictionary for the union of Block 2 context-first vocabulary and conservative B1+ additions.",
+  "definitionPolicy": {
+    "neutral": true,
+    "noContextMeaning": true,
+    "learnerFriendlyJapanese": true,
+    "oneEntryPerLemma": true
+  },
+  "entries": {
+    "a lot may happen": {
+      "pos": "定型表現",
+      "meaning": "その間に多くのこと・大きな変化が起こる可能性がある。"
+    },
+    "a policeman skiing": {
+      "pos": "名詞句",
+      "meaning": "スキーをしている警察官を指す表現。"
+    },
+    "abroad": {
+      "pos": "副詞",
+      "meaning": "国外へ・国外で。また古い用法で、外に出て・広く出回って。",
+      "tags": [
+        "dated-sense"
+      ]
+    },
+    "adequate": {
+      "pos": "形容詞",
+      "meaning": "要求を満たす最低限以上であるが、強い褒め言葉ではない。"
+    },
+    "advice": {
+      "pos": "名詞",
+      "meaning": "どうするのがよいかについて人に与える助言、忠告。"
+    },
+    "advisable": {
+      "pos": "形容詞",
+      "meaning": "行う価値があり推奨できる。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "against the law": {
+      "pos": "定型表現",
+      "meaning": "違法であることを表す定型表現。",
+      "tags": [
+        "legal",
+        "chunk"
+      ]
+    },
+    "altogether": {
+      "pos": "副詞",
+      "meaning": "部分を合わせた全体、または程度の完全さ。British usageでよく見られる。",
+      "tags": [
+        "British English"
+      ]
+    },
+    "amateur": {
+      "pos": "名詞",
+      "meaning": "専門家として訓練・雇用されていない人。"
+    },
+    "amateurish": {
+      "pos": "形容詞",
+      "meaning": "professional でなく技量・仕上がりが未熟。"
+    },
+    "amenity": {
+      "pos": "名詞",
+      "meaning": "生活や滞在を便利・快適にする設備やサービス。"
+    },
+    "annoy": {
+      "pos": "動詞",
+      "meaning": "人をいら立たせる、うんざりさせる。"
+    },
+    "architect": {
+      "pos": "名詞",
+      "meaning": "建築物を設計する建築家。"
+    },
+    "at least": {
+      "pos": "副詞句",
+      "meaning": "最低限の数量・評価・譲歩を示す。",
+      "tags": [
+        "grammar",
+        "chunk"
+      ]
+    },
+    "attractive": {
+      "pos": "形容詞",
+      "meaning": "人の注意・好意を引く性質。"
+    },
+    "bank up": {
+      "pos": "句動詞",
+      "meaning": "火が長くもつよう燃料を積み、燃え方を調整する。",
+      "tags": [
+        "British",
+        "dated"
+      ]
+    },
+    "beg your pardon": {
+      "pos": "定型表現",
+      "meaning": "謝罪または聞き返しに使う丁寧な定型表現。",
+      "tags": [
+        "British English",
+        "polite",
+        "chunk"
+      ]
+    },
+    "bona fide traveller": {
+      "pos": "名詞句",
+      "meaning": "bona fide はラテン語由来で「真正な」。英国の旧宿泊・酒類法の文脈を感じさせる。",
+      "tags": [
+        "British English",
+        "legal",
+        "dated",
+        "chunk"
+      ]
+    },
+    "bridge": {
+      "pos": "名詞",
+      "meaning": "ここでは橋ではなく4人で行うトランプゲーム。",
+      "tags": [
+        "context",
+        "British English"
+      ]
+    },
+    "business": {
+      "pos": "名詞",
+      "meaning": "「取り組むべき事柄」が中心で、文脈により仕事・用事・事件を指す。",
+      "tags": [
+        "context"
+      ]
+    },
+    "central heating": {
+      "pos": "名詞句",
+      "meaning": "一つの熱源で建物全体を暖める暖房方式。",
+      "tags": [
+        "British English"
+      ]
+    },
+    "chilblain": {
+      "pos": "名詞",
+      "meaning": "寒さで手足などの皮膚が赤く腫れ痛む症状。",
+      "tags": [
+        "British English",
+        "medical"
+      ]
+    },
+    "cloakroom": {
+      "pos": "名詞",
+      "meaning": "cloak を預ける部屋。英国では公共施設の洗面所を指す場合もあるが、文脈で判断する。",
+      "tags": [
+        "British English",
+        "context"
+      ]
+    },
+    "coalscuttle": {
+      "pos": "名詞",
+      "meaning": "暖炉用の石炭を室内に運び置く容器。",
+      "tags": [
+        "British English",
+        "dated"
+      ]
+    },
+    "coke": {
+      "pos": "名詞",
+      "meaning": "石炭を乾留して作る固体燃料のコークス。"
+    },
+    "come in": {
+      "pos": "句動詞",
+      "meaning": "外から内部へ移動する。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "come to think of it": {
+      "pos": "定型表現",
+      "meaning": "話の途中で新たに思い出したことを付け加える。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "comfortable": {
+      "pos": "形容詞",
+      "meaning": "身体的・心理的に快適で、苦痛や不便が少ない。"
+    },
+    "confident": {
+      "pos": "形容詞",
+      "meaning": "自分の能力や判断、または物事の結果について確信している。"
+    },
+    "convenient": {
+      "pos": "形容詞",
+      "meaning": "時間・場所・条件が目的に合う。"
+    },
+    "cornbeef": {
+      "pos": "名詞",
+      "meaning": "塩漬けにして保存した牛肉。一般には corned beef と表記される。",
+      "tags": [
+        "food",
+        "variant-spelling"
+      ]
+    },
+    "cross": {
+      "pos": "形容詞",
+      "meaning": "British English で angry/annoyed の日常語。",
+      "tags": [
+        "British English",
+        "context"
+      ]
+    },
+    "cut off": {
+      "pos": "句動詞",
+      "meaning": "つながり・供給・交通などを断つ、孤立させる。"
+    },
+    "daresay": {
+      "pos": "動詞的表現",
+      "meaning": "たぶん～だろう、～と思う。",
+      "tags": [
+        "British"
+      ]
+    },
+    "dead telephone": {
+      "pos": "名詞句",
+      "meaning": "回線や接続が機能せず、通話できない電話。"
+    },
+    "detective": {
+      "pos": "名詞・形容詞",
+      "meaning": "犯罪を捜査する刑事・探偵。捜査の。"
+    },
+    "difficult": {
+      "pos": "形容詞",
+      "meaning": "行う・理解する・扱うことが容易でない。"
+    },
+    "disappoint": {
+      "pos": "動詞",
+      "meaning": "期待どおりにならず、人を失望させる。"
+    },
+    "disguised": {
+      "pos": "形容詞",
+      "meaning": "disguise「正体を隠す」の過去分詞。料理では味をうまく隠す比喩。",
+      "tags": [
+        "context"
+      ]
+    },
+    "dishonest": {
+      "pos": "形容詞",
+      "meaning": "真実・公正さに反する。"
+    },
+    "distracting": {
+      "pos": "形容詞",
+      "meaning": "注意をそらす、集中を妨げる。"
+    },
+    "drift": {
+      "pos": "名詞",
+      "meaning": "風で雪が一か所に積み上がったもの。",
+      "tags": [
+        "weather",
+        "context"
+      ]
+    },
+    "educated": {
+      "pos": "形容詞",
+      "meaning": "教育を受け、知識や教養を身につけている。"
+    },
+    "enjoy oneself at winter sports": {
+      "pos": "動詞句",
+      "meaning": "スキーなどの冬季スポーツを楽しむ。"
+    },
+    "enquiry": {
+      "pos": "名詞",
+      "meaning": "British spelling は enquiry が一般的。警察文脈では「調査・照会」。",
+      "tags": [
+        "British English",
+        "spelling",
+        "formal"
+      ]
+    },
+    "entirely": {
+      "pos": "副詞",
+      "meaning": "部分を残さず全体として。"
+    },
+    "escape from a lunatic asylum": {
+      "pos": "動詞句",
+      "meaning": "精神科施設を指す古い表現の場所から逃げ出す。現代では表現自体が不適切とされることがある。",
+      "tags": [
+        "dated",
+        "offensive-historical"
+      ]
+    },
+    "exercise": {
+      "pos": "名詞・動詞",
+      "meaning": "健康や能力の維持・向上のために身体や技能を使う活動。また、そのような活動を行う。"
+    },
+    "extraordinary": {
+      "pos": "形容詞",
+      "meaning": "ordinary の範囲を大きく超える。"
+    },
+    "favourite": {
+      "pos": "形容詞",
+      "meaning": "British spelling。米語 favorite。",
+      "tags": [
+        "British English",
+        "spelling"
+      ]
+    },
+    "fear": {
+      "pos": "名詞・動詞",
+      "meaning": "危険や悪い結果を予想して感じる恐れ、不安。また、それを恐れる。"
+    },
+    "first come, first served": {
+      "pos": "ことわざ的表現",
+      "meaning": "先に来た人から先にサービスを受ける。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "fishy story": {
+      "pos": "名詞句",
+      "meaning": "怪しく信用しにくい話。",
+      "tags": [
+        "informal"
+      ]
+    },
+    "foreigner": {
+      "pos": "名詞",
+      "meaning": "自国以外から来た人。文脈によって距離を置く響きを持つ。",
+      "tags": [
+        "context"
+      ]
+    },
+    "fugitive": {
+      "pos": "名詞",
+      "meaning": "警察・拘束などから逃れている人。",
+      "tags": [
+        "crime",
+        "formal"
+      ]
+    },
+    "fugitive from justice": {
+      "pos": "名詞句",
+      "meaning": "法の追及・逮捕から逃れている人。",
+      "tags": [
+        "legal"
+      ]
+    },
+    "get on with": {
+      "pos": "句動詞",
+      "meaning": "仕事・活動を中断せず進める。",
+      "tags": [
+        "phrasal verb",
+        "British English",
+        "chunk"
+      ]
+    },
+    "get the bit between one's teeth": {
+      "pos": "熟語",
+      "meaning": "馬がはみ(bit)を歯で強くくわえて制御しにくくなる比喩。",
+      "tags": [
+        "British English",
+        "idiom",
+        "chunk"
+      ]
+    },
+    "get through": {
+      "pos": "句動詞",
+      "meaning": "障害を越えて目的側へ到達する。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "get to business": {
+      "pos": "定型表現",
+      "meaning": "雑談などを終えて本題・正式な用件に入る。"
+    },
+    "go all right": {
+      "pos": "定型表現",
+      "meaning": "進行・結果に問題がないことを表す。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "go back": {
+      "pos": "句動詞",
+      "meaning": "以前の場所・状態へ戻る。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "go downhill": {
+      "pos": "熟語",
+      "meaning": "坂を下る比喩から状態が悪くなる。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "go through": {
+      "pos": "句動詞",
+      "meaning": "過程を最初から最後まで通過する。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "got to": {
+      "pos": "助動詞的表現",
+      "meaning": "have got to の口語形。",
+      "tags": [
+        "informal",
+        "grammar",
+        "chunk"
+      ]
+    },
+    "grim": {
+      "pos": "形容詞",
+      "meaning": "厳しく暗い、恐ろしい、楽観できない。"
+    },
+    "guinea": {
+      "pos": "名詞",
+      "meaning": "旧英国の通貨・料金単位。1ギニーは21シリング。",
+      "tags": [
+        "British",
+        "historical"
+      ]
+    },
+    "haphazard": {
+      "pos": "形容詞",
+      "meaning": "秩序・計画がなく偶然任せ。"
+    },
+    "hearty": {
+      "pos": "形容詞",
+      "meaning": "元気で活力があり、健康的・陽気な印象の。"
+    },
+    "homemade": {
+      "pos": "形容詞",
+      "meaning": "店や工場ではなく家庭で作られた。"
+    },
+    "hostess": {
+      "pos": "名詞",
+      "meaning": "guest を迎える女性 host の伝統的な性別形。",
+      "tags": [
+        "dated",
+        "gendered"
+      ]
+    },
+    "housework": {
+      "pos": "名詞",
+      "meaning": "掃除、洗濯、料理など家庭を維持するための日常的な仕事。"
+    },
+    "Hullo": {
+      "pos": "間投詞",
+      "meaning": "hello の古い綴り・発音表記。英国の古い作品でよく見られる。",
+      "tags": [
+        "British English",
+        "dated"
+      ]
+    },
+    "hunt someone down": {
+      "pos": "句動詞",
+      "meaning": "人を執拗に探し出す、追跡して見つける。"
+    },
+    "I shouldn’t wonder": {
+      "pos": "定型表現",
+      "meaning": "英国の古めの控えめな推測表現。直訳の「驚くべきでない」より「ありそうだ」。",
+      "tags": [
+        "British English",
+        "dated",
+        "chunk"
+      ]
+    },
+    "impassable": {
+      "pos": "形容詞",
+      "meaning": "pass できないほど道路などが塞がれている。"
+    },
+    "implicitly": {
+      "pos": "副詞",
+      "meaning": "暗に、明示せずに。また古い・限定的用法で、完全に・無条件に。"
+    },
+    "impossible": {
+      "pos": "形容詞",
+      "meaning": "実現できない。会話では強い拒絶・驚きにも。"
+    },
+    "impression": {
+      "pos": "名詞",
+      "meaning": "人・物から受ける印象、感じ。"
+    },
+    "incredible": {
+      "pos": "形容詞",
+      "meaning": "credible「信じられる」に in-。驚きの強調にも。"
+    },
+    "inexperienced": {
+      "pos": "形容詞",
+      "meaning": "経験が不足している。"
+    },
+    "inspector": {
+      "pos": "名詞",
+      "meaning": "英国警察では Inspector は階級名。",
+      "tags": [
+        "British English",
+        "police"
+      ]
+    },
+    "instruction": {
+      "pos": "名詞",
+      "meaning": "何をどのように行うべきかを示す指示、命令、説明。"
+    },
+    "it doesn’t matter": {
+      "pos": "定型表現",
+      "meaning": "重要性がないことを表す。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "just": {
+      "pos": "副詞",
+      "meaning": "時間・数量・一致などを「狭く限定する」のが中心。",
+      "tags": [
+        "context"
+      ]
+    },
+    "kindling": {
+      "pos": "名詞",
+      "meaning": "火を起こすための細い木片など。",
+      "tags": [
+        "household"
+      ]
+    },
+    "knowledgeable": {
+      "pos": "形容詞",
+      "meaning": "特定分野について十分な知識を持つ。"
+    },
+    "licence": {
+      "pos": "名詞",
+      "meaning": "British noun spelling は licence（動詞は license）。",
+      "tags": [
+        "British English",
+        "spelling"
+      ]
+    },
+    "liquor": {
+      "pos": "名詞",
+      "meaning": "アルコール飲料、とくに蒸留酒など。"
+    },
+    "lunatic": {
+      "pos": "名詞",
+      "meaning": "精神疾患のある人を指した歴史的語。現代の人への呼称としては不適切。",
+      "tags": [
+        "dated",
+        "offensive",
+        "context"
+      ]
+    },
+    "magistrate": {
+      "pos": "名詞",
+      "meaning": "比較的軽い事件などを扱う権限を持つ司法官。英国では治安判事などを指す。",
+      "tags": [
+        "legal",
+        "British"
+      ]
+    },
+    "make a go of it": {
+      "pos": "熟語",
+      "meaning": "go を「成功する試み」の名詞として使う口語表現。",
+      "tags": [
+        "British English",
+        "idiom",
+        "chunk"
+      ]
+    },
+    "make things easy": {
+      "pos": "動詞句",
+      "meaning": "物事を容易にする、やりやすくする。"
+    },
+    "manner": {
+      "pos": "名詞",
+      "meaning": "物事のやり方、態度、振る舞い。複数形 manners では礼儀作法を表すことがある。"
+    },
+    "marmalade": {
+      "pos": "名詞",
+      "meaning": "柑橘の皮を含む英国で典型的な保存食。",
+      "tags": [
+        "British English",
+        "food"
+      ]
+    },
+    "matter": {
+      "pos": "名詞",
+      "meaning": "問題、事柄、案件。"
+    },
+    "mentally": {
+      "pos": "副詞",
+      "meaning": "心・精神・思考に関して。"
+    },
+    "murderer": {
+      "pos": "名詞",
+      "meaning": "殺人を犯した人。"
+    },
+    "near shave": {
+      "pos": "熟語",
+      "meaning": "shave「かすめるほど近い」から、危機一髪。",
+      "tags": [
+        "British English",
+        "idiom",
+        "chunk"
+      ]
+    },
+    "necessary": {
+      "pos": "形容詞",
+      "meaning": "目的の達成や状況への対応のために必要である。"
+    },
+    "not a hope": {
+      "pos": "定型表現",
+      "meaning": "可能性がまったくない、望みがない。",
+      "tags": [
+        "informal"
+      ]
+    },
+    "not a Red, just pale pink": {
+      "pos": "定型表現",
+      "meaning": "政治的立場を色で表し、共産主義者ではないが穏健な左派寄りだと冗談めかして示す表現。",
+      "tags": [
+        "political-metaphor",
+        "dated"
+      ]
+    },
+    "nowadays": {
+      "pos": "副詞",
+      "meaning": "過去と対比して「現代では」。"
+    },
+    "nylons from Gibraltar": {
+      "pos": "名詞句",
+      "meaning": "Gibraltarで入手したナイロン製品を指す表現。",
+      "tags": [
+        "period-culture"
+      ]
+    },
+    "old tabbies' delight": {
+      "pos": "名詞句",
+      "meaning": "年配の女性たちが特に喜びそうな場所・もの、という古風でからかいを含む表現。",
+      "tags": [
+        "British",
+        "dated",
+        "informal"
+      ]
+    },
+    "on one’s way": {
+      "pos": "定型表現",
+      "meaning": "目的地へ移動中であることを表す。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "on tiptoe": {
+      "pos": "副詞句",
+      "meaning": "tiptoe「つま先」で静かに動く。",
+      "tags": [
+        "collocation",
+        "chunk"
+      ]
+    },
+    "only just": {
+      "pos": "定型表現",
+      "meaning": "時間的な「つい今」と程度の「ぎりぎり」の二用法がある。",
+      "tags": [
+        "context",
+        "chunk"
+      ]
+    },
+    "particularly": {
+      "pos": "副詞",
+      "meaning": "特に、とりわけ。"
+    },
+    "peaceful": {
+      "pos": "形容詞",
+      "meaning": "争い・騒音・混乱がなく、穏やかで静かな。"
+    },
+    "peculiar": {
+      "pos": "形容詞",
+      "meaning": "普通と違って奇妙な。また特有の。"
+    },
+    "pinch": {
+      "pos": "動詞・名詞",
+      "meaning": "指などでつまむ。また口語では、物を盗む・無断で取るという意味になることがある。",
+      "tags": [
+        "informal-sense"
+      ]
+    },
+    "police force": {
+      "pos": "名詞",
+      "meaning": "警察組織、警察官全体。"
+    },
+    "policeman": {
+      "pos": "名詞",
+      "meaning": "男性の警察官を指す語。現代では police officer などの性別を限定しない表現も一般的。"
+    },
+    "politics": {
+      "pos": "名詞",
+      "meaning": "政府、権力、公共政策、政党などに関わる政治活動・政治問題。"
+    },
+    "positively": {
+      "pos": "副詞",
+      "meaning": "肯定的に、または程度を強く断定して「まったく」。",
+      "tags": [
+        "dated",
+        "context"
+      ]
+    },
+    "practically": {
+      "pos": "副詞",
+      "meaning": "ほとんど、実質的に。また実用的な観点では。"
+    },
+    "present": {
+      "pos": "形容詞・名詞",
+      "meaning": "「目の前・今ここにある」が形容詞の中心。名詞では贈り物。",
+      "tags": [
+        "context"
+      ]
+    },
+    "protection": {
+      "pos": "名詞",
+      "meaning": "危険・害を防いで守ること。"
+    },
+    "pure": {
+      "pos": "形容詞",
+      "meaning": "他の物が混じっていない。また比喩的に、完全にその性質だけを持つ。"
+    },
+    "purpose": {
+      "pos": "名詞",
+      "meaning": "何かを行う理由、達成しようとする目的。"
+    },
+    "quite": {
+      "pos": "副詞",
+      "meaning": "British English では形容詞によって「かなり」と「完全に」の両方を取る。",
+      "tags": [
+        "British English",
+        "context"
+      ]
+    },
+    "radiator": {
+      "pos": "名詞",
+      "meaning": "温水・蒸気などで室内を暖める装置。"
+    },
+    "rather": {
+      "pos": "副詞",
+      "meaning": "British English で程度を控えめに強めることが多い。",
+      "tags": [
+        "British English",
+        "context"
+      ]
+    },
+    "reference": {
+      "pos": "名詞",
+      "meaning": "参照、言及。また人物の経歴・信用を証明する推薦状・照会先。"
+    },
+    "regulation": {
+      "pos": "名詞",
+      "meaning": "組織・制度が正式に定めたルール。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "reserve": {
+      "pos": "名詞",
+      "meaning": "必要時に使うため取っておくもの。",
+      "tags": [
+        "context"
+      ]
+    },
+    "responsibility": {
+      "pos": "名詞",
+      "meaning": "行うべき義務、または結果について引き受ける責任。"
+    },
+    "ring up": {
+      "pos": "句動詞",
+      "meaning": "英国英語で特に普通の「電話する」。",
+      "tags": [
+        "British English",
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "robber": {
+      "pos": "名詞",
+      "meaning": "人や場所から力・脅しなどを用いて物を奪う者、強盗。"
+    },
+    "ruddy": {
+      "pos": "形容詞",
+      "meaning": "英国口語で bloody を弱めたような強調・悪態。",
+      "tags": [
+        "British English",
+        "informal",
+        "dated"
+      ]
+    },
+    "scrambled eggs": {
+      "pos": "名詞句",
+      "meaning": "溶いた卵を混ぜながら加熱した料理。",
+      "tags": [
+        "food"
+      ]
+    },
+    "see to": {
+      "pos": "句動詞",
+      "meaning": "必要なことを確実に行う。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "sergeant": {
+      "pos": "名詞",
+      "meaning": "警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。"
+    },
+    "serious": {
+      "pos": "形容詞",
+      "meaning": "重大で注意を要する。また、冗談ではなく本気の。"
+    },
+    "serve its purpose": {
+      "pos": "定型表現",
+      "meaning": "意図された目的・役割を果たす。"
+    },
+    "serve liquor without a licence": {
+      "pos": "動詞句",
+      "meaning": "必要な許可を得ずに酒類を提供する。"
+    },
+    "shan’t": {
+      "pos": "短縮表現",
+      "meaning": "shall not の短縮。現代では主に英国英語で古風・限定的。",
+      "tags": [
+        "British English",
+        "dated",
+        "chunk"
+      ]
+    },
+    "sit on the Bench": {
+      "pos": "動詞句",
+      "meaning": "裁判官・治安判事として法廷で職務を行う。",
+      "tags": [
+        "legal"
+      ]
+    },
+    "ski": {
+      "pos": "名詞・動詞",
+      "meaning": "雪上を滑走するための細長い板。またスキーで滑る。"
+    },
+    "sleuth": {
+      "pos": "名詞",
+      "meaning": "探偵、捜査をする人。しばしば冗談めいた語。",
+      "tags": [
+        "informal"
+      ]
+    },
+    "snowdrift": {
+      "pos": "名詞",
+      "meaning": "風で吹き寄せられてできた雪の吹きだまり。"
+    },
+    "snowed up": {
+      "pos": "形容詞的表現",
+      "meaning": "大雪で道路や建物がふさがれ、移動できない。",
+      "tags": [
+        "British"
+      ]
+    },
+    "socialist": {
+      "pos": "名詞・形容詞",
+      "meaning": "社会主義を支持する人。また、社会主義に関する。",
+      "tags": [
+        "politics"
+      ]
+    },
+    "staff": {
+      "pos": "名詞",
+      "meaning": "組織・施設で働く職員・従業員の集団。"
+    },
+    "stoke": {
+      "pos": "動詞",
+      "meaning": "炉・火に燃料を足して燃焼を保つ。"
+    },
+    "stoke the Aga": {
+      "pos": "定型表現",
+      "meaning": "Aga は英国で知られる蓄熱式レンジ。stoke は燃料を足して火力を保つ。",
+      "tags": [
+        "British English",
+        "culture",
+        "chunk"
+      ]
+    },
+    "superintendent": {
+      "pos": "名詞",
+      "meaning": "英国警察では階級名 Superintendent。",
+      "tags": [
+        "British English",
+        "police"
+      ]
+    },
+    "sweeper": {
+      "pos": "名詞",
+      "meaning": "sweep する人・もの。文脈でどちらかを判断する。",
+      "tags": [
+        "context"
+      ]
+    },
+    "tactics": {
+      "pos": "名詞",
+      "meaning": "目的達成のための具体的な手段・作戦。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "talk of the devil": {
+      "pos": "慣用表現",
+      "meaning": "噂をしていた本人がちょうど現れた時に使う表現。"
+    },
+    "telephone line": {
+      "pos": "名詞",
+      "meaning": "電話通信を伝える回線。"
+    },
+    "thief": {
+      "pos": "名詞",
+      "meaning": "他人の物を盗む人、泥棒。"
+    },
+    "tin": {
+      "pos": "名詞",
+      "meaning": "金属の錫。また英国英語で缶・缶詰。",
+      "tags": [
+        "British-sense"
+      ]
+    },
+    "tinpot regulation": {
+      "pos": "名詞句",
+      "meaning": "取るに足りない、くだらないと見なされる規則。",
+      "tags": [
+        "informal",
+        "derogatory"
+      ]
+    },
+    "trek": {
+      "pos": "名詞・動詞",
+      "meaning": "長く、しばしば困難な道のりを移動すること。また、そのように移動する。"
+    },
+    "trusting": {
+      "pos": "形容詞",
+      "meaning": "人を疑わず信じやすい。"
+    },
+    "turn away": {
+      "pos": "句動詞",
+      "meaning": "人の入場・受入れを拒んで帰らせる。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "turn down": {
+      "pos": "句動詞",
+      "meaning": "音量・強さなどを下げる、または提案等を断る。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "turn out": {
+      "pos": "句動詞",
+      "meaning": "外へ出す、追い出す。結果的に～になる、判明する。"
+    },
+    "turn up": {
+      "pos": "句動詞",
+      "meaning": "予定外・突然に姿を現す。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "unbalanced": {
+      "pos": "形容詞",
+      "meaning": "均衡が取れていない。人について古くは、精神状態が不安定だという意味でも使われる。",
+      "tags": [
+        "dated-person-sense"
+      ]
+    },
+    "under someone’s roof": {
+      "pos": "定型表現",
+      "meaning": "人の家・建物の中で生活・宿泊して。"
+    },
+    "upset": {
+      "pos": "形容詞・動詞",
+      "meaning": "心を乱され、動揺・不安・不快を感じている。また、人をその状態にする。"
+    },
+    "urgent": {
+      "pos": "形容詞",
+      "meaning": "すぐ対応する必要がある。"
+    },
+    "whatever": {
+      "pos": "代名詞・限定詞",
+      "meaning": "範囲を限定せず「何でも」。譲歩強調にも使う。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    "wherever": {
+      "pos": "副詞",
+      "meaning": "場所について範囲を限定しない複合関係語。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    "wireless": {
+      "pos": "名詞",
+      "meaning": "英国で radio を指す古い語。wireless set の短縮。",
+      "tags": [
+        "British English",
+        "dated"
+      ]
+    },
+    "would you mind": {
+      "pos": "定型表現",
+      "meaning": "mind「嫌がる」を使う丁寧な依頼。",
+      "tags": [
+        "polite",
+        "grammar",
+        "chunk"
+      ]
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "blockId": "block-2",
+  "sceneId": "act1-scene2",
+  "purpose": "Second-pass B1+ coverage additions after context-first selection. Context-specific entries belong in block-2-line-vocabulary.json.",
+  "selectionPolicy": {
+    "baseline": "CEFR-aligned learner vocabulary; conservatively include plausible B1+ items and prefer over-inclusion to omission.",
+    "contextMeaning": "Always empty in this file."
+  },
+  "lines": {
+    "act1-scene2-speech-0002": [
+      {
+        "surface": "homemade",
+        "lemma": "homemade",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0011": [
+      {
+        "surface": "comfortable",
+        "lemma": "comfortable",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0017": [
+      {
+        "surface": "mentally",
+        "lemma": "mentally",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0024": [
+      {
+        "surface": "exercise",
+        "lemma": "exercise",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0027": [
+      {
+        "surface": "housework",
+        "lemma": "housework",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0033": [
+      {
+        "surface": "responsibilities",
+        "lemma": "responsibility",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0035": [
+      {
+        "surface": "Socialist",
+        "lemma": "socialist",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0036": [
+      {
+        "surface": "politics",
+        "lemma": "politics",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0047": [
+      {
+        "surface": "distracting",
+        "lemma": "distracting",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0058": [
+      {
+        "surface": "purpose",
+        "lemma": "purpose",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0063": [
+      {
+        "surface": "annoy",
+        "lemma": "annoy",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0067": [
+      {
+        "surface": "peaceful",
+        "lemma": "peaceful",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "pure",
+        "lemma": "pure",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0072": [
+      {
+        "surface": "fear",
+        "lemma": "fear",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0076": [
+      {
+        "surface": "disappoint",
+        "lemma": "disappoint",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0083": [
+      {
+        "surface": "confident",
+        "lemma": "confident",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0085": [
+      {
+        "surface": "instructions",
+        "lemma": "instruction",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0094": [
+      {
+        "surface": "serious",
+        "lemma": "serious",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0099": [
+      {
+        "surface": "manners",
+        "lemma": "manner",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0103": [
+      {
+        "surface": "educated",
+        "lemma": "educated",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0107": [
+      {
+        "surface": "advice",
+        "lemma": "advice",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0120": [
+      {
+        "surface": "upset",
+        "lemma": "upset",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0121": [
+      {
+        "surface": "difficult",
+        "lemma": "difficult",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0128": [
+      {
+        "surface": "trusting",
+        "lemma": "trusting",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0130": [
+      {
+        "surface": "thief",
+        "lemma": "thief",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "robber",
+        "lemma": "robber",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0140": [
+      {
+        "surface": "sergeant",
+        "lemma": "sergeant",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0146": [
+      {
+        "surface": "Detective",
+        "lemma": "detective",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Sergeant",
+        "lemma": "sergeant",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "skis",
+        "lemma": "ski",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0149": [
+      {
+        "surface": "police force",
+        "lemma": "police force",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0156": [
+      {
+        "surface": "sergeant",
+        "lemma": "sergeant",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0166": [
+      {
+        "surface": "line",
+        "lemma": "telephone line",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0173": [
+      {
+        "surface": "necessary",
+        "lemma": "necessary",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0177": [
+      {
+        "surface": "matter",
+        "lemma": "matter",
+        "contextMeaning": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,1153 @@
+{
+  "schemaVersion": 1,
+  "blockId": "block-2",
+  "sceneId": "act1-scene2",
+  "processedSpeechRange": [
+    1,
+    178
+  ],
+  "processedSpeechCount": 178,
+  "policy": {
+    "contextFirst": true,
+    "threshold": "Conservatively include vocabulary plausibly at CEFR B1 or above; when level is uncertain, include rather than exclude.",
+    "alsoInclude": [
+      "idiom",
+      "phrasal verb",
+      "British/dated usage",
+      "culture-specific expression",
+      "context-sensitive lower-level expression"
+    ],
+    "contextMeaningRule": "Write contextMeaning only when the local dramatic meaning, pragmatic force, idiomatic value, euphemism, irony, social force, period usage or figurative sense materially differs from a neutral dictionary gloss. Otherwise use an empty string.",
+    "outline": "data/mousetrap_context_outline.json#outlines.block-2",
+    "uiFuture": "A non-empty contextMeaning will later trigger highlight in addition to the normal underline. UI is intentionally not modified in this block."
+  },
+  "lines": {
+    "act1-scene2-speech-0001": [
+      {
+        "surface": "dishonest",
+        "lemma": "dishonest",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "only just",
+        "lemma": "only just",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0002": [
+      {
+        "surface": "'s got to",
+        "lemma": "got to",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Scrambled eggs",
+        "lemma": "scrambled eggs",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "marmalade",
+        "lemma": "marmalade",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0003": [
+      {
+        "surface": "Amateurs",
+        "lemma": "amateur",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "staff",
+        "lemma": "staff",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0005": [
+      {
+        "surface": "Cornbeef",
+        "lemma": "cornbeef",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0006": [
+      {
+        "surface": "disguised",
+        "lemma": "disguised",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "cornbeef",
+        "lemma": "cornbeef",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0007": [
+      {
+        "surface": "radiators",
+        "lemma": "radiator",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0008": [
+      {
+        "surface": "At least",
+        "lemma": "at least",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0009": [
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "adequate",
+        "lemma": "adequate",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "peculiar",
+        "lemma": "peculiar",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0010": [
+      {
+        "surface": "First come, first served",
+        "lemma": "first come, first served",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0011": [
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "impression",
+        "lemma": "impression",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "altogether",
+        "lemma": "altogether",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "bridge",
+        "lemma": "bridge",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "amenities",
+        "lemma": "amenity",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0012": [
+      {
+        "surface": "old tabbies' delight",
+        "lemma": "old tabbies' delight",
+        "contextMeaning": "Major MetcalfがMrs. Boyleの期待する、年配の女性客が喜びそうな保守的で快適な宿をからかって表現している。Mrs. Boyle自身への軽い皮肉。"
+      }
+    ],
+    "act1-scene2-speech-0013": [
+      {
+        "surface": "I beg your pardon",
+        "lemma": "beg your pardon",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0014": [
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0015": [
+      {
+        "surface": "shan't",
+        "lemma": "shan’t",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0017": [
+      {
+        "surface": "peculiar",
+        "lemma": "peculiar",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Unbalanced",
+        "lemma": "unbalanced",
+        "contextMeaning": "Mrs. BoyleがChristopherを「精神的に不安定なのでは」と決めつけている侮蔑的な評価。医学的な診断を述べているわけではない。"
+      },
+      {
+        "surface": "I shouldn't wonder",
+        "lemma": "I shouldn’t wonder",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0018": [
+      {
+        "surface": "lunatic",
+        "lemma": "lunatic",
+        "contextMeaning": "Major MetcalfがMrs. Boyleの疑いに合わせて「精神病院から逃げてきたと思うのか」と皮肉っぽく返している。Christopherについての事実ではない。"
+      },
+      {
+        "surface": "escaped from a lunatic asylum",
+        "lemma": "escape from a lunatic asylum",
+        "contextMeaning": "Mrs. Boyleの「Christopherは精神的におかしい」という決めつけをMajor Metcalfが冗談めかして誇張している。事実を示す発言ではない。"
+      }
+    ],
+    "act1-scene2-speech-0027": [
+      {
+        "surface": "incredible",
+        "lemma": "incredible",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "sweeper",
+        "lemma": "sweeper",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0028": [
+      {
+        "surface": "convenient",
+        "lemma": "convenient",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0030": [
+      {
+        "surface": "hostess",
+        "lemma": "hostess",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0031": [
+      {
+        "surface": "haphazard",
+        "lemma": "haphazard",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "amateurish",
+        "lemma": "amateurish",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "staff",
+        "lemma": "staff",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0032": [
+      {
+        "surface": "nowadays",
+        "lemma": "nowadays",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0034": [
+      {
+        "surface": "Got the bit between their teeth",
+        "lemma": "get the bit between one's teeth",
+        "contextMeaning": "ここでは「下の階級の人々が自分たちの意思で動くようになり、雇う側が思い通りに扱えなくなった」という比喩。CasewellはMrs. Boyleの階級意識をからかっている。"
+      }
+    ],
+    "act1-scene2-speech-0036": [
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "abroad",
+        "lemma": "abroad",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "not a Red ― just pale pink",
+        "lemma": "not a Red, just pale pink",
+        "contextMeaning": "政治色を色でたとえた冗談。「共産主義者というほどではなく、せいぜい少し左寄り」という自己説明。"
+      }
+    ],
+    "act1-scene2-speech-0037": [
+      {
+        "surface": "abroad",
+        "lemma": "abroad",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0039": [
+      {
+        "surface": "gone sadly downhill",
+        "lemma": "go downhill",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0042": [
+      {
+        "surface": "business",
+        "lemma": "business",
+        "contextMeaning": "Casewellが英国で片づける必要のある個人的な用事・案件を指す。何の用事なのかはこの時点では明かしていない。"
+      },
+      {
+        "surface": "see to",
+        "lemma": "see to",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "go back",
+        "lemma": "go back",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0047": [
+      {
+        "surface": "Would you mind",
+        "lemma": "would you mind",
+        "contextMeaning": "形式上は丁寧な依頼だが、Mrs. Boyleがラジオの音を下げるようCasewellに求める苦情・要求。"
+      },
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "rather",
+        "lemma": "rather",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0049": [
+      {
+        "surface": "particularly",
+        "lemma": "particularly",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0050": [
+      {
+        "surface": "favourite",
+        "lemma": "favourite",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0054": [
+      {
+        "surface": "Hullo",
+        "lemma": "Hullo",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0055": [
+      {
+        "surface": "Wherever",
+        "lemma": "wherever",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "positively",
+        "lemma": "positively",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "hunt me down",
+        "lemma": "hunt someone down",
+        "contextMeaning": "Mrs. BoyleがChristopherを本当に追跡しているのではなく、「どこへ行っても現れて自分をにらむ」と大げさに不満を言っている。"
+      }
+    ],
+    "act1-scene2-speech-0056": [
+      {
+        "surface": "Turn it down",
+        "lemma": "turn down",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0058": [
+      {
+        "surface": "served its purpose",
+        "lemma": "serve its purpose",
+        "contextMeaning": "ラジオを大きくしてMrs. Boyleを別室へ行かせ、Casewellが暖かい椅子を取るという作戦が目的を果たした、という意味。"
+      }
+    ],
+    "act1-scene2-speech-0060": [
+      {
+        "surface": "Tactics",
+        "lemma": "tactics",
+        "contextMeaning": "ラジオを利用してMrs. Boyleを暖かい椅子から追い出し、自分が座るための「作戦」という意味。"
+      }
+    ],
+    "act1-scene2-speech-0062": [
+      {
+        "surface": "pinched",
+        "lemma": "pinch",
+        "contextMeaning": "ここでは椅子を本当に盗んだのではなく、Mrs. Boyleが「一番いい椅子を先に取っていた」という口語的な意味。"
+      }
+    ],
+    "act1-scene2-speech-0064": [
+      {
+        "surface": "Not a hope",
+        "lemma": "not a hope",
+        "contextMeaning": "雪がひどいため、Mrs. Boyleが今すぐ宿を出ていける可能性は「まったくない」という口語表現。"
+      }
+    ],
+    "act1-scene2-speech-0066": [
+      {
+        "surface": "lots of things may have happened",
+        "lemma": "a lot may happen",
+        "contextMeaning": "雪が解けるまでに状況が大きく変わっているかもしれない、という意図的に不穏で曖昧な言い方。何が起こるかは明言していない。"
+      }
+    ],
+    "act1-scene2-speech-0067": [
+      {
+        "surface": "rather",
+        "lemma": "rather",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0072": [
+      {
+        "surface": "chilblains",
+        "lemma": "chilblain",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0073": [
+      {
+        "surface": "grim",
+        "lemma": "grim",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0077": [
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Superintendent",
+        "lemma": "superintendent",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "impossible",
+        "lemma": "impossible",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "snowed up",
+        "lemma": "snowed up",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "impassable",
+        "lemma": "impassable",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "get through",
+        "lemma": "get through",
+        "contextMeaning": "ここでは電話がつながることではなく、大雪で道路を物理的に通り抜けてMonkswell Manorまで来ること。"
+      },
+      {
+        "surface": "Hullo",
+        "lemma": "Hullo",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0079": [
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "rung up",
+        "lemma": "ring up",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0080": [
+      {
+        "surface": "liquor",
+        "lemma": "liquor",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "licence",
+        "lemma": "licence",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Serving liquor without a licence",
+        "lemma": "serve liquor without a licence",
+        "contextMeaning": "Casewellが突然の警察電話を、宿が無許可で酒を出した程度の問題ではないかと冗談で推測している。実際の容疑を示しているわけではない。"
+      }
+    ],
+    "act1-scene2-speech-0081": [
+      {
+        "surface": "inspector",
+        "lemma": "inspector",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0083": [
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0084": [
+      {
+        "surface": "get through",
+        "lemma": "get through",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0085": [
+      {
+        "surface": "Just",
+        "lemma": "just",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "implicitly",
+        "lemma": "implicitly",
+        "contextMeaning": "ここでは「暗黙のうちに」ではなく、「Sergeant Trotterの指示に完全に従い、勝手に変えないで」という古めの用法。"
+      },
+      {
+        "surface": "extraordinary",
+        "lemma": "extraordinary",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0087": [
+      {
+        "surface": "those nylons from Gibraltar",
+        "lemma": "nylons from Gibraltar",
+        "contextMeaning": "Mollieが警察電話の理由を不安になって探し、Gibraltarで入手したナイロン製品が何か問題だったのかと推測している。詳細はこの場面では説明されない。"
+      }
+    ],
+    "act1-scene2-speech-0088": [
+      {
+        "surface": "wireless",
+        "lemma": "wireless",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "licence",
+        "lemma": "licence",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0090": [
+      {
+        "surface": "rather",
+        "lemma": "rather",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "a near shave",
+        "lemma": "near shave",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "entirely",
+        "lemma": "entirely",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0092": [
+      {
+        "surface": "regulation",
+        "lemma": "regulation",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "practically",
+        "lemma": "practically",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "nowadays",
+        "lemma": "nowadays",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "tinpot regulation",
+        "lemma": "tinpot regulation",
+        "contextMeaning": "Gilesが、宿を経営する上で知らずに破ったかもしれない「くだらない細かな役所の規則」と軽蔑して呼んでいる。"
+      }
+    ],
+    "act1-scene2-speech-0093": [
+      {
+        "surface": "snowed up",
+        "lemma": "snowed up",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "cross",
+        "lemma": "cross",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "go through",
+        "lemma": "go through",
+        "contextMeaning": "ここでは缶詰の備蓄を「経験する」のではなく、雪で閉じ込められている間に使い果たしてしまうこと。"
+      },
+      {
+        "surface": "reserve",
+        "lemma": "reserve",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "tins",
+        "lemma": "tin",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0094": [
+      {
+        "surface": "going all right",
+        "lemma": "go all right",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "coalscuttles",
+        "lemma": "coalscuttle",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "stoked the Aga",
+        "lemma": "stoke the Aga",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "kindling",
+        "lemma": "kindling",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "come to think of it",
+        "lemma": "come to think of it",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "trekking",
+        "lemma": "trek",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "urgent",
+        "lemma": "urgent",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0095": [
+      {
+        "surface": "central heating",
+        "lemma": "central heating",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "practically",
+        "lemma": "practically",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0096": [
+      {
+        "surface": "coke",
+        "lemma": "coke",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0097": [
+      {
+        "surface": "guineas",
+        "lemma": "guinea",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0098": [
+      {
+        "surface": "stoke",
+        "lemma": "stoke",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0099": [
+      {
+        "surface": "extraordinary",
+        "lemma": "extraordinary",
+        "contextMeaning": "Mrs. BoyleはChristopherを「並外れて優秀」と褒めているのではなく、服装や態度が非常に変わっていて怪しい、と批判している。"
+      }
+    ],
+    "act1-scene2-speech-0100": [
+      {
+        "surface": "architect",
+        "lemma": "architect",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0101": [
+      {
+        "surface": "I beg your pardon",
+        "lemma": "beg your pardon",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0102": [
+      {
+        "surface": "architect",
+        "lemma": "architect",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0103": [
+      {
+        "surface": "architect",
+        "lemma": "architect",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0104": [
+      {
+        "surface": "architect",
+        "lemma": "architect",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "turned out",
+        "lemma": "turn out",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0105": [
+      {
+        "surface": "enquiries",
+        "lemma": "enquiry",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "fishy story",
+        "lemma": "fishy story",
+        "contextMeaning": "Mrs. BoyleがChristopherの名前と職業の説明を「どうも怪しい、信用しにくい話だ」と疑っている。魚に関する意味ではない。"
+      }
+    ],
+    "act1-scene2-speech-0106": [
+      {
+        "surface": "Just",
+        "lemma": "just",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "guineas",
+        "lemma": "guinea",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "It doesn't matter",
+        "lemma": "it doesn’t matter",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0107": [
+      {
+        "surface": "inexperienced",
+        "lemma": "inexperienced",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "knowledgeable",
+        "lemma": "knowledgeable",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "foreigner",
+        "lemma": "foreigner",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0110": [
+      {
+        "surface": "bona fide traveller",
+        "lemma": "bona fide traveller",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "against the law",
+        "lemma": "against the law",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "turn away",
+        "lemma": "turn away",
+        "contextMeaning": "宿泊を求める正当な旅行者を、宿側が受け入れず追い返すこと。"
+      }
+    ],
+    "act1-scene2-speech-0112": [
+      {
+        "surface": "magistrate",
+        "lemma": "magistrate",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "sitting on the Bench",
+        "lemma": "sit on the Bench",
+        "contextMeaning": "ここではベンチに座ることではなく、Mrs. Boyleが治安判事として法廷で職務をしていたこと。"
+      }
+    ],
+    "act1-scene2-speech-0113": [
+      {
+        "surface": "whatever",
+        "lemma": "whatever",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0114": [
+      {
+        "surface": "talk of the devil",
+        "lemma": "talk of the devil",
+        "contextMeaning": "噂をしていた本人Paraviciniがちょうど現れたことを指す慣用表現。Paraviciniは自分を「devil」に重ねて芝居がかって言っている。"
+      }
+    ],
+    "act1-scene2-speech-0115": [
+      {
+        "surface": "come in",
+        "lemma": "come in",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0116": [
+      {
+        "surface": "came in",
+        "lemma": "come in",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "on tiptoe",
+        "lemma": "on tiptoe",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0119": [
+      {
+        "surface": "get on with",
+        "lemma": "get on with",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0120": [
+      {
+        "surface": "hostess",
+        "lemma": "hostess",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0121": [
+      {
+        "surface": "rather",
+        "lemma": "rather",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0122": [
+      {
+        "surface": "makes them easy",
+        "lemma": "make things easy",
+        "contextMeaning": "雪が「物事を簡単にする」とParaviciniが意味深に言う。何が容易になるのかをわざと説明せず、不穏さを作っている。"
+      }
+    ],
+    "act1-scene2-speech-0124": [
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0125": [
+      {
+        "surface": "daresay",
+        "lemma": "daresay",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "make a go of it",
+        "lemma": "make a go of it",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0128": [
+      {
+        "surface": "references",
+        "lemma": "reference",
+        "contextMeaning": "ここでは一般的な「参照」ではなく、宿泊客の身元・信用を確認するための紹介状や信用照会のこと。"
+      }
+    ],
+    "act1-scene2-speech-0129": [
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0130": [
+      {
+        "surface": "advisable",
+        "lemma": "advisable",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "turn up",
+        "lemma": "turn up",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "snowdrift",
+        "lemma": "snowdrift",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "fugitive",
+        "lemma": "fugitive",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "murderer",
+        "lemma": "murderer",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "sleep under your roof",
+        "lemma": "under someone’s roof",
+        "contextMeaning": "同じ屋根の下で眠る、つまり自分の宿・家に泊めている人々を指す。"
+      },
+      {
+        "surface": "fugitive from justice",
+        "lemma": "fugitive from justice",
+        "contextMeaning": "法の追及から逃げている逃亡者。Paraviciniは自分もそうかもしれないと仮定してMollieを不安にさせているだけで、告白ではない。"
+      }
+    ],
+    "act1-scene2-speech-0132": [
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0136": [
+      {
+        "surface": "cloakroom",
+        "lemma": "cloakroom",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0140": [
+      {
+        "surface": "rang up",
+        "lemma": "ring up",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Just",
+        "lemma": "just",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0141": [
+      {
+        "surface": "ruddy",
+        "lemma": "ruddy",
+        "contextMeaning": "Gilesが質の悪いコークスへの苛立ちを込めて使う、比較的弱い罵り・強調語。「赤い」という意味ではない。"
+      },
+      {
+        "surface": "coke",
+        "lemma": "coke",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Hullo",
+        "lemma": "Hullo",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0142": [
+      {
+        "surface": "on their way",
+        "lemma": "on one’s way",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0143": [
+      {
+        "surface": "get through",
+        "lemma": "get through",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "drifts",
+        "lemma": "drift",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "banked up",
+        "lemma": "bank up",
+        "contextMeaning": "ここでは暖炉の燃料を積む意味ではなく、雪が道路脇・道路上に高く吹きだまって通行を妨げていること。"
+      }
+    ],
+    "act1-scene2-speech-0149": [
+      {
+        "surface": "nowadays",
+        "lemma": "nowadays",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "enjoying themselves at winter sports",
+        "lemma": "enjoy oneself at winter sports",
+        "contextMeaning": "Mrs. Boyleが、警官がスキーで来たことを「税金で冬のスポーツを楽しんでいる」と皮肉っている。Trotterは遊びに来たのではない。"
+      }
+    ],
+    "act1-scene2-speech-0152": [
+      {
+        "surface": "hearty",
+        "lemma": "hearty",
+        "contextMeaning": "Christopherが、雪まみれで元気そうなTrotterを「いかにも健康的で快活そう」と少しからかう調子で評している。"
+      }
+    ],
+    "act1-scene2-speech-0153": [
+      {
+        "surface": "policeman",
+        "lemma": "policeman",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "A policeman ― skiing!",
+        "lemma": "a policeman skiing",
+        "contextMeaning": "Mrs. Boyleが、警察官がスキーで現れたことを非常識・滑稽だと感じて驚いている。"
+      }
+    ],
+    "act1-scene2-speech-0157": [
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0158": [
+      {
+        "surface": "hearty",
+        "lemma": "hearty",
+        "contextMeaning": "Christopherが先ほどと同じくTrotterの健康的で活動的な印象をからかい気味に繰り返している。"
+      }
+    ],
+    "act1-scene2-speech-0162": [
+      {
+        "surface": "attractive",
+        "lemma": "attractive",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "policemen",
+        "lemma": "policeman",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0164": [
+      {
+        "surface": "Hullo",
+        "lemma": "Hullo",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "telephone is dead",
+        "lemma": "dead telephone",
+        "contextMeaning": "電話機が壊れたというより、回線が切れて外部へ電話できない状態。"
+      }
+    ],
+    "act1-scene2-speech-0167": [
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "cut off",
+        "lemma": "cut off",
+        "contextMeaning": "雪で道路が遮断され、さらに電話も使えなくなり、外部との移動・通信の両方が断たれた状態。"
+      }
+    ],
+    "act1-scene2-speech-0170": [
+      {
+        "surface": "sleuth",
+        "lemma": "sleuth",
+        "contextMeaning": "Trotterを探偵役のように芝居がかって呼ぶ、Christopherの冗談めいた表現。"
+      }
+    ],
+    "act1-scene2-speech-0171": [
+      {
+        "surface": "business",
+        "lemma": "business",
+        "contextMeaning": "商売ではなく、TrotterがMonkswell Manorへ来た警察上の本題・正式な用件。"
+      },
+      {
+        "surface": "get to business",
+        "lemma": "get to business",
+        "contextMeaning": "雑談や到着の処理を終えて、警察官として来た本来の用件の説明を始めること。"
+      }
+    ],
+    "act1-scene2-speech-0173": [
+      {
+        "surface": "present",
+        "lemma": "present",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0174": [
+      {
+        "surface": "I beg your pardon",
+        "lemma": "beg your pardon",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0177": [
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "protection",
+        "lemma": "protection",
+        "contextMeaning": "犯罪の処罰ではなく、誰かが危険にさらされる可能性があるため警察が守る必要がある、という意味。この時点では誰を何から守るのかはまだ説明されていない。"
+      }
+    ],
+    "act1-scene2-speech-0178": [
+      {
+        "surface": "protection",
+        "lemma": "protection",
+        "contextMeaning": "Mollieが「警察の保護？」と驚いて聞き返している。具体的な危険の内容はまだ知らされていない。"
+      }
+    ]
+  }
+}
