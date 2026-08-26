@@ -1,41 +1,62 @@
-name: Apply Study Validator Fix
+name: App Production QA
 
 on:
-  push:
-    branches: ['feature/study-ui-rebuild-v2']
+  pull_request:
     paths:
-      - 'scripts/fix-study-validator-v2.mjs'
+      - 'app/**'
+      - 'data/**'
+      - 'mousetrap_*.json'
+      - 'scripts/**'
+      - '.github/workflows/app-qa.yml'
+  push:
+    branches-ignore: ['main']
+    paths:
+      - 'app/**'
+      - 'data/**'
+      - 'mousetrap_*.json'
+      - 'scripts/**'
       - '.github/workflows/app-qa.yml'
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  fix:
+  verify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: feature/study-ui-rebuild-v2
-          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Apply canonical validator correction
+      - name: Validate canonical source data
         run: |
-          if [ -f scripts/fix-study-validator-v2.mjs ]; then
-            node scripts/fix-study-validator-v2.mjs
-            rm -f scripts/fix-study-validator-v2.mjs scripts/rebuild-study-ui-v2.mjs
-          fi
-          node --check app/src/data-store.js
-      - name: Commit correction and remove one-time migrations
+          node scripts/validate-interpretation-scene.mjs act1-scene1
+          node scripts/validate-interpretation-scene.mjs act1-scene2
+          node scripts/validate-interpretation-scene.mjs act2
+          node scripts/validate-interpretation-truth-aware.mjs
+          python3 app/scripts/validate-chunking-v1.py --root . --structure app/mousetrap_line_structure.json --report /tmp/chunking-app-qa.json
+      - name: Validate runtime and assemble exact artifact
+        working-directory: app
         run: |
-          if git diff --quiet; then
-            echo 'No correction required.'
-            exit 0
-          fi
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add app/src/data-store.js scripts/fix-study-validator-v2.mjs scripts/rebuild-study-ui-v2.mjs
-          git commit -m 'Fix canonical Structure runtime validation and remove migrations'
-          git push origin HEAD:feature/study-ui-rebuild-v2
+          node --check src/config.js
+          node --check src/data-store.js
+          node --check src/main.js
+          node --check src/study/structure-model.js
+          node --check src/study/structure-view.js
+          node --check src/study/dictionary-sheet.js
+          node --check sw.js
+          node --check scripts/assemble-production.mjs
+          node tests/index_zero_static.mjs
+          node scripts/assemble-production.mjs --verify-only
+          node scripts/assemble-production.mjs --out-dir ../public
+          test -e ../public/mousetrap_line_interpretation.json
+          test -e ../public/src/study/structure-view.js
+          test -e ../public/src/study/dictionary-sheet.js
+      - name: Install browser QA
+        working-directory: app
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+      - name: Run complete UI regression
+        working-directory: app
+        run: npm run test:e2e
