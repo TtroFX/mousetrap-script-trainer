@@ -23,7 +23,18 @@ jobs:
         with:
           node-version: '22'
       - name: Apply canonical data/UI migration
-        run: python3 scripts/apply-canonical-vocab-structure-ui.py
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('scripts/apply-canonical-vocab-structure-ui.py')
+          s=p.read_text(encoding='utf-8')
+          old='new,n=re.subn(pattern,repl,text,count=1,flags=re.S)'
+          new='new,n=re.subn(pattern,lambda _match: repl,text,count=1,flags=re.S)'
+          if s.count(old)!=1:
+              raise SystemExit('regex helper patch target mismatch')
+          p.write_text(s.replace(old,new,1),encoding='utf-8')
+          PY
+          python3 scripts/apply-canonical-vocab-structure-ui.py
       - name: Validate syntax and production contract
         run: |
           node --check app/src/config.js
