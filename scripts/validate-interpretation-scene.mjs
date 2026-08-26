@@ -20,7 +20,11 @@ if (data.reviewedSpeechIds.length !== expectedIds.length) fail(`reviewed count $
 for (let i=0;i<expectedIds.length;i++) if (data.reviewedSpeechIds[i] !== expectedIds[i]) fail(`reviewed ID/order mismatch at ${i+1}`);
 if (new Set(data.reviewedSpeechIds).size !== expectedIds.length) fail('duplicate reviewed ID');
 const interpretations = data.interpretations || {};
-const allowedKinds = new Set(['context','reaction','emotion','tone','joke','dramatic','reference']);
+const allowedKinds = new Set([
+  'context','reaction','emotion','tone','joke','dramatic','reference',
+  'foreshadowing','truth','lie','concealment','feignedIgnorance','misdirection',
+  'evasion','mistakenBelief'
+]);
 let noteCount = 0;
 for (const [id, notes] of Object.entries(interpretations)) {
   if (!expectedSet.has(id)) fail(`interpretation outside scene: ${id}`);
@@ -42,4 +46,9 @@ if (data.qa?.reviewedSpeechCount !== expectedIds.length) fail('qa reviewedSpeech
 if (data.qa?.interpretationSpeechCount !== speechCount) fail('qa interpretationSpeechCount');
 if (data.qa?.interpretationNoteCount !== noteCount) fail('qa interpretationNoteCount');
 if (data.qa?.unreviewedSpeechCount !== 0) fail('qa unreviewedSpeechCount');
-console.log(JSON.stringify({status:'PASS',sceneId,reviewed:expectedIds.length,interpretedSpeeches:speechCount,notes:noteCount,withoutInterpretation:expectedIds.length-speechCount},null,2));
+if (data.qa?.truthAwareReview === 'PASS') {
+  if (data.policy?.fullPlayTruthAllowed !== true) fail('truth-aware policy missing');
+  if (data.qa?.fullPlayTruthChecked !== true) fail('fullPlayTruthChecked');
+  if (!Number.isInteger(data.qa?.truthAwareChangedSpeechCount) || data.qa.truthAwareChangedSpeechCount < 0) fail('truthAwareChangedSpeechCount');
+}
+console.log(JSON.stringify({status:'PASS',sceneId,reviewed:expectedIds.length,interpretedSpeeches:speechCount,notes:noteCount,withoutInterpretation:expectedIds.length-speechCount,truthAware:data.qa?.truthAwareReview || null},null,2));
