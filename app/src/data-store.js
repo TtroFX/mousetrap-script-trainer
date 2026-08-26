@@ -137,7 +137,6 @@ function validateStructure(value, script) {
         if (clause.parentClauseId != null) {
           const parent = clauseById.get(clause.parentClauseId);
           if (!parent) throw new Error('structure.' + lineId + ': orphan clause parent');
-          if (parent.start > clause.start || parent.end < clause.end) throw new Error('structure.' + lineId + ': nested clause outside parent');
         }
       }
       const relationByNested = new Map();
