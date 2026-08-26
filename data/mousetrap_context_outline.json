@@ -45,5 +45,122 @@
       "boundaryPolicy": "starts at the final selected natural break and continues to act end"
     }
   ],
-  "outlines": {}
+  "outlines": {
+    "block-1": {
+      "scope": {
+        "sceneId": "act1-scene1",
+        "firstSpeechId": "act1-scene1-speech-0001",
+        "lastSpeechId": "act1-scene1-speech-0190",
+        "speechCount": 190
+      },
+      "dramaticFunction": "Monkswell Manor is established as a newly opened, increasingly isolated guest house. The outside murder report is introduced before the guests assemble, then gradually moves from background radio news into the guests' own conversation. By the end of the scene the full group is effectively trapped together by the snow, creating the closed-circle situation on which the mystery depends.",
+      "startingState": "Mollie and Giles Ralston are preparing Monkswell Manor on the first day of operating it as a guest house. They are inexperienced, anxious for the opening to go well, and already under pressure from worsening snow. A radio report about the murder of Maureen Lyon supplies an ominous strand of information before most of the guests arrive.",
+      "endingState": "All expected guests have arrived and Paravicini has appeared unexpectedly after claiming his car was stranded in the snow. He explicitly points out that the weather is cutting the house off from civilization and predicts that there will be neither arrivals nor departures. The guest house has become a closed and potentially threatening social space.",
+      "globalThreads": [
+        {
+          "thread": "Culver Street murder",
+          "development": "The murder begins as a radio report, is repeated in the background, later becomes a topic of conversation among the guests, and is associated with a deliberately broad description of a man in a dark overcoat, light scarf and soft felt hat. The repeated report is dramatic foreshadowing, not incidental news."
+        },
+        {
+          "thread": "Snow and isolation",
+          "development": "The snow initially creates practical worries about roads, heating and supplies. Each arrival confirms that travel is worsening. Paravicini finally reframes the weather as total isolation from the outside world."
+        },
+        {
+          "thread": "Mollie and Giles as inexperienced hosts",
+          "development": "They joke about being new to the business, worry about payment, rooms, heating and food, and try to make a good first impression. Mrs. Boyle repeatedly attacks this inexperience, while Giles becomes more defensive and Mollie more anxious to please."
+        },
+        {
+          "thread": "Uncertainty about identity and character",
+          "development": "Christopher explicitly talks about never knowing what people are really like. Giles suspects Christopher's luggage and motives; Mollie finds Miss Casewell peculiar; Mrs. Boyle is openly hostile; Paravicini deliberately presents himself as a mysterious stranger. The scene repeatedly warns against taking people at face value."
+        },
+        {
+          "thread": "Social friction among the guests",
+          "development": "Christopher is flamboyant and intrusive, Mrs. Boyle critical and demanding, Miss Casewell dry and self-possessed, Major Metcalf outwardly conventional, and Paravicini theatrical and unsettling. These contrasts create both comic tension and suspicion."
+        }
+      ],
+      "beats": [
+        {
+          "beatId": "b1-01",
+          "speechRange": [1, 42],
+          "summary": "A radio bulletin reports the murder of Maureen Lyon and gives a description of a man wanted for interview. Mollie and Giles prepare the newly opened guest house, discuss the severe weather, their inexperience, prospective guests, money and practical arrangements. Their affectionate joking also establishes small tensions and foreshadows the possibility that their guests may not be what they seem. The murder report returns on the radio immediately before the first guest appears.",
+          "contextNotes": [
+            "Expressions about hotel keeping often carry joking or self-deprecating force rather than literal business terminology.",
+            "The weather vocabulary is both literal and structurally important because the snow will isolate the house.",
+            "Police wording such as 'anxious to interview' is formal and euphemistic in this context: the police want to locate and question the man in connection with the murder."
+          ]
+        },
+        {
+          "beatId": "b1-02",
+          "speechRange": [43, 74],
+          "summary": "Christopher Wren arrives first. He is highly enthusiastic about the house, talks rapidly about décor and period style, asks Mollie personal questions and behaves with deliberate theatricality. Mollie is amused and receptive, while Giles is increasingly cool toward him. Christopher's comments about people being unknowable and about artists seeing beneath appearances introduce a major theme of hidden identity.",
+          "contextNotes": [
+            "Christopher's exaggerated adjectives and compliments are part of his flamboyant manner and should not always be rendered as neutral literal intensifiers.",
+            "His remark that he has been 'ticked off' means that he recognizes Mollie has mildly rebuked or checked his intrusive questioning.",
+            "Giles's short replies such as 'Indeed' are contextually cool or disapproving, not merely informational."
+          ]
+        },
+        {
+          "beatId": "b1-03",
+          "speechRange": [75, 123],
+          "summary": "Mrs. Boyle and Major Metcalf arrive after difficulty getting through the snow. Mrs. Boyle immediately criticizes the transport arrangements, the state of the house, Mollie's youth, lack of staff and the advertisement. Major Metcalf is more practical and easygoing. Giles finally counters Mrs. Boyle by making clear that she can leave if dissatisfied and that the room can easily be filled; this temporarily reverses the power balance, and Mollie is impressed by his firmness.",
+          "contextNotes": [
+            "Mrs. Boyle's language frequently carries complaint, social superiority and implied criticism beyond the literal words.",
+            "Giles's offer to call a taxi is not warm hospitality; it is a controlled challenge to Mrs. Boyle's complaints.",
+            "Terms such as 'running concern' refer to an establishment already operating normally, which matters because Mrs. Boyle feels misled about the guest house being newly opened."
+          ]
+        },
+        {
+          "beatId": "b1-04",
+          "speechRange": [124, 151],
+          "summary": "After Mrs. Boyle leaves, Christopher openly says he dislikes her. Miss Casewell then arrives after her car is stuck in a drift. Her dry manner contrasts with Christopher's theatrical enthusiasm. The newspaper murder report becomes a direct group conversation: they discuss the victim, the vague description of the man wanted by police and whether official wording implies that he is suspected of the murder. The murder is now connected socially to the people inside the house rather than remaining background information.",
+          "contextNotes": [
+            "Christopher's desire to see Mrs. Boyle thrown into the snow is comic hostility, not a serious proposal of harm.",
+            "Miss Casewell's 'juicy murder' means a sensational or interesting murder story in a darkly casual tone.",
+            "The remark that the suspect description could fit almost anyone highlights how little the description distinguishes one man from another."
+          ]
+        },
+        {
+          "beatId": "b1-05",
+          "speechRange": [152, 170],
+          "summary": "Mollie worries about dinner and pleasing the guests; Christopher eagerly takes over cooking. Once he is out of the room, Giles reveals strong distrust of him, citing his nearly empty suitcase and suggesting he may cheat hotel keepers. Mollie defends Christopher but calls Miss Casewell peculiar. The couple humorously work through suspicions about all the guests and briefly believe that everyone expected has now arrived.",
+          "contextNotes": [
+            "Giles's criticism of Christopher mixes suspicion with personal dislike and possible jealousy, so some insults have stronger interpersonal force than their dictionary meanings alone.",
+            "Expressions about an empty suitcase and 'bilking hotel keepers' contribute directly to the hidden-identity theme.",
+            "The couple's guesses about the guests are partly comic and should not automatically be treated as established facts."
+          ]
+        },
+        {
+          "beatId": "b1-06",
+          "speechRange": [171, 190],
+          "summary": "A further arrival surprises Mollie and Giles. Paravicini enters after claiming his Rolls-Royce is stuck in a snowdrift. He speaks in an exaggerated, self-dramatizing style, emphasizes that he has appeared from nowhere, avoids concern about his luggage and describes himself as a 'man of mystery.' He then explicitly observes that the snow will prevent both arrivals and departures and cut Monkswell Manor off from ordinary services and civilization. His arrival completes the closed group and ends the scene on an intentionally ominous note.",
+          "contextNotes": [
+            "Paravicini's grand phrases should be interpreted as theatrical self-presentation; their pragmatic effect can matter more than a literal gloss.",
+            "His statements about no arrivals or departures carry dramatic menace because they transform the weather from inconvenience into confinement.",
+            "His repeated 'perfect' and 'admirable' express satisfaction with the isolation, which is deliberately unsettling in context."
+          ]
+        }
+      ],
+      "characterState": {
+        "MOLLIE": "Young co-owner and host, eager for the guest house to succeed. She is hospitable, sometimes anxious, more trusting of Christopher than Giles, intimidated by Mrs. Boyle, and generally inclined to smooth social tensions.",
+        "GILES": "Mollie's husband and co-host. Affectionate with Mollie but more suspicious and defensive than she is. He dislikes Christopher, stands up to Mrs. Boyle, and repeatedly imagines ways the new guests might deceive them.",
+        "CHRISTOPHER": "Flamboyant, intrusive and highly expressive. He quickly seeks intimacy, comments on appearances and personalities, enjoys macabre subjects, and stresses the difficulty of knowing what people are really like.",
+        "MRS. BOYLE": "Demanding, critical and status-conscious. She treats the Ralstons' inexperience as evidence of poor standards and repeatedly voices dissatisfaction.",
+        "MAJOR METCALF": "Outwardly conventional, practical and comparatively easygoing. He largely counterbalances Mrs. Boyle's complaints in this scene.",
+        "MISS CASEWELL": "Dry, self-possessed and somewhat unconventional. She treats both the snow and the murder story with composure and dark humor, which makes her seem unusual to the Ralstons.",
+        "PARAVICINI": "Unexpected stranger whose theatrical behavior deliberately cultivates mystery. He appears delighted by the house's isolation and ends the scene by emphasizing that the group is cut off from the outside world."
+      },
+      "vocabularyInterpretationPolicy": {
+        "generalRule": "Determine contextual meaning from the dramatic situation, speaker intention, addressee, preceding exchange and relevant scene-level thread before consulting or writing the neutral dictionary gloss.",
+        "contextMeaningRequiredWhen": [
+          "the local sense differs materially from the neutral dictionary meaning",
+          "an idiom or phrasal expression cannot be understood compositionally",
+          "tone, irony, euphemism, social force or figurative use materially changes what the speaker means",
+          "a period, British or cultural usage needs a scene-specific gloss"
+        ],
+        "contextMeaningOmitWhen": "If the neutral dictionary meaning already expresses the actual local meaning without meaningful loss, leave the contextual meaning empty rather than duplicating it.",
+        "uncertaintyRule": "Do not convert a character's suspicion, joke or guess into factual narration. Preserve uncertainty where the scene preserves uncertainty."
+      },
+      "status": "outline-complete"
+    }
+  }
 }
