@@ -5,6 +5,7 @@ on:
     branches:
       - "feature/interpretation-act1-scene1"
       - "feature/interpretation-act1-scene2"
+      - "feature/interpretation-act2"
     paths:
       - 'data/interpretation/**'
       - 'scripts/validate-interpretation-scene.mjs'
@@ -28,6 +29,7 @@ jobs:
           case "${GITHUB_REF_NAME}" in
             feature/interpretation-act1-scene1) SCENE=act1-scene1 ;;
             feature/interpretation-act1-scene2) SCENE=act1-scene2 ;;
+            feature/interpretation-act2) SCENE=act2 ;;
             *) echo "Unsupported branch: ${GITHUB_REF_NAME}"; exit 1 ;;
           esac
           node scripts/validate-interpretation-scene.mjs "$SCENE"
