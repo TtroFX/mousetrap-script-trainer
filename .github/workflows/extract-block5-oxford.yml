@@ -30,11 +30,17 @@ jobs:
           fs.writeFileSync('data/vocabulary-rebuild/block-5-oxford-summary.json',JSON.stringify({unresolvedCount:r.unresolvedCount,safeCount:safe.length,ambiguousCount:ambiguous.length,safe,ambiguous},null,2)+'\n');
           const contexts=[...safe,...ambiguous].map(x=>({word:x.word,levels:x.levels,occurrences:x.occurrences.map(o=>{const s=byId.get(o.speechId);return {speechId:o.speechId,form:o.form,speaker:s?.speaker||'',text:s?.text||''};})}));
           fs.writeFileSync('data/vocabulary-rebuild/block-5-oxford-review-context.json',JSON.stringify({count:contexts.length,entries:contexts},null,2)+'\n');
+          const rows=[];
+          for(const [kind,list] of [['SAFE',safe],['AMBIG',ambiguous]]) for(const x of list){
+            const occ=x.occurrences.map(o=>{const s=byId.get(o.speechId); const text=String(s?.text||'').replace(/\s+/g,' '); return `${o.speechId} | ${s?.speaker||''} | ${o.form} | ${text}`;}).join(' || ');
+            rows.push(`${kind}\t${x.word}\t${x.levels.join(',')}\t${x.forms.join(',')}\t${occ}`);
+          }
+          fs.writeFileSync('data/vocabulary-rebuild/block-5-oxford-review-sheet.tsv', 'kind\tword\tlevels\tforms\toccurrences\n'+rows.join('\n')+'\n');
           EOF
       - name: Commit summaries
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/vocabulary-rebuild/block-5-oxford-summary.json data/vocabulary-rebuild/block-5-oxford-review-context.json
-          git commit -m 'Extract Block 5 Oxford candidates'
+          git add data/vocabulary-rebuild/block-5-oxford-summary.json data/vocabulary-rebuild/block-5-oxford-review-context.json data/vocabulary-rebuild/block-5-oxford-review-sheet.tsv
+          git commit -m 'Extract Block 5 Oxford review sheet'
           git push
