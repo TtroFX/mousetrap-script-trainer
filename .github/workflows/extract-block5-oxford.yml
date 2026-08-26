@@ -1,0 +1,40 @@
+name: Extract Block 5 Oxford Candidates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/extract-block5-oxford.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract candidate summary
+        run: |
+          node --input-type=module <<'EOF'
+          import fs from 'node:fs';
+          const r=JSON.parse(fs.readFileSync('data/vocabulary-rebuild/block-5-oxford-audit.json','utf8'));
+          const script=JSON.parse(fs.readFileSync('mousetrap_script_data.json','utf8'));
+          const byId=new Map(script.act2.speeches.map(s=>[s.id,s]));
+          const safe=[], ambiguous=[];
+          for(const x of r.unresolved){
+            const lower=x.oxfordEntries.some(e=>['a1','a2'].includes(e.level));
+            const rec={word:x.word,forms:x.observedForms,levels:x.oxfordEntries.map(e=>`${e.pos}:${e.level}`),occurrences:x.occurrences};
+            (lower?ambiguous:safe).push(rec);
+          }
+          fs.writeFileSync('data/vocabulary-rebuild/block-5-oxford-summary.json',JSON.stringify({unresolvedCount:r.unresolvedCount,safeCount:safe.length,ambiguousCount:ambiguous.length,safe,ambiguous},null,2)+'\n');
+          const contexts=[...safe,...ambiguous].map(x=>({word:x.word,levels:x.levels,occurrences:x.occurrences.map(o=>{const s=byId.get(o.speechId);return {speechId:o.speechId,form:o.form,speaker:s?.speaker||'',text:s?.text||''};})}));
+          fs.writeFileSync('data/vocabulary-rebuild/block-5-oxford-review-context.json',JSON.stringify({count:contexts.length,entries:contexts},null,2)+'\n');
+          EOF
+      - name: Commit summaries
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/vocabulary-rebuild/block-5-oxford-summary.json data/vocabulary-rebuild/block-5-oxford-review-context.json
+          git commit -m 'Extract Block 5 Oxford candidates'
+          git push
