@@ -14,31 +14,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Extract ambiguous contexts
+      - name: Extract review suspects
         run: |
           node --input-type=module <<'EOF'
           import fs from 'node:fs';
           const r=JSON.parse(fs.readFileSync('data/vocabulary-rebuild/block-3-oxford-audit.json','utf8'));
           const script=JSON.parse(fs.readFileSync('mousetrap_script_data.json','utf8'));
           const byId=new Map(script['act1-scene2'].speeches.map(s=>[s.id,s]));
-          const ambiguous=[];
+          const wanted=new Set(['being','distress','fellow','found','hang','hearing','measure','mechanic','skip','sometime','spoken','written','hand','house','kind','leave','state','still','term','that','whole','will','worry','wrong','yet']);
+          const entries=[];
           for(const x of r.unresolved){
-            if(!x.oxfordEntries.some(e=>['a1','a2'].includes(e.level))) continue;
-            ambiguous.push({
-              word:x.word,
-              oxfordEntries:x.oxfordEntries,
-              occurrences:x.occurrences.map(o=>{
-                const s=byId.get(o.speechId);
-                return {speechId:o.speechId,form:o.form,speaker:s?.speaker||'',text:s?.text||''};
-              })
-            });
+            if(!wanted.has(x.word)) continue;
+            entries.push({word:x.word,oxfordEntries:x.oxfordEntries,occurrences:x.occurrences.map(o=>{const s=byId.get(o.speechId);return {speechId:o.speechId,form:o.form,speaker:s?.speaker||'',text:s?.text||''};})});
           }
-          fs.writeFileSync('data/vocabulary-rebuild/block-3-oxford-ambiguous-context.json',JSON.stringify({count:ambiguous.length,entries:ambiguous},null,2)+'\n');
+          fs.writeFileSync('data/vocabulary-rebuild/block-3-oxford-review-suspects.json',JSON.stringify({count:entries.length,entries},null,2)+'\n');
           EOF
       - name: Commit contexts
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/vocabulary-rebuild/block-3-oxford-ambiguous-context.json
-          git commit -m 'Extract Block 3 ambiguous Oxford contexts'
+          git add data/vocabulary-rebuild/block-3-oxford-review-suspects.json
+          git commit -m 'Extract Block 3 Oxford review suspects'
           git push
