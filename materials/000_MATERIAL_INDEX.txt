@@ -1,148 +1,78 @@
 MOUSETRAP SCRIPT TRAINER — MATERIAL INDEX
 
 Repository: TtroFX/mousetrap-script-trainer
-Source authority: uploaded PDF "The Mousetrap 台本.pdf"
-Policy: basic source/learning materials use numbered UTF-8 .txt files.
-Numbering: fixed 3-digit prefix; validate before advancing.
-Overall status: BASIC MATERIALS 000-010 COMPLETE / READY FOR PRIVATE BUILD DATA ASSEMBLY
+Structural source authority: mousetrap_script_data.json
+Structural policy: chunking-v1 is the sole structure/chunk authority. It is rebuilt directly from the canonical script JSON and validated by exact offsets.
+Overall status: CHUNKING V1 CANONICAL
 
-000_MATERIAL_INDEX.txt
-Purpose: master material registry and dependency status.
-Status: COMPLETE / FINAL SYNCHRONIZED
+CANONICAL SCRIPT
+../mousetrap_script_data.json
+- 1164 speeches
+- scene counts: 190 / 336 / 638
+- structural derivation source; no separate legacy unit/chunk source is permitted
 
-001_SCRIPT_STRUCTURE.txt
-Purpose: Act / Scene / page-range / speaker structure and stable ID rules.
-Depends on: source PDF
-Status: COMPLETE / CANONICAL COUNTS SYNCHRONIZED
-Canonical speaker spans: 1164 = 190 / 336 / 638 by scene.
+CANONICAL CHUNK STRUCTURE
+../app/mousetrap_line_structure.json
+- schemaVersion: 2
+- ruleSet: chunking-v1
+- speeches: 1164
+- sentences: 2334
+- clauses: 2939
+- chunks: 11810
+- exact-offset coverage: 1164 / 1164
+- raw fallback data: forbidden
+- legacy Vi / Vt / VBN / numbered-HV markers: forbidden
 
-002_SCRIPT_UNITS.txt
-Purpose: canonical source-order speaker spans, Units and spoken Sentence IDs.
-Depends on: 001
-Status: COMPLETE / PDF REVALIDATED / CANONICAL FROZEN
-Effective parts:
-- 002-01_SCRIPT_UNITS_A01S01.txt
-- 002-02_SCRIPT_UNITS_A01S02.txt
-- 002-03_SCRIPT_UNITS_A02S01.txt
-- 002-03A_CORRECTION_U0053.txt — canonical overlay
-Final effective counts:
-- explicit speaker spans: 1164
-- canonical units: 1170
-- spoken Sentence IDs: 2277
-- scene sentences: 453 / 643 / 1181
+CHUNKING RULES
+../data/chunking-v1-rules.md
+Purpose: normative clause/role/chunk rules, including BC/AC/NC/RC, numbered S/V/O/C, unnumbered HV, ACC, nested-clause outer roles, and dialogue fragments.
 
-003_CHUNKS.txt
-Purpose: grammatical + semantic + memorization-oriented chunk boundaries for every spoken Sentence ID.
-Depends on: 002
-Status: COMPLETE / CANONICAL FROZEN
-Effective counts:
-- spoken Sentence IDs: 2277
-- effective Chunk IDs: 8055
-- scene chunks: 1554 / 2221 / 4280
-- unresolved QA: 0
-- reconstruction mismatches: 0
-Controls:
-- 003-00_CANONICAL_ID_MAP.txt
-- 003_CANONICAL_FREEZE.txt
-- 003_GLOBAL_QA.txt
-- 003_INTEGRATION_AUDIT.txt
-- 003_CANONICAL_INTEGRATION_QA.txt
+CHUNKING QA
+../data/chunking-v1-qa.json
+Status: PASS
+Errors: 0
+Validation: exact speech coverage, span bounds, clause links, nested-role links, marker grammar, no fallback, deterministic rebuild.
 
 004_CONTEXT_TRANSLATIONS.txt
-Purpose: context-aware Japanese translations linked to canonical speech IDs.
-Depends on: 002, 003
-Status: EXTERNAL CONTENT COMPLETE / CANONICAL REGISTERED
-Validated payload: mousetrap_line_translations.json
+Purpose: context-aware Japanese translation control material.
+Validated payload: ../mousetrap_line_translations.json
 Coverage: 1164 / 1164 speech IDs
-QA: COMPLETE
-Payload SHA-256: 3b6daf0d3b9103f2a5369e0d4311fad576078b496e57787c3353a10092dd758d
 
 005_VOCABULARY_CORE.txt
-Purpose: vocabulary core / dictionary material.
-Depends on: 002
-Status: EXTERNAL CONTENT COMPLETE / CANONICAL REGISTERED
-Validated payload: mousetrap_word_dictionary.json
-Dictionary entries: 578 / referenced lemmas: 578
-QA: PASS
-Payload SHA-256: 271fc8968ec4fc5e8877b64e4a8221201fcd036ec437000957e1be932e4fd629
+Purpose: vocabulary/dictionary control material.
+Validated payload: ../mousetrap_word_dictionary.json
 
 006_VOCABULARY_USAGE.txt
-Purpose: occurrence-level word usage linked to canonical context.
-Depends on: 003, 004, 005
-Status: EXTERNAL CONTENT COMPLETE / CANONICAL REGISTERED
-Validated payload: mousetrap_line_vocabulary.json
+Purpose: occurrence-level vocabulary control material.
+Validated payload: ../mousetrap_line_vocabulary.json
 Coverage: 1164 / 1164 speech IDs
-Line vocabulary items: 1186
-QA: PASS
-Payload SHA-256: 91918d29d9196136e56c24323624e6687967ebb4491973ff3cc4a9474dc67bfd
 
 007_EXPRESSIONS_GRAMMAR.txt
-Purpose: idioms, phrasal verbs, fixed expressions and line-level grammar.
-Depends on: 002, 003, 004
-Status: EXTERNAL CONTENT COMPLETE / CANONICAL REGISTERED
-Validated payloads:
-- mousetrap_line_grammar.json — 692 entries / 1164 speech coverage
-- mousetrap_grammar_span_validation.json — 692 validation records / FAIL 0
-QA: PASS
+Purpose: idioms, fixed expressions, and line-level grammar control material.
+Validated payload: ../mousetrap_line_grammar.json
+Coverage: 1164 / 1164 speech IDs
 
 008_CONTEXT_NOTES.txt
-Purpose: canonical previous/next/cue relation, dramatic-context interpretation policy, addressee safety and context-sensitive semantic notes.
-Depends on: 001, 002, 004, 007
-Status: COMPLETE / CANONICAL DERIVATION FROZEN
-Coverage: 1164 / 1164 speech IDs
-Previous in-scene relations: 1161
-Next in-scene relations: 1161
-Cross-scene adjacency: 0
-Old 633-speech Act II Cue Practice payload: EXCLUDED AS AUTHORITY
-
-009_MEMORY_UNITS.txt
-Purpose: memorization hierarchy scene -> line -> sentence -> chunk, cue practice, reveal stages, rehearsal and self-assessment.
-Depends on: 002, 003, 008
-Status: COMPLETE / CANONICAL MEMORY CONTRACT FROZEN
-Coverage:
-- MEM-LINE basis: 1164 speeches
-- practice-selectable character lines: 1161
-- MEM-SEN basis: 2277 Sentence IDs
-- MEM-CHK basis: 8055 effective Chunk IDs
-- real previous-speech cues for selectable targets: 1159
-- SCENE_START cues for selectable targets: 2
-Assessment: GOOD / HARD / AGAIN = 言えた / 少し怪しい / 言えなかった
-Typed-answer requirement: NONE
+Purpose: dramatic-context interpretation and cue-related notes that do not define structural chunk boundaries.
 
 010_CHARACTER_INDEX.txt
-Purpose: speaker/display/alias/role-selection registry linked to canonical Speaker IDs.
-Depends on: 001, 002
-Status: COMPLETE / CANONICAL CHARACTER REGISTRY FROZEN
-Canonical Speaker IDs: 9
-Practice-selectable stage characters: 8
-Broadcast/non-selectable speakers: 1
-Speech-count sum: 1164
-
-FINAL MATERIAL QA
-materials/010_FINAL_MATERIAL_QA.txt
-Status: PASS
-Unresolved material QA: 0
+Purpose: speaker/display/alias/role-selection registry.
+Canonical speech-count sum: 1164
 
 CANONICAL INTEGRATION MANIFEST
-data/canonical-integration-manifest.json
-Status: COMPLETE / ALL BASIC MATERIALS REGISTERED
-Purpose: machine-readable build-time join contract for canonical structure, overlays, chunks, learning assets, context, memory and character metadata.
+../data/canonical-integration-manifest.json
+- schemaVersion: 2
+- structural authority: chunking-v1 only
+- legacy structural authority removed
 
-LEGACY / NON-AUTHORITY POLICY
-- 008_cue_practice.html embedded Act II data with 633 speeches is a stale UI prototype dataset and is not a canonical authority.
-- 009_rehearsal.html is a UI prototype only until rebuilt against the canonical integration manifest.
-- 1,159-speaker and 633-Act-II-speech datasets are stale.
-- temporary 2,276 / Act II 1,180 downstream tokenizer undercount is superseded by the source-proven U0053 overlays.
-- QUICK_CURTAIN is structural context, not spoken dialogue.
+RULES
+1. mousetrap_script_data.json is the only textual input for structural chunk generation.
+2. app/mousetrap_line_structure.json is the only production structural/chunk JSON.
+3. Structural chunks are never reconstructed from retired material files.
+4. Every structure release must pass the strict validator and deterministic rebuild check.
+5. Auxiliary verbs use unnumbered HV; lexical/main V roles use the clause number.
+6. Clause and role numbering must correspond; nested S/O/C relations remain explicit rather than flattened.
+7. User progress remains separate mutable state keyed by canonical speech IDs.
 
-FREEZE RULES
-1. Source PDF is the textual authority.
-2. Canonical speech/Unit/Sentence/effective Chunk IDs must not be casually renumbered.
-3. Canonical overlays named by 002/003 are part of the effective dataset and must be applied by consumers.
-4. Future source-proven corrections require explicit documentation and transactional propagation.
-5. Do not invent or silently normalize script wording.
-6. Application code consumes canonical materials; it does not become a competing source authority.
-7. User progress is separate mutable state keyed by canonical IDs.
-
-FINAL MATERIAL RESULT: PASS
-NEXT STAGE: PRIVATE BUILD DATA ASSEMBLY -> PWA PRODUCTION IMPLEMENTATION
+LEGACY STRUCTURAL MATERIAL
+Removed. It is not retained as an alternate authority or fallback.
