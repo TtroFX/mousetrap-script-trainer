@@ -42,6 +42,7 @@
     "indeterminate build": {"pos":"名詞句","meaning":"体格をはっきり特定できないこと。","tags":["formal"]},
     "muffler": {"pos":"名詞","meaning":"首や顔の周りに巻いて防寒する厚手のスカーフ。","tags":["British","dated"]},
     "mechanics of fear": {"pos":"名詞句","meaning":"恐怖がどのように生じ、働くかという仕組み。"},
-    "turn out the light": {"pos":"動詞句","meaning":"明かりを消す。"}
+    "turn out the light": {"pos":"動詞句","meaning":"明かりを消す。"},
+    "Good Lord": {"pos":"感嘆表現","meaning":"驚き・困惑・強い反応を表す感嘆句。宗教的語源を持つが、日常では間投詞的に使われる。","tags":["interjection"]}
   }
 }
