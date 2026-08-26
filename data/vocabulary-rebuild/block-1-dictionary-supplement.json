@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "blockId": "block-1",
+  "purpose": "Small supplement discovered during Block 1 dictionary-reference QA. This is kept separate so no unverified full-file replacement is performed; final integration will merge it into the deduplicated common dictionary.",
+  "entries": {
+    "a thousand pardons": {"pos":"定型表現","meaning":"非常に丁寧・大げさに謝る『どうかお許しを』という表現。","tags":["formal","dated"]},
+    "coke": {"pos":"名詞","meaning":"石炭を乾留して作る固体燃料のコークス。"},
+    "cut off": {"pos":"句動詞","meaning":"つながり・供給・交通などを断つ、孤立させる。"},
+    "impression": {"pos":"名詞","meaning":"人・物から受ける印象、感じ。"},
+    "in case": {"pos":"接続・前置詞的表現","meaning":"～の場合に備えて、～だといけないので。"},
+    "put down eggs": {"pos":"動詞句","meaning":"卵を後で使えるよう保存処理して蓄える。","tags":["British","historical-domestic"]}
+  }
+}
