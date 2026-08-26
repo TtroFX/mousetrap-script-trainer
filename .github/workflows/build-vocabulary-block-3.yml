@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/build-vocabulary-block-3.mjs'
+      - 'scripts/apply-oxford-review-block-3.mjs'
       - 'scripts/audit-oxford-b1plus-block-3.mjs'
       - 'scripts/validate-vocabulary-block.mjs'
       - 'data/vocabulary-rebuild/block-3-neutral-seed.json'
@@ -49,20 +50,23 @@ jobs:
           EOF
       - name: Build Block 3 vocabulary data
         run: node scripts/build-vocabulary-block-3.mjs
+      - name: Apply reviewed Oxford B1+ additions
+        run: node scripts/apply-oxford-review-block-3.mjs
       - name: Validate Block 1 regression
         run: node scripts/validate-vocabulary-block.mjs block-1
       - name: Validate Block 2 regression
         run: node scripts/validate-vocabulary-block.mjs block-2
       - name: Validate Block 3 structure
         run: node scripts/validate-vocabulary-block.mjs block-3
-      - name: Audit Oxford B1+ candidates
-        run: node scripts/audit-oxford-b1plus-block-3.mjs
-      - name: Show neutral fallback status
+      - name: Audit Oxford B1+ candidates strictly
+        run: node scripts/audit-oxford-b1plus-block-3.mjs --strict
+      - name: Assert zero neutral fallbacks
         run: |
           node --input-type=module <<'EOF'
           import fs from 'node:fs';
           const f=JSON.parse(fs.readFileSync('data/vocabulary-rebuild/block-3-neutral-fallbacks.json','utf8'));
           console.log(JSON.stringify(f,null,2));
+          if(f.count!==0) process.exit(1);
           EOF
       - name: Commit generated Block 3 data
         run: |
@@ -73,7 +77,8 @@ jobs:
                   data/vocabulary-rebuild/block-3-dictionary.json \
                   data/vocabulary-rebuild/block-3-dictionary-supplement.json \
                   data/vocabulary-rebuild/block-3-neutral-fallbacks.json \
-                  data/vocabulary-rebuild/block-3-oxford-audit.json
+                  data/vocabulary-rebuild/block-3-oxford-audit.json \
+                  data/vocabulary-rebuild/block-3-oxford-application.json
           if git diff --cached --quiet; then
             echo 'No generated changes.'
             exit 0
