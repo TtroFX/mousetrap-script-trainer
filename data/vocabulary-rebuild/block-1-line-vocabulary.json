@@ -1,0 +1,441 @@
+{
+  "schemaVersion": 1,
+  "blockId": "block-1",
+  "sceneId": "act1-scene1",
+  "processedSpeechRange": [1, 190],
+  "processedSpeechCount": 190,
+  "policy": {
+    "contextFirst": true,
+    "threshold": "Conservatively include vocabulary plausibly at CEFR B1 or above; when level is uncertain, include rather than exclude.",
+    "alsoInclude": ["idiom", "phrasal verb", "British/dated usage", "culture-specific expression", "context-sensitive lower-level expression"],
+    "contextMeaningRule": "Write contextMeaning only when the local dramatic meaning, pragmatic force, idiomatic value, euphemism, irony, social force, period usage or figurative sense materially differs from a neutral dictionary gloss. Otherwise use an empty string.",
+    "outline": "data/mousetrap_context_outline.json#outlines.block-1",
+    "uiFuture": "A non-empty contextMeaning will later trigger highlight in addition to the normal underline. UI is intentionally not modified in this block."
+  },
+  "lines": {
+    "act1-scene1-speech-0001": [
+      {"surface":"murdered","lemma":"murder","contextMeaning":""},
+      {"surface":"In connection with","lemma":"in connection with","contextMeaning":""},
+      {"surface":"are anxious to interview","lemma":"be anxious to interview","contextMeaning":"警察発表の定型的な言い回しで、この男性を殺人事件との関係で見つけ出して事情を聴きたい、という意味。単に『ぜひ面接したい』という意味ではない。"},
+      {"surface":"in the vicinity","lemma":"in the vicinity","contextMeaning":""},
+      {"surface":"overcoat","lemma":"overcoat","contextMeaning":""},
+      {"surface":"felt","lemma":"felt","contextMeaning":""},
+      {"surface":"warned against","lemma":"warn against","contextMeaning":""},
+      {"surface":"ice-bound","lemma":"ice-bound","contextMeaning":"雪と氷で危険な道路状況を指す。文字どおり完全に氷に閉じ込められた道路というより、凍結して通行が危険な道路。"},
+      {"surface":"freezing","lemma":"freezing","contextMeaning":""},
+      {"surface":"particularly","lemma":"particularly","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0002": [
+      {"surface":"Gosh","lemma":"gosh","contextMeaning":"寒さや目の前の状況への軽い驚きを表す間投詞。"}
+    ],
+    "act1-scene1-speech-0004": [
+      {"surface":"brute","lemma":"brute","contextMeaning":"Gilesを本気で『乱暴者』と非難しているのではなく、家事を自分に任せている夫へ親しみを込めて『ひどい人ね』と軽く文句を言っている。"}
+    ],
+    "act1-scene1-speech-0005": [
+      {"surface":"leave it all to me","lemma":"leave it to someone","contextMeaning":""},
+      {"surface":"stoke the Aga","lemma":"stoke","contextMeaning":"Aga式レンジの火に燃料を足して火力を保つこと。"}
+    ],
+    "act1-scene1-speech-0010": [
+      {"surface":"netting","lemma":"netting","contextMeaning":"ここでは鶏用の囲いなどに使う金網・網材。"}
+    ],
+    "act1-scene1-speech-0011": [
+      {"surface":"dump","lemma":"dump","contextMeaning":"ごみ捨て場というより、必要な資材を探しに行った資材置き場・店のような場所をぞんざいに呼んでいる。"},
+      {"surface":"Practically","lemma":"practically","contextMeaning":""},
+      {"surface":"skidding","lemma":"skid","contextMeaning":""},
+      {"surface":"like anything","lemma":"like anything","contextMeaning":"車が『ものすごく』横滑りしていた、という口語的な強調。"},
+      {"surface":"What do you bet","lemma":"what do you bet","contextMeaning":"本当に賭けを持ちかけているのではなく、『明日にはきっと雪で閉じ込められるぞ』と強く予想する言い方。"},
+      {"surface":"snowed up","lemma":"snowed up","contextMeaning":"大雪のため外へ出られず、交通が遮断された状態。"}
+    ],
+    "act1-scene1-speech-0013": [
+      {"surface":"well-stoked up","lemma":"stoke","contextMeaning":"暖房の火に十分な燃料を入れ、切らさないようにしておくこと。"},
+      {"surface":"coke","lemma":"coke","contextMeaning":"飲料ではなく、暖房用燃料のコークス。"}
+    ],
+    "act1-scene1-speech-0014": [
+      {"surface":"impressions","lemma":"impression","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0016": [
+      {"surface":"hooked it","lemma":"hook it","contextMeaning":"Mrs. Barlowが悪天候を恐れて、仕事を早めに切り上げて帰ってしまったという古めの口語。"}
+    ],
+    "act1-scene1-speech-0017": [
+      {"surface":"nuisance","lemma":"nuisance","contextMeaning":""},
+      {"surface":"on your shoulders","lemma":"on someone's shoulders","contextMeaning":"仕事や責任がMollie一人にのしかかる、という比喩。"}
+    ],
+    "act1-scene1-speech-0019": [
+      {"surface":"So long as","lemma":"so long as","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0020": [
+      {"surface":"department","lemma":"department","contextMeaning":"組織の『部門』ではなく、料理は自分の担当分野だという冗談めいた言い方。"},
+      {"surface":"tins","lemma":"tin","contextMeaning":"ここでは缶そのものではなく缶詰食品。"},
+      {"surface":"in case","lemma":"in case","contextMeaning":""},
+      {"surface":"snowed up","lemma":"snowed up","contextMeaning":"大雪で外部との行き来ができなくなること。"}
+    ],
+    "act1-scene1-speech-0021": [
+      {"surface":"Got cold feet","lemma":"get cold feet","contextMeaning":"文字どおり足が冷えたのではなく、ゲストハウス経営を始めたことに今さら不安になり、怖気づいたのかとからかっている。"}
+    ],
+    "act1-scene1-speech-0024": [
+      {"surface":"left out","lemma":"leave out","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0026": [
+      {"surface":"in disgrace","lemma":"in disgrace","contextMeaning":"本当の不名誉ではなく、看板の綴りを間違えたGilesにMollieが冗談で『罰を受ける立場ね』と言っている。"},
+      {"surface":"stoke up","lemma":"stoke","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0027": [
+      {"surface":"bank it up","lemma":"bank up","contextMeaning":"暖房の火を一晩もつよう、燃料を多めに入れて火を弱く長く保つこと。"}
+    ],
+    "act1-scene1-speech-0029": [
+      {"surface":"appalling","lemma":"appalling","contextMeaning":"本気で恐ろしいというより、夜遅くまで暖房の世話をする必要があることへの大げさな不満。"}
+    ],
+    "act1-scene1-speech-0031": [
+      {"surface":"worked out","lemma":"work out","contextMeaning":"ここでは問題を解くのではなく、どの客をどの部屋に入れるか部屋割りを決めてあること。"}
+    ],
+    "act1-scene1-speech-0032": [
+      {"surface":"Fourposter","lemma":"four-poster","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0033": [
+      {"surface":"in advance","lemma":"in advance","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0035": [
+      {"surface":"mugs","lemma":"mug","contextMeaning":"自分たちは宿屋経営について世間知らずで、簡単にだまされそうな『間抜け』だという自嘲。"}
+    ],
+    "act1-scene1-speech-0036": [
+      {"surface":"hang on to","lemma":"hang on to","contextMeaning":"客が料金を払わない場合、その荷物を担保のように手元に留めておくこと。"}
+    ],
+    "act1-scene1-speech-0037": [
+      {"surface":"ought to","lemma":"ought to","contextMeaning":""},
+      {"surface":"correspondence course","lemma":"correspondence course","contextMeaning":""},
+      {"surface":"get had","lemma":"get had","contextMeaning":"宿泊客にだまされたり、代金を踏み倒されたりすること。"},
+      {"surface":"wrapped up in","lemma":"wrap up in","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0039": [
+      {"surface":"forged references","lemma":"forged reference","contextMeaning":"使用人などが信用を得るために偽造した推薦状・身元証明。"},
+      {"surface":"criminals","lemma":"criminal","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0040": [
+      {"surface":"so long as","lemma":"so long as","contextMeaning":""},
+      {"surface":"guineas","lemma":"guinea","contextMeaning":"当時の英国で料金表示などに使われた旧通貨単位。1ギニー＝21シリング。"}
+    ],
+    "act1-scene1-speech-0041": [
+      {"surface":"woman of business","lemma":"woman of business","contextMeaning":"Mollieが客の素性より料金を重視すると言ったのを受け、Gilesが『実に商売上手だね』と軽くからかっている。"}
+    ],
+    "act1-scene1-speech-0042": [
+      {"surface":"are anxious to interview","lemma":"be anxious to interview","contextMeaning":"警察が殺人事件との関係で男性を捜し、事情を聴こうとしているという公式表現。"},
+      {"surface":"in the vicinity","lemma":"in the vicinity","contextMeaning":""},
+      {"surface":"warned against","lemma":"warn against","contextMeaning":""},
+      {"surface":"icebound","lemma":"ice-bound","contextMeaning":"凍結して危険な道路状況。"}
+    ],
+    "act1-scene1-speech-0044": [
+      {"surface":"gave up","lemma":"give up","contextMeaning":"タクシーが故障したというより、運転手が門から先の雪道を進むのを断念したこと。"},
+      {"surface":"Wouldn't attempt","lemma":"attempt","contextMeaning":"運転手が危険な私道を車で進もうとしなかったこと。"},
+      {"surface":"sporting instinct","lemma":"sporting instinct","contextMeaning":"危険を冒してでも挑むスポーツマン精神、というChristopherの冗談めいた不満。"},
+      {"surface":"delightful","lemma":"delightful","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0046": [
+      {"surface":"pictured you","lemma":"picture","contextMeaning":"Mollieの姿を実際に見たのではなく、手紙などから頭の中で人物像を想像していたこと。"},
+      {"surface":"retired","lemma":"retired","contextMeaning":""},
+      {"surface":"widow","lemma":"widow","contextMeaning":""},
+      {"surface":"grim","lemma":"grim","contextMeaning":"ここでは怖く厳格で近寄りがたい雰囲気。"},
+      {"surface":"Memsahibish","lemma":"Memsahibish","contextMeaning":"英領インド時代の英国人上流女性を連想させる、威圧的で植民地時代風の雰囲気をからかっている。"},
+      {"surface":"crammed with","lemma":"cram with","contextMeaning":""},
+      {"surface":"Benares brass","lemma":"Benares brass","contextMeaning":"インドのベナレス（現ヴァーラーナシー）を連想させる装飾的な真鍮製品。Christopherが植民地時代風の室内を誇張して想像している。"},
+      {"surface":"genuine","lemma":"genuine","contextMeaning":""},
+      {"surface":"wax flowers","lemma":"wax flower","contextMeaning":"蝋で作った装飾用の造花。"},
+      {"surface":"birds of Paradise","lemma":"bird of paradise","contextMeaning":"ここでは室内装飾として飾られる極彩色の鳥やその標本を念頭に置いた表現。"}
+    ],
+    "act1-scene1-speech-0048": [
+      {"surface":"sideboard","lemma":"sideboard","contextMeaning":""},
+      {"surface":"plummy","lemma":"plummy","contextMeaning":"マホガニーの濃く赤紫がかった、重厚で少しけばけばしい色合いをChristopherが面白がって表現している。"},
+      {"surface":"mahogany","lemma":"mahogany","contextMeaning":""},
+      {"surface":"carved","lemma":"carve","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0052": [
+      {"surface":"bedrock respectability","lemma":"bedrock respectability","contextMeaning":"古風な家具が醸し出す、揺るぎない『ちゃんとした中流・上流家庭らしさ』をChristopherが大げさに称賛している。"},
+      {"surface":"do away with","lemma":"do away with","contextMeaning":"ここでは『廃止する』ではなく、中央のマホガニー製テーブルを取り除いてしまうこと。"},
+      {"surface":"spoil the effect","lemma":"spoil the effect","contextMeaning":"小さなテーブルが、Christopherの好む古風で統一された室内の雰囲気を台無しにすること。"}
+    ],
+    "act1-scene1-speech-0054": [
+      {"surface":"bogus","lemma":"bogus","contextMeaning":"Dickens風の感傷的なイメージを『わざとらしい、うそっぽい』とChristopherが切り捨てている。"},
+      {"surface":"carried away","lemma":"get carried away","contextMeaning":"時代物の家具への好みに夢中になりすぎ、実用性を忘れて話していたこと。"},
+      {"surface":"period","lemma":"period","contextMeaning":"ここでは特定の時代の様式・雰囲気。"},
+      {"surface":"stern","lemma":"stern","contextMeaning":""},
+      {"surface":"prolific","lemma":"prolific","contextMeaning":"ここでは『多産な』、つまり子どもを大勢産んだ母親を誇張して描写している。"},
+      {"surface":"faded","lemma":"faded","contextMeaning":"色があせたというより、疲れや年齢で華やかさを失った母親という戯画的描写。"},
+      {"surface":"assorted","lemma":"assorted","contextMeaning":""},
+      {"surface":"governess","lemma":"governess","contextMeaning":""},
+      {"surface":"poor relation","lemma":"poor relation","contextMeaning":"経済的に恵まれず、裕福な親族の家に頼って暮らす親戚。"},
+      {"surface":"general dogsbody","lemma":"dogsbody","contextMeaning":"家族の中で、誰もやりたがらない雑用を何でも押しつけられる人。Christopherの架空のヴィクトリア朝家庭像の一部。"}
+    ],
+    "act1-scene1-speech-0057": [
+      {"surface":"fourposter","lemma":"four-poster","contextMeaning":""},
+      {"surface":"chintz","lemma":"chintz","contextMeaning":"花柄などを印刷した綿布。ここでは小さなバラ柄の古風なベッド装飾。"}
+    ],
+    "act1-scene1-speech-0061": [
+      {"surface":"Ticked off","lemma":"tick off","contextMeaning":"Mollieが話題を変えて個人的な質問をやめさせたのを、Christopherが『軽く叱られた・たしなめられた』と冗談めかして受け取っている。"},
+      {"surface":"madly interesting","lemma":"madly","contextMeaning":"『狂ったように』ではなく、非常に・ものすごく面白いというChristopherらしい誇張。"}
+    ],
+    "act1-scene1-speech-0063": [
+      {"surface":"what anyone is like","lemma":"what someone is like","contextMeaning":"外見ではなく、その人の本当の性格・人間性がどんなものかという意味。"}
+    ],
+    "act1-scene1-speech-0065": [
+      {"surface":"portrait painters","lemma":"portrait painter","contextMeaning":""},
+      {"surface":"comes out","lemma":"come out","contextMeaning":"画家が意識的に説明できなくても、人物の本質が肖像画の中に現れる、という意味。"},
+      {"surface":"canvas","lemma":"canvas","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0067": [
+      {"surface":"baptized","lemma":"baptize","contextMeaning":""},
+      {"surface":"halfway home","lemma":"halfway home","contextMeaning":"『Christopher Wren』という名前を付けた時点で、有名建築家Sir Christopher Wrenのような建築家になる目標の半分は達成した、という冗談。"},
+      {"surface":"have the last laugh","lemma":"have the last laugh","contextMeaning":"今は名前を笑われても、将来成功して最終的には自分が勝つ・笑う側になること。"},
+      {"surface":"Prefab Nests","lemma":"prefab","contextMeaning":"Christopherが将来作るかもしれないプレハブ住宅を、鳥の巣になぞらえてふざけて命名している。"},
+      {"surface":"go down in history","lemma":"go down in history","contextMeaning":""},
+      {"surface":"sympathetic","lemma":"sympathetic","contextMeaning":"ここでは『同情している』より、感じがよく自分と気が合いそうだという意味。"}
+    ],
+    "act1-scene1-speech-0068": [
+      {"surface":"Indeed","lemma":"indeed","contextMeaning":"単なる『本当に』ではなく、ChristopherがMollieを褒める流れに対するGilesの冷たく警戒した短い応答。"}
+    ],
+    "act1-scene1-speech-0070": [
+      {"surface":"absurd","lemma":"absurd","contextMeaning":"Christopherの『とても美しい』という褒め言葉を、Mollieが照れて『そんなこと言わないで』と退けている。相手の発言を論理的に不合理だと批判しているわけではない。"}
+    ],
+    "act1-scene1-speech-0071": [
+      {"surface":"as a matter of course","lemma":"as a matter of course","contextMeaning":""},
+      {"surface":"feminine spirit","lemma":"feminine spirit","contextMeaning":"女性らしい自信や魅力を発揮する気質、というChristopherの誇張された一般論。"},
+      {"surface":"crushed out of them","lemma":"crush out of","contextMeaning":"文字どおり押し潰すのではなく、夫たちの態度によって女性らしい自信が失われるという誇張。"},
+      {"surface":"boorish","lemma":"boorish","contextMeaning":"Christopherが英国人の夫を、無作法で女性への気遣いがないと挑発的に評している。"}
+    ],
+    "act1-scene1-speech-0074": [
+      {"surface":"stoke up","lemma":"stoke","contextMeaning":"給湯用ボイラーに燃料を足して湯を保つこと。"},
+      {"surface":"boiler","lemma":"boiler","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0075": [
+      {"surface":"presume","lemma":"presume","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0081": [
+      {"surface":"risk coming up the drive","lemma":"risk","contextMeaning":"雪のため、タクシー運転手が私道を上がる危険を冒そうとしなかったこと。"},
+      {"surface":"difficulty","lemma":"difficulty","contextMeaning":""},
+      {"surface":"Nothing ordered to meet us","lemma":"meet a train","contextMeaning":"『会う』ではなく、駅に車や人を手配して到着客を迎えること。Mrs. Boyleは宿側が送迎を用意していないと非難している。"}
+    ],
+    "act1-scene1-speech-0082": [
+      {"surface":"otherwise","lemma":"otherwise","contextMeaning":""},
+      {"surface":"standing by","lemma":"stand by","contextMeaning":"ここでは待機して客を迎えられる状態でいること。"}
+    ],
+    "act1-scene1-speech-0083": [
+      {"surface":"All trains should have been met","lemma":"meet a train","contextMeaning":"どの列車で来ても宿側が駅まで迎えを出すべきだった、というMrs. Boyleの要求。"}
+    ],
+    "act1-scene1-speech-0085": [
+      {"surface":"offhand","lemma":"offhand","contextMeaning":"宿側の対応がよそよそしく、きちんと準備されていないとMrs. Boyleが批判している。"},
+      {"surface":"casual","lemma":"casual","contextMeaning":"ここでは服装がカジュアルという意味ではなく、対応がいい加減で無頓着という批判。"}
+    ],
+    "act1-scene1-speech-0091": [
+      {"surface":"establishment","lemma":"establishment","contextMeaning":"ここでは制度や権力層ではなく、宿泊施設・事業所としてのMonkswell Manor。"},
+      {"surface":"experience","lemma":"experience","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0093": [
+      {"surface":"inexperienced","lemma":"inexperienced","contextMeaning":""},
+      {"surface":"dry rot","lemma":"dry rot","contextMeaning":"木材を腐らせる菌による建物の腐朽。Mrs. Boyleが古い家の欠陥を探すように持ち出している。"}
+    ],
+    "act1-scene1-speech-0097": [
+      {"surface":"could do with a coat of paint","lemma":"could do with","contextMeaning":"『～があれば助かる』の意味から、ここでは塗り直した方がよい・塗装が必要だという批評。"},
+      {"surface":"worm in this oak","lemma":"woodworm","contextMeaning":"ミミズではなく、オーク材に木食い虫の被害があるという意味。"}
+    ],
+    "act1-scene1-speech-0099": [
+      {"surface":"Absolute blizzard","lemma":"blizzard","contextMeaning":""},
+      {"surface":"make it","lemma":"make it","contextMeaning":"目的地であるMonkswell Manorまで何とか到着すること。"},
+      {"surface":"on leave","lemma":"on leave","contextMeaning":"軍務から一時的に休暇を与えられていたこと。"}
+    ],
+    "act1-scene1-speech-0104": [
+      {"surface":"servant difficulty","lemma":"servant difficulty","contextMeaning":"使用人を雇ったり確保したりする上での人手不足・雇用上の問題。"}
+    ],
+    "act1-scene1-speech-0106": [
+      {"surface":"indoor staff","lemma":"indoor staff","contextMeaning":"住み込み、または館内で常時働く使用人・従業員。"}
+    ],
+    "act1-scene1-speech-0108": [
+      {"surface":"in full running order","lemma":"in running order","contextMeaning":"設備が動くというだけでなく、宿が必要な人員や仕組みを備えて通常営業している状態。"}
+    ],
+    "act1-scene1-speech-0110": [
+      {"surface":"proper staff","lemma":"proper staff","contextMeaning":"Mrs. Boyleの価値観で、宿として当然備えるべき十分で正式な使用人・従業員体制。"},
+      {"surface":"essential","lemma":"essential","contextMeaning":""},
+      {"surface":"advertisement","lemma":"advertisement","contextMeaning":""},
+      {"surface":"misleading","lemma":"misleading","contextMeaning":"広告が、実際より整った宿だと思わせたという非難。"}
+    ],
+    "act1-scene1-speech-0112": [
+      {"surface":"blizzard","lemma":"blizzard","contextMeaning":""},
+      {"surface":"no less","lemma":"no less","contextMeaning":"単なる雪ではなく『よりによって吹雪』だと大げさに強調している。"},
+      {"surface":"unfortunate","lemma":"unfortunate","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0113": [
+      {"surface":"foresee","lemma":"foresee","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0114": [
+      {"surface":"nursery rhymes","lemma":"nursery rhyme","contextMeaning":""},
+      {"surface":"tragic","lemma":"tragic","contextMeaning":""},
+      {"surface":"macabre","lemma":"macabre","contextMeaning":"Christopherは童謡に含まれる死や不幸の気配を面白がり、『陰惨で不気味』だと楽しげに評している。"}
+    ],
+    "act1-scene1-speech-0118": [
+      {"surface":"time of life","lemma":"time of life","contextMeaning":"自分の年齢・人生の段階を遠回しに指し、今は見た目より快適さを重視する年齢だと言っている。"},
+      {"surface":"amenities","lemma":"amenity","contextMeaning":"宿泊施設としての快適さや便利な設備・サービス。"},
+      {"surface":"running concern","lemma":"running concern","contextMeaning":"新規開業直後ではなく、すでに通常営業して実績のある事業・宿。"},
+      {"surface":"fully equipped","lemma":"fully equipped","contextMeaning":""},
+      {"surface":"home comfort","lemma":"home comfort","contextMeaning":"家庭で得られるような快適さや便利さ。Mrs. Boyleは広告から十分な設備を期待していた。"}
+    ],
+    "act1-scene1-speech-0119": [
+      {"surface":"obligation","lemma":"obligation","contextMeaning":""},
+      {"surface":"satisfied","lemma":"satisfied","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0121": [
+      {"surface":"misapprehension","lemma":"misapprehension","contextMeaning":"宿の設備や営業状況についてMrs. Boyle側に誤解があった、という丁寧だが距離を取った言い方。"},
+      {"surface":"elsewhere","lemma":"elsewhere","contextMeaning":""},
+      {"surface":"blocked","lemma":"blocked","contextMeaning":"ここでは雪で道路が通行不能になること。"},
+      {"surface":"applications for rooms","lemma":"application","contextMeaning":"宿泊したいという予約・部屋の申し込み。"},
+      {"surface":"fill your place","lemma":"fill someone's place","contextMeaning":"Mrs. Boyleが出て行っても、空いた部屋を別の宿泊客ですぐ埋められるという意味。"},
+      {"surface":"In any case","lemma":"in any case","contextMeaning":""},
+      {"surface":"raising our terms","lemma":"terms","contextMeaning":"条件一般ではなく、ここでは宿泊料金を値上げすること。"}
+    ],
+    "act1-scene1-speech-0122": [
+      {"surface":"turn me out","lemma":"turn out","contextMeaning":"客として宿から追い出すこと。Mrs. BoyleはGilesの強気な応答を『自分を追い出そうとしている』と受け取って反発している。"}
+    ],
+    "act1-scene1-speech-0124": [
+      {"surface":"Serve her right","lemma":"serve someone right","contextMeaning":"Mrs. Boyleが雪の中へ追い出されても『自業自得だ』というChristopherの誇張された嫌悪。実際に危害を加えようとしている発言ではない。"}
+    ],
+    "act1-scene1-speech-0125": [
+      {"surface":"forgo","lemma":"forgo","contextMeaning":"Mrs. Boyleを追い出す『楽しみ』を諦める、という皮肉めいた言い方。"}
+    ],
+    "act1-scene1-speech-0126": [
+      {"surface":"bogged","lemma":"bog down","contextMeaning":"ぬかるみではなく、車が深い雪にはまり動けなくなったこと。"},
+      {"surface":"drift","lemma":"snowdrift","contextMeaning":"風で吹き寄せられて積もった深い雪。"}
+    ],
+    "act1-scene1-speech-0128": [
+      {"surface":"travel light","lemma":"travel light","contextMeaning":"旅行時に荷物を少なくしていること。"}
+    ],
+    "act1-scene1-speech-0132": [
+      {"surface":"thawed out","lemma":"thaw out","contextMeaning":"凍った物を解凍するのではなく、寒さで冷え切った自分の体を暖炉で温めること。"},
+      {"surface":"snowed up","lemma":"snowed up","contextMeaning":"大雪で外部と行き来できなくなること。"},
+      {"surface":"forecast","lemma":"forecast","contextMeaning":""},
+      {"surface":"provisions","lemma":"provisions","contextMeaning":"孤立した場合に備える食料・生活物資。"}
+    ],
+    "act1-scene1-speech-0133": [
+      {"surface":"manager","lemma":"manager","contextMeaning":"職名としてのマネージャーではなく、Mollieは家事や食料管理をきちんとこなす人だとGilesが褒めている。"}
+    ],
+    "act1-scene1-speech-0134": [
+      {"surface":"Before we start eating each other","lemma":"eat each other","contextMeaning":"食料が尽きたら人間同士で食べ合う、という極端な想像を使ったMiss Casewellのブラックユーモア。"}
+    ],
+    "act1-scene1-speech-0136": [
+      {"surface":"political crisis","lemma":"political crisis","contextMeaning":""},
+      {"surface":"juicy murder","lemma":"juicy","contextMeaning":"食べ物が『ジューシー』なのではなく、新聞記事として刺激的で興味をそそる殺人事件という軽薄で暗い言い方。"}
+    ],
+    "act1-scene1-speech-0138": [
+      {"surface":"homicidal","lemma":"homicidal","contextMeaning":""},
+      {"surface":"maniac","lemma":"maniac","contextMeaning":""},
+      {"surface":"Strangled","lemma":"strangle","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0139": [
+      {"surface":"in the vicinity","lemma":"in the vicinity","contextMeaning":""},
+      {"surface":"to this effect","lemma":"to this effect","contextMeaning":"新聞に載った内容と同じ趣旨の警察メッセージが放送されたという意味。"},
+      {"surface":"broadcast","lemma":"broadcast","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0140": [
+      {"surface":"Fit pretty well anyone","lemma":"fit","contextMeaning":"その人相・服装の説明は特徴が曖昧すぎて、ほとんど誰にでも当てはまり得るという皮肉。"}
+    ],
+    "act1-scene1-speech-0141": [
+      {"surface":"a polite way of hinting","lemma":"hint","contextMeaning":"『事情を聴きたい』という警察の婉曲表現が、実際にはその男を犯人として疑っていることをほのめかしているのか、と尋ねている。"},
+      {"surface":"murderer","lemma":"murderer","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0146": [
+      {"surface":"robbery","lemma":"robbery","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0152": [
+      {"surface":"minced beef","lemma":"minced beef","contextMeaning":""},
+      {"surface":"cereal","lemma":"cereal","contextMeaning":"ここでは朝食用シリアルではなく、料理に混ぜる穀類・穀物系の食品。"},
+      {"surface":"mashing","lemma":"mash","contextMeaning":""},
+      {"surface":"stewed figs","lemma":"stewed fig","contextMeaning":""},
+      {"surface":"custard","lemma":"custard","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0153": [
+      {"surface":"original","lemma":"original","contextMeaning":"独創的という一般義から、ここでは献立がありきたりで工夫が少ないという意味。"}
+    ],
+    "act1-scene1-speech-0154": [
+      {"surface":"adore","lemma":"adore","contextMeaning":"崇拝するほどではなく、料理が大好きだというChristopherらしい強い口語的表現。"}
+    ],
+    "act1-scene1-speech-0155": [
+      {"surface":"fowls","lemma":"fowl","contextMeaning":"ここでは家で飼っている鶏。"},
+      {"surface":"lay","lemma":"lay","contextMeaning":"ここでは卵を産むこと。"},
+      {"surface":"put down a lot of eggs","lemma":"put down eggs","contextMeaning":"卵を『置く』のではなく、後で使えるよう保存処理して蓄えておくという古い家庭語法。"}
+    ],
+    "act1-scene1-speech-0156": [
+      {"surface":"continental flavour","lemma":"continental","contextMeaning":"英国から見たヨーロッパ大陸風の、少し洒落た料理らしい風味。"},
+      {"surface":"daresay","lemma":"daresay","contextMeaning":"大胆に言うというより、『たぶん～だろう』『きっと～できると思う』という英国的な控えめ表現。"},
+      {"surface":"inspiration","lemma":"inspiration","contextMeaning":"芸術的啓示というより、料理の良いアイデアを思いつくこと。"}
+    ],
+    "act1-scene1-speech-0158": [
+      {"surface":"on earth","lemma":"on earth","contextMeaning":"場所の『地球上で』ではなく、『いったいなぜ』とGilesの苛立ちを強める表現。"}
+    ],
+    "act1-scene1-speech-0160": [
+      {"surface":"Twerp","lemma":"twerp","contextMeaning":"ChristopherへのGilesの軽蔑を表す古めの侮辱語で、『くだらないやつ・間抜け』程度。"}
+    ],
+    "act1-scene1-speech-0162": [
+      {"surface":"I've got no use for that kind","lemma":"have no use for","contextMeaning":"物が役に立たないという意味ではなく、GilesがChristopherのようなタイプの人間を嫌い、信用していないという意味。"},
+      {"surface":"handle his suitcase","lemma":"handle","contextMeaning":"ここでは『対処する』ではなく、実際にスーツケースを持って重さを確かめたこと。"}
+    ],
+    "act1-scene1-speech-0164": [
+      {"surface":"no weight at all","lemma":"weight","contextMeaning":"スーツケースが不自然なほど軽く、中にほとんど何も入っていないのではとGilesが疑っている。"},
+      {"surface":"bilking hotel keepers","lemma":"bilk","contextMeaning":"宿泊したのに料金を払わず宿の経営者をだますこと。Gilesは証拠ではなく疑いとして言っている。"}
+    ],
+    "act1-scene1-speech-0165": [
+      {"surface":"peculiar","lemma":"peculiar","contextMeaning":"単に特徴的というより、Miss Casewellを少し変わっていて不可解な人物だと感じている。"}
+    ],
+    "act1-scene1-speech-0166": [
+      {"surface":"if she is a female","lemma":"female","contextMeaning":"Miss Casewellの外見や振る舞いが当時の女性らしさの規範から外れているとして、Gilesが失礼にからかっている。事実として性別を疑っていると断定すべきではない。"}
+    ],
+    "act1-scene1-speech-0167": [
+      {"surface":"unpleasant","lemma":"unpleasant","contextMeaning":""},
+      {"surface":"odd","lemma":"odd","contextMeaning":"ここでは奇数ではなく、人柄や振る舞いが変わっていること。"}
+    ],
+    "act1-scene1-speech-0168": [
+      {"surface":"Probably drinks!","lemma":"drink","contextMeaning":"Major Metcalfも何か問題があるはずだ、という流れでGilesが冗談半分に『たぶん酒飲みだ』と根拠なく言っている。"}
+    ],
+    "act1-scene1-speech-0170": [
+      {"surface":"depressed","lemma":"depressed","contextMeaning":""},
+      {"surface":"at any rate","lemma":"at any rate","contextMeaning":""},
+      {"surface":"know the worst","lemma":"know the worst","contextMeaning":"客たちの癖や問題点が一通り分かり、これ以上意外なことはないだろうという意味。直後にParaviciniが来るため皮肉な前振りになる。"}
+    ],
+    "act1-scene1-speech-0172": [
+      {"surface":"the Culver Street murderer","lemma":"Culver Street murderer","contextMeaning":"本当に犯人だと考えているのではなく、予想外の来客に対するGilesのブラックジョーク。"}
+    ],
+    "act1-scene1-speech-0175": [
+      {"surface":"A thousand pardons","lemma":"a thousand pardons","contextMeaning":"文字どおり千回謝るのではなく、Paraviciniらしい大げさで芝居がかった『大変失礼』。"}
+    ],
+    "act1-scene1-speech-0177": [
+      {"surface":"stupendous good fortune","lemma":"stupendous","contextMeaning":"宿を偶然見つけた幸運をParaviciniが芝居がかった大げさな言葉で称えている。"},
+      {"surface":"answer to prayer","lemma":"answer to a prayer","contextMeaning":"実際に祈りへの宗教的回答だと断言するのではなく、絶望的な状況で宿を見つけたことを『願ってもない救い』と大げさに表す。"},
+      {"surface":"alas","lemma":"alas","contextMeaning":""},
+      {"surface":"snowdrift","lemma":"snowdrift","contextMeaning":""},
+      {"surface":"stagger","lemma":"stagger","contextMeaning":""},
+      {"surface":"habitation","lemma":"habitation","contextMeaning":"普通の『家』より仰々しい語を使い、雪の中で見つけた人の住む建物を芝居がかって表現している。"},
+      {"surface":"I am saved","lemma":"save","contextMeaning":"命を救われたという大げさな自己演出で、宿を見つけて凍死を免れたという意味。"},
+      {"surface":"despair turns to joy","lemma":"despair","contextMeaning":"絶望から歓喜へ、という極端な対比で自分の到着を劇的に語っている。"}
+    ],
+    "act1-scene1-speech-0184": [
+      {"surface":"of no consequence","lemma":"of no consequence","contextMeaning":"車に残した荷物は重要ではなく、取りに行く必要はないという意味。"},
+      {"surface":"securely","lemma":"securely","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0186": [
+      {"surface":"assure you","lemma":"assure","contextMeaning":""},
+      {"surface":"no thieves abroad","lemma":"abroad","contextMeaning":"海外にいるという意味ではなく、この夜に外をうろついている泥棒はいないだろうという古風な用法。"},
+      {"surface":"my wants are very simple","lemma":"want","contextMeaning":"『欲しい』という動詞ではなく、自分に必要なもの・要求は少ないという名詞用法。"}
+    ],
+    "act1-scene1-speech-0187": [
+      {"surface":"thoroughly","lemma":"thoroughly","contextMeaning":""},
+      {"surface":"occupied","lemma":"occupied","contextMeaning":"ここでは忙しいではなく、他の客がすでに部屋を使用していて空いていないこと。"}
+    ],
+    "act1-scene1-speech-0190": [
+      {"surface":"unexpected guest","lemma":"unexpected","contextMeaning":"予約されていないParavicini自身を、芝居の登場人物のように『予期せぬ客』と演出している。"},
+      {"surface":"from nowhere","lemma":"from nowhere","contextMeaning":"出身地が文字どおり存在しないのではなく、素性も経路も分からないまま突然現れたという演出。"},
+      {"surface":"dramatic","lemma":"dramatic","contextMeaning":"単に劇に関するという意味ではなく、自分の登場がいかにも芝居がかっていて面白い状況だという自己演出。"},
+      {"surface":"man of mystery","lemma":"man of mystery","contextMeaning":"自分の素性を明かさず、謎めいた人物としてわざと演じている。"},
+      {"surface":"complete the picture","lemma":"complete the picture","contextMeaning":"絵を完成させるのではなく、全員が集まった閉ざされた状況に自分が最後の要素として加わること。"},
+      {"surface":"arrivals","lemma":"arrival","contextMeaning":""},
+      {"surface":"departures","lemma":"departure","contextMeaning":""},
+      {"surface":"cut off from civilization","lemma":"cut off","contextMeaning":"大雪で道路・配達・郵便などが止まり、Monkswell Manorが外界から物理的に孤立すること。場面全体の重要な転換点。"},
+      {"surface":"admirable","lemma":"admirable","contextMeaning":"普通なら困る孤立状態をParaviciniが『実に結構だ』と喜んでおり、その倒錯した満足が不穏さを生む。"},
+      {"surface":"suit me better","lemma":"suit","contextMeaning":"服が似合うのではなく、この孤立した状況が自分にとって非常に都合がよいという意味。"},
+      {"surface":"by the way","lemma":"by the way","contextMeaning":""}
+    ]
+  }
+}
