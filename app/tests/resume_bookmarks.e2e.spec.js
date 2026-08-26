@@ -83,3 +83,24 @@ test('Bookmark page filters by scene in canonical order',async({page})=>{
   await expect(page.locator('[data-bookmark-row="'+ids[1]+'"]').first()).toBeVisible();
   await expect(page.locator('[data-bookmark-row="'+ids[0]+'"]').first()).toHaveCount(0);
 });
+
+test('Resume and Bookmark runtime survives an offline PWA reload',async({page,context})=>{
+  await ready(page);
+  await page.waitForFunction(()=>!!navigator.serviceWorker?.controller,null,{timeout:12000});
+  await page.reload({waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>window.MTS_INDEX_ZERO?.store?.hasCore?.(),null,{timeout:12000});
+  await page.waitForFunction(async()=>{
+    const shell=(await caches.keys()).find(x=>x.includes('mts-zero-shell-index-zero-2026-08-26-r3'));
+    const data=(await caches.keys()).find(x=>x.includes('mts-zero-data-index-zero-2026-08-26-r3'));
+    if(!shell||!data)return false;
+    const sc=await caches.open(shell),dc=await caches.open(data);
+    return !!(await sc.match('./src/resume-bookmarks.js'))&&!!(await dc.match('mousetrap_script_data.json'));
+  },null,{timeout:12000});
+  await context.setOffline(true);
+  await page.reload({waitUntil:'domcontentloaded'});
+  await expect(page.getByRole('heading',{name:'台本を覚える'})).toBeVisible();
+  await page.waitForFunction(()=>window.MTS_INDEX_ZERO?.store?.hasCore?.(),null,{timeout:12000});
+  await page.goto(BASE+'#/bookmarks');
+  await expect(page.getByRole('heading',{name:'Bookmark一覧'})).toBeVisible();
+  await context.setOffline(false);
+});
