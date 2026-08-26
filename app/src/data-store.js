@@ -86,47 +86,89 @@ function validateVocabulary(value) {
 
 function validateDictionary(value) {
   if (!value || typeof value !== 'object' || Array.isArray(value)) throw new Error('dictionary: object required');
-  if (Object.keys(value).length < 578) throw new Error(`dictionary: unexpectedly small (${Object.keys(value).length})`); for (const [key, entry] of Object.entries(value)) if (!String(key).trim() || !entry || typeof entry !== 'object' || !String(entry.coreMeaning || '').trim()) throw new Error(`dictionary: invalid entry ${key}`);
+  if (Object.keys(value).length < 578) throw new Error('dictionary: unexpectedly small (' + Object.keys(value).length + ')');
+  for (const [key, entry] of Object.entries(value)) {
+    if (!String(key).trim() || !entry || typeof entry !== 'object' || !String(entry.coreMeaning || '').trim()) throw new Error('dictionary: invalid entry ' + key);
+    if (Object.prototype.hasOwnProperty.call(entry, 'pattern') || Object.prototype.hasOwnProperty.call(entry, 'patternDesc')) throw new Error('dictionary: Pattern fields are forbidden (' + key + ')');
+    const context = String(entry.contextExplanation || '').trim();
+    if (/^(?:劇中では|この劇では)/.test(context) || /前後関係からこの意味を取る。?$/.test(context)) throw new Error('dictionary: generic context prose is forbidden (' + key + ')');
+  }
   return value;
 }
 
-function validateStructure(value) {
+function validateStructure(value, script) {
   if (!value || typeof value !== 'object' || Array.isArray(value)) throw new Error('structure: object required');
   if (value.schemaVersion !== 2 || value.ruleSet !== 'chunking-v1') throw new Error('structure: chunking-v1 schema required');
   if ('rawLines' in value) throw new Error('structure: legacy rawLines/fallback is forbidden');
+  if (!script) throw new Error('structure: canonical script must be loaded first');
   const counts = value.counts || {};
-  if (counts.speeches !== 1164 || counts.sentences !== 2334 || counts.clauses !== 2939 || counts.chunks !== 11810) {
-    throw new Error(`structure: canonical counts invalid (${counts.speeches ?? 0}/${counts.sentences ?? 0}/${counts.clauses ?? 0}/${counts.chunks ?? 0})`);
-  }
+  if (counts.speeches !== 1164 || counts.sentences !== 2334 || counts.clauses !== 2939 || counts.chunks !== 11810) throw new Error('structure: canonical counts invalid');
   const lines = value.lines;
   if (!lines || typeof lines !== 'object' || Array.isArray(lines)) throw new Error('structure.lines: object required');
   const expected = expectedSpeechIds();
   const keys = Object.keys(lines);
   if (keys.length !== expected.length || keys.some((key, i) => key !== expected[i])) throw new Error('structure.lines: speech IDs/order invalid');
+  const speechById = new Map();
+  for (const scene of SCENES) for (const speech of script[scene.id]?.speeches || []) speechById.set(speech.id, speech);
   const clauseMarker = /^(BC|AC|NC|RC)\d+$/;
-  const roleMarker = /^(S|V|O|C)\d+[a-z]?$/;
+  const roleMarker = /^(S|V|O|C)(\d+)[a-z]?$/;
   const allowedUnnumbered = new Set(['HV','ACC','Conj','N','Adj','Adv','Prep','Voc','Int','Resp','Frag','Other']);
   for (const lineId of expected) {
-    const line = lines[lineId];
-    if (!line || !Number.isInteger(line.speechLength) || line.speechLength < 1 || !Array.isArray(line.sentences) || !line.sentences.length) throw new Error(`structure.${lineId}: invalid line`);
+    const line = lines[lineId], speech = speechById.get(lineId);
+    if (!speech || !line || line.speechLength !== speech.text.length || !Array.isArray(line.sentences) || !line.sentences.length) throw new Error('structure.' + lineId + ': invalid line/script binding');
+    let previousSentenceEnd = 0;
     for (const sentence of line.sentences) {
-      if (!Number.isInteger(sentence.start) || !Number.isInteger(sentence.end) || sentence.start < 0 || sentence.end <= sentence.start || sentence.end > line.speechLength) throw new Error(`structure.${lineId}: invalid sentence span`);
-      if (!['sentence','fragment'].includes(sentence.kind) || !Array.isArray(sentence.clauses) || !Array.isArray(sentence.chunks)) throw new Error(`structure.${lineId}: invalid sentence payload`);
-      const clauseIds = new Set(sentence.clauses.map(c => c?.id).filter(Boolean));
+      if (!Number.isInteger(sentence.start) || !Number.isInteger(sentence.end) || sentence.start < previousSentenceEnd || sentence.end <= sentence.start || sentence.end > line.speechLength) throw new Error('structure.' + lineId + ': invalid sentence span');
+      if (speech.text.slice(previousSentenceEnd, sentence.start).trim()) throw new Error('structure.' + lineId + ': non-whitespace sentence gap');
+      previousSentenceEnd = sentence.end;
+      if (!['sentence','fragment'].includes(sentence.kind) || !Array.isArray(sentence.clauses) || !Array.isArray(sentence.chunks)) throw new Error('structure.' + lineId + ': invalid sentence payload');
+      const sentenceLength = sentence.end - sentence.start;
+      const clauseIds = new Set();
+      const clauseById = new Map();
+      const clauseNumbers = new Set();
       for (const clause of sentence.clauses) {
-        if (!clauseMarker.test(String(clause?.marker || '')) || !clauseIds.has(clause.id)) throw new Error(`structure.${lineId}: invalid clause`);
-        if (clause.parentClauseId === clause.id) throw new Error(`structure.${lineId}: self-parent clause`);
-        if (clause.parentClauseId != null && !clauseIds.has(clause.parentClauseId)) throw new Error(`structure.${lineId}: orphan clause parent`);
+        if (!clause?.id || clauseIds.has(clause.id) || !clauseMarker.test(String(clause.marker || ''))) throw new Error('structure.' + lineId + ': invalid/duplicate clause');
+        if (!Number.isInteger(clause.start) || !Number.isInteger(clause.end) || clause.start < 0 || clause.end <= clause.start || clause.end > sentenceLength) throw new Error('structure.' + lineId + ': invalid clause span');
+        if (clause.marker !== String(clause.type) + String(clause.number)) throw new Error('structure.' + lineId + ': clause marker/type/number mismatch');
+        clauseIds.add(clause.id); clauseById.set(clause.id, clause); clauseNumbers.add(String(clause.number));
       }
+      for (const clause of sentence.clauses) {
+        if (clause.parentClauseId === clause.id) throw new Error('structure.' + lineId + ': self-parent clause');
+        if (clause.parentClauseId != null) {
+          const parent = clauseById.get(clause.parentClauseId);
+          if (!parent) throw new Error('structure.' + lineId + ': orphan clause parent');
+          if (parent.start > clause.start || parent.end < clause.end) throw new Error('structure.' + lineId + ': nested clause outside parent');
+        }
+      }
+      const relationByNested = new Map();
       for (const chunk of sentence.chunks) {
         const marker = String(chunk?.marker || '');
-        if (chunk.clauseId != null && !clauseIds.has(chunk.clauseId)) throw new Error(`structure.${lineId}: orphan chunk clause ${chunk.clauseId}`);
-        if (chunk.nestedClauseId != null && !clauseIds.has(chunk.nestedClauseId)) throw new Error(`structure.${lineId}: orphan nested clause ${chunk.nestedClauseId}`);
-        if (!Number.isInteger(chunk.start) || !Number.isInteger(chunk.end) || chunk.start < 0 || chunk.end <= chunk.start || chunk.end > sentence.end - sentence.start) throw new Error(`structure.${lineId}: invalid chunk span`);
-        if (!roleMarker.test(marker) && !allowedUnnumbered.has(marker)) throw new Error(`structure.${lineId}: unknown marker ${marker}`);
-        if (/^(Vi|Vt)/.test(marker) || marker.includes('VBN') || /^HV\d/.test(marker)) throw new Error(`structure.${lineId}: legacy marker ${marker}`);
+        if (chunk.clauseId != null && !clauseIds.has(chunk.clauseId)) throw new Error('structure.' + lineId + ': orphan chunk clause ' + chunk.clauseId);
+        if (chunk.nestedClauseId != null && !clauseIds.has(chunk.nestedClauseId)) throw new Error('structure.' + lineId + ': orphan nested clause ' + chunk.nestedClauseId);
+        if (!Number.isInteger(chunk.start) || !Number.isInteger(chunk.end) || chunk.start < 0 || chunk.end <= chunk.start || chunk.end > sentenceLength) throw new Error('structure.' + lineId + ': invalid chunk span');
+        const role = marker.match(roleMarker);
+        if (!role && !allowedUnnumbered.has(marker)) throw new Error('structure.' + lineId + ': unknown marker ' + marker);
+        if (/^(Vi|Vt)/.test(marker) || marker.includes('VBN') || /^HV\d/.test(marker)) throw new Error('structure.' + lineId + ': legacy marker ' + marker);
+        if (role) {
+          if (!clauseNumbers.has(role[2])) throw new Error('structure.' + lineId + ': role marker without clause ' + marker);
+          const owner = clauseById.get(chunk.clauseId);
+          if (!owner || String(owner.number) !== role[2]) throw new Error('structure.' + lineId + ': role marker/owner mismatch ' + marker);
+        }
+        if (chunk.source === 'relation') {
+          if (!chunk.nestedClauseId || !/^[SOC]\d+[a-z]?$/.test(marker)) throw new Error('structure.' + lineId + ': invalid relation chunk');
+          const nested = clauseById.get(chunk.nestedClauseId);
+          if (!nested || nested.parentClauseId !== chunk.clauseId || nested.start !== chunk.start || nested.end !== chunk.end) throw new Error('structure.' + lineId + ': relation/nested span mismatch');
+          relationByNested.set(chunk.nestedClauseId, chunk);
+        }
+      }
+      for (const clause of sentence.clauses) {
+        if (['S','O','C'].includes(clause.functionInParent)) {
+          const relation = relationByNested.get(clause.id);
+          if (!relation || !String(relation.marker).startsWith(clause.functionInParent)) throw new Error('structure.' + lineId + ': missing outer role relation for ' + clause.marker);
+        }
       }
     }
+    if (speech.text.slice(previousSentenceEnd).trim()) throw new Error('structure.' + lineId + ': trailing unstructured text');
   }
   return value;
 }
@@ -183,7 +225,7 @@ export class DataStore extends EventTarget {
     if (this.structurePromise && !force) return this.structurePromise;
     this.structureState = { ...createState(), status: 'loading', startedAt: now() }; this.emit('state', { area: 'structure', state: this.structureState });
     this.structurePromise = (async () => {
-      try { this.metrics.requests += 1; this.structure = validateStructure(await fetchJson(DATA_PATHS.structure, STRUCTURE_TIMEOUT_MS)); this.structureState.status = 'ready'; this.structureState.error = null; this.structureState.finishedAt = now(); this.metrics.structureMs = Math.round(this.structureState.finishedAt - this.structureState.startedAt); this.emit('ready', { area: 'structure' }); return this.structure; }
+      try { this.metrics.requests += 1; this.structure = validateStructure(await fetchJson(DATA_PATHS.structure, STRUCTURE_TIMEOUT_MS), this.script); this.structureState.status = 'ready'; this.structureState.error = null; this.structureState.finishedAt = now(); this.metrics.structureMs = Math.round(this.structureState.finishedAt - this.structureState.startedAt); this.emit('ready', { area: 'structure' }); return this.structure; }
       catch (error) { this.metrics.failures += 1; this.structureState.status = 'error'; this.structureState.error = error; this.structureState.finishedAt = now(); this.emit('error', { area: 'structure', error }); throw error; }
       finally { this.structurePromise = null; }
     })();

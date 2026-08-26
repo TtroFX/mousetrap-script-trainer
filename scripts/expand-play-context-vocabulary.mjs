@@ -89,7 +89,8 @@ function put(speechId, raw, priority, source) {
   priorityBySpeech.set(speechId, map);
   const existing = map.get(key);
   if (!existing) {
-    const item = { surface, lemma, meaning, _priority: priority, _source: source };
+    const playMeaning = source === 'contextualReviewed' ? true : source === 'neutralPromoted' ? false : raw?.playMeaning === true;
+    const item = { surface, lemma, meaning, playMeaning, _priority: priority, _source: source };
     (merged[speechId] ||= []).push(item);
     map.set(key, item);
     sourceStats[source] += 1;
@@ -101,6 +102,7 @@ function put(speechId, raw, priority, source) {
     existing.surface = surface;
     existing.lemma = lemma;
     existing.meaning = meaning;
+    existing.playMeaning = source === 'contextualReviewed' ? true : source === 'neutralPromoted' ? false : raw?.playMeaning === true;
     existing._priority = priority;
     existing._source = source;
     sourceStats[source] += 1;
@@ -180,9 +182,6 @@ for (const rows of Object.values(merged)) {
         coreMeaning: neutral.meaning,
         forms: neutral.forms || '文脈に応じた語形・活用を取る。',
         contextMeaning,
-        contextExplanation: `劇中では文脈に応じて「${contextMeaning}」の意味で使われる。`,
-        pattern: item.lemma.includes(' ') ? item.lemma : '',
-        patternDesc: item.lemma.includes(' ') ? '語をばらばらにせず、まとまりとして理解する。' : '',
         tags: neutral.tags || []
       };
       exactDictKey.set(lk, dictKey);
@@ -194,7 +193,6 @@ for (const rows of Object.values(merged)) {
       if (!String(entry.pos || '').trim()) { entry.pos = neutral?.pos || '未分類'; changed = true; }
       if (!String(entry.coreMeaning || '').trim()) { entry.coreMeaning = neutral?.meaning || item.meaning; changed = true; }
       if (!String(entry.contextMeaning || '').trim()) { entry.contextMeaning = contextMeaning; changed = true; }
-      if (!String(entry.contextExplanation || '').trim()) { entry.contextExplanation = `劇中では文脈に応じて「${entry.contextMeaning}」の意味で使われる。`; changed = true; }
       if (!Array.isArray(entry.tags)) { entry.tags = neutral?.tags || []; changed = true; }
       if (changed) completedDictionary += 1;
     }

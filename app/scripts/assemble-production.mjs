@@ -36,6 +36,7 @@ let vocabularyDisplayed=0,vocabularyNeutralOnly=0;
 for(const [lineId,rows] of Object.entries(vocabulary)){if(!Array.isArray(rows))fail(`vocabulary ${lineId}: array required`);const seen=new Set();for(const entry of rows){const surface=String(entry?.surface||'').trim(),lemma=String(entry?.lemma||'').trim(),meaning=String(entry?.meaning||'').trim();if(!surface||!lemma||!meaning||typeof entry.playMeaning!=='boolean')fail(`vocabulary ${lineId}: invalid entry`);const key=`${surface.toLowerCase()}\u0000${lemma.toLowerCase()}`;if(seen.has(key))fail(`vocabulary ${lineId}: duplicate ${surface}/${lemma}`);seen.add(key);entry.playMeaning?vocabularyDisplayed++:vocabularyNeutralOnly++;}}
 if(vocabularyDisplayed!==1388||vocabularyNeutralOnly!==353)fail(`vocabulary presentation counts invalid (${vocabularyDisplayed}/${vocabularyNeutralOnly})`);
 const dictionaryKeys=new Set(Object.keys(dictionary).map(x=>x.trim().toLowerCase()));
+for(const [lemma,entry] of Object.entries(dictionary)){if(!entry||typeof entry!=='object'||!String(entry.coreMeaning||'').trim())fail(`invalid dictionary ${lemma}`);if(Object.prototype.hasOwnProperty.call(entry,'pattern')||Object.prototype.hasOwnProperty.call(entry,'patternDesc'))fail(`dictionary Pattern fields forbidden: ${lemma}`);const context=String(entry.contextExplanation||'').trim();if(/^(?:劇中では|この劇では)/.test(context)||/前後関係からこの意味を取る。?$/.test(context))fail(`generic dictionary context forbidden: ${lemma}`);}
 for(const rows of Object.values(vocabulary))for(const entry of rows)if(!dictionaryKeys.has(String(entry.lemma||'').trim().toLowerCase()))fail(`missing dictionary lemma ${entry.lemma}`);
 
 const interpretationKinds=new Set(['context','reaction','emotion','tone','joke','dramatic','reference','foreshadowing','truth','lie','concealment','feignedIgnorance','misdirection','evasion','mistakenBelief']);
@@ -71,7 +72,7 @@ for(const line of Object.values(structure.lines))for(const sentence of line.sent
 
 const required=['index.html','manifest.webmanifest','sw.js','offline.html','pwa-version.json'];
 for(const file of required)if(!fs.existsSync(path.join(appDir,file)))fail(`missing runtime ${file}`);
-for(const file of ['src/app.css','src/config.js','src/data-store.js','src/state-store.js','src/resume-bookmarks.js','src/gesture-controls.js','src/main.js'])if(!fs.existsSync(path.join(appDir,file)))fail(`missing module ${file}`);
+for(const file of ['src/app.css','src/config.js','src/data-store.js','src/state-store.js','src/resume-bookmarks.js','src/gesture-controls.js','src/main.js','src/study/study.css','src/study/structure-model.js','src/study/structure-view.js','src/study/dictionary-sheet.js'])if(!fs.existsSync(path.join(appDir,file)))fail(`missing module ${file}`);
 const legacy=['p5_app.js','reader_sheet.js','practice_navigation.js','p6_private_data.js','p6_pwa.js','p6_pwa.css','P2_learning.html','008_cue_practice_P3.html','009_rehearsal_P4.html'];
 
 if(!verifyOnly){
