@@ -1,0 +1,40 @@
+name: Recover Act 2 Interpretation
+
+on:
+  push:
+    branches: ["feature/interpretation-act2"]
+    paths:
+      - '.github/workflows/recover-interpretation-act2.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recover embedded payload
+        run: |
+          python - <<'PY'
+          import re, base64, lzma, pathlib
+          p = pathlib.Path('.github/workflows/build-interpretation-act2.yml').read_text()
+          m = re.search(r"PAYLOAD: '([^']+)'", p)
+          if not m: raise SystemExit('PAYLOAD not found')
+          s = m.group(1).strip()
+          s += '=' * (-len(s) % 4)
+          raw = lzma.decompress(base64.b64decode(s))
+          out = pathlib.Path('data/interpretation/act2.json')
+          out.parent.mkdir(parents=True, exist_ok=True)
+          out.write_bytes(raw)
+          PY
+      - name: Validate Act 2 interpretation
+        run: node scripts/validate-interpretation-scene.mjs act2
+      - name: Commit canonical data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/interpretation/act2.json
+          git commit -m 'Add Act 2 interpretation data'
+          git push
