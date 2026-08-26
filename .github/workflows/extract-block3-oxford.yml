@@ -1,0 +1,31 @@
+name: Extract Block 3 Oxford Candidates
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/extract-block3-oxford.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Write compact candidate list
+        run: |
+          node --input-type=module <<'EOF'
+          import fs from 'node:fs';
+          const r=JSON.parse(fs.readFileSync('data/vocabulary-rebuild/block-3-oxford-audit.json','utf8'));
+          const compact={unresolvedCount:r.unresolvedCount, candidates:r.unresolved.map(x=>({word:x.word,forms:x.observedForms,occurrences:x.occurrences,levels:x.b1plusEntries}))};
+          fs.writeFileSync('data/vocabulary-rebuild/block-3-oxford-candidates.json',JSON.stringify(compact,null,2)+'\n');
+          EOF
+      - name: Commit compact list
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/vocabulary-rebuild/block-3-oxford-candidates.json
+          git commit -m 'Extract Block 3 Oxford candidates'
+          git push
