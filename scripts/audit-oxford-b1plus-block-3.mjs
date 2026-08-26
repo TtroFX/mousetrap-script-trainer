@@ -6,6 +6,7 @@ const script = read('mousetrap_script_data.json');
 const context = read('data/vocabulary-rebuild/block-3-line-vocabulary.json');
 const threshold = read('data/vocabulary-rebuild/block-3-b1plus-coverage.json');
 const reviewPath = 'data/vocabulary-rebuild/block-3-oxford-review.json';
+const reportPath = 'data/vocabulary-rebuild/block-3-oxford-audit.json';
 const review = fs.existsSync(reviewPath) ? read(reviewPath) : { includeLexemes: [], excludeWords: {} };
 const speeches = script['act1-scene2'].speeches.slice(178, 336);
 const strict = process.argv.includes('--strict');
@@ -61,7 +62,7 @@ for (const speech of speeches) {
   const tokens=[...speech.text.toLowerCase().matchAll(/[a-z]+(?:['’][a-z]+)?/g)].map(m=>m[0].replace('’',"'"));
   for (const token of tokens) for (const v of variants(token)) {
     const arr=occurrences.get(v)||[];
-    if (!arr.some(x=>x.speechId===speech.id&&x.form===token)) arr.push({speechId:speech.id,form:token,text:speech.text});
+    if (!arr.some(x=>x.speechId===speech.id&&x.form===token)) arr.push({speechId:speech.id,form:token});
     occurrences.set(v,arr);
   }
 }
@@ -72,7 +73,7 @@ for (const [word, entries] of oxford.entries()) {
   const uses=occurrences.get(word); if (!uses?.length) continue;
   const covered=[...selected].some(x=>x===word||x.split(' ').includes(word));
   if (covered) continue;
-  rawMissing.push({word,oxfordEntries:entries,b1plusEntries:b1plus,observedForms:[...new Set(uses.map(x=>x.form))].sort(),occurrences:uses.slice(0,5)});
+  rawMissing.push({word,oxfordEntries:entries,b1plusEntries:b1plus,observedForms:[...new Set(uses.map(x=>x.form))].sort(),occurrences:uses.slice(0,12)});
 }
 rawMissing.sort((a,b)=>a.word.localeCompare(b.word));
 const includedWords = new Set((review.includeLexemes||[]).flatMap(x=>[x.word,x.lemma,...(x.forms||[])]).map(norm));
@@ -87,5 +88,6 @@ for (const lex of review.includeLexemes||[]) {
   }
 }
 const report={source:OXFORD_URL,parsedOxfordWords:oxford.size,blockId:'block-3',speeches:speeches.length,selectedKeys:selected.size,rawMissingCount:rawMissing.length,reviewedExclusionCount:Object.keys(excluded).length,unresolvedCount:unresolved.length,includeLexemeCoverageErrorCount:coverageErrors.length,unresolved,includeLexemeCoverageErrors:coverageErrors,rawMissing};
+fs.writeFileSync(reportPath, JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify(report,null,2));
 if (strict && (unresolved.length || coverageErrors.length)) process.exit(1);
