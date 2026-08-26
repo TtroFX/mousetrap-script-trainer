@@ -44,7 +44,7 @@ const visible = decodeHtml(html
 const lines = visible.split(/\n+/).map(s => s.trim()).filter(Boolean);
 
 const posTerms = new Set(['noun','verb','adjective','adverb','preposition','conjunction','pronoun','determiner','exclamation','number','modal verb','indefinite article','auxiliary verb']);
-const cefr = new Map();
+const oxford = new Map();
 for (let i = 0; i < lines.length; i++) {
   const level = lines[i].toLowerCase();
   if (!/^[abc][12]$/.test(level)) continue;
@@ -52,12 +52,13 @@ for (let i = 0; i < lines.length; i++) {
   while (posIndex >= 0 && posIndex >= i - 4 && !posTerms.has(lines[posIndex].toLowerCase())) posIndex--;
   if (posIndex < 1 || !posTerms.has(lines[posIndex].toLowerCase())) continue;
   const word = norm(lines[posIndex - 1]);
+  const pos = lines[posIndex].toLowerCase();
   if (!word || word.includes(' ')) continue;
-  const previous = cefr.get(word);
-  const rank = {a1:1,a2:2,b1:3,b2:4,c1:5};
-  if (!previous || rank[level] > rank[previous]) cefr.set(word, level);
+  const entries = oxford.get(word) || [];
+  if (!entries.some(x => x.pos === pos && x.level === level)) entries.push({ pos, level });
+  oxford.set(word, entries);
 }
-if (cefr.size < 3000) throw new Error(`Oxford parser extracted only ${cefr.size} words; refusing unreliable audit.`);
+if (oxford.size < 3000) throw new Error(`Oxford parser extracted only ${oxford.size} words; refusing unreliable audit.`);
 
 const selected = new Set();
 for (const source of [context.lines, threshold.lines]) {
@@ -66,29 +67,40 @@ for (const source of [context.lines, threshold.lines]) {
     selected.add(norm(e.surface));
   }
 }
-const text = speeches.map(s => s.text).join(' ');
-const rawTokens = [...text.toLowerCase().matchAll(/[a-z]+(?:['’][a-z]+)?/g)].map(m => m[0].replace('’', "'"));
-const tokensByLemma = new Map();
-for (const token of rawTokens) {
-  for (const v of variants(token)) {
-    if (!tokensByLemma.has(v)) tokensByLemma.set(v, new Set());
-    tokensByLemma.get(v).add(token);
+
+const occurrences = new Map();
+for (const speech of speeches) {
+  const tokens = [...speech.text.toLowerCase().matchAll(/[a-z]+(?:['’][a-z]+)?/g)].map(m => m[0].replace('’', "'"));
+  for (const token of tokens) {
+    for (const v of variants(token)) {
+      const list = occurrences.get(v) || [];
+      if (!list.some(x => x.speechId === speech.id && x.form === token)) list.push({ speechId: speech.id, form: token, text: speech.text });
+      occurrences.set(v, list);
+    }
   }
 }
 
 const missing = [];
-for (const [word, level] of cefr.entries()) {
-  if (!['b1','b2','c1'].includes(level)) continue;
-  const forms = tokensByLemma.get(word);
-  if (!forms) continue;
+for (const [word, oxfordEntries] of oxford.entries()) {
+  const b1plusEntries = oxfordEntries.filter(x => ['b1','b2','c1'].includes(x.level));
+  if (!b1plusEntries.length) continue;
+  const uses = occurrences.get(word);
+  if (!uses?.length) continue;
   const covered = [...selected].some(x => x === word || x.split(' ').includes(word));
-  if (!covered) missing.push({ word, level, observedForms: [...forms].sort() });
+  if (covered) continue;
+  missing.push({
+    word,
+    oxfordEntries,
+    b1plusEntries,
+    observedForms: [...new Set(uses.map(x => x.form))].sort(),
+    occurrences: uses.slice(0, 5)
+  });
 }
 missing.sort((a,b) => a.word.localeCompare(b.word));
 
 console.log(JSON.stringify({
   source: OXFORD_URL,
-  parsedOxfordWords: cefr.size,
+  parsedOxfordWords: oxford.size,
   blockId: 'block-2',
   speeches: speeches.length,
   selectedKeys: selected.size,
