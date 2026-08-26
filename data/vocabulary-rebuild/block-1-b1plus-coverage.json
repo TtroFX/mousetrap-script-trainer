@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "blockId": "block-1",
+  "sceneId": "act1-scene1",
+  "purpose": "Second-pass threshold coverage after context-first vocabulary selection. These are additional neutral-meaning vocabulary candidates that do not require a special dramatic context gloss.",
+  "selectionPolicy": {
+    "baseline": "CEFR-aligned learner vocabulary, using Oxford 3000/5000 as the principal reference model where applicable.",
+    "conservativeRule": "If a word or relevant sense plausibly falls at B1 or above, include it rather than risk omission. This intentionally permits some A2 over-inclusion.",
+    "contextMeaning": "Always empty in this file. Context-specific entries belong in block-1-line-vocabulary.json."
+  },
+  "lines": {
+    "act1-scene1-speech-0001": [
+      {"surface":"crime","lemma":"crime","contextMeaning":""},
+      {"surface":"murder","lemma":"murder","contextMeaning":""},
+      {"surface":"expected","lemma":"expect","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0011": [
+      {"surface":"wasted","lemma":"waste","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0018": [
+      {"surface":"partnership","lemma":"partnership","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0024": [
+      {"surface":"disaster","lemma":"disaster","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0033": [
+      {"surface":"rent","lemma":"rent","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0037": [
+      {"surface":"course","lemma":"course","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0039": [
+      {"surface":"references","lemma":"reference","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0044": [
+      {"surface":"instinct","lemma":"instinct","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0046": [
+      {"surface":"terrifically","lemma":"terrifically","contextMeaning":""},
+      {"surface":"heavenly","lemma":"heavenly","contextMeaning":""},
+      {"surface":"proportions","lemma":"proportion","contextMeaning":""},
+      {"surface":"fake","lemma":"fake","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0048": [
+      {"surface":"solid","lemma":"solid","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0052": [
+      {"surface":"Absolutely","lemma":"absolutely","contextMeaning":""},
+      {"surface":"effect","lemma":"effect","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0054": [
+      {"surface":"irritating","lemma":"irritating","contextMeaning":""},
+      {"surface":"grateful","lemma":"grateful","contextMeaning":""},
+      {"surface":"relation","lemma":"relation","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0065": [
+      {"surface":"artists","lemma":"artist","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0067": [
+      {"surface":"architect","lemma":"architect","contextMeaning":""},
+      {"surface":"history","lemma":"history","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0071": [
+      {"surface":"Compliments","lemma":"compliment","contextMeaning":""},
+      {"surface":"embarrass","lemma":"embarrass","contextMeaning":""},
+      {"surface":"European","lemma":"European","contextMeaning":""},
+      {"surface":"spirit","lemma":"spirit","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0078": [
+      {"surface":"luggage","lemma":"luggage","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0081": [
+      {"surface":"station","lemma":"station","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0091": [
+      {"surface":"experience","lemma":"experience","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0096": [
+      {"surface":"condition","lemma":"condition","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0099": [
+      {"surface":"Absolute","lemma":"absolute","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0105": [
+      {"surface":"local","lemma":"local","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0107": [
+      {"surface":"staff","lemma":"staff","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0110": [
+      {"surface":"staff","lemma":"staff","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0118": [
+      {"surface":"appearance","lemma":"appearance","contextMeaning":""},
+      {"surface":"concern","lemma":"concern","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0119": [
+      {"surface":"remain","lemma":"remain","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0121": [
+      {"surface":"return","lemma":"return","contextMeaning":""},
+      {"surface":"raising","lemma":"raise","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0122": [
+      {"surface":"certainly","lemma":"certainly","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0124": [
+      {"surface":"horrible","lemma":"horrible","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0132": [
+      {"surface":"expected","lemma":"expect","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0136": [
+      {"surface":"crisis","lemma":"crisis","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0139": [
+      {"surface":"description","lemma":"description","contextMeaning":""},
+      {"surface":"medium","lemma":"medium","contextMeaning":""},
+      {"surface":"effect","lemma":"effect","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0140": [
+      {"surface":"description","lemma":"description","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0141": [
+      {"surface":"polite","lemma":"polite","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0152": [
+      {"surface":"frightens","lemma":"frighten","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0156": [
+      {"surface":"flavour","lemma":"flavour","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0162": [
+      {"surface":"suitcase","lemma":"suitcase","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0164": [
+      {"surface":"probably","lemma":"probably","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0175": [
+      {"surface":"pardons","lemma":"pardon","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0177": [
+      {"surface":"fortune","lemma":"fortune","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0186": [
+      {"surface":"thieves","lemma":"thief","contextMeaning":""}
+    ],
+    "act1-scene1-speech-0190": [
+      {"surface":"civilization","lemma":"civilization","contextMeaning":""},
+      {"surface":"picture","lemma":"picture","contextMeaning":""}
+    ]
+  }
+}
