@@ -1,32 +1,39 @@
 import fs from 'node:fs';
 
 const blockId = process.argv[2] || 'block-1';
-if (blockId !== 'block-1') throw new Error(`Unsupported block: ${blockId}`);
+const configs = {
+  'block-1': { sceneId: 'act1-scene1', first: 1, last: 190 },
+  'block-2': { sceneId: 'act1-scene2', first: 1, last: 178 }
+};
+const config = configs[blockId];
+if (!config) throw new Error(`Unsupported block: ${blockId}`);
 
 const read = path => JSON.parse(fs.readFileSync(path, 'utf8'));
 const script = read('mousetrap_script_data.json');
 const outline = read('data/mousetrap_context_outline.json');
-const contextual = read('data/vocabulary-rebuild/block-1-line-vocabulary.json');
-const threshold = read('data/vocabulary-rebuild/block-1-b1plus-coverage.json');
-const dictionary = read('data/vocabulary-rebuild/block-1-dictionary.json');
-const supplement = read('data/vocabulary-rebuild/block-1-dictionary-supplement.json');
+const contextual = read(`data/vocabulary-rebuild/${blockId}-line-vocabulary.json`);
+const threshold = read(`data/vocabulary-rebuild/${blockId}-b1plus-coverage.json`);
+const dictionary = read(`data/vocabulary-rebuild/${blockId}-dictionary.json`);
+const supplement = read(`data/vocabulary-rebuild/${blockId}-dictionary-supplement.json`);
 
 const errors = [];
 const warnings = [];
-const sceneId = 'act1-scene1';
-const speeches = script?.[sceneId]?.speeches;
-if (!Array.isArray(speeches) || speeches.length !== 190) {
-  errors.push(`script.${sceneId}.speeches expected 190, got ${speeches?.length ?? 'missing'}`);
+const { sceneId, first, last } = config;
+const allSceneSpeeches = script?.[sceneId]?.speeches;
+const speeches = Array.isArray(allSceneSpeeches) ? allSceneSpeeches.slice(first - 1, last) : null;
+const expectedCount = last - first + 1;
+if (!Array.isArray(speeches) || speeches.length !== expectedCount) {
+  errors.push(`script.${sceneId}.speech range expected ${expectedCount}, got ${speeches?.length ?? 'missing'}`);
 }
 
-if (outline?.outlines?.['block-1']?.status !== 'outline-complete') {
-  errors.push('Block 1 outline is not marked outline-complete');
+if (outline?.outlines?.[blockId]?.status !== 'outline-complete') {
+  errors.push(`${blockId} outline is not marked outline-complete`);
 }
-if (outline?.outlines?.['block-1']?.scope?.speechCount !== 190) {
-  errors.push('Block 1 outline speechCount is not 190');
+if (outline?.outlines?.[blockId]?.scope?.speechCount !== expectedCount) {
+  errors.push(`${blockId} outline speechCount is not ${expectedCount}`);
 }
-if (contextual?.processedSpeechCount !== 190 || contextual?.processedSpeechRange?.[0] !== 1 || contextual?.processedSpeechRange?.[1] !== 190) {
-  errors.push('Context-first vocabulary processed range is not 1..190');
+if (contextual?.processedSpeechCount !== expectedCount || contextual?.processedSpeechRange?.[0] !== first || contextual?.processedSpeechRange?.[1] !== last) {
+  errors.push(`Context-first vocabulary processed range is not ${first}..${last}`);
 }
 
 const expectedIds = new Set((speeches || []).map(s => s.id));
@@ -112,6 +119,7 @@ const report = {
   result: errors.length ? 'FAIL' : 'PASS',
   blockId,
   sceneId,
+  speechRange: [first, last],
   speeches: speeches?.length ?? 0,
   contextualEntries,
   nonEmptyContextMeanings,
@@ -126,4 +134,4 @@ const report = {
 };
 
 console.log(JSON.stringify(report, null, 2));
-if (errors.length) process.exit(1);
+if (errors.length || warnings.length) process.exit(1);
