@@ -39,6 +39,13 @@
         "lemma": "propose",
         "contextMeaning": "",
         "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "remain",
+        "lemma": "remain",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0455": [
@@ -50,6 +57,13 @@
       }
     ],
     "act2-speech-0457": [
+      {
+        "surface": "concerns",
+        "lemma": "concern",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
       {
         "surface": "private affair",
         "lemma": "private affair",
@@ -229,6 +243,13 @@
         "source": "legacy-curated-candidate"
       },
       {
+        "surface": "horrible",
+        "lemma": "horrible",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
         "surface": "just",
         "lemma": "just",
         "contextMeaning": "",
@@ -287,6 +308,13 @@
         "lemma": "all to no avail",
         "contextMeaning": "",
         "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "entertaining",
+        "lemma": "entertaining",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0503": [
@@ -331,6 +359,13 @@
         "lemma": "come down",
         "contextMeaning": "",
         "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "intend",
+        "lemma": "intend",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
       },
       {
         "surface": "went up",
@@ -399,6 +434,13 @@
         "source": "legacy-curated-candidate"
       },
       {
+        "surface": "related",
+        "lemma": "relate",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
         "surface": "statements",
         "lemma": "statement",
         "contextMeaning": "",
@@ -452,6 +494,13 @@
       }
     ],
     "act2-speech-0521": [
+      {
+        "surface": "doubt",
+        "lemma": "doubt",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
       {
         "surface": "rather",
         "lemma": "rather",
@@ -537,6 +586,13 @@
     ],
     "act2-speech-0528": [
       {
+        "surface": "forgive",
+        "lemma": "forgive",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
         "surface": "just",
         "lemma": "just",
         "contextMeaning": "",
@@ -555,9 +611,37 @@
         "lemma": "just",
         "contextMeaning": "",
         "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "nonsense",
+        "lemma": "nonsense",
+        "contextMeaning": "",
+        "cefrLevel": "C1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "possibly",
+        "lemma": "possibly",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "simply",
+        "lemma": "simply",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0538": [
+      {
+        "surface": "guilty",
+        "lemma": "guilty",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
       {
         "surface": "unwilling",
         "lemma": "unwilling",
@@ -607,6 +691,13 @@
         "lemma": "just",
         "contextMeaning": "",
         "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "signal",
+        "lemma": "signal",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0556": [
@@ -641,6 +732,20 @@
         "lemma": "convenient",
         "contextMeaning": "",
         "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "examine",
+        "lemma": "examine",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "fond",
+        "lemma": "fond",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
       },
       {
         "surface": "go up",
@@ -713,6 +818,13 @@
         "lemma": "tough",
         "contextMeaning": "",
         "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "wire",
+        "lemma": "wire",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
       },
       {
         "surface": "would you mind",
@@ -831,6 +943,20 @@
     ],
     "act2-speech-0584": [
       {
+        "surface": "afterwards",
+        "lemma": "afterwards",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "gradually",
+        "lemma": "gradually",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
         "surface": "monstrous",
         "lemma": "monstrous",
         "contextMeaning": "",
@@ -893,6 +1019,13 @@
         "lemma": "ring up",
         "contextMeaning": "",
         "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "wires",
+        "lemma": "wire",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0589": [
@@ -901,6 +1034,20 @@
         "lemma": "had better",
         "contextMeaning": "",
         "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "cruel",
+        "lemma": "cruel",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "fire",
+        "lemma": "fire",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
       },
       {
         "surface": "grown up",
@@ -913,6 +1060,13 @@
         "lemma": "revolver",
         "contextMeaning": "",
         "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "scream",
+        "lemma": "scream",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0590": [
@@ -941,6 +1095,13 @@
         "lemma": "policeman",
         "contextMeaning": "",
         "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "pretending",
+        "lemma": "pretend",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0592": [
@@ -957,6 +1118,13 @@
         "lemma": "rather",
         "contextMeaning": "",
         "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "trap",
+        "lemma": "trap",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0600": [
@@ -974,6 +1142,13 @@
       }
     ],
     "act2-speech-0602": [
+      {
+        "surface": "harm",
+        "lemma": "harm",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
       {
         "surface": "look after",
         "lemma": "look after",
@@ -1117,10 +1292,24 @@
         "source": "legacy-curated-candidate"
       },
       {
+        "surface": "examine",
+        "lemma": "examine",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
         "surface": "rather",
         "lemma": "rather",
         "contextMeaning": "",
         "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "spare",
+        "lemma": "spare",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ],
     "act2-speech-0622": [
@@ -1173,6 +1362,200 @@
         "lemma": "just",
         "contextMeaning": "",
         "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0565": [
+      {
+        "surface": "advise",
+        "lemma": "advise",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "curtain",
+        "lemma": "curtain",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0500": [
+      {
+        "surface": "assembled",
+        "lemma": "assemble",
+        "contextMeaning": "",
+        "cefrLevel": "C1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "clue",
+        "lemma": "clue",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0594": [
+      {
+        "surface": "chased",
+        "lemma": "chase",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0499": [
+      {
+        "surface": "clue",
+        "lemma": "clue",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0544": [
+      {
+        "surface": "consent",
+        "lemma": "consent",
+        "contextMeaning": "",
+        "cefrLevel": "C1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0539": [
+      {
+        "surface": "cooperate",
+        "lemma": "cooperate",
+        "contextMeaning": "",
+        "cefrLevel": "C1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0609": [
+      {
+        "surface": "fault",
+        "lemma": "fault",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0555": [
+      {
+        "surface": "former",
+        "lemma": "former",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0564": [
+      {
+        "surface": "objection",
+        "lemma": "objection",
+        "contextMeaning": "",
+        "cefrLevel": "C1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0529": [
+      {
+        "surface": "performance",
+        "lemma": "performance",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0483": [
+      {
+        "surface": "Possibly",
+        "lemma": "possibly",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0635": [
+      {
+        "surface": "properly",
+        "lemma": "properly",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0479": [
+      {
+        "surface": "prove",
+        "lemma": "prove",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0562": [
+      {
+        "surface": "remain",
+        "lemma": "remain",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0561": [
+      {
+        "surface": "risk",
+        "lemma": "risk",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0531": [
+      {
+        "surface": "trap",
+        "lemma": "trap",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0532": [
+      {
+        "surface": "trap",
+        "lemma": "trap",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0533": [
+      {
+        "surface": "trap",
+        "lemma": "trap",
+        "contextMeaning": "",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0492": [
+      {
+        "surface": "upset",
+        "lemma": "upset",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0581": [
+      {
+        "surface": "kind",
+        "lemma": "kind",
+        "contextMeaning": "",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ]
   }

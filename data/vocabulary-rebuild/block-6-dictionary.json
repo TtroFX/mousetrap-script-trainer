@@ -14,9 +14,17 @@
         "dated-sense"
       ]
     },
+    "advise": {
+      "pos": "未分類",
+      "meaning": "助言する、～するよう勧める。"
+    },
     "affair": {
       "pos": "名詞",
       "meaning": "人が関わる事柄・用事・事情。複数形で個人的な問題や活動を表すことがある。"
+    },
+    "afterwards": {
+      "pos": "未分類",
+      "meaning": "その後で、あとになって。"
     },
     "all along": {
       "pos": "副詞句",
@@ -76,6 +84,10 @@
     "as to": {
       "pos": "前置詞句",
       "meaning": "～について、～に関して。話題や範囲を限定する。"
+    },
+    "assemble": {
+      "pos": "未分類",
+      "meaning": "人を一か所に集める、集合させる。"
     },
     "assign": {
       "pos": "動詞",
@@ -143,9 +155,21 @@
         "British English"
       ]
     },
+    "chapter": {
+      "pos": "未分類",
+      "meaning": "本などの章；物事の一区切り。"
+    },
+    "chase": {
+      "pos": "未分類",
+      "meaning": "人や動物を追いかける。"
+    },
     "check up on": {
       "pos": "句動詞",
       "meaning": "事実・状態・人物などを調べて正しいか確認する。"
+    },
+    "clue": {
+      "pos": "未分類",
+      "meaning": "問題や事件を解く手掛かり。"
     },
     "co-operation": {
       "pos": "名詞",
@@ -177,13 +201,37 @@
         "context"
       ]
     },
+    "concern": {
+      "pos": "未分類",
+      "meaning": "～に関係する、～にかかわる；心配させる。"
+    },
+    "concerned": {
+      "pos": "未分類",
+      "meaning": "関係している、該当する；心配している。"
+    },
+    "consent": {
+      "pos": "未分類",
+      "meaning": "同意する、承諾する；同意。"
+    },
     "convenient": {
       "pos": "形容詞",
       "meaning": "時間・場所・条件が目的に合う。"
     },
+    "cooperate": {
+      "pos": "未分類",
+      "meaning": "共通の目的のため協力する。"
+    },
     "count someone out": {
       "pos": "句動詞",
       "meaning": "人を参加者・候補などから外す。"
+    },
+    "cruel": {
+      "pos": "未分類",
+      "meaning": "他者に苦痛を与えることを気にしない、残酷な。"
+    },
+    "curtain": {
+      "pos": "未分類",
+      "meaning": "窓や舞台などに掛けるカーテン、幕。"
     },
     "daresay": {
       "pos": "動詞",
@@ -209,13 +257,33 @@
       "forms": "語形変化なし",
       "ipa": "/dˈɪtəʊ/"
     },
+    "doubt": {
+      "pos": "未分類",
+      "meaning": "本当かどうか疑う；疑い。"
+    },
+    "dumb": {
+      "pos": "未分類",
+      "meaning": "口語で、愚かな・頭の鈍い；古い用法では口がきけない。"
+    },
     "enact the part of": {
       "pos": "動詞句",
       "meaning": "再現・上演などで、ある人物の役割を演じる。"
     },
+    "entertaining": {
+      "pos": "未分類",
+      "meaning": "面白い、楽しませる。"
+    },
+    "examine": {
+      "pos": "未分類",
+      "meaning": "詳しく調べる、検査する。"
+    },
     "extraordinary": {
       "pos": "形容詞",
       "meaning": "ordinary の範囲を大きく超える。"
+    },
+    "fault": {
+      "pos": "未分類",
+      "meaning": "責任のある過失・落ち度；欠点。"
     },
     "financial position": {
       "pos": "名詞句",
@@ -234,6 +302,10 @@
         "chunk"
       ]
     },
+    "fire": {
+      "pos": "未分類",
+      "meaning": "火をつける；銃などを発射する；解雇する。"
+    },
     "firsthand": {
       "pos": "形容詞・副詞",
       "meaning": "他人からの伝聞ではなく、直接の経験・観察による。"
@@ -247,6 +319,10 @@
       ],
       "forms": "句として固定。動詞部分は文脈に応じて活用する。",
       "ipa": "/fˈɜːsthand nˈɒlɪdʒ/"
+    },
+    "fond": {
+      "pos": "未分類",
+      "meaning": "～が好きで、好んで。"
     },
     "foolish": {
       "pos": "形容詞",
@@ -270,6 +346,14 @@
       "pos": "形容詞",
       "meaning": "自国・自分の文化の外に属する。"
     },
+    "forgive": {
+      "pos": "未分類",
+      "meaning": "人の過ちなどを許す；丁寧な前置きとして容赦を求める。"
+    },
+    "former": {
+      "pos": "未分類",
+      "meaning": "以前の、前の。"
+    },
     "fourposter": {
       "pos": "名詞",
       "meaning": "四隅に柱が立つ four-poster bed。",
@@ -279,6 +363,10 @@
       ],
       "forms": "名詞。必要に応じて複数形をとる。",
       "ipa": "/fˈɔːpəʊstə/"
+    },
+    "gather": {
+      "pos": "未分類",
+      "meaning": "集める；情報などから推測する、理解する。"
     },
     "get away": {
       "pos": "句動詞",
@@ -320,6 +408,10 @@
         "chunk"
       ]
     },
+    "gradually": {
+      "pos": "未分類",
+      "meaning": "徐々に、少しずつ。"
+    },
     "grow up": {
       "pos": "句動詞",
       "meaning": "成長して子どもの段階を離れる。",
@@ -328,6 +420,10 @@
         "chunk"
       ]
     },
+    "guilty": {
+      "pos": "未分類",
+      "meaning": "罪や過失がある、有罪の。"
+    },
     "had better": {
       "pos": "助動詞的表現",
       "meaning": "強い助言・警告。形式は had だが現在・未来についても使う。",
@@ -335,6 +431,10 @@
         "grammar",
         "chunk"
       ]
+    },
+    "harm": {
+      "pos": "未分類",
+      "meaning": "人や物への害、損害；害を与える。"
     },
     "haunt": {
       "pos": "動詞",
@@ -347,9 +447,17 @@
         "formal"
       ]
     },
+    "hell": {
+      "pos": "未分類",
+      "meaning": "地獄；口語で驚き・怒りなどを強める語。"
+    },
     "hold out on": {
       "pos": "句動詞",
       "meaning": "必要・重要な情報や物を相手に隠して渡さない。"
+    },
+    "horrible": {
+      "pos": "未分類",
+      "meaning": "非常に不快・恐ろしい、ひどい。"
     },
     "impossible": {
       "pos": "形容詞",
@@ -389,6 +497,10 @@
       "tags": [
         "legal"
       ]
+    },
+    "intend": {
+      "pos": "未分類",
+      "meaning": "～するつもりである、意図する。"
     },
     "interrogate": {
       "pos": "動詞",
@@ -432,6 +544,10 @@
     "keep an eye on": {
       "pos": "慣用句",
       "meaning": "人や物の様子を注意して見ておく、見守る。"
+    },
+    "kind": {
+      "pos": "未分類",
+      "meaning": "親切な、思いやりのある。"
     },
     "liar": {
       "pos": "名詞",
@@ -490,6 +606,10 @@
         "formal"
       ]
     },
+    "mix": {
+      "pos": "未分類",
+      "meaning": "混ぜる；人や物をある状況・関係に巻き込む。"
+    },
     "monstrous": {
       "pos": "形容詞",
       "meaning": "程度が非常に大きい、または道徳的にひどいことを強調。",
@@ -507,6 +627,10 @@
     "murderer": {
       "pos": "名詞",
       "meaning": "人を故意に殺した者、殺人犯。"
+    },
+    "nonsense": {
+      "pos": "未分類",
+      "meaning": "意味をなさないこと、ばかげた話・考え。"
     },
     "not in the least": {
       "pos": "定型表現",
@@ -528,6 +652,10 @@
       "tags": [
         "context"
       ]
+    },
+    "objection": {
+      "pos": "未分類",
+      "meaning": "反対、異議。"
     },
     "old chestnut": {
       "pos": "名詞句",
@@ -586,6 +714,10 @@
       "forms": "句として固定。動詞部分は文脈に応じて活用する。",
       "ipa": "/pˈeɪ ɐtˈɛnʃən/"
     },
+    "performance": {
+      "pos": "未分類",
+      "meaning": "演技・公演；何かを実行すること。"
+    },
     "pneumonia": {
       "pos": "名詞",
       "meaning": "肺に炎症が起きる病気。",
@@ -606,6 +738,10 @@
         "context"
       ]
     },
+    "possibly": {
+      "pos": "未分類",
+      "meaning": "もしかすると；可能な限り、いったいどうして可能なのかという強調にも用いる。"
+    },
     "practically": {
       "pos": "副詞",
       "meaning": "ほとんど、実質的に。また実用的な観点では。"
@@ -617,6 +753,10 @@
         "context"
       ]
     },
+    "pretend": {
+      "pos": "未分類",
+      "meaning": "事実ではないことを事実のように装う、ふりをする。"
+    },
     "private affair": {
       "pos": "名詞句",
       "meaning": "他人が介入すべきでない本人だけの問題。",
@@ -625,6 +765,10 @@
       ],
       "forms": "語形変化なし",
       "ipa": "/pɹˈaɪvət ɐfˈeə/"
+    },
+    "properly": {
+      "pos": "未分類",
+      "meaning": "正しく、適切に、きちんと。"
     },
     "propose": {
       "pos": "動詞",
@@ -635,6 +779,10 @@
       ],
       "forms": "propose · proposed · proposed",
       "ipa": "/pɹəpˈəʊz/"
+    },
+    "prove": {
+      "pos": "未分類",
+      "meaning": "証明する、事実であると示す。"
     },
     "put aside": {
       "pos": "句動詞",
@@ -702,6 +850,14 @@
       "forms": "句として固定。動詞部分は文脈に応じて活用する。",
       "ipa": "/ɹˌiːkənstɹˈʌkʃən ɒvðə kɹˈaɪm/"
     },
+    "relate": {
+      "pos": "未分類",
+      "meaning": "～に関係する、関連づける；話を語る。"
+    },
+    "remain": {
+      "pos": "未分類",
+      "meaning": "そのまま残る、とどまる。"
+    },
     "reproduce": {
       "pos": "動詞",
       "meaning": "元の出来事・状態をもう一度同じように作る。",
@@ -729,6 +885,14 @@
         "chunk"
       ]
     },
+    "risk": {
+      "pos": "未分類",
+      "meaning": "危険・損失が起こる可能性；危険を冒す。"
+    },
+    "scream": {
+      "pos": "未分類",
+      "meaning": "恐怖・痛みなどで大声を上げる、叫ぶ。"
+    },
     "sedative": {
       "pos": "名詞",
       "meaning": "興奮・不安を抑え、眠気を促すこともある薬。",
@@ -752,12 +916,20 @@
       "forms": "句として固定。動詞部分は文脈に応じて活用する。",
       "ipa": "/ʃɹˈuːd səspˈɪʃən/"
     },
+    "signal": {
+      "pos": "未分類",
+      "meaning": "行動開始などを知らせる合図、信号；合図する。"
+    },
     "signature": {
       "pos": "名詞",
       "meaning": "本人が自分の名前を書き、文書の真正性を示すもの。",
       "tags": [
         "formal"
       ]
+    },
+    "simply": {
+      "pos": "未分類",
+      "meaning": "単純に、ただ；発言を強めて『本当に、まったく』。"
     },
     "social reference": {
       "pos": "名詞句",
@@ -778,6 +950,10 @@
       ],
       "forms": "名詞。必要に応じて複数形をとる。",
       "ipa": "/səlˈɪsɪtə/"
+    },
+    "spare": {
+      "pos": "未分類",
+      "meaning": "予備の、余分の；時間などを割く。"
     },
     "speak the truth": {
       "pos": "コロケーション",
@@ -863,6 +1039,10 @@
       "forms": "この項目では重要な語形変化なし",
       "ipa": "/tˈʌf/"
     },
+    "trap": {
+      "pos": "未分類",
+      "meaning": "人や動物を捕らえる罠；人を不利な状況へ誘い込む仕掛け。"
+    },
     "tune": {
       "pos": "名詞",
       "meaning": "歌詞とは別のメロディー部分。",
@@ -899,6 +1079,10 @@
       "forms": "この項目では重要な語形変化なし",
       "ipa": "/ʌnwˈɪlɪŋ/"
     },
+    "upset": {
+      "pos": "未分類",
+      "meaning": "人を動揺・不快・悲しい気持ちにさせる；動揺した。"
+    },
     "vital": {
       "pos": "形容詞",
       "meaning": "成功・安全に欠かせないほど重要。",
@@ -920,6 +1104,10 @@
       "tags": [
         "grammar"
       ]
+    },
+    "wire": {
+      "pos": "未分類",
+      "meaning": "金属製の細い線、電線。"
     },
     "would you mind": {
       "pos": "定型表現",

@@ -154,6 +154,20 @@
     ],
     "act2-speech-0575": [
       {
+        "surface": "concerned",
+        "lemma": "concerned",
+        "contextMeaning": "the magistrate concerned で、Longridge Farm事件の児童委託に関与した『その件の判事』を指している。心配しているという意味ではない。",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
+        "surface": "dumb",
+        "lemma": "dumb",
+        "contextMeaning": "Trotterが『警察をそこまで愚かだと思うな』という意味で使っており、話せないという意味ではない。",
+        "cefrLevel": "C1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
         "surface": "firsthand knowledge",
         "lemma": "firsthand",
         "contextMeaning": "MollieがLongridge Farm事件を伝聞ではなく、自分自身の経験を通じて知っていたという意味。"
@@ -226,6 +240,13 @@
     ],
     "act2-speech-0620": [
       {
+        "surface": "gather",
+        "lemma": "gather",
+        "contextMeaning": "I gather ... で、Gilesが『どうやら警察はParaviciniの車を詳しく調べるらしいと察している』という意味。物を集める意味ではない。",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      },
+      {
         "surface": "his line of business",
         "lemma": "line of business",
         "contextMeaning": "GilesがParaviciniの普段の商売・稼業の種類について述べている。"
@@ -248,6 +269,33 @@
         "surface": "the last thing in hats",
         "lemma": "the last thing in",
         "contextMeaning": "店員がその帽子を「最新流行の型」だと説明した、という意味。最後に残った帽子という意味ではない。"
+      }
+    ],
+    "act2-speech-0512": [
+      {
+        "surface": "chapter",
+        "lemma": "chapter",
+        "contextMeaning": "Paraviciniが捜査を推理小説になぞらえ、真相説明は『最後の章』まで取っておくべきだと芝居がかって茶化している。",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0488": [
+      {
+        "surface": "hell",
+        "lemma": "hell",
+        "contextMeaning": "what the hell ... で、Trotterの強い驚きと動揺を表し、『いったい何をしているんだ』に近い強調。",
+        "cefrLevel": "B2",
+        "cefrSource": "Oxford 3000/5000 review"
+      }
+    ],
+    "act2-speech-0609": [
+      {
+        "surface": "mixed",
+        "lemma": "mix",
+        "contextMeaning": "was mixed up in it all で、MollieがLongridge Farm事件に関係する立場だったという意味。何かを物理的に混ぜたのではない。",
+        "cefrLevel": "B1",
+        "cefrSource": "Oxford 3000/5000 review"
       }
     ]
   }
