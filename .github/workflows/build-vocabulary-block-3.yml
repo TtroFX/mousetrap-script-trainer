@@ -8,6 +8,7 @@ on:
       - 'scripts/audit-oxford-b1plus-block-3.mjs'
       - 'scripts/validate-vocabulary-block.mjs'
       - 'data/vocabulary-rebuild/block-3-neutral-seed.json'
+      - 'data/vocabulary-rebuild/block-3-oxford-review.json'
       - 'data/context-outline-patches/block-3.json'
       - 'data/mousetrap_context_outline.json'
       - '.github/workflows/build-vocabulary-block-3.yml'
@@ -71,7 +72,8 @@ jobs:
                   data/vocabulary-rebuild/block-3-b1plus-coverage.json \
                   data/vocabulary-rebuild/block-3-dictionary.json \
                   data/vocabulary-rebuild/block-3-dictionary-supplement.json \
-                  data/vocabulary-rebuild/block-3-neutral-fallbacks.json
+                  data/vocabulary-rebuild/block-3-neutral-fallbacks.json \
+                  data/vocabulary-rebuild/block-3-oxford-audit.json
           if git diff --cached --quiet; then
             echo 'No generated changes.'
             exit 0
