@@ -12,3 +12,10 @@ __pycache__/
 
 # OS/editor
 .DS_Store
+
+# Generated app QA/build artifacts
+app/node_modules/
+app/test-results/
+app/mousetrap_line_structure.json
+app/package-lock.json
+public/
