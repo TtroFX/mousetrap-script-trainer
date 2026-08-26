@@ -1,0 +1,118 @@
+{
+  "blockId": "block-4",
+  "plan": {
+    "scope": "Act II — speeches 0001-0179",
+    "speechCount": 179,
+    "boundaryPolicy": "Begins immediately after the Act I blackout and Mrs. Boyle's murder. Ends when Trotter's private questioning of Mollie reaches the Evening News found in Giles's coat; speech 0180 then shifts to a separate Mollie-Christopher exchange."
+  },
+  "outline": {
+    "scope": {
+      "sceneId": "act2",
+      "firstSpeechId": "act2-speech-0001",
+      "lastSpeechId": "act2-speech-0179",
+      "speechCount": 179
+    },
+    "dramaticFunction": "The unresolved disturbance at the end of Act I is confirmed as Mrs. Boyle's murder, turning Trotter's warning into an immediate internal investigation. He reconstructs each person's movements, demonstrates that every occupant had opportunity, and refuses Giles's attempt to reduce suspicion to Christopher alone. A private interview with Mollie then widens the suspect field further: the telephone was deliberately cut, the Corrigan father and sister remain possible, Paravicini may be disguised, and neither Mollie nor Giles has a readily verifiable background. The section ends with Trotter producing a London evening newspaper from Giles's coat, directly undermining Mollie's certainty that Giles could not have been in London on the day of the first murder.",
+    "startingState": "The lights and noise at the end of Act I have just been followed by the discovery that Mrs. Boyle has been killed. The household is isolated, Trotter is already present, and the murderer must be treated as someone who could have moved inside Monkswell Manor while the others were separated.",
+    "endingState": "Trotter has privately challenged Mollie's assumptions about every major suspect, including Christopher, Metcalf, Paravicini, Casewell, Mollie herself and Giles. He then produces an Evening News from Giles's coat that was sold in London the previous afternoon. Mollie refuses to believe the implication. Trotter's final repeated challenge leaves her shaken before Christopher enters at speech 0180.",
+    "globalThreads": [
+      {
+        "thread": "Mrs. Boyle's murder converts theory into fact",
+        "development": "Trotter's earlier warning that another person might be in danger is immediately validated. The investigation is no longer about preventing a hypothetical attack: the killer has acted inside the house while the occupants were dispersed."
+      },
+      {
+        "thread": "Opportunity applies to everyone",
+        "development": "Trotter reconstructs routes through the hall, back stairs, cellar, cupboard and trapdoor. Contradictions or weak alibis appear in several accounts. His key conclusion is that everyone was alone and therefore had opportunity; physical movement inside the house does not clear any occupant."
+      },
+      {
+        "thread": "Christopher is an obvious suspect but not the only one",
+        "development": "Giles repeatedly argues that Christopher fits the expected profile and should be detained. Christopher reacts with panic and persecution language. Trotter explicitly refuses to arrest without evidence and later tells Mollie that the police theory is only probabilistic rather than proven."
+      },
+      {
+        "thread": "The telephone line is confirmed as sabotage",
+        "development": "What could previously be blamed on the snow is now established by Trotter as a deliberate cut near the front door. Isolation therefore looks intentionally engineered and strengthens the possibility of planning from inside the house."
+      },
+      {
+        "thread": "The suspect field widens by age, sex and identity",
+        "development": "Mollie proposes the Corrigan father, Metcalf and Paravicini as alternatives to Christopher. Trotter adds the surviving sister and points out that the London killer's clothing and whispered voice could conceal a woman's identity. Apparent age, sex and social role are therefore unreliable evidence."
+      },
+      {
+        "thread": "Mollie's trust in Giles is destabilized",
+        "development": "Trotter stresses that Mollie knew Giles only three weeks before marriage and knows much of his background only from what he told her. Her categorical defence that he was not in London is weakened when Trotter finds a London paper sold there the previous afternoon in Giles's coat. The paper creates suspicion but does not by itself prove where Giles was or what he did."
+      },
+      {
+        "thread": "Three Blind Mice remains an active threat motif",
+        "development": "Paravicini admits playing the tune and reports hearing someone whistle it elsewhere. The tune continues to function as the killer's disturbing motif, while Paravicini's theatrical manner makes it unclear how seriously to take each detail he supplies."
+      }
+    ],
+    "beats": [
+      {
+        "beatId": "b4-01",
+        "speechRange": [1, 60],
+        "summary": "Trotter questions Mollie immediately after Mrs. Boyle's death and presses her to remember a possible door sound. Giles objects that Mollie is exhausted, but Trotter insists that earlier withholding of information has already had fatal consequences and that another death may follow the Three Blind Mice pattern. He then begins reconstructing everyone's movements. Giles and Christopher both have gaps in their timing; Paravicini claims to have been playing the piano softly and admits that the tune was Three Blind Mice. He further says someone else was whistling it somewhere in the house, though Trotter openly questions whether he is inventing the detail.",
+        "contextNotes": [
+          "'Get to the bottom of this' means discover the full truth or cause of the murder situation.",
+          "'Held out on me' means withheld relevant information from the investigator, not physically resisted him.",
+          "'A wider field' refers to a wider set of possible intended victims or suspects at Monkswell Manor.",
+          "Paravicini's description of the tune as catchy or haunting is deliberately unsettling because the rhyme is now associated with murder."
+        ]
+      },
+      {
+        "beatId": "b4-02",
+        "speechRange": [61, 102],
+        "summary": "Trotter continues the alibi reconstruction. Casewell says she was writing letters, but Trotter notices behaviour that makes her account less straightforward. Metcalf says he was exploring the cellar and reveals a second internal route through a cupboard and trapdoor, making movement around the house easier than it first appeared. Trotter summarizes that every person was alone and had opportunity. Giles nevertheless singles out Christopher as the one person who fits the expected profile. Christopher panics, says the group is trying to frame him and calls the situation persecution. Trotter refuses to arrest anyone without evidence, while Mollie asks to speak with him privately.",
+        "contextNotes": [
+          "'Screaming blue murder' is an idiom for screaming loudly in alarm, not a literal description of another murder.",
+          "'Slip up' means make a mistake that reveals or compromises oneself.",
+          "'Establish opportunity' is investigative language: determine who physically could have committed the crime.",
+          "'Fits the bill' means matches the required description or set of characteristics.",
+          "Christopher's claim that he is being framed is his frightened interpretation, not established police conduct."
+        ]
+      },
+      {
+        "beatId": "b4-03",
+        "speechRange": [103, 143],
+        "summary": "The others leave so Mollie can question Trotter privately. She challenges his apparent focus on the eldest Corrigan boy. Trotter acknowledges that the police do not actually know the killer's identity and confirms that the telephone line was deliberately cut. He explains that probability points toward the disturbed elder boy but accepts that alternatives exist. Mollie then constructs possible cases for the children's father, Major Metcalf and Paravicini, partly because she wants Christopher not to be guilty. Trotter finally reveals that he has considered the surviving Corrigan sister as well.",
+        "contextNotes": [
+          "Trotter's 'going by probability' marks an inference from evidence, not certainty.",
+          "Mollie's scenario about the children's father is explicitly surmise and must remain hypothetical.",
+          "'Take every eventuality into account' means consider every reasonably possible development or outcome.",
+          "Comments about mental instability reflect period police/character language and should not be converted into modern clinical diagnosis."
+        ]
+      },
+      {
+        "beatId": "b4-04",
+        "speechRange": [144, 179],
+        "summary": "Trotter explains that the London killer could have been a woman because clothing concealed the body and a whisper concealed the voice. He points out that Casewell, Mollie and Giles cannot be cleared simply from appearance or self-reported background. The questioning narrows onto Giles: Mollie admits that she had known him only three weeks when they married and that his family history comes from what he told her. She angrily insists that Giles could not have committed the London murder because he was away looking for chicken wire rather than in London. Trotter then finds an Evening News in Giles's coat and identifies it as a paper sold on London streets the previous afternoon. Mollie refuses to believe the implication as the interview ends.",
+        "contextNotes": [
+          "'The voice gives the sex away' means the voice would reveal a person's sex; whispering could therefore be used to conceal it.",
+          "'No means of checking it' concerns the inability to verify identity claims while the house is cut off.",
+          "'Of your own knowledge' means known independently rather than merely repeated from what another person said.",
+          "The London newspaper is incriminating circumstantial evidence, not proof that Giles committed either murder."
+        ]
+      }
+    ],
+    "characterState": {
+      "TROTTER": "Moves from warning and prevention to active murder investigation. He is methodical, increasingly forceful and careful to distinguish evidence from probability. He deliberately resists the group's wish for a single obvious suspect and expands the field whenever assumptions become too comfortable.",
+      "MOLLIE": "Shocked by Boyle's death and initially dependent on Giles's protection, but still willing to challenge Trotter. She strongly protects Christopher and Giles, then becomes increasingly unsettled as Trotter demonstrates that her knowledge of Giles is partly based on trust rather than verification.",
+      "GILES": "Protective of Mollie and increasingly impatient with Trotter. He focuses suspicion on Christopher and pushes for preventive arrest. The newspaper found in his coat creates a serious contradiction with Mollie's belief about his movements, though he is not present to explain it within this block.",
+      "CHRISTOPHER": "Under intense suspicion and emotionally unstable under pressure. His fear of being blamed becomes explicit when Giles says he fits the profile. His panic is evidence of distress, not proof of guilt.",
+      "MISS CASEWELL": "Maintains a controlled, resistant manner during questioning. Trotter notices a small inconsistency around the letter she says she was writing, preserving uncertainty about her movements.",
+      "MAJOR METCALF": "Appears practical and curious, but his unexplained exploration of the cellar gives him access to an alternative route through the house. Mollie later offers him as a possible older suspect, which remains speculation.",
+      "PARAVICINI": "Continues to combine useful observations with theatrical provocation. His playing of Three Blind Mice and claim that someone else was whistling it increase tension, while Mollie later suspects that his apparent age may be disguise.",
+      "MRS. BOYLE": "Dead before the block's questioning begins. Her murder is now the immediate fact around which all alibis, opportunity and motive are assessed."
+    },
+    "vocabularyInterpretationPolicy": {
+      "generalRule": "Interpret vocabulary from the immediate murder investigation, alibi reconstruction, speaker motive and degree of evidential certainty before writing a contextual meaning.",
+      "contextMeaningRequiredWhen": [
+        "investigative or evidential language has a specialized local sense",
+        "an idiom or phrasal verb is not transparently compositional",
+        "sarcasm, panic, accusation, euphemism or period usage materially changes the local force",
+        "a word's local sense differs substantially from its neutral dictionary meaning"
+      ],
+      "contextMeaningOmitWhen": "Use an empty contextMeaning when the neutral learner-friendly definition already captures the actual local meaning without important loss.",
+      "uncertaintyRule": "Keep accusations, police theories, alibis, suspicions and circumstantial evidence distinct from established facts. Do not promote a character's guess into narration."
+    },
+    "status": "outline-complete"
+  }
+}
