@@ -1,6 +1,7 @@
 {
   "schemaVersion": 2,
   "status": "CHUNKING_V1_CANONICAL",
+  "productionState": "MAIN_PUBLISHED",
   "purpose": "Canonical production registry. Structural chunking is derived only from the canonical script JSON and is validated as an exact-offset, deterministic dataset.",
   "script": {
     "file": "mousetrap_script_data.json",
