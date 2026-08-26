@@ -51,3 +51,5 @@ jobs:
           git add -A
           git commit -m 'Rebuild canonical study presentation'
           git push origin HEAD:feature/study-ui-rebuild-v2
+
+# rebuild-trigger-v2
