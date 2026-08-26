@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 2,
+  "blockId": "block-6",
+  "sceneId": "act2",
+  "processedSpeechRange": [
+    424,
+    638
+  ],
+  "processedSpeechCount": 215,
+  "policy": "Context-specific meanings first; blank means neutral dictionary sense is sufficient.",
+  "lines": {
+    "act2-speech-0441": [
+      {
+        "surface": "Care of Morgan's Bank",
+        "lemma": "care of",
+        "contextMeaning": "住所での care of は「～方／～気付」の意味。Casewellは英国で固定住所を示さず、Morgan's Bankを郵便物の受取先としている。"
+      }
+    ],
+    "act2-speech-0461": [
+      {
+        "surface": "Not in the least",
+        "lemma": "not in the least",
+        "contextMeaning": "年齢を尋ねられることを「少しも気にしない」とCasewellが平然と答えている。"
+      }
+    ],
+    "act2-speech-0464": [
+      {
+        "surface": "vouch for you",
+        "lemma": "vouch for",
+        "contextMeaning": "Trotterは、英国でCasewellの身元や信用を裏付けられる人物がいるかを確認している。"
+      }
+    ],
+    "act2-speech-0465": [
+      {
+        "surface": "as to my financial position",
+        "lemma": "as to",
+        "contextMeaning": "Casewellは銀行なら自分の経済的信用については保証できる、と話題を限定して答えている。"
+      }
+    ],
+    "act2-speech-0470": [
+      {
+        "surface": "make you out",
+        "lemma": "make someone out",
+        "contextMeaning": "TrotterがCasewellの人物像や行動の理由をどうにもつかめない、という意味。文字を判読する意味ではない。"
+      }
+    ],
+    "act2-speech-0485": [
+      {
+        "surface": "I daresay",
+        "lemma": "daresay",
+        "contextMeaning": "CasewellがTrotterの一般論を深く認めず、「まあ、そうでしょうね」程度に受け流している英国的な言い方。"
+      }
+    ],
+    "act2-speech-0490": [
+      {
+        "surface": "the third degree",
+        "lemma": "the third degree",
+        "contextMeaning": "ChristopherがTrotterの厳しい質問を、強圧的な取り調べのようだと批判的・大げさに表現している古めの慣用句。"
+      }
+    ],
+    "act2-speech-0493": [
+      {
+        "surface": "came over me suddenly",
+        "lemma": "come over someone",
+        "contextMeaning": "Casewellが突然強い感情に襲われ、動揺したという意味。単に誰かが近づいて来たのではない。"
+      }
+    ],
+    "act2-speech-0497": [
+      {
+        "surface": "you'd seen a ghost",
+        "lemma": "look as though one has seen a ghost",
+        "contextMeaning": "ChristopherがTrotterの表情を、非常に驚き動揺しているようだと比喩的に評している。"
+      }
+    ],
+    "act2-speech-0498": [
+      {
+        "surface": "Blind as a bat",
+        "lemma": "blind as a bat",
+        "contextMeaning": "Trotterが、重要な点を今まで見落としていた自分を「まるで何も見えていなかった」と自嘲している比喩。"
+      },
+      {
+        "surface": "get somewhere",
+        "lemma": "get somewhere",
+        "contextMeaning": "新しい気づきによって捜査がようやく前進しそうだ、という意味。物理的にどこかへ移動することではない。"
+      }
+    ],
+    "act2-speech-0501": [
+      {
+        "surface": "all to no avail",
+        "lemma": "to no avail",
+        "contextMeaning": "スキーをいろいろな場所で探したが、結局何の成果もなかったという意味。"
+      }
+    ],
+    "act2-speech-0523": [
+      {
+        "surface": "go through these actions a second time",
+        "lemma": "go through",
+        "contextMeaning": "全員に、殺人時にしたと申告した行動をもう一度順に実行させる、というTrotterの提案。"
+      }
+    ],
+    "act2-speech-0524": [
+      {
+        "surface": "that old chestnut",
+        "lemma": "old chestnut",
+        "contextMeaning": "Paraviciniが「犯罪の再現」という発想を、使い古されたお決まりの手だと茶化している。"
+      }
+    ],
+    "act2-speech-0537": [
+      {
+        "surface": "count me out",
+        "lemma": "count someone out",
+        "contextMeaning": "Mollieがその再現実験の参加者から自分を外してほしい、と拒もうとしている。"
+      }
+    ],
+    "act2-speech-0539": [
+      {
+        "surface": "what you say goes",
+        "lemma": "what someone says goes",
+        "contextMeaning": "GilesがTrotterの指示に従うと認め、「あなたが決めた通りにする」という意味で使っている。"
+      }
+    ],
+    "act2-speech-0557": [
+      {
+        "surface": "see the point",
+        "lemma": "see the point",
+        "contextMeaning": "Gilesは、同じ行動を別人にさせることにどんな目的・意味があるのか理解できないと言っている。"
+      }
+    ],
+    "act2-speech-0558": [
+      {
+        "surface": "checking up on the original statements",
+        "lemma": "check up on",
+        "contextMeaning": "Trotterは再現によって、最初の供述が本当に成立するかを検証すると説明している。"
+      },
+      {
+        "surface": "keep an eye on Mrs. Ralston's dinner",
+        "lemma": "keep an eye on",
+        "contextMeaning": "Christopherに、Mollieの代わりに料理の様子を見ておくよう頼んでいる。監視対象は人ではなく料理。"
+      }
+    ],
+    "act2-speech-0560": [
+      {
+        "surface": "enacting the part of Mrs. Boyle",
+        "lemma": "enact the part of",
+        "contextMeaning": "Trotter自身が再現の中でMrs. Boyleがいた役割・位置を担当するという意味。"
+      }
+    ],
+    "act2-speech-0573": [
+      {
+        "surface": "holding out on me",
+        "lemma": "hold out on",
+        "contextMeaning": "TrotterはMollieがLongridge Farmに関する重要情報を意図的に自分へ話していなかった、と責めている。"
+      }
+    ],
+    "act2-speech-0575": [
+      {
+        "surface": "firsthand knowledge",
+        "lemma": "firsthand",
+        "contextMeaning": "MollieがLongridge Farm事件を伝聞ではなく、自分自身の経験を通じて知っていたという意味。"
+      },
+      {
+        "surface": "speak up and say so",
+        "lemma": "speak up",
+        "contextMeaning": "ここでは声量を上げるのではなく、知っていた事実を捜査側へ自発的に明かすという意味。"
+      }
+    ],
+    "act2-speech-0583": [
+      {
+        "surface": "didn't bother",
+        "lemma": "bother",
+        "contextMeaning": "TrotterはMollieがJimmyの手紙に対応する手間さえかけなかった、と非難する言い方をしている。直後にMollieが否定する。"
+      }
+    ],
+    "act2-speech-0584": [
+      {
+        "surface": "haunted me ever since",
+        "lemma": "haunt",
+        "contextMeaning": "Jimmyの死と手紙の記憶が、それ以来ずっとMollieを苦しめ続けているという比喩。"
+      },
+      {
+        "surface": "put aside with others",
+        "lemma": "put aside",
+        "contextMeaning": "手紙が他の郵便物と一緒に脇へ置かれ、Mollieが回復するまで読まれなかったという意味。"
+      },
+      {
+        "surface": "went down with pneumonia",
+        "lemma": "go down with",
+        "contextMeaning": "Mollieがその日に肺炎を発症して寝込んだという意味。"
+      }
+    ],
+    "act2-speech-0612": [
+      {
+        "surface": "mad as a hatter",
+        "lemma": "mad as a hatter",
+        "contextMeaning": "Metcalfが非常に常軌を逸しているという意味で使う古い慣用句。医学的な診断名ではない。"
+      },
+      {
+        "surface": "under control",
+        "lemma": "under control",
+        "contextMeaning": "Metcalfは、直前の危険な状況がすでに抑えられ、これ以上その場で拡大しない状態だと伝えている。"
+      }
+    ],
+    "act2-speech-0616": [
+      {
+        "surface": "got hold of that notebook",
+        "lemma": "get hold of",
+        "contextMeaning": "警察がMonkswell Manorと書かれた重要な手帳を入手した、という意味。"
+      },
+      {
+        "surface": "on the spot",
+        "lemma": "on the spot",
+        "contextMeaning": "事件が起きるMonkswell Manorの現場内に、警察側の人物をあらかじめ配置しておく必要があったという意味。"
+      },
+      {
+        "surface": "Trotter turned up",
+        "lemma": "turn up",
+        "contextMeaning": "本物の警察側が想定していなかった『Trotter』がMonkswell Manorへ現れたことを指す。"
+      }
+    ],
+    "act2-speech-0618": [
+      {
+        "surface": "just in time",
+        "lemma": "just in time",
+        "contextMeaning": "Casewellが事態が決定的に悪化する直前にMetcalfへ相談できた、という意味。"
+      }
+    ],
+    "act2-speech-0620": [
+      {
+        "surface": "his line of business",
+        "lemma": "line of business",
+        "contextMeaning": "GilesがParaviciniの普段の商売・稼業の種類について述べている。"
+      },
+      {
+        "surface": "nasty little bit of goods",
+        "lemma": "a bit of goods",
+        "contextMeaning": "ここでは物品ではなくParavicini本人を、信用しにくい嫌な人物だとくだけた古風な言い方で評している。"
+      }
+    ],
+    "act2-speech-0632": [
+      {
+        "surface": "Just for best",
+        "lemma": "for best",
+        "contextMeaning": "その帽子を普段使いではなく、特別な外出やよそ行きの時に使えばよいという英国的な言い方。"
+      }
+    ],
+    "act2-speech-0636": [
+      {
+        "surface": "the last thing in hats",
+        "lemma": "the last thing in",
+        "contextMeaning": "店員がその帽子を「最新流行の型」だと説明した、という意味。最後に残った帽子という意味ではない。"
+      }
+    ]
+  }
+}

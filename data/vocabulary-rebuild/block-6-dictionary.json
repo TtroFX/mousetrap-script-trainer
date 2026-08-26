@@ -1,0 +1,934 @@
+{
+  "schemaVersion": 2,
+  "blockId": "block-6",
+  "policy": "Neutral meanings only. Context-specific meaning belongs to line vocabulary.",
+  "entries": {
+    "a bit of goods": {
+      "pos": "古風な口語表現",
+      "meaning": "人を品物になぞらえて評する古風な口語表現。文脈により軽蔑的・冗談的になり得る。"
+    },
+    "abroad": {
+      "pos": "副詞",
+      "meaning": "国外へ・国外で。また古い用法で、外に出て・広く出回って。",
+      "tags": [
+        "dated-sense"
+      ]
+    },
+    "affair": {
+      "pos": "名詞",
+      "meaning": "人が関わる事柄・用事・事情。複数形で個人的な問題や活動を表すことがある。"
+    },
+    "all along": {
+      "pos": "副詞句",
+      "meaning": "ある期間全体を通して。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ],
+      "forms": "句として固定。動詞部分は文脈に応じて活用する。",
+      "ipa": "/ˈɔːl ɐlˈɒŋ/"
+    },
+    "all the same": {
+      "pos": "副詞句",
+      "meaning": "前の事情を認めつつ、結論を変えない逆接表現。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "all to no avail": {
+      "pos": "定型表現",
+      "meaning": "avail「役立ち・効果」がない、という硬い定型表現。",
+      "tags": [
+        "formal",
+        "idiom",
+        "chunk"
+      ],
+      "forms": "句として固定。動詞部分は文脈に応じて活用する。",
+      "ipa": "/ˈɔːl tə nˈəʊ ɐvˈeɪl/"
+    },
+    "anniversary": {
+      "pos": "名詞",
+      "meaning": "過去の出来事と同じ日付が毎年巡る日。",
+      "forms": "名詞。必要に応じて複数形をとる。",
+      "ipa": "/ˌanɪvˈɜːsəɹi/"
+    },
+    "apparently": {
+      "pos": "副詞",
+      "meaning": "得られている情報・外見からそう見えるが確定ではない。",
+      "forms": "この項目では重要な語形変化なし",
+      "ipa": "/ɐpˈaɹəntli/"
+    },
+    "arrival": {
+      "pos": "名詞",
+      "meaning": "到着、到着する人・物。"
+    },
+    "as a result": {
+      "pos": "副詞句",
+      "meaning": "原因に続く結果を明示する。",
+      "tags": [
+        "formal",
+        "chunk"
+      ],
+      "forms": "句として固定。動詞部分は文脈に応じて活用する。",
+      "ipa": "/az ɐ ɹɪzˈʌlt/"
+    },
+    "as to": {
+      "pos": "前置詞句",
+      "meaning": "～について、～に関して。話題や範囲を限定する。"
+    },
+    "assign": {
+      "pos": "動詞",
+      "meaning": "役割・場所・仕事を特定の人に配分する。",
+      "forms": "assign · assigned · assigned",
+      "ipa": "/ɐsˈaɪn/"
+    },
+    "at the present moment": {
+      "pos": "定型表現",
+      "meaning": "now より硬く、現時点を限定する。",
+      "tags": [
+        "formal",
+        "chunk"
+      ],
+      "forms": "句として固定。動詞部分は文脈に応じて活用する。",
+      "ipa": "/at ðə pɹˈɛzənt mˈəʊmənt/"
+    },
+    "beg your pardon": {
+      "pos": "定型表現",
+      "meaning": "謝罪または聞き返しに使う丁寧な定型表現。",
+      "tags": [
+        "British English",
+        "polite",
+        "chunk"
+      ]
+    },
+    "blind as a bat": {
+      "pos": "慣用句",
+      "meaning": "非常に目が見えにくい、または比喩的に明白なことに気づかない。"
+    },
+    "bother": {
+      "pos": "動詞",
+      "meaning": "わざわざ手間をかける；人を困らせる、気にさせる。"
+    },
+    "business": {
+      "pos": "名詞",
+      "meaning": "「取り組むべき事柄」が中心で、文脈により仕事・用事・事件を指す。",
+      "tags": [
+        "context"
+      ]
+    },
+    "by the way": {
+      "pos": "談話表現",
+      "meaning": "ところで、ちなみに。話題を付け加えたり変えたりする。"
+    },
+    "call box": {
+      "pos": "名詞句",
+      "meaning": "英国英語の telephone box / call box。",
+      "tags": [
+        "British English",
+        "dated",
+        "chunk"
+      ],
+      "forms": "句として固定。動詞部分は文脈に応じて活用する。",
+      "ipa": "/kˈɔːl bˈɒks/"
+    },
+    "care of": {
+      "pos": "前置詞句",
+      "meaning": "郵便物の宛先で、指定した人・組織を経由して受け取ることを示す「～方、～気付」。"
+    },
+    "cellar": {
+      "pos": "名詞",
+      "meaning": "特に食料・酒などを置く地下室。",
+      "tags": [
+        "British English"
+      ]
+    },
+    "check up on": {
+      "pos": "句動詞",
+      "meaning": "事実・状態・人物などを調べて正しいか確認する。"
+    },
+    "co-operation": {
+      "pos": "名詞",
+      "meaning": "共同で目的に向かって働くこと。英国式ハイフン綴り。",
+      "tags": [
+        "British English",
+        "spelling"
+      ],
+      "forms": "名詞。必要に応じて複数形をとる。",
+      "ipa": "/kˈəʊˌɒpəɹˈeɪʃən/"
+    },
+    "come down": {
+      "pos": "句動詞",
+      "meaning": "高い場所・上階から下へ移動する。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "come over someone": {
+      "pos": "句動詞",
+      "meaning": "感情・気分・体調などが突然人を襲う。"
+    },
+    "commit": {
+      "pos": "動詞",
+      "meaning": "行為を実行する。crime と結び付くと「犯罪を犯す」。",
+      "tags": [
+        "crime",
+        "context"
+      ]
+    },
+    "convenient": {
+      "pos": "形容詞",
+      "meaning": "時間・場所・条件が目的に合う。"
+    },
+    "count someone out": {
+      "pos": "句動詞",
+      "meaning": "人を参加者・候補などから外す。"
+    },
+    "daresay": {
+      "pos": "動詞",
+      "meaning": "おそらく～だろう、～だと思う。主に英国英語で用いる。"
+    },
+    "despair": {
+      "pos": "名詞・動詞",
+      "meaning": "希望を失った絶望、絶望する。"
+    },
+    "discreet": {
+      "pos": "形容詞",
+      "meaning": "秘密や人間関係に配慮して不用意に話さない。discrete「別個の」と区別。",
+      "forms": "この項目では重要な語形変化なし",
+      "ipa": "/dɪskɹˈiːt/"
+    },
+    "ditto": {
+      "pos": "副詞・名詞",
+      "meaning": "直前と同じ内容であることを示す語。",
+      "tags": [
+        "dated",
+        "formal"
+      ],
+      "forms": "語形変化なし",
+      "ipa": "/dˈɪtəʊ/"
+    },
+    "enact the part of": {
+      "pos": "動詞句",
+      "meaning": "再現・上演などで、ある人物の役割を演じる。"
+    },
+    "extraordinary": {
+      "pos": "形容詞",
+      "meaning": "ordinary の範囲を大きく超える。"
+    },
+    "financial position": {
+      "pos": "名詞句",
+      "meaning": "収入・資産・負債などを含む財務上の状況。",
+      "tags": [
+        "formal"
+      ],
+      "forms": "語形変化なし",
+      "ipa": "/faɪnˈanʃəl pəzˈɪʃən/"
+    },
+    "find out": {
+      "pos": "句動詞",
+      "meaning": "調査・経験を通じて未知の事実を知る。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "firsthand": {
+      "pos": "形容詞・副詞",
+      "meaning": "他人からの伝聞ではなく、直接の経験・観察による。"
+    },
+    "firsthand knowledge": {
+      "pos": "名詞句",
+      "meaning": "他人から聞いたのではなく、自分が直接知っていること。",
+      "tags": [
+        "formal",
+        "chunk"
+      ],
+      "forms": "句として固定。動詞部分は文脈に応じて活用する。",
+      "ipa": "/fˈɜːsthand nˈɒlɪdʒ/"
+    },
+    "foolish": {
+      "pos": "形容詞",
+      "meaning": "判断が賢明でない。",
+      "forms": "この項目では重要な語形変化なし",
+      "ipa": "/fˈuːlɪʃ/"
+    },
+    "for best": {
+      "pos": "英国表現",
+      "meaning": "特別な機会・よそ行き用に。"
+    },
+    "for instance": {
+      "pos": "副詞句",
+      "meaning": "具体例を導入する。",
+      "tags": [
+        "formal",
+        "chunk"
+      ]
+    },
+    "foreign": {
+      "pos": "形容詞",
+      "meaning": "自国・自分の文化の外に属する。"
+    },
+    "fourposter": {
+      "pos": "名詞",
+      "meaning": "四隅に柱が立つ four-poster bed。",
+      "tags": [
+        "British English",
+        "furniture"
+      ],
+      "forms": "名詞。必要に応じて複数形をとる。",
+      "ipa": "/fˈɔːpəʊstə/"
+    },
+    "get away": {
+      "pos": "句動詞",
+      "meaning": "ある場所・拘束・危険から離れる。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "get hold of": {
+      "pos": "句動詞",
+      "meaning": "物を手に入れる、入手する；人と連絡を取る。"
+    },
+    "get somewhere": {
+      "pos": "慣用表現",
+      "meaning": "問題解決や仕事などで進展する、成果に近づく。"
+    },
+    "go down to": {
+      "pos": "句動詞",
+      "meaning": "英国口語で town/village などへ「出かける」感覚にも使う。",
+      "tags": [
+        "context",
+        "chunk"
+      ]
+    },
+    "go down with": {
+      "pos": "句動詞",
+      "meaning": "病気にかかる、発症する。"
+    },
+    "go through": {
+      "pos": "句動詞",
+      "meaning": "手順・経験・一連の行為などを順に行う、経験する、確認する。"
+    },
+    "go up": {
+      "pos": "句動詞",
+      "meaning": "低い位置から高い位置へ移動する。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "grow up": {
+      "pos": "句動詞",
+      "meaning": "成長して子どもの段階を離れる。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "had better": {
+      "pos": "助動詞的表現",
+      "meaning": "強い助言・警告。形式は had だが現在・未来についても使う。",
+      "tags": [
+        "grammar",
+        "chunk"
+      ]
+    },
+    "haunt": {
+      "pos": "動詞",
+      "meaning": "記憶・不安などが長く心につきまとい、苦しめる；場所に幽霊が出る。"
+    },
+    "headquarters": {
+      "pos": "名詞",
+      "meaning": "組織の指揮・管理の中心。police headquarters で警察本部。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "hold out on": {
+      "pos": "句動詞",
+      "meaning": "必要・重要な情報や物を相手に隠して渡さない。"
+    },
+    "impossible": {
+      "pos": "形容詞",
+      "meaning": "実現できない。会話では強い拒絶・驚きにも。"
+    },
+    "in a position to": {
+      "pos": "定型表現",
+      "meaning": "能力というより状況・資格が整っていること。",
+      "tags": [
+        "formal",
+        "chunk"
+      ],
+      "forms": "句として固定。動詞部分は文脈に応じて活用する。",
+      "ipa": "/ɪn ɐ pəzˈɪʃən tuː/"
+    },
+    "in fact": {
+      "pos": "副詞句",
+      "meaning": "前の内容を訂正・強化する事実を導く。",
+      "tags": [
+        "discourse",
+        "chunk"
+      ]
+    },
+    "in particular": {
+      "pos": "副詞句",
+      "meaning": "複数の中から一つを特に取り上げる。",
+      "tags": [
+        "formal",
+        "chunk"
+      ],
+      "forms": "句として固定。動詞部分は文脈に応じて活用する。",
+      "ipa": "/ɪn pətˈɪkjʊlə/"
+    },
+    "innocent": {
+      "pos": "形容詞",
+      "meaning": "犯罪・非難に関して責任がない。",
+      "tags": [
+        "legal"
+      ]
+    },
+    "interrogate": {
+      "pos": "動詞",
+      "meaning": "情報を得るため正式・集中的に質問する。",
+      "tags": [
+        "police",
+        "formal"
+      ],
+      "forms": "interrogate · interrogated · interrogated",
+      "ipa": "/ɪntˈɛɹəɡˌeɪt/"
+    },
+    "it doesn’t matter": {
+      "pos": "定型表現",
+      "meaning": "重要性がないことを表す。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "just": {
+      "pos": "副詞",
+      "meaning": "時間・数量・一致などを「狭く限定する」のが中心。",
+      "tags": [
+        "context"
+      ]
+    },
+    "just before": {
+      "pos": "定型表現",
+      "meaning": "時間的にごく近い前を表す。",
+      "tags": [
+        "time",
+        "chunk"
+      ],
+      "forms": "句として固定。動詞部分は文脈に応じて活用する。",
+      "ipa": "/dʒˈʌst bɪfˈɔː/"
+    },
+    "just in time": {
+      "pos": "定型表現",
+      "meaning": "手遅れになる直前に、ぎりぎり間に合って。"
+    },
+    "keep an eye on": {
+      "pos": "慣用句",
+      "meaning": "人や物の様子を注意して見ておく、見守る。"
+    },
+    "liar": {
+      "pos": "名詞",
+      "meaning": "lie「嘘をつく」人。",
+      "forms": "名詞。必要に応じて複数形をとる。",
+      "ipa": "/lˈaɪə/"
+    },
+    "line of business": {
+      "pos": "名詞句",
+      "meaning": "職業・商売の分野、通常扱っている仕事の種類。"
+    },
+    "look after": {
+      "pos": "句動詞",
+      "meaning": "人・物を安全な状態に保つよう世話する。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "look as though": {
+      "pos": "定型表現",
+      "meaning": "外見・状況から推測した印象を表す。",
+      "tags": [
+        "grammar",
+        "chunk"
+      ]
+    },
+    "look as though one has seen a ghost": {
+      "pos": "慣用表現",
+      "meaning": "非常に驚いたり青ざめたりした様子に見える。"
+    },
+    "mad as a hatter": {
+      "pos": "慣用句",
+      "meaning": "非常に常軌を逸している、ひどく風変わりである、という古い比喩表現。"
+    },
+    "magistrate": {
+      "pos": "名詞",
+      "meaning": "比較的軽い事件などを扱う権限を持つ司法官。英国では治安判事などを指す。",
+      "tags": [
+        "legal",
+        "British"
+      ]
+    },
+    "make someone out": {
+      "pos": "句動詞",
+      "meaning": "人の性格・意図・正体などを理解する、見抜く。"
+    },
+    "means of checking": {
+      "pos": "名詞句",
+      "meaning": "情報が正しいかどうかを確認・検証する手段。"
+    },
+    "merely": {
+      "pos": "副詞",
+      "meaning": "範囲を小さく限定する硬めの副詞。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "monstrous": {
+      "pos": "形容詞",
+      "meaning": "程度が非常に大きい、または道徳的にひどいことを強調。",
+      "tags": [
+        "dated",
+        "dramatic"
+      ],
+      "forms": "この項目では重要な語形変化なし",
+      "ipa": "/mˈɒnstɹəs/"
+    },
+    "murder": {
+      "pos": "名詞・動詞",
+      "meaning": "故意に人を殺す犯罪、殺人。人を故意に殺す。"
+    },
+    "murderer": {
+      "pos": "名詞",
+      "meaning": "人を故意に殺した者、殺人犯。"
+    },
+    "not in the least": {
+      "pos": "定型表現",
+      "meaning": "少しも～ない、全く～ない。"
+    },
+    "not necessarily": {
+      "pos": "定型表現",
+      "meaning": "命題全体を部分否定する。",
+      "tags": [
+        "grammar",
+        "chunk"
+      ],
+      "forms": "句として固定。動詞部分は文脈に応じて活用する。",
+      "ipa": "/nˌɒt nˌɛsɪsˈɛɹəli/"
+    },
+    "notebook": {
+      "pos": "名詞",
+      "meaning": "劇中では捜査上の手がかりとなる小型のノート。",
+      "tags": [
+        "context"
+      ]
+    },
+    "old chestnut": {
+      "pos": "名詞句",
+      "meaning": "何度も繰り返されて新鮮味を失った話・冗談・考え。"
+    },
+    "on one’s way": {
+      "pos": "定型表現",
+      "meaning": "目的地へ移動中であることを表す。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "on the spot": {
+      "pos": "定型表現",
+      "meaning": "その場で、現場に；即座に。"
+    },
+    "on top of": {
+      "pos": "前置詞句",
+      "meaning": "物理的な上面・最上部を表す。",
+      "tags": [
+        "grammar",
+        "chunk"
+      ],
+      "forms": "句として固定。動詞部分は文脈に応じて活用する。",
+      "ipa": "/ˌɒn tˈɒp ɒv/"
+    },
+    "ought to": {
+      "pos": "準助動詞",
+      "meaning": "～すべきだ、～のはずだ。"
+    },
+    "parlour": {
+      "pos": "名詞",
+      "meaning": "British spelling。古い家の formal sitting room。",
+      "tags": [
+        "British English",
+        "dated",
+        "spelling"
+      ],
+      "forms": "名詞。必要に応じて複数形をとる。",
+      "ipa": "/pˈɑːlə/"
+    },
+    "passport": {
+      "pos": "名詞",
+      "meaning": "国際渡航時の本人・国籍証明書。",
+      "forms": "名詞。必要に応じて複数形をとる。",
+      "ipa": "/pˈaspɔːt/"
+    },
+    "pay attention": {
+      "pos": "コロケーション",
+      "meaning": "意識をある対象へ集中する定型表現。",
+      "tags": [
+        "collocation",
+        "chunk"
+      ],
+      "forms": "句として固定。動詞部分は文脈に応じて活用する。",
+      "ipa": "/pˈeɪ ɐtˈɛnʃən/"
+    },
+    "pneumonia": {
+      "pos": "名詞",
+      "meaning": "肺に炎症が起きる病気。",
+      "tags": [
+        "medical"
+      ],
+      "forms": "名詞。必要に応じて複数形をとる。",
+      "ipa": "/njuːmˈəʊniə/"
+    },
+    "policeman": {
+      "pos": "名詞",
+      "meaning": "男性の警察官を指す語。現代では police officer などの性別を限定しない表現も一般的。"
+    },
+    "position": {
+      "pos": "名詞",
+      "meaning": "捜査文脈では事件時にいた場所。一般には立場・位置。",
+      "tags": [
+        "context"
+      ]
+    },
+    "practically": {
+      "pos": "副詞",
+      "meaning": "ほとんど、実質的に。また実用的な観点では。"
+    },
+    "present": {
+      "pos": "形容詞・名詞",
+      "meaning": "「目の前・今ここにある」が形容詞の中心。名詞では贈り物。",
+      "tags": [
+        "context"
+      ]
+    },
+    "private affair": {
+      "pos": "名詞句",
+      "meaning": "他人が介入すべきでない本人だけの問題。",
+      "tags": [
+        "context"
+      ],
+      "forms": "語形変化なし",
+      "ipa": "/pɹˈaɪvət ɐfˈeə/"
+    },
+    "propose": {
+      "pos": "動詞",
+      "meaning": "案を提示する。また formal に intend の意味でも使う。",
+      "tags": [
+        "formal",
+        "context"
+      ],
+      "forms": "propose · proposed · proposed",
+      "ipa": "/pɹəpˈəʊz/"
+    },
+    "put aside": {
+      "pos": "句動詞",
+      "meaning": "物を脇へ置いて後回しにする；時間・金などを取っておく。"
+    },
+    "put it quite clearly": {
+      "pos": "定型表現",
+      "meaning": "内容を明確な言葉にして提示する。",
+      "tags": [
+        "formal",
+        "chunk"
+      ],
+      "forms": "句として固定。動詞部分は文脈に応じて活用する。",
+      "ipa": "/pˌʊt ɪt kwˈaɪt klˈiəli/"
+    },
+    "quite": {
+      "pos": "副詞",
+      "meaning": "British English では形容詞によって「かなり」と「完全に」の両方を取る。",
+      "tags": [
+        "British English",
+        "context"
+      ]
+    },
+    "rather": {
+      "pos": "副詞",
+      "meaning": "British English で程度を控えめに強めることが多い。",
+      "tags": [
+        "British English",
+        "context"
+      ]
+    },
+    "reassure": {
+      "pos": "動詞",
+      "meaning": "不安・疑念を減らして安心させる。",
+      "forms": "reassure · reassured · reassured",
+      "ipa": "/ɹˌiːəʃjˈʊə/"
+    },
+    "recognize": {
+      "pos": "動詞",
+      "meaning": "以前の記憶と現在の人・物を一致させる。",
+      "tags": [
+        "spelling"
+      ],
+      "forms": "recognize · recognized · recognized",
+      "ipa": "/ɹˈɛkəɡnˌaɪz/"
+    },
+    "reconstruction": {
+      "pos": "名詞",
+      "meaning": "過去の出来事を証拠・行動から組み立て直すこと。",
+      "tags": [
+        "formal",
+        "crime"
+      ],
+      "forms": "名詞。必要に応じて複数形をとる。",
+      "ipa": "/ɹˌiːkənstɹˈʌkʃən/"
+    },
+    "reconstruction of the crime": {
+      "pos": "名詞句",
+      "meaning": "捜査で事件時の行動を再現すること。",
+      "tags": [
+        "crime",
+        "formal",
+        "chunk"
+      ],
+      "forms": "句として固定。動詞部分は文脈に応じて活用する。",
+      "ipa": "/ɹˌiːkənstɹˈʌkʃən ɒvðə kɹˈaɪm/"
+    },
+    "reproduce": {
+      "pos": "動詞",
+      "meaning": "元の出来事・状態をもう一度同じように作る。",
+      "tags": [
+        "formal"
+      ],
+      "forms": "reproduce · reproduced · reproduced",
+      "ipa": "/ɹɪpɹədjˈuːs/"
+    },
+    "revolver": {
+      "pos": "名詞",
+      "meaning": "回転式弾倉を持つ拳銃の種類。劇中では武器名として出る。",
+      "tags": [
+        "crime"
+      ],
+      "forms": "名詞。必要に応じて複数形をとる。",
+      "ipa": "/ɹɪvˈɒlvə/"
+    },
+    "ring up": {
+      "pos": "句動詞",
+      "meaning": "英国英語で特に普通の「電話する」。",
+      "tags": [
+        "British English",
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "sedative": {
+      "pos": "名詞",
+      "meaning": "興奮・不安を抑え、眠気を促すこともある薬。",
+      "tags": [
+        "medical"
+      ],
+      "forms": "名詞。必要に応じて複数形をとる。",
+      "ipa": "/sˈɛdətˌɪv/"
+    },
+    "see the point": {
+      "pos": "慣用表現",
+      "meaning": "発言・行為などの目的、意味、理由を理解する。"
+    },
+    "shrewd suspicion": {
+      "pos": "名詞句",
+      "meaning": "shrewd は判断が鋭く、根拠のある見当を表す。",
+      "tags": [
+        "collocation",
+        "chunk"
+      ],
+      "forms": "句として固定。動詞部分は文脈に応じて活用する。",
+      "ipa": "/ʃɹˈuːd səspˈɪʃən/"
+    },
+    "signature": {
+      "pos": "名詞",
+      "meaning": "本人が自分の名前を書き、文書の真正性を示すもの。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "social reference": {
+      "pos": "名詞句",
+      "meaning": "人物の信用・身元を第三者が保証するための reference。",
+      "tags": [
+        "dated",
+        "formal"
+      ],
+      "forms": "語形変化なし",
+      "ipa": "/sˈəʊʃəl ɹˈɛfɹəns/"
+    },
+    "solicitor": {
+      "pos": "名詞",
+      "meaning": "英国法曹の職種。伝統的に法律相談・書類・依頼人対応を担う。",
+      "tags": [
+        "British English",
+        "legal"
+      ],
+      "forms": "名詞。必要に応じて複数形をとる。",
+      "ipa": "/səlˈɪsɪtə/"
+    },
+    "speak the truth": {
+      "pos": "コロケーション",
+      "meaning": "truth と speak の定型的結びつき。",
+      "tags": [
+        "collocation",
+        "chunk"
+      ],
+      "forms": "句として固定。動詞部分は文脈に応じて活用する。",
+      "ipa": "/spˈiːk ðə tɹˈuːθ/"
+    },
+    "speak up": {
+      "pos": "句動詞",
+      "meaning": "はっきり発言する、情報や意見を申し出る；より大きな声で話す。"
+    },
+    "statement": {
+      "pos": "名詞",
+      "meaning": "警察文脈では本人が事実関係を述べた記録・内容。",
+      "tags": [
+        "police",
+        "formal"
+      ]
+    },
+    "station": {
+      "pos": "名詞",
+      "meaning": "駅、停留所。また配置場所・局。"
+    },
+    "strictly": {
+      "pos": "副詞",
+      "meaning": "規則・範囲を厳しく限定する。",
+      "forms": "この項目では重要な語形変化なし",
+      "ipa": "/stɹˈɪktli/"
+    },
+    "suspicion": {
+      "pos": "名詞",
+      "meaning": "十分な証拠はないが悪い可能性を疑うこと。",
+      "tags": [
+        "crime"
+      ],
+      "forms": "名詞。必要に応じて複数形をとる。",
+      "ipa": "/səspˈɪʃən/"
+    },
+    "tactless": {
+      "pos": "形容詞",
+      "meaning": "相手の気持ちへの配慮(tact)がない。",
+      "forms": "この項目では重要な語形変化なし",
+      "ipa": "/tˈaktləs/"
+    },
+    "take someone’s place": {
+      "pos": "熟語",
+      "meaning": "人の占めていた役割・位置に入る。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ],
+      "forms": "句として固定。動詞部分は文脈に応じて活用する。",
+      "ipa": "/tˈeɪk sˈʌmwɒnz plˈeɪs/"
+    },
+    "the last thing in": {
+      "pos": "古風な慣用表現",
+      "meaning": "～の最新流行、最先端の型。"
+    },
+    "the third degree": {
+      "pos": "慣用句",
+      "meaning": "非常に厳しい尋問・追及。古めの口語表現。"
+    },
+    "thereabouts": {
+      "pos": "副詞",
+      "meaning": "時間・数量・場所が厳密でない近辺。",
+      "tags": [
+        "British English"
+      ],
+      "forms": "この項目では重要な語形変化なし",
+      "ipa": "/ðeəɹɐbˈaʊts/"
+    },
+    "to no avail": {
+      "pos": "定型表現",
+      "meaning": "効果なく、成果なく。"
+    },
+    "tough": {
+      "pos": "形容詞",
+      "meaning": "困難に耐える強さ、または対処しにくさを表す。",
+      "forms": "この項目では重要な語形変化なし",
+      "ipa": "/tˈʌf/"
+    },
+    "tune": {
+      "pos": "名詞",
+      "meaning": "歌詞とは別のメロディー部分。",
+      "tags": [
+        "music"
+      ]
+    },
+    "turn up": {
+      "pos": "句動詞",
+      "meaning": "現れる、到着する；見つかる。"
+    },
+    "twirl": {
+      "pos": "動詞",
+      "meaning": "指などで細い物を回転させる。",
+      "forms": "twirl · twirled · twirled",
+      "ipa": "/twˈɜːl/"
+    },
+    "unconscious": {
+      "pos": "形容詞",
+      "meaning": "外界への意識・反応がない状態。",
+      "tags": [
+        "medical"
+      ],
+      "forms": "この項目では重要な語形変化なし",
+      "ipa": "/ʌnkˈɒnʃəs/"
+    },
+    "under control": {
+      "pos": "定型表現",
+      "meaning": "制御・管理され、危険や混乱が広がらない状態で。"
+    },
+    "unwilling": {
+      "pos": "形容詞",
+      "meaning": "willing の否定で、自発的に行う意思がない。",
+      "forms": "この項目では重要な語形変化なし",
+      "ipa": "/ʌnwˈɪlɪŋ/"
+    },
+    "vital": {
+      "pos": "形容詞",
+      "meaning": "成功・安全に欠かせないほど重要。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "vouch for": {
+      "pos": "句動詞",
+      "meaning": "人の身元・信頼性・真実性などを保証する、請け合う。"
+    },
+    "what someone says goes": {
+      "pos": "定型表現",
+      "meaning": "その人の決定・指示が最終的なものとして通る。"
+    },
+    "whoever": {
+      "pos": "代名詞",
+      "meaning": "人について範囲を限定しない複合関係語。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    "would you mind": {
+      "pos": "定型表現",
+      "meaning": "mind「嫌がる」を使う丁寧な依頼。",
+      "tags": [
+        "polite",
+        "grammar",
+        "chunk"
+      ]
+    }
+  }
+}

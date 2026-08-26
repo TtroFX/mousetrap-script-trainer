@@ -1,0 +1,1179 @@
+{
+  "schemaVersion": 2,
+  "blockId": "block-6",
+  "sceneId": "act2",
+  "processedSpeechRange": [
+    424,
+    638
+  ],
+  "processedSpeechCount": 215,
+  "policy": "Existing curated candidates are retained with blank contextMeaning; Oxford review adds any missing B1+ uses.",
+  "lines": {
+    "act2-speech-0424": [
+      {
+        "surface": "Just",
+        "lemma": "just",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0436": [
+      {
+        "surface": "Quite",
+        "lemma": "quite",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0446": [
+      {
+        "surface": "arrival",
+        "lemma": "arrival",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0450": [
+      {
+        "surface": "propose",
+        "lemma": "propose",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0455": [
+      {
+        "surface": "I beg your pardon",
+        "lemma": "beg your pardon",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0457": [
+      {
+        "surface": "private affair",
+        "lemma": "private affair",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "strictly",
+        "lemma": "strictly",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0458": [
+      {
+        "surface": "All the same",
+        "lemma": "all the same",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0460": [
+      {
+        "surface": "Would you mind",
+        "lemma": "would you mind",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0461": [
+      {
+        "surface": "passport",
+        "lemma": "passport",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0463": [
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0464": [
+      {
+        "surface": "vouch for",
+        "lemma": "vouch for",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0465": [
+      {
+        "surface": "abroad",
+        "lemma": "abroad",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "as to",
+        "lemma": "as to",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "discreet",
+        "lemma": "discreet",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "financial position",
+        "lemma": "financial position",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "in a position to",
+        "lemma": "in a position to",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "reassure",
+        "lemma": "reassure",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "social reference",
+        "lemma": "social reference",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "solicitor",
+        "lemma": "solicitor",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0468": [
+      {
+        "surface": "abroad",
+        "lemma": "abroad",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0470": [
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0474": [
+      {
+        "surface": "abroad",
+        "lemma": "abroad",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0475": [
+      {
+        "surface": "thereabouts",
+        "lemma": "thereabouts",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0484": [
+      {
+        "surface": "despair",
+        "lemma": "despair",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0485": [
+      {
+        "surface": "daresay",
+        "lemma": "daresay",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0491": [
+      {
+        "surface": "interrogating",
+        "lemma": "interrogate",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "merely",
+        "lemma": "merely",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0493": [
+      {
+        "surface": "came over me",
+        "lemma": "come over someone",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "go up",
+        "lemma": "go up",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "murder",
+        "lemma": "murder",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0494": [
+      {
+        "surface": "impossible",
+        "lemma": "impossible",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0495": [
+      {
+        "surface": "impossible",
+        "lemma": "impossible",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0496": [
+      {
+        "surface": "rather",
+        "lemma": "rather",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0497": [
+      {
+        "surface": "look as though",
+        "lemma": "look as though",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0498": [
+      {
+        "surface": "ought to",
+        "lemma": "ought to",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0501": [
+      {
+        "surface": "all to no avail",
+        "lemma": "all to no avail",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0503": [
+      {
+        "surface": "murderer",
+        "lemma": "murderer",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "Policeman",
+        "lemma": "policeman",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0507": [
+      {
+        "surface": "for instance",
+        "lemma": "for instance",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0508": [
+      {
+        "surface": "tactless",
+        "lemma": "tactless",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0509": [
+      {
+        "surface": "co-operation",
+        "lemma": "co-operation",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "come down",
+        "lemma": "come down",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "went up",
+        "lemma": "go up",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0511": [
+      {
+        "surface": "at the present moment",
+        "lemma": "at the present moment",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "shrewd suspicion",
+        "lemma": "shrewd suspicion",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0515": [
+      {
+        "surface": "murderer",
+        "lemma": "murderer",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0517": [
+      {
+        "surface": "cellar",
+        "lemma": "cellar",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "committed",
+        "lemma": "commit",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "ditto",
+        "lemma": "ditto",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "murder",
+        "lemma": "murder",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "pay attention",
+        "lemma": "pay attention",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "positions",
+        "lemma": "position",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "statements",
+        "lemma": "statement",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0519": [
+      {
+        "surface": "liar",
+        "lemma": "liar",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "means of checking",
+        "lemma": "means of checking",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "murderer",
+        "lemma": "murderer",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "put it quite clearly",
+        "lemma": "put it quite clearly",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "speaking the truth",
+        "lemma": "speak the truth",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "statements",
+        "lemma": "statement",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0520": [
+      {
+        "surface": "Not necessarily",
+        "lemma": "not necessarily",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0521": [
+      {
+        "surface": "rather",
+        "lemma": "rather",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0522": [
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "means of checking",
+        "lemma": "means of checking",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "statements",
+        "lemma": "statement",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0523": [
+      {
+        "surface": "go through",
+        "lemma": "go through",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0524": [
+      {
+        "surface": "old chestnut",
+        "lemma": "old chestnut",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "Reconstruction of the crime",
+        "lemma": "reconstruction of the crime",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0525": [
+      {
+        "surface": "foreign",
+        "lemma": "foreign",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0526": [
+      {
+        "surface": "apparently",
+        "lemma": "apparently",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "innocent",
+        "lemma": "innocent",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "reconstruction",
+        "lemma": "reconstruction",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "reconstruction of the crime",
+        "lemma": "reconstruction of the crime",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0528": [
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0535": [
+      {
+        "surface": "find out",
+        "lemma": "find out",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0538": [
+      {
+        "surface": "unwilling",
+        "lemma": "unwilling",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0549": [
+      {
+        "surface": "murderer",
+        "lemma": "murderer",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "signature",
+        "lemma": "signature",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "tune",
+        "lemma": "tune",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0550": [
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0552": [
+      {
+        "surface": "tune",
+        "lemma": "tune",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0554": [
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0556": [
+      {
+        "surface": "not necessarily",
+        "lemma": "not necessarily",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0558": [
+      {
+        "surface": "assign",
+        "lemma": "assign",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "cellars",
+        "lemma": "cellar",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "checking up on",
+        "lemma": "check up on",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "convenient",
+        "lemma": "convenient",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "go up",
+        "lemma": "go up",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "going down to",
+        "lemma": "go down to",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "in particular",
+        "lemma": "in particular",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "Just",
+        "lemma": "just",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "keep an eye on",
+        "lemma": "keep an eye on",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "pay attention",
+        "lemma": "pay attention",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "Rather",
+        "lemma": "rather",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "reproduce",
+        "lemma": "reproduce",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "statement",
+        "lemma": "statement",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "statements",
+        "lemma": "statement",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "stations",
+        "lemma": "station",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "toughest",
+        "lemma": "tough",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "would you mind",
+        "lemma": "would you mind",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0563": [
+      {
+        "surface": "Parlour",
+        "lemma": "parlour",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0568": [
+      {
+        "surface": "murderer",
+        "lemma": "murderer",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0571": [
+      {
+        "surface": "ought to",
+        "lemma": "ought to",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0573": [
+      {
+        "surface": "As a result",
+        "lemma": "as a result",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "extraordinary",
+        "lemma": "extraordinary",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "foolish",
+        "lemma": "foolish",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "holding out on",
+        "lemma": "hold out on",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0575": [
+      {
+        "surface": "affair",
+        "lemma": "affair",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "All along",
+        "lemma": "all along",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "firsthand knowledge",
+        "lemma": "firsthand knowledge",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "In fact",
+        "lemma": "in fact",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "magistrate",
+        "lemma": "magistrate",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "policemen",
+        "lemma": "policeman",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "speak up",
+        "lemma": "speak up",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0583": [
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0584": [
+      {
+        "surface": "monstrous",
+        "lemma": "monstrous",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "pneumonia",
+        "lemma": "pneumonia",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "put aside",
+        "lemma": "put aside",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "went down with",
+        "lemma": "go down with",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0585": [
+      {
+        "surface": "monstrous",
+        "lemma": "monstrous",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0587": [
+      {
+        "surface": "call box",
+        "lemma": "call box",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "headquarters",
+        "lemma": "headquarters",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "on his way",
+        "lemma": "on one’s way",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "policeman",
+        "lemma": "policeman",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "rang up",
+        "lemma": "ring up",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0589": [
+      {
+        "surface": "'d better",
+        "lemma": "had better",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "grown up",
+        "lemma": "grow up",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "revolver",
+        "lemma": "revolver",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0590": [
+      {
+        "surface": "'d better",
+        "lemma": "had better",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0591": [
+      {
+        "surface": "get away",
+        "lemma": "get away",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "it doesn't matter",
+        "lemma": "it doesn’t matter",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "policeman",
+        "lemma": "policeman",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0592": [
+      {
+        "surface": "revolver",
+        "lemma": "revolver",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0593": [
+      {
+        "surface": "rather",
+        "lemma": "rather",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0600": [
+      {
+        "surface": "recognize",
+        "lemma": "recognize",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "twirled",
+        "lemma": "twirl",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0602": [
+      {
+        "surface": "look after",
+        "lemma": "look after",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0606": [
+      {
+        "surface": "Whoever",
+        "lemma": "whoever",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0607": [
+      {
+        "surface": "quite",
+        "lemma": "quite",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0612": [
+      {
+        "surface": "all along",
+        "lemma": "all along",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "looking after",
+        "lemma": "look after",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "sedative",
+        "lemma": "sedative",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "suspicions",
+        "lemma": "suspicion",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "unconscious",
+        "lemma": "unconscious",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0613": [
+      {
+        "surface": "policeman",
+        "lemma": "policeman",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0614": [
+      {
+        "surface": "policeman",
+        "lemma": "policeman",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0616": [
+      {
+        "surface": "got hold of",
+        "lemma": "get hold of",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "notebook",
+        "lemma": "notebook",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "take his place",
+        "lemma": "take someone’s place",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "turned up",
+        "lemma": "turn up",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "vital",
+        "lemma": "vital",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0618": [
+      {
+        "surface": "business",
+        "lemma": "business",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "by the way",
+        "lemma": "by the way",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "fourposter",
+        "lemma": "fourposter",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "just before",
+        "lemma": "just before",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "on top of",
+        "lemma": "on top of",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0620": [
+      {
+        "surface": "business",
+        "lemma": "business",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "rather",
+        "lemma": "rather",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0622": [
+      {
+        "surface": "anniversary",
+        "lemma": "anniversary",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "just",
+        "lemma": "just",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      },
+      {
+        "surface": "present",
+        "lemma": "present",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0629": [
+      {
+        "surface": "present",
+        "lemma": "present",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0630": [
+      {
+        "surface": "present",
+        "lemma": "present",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0631": [
+      {
+        "surface": "practically",
+        "lemma": "practically",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ],
+    "act2-speech-0632": [
+      {
+        "surface": "Just",
+        "lemma": "just",
+        "contextMeaning": "",
+        "source": "legacy-curated-candidate"
+      }
+    ]
+  }
+}
