@@ -62,14 +62,24 @@ export class ResumeBookmarksUI {
       section.querySelector('[data-resume-primary]').onclick = () => this.applyResume(latest);
       section.querySelector('[data-resume-practice]')?.addEventListener('click', () => this.applyResume(practice));
     }
-    const count = Object.keys(this.state.bookmarks()).length;
+    const rows = this.canonicalBookmarks('all');
+    const count = rows.length;
     const bookmarkCard = document.createElement('section');
     bookmarkCard.className = 'card bookmark-home-card';
     bookmarkCard.dataset.bookmarksHome = '1';
-    bookmarkCard.innerHTML = `<div><div class="eyebrow">Bookmarks</div><h3>${count} ${count === 1 ? 'line' : 'lines'} saved</h3><p class="muted">Save lines you want to revisit or memorize.</p></div><button class="ghost-btn" type="button" data-open-bookmarks>View Bookmarks</button>`;
+    bookmarkCard.innerHTML = `<div class="bookmark-home-head"><div><div class="eyebrow">Bookmarks</div><h3>${count} ${count === 1 ? 'line' : 'lines'} saved</h3></div><button class="ghost-btn" type="button" data-open-bookmarks>View All</button></div><div class="home-bookmark-scroll" data-home-bookmark-scroll>${rows.length ? rows.map(x => `<div class="bookmark-row home-bookmark-row" data-home-bookmark-row="${this.esc(x.lineId)}"><button type="button" class="bookmark-open" data-home-bookmark-open="${this.esc(x.lineId)}" data-home-bookmark-scene="${this.esc(x.sceneId)}"><span><b>${this.esc(x.speech.speaker)}</b> · ${this.esc(this.sceneMeta(x.sceneId).label)}</span><span>${this.esc(x.speech.text)}</span></button><button type="button" class="bookmark-remove" aria-label="Remove bookmark" data-home-bookmark-remove="${this.esc(x.lineId)}">★</button></div>`).join('') : '<div class="home-bookmark-empty"><p class="muted">No bookmarks yet. Tap ☆ beside a line to save it here.</p></div>'}</div>`;
     const sceneGrid = shell.querySelector('.scene-grid');
     (sceneGrid || shell.lastElementChild).insertAdjacentElement('afterend', bookmarkCard);
     bookmarkCard.querySelector('[data-open-bookmarks]').onclick = () => this.go('#/bookmarks');
+    bookmarkCard.querySelectorAll('[data-home-bookmark-open]').forEach(button => button.onclick = () => {
+      this.state.setScene(button.dataset.homeBookmarkScene);
+      this.go(`#/line?scene=${encodeURIComponent(button.dataset.homeBookmarkScene)}&line=${encodeURIComponent(button.dataset.homeBookmarkOpen)}`);
+    });
+    bookmarkCard.querySelectorAll('[data-home-bookmark-remove]').forEach(button => button.onclick = () => {
+      const removed = this.state.removeBookmark(button.dataset.homeBookmarkRemove);
+      this.decorateHome();
+      this.showToast('Bookmark removed', removed || null);
+    });
   }
 
   bookmarkToggle(sceneId, lineId, className = '') {

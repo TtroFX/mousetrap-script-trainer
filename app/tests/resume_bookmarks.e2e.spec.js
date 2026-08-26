@@ -90,8 +90,8 @@ test('Resume and Bookmark runtime survives an offline PWA reload',async({page,co
   await page.reload({waitUntil:'domcontentloaded'});
   await page.waitForFunction(()=>window.MTS_INDEX_ZERO?.store?.hasCore?.(),null,{timeout:12000});
   await page.waitForFunction(async()=>{
-    const shell=(await caches.keys()).find(x=>x.includes('mts-zero-shell-index-zero-2026-08-26-r3'));
-    const data=(await caches.keys()).find(x=>x.includes('mts-zero-data-index-zero-2026-08-26-r3'));
+    const shell=(await caches.keys()).find(x=>x.includes('mts-zero-shell-index-zero-2026-08-26-r5'));
+    const data=(await caches.keys()).find(x=>x.includes('mts-zero-data-index-zero-2026-08-26-r5'));
     if(!shell||!data)return false;
     const sc=await caches.open(shell),dc=await caches.open(data);
     return !!(await sc.match('./src/resume-bookmarks.js'))&&!!(await dc.match('mousetrap_script_data.json'));

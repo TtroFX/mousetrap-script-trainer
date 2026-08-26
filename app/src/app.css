@@ -17,3 +17,10 @@ html,body,#app{overscroll-behavior-y:none}
 .structure-summary small{color:var(--muted);font-size:11px;font-weight:700;margin-left:auto}
 .structure-details[open]>.structure-summary{margin-bottom:10px}
 @media(prefers-reduced-motion:reduce){.word-sheet,.sheet-backdrop,.structure-summary::after{transition:none!important}}
+
+
+/* interaction-polish-r5 */
+.selected-role-line{border-color:#c39a68;background:linear-gradient(105deg,rgba(255,255,255,.22),rgba(255,255,255,0) 40%),repeating-linear-gradient(0deg,#ead2ae 0,#ead2ae 18px,#e4c495 19px,#ead2ae 38px);box-shadow:0 10px 24px rgba(91,58,29,.11)}
+.selected-role-line .speaker{color:#6d4327}.selected-role-line .line-text{color:#2d241c}.selected-role-line.target-row{border-left-color:#74472b}
+.bookmark-home-card{display:block}.bookmark-home-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}.bookmark-home-head h3{margin:.25em 0}.home-bookmark-scroll{display:grid;gap:8px;max-height:330px;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;padding-right:3px;-webkit-overflow-scrolling:touch}.home-bookmark-row{min-height:76px}.home-bookmark-empty{padding:4px 2px}.home-bookmark-empty p{margin:.4em 0}.home-bookmark-scroll .bookmark-open{box-shadow:none;background:#fcfaf7}
+@media(max-width:520px){.bookmark-home-head{align-items:stretch}.bookmark-home-head .ghost-btn{min-width:86px}}
