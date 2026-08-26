@@ -1,23 +1,22 @@
 MOUSETRAP SCRIPT TRAINER - 006 VOCABULARY USAGE
 
 Material ID: 006
-Status: EXTERNAL CONTENT COMPLETE / CANONICAL REGISTERED
-Depends on: 003, 004, 005
+Status: EXPANDED / CANONICAL REGISTERED
 Validated payload: mousetrap_line_vocabulary.json
-QA: mousetrap_vocabulary_QA.md = PASS
 Coverage: 1164 / 1164 canonical speech IDs
-Line vocabulary items: 1186
-Annotated speeches: 516
-Missing/extra/duplicate/source-surface mismatch: 0
-Payload SHA-256: 91918d29d9196136e56c24323624e6687967ebb4491973ff3cc4a9474dc67bfd
-Join key: speechId -> materials/003-00_CANONICAL_ID_MAP.txt; lemma -> 005 dictionary.
+Line vocabulary items: 1741
+Annotated speeches: 655
+Added items in this expansion: 555
+Missing dictionary lemmas: 0
+Payload SHA-256: c384ec581ab1869861e11d4fd08a292e1e8f27e6f2472b82b5e3af1dd129cb37
+Join key: speechId -> canonical script; lemma -> 005 dictionary.
 
 SCENE INVENTORY
-act1-scene1: 190 speeches / 107 annotated / 296 items
-act1-scene2: 336 speeches / 158 annotated / 343 items
-act2: 638 speeches / 251 annotated / 547 items
+act1-scene1: 190 speeches / 124 annotated / 419 items
+act1-scene2: 336 speeches / 205 annotated / 534 items
+act2: 638 speeches / 326 annotated / 788 items
 
 ROLE
-006 contains occurrence-specific surface/lemma/meaning information. It does not redefine source wording or canonical sentence/chunk boundaries.
+006 contains occurrence-specific surface/lemma/meaning information. Reviewed context meanings take priority; reviewed B1+ candidates with no special contextual shift receive the appropriate neutral dictionary sense.
 
-FINAL STATUS: REGISTERED / READY FOR PRIVATE BUILD INPUT
+FINAL STATUS: PASS / EXPANDED

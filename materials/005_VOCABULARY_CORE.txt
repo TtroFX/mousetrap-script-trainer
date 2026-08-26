@@ -1,19 +1,16 @@
 MOUSETRAP SCRIPT TRAINER - 005 VOCABULARY CORE
 
 Material ID: 005
-Status: EXTERNAL CONTENT COMPLETE / CANONICAL REGISTERED
-Depends on: 002
+Status: EXPANDED / CANONICAL REGISTERED
 Validated payload: mousetrap_word_dictionary.json
-QA: mousetrap_vocabulary_QA.md = PASS
-Dictionary entries: 578
-Referenced lemmas: 578
-Missing/unreferenced/duplicate normalized lemma: 0 / 0 / 0
-Empty required fields: 0
-Malformed IPA: 0
-Payload SHA-256: 271fc8968ec4fc5e8877b64e4a8221201fcd036ec437000957e1be932e4fd629
-Join: normalized lemma from 006 line vocabulary.
+Dictionary entries: 1000
+Referenced lemmas: 1000
+Unreferenced dictionary entries: 0
+Missing referenced lemmas: 0
+Payload SHA-256: a8aa35f6ca4a223c98d87c16bfc507a73574ea8fda80f7e81e2dbef5e744c223
+Join: exact case-insensitive lemma from 006 line vocabulary.
 
 ROLE
-005 is the dictionary-level semantic core. Occurrence-specific meanings remain in 006 and must not overwrite the dictionary core.
+005 is the dictionary-level semantic core. Every occurrence-level vocabulary lemma in 006 must resolve to an entry here. Occurrence-specific meanings remain in 006.
 
-FINAL STATUS: REGISTERED / READY FOR PRIVATE BUILD INPUT
+FINAL STATUS: PASS / EXPANDED

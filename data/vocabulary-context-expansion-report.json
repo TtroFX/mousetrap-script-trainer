@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "policy": "Expand occurrence-level play meanings from all reviewed context entries plus all reviewed B1+ candidates. Blank B1+ context meanings are promoted using their neutral dictionary sense.",
+  "coverage": {
+    "speeches": 1164,
+    "missingDictionary": 0
+  },
+  "vocabulary": {
+    "beforeItems": 1186,
+    "afterItems": 1741,
+    "addedItems": 555,
+    "beforeAnnotatedSpeeches": 516,
+    "afterAnnotatedSpeeches": 655,
+    "addedAnnotatedSpeeches": 139,
+    "sourceStats": {
+      "existing": 1034,
+      "contextualReviewed": 354,
+      "neutralPromoted": 353,
+      "replacedByReviewedContext": 108
+    },
+    "sha256": "c384ec581ab1869861e11d4fd08a292e1e8f27e6f2472b82b5e3af1dd129cb37"
+  },
+  "dictionary": {
+    "beforeEntries": 578,
+    "afterEntries": 1000,
+    "addedEntries": 422,
+    "completedExistingEntries": 0,
+    "referencedLemmas": 1000,
+    "unreferencedEntries": 0,
+    "sha256": "a8aa35f6ca4a223c98d87c16bfc507a73574ea8fda80f7e81e2dbef5e744c223"
+  },
+  "sceneStats": {
+    "act1-scene1": {
+      "speeches": 190,
+      "annotatedSpeeches": 124,
+      "items": 419
+    },
+    "act1-scene2": {
+      "speeches": 336,
+      "annotatedSpeeches": 205,
+      "items": 534
+    },
+    "act2": {
+      "speeches": 638,
+      "annotatedSpeeches": 326,
+      "items": 788
+    }
+  }
+}

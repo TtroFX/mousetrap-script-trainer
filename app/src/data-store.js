@@ -48,7 +48,7 @@ function validateSpeechMap(value, name) {
 
 function validateDictionary(value) {
   if (!value || typeof value !== 'object' || Array.isArray(value)) throw new Error('dictionary: object required');
-  if (Object.keys(value).length !== 578) throw new Error(`dictionary: ${Object.keys(value).length}/578`);
+  if (Object.keys(value).length < 578) throw new Error(`dictionary: unexpectedly small (${Object.keys(value).length})`); for (const [key, entry] of Object.entries(value)) if (!String(key).trim() || !entry || typeof entry !== 'object' || !String(entry.coreMeaning || '').trim()) throw new Error(`dictionary: invalid entry ${key}`);
   return value;
 }
 

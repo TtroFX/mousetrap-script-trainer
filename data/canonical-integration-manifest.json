@@ -143,8 +143,10 @@
     },
     "lineVocabulary": {
       "file": "mousetrap_line_vocabulary.json",
-      "sha256": "7092c967b7bd8fc1071bb9bd9e74a8158673da145a7734348bb3d682fc16924e",
-      "coverageSpeechIds": 1164
+      "sha256": "c384ec581ab1869861e11d4fd08a292e1e8f27e6f2472b82b5e3af1dd129cb37",
+      "coverageSpeechIds": 1164,
+      "items": 1741,
+      "annotatedSpeeches": 655
     },
     "lineGrammar": {
       "file": "mousetrap_line_grammar.json",
@@ -153,8 +155,9 @@
     },
     "wordDictionary": {
       "file": "mousetrap_word_dictionary.json",
-      "sha256": "abd2e9e214d21728e5eef7e44f800e4b1e873de18eca43c4675c452a45c8fdf1",
-      "entries": 578
+      "sha256": "a8aa35f6ca4a223c98d87c16bfc507a73574ea8fda80f7e81e2dbef5e744c223",
+      "entries": 1000,
+      "referencedLemmas": 1000
     }
   },
   "legacyChunkingRemoved": true,

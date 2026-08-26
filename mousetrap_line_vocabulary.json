@@ -6,9 +6,19 @@
       "meaning": "～によれば"
     },
     {
+      "surface": "crime",
+      "lemma": "crime",
+      "meaning": "法律に反する犯罪、罪。"
+    },
+    {
       "surface": "took place",
       "lemma": "take place",
       "meaning": "起こる、行われる"
+    },
+    {
+      "surface": "murder",
+      "lemma": "murder",
+      "meaning": "殺人、殺害"
     },
     {
       "surface": "murdered",
@@ -21,14 +31,14 @@
       "meaning": "～に関連して"
     },
     {
-      "surface": "murder",
-      "lemma": "murder",
-      "meaning": "殺人、殺害"
-    },
-    {
       "surface": "are anxious to",
       "lemma": "be anxious to",
       "meaning": "ぜひ～したい／～することを強く望む"
+    },
+    {
+      "surface": "are anxious to interview",
+      "lemma": "be anxious to interview",
+      "meaning": "警察発表の定型的な言い回しで、この男性を殺人事件との関係で見つけ出して事情を聴きたい、という意味。単に『ぜひ面接したい』という意味ではない。"
     },
     {
       "surface": "in the vicinity",
@@ -53,7 +63,12 @@
     {
       "surface": "ice-bound",
       "lemma": "ice-bound",
-      "meaning": "氷で閉ざされた"
+      "meaning": "雪と氷で危険な道路状況を指す。文字どおり完全に氷に閉じ込められた道路というより、凍結して通行が危険な道路。"
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "meaning": "～だろうと予想する、期待する。"
     },
     {
       "surface": "freezing",
@@ -69,8 +84,8 @@
   "act1-scene1-speech-0002": [
     {
       "surface": "Gosh",
-      "lemma": "Gosh",
-      "meaning": "まあ／うわあ"
+      "lemma": "gosh",
+      "meaning": "寒さや目の前の状況への軽い驚きを表す間投詞。"
     }
   ],
   "act1-scene1-speech-0003": [],
@@ -78,7 +93,7 @@
     {
       "surface": "brute",
       "lemma": "brute",
-      "meaning": "ひどい人、乱暴者"
+      "meaning": "Gilesを本気で『乱暴者』と非難しているのではなく、家事を自分に任せている夫へ親しみを込めて『ひどい人ね』と軽く文句を言っている。"
     }
   ],
   "act1-scene1-speech-0005": [
@@ -91,6 +106,11 @@
       "surface": "stoke the Aga",
       "lemma": "stoke the Aga",
       "meaning": "Agaの火をたく／燃料を足す"
+    },
+    {
+      "surface": "stoke the Aga",
+      "lemma": "stoke",
+      "meaning": "Aga式レンジの火に燃料を足して火力を保つこと。"
     }
   ],
   "act1-scene1-speech-0006": [],
@@ -123,14 +143,19 @@
     {
       "surface": "netting",
       "lemma": "netting",
-      "meaning": "網、ネット状の材料"
+      "meaning": "ここでは鶏用の囲いなどに使う金網・網材。"
     }
   ],
   "act1-scene1-speech-0011": [
     {
+      "surface": "went on to",
+      "lemma": "go on to",
+      "meaning": "さらに～へ行く／続いて～へ進む"
+    },
+    {
       "surface": "dump",
       "lemma": "dump",
-      "meaning": "資材置き場／投棄場"
+      "meaning": "ごみ捨て場というより、必要な資材を探しに行った資材置き場・店のような場所をぞんざいに呼んでいる。"
     },
     {
       "surface": "any good",
@@ -143,6 +168,11 @@
       "meaning": "ほとんど、実質的に"
     },
     {
+      "surface": "wasted",
+      "lemma": "waste",
+      "meaning": "時間・物資などを無駄にする、無駄。"
+    },
+    {
       "surface": "skidding",
       "lemma": "skid",
       "meaning": "滑る、横滑りする"
@@ -150,7 +180,7 @@
     {
       "surface": "like anything",
       "lemma": "like anything",
-      "meaning": "ものすごく／ひどく"
+      "meaning": "車が『ものすごく』横滑りしていた、という口語的な強調。"
     },
     {
       "surface": "coming down",
@@ -160,17 +190,12 @@
     {
       "surface": "What do you bet",
       "lemma": "what do you bet",
-      "meaning": "きっと～だと思わないか／賭けてもいい"
+      "meaning": "本当に賭けを持ちかけているのではなく、『明日にはきっと雪で閉じ込められるぞ』と強く予想する言い方。"
     },
     {
       "surface": "snowed up",
       "lemma": "snowed up",
-      "meaning": "雪で閉じ込められた／交通が遮断された"
-    },
-    {
-      "surface": "went on to",
-      "lemma": "go on to",
-      "meaning": "さらに～へ行く／続いて～へ進む"
+      "meaning": "大雪のため外へ出られず、交通が遮断された状態。"
     }
   ],
   "act1-scene1-speech-0012": [],
@@ -181,6 +206,11 @@
       "meaning": "セントラルヒーティング"
     },
     {
+      "surface": "well-stoked up",
+      "lemma": "stoke",
+      "meaning": "暖房の火に十分な燃料を入れ、切らさないようにしておくこと。"
+    },
+    {
       "surface": "stoked",
       "lemma": "stoke",
       "meaning": "燃料を足して火を保つ"
@@ -188,7 +218,7 @@
     {
       "surface": "coke",
       "lemma": "coke",
-      "meaning": "暖房燃料のコークス"
+      "meaning": "飲料ではなく、暖房用燃料のコークス。"
     }
   ],
   "act1-scene1-speech-0014": [
@@ -199,15 +229,32 @@
     }
   ],
   "act1-scene1-speech-0015": [],
-  "act1-scene1-speech-0016": [],
+  "act1-scene1-speech-0016": [
+    {
+      "surface": "hooked it",
+      "lemma": "hook it",
+      "meaning": "Mrs. Barlowが悪天候を恐れて、仕事を早めに切り上げて帰ってしまったという古めの口語。"
+    }
+  ],
   "act1-scene1-speech-0017": [
     {
       "surface": "nuisance",
       "lemma": "nuisance",
       "meaning": "厄介者、迷惑"
+    },
+    {
+      "surface": "on your shoulders",
+      "lemma": "on someone's shoulders",
+      "meaning": "仕事や責任がMollie一人にのしかかる、という比喩。"
     }
   ],
-  "act1-scene1-speech-0018": [],
+  "act1-scene1-speech-0018": [
+    {
+      "surface": "partnership",
+      "lemma": "partnership",
+      "meaning": "共同で責任・利益を分ける協力関係、共同事業。"
+    }
+  ],
   "act1-scene1-speech-0019": [
     {
       "surface": "So long as",
@@ -219,12 +266,12 @@
     {
       "surface": "department",
       "lemma": "department",
-      "meaning": "担当分野"
+      "meaning": "組織の『部門』ではなく、料理は自分の担当分野だという冗談めいた言い方。"
     },
     {
       "surface": "tins",
       "lemma": "tin",
-      "meaning": "缶詰"
+      "meaning": "ここでは缶そのものではなく缶詰食品。"
     },
     {
       "surface": "in case",
@@ -234,7 +281,7 @@
     {
       "surface": "snowed up",
       "lemma": "snowed up",
-      "meaning": "雪で閉じ込められた／交通が遮断された"
+      "meaning": "大雪で外部との行き来ができなくなること。"
     },
     {
       "surface": "going to be all right",
@@ -243,6 +290,11 @@
     }
   ],
   "act1-scene1-speech-0021": [
+    {
+      "surface": "Got cold feet",
+      "lemma": "get cold feet",
+      "meaning": "文字どおり足が冷えたのではなく、ゲストハウス経営を始めたことに今さら不安になり、怖気づいたのかとからかっている。"
+    },
     {
       "surface": "cold feet",
       "lemma": "cold feet",
@@ -258,6 +310,11 @@
   ],
   "act1-scene1-speech-0023": [],
   "act1-scene1-speech-0024": [
+    {
+      "surface": "disaster",
+      "lemma": "disaster",
+      "meaning": "大きな災害・惨事。また大失敗。"
+    },
     {
       "surface": "left out",
       "lemma": "leave out",
@@ -278,6 +335,11 @@
   ],
   "act1-scene1-speech-0026": [
     {
+      "surface": "in disgrace",
+      "lemma": "in disgrace",
+      "meaning": "本当の不名誉ではなく、看板の綴りを間違えたGilesにMollieが冗談で『罰を受ける立場ね』と言っている。"
+    },
+    {
       "surface": "disgrace",
       "lemma": "disgrace",
       "meaning": "恥、不名誉"
@@ -293,13 +355,19 @@
       "meaning": "セントラルヒーティング"
     }
   ],
-  "act1-scene1-speech-0027": [],
+  "act1-scene1-speech-0027": [
+    {
+      "surface": "bank it up",
+      "lemma": "bank up",
+      "meaning": "暖房の火を一晩もつよう、燃料を多めに入れて火を弱く長く保つこと。"
+    }
+  ],
   "act1-scene1-speech-0028": [],
   "act1-scene1-speech-0029": [
     {
       "surface": "appalling",
       "lemma": "appalling",
-      "meaning": "ひどい、ぞっとするほど悪い"
+      "meaning": "本気で恐ろしいというより、夜遅くまで暖房の世話をする必要があることへの大げさな不満。"
     }
   ],
   "act1-scene1-speech-0030": [],
@@ -307,7 +375,7 @@
     {
       "surface": "worked out",
       "lemma": "work out",
-      "meaning": "部屋割りを全部決めてある"
+      "meaning": "ここでは問題を解くのではなく、どの客をどの部屋に入れるか部屋割りを決めてあること。"
     }
   ],
   "act1-scene1-speech-0032": [
@@ -318,6 +386,11 @@
     }
   ],
   "act1-scene1-speech-0033": [
+    {
+      "surface": "rent",
+      "lemma": "rent",
+      "meaning": "家・部屋などを借りるために払う賃料。借りる・貸す。"
+    },
     {
       "surface": "in advance",
       "lemma": "in advance",
@@ -334,7 +407,7 @@
     {
       "surface": "mugs",
       "lemma": "mug",
-      "meaning": "間抜け、だまされやすい人"
+      "meaning": "自分たちは宿屋経営について世間知らずで、簡単にだまされそうな『間抜け』だという自嘲。"
     }
   ],
   "act1-scene1-speech-0036": [
@@ -346,12 +419,7 @@
     {
       "surface": "hang on to",
       "lemma": "hang on to",
-      "meaning": "～を手放さず持っておく"
-    },
-    {
-      "surface": "luggage",
-      "lemma": "luggage",
-      "meaning": "荷物、旅行かばん類"
+      "meaning": "客が料金を払わない場合、その荷物を担保のように手元に留めておくこと。"
     },
     {
       "surface": "quite",
@@ -371,9 +439,14 @@
       "meaning": "通信講座"
     },
     {
+      "surface": "course",
+      "lemma": "course",
+      "meaning": "進路・経過。また教育の課程や一連の授業。"
+    },
+    {
       "surface": "get had",
       "lemma": "get had",
-      "meaning": "だまされる／一杯食わされる"
+      "meaning": "宿泊客にだまされたり、代金を踏み倒されたりすること。"
     },
     {
       "surface": "luggage",
@@ -404,6 +477,16 @@
   "act1-scene1-speech-0038": [],
   "act1-scene1-speech-0039": [
     {
+      "surface": "forged references",
+      "lemma": "forged reference",
+      "meaning": "使用人などが信用を得るために偽造した推薦状・身元証明。"
+    },
+    {
+      "surface": "references",
+      "lemma": "reference",
+      "meaning": "参照、言及。また人物の経歴・信用を証明する推薦状・照会先。"
+    },
+    {
       "surface": "criminals",
       "lemma": "criminal",
       "meaning": "犯罪の／犯罪者"
@@ -418,10 +501,15 @@
     {
       "surface": "guineas",
       "lemma": "guinea",
-      "meaning": "ギニー（旧英国通貨単位、21シリング）"
+      "meaning": "当時の英国で料金表示などに使われた旧通貨単位。1ギニー＝21シリング。"
     }
   ],
   "act1-scene1-speech-0041": [
+    {
+      "surface": "woman of business",
+      "lemma": "woman of business",
+      "meaning": "Mollieが客の素性より料金を重視すると言ったのを受け、Gilesが『実に商売上手だね』と軽くからかっている。"
+    },
     {
       "surface": "business",
       "lemma": "business",
@@ -440,6 +528,11 @@
       "meaning": "起こる、行われる"
     },
     {
+      "surface": "murder",
+      "lemma": "murder",
+      "meaning": "殺人、殺害"
+    },
+    {
       "surface": "murdered",
       "lemma": "murder",
       "meaning": "殺害された"
@@ -450,14 +543,14 @@
       "meaning": "～に関連して"
     },
     {
-      "surface": "murder",
-      "lemma": "murder",
-      "meaning": "殺人、殺害"
-    },
-    {
       "surface": "are anxious to",
       "lemma": "be anxious to",
       "meaning": "ぜひ～したい／～することを強く望む"
+    },
+    {
+      "surface": "are anxious to interview",
+      "lemma": "be anxious to interview",
+      "meaning": "警察が殺人事件との関係で男性を捜し、事情を聴こうとしているという公式表現。"
     },
     {
       "surface": "in the vicinity",
@@ -482,7 +575,7 @@
     {
       "surface": "icebound",
       "lemma": "ice-bound",
-      "meaning": "氷で閉ざされた"
+      "meaning": "凍結して危険な道路状況。"
     }
   ],
   "act1-scene1-speech-0043": [],
@@ -490,12 +583,22 @@
     {
       "surface": "gave up",
       "lemma": "give up",
-      "meaning": "諦める／動かなくなる"
+      "meaning": "タクシーが故障したというより、運転手が門から先の雪道を進むのを断念したこと。"
+    },
+    {
+      "surface": "Wouldn't attempt",
+      "lemma": "attempt",
+      "meaning": "運転手が危険な私道を車で進もうとしなかったこと。"
     },
     {
       "surface": "sporting",
       "lemma": "sporting",
       "meaning": "フェアで冒険心のある"
+    },
+    {
+      "surface": "sporting instinct",
+      "lemma": "sporting instinct",
+      "meaning": "危険を冒してでも挑むスポーツマン精神、というChristopherの冗談めいた不満。"
     },
     {
       "surface": "instinct",
@@ -505,6 +608,11 @@
   ],
   "act1-scene1-speech-0045": [],
   "act1-scene1-speech-0046": [
+    {
+      "surface": "pictured you",
+      "lemma": "picture",
+      "meaning": "Mollieの姿を実際に見たのではなく、手紙などから頭の中で人物像を想像していたこと。"
+    },
     {
       "surface": "retired",
       "lemma": "retired",
@@ -518,12 +626,12 @@
     {
       "surface": "grim",
       "lemma": "grim",
-      "meaning": "厳しい、陰気な、いかめしい"
+      "meaning": "ここでは怖く厳格で近寄りがたい雰囲気。"
     },
     {
       "surface": "Memsahibish",
       "lemma": "Memsahibish",
-      "meaning": "植民地期の英国婦人を思わせる、いかにも「メムサーヒブ風」の"
+      "meaning": "英領インド時代の英国人上流女性を連想させる、威圧的で植民地時代風の雰囲気をからかっている。"
     },
     {
       "surface": "crammed",
@@ -533,7 +641,12 @@
     {
       "surface": "Benares brass",
       "lemma": "Benares brass",
-      "meaning": "ベナレス（現ヴァーラーナシー）の真鍮工芸品"
+      "meaning": "インドのベナレス（現ヴァーラーナシー）を連想させる装飾的な真鍮製品。Christopherが植民地時代風の室内を誇張して想像している。"
+    },
+    {
+      "surface": "heavenly",
+      "lemma": "heavenly",
+      "meaning": "天国のような、非常にすばらしい。"
     },
     {
       "surface": "quite",
@@ -546,6 +659,11 @@
       "meaning": "（建物・部屋の）寸法バランス、比例"
     },
     {
+      "surface": "fake",
+      "lemma": "fake",
+      "meaning": "偽物、偽の。偽造する。"
+    },
+    {
       "surface": "genuine",
       "lemma": "genuine",
       "meaning": "本物の、真正な"
@@ -554,6 +672,16 @@
       "surface": "wax flowers",
       "lemma": "wax flowers",
       "meaning": "蝋製の造花"
+    },
+    {
+      "surface": "wax flowers",
+      "lemma": "wax flower",
+      "meaning": "蝋で作った装飾用の造花。"
+    },
+    {
+      "surface": "birds of Paradise",
+      "lemma": "bird of paradise",
+      "meaning": "ここでは室内装飾として飾られる極彩色の鳥やその標本を念頭に置いた表現。"
     }
   ],
   "act1-scene1-speech-0047": [],
@@ -564,14 +692,19 @@
       "meaning": "サイドボード、食器棚兼配膳台"
     },
     {
+      "surface": "plummy",
+      "lemma": "plummy",
+      "meaning": "マホガニーの濃く赤紫がかった、重厚で少しけばけばしい色合いをChristopherが面白がって表現している。"
+    },
+    {
       "surface": "mahogany",
       "lemma": "mahogany",
       "meaning": "マホガニー材"
     },
     {
-      "surface": "sideboard",
-      "lemma": "sideboard",
-      "meaning": "サイドボード、食器棚兼配膳台"
+      "surface": "solid",
+      "lemma": "solid",
+      "meaning": "固体の、頑丈な、中身の詰まった。"
     }
   ],
   "act1-scene1-speech-0049": [],
@@ -579,9 +712,24 @@
   "act1-scene1-speech-0051": [],
   "act1-scene1-speech-0052": [
     {
+      "surface": "Absolutely",
+      "lemma": "absolutely",
+      "meaning": "完全に、まったく。本当に。"
+    },
+    {
+      "surface": "bedrock respectability",
+      "lemma": "bedrock respectability",
+      "meaning": "古風な家具が醸し出す、揺るぎない『ちゃんとした中流・上流家庭らしさ』をChristopherが大げさに称賛している。"
+    },
+    {
       "surface": "respectability",
       "lemma": "respectability",
       "meaning": "世間体のよさ、社会的信用"
+    },
+    {
+      "surface": "do away with",
+      "lemma": "do away with",
+      "meaning": "ここでは『廃止する』ではなく、中央のマホガニー製テーブルを取り除いてしまうこと。"
     },
     {
       "surface": "mahogany",
@@ -592,6 +740,16 @@
       "surface": "just",
       "lemma": "just",
       "meaning": "ちょうど／ただ／ほんの（範囲を限定）"
+    },
+    {
+      "surface": "spoil the effect",
+      "lemma": "spoil the effect",
+      "meaning": "小さなテーブルが、Christopherの好む古風で統一された室内の雰囲気を台無しにすること。"
+    },
+    {
+      "surface": "effect",
+      "lemma": "effect",
+      "meaning": "結果、影響。また見た目や演出上の効果。"
     }
   ],
   "act1-scene1-speech-0053": [],
@@ -602,9 +760,14 @@
       "meaning": "～を思い出させる"
     },
     {
+      "surface": "irritating",
+      "lemma": "irritating",
+      "meaning": "いら立たせる、うっとうしい。"
+    },
+    {
       "surface": "bogus",
       "lemma": "bogus",
-      "meaning": "にせの、いんちきの"
+      "meaning": "Dickens風の感傷的なイメージを『わざとらしい、うそっぽい』とChristopherが切り捨てている。"
     },
     {
       "surface": "carried away",
@@ -612,9 +775,14 @@
       "meaning": "夢中にさせる／我を忘れさせる"
     },
     {
+      "surface": "carried away",
+      "lemma": "get carried away",
+      "meaning": "時代物の家具への好みに夢中になりすぎ、実用性を忘れて話していたこと。"
+    },
+    {
       "surface": "period",
       "lemma": "period",
-      "meaning": "時代様式"
+      "meaning": "ここでは特定の時代の様式・雰囲気。"
     },
     {
       "surface": "mahogany",
@@ -629,7 +797,12 @@
     {
       "surface": "prolific",
       "lemma": "prolific",
-      "meaning": "多産な／非常に多く生み出す"
+      "meaning": "ここでは『多産な』、つまり子どもを大勢産んだ母親を誇張して描写している。"
+    },
+    {
+      "surface": "faded",
+      "lemma": "faded",
+      "meaning": "色があせたというより、疲れや年齢で華やかさを失った母親という戯画的描写。"
     },
     {
       "surface": "assorted",
@@ -649,12 +822,27 @@
     {
       "surface": "poor relation",
       "lemma": "poor relation",
-      "meaning": "居候同然の貧しい親類"
+      "meaning": "経済的に恵まれず、裕福な親族の家に頼って暮らす親戚。"
+    },
+    {
+      "surface": "relation",
+      "lemma": "relation",
+      "meaning": "劇中の “any relations” は「親族」。connection の意味ではない。"
     },
     {
       "surface": "general dogsbody",
       "lemma": "general dogsbody",
       "meaning": "何でもやらされる雑用係"
+    },
+    {
+      "surface": "general dogsbody",
+      "lemma": "dogsbody",
+      "meaning": "家族の中で、誰もやりたがらない雑用を何でも押しつけられる人。Christopherの架空のヴィクトリア朝家庭像の一部。"
+    },
+    {
+      "surface": "grateful",
+      "lemma": "grateful",
+      "meaning": "感謝している、ありがたく思う。"
     }
   ],
   "act1-scene1-speech-0055": [],
@@ -668,7 +856,7 @@
     {
       "surface": "chintz",
       "lemma": "chintz",
-      "meaning": "更紗、花柄のプリント綿布"
+      "meaning": "花柄などを印刷した綿布。ここでは小さなバラ柄の古風なベッド装飾。"
     }
   ],
   "act1-scene1-speech-0058": [],
@@ -685,9 +873,25 @@
       "meaning": "上へ行く／上階へ行く"
     }
   ],
-  "act1-scene1-speech-0061": [],
+  "act1-scene1-speech-0061": [
+    {
+      "surface": "Ticked off",
+      "lemma": "tick off",
+      "meaning": "Mollieが話題を変えて個人的な質問をやめさせたのを、Christopherが『軽く叱られた・たしなめられた』と冗談めかして受け取っている。"
+    },
+    {
+      "surface": "madly interesting",
+      "lemma": "madly",
+      "meaning": "『狂ったように』ではなく、非常に・ものすごく面白いというChristopherらしい誇張。"
+    }
+  ],
   "act1-scene1-speech-0062": [],
   "act1-scene1-speech-0063": [
+    {
+      "surface": "what anyone is like",
+      "lemma": "what someone is like",
+      "meaning": "外見ではなく、その人の本当の性格・人間性がどんなものかという意味。"
+    },
     {
       "surface": "For instance",
       "lemma": "for instance",
@@ -703,9 +907,14 @@
   ],
   "act1-scene1-speech-0065": [
     {
+      "surface": "artists",
+      "lemma": "artist",
+      "meaning": "美術・音楽などの芸術活動を行う人。"
+    },
+    {
       "surface": "comes out",
       "lemma": "come out",
-      "meaning": "出てくる／外へ出る"
+      "meaning": "画家が意識的に説明できなくても、人物の本質が肖像画の中に現れる、という意味。"
     }
   ],
   "act1-scene1-speech-0066": [],
@@ -716,33 +925,49 @@
       "meaning": "建築家"
     },
     {
-      "surface": "architect",
-      "lemma": "architect",
-      "meaning": "建築家"
-    },
-    {
-      "surface": "sympathetic",
-      "lemma": "sympathetic",
-      "meaning": "同情的な、理解を示す"
+      "surface": "halfway home",
+      "lemma": "halfway home",
+      "meaning": "『Christopher Wren』という名前を付けた時点で、有名建築家Sir Christopher Wrenのような建築家になる目標の半分は達成した、という冗談。"
     },
     {
       "surface": "have the last laugh",
       "lemma": "have the last laugh",
-      "meaning": "最後には勝つ／最終的に優位になる"
+      "meaning": "今は名前を笑われても、将来成功して最終的には自分が勝つ・笑う側になること。"
+    },
+    {
+      "surface": "Prefab Nests",
+      "lemma": "prefab",
+      "meaning": "Christopherが将来作るかもしれないプレハブ住宅を、鳥の巣になぞらえてふざけて命名している。"
     },
     {
       "surface": "go down in history",
       "lemma": "go down in history",
       "meaning": "歴史に名を残す"
+    },
+    {
+      "surface": "history",
+      "lemma": "history",
+      "meaning": "歴史、過去の出来事の記録。"
+    },
+    {
+      "surface": "sympathetic",
+      "lemma": "sympathetic",
+      "meaning": "ここでは『同情している』より、感じがよく自分と気が合いそうだという意味。"
     }
   ],
-  "act1-scene1-speech-0068": [],
+  "act1-scene1-speech-0068": [
+    {
+      "surface": "Indeed",
+      "lemma": "indeed",
+      "meaning": "単なる『本当に』ではなく、ChristopherがMollieを褒める流れに対するGilesの冷たく警戒した短い応答。"
+    }
+  ],
   "act1-scene1-speech-0069": [],
   "act1-scene1-speech-0070": [
     {
       "surface": "absurd",
       "lemma": "absurd",
-      "meaning": "ばかげた、不合理な"
+      "meaning": "Christopherの『とても美しい』という褒め言葉を、Mollieが照れて『そんなこと言わないで』と退けている。相手の発言を論理的に不合理だと批判しているわけではない。"
     }
   ],
   "act1-scene1-speech-0071": [
@@ -752,9 +977,14 @@
       "meaning": "褒め言葉"
     },
     {
-      "surface": "compliments",
-      "lemma": "compliment",
-      "meaning": "褒め言葉"
+      "surface": "embarrass",
+      "lemma": "embarrass",
+      "meaning": "人を恥ずかしい・気まずい気持ちにさせる。"
+    },
+    {
+      "surface": "European",
+      "lemma": "European",
+      "meaning": "ヨーロッパの、ヨーロッパ人。"
     },
     {
       "surface": "as a matter of course",
@@ -767,14 +997,29 @@
       "meaning": "女性的な"
     },
     {
+      "surface": "feminine spirit",
+      "lemma": "feminine spirit",
+      "meaning": "女性らしい自信や魅力を発揮する気質、というChristopherの誇張された一般論。"
+    },
+    {
+      "surface": "spirit",
+      "lemma": "spirit",
+      "meaning": "精神、気質、意欲。文脈により霊・酒類など。"
+    },
+    {
       "surface": "crushed",
       "lemma": "crush",
       "meaning": "押しつぶす／完全に抑え込む"
     },
     {
+      "surface": "crushed out of them",
+      "lemma": "crush out of",
+      "meaning": "文字どおり押し潰すのではなく、夫たちの態度によって女性らしい自信が失われるという誇張。"
+    },
+    {
       "surface": "boorish",
       "lemma": "boorish",
-      "meaning": "粗野で無作法な"
+      "meaning": "Christopherが英国人の夫を、無作法で女性への気遣いがないと挑発的に評している。"
     }
   ],
   "act1-scene1-speech-0072": [
@@ -790,6 +1035,11 @@
       "surface": "stoke",
       "lemma": "stoke",
       "meaning": "燃料を足して火を保つ"
+    },
+    {
+      "surface": "stoke up",
+      "lemma": "stoke",
+      "meaning": "給湯用ボイラーに燃料を足して湯を保つこと。"
     }
   ],
   "act1-scene1-speech-0075": [
@@ -828,6 +1078,11 @@
   "act1-scene1-speech-0080": [],
   "act1-scene1-speech-0081": [
     {
+      "surface": "risk coming up the drive",
+      "lemma": "risk",
+      "meaning": "雪のため、タクシー運転手が私道を上がる危険を冒そうとしなかったこと。"
+    },
+    {
       "surface": "coming up",
       "lemma": "come up",
       "meaning": "上がってくる／近づいてくる"
@@ -836,6 +1091,11 @@
       "surface": "station",
       "lemma": "station",
       "meaning": "持ち場、配置場所"
+    },
+    {
+      "surface": "Nothing ordered to meet us",
+      "lemma": "meet a train",
+      "meaning": "『会う』ではなく、駅に車や人を手配して到着客を迎えること。Mrs. Boyleは宿側が送迎を用意していないと非難している。"
     }
   ],
   "act1-scene1-speech-0082": [
@@ -847,10 +1107,16 @@
     {
       "surface": "standing by",
       "lemma": "stand by",
-      "meaning": "待機する"
+      "meaning": "ここでは待機して客を迎えられる状態でいること。"
     }
   ],
-  "act1-scene1-speech-0083": [],
+  "act1-scene1-speech-0083": [
+    {
+      "surface": "All trains should have been met",
+      "lemma": "meet a train",
+      "meaning": "どの列車で来ても宿側が駅まで迎えを出すべきだった、というMrs. Boyleの要求。"
+    }
+  ],
   "act1-scene1-speech-0084": [
     {
       "surface": "just",
@@ -867,7 +1133,12 @@
     {
       "surface": "offhand",
       "lemma": "offhand",
-      "meaning": "即座に／ぞんざいに"
+      "meaning": "宿側の対応がよそよそしく、きちんと準備されていないとMrs. Boyleが批判している。"
+    },
+    {
+      "surface": "casual",
+      "lemma": "casual",
+      "meaning": "ここでは服装がカジュアルという意味ではなく、対応がいい加減で無頓着という批判。"
     }
   ],
   "act1-scene1-speech-0086": [],
@@ -879,7 +1150,7 @@
     {
       "surface": "establishment",
       "lemma": "establishment",
-      "meaning": "施設、事業所"
+      "meaning": "ここでは制度や権力層ではなく、宿泊施設・事業所としてのMonkswell Manor。"
     }
   ],
   "act1-scene1-speech-0092": [],
@@ -897,7 +1168,7 @@
     {
       "surface": "dry rot",
       "lemma": "dry rot",
-      "meaning": "乾腐（木材腐朽）"
+      "meaning": "木材を腐らせる菌による建物の腐朽。Mrs. Boyleが古い家の欠陥を探すように持ち出している。"
     }
   ],
   "act1-scene1-speech-0094": [],
@@ -908,7 +1179,13 @@
       "meaning": "乾腐（木材腐朽）"
     }
   ],
-  "act1-scene1-speech-0096": [],
+  "act1-scene1-speech-0096": [
+    {
+      "surface": "condition",
+      "lemma": "condition",
+      "meaning": "状態、状況。また条件。"
+    }
+  ],
   "act1-scene1-speech-0097": [
     {
       "surface": "could do with a coat of paint",
@@ -916,9 +1193,19 @@
       "meaning": "ペンキを一塗りするとよい／塗り直しが必要だ"
     },
     {
+      "surface": "could do with a coat of paint",
+      "lemma": "could do with",
+      "meaning": "『～があれば助かる』の意味から、ここでは塗り直した方がよい・塗装が必要だという批評。"
+    },
+    {
       "surface": "worm",
       "lemma": "worm",
       "meaning": "木食い虫／虫害"
+    },
+    {
+      "surface": "worm in this oak",
+      "lemma": "woodworm",
+      "meaning": "ミミズではなく、オーク材に木食い虫の被害があるという意味。"
     }
   ],
   "act1-scene1-speech-0098": [],
@@ -929,6 +1216,11 @@
       "meaning": "はじめまして／ご機嫌いかがですか"
     },
     {
+      "surface": "Absolute",
+      "lemma": "absolute",
+      "meaning": "完全な、まったくの。程度が最大であることを表す。"
+    },
+    {
       "surface": "blizzard",
       "lemma": "blizzard",
       "meaning": "猛吹雪"
@@ -936,7 +1228,7 @@
     {
       "surface": "make it",
       "lemma": "make it",
-      "meaning": "たどり着く、間に合う"
+      "meaning": "目的地であるMonkswell Manorまで何とか到着すること。"
     },
     {
       "surface": "I beg your pardon",
@@ -951,7 +1243,7 @@
     {
       "surface": "on leave",
       "lemma": "on leave",
-      "meaning": "休暇中で"
+      "meaning": "軍務から一時的に休暇を与えられていたこと。"
     }
   ],
   "act1-scene1-speech-0100": [],
@@ -964,12 +1256,23 @@
   ],
   "act1-scene1-speech-0102": [],
   "act1-scene1-speech-0103": [],
-  "act1-scene1-speech-0104": [],
+  "act1-scene1-speech-0104": [
+    {
+      "surface": "servant difficulty",
+      "lemma": "servant difficulty",
+      "meaning": "使用人を雇ったり確保したりする上での人手不足・雇用上の問題。"
+    }
+  ],
   "act1-scene1-speech-0105": [
     {
       "surface": "quite",
       "lemma": "quite",
       "meaning": "なかなかの、かなりの"
+    },
+    {
+      "surface": "local",
+      "lemma": "local",
+      "meaning": "その地域の、地元の。"
     },
     {
       "surface": "comes in",
@@ -978,6 +1281,11 @@
     }
   ],
   "act1-scene1-speech-0106": [
+    {
+      "surface": "indoor staff",
+      "lemma": "indoor staff",
+      "meaning": "住み込み、または館内で常時働く使用人・従業員。"
+    },
     {
       "surface": "staff",
       "lemma": "staff",
@@ -996,7 +1304,13 @@
       "meaning": "ちょうど／ただ／ほんの（範囲を限定）"
     }
   ],
-  "act1-scene1-speech-0108": [],
+  "act1-scene1-speech-0108": [
+    {
+      "surface": "in full running order",
+      "lemma": "in running order",
+      "meaning": "設備が動くというだけでなく、宿が必要な人員や仕組みを備えて通常営業している状態。"
+    }
+  ],
   "act1-scene1-speech-0109": [
     {
       "surface": "only just",
@@ -1005,6 +1319,11 @@
     }
   ],
   "act1-scene1-speech-0110": [
+    {
+      "surface": "proper staff",
+      "lemma": "proper staff",
+      "meaning": "Mrs. Boyleの価値観で、宿として当然備えるべき十分で正式な使用人・従業員体制。"
+    },
     {
       "surface": "staff",
       "lemma": "staff",
@@ -1023,7 +1342,7 @@
     {
       "surface": "misleading",
       "lemma": "misleading",
-      "meaning": "誤解を招く"
+      "meaning": "広告が、実際より整った宿だと思わせたという非難。"
     }
   ],
   "act1-scene1-speech-0111": [],
@@ -1032,6 +1351,11 @@
       "surface": "blizzard",
       "lemma": "blizzard",
       "meaning": "猛吹雪"
+    },
+    {
+      "surface": "no less",
+      "lemma": "no less",
+      "meaning": "単なる雪ではなく『よりによって吹雪』だと大げさに強調している。"
     }
   ],
   "act1-scene1-speech-0113": [
@@ -1045,7 +1369,7 @@
     {
       "surface": "macabre",
       "lemma": "macabre",
-      "meaning": "死や恐怖を不気味に扱う、陰惨趣味の"
+      "meaning": "Christopherは童謡に含まれる死や不幸の気配を面白がり、『陰惨で不気味』だと楽しげに評している。"
     }
   ],
   "act1-scene1-speech-0115": [],
@@ -1059,9 +1383,14 @@
   "act1-scene1-speech-0117": [],
   "act1-scene1-speech-0118": [
     {
+      "surface": "time of life",
+      "lemma": "time of life",
+      "meaning": "自分の年齢・人生の段階を遠回しに指し、今は見た目より快適さを重視する年齢だと言っている。"
+    },
+    {
       "surface": "amenities",
       "lemma": "amenity",
-      "meaning": "快適設備、便益"
+      "meaning": "宿泊施設としての快適さや便利な設備・サービス。"
     },
     {
       "surface": "establishment",
@@ -1069,9 +1398,19 @@
       "meaning": "施設、事業所"
     },
     {
+      "surface": "appearance",
+      "lemma": "appearance",
+      "meaning": "外見、見た目。また現れること。"
+    },
+    {
       "surface": "running concern",
       "lemma": "running concern",
-      "meaning": "営業中の事業／実際に稼働している施設"
+      "meaning": "新規開業直後ではなく、すでに通常営業して実績のある事業・宿。"
+    },
+    {
+      "surface": "concern",
+      "lemma": "concern",
+      "meaning": "心配、関心。事業・会社を指すこともある。"
     },
     {
       "surface": "equipped",
@@ -1081,7 +1420,7 @@
     {
       "surface": "home comfort",
       "lemma": "home comfort",
-      "meaning": "家庭的な快適設備"
+      "meaning": "家庭で得られるような快適さや便利さ。Mrs. Boyleは広告から十分な設備を期待していた。"
     }
   ],
   "act1-scene1-speech-0119": [
@@ -1089,6 +1428,11 @@
       "surface": "obligation",
       "lemma": "obligation",
       "meaning": "義務"
+    },
+    {
+      "surface": "remain",
+      "lemma": "remain",
+      "meaning": "そのまま残る、とどまる。"
     }
   ],
   "act1-scene1-speech-0120": [],
@@ -1096,7 +1440,7 @@
     {
       "surface": "misapprehension",
       "lemma": "misapprehension",
-      "meaning": "誤解、思い違い"
+      "meaning": "宿の設備や営業状況についてMrs. Boyle側に誤解があった、という丁寧だが距離を取った言い方。"
     },
     {
       "surface": "elsewhere",
@@ -1109,14 +1453,34 @@
       "meaning": "電話をかける"
     },
     {
+      "surface": "return",
+      "lemma": "return",
+      "meaning": "戻る、返す。戻ること。"
+    },
+    {
+      "surface": "blocked",
+      "lemma": "blocked",
+      "meaning": "ここでは雪で道路が通行不能になること。"
+    },
+    {
       "surface": "applications",
       "lemma": "application",
       "meaning": "申込み、応募"
     },
     {
+      "surface": "applications for rooms",
+      "lemma": "application",
+      "meaning": "宿泊したいという予約・部屋の申し込み。"
+    },
+    {
       "surface": "fill your place",
       "lemma": "fill your place",
       "meaning": "あなたの空いた枠を埋める"
+    },
+    {
+      "surface": "fill your place",
+      "lemma": "fill someone's place",
+      "meaning": "Mrs. Boyleが出て行っても、空いた部屋を別の宿泊客ですぐ埋められるという意味。"
     },
     {
       "surface": "quite",
@@ -1129,20 +1493,45 @@
       "meaning": "いずれにせよ"
     },
     {
+      "surface": "raising",
+      "lemma": "raise",
+      "meaning": "持ち上げる、増やす、引き上げる。"
+    },
+    {
       "surface": "raising our terms",
       "lemma": "raise our terms",
       "meaning": "料金を上げる"
+    },
+    {
+      "surface": "raising our terms",
+      "lemma": "terms",
+      "meaning": "条件一般ではなく、ここでは宿泊料金を値上げすること。"
     }
   ],
   "act1-scene1-speech-0122": [
     {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "meaning": "確かに、間違いなく。返答で『もちろん』。"
+    },
+    {
       "surface": "turn me out",
       "lemma": "turn someone out",
       "meaning": "人を追い出す"
+    },
+    {
+      "surface": "turn me out",
+      "lemma": "turn out",
+      "meaning": "客として宿から追い出すこと。Mrs. BoyleはGilesの強気な応答を『自分を追い出そうとしている』と受け取って反発している。"
     }
   ],
   "act1-scene1-speech-0123": [],
   "act1-scene1-speech-0124": [
+    {
+      "surface": "horrible",
+      "lemma": "horrible",
+      "meaning": "とても不快な、恐ろしい、ひどい。"
+    },
     {
       "surface": "turn her out",
       "lemma": "turn someone out",
@@ -1151,7 +1540,7 @@
     {
       "surface": "Serve her right",
       "lemma": "serve someone right",
-      "meaning": "～には当然の報いだ／いい気味だ"
+      "meaning": "Mrs. Boyleが雪の中へ追い出されても『自業自得だ』というChristopherの誇張された嫌悪。実際に危害を加えようとしている発言ではない。"
     }
   ],
   "act1-scene1-speech-0125": [
@@ -1163,7 +1552,7 @@
     {
       "surface": "forgo",
       "lemma": "forgo",
-      "meaning": "～を諦める／なしで済ませる"
+      "meaning": "Mrs. Boyleを追い出す『楽しみ』を諦める、という皮肉めいた言い方。"
     },
     {
       "surface": "Lord",
@@ -1172,11 +1561,6 @@
     },
     {
       "surface": "Come in",
-      "lemma": "come in",
-      "meaning": "入ってくる／中に入る"
-    },
-    {
-      "surface": "come in",
       "lemma": "come in",
       "meaning": "入ってくる／中に入る"
     }
@@ -1188,9 +1572,19 @@
       "meaning": "動けなくなった"
     },
     {
+      "surface": "bogged",
+      "lemma": "bog down",
+      "meaning": "ぬかるみではなく、車が深い雪にはまり動けなくなったこと。"
+    },
+    {
       "surface": "ran into a drift",
       "lemma": "run into a drift",
       "meaning": "吹きだまりに突っ込む"
+    },
+    {
+      "surface": "drift",
+      "lemma": "snowdrift",
+      "meaning": "風で吹き寄せられて積もった深い雪。"
     }
   ],
   "act1-scene1-speech-0127": [],
@@ -1198,7 +1592,7 @@
     {
       "surface": "travel light",
       "lemma": "travel light",
-      "meaning": "荷物を少なくして旅行する"
+      "meaning": "旅行時に荷物を少なくしていること。"
     }
   ],
   "act1-scene1-speech-0129": [],
@@ -1218,7 +1612,7 @@
     {
       "surface": "thawed out",
       "lemma": "thaw out",
-      "meaning": "体を温めて凍えを取る／解凍する"
+      "meaning": "凍った物を解凍するのではなく、寒さで冷え切った自分の体を暖炉で温めること。"
     },
     {
       "surface": "Looks as though",
@@ -1228,12 +1622,17 @@
     {
       "surface": "snowed up",
       "lemma": "snowed up",
-      "meaning": "雪で閉じ込められた／交通が遮断された"
+      "meaning": "大雪で外部と行き来できなくなること。"
     },
     {
       "surface": "forecast",
       "lemma": "forecast",
       "meaning": "予報"
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "meaning": "～だろうと予想する、期待する。"
     },
     {
       "surface": "etcetera",
@@ -1243,11 +1642,23 @@
     {
       "surface": "provisions",
       "lemma": "provisions",
-      "meaning": "食料・備蓄品"
+      "meaning": "孤立した場合に備える食料・生活物資。"
     }
   ],
-  "act1-scene1-speech-0133": [],
-  "act1-scene1-speech-0134": [],
+  "act1-scene1-speech-0133": [
+    {
+      "surface": "manager",
+      "lemma": "manager",
+      "meaning": "職名としてのマネージャーではなく、Mollieは家事や食料管理をきちんとこなす人だとGilesが褒めている。"
+    }
+  ],
+  "act1-scene1-speech-0134": [
+    {
+      "surface": "Before we start eating each other",
+      "lemma": "eat each other",
+      "meaning": "食料が尽きたら人間同士で食べ合う、という極端な想像を使ったMiss Casewellのブラックユーモア。"
+    }
+  ],
   "act1-scene1-speech-0135": [
     {
       "surface": "apart from",
@@ -1262,6 +1673,11 @@
       "meaning": "政治危機"
     },
     {
+      "surface": "crisis",
+      "lemma": "crisis",
+      "meaning": "重大な危機、危機的状況。"
+    },
+    {
       "surface": "rather",
       "lemma": "rather",
       "meaning": "やや／かなり（控えめな程度強調）"
@@ -1272,17 +1688,17 @@
       "meaning": "興味をそそる、刺激的な"
     },
     {
+      "surface": "juicy murder",
+      "lemma": "juicy",
+      "meaning": "食べ物が『ジューシー』なのではなく、新聞記事として刺激的で興味をそそる殺人事件という軽薄で暗い言い方。"
+    },
+    {
       "surface": "murder",
       "lemma": "murder",
       "meaning": "殺人、殺害"
     }
   ],
   "act1-scene1-speech-0137": [
-    {
-      "surface": "murder",
-      "lemma": "murder",
-      "meaning": "殺人、殺害"
-    },
     {
       "surface": "murder",
       "lemma": "murder",
@@ -1296,14 +1712,14 @@
       "meaning": "殺人衝動のある狂人／殺人犯として描写された人物"
     },
     {
-      "surface": "Strangled",
-      "lemma": "strangle",
-      "meaning": "絞殺された"
-    },
-    {
       "surface": "maniac",
       "lemma": "maniac",
       "meaning": "狂人という古い呼称／極端に熱中する人"
+    },
+    {
+      "surface": "Strangled",
+      "lemma": "strangle",
+      "meaning": "絞殺された"
     }
   ],
   "act1-scene1-speech-0139": [
@@ -1316,6 +1732,11 @@
       "surface": "in the vicinity",
       "lemma": "in the vicinity",
       "meaning": "付近で／付近に"
+    },
+    {
+      "surface": "medium",
+      "lemma": "medium",
+      "meaning": "中くらいの、中間の。媒体・手段など。"
     },
     {
       "surface": "Medium height",
@@ -1345,7 +1766,12 @@
     {
       "surface": "to this effect",
       "lemma": "to this effect",
-      "meaning": "この趣旨の／このような内容の"
+      "meaning": "新聞に載った内容と同じ趣旨の警察メッセージが放送されたという意味。"
+    },
+    {
+      "surface": "effect",
+      "lemma": "effect",
+      "meaning": "結果、影響。また見た目や演出上の効果。"
     },
     {
       "surface": "broadcast",
@@ -1363,6 +1789,11 @@
       "surface": "description",
       "lemma": "description",
       "meaning": "人相・特徴の説明"
+    },
+    {
+      "surface": "Fit pretty well anyone",
+      "lemma": "fit",
+      "meaning": "その人相・服装の説明は特徴が曖昧すぎて、ほとんど誰にでも当てはまり得るという皮肉。"
     }
   ],
   "act1-scene1-speech-0141": [
@@ -1370,6 +1801,16 @@
       "surface": "are anxious to",
       "lemma": "be anxious to",
       "meaning": "ぜひ～したい／～することを強く望む"
+    },
+    {
+      "surface": "a polite way of hinting",
+      "lemma": "hint",
+      "meaning": "『事情を聴きたい』という警察の婉曲表現が、実際にはその男を犯人として疑っていることをほのめかしているのか、と尋ねている。"
+    },
+    {
+      "surface": "polite",
+      "lemma": "polite",
+      "meaning": "礼儀正しい、丁寧な。"
     },
     {
       "surface": "murderer",
@@ -1413,14 +1854,29 @@
   "act1-scene1-speech-0151": [],
   "act1-scene1-speech-0152": [
     {
-      "surface": "tins",
-      "lemma": "tin",
-      "meaning": "缶詰"
+      "surface": "get on with",
+      "lemma": "get on with",
+      "meaning": "～を進める／続ける"
+    },
+    {
+      "surface": "frightens",
+      "lemma": "frighten",
+      "meaning": "人を怖がらせる。"
     },
     {
       "surface": "tin",
       "lemma": "tin",
       "meaning": "缶詰"
+    },
+    {
+      "surface": "tins",
+      "lemma": "tin",
+      "meaning": "缶詰"
+    },
+    {
+      "surface": "cereal",
+      "lemma": "cereal",
+      "meaning": "ここでは朝食用シリアルではなく、料理に混ぜる穀類・穀物系の食品。"
     },
     {
       "surface": "mashing",
@@ -1431,15 +1887,21 @@
       "surface": "custard",
       "lemma": "custard",
       "meaning": "カスタード"
-    },
-    {
-      "surface": "get on with",
-      "lemma": "get on with",
-      "meaning": "～を進める／続ける"
     }
   ],
-  "act1-scene1-speech-0153": [],
+  "act1-scene1-speech-0153": [
+    {
+      "surface": "original",
+      "lemma": "original",
+      "meaning": "独創的という一般義から、ここでは献立がありきたりで工夫が少ないという意味。"
+    }
+  ],
   "act1-scene1-speech-0154": [
+    {
+      "surface": "adore",
+      "lemma": "adore",
+      "meaning": "崇拝するほどではなく、料理が大好きだというChristopherらしい強い口語的表現。"
+    },
     {
       "surface": "omelette",
       "lemma": "omelette",
@@ -1450,12 +1912,22 @@
     {
       "surface": "fowls",
       "lemma": "fowl",
-      "meaning": "家禽、鶏"
+      "meaning": "ここでは家で飼っている鶏。"
+    },
+    {
+      "surface": "lay",
+      "lemma": "lay",
+      "meaning": "ここでは卵を産むこと。"
     },
     {
       "surface": "put down",
       "lemma": "put down",
       "meaning": "置く／保存のため加工する"
+    },
+    {
+      "surface": "put down a lot of eggs",
+      "lemma": "put down eggs",
+      "meaning": "卵を『置く』のではなく、後で使えるよう保存処理して蓄えておくという古い家庭語法。"
     }
   ],
   "act1-scene1-speech-0156": [
@@ -1470,6 +1942,11 @@
       "meaning": "ヨーロッパ大陸風の"
     },
     {
+      "surface": "continental flavour",
+      "lemma": "continental",
+      "meaning": "英国から見たヨーロッパ大陸風の、少し洒落た料理らしい風味。"
+    },
+    {
       "surface": "flavour",
       "lemma": "flavour",
       "meaning": "風味、味わい"
@@ -1477,12 +1954,12 @@
     {
       "surface": "daresay",
       "lemma": "daresay",
-      "meaning": "たぶん～だろう／～と思う"
+      "meaning": "大胆に言うというより、『たぶん～だろう』『きっと～できると思う』という英国的な控えめ表現。"
     },
     {
       "surface": "inspiration",
       "lemma": "inspiration",
-      "meaning": "ひらめき、良い思いつき"
+      "meaning": "芸術的啓示というより、料理の良いアイデアを思いつくこと。"
     }
   ],
   "act1-scene1-speech-0157": [
@@ -1507,7 +1984,13 @@
       "meaning": "戻ってくる"
     }
   ],
-  "act1-scene1-speech-0158": [],
+  "act1-scene1-speech-0158": [
+    {
+      "surface": "on earth",
+      "lemma": "on earth",
+      "meaning": "場所の『地球上で』ではなく、『いったいなぜ』とGilesの苛立ちを強める表現。"
+    }
+  ],
   "act1-scene1-speech-0159": [
     {
       "surface": "fourposter",
@@ -1524,15 +2007,30 @@
     {
       "surface": "Twerp",
       "lemma": "twerp",
-      "meaning": "ばか、間抜け"
+      "meaning": "ChristopherへのGilesの軽蔑を表す古めの侮辱語で、『くだらないやつ・間抜け』程度。"
     }
   ],
   "act1-scene1-speech-0161": [],
   "act1-scene1-speech-0162": [
     {
+      "surface": "I've got no use for that kind",
+      "lemma": "have no use for",
+      "meaning": "物が役に立たないという意味ではなく、GilesがChristopherのようなタイプの人間を嫌い、信用していないという意味。"
+    },
+    {
       "surface": "'ve got no use for",
       "lemma": "have no use for",
       "meaning": "～が大嫌いだ／～を評価しない"
+    },
+    {
+      "surface": "handle his suitcase",
+      "lemma": "handle",
+      "meaning": "ここでは『対処する』ではなく、実際にスーツケースを持って重さを確かめたこと。"
+    },
+    {
+      "surface": "suitcase",
+      "lemma": "suitcase",
+      "meaning": "旅行用の手提げかばん。"
     }
   ],
   "act1-scene1-speech-0163": [
@@ -1544,9 +2042,24 @@
   ],
   "act1-scene1-speech-0164": [
     {
+      "surface": "no weight at all",
+      "lemma": "weight",
+      "meaning": "スーツケースが不自然なほど軽く、中にほとんど何も入っていないのではとGilesが疑っている。"
+    },
+    {
       "surface": "If you ask me",
       "lemma": "if you ask me",
       "meaning": "私に言わせれば"
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "meaning": "おそらく、たぶん。"
+    },
+    {
+      "surface": "go about",
+      "lemma": "go about",
+      "meaning": "動き回る／～して回る"
     },
     {
       "surface": "bilking",
@@ -1554,14 +2067,14 @@
       "meaning": "宿代などを踏み倒す／だます"
     },
     {
+      "surface": "bilking hotel keepers",
+      "lemma": "bilk",
+      "meaning": "宿泊したのに料金を払わず宿の経営者をだますこと。Gilesは証拠ではなく疑いとして言っている。"
+    },
+    {
       "surface": "hotel keepers",
       "lemma": "hotel keeper",
       "meaning": "ホテル経営者／宿屋の主人"
-    },
-    {
-      "surface": "go about",
-      "lemma": "go about",
-      "meaning": "動き回る／～して回る"
     }
   ],
   "act1-scene1-speech-0165": [
@@ -1573,12 +2086,30 @@
     {
       "surface": "peculiar",
       "lemma": "peculiar",
-      "meaning": "妙な、独特な"
+      "meaning": "単に特徴的というより、Miss Casewellを少し変わっていて不可解な人物だと感じている。"
     }
   ],
-  "act1-scene1-speech-0166": [],
-  "act1-scene1-speech-0167": [],
-  "act1-scene1-speech-0168": [],
+  "act1-scene1-speech-0166": [
+    {
+      "surface": "if she is a female",
+      "lemma": "female",
+      "meaning": "Miss Casewellの外見や振る舞いが当時の女性らしさの規範から外れているとして、Gilesが失礼にからかっている。事実として性別を疑っていると断定すべきではない。"
+    }
+  ],
+  "act1-scene1-speech-0167": [
+    {
+      "surface": "odd",
+      "lemma": "odd",
+      "meaning": "ここでは奇数ではなく、人柄や振る舞いが変わっていること。"
+    }
+  ],
+  "act1-scene1-speech-0168": [
+    {
+      "surface": "Probably drinks!",
+      "lemma": "drink",
+      "meaning": "Major Metcalfも何か問題があるはずだ、という流れでGilesが冗談半分に『たぶん酒飲みだ』と根拠なく言っている。"
+    }
+  ],
   "act1-scene1-speech-0169": [],
   "act1-scene1-speech-0170": [
     {
@@ -1595,10 +2126,20 @@
       "surface": "at any rate",
       "lemma": "at any rate",
       "meaning": "とにかく／いずれにせよ"
+    },
+    {
+      "surface": "know the worst",
+      "lemma": "know the worst",
+      "meaning": "客たちの癖や問題点が一通り分かり、これ以上意外なことはないだろうという意味。直後にParaviciniが来るため皮肉な前振りになる。"
     }
   ],
   "act1-scene1-speech-0171": [],
   "act1-scene1-speech-0172": [
+    {
+      "surface": "the Culver Street murderer",
+      "lemma": "Culver Street murderer",
+      "meaning": "本当に犯人だと考えているのではなく、予想外の来客に対するGilesのブラックジョーク。"
+    },
     {
       "surface": "murderer",
       "lemma": "murderer",
@@ -1607,7 +2148,18 @@
   ],
   "act1-scene1-speech-0173": [],
   "act1-scene1-speech-0174": [],
-  "act1-scene1-speech-0175": [],
+  "act1-scene1-speech-0175": [
+    {
+      "surface": "A thousand pardons",
+      "lemma": "a thousand pardons",
+      "meaning": "文字どおり千回謝るのではなく、Paraviciniらしい大げさで芝居がかった『大変失礼』。"
+    },
+    {
+      "surface": "pardons",
+      "lemma": "pardon",
+      "meaning": "許し、謝罪。許す。"
+    }
+  ],
   "act1-scene1-speech-0176": [],
   "act1-scene1-speech-0177": [
     {
@@ -1616,9 +2168,24 @@
       "meaning": "途方もない、ものすごい"
     },
     {
+      "surface": "stupendous good fortune",
+      "lemma": "stupendous",
+      "meaning": "宿を偶然見つけた幸運をParaviciniが芝居がかった大げさな言葉で称えている。"
+    },
+    {
+      "surface": "fortune",
+      "lemma": "fortune",
+      "meaning": "運、幸運。また大きな財産。"
+    },
+    {
       "surface": "answer to prayer",
       "lemma": "answer to prayer",
       "meaning": "願ってもないもの／祈りへの答え"
+    },
+    {
+      "surface": "answer to prayer",
+      "lemma": "answer to a prayer",
+      "meaning": "実際に祈りへの宗教的回答だと断言するのではなく、絶望的な状況で宿を見つけたことを『願ってもない救い』と大げさに表す。"
     },
     {
       "surface": "hostess",
@@ -1643,7 +2210,12 @@
     {
       "surface": "habitation",
       "lemma": "habitation",
-      "meaning": "住居、人の住む場所"
+      "meaning": "普通の『家』より仰々しい語を使い、雪の中で見つけた人の住む建物を芝居がかって表現している。"
+    },
+    {
+      "surface": "I am saved",
+      "lemma": "save",
+      "meaning": "命を救われたという大げさな自己演出で、宿を見つけて凍死を免れたという意味。"
     },
     {
       "surface": "come up",
@@ -1654,6 +2226,11 @@
       "surface": "despair",
       "lemma": "despair",
       "meaning": "絶望"
+    },
+    {
+      "surface": "despair turns to joy",
+      "lemma": "despair",
+      "meaning": "絶望から歓喜へ、という極端な対比で自分の到着を劇的に語っている。"
     }
   ],
   "act1-scene1-speech-0178": [],
@@ -1689,15 +2266,30 @@
     {
       "surface": "of no consequence",
       "lemma": "of no consequence",
-      "meaning": "重要ではない／問題にならない"
+      "meaning": "車に残した荷物は重要ではなく、取りに行く必要はないという意味。"
     }
   ],
   "act1-scene1-speech-0185": [],
   "act1-scene1-speech-0186": [
     {
+      "surface": "no thieves abroad",
+      "lemma": "abroad",
+      "meaning": "海外にいるという意味ではなく、この夜に外をうろついている泥棒はいないだろうという古風な用法。"
+    },
+    {
+      "surface": "thieves",
+      "lemma": "thief",
+      "meaning": "他人の物を盗む人、泥棒。"
+    },
+    {
       "surface": "abroad",
       "lemma": "abroad",
       "meaning": "海外に／海外で"
+    },
+    {
+      "surface": "my wants are very simple",
+      "lemma": "want",
+      "meaning": "『欲しい』という動詞ではなく、自分に必要なもの・要求は少ないという名詞用法。"
     }
   ],
   "act1-scene1-speech-0187": [
@@ -1715,6 +2307,11 @@
       "surface": "rather",
       "lemma": "rather",
       "meaning": "やや／かなり（控えめな程度強調）"
+    },
+    {
+      "surface": "occupied",
+      "lemma": "occupied",
+      "meaning": "ここでは忙しいではなく、他の客がすでに部屋を使用していて空いていないこと。"
     }
   ],
   "act1-scene1-speech-0188": [],
@@ -1726,14 +2323,44 @@
       "meaning": "予期しない"
     },
     {
+      "surface": "unexpected guest",
+      "lemma": "unexpected",
+      "meaning": "予約されていないParavicini自身を、芝居の登場人物のように『予期せぬ客』と演出している。"
+    },
+    {
       "surface": "just",
       "lemma": "just",
       "meaning": "たった今、ちょうど～したところ"
     },
     {
+      "surface": "from nowhere",
+      "lemma": "from nowhere",
+      "meaning": "出身地が文字どおり存在しないのではなく、素性も経路も分からないまま突然現れたという演出。"
+    },
+    {
       "surface": "quite",
       "lemma": "quite",
       "meaning": "かなり、相当に"
+    },
+    {
+      "surface": "dramatic",
+      "lemma": "dramatic",
+      "meaning": "単に劇に関するという意味ではなく、自分の登場がいかにも芝居がかっていて面白い状況だという自己演出。"
+    },
+    {
+      "surface": "man of mystery",
+      "lemma": "man of mystery",
+      "meaning": "自分の素性を明かさず、謎めいた人物としてわざと演じている。"
+    },
+    {
+      "surface": "complete the picture",
+      "lemma": "complete the picture",
+      "meaning": "絵を完成させるのではなく、全員が集まった閉ざされた状況に自分が最後の要素として加わること。"
+    },
+    {
+      "surface": "picture",
+      "lemma": "picture",
+      "meaning": "絵・写真。頭の中で様子を思い描く。"
     },
     {
       "surface": "arrivals",
@@ -1751,6 +2378,11 @@
       "meaning": "～から遮断される"
     },
     {
+      "surface": "cut off from civilization",
+      "lemma": "cut off",
+      "meaning": "大雪で道路・配達・郵便などが止まり、Monkswell Manorが外界から物理的に孤立すること。場面全体の重要な転換点。"
+    },
+    {
       "surface": "civilization",
       "lemma": "civilization",
       "meaning": "文明社会"
@@ -1758,17 +2390,17 @@
     {
       "surface": "admirable",
       "lemma": "admirable",
-      "meaning": "立派な／感心すべき"
-    },
-    {
-      "surface": "admirable",
-      "lemma": "admirable",
-      "meaning": "立派な／感心すべき"
+      "meaning": "普通なら困る孤立状態をParaviciniが『実に結構だ』と喜んでおり、その倒錯した満足が不穏さを生む。"
     },
     {
       "surface": "could not suit me better",
       "lemma": "could not suit me better",
       "meaning": "これ以上ないほど私に都合がよい"
+    },
+    {
+      "surface": "suit me better",
+      "lemma": "suit",
+      "meaning": "服が似合うのではなく、この孤立した状況が自分にとって非常に都合がよいという意味。"
     },
     {
       "surface": "by the way",
@@ -1800,6 +2432,11 @@
       "meaning": "スクランブルエッグ"
     },
     {
+      "surface": "homemade",
+      "lemma": "homemade",
+      "meaning": "店や工場ではなく家庭で作られた。"
+    },
+    {
       "surface": "marmalade",
       "lemma": "marmalade",
       "meaning": "マーマレード"
@@ -1810,6 +2447,11 @@
       "surface": "Amateurs",
       "lemma": "amateur",
       "meaning": "素人"
+    },
+    {
+      "surface": "proper",
+      "lemma": "proper",
+      "meaning": "目的・状況に適した、正しい・きちんとした。"
     },
     {
       "surface": "staff",
@@ -1863,17 +2505,17 @@
       "meaning": "必要十分な、まずまずの"
     },
     {
-      "surface": "quite",
-      "lemma": "quite",
-      "meaning": "かなり、相当に"
-    },
-    {
       "surface": "peculiar",
       "lemma": "peculiar",
       "meaning": "妙な、独特な"
     }
   ],
   "act1-scene2-speech-0010": [
+    {
+      "surface": "ahead",
+      "lemma": "ahead",
+      "meaning": "前方へ・前方に。また、時間・順序・進行などで先に。"
+    },
     {
       "surface": "First come, first served",
       "lemma": "first come, first served",
@@ -1892,6 +2534,11 @@
       "meaning": "印象"
     },
     {
+      "surface": "comfortable",
+      "lemma": "comfortable",
+      "meaning": "身体的・心理的に快適で、苦痛や不便が少ない。"
+    },
+    {
       "surface": "altogether",
       "lemma": "altogether",
       "meaning": "全体として／まったく"
@@ -1907,7 +2554,13 @@
       "meaning": "快適設備、便益"
     }
   ],
-  "act1-scene2-speech-0012": [],
+  "act1-scene2-speech-0012": [
+    {
+      "surface": "old tabbies' delight",
+      "lemma": "old tabbies' delight",
+      "meaning": "Major MetcalfがMrs. Boyleの期待する、年配の女性客が喜びそうな保守的で快適な宿をからかって表現している。Mrs. Boyle自身への軽い皮肉。"
+    }
+  ],
   "act1-scene2-speech-0013": [
     {
       "surface": "I beg your pardon",
@@ -1924,6 +2577,11 @@
   ],
   "act1-scene2-speech-0015": [
     {
+      "surface": "indeed",
+      "lemma": "indeed",
+      "meaning": "実に、本当に。返答で確認・強調を表す。"
+    },
+    {
       "surface": "shan't",
       "lemma": "shan’t",
       "meaning": "～しないつもりだ／～しない"
@@ -1939,7 +2597,12 @@
     {
       "surface": "Unbalanced",
       "lemma": "unbalanced",
-      "meaning": "精神的に不安定な、という古い評価語"
+      "meaning": "Mrs. BoyleがChristopherを「精神的に不安定なのでは」と決めつけている侮蔑的な評価。医学的な診断を述べているわけではない。"
+    },
+    {
+      "surface": "mentally",
+      "lemma": "mentally",
+      "meaning": "心・精神・思考に関して。"
     },
     {
       "surface": "I shouldn't wonder",
@@ -1949,9 +2612,14 @@
   ],
   "act1-scene2-speech-0018": [
     {
+      "surface": "escaped from a lunatic asylum",
+      "lemma": "escape from a lunatic asylum",
+      "meaning": "Mrs. Boyleの「Christopherは精神的におかしい」という決めつけをMajor Metcalfが冗談めかして誇張している。事実を示す発言ではない。"
+    },
+    {
       "surface": "lunatic",
       "lemma": "lunatic",
-      "meaning": "狂人という古い侮蔑的呼称"
+      "meaning": "Major MetcalfがMrs. Boyleの疑いに合わせて「精神病院から逃げてきたと思うのか」と皮肉っぽく返している。Christopherについての事実ではない。"
     }
   ],
   "act1-scene2-speech-0019": [],
@@ -1959,7 +2627,13 @@
   "act1-scene2-speech-0021": [],
   "act1-scene2-speech-0022": [],
   "act1-scene2-speech-0023": [],
-  "act1-scene2-speech-0024": [],
+  "act1-scene2-speech-0024": [
+    {
+      "surface": "exercise",
+      "lemma": "exercise",
+      "meaning": "健康や能力の維持・向上のために身体や技能を使う活動。また、そのような活動を行う。"
+    }
+  ],
   "act1-scene2-speech-0025": [],
   "act1-scene2-speech-0026": [],
   "act1-scene2-speech-0027": [
@@ -1967,6 +2641,16 @@
       "surface": "incredible",
       "lemma": "incredible",
       "meaning": "信じられないほどの"
+    },
+    {
+      "surface": "housework",
+      "lemma": "housework",
+      "meaning": "掃除、洗濯、料理など家庭を維持するための日常的な仕事。"
+    },
+    {
+      "surface": "carpet sweeper",
+      "lemma": "carpet sweeper",
+      "meaning": "電動掃除機ではなく、ブラシとローラーでカーペット上のごみを集める手押し式の掃除用具。時代背景の理解に重要。"
     },
     {
       "surface": "sweeper",
@@ -1983,6 +2667,11 @@
   ],
   "act1-scene2-speech-0029": [],
   "act1-scene2-speech-0030": [
+    {
+      "surface": "gather",
+      "lemma": "gather",
+      "meaning": "物や人を集める。また、情報から推測して理解する。"
+    },
     {
       "surface": "hostess",
       "lemma": "hostess",
@@ -2001,6 +2690,11 @@
       "meaning": "素人っぽい、未熟な"
     },
     {
+      "surface": "proper",
+      "lemma": "proper",
+      "meaning": "目的・状況に適した、正しい・きちんとした。"
+    },
+    {
       "surface": "staff",
       "lemma": "staff",
       "meaning": "職員、従業員"
@@ -2013,20 +2707,67 @@
       "meaning": "今日では"
     }
   ],
-  "act1-scene2-speech-0033": [],
+  "act1-scene2-speech-0033": [
+    {
+      "surface": "indeed",
+      "lemma": "indeed",
+      "meaning": "実に、本当に。返答で確認・強調を表す。"
+    },
+    {
+      "surface": "lower classes",
+      "lemma": "lower classes",
+      "meaning": "Mrs. Boyleが使用人層・労働者階級を見下した調子でまとめて呼ぶ、当時の階級意識を反映した表現。"
+    },
+    {
+      "surface": "responsibilities",
+      "lemma": "responsibility",
+      "meaning": "行うべき義務、または結果について引き受ける責任。"
+    }
+  ],
   "act1-scene2-speech-0034": [
+    {
+      "surface": "lower classes",
+      "lemma": "lower classes",
+      "meaning": "CasewellがMrs. Boyleの階級的な言い方をそのまま受けて、皮肉を込めて繰り返している。"
+    },
     {
       "surface": "Got the bit between their teeth",
       "lemma": "get the bit between one’s teeth",
       "meaning": "やる気になって突っ走る"
+    },
+    {
+      "surface": "Got the bit between their teeth",
+      "lemma": "get the bit between one's teeth",
+      "meaning": "ここでは「下の階級の人々が自分たちの意思で動くようになり、雇う側が思い通りに扱えなくなった」という比喩。CasewellはMrs. Boyleの階級意識をからかっている。"
     }
   ],
-  "act1-scene2-speech-0035": [],
+  "act1-scene2-speech-0035": [
+    {
+      "surface": "gather",
+      "lemma": "gather",
+      "meaning": "物や人を集める。また、情報から推測して理解する。"
+    },
+    {
+      "surface": "Socialist",
+      "lemma": "socialist",
+      "meaning": "社会主義を支持する人。また、社会主義に関する。"
+    }
+  ],
   "act1-scene2-speech-0036": [
+    {
+      "surface": "not a Red ― just pale pink",
+      "lemma": "not a Red, just pale pink",
+      "meaning": "政治色を色でたとえた冗談。「共産主義者というほどではなく、せいぜい少し左寄り」という自己説明。"
+    },
     {
       "surface": "just",
       "lemma": "just",
       "meaning": "ちょうど／ただ／ほんの（範囲を限定）"
+    },
+    {
+      "surface": "politics",
+      "lemma": "politics",
+      "meaning": "政府、権力、公共政策、政党などに関わる政治活動・政治問題。"
     },
     {
       "surface": "abroad",
@@ -2041,7 +2782,13 @@
       "meaning": "海外に／海外で"
     }
   ],
-  "act1-scene2-speech-0038": [],
+  "act1-scene2-speech-0038": [
+    {
+      "surface": "gather",
+      "lemma": "gather",
+      "meaning": "物や人を集める。また、情報から推測して理解する。"
+    }
+  ],
   "act1-scene2-speech-0039": [
     {
       "surface": "gone sadly downhill",
@@ -2055,7 +2802,7 @@
     {
       "surface": "business",
       "lemma": "business",
-      "meaning": "片づける用事"
+      "meaning": "Casewellが英国で片づける必要のある個人的な用事・案件を指す。何の用事なのかはこの時点では明かしていない。"
     },
     {
       "surface": "see to",
@@ -2076,7 +2823,7 @@
     {
       "surface": "Would you mind",
       "lemma": "would you mind",
-      "meaning": "～していただけますか／～は気になりますか"
+      "meaning": "形式上は丁寧な依頼だが、Mrs. Boyleがラジオの音を下げるようCasewellに求める苦情・要求。"
     },
     {
       "surface": "quite",
@@ -2087,6 +2834,11 @@
       "surface": "rather",
       "lemma": "rather",
       "meaning": "やや／かなり（控えめな程度強調）"
+    },
+    {
+      "surface": "distracting",
+      "lemma": "distract",
+      "meaning": "人の注意を別のものへそらし、集中を妨げる。"
     }
   ],
   "act1-scene2-speech-0048": [],
@@ -2126,6 +2878,11 @@
       "meaning": "どこであれ"
     },
     {
+      "surface": "hunt me down",
+      "lemma": "hunt someone down",
+      "meaning": "Mrs. BoyleがChristopherを本当に追跡しているのではなく、「どこへ行っても現れて自分をにらむ」と大げさに不満を言っている。"
+    },
+    {
       "surface": "positively",
       "lemma": "positively",
       "meaning": "実に／はっきりと"
@@ -2139,13 +2896,29 @@
     }
   ],
   "act1-scene2-speech-0057": [],
-  "act1-scene2-speech-0058": [],
+  "act1-scene2-speech-0058": [
+    {
+      "surface": "served its purpose",
+      "lemma": "serve its purpose",
+      "meaning": "ラジオを大きくしてMrs. Boyleを別室へ行かせ、Casewellが暖かい椅子を取るという作戦が目的を果たした、という意味。"
+    },
+    {
+      "surface": "purpose",
+      "lemma": "purpose",
+      "meaning": "何かを行う理由、達成しようとする目的。"
+    }
+  ],
   "act1-scene2-speech-0059": [],
   "act1-scene2-speech-0060": [
     {
       "surface": "Tactics",
       "lemma": "tactics",
       "meaning": "戦術、やり方"
+    },
+    {
+      "surface": "Tactics",
+      "lemma": "tactic",
+      "meaning": "ラジオを利用してMrs. Boyleを暖かい椅子から追い出し、自分が座るための『作戦』という意味。"
     }
   ],
   "act1-scene2-speech-0061": [],
@@ -2153,22 +2926,72 @@
     {
       "surface": "pinched",
       "lemma": "pinch",
-      "meaning": "盗む"
+      "meaning": "ここでは椅子を本当に盗んだのではなく、Mrs. Boyleが「一番いい椅子を先に取っていた」という口語的な意味。"
     }
   ],
-  "act1-scene2-speech-0063": [],
-  "act1-scene2-speech-0064": [],
-  "act1-scene2-speech-0065": [],
-  "act1-scene2-speech-0066": [],
+  "act1-scene2-speech-0063": [
+    {
+      "surface": "glad",
+      "lemma": "glad",
+      "meaning": "うれしい、喜んでいる、安心している。"
+    },
+    {
+      "surface": "annoy",
+      "lemma": "annoy",
+      "meaning": "人をいら立たせる、うんざりさせる。"
+    }
+  ],
+  "act1-scene2-speech-0064": [
+    {
+      "surface": "Not a hope",
+      "lemma": "not a hope",
+      "meaning": "雪がひどいため、Mrs. Boyleが今すぐ宿を出ていける可能性は「まったくない」という口語表現。"
+    }
+  ],
+  "act1-scene2-speech-0065": [
+    {
+      "surface": "melts",
+      "lemma": "melt",
+      "meaning": "熱などによって固体が液体になる、溶ける・溶かす。"
+    }
+  ],
+  "act1-scene2-speech-0066": [
+    {
+      "surface": "melts",
+      "lemma": "melt",
+      "meaning": "熱などによって固体が液体になる、溶ける・溶かす。"
+    },
+    {
+      "surface": "lots of things may have happened",
+      "lemma": "a lot may happen",
+      "meaning": "雪が解けるまでに状況が大きく変わっているかもしれない、という意図的に不穏で曖昧な言い方。何が起こるかは明言していない。"
+    }
+  ],
   "act1-scene2-speech-0067": [
     {
       "surface": "rather",
       "lemma": "rather",
       "meaning": "やや／かなり（控えめな程度強調）"
+    },
+    {
+      "surface": "peaceful",
+      "lemma": "peaceful",
+      "meaning": "争い・騒音・混乱がなく、穏やかで静かな。"
+    },
+    {
+      "surface": "pure",
+      "lemma": "pure",
+      "meaning": "他の物が混じっていない。また比喩的に、完全にその性質だけを持つ。"
     }
   ],
   "act1-scene2-speech-0068": [],
-  "act1-scene2-speech-0069": [],
+  "act1-scene2-speech-0069": [
+    {
+      "surface": "fierce",
+      "lemma": "fierce",
+      "meaning": "激しい、強烈な。また、人や態度が荒々しい・強気な。"
+    }
+  ],
   "act1-scene2-speech-0070": [],
   "act1-scene2-speech-0071": [],
   "act1-scene2-speech-0072": [
@@ -2176,6 +2999,26 @@
       "surface": "chilblains",
       "lemma": "chilblain",
       "meaning": "しもやけ"
+    },
+    {
+      "surface": "raw",
+      "lemma": "raw",
+      "meaning": "加熱・加工されていない。また、皮膚などが擦れたり傷んだりして痛む状態の。"
+    },
+    {
+      "surface": "bleeding",
+      "lemma": "bleed",
+      "meaning": "傷などから血が出る、出血する。"
+    },
+    {
+      "surface": "blanket",
+      "lemma": "blanket",
+      "meaning": "寝る時などに体を覆って暖かくする毛布。"
+    },
+    {
+      "surface": "fear",
+      "lemma": "fear",
+      "meaning": "危険や悪い結果を予想して感じる恐れ、不安。また、それを恐れる。"
     }
   ],
   "act1-scene2-speech-0073": [
@@ -2187,7 +3030,13 @@
   ],
   "act1-scene2-speech-0074": [],
   "act1-scene2-speech-0075": [],
-  "act1-scene2-speech-0076": [],
+  "act1-scene2-speech-0076": [
+    {
+      "surface": "disappoint",
+      "lemma": "disappoint",
+      "meaning": "期待どおりにならず、人を失望させる。"
+    }
+  ],
   "act1-scene2-speech-0077": [
     {
       "surface": "just",
@@ -2210,11 +3059,6 @@
       "meaning": "雪で閉じ込められた／交通が遮断された"
     },
     {
-      "surface": "snowed up",
-      "lemma": "snowed up",
-      "meaning": "雪で閉じ込められた／交通が遮断された"
-    },
-    {
       "surface": "impassable",
       "lemma": "impassable",
       "meaning": "通行不能の"
@@ -2222,15 +3066,10 @@
     {
       "surface": "get through",
       "lemma": "get through",
-      "meaning": "電話がつながる"
+      "meaning": "ここでは電話がつながることではなく、大雪で道路を物理的に通り抜けてMonkswell Manorまで来ること。"
     },
     {
       "surface": "Hullo",
-      "lemma": "Hullo",
-      "meaning": "もしもし"
-    },
-    {
-      "surface": "hullo",
       "lemma": "Hullo",
       "meaning": "もしもし"
     }
@@ -2249,6 +3088,11 @@
     }
   ],
   "act1-scene2-speech-0080": [
+    {
+      "surface": "Serving liquor without a licence",
+      "lemma": "serve liquor without a licence",
+      "meaning": "Casewellが突然の警察電話を、宿が無許可で酒を出した程度の問題ではないかと冗談で推測している。実際の容疑を示しているわけではない。"
+    },
     {
       "surface": "liquor",
       "lemma": "liquor",
@@ -2273,9 +3117,19 @@
       "surface": "quite",
       "lemma": "quite",
       "meaning": "かなり、相当に"
+    },
+    {
+      "surface": "confident",
+      "lemma": "confident",
+      "meaning": "自分の能力や判断、または物事の結果について確信している。"
     }
   ],
   "act1-scene2-speech-0084": [
+    {
+      "surface": "Nonsense",
+      "lemma": "nonsense",
+      "meaning": "意味をなさないこと、ばかげたこと・発言。"
+    },
     {
       "surface": "get through",
       "lemma": "get through",
@@ -2289,9 +3143,24 @@
       "meaning": "ちょうど／ただ／ほんの（範囲を限定）"
     },
     {
+      "surface": "impress on my husband",
+      "lemma": "impress something on someone",
+      "meaning": "ここでは夫に良い印象を与える意味ではなく、Sergeant Trotterの話をよく聞く必要性をGilesに強く認識させること。"
+    },
+    {
+      "surface": "instructions",
+      "lemma": "instruction",
+      "meaning": "何をどのように行うべきかを示す指示、命令、説明。"
+    },
+    {
       "surface": "implicitly",
       "lemma": "implicit",
       "meaning": "暗黙の"
+    },
+    {
+      "surface": "implicitly",
+      "lemma": "implicitly",
+      "meaning": "ここでは「暗黙のうちに」ではなく、「Sergeant Trotterの指示に完全に従い、勝手に変えないで」という古めの用法。"
     },
     {
       "surface": "extraordinary",
@@ -2300,7 +3169,13 @@
     }
   ],
   "act1-scene2-speech-0086": [],
-  "act1-scene2-speech-0087": [],
+  "act1-scene2-speech-0087": [
+    {
+      "surface": "those nylons from Gibraltar",
+      "lemma": "nylons from Gibraltar",
+      "meaning": "Mollieが警察電話の理由を不安になって探し、Gibraltarで入手したナイロン製品が何か問題だったのかと推測している。詳細はこの場面では説明されない。"
+    }
+  ],
   "act1-scene2-speech-0088": [
     {
       "surface": "wireless",
@@ -2329,14 +3204,44 @@
       "surface": "entirely",
       "lemma": "entirely",
       "meaning": "完全に、全く"
+    },
+    {
+      "surface": "fellow",
+      "lemma": "fellow",
+      "meaning": "男性・人をくだけた調子で指す語。"
+    },
+    {
+      "surface": "fellow's",
+      "lemma": "fellow",
+      "meaning": "男性・人をくだけた調子で指す語。"
+    },
+    {
+      "surface": "fault",
+      "lemma": "fault",
+      "meaning": "失敗・問題についての責任、または物や人の欠点・不具合。"
     }
   ],
   "act1-scene2-speech-0091": [],
   "act1-scene2-speech-0092": [
     {
+      "surface": "ignored",
+      "lemma": "ignore",
+      "meaning": "意図的に注意を払わない、無視する。"
+    },
+    {
+      "surface": "tinpot regulation",
+      "lemma": "tinpot regulation",
+      "meaning": "Gilesが、宿を経営する上で知らずに破ったかもしれない「くだらない細かな役所の規則」と軽蔑して呼んでいる。"
+    },
+    {
       "surface": "regulation",
       "lemma": "regulation",
       "meaning": "規則、規定"
+    },
+    {
+      "surface": "Ministry",
+      "lemma": "ministry",
+      "meaning": "政府の特定分野を担当する省・官庁。"
     },
     {
       "surface": "practically",
@@ -2363,7 +3268,7 @@
     {
       "surface": "go through",
       "lemma": "go through",
-      "meaning": "備蓄の缶詰を使い切る"
+      "meaning": "ここでは缶詰の備蓄を「経験する」のではなく、雪で閉じ込められている間に使い果たしてしまうこと。"
     },
     {
       "surface": "reserve",
@@ -2393,6 +3298,11 @@
       "meaning": "Agaの火をたく／燃料を足す"
     },
     {
+      "surface": "chop",
+      "lemma": "chop",
+      "meaning": "刃物などで物を切る、特に何度も打ち下ろして切り分ける。"
+    },
+    {
       "surface": "kindling",
       "lemma": "kindling",
       "meaning": "たきつけ"
@@ -2401,6 +3311,11 @@
       "surface": "come to think of it",
       "lemma": "come to think of it",
       "meaning": "そういえば／考えてみれば"
+    },
+    {
+      "surface": "serious",
+      "lemma": "serious",
+      "meaning": "重大で注意を要する。また、冗談ではなく本気の。"
     },
     {
       "surface": "trekking",
@@ -2439,9 +3354,9 @@
       "meaning": "ギニー（旧英国通貨単位、21シリング）"
     },
     {
-      "surface": "guineas",
-      "lemma": "guinea",
-      "meaning": "ギニー（旧英国通貨単位、21シリング）"
+      "surface": "freeze",
+      "lemma": "freeze",
+      "meaning": "非常に冷たくなる、凍る・凍らせる。また、ひどい寒さを感じる。"
     }
   ],
   "act1-scene2-speech-0098": [
@@ -2455,7 +3370,12 @@
     {
       "surface": "extraordinary",
       "lemma": "extraordinary",
-      "meaning": "並外れた、異常な"
+      "meaning": "Mrs. BoyleはChristopherを「並外れて優秀」と褒めているのではなく、服装や態度が非常に変わっていて怪しい、と批判している。"
+    },
+    {
+      "surface": "manners",
+      "lemma": "manner",
+      "meaning": "物事のやり方、態度、振る舞い。複数形 manners では礼儀作法を表すことがある。"
     }
   ],
   "act1-scene2-speech-0100": [
@@ -2481,9 +3401,19 @@
   ],
   "act1-scene2-speech-0103": [
     {
+      "surface": "naturally",
+      "lemma": "naturally",
+      "meaning": "自然に。また、当然のこととして・当然ながら。"
+    },
+    {
       "surface": "architect",
       "lemma": "architect",
       "meaning": "建築家"
+    },
+    {
+      "surface": "educated",
+      "lemma": "educated",
+      "meaning": "教育を受け、知識や教養を身につけている。"
     }
   ],
   "act1-scene2-speech-0104": [
@@ -2499,6 +3429,11 @@
     }
   ],
   "act1-scene2-speech-0105": [
+    {
+      "surface": "fishy story",
+      "lemma": "fishy story",
+      "meaning": "Mrs. BoyleがChristopherの名前と職業の説明を「どうも怪しい、信用しにくい話だ」と疑っている。魚に関する意味ではない。"
+    },
     {
       "surface": "enquiries",
       "lemma": "enquiry",
@@ -2517,9 +3452,19 @@
       "meaning": "ギニー（旧英国通貨単位、21シリング）"
     },
     {
+      "surface": "concerns",
+      "lemma": "concern",
+      "meaning": "心配、関心。事業・会社を指すこともある。"
+    },
+    {
       "surface": "It doesn't matter",
       "lemma": "it doesn’t matter",
       "meaning": "問題ではない／構わない"
+    },
+    {
+      "surface": "whether",
+      "lemma": "whether",
+      "meaning": "二つ以上の可能性のどちらであるか、または～かどうかを示す。"
     }
   ],
   "act1-scene2-speech-0107": [
@@ -2527,6 +3472,11 @@
       "surface": "inexperienced",
       "lemma": "inexperienced",
       "meaning": "経験の浅い"
+    },
+    {
+      "surface": "advice",
+      "lemma": "advice",
+      "meaning": "どうするのがよいかについて人に与える助言、忠告。"
     },
     {
       "surface": "knowledgeable",
@@ -2543,6 +3493,11 @@
   "act1-scene2-speech-0109": [],
   "act1-scene2-speech-0110": [
     {
+      "surface": "turn away",
+      "lemma": "turn away",
+      "meaning": "宿泊を求める正当な旅行者を、宿側が受け入れず追い返すこと。"
+    },
+    {
       "surface": "bona fide traveller",
       "lemma": "bona fide traveller",
       "meaning": "正真正銘の旅行者"
@@ -2551,11 +3506,6 @@
       "surface": "against the law",
       "lemma": "against the law",
       "meaning": "法律に反して"
-    },
-    {
-      "surface": "turn away",
-      "lemma": "turn away",
-      "meaning": "追い返す／入場を断る"
     }
   ],
   "act1-scene2-speech-0111": [],
@@ -2564,6 +3514,11 @@
       "surface": "magistrate",
       "lemma": "magistrate",
       "meaning": "治安判事、下級裁判所の裁判官"
+    },
+    {
+      "surface": "sitting on the Bench",
+      "lemma": "sit on the Bench",
+      "meaning": "ここではベンチに座ることではなく、Mrs. Boyleが治安判事として法廷で職務をしていたこと。"
     }
   ],
   "act1-scene2-speech-0113": [
@@ -2573,7 +3528,13 @@
       "meaning": "何であれ／どんな～でも"
     }
   ],
-  "act1-scene2-speech-0114": [],
+  "act1-scene2-speech-0114": [
+    {
+      "surface": "talk of the devil",
+      "lemma": "talk of the devil",
+      "meaning": "噂をしていた本人Paraviciniがちょうど現れたことを指す慣用表現。Paraviciniは自分を「devil」に重ねて芝居がかって言っている。"
+    }
+  ],
   "act1-scene2-speech-0115": [
     {
       "surface": "come in",
@@ -2591,9 +3552,20 @@
       "surface": "on tiptoe",
       "lemma": "on tiptoe",
       "meaning": "つま先立ちで／足音を忍ばせて"
+    },
+    {
+      "surface": "amusing",
+      "lemma": "amusing",
+      "meaning": "面白く、笑いや楽しさを感じさせる。"
     }
   ],
-  "act1-scene2-speech-0117": [],
+  "act1-scene2-speech-0117": [
+    {
+      "surface": "Indeed",
+      "lemma": "indeed",
+      "meaning": "実に、本当に。返答で確認・強調を表す。"
+    }
+  ],
   "act1-scene2-speech-0118": [],
   "act1-scene2-speech-0119": [
     {
@@ -2604,9 +3576,19 @@
   ],
   "act1-scene2-speech-0120": [
     {
+      "surface": "charming",
+      "lemma": "charming",
+      "meaning": "人を引きつける魅力があり、感じがよい。"
+    },
+    {
       "surface": "hostess",
       "lemma": "hostess",
       "meaning": "女性の主人役／もてなす女性"
+    },
+    {
+      "surface": "upset",
+      "lemma": "upset",
+      "meaning": "心を乱され、動揺・不安・不快を感じている。また、人をその状態にする。"
     }
   ],
   "act1-scene2-speech-0121": [
@@ -2614,9 +3596,20 @@
       "surface": "rather",
       "lemma": "rather",
       "meaning": "やや／かなり（控えめな程度強調）"
+    },
+    {
+      "surface": "difficult",
+      "lemma": "difficult",
+      "meaning": "行う・理解する・扱うことが容易でない。"
     }
   ],
-  "act1-scene2-speech-0122": [],
+  "act1-scene2-speech-0122": [
+    {
+      "surface": "makes them easy",
+      "lemma": "make things easy",
+      "meaning": "雪が「物事を簡単にする」とParaviciniが意味深に言う。何が容易になるのかをわざと説明せず、不穏さを作っている。"
+    }
+  ],
   "act1-scene2-speech-0123": [],
   "act1-scene2-speech-0124": [
     {
@@ -2639,13 +3632,24 @@
   ],
   "act1-scene2-speech-0126": [],
   "act1-scene2-speech-0127": [],
-  "act1-scene2-speech-0128": [],
-  "act1-scene2-speech-0129": [
+  "act1-scene2-speech-0128": [
     {
-      "surface": "just",
-      "lemma": "just",
-      "meaning": "たった今、ちょうど～したところ"
+      "surface": "warning",
+      "lemma": "warning",
+      "meaning": "危険や問題が起こる可能性を知らせ、注意を促す言葉・合図。"
     },
+    {
+      "surface": "trusting",
+      "lemma": "trusting",
+      "meaning": "人を疑わず信じやすい。"
+    },
+    {
+      "surface": "references",
+      "lemma": "reference",
+      "meaning": "ここでは一般的な「参照」ではなく、宿泊客の身元・信用を確認するための紹介状や信用照会のこと。"
+    }
+  ],
+  "act1-scene2-speech-0129": [
     {
       "surface": "just",
       "lemma": "just",
@@ -2659,9 +3663,19 @@
       "meaning": "望ましい、賢明な"
     },
     {
+      "surface": "sleep under your roof",
+      "lemma": "under someone’s roof",
+      "meaning": "同じ屋根の下で眠る、つまり自分の宿・家に泊めている人々を指す。"
+    },
+    {
       "surface": "turn up",
       "lemma": "turn up",
       "meaning": "現れる／到着する"
+    },
+    {
+      "surface": "overturned",
+      "lemma": "overturn",
+      "meaning": "ひっくり返る・ひっくり返す。また、決定などを覆す。"
     },
     {
       "surface": "snowdrift",
@@ -2669,14 +3683,29 @@
       "meaning": "雪の吹きだまり"
     },
     {
+      "surface": "thief",
+      "lemma": "thief",
+      "meaning": "他人の物を盗む人、泥棒。"
+    },
+    {
+      "surface": "robber",
+      "lemma": "robber",
+      "meaning": "人や場所から力・脅しなどを用いて物を奪う者、強盗。"
+    },
+    {
       "surface": "fugitive",
       "lemma": "fugitive",
       "meaning": "逃亡者"
     },
     {
+      "surface": "fugitive from justice",
+      "lemma": "fugitive from justice",
+      "meaning": "法の追及から逃げている逃亡者。Paraviciniは自分もそうかもしれないと仮定してMollieを不安にさせているだけで、告白ではない。"
+    },
+    {
       "surface": "murderer",
       "lemma": "murderer",
-      "meaning": "殺人犯"
+      "meaning": "Paraviciniが自分にもあり得る身元としてわざと挙げる『殺人犯』。自分が殺人犯だと認めた発言ではない。"
     }
   ],
   "act1-scene2-speech-0131": [],
@@ -2687,17 +3716,39 @@
       "meaning": "まさに～のように／ちょうど～と同じく"
     }
   ],
-  "act1-scene2-speech-0133": [],
+  "act1-scene2-speech-0133": [
+    {
+      "surface": "as far as Mrs. Boyle goes",
+      "lemma": "as far as someone goes",
+      "meaning": "Mrs. Boyleについて言えば・Mrs. Boyleに関する限り、という話題の範囲を限定する表現。"
+    }
+  ],
   "act1-scene2-speech-0134": [],
   "act1-scene2-speech-0135": [],
   "act1-scene2-speech-0136": [
     {
+      "surface": "pipes",
+      "lemma": "pipe",
+      "meaning": "水・ガスなどを通す管、パイプ。"
+    },
+    {
       "surface": "cloakroom",
       "lemma": "cloakroom",
       "meaning": "クローク／手荷物・上着を預ける場所"
+    },
+    {
+      "surface": "frozen",
+      "lemma": "frozen",
+      "meaning": "凍った、凍結した、非常に冷たい。"
     }
   ],
-  "act1-scene2-speech-0137": [],
+  "act1-scene2-speech-0137": [
+    {
+      "surface": "pipes",
+      "lemma": "pipe",
+      "meaning": "水・ガスなどを通す管、パイプ。"
+    }
+  ],
   "act1-scene2-speech-0138": [],
   "act1-scene2-speech-0139": [],
   "act1-scene2-speech-0140": [
@@ -2710,13 +3761,18 @@
       "surface": "Just",
       "lemma": "just",
       "meaning": "ちょうど／ただ／ほんの（範囲を限定）"
+    },
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。"
     }
   ],
   "act1-scene2-speech-0141": [
     {
       "surface": "ruddy",
       "lemma": "ruddy",
-      "meaning": "いまいましい／ひどい（婉曲強調）"
+      "meaning": "Gilesが質の悪いコークスへの苛立ちを込めて使う、比較的弱い罵り・強調語。「赤い」という意味ではない。"
     },
     {
       "surface": "coke",
@@ -2750,24 +3806,61 @@
     {
       "surface": "banked up",
       "lemma": "bank up",
-      "meaning": "火を長持ちさせるよう燃料を積む／雪などが堆積する"
+      "meaning": "ここでは暖炉の燃料を積む意味ではなく、雪が道路脇・道路上に高く吹きだまって通行を妨げていること。"
     }
   ],
   "act1-scene2-speech-0144": [],
   "act1-scene2-speech-0145": [],
-  "act1-scene2-speech-0146": [],
+  "act1-scene2-speech-0146": [
+    {
+      "surface": "Detective",
+      "lemma": "detective",
+      "meaning": "犯罪を捜査する刑事・探偵。捜査の。"
+    },
+    {
+      "surface": "Sergeant",
+      "lemma": "sergeant",
+      "meaning": "警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。"
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "雪上を滑走するための細長い板。またスキーで滑る。"
+    }
+  ],
   "act1-scene2-speech-0147": [],
   "act1-scene2-speech-0148": [],
   "act1-scene2-speech-0149": [
     {
+      "surface": "police force",
+      "lemma": "police force",
+      "meaning": "警察組織、警察官全体。"
+    },
+    {
       "surface": "nowadays",
       "lemma": "nowadays",
       "meaning": "今日では"
+    },
+    {
+      "surface": "enjoying themselves at winter sports",
+      "lemma": "enjoy oneself at winter sports",
+      "meaning": "Mrs. Boyleが、警官がスキーで来たことを「税金で冬のスポーツを楽しんでいる」と皮肉っている。Trotterは遊びに来たのではない。"
     }
   ],
   "act1-scene2-speech-0150": [],
   "act1-scene2-speech-0151": [],
-  "act1-scene2-speech-0152": [],
+  "act1-scene2-speech-0152": [
+    {
+      "surface": "terribly",
+      "lemma": "terribly",
+      "meaning": "ひどく、非常に。程度を強く表す。"
+    },
+    {
+      "surface": "hearty",
+      "lemma": "hearty",
+      "meaning": "Christopherが、雪まみれで元気そうなTrotterを「いかにも健康的で快活そう」と少しからかう調子で評している。"
+    }
+  ],
   "act1-scene2-speech-0153": [
     {
       "surface": "policeman",
@@ -2775,14 +3868,20 @@
       "meaning": "警察官"
     },
     {
-      "surface": "policeman",
-      "lemma": "policeman",
-      "meaning": "警察官"
+      "surface": "A policeman ― skiing!",
+      "lemma": "a policeman skiing",
+      "meaning": "Mrs. Boyleが、警察官がスキーで現れたことを非常識・滑稽だと感じて驚いている。"
     }
   ],
   "act1-scene2-speech-0154": [],
   "act1-scene2-speech-0155": [],
-  "act1-scene2-speech-0156": [],
+  "act1-scene2-speech-0156": [
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。"
+    }
+  ],
   "act1-scene2-speech-0157": [
     {
       "surface": "quite",
@@ -2790,7 +3889,18 @@
       "meaning": "完全には～でない／今ひとつ～でない"
     }
   ],
-  "act1-scene2-speech-0158": [],
+  "act1-scene2-speech-0158": [
+    {
+      "surface": "terribly",
+      "lemma": "terribly",
+      "meaning": "ひどく、非常に。程度を強く表す。"
+    },
+    {
+      "surface": "hearty",
+      "lemma": "hearty",
+      "meaning": "Christopherが先ほどと同じくTrotterの健康的で活動的な印象をからかい気味に繰り返している。"
+    }
+  ],
   "act1-scene2-speech-0159": [],
   "act1-scene2-speech-0160": [],
   "act1-scene2-speech-0161": [],
@@ -2804,11 +3914,6 @@
       "surface": "policemen",
       "lemma": "policeman",
       "meaning": "警察官"
-    },
-    {
-      "surface": "attractive",
-      "lemma": "attractive",
-      "meaning": "魅力的な"
     }
   ],
   "act1-scene2-speech-0163": [],
@@ -2819,9 +3924,9 @@
       "meaning": "もしもし"
     },
     {
-      "surface": "Hullo",
-      "lemma": "Hullo",
-      "meaning": "もしもし"
+      "surface": "telephone is dead",
+      "lemma": "dead telephone",
+      "meaning": "電話機が壊れたというより、回線が切れて外部へ電話できない状態。"
     },
     {
       "surface": "quite",
@@ -2830,7 +3935,13 @@
     }
   ],
   "act1-scene2-speech-0165": [],
-  "act1-scene2-speech-0166": [],
+  "act1-scene2-speech-0166": [
+    {
+      "surface": "line",
+      "lemma": "telephone line",
+      "meaning": "電話通信を伝える回線。"
+    }
+  ],
   "act1-scene2-speech-0167": [
     {
       "surface": "quite",
@@ -2838,23 +3949,50 @@
       "meaning": "かなり、相当に"
     },
     {
-      "surface": "Quite",
-      "lemma": "quite",
-      "meaning": "かなり、相当に"
+      "surface": "cut off",
+      "lemma": "cut off",
+      "meaning": "雪で道路が遮断され、さらに電話も使えなくなり、外部との移動・通信の両方が断たれた状態。"
     }
   ],
   "act1-scene2-speech-0168": [],
-  "act1-scene2-speech-0169": [],
-  "act1-scene2-speech-0170": [],
+  "act1-scene2-speech-0169": [
+    {
+      "surface": "indeed",
+      "lemma": "indeed",
+      "meaning": "実に、本当に。返答で確認・強調を表す。"
+    }
+  ],
+  "act1-scene2-speech-0170": [
+    {
+      "surface": "private",
+      "lemma": "private",
+      "meaning": "公のものではなく個人的な、他人に公開しない。"
+    },
+    {
+      "surface": "sleuth",
+      "lemma": "sleuth",
+      "meaning": "Trotterを探偵役のように芝居がかって呼ぶ、Christopherの冗談めいた表現。"
+    }
+  ],
   "act1-scene2-speech-0171": [
+    {
+      "surface": "get to business",
+      "lemma": "get to business",
+      "meaning": "雑談や到着の処理を終えて、警察官として来た本来の用件の説明を始めること。"
+    },
     {
       "surface": "business",
       "lemma": "business",
-      "meaning": "本題、用件"
+      "meaning": "商売ではなく、TrotterがMonkswell Manorへ来た警察上の本題・正式な用件。"
     }
   ],
   "act1-scene2-speech-0172": [],
   "act1-scene2-speech-0173": [
+    {
+      "surface": "necessary",
+      "lemma": "necessary",
+      "meaning": "目的の達成や状況への対応のために必要である。"
+    },
     {
       "surface": "present",
       "lemma": "present",
@@ -2869,7 +4007,13 @@
     }
   ],
   "act1-scene2-speech-0175": [],
-  "act1-scene2-speech-0176": [],
+  "act1-scene2-speech-0176": [
+    {
+      "surface": "hurry",
+      "lemma": "hurry",
+      "meaning": "急ぐ、急いで行う。また、急いでいる状態。"
+    }
+  ],
   "act1-scene2-speech-0177": [
     {
       "surface": "quite",
@@ -2877,19 +4021,29 @@
       "meaning": "まったく、完全に"
     },
     {
+      "surface": "matter",
+      "lemma": "matter",
+      "meaning": "問題、事柄、案件。"
+    },
+    {
       "surface": "protection",
       "lemma": "protection",
-      "meaning": "保護"
+      "meaning": "犯罪の処罰ではなく、誰かが危険にさらされる可能性があるため警察が守る必要がある、という意味。この時点では誰を何から守るのかはまだ説明されていない。"
     }
   ],
   "act1-scene2-speech-0178": [
     {
       "surface": "protection",
       "lemma": "protection",
-      "meaning": "保護"
+      "meaning": "Mollieが「警察の保護？」と驚いて聞き返している。具体的な危険の内容はまだ知らされていない。"
     }
   ],
   "act1-scene2-speech-0179": [
+    {
+      "surface": "relates",
+      "lemma": "relate",
+      "meaning": "～に関係する、関連がある。また、出来事を語る。"
+    },
     {
       "surface": "murdered",
       "lemma": "murder",
@@ -2928,9 +4082,29 @@
   "act1-scene2-speech-0182": [],
   "act1-scene2-speech-0183": [
     {
+      "surface": "police record",
+      "lemma": "police record",
+      "meaning": "ここでは一般的な記録ではなく、警察が保有する過去の犯罪・捜査上の記録を指す。"
+    },
+    {
       "surface": "fingerprints",
       "lemma": "fingerprint",
       "meaning": "指紋"
+    },
+    {
+      "surface": "fingerprints were on file",
+      "lemma": "on file",
+      "meaning": "指紋が警察の記録として登録・保管されていたため、別名を使っていた女性の身元を確認できたという意味。"
+    },
+    {
+      "surface": "difficulty",
+      "lemma": "difficulty",
+      "meaning": "困難、難しさ、問題。"
+    },
+    {
+      "surface": "resided",
+      "lemma": "reside",
+      "meaning": "ある場所に居住する、住む。"
     }
   ],
   "act1-scene2-speech-0184": [],
@@ -2949,6 +4123,11 @@
       "meaning": "裁判所"
     },
     {
+      "surface": "in need of care and protection",
+      "lemma": "in need of care and protection",
+      "meaning": "子どもを保護対象として扱う当時の法的・福祉的な表現で、単に「世話が必要」という日常表現ではない。"
+    },
+    {
       "surface": "protection",
       "lemma": "protection",
       "meaning": "保護"
@@ -2961,12 +4140,17 @@
     {
       "surface": "criminal neglect",
       "lemma": "criminal neglect",
-      "meaning": "犯罪となるほどの養育放棄・怠慢"
+      "meaning": "子どもの死亡につながった、刑事責任を問われるほど重大な養育放棄・怠慢。"
     },
     {
       "surface": "persistent ill-treatment",
       "lemma": "persistent ill-treatment",
-      "meaning": "継続的な虐待"
+      "meaning": "一度きりではなく、継続して子どもをひどく扱っていたこと。"
+    },
+    {
+      "surface": "treatment",
+      "lemma": "treatment",
+      "meaning": "人や物を扱う方法・扱い。また、医療上の治療。"
     },
     {
       "surface": "Case",
@@ -2979,8 +4163,19 @@
       "meaning": "大評判／強い感覚"
     }
   ],
-  "act1-scene2-speech-0188": [],
+  "act1-scene2-speech-0188": [
+    {
+      "surface": "horrible",
+      "lemma": "horrible",
+      "meaning": "とても不快な、恐ろしい、ひどい。"
+    }
+  ],
   "act1-scene2-speech-0189": [
+    {
+      "surface": "sentence",
+      "lemma": "sentence",
+      "meaning": "刑期、刑罰"
+    },
     {
       "surface": "sentenced",
       "lemma": "sentence",
@@ -2997,9 +4192,9 @@
       "meaning": "投獄、禁錮"
     },
     {
-      "surface": "sentence",
-      "lemma": "sentence",
-      "meaning": "刑期、刑罰"
+      "surface": "served her sentence",
+      "lemma": "serve a sentence",
+      "meaning": "Mrs. Stanningが裁判で科された刑期を服したこと。"
     },
     {
       "surface": "duly",
@@ -3028,11 +4223,6 @@
       "surface": "picked up",
       "lemma": "pick up",
       "meaning": "拾う／手に取る"
-    },
-    {
-      "surface": "notebook",
-      "lemma": "notebook",
-      "meaning": "手帳、ノート"
     }
   ],
   "act1-scene2-speech-0192": [],
@@ -3041,6 +4231,11 @@
       "surface": "Superintendent",
       "lemma": "superintendent",
       "meaning": "警視級の警察幹部／管理責任者"
+    },
+    {
+      "surface": "Yard",
+      "lemma": "yard",
+      "meaning": "庭・囲まれた屋外の場所。また、長さの単位ヤード。"
     },
     {
       "surface": "imperative",
@@ -3058,12 +4253,22 @@
       "meaning": "突き止める、知る"
     },
     {
+      "surface": "connection",
+      "lemma": "connection",
+      "meaning": "人・物・出来事どうしのつながり、関係。"
+    },
+    {
       "surface": "case",
       "lemma": "case",
       "meaning": "事件、案件"
     }
   ],
   "act1-scene2-speech-0194": [
+    {
+      "surface": "absolutely",
+      "lemma": "absolutely",
+      "meaning": "完全に、まったく。本当に。"
+    },
     {
       "surface": "coincidence",
       "lemma": "coincidence",
@@ -3087,6 +4292,11 @@
       "meaning": "詳しい情報をすべて聞き取る"
     },
     {
+      "surface": "full particulars",
+      "lemma": "full particulars",
+      "meaning": "館内にいる全員について、捜査に必要な詳しい身元・事情を集めるという警察上の意味。"
+    },
+    {
       "surface": "report back",
       "lemma": "report back",
       "meaning": "報告を返す"
@@ -3097,9 +4307,24 @@
       "meaning": "措置を講じる"
     },
     {
+      "surface": "take what measures I thought fit",
+      "lemma": "take measures",
+      "meaning": "Trotter自身の判断で、館内の人々を守るため必要と考える対策を実施すること。"
+    },
+    {
+      "surface": "measures",
+      "lemma": "measure",
+      "meaning": "目的のために取る措置・対策。また、量や大きさを測る。"
+    },
+    {
       "surface": "ensure the safety of",
       "lemma": "ensure the safety of",
       "meaning": "～の安全を確保する"
+    },
+    {
+      "surface": "household",
+      "lemma": "household",
+      "meaning": "同じ住居で暮らす人々・世帯。また、家庭の。"
     }
   ],
   "act1-scene2-speech-0196": [
@@ -3110,6 +4335,11 @@
     }
   ],
   "act1-scene2-speech-0197": [
+    {
+      "surface": "frighten",
+      "lemma": "frighten",
+      "meaning": "人を怖がらせる。"
+    },
     {
       "surface": "frankly",
       "lemma": "frankly",
@@ -3126,17 +4356,28 @@
   ],
   "act1-scene2-speech-0200": [],
   "act1-scene2-speech-0201": [],
-  "act1-scene2-speech-0202": [],
+  "act1-scene2-speech-0202": [
+    {
+      "surface": "Nonsense",
+      "lemma": "nonsense",
+      "meaning": "意味をなさないこと、ばかげたこと・発言。"
+    }
+  ],
   "act1-scene2-speech-0203": [
     {
       "surface": "far-fetched",
       "lemma": "far-fetched",
-      "meaning": "こじつけめいた／ありそうにない"
+      "meaning": "Casewellが、Monkswell Manorでさらに殺人が起きるという警察の見立てを「かなりありそうにない話」と感じている。"
     }
   ],
   "act1-scene2-speech-0204": [],
   "act1-scene2-speech-0205": [],
   "act1-scene2-speech-0206": [
+    {
+      "surface": "Three Blind Mice",
+      "lemma": "Three Blind Mice",
+      "meaning": "ここでは単なる童謡名ではなく、犯人が残した紙・楽譜に使われた反復的な印で、次の犯行を示唆する脅威のモチーフ。"
+    },
     {
       "surface": "bar of music",
       "lemma": "bar of music",
@@ -3153,7 +4394,13 @@
       "meaning": "童謡／わらべ歌"
     }
   ],
-  "act1-scene2-speech-0207": [],
+  "act1-scene2-speech-0207": [
+    {
+      "surface": "horrible",
+      "lemma": "horrible",
+      "meaning": "とても不快な、恐ろしい、ひどい。"
+    }
+  ],
   "act1-scene2-speech-0208": [],
   "act1-scene2-speech-0209": [],
   "act1-scene2-speech-0210": [],
@@ -3167,6 +4414,11 @@
       "surface": "trace",
       "lemma": "trace",
       "meaning": "所在・経路を追跡する"
+    },
+    {
+      "surface": "trace her present whereabouts",
+      "lemma": "trace someone's whereabouts",
+      "meaning": "養女となったCorrigan家の少女が現在どこにいるのか、警察が追跡して確認すること。"
     },
     {
       "surface": "present",
@@ -3187,6 +4439,16 @@
       "surface": "Deserted",
       "lemma": "desert",
       "meaning": "軍から脱走した"
+    },
+    {
+      "surface": "Deserted from the Army",
+      "lemma": "desert from the army",
+      "meaning": "軍を正式に退役したのではなく、無断で軍務から逃亡したこと。"
+    },
+    {
+      "surface": "since",
+      "lemma": "since",
+      "meaning": "その時以来、それ以降ずっと。"
     },
     {
       "surface": "According to",
@@ -3212,6 +4474,11 @@
       "surface": "queer",
       "lemma": "queer",
       "meaning": "頭がおかしい／変だ、という古い用法"
+    },
+    {
+      "surface": "queer in the head",
+      "lemma": "queer in the head",
+      "meaning": "Trotterが当時のくだけた古い言い方で「精神状態がおかしい」と言い換えている。現在の中立的な医学用語ではなく、侮蔑的・時代的な表現。"
     }
   ],
   "act1-scene2-speech-0212": [],
@@ -3220,7 +4487,7 @@
     {
       "surface": "homicidal maniac",
       "lemma": "homicidal maniac",
-      "meaning": "殺人衝動のある狂人／殺人犯として描写された人物"
+      "meaning": "Mollieが警察の推測を受けて「殺人をしかねない危険人物」という意味で恐怖を込めて言っている古い表現。臨床診断名として扱わない。"
     },
     {
       "surface": "turn up",
@@ -3245,6 +4512,16 @@
       "meaning": "警視級の警察幹部／管理責任者"
     },
     {
+      "surface": "connection",
+      "lemma": "connection",
+      "meaning": "人・物・出来事どうしのつながり、関係。"
+    },
+    {
+      "surface": "state",
+      "lemma": "state",
+      "meaning": "事実・意見などを明確に述べる、表明する。"
+    },
+    {
       "surface": "case",
       "lemma": "case",
       "meaning": "事件、案件"
@@ -3252,9 +4529,31 @@
   ],
   "act1-scene2-speech-0216": [],
   "act1-scene2-speech-0217": [],
-  "act1-scene2-speech-0218": [],
-  "act1-scene2-speech-0219": [],
+  "act1-scene2-speech-0218": [
+    {
+      "surface": "connection",
+      "lemma": "connection",
+      "meaning": "人・物・出来事どうしのつながり、関係。"
+    }
+  ],
+  "act1-scene2-speech-0219": [
+    {
+      "surface": "servants",
+      "lemma": "servant",
+      "meaning": "家庭などで雇われ、家事や身の回りの仕事をする人。"
+    }
+  ],
   "act1-scene2-speech-0220": [
+    {
+      "surface": "servants",
+      "lemma": "servant",
+      "meaning": "家庭などで雇われ、家事や身の回りの仕事をする人。"
+    },
+    {
+      "surface": "reminds",
+      "lemma": "remind",
+      "meaning": "人に何かを思い出させる、忘れないよう知らせる。"
+    },
     {
       "surface": "Would you mind",
       "lemma": "would you mind",
@@ -3275,6 +4574,11 @@
       "meaning": "かなり、相当に"
     },
     {
+      "surface": "ridiculous",
+      "lemma": "ridiculous",
+      "meaning": "非常にばかげていて、まともに受け取れないほど不合理な。"
+    },
+    {
       "surface": "merely",
       "lemma": "merely",
       "meaning": "単に～にすぎない"
@@ -3290,12 +4594,22 @@
   "act1-scene2-speech-0224": [],
   "act1-scene2-speech-0225": [
     {
+      "surface": "overturned",
+      "lemma": "overturn",
+      "meaning": "ひっくり返る・ひっくり返す。また、決定などを覆す。"
+    },
+    {
       "surface": "snowdrift",
       "lemma": "snowdrift",
       "meaning": "雪の吹きだまり"
     }
   ],
   "act1-scene2-speech-0226": [
+    {
+      "surface": "What I'm getting at",
+      "lemma": "what someone is getting at",
+      "meaning": "Trotterが「自分が突き止めたい要点は」と話を核心へ戻している。"
+    },
     {
       "surface": "getting at",
       "lemma": "get at",
@@ -3307,9 +4621,24 @@
       "meaning": "たった今、ちょうど～したところ"
     },
     {
+      "surface": "connection",
+      "lemma": "connection",
+      "meaning": "人・物・出来事どうしのつながり、関係。"
+    },
+    {
       "surface": "business",
       "lemma": "business",
       "meaning": "一件、事件、騒動"
+    },
+    {
+      "surface": "sensible",
+      "lemma": "sensible",
+      "meaning": "状況を現実的・合理的に判断している、分別のある。"
+    },
+    {
+      "surface": "deadly danger",
+      "lemma": "deadly danger",
+      "meaning": "単なる大きな危険ではなく、誰かが殺される可能性があるという切迫した危険。"
     },
     {
       "surface": "'ve got to",
@@ -3337,6 +4666,11 @@
       "surface": "affairs",
       "lemma": "affair",
       "meaning": "事情、事柄"
+    },
+    {
+      "surface": "bygone years",
+      "lemma": "bygone years",
+      "meaning": "Longridge Farm事件が起きた過去の時期を、Paraviciniが距離を置いて「昔の地方の出来事」と表現している。"
     }
   ],
   "act1-scene2-speech-0228": [],
@@ -3350,6 +4684,11 @@
       "surface": "distressing",
       "lemma": "distressing",
       "meaning": "痛ましい、心を苦しめる"
+    },
+    {
+      "surface": "distressing",
+      "lemma": "distress",
+      "meaning": "強い苦痛・不安。また、人に強い苦痛や不安を与える。"
     },
     {
       "surface": "business",
@@ -3373,12 +4712,23 @@
     }
   ],
   "act1-scene2-speech-0234": [],
-  "act1-scene2-speech-0235": [],
+  "act1-scene2-speech-0235": [
+    {
+      "surface": "mere",
+      "lemma": "mere",
+      "meaning": "単なる、ほんの～にすぎない。重要性や程度が小さいことを強調する。"
+    }
+  ],
   "act1-scene2-speech-0236": [
     {
       "surface": "murdered",
       "lemma": "murder",
       "meaning": "殺害された"
+    },
+    {
+      "surface": "you'll have yourself to blame",
+      "lemma": "have oneself to blame",
+      "meaning": "情報を隠した結果だれかが被害に遭えば、自分たちにも責任がある、とTrotterが協力を迫る強い警告。"
     },
     {
       "surface": "have yourself to blame",
@@ -3403,6 +4753,11 @@
       "meaning": "魅力的な"
     },
     {
+      "surface": "admire",
+      "lemma": "admire",
+      "meaning": "人や物の性質・能力などを高く評価し、感心する。"
+    },
+    {
       "surface": "stern",
       "lemma": "stern",
       "meaning": "厳格な、いかめしい"
@@ -3410,7 +4765,7 @@
     {
       "surface": "hardboiled",
       "lemma": "hardboiled",
-      "meaning": "タフで感情を見せない"
+      "meaning": "ChristopherがTrotterを「厳しくてタフな刑事らしい」と映画的・芝居がかった調子で面白がって評している。"
     },
     {
       "surface": "Quite",
@@ -3441,14 +4796,14 @@
       "meaning": "署名"
     },
     {
+      "surface": "signature tune",
+      "lemma": "signature tune",
+      "meaning": "ここでは通常のテーマ曲ではなく、「Three Blind Mice」が犯人を特徴づける署名のような反復モチーフだという意味。"
+    },
+    {
       "surface": "tune",
       "lemma": "tune",
       "meaning": "旋律、曲"
-    },
-    {
-      "surface": "signature",
-      "lemma": "signature",
-      "meaning": "署名"
     },
     {
       "surface": "murderer",
@@ -3459,6 +4814,16 @@
       "surface": "Just",
       "lemma": "just",
       "meaning": "ちょうど／ただ／ほんの（範囲を限定）"
+    },
+    {
+      "surface": "fancy",
+      "lemma": "fancy",
+      "meaning": "～と思う・想像する、または～したいと思う。形容詞では装飾的・高級な。"
+    },
+    {
+      "surface": "what a kick he must be getting out of it",
+      "lemma": "get a kick out of",
+      "meaning": "犯人が自分の仕掛けや周囲の恐怖から強い刺激・楽しみを得ているのだろう、とChristopherが想像している。事実として確認された心理ではない。"
     },
     {
       "surface": "a kick he must be getting out of it",
@@ -3478,6 +4843,21 @@
       "surface": "just",
       "lemma": "just",
       "meaning": "ちょっと／とにかく（命令を軽く強調）"
+    },
+    {
+      "surface": "Till",
+      "lemma": "till",
+      "meaning": "～まで、～する時まで。"
+    },
+    {
+      "surface": "creep",
+      "lemma": "creep",
+      "meaning": "音を立てないように、またはゆっくり慎重に進む。"
+    },
+    {
+      "surface": "throat",
+      "lemma": "throat",
+      "meaning": "口の奥から首の内部へ続く喉。"
     }
   ],
   "act1-scene2-speech-0242": [],
@@ -3495,19 +4875,9 @@
       "meaning": "たった今、ちょうど～したところ"
     },
     {
-      "surface": "just",
-      "lemma": "just",
-      "meaning": "たった今、ちょうど～したところ"
-    },
-    {
       "surface": "macabre",
       "lemma": "macabre",
       "meaning": "死や恐怖を不気味に扱う、陰惨趣味の"
-    },
-    {
-      "surface": "just",
-      "lemma": "just",
-      "meaning": "ちょうど／ただ／ほんの（範囲を限定）"
     }
   ],
   "act1-scene2-speech-0245": [
@@ -3520,6 +4890,11 @@
       "surface": "neurotic",
       "lemma": "neurotic",
       "meaning": "神経症的な、という旧来の心理語"
+    },
+    {
+      "surface": "neurotic young man",
+      "lemma": "neurotic",
+      "meaning": "Mrs. BoyleがChristopherの不穏な冗談を非難して「神経質で異常な若者」と決めつける侮蔑的評価。医学的診断ではない。"
     }
   ],
   "act1-scene2-speech-0246": [],
@@ -3528,6 +4903,11 @@
       "surface": "policeman",
       "lemma": "policeman",
       "meaning": "警察官"
+    },
+    {
+      "surface": "conducted",
+      "lemma": "conduct",
+      "meaning": "活動・調査などを行う、実施する。また、人を案内する。"
     }
   ],
   "act1-scene2-speech-0248": [
@@ -3554,7 +4934,18 @@
       "meaning": "たぶん～だろう／～と思う"
     }
   ],
-  "act1-scene2-speech-0250": [],
+  "act1-scene2-speech-0250": [
+    {
+      "surface": "Nerves",
+      "lemma": "nerve",
+      "meaning": "神経。また、緊張・不安、勇気などを表すことがある。"
+    },
+    {
+      "surface": "patience",
+      "lemma": "patience",
+      "meaning": "苛立たずに待ったり困難に耐えたりする力、忍耐。"
+    }
+  ],
   "act1-scene2-speech-0251": [
     {
       "surface": "just",
@@ -3570,6 +4961,11 @@
       "meaning": "治安判事、下級裁判所の裁判官"
     },
     {
+      "surface": "on the Bench",
+      "lemma": "on the Bench",
+      "meaning": "Mrs. BoyleがLongridge Farm事件当時、治安判事として子どもの処遇決定に関与していたこと。普通のベンチに座る意味ではない。"
+    },
+    {
       "surface": "In fact",
       "lemma": "in fact",
       "meaning": "実際には／実は"
@@ -3577,9 +4973,19 @@
   ],
   "act1-scene2-speech-0254": [
     {
+      "surface": "hardly",
+      "lemma": "hardly",
+      "meaning": "ほとんど～ない、かろうじて。"
+    },
+    {
       "surface": "be held responsible",
       "lemma": "be held responsible",
       "meaning": "責任を問われる"
+    },
+    {
+      "surface": "held responsible",
+      "lemma": "hold someone responsible",
+      "meaning": "子どもをLongridge Farmへ送った結果について、自分に責任があるとみなされることをMrs. Boyleが否定している。"
     },
     {
       "surface": "welfare workers",
@@ -3604,6 +5010,11 @@
   ],
   "act1-scene2-speech-0255": [
     {
+      "surface": "blows",
+      "lemma": "blow",
+      "meaning": "打撃、一撃。物理的に打つ・殴る一回の力。"
+    },
+    {
       "surface": "starvation",
       "lemma": "starvation",
       "meaning": "飢餓"
@@ -3621,8 +5032,40 @@
   ],
   "act1-scene2-speech-0256": [],
   "act1-scene2-speech-0257": [],
-  "act1-scene2-speech-0258": [],
-  "act1-scene2-speech-0259": [],
+  "act1-scene2-speech-0258": [
+    {
+      "surface": "public duty",
+      "lemma": "public duty",
+      "meaning": "Mrs. Boyleが、治安判事として子どもの処遇を決めた行為を「社会のための公的な務め」と位置づけ、自分への非難を不当だと訴えている。"
+    },
+    {
+      "surface": "abuse",
+      "lemma": "abuse",
+      "meaning": "人をひどく扱うこと、虐待・悪用・罵倒。また、そのように扱う。"
+    }
+  ],
+  "act1-scene2-speech-0259": [
+    {
+      "surface": "forgive",
+      "lemma": "forgive",
+      "meaning": "人の過ちや失礼を許し、それを責め続けない。"
+    },
+    {
+      "surface": "indeed",
+      "lemma": "indeed",
+      "meaning": "実に、本当に。返答で確認・強調を表す。"
+    },
+    {
+      "surface": "amusing",
+      "lemma": "amusing",
+      "meaning": "面白く、笑いや楽しさを感じさせる。"
+    },
+    {
+      "surface": "greatly",
+      "lemma": "greatly",
+      "meaning": "大いに、非常に。程度が大きいことを表す。"
+    }
+  ],
   "act1-scene2-speech-0260": [],
   "act1-scene2-speech-0261": [],
   "act1-scene2-speech-0262": [],
@@ -3630,11 +5073,16 @@
     {
       "surface": "spiv",
       "lemma": "spiv",
-      "meaning": "いかがわしい闇商人風の男"
+      "meaning": "CasewellがParaviciniを、派手でいかがわしい闇商売人のように見えると評する当時の英国俗語。本人の実際の職業を断定しているわけではない。"
     },
     {
       "surface": "Makes his face up",
       "lemma": "make one’s face up",
+      "meaning": "化粧する"
+    },
+    {
+      "surface": "Makes his face up",
+      "lemma": "make up",
       "meaning": "化粧する"
     },
     {
@@ -3643,17 +5091,27 @@
       "meaning": "頬紅"
     },
     {
+      "surface": "powder",
+      "lemma": "powder",
+      "meaning": "細かな乾いた粒子からなる粉。"
+    },
+    {
       "surface": "quite",
       "lemma": "quite",
       "meaning": "かなり、相当に"
-    },
-    {
-      "surface": "Makes his face up",
-      "lemma": "make up",
-      "meaning": "化粧する"
     }
   ],
   "act1-scene2-speech-0264": [
+    {
+      "surface": "yet",
+      "lemma": "yet",
+      "meaning": "それにもかかわらず、しかし。それまでの内容と対照を示す。"
+    },
+    {
+      "surface": "skips",
+      "lemma": "skip",
+      "meaning": "軽く跳ねるように進む。また、順番・部分などを飛ばす。"
+    },
     {
       "surface": "as though",
       "lemma": "as though",
@@ -3666,7 +5124,13 @@
     }
   ],
   "act1-scene2-speech-0265": [],
-  "act1-scene2-speech-0266": [],
+  "act1-scene2-speech-0266": [
+    {
+      "surface": "yet",
+      "lemma": "yet",
+      "meaning": "それにもかかわらず、しかし。それまでの内容と対照を示す。"
+    }
+  ],
   "act1-scene2-speech-0267": [],
   "act1-scene2-speech-0268": [
     {
@@ -3675,7 +5139,18 @@
       "meaning": "旋律、曲"
     }
   ],
-  "act1-scene2-speech-0269": [],
+  "act1-scene2-speech-0269": [
+    {
+      "surface": "Reminds",
+      "lemma": "remind",
+      "meaning": "人に何かを思い出させる、忘れないよう知らせる。"
+    },
+    {
+      "surface": "childhood",
+      "lemma": "childhood",
+      "meaning": "子どもである時期、幼少期。"
+    }
+  ],
   "act1-scene2-speech-0270": [],
   "act1-scene2-speech-0271": [],
   "act1-scene2-speech-0272": [],
@@ -3686,6 +5161,11 @@
       "surface": "gets over",
       "lemma": "get over",
       "meaning": "～を乗り越える／立ち直る"
+    },
+    {
+      "surface": "gets over things",
+      "lemma": "get over something",
+      "meaning": "つらい過去の経験から時間とともに立ち直り、その影響を乗り越えるという心理的な意味。"
     }
   ],
   "act1-scene2-speech-0276": [],
@@ -3701,9 +5181,19 @@
   ],
   "act1-scene2-speech-0281": [
     {
+      "surface": "humbug",
+      "lemma": "humbug",
+      "meaning": "Casewellが心理学者・精神科医の説明を「でたらめだ」と強く退けている。彼女の個人的態度であり、客観的評価ではない。"
+    },
+    {
       "surface": "Just",
       "lemma": "just",
       "meaning": "たった～、ほんの～"
+    },
+    {
+      "surface": "nonsense",
+      "lemma": "nonsense",
+      "meaning": "意味をなさないこと、ばかげたこと・発言。"
     },
     {
       "surface": "psychologists",
@@ -3721,20 +5211,41 @@
     {
       "surface": "hooey",
       "lemma": "hooey",
-      "meaning": "でたらめ、くだらない話"
+      "meaning": "Casewellが心理学・精神医学の考え方全体を「くだらないでたらめ」と感情的に切り捨てる古い口語。"
     },
     {
       "surface": "Go straight ahead",
       "lemma": "go straight ahead",
       "meaning": "まっすぐ進む／ためらわず進む"
+    },
+    {
+      "surface": "don't look back",
+      "lemma": "look back",
+      "meaning": "過去のつらい出来事を振り返ったり、それにとらわれたりするな、という比喩。"
     }
   ],
   "act1-scene2-speech-0284": [],
-  "act1-scene2-speech-0285": [],
+  "act1-scene2-speech-0285": [
+    {
+      "surface": "Nonsense",
+      "lemma": "nonsense",
+      "meaning": "意味をなさないこと、ばかげたこと・発言。"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "何かをしようと決める意志、意志力。"
+    }
+  ],
   "act1-scene2-speech-0286": [],
   "act1-scene2-speech-0287": [],
   "act1-scene2-speech-0288": [],
   "act1-scene2-speech-0289": [
+    {
+      "surface": "Don't give in",
+      "lemma": "give in",
+      "meaning": "過去の記憶や苦痛に負けて支配されるな、という意味。"
+    },
     {
       "surface": "give in",
       "lemma": "give in",
@@ -3744,11 +5255,38 @@
       "surface": "Turn your back on",
       "lemma": "turn one’s back on",
       "meaning": "～に背を向ける／見捨てる"
+    },
+    {
+      "surface": "Turn your back on them",
+      "lemma": "turn one's back on",
+      "meaning": "つらい過去の出来事を意識的に拒絶し、振り返らずに生きるという比喩。"
     }
   ],
-  "act1-scene2-speech-0290": [],
+  "act1-scene2-speech-0290": [
+    {
+      "surface": "wonder",
+      "lemma": "wonder",
+      "meaning": "～だろうかと思う、不思議に思う。また、驚き・驚くべきもの。"
+    },
+    {
+      "surface": "ought",
+      "lemma": "ought",
+      "meaning": "～すべきだ、～するのが望ましい・当然だという判断を表す。"
+    },
+    {
+      "surface": "face them",
+      "lemma": "face something",
+      "meaning": "過去のつらい出来事から逃げず、正面から認めて向き合うこと。"
+    }
+  ],
   "act1-scene2-speech-0291": [],
-  "act1-scene2-speech-0292": [],
+  "act1-scene2-speech-0292": [
+    {
+      "surface": "hardly",
+      "lemma": "hardly",
+      "meaning": "ほとんど～ない、かろうじて。"
+    }
+  ],
   "act1-scene2-speech-0293": [],
   "act1-scene2-speech-0294": [],
   "act1-scene2-speech-0295": [
@@ -3772,7 +5310,7 @@
     {
       "surface": "get the lay of the land",
       "lemma": "get the lay of the land",
-      "meaning": "状況・地形を把握する"
+      "meaning": "Trotterが捜査・警備のため、館内の部屋配置や出入りの構造を把握すること。土地そのものを調べる意味ではない。"
     }
   ],
   "act1-scene2-speech-0297": [],
@@ -3810,7 +5348,13 @@
     }
   ],
   "act1-scene2-speech-0303": [],
-  "act1-scene2-speech-0304": [],
+  "act1-scene2-speech-0304": [
+    {
+      "surface": "wonder",
+      "lemma": "wonder",
+      "meaning": "～だろうかと思う、不思議に思う。また、驚き・驚くべきもの。"
+    }
+  ],
   "act1-scene2-speech-0305": [],
   "act1-scene2-speech-0306": [
     {
@@ -3825,9 +5369,19 @@
   "act1-scene2-speech-0310": [],
   "act1-scene2-speech-0311": [
     {
+      "surface": "private",
+      "lemma": "private",
+      "meaning": "公のものではなく個人的な、他人に公開しない。"
+    },
+    {
       "surface": "turned up",
       "lemma": "turn up",
       "meaning": "現れる／到着する"
+    },
+    {
+      "surface": "turned up out of the blue",
+      "lemma": "out of the blue",
+      "meaning": "Paraviciniが事前予約なしに、まったく予期せず突然Monkswell Manorへ現れたこと。"
     },
     {
       "surface": "out of the blue",
@@ -3847,6 +5401,11 @@
       "meaning": "依存、頼りにすること"
     },
     {
+      "surface": "reliance to be placed on",
+      "lemma": "place reliance on",
+      "meaning": "住所や配給手帳のような情報だけでは、宿泊客の本当の身元を保証する証拠として十分信用できない、という捜査上の意味。"
+    },
+    {
       "surface": "evidence",
       "lemma": "evidence",
       "meaning": "証拠"
@@ -3862,21 +5421,53 @@
       "surface": "quite",
       "lemma": "quite",
       "meaning": "かなり、相当に"
+    },
+    {
+      "surface": "till",
+      "lemma": "till",
+      "meaning": "～まで、～する時まで。"
+    },
+    {
+      "surface": "melts",
+      "lemma": "melt",
+      "meaning": "熱などによって固体が液体になる、溶ける・溶かす。"
     }
   ],
-  "act1-scene2-speech-0314": [],
+  "act1-scene2-speech-0314": [
+    {
+      "surface": "Unless",
+      "lemma": "unless",
+      "meaning": "～でない限り、もし～でなければ。"
+    },
+    {
+      "surface": "he's here already",
+      "lemma": "here already",
+      "meaning": "雪で外から誰も来られないから安全なのではなく、犯人が前夜から宿泊客の一人としてすでに館内にいる可能性をTrotterが示している。"
+    }
+  ],
   "act1-scene2-speech-0315": [],
   "act1-scene2-speech-0316": [
     {
       "surface": "murder",
       "lemma": "murder",
       "meaning": "殺人、殺害"
+    },
+    {
+      "surface": "Plenty",
+      "lemma": "plenty",
+      "meaning": "十分以上の量、多くのもの・こと。"
     }
   ],
   "act1-scene2-speech-0317": [],
   "act1-scene2-speech-0318": [],
   "act1-scene2-speech-0319": [],
-  "act1-scene2-speech-0320": [],
+  "act1-scene2-speech-0320": [
+    {
+      "surface": "attempted",
+      "lemma": "attempt",
+      "meaning": "難しいことをやってみる、試みること。"
+    }
+  ],
   "act1-scene2-speech-0321": [],
   "act1-scene2-speech-0322": [
     {
@@ -3904,6 +5495,11 @@
       "meaning": "不確定の、はっきり決められない"
     },
     {
+      "surface": "indeterminate build",
+      "lemma": "indeterminate build",
+      "meaning": "目撃情報から体格をはっきり特定できず、容疑者を絞る特徴にならないという意味。"
+    },
+    {
       "surface": "darkish",
       "lemma": "darkish",
       "meaning": "やや暗い色の"
@@ -3919,28 +5515,39 @@
       "meaning": "フェルト製の"
     },
     {
-      "surface": "muffler",
-      "lemma": "muffler",
-      "meaning": "マフラー、襟巻き"
+      "surface": "hidden",
+      "lemma": "hidden",
+      "meaning": "見えないように隠された、容易には見つからない。"
     },
     {
-      "surface": "darkish",
-      "lemma": "darkish",
-      "meaning": "やや暗い色の"
+      "surface": "muffler",
+      "lemma": "muffler",
+      "meaning": "ここでは自動車部品ではなく、顔を隠すように巻いた防寒用の厚手のスカーフ。"
+    },
+    {
+      "surface": "whisper",
+      "lemma": "whisper",
+      "meaning": "非常に小さな声で話すこと・ささやき、またはささやく。"
+    },
+    {
+      "surface": "hanging",
+      "lemma": "hang",
+      "meaning": "上部を支点にしてぶら下がる・ぶら下げる。"
     },
     {
       "surface": "lightish",
       "lemma": "lightish",
       "meaning": "やや明るい色の"
-    },
-    {
-      "surface": "felt",
-      "lemma": "felt",
-      "meaning": "フェルト製の"
     }
   ],
   "act1-scene2-speech-0325": [],
-  "act1-scene2-speech-0326": [],
+  "act1-scene2-speech-0326": [
+    {
+      "surface": "wire",
+      "lemma": "wire",
+      "meaning": "金属を細長く伸ばした線。電気・通信を伝える線にも使う。"
+    }
+  ],
   "act1-scene2-speech-0327": [
     {
       "surface": "get on with",
@@ -3948,7 +5555,13 @@
       "meaning": "～を進める／続ける"
     }
   ],
-  "act1-scene2-speech-0328": [],
+  "act1-scene2-speech-0328": [
+    {
+      "surface": "extension",
+      "lemma": "extension",
+      "meaning": "範囲・長さ・期間などを延ばすこと、または延長された部分。"
+    }
+  ],
   "act1-scene2-speech-0329": [
     {
       "surface": "I beg your pardon",
@@ -3956,11 +5569,27 @@
       "meaning": "失礼しました／もう一度お願いします"
     }
   ],
-  "act1-scene2-speech-0330": [],
+  "act1-scene2-speech-0330": [
+    {
+      "surface": "extension",
+      "lemma": "extension",
+      "meaning": "範囲・長さ・期間などを延ばすこと、または延長された部分。"
+    }
+  ],
   "act1-scene2-speech-0331": [],
   "act1-scene2-speech-0332": [],
   "act1-scene2-speech-0333": [],
   "act1-scene2-speech-0334": [
+    {
+      "surface": "term",
+      "lemma": "term",
+      "meaning": "～と呼ぶ、～という名称・表現を用いる。"
+    },
+    {
+      "surface": "mechanics of fear",
+      "lemma": "mechanics of fear",
+      "meaning": "ラジオ番組が説明する「恐怖が人の心にどう作用するかという仕組み」。直後の暗闇と物音を不穏に先取りするが、語義自体は心理的な仕組みを指す。"
+    },
     {
       "surface": "precise",
       "lemma": "precise",
@@ -3977,6 +5606,11 @@
       "surface": "programme",
       "lemma": "programme",
       "meaning": "番組／計画"
+    },
+    {
+      "surface": "worth",
+      "lemma": "worth",
+      "meaning": "～の価値がある、～に値する。また、価値・相当額。"
     },
     {
       "surface": "turn out",
@@ -4050,9 +5684,21 @@
   ],
   "act2-speech-0009": [],
   "act2-speech-0010": [],
-  "act2-speech-0011": [],
+  "act2-speech-0011": [
+    {
+      "surface": "Close",
+      "lemma": "close",
+      "meaning": "近くに、すぐそばに。"
+    }
+  ],
   "act2-speech-0012": [],
-  "act2-speech-0013": [],
+  "act2-speech-0013": [
+    {
+      "surface": "all in",
+      "lemma": "all in",
+      "meaning": "Gilesが、Mrs. Boyleの死を発見した直後のMollieが疲労と衝撃で完全に参っている、とTrotterに訴えている。"
+    }
+  ],
   "act2-speech-0014": [
     {
       "surface": "investigating",
@@ -4070,24 +5716,56 @@
       "meaning": "今までのところ"
     },
     {
-      "surface": "held out on",
-      "lemma": "hold out on",
-      "meaning": "情報などを隠して出し渋る"
+      "surface": "seriously",
+      "lemma": "seriously",
+      "meaning": "真剣に、重大なものとして。また、深刻な程度で。"
     },
     {
       "surface": "held out on",
       "lemma": "hold out on",
       "meaning": "情報などを隠して出し渋る"
+    },
+    {
+      "surface": "held out on me",
+      "lemma": "hold out on someone",
+      "meaning": "TrotterはMrs. BoyleがLongridge Farmとの関係を捜査前に隠していたことを指している。"
+    },
+    {
+      "surface": "Unless",
+      "lemma": "unless",
+      "meaning": "～でない限り、もし～でなければ。"
     },
     {
       "surface": "get to the bottom of",
       "lemma": "get to the bottom of",
       "meaning": "真相を突き止める"
+    },
+    {
+      "surface": "get to the bottom of this",
+      "lemma": "get to the bottom of",
+      "meaning": "Mrs. Boyle殺害を含む一連の事件の真相を急いで突き止める、という捜査上の意味。"
     }
   ],
-  "act2-speech-0015": [],
-  "act2-speech-0016": [],
+  "act2-speech-0015": [
+    {
+      "surface": "Nonsense",
+      "lemma": "nonsense",
+      "meaning": "意味をなさないこと、ばかげたこと・発言。"
+    }
+  ],
+  "act2-speech-0016": [
+    {
+      "surface": "blind",
+      "lemma": "blind",
+      "meaning": "目が見えない、視覚を失っている。"
+    }
+  ],
   "act2-speech-0017": [
+    {
+      "surface": "connection",
+      "lemma": "connection",
+      "meaning": "人・物・出来事どうしのつながり、関係。"
+    },
     {
       "surface": "business",
       "lemma": "business",
@@ -4111,9 +5789,29 @@
       "surface": "a wider field",
       "lemma": "wide field",
       "meaning": "候補範囲が広いこと"
+    },
+    {
+      "surface": "a wider field",
+      "lemma": "wider field",
+      "meaning": "Culver Streetと違いMonkswell Manorには、次の標的になり得る人物が複数いるという意味。"
     }
   ],
   "act2-speech-0021": [
+    {
+      "surface": "Nonsense",
+      "lemma": "nonsense",
+      "meaning": "意味をなさないこと、ばかげたこと・発言。"
+    },
+    {
+      "surface": "Surely",
+      "lemma": "surely",
+      "meaning": "確かに、きっと。また、相手も当然そう考えるはずだという含みで使う。"
+    },
+    {
+      "surface": "unlikely",
+      "lemma": "unlikely",
+      "meaning": "起こりそうにない、可能性が低い。"
+    },
     {
       "surface": "coincidence",
       "lemma": "coincidence",
@@ -4123,6 +5821,11 @@
       "surface": "by chance",
       "lemma": "by chance",
       "meaning": "偶然に"
+    },
+    {
+      "surface": "share",
+      "lemma": "share",
+      "meaning": "全体のうち自分に属する部分・分け前。また、関与する部分・役割。"
     },
     {
       "surface": "case",
@@ -4135,6 +5838,11 @@
       "surface": "Given certain circumstances",
       "lemma": "given certain circumstances",
       "meaning": "ある事情を前提にすれば"
+    },
+    {
+      "surface": "circumstances",
+      "lemma": "circumstance",
+      "meaning": "出来事を取り巻き、判断に影響する条件。"
     },
     {
       "surface": "coincidence",
@@ -4200,6 +5908,16 @@
       "meaning": "所在・経路を追跡する"
     },
     {
+      "surface": "wire",
+      "lemma": "wire",
+      "meaning": "金属を細長く伸ばした線。電気・通信を伝える線にも使う。"
+    },
+    {
+      "surface": "occupy",
+      "lemma": "occupy",
+      "meaning": "場所・建物などを使用する、居住する。また、場所を占める。"
+    },
+    {
       "surface": "extension telephone",
       "lemma": "extension telephone",
       "meaning": "内線電話"
@@ -4217,9 +5935,19 @@
       "meaning": "注意する／外を見る"
     },
     {
+      "surface": "wires",
+      "lemma": "wire",
+      "meaning": "金属を細長く伸ばした線。電気・通信を伝える線にも使う。"
+    },
+    {
       "surface": "Just after",
       "lemma": "just after",
       "meaning": "～の直後に"
+    },
+    {
+      "surface": "rushed",
+      "lemma": "rush",
+      "meaning": "非常に急いで移動・行動する。また、急ぐこと・急激な動き。"
     }
   ],
   "act2-speech-0026": [
@@ -4240,6 +5968,11 @@
       "surface": "took your time",
       "lemma": "take one’s time",
       "meaning": "時間をかける／ゆっくりやる"
+    },
+    {
+      "surface": "took your time",
+      "lemma": "take one's time",
+      "meaning": "TrotterがGilesの説明した単純な行動に不自然に長い時間がかかったと疑っている。"
     }
   ],
   "act2-speech-0029": [],
@@ -4267,7 +6000,13 @@
     }
   ],
   "act2-speech-0041": [],
-  "act2-speech-0042": [],
+  "act2-speech-0042": [
+    {
+      "surface": "Curious",
+      "lemma": "curious",
+      "meaning": "知りたい気持ちが強い。また、奇妙で注意を引く。"
+    }
+  ],
   "act2-speech-0043": [
     {
       "surface": "came down",
@@ -4304,29 +6043,57 @@
     }
   ],
   "act2-speech-0049": [],
-  "act2-speech-0050": [],
+  "act2-speech-0050": [
+    {
+      "surface": "Blind",
+      "lemma": "blind",
+      "meaning": "目が見えない、視覚を失っている。"
+    }
+  ],
   "act2-speech-0051": [],
   "act2-speech-0052": [
     {
       "surface": "tune",
       "lemma": "tune",
       "meaning": "旋律、曲"
-    },
-    {
-      "surface": "tune",
-      "lemma": "tune",
-      "meaning": "旋律、曲"
     }
   ],
-  "act2-speech-0053": [],
-  "act2-speech-0054": [],
+  "act2-speech-0053": [
+    {
+      "surface": "horrible",
+      "lemma": "horrible",
+      "meaning": "とても不快な、恐ろしい、ひどい。"
+    }
+  ],
+  "act2-speech-0054": [
+    {
+      "surface": "yet",
+      "lemma": "yet",
+      "meaning": "それにもかかわらず、しかし。それまでの内容と対照を示す。"
+    },
+    {
+      "surface": "runs in people's head",
+      "lemma": "run in someone's head",
+      "meaning": "Three Blind Miceの旋律が頭から離れず繰り返し浮かぶ、という意味。殺人と結びついたため不穏な含みを持つ。"
+    }
+  ],
   "act2-speech-0055": [],
   "act2-speech-0056": [],
   "act2-speech-0057": [
     {
+      "surface": "Blind",
+      "lemma": "blind",
+      "meaning": "目が見えない、視覚を失っている。"
+    },
+    {
       "surface": "making this up",
       "lemma": "make up",
       "meaning": "作り話をする／でっち上げる"
+    },
+    {
+      "surface": "making this up",
+      "lemma": "make something up",
+      "meaning": "Trotterが、Paraviciniの「誰かが口笛を吹いていた」という話をその場で作った嘘ではないかと疑っている。"
     }
   ],
   "act2-speech-0058": [
@@ -4353,6 +6120,11 @@
       "surface": "offended",
       "lemma": "offended",
       "meaning": "気分を害した"
+    },
+    {
+      "surface": "offended",
+      "lemma": "offend",
+      "meaning": "人を不快にさせる、感情や価値観を傷つける。"
     }
   ],
   "act2-speech-0061": [],
@@ -4391,7 +6163,13 @@
     }
   ],
   "act2-speech-0072": [],
-  "act2-speech-0073": [],
+  "act2-speech-0073": [
+    {
+      "surface": "yet",
+      "lemma": "yet",
+      "meaning": "それにもかかわらず、しかし。それまでの内容と対照を示す。"
+    }
+  ],
   "act2-speech-0074": [],
   "act2-speech-0075": [
     {
@@ -4405,18 +6183,28 @@
       "surface": "That's none of your damned business",
       "lemma": "none of your business",
       "meaning": "あなたには関係ない／余計なお世話だ"
+    },
+    {
+      "surface": "none of your damned business",
+      "lemma": "none of someone's business",
+      "meaning": "Casewellが手紙の相手についてのTrotterの質問を強く拒絶し、「あなたが詮索することではない」と突き放している。"
     }
   ],
   "act2-speech-0077": [
+    {
+      "surface": "screaming blue murder",
+      "lemma": "scream blue murder",
+      "meaning": "Mollieの悲鳴を「非常に大きな悲鳴」と表す英国系の慣用表現で、別の殺人を意味しない。"
+    },
     {
       "surface": "pick up",
       "lemma": "pick up",
       "meaning": "拾う／手に取る"
     },
     {
-      "surface": "screaming blue murder",
-      "lemma": "scream blue murder",
-      "meaning": "大声でわめき立てる"
+      "surface": "fold",
+      "lemma": "fold",
+      "meaning": "紙や布などを曲げて重ねる。また、その折り目・折り重なった部分。"
     }
   ],
   "act2-speech-0078": [],
@@ -4449,18 +6237,39 @@
       "meaning": "スポーツ用具"
     },
     {
+      "surface": "curious",
+      "lemma": "curious",
+      "meaning": "知りたい気持ちが強い。また、奇妙で注意を引く。"
+    },
+    {
       "surface": "cellars",
       "lemma": "cellar",
       "meaning": "地下貯蔵室、地下室"
     }
   ],
-  "act2-speech-0081": [],
+  "act2-speech-0081": [
+    {
+      "surface": "Glad",
+      "lemma": "glad",
+      "meaning": "うれしい、喜んでいる、安心している。"
+    }
+  ],
   "act2-speech-0082": [],
   "act2-speech-0083": [
+    {
+      "surface": "engaged",
+      "lemma": "engaged",
+      "meaning": "活動に従事している、忙しく関わっている。また、婚約している。"
+    },
     {
       "surface": "antiquarian",
       "lemma": "antiquarian",
       "meaning": "骨董・古物研究の／古物研究家"
+    },
+    {
+      "surface": "antiquarian research",
+      "lemma": "antiquarian research",
+      "meaning": "Metcalfの地下室への興味を、Trotterが「今は古物研究をしている場合ではない」と皮肉交じりに捜査へ引き戻している。"
     },
     {
       "surface": "investigating",
@@ -4491,6 +6300,11 @@
       "surface": "criminals",
       "lemma": "criminal",
       "meaning": "犯罪の／犯罪者"
+    },
+    {
+      "surface": "gloves",
+      "lemma": "glove",
+      "meaning": "手を覆う手袋。"
     }
   ],
   "act2-speech-0087": [
@@ -4498,11 +6312,39 @@
       "surface": "criminals",
       "lemma": "criminal",
       "meaning": "犯罪の／犯罪者"
+    },
+    {
+      "surface": "slip up",
+      "lemma": "slip up",
+      "meaning": "犯罪者もいずれ捜査上の手掛かりになるミスを犯す、という意味。"
     }
   ],
-  "act2-speech-0088": [],
-  "act2-speech-0089": [],
-  "act2-speech-0090": [],
+  "act2-speech-0088": [
+    {
+      "surface": "wonder",
+      "lemma": "wonder",
+      "meaning": "～だろうかと思う、不思議に思う。また、驚き・驚くべきもの。"
+    }
+  ],
+  "act2-speech-0089": [
+    {
+      "surface": "wasting",
+      "lemma": "waste",
+      "meaning": "時間・物資などを無駄にする、無駄。"
+    }
+  ],
+  "act2-speech-0090": [
+    {
+      "surface": "charge",
+      "lemma": "charge",
+      "meaning": "責任・管理を担うこと。また、料金・告発など複数の意味を持つ。"
+    },
+    {
+      "surface": "investigation",
+      "lemma": "investigation",
+      "meaning": "事実や原因を明らかにするための正式・詳細な調査、捜査。"
+    }
+  ],
   "act2-speech-0091": [],
   "act2-speech-0092": [
     {
@@ -4516,6 +6358,11 @@
       "meaning": "確立する／確認する"
     },
     {
+      "surface": "establish opportunity",
+      "lemma": "establish opportunity",
+      "meaning": "動機だけでなく、Mrs. Boyleを殺せる場所と時間に誰がいたかを捜査で確認すること。"
+    },
+    {
       "surface": "opportunity",
       "lemma": "opportunity",
       "meaning": "犯行の機会・可能性"
@@ -4524,11 +6371,6 @@
       "surface": "motive",
       "lemma": "motive",
       "meaning": "動機"
-    },
-    {
-      "surface": "opportunity",
-      "lemma": "opportunity",
-      "meaning": "犯行の機会・可能性"
     },
     {
       "surface": "go up",
@@ -4585,7 +6427,7 @@
     {
       "surface": "under suspicion",
       "lemma": "under suspicion",
-      "meaning": "疑いをかけられて"
+      "meaning": "Gilesが、Trotterの説明では館内の全員が容疑者扱いされているように聞こえると反発している。"
     },
     {
       "surface": "absurd",
@@ -4614,10 +6456,15 @@
     {
       "surface": "fits the bill",
       "lemma": "fit the bill",
-      "meaning": "条件にぴったり当てはまる"
+      "meaning": "GilesがChristopherだけが警察の想定する若い男性像に当てはまる、と決めつけている。"
     }
   ],
   "act2-speech-0096": [
+    {
+      "surface": "frame me for a murder",
+      "lemma": "frame someone for",
+      "meaning": "Christopherが、自分が犯していない殺人の犯人に仕立て上げられると恐れている。事実として警察がそうしているという意味ではない。"
+    },
     {
       "surface": "murder",
       "lemma": "murder",
@@ -4626,15 +6473,21 @@
     {
       "surface": "persecution",
       "lemma": "persecution",
-      "meaning": "迫害"
-    },
-    {
-      "surface": "persecution",
-      "lemma": "persecution",
-      "meaning": "迫害"
+      "meaning": "Christopherが皆から疑われる状況を「自分への迫害だ」と感情的に表現している。"
     }
   ],
-  "act2-speech-0097": [],
+  "act2-speech-0097": [
+    {
+      "surface": "Steady",
+      "lemma": "steady",
+      "meaning": "安定していて急に変化しない。また、人が落ち着いている。"
+    },
+    {
+      "surface": "lad",
+      "lemma": "lad",
+      "meaning": "少年・若い男性を指すくだけた語。"
+    }
+  ],
   "act2-speech-0098": [],
   "act2-speech-0099": [],
   "act2-speech-0100": [],
@@ -4643,11 +6496,6 @@
       "surface": "'ve got to",
       "lemma": "got to",
       "meaning": "～しなければならない／～する必要がある"
-    },
-    {
-      "surface": "evidence",
-      "lemma": "evidence",
-      "meaning": "証拠"
     },
     {
       "surface": "evidence",
@@ -4669,7 +6517,7 @@
     {
       "surface": "safety measure",
       "lemma": "safety measure",
-      "meaning": "安全策／予防措置"
+      "meaning": "GilesがChristopherを犯人と確定せずとも、他の人を守る予防策として拘束すべきだと主張している。"
     },
     {
       "surface": "ought to",
@@ -4713,6 +6561,16 @@
       "meaning": "治安判事、下級裁判所の裁判官"
     },
     {
+      "surface": "responsible",
+      "lemma": "responsible",
+      "meaning": "行為・結果について責任がある、または責任を負う立場の。"
+    },
+    {
+      "surface": "wire",
+      "lemma": "wire",
+      "meaning": "金属を細長く伸ばした線。電気・通信を伝える線にも使う。"
+    },
+    {
       "surface": "headquarters",
       "lemma": "headquarters",
       "meaning": "本部"
@@ -4750,7 +6608,17 @@
     {
       "surface": "going by probability",
       "lemma": "go by probability",
-      "meaning": "確率・可能性を基準に判断する"
+      "meaning": "Trotterは確定的な証拠ではなく、現時点で最も可能性が高い筋を基準に推理していると明示する。"
+    },
+    {
+      "surface": "points one way",
+      "lemma": "point one way",
+      "meaning": "精神状態・軍からの脱走・報告書など複数の事情が同じ人物像を示している、という捜査上の推論。"
+    },
+    {
+      "surface": "mental",
+      "lemma": "mental",
+      "meaning": "心・思考・精神の働きに関する。"
     },
     {
       "surface": "instability",
@@ -4774,6 +6642,11 @@
     }
   ],
   "act2-speech-0118": [
+    {
+      "surface": "therefore",
+      "lemma": "therefore",
+      "meaning": "したがって、それゆえに。前の内容から導かれる結果を示す。"
+    },
     {
       "surface": "point to",
       "lemma": "point to",
@@ -4817,6 +6690,11 @@
       "surface": "probably discharged from the Army",
       "lemma": "be discharged from the Army",
       "meaning": "陸軍を除隊になる"
+    },
+    {
+      "surface": "discharged",
+      "lemma": "discharge",
+      "meaning": "職務・拘束・軍務などから正式に解放する。"
     }
   ],
   "act2-speech-0124": [],
@@ -4827,18 +6705,38 @@
       "meaning": "所在・経路を追跡する"
     },
     {
+      "surface": "assure",
+      "lemma": "assure",
+      "meaning": "確かだと相手に保証する、安心させる。"
+    },
+    {
       "surface": "take every eventuality into account",
       "lemma": "take every eventuality into account",
-      "meaning": "あらゆる可能性を考慮に入れる"
+      "meaning": "警察は父親など別の可能性も含め、起こり得る筋を検討しているというTrotterの説明。"
     }
   ],
   "act2-speech-0126": [],
   "act2-speech-0127": [],
   "act2-speech-0128": [
     {
+      "surface": "prisoner",
+      "lemma": "prisoner",
+      "meaning": "拘束・収監されて自由を奪われている人。戦争では捕虜を指すことがある。"
+    },
+    {
       "surface": "Japs",
       "lemma": "Japs",
       "meaning": "日本人を指す侮蔑的な旧称"
+    },
+    {
+      "surface": "suffered",
+      "lemma": "suffer",
+      "meaning": "苦痛・損害・つらい経験を受ける。"
+    },
+    {
+      "surface": "terribly",
+      "lemma": "terribly",
+      "meaning": "ひどく、非常に。程度を強く表す。"
     },
     {
       "surface": "gone through",
@@ -4851,6 +6749,11 @@
       "meaning": "頭がおかしくなる／正気を失う"
     },
     {
+      "surface": "go off his head",
+      "lemma": "go off one's head",
+      "meaning": "Mollieが、戦争や家族の悲劇で父親が精神的に大きく崩れ復讐を望んだ可能性を仮定している古い口語。事実ではない。"
+    },
+    {
       "surface": "revenge",
       "lemma": "revenge",
       "meaning": "復讐"
@@ -4860,7 +6763,7 @@
     {
       "surface": "surmise",
       "lemma": "surmise",
-      "meaning": "推測"
+      "meaning": "TrotterがMollieの父親犯人説を、証拠のない推測にすぎないと区別している。"
     }
   ],
   "act2-speech-0130": [],
@@ -4891,6 +6794,11 @@
       "surface": "frightfully",
       "lemma": "frightfully",
       "meaning": "ひどく、とても"
+    },
+    {
+      "surface": "upset",
+      "lemma": "upset",
+      "meaning": "心を乱され、動揺・不安・不快を感じている。また、人をその状態にする。"
     }
   ],
   "act2-speech-0133": [],
@@ -4904,10 +6812,21 @@
       "surface": "quite",
       "lemma": "quite",
       "meaning": "かなり、相当に"
+    },
+    {
+      "surface": "perfectly",
+      "lemma": "perfectly",
+      "meaning": "完全に、まったく。また、非常にという強調にも使う。"
     }
   ],
   "act2-speech-0135": [],
-  "act2-speech-0136": [],
+  "act2-speech-0136": [
+    {
+      "surface": "suspect",
+      "lemma": "suspect",
+      "meaning": "犯罪などに関わった疑いのある人。また、人・事柄を疑う。"
+    }
+  ],
   "act2-speech-0137": [],
   "act2-speech-0138": [
     {
@@ -4972,9 +6891,19 @@
       "meaning": "マフラー、襟巻き"
     },
     {
+      "surface": "whispered",
+      "lemma": "whisper",
+      "meaning": "非常に小さな声で話すこと・ささやき、またはささやく。"
+    },
+    {
       "surface": "gives the sex away",
       "lemma": "give away",
       "meaning": "正体・秘密をうっかり明かす"
+    },
+    {
+      "surface": "gives the sex away",
+      "lemma": "give something away",
+      "meaning": "通常の声なら話者の性別が分かってしまうため、犯人が囁き声でそれを隠した可能性をTrotterが説明している。"
     }
   ],
   "act2-speech-0146": [],
@@ -4998,20 +6927,42 @@
       "meaning": "何であれ／どんな～でも"
     },
     {
+      "surface": "no means of checking it",
+      "lemma": "means of checking",
+      "meaning": "雪と電話断絶のため、Mollieの自己申告した経歴をその場で外部照会して検証できないこと。"
+    },
+    {
       "surface": "means of checking",
       "lemma": "means of checking",
       "meaning": "確認する手段"
     }
   ],
-  "act2-speech-0150": [],
+  "act2-speech-0150": [
+    {
+      "surface": "ridiculous",
+      "lemma": "ridiculous",
+      "meaning": "非常にばかげていて、まともに受け取れないほど不合理な。"
+    }
+  ],
   "act2-speech-0151": [
     {
       "surface": "much of an age",
       "lemma": "much of an age",
       "meaning": "ほぼ同年齢で"
+    },
+    {
+      "surface": "Actual",
+      "lemma": "actual",
+      "meaning": "想定・見かけではなく、実際の・現実の。"
     }
   ],
-  "act2-speech-0152": [],
+  "act2-speech-0152": [
+    {
+      "surface": "silly",
+      "lemma": "silly",
+      "meaning": "考えが浅い、ばかげた、分別に欠ける。"
+    }
+  ],
   "act2-speech-0153": [],
   "act2-speech-0154": [
     {
@@ -5034,7 +6985,13 @@
   ],
   "act2-speech-0161": [],
   "act2-speech-0162": [],
-  "act2-speech-0163": [],
+  "act2-speech-0163": [
+    {
+      "surface": "of your own knowledge",
+      "lemma": "of one's own knowledge",
+      "meaning": "Gilesの経歴を本人から聞いたのではなく、Mollie自身が独立して事実確認して知っているのか、という意味。"
+    }
+  ],
   "act2-speech-0164": [
     {
       "surface": "outrageous",
@@ -5079,14 +7036,29 @@
       "meaning": "自分のことを自分で決める／処理する"
     },
     {
+      "surface": "affairs",
+      "lemma": "affair",
+      "meaning": "public event から private matter まで「ひとまとまりの事柄」。"
+    },
+    {
+      "surface": "relatives",
+      "lemma": "relative",
+      "meaning": "親族・親戚。また、他との比較や関係によって決まる相対的な。"
+    },
+    {
       "surface": "enquiries",
       "lemma": "enquiry",
       "meaning": "問い合わせ／調査"
     },
     {
-      "surface": "just",
-      "lemma": "just",
-      "meaning": "ちょうど／ただ／ほんの（範囲を限定）"
+      "surface": "consented",
+      "lemma": "consent",
+      "meaning": "提案・行為などを受け入れて同意すること、または同意する。"
+    },
+    {
+      "surface": "engagement",
+      "lemma": "engagement",
+      "meaning": "結婚するという正式な約束、婚約。また、予定された約束・任務を指すこともある。"
     },
     {
       "surface": "find out",
@@ -5099,9 +7071,19 @@
       "meaning": "逃亡する、姿をくらます"
     },
     {
+      "surface": "clerk",
+      "lemma": "clerk",
+      "meaning": "事務・記録・窓口業務などを行う職員。"
+    },
+    {
       "surface": "deserter",
       "lemma": "deserter",
       "meaning": "脱走兵"
+    },
+    {
+      "surface": "equally",
+      "lemma": "equally",
+      "meaning": "同じ程度に、等しく。"
     },
     {
       "surface": "undesirable",
@@ -5119,9 +7101,19 @@
   "act2-speech-0167": [],
   "act2-speech-0168": [
     {
+      "surface": "absolutely",
+      "lemma": "absolutely",
+      "meaning": "完全に、まったく。本当に。"
+    },
+    {
       "surface": "absurd",
       "lemma": "absurd",
       "meaning": "ばかげた、不合理な"
+    },
+    {
+      "surface": "horrible",
+      "lemma": "horrible",
+      "meaning": "とても不快な、恐ろしい、ひどい。"
     },
     {
       "surface": "homicidal maniac",
@@ -5142,6 +7134,11 @@
   "act2-speech-0169": [],
   "act2-speech-0170": [
     {
+      "surface": "wire",
+      "lemma": "wire",
+      "meaning": "金属を細長く伸ばした線。電気・通信を伝える線にも使う。"
+    },
+    {
       "surface": "netting",
       "lemma": "netting",
       "meaning": "網、ネット状の材料"
@@ -5153,6 +7150,11 @@
       "surface": "turned out",
       "lemma": "turn out",
       "meaning": "結局～だと分かる／結果として～になる"
+    },
+    {
+      "surface": "turned out to be",
+      "lemma": "turn out to be",
+      "meaning": "Gilesが探しに行った金網が、結果として目的に合わない種類だったという説明。"
     }
   ],
   "act2-speech-0173": [
@@ -5182,14 +7184,14 @@
   "act2-speech-0185": [],
   "act2-speech-0186": [
     {
-      "surface": "Somehow",
-      "lemma": "somehow",
-      "meaning": "どういうわけか／何とかして"
-    },
-    {
       "surface": "get away",
       "lemma": "get away",
       "meaning": "逃げる／その場を離れる"
+    },
+    {
+      "surface": "Somehow",
+      "lemma": "somehow",
+      "meaning": "どういうわけか／何とかして"
     }
   ],
   "act2-speech-0187": [],
@@ -5227,6 +7229,11 @@
       "surface": "running away",
       "lemma": "run away",
       "meaning": "逃げる／逃避する"
+    },
+    {
+      "surface": "running away from things",
+      "lemma": "run away from something",
+      "meaning": "MollieはChristopherに、問題や過去から逃げ続ける生き方そのものをやめるよう促している。単にその場から逃走する意味ではない。"
     }
   ],
   "act2-speech-0192": [],
@@ -5272,10 +7279,35 @@
       "surface": "association",
       "lemma": "association",
       "meaning": "関係、つながり"
+    },
+    {
+      "surface": "hell",
+      "lemma": "hell",
+      "meaning": "Christopherにとって学校生活が『地獄のようにつらかった』という比喩。"
     }
   ],
   "act2-speech-0203": [],
   "act2-speech-0204": [
+    {
+      "surface": "needn't go into that",
+      "lemma": "go into something",
+      "meaning": "Christopherが本名について詳しく話すことを避け、話題を打ち切ろうとしている。"
+    },
+    {
+      "surface": "go into",
+      "lemma": "go into",
+      "meaning": "～について詳しく立ち入る"
+    },
+    {
+      "surface": "ran away",
+      "lemma": "run away",
+      "meaning": "逃げる／逃亡する"
+    },
+    {
+      "surface": "whilst",
+      "lemma": "whilst",
+      "meaning": "～する間に、～である一方。whileに相当する英国英語。"
+    },
     {
       "surface": "beastly",
       "lemma": "beastly",
@@ -5287,6 +7319,11 @@
       "meaning": "まさに～のように／ちょうど～と同じく"
     },
     {
+      "surface": "unknown",
+      "lemma": "unknown",
+      "meaning": "知られていない、正体・詳細が不明な。"
+    },
+    {
       "surface": "murderer",
       "lemma": "murderer",
       "meaning": "殺人犯"
@@ -5295,16 +7332,6 @@
       "surface": "specification",
       "lemma": "specification",
       "meaning": "条件明細、規格／人物像の条件"
-    },
-    {
-      "surface": "go into",
-      "lemma": "go into",
-      "meaning": "～について詳しく立ち入る"
-    },
-    {
-      "surface": "ran away",
-      "lemma": "run away",
-      "meaning": "逃げる／逃亡する"
     }
   ],
   "act2-speech-0205": [],
@@ -5332,9 +7359,9 @@
       "meaning": "～しなければならない／～する必要がある"
     },
     {
-      "surface": "'ve got to",
-      "lemma": "got to",
-      "meaning": "～しなければならない／～する必要がある"
+      "surface": "bear",
+      "lemma": "bear",
+      "meaning": "MollieがChristopherに、人生で起きるつらい出来事を受け止めて耐えながら生き続ける必要がある、と言っている。"
     },
     {
       "surface": "go on just as usual",
@@ -5353,9 +7380,19 @@
   "act2-speech-0216": [],
   "act2-speech-0217": [
     {
+      "surface": "horrible",
+      "lemma": "horrible",
+      "meaning": "とても不快な、恐ろしい、ひどい。"
+    },
+    {
       "surface": "put it out of my mind",
       "lemma": "put it out of one’s mind",
       "meaning": "～を考えないようにする"
+    },
+    {
+      "surface": "put it out of my mind",
+      "lemma": "put something out of one's mind",
+      "meaning": "Mollieが過去のつらい出来事を思い出さないよう意識的に抑え込んでいるという意味。出来事の内容自体はまだ明かされない。"
     }
   ],
   "act2-speech-0218": [
@@ -5363,6 +7400,11 @@
       "surface": "running away",
       "lemma": "run away",
       "meaning": "逃げる／逃避する"
+    },
+    {
+      "surface": "facing them",
+      "lemma": "face something",
+      "meaning": "困難・事実などから逃げずに向き合う。"
     }
   ],
   "act2-speech-0219": [
@@ -5372,7 +7414,13 @@
       "meaning": "やや／かなり（控えめな程度強調）"
     }
   ],
-  "act2-speech-0220": [],
+  "act2-speech-0220": [
+    {
+      "surface": "odd",
+      "lemma": "odd",
+      "meaning": "奇妙な、普通と違う。また奇数の。"
+    }
+  ],
   "act2-speech-0221": [
     {
       "surface": "sympathy",
@@ -5389,7 +7437,7 @@
     {
       "surface": "stick it out",
       "lemma": "stick it out",
-      "meaning": "最後まで耐え抜く"
+      "meaning": "Christopherが疑われている状況から逃げず、Monkswell Manorに残って耐えること。"
     }
   ],
   "act2-speech-0223": [
@@ -5401,6 +7449,11 @@
   ],
   "act2-speech-0224": [
     {
+      "surface": "pinch the sergeant's skis",
+      "lemma": "pinch",
+      "meaning": "ここでは「つねる」ではなく、ChristopherがTrotterのスキーを盗んで逃げる案を半ば冗談めかして口にしている英国口語。"
+    },
+    {
       "surface": "quite",
       "lemma": "quite",
       "meaning": "かなり、相当に"
@@ -5411,9 +7464,20 @@
       "surface": "frightfully",
       "lemma": "frightfully",
       "meaning": "ひどく、とても"
+    },
+    {
+      "surface": "guilty",
+      "lemma": "guilty",
+      "meaning": "犯罪・過失などについて罪がある、有罪の。"
     }
   ],
-  "act2-speech-0226": [],
+  "act2-speech-0226": [
+    {
+      "surface": "guilty",
+      "lemma": "guilty",
+      "meaning": "犯罪・過失などについて罪がある、有罪の。"
+    }
+  ],
   "act2-speech-0227": [
     {
       "surface": "At least",
@@ -5422,14 +7486,25 @@
     }
   ],
   "act2-speech-0228": [],
-  "act2-speech-0229": [],
+  "act2-speech-0229": [
+    {
+      "surface": "puts things into your head",
+      "lemma": "put something into someone's head",
+      "meaning": "MollieはTrotterの質問が、それまで考えなかった疑念を人の心に植え付けると感じている。"
+    },
+    {
+      "surface": "possibly",
+      "lemma": "possibly",
+      "meaning": "can't possibly be true で「絶対に本当であるはずがない」と、Mollieが疑念を強く拒んでいる。"
+    }
+  ],
   "act2-speech-0230": [],
   "act2-speech-0231": [],
   "act2-speech-0232": [
     {
       "surface": "out with it",
       "lemma": "out with it",
-      "meaning": "さあ言ってしまえ／白状しろ"
+      "meaning": "ChristopherがMollieに、何を疑っているのか隠さず言うよう強く促している。"
     }
   ],
   "act2-speech-0233": [],
@@ -5441,6 +7516,11 @@
       "surface": "went off",
       "lemma": "go off",
       "meaning": "立ち去る／鳴る・作動する"
+    },
+    {
+      "surface": "chicken wire",
+      "lemma": "chicken wire",
+      "meaning": "鶏小屋などの囲いに使う、細い金属線でできた網状の金網。"
     }
   ],
   "act2-speech-0238": [
@@ -5455,7 +7535,18 @@
       "meaning": "結局／やはり"
     }
   ],
-  "act2-speech-0239": [],
+  "act2-speech-0239": [
+    {
+      "surface": "pretend",
+      "lemma": "pretend",
+      "meaning": "事実ではないことを事実であるように装う、ふりをする。"
+    },
+    {
+      "surface": "countryside",
+      "lemma": "countryside",
+      "meaning": "都市部ではない田園・地方一帯。"
+    }
+  ],
   "act2-speech-0240": [
     {
       "surface": "murder",
@@ -5475,9 +7566,19 @@
       "surface": "Good Lord",
       "lemma": "Good Lord",
       "meaning": "なんてことだ／まったく"
+    },
+    {
+      "surface": "Surely",
+      "lemma": "surely",
+      "meaning": "確かに、きっと。また、相手も当然そう考えるはずだという含みで使う。"
     }
   ],
   "act2-speech-0243": [
+    {
+      "surface": "doubt",
+      "lemma": "doubt",
+      "meaning": "確かではないと思う、疑う；疑念。"
+    },
     {
       "surface": "stranger",
       "lemma": "stranger",
@@ -5494,12 +7595,23 @@
       "meaning": "ちょうど／ただ／ほんの（範囲を限定）"
     },
     {
-      "surface": "stranger",
-      "lemma": "stranger",
-      "meaning": "見知らぬ人"
+      "surface": "pretending",
+      "lemma": "pretend",
+      "meaning": "事実ではないことを事実であるように装う、ふりをする。"
+    },
+    {
+      "surface": "trust",
+      "lemma": "trust",
+      "meaning": "人・物を信頼する；信頼。"
     }
   ],
-  "act2-speech-0244": [],
+  "act2-speech-0244": [
+    {
+      "surface": "interrupting",
+      "lemma": "interrupt",
+      "meaning": "会話・行動などを途中で遮る。"
+    }
+  ],
   "act2-speech-0245": [
     {
       "surface": "just",
@@ -5519,17 +7631,17 @@
     {
       "surface": "Tête-à-têtes",
       "lemma": "tête-à-tête",
-      "meaning": "二人だけの内緒話／差し向かい"
-    },
-    {
-      "surface": "keep away from",
-      "lemma": "keep away from",
-      "meaning": "～に近づかない"
+      "meaning": "GilesはMollieとChristopherの二人きりの親密な会話を警戒し、嫉妬と殺人への疑念を込めて問題視している。"
     },
     {
       "surface": "at present",
       "lemma": "at present",
       "meaning": "現在のところ"
+    },
+    {
+      "surface": "keep away from",
+      "lemma": "keep away from",
+      "meaning": "～に近づかない"
     }
   ],
   "act2-speech-0250": [],
@@ -5548,9 +7660,14 @@
   "act2-speech-0252": [],
   "act2-speech-0253": [
     {
+      "surface": "loose",
+      "lemma": "loose",
+      "meaning": "固定・拘束されていない；人・動物が逃げ出して自由になっている。"
+    },
+    {
       "surface": "fit the bill",
       "lemma": "fit the bill",
-      "meaning": "条件にぴったり当てはまる"
+      "meaning": "GilesはChristopherが警察の想定する若い男性の犯人像に合う、と強く決めつけている。これはGilesの疑いであって事実認定ではない。"
     }
   ],
   "act2-speech-0254": [
@@ -5563,14 +7680,36 @@
   "act2-speech-0255": [],
   "act2-speech-0256": [
     {
+      "surface": "blind",
+      "lemma": "blind",
+      "meaning": "ChristopherがGilesを、明白な別の可能性に気づかない、または意図的に見ようとしていないと非難している比喩。"
+    },
+    {
       "surface": "just",
       "lemma": "just",
       "meaning": "ちょうど／ただ／ほんの（範囲を限定）"
+    },
+    {
+      "surface": "pretend",
+      "lemma": "pretend",
+      "meaning": "事実ではないことを事実であるように装う、ふりをする。"
     }
   ],
-  "act2-speech-0257": [],
+  "act2-speech-0257": [
+    {
+      "surface": "safety",
+      "lemma": "safety",
+      "meaning": "危険がなく安全であること。"
+    }
+  ],
   "act2-speech-0258": [],
-  "act2-speech-0259": [],
+  "act2-speech-0259": [
+    {
+      "surface": "hell",
+      "lemma": "hell",
+      "meaning": "Gilesの驚きと怒りを強める what the hell の一部で、「いったい何なんだ」のような強い反応。"
+    }
+  ],
   "act2-speech-0260": [],
   "act2-speech-0261": [],
   "act2-speech-0262": [],
@@ -5582,6 +7721,16 @@
     }
   ],
   "act2-speech-0264": [
+    {
+      "surface": "Perfectly",
+      "lemma": "perfectly",
+      "meaning": "完全に、まったく。また、非常にという強調にも使う。"
+    },
+    {
+      "surface": "prepared",
+      "lemma": "prepared",
+      "meaning": "準備ができた；～する覚悟・意思がある。"
+    },
     {
       "surface": "homicidal maniac",
       "lemma": "homicidal maniac",
@@ -5623,12 +7772,23 @@
     }
   ],
   "act2-speech-0271": [],
-  "act2-speech-0272": [],
+  "act2-speech-0272": [
+    {
+      "surface": "pretend",
+      "lemma": "pretend",
+      "meaning": "事実ではないことを事実であるように装う、ふりをする。"
+    }
+  ],
   "act2-speech-0273": [
     {
       "surface": "gone out of your mind",
       "lemma": "go out of one’s mind",
       "meaning": "正気を失う／ひどく取り乱す"
+    },
+    {
+      "surface": "dare",
+      "lemma": "dare",
+      "meaning": "勇気を出して～する；How dare ... で、よくも～できるものだ。"
     }
   ],
   "act2-speech-0274": [
@@ -5636,14 +7796,35 @@
       "surface": "Rather",
       "lemma": "rather",
       "meaning": "やや／かなり（控えめな程度強調）"
+    },
+    {
+      "surface": "odd",
+      "lemma": "odd",
+      "meaning": "奇妙な、普通と違う。また奇数の。"
+    },
+    {
+      "surface": "out-of-the-way place",
+      "lemma": "out-of-the-way",
+      "meaning": "GilesがMonkswell Manorを、人目につきにくい辺鄙な場所として捉え、Christopherがそこを選んだことを疑っている。"
     }
   ],
-  "act2-speech-0275": [],
+  "act2-speech-0275": [
+    {
+      "surface": "odder",
+      "lemma": "odd",
+      "meaning": "奇妙な、普通と違う。また奇数の。"
+    }
+  ],
   "act2-speech-0276": [
     {
       "surface": "homicidal",
       "lemma": "homicidal",
       "meaning": "殺人的な／殺人衝動のある"
+    },
+    {
+      "surface": "attract",
+      "lemma": "attract",
+      "meaning": "人の関心・好意などを引きつける。"
     },
     {
       "surface": "Looks as though",
@@ -5658,13 +7839,35 @@
   ],
   "act2-speech-0277": [
     {
+      "surface": "absolutely",
+      "lemma": "absolutely",
+      "meaning": "完全に、まったく。本当に。"
+    },
+    {
+      "surface": "ridiculous",
+      "lemma": "ridiculous",
+      "meaning": "非常にばかげていて、まともに受け取れないほど不合理な。"
+    },
+    {
       "surface": "set eyes on",
       "lemma": "set eyes on",
       "meaning": "～を目にする／見る"
     }
   ],
-  "act2-speech-0278": [],
-  "act2-speech-0279": [],
+  "act2-speech-0278": [
+    {
+      "surface": "on the sly",
+      "lemma": "on the sly",
+      "meaning": "Gilesが、Mollieが自分に隠れてChristopherと密会していたのではないかと嫉妬から疑っている。事実ではない。"
+    }
+  ],
+  "act2-speech-0279": [
+    {
+      "surface": "perfectly",
+      "lemma": "perfectly",
+      "meaning": "完全に、まったく。また、非常にという強調にも使う。"
+    }
+  ],
   "act2-speech-0280": [],
   "act2-speech-0281": [
     {
@@ -5673,13 +7876,42 @@
       "meaning": "まったく、完全に"
     }
   ],
-  "act2-speech-0282": [],
+  "act2-speech-0282": [
+    {
+      "surface": "gloves",
+      "lemma": "glove",
+      "meaning": "手を覆う手袋。"
+    }
+  ],
   "act2-speech-0283": [],
   "act2-speech-0284": [],
   "act2-speech-0285": [],
-  "act2-speech-0286": [],
-  "act2-speech-0287": [],
-  "act2-speech-0288": [],
+  "act2-speech-0286": [
+    {
+      "surface": "Whilst",
+      "lemma": "whilst",
+      "meaning": "～する間に、～である一方。whileに相当する英国英語。"
+    },
+    {
+      "surface": "countryside",
+      "lemma": "countryside",
+      "meaning": "都市部ではない田園・地方一帯。"
+    }
+  ],
+  "act2-speech-0287": [
+    {
+      "surface": "Whilst",
+      "lemma": "whilst",
+      "meaning": "～する間に、～である一方。whileに相当する英国英語。"
+    }
+  ],
+  "act2-speech-0288": [
+    {
+      "surface": "admit",
+      "lemma": "admit",
+      "meaning": "事実・非などを認める。"
+    }
+  ],
   "act2-speech-0289": [],
   "act2-speech-0290": [],
   "act2-speech-0291": [],
@@ -5688,6 +7920,11 @@
       "surface": "get hold of",
       "lemma": "get hold of",
       "meaning": "～を手に入れる／確保する"
+    },
+    {
+      "surface": "get hold of that",
+      "lemma": "get hold of",
+      "meaning": "Gilesが、Mollieが自分のポケットにあったロンドンの新聞をどのように手に入れたのか問いただしている。"
     }
   ],
   "act2-speech-0293": [
@@ -5712,7 +7949,13 @@
   ],
   "act2-speech-0301": [],
   "act2-speech-0302": [],
-  "act2-speech-0303": [],
+  "act2-speech-0303": [
+    {
+      "surface": "fool",
+      "lemma": "fool",
+      "meaning": "愚かな人、ばかなことをする人。"
+    }
+  ],
   "act2-speech-0304": [],
   "act2-speech-0305": [
     {
@@ -5723,9 +7966,19 @@
   ],
   "act2-speech-0306": [
     {
+      "surface": "what's come over you",
+      "lemma": "come over someone",
+      "meaning": "Gilesが、Mollieの態度が突然別人のように変わったことに戸惑って「どうしたんだ」と問いかけている。"
+    },
+    {
       "surface": "come over you",
       "lemma": "come over someone",
       "meaning": "感情・感覚が急に人を襲う"
+    },
+    {
+      "surface": "all of a sudden",
+      "lemma": "all of a sudden",
+      "meaning": "突然、不意に。"
     },
     {
       "surface": "as though",
@@ -5733,18 +7986,36 @@
       "meaning": "まるで～のように"
     }
   ],
-  "act2-speech-0307": [],
+  "act2-speech-0307": [
+    {
+      "surface": "suffered",
+      "lemma": "suffer",
+      "meaning": "苦痛・損害・つらい経験を受ける。"
+    }
+  ],
   "act2-speech-0308": [],
   "act2-speech-0309": [],
-  "act2-speech-0310": [],
-  "act2-speech-0311": [],
+  "act2-speech-0310": [
+    {
+      "surface": "hell",
+      "lemma": "hell",
+      "meaning": "GilesがParaviciniの割り込みに苛立って「いったい何を…」と強く反応している。"
+    }
+  ],
+  "act2-speech-0311": [
+    {
+      "surface": "apt to",
+      "lemma": "be apt to",
+      "meaning": "Paraviciniが、夫婦喧嘩では人は本心以上のことをつい言いがちだ、と二人の対立を軽く扱っている。"
+    },
+    {
+      "surface": "lovers' quarrels",
+      "lemma": "lovers' quarrel",
+      "meaning": "MollieとGilesの深刻な相互不信を、Paraviciniが単なる恋人同士の口論のように茶化している。"
+    }
+  ],
   "act2-speech-0312": [],
   "act2-speech-0313": [
-    {
-      "surface": "Quite",
-      "lemma": "quite",
-      "meaning": "かなり、相当に"
-    },
     {
       "surface": "Quite",
       "lemma": "quite",
@@ -5754,6 +8025,11 @@
       "surface": "just",
       "lemma": "just",
       "meaning": "ちょうど／ただ／ほんの（範囲を限定）"
+    },
+    {
+      "surface": "poet",
+      "lemma": "poet",
+      "meaning": "詩を書く人、詩人。"
     }
   ],
   "act2-speech-0314": [
@@ -5778,11 +8054,22 @@
       "surface": "came in",
       "lemma": "come in",
       "meaning": "入ってくる／中に入る"
+    },
+    {
+      "surface": "annoyed",
+      "lemma": "annoyed",
+      "meaning": "いら立った、腹を立てた。"
     }
   ],
   "act2-speech-0316": [],
   "act2-speech-0317": [],
-  "act2-speech-0318": [],
+  "act2-speech-0318": [
+    {
+      "surface": "by any chance",
+      "lemma": "by any chance",
+      "meaning": "Paraviciniが、Gilesがひょっとしてスキーを動かしたのではないかと柔らかい形で尋ねている。"
+    }
+  ],
   "act2-speech-0319": [],
   "act2-speech-0320": [],
   "act2-speech-0321": [],
@@ -5805,6 +8092,11 @@
       "surface": "seen to",
       "lemma": "see to",
       "meaning": "～を処理する／面倒を見る"
+    },
+    {
+      "surface": "seen to it that you certainly shan't do that",
+      "lemma": "see to it that",
+      "meaning": "誰かがTrotterを警察署へ行かせないよう、意図的にスキーを隠した可能性をParaviciniが示している。"
     },
     {
       "surface": "shan't",
@@ -5833,10 +8125,20 @@
       "surface": "architect",
       "lemma": "architect",
       "meaning": "建築家"
+    },
+    {
+      "surface": "hooked it",
+      "lemma": "hook it",
+      "meaning": "Paraviciniが、Christopherがスキーを持って逃げ出したのではないかと面白がって推測している。実際にはこの直後Christopherが現れる。"
     }
   ],
   "act2-speech-0331": [],
   "act2-speech-0332": [
+    {
+      "surface": "thank goodness",
+      "lemma": "thank goodness",
+      "meaning": "安堵や感謝を表して「よかった」「ありがたい」と言う定型表現。"
+    },
     {
       "surface": "after all",
       "lemma": "after all",
@@ -5860,6 +8162,11 @@
   ],
   "act2-speech-0337": [],
   "act2-speech-0338": [
+    {
+      "surface": "communication",
+      "lemma": "communication",
+      "meaning": "情報を伝え合うこと；連絡・通信。"
+    },
     {
       "surface": "at once",
       "lemma": "at once",
@@ -5939,6 +8246,11 @@
       "surface": "went on",
       "lemma": "go on",
       "meaning": "続く／続ける"
+    },
+    {
+      "surface": "whether",
+      "lemma": "whether",
+      "meaning": "二つ以上の可能性のどちらであるか、または～かどうかを示す。"
     }
   ],
   "act2-speech-0364": [
@@ -5948,7 +8260,13 @@
       "meaning": "機会／犯行可能性"
     }
   ],
-  "act2-speech-0365": [],
+  "act2-speech-0365": [
+    {
+      "surface": "grant you that",
+      "lemma": "grant someone that",
+      "meaning": "Metcalfが、自分にもスキーを取る機会があったというTrotterの指摘だけは認めている。"
+    }
+  ],
   "act2-speech-0366": [],
   "act2-speech-0367": [
     {
@@ -5959,7 +8277,7 @@
     {
       "surface": "set to",
       "lemma": "set to",
-      "meaning": "本腰を入れて取りかかる"
+      "meaning": "Metcalfが全員で手分けしてすぐスキー探しを始めようと提案している。"
     },
     {
       "surface": "case",
@@ -5967,14 +8285,19 @@
       "meaning": "事例、場合"
     },
     {
+      "surface": "Hunt the Thimble",
+      "lemma": "Hunt the Thimble",
+      "meaning": "小さな物を探す室内遊びになぞらえ、巨大なスキーなら簡単に見つかるはずだと冗談めかしている。"
+    },
+    {
       "surface": "Whacking great",
       "lemma": "whacking great",
       "meaning": "ばかでかい"
     },
     {
-      "surface": "set to",
-      "lemma": "set to",
-      "meaning": "本腰を入れて取りかかる"
+      "surface": "Whacking great things",
+      "lemma": "whacking",
+      "meaning": "スキーが隠しにくいほど非常に大きい、と英国口語で強調している。"
     }
   ],
   "act2-speech-0368": [
@@ -6002,19 +8325,19 @@
       "meaning": "～の立場になって考える"
     },
     {
+      "surface": "put myself in the place of",
+      "lemma": "put oneself in someone's place",
+      "meaning": "Trotterが犯人の思考を想像し、その次の行動を予測しようとしている。共感ではなく捜査上の思考実験。"
+    },
+    {
       "surface": "cunning",
       "lemma": "cunning",
       "meaning": "ずる賢い、巧妙な"
     },
     {
-      "surface": "'ve got to",
-      "lemma": "got to",
-      "meaning": "～しなければならない／～する必要がある"
-    },
-    {
-      "surface": "'ve got to",
-      "lemma": "got to",
-      "meaning": "～しなければならない／～する必要がある"
+      "surface": "keep just one step ahead",
+      "lemma": "keep one step ahead",
+      "meaning": "犯人が動く前に意図を読み、次の殺人を防げる程度に先回りすること。"
     },
     {
       "surface": "just",
@@ -6030,9 +8353,14 @@
   "act2-speech-0371": [],
   "act2-speech-0372": [
     {
+      "surface": "blind",
+      "lemma": "blind",
+      "meaning": "目が見えない、視覚を失っている。"
+    },
+    {
       "surface": "cancelled out",
       "lemma": "cancel out",
-      "meaning": "相殺された／除外された"
+      "meaning": "Trotterが童謡の三匹のネズミになぞらえ、すでに二人が殺されたことを冷たく数え上げる比喩的表現。"
     },
     {
       "surface": "dealt with",
@@ -6042,7 +8370,7 @@
     {
       "surface": "prospective victim",
       "lemma": "prospective victim",
-      "meaning": "次の被害者になり得る人"
+      "meaning": "Trotterが、館内の誰かを犯人が次の標的としている可能性が高いと警告している。誰なのかはまだ不明。"
     },
     {
       "surface": "held out on",
@@ -6060,14 +8388,29 @@
       "meaning": "情報などを隠して出し渋る"
     },
     {
+      "surface": "hesitate",
+      "lemma": "hesitate",
+      "meaning": "ためらう、すぐ行動せず迷う。"
+    },
+    {
       "surface": "protection",
       "lemma": "protection",
       "meaning": "保護"
     },
     {
+      "surface": "slight",
+      "lemma": "slight",
+      "meaning": "程度・量などがごく小さい、わずかな。"
+    },
+    {
       "surface": "reproach",
       "lemma": "reproach",
       "meaning": "非難、責め"
+    },
+    {
+      "surface": "reproach themselves for",
+      "lemma": "reproach oneself",
+      "meaning": "Longridge Farm事件について少しでも自分に責任・後ろめたさがある者は、それを認めるべきだという意味。"
     },
     {
       "surface": "business",
@@ -6083,13 +8426,33 @@
       "surface": "come out with it",
       "lemma": "come out with it",
       "meaning": "隠していることを言う／打ち明ける"
+    },
+    {
+      "surface": "come out with it",
+      "lemma": "come out with something",
+      "meaning": "Longridge Farmとの隠れた関係をこれ以上伏せず、今すぐTrotterに打ち明けること。"
+    },
+    {
+      "surface": "doubt",
+      "lemma": "doubt",
+      "meaning": "確かではないと思う、疑う；疑念。"
     }
   ],
   "act2-speech-0373": [
     {
+      "surface": "livers",
+      "lemma": "liver",
+      "meaning": "肝臓；食材としてのレバー。"
+    },
+    {
       "surface": "just",
       "lemma": "just",
       "meaning": "ちょうど／ただ／ほんの（範囲を限定）"
+    },
+    {
+      "surface": "soupçon",
+      "lemma": "soupçon",
+      "meaning": "Paraviciniが料理を気取って説明し、「ほんのわずかな」マスタードというしゃれた言い回しを使っている。"
     },
     {
       "surface": "mustard",
@@ -6100,6 +8463,11 @@
       "surface": "concoct",
       "lemma": "concoct",
       "meaning": "でっち上げる／考案する"
+    },
+    {
+      "surface": "charming",
+      "lemma": "charming",
+      "meaning": "人を引きつける魅力があり、感じがよい。"
     },
     {
       "surface": "occupation",
@@ -6120,9 +8488,24 @@
       "meaning": "事情、状況"
     },
     {
+      "surface": "doesn't fancy your being alone with me",
+      "lemma": "fancy someone's doing",
+      "meaning": "GilesがMollieをParaviciniと二人きりにしたくない、という警戒をParaviciniがからかって表現している。"
+    },
+    {
       "surface": "sadistic",
       "lemma": "sadistic",
       "meaning": "加虐的な"
+    },
+    {
+      "surface": "sadistic tendencies",
+      "lemma": "sadistic tendency",
+      "meaning": "Paraviciniが、Gilesは自分を性的なライバルとしてではなく危険人物として恐れている、とブラックユーモアで自分を物騒に描写している。"
+    },
+    {
+      "surface": "fears",
+      "lemma": "fear",
+      "meaning": "危険や悪い結果を予想して感じる恐れ、不安。また、それを恐れる。"
     },
     {
       "surface": "dishonourable",
@@ -6138,9 +8521,19 @@
   "act2-speech-0376": [],
   "act2-speech-0377": [
     {
+      "surface": "wise",
+      "lemma": "wise",
+      "meaning": "知恵があり判断が適切な、賢明な。"
+    },
+    {
       "surface": "homicidal maniac",
       "lemma": "homicidal maniac",
       "meaning": "殺人衝動のある狂人／殺人犯として描写された人物"
+    },
+    {
+      "surface": "prove a negative",
+      "lemma": "prove a negative",
+      "meaning": "自分が殺人犯ではないことのように「存在しないこと」を証明するのは難しい、とParaviciniが自分への疑いを面白がっている。"
     }
   ],
   "act2-speech-0378": [],
@@ -6156,9 +8549,19 @@
       "meaning": "旋律、曲"
     },
     {
+      "surface": "tails",
+      "lemma": "tail",
+      "meaning": "動物の尾、しっぽ。"
+    },
+    {
       "surface": "Just",
       "lemma": "just",
       "meaning": "まさに、ちょうど"
+    },
+    {
+      "surface": "Cruel",
+      "lemma": "cruel",
+      "meaning": "人や動物に苦痛を与えることを気にしない、残酷な。"
     },
     {
       "surface": "grow up",
@@ -6168,13 +8571,30 @@
   ],
   "act2-speech-0380": [
     {
+      "surface": "frightening",
+      "lemma": "frighten",
+      "meaning": "人を怖がらせる。"
+    },
+    {
       "surface": "at once",
       "lemma": "at once",
       "meaning": "すぐに／同時に"
     }
   ],
-  "act2-speech-0381": [],
-  "act2-speech-0382": [],
+  "act2-speech-0381": [
+    {
+      "surface": "silly",
+      "lemma": "silly",
+      "meaning": "考えが浅い、ばかげた、分別に欠ける。"
+    }
+  ],
+  "act2-speech-0382": [
+    {
+      "surface": "the forgetting kind",
+      "lemma": "the forgetting kind",
+      "meaning": "ParaviciniがMollieを、つらいことを簡単に忘れられる人ではないと見抜いたように語り、彼女の過去にも不穏な含みを持たせている。"
+    }
+  ],
   "act2-speech-0383": [
     {
       "surface": "spinach",
@@ -6182,7 +8602,13 @@
       "meaning": "ほうれん草"
     }
   ],
-  "act2-speech-0384": [],
+  "act2-speech-0384": [
+    {
+      "surface": "upset",
+      "lemma": "upset",
+      "meaning": "心を乱され、動揺・不安・不快を感じている。また、人をその状態にする。"
+    }
+  ],
   "act2-speech-0385": [
     {
       "surface": "just",
@@ -6195,20 +8621,58 @@
       "meaning": "無実の／罪のない"
     },
     {
+      "surface": "innocent fun",
+      "lemma": "innocent fun",
+      "meaning": "ParaviciniはMollieを怖がらせた言動を「害のない冗談」にすぎないと軽く扱っており、Trotterは次の発言でそれを否定する。"
+    },
+    {
       "surface": "been fond of",
       "lemma": "be fond of",
       "meaning": "～が好きである"
     }
   ],
   "act2-speech-0386": [],
-  "act2-speech-0387": [],
-  "act2-speech-0388": [],
-  "act2-speech-0389": [],
+  "act2-speech-0387": [
+    {
+      "surface": "wonder",
+      "lemma": "wonder",
+      "meaning": "～だろうかと思う、不思議に思う。また、驚き・驚くべきもの。"
+    }
+  ],
+  "act2-speech-0388": [
+    {
+      "surface": "wondering",
+      "lemma": "wonder",
+      "meaning": "～だろうかと思う、不思議に思う。また、驚き・驚くべきもの。"
+    }
+  ],
+  "act2-speech-0389": [
+    {
+      "surface": "Indeed",
+      "lemma": "indeed",
+      "meaning": "ParaviciniがTrotterの含みのある発言に「ほう、そうですか？」と探るように返している。"
+    }
+  ],
   "act2-speech-0390": [
+    {
+      "surface": "wondering",
+      "lemma": "wonder",
+      "meaning": "～だろうかと思う、不思議に思う。また、驚き・驚くべきもの。"
+    },
+    {
+      "surface": "overturn",
+      "lemma": "overturn",
+      "meaning": "ひっくり返る・ひっくり返す。また、決定などを覆す。"
+    },
     {
       "surface": "snowdrift",
       "lemma": "snowdrift",
       "meaning": "雪の吹きだまり"
+    },
+    {
+      "surface": "so conveniently",
+      "lemma": "conveniently",
+      "meaning": "TrotterはParaviciniの車が都合よくMonkswell Manor近くで動けなくなったという説明を皮肉に疑っており、「好都合すぎる」の意。"
     }
   ],
   "act2-speech-0391": [],
@@ -6224,6 +8688,11 @@
       "meaning": "ちょうど／ただ／ほんの（範囲を限定）"
     },
     {
+      "surface": "bound for",
+      "lemma": "bound for",
+      "meaning": "Trotterが、事故を起こす前にParaviciniが本来どこを目的地としていたのか確認している。"
+    },
+    {
       "surface": "by the way",
       "lemma": "by the way",
       "meaning": "ところで／ちなみに"
@@ -6236,7 +8705,13 @@
       "meaning": "向かっている途中で"
     }
   ],
-  "act2-speech-0394": [],
+  "act2-speech-0394": [
+    {
+      "surface": "neighbourhood",
+      "lemma": "neighbourhood",
+      "meaning": "近所、周辺地域。"
+    }
+  ],
   "act2-speech-0395": [],
   "act2-speech-0396": [],
   "act2-speech-0397": [
@@ -6251,9 +8726,14 @@
   "act2-speech-0400": [],
   "act2-speech-0401": [
     {
+      "surface": "An amour",
+      "lemma": "amour",
+      "meaning": "Paraviciniが訪問先を明かさない理由として、秘密の情事だった可能性を芝居がかった調子でほのめかしている。"
+    },
+    {
       "surface": "discretion",
       "lemma": "discretion",
-      "meaning": "慎重な判断／口外しない配慮"
+      "meaning": "秘密の恋愛なら相手の名を言わないのは慎み・秘密保持のためだ、とParaviciniが逃げ口上に使っている。"
     },
     {
       "surface": "jealous",
@@ -6311,6 +8791,11 @@
   ],
   "act2-speech-0415": [
     {
+      "surface": "dislike permanency",
+      "lemma": "permanency",
+      "meaning": "Paraviciniが恒久的な住所を答える代わりに「定住が嫌い」と洒落た言い回しで質問をかわしている。"
+    },
+    {
       "surface": "permanency",
       "lemma": "permanency",
       "meaning": "永続性、定住性"
@@ -6328,7 +8813,13 @@
       "meaning": "専門職／職業"
     }
   ],
-  "act2-speech-0417": [],
+  "act2-speech-0417": [
+    {
+      "surface": "play the markets",
+      "lemma": "play the markets",
+      "meaning": "Paraviciniは職業を明確にせず、金融市場で投機しているという曖昧で遊びめいた答えを返している。"
+    }
+  ],
   "act2-speech-0418": [
     {
       "surface": "Stockbroker",
@@ -6345,6 +8836,11 @@
   ],
   "act2-speech-0420": [
     {
+      "surface": "mixed up in a murder case",
+      "lemma": "mixed up in",
+      "meaning": "TrotterがParaviciniに、好むと好まざるとにかかわらず実際の殺人捜査に関係する立場にいると警告している。"
+    },
+    {
       "surface": "murder",
       "lemma": "murder",
       "meaning": "殺人、殺害"
@@ -6355,14 +8851,14 @@
       "meaning": "事件、案件"
     },
     {
-      "surface": "Murder",
-      "lemma": "murder",
-      "meaning": "殺人、殺害"
-    },
-    {
       "surface": "just",
       "lemma": "just",
       "meaning": "ちょうど／ただ／ほんの（範囲を限定）"
+    },
+    {
+      "surface": "fun and games",
+      "lemma": "fun and games",
+      "meaning": "Trotterが、実際の殺人はParaviciniが楽しむような冗談や遊びではない、と強く釘を刺している。"
     }
   ],
   "act2-speech-0421": [
@@ -6377,9 +8873,14 @@
       "meaning": "警察官"
     },
     {
+      "surface": "humour",
+      "lemma": "humour",
+      "meaning": "ユーモア、物事のおかしさを理解し楽しむ感覚。"
+    },
+    {
       "surface": "inquisition",
       "lemma": "inquisition",
-      "meaning": "厳しい尋問、詮索"
+      "meaning": "ParaviciniがTrotterの厳しい尋問を大げさに「異端審問」のようだと皮肉っている。"
     }
   ],
   "act2-speech-0422": [],
@@ -6393,6 +8894,11 @@
       "surface": "in case",
       "lemma": "in case",
       "meaning": "～の場合に備えて"
+    },
+    {
+      "surface": "grand piano",
+      "lemma": "grand piano",
+      "meaning": "弦を水平に張った大型のグランドピアノ。"
     }
   ],
   "act2-speech-0424": [
@@ -6424,7 +8930,13 @@
   "act2-speech-0438": [],
   "act2-speech-0439": [],
   "act2-speech-0440": [],
-  "act2-speech-0441": [],
+  "act2-speech-0441": [
+    {
+      "surface": "Care of Morgan's Bank",
+      "lemma": "care of",
+      "meaning": "住所での care of は「～方／～気付」の意味。Casewellは英国で固定住所を示さず、Morgan's Bankを郵便物の受取先としている。"
+    }
+  ],
   "act2-speech-0442": [],
   "act2-speech-0443": [],
   "act2-speech-0444": [],
@@ -6444,6 +8956,11 @@
       "surface": "propose",
       "lemma": "propose",
       "meaning": "提案する／～するつもりである"
+    },
+    {
+      "surface": "remain",
+      "lemma": "remain",
+      "meaning": "そのまま残る、とどまる。"
     }
   ],
   "act2-speech-0451": [],
@@ -6459,6 +8976,11 @@
   ],
   "act2-speech-0456": [],
   "act2-speech-0457": [
+    {
+      "surface": "concerns",
+      "lemma": "concern",
+      "meaning": "心配、関心。事業・会社を指すこともある。"
+    },
     {
       "surface": "strictly",
       "lemma": "strictly",
@@ -6489,7 +9011,7 @@
     {
       "surface": "Not in the least",
       "lemma": "not in the least",
-      "meaning": "少しも～ない／全然構わない"
+      "meaning": "年齢を尋ねられることを「少しも気にしない」とCasewellが平然と答えている。"
     },
     {
       "surface": "passport",
@@ -6510,6 +9032,11 @@
       "surface": "vouch for",
       "lemma": "vouch for",
       "meaning": "～を保証する／身元を請け合う"
+    },
+    {
+      "surface": "vouch for you",
+      "lemma": "vouch for",
+      "meaning": "Trotterは、英国でCasewellの身元や信用を裏付けられる人物がいるかを確認している。"
     }
   ],
   "act2-speech-0465": [
@@ -6522,6 +9049,11 @@
       "surface": "as to",
       "lemma": "as to",
       "meaning": "～について"
+    },
+    {
+      "surface": "as to my financial position",
+      "lemma": "as to",
+      "meaning": "Casewellは銀行なら自分の経済的信用については保証できる、と話題を限定して答えている。"
     },
     {
       "surface": "financial position",
@@ -6573,7 +9105,7 @@
     {
       "surface": "make you out",
       "lemma": "make someone out",
-      "meaning": "人の正体・性格を理解する"
+      "meaning": "TrotterがCasewellの人物像や行動の理由をどうにもつかめない、という意味。文字を判読する意味ではない。"
     }
   ],
   "act2-speech-0471": [],
@@ -6596,11 +9128,23 @@
   "act2-speech-0476": [],
   "act2-speech-0477": [],
   "act2-speech-0478": [],
-  "act2-speech-0479": [],
+  "act2-speech-0479": [
+    {
+      "surface": "prove",
+      "lemma": "prove",
+      "meaning": "証明する、事実であると示す。"
+    }
+  ],
   "act2-speech-0480": [],
   "act2-speech-0481": [],
   "act2-speech-0482": [],
-  "act2-speech-0483": [],
+  "act2-speech-0483": [
+    {
+      "surface": "Possibly",
+      "lemma": "possibly",
+      "meaning": "もしかすると；可能な限り。否定語とともに強い不可能を表すことがある。"
+    }
+  ],
   "act2-speech-0484": [
     {
       "surface": "despair",
@@ -6610,6 +9154,11 @@
   ],
   "act2-speech-0485": [
     {
+      "surface": "I daresay",
+      "lemma": "daresay",
+      "meaning": "CasewellがTrotterの一般論を深く認めず、「まあ、そうでしょうね」程度に受け流している英国的な言い方。"
+    },
+    {
       "surface": "daresay",
       "lemma": "daresay",
       "meaning": "たぶん～だろう／～と思う"
@@ -6617,9 +9166,21 @@
   ],
   "act2-speech-0486": [],
   "act2-speech-0487": [],
-  "act2-speech-0488": [],
+  "act2-speech-0488": [
+    {
+      "surface": "hell",
+      "lemma": "hell",
+      "meaning": "what the hell ... で、Trotterの強い驚きと動揺を表し、『いったい何をしているんだ』に近い強調。"
+    }
+  ],
   "act2-speech-0489": [],
-  "act2-speech-0490": [],
+  "act2-speech-0490": [
+    {
+      "surface": "the third degree",
+      "lemma": "the third degree",
+      "meaning": "ChristopherがTrotterの厳しい質問を、強圧的な取り調べのようだと批判的・大げさに表現している古めの慣用句。"
+    }
+  ],
   "act2-speech-0491": [
     {
       "surface": "merely",
@@ -6632,7 +9193,13 @@
       "meaning": "尋問する"
     }
   ],
-  "act2-speech-0492": [],
+  "act2-speech-0492": [
+    {
+      "surface": "upset",
+      "lemma": "upset",
+      "meaning": "心を乱され、動揺・不安・不快を感じている。また、人をその状態にする。"
+    }
+  ],
   "act2-speech-0493": [
     {
       "surface": "just",
@@ -6645,9 +9212,19 @@
       "meaning": "殺人、殺害"
     },
     {
+      "surface": "horrible",
+      "lemma": "horrible",
+      "meaning": "とても不快な、恐ろしい、ひどい。"
+    },
+    {
       "surface": "came over me",
       "lemma": "come over someone",
       "meaning": "感情・感覚が急に人を襲う"
+    },
+    {
+      "surface": "came over me suddenly",
+      "lemma": "come over someone",
+      "meaning": "Casewellが突然強い感情に襲われ、動揺したという意味。単に誰かが近づいて来たのではない。"
     },
     {
       "surface": "go up",
@@ -6681,6 +9258,11 @@
       "surface": "look as though",
       "lemma": "look as though",
       "meaning": "まるで～のように見える"
+    },
+    {
+      "surface": "you'd seen a ghost",
+      "lemma": "look as though one has seen a ghost",
+      "meaning": "ChristopherがTrotterの表情を、非常に驚き動揺しているようだと比喩的に評している。"
     }
   ],
   "act2-speech-0498": [
@@ -6692,16 +9274,48 @@
     {
       "surface": "Blind as a bat",
       "lemma": "blind as a bat",
-      "meaning": "まるで見えていない／ひどく見落としている"
+      "meaning": "Trotterが、重要な点を今まで見落としていた自分を「まるで何も見えていなかった」と自嘲している比喩。"
+    },
+    {
+      "surface": "get somewhere",
+      "lemma": "get somewhere",
+      "meaning": "新しい気づきによって捜査がようやく前進しそうだ、という意味。物理的にどこかへ移動することではない。"
     }
   ],
-  "act2-speech-0499": [],
-  "act2-speech-0500": [],
+  "act2-speech-0499": [
+    {
+      "surface": "clue",
+      "lemma": "clue",
+      "meaning": "問題や事件を解く手掛かり。"
+    }
+  ],
+  "act2-speech-0500": [
+    {
+      "surface": "clue",
+      "lemma": "clue",
+      "meaning": "問題や事件を解く手掛かり。"
+    },
+    {
+      "surface": "assembled",
+      "lemma": "assemble",
+      "meaning": "人を一か所に集める、集合させる。"
+    }
+  ],
   "act2-speech-0501": [
+    {
+      "surface": "entertaining",
+      "lemma": "entertaining",
+      "meaning": "面白い、楽しませる。"
+    },
     {
       "surface": "all to no avail",
       "lemma": "all to no avail",
       "meaning": "まったく効果なく"
+    },
+    {
+      "surface": "all to no avail",
+      "lemma": "to no avail",
+      "meaning": "スキーをいろいろな場所で探したが、結局何の成果もなかったという意味。"
     }
   ],
   "act2-speech-0502": [],
@@ -6741,6 +9355,11 @@
       "meaning": "協力"
     },
     {
+      "surface": "intend",
+      "lemma": "intend",
+      "meaning": "～するつもりである、意図する。"
+    },
+    {
       "surface": "come down",
       "lemma": "come down",
       "meaning": "下りてくる"
@@ -6764,7 +9383,13 @@
       "meaning": "現時点では"
     }
   ],
-  "act2-speech-0512": [],
+  "act2-speech-0512": [
+    {
+      "surface": "chapter",
+      "lemma": "chapter",
+      "meaning": "Paraviciniが捜査を推理小説になぞらえ、真相説明は『最後の章』まで取っておくべきだと芝居がかって茶化している。"
+    }
+  ],
   "act2-speech-0513": [],
   "act2-speech-0514": [],
   "act2-speech-0515": [
@@ -6792,9 +9417,9 @@
       "meaning": "供述、陳述"
     },
     {
-      "surface": "statements",
-      "lemma": "statement",
-      "meaning": "供述、陳述"
+      "surface": "related",
+      "lemma": "relate",
+      "meaning": "～に関係する、関連がある。また、出来事を語る。"
     },
     {
       "surface": "positions",
@@ -6802,19 +9427,9 @@
       "meaning": "その時いた場所、位置"
     },
     {
-      "surface": "murder",
-      "lemma": "murder",
-      "meaning": "殺人、殺害"
-    },
-    {
       "surface": "committed",
       "lemma": "commit",
       "meaning": "（犯罪が）行われた"
-    },
-    {
-      "surface": "statements",
-      "lemma": "statement",
-      "meaning": "供述、陳述"
     },
     {
       "surface": "ditto",
@@ -6840,19 +9455,9 @@
       "meaning": "確認する手段"
     },
     {
-      "surface": "statements",
-      "lemma": "statement",
-      "meaning": "供述、陳述"
-    },
-    {
       "surface": "put it quite clearly",
       "lemma": "put it quite clearly",
       "meaning": "はっきり言えば"
-    },
-    {
-      "surface": "statements",
-      "lemma": "statement",
-      "meaning": "供述、陳述"
     },
     {
       "surface": "speaking the truth",
@@ -6882,6 +9487,11 @@
       "surface": "rather",
       "lemma": "rather",
       "meaning": "やや／かなり（控えめな程度強調）"
+    },
+    {
+      "surface": "doubt",
+      "lemma": "doubt",
+      "meaning": "確かではないと思う、疑う；疑念。"
     }
   ],
   "act2-speech-0522": [
@@ -6906,9 +9516,19 @@
       "surface": "go through",
       "lemma": "go through",
       "meaning": "一通り行う、繰り返す"
+    },
+    {
+      "surface": "go through these actions a second time",
+      "lemma": "go through",
+      "meaning": "全員に、殺人時にしたと申告した行動をもう一度順に実行させる、というTrotterの提案。"
     }
   ],
   "act2-speech-0524": [
+    {
+      "surface": "that old chestnut",
+      "lemma": "old chestnut",
+      "meaning": "Paraviciniが「犯罪の再現」という発想を、使い古されたお決まりの手だと茶化している。"
+    },
     {
       "surface": "old chestnut",
       "lemma": "old chestnut",
@@ -6929,14 +9549,14 @@
   ],
   "act2-speech-0526": [
     {
-      "surface": "reconstruction of the crime",
-      "lemma": "reconstruction of the crime",
-      "meaning": "犯行状況の再現"
-    },
-    {
       "surface": "reconstruction",
       "lemma": "reconstruction",
       "meaning": "再現、再構成"
+    },
+    {
+      "surface": "reconstruction of the crime",
+      "lemma": "reconstruction of the crime",
+      "meaning": "犯行状況の再現"
     },
     {
       "surface": "apparently",
@@ -6952,18 +9572,57 @@
   "act2-speech-0527": [],
   "act2-speech-0528": [
     {
+      "surface": "forgive",
+      "lemma": "forgive",
+      "meaning": "人の過ちや失礼を許し、それを責め続けない。"
+    },
+    {
       "surface": "just",
       "lemma": "just",
       "meaning": "ちょうど／ただ／ほんの（範囲を限定）"
     }
   ],
-  "act2-speech-0529": [],
+  "act2-speech-0529": [
+    {
+      "surface": "performance",
+      "lemma": "performance",
+      "meaning": "演技・公演；何かを実行すること。"
+    }
+  ],
   "act2-speech-0530": [],
-  "act2-speech-0531": [],
-  "act2-speech-0532": [],
-  "act2-speech-0533": [],
+  "act2-speech-0531": [
+    {
+      "surface": "trap",
+      "lemma": "trap",
+      "meaning": "人や動物を捕らえる罠；人を不利な状況へ誘い込む仕掛け。"
+    }
+  ],
+  "act2-speech-0532": [
+    {
+      "surface": "trap",
+      "lemma": "trap",
+      "meaning": "人や動物を捕らえる罠；人を不利な状況へ誘い込む仕掛け。"
+    }
+  ],
+  "act2-speech-0533": [
+    {
+      "surface": "trap",
+      "lemma": "trap",
+      "meaning": "人や動物を捕らえる罠；人を不利な状況へ誘い込む仕掛け。"
+    }
+  ],
   "act2-speech-0534": [],
   "act2-speech-0535": [
+    {
+      "surface": "simply",
+      "lemma": "simply",
+      "meaning": "単純に、ただ；発言を強めて『本当に、まったく』。"
+    },
+    {
+      "surface": "possibly",
+      "lemma": "possibly",
+      "meaning": "もしかすると；可能な限り。否定語とともに強い不可能を表すことがある。"
+    },
     {
       "surface": "find out",
       "lemma": "find out",
@@ -6975,26 +9634,54 @@
       "meaning": "ちょうど／ただ／ほんの（範囲を限定）"
     },
     {
-      "surface": "just",
-      "lemma": "just",
-      "meaning": "たった今、ちょうど～したところ"
+      "surface": "nonsense",
+      "lemma": "nonsense",
+      "meaning": "意味をなさないこと、ばかげたこと・発言。"
     }
   ],
   "act2-speech-0536": [],
-  "act2-speech-0537": [],
+  "act2-speech-0537": [
+    {
+      "surface": "count me out",
+      "lemma": "count someone out",
+      "meaning": "Mollieがその再現実験の参加者から自分を外してほしい、と拒もうとしている。"
+    }
+  ],
   "act2-speech-0538": [
+    {
+      "surface": "guilty",
+      "lemma": "guilty",
+      "meaning": "犯罪・過失などについて罪がある、有罪の。"
+    },
     {
       "surface": "unwilling",
       "lemma": "unwilling",
       "meaning": "気が進まない、したがらない"
     }
   ],
-  "act2-speech-0539": [],
+  "act2-speech-0539": [
+    {
+      "surface": "what you say goes",
+      "lemma": "what someone says goes",
+      "meaning": "GilesがTrotterの指示に従うと認め、「あなたが決めた通りにする」という意味で使っている。"
+    },
+    {
+      "surface": "cooperate",
+      "lemma": "cooperate",
+      "meaning": "共通の目的のため協力する。"
+    }
+  ],
   "act2-speech-0540": [],
   "act2-speech-0541": [],
   "act2-speech-0542": [],
   "act2-speech-0543": [],
-  "act2-speech-0544": [],
+  "act2-speech-0544": [
+    {
+      "surface": "consent",
+      "lemma": "consent",
+      "meaning": "提案・行為などを受け入れて同意すること、または同意する。"
+    }
+  ],
   "act2-speech-0545": [],
   "act2-speech-0546": [],
   "act2-speech-0547": [],
@@ -7037,9 +9724,20 @@
       "surface": "just",
       "lemma": "just",
       "meaning": "まさに～のように／ちょうど～と同じく"
+    },
+    {
+      "surface": "signal",
+      "lemma": "signal",
+      "meaning": "行動開始などを知らせる合図、信号；合図する。"
     }
   ],
-  "act2-speech-0555": [],
+  "act2-speech-0555": [
+    {
+      "surface": "former",
+      "lemma": "former",
+      "meaning": "以前の、前の。"
+    }
+  ],
   "act2-speech-0556": [
     {
       "surface": "not necessarily",
@@ -7047,7 +9745,13 @@
       "meaning": "必ずしもそうではない"
     }
   ],
-  "act2-speech-0557": [],
+  "act2-speech-0557": [
+    {
+      "surface": "see the point",
+      "lemma": "see the point",
+      "meaning": "Gilesは、同じ行動を別人にさせることにどんな目的・意味があるのか理解できないと言っている。"
+    }
+  ],
   "act2-speech-0558": [
     {
       "surface": "checking up on",
@@ -7055,12 +9759,17 @@
       "meaning": "～を調べて確認する"
     },
     {
-      "surface": "statements",
+      "surface": "checking up on the original statements",
+      "lemma": "check up on",
+      "meaning": "Trotterは再現によって、最初の供述が本当に成立するかを検証すると説明している。"
+    },
+    {
+      "surface": "statement",
       "lemma": "statement",
       "meaning": "供述、陳述"
     },
     {
-      "surface": "statement",
+      "surface": "statements",
       "lemma": "statement",
       "meaning": "供述、陳述"
     },
@@ -7095,6 +9804,16 @@
       "meaning": "～を見張る／注意して見ておく"
     },
     {
+      "surface": "keep an eye on Mrs. Ralston's dinner",
+      "lemma": "keep an eye on",
+      "meaning": "Christopherに、Mollieの代わりに料理の様子を見ておくよう頼んでいる。監視対象は人ではなく料理。"
+    },
+    {
+      "surface": "fond",
+      "lemma": "fond",
+      "meaning": "～が好きで、好んで。"
+    },
+    {
       "surface": "go up",
       "lemma": "go up",
       "meaning": "上へ行く／上階へ行く"
@@ -7105,9 +9824,9 @@
       "meaning": "都合がよい／便利な"
     },
     {
-      "surface": "go up",
-      "lemma": "go up",
-      "meaning": "上へ行く／上階へ行く"
+      "surface": "examine",
+      "lemma": "examine",
+      "meaning": "詳しく調べる、検査する。"
     },
     {
       "surface": "would you mind",
@@ -7130,6 +9849,11 @@
       "meaning": "再現する、再び作り出す"
     },
     {
+      "surface": "wire",
+      "lemma": "wire",
+      "meaning": "金属を細長く伸ばした線。電気・通信を伝える線にも使う。"
+    },
+    {
       "surface": "Rather",
       "lemma": "rather",
       "meaning": "やや／かなり（控えめな程度強調）"
@@ -7141,9 +9865,27 @@
     }
   ],
   "act2-speech-0559": [],
-  "act2-speech-0560": [],
-  "act2-speech-0561": [],
-  "act2-speech-0562": [],
+  "act2-speech-0560": [
+    {
+      "surface": "enacting the part of Mrs. Boyle",
+      "lemma": "enact the part of",
+      "meaning": "Trotter自身が再現の中でMrs. Boyleがいた役割・位置を担当するという意味。"
+    }
+  ],
+  "act2-speech-0561": [
+    {
+      "surface": "risk",
+      "lemma": "risk",
+      "meaning": "危険、危険性。危険を承知で行う。"
+    }
+  ],
+  "act2-speech-0562": [
+    {
+      "surface": "remain",
+      "lemma": "remain",
+      "meaning": "そのまま残る、とどまる。"
+    }
+  ],
   "act2-speech-0563": [
     {
       "surface": "Parlour",
@@ -7151,8 +9893,25 @@
       "meaning": "客間、応接間"
     }
   ],
-  "act2-speech-0564": [],
-  "act2-speech-0565": [],
+  "act2-speech-0564": [
+    {
+      "surface": "objection",
+      "lemma": "objection",
+      "meaning": "反対、異議。"
+    }
+  ],
+  "act2-speech-0565": [
+    {
+      "surface": "advise",
+      "lemma": "advise",
+      "meaning": "助言する、～するよう勧める。"
+    },
+    {
+      "surface": "curtain",
+      "lemma": "curtain",
+      "meaning": "窓や舞台などに掛けるカーテン、幕。"
+    }
+  ],
   "act2-speech-0566": [],
   "act2-speech-0567": [],
   "act2-speech-0568": [
@@ -7189,6 +9948,11 @@
       "meaning": "情報などを隠して出し渋る"
     },
     {
+      "surface": "holding out on me",
+      "lemma": "hold out on",
+      "meaning": "TrotterはMollieがLongridge Farmに関する重要情報を意図的に自分へ話していなかった、と責めている。"
+    },
+    {
       "surface": "As a result",
       "lemma": "as a result",
       "meaning": "その結果"
@@ -7207,6 +9971,11 @@
       "meaning": "かなり、相当に"
     },
     {
+      "surface": "dumb",
+      "lemma": "dumb",
+      "meaning": "Trotterが『警察をそこまで愚かだと思うな』という意味で使っており、話せないという意味ではない。"
+    },
+    {
       "surface": "All along",
       "lemma": "all along",
       "meaning": "最初からずっと"
@@ -7215,6 +9984,11 @@
       "surface": "firsthand knowledge",
       "lemma": "firsthand knowledge",
       "meaning": "直接得た知識／実体験に基づく知識"
+    },
+    {
+      "surface": "firsthand knowledge",
+      "lemma": "firsthand",
+      "meaning": "MollieがLongridge Farm事件を伝聞ではなく、自分自身の経験を通じて知っていたという意味。"
     },
     {
       "surface": "affair",
@@ -7227,6 +10001,11 @@
       "meaning": "治安判事、下級裁判所の裁判官"
     },
     {
+      "surface": "concerned",
+      "lemma": "concerned",
+      "meaning": "the magistrate concerned で、Longridge Farm事件の児童委託に関与した『その件の判事』を指している。心配しているという意味ではない。"
+    },
+    {
       "surface": "In fact",
       "lemma": "in fact",
       "meaning": "実際には／実は"
@@ -7235,6 +10014,11 @@
       "surface": "speak up",
       "lemma": "speak up",
       "meaning": "はっきり言う／声を上げる"
+    },
+    {
+      "surface": "speak up and say so",
+      "lemma": "speak up",
+      "meaning": "ここでは声量を上げるのではなく、知っていた事実を捜査側へ自発的に明かすという意味。"
     }
   ],
   "act2-speech-0576": [],
@@ -7242,13 +10026,24 @@
   "act2-speech-0578": [],
   "act2-speech-0579": [],
   "act2-speech-0580": [],
-  "act2-speech-0581": [],
+  "act2-speech-0581": [
+    {
+      "surface": "kind",
+      "lemma": "kind",
+      "meaning": "親切な、思いやりのある。"
+    }
+  ],
   "act2-speech-0582": [],
   "act2-speech-0583": [
     {
       "surface": "just",
       "lemma": "just",
       "meaning": "ちょうど／ただ／ほんの（範囲を限定）"
+    },
+    {
+      "surface": "didn't bother",
+      "lemma": "bother",
+      "meaning": "TrotterはMollieがJimmyの手紙に対応する手間さえかけなかった、と非難する言い方をしている。直後にMollieが否定する。"
     }
   ],
   "act2-speech-0584": [
@@ -7256,6 +10051,11 @@
       "surface": "went down with",
       "lemma": "go down with",
       "meaning": "病気にかかる"
+    },
+    {
+      "surface": "went down with pneumonia",
+      "lemma": "go down with",
+      "meaning": "Mollieがその日に肺炎を発症して寝込んだという意味。"
     },
     {
       "surface": "pneumonia",
@@ -7266,6 +10066,26 @@
       "surface": "put aside",
       "lemma": "put aside",
       "meaning": "脇に置く／後回しにする"
+    },
+    {
+      "surface": "put aside with others",
+      "lemma": "put aside",
+      "meaning": "手紙が他の郵便物と一緒に脇へ置かれ、Mollieが回復するまで読まれなかったという意味。"
+    },
+    {
+      "surface": "afterwards",
+      "lemma": "afterwards",
+      "meaning": "その後で、あとになって。"
+    },
+    {
+      "surface": "gradually",
+      "lemma": "gradually",
+      "meaning": "徐々に、少しずつ。"
+    },
+    {
+      "surface": "haunted me ever since",
+      "lemma": "haunt",
+      "meaning": "Jimmyの死と手紙の記憶が、それ以来ずっとMollieを苦しめ続けているという比喩。"
     },
     {
       "surface": "monstrous",
@@ -7282,11 +10102,6 @@
   ],
   "act2-speech-0586": [],
   "act2-speech-0587": [
-    {
-      "surface": "policeman",
-      "lemma": "policeman",
-      "meaning": "警察官"
-    },
     {
       "surface": "policeman",
       "lemma": "policeman",
@@ -7311,6 +10126,11 @@
       "surface": "on his way",
       "lemma": "on one’s way",
       "meaning": "向かっている途中で"
+    },
+    {
+      "surface": "wires",
+      "lemma": "wire",
+      "meaning": "金属を細長く伸ばした線。電気・通信を伝える線にも使う。"
     }
   ],
   "act2-speech-0588": [],
@@ -7321,9 +10141,24 @@
       "meaning": "～した方がよい／～すべきだ"
     },
     {
+      "surface": "scream",
+      "lemma": "scream",
+      "meaning": "恐怖・痛みなどで大声を上げる、叫ぶ。"
+    },
+    {
+      "surface": "fire",
+      "lemma": "fire",
+      "meaning": "火をつける；銃などを発射する；解雇する。"
+    },
+    {
       "surface": "revolver",
       "lemma": "revolver",
       "meaning": "回転式拳銃"
+    },
+    {
+      "surface": "cruel",
+      "lemma": "cruel",
+      "meaning": "人や動物に苦痛を与えることを気にしない、残酷な。"
     },
     {
       "surface": "grown up",
@@ -7345,14 +10180,19 @@
       "meaning": "問題ではない／構わない"
     },
     {
-      "surface": "policeman",
-      "lemma": "policeman",
-      "meaning": "警察官"
-    },
-    {
       "surface": "get away",
       "lemma": "get away",
       "meaning": "立ち去る／逃れる"
+    },
+    {
+      "surface": "pretending",
+      "lemma": "pretend",
+      "meaning": "事実ではないことを事実であるように装う、ふりをする。"
+    },
+    {
+      "surface": "policeman",
+      "lemma": "policeman",
+      "meaning": "警察官"
     }
   ],
   "act2-speech-0592": [
@@ -7367,9 +10207,20 @@
       "surface": "rather",
       "lemma": "rather",
       "meaning": "やや／かなり（控えめな程度強調）"
+    },
+    {
+      "surface": "trap",
+      "lemma": "trap",
+      "meaning": "人や動物を捕らえる罠；人を不利な状況へ誘い込む仕掛け。"
     }
   ],
-  "act2-speech-0594": [],
+  "act2-speech-0594": [
+    {
+      "surface": "chased",
+      "lemma": "chase",
+      "meaning": "人や動物を追いかける。"
+    }
+  ],
   "act2-speech-0595": [],
   "act2-speech-0596": [],
   "act2-speech-0597": [],
@@ -7393,6 +10244,11 @@
       "surface": "look after",
       "lemma": "look after",
       "meaning": "～の世話をする"
+    },
+    {
+      "surface": "harm",
+      "lemma": "harm",
+      "meaning": "人や物への害、損害；害を与える。"
     }
   ],
   "act2-speech-0603": [],
@@ -7413,14 +10269,25 @@
     }
   ],
   "act2-speech-0608": [],
-  "act2-speech-0609": [],
+  "act2-speech-0609": [
+    {
+      "surface": "mixed",
+      "lemma": "mix",
+      "meaning": "was mixed up in it all で、MollieがLongridge Farm事件に関係する立場だったという意味。何かを物理的に混ぜたのではない。"
+    },
+    {
+      "surface": "fault",
+      "lemma": "fault",
+      "meaning": "失敗・問題についての責任、または物や人の欠点・不具合。"
+    }
+  ],
   "act2-speech-0610": [],
   "act2-speech-0611": [],
   "act2-speech-0612": [
     {
       "surface": "under control",
       "lemma": "under control",
-      "meaning": "制御できて／収拾されて"
+      "meaning": "Metcalfは、直前の危険な状況がすでに抑えられ、これ以上その場で拡大しない状態だと伝えている。"
     },
     {
       "surface": "unconscious",
@@ -7440,7 +10307,7 @@
     {
       "surface": "mad as a hatter",
       "lemma": "mad as a hatter",
-      "meaning": "完全に正気でない、という古い誇張表現"
+      "meaning": "Metcalfが非常に常軌を逸しているという意味で使う古い慣用句。医学的な診断名ではない。"
     },
     {
       "surface": "suspicions",
@@ -7465,11 +10332,6 @@
       "surface": "policeman",
       "lemma": "policeman",
       "meaning": "警察官"
-    },
-    {
-      "surface": "policeman",
-      "lemma": "policeman",
-      "meaning": "警察官"
     }
   ],
   "act2-speech-0615": [],
@@ -7478,6 +10340,11 @@
       "surface": "got hold of",
       "lemma": "get hold of",
       "meaning": "～を手に入れる／確保する"
+    },
+    {
+      "surface": "got hold of that notebook",
+      "lemma": "get hold of",
+      "meaning": "警察がMonkswell Manorと書かれた重要な手帳を入手した、という意味。"
     },
     {
       "surface": "notebook",
@@ -7492,12 +10359,17 @@
     {
       "surface": "on the spot",
       "lemma": "on the spot",
-      "meaning": "現場に／その場に"
+      "meaning": "事件が起きるMonkswell Manorの現場内に、警察側の人物をあらかじめ配置しておく必要があったという意味。"
     },
     {
       "surface": "take his place",
       "lemma": "take someone’s place",
       "meaning": "～の代わりを務める"
+    },
+    {
+      "surface": "Trotter turned up",
+      "lemma": "turn up",
+      "meaning": "本物の警察側が想定していなかった『Trotter』がMonkswell Manorへ現れたことを指す。"
     },
     {
       "surface": "turned up",
@@ -7520,7 +10392,7 @@
     {
       "surface": "just in time",
       "lemma": "just in time",
-      "meaning": "ぎりぎり間に合って"
+      "meaning": "Casewellが事態が決定的に悪化する直前にMetcalfへ相談できた、という意味。"
     },
     {
       "surface": "by the way",
@@ -7541,14 +10413,39 @@
   "act2-speech-0619": [],
   "act2-speech-0620": [
     {
+      "surface": "gather",
+      "lemma": "gather",
+      "meaning": "I gather ... で、Gilesが『どうやら警察はParaviciniの車を詳しく調べるらしいと察している』という意味。物を集める意味ではない。"
+    },
+    {
+      "surface": "examine",
+      "lemma": "examine",
+      "meaning": "詳しく調べる、検査する。"
+    },
+    {
       "surface": "rather",
       "lemma": "rather",
       "meaning": "やや／かなり（控えめな程度強調）"
     },
     {
+      "surface": "spare",
+      "lemma": "spare",
+      "meaning": "予備の、余分の；時間などを割く。"
+    },
+    {
+      "surface": "his line of business",
+      "lemma": "line of business",
+      "meaning": "GilesがParaviciniの普段の商売・稼業の種類について述べている。"
+    },
+    {
       "surface": "business",
       "lemma": "business",
       "meaning": "仕事・用事"
+    },
+    {
+      "surface": "nasty little bit of goods",
+      "lemma": "a bit of goods",
+      "meaning": "ここでは物品ではなくParavicini本人を、信用しにくい嫌な人物だとくだけた古風な言い方で評している。"
     }
   ],
   "act2-speech-0621": [],
@@ -7601,12 +10498,29 @@
       "surface": "Just",
       "lemma": "just",
       "meaning": "ちょうど／ただ／ほんの（範囲を限定）"
+    },
+    {
+      "surface": "Just for best",
+      "lemma": "for best",
+      "meaning": "その帽子を普段使いではなく、特別な外出やよそ行きの時に使えばよいという英国的な言い方。"
     }
   ],
   "act2-speech-0633": [],
   "act2-speech-0634": [],
-  "act2-speech-0635": [],
-  "act2-speech-0636": [],
+  "act2-speech-0635": [
+    {
+      "surface": "properly",
+      "lemma": "properly",
+      "meaning": "正しく、適切に、きちんと。"
+    }
+  ],
+  "act2-speech-0636": [
+    {
+      "surface": "the last thing in hats",
+      "lemma": "the last thing in",
+      "meaning": "店員がその帽子を「最新流行の型」だと説明した、という意味。最後に残った帽子という意味ではない。"
+    }
+  ],
   "act2-speech-0637": [],
   "act2-speech-0638": []
 }
