@@ -13,7 +13,6 @@ assert SPEC and SPEC.loader
 SPEC.loader.exec_module(core)
 
 _original_has_finite_predicate = core.has_finite_predicate
-_original_nearest_parent_clause = core.nearest_parent_clause
 _original_analyze_sentence = core.analyze_sentence
 
 
@@ -31,12 +30,22 @@ def has_finite_predicate(head):
 
 
 def nearest_parent_clause(head, candidate_heads):
-    # Dependency ROOT points to itself. A top-level BC therefore has no parent;
-    # never allow the generic ancestor walk to create a self-parent cycle.
-    if head.head == head:
-        return None
-    parent = _original_nearest_parent_clause(head, candidate_heads)
-    return None if parent == head.i else parent
+    """Return the nearest *other* clause head, never the clause itself.
+
+    spaCy ROOT tokens point their head to themselves. The old helper checked
+    candidate membership before checking that invariant, so every root clause
+    became its own parent and every descendant inherited a cycle during QA.
+    """
+    cur = head.head
+    seen = {head.i}
+    while cur.i not in seen:
+        seen.add(cur.i)
+        if cur.i in candidate_heads:
+            return cur.i
+        if cur.head == cur:
+            break
+        cur = cur.head
+    return None
 
 
 core.has_finite_predicate = has_finite_predicate
@@ -102,8 +111,8 @@ def analyze_sentence(sentence, speech_id, sent_no):
     return repair_initial_that_subject_clause(_original_analyze_sentence(sentence, speech_id, sent_no), sentence)
 
 
-# Core analyze_speech resolves this global at execution time, so production build
-# and tests both use the same repaired rule path.
+# Core helpers resolve their globals at execution time, so production build and
+# tests both use this same repaired rule path.
 core.analyze_sentence = analyze_sentence
 build = core.build
 sha256 = core.sha256
