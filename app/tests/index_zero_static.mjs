@@ -18,6 +18,7 @@ for(const term of ['mts.selectedSceneId','mts.characterId','mts.reader.progress'
 if(!main.includes('Cue Practice')||!main.includes('Rehearsal')||!main.includes('SpeechRecognition')||!main.includes('SpeechSynthesisUtterance'))fail('practice feature parity missing');
 if(!main.includes("case'/bookmarks'")||!read('src/resume-bookmarks.js').includes('Continue')||!read('src/resume-bookmarks.js').includes('Bookmark一覧'))fail('feature parity missing: Resume/Bookmarks');
 if(!main.includes('Full')||!main.includes('Mine')||!main.includes('Cue Focus')||!main.includes('Structure')||!main.includes('Grammar / Usage'))fail('reader/study feature parity missing');
+if(!sw.includes("'./src/resume-bookmarks.js'"))fail('Resume/Bookmarks runtime is missing from the offline shell cache');
 const openPos=sw.indexOf('await timeoutFetch(request)'),cachePos=sw.indexOf('await caches.open(cacheName)');
 if(openPos<0||cachePos<0||openPos>cachePos)fail('service worker is not network-first before Cache Storage');
-console.log(JSON.stringify({status:'PASS',runtime:'index-zero',iframes:0,directViewFetches:0,dataStore:'single-owner',legacyRuntimeDependencies:0,legacySourceFiles:0},null,2));
+console.log(JSON.stringify({status:'PASS',runtime:'index-zero',iframes:0,directViewFetches:0,dataStore:'single-owner',legacyRuntimeDependencies:0,legacySourceFiles:0,offlineResumeBookmarks:true},null,2));
