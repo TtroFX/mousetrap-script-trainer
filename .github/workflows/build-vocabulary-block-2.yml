@@ -1,0 +1,37 @@
+name: Build Vocabulary Block 2
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build-vocabulary-block-2.mjs'
+      - '.github/workflows/build-vocabulary-block-2.yml'
+      - 'mousetrap_line_vocabulary.json'
+      - 'mousetrap_word_dictionary.json'
+      - 'data/vocabulary-rebuild/block-1-dictionary.json'
+      - 'data/vocabulary-rebuild/block-1-dictionary-supplement.json'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build Block 2 vocabulary data
+        run: node scripts/build-vocabulary-block-2.mjs
+      - name: Commit generated Block 2 data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/vocabulary-rebuild/block-2-*.json
+          if git diff --cached --quiet; then
+            echo 'No generated changes.'
+            exit 0
+          fi
+          git commit -m 'Generate Block 2 vocabulary rebuild'
+          git push
