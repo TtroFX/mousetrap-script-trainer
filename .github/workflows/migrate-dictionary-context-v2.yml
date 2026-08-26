@@ -40,3 +40,5 @@ jobs:
                   data/canonical-production-contract.json data/canonical-integration-manifest.json
           git commit -m 'Normalize dictionary context presentation'
           git push
+
+# Trigger after workflow exists on branch.
