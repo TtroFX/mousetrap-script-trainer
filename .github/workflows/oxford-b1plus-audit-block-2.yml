@@ -1,0 +1,26 @@
+name: Oxford B1+ Audit Block 2
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/audit-oxford-b1plus-block-2.mjs'
+      - '.github/workflows/oxford-b1plus-audit-block-2.yml'
+      - 'data/vocabulary-rebuild/block-2-line-vocabulary.json'
+      - 'data/vocabulary-rebuild/block-2-b1plus-coverage.json'
+      - 'mousetrap_script_data.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Audit Oxford B1+ coverage
+        run: node scripts/audit-oxford-b1plus-block-2.mjs
