@@ -15,16 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Recover embedded payload
+      - name: Recover staged payload
         run: |
           python - <<'PY'
-          import re, base64, lzma, pathlib
-          p = pathlib.Path('.github/workflows/build-interpretation-act2.yml').read_text()
-          m = re.search(r"PAYLOAD: '([^']+)'", p)
-          if not m: raise SystemExit('PAYLOAD not found')
-          s = m.group(1).strip()
-          s += '=' * (-len(s) % 4)
-          raw = lzma.decompress(base64.b64decode(s))
+          import base64, bz2, pathlib
+          parts = [pathlib.Path(f'.tmp/act2-interp.part{i}').read_text().strip() for i in (1,2,3)]
+          raw = bz2.decompress(base64.b64decode(''.join(parts)))
           out = pathlib.Path('data/interpretation/act2.json')
           out.parent.mkdir(parents=True, exist_ok=True)
           out.write_bytes(raw)
