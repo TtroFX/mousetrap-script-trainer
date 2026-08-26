@@ -5,6 +5,7 @@ const read = p => JSON.parse(fs.readFileSync(p, 'utf8'));
 const script = read('mousetrap_script_data.json');
 const context = read('data/vocabulary-rebuild/block-2-line-vocabulary.json');
 const threshold = read('data/vocabulary-rebuild/block-2-b1plus-coverage.json');
+const review = read('data/vocabulary-rebuild/block-2-oxford-review.json');
 const speeches = script['act1-scene2'].speeches.slice(0, 178);
 
 function decodeHtml(s) {
@@ -98,12 +99,37 @@ for (const [word, oxfordEntries] of oxford.entries()) {
 }
 missing.sort((a,b) => a.word.localeCompare(b.word));
 
-console.log(JSON.stringify({
+const excluded = new Map(Object.entries(review.excludeWords || {}).map(([word, reason]) => [norm(word), reason]));
+const unresolved = missing.filter(item => !excluded.has(norm(item.word)));
+const reviewedExclusions = missing
+  .filter(item => excluded.has(norm(item.word)))
+  .map(item => ({ word: item.word, reason: excluded.get(norm(item.word)) }));
+
+const includeLexemeCoverageErrors = [];
+for (const lex of review.includeLexemes || []) {
+  const lemma = norm(lex.lemma || lex.word);
+  const forms = (lex.forms || [lex.word]).map(norm);
+  const occurs = forms.some(form => occurrences.has(form) || speeches.some(s => norm(s.text).split(' ').includes(form)));
+  if (occurs && !selected.has(lemma)) includeLexemeCoverageErrors.push({ lemma: lex.lemma, word: lex.word });
+}
+
+const result = {
   source: OXFORD_URL,
   parsedOxfordWords: oxford.size,
   blockId: 'block-2',
   speeches: speeches.length,
   selectedKeys: selected.size,
-  missingCount: missing.length,
-  missing
-}, null, 2));
+  rawMissingCount: missing.length,
+  reviewedExclusionCount: reviewedExclusions.length,
+  unresolvedCount: unresolved.length,
+  includeLexemeCoverageErrorCount: includeLexemeCoverageErrors.length,
+  unresolved,
+  includeLexemeCoverageErrors,
+  reviewedExclusions
+};
+console.log(JSON.stringify(result, null, 2));
+
+if (unresolved.length || includeLexemeCoverageErrors.length) {
+  console.error(`Oxford Block 2 audit failed: unresolved=${unresolved.length}, includeCoverageErrors=${includeLexemeCoverageErrors.length}`);
+  process.exitCode = 1;
+}
