@@ -1,0 +1,149 @@
+{
+  "blockId": "block-2",
+  "plan": {
+    "scope": "Act I Scene II — speeches 0001-0178",
+    "speechCount": 178,
+    "boundaryPolicy": "Ends after Mollie repeats 'Police protection?' at speech 0178; speech 0179 begins Trotter's formal explanation of the Maureen Lyon murder, forming the natural start of Block 3."
+  },
+  "outline": {
+    "scope": {
+      "sceneId": "act1-scene2",
+      "firstSpeechId": "act1-scene2-speech-0001",
+      "lastSpeechId": "act1-scene2-speech-0178",
+      "speechCount": 178
+    },
+    "dramaticFunction": "The apparently domestic morning at Monkswell Manor turns into an active police situation. Ordinary guest-house complaints and social friction expose attitudes, memories and suspicions; the police then telephone without explaining why, Paravicini explicitly warns Mollie that she knows almost nothing about her guests, and Detective Sergeant Trotter reaches the isolated house on skis. When the telephone is found dead, the group is not merely snowbound but effectively cut off at the exact moment the police investigation begins.",
+    "startingState": "The morning after the arrivals, the guests are living together under worsening snow conditions. Mrs. Boyle remains dissatisfied with the newly opened guest house, while Major Metcalf is comparatively approving. The murder mentioned in Scene I has not yet been formally connected to Monkswell Manor.",
+    "endingState": "Trotter has arrived despite the snow, the telephone line is dead, and he insists that everyone remain present. He tells Mollie that the matter concerns police protection rather than an offence committed by the Ralstons. Mollie's final question, 'Police protection?', leaves the group immediately before Trotter identifies the Maureen Lyon murder as the reason for his visit.",
+    "globalThreads": [
+      {
+        "thread": "Isolation becomes operational",
+        "development": "Snow continues to create practical problems, but the key escalation is communicative isolation: the police can reach the house only by sending Trotter on skis, and shortly after his arrival the telephone is discovered dead. Christopher explicitly observes that they are now completely cut off."
+      },
+      {
+        "thread": "Hidden identity and insufficient knowledge of the guests",
+        "development": "Mrs. Boyle urges Mollie to investigate Christopher and Paravicini. Mollie replies that she knows little more about Mrs. Boyle herself. Paravicini then turns the issue into an explicit warning, pointing out that his own story could be false and that any guest could be a criminal or worse. These are suspicions and hypotheticals, not established facts."
+      },
+      {
+        "thread": "Past experience beneath present behaviour",
+        "development": "Miss Casewell's description of a freezing, frightened child sharply interrupts Christopher's romantic idea of snow and suggests a painful memory. She immediately evades confirmation by joking that she is not a writer. The scene deliberately withholds whether she is describing personal experience."
+      },
+      {
+        "thread": "Mrs. Boyle as social antagonist",
+        "development": "Mrs. Boyle continues to criticize the Ralstons, staff, heating and other guests. Major Metcalf sometimes deflects her complaints with dry humour; Miss Casewell deliberately manoeuvres her out of a preferred chair; Mollie becomes more willing to answer her back. Her language often carries class prejudice, condescension or complaint beyond its literal wording."
+      },
+      {
+        "thread": "Police presence shifts the genre of the scene",
+        "development": "The unexplained call from Superintendent Hogben first prompts comic guesses about licences, contraband and regulations. As the group realizes that sending a sergeant through a blizzard must be serious, the tone changes. Trotter's physical arrival confirms that the police matter is urgent and connected to everyone present."
+      },
+      {
+        "thread": "Paravicini's theatrical menace",
+        "development": "Paravicini continues to speak playfully and grandly, but repeatedly turns isolation and uncertainty into unsettling subjects. His remarks that snow can make things 'very easy', that he can move unheard, and that he himself might be a murderer are deliberately provocative; they should be read as theatrical suggestions, not admissions."
+      }
+    ],
+    "beats": [
+      {
+        "beatId": "b2-01",
+        "speechRange": [1, 24],
+        "summary": "Mrs. Boyle complains that the Ralstons concealed how new the guest house is and criticizes the amenities, while Major Metcalf repeatedly praises the food and beds and lightly undercuts her complaints. Christopher's presence gives Mrs. Boyle another target for suspicion. Mollie and Giles continue the physical work of dealing with the snow.",
+        "contextNotes": [
+          "Major Metcalf's 'old tabbies' delight' is teasing social commentary about the sort of comfortable establishment Mrs. Boyle expected, not a literal description of cats.",
+          "Mrs. Boyle's judgments about Christopher being mentally unbalanced are her hostile speculation, not factual diagnosis.",
+          "Guest-house and service vocabulary often carries class assumptions in Mrs. Boyle's speech."
+        ]
+      },
+      {
+        "beatId": "b2-02",
+        "speechRange": [25, 52],
+        "summary": "Mrs. Boyle criticizes Mollie's housework and complains about modern servants and social change. Miss Casewell answers with dry irony, lightly challenges Mrs. Boyle's class attitudes, and reveals only that she lives abroad and has unspecified business in England. Their contest over the radio and the warm chair ends with Casewell deliberately driving Boyle away and privately insulting her.",
+        "contextNotes": [
+          "Casewell's 'got the bit between their teeth' figuratively means that workers have become difficult for employers to control, while her tone mocks Mrs. Boyle's complaint.",
+          "'Not a Red — just pale pink' is a joking political colour metaphor: she denies being a communist while presenting herself as mildly left-leaning.",
+          "Casewell's choice to keep the radio loud is tactical: she wants Mrs. Boyle to leave the preferred chair."
+        ]
+      },
+      {
+        "beatId": "b2-03",
+        "speechRange": [53, 76],
+        "summary": "Christopher and Miss Casewell bond over their dislike of Mrs. Boyle. Their playful talk turns darker when Christopher calls the snow peaceful and says it helps one forget. Casewell responds with a vivid image of a cold, frightened child. Christopher assumes she is describing fiction; Casewell briefly claims to be a writer and then retracts it, leaving the source of the image unresolved.",
+        "contextNotes": [
+          "Christopher's wish to annoy or be rid of Mrs. Boyle is comic hostility within the exchange, not evidence of intended violence.",
+          "'When the snow melts lots of things may have happened' is deliberately ominous and open-ended.",
+          "Casewell's child image should not be labelled autobiographical as fact; the scene strongly suggests significance but withholds confirmation."
+        ]
+      },
+      {
+        "beatId": "b2-04",
+        "speechRange": [77, 94],
+        "summary": "The Berkshire Police telephone unexpectedly. Superintendent Hogben says a sergeant will come to Monkswell Manor and instructs the Ralstons to listen carefully and follow his directions, but gives no reason. Mollie, Giles and Casewell initially make comic guesses about minor offences, then Giles recognizes that dispatching a policeman through the blizzard implies something genuinely urgent.",
+        "contextNotes": [
+          "The guesses about nylons, a wireless licence and regulations are nervous comic speculation, not clues that the Ralstons have committed those offences.",
+          "'Follow his instructions implicitly' here means obey them fully and without deviation.",
+          "The unexplained police call is a major tonal pivot from domestic inconvenience to danger."
+        ]
+      },
+      {
+        "beatId": "b2-05",
+        "speechRange": [95, 119],
+        "summary": "Mrs. Boyle resumes complaints about heating and Christopher, then advises Mollie to investigate him and the unexpected foreign guest. Mollie pushes back, noting that she knows little about Mrs. Boyle either and reminding her of her own legal background as a magistrate. Paravicini overhears discussion of himself, enters silently for comic and unsettling effect, and drives Mrs. Boyle away from the conversation.",
+        "contextNotes": [
+          "Mrs. Boyle's 'fishy story' means she finds Christopher's explanation suspicious or dubious.",
+          "Mollie's reply that paying seven guineas is all she needs to know is defensive and partly pointed at Mrs. Boyle, not a general statement of ideal hotel practice.",
+          "'Talk of the devil' is an idiom used by Paravicini theatrically because he appears while being discussed."
+        ]
+      },
+      {
+        "beatId": "b2-06",
+        "speechRange": [120, 143],
+        "summary": "Paravicini notices Mollie's anxiety and turns the snow into an ambiguous metaphor: it can make things difficult or 'very easy.' He warns the inexperienced Ralstons not to trust strangers blindly and uses himself as the example, listing possible false identities including criminal ones. Practical troubles with frozen pipes interrupt the conversation; news of the police visit spreads, while Giles remains convinced nobody could physically reach the house through the drifts.",
+        "contextNotes": [
+          "Paravicini's list of possible identities is hypothetical self-dramatization, not a confession.",
+          "'Make a go of it' means succeed in making the guest house work as a venture.",
+          "His warning about references directly reinforces the play's hidden-identity theme and should guide contextual meanings of trust/suspicion vocabulary."
+        ]
+      },
+      {
+        "beatId": "b2-07",
+        "speechRange": [144, 170],
+        "summary": "Trotter unexpectedly appears outside on skis, disproving Giles's assumption that no one can get through. The guests react to his youth and unusual arrival with jokes and criticism. As Trotter settles in, Major Metcalf tries the telephone and discovers the line is dead. Christopher notes that they are now completely cut off and treats the fact with private amusement, while the others do not.",
+        "contextNotes": [
+          "Mrs. Boyle's comment about police enjoying winter sports is sarcastic criticism of public spending, not a literal belief that Trotter came for recreation.",
+          "Christopher's repeated 'hearty' pokes fun at Trotter's energetic, wholesome-looking manner.",
+          "The dead telephone changes 'cut off' from figurative social isolation into a literal loss of communication."
+        ]
+      },
+      {
+        "beatId": "b2-08",
+        "speechRange": [171, 178],
+        "summary": "Trotter announces that he is ready to begin official business. Giles offers privacy, but Trotter says everyone should remain because that will save time. Mollie anxiously assumes the Ralstons may have done something wrong. Trotter corrects her and says the matter is instead one of police protection. The block ends on Mollie's surprised repetition of that phrase, immediately before the murder case is formally introduced.",
+        "contextNotes": [
+          "'Get to business' means begin the serious purpose of the visit, not commercial business.",
+          "Trotter's insistence that everyone be present signals that the matter concerns the whole group.",
+          "'Police protection' is intentionally unexplained at the boundary; do not import details from later lines into individual glosses unless needed to interpret the phrase."
+        ]
+      }
+    ],
+    "characterState": {
+      "MOLLIE": "Still trying to hold the guest house together, but the snow, Mrs. Boyle's criticism and the unexplained police call increase her anxiety. She becomes more assertive toward Mrs. Boyle while remaining uncertain about the police visit.",
+      "GILES": "Busy with practical work caused by the snow. His first response to the police call is nervous speculation about regulations, but he soon recognizes that the visit must be serious. He initially believes the snow makes outside arrival impossible and is proved wrong by Trotter.",
+      "CHRISTOPHER": "Playful, theatrical and openly hostile toward Mrs. Boyle. His conversation with Casewell shows fascination with forgetting and with unsettling situations. He greets the group's total isolation with a private joke rather than alarm.",
+      "MRS. BOYLE": "Continues as the principal social critic, complaining about standards and distrusting other guests. Her condescension increasingly provokes direct resistance from Mollie and tactical mockery from Casewell.",
+      "MAJOR METCALF": "Practical and comparatively calm. He counters Boyle's negativity, helps with physical work, and later discovers that the telephone line is dead.",
+      "MISS CASEWELL": "Dry, strategic and evasive. She manipulates Boyle out of the warm chair, hints at a disturbing childhood image without explaining its source, and treats the early police news with sardonic humour.",
+      "PARAVICINI": "Continues deliberately to cultivate mystery. He repeatedly turns ordinary topics into warnings about trust, crime and the possibilities created by isolation, while keeping his statements ambiguous and theatrical.",
+      "TROTTER": "Arrives as an energetic young detective sergeant who has crossed the snow on skis. He is polite and procedural but quickly establishes control of the room by requiring everyone to remain for the explanation."
+    },
+    "vocabularyInterpretationPolicy": {
+      "generalRule": "Interpret each expression from speaker intention, addressee, immediate exchange, the beat-level situation and the continuing threads of isolation, distrust and concealed pasts before writing a context gloss.",
+      "contextMeaningRequiredWhen": [
+        "the expression is idiomatic, figurative or non-compositional",
+        "sarcasm, class attitude, euphemism, teasing or menace materially changes the local force",
+        "a British, dated or period-specific use needs a local explanation",
+        "the local sense selects one materially different sense of a polysemous word"
+      ],
+      "contextMeaningOmitWhen": "Leave contextMeaning empty whenever the neutral dictionary entry already communicates the actual local sense without meaningful loss.",
+      "uncertaintyRule": "Never turn guesses, insults, jokes, hypothetical identities or suggested memories into established facts. Preserve the play's uncertainty."
+    },
+    "status": "outline-complete"
+  }
+}
