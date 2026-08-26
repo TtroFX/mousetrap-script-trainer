@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "PASS",
+  "productionState": "MAIN",
   "policy": "Expand occurrence-level play meanings from all reviewed context entries plus all reviewed B1+ candidates. Blank B1+ context meanings are promoted using their neutral dictionary sense.",
   "coverage": {
     "speeches": 1164,
