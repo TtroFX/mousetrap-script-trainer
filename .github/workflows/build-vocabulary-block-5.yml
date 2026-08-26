@@ -7,6 +7,7 @@ on:
       - 'scripts/build-vocabulary-block-5.mjs'
       - 'scripts/apply-block-5-neutral-supplement.mjs'
       - 'scripts/apply-block-5-oxford-review.mjs'
+      - 'scripts/patch-block-5-racing-review.mjs'
       - 'scripts/audit-oxford-b1plus-block-5.mjs'
       - 'scripts/validate-vocabulary-block.mjs'
       - 'data/vocabulary-rebuild/block-5-neutral-seed.json'
@@ -27,6 +28,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Persist final morphology review in workspace
+        run: node scripts/patch-block-5-racing-review.mjs
       - name: Build Block 5 vocabulary data
         run: node scripts/build-vocabulary-block-5.mjs
       - name: Apply neutral dictionary supplement
@@ -57,7 +60,8 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/vocabulary-rebuild/block-5-line-vocabulary.json \
+          git add data/vocabulary-rebuild/block-5-oxford-review.json \
+                  data/vocabulary-rebuild/block-5-line-vocabulary.json \
                   data/vocabulary-rebuild/block-5-b1plus-coverage.json \
                   data/vocabulary-rebuild/block-5-dictionary.json \
                   data/vocabulary-rebuild/block-5-dictionary-supplement.json \
