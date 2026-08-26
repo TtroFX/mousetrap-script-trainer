@@ -1,0 +1,135 @@
+{
+  "blockId": "block-3",
+  "plan": {
+    "scope": "Act I Scene II — speeches 0179-0336",
+    "speechCount": 158,
+    "boundaryPolicy": "Begins with Trotter's formal explanation of the Maureen Lyon murder immediately after Block 2's 'Police protection?' boundary and continues to the end of Act I Scene II."
+  },
+  "outline": {
+    "scope": {
+      "sceneId": "act1-scene2",
+      "firstSpeechId": "act1-scene2-speech-0179",
+      "lastSpeechId": "act1-scene2-speech-0336",
+      "speechCount": 158
+    },
+    "dramaticFunction": "The police visit turns the guest house from a place under vague threat into a closed suspect pool. Trotter identifies Maureen Lyon as Maureen Stanning of the Longridge Farm abuse case, reveals that Monkswell Manor was written beside the murder address, and explains the 'Three Blind Mice' pattern. Every person present denies a connection, but Mrs. Boyle is then exposed as the magistrate who helped place the children at Longridge Farm. Casewell's conversation about childhood and suppressing the past deepens the theme of unresolved trauma. Finally, the dead telephone is reframed as possible sabotage and Trotter states the central danger explicitly: the killer may already be inside the house. The scene ends in darkness and alarm before the consequence is shown.",
+    "startingState": "Trotter has just told the assembled household that his visit concerns police protection, but has not yet explained why. The guests are snowbound and the telephone has already been found dead, though the possibility of deliberate sabotage has not yet been raised.",
+    "endingState": "Trotter has concluded that the telephone may have been cut and has warned Mollie and Giles that the suspected killer could have arrived with the other guests. The vague London description fits several people in the house. As ordinary activity resumes, Mrs. Boyle is left in the room while a radio programme discusses fear; the lights go out, there is a disturbance, and Mollie returns asking why the room is dark and what the noise was. The block ends before the cause is established onstage.",
+    "globalThreads": [
+      {
+        "thread": "Longridge Farm becomes the direct motive structure",
+        "development": "The murdered Maureen Lyon is identified as Maureen Stanning, one of the foster carers convicted after a child died from neglect and ill-treatment at Longridge Farm. The second address in the notebook is Monkswell Manor, making the earlier murder directly relevant to the house rather than merely coincidental background news."
+      },
+      {
+        "thread": "Three Blind Mice as a serial pattern",
+        "development": "The phrase and tune are explained as the killer's apparent signature: 'This is the First' was left on Mrs. Stanning, while there were three Corrigan children. The group therefore faces the possibility that further attacks are planned. References to the rhyme should be interpreted as threat/signature imagery, not simply as a children's song."
+      },
+      {
+        "thread": "Everyone becomes potentially relevant",
+        "development": "Trotter asks each person about Longridge Farm and receives denials or claims of no personal knowledge. The denials are statements by the characters, not verified facts. The later discussion of weak identity evidence and the broad suspect description means the play intentionally keeps multiple identities uncertain."
+      },
+      {
+        "thread": "Mrs. Boyle's concealed connection",
+        "development": "Major Metcalf reveals that Mrs. Boyle was one of the magistrates responsible for sending the Corrigan children to Longridge Farm. Boyle minimizes responsibility by stressing favourable reports and the foster parents' respectable manner. Her earlier certainty that she has nothing to do with the case is therefore materially undermined."
+      },
+      {
+        "thread": "Childhood trauma and refusal to look back",
+        "development": "Casewell and Mollie discuss unhappy childhoods, psychology, memory and whether painful events can simply be left behind. Casewell insists on will power and turning one's back on the past, but her vehemence itself suggests personal importance. The dialogue is strongly suggestive but does not by itself establish exactly what happened to her."
+      },
+      {
+        "thread": "Isolation becomes possible sabotage",
+        "development": "The dead telephone, previously explainable by snow, is reinterpreted by Trotter as possibly cut deliberately. This changes the closed-house situation from a natural accident into something that may have been engineered from inside."
+      },
+      {
+        "thread": "The threat moves from outside to inside",
+        "development": "Mollie initially reasons that the snow keeps a killer out. Trotter reverses that reassurance by pointing out that the murderer may already have arrived at Monkswell Manor. The broad coat-and-hat description fits several occupants, making physical appearance poor evidence of innocence."
+      }
+    ],
+    "beats": [
+      {
+        "beatId": "b3-01",
+        "speechRange": [179, 218],
+        "summary": "Trotter identifies the murdered Mrs. Lyon as Maureen Stanning and reconstructs the Longridge Farm case: the three Corrigan children were placed with the Stannings, one child died after serious neglect and ill-treatment, and the Stannings were imprisoned. He then reveals that a notebook near the London murder contained both the Culver Street address and Monkswell Manor, making the danger local. The 'Three Blind Mice' note and tune suggest that Mrs. Stanning was only the first intended victim. Trotter describes the surviving Corrigan children and says police suspect the elder boy, then asks Mollie and Giles directly about any connection; Mollie's hesitant denial is left unexplained.",
+        "contextNotes": [
+          "Legal and police phrases such as 'in need of care and protection', 'police record', 'on file' and 'take what measures I thought fit' require institutional senses rather than everyday literal glosses.",
+          "The police theory about the surviving boy is presented as suspicion, not established fact.",
+          "Mollie's hesitation at speech 0218 is dramatically significant, but its cause must not be invented at this stage."
+        ]
+      },
+      {
+        "beatId": "b3-02",
+        "speechRange": [219, 236],
+        "summary": "Trotter gathers names and presses the whole group to admit any connection with Longridge Farm. Mrs. Boyle objects to the questioning; Paravicini, Casewell, Metcalf and Christopher each deny relevant knowledge in different ways. Trotter warns that withholding information may put one of them in deadly danger and then leaves with Giles to inspect the house.",
+        "contextNotes": [
+          "'What I'm getting at' means the point Trotter is trying to establish, not physical movement.",
+          "Paravicini's repeated 'nothing, but nothing' is theatrical emphasis.",
+          "Trotter's 'you'll have yourself to blame' is a forceful warning intended to make the group cooperate, not a neutral statement of legal responsibility."
+        ]
+      },
+      {
+        "beatId": "b3-03",
+        "speechRange": [237, 258],
+        "summary": "Christopher treats the murder investigation as exciting melodrama, calls the rhyme the murderer's signature and deliberately frightens Mrs. Boyle with a tasteless imitation of an attack. Major Metcalf stops him. The exchange then exposes a real connection: Metcalf remembers that Mrs. Boyle sat as a magistrate in the Longridge Farm matter and helped send the children there. Boyle defensively argues that officials had favourable reports and that she could not have known how the children would be treated.",
+        "contextNotes": [
+          "Christopher's threatening performance is a macabre joke in this exchange; do not record it as an actual attempt or confession.",
+          "'Signature tune' is used figuratively for a repeated identifying motif associated with the murderer.",
+          "'On the Bench' is a legal expression meaning serving as a magistrate/judge, not sitting on an ordinary bench.",
+          "Boyle's 'public duty' frames herself as unfairly blamed and minimizes her role; the surrounding dialogue contests that framing."
+        ]
+      },
+      {
+        "beatId": "b3-04",
+        "speechRange": [259, 293],
+        "summary": "Paravicini openly enjoys the group's discomfort, after which the others speculate about his age and appearance. The atmosphere darkens as the 'Three Blind Mice' tune prompts Casewell and Mollie to discuss childhood. Casewell admits she was unhappy, rejects psychologists and psychiatry as nonsense, and insists that people can overcome the past by refusing to look back. Mollie questions that certainty and suggests that painful things may need to be faced. Casewell ends by asserting that the past will affect her only on her own terms.",
+        "contextNotes": [
+          "Period slang such as 'spiv' needs a dated British explanation.",
+          "'One gets over things', 'look back', 'give in', 'turn your back on' and 'face them' are figurative psychological expressions in this conversation.",
+          "Casewell's forceful dismissal of psychologists reflects her character's attitude; it should not be presented as objective information about psychology."
+        ]
+      },
+      {
+        "beatId": "b3-05",
+        "speechRange": [294, 326],
+        "summary": "Trotter finishes inspecting the building and prepares to report to Superintendent Hogben, but Mollie reminds him that the telephone is dead. He immediately considers deliberate cutting of the line. Questioning the Ralstons about their guests reveals that they possess little reliable identity information. Mollie tries to take comfort in the snow, but Trotter points out that the murderer may already be among them and that the crimes appear planned in advance. The generic London description matches several coats and hats in the hall, making it useless for clearing the occupants.",
+        "contextNotes": [
+          "'Get the lay of the land' means become familiar with the layout/situation, not literally inspect land ownership.",
+          "'Out of the blue' means unexpectedly and without warning.",
+          "'Reliance to be placed on' concerns evidential trustworthiness.",
+          "'Here already' is the decisive reversal: the snow does not guarantee safety if the threat entered before isolation became complete."
+        ]
+      },
+      {
+        "beatId": "b3-06",
+        "speechRange": [327, 336],
+        "summary": "Mollie returns to kitchen work while Trotter asks Giles to test the upstairs telephone extension. Mrs. Boyle complains about an open window and then listens to the radio. A programme discussing the mechanics of fear describes the effect of being alone in a room as a door opens behind you. Mrs. Boyle addresses someone who has entered, asks why the light has been switched off, and the scene ends with Mollie returning to darkness and reacting to a noise. The identity of the person and the meaning of the disturbance are not stated before the scene ends.",
+        "contextNotes": [
+          "The radio lecture is dramatic counterpoint: its subject mirrors the immediate situation in the room.",
+          "Mrs. Boyle's questions show that another person is present, but the block must not name that person without later evidence.",
+          "The final noise is intentionally unresolved at the scene boundary; vocabulary/context notes should preserve that uncertainty."
+        ]
+      }
+    ],
+    "characterState": {
+      "TROTTER": "Now firmly controls the investigation. He explains the Longridge Farm motive, rejects coincidence, pressures the group to disclose connections, inspects the house and increasingly treats the dead telephone as evidence of possible internal sabotage.",
+      "MOLLIE": "Alarmed by the connection between the murder and Monkswell Manor. Her hesitant denial of a Longridge connection and later comments about memory suggest private unease, but the block does not establish the cause. She repeatedly tries to return to practical domestic tasks as tension rises.",
+      "GILES": "Initially rejects the danger as crazy or fantastic, then becomes progressively more disturbed when Trotter explains the planned nature of the crimes and the possibility that the killer is already in the house.",
+      "MRS. BOYLE": "Moves from dismissing the police story as nonsense to being exposed as a magistrate connected to the Longridge Farm placement. She defends herself by denying that she could have foreseen the abuse and resents the blame directed at her.",
+      "MAJOR METCALF": "Remains controlled and observant. He restrains Christopher's macabre joke and supplies the crucial fact that Mrs. Boyle served on the magistrates' bench in the Longridge case.",
+      "CHRISTOPHER": "Continues to respond theatrically to danger and is fascinated by the murderer's imagery. His macabre joking becomes socially unacceptable enough for Metcalf to stop him, increasing suspicion around his behaviour without proving guilt.",
+      "MISS CASEWELL": "Her discussion of an unhappy childhood and refusal to dwell on the past strongly deepens the hidden-past theme. She is emphatic and defensive about psychology, but the exact relationship between her past and Longridge Farm remains unstated here.",
+      "PARAVICINI": "Still treats the group's fear as entertainment and remains deliberately difficult to read. Other characters become more suspicious of his appearance and unexplained arrival, but their comments remain speculation."
+    },
+    "vocabularyInterpretationPolicy": {
+      "generalRule": "Resolve meaning from the Longridge Farm history, investigative purpose, speaker stance, addressee and the block's shift from an external threat to an internal suspect pool before writing any contextual gloss.",
+      "contextMeaningRequiredWhen": [
+        "legal, police or institutional wording has a specialized local sense",
+        "an idiom, phrasal verb or figurative expression is not recoverable from its component words",
+        "irony, menace, defensiveness, euphemism, period slang or dramatic self-presentation materially changes the local force",
+        "the same neutral lemma selects a notably different sense in this specific exchange"
+      ],
+      "contextMeaningOmitWhen": "If the neutral dictionary meaning accurately expresses the local sense and no material pragmatic distinction is needed, use an empty contextMeaning so the future UI can suppress the duplicate field.",
+      "uncertaintyRule": "Do not treat police theories, character denials, suspicions, inferred memories, jokes or the unresolved final disturbance as established facts."
+    },
+    "status": "outline-complete"
+  }
+}
