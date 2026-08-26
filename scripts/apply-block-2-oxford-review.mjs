@@ -13,6 +13,7 @@ const threshold = read(thresholdPath);
 const dictionary = read(dictionaryPath);
 const supplement = read(supplementPath);
 const speeches = script['act1-scene2'].speeches.slice(0, 178);
+const speechById = new Map(speeches.map(s => [s.id, s]));
 
 const norm = s => String(s || '').toLowerCase().normalize('NFKC').replace(/[‘’]/g, "'").replace(/\s+/g, ' ').trim();
 const escapeRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -68,6 +69,14 @@ function addContextPhrase(entry) {
   }
   return item;
 }
+function resolvePhraseSpeechId(phrase) {
+  const target = norm(phrase.surface);
+  const declared = speechById.get(phrase.speechId);
+  if (declared && norm(declared.text).includes(target)) return phrase.speechId;
+  const matches = speeches.filter(s => norm(s.text).includes(target));
+  if (matches.length === 1) return matches[0].id;
+  throw new Error(`Cannot resolve reviewed phrase to exactly one speech: ${phrase.speechId} / ${phrase.surface} / matches=${matches.map(x => x.id).join(',')}`);
+}
 
 let lexicalAdds = 0;
 let lexicalUpdates = 0;
@@ -87,9 +96,13 @@ for (const lex of review.includeLexemes || []) {
 }
 
 let phraseAdds = 0;
+let phraseRelinks = 0;
 for (const phrase of review.includePhrases || []) {
-  const before = findExact(phrase.speechId, phrase.surface);
-  addContextPhrase(phrase);
+  const resolvedSpeechId = resolvePhraseSpeechId(phrase);
+  if (resolvedSpeechId !== phrase.speechId) phraseRelinks += 1;
+  const resolved = { ...phrase, speechId: resolvedSpeechId };
+  const before = findExact(resolvedSpeechId, resolved.surface);
+  addContextPhrase(resolved);
   if (!before) phraseAdds += 1;
 }
 
@@ -114,4 +127,4 @@ write(contextPath, context);
 write(thresholdPath, threshold);
 write(dictionaryPath, dictionary);
 write(supplementPath, supplement);
-console.log(JSON.stringify({ lexicalAdds, lexicalUpdates, phraseAdds, selectedLemmas: selected.size, dictionaryEntries: Object.keys(dictionary.entries).length }, null, 2));
+console.log(JSON.stringify({ lexicalAdds, lexicalUpdates, phraseAdds, phraseRelinks, selectedLemmas: selected.size, dictionaryEntries: Object.keys(dictionary.entries).length }, null, 2));
