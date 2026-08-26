@@ -1,0 +1,39 @@
+name: Integrate Interpretation Production
+
+on:
+  push:
+    branches: ["feature/interpretation-production-integration"]
+    paths:
+      - 'scripts/integrate-interpretation-production.py'
+      - '.github/workflows/integrate-interpretation-production.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/interpretation-production-integration
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Apply structural integration
+        run: python3 scripts/integrate-interpretation-production.py
+      - name: Syntax and static checks
+        run: |
+          node --check app/src/config.js
+          node --check app/src/data-store.js
+          node --check app/src/main.js
+          node --check app/sw.js
+          node app/tests/index_zero_static.mjs
+      - name: Commit integrated application
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add app .github/workflows/pages.yml
+          git commit -m 'Integrate interpretation into production app architecture'
+          git push
