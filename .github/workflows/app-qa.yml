@@ -39,8 +39,9 @@ jobs:
           node --check app/scripts/assemble-production.mjs
           python3 app/scripts/validate-chunking-v1.py --root . --structure app/mousetrap_line_structure.json --report /tmp/chunking-rebuild.json
           (cd app && node tests/index_zero_static.mjs && node scripts/assemble-production.mjs --verify-only)
-      - name: Commit rebuilt study UI
+      - name: Commit rebuilt study UI without workflow writes
         run: |
+          git restore --source=HEAD -- .github/workflows/app-qa.yml .github/workflows/pages.yml .github/workflows/expand-context-vocabulary.yml
           if git diff --quiet && git diff --cached --quiet; then
             echo 'No generated changes.'
             exit 0
