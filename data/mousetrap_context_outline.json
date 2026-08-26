@@ -45,8 +45,9 @@
     },
     {
       "blockId": "block-6",
-      "scope": "Act II — final section",
-      "boundaryPolicy": "starts at the final selected natural break and continues to act end"
+      "scope": "Act II — speeches 0424-0638",
+      "boundaryPolicy": "Begins when Trotter stops Miss Casewell after completing his interrogation of Paravicini. Continues through the reconstruction experiment, the final identity revelations, the resolution of the Ralstons' mutual suspicions, and the domestic comic tag at the end of Act II. This is the final block, so speech 0638 is the natural terminal boundary.",
+      "speechCount": 215
     }
   ],
   "outlines": {
@@ -733,6 +734,127 @@
         ],
         "contextMeaningOmitWhen": "Leave contextMeaning empty when the neutral dictionary meaning already expresses the local sense without meaningful loss; the future UI will suppress the empty field.",
         "uncertaintyRule": "Do not convert suspicion into fact. Christopher's false identity details, both Ralstons' secret London trips, the missing skis and Paravicini's evasions increase suspicion but do not by themselves establish who committed the murders or why."
+      },
+      "status": "outline-complete"
+    },
+    "block-6": {
+      "scope": {
+        "sceneId": "act2",
+        "firstSpeechId": "act2-speech-0424",
+        "lastSpeechId": "act2-speech-0638",
+        "speechCount": 215
+      },
+      "dramaticFunction": "The investigation moves from suspicion to resolution. Trotter interrogates Miss Casewell about her identity and past, becomes convinced that a previously overlooked fact matters, and gathers everyone for a controlled repetition of their earlier movements. He deliberately reassigns the roles, creating a situation in which hidden identities and Longridge Farm connections can be exposed. Mollie's own connection to the case is finally stated, Trotter's assumed identity is revealed, Miss Casewell recognizes him as Georgie and identifies herself as Kathy, and the apparent Major Metcalf is then revealed as the genuine police officer who had substituted for the real major. The closing exchanges resolve the Ralstons' secret London trips as anniversary shopping rather than betrayal, and the play ends by returning abruptly to the ordinary problem of Mollie's neglected cooking.",
+      "startingState": "Paravicini has just left Trotter after an evasive interrogation. Trotter immediately turns to Miss Casewell, whose age, history abroad, purpose in England and possible Longridge Farm connection remain unexplained.",
+      "endingState": "The killer's identity and the major hidden identities are resolved; Miss Casewell has taken charge of Georgie, the undercover policeman explains his substitution for Major Metcalf, and Mollie and Giles learn that each secretly went to London to buy an anniversary present. The final line returns the household from murder investigation to the comic domestic crisis of a burning pie.",
+      "globalThreads": [
+        {
+          "thread": "Miss Casewell's hidden past becomes central",
+          "development": "Trotter presses her for verifiable identity details and notices that the name Katherine triggers a reaction. She refuses to explain her private purpose in England and becomes distressed. Later she recognizes Georgie through a childhood mannerism and identifies herself as Kathy, revealing that her search in England was connected to finding him."
+        },
+        {
+          "thread": "Trotter's reconstruction changes from investigation to trap",
+          "development": "Trotter presents the exercise as a way to test the occupants' earlier statements, but he reassigns the roles rather than simply repeating them. The language of reconstruction, stations, checking statements and repeating actions must be read as an investigative setup before the later identity revelation, not prematurely described as a confession scene."
+        },
+        {
+          "thread": "Mollie's Longridge Farm connection is finally explicit",
+          "development": "Mollie is identified as the former Miss Waring, a teacher known to Jimmy. She explains that she never intentionally ignored his plea for help: illness prevented her seeing the letter until after his death. Her earlier desire to forget is thereby given specific context."
+        },
+        {
+          "thread": "Assumed identities are resolved",
+          "development": "The man known as Sergeant Trotter reveals that he is Georgie, Jimmy's brother, while the man known as Major Metcalf later reveals that he is in fact the police officer placed inside Monkswell Manor. The vocabulary data must distinguish what speakers believe before each revelation from facts established afterward."
+        },
+        {
+          "thread": "The Ralstons' mutual suspicion is defused",
+          "development": "After the danger has passed, Giles and Mollie finally explain their secret London journeys. Both trips were for anniversary presents, reversing the jealous and criminal suspicions created in Block 5."
+        }
+      ],
+      "beats": [
+        {
+          "beatId": "b6-01",
+          "speechRange": [
+            424,
+            493
+          ],
+          "summary": "Trotter questions Miss Casewell about her full name, addresses, time in England, age, references, earlier surname and purpose at Monkswell Manor. She is cooperative about routine facts but refuses to disclose the private reason for her visit. Trotter becomes increasingly interested in her past, especially the name Katherine and the age at which she left England. Casewell becomes distressed and leaves the exchange shaken.",
+          "contextNotes": [
+            "'Care of' in an address means mail is to be received through the named bank or person, not that the bank is physically caring for her.",
+            "'Vouch for' means confirm or support someone's identity, reliability or character.",
+            "'Make you out' means understand what kind of person someone is or explain their behaviour.",
+            "'The third degree' is a dated expression for severe or aggressive interrogation; Christopher uses it critically and hyperbolically.",
+            "Do not state Casewell's later identity as Kathy in contextual glosses for these earlier lines; at this point it has not yet been revealed."
+          ]
+        },
+        {
+          "beatId": "b6-02",
+          "speechRange": [
+            494,
+            565
+          ],
+          "summary": "After Casewell leaves, Trotter realizes that he has overlooked an important clue and summons everyone. He reviews their statements about where they were when Mrs. Boyle was killed and proposes repeating the movements. Paravicini calls the idea an old chestnut, while Mollie suspects a trap. Trotter then changes the exercise: the same actions will be performed by different people. He assigns each occupant a new station, while he takes Mrs. Boyle's role.",
+          "contextNotes": [
+            "'Blind as a bat' is a self-critical idiom meaning Trotter failed to notice something that now seems obvious.",
+            "'Get somewhere' means make progress toward solving the problem.",
+            "'All to no avail' means despite the effort, nothing was achieved.",
+            "'Old chestnut' means a familiar, overused idea or story.",
+            "'Count me out' means exclude me from the proposed activity.",
+            "'What you say goes' means Giles accepts Trotter's decision as controlling what everyone will do.",
+            "'Check up on' means verify the accuracy of the earlier statements; 'keep an eye on' means watch or supervise something."
+          ]
+        },
+        {
+          "beatId": "b6-03",
+          "speechRange": [
+            566,
+            602
+          ],
+          "summary": "With the others dispersed, Trotter tells Mollie he has obtained what he wanted and confronts her about withholding her Longridge Farm connection. He identifies her former surname and her role as Jimmy's teacher. Mollie explains that illness prevented her seeing Jimmy's letter until after his death and that the memory has haunted her. Trotter then reveals that the police identity Mollie trusted was false and identifies himself as Georgie, Jimmy's brother. Miss Casewell intervenes, recalls childhood details, is recognized as Kathy, and persuades Georgie to go with her so that he can be looked after and prevented from causing further harm.",
+          "contextNotes": [
+            "'Hold out on me' means withhold relevant information from the investigator.",
+            "'Firsthand knowledge' means knowledge gained directly through personal involvement or experience.",
+            "'Speak up' here means disclose the relevant information rather than merely speak louder.",
+            "'Go down with pneumonia' means become ill with pneumonia.",
+            "'Put aside' means set the letter apart and leave it unattended among other mail.",
+            "'Haunted me' is figurative: the memory has continued to trouble Mollie deeply.",
+            "The identity facts become established only at the points where the dialogue reveals them; earlier entries must not be retrospectively rewritten as though the characters already knew."
+          ]
+        },
+        {
+          "beatId": "b6-04",
+          "speechRange": [
+            603,
+            638
+          ],
+          "summary": "Giles and the apparent Major Metcalf return. Mollie explains her connection to the school and Longridge Farm. Metcalf then reveals that he is the genuine police officer who substituted for the real Major Metcalf after the police found the Monkswell Manor clue. He explains that Casewell recognized Georgie in time and that help is approaching as the weather thaws. Giles and Mollie finally explain their secret London trips: each was buying the other an anniversary present. Their mistrust dissolves, and the final interruption about a burning smell sends Mollie back to her forgotten pie.",
+          "contextNotes": [
+            "'Under control' means the immediate dangerous situation has been contained.",
+            "'Mad as a hatter' is an old idiom meaning extremely irrational or mentally disordered; it is character dialogue, not a clinical diagnosis.",
+            "'On the spot' means physically present at Monkswell Manor where events are happening.",
+            "'Turned up' means arrived or appeared unexpectedly.",
+            "'His line of business' means his usual trade or type of work.",
+            "The anniversary-present reveal reinterprets the hidden London trips established in Block 5 and resolves the marital suspicion without changing what those earlier speakers knew at the time."
+          ]
+        }
+      ],
+      "characterState": {
+        "MOLLIE": "Her hidden connection to Longridge Farm becomes explicit. She explains why she failed to respond to Jimmy's letter and survives the final confrontation. Afterward she reconciles with Giles when both London trips are explained as anniversary shopping.",
+        "GILES": "Participates reluctantly in Trotter's reconstruction, then returns after the danger has passed. His suspicion of Mollie is resolved when they exchange the real reasons for their secret London trips.",
+        "CHRISTOPHER": "Continues to challenge and joke about the investigation, but is not the focus of the final reveal. He helps frame Trotter's sudden realization as a newly discovered clue rather than a solved case until Trotter acts on it.",
+        "TROTTER": "Moves from questioning to a staged reconstruction and then reveals his assumed police identity. The final sequence establishes his connection to Jimmy and Longridge Farm.",
+        "MISS CASEWELL": "Initially resists Trotter's intrusion into her private past. Later she recognizes Georgie from childhood behaviour, reveals that she is Kathy and takes responsibility for getting him to a place where he can be cared for.",
+        "MAJOR METCALF": "The person using this name is ultimately revealed as the genuine police officer who substituted for the real Major Metcalf in order to have someone inside Monkswell Manor.",
+        "PARAVICINI": "Treats the reconstruction theatrically and remains comic and evasive. The closing explanation suggests his own hidden activity is unrelated to the murders."
+      },
+      "vocabularyInterpretationPolicy": {
+        "generalRule": "Resolve each expression using only information available at that point in the dialogue. The final block contains several identity reversals, so later revelations must not be projected backward into earlier contextual meanings.",
+        "contextMeaningRequiredWhen": [
+          "an idiom or phrasal verb is non-compositional",
+          "an expression is dated, British, culturally specific or otherwise liable to be misunderstood",
+          "investigative language has a narrower local function than its neutral dictionary sense",
+          "irony, accusation, evasion or a later identity reveal materially changes how the line should be understood"
+        ],
+        "contextMeaningOmitWhen": "Leave contextMeaning empty when the neutral dictionary meaning already captures the local sense without meaningful loss; the future UI will suppress the empty field.",
+        "uncertaintyRule": "Maintain temporal knowledge boundaries. Before each explicit reveal, describe suspicions and apparent identities as such; after the reveal, facts established by the dialogue may be stated directly."
       },
       "status": "outline-complete"
     }
