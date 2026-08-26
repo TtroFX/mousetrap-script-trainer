@@ -1,0 +1,34 @@
+name: Context Outline Merge
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/context-outline-patches/**'
+      - 'scripts/merge-context-outline.mjs'
+      - '.github/workflows/context-outline-merge.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Merge outline patches
+        run: node scripts/merge-context-outline.mjs
+      - name: Commit merged outline
+        run: |
+          if git diff --quiet -- data/mousetrap_context_outline.json; then
+            echo 'No outline changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/mousetrap_context_outline.json
+          git commit -m 'Merge context outline patches'
+          git push
