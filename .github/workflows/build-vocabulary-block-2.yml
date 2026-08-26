@@ -35,3 +35,5 @@ jobs:
           fi
           git commit -m 'Generate Block 2 vocabulary rebuild'
           git push
+
+# Trigger marker: block-2-generation-v1
