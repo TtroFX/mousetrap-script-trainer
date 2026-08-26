@@ -1,8 +1,6 @@
 name: Chunking v1 QA
 
 on:
-  push:
-    branches: ["feature/chunking-rules-v1"]
   workflow_dispatch:
 
 permissions:
@@ -67,13 +65,3 @@ jobs:
           assert not bad, bad[:10]
           print('legacy/fallback assertion: PASS')
           PY
-
-      - name: Upload rebuilt canonical candidate and QA
-        uses: actions/upload-artifact@v4
-        with:
-          name: chunking-v1-candidate
-          path: |
-            app/mousetrap_line_structure.json
-            data/chunking-v1-qa.json
-          if-no-files-found: error
-          retention-days: 7
