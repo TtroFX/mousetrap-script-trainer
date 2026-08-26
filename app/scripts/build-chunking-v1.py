@@ -442,7 +442,8 @@ def analyze_speech(nlp, scene_id: str, speech: dict) -> tuple[dict, Counter]:
         metrics["fragments"] += int(row["kind"] == "fragment")
         metrics["clauses"] += len(row["clauses"])
         metrics["chunks"] += len(row["chunks"])
-        metrics.update({f"clause_{c['type']}": 1 for c in row["clauses"]})
+        for clause in row["clauses"]:
+            metrics[f"clause_{clause['type']}"] += 1
         for chunk in row["chunks"]:
             base = re.sub(r"\d+[a-z]?$", "", chunk["marker"])
             metrics[f"marker_{base}"] += 1

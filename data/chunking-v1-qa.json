@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "ruleSet": "chunking-v1",
   "status": "PASS",
-  "structureSha256": "dc1d24c4fe04f23106fd2d8aa1c799ae140f4d8c641149135244237c422e71dd",
+  "structureSha256": "aaaba4e3d180f869985c3ed116c4ac29ccd9fc4b9e403d62d87404872eeeb2af",
   "sourceSha256": "c4bd5bcf1e0a225ade1bb860775a189e259c2977e971684ac6124558ad843230",
   "errorCount": 0,
   "warningCount": 185,
