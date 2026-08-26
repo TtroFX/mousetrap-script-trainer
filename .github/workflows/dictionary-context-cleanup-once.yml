@@ -1,0 +1,41 @@
+name: Dictionary Context Cleanup Once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/migrate-dictionary-context-v2.mjs'
+      - '.github/workflows/dictionary-context-cleanup-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Apply canonical dictionary cleanup
+        run: node scripts/migrate-dictionary-context-v2.mjs
+      - name: Validate syntax and production contract
+        run: |
+          node --check app/src/main.js
+          cd app
+          npm run test:static
+          npm run verify:production
+      - name: Commit canonical implementation
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add mousetrap_word_dictionary.json \
+                  scripts/expand-play-context-vocabulary.mjs \
+                  app/src/main.js app/src/config.js app/sw.js app/pwa-version.json app/package.json \
+                  app/tests/dictionary_context.e2e.spec.js \
+                  data/canonical-production-contract.json data/canonical-integration-manifest.json
+          git commit -m 'Normalize dictionary context presentation'
+          git push origin HEAD:main
