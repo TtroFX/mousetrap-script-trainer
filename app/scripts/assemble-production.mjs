@@ -21,11 +21,39 @@ for(const item of contract.files){const file=path.join(rootDir,item.path);if(!fs
 const scenes=[['act1-scene1',190],['act1-scene2',336],['act2',638]];
 const scriptPath=path.join(rootDir,'mousetrap_script_data.json');
 const script=readJson(scriptPath);
-let speeches=0;for(const[id,count]of scenes){const rows=script[id]?.speeches;if(!Array.isArray(rows)||rows.length!==count)fail(`script ${id} count`);rows.forEach((row,i)=>{const expected=`${id}-speech-${String(i+1).padStart(4,'0')}`;if(row?.id!==expected||!row?.speaker||!row?.text)fail(`script ${id} #${i+1}`)});speeches+=rows.length}if(speeches!==1164)fail('script total');
-const translations=readJson(path.join(rootDir,'mousetrap_line_translations.json')),vocabulary=readJson(path.join(rootDir,'mousetrap_line_vocabulary.json')),grammar=readJson(path.join(rootDir,'mousetrap_line_grammar.json')),dictionary=readJson(path.join(rootDir,'mousetrap_word_dictionary.json'));
+let speeches=0;const expectedIds=[];
+for(const[id,count]of scenes){const rows=script[id]?.speeches;if(!Array.isArray(rows)||rows.length!==count)fail(`script ${id} count`);rows.forEach((row,i)=>{const expected=`${id}-speech-${String(i+1).padStart(4,'0')}`;if(row?.id!==expected||!row?.speaker||!row?.text)fail(`script ${id} #${i+1}`);expectedIds.push(expected)});speeches+=rows.length}
+if(speeches!==1164)fail('script total');
+const translations=readJson(path.join(rootDir,'mousetrap_line_translations.json'));
+const vocabulary=readJson(path.join(rootDir,'mousetrap_line_vocabulary.json'));
+const grammar=readJson(path.join(rootDir,'mousetrap_line_grammar.json'));
+const dictionary=readJson(path.join(rootDir,'mousetrap_word_dictionary.json'));
 if(Object.keys(translations).length!==1164||Object.keys(vocabulary).length!==1164||Object.keys(grammar).length!==1164||Object.keys(dictionary).length<578)fail('canonical coverage counts invalid');
-const vocabItems=Object.values(vocabulary).reduce((n,a)=>n+(Array.isArray(a)?a.length:0),0),grammarItems=Object.values(grammar).reduce((n,a)=>n+(Array.isArray(a)?a.length:0),0);if(vocabItems<1186||grammarItems!==692)fail('annotation item counts invalid');
-const dictionaryKeys=new Set(Object.keys(dictionary).map(x=>x.trim().toLowerCase()));for(const rows of Object.values(vocabulary))for(const entry of rows)if(!dictionaryKeys.has(String(entry.lemma||'').trim().toLowerCase()))fail(`missing dictionary lemma ${entry.lemma}`);
+const vocabItems=Object.values(vocabulary).reduce((n,a)=>n+(Array.isArray(a)?a.length:0),0);
+const grammarItems=Object.values(grammar).reduce((n,a)=>n+(Array.isArray(a)?a.length:0),0);
+if(vocabItems<1186||grammarItems!==692)fail('annotation item counts invalid');
+const dictionaryKeys=new Set(Object.keys(dictionary).map(x=>x.trim().toLowerCase()));
+for(const rows of Object.values(vocabulary))for(const entry of rows)if(!dictionaryKeys.has(String(entry.lemma||'').trim().toLowerCase()))fail(`missing dictionary lemma ${entry.lemma}`);
+
+const interpretationKinds=new Set(['context','reaction','emotion','tone','joke','dramatic','reference','foreshadowing','truth','lie','concealment','feignedIgnorance','misdirection','evasion','mistakenBelief']);
+const interpretation={};let interpretationSpeeches=0,interpretationNotes=0;
+for(const[sceneId,count]of scenes){
+  const src=readJson(path.join(rootDir,'data/interpretation',`${sceneId}.json`));
+  const ids=script[sceneId].speeches.map(x=>x.id);
+  if(src.schemaVersion!==1||src.sceneId!==sceneId||src.scope?.speechCount!==count)fail(`interpretation ${sceneId}: schema/scope`);
+  if(src.policy?.allSpeechesReviewed!==true||src.policy?.interpretationOptional!==true||src.policy?.fullPlayTruthAllowed!==true)fail(`interpretation ${sceneId}: policy`);
+  if(src.qa?.truthAwareReview!=='PASS'||src.qa?.fullPlayTruthChecked!==true)fail(`interpretation ${sceneId}: truth-aware QA`);
+  if(!Array.isArray(src.reviewedSpeechIds)||src.reviewedSpeechIds.length!==count||src.reviewedSpeechIds.some((id,i)=>id!==ids[i]))fail(`interpretation ${sceneId}: reviewed IDs`);
+  for(const id of ids){
+    const notes=src.interpretations?.[id]||[];
+    if(!Array.isArray(notes))fail(`interpretation ${id}: array`);
+    const seen=new Set();
+    for(const note of notes){const kind=String(note?.kind||''),text=String(note?.text||'').trim();if(!interpretationKinds.has(kind)||!text||text.length>360)fail(`interpretation ${id}: invalid note`);const key=`${kind}\u0000${text}`;if(seen.has(key))fail(`interpretation ${id}: duplicate note`);seen.add(key)}
+    interpretation[id]=notes.map(({kind,text})=>({kind,text:String(text).trim()}));
+    if(notes.length){interpretationSpeeches++;interpretationNotes+=notes.length}
+  }
+}
+if(Object.keys(interpretation).length!==1164||Object.keys(interpretation).some((id,i)=>id!==expectedIds[i]))fail('interpretation production coverage/order');
 
 const structurePath=path.join(appDir,'mousetrap_line_structure.json');
 if(!fs.existsSync(structurePath))fail('canonical chunking structure missing');
@@ -35,10 +63,12 @@ if('rawLines' in structure)fail('legacy structure fallback forbidden');
 if(structure.sourceSha256!==sha(scriptPath))fail('structure/script SHA mismatch');
 if(structure.counts?.speeches!==1164||structure.counts?.sentences!==2334||structure.counts?.clauses!==2939||structure.counts?.chunks!==11810)fail('chunking-v1 count contract invalid');
 if(!structure.lines||Object.keys(structure.lines).length!==1164)fail('chunking-v1 speech coverage invalid');
-const expectedIds=[];for(const[id,count]of scenes)for(let i=1;i<=count;i+=1)expectedIds.push(`${id}-speech-${String(i).padStart(4,'0')}`);if(Object.keys(structure.lines).some((id,i)=>id!==expectedIds[i]))fail('chunking-v1 speech order invalid');
+if(Object.keys(structure.lines).some((id,i)=>id!==expectedIds[i]))fail('chunking-v1 speech order invalid');
 for(const line of Object.values(structure.lines))for(const sentence of line.sentences||[])for(const chunk of sentence.chunks||[]){const marker=String(chunk.marker||'');if(marker.startsWith('Vi')||marker.startsWith('Vt')||marker.includes('VBN')||/^HV\d/.test(marker))fail(`legacy chunk marker ${marker}`)}
 
-const required=['index.html','manifest.webmanifest','sw.js','offline.html','pwa-version.json'];for(const file of required)if(!fs.existsSync(path.join(appDir,file)))fail(`missing runtime ${file}`);for(const file of ['src/app.css','src/config.js','src/data-store.js','src/state-store.js','src/resume-bookmarks.js','src/gesture-controls.js','src/main.js'])if(!fs.existsSync(path.join(appDir,file)))fail(`missing module ${file}`);
+const required=['index.html','manifest.webmanifest','sw.js','offline.html','pwa-version.json'];
+for(const file of required)if(!fs.existsSync(path.join(appDir,file)))fail(`missing runtime ${file}`);
+for(const file of ['src/app.css','src/config.js','src/data-store.js','src/state-store.js','src/resume-bookmarks.js','src/gesture-controls.js','src/main.js'])if(!fs.existsSync(path.join(appDir,file)))fail(`missing module ${file}`);
 const legacy=['p5_app.js','reader_sheet.js','practice_navigation.js','p6_private_data.js','p6_pwa.js','p6_pwa.css','P2_learning.html','008_cue_practice_P3.html','009_rehearsal_P4.html'];
 
 if(!verifyOnly){
@@ -47,9 +77,12 @@ if(!verifyOnly){
   copyDir(path.join(appDir,'src'),path.join(outDir,'src'));copyDir(path.join(appDir,'icons'),path.join(outDir,'icons'));
   copy(structurePath,path.join(outDir,'mousetrap_line_structure.json'));
   for(const item of contract.files){const src=path.join(rootDir,item.path),dst=path.join(outDir,item.path);copy(src,dst);if(sha(src)!==sha(dst))fail(`artifact SHA mismatch ${item.path}`)}
+  const interpretationPath=path.join(outDir,'mousetrap_line_interpretation.json');
+  fs.writeFileSync(interpretationPath,JSON.stringify(interpretation,null,2)+'\n');
   for(const file of legacy)if(fs.existsSync(path.join(outDir,file)))fail(`legacy runtime leaked ${file}`);
   const files=Object.fromEntries(contract.files.map(item=>[item.path,sha(path.join(outDir,item.path))]));
+  files['mousetrap_line_interpretation.json']=sha(interpretationPath);
   files['mousetrap_line_structure.json']=sha(path.join(outDir,'mousetrap_line_structure.json'));
-  fs.writeFileSync(path.join(outDir,'production-bundle.json'),JSON.stringify({schemaVersion:2,buildId:version.buildId,runtime:'index-zero',verifiedAt:new Date().toISOString(),qa:{speeches:1164,translations:1164,vocabulary:vocabItems,grammar:grammarItems,dictionary:Object.keys(dictionary).length,structureSentences:2334,structureClauses:2939,structureChunks:11810},files},null,2)+'\n');
+  fs.writeFileSync(path.join(outDir,'production-bundle.json'),JSON.stringify({schemaVersion:2,buildId:version.buildId,runtime:'index-zero',verifiedAt:new Date().toISOString(),qa:{speeches:1164,translations:1164,interpretationCoverage:1164,interpretationSpeeches,interpretationNotes,vocabulary:vocabItems,grammar:grammarItems,dictionary:Object.keys(dictionary).length,structureSentences:2334,structureClauses:2939,structureChunks:11810},files},null,2)+'\n');
 }
-console.log(JSON.stringify({status:'PASS',runtime:'index-zero',buildId:version.buildId,mode:verifyOnly?'verify-only':'assembled',qa:{speeches:1164,translations:1164,vocabulary:vocabItems,grammar:grammarItems,dictionary:Object.keys(dictionary).length,structureSentences:2334,structureClauses:2939,structureChunks:11810}},null,2));
+console.log(JSON.stringify({status:'PASS',runtime:'index-zero',buildId:version.buildId,mode:verifyOnly?'verify-only':'assembled',qa:{speeches:1164,translations:1164,interpretationCoverage:1164,interpretationSpeeches,interpretationNotes,vocabulary:vocabItems,grammar:grammarItems,dictionary:Object.keys(dictionary).length,structureSentences:2334,structureClauses:2939,structureChunks:11810}},null,2));
