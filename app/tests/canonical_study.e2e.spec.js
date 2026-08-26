@@ -1,3 +1,4 @@
+// canonical-study-ui-v1
 const {test,expect}=require('@playwright/test');
 const BASE='http://127.0.0.1:4173/index.html';
 async function ready(page){await page.goto(BASE,{waitUntil:'domcontentloaded'});await page.waitForFunction(()=>window.MTS_INDEX_ZERO?.store?.hasCore?.(),null,{timeout:12000});await page.evaluate(()=>Promise.all([MTS_INDEX_ZERO.store.loadStudy(),MTS_INDEX_ZERO.store.loadStructure()]));await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasStudy()&&MTS_INDEX_ZERO.store.hasStructure(),null,{timeout:15000})}
