@@ -1,0 +1,97 @@
+name: Expand Context Vocabulary
+
+on:
+  push:
+    branches: ["feature/expand-context-vocabulary"]
+    paths:
+      - 'scripts/expand-play-context-vocabulary.mjs'
+      - '.github/workflows/expand-context-vocabulary.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  expand-validate-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Syntax check expansion pipeline
+        run: node --check scripts/expand-play-context-vocabulary.mjs
+
+      - name: Expand full-play occurrence vocabulary and dictionary
+        run: node scripts/expand-play-context-vocabulary.mjs
+
+      - name: Validate expansion contract
+        run: |
+          node --input-type=module <<'EOF'
+          import fs from 'node:fs';
+          const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+          const report=read('data/vocabulary-context-expansion-report.json');
+          const vocab=read('mousetrap_line_vocabulary.json');
+          const dict=read('mousetrap_word_dictionary.json');
+          const script=read('mousetrap_script_data.json');
+          if(report.status!=='PASS') throw new Error('expansion report not PASS');
+          if(report.coverage.speeches!==1164||report.coverage.missingDictionary!==0) throw new Error('coverage failure');
+          if(report.vocabulary.afterItems<=report.vocabulary.beforeItems) throw new Error('no vocabulary expansion');
+          if(report.vocabulary.addedItems<100) throw new Error(`expansion too small: ${report.vocabulary.addedItems}`);
+          if(report.dictionary.afterEntries<report.dictionary.beforeEntries) throw new Error('dictionary shrank');
+          if(Object.keys(vocab).length!==1164) throw new Error('vocabulary speech coverage');
+          const keys=new Set(Object.keys(dict).map(x=>x.trim().toLowerCase()));
+          const norm=s=>String(s||'').toLowerCase().normalize('NFKC').replace(/[‘’“”"']/g,'').replace(/[‐‑‒–—―-]/g,' ').replace(/[^\p{L}\p{N}]+/gu,' ').trim().replace(/\s+/g,' ');
+          const speech=new Map();
+          for(const sceneId of ['act1-scene1','act1-scene2','act2']) for(const row of script[sceneId].speeches) speech.set(row.id,row.text);
+          let items=0;
+          for(const [speechId,rows] of Object.entries(vocab)) {
+            if(!speech.has(speechId)||!Array.isArray(rows)) throw new Error(`invalid speech map ${speechId}`);
+            for(const item of rows) {
+              items++;
+              if(!item.surface||!item.lemma||!item.meaning) throw new Error(`blank vocab field ${speechId}`);
+              if(!norm(speech.get(speechId)).includes(norm(item.surface))) throw new Error(`surface mismatch ${speechId}: ${item.surface}`);
+              if(!keys.has(String(item.lemma).trim().toLowerCase())) throw new Error(`missing dictionary lemma ${item.lemma}`);
+            }
+          }
+          if(items!==report.vocabulary.afterItems) throw new Error(`item count mismatch ${items}/${report.vocabulary.afterItems}`);
+          console.log(JSON.stringify({status:'PASS',items,dictionary:Object.keys(dict).length,annotated:report.vocabulary.afterAnnotatedSpeeches,added:report.vocabulary.addedItems},null,2));
+          EOF
+
+      - name: Validate runtime and production assembly
+        working-directory: app
+        run: |
+          node --check src/data-store.js
+          node --check scripts/assemble-production.mjs
+          node scripts/assemble-production.mjs --verify-only
+
+      - name: Commit expanded production vocabulary
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add mousetrap_line_vocabulary.json \
+                  mousetrap_word_dictionary.json \
+                  data/canonical-production-contract.json \
+                  data/canonical-integration-manifest.json \
+                  data/vocabulary-context-expansion-report.json \
+                  materials/005_VOCABULARY_CORE.txt \
+                  materials/006_VOCABULARY_USAGE.txt \
+                  app/src/data-store.js \
+                  app/scripts/assemble-production.mjs
+          if git diff --cached --quiet; then
+            echo 'No generated changes.'
+            exit 0
+          fi
+          git commit -m 'Expand play-context vocabulary and dictionary [skip ci]'
+          git push origin HEAD:feature/expand-context-vocabulary
+
+      - name: Final assertion
+        run: |
+          git status --short
+          test -e data/vocabulary-context-expansion-report.json
