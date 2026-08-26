@@ -27,7 +27,7 @@ const vocabItems=Object.values(vocabulary).reduce((n,a)=>n+(Array.isArray(a)?a.l
 const dictionaryKeys=new Set(Object.keys(dictionary).map(x=>x.trim().toLowerCase()));for(const rows of Object.values(vocabulary))for(const entry of rows)if(!dictionaryKeys.has(String(entry.lemma||'').trim().toLowerCase()))fail(`missing dictionary lemma ${entry.lemma}`);
 
 const structurePath=path.join(appDir,'mousetrap_line_structure.json');if(!fs.existsSync(structurePath))fail('generated structure missing');const structure=readJson(structurePath);if(structure.schemaVersion!==1||structure.counts?.speeches!==1164||structure.counts?.sentences!==2277||structure.counts?.chunks!==8055)fail('structure contract invalid');
-const required=['index.html','manifest.webmanifest','sw.js','offline.html','pwa-version.json'];for(const file of required)if(!fs.existsSync(path.join(appDir,file)))fail(`missing runtime ${file}`);for(const file of ['src/app.css','src/config.js','src/data-store.js','src/state-store.js','src/main.js'])if(!fs.existsSync(path.join(appDir,file)))fail(`missing module ${file}`);
+const required=['index.html','manifest.webmanifest','sw.js','offline.html','pwa-version.json'];for(const file of required)if(!fs.existsSync(path.join(appDir,file)))fail(`missing runtime ${file}`);for(const file of ['src/app.css','src/config.js','src/data-store.js','src/state-store.js','src/resume-bookmarks.js','src/main.js'])if(!fs.existsSync(path.join(appDir,file)))fail(`missing module ${file}`);
 const legacy=['p5_app.js','reader_sheet.js','practice_navigation.js','p6_private_data.js','p6_pwa.js','p6_pwa.css','P2_learning.html','008_cue_practice_P3.html','009_rehearsal_P4.html'];
 
 if(!verifyOnly){
