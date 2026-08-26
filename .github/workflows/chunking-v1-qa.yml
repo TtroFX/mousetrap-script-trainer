@@ -28,6 +28,7 @@ jobs:
       - name: Syntax check
         run: |
           python -m py_compile app/scripts/build-chunking-v1.py
+          python -m py_compile app/scripts/chunking-v1-runtime.py
           python -m py_compile app/scripts/validate-chunking-v1.py
           python -m py_compile app/scripts/test-chunking-v1.py
 
@@ -36,7 +37,7 @@ jobs:
 
       - name: Build chunking v1
         run: |
-          python app/scripts/build-chunking-v1.py --root . --out app/mousetrap_line_structure.json --model en_core_web_sm
+          python app/scripts/chunking-v1-runtime.py --root . --out app/mousetrap_line_structure.json --model en_core_web_sm
           cp app/mousetrap_line_structure.json /tmp/chunking-v1-first.json
 
       - name: Strict structural validation
@@ -44,7 +45,7 @@ jobs:
 
       - name: Deterministic rebuild check
         run: |
-          python app/scripts/build-chunking-v1.py --root . --out /tmp/chunking-v1-second.json --model en_core_web_sm
+          python app/scripts/chunking-v1-runtime.py --root . --out /tmp/chunking-v1-second.json --model en_core_web_sm
           cmp /tmp/chunking-v1-first.json /tmp/chunking-v1-second.json
           sha256sum /tmp/chunking-v1-first.json /tmp/chunking-v1-second.json
 
