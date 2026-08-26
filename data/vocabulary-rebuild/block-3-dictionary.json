@@ -407,10 +407,10 @@
       ]
     },
     "Good Lord": {
-      "pos": "未分類",
-      "meaning": "なんてことだ／まったく",
+      "pos": "感嘆表現",
+      "meaning": "驚き・困惑・強い反応を表す感嘆句。宗教的語源を持つが、日常では間投詞的に使われる。",
       "tags": [
-        "needs-neutral-review"
+        "interjection"
       ]
     },
     "frankly": {
