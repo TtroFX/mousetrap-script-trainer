@@ -31,6 +31,12 @@ jobs:
           sed -i 's/\.line-page>:scope>\.card/.line-page > .card/g' tests/gesture_english.e2e.spec.js
           sed -i 's/Bookmark一覧/Bookmarks/g' tests/index_zero_static.mjs
           sed -i 's/台本を覚える/Learn Your Lines/g; s/Bookmark一覧/Bookmarks/g' tests/resume_bookmarks.e2e.spec.js
+          python - <<'PY'
+          p='tests/resume_bookmarks.e2e.spec.js'
+          s=open(p,encoding='utf-8').read()
+          s=s.replace("getByRole('heading',{name:'Bookmarks'})","getByRole('heading',{name:'Bookmarks',exact:true})")
+          open(p,'w',encoding='utf-8').write(s)
+          PY
           node --check src/main.js
           node --check src/gesture-controls.js
           node --check src/resume-bookmarks.js
