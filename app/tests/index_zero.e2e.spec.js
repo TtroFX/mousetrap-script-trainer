@@ -3,7 +3,7 @@ const BASE='http://127.0.0.1:4173/index.html';
 
 async function ready(page){
   await page.goto(BASE,{waitUntil:'domcontentloaded'});
-  await expect(page.getByRole('heading',{name:'台本を覚える'})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'Learn Your Lines'})).toBeVisible();
   await page.waitForFunction(()=>window.MTS_INDEX_ZERO?.store?.hasCore?.(),null,{timeout:12000});
 }
 
@@ -16,8 +16,8 @@ async function selectRole(page,role='MOLLIE'){
 test('new index boots immediately with no legacy runtime or iframe',async({page})=>{
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
   await page.goto(BASE,{waitUntil:'domcontentloaded'});
-  await expect(page.getByRole('heading',{name:'台本を覚える'})).toBeVisible();
-  await expect(page.getByRole('button',{name:/Act I · Scene I を開く/})).toBeEnabled();
+  await expect(page.getByRole('heading',{name:'Learn Your Lines'})).toBeVisible();
+  await expect(page.getByRole('button',{name:/Open Act I · Scene I/})).toBeEnabled();
   const info=await page.evaluate(()=>({iframes:document.querySelectorAll('iframe').length,legacy:{private:'MTS_PRIVATE_DATA'in window,shared:'MTS_SHARED_SCRIPT_DATA'in window},zero:!!window.MTS_INDEX_ZERO}));
   expect(info).toEqual({iframes:0,legacy:{private:false,shared:false},zero:true});
   expect(errors).toEqual([]);
@@ -27,7 +27,7 @@ test('core has exactly 1164 speeches and Home navigation remains usable',async({
   await ready(page);
   const counts=await page.evaluate(()=>({total:['act1-scene1','act1-scene2','act2'].reduce((n,s)=>n+MTS_INDEX_ZERO.store.getScene(s).length,0),scenes:['act1-scene1','act1-scene2','act2'].map(s=>MTS_INDEX_ZERO.store.getScene(s).length),diag:MTS_INDEX_ZERO.diagnostics()}));
   expect(counts.total).toBe(1164);expect(counts.scenes).toEqual([190,336,638]);expect(counts.diag.iframeCount).toBe(0);
-  await page.getByRole('button',{name:/Act I · Scene I を開く/}).click();
+  await page.getByRole('button',{name:/Open Act I · Scene I/}).click();
   await expect(page).toHaveURL(/#\/script/);
   await expect(page.locator('[data-line]')).toHaveCount(190);
 });
@@ -54,7 +54,6 @@ test('Search opens Line Detail and study/structure load on demand',async({page})
   await expect(page.getByText('Translation',{exact:true})).toBeVisible();
   await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasStudy()&&MTS_INDEX_ZERO.store.hasStructure(),null,{timeout:15000});
   await expect(page.getByText('Structure',{exact:true})).toBeVisible();
-  await page.getByText('詳しく見る',{exact:true}).click();
   await expect(page.getByText('Grammar / Usage',{exact:true})).toBeVisible();
   const d=await page.evaluate(()=>MTS_INDEX_ZERO.diagnostics().data);
   expect(d.metrics.requests).toBeLessThanOrEqual(6);
@@ -67,7 +66,6 @@ test('Dictionary opens from a registered vocabulary item without iframe',async({
   await page.goto(`${BASE}#/line?scene=${target.scene}&line=${target.line}`);
   await page.waitForFunction(({line})=>MTS_INDEX_ZERO.store.hasCore()&&MTS_INDEX_ZERO.store.hasStudy()&&MTS_INDEX_ZERO.store.getVocabulary(line).length>0,{line:target.line},{timeout:15000});
   await page.waitForFunction(()=>!!document.querySelector('[data-detail-word]'),null,{timeout:15000});
-  await page.getByText('詳しく見る',{exact:true}).click();
   const word=page.locator('[data-detail-word]').first();await expect(word).toBeVisible();await word.click();
   await expect(page.locator('#word-overlay')).toBeVisible();
   await expect(page.getByText('Word dictionary',{exact:true})).toBeVisible();
@@ -109,11 +107,11 @@ test('core network failure never creates an infinite blocking gate',async({brows
   const context=await browser.newContext();const page=await context.newPage();
   await page.route('**/mousetrap_script_data.json',r=>r.abort());
   await page.goto(BASE,{waitUntil:'domcontentloaded'});
-  await expect(page.getByRole('heading',{name:'台本を覚える'})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'Learn Your Lines'})).toBeVisible();
   await page.getByRole('button',{name:'Role'}).click();
-  await expect(page.getByRole('heading',{name:'役を選択'})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'Choose Your Role'})).toBeVisible();
   await page.goto(BASE+'#/script');
-  await expect(page.getByText('台本データを読み込めませんでした。',{exact:true})).toBeVisible({timeout:12000});
+  await expect(page.getByText('Script data could not be loaded.',{exact:true})).toBeVisible({timeout:12000});
   expect(await page.locator('iframe').count()).toBe(0);
   await context.close();
 });

@@ -3,7 +3,7 @@ const BASE='http://127.0.0.1:4173/index.html';
 
 async function ready(page){
   await page.goto(BASE,{waitUntil:'domcontentloaded'});
-  await expect(page.getByRole('heading',{name:'台本を覚える'})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'Learn Your Lines'})).toBeVisible();
   await page.waitForFunction(()=>window.MTS_INDEX_ZERO?.store?.hasCore?.(),null,{timeout:12000});
 }
 
@@ -18,8 +18,8 @@ test('Resume Continue restores the last studied location',async({page})=>{
   await page.goto(BASE+'#/line?scene=act1-scene1&line='+line);
   await page.waitForFunction(id=>MTS_INDEX_ZERO.state.latestResume()?.lineId===id,line);
   await page.goto(BASE+'#/home');
-  await expect(page.getByRole('button',{name:'続きから'})).toBeVisible();
-  await page.getByRole('button',{name:'続きから'}).click();
+  await expect(page.getByRole('button',{name:'Continue'})).toBeVisible();
+  await page.getByRole('button',{name:'Continue'}).click();
   await expect(page).toHaveURL(new RegExp('#\\/line\\?scene=act1-scene1&line='+line+'$'));
   await page.reload();await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasCore());
   expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.latestResume()?.lineId===id,line)).toBe(true);
@@ -55,7 +55,7 @@ test('Bookmark persists, opens, deletes in one click, and supports Undo',async({
   await page.goto(BASE+'#/bookmarks');
   await page.locator('[data-bookmark-row="'+line+'"] [data-bookmark-remove]').click();
   expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),line)).toBe(false);
-  await page.getByRole('button',{name:'元に戻す'}).click();
+  await page.getByRole('button',{name:'Undo'}).click();
   expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),line)).toBe(true);
   await expect(page.locator('[data-bookmark-row="'+line+'"]').first()).toBeVisible();
 });
@@ -98,9 +98,9 @@ test('Resume and Bookmark runtime survives an offline PWA reload',async({page,co
   },null,{timeout:12000});
   await context.setOffline(true);
   await page.reload({waitUntil:'domcontentloaded'});
-  await expect(page.getByRole('heading',{name:'台本を覚える'})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'Learn Your Lines'})).toBeVisible();
   await page.waitForFunction(()=>window.MTS_INDEX_ZERO?.store?.hasCore?.(),null,{timeout:12000});
   await page.goto(BASE+'#/bookmarks');
-  await expect(page.getByRole('heading',{name:'Bookmark一覧'})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'Bookmarks',exact:true})).toBeVisible();
   await context.setOffline(false);
 });

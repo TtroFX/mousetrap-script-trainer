@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "buildId": "index-zero-2026-08-26-r4",
+  "runtime": "index-zero",
+  "verifiedAt": "2026-08-26T00:40:51.094Z",
+  "qa": {
+    "speeches": 1164,
+    "translations": 1164,
+    "vocabulary": 1186,
+    "grammar": 692,
+    "dictionary": 578,
+    "structureSentences": 2277,
+    "structureChunks": 8055
+  },
+  "files": {
+    "mousetrap_script_data.json": "c4bd5bcf1e0a225ade1bb860775a189e259c2977e971684ac6124558ad843230",
+    "mousetrap_line_translations.json": "3b6daf0d3b9103f2a5369e0d4311fad576078b496e57787c3353a10092dd758d",
+    "mousetrap_line_vocabulary.json": "7092c967b7bd8fc1071bb9bd9e74a8158673da145a7734348bb3d682fc16924e",
+    "mousetrap_line_grammar.json": "ae05707b801f5db59041a9233406b33dd77275fcbce7ac379835a9a3c6d14a10",
+    "mousetrap_word_dictionary.json": "abd2e9e214d21728e5eef7e44f800e4b1e873de18eca43c4675c452a45c8fdf1"
+  }
+}
