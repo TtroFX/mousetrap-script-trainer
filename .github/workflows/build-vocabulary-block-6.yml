@@ -48,14 +48,15 @@ jobs:
         run: node scripts/validate-vocabulary-block.mjs block-5
       - name: Validate Block 6 structure
         run: node scripts/validate-vocabulary-block.mjs block-6
-      - name: Audit Oxford B1+ candidates
-        run: node scripts/audit-oxford-b1plus-block-6.mjs
-      - name: Show neutral fallback status
+      - name: Audit Oxford B1+ candidates strictly
+        run: node scripts/audit-oxford-b1plus-block-6.mjs --strict
+      - name: Assert zero neutral fallbacks
         run: |
           node --input-type=module <<'EOF'
           import fs from 'node:fs';
           const f=JSON.parse(fs.readFileSync('data/vocabulary-rebuild/block-6-neutral-fallbacks.json','utf8'));
           console.log(JSON.stringify(f,null,2));
+          if (f.count !== 0) process.exit(1);
           EOF
       - name: Commit generated Block 6 data
         run: |
@@ -74,5 +75,5 @@ jobs:
             echo 'No generated changes.'
             exit 0
           fi
-          git commit -m 'Generate Block 6 vocabulary rebuild'
+          git commit -m 'Finalize Block 6 vocabulary rebuild'
           git push
