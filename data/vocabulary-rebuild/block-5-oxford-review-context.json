@@ -1,0 +1,2168 @@
+{
+  "count": 98,
+  "entries": [
+    {
+      "word": "absolutely",
+      "levels": [
+        "adverb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0277",
+          "form": "absolutely",
+          "speaker": "MOLLIE",
+          "text": "You're being absolutely ridiculous. I never set eyes on Christopher Wren until he arrived yesterday."
+        }
+      ]
+    },
+    {
+      "word": "admit",
+      "levels": [
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0288",
+          "form": "admit",
+          "speaker": "GILES",
+          "text": "Come on now ― admit it. You went to London."
+        }
+      ]
+    },
+    {
+      "word": "annoy",
+      "levels": [
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0315",
+          "form": "annoyed",
+          "speaker": "PARAVICINI",
+          "text": "No, no, no business at all. But I just came in to say that the Sergeant cannot find his skis and I'm afraid he is very annoyed."
+        }
+      ]
+    },
+    {
+      "word": "annoyed",
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0315",
+          "form": "annoyed",
+          "speaker": "PARAVICINI",
+          "text": "No, no, no business at all. But I just came in to say that the Sergeant cannot find his skis and I'm afraid he is very annoyed."
+        }
+      ]
+    },
+    {
+      "word": "attract",
+      "levels": [
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0276",
+          "form": "attract",
+          "speaker": "GILES",
+          "text": "I read once in a paper that these homicidal cases were able to attract women. Looks as though it were true. Where did you first know him? How long has this been going on?"
+        }
+      ]
+    },
+    {
+      "word": "blind",
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0256",
+          "form": "blind",
+          "speaker": "CHRISTOPHER",
+          "text": "How blind are you ― or do you just pretend to be blind?"
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "form": "blind",
+          "speaker": "TROTTER",
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        }
+      ]
+    },
+    {
+      "word": "carve",
+      "levels": [
+        "verb:c1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0379",
+          "form": "carving",
+          "speaker": "PARAVICINI",
+          "text": "But such a gay little tune? Don't you think? She cut off their tails with a carving knife ― snick, snick, snick ― delicious. Just what a child would adore. Cruel little things, children. Some of them never grow up."
+        }
+      ]
+    },
+    {
+      "word": "charm",
+      "levels": [
+        "noun:c1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0373",
+          "form": "charming",
+          "speaker": "PARAVICINI",
+          "text": "Talking of chicken, dear lady, have you ever tried chickens' livers served on toast that has been thickly smeared with foie gras, with a very thin rasher of bacon just touched with a soupçon of fresh mustard? I will come with you to the kitchen and we will see what we can concoct together. A charming occupation."
+        }
+      ]
+    },
+    {
+      "word": "charming",
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0373",
+          "form": "charming",
+          "speaker": "PARAVICINI",
+          "text": "Talking of chicken, dear lady, have you ever tried chickens' livers served on toast that has been thickly smeared with foie gras, with a very thin rasher of bacon just touched with a soupçon of fresh mustard? I will come with you to the kitchen and we will see what we can concoct together. A charming occupation."
+        }
+      ]
+    },
+    {
+      "word": "communication",
+      "levels": [
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0338",
+          "form": "communication",
+          "speaker": "TROTTER",
+          "text": "Now, listen, you people. This is a serious matter. Somebody has removed my only chance of communication with the outside world. I want everybody here ― at once."
+        }
+      ]
+    },
+    {
+      "word": "countryside",
+      "levels": [
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0239",
+          "form": "countryside",
+          "speaker": "MOLLIE",
+          "text": "Then why shouldn't he tell me he did? Why pretend he'd been driving all round the countryside?"
+        },
+        {
+          "speechId": "act2-speech-0286",
+          "form": "countryside",
+          "speaker": "GILES",
+          "text": "Whilst I was safely away racing round the countryside."
+        }
+      ]
+    },
+    {
+      "word": "cruel",
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0379",
+          "form": "cruel",
+          "speaker": "PARAVICINI",
+          "text": "But such a gay little tune? Don't you think? She cut off their tails with a carving knife ― snick, snick, snick ― delicious. Just what a child would adore. Cruel little things, children. Some of them never grow up."
+        }
+      ]
+    },
+    {
+      "word": "dare",
+      "levels": [
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0273",
+          "form": "dare",
+          "speaker": "MOLLIE",
+          "text": "Giles, have you gone out of your mind? How dare you suggest these things?"
+        }
+      ]
+    },
+    {
+      "word": "doubt",
+      "levels": [
+        "noun:b1",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0243",
+          "form": "doubt",
+          "speaker": "MOLLIE",
+          "text": "I don't know what the Sergeant thinks. And he can make you think things about people. You ask yourself questions and you begin to doubt. You feel that somebody you love and know well might be ― a stranger. That's what happens in a nightmare. You're somewhere in the middle of friends and then you suddenly look at their faces and they're not your friends any longer ― they're different people ― just pretending. Perhaps you can't trust anybody ― perhaps everybody's a stranger."
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "form": "doubt",
+          "speaker": "TROTTER",
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        }
+      ]
+    },
+    {
+      "word": "fellow",
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0363",
+          "form": "fellow",
+          "speaker": "MAJOR METCALF",
+          "text": "No good shouting at me, young fellow. I wasn't thinking about any damned skis. I was interested in the cellars. Architecture of this place is very interesting. I opened the other door and I went on down. So I can't tell you whether the skis were there or not."
+        }
+      ]
+    },
+    {
+      "word": "fool",
+      "levels": [
+        "noun:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0303",
+          "form": "fool",
+          "speaker": "MOLLIE",
+          "text": "Don't be a fool. Of course I didn't."
+        }
+      ]
+    },
+    {
+      "word": "found",
+      "levels": [
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0381",
+          "form": "found",
+          "speaker": "MOLLIE",
+          "text": "It's silly of me. But you see ― I found her. Her face was all purple. I can't forget it..."
+        }
+      ]
+    },
+    {
+      "word": "frighten",
+      "levels": [
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0380",
+          "form": "frightening",
+          "speaker": "GILES",
+          "text": "Stop frightening my wife at once."
+        }
+      ]
+    },
+    {
+      "word": "frightening",
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0380",
+          "form": "frightening",
+          "speaker": "GILES",
+          "text": "Stop frightening my wife at once."
+        }
+      ]
+    },
+    {
+      "word": "glove",
+      "levels": [
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0282",
+          "form": "gloves",
+          "speaker": "GILES",
+          "text": "Is it? Then what's this? This is one of the gloves you were wearing yesterday. You dropped it. I picked it up this afternoon when I was talking to Sergeant Trotter. You see what's inside it ― a London bus ticket!"
+        }
+      ]
+    },
+    {
+      "word": "goodness",
+      "levels": [
+        "noun:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0332",
+          "form": "goodness",
+          "speaker": "MOLLIE",
+          "text": "Oh, thank goodness. You haven't gone, after all."
+        }
+      ]
+    },
+    {
+      "word": "grand",
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0423",
+          "form": "grand",
+          "speaker": "PARAVICINI",
+          "text": "Thank you so much. I shall go and look for your skis in the drawing room. Just in case someone has hidden them in the grand piano."
+        }
+      ]
+    },
+    {
+      "word": "guilty",
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0225",
+          "form": "guilty",
+          "speaker": "MOLLIE",
+          "text": "That would be frightfully stupid. It would be almost like admitting you're guilty."
+        },
+        {
+          "speechId": "act2-speech-0226",
+          "form": "guilty",
+          "speaker": "CHRISTOPHER",
+          "text": "Sergeant Trotter thinks I'm guilty."
+        }
+      ]
+    },
+    {
+      "word": "hell",
+      "levels": [
+        "noun:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0202",
+          "form": "hell",
+          "speaker": "CHRISTOPHER",
+          "text": "Call myself Christopher Wren? It just amused me. And then they used to laugh at me at school and call me little Christopher Robin. Robin ― Wren ― association of ideas. It was hell being at school."
+        },
+        {
+          "speechId": "act2-speech-0259",
+          "form": "hell",
+          "speaker": "GILES",
+          "text": "What the hell...?"
+        },
+        {
+          "speechId": "act2-speech-0310",
+          "form": "hell",
+          "speaker": "GILES",
+          "text": "What the hell are you...?"
+        }
+      ]
+    },
+    {
+      "word": "hesitate",
+      "levels": [
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0372",
+          "form": "hesitate",
+          "speaker": "TROTTER",
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        }
+      ]
+    },
+    {
+      "word": "hidden",
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0423",
+          "form": "hidden",
+          "speaker": "PARAVICINI",
+          "text": "Thank you so much. I shall go and look for your skis in the drawing room. Just in case someone has hidden them in the grand piano."
+        }
+      ]
+    },
+    {
+      "word": "horrible",
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0217",
+          "form": "horrible",
+          "speaker": "MOLLIE",
+          "text": "Perhaps that's why it was so ― awful. It was horrible ― horrible...I try to put it out of my mind. I try never to think about it."
+        }
+      ]
+    },
+    {
+      "word": "humour",
+      "levels": [
+        "noun:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0421",
+          "form": "humour",
+          "speaker": "PARAVICINI",
+          "text": "Not even this murder? Dear me, you're very serious, Sergeant Trotter. I always have thought policemen have no sense of humour. Is the inquisition over ― for the moment?"
+        }
+      ]
+    },
+    {
+      "word": "indeed",
+      "levels": [
+        "adverb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0389",
+          "form": "indeed",
+          "speaker": "PARAVICINI",
+          "text": "Indeed?"
+        }
+      ]
+    },
+    {
+      "word": "interrupt",
+      "levels": [
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0244",
+          "form": "interrupting",
+          "speaker": "GILES",
+          "text": "I seem to be interrupting something."
+        }
+      ]
+    },
+    {
+      "word": "liver",
+      "levels": [
+        "noun:c1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0373",
+          "form": "livers",
+          "speaker": "PARAVICINI",
+          "text": "Talking of chicken, dear lady, have you ever tried chickens' livers served on toast that has been thickly smeared with foie gras, with a very thin rasher of bacon just touched with a soupçon of fresh mustard? I will come with you to the kitchen and we will see what we can concoct together. A charming occupation."
+        }
+      ]
+    },
+    {
+      "word": "loose",
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0253",
+          "form": "loose",
+          "speaker": "GILES",
+          "text": "I've already said so, haven't I? There's a killer loose in this house ― and it seems to me you fit the bill."
+        }
+      ]
+    },
+    {
+      "word": "mix",
+      "levels": [
+        "noun:b1",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0420",
+          "form": "mixed",
+          "speaker": "TROTTER",
+          "text": "Enjoying this little game, aren't you? Sure of yourself, too. But I shouldn't be too sure. You're mixed up in a murder case, and don't you forget it. Murder isn't just fun and games."
+        }
+      ]
+    },
+    {
+      "word": "neighbourhood",
+      "levels": [
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0394",
+          "form": "neighbourhood",
+          "speaker": "TROTTER",
+          "text": "In this neighbourhood?"
+        }
+      ]
+    },
+    {
+      "word": "odd",
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0220",
+          "form": "odd",
+          "speaker": "CHRISTOPHER",
+          "text": "Yes, it's odd, isn't it?"
+        },
+        {
+          "speechId": "act2-speech-0274",
+          "form": "odd",
+          "speaker": "GILES",
+          "text": "Rather odd, isn't it, that he should come and stay at an out-of-the-way place like this?"
+        },
+        {
+          "speechId": "act2-speech-0275",
+          "form": "odder",
+          "speaker": "MOLLIE",
+          "text": "No odder than that Miss Casewell and Major Metcalf and Mrs. Boyle should."
+        }
+      ]
+    },
+    {
+      "word": "overturn",
+      "levels": [
+        "verb:c1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0390",
+          "form": "overturn",
+          "speaker": "TROTTER",
+          "text": "I've been wondering about that car of yours, and how it happened to overturn in a snowdrift so conveniently."
+        }
+      ]
+    },
+    {
+      "word": "perfectly",
+      "levels": [
+        "adverb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0264",
+          "form": "perfectly",
+          "speaker": "GILES",
+          "text": "What is all this? Mollie, you must be crazy. Perfectly prepared to shut yourself up in the kitchen with a homicidal maniac."
+        },
+        {
+          "speechId": "act2-speech-0279",
+          "form": "perfectly",
+          "speaker": "MOLLIE",
+          "text": "You know perfectly well that I haven't been up to London for weeks."
+        }
+      ]
+    },
+    {
+      "word": "planning",
+      "levels": [
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0370",
+          "form": "planning",
+          "speaker": "TROTTER",
+          "text": "I'm in the position now where I've got to put myself in the place of a crazy cunning brain. I've got to ask myself what he wants us to do and what he, himself, is planning to do next. I've got to try and keep just one step ahead of him. Because if I don't, there's going to be another death."
+        }
+      ]
+    },
+    {
+      "word": "poet",
+      "levels": [
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0313",
+          "form": "poet",
+          "speaker": "PARAVICINI",
+          "text": "Quite so. Quite so. I know just how you feel. I have been through all this myself when I was a younger man. Jeunesse ― jeunesse ― as the poet says. Not been married long, I imagine?"
+        }
+      ]
+    },
+    {
+      "word": "possibly",
+      "levels": [
+        "adverb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0229",
+          "form": "possibly",
+          "speaker": "MOLLIE",
+          "text": "Sergeant Trotter. He puts things into your head. Things that aren't true, that can't possibly be true."
+        }
+      ]
+    },
+    {
+      "word": "prepared",
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0264",
+          "form": "prepared",
+          "speaker": "GILES",
+          "text": "What is all this? Mollie, you must be crazy. Perfectly prepared to shut yourself up in the kitchen with a homicidal maniac."
+        }
+      ]
+    },
+    {
+      "word": "pretend",
+      "levels": [
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0239",
+          "form": "pretend",
+          "speaker": "MOLLIE",
+          "text": "Then why shouldn't he tell me he did? Why pretend he'd been driving all round the countryside?"
+        },
+        {
+          "speechId": "act2-speech-0243",
+          "form": "pretending",
+          "speaker": "MOLLIE",
+          "text": "I don't know what the Sergeant thinks. And he can make you think things about people. You ask yourself questions and you begin to doubt. You feel that somebody you love and know well might be ― a stranger. That's what happens in a nightmare. You're somewhere in the middle of friends and then you suddenly look at their faces and they're not your friends any longer ― they're different people ― just pretending. Perhaps you can't trust anybody ― perhaps everybody's a stranger."
+        },
+        {
+          "speechId": "act2-speech-0256",
+          "form": "pretend",
+          "speaker": "CHRISTOPHER",
+          "text": "How blind are you ― or do you just pretend to be blind?"
+        },
+        {
+          "speechId": "act2-speech-0272",
+          "form": "pretend",
+          "speaker": "GILES",
+          "text": "Perhaps you'd met him before. Perhaps you suggested to him to come here and that you'd both pretend to meet for the first time. All cooked up between you, was it?"
+        }
+      ]
+    },
+    {
+      "word": "racing",
+      "levels": [
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0286",
+          "form": "racing",
+          "speaker": "GILES",
+          "text": "Whilst I was safely away racing round the countryside."
+        },
+        {
+          "speechId": "act2-speech-0287",
+          "form": "racing",
+          "speaker": "MOLLIE",
+          "text": "Whilst you were racing round the country-side..."
+        }
+      ]
+    },
+    {
+      "word": "ridiculous",
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0277",
+          "form": "ridiculous",
+          "speaker": "MOLLIE",
+          "text": "You're being absolutely ridiculous. I never set eyes on Christopher Wren until he arrived yesterday."
+        }
+      ]
+    },
+    {
+      "word": "safety",
+      "levels": [
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0257",
+          "form": "safety",
+          "speaker": "GILES",
+          "text": "I tell you I'm worrying about my wife's safety."
+        }
+      ]
+    },
+    {
+      "word": "silly",
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0381",
+          "form": "silly",
+          "speaker": "MOLLIE",
+          "text": "It's silly of me. But you see ― I found her. Her face was all purple. I can't forget it..."
+        }
+      ]
+    },
+    {
+      "word": "slight",
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0372",
+          "form": "slight",
+          "speaker": "TROTTER",
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        }
+      ]
+    },
+    {
+      "word": "sudden",
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0306",
+          "form": "sudden",
+          "speaker": "GILES",
+          "text": "Mollie, what's come over you? You're different all of a sudden. I feel as though I don't know you any more."
+        }
+      ]
+    },
+    {
+      "word": "suffer",
+      "levels": [
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0307",
+          "form": "suffered",
+          "speaker": "MOLLIE",
+          "text": "Perhaps you never did know me. We've been married how long ― a year? But you don't really know anything about me. What I'd done or thought or felt or suffered before you knew me."
+        }
+      ]
+    },
+    {
+      "word": "surely",
+      "levels": [
+        "adverb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0242",
+          "form": "surely",
+          "speaker": "CHRISTOPHER",
+          "text": "Good Lord, Mollie. Surely you don't think ― the Sergeant doesn't think..."
+        }
+      ]
+    },
+    {
+      "word": "tail",
+      "levels": [
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0379",
+          "form": "tails",
+          "speaker": "PARAVICINI",
+          "text": "But such a gay little tune? Don't you think? She cut off their tails with a carving knife ― snick, snick, snick ― delicious. Just what a child would adore. Cruel little things, children. Some of them never grow up."
+        }
+      ]
+    },
+    {
+      "word": "trust",
+      "levels": [
+        "noun:b2",
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0243",
+          "form": "trust",
+          "speaker": "MOLLIE",
+          "text": "I don't know what the Sergeant thinks. And he can make you think things about people. You ask yourself questions and you begin to doubt. You feel that somebody you love and know well might be ― a stranger. That's what happens in a nightmare. You're somewhere in the middle of friends and then you suddenly look at their faces and they're not your friends any longer ― they're different people ― just pretending. Perhaps you can't trust anybody ― perhaps everybody's a stranger."
+        }
+      ]
+    },
+    {
+      "word": "unknown",
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0204",
+          "form": "unknown",
+          "speaker": "CHRISTOPHER",
+          "text": "We needn't go into that. I ran away whilst I was doing my Army service. It was all so beastly ― I hated it. Yes, I'm just like the unknown murderer. I told you I was the one the specification fitted. You see, my mother my mother..."
+        }
+      ]
+    },
+    {
+      "word": "upset",
+      "levels": [
+        "adjective:b1",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0384",
+          "form": "upset",
+          "speaker": "TROTTER",
+          "text": "What did you say to the lady to upset her, sir?"
+        }
+      ]
+    },
+    {
+      "word": "used",
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0202",
+          "form": "used",
+          "speaker": "CHRISTOPHER",
+          "text": "Call myself Christopher Wren? It just amused me. And then they used to laugh at me at school and call me little Christopher Robin. Robin ― Wren ― association of ideas. It was hell being at school."
+        }
+      ]
+    },
+    {
+      "word": "whether",
+      "levels": [
+        "conjunction:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0363",
+          "form": "whether",
+          "speaker": "MAJOR METCALF",
+          "text": "No good shouting at me, young fellow. I wasn't thinking about any damned skis. I was interested in the cellars. Architecture of this place is very interesting. I opened the other door and I went on down. So I can't tell you whether the skis were there or not."
+        }
+      ]
+    },
+    {
+      "word": "whilst",
+      "levels": [
+        "conjunction:c1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0204",
+          "form": "whilst",
+          "speaker": "CHRISTOPHER",
+          "text": "We needn't go into that. I ran away whilst I was doing my Army service. It was all so beastly ― I hated it. Yes, I'm just like the unknown murderer. I told you I was the one the specification fitted. You see, my mother my mother..."
+        },
+        {
+          "speechId": "act2-speech-0286",
+          "form": "whilst",
+          "speaker": "GILES",
+          "text": "Whilst I was safely away racing round the countryside."
+        },
+        {
+          "speechId": "act2-speech-0287",
+          "form": "whilst",
+          "speaker": "MOLLIE",
+          "text": "Whilst you were racing round the country-side..."
+        }
+      ]
+    },
+    {
+      "word": "wire",
+      "levels": [
+        "noun:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0237",
+          "form": "wire",
+          "speaker": "MOLLIE",
+          "text": "But he wasn't. He went off in the car to look for chicken wire, but he couldn't find any."
+        }
+      ]
+    },
+    {
+      "word": "wise",
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0377",
+          "form": "wise",
+          "speaker": "PARAVICINI",
+          "text": "He is very wise. Take no chances. Can I prove to you or to him or to our dogged Sergeant that I am not a homicidal maniac? So difficult to prove a negative. And suppose that instead I am really..."
+        }
+      ]
+    },
+    {
+      "word": "wonder",
+      "levels": [
+        "noun:b1",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0387",
+          "form": "wonder",
+          "speaker": "PARAVICINI",
+          "text": "Now I do wonder what you mean by that, Sergeant?"
+        },
+        {
+          "speechId": "act2-speech-0388",
+          "form": "wondering",
+          "speaker": "TROTTER",
+          "text": "I've been doing a little wondering about you, sir."
+        },
+        {
+          "speechId": "act2-speech-0390",
+          "form": "wondering",
+          "speaker": "TROTTER",
+          "text": "I've been wondering about that car of yours, and how it happened to overturn in a snowdrift so conveniently."
+        }
+      ]
+    },
+    {
+      "word": "address",
+      "levels": [
+        "noun:a1",
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0396",
+          "form": "address",
+          "speaker": "TROTTER",
+          "text": "And what was the name and address of this friend?"
+        },
+        {
+          "speechId": "act2-speech-0412",
+          "form": "address",
+          "speaker": "TROTTER",
+          "text": "What address in London?"
+        },
+        {
+          "speechId": "act2-speech-0414",
+          "form": "address",
+          "speaker": "TROTTER",
+          "text": "Very nice, too, I'm sure. What is your permanent address?"
+        }
+      ]
+    },
+    {
+      "word": "back",
+      "levels": [
+        "adjective:a2",
+        "adverb:a1",
+        "noun:a1",
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0291",
+          "form": "back",
+          "speaker": "MOLLIE",
+          "text": "So did you. You brought back an evening paper."
+        },
+        {
+          "speechId": "act2-speech-0320",
+          "form": "back",
+          "speaker": "TROTTER",
+          "text": "Mr. Ralston ― Mrs. Ralston ― have you removed my skis from the cupboard back there where we put them?"
+        },
+        {
+          "speechId": "act2-speech-0351",
+          "form": "back",
+          "speaker": "MISS CASEWELL",
+          "text": "By the back stairs."
+        }
+      ]
+    },
+    {
+      "word": "bear",
+      "levels": [
+        "noun:a2",
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0207",
+          "form": "bear",
+          "speaker": "MOLLIE",
+          "text": "You can't go on being looked after all your life. Things happen to you. And you've got to bear them ― you've got to go on just as usual."
+        }
+      ]
+    },
+    {
+      "word": "but",
+      "levels": [
+        "conjunction:a1",
+        "preposition:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0190",
+          "form": "but",
+          "speaker": "CHRISTOPHER",
+          "text": "But, darling, they're all so frightfully against me. They're going to say I committed these murders ― particularly your husband."
+        },
+        {
+          "speechId": "act2-speech-0235",
+          "form": "but",
+          "speaker": "MOLLIE",
+          "text": "What is it? Yesterday's evening paper ― a London paper. And it was in Giles's pocket. But Giles didn't go to London yesterday."
+        },
+        {
+          "speechId": "act2-speech-0237",
+          "form": "but",
+          "speaker": "MOLLIE",
+          "text": "But he wasn't. He went off in the car to look for chicken wire, but he couldn't find any."
+        },
+        {
+          "speechId": "act2-speech-0250",
+          "form": "but",
+          "speaker": "CHRISTOPHER",
+          "text": "But really, look here..."
+        },
+        {
+          "speechId": "act2-speech-0307",
+          "form": "but",
+          "speaker": "MOLLIE",
+          "text": "Perhaps you never did know me. We've been married how long ― a year? But you don't really know anything about me. What I'd done or thought or felt or suffered before you knew me."
+        },
+        {
+          "speechId": "act2-speech-0315",
+          "form": "but",
+          "speaker": "PARAVICINI",
+          "text": "No, no, no business at all. But I just came in to say that the Sergeant cannot find his skis and I'm afraid he is very annoyed."
+        },
+        {
+          "speechId": "act2-speech-0325",
+          "form": "but",
+          "speaker": "PARAVICINI",
+          "text": "And now you can't ― dear, dear...Somebody's seen to it that you certainly shan't do that. But there could be another reason, couldn't there?"
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "form": "but",
+          "speaker": "TROTTER",
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        },
+        {
+          "speechId": "act2-speech-0379",
+          "form": "but",
+          "speaker": "PARAVICINI",
+          "text": "But such a gay little tune? Don't you think? She cut off their tails with a carving knife ― snick, snick, snick ― delicious. Just what a child would adore. Cruel little things, children. Some of them never grow up."
+        },
+        {
+          "speechId": "act2-speech-0381",
+          "form": "but",
+          "speaker": "MOLLIE",
+          "text": "It's silly of me. But you see ― I found her. Her face was all purple. I can't forget it..."
+        },
+        {
+          "speechId": "act2-speech-0401",
+          "form": "but",
+          "speaker": "PARAVICINI",
+          "text": "But there might be ― so many reasons. An amour ― discretion. These jealous husbands."
+        },
+        {
+          "speechId": "act2-speech-0420",
+          "form": "but",
+          "speaker": "TROTTER",
+          "text": "Enjoying this little game, aren't you? Sure of yourself, too. But I shouldn't be too sure. You're mixed up in a murder case, and don't you forget it. Murder isn't just fun and games."
+        }
+      ]
+    },
+    {
+      "word": "cut",
+      "levels": [
+        "noun:b1",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0379",
+          "form": "cut",
+          "speaker": "PARAVICINI",
+          "text": "But such a gay little tune? Don't you think? She cut off their tails with a carving knife ― snick, snick, snick ― delicious. Just what a child would adore. Cruel little things, children. Some of them never grow up."
+        }
+      ]
+    },
+    {
+      "word": "driving",
+      "levels": [
+        "adjective:c1",
+        "noun:a2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0239",
+          "form": "driving",
+          "speaker": "MOLLIE",
+          "text": "Then why shouldn't he tell me he did? Why pretend he'd been driving all round the countryside?"
+        }
+      ]
+    },
+    {
+      "word": "even",
+      "levels": [
+        "adjective:b2",
+        "adverb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0235",
+          "form": "evening",
+          "speaker": "MOLLIE",
+          "text": "What is it? Yesterday's evening paper ― a London paper. And it was in Giles's pocket. But Giles didn't go to London yesterday."
+        },
+        {
+          "speechId": "act2-speech-0291",
+          "form": "evening",
+          "speaker": "MOLLIE",
+          "text": "So did you. You brought back an evening paper."
+        },
+        {
+          "speechId": "act2-speech-0421",
+          "form": "even",
+          "speaker": "PARAVICINI",
+          "text": "Not even this murder? Dear me, you're very serious, Sergeant Trotter. I always have thought policemen have no sense of humour. Is the inquisition over ― for the moment?"
+        }
+      ]
+    },
+    {
+      "word": "face",
+      "levels": [
+        "noun:a1",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0218",
+          "form": "facing",
+          "speaker": "CHRISTOPHER",
+          "text": "So ― you're running away, too. Running away from things ― instead of facing them?"
+        },
+        {
+          "speechId": "act2-speech-0243",
+          "form": "faces",
+          "speaker": "MOLLIE",
+          "text": "I don't know what the Sergeant thinks. And he can make you think things about people. You ask yourself questions and you begin to doubt. You feel that somebody you love and know well might be ― a stranger. That's what happens in a nightmare. You're somewhere in the middle of friends and then you suddenly look at their faces and they're not your friends any longer ― they're different people ― just pretending. Perhaps you can't trust anybody ― perhaps everybody's a stranger."
+        },
+        {
+          "speechId": "act2-speech-0381",
+          "form": "face",
+          "speaker": "MOLLIE",
+          "text": "It's silly of me. But you see ― I found her. Her face was all purple. I can't forget it..."
+        }
+      ]
+    },
+    {
+      "word": "far",
+      "levels": [
+        "adjective:b1",
+        "adverb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0263",
+          "form": "far",
+          "speaker": "CHRISTOPHER",
+          "text": "I shan't be far away."
+        },
+        {
+          "speechId": "act2-speech-0395",
+          "form": "far",
+          "speaker": "PARAVICINI",
+          "text": "Not so very far from here."
+        }
+      ]
+    },
+    {
+      "word": "fear",
+      "levels": [
+        "noun:a2",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0375",
+          "form": "fears",
+          "speaker": "PARAVICINI",
+          "text": "Your husband is afraid for you. Quite natural under the circumstances. He doesn't fancy your being alone with me. It is my sadistic tendencies he fears ― not my dishonourable ones. Alas, what an inconvenience the husband always is. Arrivederlà..."
+        }
+      ]
+    },
+    {
+      "word": "feel",
+      "levels": [
+        "noun:b2",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0243",
+          "form": "feel",
+          "speaker": "MOLLIE",
+          "text": "I don't know what the Sergeant thinks. And he can make you think things about people. You ask yourself questions and you begin to doubt. You feel that somebody you love and know well might be ― a stranger. That's what happens in a nightmare. You're somewhere in the middle of friends and then you suddenly look at their faces and they're not your friends any longer ― they're different people ― just pretending. Perhaps you can't trust anybody ― perhaps everybody's a stranger."
+        },
+        {
+          "speechId": "act2-speech-0306",
+          "form": "feel",
+          "speaker": "GILES",
+          "text": "Mollie, what's come over you? You're different all of a sudden. I feel as though I don't know you any more."
+        },
+        {
+          "speechId": "act2-speech-0313",
+          "form": "feel",
+          "speaker": "PARAVICINI",
+          "text": "Quite so. Quite so. I know just how you feel. I have been through all this myself when I was a younger man. Jeunesse ― jeunesse ― as the poet says. Not been married long, I imagine?"
+        }
+      ]
+    },
+    {
+      "word": "hand",
+      "levels": [
+        "noun:a1",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0246",
+          "form": "hand",
+          "speaker": "CHRISTOPHER",
+          "text": "I'll come and give you a hand."
+        }
+      ]
+    },
+    {
+      "word": "hate",
+      "levels": [
+        "noun:b1",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0204",
+          "form": "hated",
+          "speaker": "CHRISTOPHER",
+          "text": "We needn't go into that. I ran away whilst I was doing my Army service. It was all so beastly ― I hated it. Yes, I'm just like the unknown murderer. I told you I was the one the specification fitted. You see, my mother my mother..."
+        },
+        {
+          "speechId": "act2-speech-0227",
+          "form": "hate",
+          "speaker": "MOLLIE",
+          "text": "No, he doesn't. At least ― I don't know what he thinks. I hate him ― I hate him ― I hate him..."
+        }
+      ]
+    },
+    {
+      "word": "house",
+      "levels": [
+        "noun:a1",
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0186",
+          "form": "house",
+          "speaker": "CHRISTOPHER",
+          "text": "If only I could get away. Somehow ― some way. Is there anywhere I could hide ― in the house?"
+        },
+        {
+          "speechId": "act2-speech-0253",
+          "form": "house",
+          "speaker": "GILES",
+          "text": "I've already said so, haven't I? There's a killer loose in this house ― and it seems to me you fit the bill."
+        }
+      ]
+    },
+    {
+      "word": "leave",
+      "levels": [
+        "noun:b2",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0258",
+          "form": "leave",
+          "speaker": "CHRISTOPHER",
+          "text": "So am I. I'm not going to leave you here alone with her."
+        }
+      ]
+    },
+    {
+      "word": "like",
+      "levels": [
+        "noun:b1",
+        "preposition:a1",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0204",
+          "form": "like",
+          "speaker": "CHRISTOPHER",
+          "text": "We needn't go into that. I ran away whilst I was doing my Army service. It was all so beastly ― I hated it. Yes, I'm just like the unknown murderer. I told you I was the one the specification fitted. You see, my mother my mother..."
+        },
+        {
+          "speechId": "act2-speech-0225",
+          "form": "like",
+          "speaker": "MOLLIE",
+          "text": "That would be frightfully stupid. It would be almost like admitting you're guilty."
+        },
+        {
+          "speechId": "act2-speech-0274",
+          "form": "like",
+          "speaker": "GILES",
+          "text": "Rather odd, isn't it, that he should come and stay at an out-of-the-way place like this?"
+        },
+        {
+          "speechId": "act2-speech-0398",
+          "form": "like",
+          "speaker": "TROTTER",
+          "text": "We always like the fullest information. What did you say this friend's name was?"
+        }
+      ]
+    },
+    {
+      "word": "make",
+      "levels": [
+        "noun:b2",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0243",
+          "form": "make",
+          "speaker": "MOLLIE",
+          "text": "I don't know what the Sergeant thinks. And he can make you think things about people. You ask yourself questions and you begin to doubt. You feel that somebody you love and know well might be ― a stranger. That's what happens in a nightmare. You're somewhere in the middle of friends and then you suddenly look at their faces and they're not your friends any longer ― they're different people ― just pretending. Perhaps you can't trust anybody ― perhaps everybody's a stranger."
+        },
+        {
+          "speechId": "act2-speech-0406",
+          "form": "make",
+          "speaker": "TROTTER",
+          "text": "That you may not be as old as you ― try to look. There's a lot of people trying to look younger than they are. If somebody goes about trying to look older ― well, it does make one ask oneself why."
+        }
+      ]
+    },
+    {
+      "word": "market",
+      "levels": [
+        "noun:a1",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0324",
+          "form": "market",
+          "speaker": "TROTTER",
+          "text": "The snow is still lying. I need help here, reinforcements. I was going to ski over to the police station at Market Hampton to report on the situation."
+        },
+        {
+          "speechId": "act2-speech-0417",
+          "form": "markets",
+          "speaker": "PARAVICINI",
+          "text": "I play the markets."
+        }
+      ]
+    },
+    {
+      "word": "move",
+      "levels": [
+        "noun:b1",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0318",
+          "form": "moved",
+          "speaker": "PARAVICINI",
+          "text": "He wants to know if you have by any chance moved them, Mr. Ralston."
+        }
+      ]
+    },
+    {
+      "word": "need",
+      "levels": [
+        "noun:a2",
+        "verb:a1",
+        "modal verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0324",
+          "form": "need",
+          "speaker": "TROTTER",
+          "text": "The snow is still lying. I need help here, reinforcements. I was going to ski over to the police station at Market Hampton to report on the situation."
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "form": "needs",
+          "speaker": "TROTTER",
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        }
+      ]
+    },
+    {
+      "word": "next",
+      "levels": [
+        "adjective:a1",
+        "adverb:a1",
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0251",
+          "form": "next",
+          "speaker": "GILES",
+          "text": "You keep away from my wife, Wren. She's not going to be the next victim."
+        },
+        {
+          "speechId": "act2-speech-0370",
+          "form": "next",
+          "speaker": "TROTTER",
+          "text": "I'm in the position now where I've got to put myself in the place of a crazy cunning brain. I've got to ask myself what he wants us to do and what he, himself, is planning to do next. I've got to try and keep just one step ahead of him. Because if I don't, there's going to be another death."
+        }
+      ]
+    },
+    {
+      "word": "now",
+      "levels": [
+        "adverb:a1",
+        "conjunction:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0288",
+          "form": "now",
+          "speaker": "GILES",
+          "text": "Come on now ― admit it. You went to London."
+        },
+        {
+          "speechId": "act2-speech-0305",
+          "form": "now",
+          "speaker": "MOLLIE",
+          "text": "I ― shan't tell you that. Perhaps ― now ― I've forgotten why I went..."
+        },
+        {
+          "speechId": "act2-speech-0311",
+          "form": "now",
+          "speaker": "PARAVICINI",
+          "text": "Now, now. I do hope you young people are not both saying a little more than you mean. One is so apt to in these lovers' quarrels."
+        },
+        {
+          "speechId": "act2-speech-0325",
+          "form": "now",
+          "speaker": "PARAVICINI",
+          "text": "And now you can't ― dear, dear...Somebody's seen to it that you certainly shan't do that. But there could be another reason, couldn't there?"
+        },
+        {
+          "speechId": "act2-speech-0328",
+          "form": "now",
+          "speaker": "GILES",
+          "text": "What did you mean when you said \"Christopher\" just now?"
+        },
+        {
+          "speechId": "act2-speech-0338",
+          "form": "now",
+          "speaker": "TROTTER",
+          "text": "Now, listen, you people. This is a serious matter. Somebody has removed my only chance of communication with the outside world. I want everybody here ― at once."
+        },
+        {
+          "speechId": "act2-speech-0341",
+          "form": "now",
+          "speaker": "PARAVICINI",
+          "text": "I left Major Metcalf in the dining room. Major Metcalf! He's not there now."
+        },
+        {
+          "speechId": "act2-speech-0366",
+          "form": "now",
+          "speaker": "TROTTER",
+          "text": "The question is, where are they now?"
+        },
+        {
+          "speechId": "act2-speech-0370",
+          "form": "now",
+          "speaker": "TROTTER",
+          "text": "I'm in the position now where I've got to put myself in the place of a crazy cunning brain. I've got to ask myself what he wants us to do and what he, himself, is planning to do next. I've got to try and keep just one step ahead of him. Because if I don't, there's going to be another death."
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "form": "now",
+          "speaker": "TROTTER",
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        },
+        {
+          "speechId": "act2-speech-0387",
+          "form": "now",
+          "speaker": "PARAVICINI",
+          "text": "Now I do wonder what you mean by that, Sergeant?"
+        },
+        {
+          "speechId": "act2-speech-0397",
+          "form": "now",
+          "speaker": "PARAVICINI",
+          "text": "Now really, Sergeant Trotter, does that matter now? I mean, it has nothing to do with this predicament, has it?"
+        },
+        {
+          "speechId": "act2-speech-0400",
+          "form": "now",
+          "speaker": "TROTTER",
+          "text": "No, you didn't say. And it seems you're not going to say. Now that's very interesting."
+        }
+      ]
+    },
+    {
+      "word": "pass",
+      "levels": [
+        "noun:b1",
+        "verb:a2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0352",
+          "form": "passed",
+          "speaker": "TROTTER",
+          "text": "Then you passed the cupboard door."
+        },
+        {
+          "speechId": "act2-speech-0358",
+          "form": "passed",
+          "speaker": "TROTTER",
+          "text": "Were the skis in the cupboard when you passed through?"
+        }
+      ]
+    },
+    {
+      "word": "pick",
+      "levels": [
+        "noun:b2",
+        "verb:a2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0282",
+          "form": "picked",
+          "speaker": "GILES",
+          "text": "Is it? Then what's this? This is one of the gloves you were wearing yesterday. You dropped it. I picked it up this afternoon when I was talking to Sergeant Trotter. You see what's inside it ― a London bus ticket!"
+        }
+      ]
+    },
+    {
+      "word": "round",
+      "levels": [
+        "adjective:a2",
+        "adverb:a2",
+        "noun:b2",
+        "preposition:a2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0239",
+          "form": "round",
+          "speaker": "MOLLIE",
+          "text": "Then why shouldn't he tell me he did? Why pretend he'd been driving all round the countryside?"
+        },
+        {
+          "speechId": "act2-speech-0286",
+          "form": "round",
+          "speaker": "GILES",
+          "text": "Whilst I was safely away racing round the countryside."
+        },
+        {
+          "speechId": "act2-speech-0287",
+          "form": "round",
+          "speaker": "MOLLIE",
+          "text": "Whilst you were racing round the country-side..."
+        }
+      ]
+    },
+    {
+      "word": "say",
+      "levels": [
+        "noun:c1",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0190",
+          "form": "say",
+          "speaker": "CHRISTOPHER",
+          "text": "But, darling, they're all so frightfully against me. They're going to say I committed these murders ― particularly your husband."
+        },
+        {
+          "speechId": "act2-speech-0192",
+          "form": "say",
+          "speaker": "CHRISTOPHER",
+          "text": "Why do you say that?"
+        },
+        {
+          "speechId": "act2-speech-0278",
+          "form": "say",
+          "speaker": "GILES",
+          "text": "That's what you say. Perhaps you've been running up to London to meet him on the sly."
+        },
+        {
+          "speechId": "act2-speech-0311",
+          "form": "saying",
+          "speaker": "PARAVICINI",
+          "text": "Now, now. I do hope you young people are not both saying a little more than you mean. One is so apt to in these lovers' quarrels."
+        },
+        {
+          "speechId": "act2-speech-0313",
+          "form": "says",
+          "speaker": "PARAVICINI",
+          "text": "Quite so. Quite so. I know just how you feel. I have been through all this myself when I was a younger man. Jeunesse ― jeunesse ― as the poet says. Not been married long, I imagine?"
+        },
+        {
+          "speechId": "act2-speech-0315",
+          "form": "say",
+          "speaker": "PARAVICINI",
+          "text": "No, no, no business at all. But I just came in to say that the Sergeant cannot find his skis and I'm afraid he is very annoyed."
+        },
+        {
+          "speechId": "act2-speech-0353",
+          "form": "say",
+          "speaker": "MISS CASEWELL",
+          "text": "If you say so ― I've no idea where your skis are."
+        },
+        {
+          "speechId": "act2-speech-0384",
+          "form": "say",
+          "speaker": "TROTTER",
+          "text": "What did you say to the lady to upset her, sir?"
+        },
+        {
+          "speechId": "act2-speech-0398",
+          "form": "say",
+          "speaker": "TROTTER",
+          "text": "We always like the fullest information. What did you say this friend's name was?"
+        },
+        {
+          "speechId": "act2-speech-0399",
+          "form": "say",
+          "speaker": "PARAVICINI",
+          "text": "I didn't say."
+        },
+        {
+          "speechId": "act2-speech-0400",
+          "form": "say",
+          "speaker": "TROTTER",
+          "text": "No, you didn't say. And it seems you're not going to say. Now that's very interesting."
+        }
+      ]
+    },
+    {
+      "word": "sense",
+      "levels": [
+        "noun:a2",
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0421",
+          "form": "sense",
+          "speaker": "PARAVICINI",
+          "text": "Not even this murder? Dear me, you're very serious, Sergeant Trotter. I always have thought policemen have no sense of humour. Is the inquisition over ― for the moment?"
+        }
+      ]
+    },
+    {
+      "word": "sort",
+      "levels": [
+        "noun:a2",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0221",
+          "form": "sort",
+          "speaker": "MOLLIE",
+          "text": "I don't know. I suppose there's a sort of ― sympathy between us."
+        }
+      ]
+    },
+    {
+      "word": "still",
+      "levels": [
+        "adjective:b1",
+        "adverb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0324",
+          "form": "still",
+          "speaker": "TROTTER",
+          "text": "The snow is still lying. I need help here, reinforcements. I was going to ski over to the police station at Market Hampton to report on the situation."
+        },
+        {
+          "speechId": "act2-speech-0371",
+          "form": "still",
+          "speaker": "MISS CASEWELL",
+          "text": "You still don't believe that?"
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "form": "still",
+          "speaker": "TROTTER",
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        }
+      ]
+    },
+    {
+      "word": "this",
+      "levels": [
+        "adverb:b1",
+        "determiner:a1",
+        "pronoun:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0230",
+          "form": "this",
+          "speaker": "CHRISTOPHER",
+          "text": "What is all this?"
+        },
+        {
+          "speechId": "act2-speech-0240",
+          "form": "this",
+          "speaker": "CHRISTOPHER",
+          "text": "Perhaps, with the news of this murder..."
+        },
+        {
+          "speechId": "act2-speech-0253",
+          "form": "this",
+          "speaker": "GILES",
+          "text": "I've already said so, haven't I? There's a killer loose in this house ― and it seems to me you fit the bill."
+        },
+        {
+          "speechId": "act2-speech-0264",
+          "form": "this",
+          "speaker": "GILES",
+          "text": "What is all this? Mollie, you must be crazy. Perfectly prepared to shut yourself up in the kitchen with a homicidal maniac."
+        },
+        {
+          "speechId": "act2-speech-0274",
+          "form": "this",
+          "speaker": "GILES",
+          "text": "Rather odd, isn't it, that he should come and stay at an out-of-the-way place like this?"
+        },
+        {
+          "speechId": "act2-speech-0276",
+          "form": "this",
+          "speaker": "GILES",
+          "text": "I read once in a paper that these homicidal cases were able to attract women. Looks as though it were true. Where did you first know him? How long has this been going on?"
+        },
+        {
+          "speechId": "act2-speech-0282",
+          "form": "this",
+          "speaker": "GILES",
+          "text": "Is it? Then what's this? This is one of the gloves you were wearing yesterday. You dropped it. I picked it up this afternoon when I was talking to Sergeant Trotter. You see what's inside it ― a London bus ticket!"
+        },
+        {
+          "speechId": "act2-speech-0313",
+          "form": "this",
+          "speaker": "PARAVICINI",
+          "text": "Quite so. Quite so. I know just how you feel. I have been through all this myself when I was a younger man. Jeunesse ― jeunesse ― as the poet says. Not been married long, I imagine?"
+        },
+        {
+          "speechId": "act2-speech-0331",
+          "form": "this",
+          "speaker": "TROTTER",
+          "text": "Is this true, Mrs. Ralston?"
+        },
+        {
+          "speechId": "act2-speech-0338",
+          "form": "this",
+          "speaker": "TROTTER",
+          "text": "Now, listen, you people. This is a serious matter. Somebody has removed my only chance of communication with the outside world. I want everybody here ― at once."
+        },
+        {
+          "speechId": "act2-speech-0363",
+          "form": "this",
+          "speaker": "MAJOR METCALF",
+          "text": "No good shouting at me, young fellow. I wasn't thinking about any damned skis. I was interested in the cellars. Architecture of this place is very interesting. I opened the other door and I went on down. So I can't tell you whether the skis were there or not."
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "form": "this",
+          "speaker": "TROTTER",
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        },
+        {
+          "speechId": "act2-speech-0392",
+          "form": "this",
+          "speaker": "TROTTER",
+          "text": "That rather depends on the way you're looking at it. Just where were you bound for, by the way, when you had this ― accident?"
+        },
+        {
+          "speechId": "act2-speech-0394",
+          "form": "this",
+          "speaker": "TROTTER",
+          "text": "In this neighbourhood?"
+        },
+        {
+          "speechId": "act2-speech-0396",
+          "form": "this",
+          "speaker": "TROTTER",
+          "text": "And what was the name and address of this friend?"
+        },
+        {
+          "speechId": "act2-speech-0397",
+          "form": "this",
+          "speaker": "PARAVICINI",
+          "text": "Now really, Sergeant Trotter, does that matter now? I mean, it has nothing to do with this predicament, has it?"
+        },
+        {
+          "speechId": "act2-speech-0398",
+          "form": "this",
+          "speaker": "TROTTER",
+          "text": "We always like the fullest information. What did you say this friend's name was?"
+        },
+        {
+          "speechId": "act2-speech-0420",
+          "form": "this",
+          "speaker": "TROTTER",
+          "text": "Enjoying this little game, aren't you? Sure of yourself, too. But I shouldn't be too sure. You're mixed up in a murder case, and don't you forget it. Murder isn't just fun and games."
+        },
+        {
+          "speechId": "act2-speech-0421",
+          "form": "this",
+          "speaker": "PARAVICINI",
+          "text": "Not even this murder? Dear me, you're very serious, Sergeant Trotter. I always have thought policemen have no sense of humour. Is the inquisition over ― for the moment?"
+        }
+      ]
+    },
+    {
+      "word": "time",
+      "levels": [
+        "noun:a1",
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0195",
+          "form": "time",
+          "speaker": "MOLLIE",
+          "text": "You've got to grow up some time, Chris."
+        },
+        {
+          "speechId": "act2-speech-0272",
+          "form": "time",
+          "speaker": "GILES",
+          "text": "Perhaps you'd met him before. Perhaps you suggested to him to come here and that you'd both pretend to meet for the first time. All cooked up between you, was it?"
+        },
+        {
+          "speechId": "act2-speech-0356",
+          "form": "time",
+          "speaker": "TROTTER",
+          "text": "At the time Mrs. Boyle was killed."
+        },
+        {
+          "speechId": "act2-speech-0357",
+          "form": "time",
+          "speaker": "MAJOR METCALF",
+          "text": "At the time Mrs. Boyle was killed I'd gone down to the cellar."
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "form": "time",
+          "speaker": "TROTTER",
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        },
+        {
+          "speechId": "act2-speech-0402",
+          "form": "time",
+          "speaker": "TROTTER",
+          "text": "Rather old to be running around with the ladies at your time of life, aren't you?"
+        }
+      ]
+    },
+    {
+      "word": "touch",
+      "levels": [
+        "noun:b1",
+        "verb:a2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0301",
+          "form": "touch",
+          "speaker": "MOLLIE",
+          "text": "Don't touch me."
+        },
+        {
+          "speechId": "act2-speech-0349",
+          "form": "touch",
+          "speaker": "MAJOR METCALF",
+          "text": "And I didn't touch 'em."
+        },
+        {
+          "speechId": "act2-speech-0373",
+          "form": "touched",
+          "speaker": "PARAVICINI",
+          "text": "Talking of chicken, dear lady, have you ever tried chickens' livers served on toast that has been thickly smeared with foie gras, with a very thin rasher of bacon just touched with a soupçon of fresh mustard? I will come with you to the kitchen and we will see what we can concoct together. A charming occupation."
+        }
+      ]
+    },
+    {
+      "word": "try",
+      "levels": [
+        "noun:b2",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0217",
+          "form": "try",
+          "speaker": "MOLLIE",
+          "text": "Perhaps that's why it was so ― awful. It was horrible ― horrible...I try to put it out of my mind. I try never to think about it."
+        },
+        {
+          "speechId": "act2-speech-0342",
+          "form": "try",
+          "speaker": "GILES",
+          "text": "I'll try and find him."
+        },
+        {
+          "speechId": "act2-speech-0370",
+          "form": "try",
+          "speaker": "TROTTER",
+          "text": "I'm in the position now where I've got to put myself in the place of a crazy cunning brain. I've got to ask myself what he wants us to do and what he, himself, is planning to do next. I've got to try and keep just one step ahead of him. Because if I don't, there's going to be another death."
+        },
+        {
+          "speechId": "act2-speech-0373",
+          "form": "tried",
+          "speaker": "PARAVICINI",
+          "text": "Talking of chicken, dear lady, have you ever tried chickens' livers served on toast that has been thickly smeared with foie gras, with a very thin rasher of bacon just touched with a soupçon of fresh mustard? I will come with you to the kitchen and we will see what we can concoct together. A charming occupation."
+        },
+        {
+          "speechId": "act2-speech-0406",
+          "form": "try",
+          "speaker": "TROTTER",
+          "text": "That you may not be as old as you ― try to look. There's a lot of people trying to look younger than they are. If somebody goes about trying to look older ― well, it does make one ask oneself why."
+        },
+        {
+          "speechId": "act2-speech-0406",
+          "form": "trying",
+          "speaker": "TROTTER",
+          "text": "That you may not be as old as you ― try to look. There's a lot of people trying to look younger than they are. If somebody goes about trying to look older ― well, it does make one ask oneself why."
+        },
+        {
+          "speechId": "act2-speech-0409",
+          "form": "try",
+          "speaker": "PARAVICINI",
+          "text": "Well, well ― try again ― that is, if you have any more questions to ask."
+        }
+      ]
+    },
+    {
+      "word": "well",
+      "levels": [
+        "adjective:a1",
+        "adverb:a1",
+        "exclamation:a1",
+        "noun:c1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0193",
+          "form": "well",
+          "speaker": "MOLLIE",
+          "text": "Well, it's true, isn't it?"
+        },
+        {
+          "speechId": "act2-speech-0219",
+          "form": "well",
+          "speaker": "MOLLIE",
+          "text": "Yes ― perhaps, in a way, I am. Considering that I never saw you until yesterday, we seem to know each other rather well."
+        },
+        {
+          "speechId": "act2-speech-0223",
+          "form": "well",
+          "speaker": "MOLLIE",
+          "text": "Well, frankly, what else can you do?"
+        },
+        {
+          "speechId": "act2-speech-0224",
+          "form": "well",
+          "speaker": "CHRISTOPHER",
+          "text": "I might pinch the sergeant's skis. I can ski quite well."
+        },
+        {
+          "speechId": "act2-speech-0236",
+          "form": "well",
+          "speaker": "CHRISTOPHER",
+          "text": "Well, if he was here all day..."
+        },
+        {
+          "speechId": "act2-speech-0238",
+          "form": "well",
+          "speaker": "CHRISTOPHER",
+          "text": "Well, that's all right. Probably he did go up to London after all."
+        },
+        {
+          "speechId": "act2-speech-0243",
+          "form": "well",
+          "speaker": "MOLLIE",
+          "text": "I don't know what the Sergeant thinks. And he can make you think things about people. You ask yourself questions and you begin to doubt. You feel that somebody you love and know well might be ― a stranger. That's what happens in a nightmare. You're somewhere in the middle of friends and then you suddenly look at their faces and they're not your friends any longer ― they're different people ― just pretending. Perhaps you can't trust anybody ― perhaps everybody's a stranger."
+        },
+        {
+          "speechId": "act2-speech-0279",
+          "form": "well",
+          "speaker": "MOLLIE",
+          "text": "You know perfectly well that I haven't been up to London for weeks."
+        },
+        {
+          "speechId": "act2-speech-0284",
+          "form": "well",
+          "speaker": "GILES",
+          "text": "So it seems that you didn't only go to the village yesterday, you went to London as well."
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "form": "well",
+          "speaker": "TROTTER",
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        },
+        {
+          "speechId": "act2-speech-0406",
+          "form": "well",
+          "speaker": "TROTTER",
+          "text": "That you may not be as old as you ― try to look. There's a lot of people trying to look younger than they are. If somebody goes about trying to look older ― well, it does make one ask oneself why."
+        },
+        {
+          "speechId": "act2-speech-0407",
+          "form": "well",
+          "speaker": "PARAVICINI",
+          "text": "Having asked questions of so many people ― you ask questions of yourself as well? Isn't that overdoing things?"
+        },
+        {
+          "speechId": "act2-speech-0409",
+          "form": "well",
+          "speaker": "PARAVICINI",
+          "text": "Well, well ― try again ― that is, if you have any more questions to ask."
+        }
+      ]
+    },
+    {
+      "word": "will",
+      "levels": [
+        "noun:b1",
+        "modal verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0373",
+          "form": "will",
+          "speaker": "PARAVICINI",
+          "text": "Talking of chicken, dear lady, have you ever tried chickens' livers served on toast that has been thickly smeared with foie gras, with a very thin rasher of bacon just touched with a soupçon of fresh mustard? I will come with you to the kitchen and we will see what we can concoct together. A charming occupation."
+        }
+      ]
+    },
+    {
+      "word": "worry",
+      "levels": [
+        "noun:b1",
+        "verb:a2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0257",
+          "form": "worrying",
+          "speaker": "GILES",
+          "text": "I tell you I'm worrying about my wife's safety."
+        }
+      ]
+    },
+    {
+      "word": "yet",
+      "levels": [
+        "adverb:a2",
+        "conjunction:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0372",
+          "form": "yet",
+          "speaker": "TROTTER",
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        }
+      ]
+    },
+    {
+      "word": "young",
+      "levels": [
+        "adjective:a1",
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0216",
+          "form": "young",
+          "speaker": "CHRISTOPHER",
+          "text": "You must have been very young. Almost a child."
+        },
+        {
+          "speechId": "act2-speech-0311",
+          "form": "young",
+          "speaker": "PARAVICINI",
+          "text": "Now, now. I do hope you young people are not both saying a little more than you mean. One is so apt to in these lovers' quarrels."
+        },
+        {
+          "speechId": "act2-speech-0313",
+          "form": "younger",
+          "speaker": "PARAVICINI",
+          "text": "Quite so. Quite so. I know just how you feel. I have been through all this myself when I was a younger man. Jeunesse ― jeunesse ― as the poet says. Not been married long, I imagine?"
+        },
+        {
+          "speechId": "act2-speech-0330",
+          "form": "young",
+          "speaker": "PARAVICINI",
+          "text": "So our young architect has hooked it, has he? Very, very interesting."
+        },
+        {
+          "speechId": "act2-speech-0363",
+          "form": "young",
+          "speaker": "MAJOR METCALF",
+          "text": "No good shouting at me, young fellow. I wasn't thinking about any damned skis. I was interested in the cellars. Architecture of this place is very interesting. I opened the other door and I went on down. So I can't tell you whether the skis were there or not."
+        },
+        {
+          "speechId": "act2-speech-0406",
+          "form": "younger",
+          "speaker": "TROTTER",
+          "text": "That you may not be as old as you ― try to look. There's a lot of people trying to look younger than they are. If somebody goes about trying to look older ― well, it does make one ask oneself why."
+        }
+      ]
+    }
+  ]
+}

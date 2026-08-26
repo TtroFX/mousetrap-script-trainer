@@ -1,0 +1,2039 @@
+{
+  "unresolvedCount": 98,
+  "safeCount": 60,
+  "ambiguousCount": 38,
+  "safe": [
+    {
+      "word": "absolutely",
+      "forms": [
+        "absolutely"
+      ],
+      "levels": [
+        "adverb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0277",
+          "form": "absolutely"
+        }
+      ]
+    },
+    {
+      "word": "admit",
+      "forms": [
+        "admit"
+      ],
+      "levels": [
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0288",
+          "form": "admit"
+        }
+      ]
+    },
+    {
+      "word": "annoy",
+      "forms": [
+        "annoyed"
+      ],
+      "levels": [
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0315",
+          "form": "annoyed"
+        }
+      ]
+    },
+    {
+      "word": "annoyed",
+      "forms": [
+        "annoyed"
+      ],
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0315",
+          "form": "annoyed"
+        }
+      ]
+    },
+    {
+      "word": "attract",
+      "forms": [
+        "attract"
+      ],
+      "levels": [
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0276",
+          "form": "attract"
+        }
+      ]
+    },
+    {
+      "word": "blind",
+      "forms": [
+        "blind"
+      ],
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0256",
+          "form": "blind"
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "form": "blind"
+        }
+      ]
+    },
+    {
+      "word": "carve",
+      "forms": [
+        "carving"
+      ],
+      "levels": [
+        "verb:c1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0379",
+          "form": "carving"
+        }
+      ]
+    },
+    {
+      "word": "charm",
+      "forms": [
+        "charming"
+      ],
+      "levels": [
+        "noun:c1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0373",
+          "form": "charming"
+        }
+      ]
+    },
+    {
+      "word": "charming",
+      "forms": [
+        "charming"
+      ],
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0373",
+          "form": "charming"
+        }
+      ]
+    },
+    {
+      "word": "communication",
+      "forms": [
+        "communication"
+      ],
+      "levels": [
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0338",
+          "form": "communication"
+        }
+      ]
+    },
+    {
+      "word": "countryside",
+      "forms": [
+        "countryside"
+      ],
+      "levels": [
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0239",
+          "form": "countryside"
+        },
+        {
+          "speechId": "act2-speech-0286",
+          "form": "countryside"
+        }
+      ]
+    },
+    {
+      "word": "cruel",
+      "forms": [
+        "cruel"
+      ],
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0379",
+          "form": "cruel"
+        }
+      ]
+    },
+    {
+      "word": "dare",
+      "forms": [
+        "dare"
+      ],
+      "levels": [
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0273",
+          "form": "dare"
+        }
+      ]
+    },
+    {
+      "word": "doubt",
+      "forms": [
+        "doubt"
+      ],
+      "levels": [
+        "noun:b1",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0243",
+          "form": "doubt"
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "form": "doubt"
+        }
+      ]
+    },
+    {
+      "word": "fellow",
+      "forms": [
+        "fellow"
+      ],
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0363",
+          "form": "fellow"
+        }
+      ]
+    },
+    {
+      "word": "fool",
+      "forms": [
+        "fool"
+      ],
+      "levels": [
+        "noun:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0303",
+          "form": "fool"
+        }
+      ]
+    },
+    {
+      "word": "found",
+      "forms": [
+        "found"
+      ],
+      "levels": [
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0381",
+          "form": "found"
+        }
+      ]
+    },
+    {
+      "word": "frighten",
+      "forms": [
+        "frightening"
+      ],
+      "levels": [
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0380",
+          "form": "frightening"
+        }
+      ]
+    },
+    {
+      "word": "frightening",
+      "forms": [
+        "frightening"
+      ],
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0380",
+          "form": "frightening"
+        }
+      ]
+    },
+    {
+      "word": "glove",
+      "forms": [
+        "gloves"
+      ],
+      "levels": [
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0282",
+          "form": "gloves"
+        }
+      ]
+    },
+    {
+      "word": "goodness",
+      "forms": [
+        "goodness"
+      ],
+      "levels": [
+        "noun:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0332",
+          "form": "goodness"
+        }
+      ]
+    },
+    {
+      "word": "grand",
+      "forms": [
+        "grand"
+      ],
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0423",
+          "form": "grand"
+        }
+      ]
+    },
+    {
+      "word": "guilty",
+      "forms": [
+        "guilty"
+      ],
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0225",
+          "form": "guilty"
+        },
+        {
+          "speechId": "act2-speech-0226",
+          "form": "guilty"
+        }
+      ]
+    },
+    {
+      "word": "hell",
+      "forms": [
+        "hell"
+      ],
+      "levels": [
+        "noun:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0202",
+          "form": "hell"
+        },
+        {
+          "speechId": "act2-speech-0259",
+          "form": "hell"
+        },
+        {
+          "speechId": "act2-speech-0310",
+          "form": "hell"
+        }
+      ]
+    },
+    {
+      "word": "hesitate",
+      "forms": [
+        "hesitate"
+      ],
+      "levels": [
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0372",
+          "form": "hesitate"
+        }
+      ]
+    },
+    {
+      "word": "hidden",
+      "forms": [
+        "hidden"
+      ],
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0423",
+          "form": "hidden"
+        }
+      ]
+    },
+    {
+      "word": "horrible",
+      "forms": [
+        "horrible"
+      ],
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0217",
+          "form": "horrible"
+        }
+      ]
+    },
+    {
+      "word": "humour",
+      "forms": [
+        "humour"
+      ],
+      "levels": [
+        "noun:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0421",
+          "form": "humour"
+        }
+      ]
+    },
+    {
+      "word": "indeed",
+      "forms": [
+        "indeed"
+      ],
+      "levels": [
+        "adverb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0389",
+          "form": "indeed"
+        }
+      ]
+    },
+    {
+      "word": "interrupt",
+      "forms": [
+        "interrupting"
+      ],
+      "levels": [
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0244",
+          "form": "interrupting"
+        }
+      ]
+    },
+    {
+      "word": "liver",
+      "forms": [
+        "livers"
+      ],
+      "levels": [
+        "noun:c1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0373",
+          "form": "livers"
+        }
+      ]
+    },
+    {
+      "word": "loose",
+      "forms": [
+        "loose"
+      ],
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0253",
+          "form": "loose"
+        }
+      ]
+    },
+    {
+      "word": "mix",
+      "forms": [
+        "mixed"
+      ],
+      "levels": [
+        "noun:b1",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0420",
+          "form": "mixed"
+        }
+      ]
+    },
+    {
+      "word": "neighbourhood",
+      "forms": [
+        "neighbourhood"
+      ],
+      "levels": [
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0394",
+          "form": "neighbourhood"
+        }
+      ]
+    },
+    {
+      "word": "odd",
+      "forms": [
+        "odd",
+        "odder"
+      ],
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0220",
+          "form": "odd"
+        },
+        {
+          "speechId": "act2-speech-0274",
+          "form": "odd"
+        },
+        {
+          "speechId": "act2-speech-0275",
+          "form": "odder"
+        }
+      ]
+    },
+    {
+      "word": "overturn",
+      "forms": [
+        "overturn"
+      ],
+      "levels": [
+        "verb:c1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0390",
+          "form": "overturn"
+        }
+      ]
+    },
+    {
+      "word": "perfectly",
+      "forms": [
+        "perfectly"
+      ],
+      "levels": [
+        "adverb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0264",
+          "form": "perfectly"
+        },
+        {
+          "speechId": "act2-speech-0279",
+          "form": "perfectly"
+        }
+      ]
+    },
+    {
+      "word": "planning",
+      "forms": [
+        "planning"
+      ],
+      "levels": [
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0370",
+          "form": "planning"
+        }
+      ]
+    },
+    {
+      "word": "poet",
+      "forms": [
+        "poet"
+      ],
+      "levels": [
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0313",
+          "form": "poet"
+        }
+      ]
+    },
+    {
+      "word": "possibly",
+      "forms": [
+        "possibly"
+      ],
+      "levels": [
+        "adverb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0229",
+          "form": "possibly"
+        }
+      ]
+    },
+    {
+      "word": "prepared",
+      "forms": [
+        "prepared"
+      ],
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0264",
+          "form": "prepared"
+        }
+      ]
+    },
+    {
+      "word": "pretend",
+      "forms": [
+        "pretend",
+        "pretending"
+      ],
+      "levels": [
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0239",
+          "form": "pretend"
+        },
+        {
+          "speechId": "act2-speech-0243",
+          "form": "pretending"
+        },
+        {
+          "speechId": "act2-speech-0256",
+          "form": "pretend"
+        },
+        {
+          "speechId": "act2-speech-0272",
+          "form": "pretend"
+        }
+      ]
+    },
+    {
+      "word": "racing",
+      "forms": [
+        "racing"
+      ],
+      "levels": [
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0286",
+          "form": "racing"
+        },
+        {
+          "speechId": "act2-speech-0287",
+          "form": "racing"
+        }
+      ]
+    },
+    {
+      "word": "ridiculous",
+      "forms": [
+        "ridiculous"
+      ],
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0277",
+          "form": "ridiculous"
+        }
+      ]
+    },
+    {
+      "word": "safety",
+      "forms": [
+        "safety"
+      ],
+      "levels": [
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0257",
+          "form": "safety"
+        }
+      ]
+    },
+    {
+      "word": "silly",
+      "forms": [
+        "silly"
+      ],
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0381",
+          "form": "silly"
+        }
+      ]
+    },
+    {
+      "word": "slight",
+      "forms": [
+        "slight"
+      ],
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0372",
+          "form": "slight"
+        }
+      ]
+    },
+    {
+      "word": "sudden",
+      "forms": [
+        "sudden"
+      ],
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0306",
+          "form": "sudden"
+        }
+      ]
+    },
+    {
+      "word": "suffer",
+      "forms": [
+        "suffered"
+      ],
+      "levels": [
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0307",
+          "form": "suffered"
+        }
+      ]
+    },
+    {
+      "word": "surely",
+      "forms": [
+        "surely"
+      ],
+      "levels": [
+        "adverb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0242",
+          "form": "surely"
+        }
+      ]
+    },
+    {
+      "word": "tail",
+      "forms": [
+        "tails"
+      ],
+      "levels": [
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0379",
+          "form": "tails"
+        }
+      ]
+    },
+    {
+      "word": "trust",
+      "forms": [
+        "trust"
+      ],
+      "levels": [
+        "noun:b2",
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0243",
+          "form": "trust"
+        }
+      ]
+    },
+    {
+      "word": "unknown",
+      "forms": [
+        "unknown"
+      ],
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0204",
+          "form": "unknown"
+        }
+      ]
+    },
+    {
+      "word": "upset",
+      "forms": [
+        "upset"
+      ],
+      "levels": [
+        "adjective:b1",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0384",
+          "form": "upset"
+        }
+      ]
+    },
+    {
+      "word": "used",
+      "forms": [
+        "used"
+      ],
+      "levels": [
+        "adjective:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0202",
+          "form": "used"
+        }
+      ]
+    },
+    {
+      "word": "whether",
+      "forms": [
+        "whether"
+      ],
+      "levels": [
+        "conjunction:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0363",
+          "form": "whether"
+        }
+      ]
+    },
+    {
+      "word": "whilst",
+      "forms": [
+        "whilst"
+      ],
+      "levels": [
+        "conjunction:c1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0204",
+          "form": "whilst"
+        },
+        {
+          "speechId": "act2-speech-0286",
+          "form": "whilst"
+        },
+        {
+          "speechId": "act2-speech-0287",
+          "form": "whilst"
+        }
+      ]
+    },
+    {
+      "word": "wire",
+      "forms": [
+        "wire"
+      ],
+      "levels": [
+        "noun:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0237",
+          "form": "wire"
+        }
+      ]
+    },
+    {
+      "word": "wise",
+      "forms": [
+        "wise"
+      ],
+      "levels": [
+        "adjective:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0377",
+          "form": "wise"
+        }
+      ]
+    },
+    {
+      "word": "wonder",
+      "forms": [
+        "wonder",
+        "wondering"
+      ],
+      "levels": [
+        "noun:b1",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0387",
+          "form": "wonder"
+        },
+        {
+          "speechId": "act2-speech-0388",
+          "form": "wondering"
+        },
+        {
+          "speechId": "act2-speech-0390",
+          "form": "wondering"
+        }
+      ]
+    }
+  ],
+  "ambiguous": [
+    {
+      "word": "address",
+      "forms": [
+        "address"
+      ],
+      "levels": [
+        "noun:a1",
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0396",
+          "form": "address"
+        },
+        {
+          "speechId": "act2-speech-0412",
+          "form": "address"
+        },
+        {
+          "speechId": "act2-speech-0414",
+          "form": "address"
+        }
+      ]
+    },
+    {
+      "word": "back",
+      "forms": [
+        "back"
+      ],
+      "levels": [
+        "adjective:a2",
+        "adverb:a1",
+        "noun:a1",
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0291",
+          "form": "back"
+        },
+        {
+          "speechId": "act2-speech-0320",
+          "form": "back"
+        },
+        {
+          "speechId": "act2-speech-0351",
+          "form": "back"
+        }
+      ]
+    },
+    {
+      "word": "bear",
+      "forms": [
+        "bear"
+      ],
+      "levels": [
+        "noun:a2",
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0207",
+          "form": "bear"
+        }
+      ]
+    },
+    {
+      "word": "but",
+      "forms": [
+        "but"
+      ],
+      "levels": [
+        "conjunction:a1",
+        "preposition:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0190",
+          "form": "but"
+        },
+        {
+          "speechId": "act2-speech-0235",
+          "form": "but"
+        },
+        {
+          "speechId": "act2-speech-0237",
+          "form": "but"
+        },
+        {
+          "speechId": "act2-speech-0250",
+          "form": "but"
+        },
+        {
+          "speechId": "act2-speech-0307",
+          "form": "but"
+        },
+        {
+          "speechId": "act2-speech-0315",
+          "form": "but"
+        },
+        {
+          "speechId": "act2-speech-0325",
+          "form": "but"
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "form": "but"
+        },
+        {
+          "speechId": "act2-speech-0379",
+          "form": "but"
+        },
+        {
+          "speechId": "act2-speech-0381",
+          "form": "but"
+        },
+        {
+          "speechId": "act2-speech-0401",
+          "form": "but"
+        },
+        {
+          "speechId": "act2-speech-0420",
+          "form": "but"
+        }
+      ]
+    },
+    {
+      "word": "cut",
+      "forms": [
+        "cut"
+      ],
+      "levels": [
+        "noun:b1",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0379",
+          "form": "cut"
+        }
+      ]
+    },
+    {
+      "word": "driving",
+      "forms": [
+        "driving"
+      ],
+      "levels": [
+        "adjective:c1",
+        "noun:a2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0239",
+          "form": "driving"
+        }
+      ]
+    },
+    {
+      "word": "even",
+      "forms": [
+        "even",
+        "evening"
+      ],
+      "levels": [
+        "adjective:b2",
+        "adverb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0235",
+          "form": "evening"
+        },
+        {
+          "speechId": "act2-speech-0291",
+          "form": "evening"
+        },
+        {
+          "speechId": "act2-speech-0421",
+          "form": "even"
+        }
+      ]
+    },
+    {
+      "word": "face",
+      "forms": [
+        "face",
+        "faces",
+        "facing"
+      ],
+      "levels": [
+        "noun:a1",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0218",
+          "form": "facing"
+        },
+        {
+          "speechId": "act2-speech-0243",
+          "form": "faces"
+        },
+        {
+          "speechId": "act2-speech-0381",
+          "form": "face"
+        }
+      ]
+    },
+    {
+      "word": "far",
+      "forms": [
+        "far"
+      ],
+      "levels": [
+        "adjective:b1",
+        "adverb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0263",
+          "form": "far"
+        },
+        {
+          "speechId": "act2-speech-0395",
+          "form": "far"
+        }
+      ]
+    },
+    {
+      "word": "fear",
+      "forms": [
+        "fears"
+      ],
+      "levels": [
+        "noun:a2",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0375",
+          "form": "fears"
+        }
+      ]
+    },
+    {
+      "word": "feel",
+      "forms": [
+        "feel"
+      ],
+      "levels": [
+        "noun:b2",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0243",
+          "form": "feel"
+        },
+        {
+          "speechId": "act2-speech-0306",
+          "form": "feel"
+        },
+        {
+          "speechId": "act2-speech-0313",
+          "form": "feel"
+        }
+      ]
+    },
+    {
+      "word": "hand",
+      "forms": [
+        "hand"
+      ],
+      "levels": [
+        "noun:a1",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0246",
+          "form": "hand"
+        }
+      ]
+    },
+    {
+      "word": "hate",
+      "forms": [
+        "hate",
+        "hated"
+      ],
+      "levels": [
+        "noun:b1",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0204",
+          "form": "hated"
+        },
+        {
+          "speechId": "act2-speech-0227",
+          "form": "hate"
+        }
+      ]
+    },
+    {
+      "word": "house",
+      "forms": [
+        "house"
+      ],
+      "levels": [
+        "noun:a1",
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0186",
+          "form": "house"
+        },
+        {
+          "speechId": "act2-speech-0253",
+          "form": "house"
+        }
+      ]
+    },
+    {
+      "word": "leave",
+      "forms": [
+        "leave"
+      ],
+      "levels": [
+        "noun:b2",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0258",
+          "form": "leave"
+        }
+      ]
+    },
+    {
+      "word": "like",
+      "forms": [
+        "like"
+      ],
+      "levels": [
+        "noun:b1",
+        "preposition:a1",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0204",
+          "form": "like"
+        },
+        {
+          "speechId": "act2-speech-0225",
+          "form": "like"
+        },
+        {
+          "speechId": "act2-speech-0274",
+          "form": "like"
+        },
+        {
+          "speechId": "act2-speech-0398",
+          "form": "like"
+        }
+      ]
+    },
+    {
+      "word": "make",
+      "forms": [
+        "make"
+      ],
+      "levels": [
+        "noun:b2",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0243",
+          "form": "make"
+        },
+        {
+          "speechId": "act2-speech-0406",
+          "form": "make"
+        }
+      ]
+    },
+    {
+      "word": "market",
+      "forms": [
+        "market",
+        "markets"
+      ],
+      "levels": [
+        "noun:a1",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0324",
+          "form": "market"
+        },
+        {
+          "speechId": "act2-speech-0417",
+          "form": "markets"
+        }
+      ]
+    },
+    {
+      "word": "move",
+      "forms": [
+        "moved"
+      ],
+      "levels": [
+        "noun:b1",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0318",
+          "form": "moved"
+        }
+      ]
+    },
+    {
+      "word": "need",
+      "forms": [
+        "need",
+        "needs"
+      ],
+      "levels": [
+        "noun:a2",
+        "verb:a1",
+        "modal verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0324",
+          "form": "need"
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "form": "needs"
+        }
+      ]
+    },
+    {
+      "word": "next",
+      "forms": [
+        "next"
+      ],
+      "levels": [
+        "adjective:a1",
+        "adverb:a1",
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0251",
+          "form": "next"
+        },
+        {
+          "speechId": "act2-speech-0370",
+          "form": "next"
+        }
+      ]
+    },
+    {
+      "word": "now",
+      "forms": [
+        "now"
+      ],
+      "levels": [
+        "adverb:a1",
+        "conjunction:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0288",
+          "form": "now"
+        },
+        {
+          "speechId": "act2-speech-0305",
+          "form": "now"
+        },
+        {
+          "speechId": "act2-speech-0311",
+          "form": "now"
+        },
+        {
+          "speechId": "act2-speech-0325",
+          "form": "now"
+        },
+        {
+          "speechId": "act2-speech-0328",
+          "form": "now"
+        },
+        {
+          "speechId": "act2-speech-0338",
+          "form": "now"
+        },
+        {
+          "speechId": "act2-speech-0341",
+          "form": "now"
+        },
+        {
+          "speechId": "act2-speech-0366",
+          "form": "now"
+        },
+        {
+          "speechId": "act2-speech-0370",
+          "form": "now"
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "form": "now"
+        },
+        {
+          "speechId": "act2-speech-0387",
+          "form": "now"
+        },
+        {
+          "speechId": "act2-speech-0397",
+          "form": "now"
+        },
+        {
+          "speechId": "act2-speech-0400",
+          "form": "now"
+        }
+      ]
+    },
+    {
+      "word": "pass",
+      "forms": [
+        "passed"
+      ],
+      "levels": [
+        "noun:b1",
+        "verb:a2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0352",
+          "form": "passed"
+        },
+        {
+          "speechId": "act2-speech-0358",
+          "form": "passed"
+        }
+      ]
+    },
+    {
+      "word": "pick",
+      "forms": [
+        "picked"
+      ],
+      "levels": [
+        "noun:b2",
+        "verb:a2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0282",
+          "form": "picked"
+        }
+      ]
+    },
+    {
+      "word": "round",
+      "forms": [
+        "round"
+      ],
+      "levels": [
+        "adjective:a2",
+        "adverb:a2",
+        "noun:b2",
+        "preposition:a2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0239",
+          "form": "round"
+        },
+        {
+          "speechId": "act2-speech-0286",
+          "form": "round"
+        },
+        {
+          "speechId": "act2-speech-0287",
+          "form": "round"
+        }
+      ]
+    },
+    {
+      "word": "say",
+      "forms": [
+        "say",
+        "saying",
+        "says"
+      ],
+      "levels": [
+        "noun:c1",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0190",
+          "form": "say"
+        },
+        {
+          "speechId": "act2-speech-0192",
+          "form": "say"
+        },
+        {
+          "speechId": "act2-speech-0278",
+          "form": "say"
+        },
+        {
+          "speechId": "act2-speech-0311",
+          "form": "saying"
+        },
+        {
+          "speechId": "act2-speech-0313",
+          "form": "says"
+        },
+        {
+          "speechId": "act2-speech-0315",
+          "form": "say"
+        },
+        {
+          "speechId": "act2-speech-0353",
+          "form": "say"
+        },
+        {
+          "speechId": "act2-speech-0384",
+          "form": "say"
+        },
+        {
+          "speechId": "act2-speech-0398",
+          "form": "say"
+        },
+        {
+          "speechId": "act2-speech-0399",
+          "form": "say"
+        },
+        {
+          "speechId": "act2-speech-0400",
+          "form": "say"
+        }
+      ]
+    },
+    {
+      "word": "sense",
+      "forms": [
+        "sense"
+      ],
+      "levels": [
+        "noun:a2",
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0421",
+          "form": "sense"
+        }
+      ]
+    },
+    {
+      "word": "sort",
+      "forms": [
+        "sort"
+      ],
+      "levels": [
+        "noun:a2",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0221",
+          "form": "sort"
+        }
+      ]
+    },
+    {
+      "word": "still",
+      "forms": [
+        "still"
+      ],
+      "levels": [
+        "adjective:b1",
+        "adverb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0324",
+          "form": "still"
+        },
+        {
+          "speechId": "act2-speech-0371",
+          "form": "still"
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "form": "still"
+        }
+      ]
+    },
+    {
+      "word": "this",
+      "forms": [
+        "this"
+      ],
+      "levels": [
+        "adverb:b1",
+        "determiner:a1",
+        "pronoun:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0230",
+          "form": "this"
+        },
+        {
+          "speechId": "act2-speech-0240",
+          "form": "this"
+        },
+        {
+          "speechId": "act2-speech-0253",
+          "form": "this"
+        },
+        {
+          "speechId": "act2-speech-0264",
+          "form": "this"
+        },
+        {
+          "speechId": "act2-speech-0274",
+          "form": "this"
+        },
+        {
+          "speechId": "act2-speech-0276",
+          "form": "this"
+        },
+        {
+          "speechId": "act2-speech-0282",
+          "form": "this"
+        },
+        {
+          "speechId": "act2-speech-0313",
+          "form": "this"
+        },
+        {
+          "speechId": "act2-speech-0331",
+          "form": "this"
+        },
+        {
+          "speechId": "act2-speech-0338",
+          "form": "this"
+        },
+        {
+          "speechId": "act2-speech-0363",
+          "form": "this"
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "form": "this"
+        },
+        {
+          "speechId": "act2-speech-0392",
+          "form": "this"
+        },
+        {
+          "speechId": "act2-speech-0394",
+          "form": "this"
+        },
+        {
+          "speechId": "act2-speech-0396",
+          "form": "this"
+        },
+        {
+          "speechId": "act2-speech-0397",
+          "form": "this"
+        },
+        {
+          "speechId": "act2-speech-0398",
+          "form": "this"
+        },
+        {
+          "speechId": "act2-speech-0420",
+          "form": "this"
+        },
+        {
+          "speechId": "act2-speech-0421",
+          "form": "this"
+        }
+      ]
+    },
+    {
+      "word": "time",
+      "forms": [
+        "time"
+      ],
+      "levels": [
+        "noun:a1",
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0195",
+          "form": "time"
+        },
+        {
+          "speechId": "act2-speech-0272",
+          "form": "time"
+        },
+        {
+          "speechId": "act2-speech-0356",
+          "form": "time"
+        },
+        {
+          "speechId": "act2-speech-0357",
+          "form": "time"
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "form": "time"
+        },
+        {
+          "speechId": "act2-speech-0402",
+          "form": "time"
+        }
+      ]
+    },
+    {
+      "word": "touch",
+      "forms": [
+        "touch",
+        "touched"
+      ],
+      "levels": [
+        "noun:b1",
+        "verb:a2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0301",
+          "form": "touch"
+        },
+        {
+          "speechId": "act2-speech-0349",
+          "form": "touch"
+        },
+        {
+          "speechId": "act2-speech-0373",
+          "form": "touched"
+        }
+      ]
+    },
+    {
+      "word": "try",
+      "forms": [
+        "tried",
+        "try",
+        "trying"
+      ],
+      "levels": [
+        "noun:b2",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0217",
+          "form": "try"
+        },
+        {
+          "speechId": "act2-speech-0342",
+          "form": "try"
+        },
+        {
+          "speechId": "act2-speech-0370",
+          "form": "try"
+        },
+        {
+          "speechId": "act2-speech-0373",
+          "form": "tried"
+        },
+        {
+          "speechId": "act2-speech-0406",
+          "form": "try"
+        },
+        {
+          "speechId": "act2-speech-0406",
+          "form": "trying"
+        },
+        {
+          "speechId": "act2-speech-0409",
+          "form": "try"
+        }
+      ]
+    },
+    {
+      "word": "well",
+      "forms": [
+        "well"
+      ],
+      "levels": [
+        "adjective:a1",
+        "adverb:a1",
+        "exclamation:a1",
+        "noun:c1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0193",
+          "form": "well"
+        },
+        {
+          "speechId": "act2-speech-0219",
+          "form": "well"
+        },
+        {
+          "speechId": "act2-speech-0223",
+          "form": "well"
+        },
+        {
+          "speechId": "act2-speech-0224",
+          "form": "well"
+        },
+        {
+          "speechId": "act2-speech-0236",
+          "form": "well"
+        },
+        {
+          "speechId": "act2-speech-0238",
+          "form": "well"
+        },
+        {
+          "speechId": "act2-speech-0243",
+          "form": "well"
+        },
+        {
+          "speechId": "act2-speech-0279",
+          "form": "well"
+        },
+        {
+          "speechId": "act2-speech-0284",
+          "form": "well"
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "form": "well"
+        },
+        {
+          "speechId": "act2-speech-0406",
+          "form": "well"
+        },
+        {
+          "speechId": "act2-speech-0407",
+          "form": "well"
+        },
+        {
+          "speechId": "act2-speech-0409",
+          "form": "well"
+        }
+      ]
+    },
+    {
+      "word": "will",
+      "forms": [
+        "will"
+      ],
+      "levels": [
+        "noun:b1",
+        "modal verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0373",
+          "form": "will"
+        }
+      ]
+    },
+    {
+      "word": "worry",
+      "forms": [
+        "worrying"
+      ],
+      "levels": [
+        "noun:b1",
+        "verb:a2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0257",
+          "form": "worrying"
+        }
+      ]
+    },
+    {
+      "word": "yet",
+      "forms": [
+        "yet"
+      ],
+      "levels": [
+        "adverb:a2",
+        "conjunction:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0372",
+          "form": "yet"
+        }
+      ]
+    },
+    {
+      "word": "young",
+      "forms": [
+        "young",
+        "younger"
+      ],
+      "levels": [
+        "adjective:a1",
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0216",
+          "form": "young"
+        },
+        {
+          "speechId": "act2-speech-0311",
+          "form": "young"
+        },
+        {
+          "speechId": "act2-speech-0313",
+          "form": "younger"
+        },
+        {
+          "speechId": "act2-speech-0330",
+          "form": "young"
+        },
+        {
+          "speechId": "act2-speech-0363",
+          "form": "young"
+        },
+        {
+          "speechId": "act2-speech-0406",
+          "form": "younger"
+        }
+      ]
+    }
+  ]
+}
