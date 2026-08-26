@@ -1,0 +1,964 @@
+{
+  "schemaVersion": 1,
+  "ruleSet": "chunking-v1",
+  "status": "PASS",
+  "structureSha256": "dc1d24c4fe04f23106fd2d8aa1c799ae140f4d8c641149135244237c422e71dd",
+  "sourceSha256": "c4bd5bcf1e0a225ade1bb860775a189e259c2977e971684ac6124558ad843230",
+  "errorCount": 0,
+  "warningCount": 185,
+  "metrics": {
+    "chunks": 11810,
+    "clause_AC": 224,
+    "clause_BC": 1886,
+    "clause_NC": 719,
+    "clause_RC": 110,
+    "clauses": 2939,
+    "fragments": 550,
+    "marker_ACC": 196,
+    "marker_Adj": 40,
+    "marker_Adv": 953,
+    "marker_C": 684,
+    "marker_Conj": 355,
+    "marker_Frag": 93,
+    "marker_HV": 1293,
+    "marker_Int": 267,
+    "marker_N": 307,
+    "marker_O": 1494,
+    "marker_Prep": 601,
+    "marker_Resp": 37,
+    "marker_S": 2443,
+    "marker_V": 3047,
+    "sentences": 2334,
+    "speeches": 1164,
+    "warning_BC_WITHOUT_EXPLICIT_S": 162,
+    "warning_BC_WITHOUT_LEXICAL_V": 23
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0021.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0022.sentences[3]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0026.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0030.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0044.sentences[3]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0046.sentences[4]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0051.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0052.sentences[2]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0054.sentences[2]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0057.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0065.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0067.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0070.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0072.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act1-scene1-speech-0073.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0078.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0084.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0112.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0124.sentences[3]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0125.sentences[2]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0127.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0129.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0132.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0132.sentences[2]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0132.sentences[5]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act1-scene1-speech-0140.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0142.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act1-scene1-speech-0151.sentences[0]",
+      "detail": "BC2"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0154.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0156.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0156.sentences[2]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0157.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0157.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0173.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0180.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0190.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene1-speech-0190.sentences[13]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0008.sentences[2]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0010.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0010.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0018.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0024.sentences[2]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0028.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0029.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0034.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0042.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0056.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act1-scene2-speech-0063.sentences[4]",
+      "detail": "BC5"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0066.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0067.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0073.sentences[0]",
+      "detail": "BC2"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0077.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0085.sentences[2]",
+      "detail": "BC6"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0105.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0114.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0122.sentences[3]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0130.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0135.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0140.sentences[2]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0143.sentences[5]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0146.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0147.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0148.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0152.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0154.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0160.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0175.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0176.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0191.sentences[2]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0198.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0206.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0211.sentences[4]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0218.sentences[1]",
+      "detail": "BC2"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act1-scene2-speech-0226.sentences[8]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act1-scene2-speech-0230.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0233.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0241.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0242.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0249.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0256.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0260.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0263.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0263.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0269.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0277.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0283.sentences[3]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0289.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0289.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act1-scene2-speech-0290.sentences[3]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0291.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0324.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act1-scene2-speech-0332.sentences[0]",
+      "detail": "BC2"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act1-scene2-speech-0335.sentences[2]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act2-speech-0004.sentences[3]",
+      "detail": "BC2"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0022.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act2-speech-0025.sentences[2]",
+      "detail": "BC4"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0033.sentences[1]",
+      "detail": "BC2"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0054.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0056.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0060.sentences[3]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0071.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act2-speech-0078.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0083.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0092.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0092.sentences[3]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0098.sentences[2]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0100.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0103.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0115.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0120.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act2-speech-0134.sentences[3]",
+      "detail": "BC2"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0144.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0149.sentences[2]",
+      "detail": "BC3"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0151.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0152.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0155.sentences[0]",
+      "detail": "BC2"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0171.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0186.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0187.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0188.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0191.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0202.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act2-speech-0209.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0218.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0218.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0219.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0232.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0239.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0245.sentences[3]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act2-speech-0247.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0250.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0258.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0260.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0262.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0269.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0276.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0280.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0283.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0288.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0299.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0299.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0301.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0305.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act2-speech-0313.sentences[4]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act2-speech-0325.sentences[2]",
+      "detail": "BC2"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0325.sentences[2]",
+      "detail": "BC2"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act2-speech-0334.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0337.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0338.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act2-speech-0348.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0361.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0367.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act2-speech-0372.sentences[7]",
+      "detail": "BC2"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0372.sentences[13]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0372.sentences[18]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0372.sentences[24]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0377.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0377.sentences[4]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0378.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0380.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0409.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0422.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0423.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0478.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0493.sentences[2]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0503.sentences[3]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0505.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0509.sentences[4]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0512.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0515.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0517.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0519.sentences[6]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0554.sentences[2]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0556.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0558.sentences[5]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0558.sentences[8]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0565.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act2-speech-0571.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0575.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act2-speech-0582.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act2-speech-0589.sentences[0]",
+      "detail": "BC2"
+    },
+    {
+      "code": "BC_WITHOUT_LEXICAL_V",
+      "where": "lines.act2-speech-0593.sentences[0]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0618.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0625.sentences[1]",
+      "detail": "BC1"
+    },
+    {
+      "code": "BC_WITHOUT_EXPLICIT_S",
+      "where": "lines.act2-speech-0634.sentences[0]",
+      "detail": "BC1"
+    }
+  ]
+}
