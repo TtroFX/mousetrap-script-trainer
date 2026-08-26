@@ -55,12 +55,13 @@ jobs:
             if(!speech.has(speechId)||!Array.isArray(rows)) throw new Error(`invalid speech map ${speechId}`);
             for(const item of rows) {
               items++;
-              if(!item.surface||!item.lemma||!item.meaning) throw new Error(`blank vocab field ${speechId}`);
+              if(!item.surface||!item.lemma||!item.meaning||typeof item.playMeaning!=='boolean') throw new Error(`blank/invalid vocab field ${speechId}`);
               if(!norm(speech.get(speechId)).includes(norm(item.surface))) throw new Error(`surface mismatch ${speechId}: ${item.surface}`);
               if(!keys.has(String(item.lemma).trim().toLowerCase())) throw new Error(`missing dictionary lemma ${item.lemma}`);
             }
           }
           if(items!==report.vocabulary.afterItems) throw new Error(`item count mismatch ${items}/${report.vocabulary.afterItems}`);
+          for(const [lemma,entry] of Object.entries(dict)){if('pattern'in entry||'patternDesc'in entry)throw new Error(`Pattern field forbidden: ${lemma}`);const c=String(entry.contextExplanation||'');if(/^(劇中では|この劇では)/.test(c)||/前後関係からこの意味を取る。?$/.test(c))throw new Error(`generic context forbidden: ${lemma}`);}
           console.log(JSON.stringify({status:'PASS',items,dictionary:Object.keys(dict).length,annotated:report.vocabulary.afterAnnotatedSpeeches,added:report.vocabulary.addedItems},null,2));
           EOF
 
