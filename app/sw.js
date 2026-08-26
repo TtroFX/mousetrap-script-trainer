@@ -1,9 +1,9 @@
 'use strict';
-const BUILD_ID='index-zero-2026-08-26-r2';
+const BUILD_ID='index-zero-2026-08-26-r3';
 const SHELL_CACHE=`mts-zero-shell-${BUILD_ID}`;
 const DATA_CACHE=`mts-zero-data-${BUILD_ID}`;
 const SHELL=[
-  './','./index.html','./src/app.css','./src/config.js','./src/data-store.js','./src/state-store.js','./src/main.js',
+  './','./index.html','./src/app.css','./src/config.js','./src/data-store.js','./src/state-store.js','./src/resume-bookmarks.js','./src/main.js',
   './manifest.webmanifest','./offline.html','./icons/icon-192.png','./icons/icon-512.png','./icons/icon-maskable-512.png'
 ];
 const DATA=new Set([
