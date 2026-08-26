@@ -21,6 +21,12 @@ jobs:
       - name: Apply r4 UI and gesture migration
         working-directory: app
         run: |
+          python - <<'PY'
+          p='scripts/apply-r4-ui-gestures.mjs'
+          s=open(p,encoding='utf-8').read()
+          s=s.replace("const marker='}async function openWordSheet';","const marker='}\\nasync function openWordSheet';")
+          open(p,'w',encoding='utf-8').write(s)
+          PY
           node scripts/apply-r4-ui-gestures.mjs
           sed -i 's/\.line-page>:scope>\.card/.line-page > .card/g' tests/gesture_english.e2e.spec.js
           node --check src/main.js
