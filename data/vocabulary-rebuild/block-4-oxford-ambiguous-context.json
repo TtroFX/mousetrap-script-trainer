@@ -1,0 +1,968 @@
+{
+  "count": 35,
+  "entries": [
+    {
+      "word": "address",
+      "levels": [
+        "noun:a1",
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0020",
+          "form": "addresses",
+          "speaker": "TROTTER",
+          "text": "Because there were only two addresses in the notebook we found. Now, at twenty-four Culver Street there was only one possible victim. She's dead. But here at Monkswell Manor there is a wider field."
+        }
+      ]
+    },
+    {
+      "word": "back",
+      "levels": [
+        "adjective:a2",
+        "adverb:a1",
+        "noun:a1",
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0007",
+          "form": "back",
+          "speaker": "TROTTER",
+          "text": "You might have done. If the murderer had left the hall that way he might have heard you coming from the kitchen. He might have slipped up the back stairs ― or into the dining room..."
+        },
+        {
+          "speechId": "act2-speech-0043",
+          "form": "back",
+          "speaker": "CHRISTOPHER",
+          "text": "I came down by the back stairs. They're nearer to my room."
+        },
+        {
+          "speechId": "act2-speech-0044",
+          "form": "back",
+          "speaker": "TROTTER",
+          "text": "Did you go to your room by the back stairs, or did you come through here?"
+        },
+        {
+          "speechId": "act2-speech-0045",
+          "form": "back",
+          "speaker": "CHRISTOPHER",
+          "text": "I went up by the back stairs, too."
+        },
+        {
+          "speechId": "act2-speech-0171",
+          "form": "back",
+          "speaker": "TROTTER",
+          "text": "Bring it back with him?"
+        }
+      ]
+    },
+    {
+      "word": "but",
+      "levels": [
+        "conjunction:a1",
+        "preposition:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0017",
+          "form": "but",
+          "speaker": "GILES",
+          "text": "A death for each of them? But there would have to be some connection ― I mean another connection ― with the Longridge Farm business."
+        },
+        {
+          "speechId": "act2-speech-0019",
+          "form": "but",
+          "speaker": "GILES",
+          "text": "But why another death here?"
+        },
+        {
+          "speechId": "act2-speech-0020",
+          "form": "but",
+          "speaker": "TROTTER",
+          "text": "Because there were only two addresses in the notebook we found. Now, at twenty-four Culver Street there was only one possible victim. She's dead. But here at Monkswell Manor there is a wider field."
+        },
+        {
+          "speechId": "act2-speech-0022",
+          "form": "but",
+          "speaker": "TROTTER",
+          "text": "Given certain circumstances, it wouldn't be so much of a coincidence. Think it out, Miss Casewell. Now I want to get down quite clearly where everyone was when Mrs. Boyle was killed. I've already got Mrs. Ralston's statement. You were in the kitchen preparing vegetables. You came out of the kitchen, along the passage, through the swing door into the hall and in here. The radio was blaring, but the light was switched off, and the hall was dark. You switched the light on, saw Mrs. Boyle, and screamed."
+        },
+        {
+          "speechId": "act2-speech-0025",
+          "form": "but",
+          "speaker": "GILES",
+          "text": "I was still up in the bedroom. The extension telephone was dead, too. I looked out of the window to see if I could see any sign of the wires being cut there, but I couldn't. Just after I closed the window again, I heard Mollie scream and I rushed down."
+        },
+        {
+          "speechId": "act2-speech-0086",
+          "form": "but",
+          "speaker": "MAJOR METCALF",
+          "text": "Mine are there all right. But most criminals are careful to wear gloves, aren't they?"
+        },
+        {
+          "speechId": "act2-speech-0087",
+          "form": "but",
+          "speaker": "TROTTER",
+          "text": "It's usual. But all criminals slip up sooner or later."
+        },
+        {
+          "speechId": "act2-speech-0091",
+          "form": "but",
+          "speaker": "GILES",
+          "text": "Oh, very well, but..."
+        },
+        {
+          "speechId": "act2-speech-0093",
+          "form": "but",
+          "speaker": "GILES",
+          "text": "But look here, Sergeant, you speak as though we were all under suspicion. That's absurd!"
+        },
+        {
+          "speechId": "act2-speech-0095",
+          "form": "but",
+          "speaker": "GILES",
+          "text": "But you know pretty well who killed that woman in Culver Street. You think it's the eldest of those three children at the farm. A mentally abnormal young man who is now twenty-three years of age. Well, damn it all, there's only one person here who fits the bill."
+        },
+        {
+          "speechId": "act2-speech-0110",
+          "form": "but",
+          "speaker": "MOLLIE",
+          "text": "Sergeant Trotter, you think that this ― this crazy killer must be the ― eldest of those three boys at the Farm ― but you don't know that, do you?"
+        },
+        {
+          "speechId": "act2-speech-0116",
+          "form": "but",
+          "speaker": "MOLLIE",
+          "text": "But, all the same, you don't know..."
+        }
+      ]
+    },
+    {
+      "word": "close",
+      "levels": [
+        "adjective:a2",
+        "adverb:b1",
+        "noun:b2",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0011",
+          "form": "close",
+          "speaker": "TROTTER",
+          "text": "Think, Mrs. Ralston ― try and think. Upstairs? Downstairs? Close at hand? Right? Left?"
+        },
+        {
+          "speechId": "act2-speech-0025",
+          "form": "closed",
+          "speaker": "GILES",
+          "text": "I was still up in the bedroom. The extension telephone was dead, too. I looked out of the window to see if I could see any sign of the wires being cut there, but I couldn't. Just after I closed the window again, I heard Mollie scream and I rushed down."
+        }
+      ]
+    },
+    {
+      "word": "cut",
+      "levels": [
+        "noun:b1",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0025",
+          "form": "cut",
+          "speaker": "GILES",
+          "text": "I was still up in the bedroom. The extension telephone was dead, too. I looked out of the window to see if I could see any sign of the wires being cut there, but I couldn't. Just after I closed the window again, I heard Mollie scream and I rushed down."
+        },
+        {
+          "speechId": "act2-speech-0111",
+          "form": "cut",
+          "speaker": "TROTTER",
+          "text": "We don't actually know a thing. All we've got so far is that the woman who joined with her husband in ill-treating and starving those children has been killed, and that the woman magistrate who was responsible for placing them there has been killed. The telephone wire that links me with police headquarters has been cut..."
+        },
+        {
+          "speechId": "act2-speech-0113",
+          "form": "cut",
+          "speaker": "TROTTER",
+          "text": "No, Mrs. Ralston, the line was deliberately cut. It was cut just outside by the front door. I found the place."
+        }
+      ]
+    },
+    {
+      "word": "desert",
+      "levels": [
+        "noun:a2",
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0165",
+          "form": "deserter",
+          "speaker": "TROTTER",
+          "text": "You'd be surprised, Mrs. Ralston, if you knew how many cases rather like yours we get. Especially since the war. Homes broken up and families dead. Fellow says he's been in the Air Force, or just finished his Army training. Parents killed ― no relations. There aren't any backgrounds nowadays and young people settle their own affairs ― they meet and marry. It's parents and relatives who used to make the enquiries before they consented to an engagement. That's all done away with. Girl just marries her man. Sometimes she doesn't find out for a year or two that he's an absconding bank clerk, or an Army deserter or something equally undesirable. How long had you known Giles Ralston when you married him?"
+        }
+      ]
+    },
+    {
+      "word": "drop",
+      "levels": [
+        "noun:b1",
+        "verb:a2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0138",
+          "form": "drop",
+          "speaker": "MOLLIE",
+          "text": "Well, Mr. Paravicini did drop the poker when I said the police had rung up."
+        }
+      ]
+    },
+    {
+      "word": "even",
+      "levels": [
+        "adjective:b2",
+        "adverb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0012",
+          "form": "even",
+          "speaker": "MOLLIE",
+          "text": "I don't know, I tell you. I'm not even sure I heard anything."
+        },
+        {
+          "speechId": "act2-speech-0056",
+          "form": "even",
+          "speaker": "PARAVICINI",
+          "text": "I am not sure. Perhaps in the front hall ― perhaps on the stairs ― perhaps even upstairs in a bedroom."
+        },
+        {
+          "speechId": "act2-speech-0112",
+          "form": "even",
+          "speaker": "MOLLIE",
+          "text": "You don't even know that. It may have been just the snow."
+        },
+        {
+          "speechId": "act2-speech-0132",
+          "form": "even",
+          "speaker": "MOLLIE",
+          "text": "So the murderer may be middle-aged, or even old. When I said the police had rung up, Major Metcalf was frightfully upset. He really was. I saw his face."
+        },
+        {
+          "speechId": "act2-speech-0168",
+          "form": "even",
+          "speaker": "MOLLIE",
+          "text": "That's not true. I know everything about him! I know exactly the sort of person he is. He's Giles. And it's absolutely absurd to suggest that he's some horrible crazy homicidal maniac. Why, he wasn't even in London yesterday when the murder took place."
+        },
+        {
+          "speechId": "act2-speech-0177",
+          "form": "evening",
+          "speaker": "TROTTER",
+          "text": "Evening News. Yesterday's. Sold on the streets about three-thirty yesterday afternoon."
+        }
+      ]
+    },
+    {
+      "word": "experience",
+      "levels": [
+        "noun:a2",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0128",
+          "form": "experience",
+          "speaker": "MOLLIE",
+          "text": "If he came home, after being a prisoner with the Japs, perhaps, and having suffered terribly ― if he came home and found his wife dead and that his children had gone through some terrible experience, and one of them had died through it, he might go off his head a bit and want ― revenge!"
+        }
+      ]
+    },
+    {
+      "word": "face",
+      "levels": [
+        "noun:a1",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0132",
+          "form": "face",
+          "speaker": "MOLLIE",
+          "text": "So the murderer may be middle-aged, or even old. When I said the police had rung up, Major Metcalf was frightfully upset. He really was. I saw his face."
+        },
+        {
+          "speechId": "act2-speech-0140",
+          "form": "face",
+          "speaker": "MOLLIE",
+          "text": "I know he seems quite old ― and foreign and everything, but he mightn't really be as old as he looks. He moves like a much younger man, and he's definitely got makeup on his face. Miss Casewell noticed it, too. He might be ― oh, I know it sounds very melodramatic ― but he might be disguised."
+        }
+      ]
+    },
+    {
+      "word": "far",
+      "levels": [
+        "adjective:b1",
+        "adverb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0111",
+          "form": "far",
+          "speaker": "TROTTER",
+          "text": "We don't actually know a thing. All we've got so far is that the woman who joined with her husband in ill-treating and starving those children has been killed, and that the woman magistrate who was responsible for placing them there has been killed. The telephone wire that links me with police headquarters has been cut..."
+        }
+      ]
+    },
+    {
+      "word": "hand",
+      "levels": [
+        "noun:a1",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0011",
+          "form": "hand",
+          "speaker": "TROTTER",
+          "text": "Think, Mrs. Ralston ― try and think. Upstairs? Downstairs? Close at hand? Right? Left?"
+        }
+      ]
+    },
+    {
+      "word": "kind",
+      "levels": [
+        "adjective:b1",
+        "noun:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0172",
+          "form": "kind",
+          "speaker": "MOLLIE",
+          "text": "No, it turned out to be the wrong kind."
+        }
+      ]
+    },
+    {
+      "word": "lead",
+      "levels": [
+        "noun:b1",
+        "verb:a2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0092",
+          "form": "leads",
+          "speaker": "TROTTER",
+          "text": "Mr. Ralston! Thank you. We've got to establish opportunity, you know, as well as motive. And now let me tell you this ― you all had opportunity. There are two staircases ― anyone could go up by one and come down by the other. Anyone could go down to the cellars by the door near the kitchen and come up by a flight of steps that leads up through a trapdoor to the foot of the stairs over there. The vital fact was that every one of you was alone at the time the murder was committed."
+        }
+      ]
+    },
+    {
+      "word": "like",
+      "levels": [
+        "noun:b1",
+        "preposition:a1",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0058",
+          "form": "like",
+          "speaker": "PARAVICINI",
+          "text": "No, no, Inspector ― I beg your pardon ― Sergeant, I would not do a thing like that."
+        },
+        {
+          "speechId": "act2-speech-0081",
+          "form": "like",
+          "speaker": "MOLLIE",
+          "text": "Glad you like them."
+        },
+        {
+          "speechId": "act2-speech-0140",
+          "form": "like",
+          "speaker": "MOLLIE",
+          "text": "I know he seems quite old ― and foreign and everything, but he mightn't really be as old as he looks. He moves like a much younger man, and he's definitely got makeup on his face. Miss Casewell noticed it, too. He might be ― oh, I know it sounds very melodramatic ― but he might be disguised."
+        },
+        {
+          "speechId": "act2-speech-0165",
+          "form": "like",
+          "speaker": "TROTTER",
+          "text": "You'd be surprised, Mrs. Ralston, if you knew how many cases rather like yours we get. Especially since the war. Homes broken up and families dead. Fellow says he's been in the Air Force, or just finished his Army training. Parents killed ― no relations. There aren't any backgrounds nowadays and young people settle their own affairs ― they meet and marry. It's parents and relatives who used to make the enquiries before they consented to an engagement. That's all done away with. Girl just marries her man. Sometimes she doesn't find out for a year or two that he's an absconding bank clerk, or an Army deserter or something equally undesirable. How long had you known Giles Ralston when you married him?"
+        }
+      ]
+    },
+    {
+      "word": "line",
+      "levels": [
+        "noun:a1",
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0113",
+          "form": "line",
+          "speaker": "TROTTER",
+          "text": "No, Mrs. Ralston, the line was deliberately cut. It was cut just outside by the front door. I found the place."
+        }
+      ]
+    },
+    {
+      "word": "mine",
+      "levels": [
+        "noun:b1",
+        "pronoun:a2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0086",
+          "form": "mine",
+          "speaker": "MAJOR METCALF",
+          "text": "Mine are there all right. But most criminals are careful to wear gloves, aren't they?"
+        }
+      ]
+    },
+    {
+      "word": "minute",
+      "levels": [
+        "adjective:c1",
+        "noun:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0103",
+          "form": "minute",
+          "speaker": "MOLLIE",
+          "text": "Wait, Giles, wait. Sergeant Trotter, can I ― can I speak to you a minute?"
+        },
+        {
+          "speechId": "act2-speech-0126",
+          "form": "minute",
+          "speaker": "MOLLIE",
+          "text": "But you don't know where he may be at this minute, and if the son is mentally unstable, the father may have been unstable, too."
+        },
+        {
+          "speechId": "act2-speech-0175",
+          "form": "minute",
+          "speaker": "TROTTER",
+          "text": "Just a minute, Mrs. Ralston. This your husband's coat?"
+        }
+      ]
+    },
+    {
+      "word": "move",
+      "levels": [
+        "noun:b1",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0140",
+          "form": "moves",
+          "speaker": "MOLLIE",
+          "text": "I know he seems quite old ― and foreign and everything, but he mightn't really be as old as he looks. He moves like a much younger man, and he's definitely got makeup on his face. Miss Casewell noticed it, too. He might be ― oh, I know it sounds very melodramatic ― but he might be disguised."
+        }
+      ]
+    },
+    {
+      "word": "normal",
+      "levels": [
+        "adjective:a2",
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0134",
+          "form": "normal",
+          "speaker": "MOLLIE",
+          "text": "Middle-aged. A soldier. He seems quite nice and perfectly normal ― but it mightn't show, might it?"
+        }
+      ]
+    },
+    {
+      "word": "pull",
+      "levels": [
+        "noun:b1",
+        "verb:a2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0083",
+          "form": "pulling",
+          "speaker": "TROTTER",
+          "text": "We're not engaged in antiquarian research, Major Metcalf. We're investigating a murder. Mrs. Ralston has told us that she heard a door shut with a faint creak. That particular door shuts with a creak. It could be, you know, that after killing Mrs. Boyle, the murderer heard Mrs. Ralston coming from the kitchen and slipped into the cupboard pulling the door to after him."
+        },
+        {
+          "speechId": "act2-speech-0145",
+          "form": "pulled",
+          "speaker": "TROTTER",
+          "text": "It could have been a woman who killed Maureen Lyon. A woman. The muffler pulled up and the man's felt that pulled well down, and the killer whispered, you know. It's the voice that gives the sex away. Yes, it might have been a woman."
+        }
+      ]
+    },
+    {
+      "word": "say",
+      "levels": [
+        "noun:c1",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0024",
+          "form": "say",
+          "speaker": "TROTTER",
+          "text": "Yes. As you say, people came ― a lot of people from different directions ― all arriving more or less at once. Now then, when I got out of that window to trace the telephone wire, you, Mr. Ralston, went upstairs to the room you and Mrs. Ralston occupy, to try the extension telephone. Where were you when Mrs. Ralston screamed?"
+        },
+        {
+          "speechId": "act2-speech-0028",
+          "form": "say",
+          "speaker": "TROTTER",
+          "text": "I should say you definitely ― took your time over them."
+        },
+        {
+          "speechId": "act2-speech-0052",
+          "form": "say",
+          "speaker": "PARAVICINI",
+          "text": "Yes. It is a very catchy little tune. It is ― how shall I say?― a haunting little tune? Don't you all agree?"
+        },
+        {
+          "speechId": "act2-speech-0069",
+          "form": "say",
+          "speaker": "TROTTER",
+          "text": "You say you were writing letters when you heard Mrs. Ralston scream?"
+        },
+        {
+          "speechId": "act2-speech-0079",
+          "form": "say",
+          "speaker": "TROTTER",
+          "text": "Now, Major Metcalf, what about you? You say you were in the cellar. Why?"
+        },
+        {
+          "speechId": "act2-speech-0082",
+          "form": "say",
+          "speaker": "MAJOR METCALF",
+          "text": "Not at all. Crypt of an old monastery, I should say. Probably why this place is called \"Monkswell.\""
+        },
+        {
+          "speechId": "act2-speech-0109",
+          "form": "say",
+          "speaker": "TROTTER",
+          "text": "Yes, Mrs. Ralston, what is it you want to say to me?"
+        },
+        {
+          "speechId": "act2-speech-0151",
+          "form": "say",
+          "speaker": "TROTTER",
+          "text": "He and Christopher Wren are much of an age. Say your husband looks older than his years, and Christopher Wren looks younger. Actual age is very hard to tell. How much do you know about your husband, Mrs. Ralston?"
+        },
+        {
+          "speechId": "act2-speech-0165",
+          "form": "says",
+          "speaker": "TROTTER",
+          "text": "You'd be surprised, Mrs. Ralston, if you knew how many cases rather like yours we get. Especially since the war. Homes broken up and families dead. Fellow says he's been in the Air Force, or just finished his Army training. Parents killed ― no relations. There aren't any backgrounds nowadays and young people settle their own affairs ― they meet and marry. It's parents and relatives who used to make the enquiries before they consented to an engagement. That's all done away with. Girl just marries her man. Sometimes she doesn't find out for a year or two that he's an absconding bank clerk, or an Army deserter or something equally undesirable. How long had you known Giles Ralston when you married him?"
+        }
+      ]
+    },
+    {
+      "word": "share",
+      "levels": [
+        "noun:b1",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0021",
+          "form": "share",
+          "speaker": "MISS CASEWELL",
+          "text": "Nonsense. Surely it would be a most unlikely coincidence that there should be two people brought here by chance, both of them with a share in the Longridge Farm case?"
+        }
+      ]
+    },
+    {
+      "word": "since",
+      "levels": [
+        "adverb:b1",
+        "conjunction:a2",
+        "preposition:a2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0143",
+          "form": "since",
+          "speaker": "TROTTER",
+          "text": "Mrs. Ralston, let me tell you something. I've had all possibilities in mind ever since the beginning. The boy Georgie, the father ― and someone else. There was a sister, you remember."
+        },
+        {
+          "speechId": "act2-speech-0165",
+          "form": "since",
+          "speaker": "TROTTER",
+          "text": "You'd be surprised, Mrs. Ralston, if you knew how many cases rather like yours we get. Especially since the war. Homes broken up and families dead. Fellow says he's been in the Air Force, or just finished his Army training. Parents killed ― no relations. There aren't any backgrounds nowadays and young people settle their own affairs ― they meet and marry. It's parents and relatives who used to make the enquiries before they consented to an engagement. That's all done away with. Girl just marries her man. Sometimes she doesn't find out for a year or two that he's an absconding bank clerk, or an Army deserter or something equally undesirable. How long had you known Giles Ralston when you married him?"
+        }
+      ]
+    },
+    {
+      "word": "sort",
+      "levels": [
+        "noun:a2",
+        "verb:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0168",
+          "form": "sort",
+          "speaker": "MOLLIE",
+          "text": "That's not true. I know everything about him! I know exactly the sort of person he is. He's Giles. And it's absolutely absurd to suggest that he's some horrible crazy homicidal maniac. Why, he wasn't even in London yesterday when the murder took place."
+        }
+      ]
+    },
+    {
+      "word": "sound",
+      "levels": [
+        "adjective:c1",
+        "noun:a1",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0140",
+          "form": "sounds",
+          "speaker": "MOLLIE",
+          "text": "I know he seems quite old ― and foreign and everything, but he mightn't really be as old as he looks. He moves like a much younger man, and he's definitely got makeup on his face. Miss Casewell noticed it, too. He might be ― oh, I know it sounds very melodramatic ― but he might be disguised."
+        },
+        {
+          "speechId": "act2-speech-0160",
+          "form": "sound",
+          "speaker": "MOLLIE",
+          "text": "Yes ― but oh, you make it sound all wrong. His father was a barrister and his mother died when he was a baby."
+        }
+      ]
+    },
+    {
+      "word": "step",
+      "levels": [
+        "noun:a2",
+        "verb:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0080",
+          "form": "steps",
+          "speaker": "MAJOR METCALF",
+          "text": "Looking around. Just looking around. I looked into that cupboard place under the stairs near the kitchen. Lot of junk and sports tackle. And I noticed there was another door inside it, and I opened it and saw a flight of steps. I was curious and I went down. Nice cellars you've got."
+        },
+        {
+          "speechId": "act2-speech-0092",
+          "form": "steps",
+          "speaker": "TROTTER",
+          "text": "Mr. Ralston! Thank you. We've got to establish opportunity, you know, as well as motive. And now let me tell you this ― you all had opportunity. There are two staircases ― anyone could go up by one and come down by the other. Anyone could go down to the cellars by the door near the kitchen and come up by a flight of steps that leads up through a trapdoor to the foot of the stairs over there. The vital fact was that every one of you was alone at the time the murder was committed."
+        }
+      ]
+    },
+    {
+      "word": "still",
+      "levels": [
+        "adjective:b1",
+        "adverb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0025",
+          "form": "still",
+          "speaker": "GILES",
+          "text": "I was still up in the bedroom. The extension telephone was dead, too. I looked out of the window to see if I could see any sign of the wires being cut there, but I couldn't. Just after I closed the window again, I heard Mollie scream and I rushed down."
+        }
+      ]
+    },
+    {
+      "word": "that",
+      "levels": [
+        "adverb:b1",
+        "conjunction:a1",
+        "determiner:a1",
+        "pronoun:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0004",
+          "form": "that",
+          "speaker": "MOLLIE",
+          "text": "No ― no, I don't think so. Just the radio blaring out in here. I couldn't think who'd turned it on so loud. I wouldn't hear anything else with that, would I?"
+        },
+        {
+          "speechId": "act2-speech-0005",
+          "form": "that",
+          "speaker": "TROTTER",
+          "text": "That was clearly the murderer's idea ― or murderess."
+        },
+        {
+          "speechId": "act2-speech-0007",
+          "form": "that",
+          "speaker": "TROTTER",
+          "text": "You might have done. If the murderer had left the hall that way he might have heard you coming from the kitchen. He might have slipped up the back stairs ― or into the dining room..."
+        },
+        {
+          "speechId": "act2-speech-0018",
+          "form": "that",
+          "speaker": "TROTTER",
+          "text": "Yes, there would have to be that."
+        },
+        {
+          "speechId": "act2-speech-0021",
+          "form": "that",
+          "speaker": "MISS CASEWELL",
+          "text": "Nonsense. Surely it would be a most unlikely coincidence that there should be two people brought here by chance, both of them with a share in the Longridge Farm case?"
+        },
+        {
+          "speechId": "act2-speech-0024",
+          "form": "that",
+          "speaker": "TROTTER",
+          "text": "Yes. As you say, people came ― a lot of people from different directions ― all arriving more or less at once. Now then, when I got out of that window to trace the telephone wire, you, Mr. Ralston, went upstairs to the room you and Mrs. Ralston occupy, to try the extension telephone. Where were you when Mrs. Ralston screamed?"
+        },
+        {
+          "speechId": "act2-speech-0031",
+          "form": "that",
+          "speaker": "CHRISTOPHER",
+          "text": "I'd been in the kitchen, seeing if there was anything I could do to help Mrs. Ralston. I adore cooking. After that I went upstairs to my bedroom."
+        },
+        {
+          "speechId": "act2-speech-0037",
+          "form": "that's",
+          "speaker": "CHRISTOPHER",
+          "text": "Anyway, that's where I was!"
+        },
+        {
+          "speechId": "act2-speech-0042",
+          "form": "that",
+          "speaker": "TROTTER",
+          "text": "Curious that you and Mr. Ralston didn't meet on the stairs."
+        },
+        {
+          "speechId": "act2-speech-0051",
+          "form": "that",
+          "speaker": "TROTTER",
+          "text": "Is that so?"
+        },
+        {
+          "speechId": "act2-speech-0058",
+          "form": "that",
+          "speaker": "PARAVICINI",
+          "text": "No, no, Inspector ― I beg your pardon ― Sergeant, I would not do a thing like that."
+        },
+        {
+          "speechId": "act2-speech-0060",
+          "form": "that",
+          "speaker": "PARAVICINI",
+          "text": "With one finger so...And then I hear the radio ― playing very loud ― someone is shouting on it. It offended my ears. And after that ― suddenly ― I hear Mrs. Ralston scream."
+        }
+      ]
+    },
+    {
+      "word": "try",
+      "levels": [
+        "noun:b2",
+        "verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0001",
+          "form": "try",
+          "speaker": "TROTTER",
+          "text": "Now, Mrs. Ralston, try and think ― think..."
+        },
+        {
+          "speechId": "act2-speech-0011",
+          "form": "try",
+          "speaker": "TROTTER",
+          "text": "Think, Mrs. Ralston ― try and think. Upstairs? Downstairs? Close at hand? Right? Left?"
+        },
+        {
+          "speechId": "act2-speech-0024",
+          "form": "try",
+          "speaker": "TROTTER",
+          "text": "Yes. As you say, people came ― a lot of people from different directions ― all arriving more or less at once. Now then, when I got out of that window to trace the telephone wire, you, Mr. Ralston, went upstairs to the room you and Mrs. Ralston occupy, to try the extension telephone. Where were you when Mrs. Ralston screamed?"
+        }
+      ]
+    },
+    {
+      "word": "well",
+      "levels": [
+        "adjective:a1",
+        "adverb:a1",
+        "exclamation:a1",
+        "noun:c1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0014",
+          "form": "well",
+          "speaker": "TROTTER",
+          "text": "We're investigating a murder, Mr. Ralston. Up to now, nobody has taken this thing seriously. Mrs. Boyle didn't. She held out on me with information. You all held out on me. Well, Mrs. Boyle is dead. Unless we get to the bottom of this ― and quickly, mind ― there may be another death."
+        },
+        {
+          "speechId": "act2-speech-0030",
+          "form": "well",
+          "speaker": "TROTTER",
+          "text": "Very well. Now then, Mr. Wren, I'll have your account of where you were."
+        },
+        {
+          "speechId": "act2-speech-0059",
+          "form": "well",
+          "speaker": "TROTTER",
+          "text": "Well, go on, you were playing the piano."
+        },
+        {
+          "speechId": "act2-speech-0091",
+          "form": "well",
+          "speaker": "GILES",
+          "text": "Oh, very well, but..."
+        },
+        {
+          "speechId": "act2-speech-0092",
+          "form": "well",
+          "speaker": "TROTTER",
+          "text": "Mr. Ralston! Thank you. We've got to establish opportunity, you know, as well as motive. And now let me tell you this ― you all had opportunity. There are two staircases ― anyone could go up by one and come down by the other. Anyone could go down to the cellars by the door near the kitchen and come up by a flight of steps that leads up through a trapdoor to the foot of the stairs over there. The vital fact was that every one of you was alone at the time the murder was committed."
+        },
+        {
+          "speechId": "act2-speech-0095",
+          "form": "well",
+          "speaker": "GILES",
+          "text": "But you know pretty well who killed that woman in Culver Street. You think it's the eldest of those three children at the farm. A mentally abnormal young man who is now twenty-three years of age. Well, damn it all, there's only one person here who fits the bill."
+        },
+        {
+          "speechId": "act2-speech-0120",
+          "form": "well",
+          "speaker": "MOLLIE",
+          "text": "Well ― hadn't those children any relations at all?"
+        },
+        {
+          "speechId": "act2-speech-0127",
+          "form": "well",
+          "speaker": "TROTTER",
+          "text": "Well, it's a possibility."
+        },
+        {
+          "speechId": "act2-speech-0136",
+          "form": "well",
+          "speaker": "MOLLIE",
+          "text": "So, it's not only Christopher who's a suspect. There's Major Metcalf as well."
+        },
+        {
+          "speechId": "act2-speech-0138",
+          "form": "well",
+          "speaker": "MOLLIE",
+          "text": "Well, Mr. Paravicini did drop the poker when I said the police had rung up."
+        },
+        {
+          "speechId": "act2-speech-0145",
+          "form": "well",
+          "speaker": "TROTTER",
+          "text": "It could have been a woman who killed Maureen Lyon. A woman. The muffler pulled up and the man's felt that pulled well down, and the killer whispered, you know. It's the voice that gives the sex away. Yes, it might have been a woman."
+        }
+      ]
+    },
+    {
+      "word": "will",
+      "levels": [
+        "noun:b1",
+        "modal verb:a1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0104",
+          "form": "will",
+          "speaker": "TROTTER",
+          "text": "Certainly, Mrs. Ralston. Will the rest of you go into the dining room, please."
+        }
+      ]
+    },
+    {
+      "word": "wrong",
+      "levels": [
+        "adjective:a1",
+        "adverb:b1",
+        "noun:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0160",
+          "form": "wrong",
+          "speaker": "MOLLIE",
+          "text": "Yes ― but oh, you make it sound all wrong. His father was a barrister and his mother died when he was a baby."
+        },
+        {
+          "speechId": "act2-speech-0172",
+          "form": "wrong",
+          "speaker": "MOLLIE",
+          "text": "No, it turned out to be the wrong kind."
+        }
+      ]
+    },
+    {
+      "word": "yet",
+      "levels": [
+        "adverb:a2",
+        "conjunction:b2"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0054",
+          "form": "yet",
+          "speaker": "PARAVICINI",
+          "text": "And yet ― it runs in people's head. Someone was whistling it, too."
+        },
+        {
+          "speechId": "act2-speech-0073",
+          "form": "yet",
+          "speaker": "TROTTER",
+          "text": "And yet there doesn't seem to be any unfinished letter on the writing desk in the library."
+        },
+        {
+          "speechId": "act2-speech-0101",
+          "form": "yet",
+          "speaker": "TROTTER",
+          "text": "I'm not arresting anyone. To do that, I've got to have evidence. I haven't got any evidence ― yet."
+        }
+      ]
+    },
+    {
+      "word": "young",
+      "levels": [
+        "adjective:a1",
+        "noun:b1"
+      ],
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0095",
+          "form": "young",
+          "speaker": "GILES",
+          "text": "But you know pretty well who killed that woman in Culver Street. You think it's the eldest of those three children at the farm. A mentally abnormal young man who is now twenty-three years of age. Well, damn it all, there's only one person here who fits the bill."
+        },
+        {
+          "speechId": "act2-speech-0140",
+          "form": "younger",
+          "speaker": "MOLLIE",
+          "text": "I know he seems quite old ― and foreign and everything, but he mightn't really be as old as he looks. He moves like a much younger man, and he's definitely got makeup on his face. Miss Casewell noticed it, too. He might be ― oh, I know it sounds very melodramatic ― but he might be disguised."
+        },
+        {
+          "speechId": "act2-speech-0141",
+          "form": "young",
+          "speaker": "TROTTER",
+          "text": "You're very anxious, aren't you, that it shouldn't be young Mr. Wren?"
+        },
+        {
+          "speechId": "act2-speech-0151",
+          "form": "younger",
+          "speaker": "TROTTER",
+          "text": "He and Christopher Wren are much of an age. Say your husband looks older than his years, and Christopher Wren looks younger. Actual age is very hard to tell. How much do you know about your husband, Mrs. Ralston?"
+        },
+        {
+          "speechId": "act2-speech-0165",
+          "form": "young",
+          "speaker": "TROTTER",
+          "text": "You'd be surprised, Mrs. Ralston, if you knew how many cases rather like yours we get. Especially since the war. Homes broken up and families dead. Fellow says he's been in the Air Force, or just finished his Army training. Parents killed ― no relations. There aren't any backgrounds nowadays and young people settle their own affairs ― they meet and marry. It's parents and relatives who used to make the enquiries before they consented to an engagement. That's all done away with. Girl just marries her man. Sometimes she doesn't find out for a year or two that he's an absconding bank clerk, or an Army deserter or something equally undesirable. How long had you known Giles Ralston when you married him?"
+        }
+      ]
+    }
+  ]
+}
