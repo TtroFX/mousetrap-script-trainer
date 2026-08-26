@@ -48,12 +48,22 @@
         "surface": "responsibilities",
         "lemma": "responsibility",
         "contextMeaning": ""
+      },
+      {
+        "surface": "indeed",
+        "lemma": "indeed",
+        "contextMeaning": ""
       }
     ],
     "act1-scene2-speech-0035": [
       {
         "surface": "Socialist",
         "lemma": "socialist",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "gather",
+        "lemma": "gather",
         "contextMeaning": ""
       }
     ],
@@ -67,7 +77,7 @@
     "act1-scene2-speech-0047": [
       {
         "surface": "distracting",
-        "lemma": "distracting",
+        "lemma": "distract",
         "contextMeaning": ""
       }
     ],
@@ -82,6 +92,11 @@
       {
         "surface": "annoy",
         "lemma": "annoy",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "glad",
+        "lemma": "glad",
         "contextMeaning": ""
       }
     ],
@@ -101,6 +116,21 @@
       {
         "surface": "fear",
         "lemma": "fear",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "blanket",
+        "lemma": "blanket",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "bleeding",
+        "lemma": "bleed",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "raw",
+        "lemma": "raw",
         "contextMeaning": ""
       }
     ],
@@ -130,6 +160,11 @@
         "surface": "serious",
         "lemma": "serious",
         "contextMeaning": ""
+      },
+      {
+        "surface": "chop",
+        "lemma": "chop",
+        "contextMeaning": ""
       }
     ],
     "act1-scene2-speech-0099": [
@@ -143,6 +178,11 @@
       {
         "surface": "educated",
         "lemma": "educated",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "naturally",
+        "lemma": "naturally",
         "contextMeaning": ""
       }
     ],
@@ -158,6 +198,11 @@
         "surface": "upset",
         "lemma": "upset",
         "contextMeaning": ""
+      },
+      {
+        "surface": "charming",
+        "lemma": "charming",
+        "contextMeaning": ""
       }
     ],
     "act1-scene2-speech-0121": [
@@ -172,6 +217,11 @@
         "surface": "trusting",
         "lemma": "trusting",
         "contextMeaning": ""
+      },
+      {
+        "surface": "warning",
+        "lemma": "warning",
+        "contextMeaning": ""
       }
     ],
     "act1-scene2-speech-0130": [
@@ -183,6 +233,11 @@
       {
         "surface": "robber",
         "lemma": "robber",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "overturned",
+        "lemma": "overturn",
         "contextMeaning": ""
       }
     ],
@@ -242,6 +297,192 @@
       {
         "surface": "matter",
         "lemma": "matter",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0010": [
+      {
+        "surface": "ahead",
+        "lemma": "ahead",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0116": [
+      {
+        "surface": "amusing",
+        "lemma": "amusing",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0106": [
+      {
+        "surface": "concerns",
+        "lemma": "concern",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "whether",
+        "lemma": "whether",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0090": [
+      {
+        "surface": "fault",
+        "lemma": "fault",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "fellow",
+        "lemma": "fellow",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "fellow's",
+        "lemma": "fellow",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0069": [
+      {
+        "surface": "fierce",
+        "lemma": "fierce",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0097": [
+      {
+        "surface": "freeze",
+        "lemma": "freeze",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0136": [
+      {
+        "surface": "frozen",
+        "lemma": "frozen",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "pipes",
+        "lemma": "pipe",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0030": [
+      {
+        "surface": "gather",
+        "lemma": "gather",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0038": [
+      {
+        "surface": "gather",
+        "lemma": "gather",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0176": [
+      {
+        "surface": "hurry",
+        "lemma": "hurry",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0092": [
+      {
+        "surface": "ignored",
+        "lemma": "ignore",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Ministry",
+        "lemma": "ministry",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0015": [
+      {
+        "surface": "indeed",
+        "lemma": "indeed",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0117": [
+      {
+        "surface": "Indeed",
+        "lemma": "indeed",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0169": [
+      {
+        "surface": "indeed",
+        "lemma": "indeed",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0065": [
+      {
+        "surface": "melts",
+        "lemma": "melt",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0066": [
+      {
+        "surface": "melts",
+        "lemma": "melt",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0084": [
+      {
+        "surface": "Nonsense",
+        "lemma": "nonsense",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0137": [
+      {
+        "surface": "pipes",
+        "lemma": "pipe",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0170": [
+      {
+        "surface": "private",
+        "lemma": "private",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0003": [
+      {
+        "surface": "proper",
+        "lemma": "proper",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0031": [
+      {
+        "surface": "proper",
+        "lemma": "proper",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0152": [
+      {
+        "surface": "terribly",
+        "lemma": "terribly",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0158": [
+      {
+        "surface": "terribly",
+        "lemma": "terribly",
         "contextMeaning": ""
       }
     ]

@@ -214,6 +214,11 @@
         "surface": "sweeper",
         "lemma": "sweeper",
         "contextMeaning": ""
+      },
+      {
+        "surface": "carpet sweeper",
+        "lemma": "carpet sweeper",
+        "contextMeaning": "電動掃除機ではなく、ブラシとローラーでカーペット上のごみを集める手押し式の掃除用具。時代背景の理解に重要。"
       }
     ],
     "act1-scene2-speech-0028": [
@@ -259,6 +264,11 @@
         "surface": "Got the bit between their teeth",
         "lemma": "get the bit between one's teeth",
         "contextMeaning": "ここでは「下の階級の人々が自分たちの意思で動くようになり、雇う側が思い通りに扱えなくなった」という比喩。CasewellはMrs. Boyleの階級意識をからかっている。"
+      },
+      {
+        "surface": "lower classes",
+        "lemma": "lower classes",
+        "contextMeaning": "CasewellがMrs. Boyleの階級的な言い方をそのまま受けて、皮肉を込めて繰り返している。"
       }
     ],
     "act1-scene2-speech-0036": [
@@ -289,6 +299,11 @@
       {
         "surface": "gone sadly downhill",
         "lemma": "go downhill",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "used to be",
+        "lemma": "used to",
         "contextMeaning": ""
       }
     ],
@@ -386,8 +401,8 @@
     "act1-scene2-speech-0060": [
       {
         "surface": "Tactics",
-        "lemma": "tactics",
-        "contextMeaning": "ラジオを利用してMrs. Boyleを暖かい椅子から追い出し、自分が座るための「作戦」という意味。"
+        "lemma": "tactic",
+        "contextMeaning": "ラジオを利用してMrs. Boyleを暖かい椅子から追い出し、自分が座るための『作戦』という意味。"
       }
     ],
     "act1-scene2-speech-0062": [
@@ -534,6 +549,11 @@
         "surface": "extraordinary",
         "lemma": "extraordinary",
         "contextMeaning": ""
+      },
+      {
+        "surface": "impress on my husband",
+        "lemma": "impress something on someone",
+        "contextMeaning": "ここでは夫に良い印象を与える意味ではなく、Sergeant Trotterの話をよく聞く必要性をGilesに強く認識させること。"
       }
     ],
     "act1-scene2-speech-0087": [
@@ -655,6 +675,11 @@
       {
         "surface": "urgent",
         "lemma": "urgent",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Cheer up",
+        "lemma": "cheer up",
         "contextMeaning": ""
       }
     ],
@@ -898,6 +923,11 @@
         "surface": "references",
         "lemma": "reference",
         "contextMeaning": "ここでは一般的な「参照」ではなく、宿泊客の身元・信用を確認するための紹介状や信用照会のこと。"
+      },
+      {
+        "surface": "without doubt",
+        "lemma": "without doubt",
+        "contextMeaning": ""
       }
     ],
     "act1-scene2-speech-0129": [
@@ -931,7 +961,7 @@
       {
         "surface": "murderer",
         "lemma": "murderer",
-        "contextMeaning": ""
+        "contextMeaning": "Paraviciniが自分にもあり得る身元としてわざと挙げる『殺人犯』。自分が殺人犯だと認めた発言ではない。"
       },
       {
         "surface": "sleep under your roof",
@@ -1009,6 +1039,11 @@
         "surface": "banked up",
         "lemma": "bank up",
         "contextMeaning": "ここでは暖炉の燃料を積む意味ではなく、雪が道路脇・道路上に高く吹きだまって通行を妨げていること。"
+      },
+      {
+        "surface": "Excuse me",
+        "lemma": "excuse me",
+        "contextMeaning": ""
       }
     ],
     "act1-scene2-speech-0149": [
@@ -1147,6 +1182,41 @@
         "surface": "protection",
         "lemma": "protection",
         "contextMeaning": "Mollieが「警察の保護？」と驚いて聞き返している。具体的な危険の内容はまだ知らされていない。"
+      }
+    ],
+    "act1-scene2-speech-0033": [
+      {
+        "surface": "lower classes",
+        "lemma": "lower classes",
+        "contextMeaning": "Mrs. Boyleが使用人層・労働者階級を見下した調子でまとめて呼ぶ、当時の階級意識を反映した表現。"
+      }
+    ],
+    "act1-scene2-speech-0024": [
+      {
+        "surface": "give you a hand",
+        "lemma": "give someone a hand",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0133": [
+      {
+        "surface": "as far as Mrs. Boyle goes",
+        "lemma": "as far as someone goes",
+        "contextMeaning": "Mrs. Boyleについて言えば・Mrs. Boyleに関する限り、という話題の範囲を限定する表現。"
+      }
+    ],
+    "act1-scene2-speech-0160": [
+      {
+        "surface": "Excuse me",
+        "lemma": "excuse me",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0163": [
+      {
+        "surface": "at a glance",
+        "lemma": "at a glance",
+        "contextMeaning": ""
       }
     ]
   }
