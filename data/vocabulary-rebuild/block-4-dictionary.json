@@ -1,0 +1,963 @@
+{
+  "schemaVersion": 2,
+  "blockId": "block-4",
+  "policy": "Neutral shared meanings only; no play-specific context.",
+  "entries": {
+    "ABC": {
+      "pos": "固有名詞",
+      "meaning": "英国の鉄道時刻表（ABC Railway Guide）",
+      "tags": [
+        "needs-neutral-review"
+      ]
+    },
+    "abroad": {
+      "pos": "副詞",
+      "meaning": "国外へ・国外で。また古い用法で、外に出て・広く出回って。",
+      "tags": [
+        "dated-sense"
+      ]
+    },
+    "abscond": {
+      "pos": "動詞",
+      "meaning": "責任・拘束・支払いなどから逃れるため秘密に立ち去る。",
+      "tags": [
+        "formal",
+        "crime"
+      ]
+    },
+    "absurd": {
+      "pos": "形容詞",
+      "meaning": "道理や常識に合わず、ばかげている。"
+    },
+    "Air Force": {
+      "pos": "固有名詞",
+      "meaning": "軍種としての空軍。",
+      "tags": [
+        "military"
+      ]
+    },
+    "all in": {
+      "pos": "形容詞的表現",
+      "meaning": "ひどく疲れ切っている。",
+      "tags": [
+        "informal",
+        "British-compatible"
+      ]
+    },
+    "all the same": {
+      "pos": "副詞句",
+      "meaning": "前の事情を認めつつ、結論を変えない逆接表現。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "antiquarian": {
+      "pos": "形容詞・名詞",
+      "meaning": "古い物・歴史資料を専門的に扱う antiquary に関係する。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "antiquarian research": {
+      "pos": "名詞句",
+      "meaning": "古物・古代の事物・歴史的遺物などを対象にした研究。"
+    },
+    "anxious": {
+      "pos": "形容詞",
+      "meaning": "悪いことを心配する意味と「強く望む」意味がある。",
+      "tags": [
+        "context"
+      ]
+    },
+    "as though": {
+      "pos": "接続表現",
+      "meaning": "as if と同様の比較・様態。やや書き言葉寄り。",
+      "tags": [
+        "grammar",
+        "chunk"
+      ]
+    },
+    "at once": {
+      "pos": "副詞句",
+      "meaning": "文脈により immediately または simultaneously。",
+      "tags": [
+        "context",
+        "chunk"
+      ]
+    },
+    "background": {
+      "pos": "名詞",
+      "meaning": "身元・経歴",
+      "tags": [
+        "needs-neutral-review"
+      ]
+    },
+    "barrister": {
+      "pos": "名詞",
+      "meaning": "英国法曹で、伝統的に法廷弁論を中心に担う職種。solicitor と対になる。",
+      "tags": [
+        "British English",
+        "legal"
+      ]
+    },
+    "be discharged from the Army": {
+      "pos": "定型表現",
+      "meaning": "discharge は軍務から正式に解くこと。",
+      "tags": [
+        "military",
+        "formal",
+        "chunk"
+      ]
+    },
+    "beg your pardon": {
+      "pos": "定型表現",
+      "meaning": "謝罪または聞き返しに使う丁寧な定型表現。",
+      "tags": [
+        "British English",
+        "polite",
+        "chunk"
+      ]
+    },
+    "blare": {
+      "pos": "動詞",
+      "meaning": "ラジオなどが耳障りなほど大きく鳴る。"
+    },
+    "business": {
+      "pos": "名詞",
+      "meaning": "「取り組むべき事柄」が中心で、文脈により仕事・用事・事件を指す。",
+      "tags": [
+        "context"
+      ]
+    },
+    "by chance": {
+      "pos": "副詞句",
+      "meaning": "意図・計画ではなく偶然起きたことを示す。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "case": {
+      "pos": "名詞",
+      "meaning": "調査・議論の対象となる一件。in case などは別の句として扱う。",
+      "tags": [
+        "context",
+        "legal"
+      ]
+    },
+    "cellar": {
+      "pos": "名詞",
+      "meaning": "特に食料・酒などを置く地下室。",
+      "tags": [
+        "British English"
+      ]
+    },
+    "coincidence": {
+      "pos": "名詞",
+      "meaning": "因果関係がないのに出来事が一致すること。"
+    },
+    "come down": {
+      "pos": "句動詞",
+      "meaning": "高い場所・上階から下へ移動する。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "come in": {
+      "pos": "句動詞",
+      "meaning": "外から内部へ移動する。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "come out": {
+      "pos": "句動詞",
+      "meaning": "外へ出る、明らかになる、表面に現れるなど。"
+    },
+    "come over someone": {
+      "pos": "句動詞",
+      "meaning": "感情が人の上に「やって来る」比喩。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "come up": {
+      "pos": "句動詞",
+      "meaning": "上方・話者側へ移動する。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "commit": {
+      "pos": "動詞",
+      "meaning": "行為を実行する。crime と結び付くと「犯罪を犯す」。",
+      "tags": [
+        "crime",
+        "context"
+      ]
+    },
+    "criminal": {
+      "pos": "名詞・形容詞",
+      "meaning": "犯罪者。犯罪の、犯罪に関する。"
+    },
+    "definitely": {
+      "pos": "副詞",
+      "meaning": "曖昧さを排して確信を示す。"
+    },
+    "deliberately": {
+      "pos": "副詞",
+      "meaning": "偶然ではなく意図して行う。"
+    },
+    "deserter": {
+      "pos": "名詞",
+      "meaning": "軍務から無断で離脱した人。",
+      "tags": [
+        "military"
+      ]
+    },
+    "desertion": {
+      "pos": "名詞",
+      "meaning": "軍務などを無断で離れる行為。",
+      "tags": [
+        "military",
+        "formal"
+      ]
+    },
+    "disguised": {
+      "pos": "形容詞",
+      "meaning": "disguise「正体を隠す」の過去分詞。料理では味をうまく隠す比喩。",
+      "tags": [
+        "context"
+      ]
+    },
+    "drunk": {
+      "pos": "名詞",
+      "meaning": "形容詞だけでなく名詞で「酔っぱらい」。",
+      "tags": [
+        "informal",
+        "context"
+      ]
+    },
+    "enquiry": {
+      "pos": "名詞",
+      "meaning": "British spelling は enquiry が一般的。警察文脈では「調査・照会」。",
+      "tags": [
+        "British English",
+        "spelling",
+        "formal"
+      ]
+    },
+    "establish": {
+      "pos": "動詞",
+      "meaning": "事実や状態を証拠により確かなものにする。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "establish opportunity": {
+      "pos": "捜査表現",
+      "meaning": "犯罪を行う物理的・時間的機会が誰にあったかを確認する。",
+      "tags": [
+        "investigation"
+      ]
+    },
+    "evidence": {
+      "pos": "名詞",
+      "meaning": "主張・犯罪事実を裏づける情報や物。",
+      "tags": [
+        "legal",
+        "crime"
+      ]
+    },
+    "extension telephone": {
+      "pos": "名詞句",
+      "meaning": "同じ回線につながる別の電話機。",
+      "tags": [
+        "dated",
+        "technology"
+      ]
+    },
+    "find out": {
+      "pos": "句動詞",
+      "meaning": "調査・経験を通じて未知の事実を知る。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "fingerprint": {
+      "pos": "名詞",
+      "meaning": "個人識別に使われる指の紋様。",
+      "tags": [
+        "crime"
+      ]
+    },
+    "fit the bill": {
+      "pos": "慣用表現",
+      "meaning": "求められる条件・特徴に合う。"
+    },
+    "for instance": {
+      "pos": "副詞句",
+      "meaning": "具体例を導入する。",
+      "tags": [
+        "formal",
+        "chunk"
+      ]
+    },
+    "foreign": {
+      "pos": "形容詞",
+      "meaning": "自国・自分の文化の外に属する。"
+    },
+    "frame someone for": {
+      "pos": "動詞句",
+      "meaning": "人が犯していない犯罪の犯人に見えるよう証拠などを仕組む。"
+    },
+    "frightfully": {
+      "pos": "副詞",
+      "meaning": "英国上流・中流の古めの強調副詞。字義の「恐ろしく」から弱まった用法。",
+      "tags": [
+        "British English",
+        "dated"
+      ]
+    },
+    "get down clearly": {
+      "pos": "句動詞",
+      "meaning": "get down は「書き留める／確定する」。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "get to the bottom of": {
+      "pos": "慣用表現",
+      "meaning": "問題の真相・根本原因を突き止める。"
+    },
+    "give something away": {
+      "pos": "句動詞",
+      "meaning": "隠している情報・正体・感情などを意図せず明らかにする。"
+    },
+    "given certain circumstances": {
+      "pos": "定型表現",
+      "meaning": "given + 名詞で「～を考慮すると／前提とすると」。",
+      "tags": [
+        "formal",
+        "grammar",
+        "chunk"
+      ]
+    },
+    "go by probability": {
+      "pos": "動詞句",
+      "meaning": "確定した事実ではなく、可能性の高低を基準に判断する。"
+    },
+    "go down to": {
+      "pos": "句動詞",
+      "meaning": "英国口語で town/village などへ「出かける」感覚にも使う。",
+      "tags": [
+        "context",
+        "chunk"
+      ]
+    },
+    "go off one's head": {
+      "pos": "古い口語表現",
+      "meaning": "正常な判断ができないほど精神的に混乱する、という古いくだけた言い方。",
+      "tags": [
+        "dated",
+        "informal"
+      ]
+    },
+    "go on": {
+      "pos": "句動詞",
+      "meaning": "出来事・行動が継続する。文脈により「起こる」の意味もある。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "go through": {
+      "pos": "句動詞",
+      "meaning": "過程を最初から最後まで通過する。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "go up": {
+      "pos": "句動詞",
+      "meaning": "低い位置から高い位置へ移動する。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "got to": {
+      "pos": "助動詞的表現",
+      "meaning": "have got to の口語形。",
+      "tags": [
+        "informal",
+        "grammar",
+        "chunk"
+      ]
+    },
+    "headquarters": {
+      "pos": "名詞",
+      "meaning": "組織の指揮・管理の中心。police headquarters で警察本部。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "hold out on": {
+      "pos": "句動詞",
+      "meaning": "相手に必要なもの・情報を渡さず保持する。",
+      "tags": [
+        "informal",
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "hold out on someone": {
+      "pos": "句動詞",
+      "meaning": "人に必要な情報などを隠して伝えない。"
+    },
+    "homicidal maniac": {
+      "pos": "古い表現",
+      "meaning": "殺人衝動があるとみなされた人を指す古い非臨床的・侮蔑的な表現。",
+      "tags": [
+        "dated",
+        "stigmatizing"
+      ]
+    },
+    "ill-treat": {
+      "pos": "動詞",
+      "meaning": "treat someone ill の複合動詞。現代では ill-treat / mistreat。",
+      "tags": [
+        "British English",
+        "formal"
+      ]
+    },
+    "inspector": {
+      "pos": "名詞",
+      "meaning": "英国警察では Inspector は階級名。",
+      "tags": [
+        "British English",
+        "police"
+      ]
+    },
+    "instability": {
+      "pos": "名詞",
+      "meaning": "stable でない状態。mental instability では精神状態の不安定さ。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "investigate": {
+      "pos": "動詞",
+      "meaning": "事実を明らかにするため体系的に調べる。",
+      "tags": [
+        "crime"
+      ]
+    },
+    "Japs": {
+      "pos": "名詞",
+      "meaning": "第二次世界大戦期などに使われた差別的な略称。現代では使用を避ける。",
+      "tags": [
+        "dated",
+        "offensive",
+        "historical"
+      ]
+    },
+    "junk": {
+      "pos": "名詞",
+      "meaning": "価値の低い不要品をまとめた口語。",
+      "tags": [
+        "informal"
+      ]
+    },
+    "just": {
+      "pos": "副詞",
+      "meaning": "時間・数量・一致などを「狭く限定する」のが中心。",
+      "tags": [
+        "context"
+      ]
+    },
+    "just after": {
+      "pos": "定型表現",
+      "meaning": "時間的にごく近い後を表す。",
+      "tags": [
+        "time",
+        "chunk"
+      ]
+    },
+    "just outside": {
+      "pos": "定型表現",
+      "meaning": "場所が境界のすぐ外側であること。",
+      "tags": [
+        "context",
+        "chunk"
+      ]
+    },
+    "look into": {
+      "pos": "句動詞",
+      "meaning": "物理的に中を見ることから、問題を調査する意味にもなる。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "look out": {
+      "pos": "句動詞",
+      "meaning": "外へ目を向けることから「注意する」にも発展。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "magistrate": {
+      "pos": "名詞",
+      "meaning": "比較的軽い事件などを扱う権限を持つ司法官。英国では治安判事などを指す。",
+      "tags": [
+        "legal",
+        "British"
+      ]
+    },
+    "make something up": {
+      "pos": "句動詞",
+      "meaning": "事実ではない話・説明などを作り上げる。"
+    },
+    "makeup": {
+      "pos": "名詞",
+      "meaning": "顔に施す化粧。",
+      "tags": [
+        "spelling"
+      ]
+    },
+    "means of checking": {
+      "pos": "名詞句",
+      "meaning": "情報が正しいかどうかを確認・検証する手段。"
+    },
+    "melodramatic": {
+      "pos": "形容詞",
+      "meaning": "melodrama のように感情・危機を過度に強調する。"
+    },
+    "mentality": {
+      "pos": "名詞",
+      "meaning": "人の思考・心理的な傾向をまとめて指す。",
+      "tags": [
+        "context"
+      ]
+    },
+    "middle-aged": {
+      "pos": "形容詞",
+      "meaning": "若年でも老年でもない年齢層。"
+    },
+    "more or less": {
+      "pos": "副詞句",
+      "meaning": "厳密ではない程度・数量を表す。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "motive": {
+      "pos": "名詞",
+      "meaning": "行為、特に犯罪を起こす理由。",
+      "tags": [
+        "crime"
+      ]
+    },
+    "much of an age": {
+      "pos": "定型表現",
+      "meaning": "of an age「同じくらいの年齢」の強調。",
+      "tags": [
+        "British English",
+        "dated",
+        "chunk"
+      ]
+    },
+    "muffler": {
+      "pos": "名詞",
+      "meaning": "首や顔の周りに巻いて防寒する厚手のスカーフ。",
+      "tags": [
+        "British",
+        "dated"
+      ]
+    },
+    "murder": {
+      "pos": "名詞・動詞",
+      "meaning": "故意に人を殺す犯罪、殺人。人を故意に殺す。"
+    },
+    "murderer": {
+      "pos": "名詞",
+      "meaning": "人を故意に殺した者、殺人犯。"
+    },
+    "murderess": {
+      "pos": "名詞",
+      "meaning": "murderer を女性に限定した歴史的形。現代では通常 murderer を性別に関係なく使う。",
+      "tags": [
+        "dated",
+        "gendered",
+        "crime"
+      ]
+    },
+    "netting": {
+      "pos": "名詞",
+      "meaning": "網状の材料、ネット。"
+    },
+    "none of someone's business": {
+      "pos": "定型表現",
+      "meaning": "その人には関係がなく、口出し・詮索する権利がないこと。"
+    },
+    "none of your business": {
+      "pos": "定型表現",
+      "meaning": "business を「個人的な事柄」の意味で使う強い拒絶。",
+      "tags": [
+        "informal",
+        "idiom",
+        "chunk"
+      ]
+    },
+    "notebook": {
+      "pos": "名詞",
+      "meaning": "劇中では捜査上の手がかりとなる小型のノート。",
+      "tags": [
+        "context"
+      ]
+    },
+    "nowadays": {
+      "pos": "副詞",
+      "meaning": "過去と対比して「現代では」。"
+    },
+    "of one's own knowledge": {
+      "pos": "定型表現",
+      "meaning": "他人から聞いただけでなく、自分自身の直接の知識・経験として。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "offended": {
+      "pos": "形容詞",
+      "meaning": "offend「不快・侮辱を与える」の受動的状態。"
+    },
+    "only just": {
+      "pos": "定型表現",
+      "meaning": "時間的な「つい今」と程度の「ぎりぎり」の二用法がある。",
+      "tags": [
+        "context",
+        "chunk"
+      ]
+    },
+    "opportunity": {
+      "pos": "名詞",
+      "meaning": "一般には「機会」。捜査文脈では犯行を実行できた機会。",
+      "tags": [
+        "crime",
+        "context"
+      ]
+    },
+    "ought to": {
+      "pos": "準助動詞",
+      "meaning": "～すべきだ、～のはずだ。"
+    },
+    "outrageous": {
+      "pos": "形容詞",
+      "meaning": "常識・礼儀の限度を超えて許しがたい。"
+    },
+    "passage": {
+      "pos": "名詞",
+      "meaning": "建物内の細い通路。文章の「一節」ではない。",
+      "tags": [
+        "British English",
+        "context"
+      ]
+    },
+    "persecution": {
+      "pos": "名詞",
+      "meaning": "人を繰り返し不当に苦しめたり迫害したりすること。"
+    },
+    "pick up": {
+      "pos": "句動詞",
+      "meaning": "下から手元へ取る。文脈により電話・情報などにも拡張。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "point one way": {
+      "pos": "定型表現",
+      "meaning": "複数の証拠・事情が同じ結論を示す。"
+    },
+    "point to": {
+      "pos": "句動詞",
+      "meaning": "証拠・状況がある結論の方向を示す。",
+      "tags": [
+        "phrasal verb",
+        "context",
+        "chunk"
+      ]
+    },
+    "psychiatrist": {
+      "pos": "名詞",
+      "meaning": "精神疾患の診断・治療を行う医師。",
+      "tags": [
+        "medical"
+      ]
+    },
+    "quite": {
+      "pos": "副詞",
+      "meaning": "British English では形容詞によって「かなり」と「完全に」の両方を取る。",
+      "tags": [
+        "British English",
+        "context"
+      ]
+    },
+    "rather": {
+      "pos": "副詞",
+      "meaning": "British English で程度を控えめに強めることが多い。",
+      "tags": [
+        "British English",
+        "context"
+      ]
+    },
+    "relation": {
+      "pos": "名詞",
+      "meaning": "関係。また親戚。"
+    },
+    "revenge": {
+      "pos": "名詞",
+      "meaning": "受けた害に対して仕返しをしようとすること。"
+    },
+    "ring up": {
+      "pos": "句動詞",
+      "meaning": "英国英語で特に普通の「電話する」。",
+      "tags": [
+        "British English",
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "run in someone's head": {
+      "pos": "慣用表現",
+      "meaning": "歌や考えなどが頭から離れず繰り返し浮かぶ。"
+    },
+    "safety measure": {
+      "pos": "名詞句",
+      "meaning": "危険や事故を防ぐために取る予防措置。"
+    },
+    "scream blue murder": {
+      "pos": "慣用表現",
+      "meaning": "非常に大きな声で悲鳴・抗議の声を上げる。",
+      "tags": [
+        "British",
+        "informal"
+      ]
+    },
+    "settle one’s own affairs": {
+      "pos": "定型表現",
+      "meaning": "affairs は個人の事情・生活上の事柄。",
+      "tags": [
+        "formal",
+        "chunk"
+      ]
+    },
+    "slip up": {
+      "pos": "句動詞",
+      "meaning": "不注意などから失敗・ミスをする。"
+    },
+    "somehow": {
+      "pos": "副詞",
+      "meaning": "方法・理由が不明または非特定。"
+    },
+    "sports tackle": {
+      "pos": "名詞句",
+      "meaning": "tackle を「用具一式」の意味で使う古めの表現。",
+      "tags": [
+        "British English",
+        "dated"
+      ]
+    },
+    "starve": {
+      "pos": "動詞",
+      "meaning": "食物を十分に得られない状態にする・なる。"
+    },
+    "statement": {
+      "pos": "名詞",
+      "meaning": "警察文脈では本人が事実関係を述べた記録・内容。",
+      "tags": [
+        "police",
+        "formal"
+      ]
+    },
+    "such as": {
+      "pos": "接続表現",
+      "meaning": "例を挙げる定型表現。",
+      "tags": [
+        "grammar",
+        "chunk"
+      ]
+    },
+    "surmise": {
+      "pos": "名詞",
+      "meaning": "十分な証拠なしに行う推測・推量。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "swing door": {
+      "pos": "名詞句",
+      "meaning": "蝶番で前後に押して開けられる扉。",
+      "tags": [
+        "house"
+      ]
+    },
+    "switch off": {
+      "pos": "句動詞",
+      "meaning": "装置の作動を止める。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "take away from": {
+      "pos": "句動詞",
+      "meaning": "ある場所・人から離す。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "take every eventuality into account": {
+      "pos": "定型表現",
+      "meaning": "起こり得るあらゆる事態・可能性を考慮に入れる。"
+    },
+    "take one's time": {
+      "pos": "定型表現",
+      "meaning": "急がず時間をかける。文脈によっては必要以上に時間をかけることを含意する。"
+    },
+    "take place": {
+      "pos": "熟語",
+      "meaning": "出来事が「場所を占めて成立する」→起こる。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "think it out": {
+      "pos": "句動詞",
+      "meaning": "out が「最後まで」の意味を加える。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "trace": {
+      "pos": "動詞",
+      "meaning": "手がかりをたどって人・物・原因を見つける。",
+      "tags": [
+        "police"
+      ]
+    },
+    "trapdoor": {
+      "pos": "名詞",
+      "meaning": "床面などに水平に設けられた小さな扉。",
+      "tags": [
+        "house"
+      ]
+    },
+    "tune": {
+      "pos": "名詞",
+      "meaning": "歌詞とは別のメロディー部分。",
+      "tags": [
+        "music"
+      ]
+    },
+    "turn on": {
+      "pos": "句動詞",
+      "meaning": "機器・灯りなどを作動させる。",
+      "tags": [
+        "phrasal verb",
+        "chunk"
+      ]
+    },
+    "turn out": {
+      "pos": "句動詞",
+      "meaning": "外へ出す、追い出す。結果的に～になる、判明する。"
+    },
+    "turn out to be": {
+      "pos": "句動詞的表現",
+      "meaning": "結果として～だと分かる、実際には～であることが判明する。"
+    },
+    "under arrest": {
+      "pos": "定型表現",
+      "meaning": "警察権限による逮捕状態を表す。",
+      "tags": [
+        "legal",
+        "crime",
+        "chunk"
+      ]
+    },
+    "under suspicion": {
+      "pos": "定型表現",
+      "meaning": "疑いをかけられている、容疑の対象になっている。"
+    },
+    "undesirable": {
+      "pos": "形容詞・名詞",
+      "meaning": "社会的に避けたいと判断されるもの。名詞用法は古めで人を分類する響き。",
+      "tags": [
+        "formal",
+        "dated"
+      ]
+    },
+    "up to now": {
+      "pos": "副詞句",
+      "meaning": "現在までの期間を表す。",
+      "tags": [
+        "idiom",
+        "chunk"
+      ]
+    },
+    "victim": {
+      "pos": "名詞",
+      "meaning": "犯罪・事故などで害を受けた人。",
+      "tags": [
+        "crime"
+      ]
+    },
+    "vital": {
+      "pos": "形容詞",
+      "meaning": "成功・安全に欠かせないほど重要。",
+      "tags": [
+        "formal"
+      ]
+    },
+    "whatever": {
+      "pos": "代名詞・限定詞",
+      "meaning": "範囲を限定せず「何でも」。譲歩強調にも使う。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    "wide field": {
+      "pos": "名詞句",
+      "meaning": "field を比喩的に「候補・可能性の範囲」として使う。",
+      "tags": [
+        "context"
+      ]
+    },
+    "wider field": {
+      "pos": "名詞句",
+      "meaning": "対象となる人・可能性などの、より広い範囲。"
+    }
+  }
+}

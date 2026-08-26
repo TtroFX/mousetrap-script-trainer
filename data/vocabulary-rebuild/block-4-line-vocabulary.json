@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 2,
+  "blockId": "block-4",
+  "sceneId": "act2",
+  "processedSpeechRange": [
+    1,
+    179
+  ],
+  "processedSpeechCount": 179,
+  "policy": "Context-specific meanings first; blank means neutral dictionary sense is sufficient.",
+  "lines": {
+    "act2-speech-0013": [
+      {
+        "surface": "all in",
+        "lemma": "all in",
+        "contextMeaning": "Gilesが、Mrs. Boyleの死を発見した直後のMollieが疲労と衝撃で完全に参っている、とTrotterに訴えている。"
+      }
+    ],
+    "act2-speech-0014": [
+      {
+        "surface": "held out on me",
+        "lemma": "hold out on someone",
+        "contextMeaning": "TrotterはMrs. BoyleがLongridge Farmとの関係を捜査前に隠していたことを指している。"
+      },
+      {
+        "surface": "get to the bottom of this",
+        "lemma": "get to the bottom of",
+        "contextMeaning": "Mrs. Boyle殺害を含む一連の事件の真相を急いで突き止める、という捜査上の意味。"
+      }
+    ],
+    "act2-speech-0020": [
+      {
+        "surface": "a wider field",
+        "lemma": "wider field",
+        "contextMeaning": "Culver Streetと違いMonkswell Manorには、次の標的になり得る人物が複数いるという意味。"
+      }
+    ],
+    "act2-speech-0028": [
+      {
+        "surface": "took your time",
+        "lemma": "take one's time",
+        "contextMeaning": "TrotterがGilesの説明した単純な行動に不自然に長い時間がかかったと疑っている。"
+      }
+    ],
+    "act2-speech-0054": [
+      {
+        "surface": "runs in people's head",
+        "lemma": "run in someone's head",
+        "contextMeaning": "Three Blind Miceの旋律が頭から離れず繰り返し浮かぶ、という意味。殺人と結びついたため不穏な含みを持つ。"
+      }
+    ],
+    "act2-speech-0057": [
+      {
+        "surface": "making this up",
+        "lemma": "make something up",
+        "contextMeaning": "Trotterが、Paraviciniの「誰かが口笛を吹いていた」という話をその場で作った嘘ではないかと疑っている。"
+      }
+    ],
+    "act2-speech-0076": [
+      {
+        "surface": "none of your damned business",
+        "lemma": "none of someone's business",
+        "contextMeaning": "Casewellが手紙の相手についてのTrotterの質問を強く拒絶し、「あなたが詮索することではない」と突き放している。"
+      }
+    ],
+    "act2-speech-0077": [
+      {
+        "surface": "screaming blue murder",
+        "lemma": "scream blue murder",
+        "contextMeaning": "Mollieの悲鳴を「非常に大きな悲鳴」と表す英国系の慣用表現で、別の殺人を意味しない。"
+      }
+    ],
+    "act2-speech-0083": [
+      {
+        "surface": "antiquarian research",
+        "lemma": "antiquarian research",
+        "contextMeaning": "Metcalfの地下室への興味を、Trotterが「今は古物研究をしている場合ではない」と皮肉交じりに捜査へ引き戻している。"
+      }
+    ],
+    "act2-speech-0087": [
+      {
+        "surface": "slip up",
+        "lemma": "slip up",
+        "contextMeaning": "犯罪者もいずれ捜査上の手掛かりになるミスを犯す、という意味。"
+      }
+    ],
+    "act2-speech-0092": [
+      {
+        "surface": "establish opportunity",
+        "lemma": "establish opportunity",
+        "contextMeaning": "動機だけでなく、Mrs. Boyleを殺せる場所と時間に誰がいたかを捜査で確認すること。"
+      }
+    ],
+    "act2-speech-0093": [
+      {
+        "surface": "under suspicion",
+        "lemma": "under suspicion",
+        "contextMeaning": "Gilesが、Trotterの説明では館内の全員が容疑者扱いされているように聞こえると反発している。"
+      }
+    ],
+    "act2-speech-0095": [
+      {
+        "surface": "fits the bill",
+        "lemma": "fit the bill",
+        "contextMeaning": "GilesがChristopherだけが警察の想定する若い男性像に当てはまる、と決めつけている。"
+      }
+    ],
+    "act2-speech-0096": [
+      {
+        "surface": "frame me for a murder",
+        "lemma": "frame someone for",
+        "contextMeaning": "Christopherが、自分が犯していない殺人の犯人に仕立て上げられると恐れている。事実として警察がそうしているという意味ではない。"
+      },
+      {
+        "surface": "persecution",
+        "lemma": "persecution",
+        "contextMeaning": "Christopherが皆から疑われる状況を「自分への迫害だ」と感情的に表現している。"
+      }
+    ],
+    "act2-speech-0102": [
+      {
+        "surface": "safety measure",
+        "lemma": "safety measure",
+        "contextMeaning": "GilesがChristopherを犯人と確定せずとも、他の人を守る予防策として拘束すべきだと主張している。"
+      }
+    ],
+    "act2-speech-0117": [
+      {
+        "surface": "going by probability",
+        "lemma": "go by probability",
+        "contextMeaning": "Trotterは確定的な証拠ではなく、現時点で最も可能性が高い筋を基準に推理していると明示する。"
+      },
+      {
+        "surface": "points one way",
+        "lemma": "point one way",
+        "contextMeaning": "精神状態・軍からの脱走・報告書など複数の事情が同じ人物像を示している、という捜査上の推論。"
+      }
+    ],
+    "act2-speech-0125": [
+      {
+        "surface": "take every eventuality into account",
+        "lemma": "take every eventuality into account",
+        "contextMeaning": "警察は父親など別の可能性も含め、起こり得る筋を検討しているというTrotterの説明。"
+      }
+    ],
+    "act2-speech-0128": [
+      {
+        "surface": "go off his head",
+        "lemma": "go off one's head",
+        "contextMeaning": "Mollieが、戦争や家族の悲劇で父親が精神的に大きく崩れ復讐を望んだ可能性を仮定している古い口語。事実ではない。"
+      }
+    ],
+    "act2-speech-0129": [
+      {
+        "surface": "surmise",
+        "lemma": "surmise",
+        "contextMeaning": "TrotterがMollieの父親犯人説を、証拠のない推測にすぎないと区別している。"
+      }
+    ],
+    "act2-speech-0145": [
+      {
+        "surface": "gives the sex away",
+        "lemma": "give something away",
+        "contextMeaning": "通常の声なら話者の性別が分かってしまうため、犯人が囁き声でそれを隠した可能性をTrotterが説明している。"
+      }
+    ],
+    "act2-speech-0149": [
+      {
+        "surface": "no means of checking it",
+        "lemma": "means of checking",
+        "contextMeaning": "雪と電話断絶のため、Mollieの自己申告した経歴をその場で外部照会して検証できないこと。"
+      }
+    ],
+    "act2-speech-0163": [
+      {
+        "surface": "of your own knowledge",
+        "lemma": "of one's own knowledge",
+        "contextMeaning": "Gilesの経歴を本人から聞いたのではなく、Mollie自身が独立して事実確認して知っているのか、という意味。"
+      }
+    ],
+    "act2-speech-0172": [
+      {
+        "surface": "turned out to be",
+        "lemma": "turn out to be",
+        "contextMeaning": "Gilesが探しに行った金網が、結果として目的に合わない種類だったという説明。"
+      }
+    ]
+  }
+}
