@@ -12,6 +12,7 @@ on:
       - 'scripts/merge-context-outline.mjs'
       - 'data/vocabulary-rebuild/block-6-context-seed.json'
       - 'data/vocabulary-rebuild/block-6-neutral-seed.json'
+      - 'data/vocabulary-rebuild/block-6-neutral-supplement.json'
       - 'data/vocabulary-rebuild/block-6-oxford-review.json'
       - 'data/context-outline-patches/block-6.json'
       - '.github/workflows/build-vocabulary-block-6.yml'
