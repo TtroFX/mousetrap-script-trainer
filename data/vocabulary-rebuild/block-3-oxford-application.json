@@ -1,0 +1,572 @@
+{
+  "schemaVersion": 1,
+  "blockId": "block-3",
+  "includedReviewCount": 55,
+  "excludedReviewCount": 44,
+  "appliedEntryCount": 68,
+  "application": [
+    {
+      "word": "absolutely",
+      "lemma": "absolutely",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0194"
+      ]
+    },
+    {
+      "word": "abuse",
+      "lemma": "abuse",
+      "cefr": "C1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0258"
+      ]
+    },
+    {
+      "word": "admire",
+      "lemma": "admire",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0237"
+      ]
+    },
+    {
+      "word": "amusing",
+      "lemma": "amusing",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0259"
+      ]
+    },
+    {
+      "word": "attempt",
+      "lemma": "attempt",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0320"
+      ]
+    },
+    {
+      "word": "childhood",
+      "lemma": "childhood",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0269"
+      ]
+    },
+    {
+      "word": "conduct",
+      "lemma": "conduct",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0247"
+      ]
+    },
+    {
+      "word": "connection",
+      "lemma": "connection",
+      "cefr": "B1",
+      "matchedSpeechCount": 4,
+      "addedEntryCount": 4,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0193",
+        "act1-scene2-speech-0215",
+        "act1-scene2-speech-0218",
+        "act1-scene2-speech-0226"
+      ]
+    },
+    {
+      "word": "creep",
+      "lemma": "creep",
+      "cefr": "C1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0241"
+      ]
+    },
+    {
+      "word": "difficulty",
+      "lemma": "difficulty",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0183"
+      ]
+    },
+    {
+      "word": "distress",
+      "lemma": "distress",
+      "cefr": "C1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0229"
+      ]
+    },
+    {
+      "word": "extension",
+      "lemma": "extension",
+      "cefr": "B2",
+      "matchedSpeechCount": 2,
+      "addedEntryCount": 2,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0328",
+        "act1-scene2-speech-0330"
+      ]
+    },
+    {
+      "word": "fancy",
+      "lemma": "fancy",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0239"
+      ]
+    },
+    {
+      "word": "forgive",
+      "lemma": "forgive",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0259"
+      ]
+    },
+    {
+      "word": "frighten",
+      "lemma": "frighten",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0197"
+      ]
+    },
+    {
+      "word": "greatly",
+      "lemma": "greatly",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0259"
+      ]
+    },
+    {
+      "word": "hang",
+      "lemma": "hang",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0324"
+      ]
+    },
+    {
+      "word": "hardly",
+      "lemma": "hardly",
+      "cefr": "B1",
+      "matchedSpeechCount": 2,
+      "addedEntryCount": 2,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0254",
+        "act1-scene2-speech-0292"
+      ]
+    },
+    {
+      "word": "hidden",
+      "lemma": "hidden",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0324"
+      ]
+    },
+    {
+      "word": "horrible",
+      "lemma": "horrible",
+      "cefr": "B1",
+      "matchedSpeechCount": 2,
+      "addedEntryCount": 2,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0188",
+        "act1-scene2-speech-0207"
+      ]
+    },
+    {
+      "word": "household",
+      "lemma": "household",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0195"
+      ]
+    },
+    {
+      "word": "indeed",
+      "lemma": "indeed",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0259"
+      ]
+    },
+    {
+      "word": "measure",
+      "lemma": "measure",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0195"
+      ]
+    },
+    {
+      "word": "melt",
+      "lemma": "melt",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0313"
+      ]
+    },
+    {
+      "word": "mere",
+      "lemma": "mere",
+      "cefr": "C1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0235"
+      ]
+    },
+    {
+      "word": "nerve",
+      "lemma": "nerve",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0250"
+      ]
+    },
+    {
+      "word": "nonsense",
+      "lemma": "nonsense",
+      "cefr": "C1",
+      "matchedSpeechCount": 3,
+      "addedEntryCount": 3,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0202",
+        "act1-scene2-speech-0281",
+        "act1-scene2-speech-0285"
+      ]
+    },
+    {
+      "word": "ought",
+      "lemma": "ought",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0290"
+      ]
+    },
+    {
+      "word": "overturn",
+      "lemma": "overturn",
+      "cefr": "C1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0225"
+      ]
+    },
+    {
+      "word": "patience",
+      "lemma": "patience",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0250"
+      ]
+    },
+    {
+      "word": "plenty",
+      "lemma": "plenty",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0316"
+      ]
+    },
+    {
+      "word": "powder",
+      "lemma": "powder",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0263"
+      ]
+    },
+    {
+      "word": "private",
+      "lemma": "private",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0311"
+      ]
+    },
+    {
+      "word": "relate",
+      "lemma": "relate",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0179"
+      ]
+    },
+    {
+      "word": "remind",
+      "lemma": "remind",
+      "cefr": "B1",
+      "matchedSpeechCount": 2,
+      "addedEntryCount": 2,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0220",
+        "act1-scene2-speech-0269"
+      ]
+    },
+    {
+      "word": "reside",
+      "lemma": "reside",
+      "cefr": "C1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0183"
+      ]
+    },
+    {
+      "word": "ridiculous",
+      "lemma": "ridiculous",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0222"
+      ]
+    },
+    {
+      "word": "sensible",
+      "lemma": "sensible",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0226"
+      ]
+    },
+    {
+      "word": "servant",
+      "lemma": "servant",
+      "cefr": "B1",
+      "matchedSpeechCount": 2,
+      "addedEntryCount": 2,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0219",
+        "act1-scene2-speech-0220"
+      ]
+    },
+    {
+      "word": "skip",
+      "lemma": "skip",
+      "cefr": "C1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0264"
+      ]
+    },
+    {
+      "word": "throat",
+      "lemma": "throat",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0241"
+      ]
+    },
+    {
+      "word": "till",
+      "lemma": "till",
+      "cefr": "B1",
+      "matchedSpeechCount": 2,
+      "addedEntryCount": 2,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0241",
+        "act1-scene2-speech-0313"
+      ]
+    },
+    {
+      "word": "treatment",
+      "lemma": "treatment",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0187"
+      ]
+    },
+    {
+      "word": "unless",
+      "lemma": "unless",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0314"
+      ]
+    },
+    {
+      "word": "whisper",
+      "lemma": "whisper",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0324"
+      ]
+    },
+    {
+      "word": "wire",
+      "lemma": "wire",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0326"
+      ]
+    },
+    {
+      "word": "wonder",
+      "lemma": "wonder",
+      "cefr": "B1",
+      "matchedSpeechCount": 2,
+      "addedEntryCount": 2,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0290",
+        "act1-scene2-speech-0304"
+      ]
+    },
+    {
+      "word": "worth",
+      "lemma": "worth",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0335"
+      ]
+    },
+    {
+      "word": "yard",
+      "lemma": "yard",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0193"
+      ]
+    },
+    {
+      "word": "blow",
+      "lemma": "blow",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0255"
+      ]
+    },
+    {
+      "word": "since",
+      "lemma": "since",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0211"
+      ]
+    },
+    {
+      "word": "state",
+      "lemma": "state",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0215"
+      ]
+    },
+    {
+      "word": "term",
+      "lemma": "term",
+      "cefr": "B2",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0334"
+      ]
+    },
+    {
+      "word": "will",
+      "lemma": "will",
+      "cefr": "B1",
+      "matchedSpeechCount": 1,
+      "addedEntryCount": 1,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0285"
+      ]
+    },
+    {
+      "word": "yet",
+      "lemma": "yet",
+      "cefr": "B2",
+      "matchedSpeechCount": 2,
+      "addedEntryCount": 2,
+      "matchedSpeechIds": [
+        "act1-scene2-speech-0264",
+        "act1-scene2-speech-0266"
+      ]
+    }
+  ]
+}

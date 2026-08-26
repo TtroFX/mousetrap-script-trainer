@@ -11,8 +11,8 @@
   "lines": {
     "act1-scene2-speech-0179": [
       {
-        "surface": "murdered",
-        "lemma": "murder",
+        "surface": "case",
+        "lemma": "case",
         "contextMeaning": ""
       },
       {
@@ -21,20 +21,25 @@
         "contextMeaning": ""
       },
       {
-        "surface": "case",
-        "lemma": "case",
+        "surface": "murdered",
+        "lemma": "murder",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "relates",
+        "lemma": "relate",
         "contextMeaning": ""
       }
     ],
     "act1-scene2-speech-0180": [
       {
-        "surface": "wireless",
-        "lemma": "wireless",
+        "surface": "strangled",
+        "lemma": "strangle",
         "contextMeaning": ""
       },
       {
-        "surface": "strangled",
-        "lemma": "strangle",
+        "surface": "wireless",
+        "lemma": "wireless",
         "contextMeaning": ""
       }
     ],
@@ -47,8 +52,18 @@
     ],
     "act1-scene2-speech-0183": [
       {
+        "surface": "difficulty",
+        "lemma": "difficulty",
+        "contextMeaning": ""
+      },
+      {
         "surface": "fingerprints",
         "lemma": "fingerprint",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "resided",
+        "lemma": "reside",
         "contextMeaning": ""
       }
     ],
@@ -61,6 +76,11 @@
     ],
     "act1-scene2-speech-0187": [
       {
+        "surface": "Case",
+        "lemma": "case",
+        "contextMeaning": ""
+      },
+      {
         "surface": "court",
         "lemma": "court",
         "contextMeaning": ""
@@ -71,30 +91,25 @@
         "contextMeaning": ""
       },
       {
+        "surface": "sensation",
+        "lemma": "sensation",
+        "contextMeaning": ""
+      },
+      {
         "surface": "subsequently",
         "lemma": "subsequently",
         "contextMeaning": ""
       },
       {
-        "surface": "Case",
-        "lemma": "case",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "sensation",
-        "lemma": "sensation",
+        "surface": "treatment",
+        "lemma": "treatment",
         "contextMeaning": ""
       }
     ],
     "act1-scene2-speech-0189": [
       {
-        "surface": "sentenced",
-        "lemma": "sentence",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "terms",
-        "lemma": "terms",
+        "surface": "duly",
+        "lemma": "duly",
         "contextMeaning": ""
       },
       {
@@ -103,23 +118,28 @@
         "contextMeaning": ""
       },
       {
-        "surface": "sentence",
-        "lemma": "sentence",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "duly",
-        "lemma": "duly",
-        "contextMeaning": ""
-      },
-      {
         "surface": "released",
         "lemma": "release",
         "contextMeaning": ""
       },
       {
+        "surface": "sentence",
+        "lemma": "sentence",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "sentenced",
+        "lemma": "sentence",
+        "contextMeaning": ""
+      },
+      {
         "surface": "strangled",
         "lemma": "strangle",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "terms",
+        "lemma": "terms",
         "contextMeaning": ""
       }
     ],
@@ -137,13 +157,8 @@
     ],
     "act1-scene2-speech-0193": [
       {
-        "surface": "Superintendent",
-        "lemma": "superintendent",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "imperative",
-        "lemma": "imperative",
+        "surface": "case",
+        "lemma": "case",
         "contextMeaning": ""
       },
       {
@@ -152,17 +167,37 @@
         "contextMeaning": ""
       },
       {
+        "surface": "connection",
+        "lemma": "connection",
+        "contextMeaning": ""
+      },
+      {
         "surface": "find out",
         "lemma": "find out",
         "contextMeaning": ""
       },
       {
-        "surface": "case",
-        "lemma": "case",
+        "surface": "imperative",
+        "lemma": "imperative",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Superintendent",
+        "lemma": "superintendent",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Yard",
+        "lemma": "yard",
         "contextMeaning": ""
       }
     ],
     "act1-scene2-speech-0194": [
+      {
+        "surface": "absolutely",
+        "lemma": "absolutely",
+        "contextMeaning": ""
+      },
       {
         "surface": "coincidence",
         "lemma": "coincidence",
@@ -171,13 +206,13 @@
     ],
     "act1-scene2-speech-0195": [
       {
-        "surface": "Superintendent",
-        "lemma": "superintendent",
+        "surface": "coincidence",
+        "lemma": "coincidence",
         "contextMeaning": ""
       },
       {
-        "surface": "coincidence",
-        "lemma": "coincidence",
+        "surface": "ensure the safety of",
+        "lemma": "ensure the safety of",
         "contextMeaning": ""
       },
       {
@@ -186,18 +221,28 @@
         "contextMeaning": ""
       },
       {
+        "surface": "household",
+        "lemma": "household",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "measures",
+        "lemma": "measure",
+        "contextMeaning": ""
+      },
+      {
         "surface": "report back",
         "lemma": "report back",
         "contextMeaning": ""
       },
       {
-        "surface": "take what measures",
-        "lemma": "take measures",
+        "surface": "Superintendent",
+        "lemma": "superintendent",
         "contextMeaning": ""
       },
       {
-        "surface": "ensure the safety of",
-        "lemma": "ensure the safety of",
+        "surface": "take what measures",
+        "lemma": "take measures",
         "contextMeaning": ""
       }
     ],
@@ -212,6 +257,11 @@
       {
         "surface": "frankly",
         "lemma": "frankly",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "frighten",
+        "lemma": "frighten",
         "contextMeaning": ""
       }
     ],
@@ -229,55 +279,25 @@
         "contextMeaning": ""
       },
       {
-        "surface": "tune",
-        "lemma": "tune",
+        "surface": "nursery rhyme",
+        "lemma": "nursery rhyme",
         "contextMeaning": ""
       },
       {
-        "surface": "nursery rhyme",
-        "lemma": "nursery rhyme",
+        "surface": "tune",
+        "lemma": "tune",
         "contextMeaning": ""
       }
     ],
     "act1-scene2-speech-0211": [
-      {
-        "surface": "adopted",
-        "lemma": "adopt",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "trace",
-        "lemma": "trace",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "present",
-        "lemma": "present",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "whereabouts",
-        "lemma": "whereabouts",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "elder",
-        "lemma": "elder",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "Deserted",
-        "lemma": "desert",
-        "contextMeaning": ""
-      },
       {
         "surface": "According to",
         "lemma": "according to",
         "contextMeaning": ""
       },
       {
-        "surface": "psychologist",
-        "lemma": "psychologist",
+        "surface": "adopted",
+        "lemma": "adopt",
         "contextMeaning": ""
       },
       {
@@ -286,13 +306,48 @@
         "contextMeaning": ""
       },
       {
-        "surface": "schizophrenic",
-        "lemma": "schizophrenic",
+        "surface": "Deserted",
+        "lemma": "desert",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "elder",
+        "lemma": "elder",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "present",
+        "lemma": "present",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "psychologist",
+        "lemma": "psychologist",
         "contextMeaning": ""
       },
       {
         "surface": "queer",
         "lemma": "queer",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "schizophrenic",
+        "lemma": "schizophrenic",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "since",
+        "lemma": "since",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "trace",
+        "lemma": "trace",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "whereabouts",
+        "lemma": "whereabouts",
         "contextMeaning": ""
       }
     ],
@@ -310,22 +365,42 @@
         "contextMeaning": ""
       },
       {
+        "surface": "case",
+        "lemma": "case",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "connection",
+        "lemma": "connection",
+        "contextMeaning": ""
+      },
+      {
         "surface": "find out",
         "lemma": "find out",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "state",
+        "lemma": "state",
         "contextMeaning": ""
       },
       {
         "surface": "Superintendent",
         "lemma": "superintendent",
         "contextMeaning": ""
-      },
-      {
-        "surface": "case",
-        "lemma": "case",
-        "contextMeaning": ""
       }
     ],
     "act1-scene2-speech-0220": [
+      {
+        "surface": "reminds",
+        "lemma": "remind",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "servants",
+        "lemma": "servant",
+        "contextMeaning": ""
+      },
       {
         "surface": "Would you mind",
         "lemma": "would you mind",
@@ -341,13 +416,18 @@
     ],
     "act1-scene2-speech-0222": [
       {
+        "surface": "merely",
+        "lemma": "merely",
+        "contextMeaning": ""
+      },
+      {
         "surface": "quite",
         "lemma": "quite",
         "contextMeaning": ""
       },
       {
-        "surface": "merely",
-        "lemma": "merely",
+        "surface": "ridiculous",
+        "lemma": "ridiculous",
         "contextMeaning": ""
       }
     ],
@@ -360,12 +440,32 @@
     ],
     "act1-scene2-speech-0225": [
       {
+        "surface": "overturned",
+        "lemma": "overturn",
+        "contextMeaning": ""
+      },
+      {
         "surface": "snowdrift",
         "lemma": "snowdrift",
         "contextMeaning": ""
       }
     ],
     "act1-scene2-speech-0226": [
+      {
+        "surface": "'ve got to",
+        "lemma": "got to",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "business",
+        "lemma": "business",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "connection",
+        "lemma": "connection",
+        "contextMeaning": ""
+      },
       {
         "surface": "getting at",
         "lemma": "get at",
@@ -377,22 +477,22 @@
         "contextMeaning": ""
       },
       {
-        "surface": "business",
-        "lemma": "business",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "'ve got to",
-        "lemma": "got to",
-        "contextMeaning": ""
-      },
-      {
         "surface": "more or less",
         "lemma": "more or less",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "sensible",
+        "lemma": "sensible",
         "contextMeaning": ""
       }
     ],
     "act1-scene2-speech-0227": [
+      {
+        "surface": "affairs",
+        "lemma": "affair",
+        "contextMeaning": ""
+      },
       {
         "surface": "Inspector",
         "lemma": "inspector",
@@ -402,17 +502,12 @@
         "surface": "stranger",
         "lemma": "stranger",
         "contextMeaning": ""
-      },
-      {
-        "surface": "affairs",
-        "lemma": "affair",
-        "contextMeaning": ""
       }
     ],
     "act1-scene2-speech-0229": [
       {
-        "surface": "impertinence",
-        "lemma": "impertinence",
+        "surface": "business",
+        "lemma": "business",
         "contextMeaning": ""
       },
       {
@@ -421,8 +516,13 @@
         "contextMeaning": ""
       },
       {
-        "surface": "business",
-        "lemma": "business",
+        "surface": "distressing",
+        "lemma": "distress",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "impertinence",
+        "lemma": "impertinence",
         "contextMeaning": ""
       }
     ],
@@ -440,11 +540,6 @@
     ],
     "act1-scene2-speech-0236": [
       {
-        "surface": "murdered",
-        "lemma": "murder",
-        "contextMeaning": ""
-      },
-      {
         "surface": "have yourself to blame",
         "lemma": "have oneself to blame",
         "contextMeaning": ""
@@ -453,12 +548,17 @@
         "surface": "look round",
         "lemma": "look round",
         "contextMeaning": ""
+      },
+      {
+        "surface": "murdered",
+        "lemma": "murder",
+        "contextMeaning": ""
       }
     ],
     "act1-scene2-speech-0237": [
       {
-        "surface": "melodramatic",
-        "lemma": "melodramatic",
+        "surface": "admire",
+        "lemma": "admire",
         "contextMeaning": ""
       },
       {
@@ -467,8 +567,13 @@
         "contextMeaning": ""
       },
       {
-        "surface": "stern",
-        "lemma": "stern",
+        "surface": "business",
+        "lemma": "business",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "melodramatic",
+        "lemma": "melodramatic",
         "contextMeaning": ""
       },
       {
@@ -477,13 +582,13 @@
         "contextMeaning": ""
       },
       {
-        "surface": "thrill",
-        "lemma": "thrill",
+        "surface": "stern",
+        "lemma": "stern",
         "contextMeaning": ""
       },
       {
-        "surface": "business",
-        "lemma": "business",
+        "surface": "thrill",
+        "lemma": "thrill",
         "contextMeaning": ""
       },
       {
@@ -494,18 +599,13 @@
     ],
     "act1-scene2-speech-0239": [
       {
-        "surface": "signature",
-        "lemma": "signature",
+        "surface": "a kick he must be getting out of it",
+        "lemma": "get a kick out of",
         "contextMeaning": ""
       },
       {
-        "surface": "tune",
-        "lemma": "tune",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "murderer",
-        "lemma": "murderer",
+        "surface": "fancy",
+        "lemma": "fancy",
         "contextMeaning": ""
       },
       {
@@ -514,8 +614,18 @@
         "contextMeaning": ""
       },
       {
-        "surface": "a kick he must be getting out of it",
-        "lemma": "get a kick out of",
+        "surface": "murderer",
+        "lemma": "murderer",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "signature",
+        "lemma": "signature",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "tune",
+        "lemma": "tune",
         "contextMeaning": ""
       }
     ],
@@ -528,8 +638,23 @@
     ],
     "act1-scene2-speech-0241": [
       {
+        "surface": "creep",
+        "lemma": "creep",
+        "contextMeaning": ""
+      },
+      {
         "surface": "just",
         "lemma": "just",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "throat",
+        "lemma": "throat",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Till",
+        "lemma": "till",
         "contextMeaning": ""
       }
     ],
@@ -554,17 +679,22 @@
     ],
     "act1-scene2-speech-0245": [
       {
-        "surface": "singularly",
-        "lemma": "singularly",
+        "surface": "neurotic",
+        "lemma": "neurotic",
         "contextMeaning": ""
       },
       {
-        "surface": "neurotic",
-        "lemma": "neurotic",
+        "surface": "singularly",
+        "lemma": "singularly",
         "contextMeaning": ""
       }
     ],
     "act1-scene2-speech-0247": [
+      {
+        "surface": "conducted",
+        "lemma": "conduct",
+        "contextMeaning": ""
+      },
       {
         "surface": "policeman",
         "lemma": "policeman",
@@ -580,6 +710,11 @@
     ],
     "act1-scene2-speech-0249": [
       {
+        "surface": "Daresay",
+        "lemma": "daresay",
+        "contextMeaning": ""
+      },
+      {
         "surface": "nervy",
         "lemma": "nervy",
         "contextMeaning": ""
@@ -587,11 +722,6 @@
       {
         "surface": "nowadays",
         "lemma": "nowadays",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "Daresay",
-        "lemma": "daresay",
         "contextMeaning": ""
       }
     ],
@@ -604,30 +734,35 @@
     ],
     "act1-scene2-speech-0253": [
       {
-        "surface": "magistrates",
-        "lemma": "magistrate",
+        "surface": "In fact",
+        "lemma": "in fact",
         "contextMeaning": ""
       },
       {
-        "surface": "In fact",
-        "lemma": "in fact",
+        "surface": "magistrates",
+        "lemma": "magistrate",
         "contextMeaning": ""
       }
     ],
     "act1-scene2-speech-0254": [
+      {
+        "surface": "anxious",
+        "lemma": "anxious",
+        "contextMeaning": ""
+      },
       {
         "surface": "be held responsible",
         "lemma": "be held responsible",
         "contextMeaning": ""
       },
       {
-        "surface": "welfare workers",
-        "lemma": "welfare worker",
+        "surface": "hardly",
+        "lemma": "hardly",
         "contextMeaning": ""
       },
       {
-        "surface": "anxious",
-        "lemma": "anxious",
+        "surface": "out-of-doors life",
+        "lemma": "out-of-doors life",
         "contextMeaning": ""
       },
       {
@@ -636,12 +771,17 @@
         "contextMeaning": ""
       },
       {
-        "surface": "out-of-doors life",
-        "lemma": "out-of-doors life",
+        "surface": "welfare workers",
+        "lemma": "welfare worker",
         "contextMeaning": ""
       }
     ],
     "act1-scene2-speech-0255": [
+      {
+        "surface": "blows",
+        "lemma": "blow",
+        "contextMeaning": ""
+      },
       {
         "surface": "starvation",
         "lemma": "starvation",
@@ -665,8 +805,13 @@
         "contextMeaning": ""
       },
       {
-        "surface": "Rouge",
-        "lemma": "rouge",
+        "surface": "Makes his face up",
+        "lemma": "make up",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "powder",
+        "lemma": "powder",
         "contextMeaning": ""
       },
       {
@@ -675,8 +820,8 @@
         "contextMeaning": ""
       },
       {
-        "surface": "Makes his face up",
-        "lemma": "make up",
+        "surface": "Rouge",
+        "lemma": "rouge",
         "contextMeaning": ""
       }
     ],
@@ -689,6 +834,16 @@
       {
         "surface": "quite",
         "lemma": "quite",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "skips",
+        "lemma": "skip",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "yet",
+        "lemma": "yet",
         "contextMeaning": ""
       }
     ],
@@ -717,6 +872,11 @@
       {
         "surface": "Just",
         "lemma": "just",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "nonsense",
+        "lemma": "nonsense",
         "contextMeaning": ""
       },
       {
@@ -751,13 +911,13 @@
     ],
     "act1-scene2-speech-0295": [
       {
-        "surface": "Would you mind",
-        "lemma": "would you mind",
+        "surface": "draughts",
+        "lemma": "draught",
         "contextMeaning": ""
       },
       {
-        "surface": "draughts",
-        "lemma": "draught",
+        "surface": "Would you mind",
+        "lemma": "would you mind",
         "contextMeaning": ""
       }
     ],
@@ -770,13 +930,13 @@
     ],
     "act1-scene2-speech-0298": [
       {
-        "surface": "suspicious",
-        "lemma": "suspicious",
+        "surface": "Superintendent",
+        "lemma": "superintendent",
         "contextMeaning": ""
       },
       {
-        "surface": "Superintendent",
-        "lemma": "superintendent",
+        "surface": "suspicious",
+        "lemma": "suspicious",
         "contextMeaning": ""
       }
     ],
@@ -789,13 +949,13 @@
     ],
     "act1-scene2-speech-0302": [
       {
-        "surface": "Superintendent",
-        "lemma": "superintendent",
+        "surface": "got through",
+        "lemma": "get through",
         "contextMeaning": ""
       },
       {
-        "surface": "got through",
-        "lemma": "get through",
+        "surface": "Superintendent",
+        "lemma": "superintendent",
         "contextMeaning": ""
       }
     ],
@@ -808,30 +968,35 @@
     ],
     "act1-scene2-speech-0311": [
       {
-        "surface": "turned up",
-        "lemma": "turn up",
+        "surface": "out of the blue",
+        "lemma": "out of the blue",
         "contextMeaning": ""
       },
       {
-        "surface": "out of the blue",
-        "lemma": "out of the blue",
+        "surface": "private",
+        "lemma": "private",
         "contextMeaning": ""
       },
       {
         "surface": "ration books",
         "lemma": "ration book",
         "contextMeaning": ""
+      },
+      {
+        "surface": "turned up",
+        "lemma": "turn up",
+        "contextMeaning": ""
       }
     ],
     "act1-scene2-speech-0312": [
       {
-        "surface": "reliance",
-        "lemma": "reliance",
+        "surface": "evidence",
+        "lemma": "evidence",
         "contextMeaning": ""
       },
       {
-        "surface": "evidence",
-        "lemma": "evidence",
+        "surface": "reliance",
+        "lemma": "reliance",
         "contextMeaning": ""
       }
     ],
@@ -842,8 +1007,18 @@
         "contextMeaning": ""
       },
       {
+        "surface": "melts",
+        "lemma": "melt",
+        "contextMeaning": ""
+      },
+      {
         "surface": "quite",
         "lemma": "quite",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "till",
+        "lemma": "till",
         "contextMeaning": ""
       }
     ],
@@ -851,6 +1026,11 @@
       {
         "surface": "murder",
         "lemma": "murder",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Plenty",
+        "lemma": "plenty",
         "contextMeaning": ""
       }
     ],
@@ -870,23 +1050,8 @@
     ],
     "act1-scene2-speech-0324": [
       {
-        "surface": "Medium height",
-        "lemma": "medium height",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "indeterminate",
-        "lemma": "indeterminate",
-        "contextMeaning": ""
-      },
-      {
         "surface": "darkish",
         "lemma": "darkish",
-        "contextMeaning": ""
-      },
-      {
-        "surface": "overcoat",
-        "lemma": "overcoat",
         "contextMeaning": ""
       },
       {
@@ -895,8 +1060,38 @@
         "contextMeaning": ""
       },
       {
+        "surface": "hanging",
+        "lemma": "hang",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "hidden",
+        "lemma": "hidden",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "indeterminate",
+        "lemma": "indeterminate",
+        "contextMeaning": ""
+      },
+      {
         "surface": "lightish",
         "lemma": "lightish",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Medium height",
+        "lemma": "medium height",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "overcoat",
+        "lemma": "overcoat",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "whisper",
+        "lemma": "whisper",
         "contextMeaning": ""
       }
     ],
@@ -916,13 +1111,18 @@
     ],
     "act1-scene2-speech-0334": [
       {
+        "surface": "for instance",
+        "lemma": "for instance",
+        "contextMeaning": ""
+      },
+      {
         "surface": "precise",
         "lemma": "precise",
         "contextMeaning": ""
       },
       {
-        "surface": "for instance",
-        "lemma": "for instance",
+        "surface": "term",
+        "lemma": "term",
         "contextMeaning": ""
       }
     ],
@@ -935,6 +1135,186 @@
       {
         "surface": "turn out",
         "lemma": "turn out",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "worth",
+        "lemma": "worth",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0258": [
+      {
+        "surface": "abuse",
+        "lemma": "abuse",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0259": [
+      {
+        "surface": "amusing",
+        "lemma": "amusing",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "forgive",
+        "lemma": "forgive",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "greatly",
+        "lemma": "greatly",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "indeed",
+        "lemma": "indeed",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0320": [
+      {
+        "surface": "attempted",
+        "lemma": "attempt",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0269": [
+      {
+        "surface": "childhood",
+        "lemma": "childhood",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "Reminds",
+        "lemma": "remind",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0218": [
+      {
+        "surface": "connection",
+        "lemma": "connection",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0328": [
+      {
+        "surface": "extension",
+        "lemma": "extension",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0330": [
+      {
+        "surface": "extension",
+        "lemma": "extension",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0292": [
+      {
+        "surface": "hardly",
+        "lemma": "hardly",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0188": [
+      {
+        "surface": "horrible",
+        "lemma": "horrible",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0207": [
+      {
+        "surface": "horrible",
+        "lemma": "horrible",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0235": [
+      {
+        "surface": "mere",
+        "lemma": "mere",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0250": [
+      {
+        "surface": "Nerves",
+        "lemma": "nerve",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "patience",
+        "lemma": "patience",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0202": [
+      {
+        "surface": "Nonsense",
+        "lemma": "nonsense",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0285": [
+      {
+        "surface": "Nonsense",
+        "lemma": "nonsense",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "will",
+        "lemma": "will",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0290": [
+      {
+        "surface": "ought",
+        "lemma": "ought",
+        "contextMeaning": ""
+      },
+      {
+        "surface": "wonder",
+        "lemma": "wonder",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0219": [
+      {
+        "surface": "servants",
+        "lemma": "servant",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0314": [
+      {
+        "surface": "Unless",
+        "lemma": "unless",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0326": [
+      {
+        "surface": "wire",
+        "lemma": "wire",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0304": [
+      {
+        "surface": "wonder",
+        "lemma": "wonder",
+        "contextMeaning": ""
+      }
+    ],
+    "act1-scene2-speech-0266": [
+      {
+        "surface": "yet",
+        "lemma": "yet",
         "contextMeaning": ""
       }
     ]
