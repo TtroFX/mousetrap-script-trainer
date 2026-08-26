@@ -1,0 +1,39 @@
+name: Read Block 3 Context
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/read-block-3-context.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        part:
+          - { name: p1, start: 179, end: 218 }
+          - { name: p2, start: 219, end: 258 }
+          - { name: p3, start: 259, end: 298 }
+          - { name: p4, start: 299, end: 336 }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Print canonical speeches
+        run: |
+          node --input-type=module <<'EOF'
+          import fs from 'node:fs';
+          const script = JSON.parse(fs.readFileSync('mousetrap_script_data.json', 'utf8'));
+          const speeches = script['act1-scene2'].speeches;
+          const start = Number('${{ matrix.part.start }}');
+          const end = Number('${{ matrix.part.end }}');
+          for (let n = start; n <= end; n++) {
+            const s = speeches[n - 1];
+            console.log(`@@${s.id}\t${s.speaker}\t${s.text.replace(/\s+/g, ' ').trim()}`);
+          }
+          EOF
