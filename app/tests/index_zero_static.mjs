@@ -13,12 +13,13 @@ for(const forbidden of ['<iframe','p5_app.js','reader_sheet.js','practice_naviga
 for(const src of [main,data,state])for(const forbidden of ['MTS_PRIVATE_DATA','MTS_SHARED_','MutationObserver','postMessage','dataGate','gateStatus'])if(src.includes(forbidden))fail(`legacy runtime mechanism remains: ${forbidden}`);
 if((main.match(/\bfetch\s*\(/g)||[]).length!==0)fail('views/main must not fetch data directly');
 if(!data.includes('AbortController')||!data.includes('timeout after'))fail('DataStore timeout/abort contract missing');
-for(const term of ['loadCore','loadStudy','loadStructure','getSpeech','getVocabulary','getDictionary'])if(!data.includes(term))fail(`DataStore API missing ${term}`);
+for(const term of ['loadCore','loadStudy','loadStructure','getSpeech','getInterpretation','getVocabulary','getDictionary'])if(!data.includes(term))fail(`DataStore API missing ${term}`);
 for(const term of ['mts.selectedSceneId','mts.characterId','mts.reader.progress','mts.practice.cue.ratings','mts.practice.rehearsal.state','mts.memory.stages','mts.resume.v1','mts.bookmarks.v1'])if(!state.includes(term)&&!read('src/config.js').includes(term))fail(`state compatibility missing ${term}`);
 if(!main.includes('Cue Practice')||!main.includes('Rehearsal')||!main.includes('SpeechRecognition')||!main.includes('SpeechSynthesisUtterance'))fail('practice feature parity missing');
 if(!main.includes("case'/bookmarks'")||!read('src/resume-bookmarks.js').includes('Continue')||!read('src/resume-bookmarks.js').includes('Bookmarks'))fail('feature parity missing: Resume/Bookmarks');
-if(!main.includes('Full')||!main.includes('Mine')||!main.includes('Cue Focus')||!main.includes('Structure')||!main.includes('Grammar / Usage'))fail('reader/study feature parity missing');
+if(!main.includes('Full')||!main.includes('Mine')||!main.includes('Cue Focus')||!main.includes('Structure')||!main.includes('Grammar / Usage')||!main.includes('translation-interpretation'))fail('reader/study feature parity missing');
 if(!sw.includes("'./src/resume-bookmarks.js'"))fail('Resume/Bookmarks runtime is missing from the offline shell cache');
+if(!sw.includes("mousetrap_line_interpretation.json"))fail('Interpretation data is missing from the offline data cache');
 const openPos=sw.indexOf('await timeoutFetch(request)'),cachePos=sw.indexOf('await caches.open(cacheName)');
 if(openPos<0||cachePos<0||openPos>cachePos)fail('service worker is not network-first before Cache Storage');
 console.log(JSON.stringify({status:'PASS',runtime:'index-zero',iframes:0,directViewFetches:0,dataStore:'single-owner',legacyRuntimeDependencies:0,legacySourceFiles:0,offlineResumeBookmarks:true},null,2));

@@ -46,6 +46,25 @@ function validateSpeechMap(value, name) {
   return value;
 }
 
+const INTERPRETATION_KINDS = new Set(['context','reaction','emotion','tone','joke','dramatic','reference','foreshadowing','truth','lie','concealment','feignedIgnorance','misdirection','evasion','mistakenBelief']);
+function validateInterpretation(value) {
+  validateSpeechMap(value, 'interpretation');
+  for (const [lineId, notes] of Object.entries(value)) {
+    if (!Array.isArray(notes)) throw new Error(`interpretation.${lineId}: array required`);
+    const seen = new Set();
+    for (const note of notes) {
+      const kind = String(note?.kind || '');
+      const text = String(note?.text || '').trim();
+      if (!INTERPRETATION_KINDS.has(kind)) throw new Error(`interpretation.${lineId}: invalid kind ${kind}`);
+      if (!text || text.length > 360) throw new Error(`interpretation.${lineId}: invalid text`);
+      const key = `${kind}\u0000${text}`;
+      if (seen.has(key)) throw new Error(`interpretation.${lineId}: duplicate note`);
+      seen.add(key);
+    }
+  }
+  return value;
+}
+
 function validateDictionary(value) {
   if (!value || typeof value !== 'object' || Array.isArray(value)) throw new Error('dictionary: object required');
   if (Object.keys(value).length < 578) throw new Error(`dictionary: unexpectedly small (${Object.keys(value).length})`); for (const [key, entry] of Object.entries(value)) if (!String(key).trim() || !entry || typeof entry !== 'object' || !String(entry.coreMeaning || '').trim()) throw new Error(`dictionary: invalid entry ${key}`);
@@ -94,7 +113,7 @@ function validateStructure(value) {
 export class DataStore extends EventTarget {
   constructor() {
     super();
-    this.script = null; this.translations = null; this.vocabulary = null; this.grammar = null; this.dictionary = null; this.structure = null;
+    this.script = null; this.translations = null; this.interpretation = null; this.vocabulary = null; this.grammar = null; this.dictionary = null; this.structure = null;
     this.coreState = createState(); this.studyState = createState(); this.structureState = createState();
     this.corePromise = null; this.studyPromise = null; this.structurePromise = null;
     this.speechById = new Map(); this.sceneBySpeech = new Map();
@@ -126,7 +145,7 @@ export class DataStore extends EventTarget {
     if (this.studyPromise && !force) return this.studyPromise;
     this.studyState = { ...createState(), status: 'loading', startedAt: now() }; this.emit('state', { area: 'study', state: this.studyState });
     this.studyPromise = (async () => {
-      const specs = [['translations', DATA_PATHS.translations, value => validateSpeechMap(value, 'translations')], ['vocabulary', DATA_PATHS.vocabulary, value => validateSpeechMap(value, 'vocabulary')], ['grammar', DATA_PATHS.grammar, value => validateSpeechMap(value, 'grammar')], ['dictionary', DATA_PATHS.dictionary, validateDictionary]];
+      const specs = [['translations', DATA_PATHS.translations, value => validateSpeechMap(value, 'translations')], ['interpretation', DATA_PATHS.interpretation, validateInterpretation], ['vocabulary', DATA_PATHS.vocabulary, value => validateSpeechMap(value, 'vocabulary')], ['grammar', DATA_PATHS.grammar, value => validateSpeechMap(value, 'grammar')], ['dictionary', DATA_PATHS.dictionary, validateDictionary]];
       try {
         const settled = await Promise.allSettled(specs.map(async ([key, url, validator]) => { this.metrics.requests += 1; const value = validator(await fetchJson(url, STUDY_TIMEOUT_MS)); this[key] = value; return key; }));
         const failed = settled.map((result, index) => ({ result, key: specs[index][0] })).filter(x => x.result.status === 'rejected');
@@ -150,7 +169,7 @@ export class DataStore extends EventTarget {
     return this.structurePromise;
   }
 
-  studySnapshot() { return { translations: this.translations, vocabulary: this.vocabulary, grammar: this.grammar, dictionary: this.dictionary }; }
+  studySnapshot() { return { translations: this.translations, interpretation: this.interpretation, vocabulary: this.vocabulary, grammar: this.grammar, dictionary: this.dictionary }; }
   hasCore() { return this.coreState.status === 'ready' && !!this.script; }
   hasStudy() { return this.studyState.status === 'ready'; }
   hasStructure() { return this.structureState.status === 'ready'; }
@@ -160,6 +179,7 @@ export class DataStore extends EventTarget {
   getSceneIdForSpeech(lineId) { return this.sceneBySpeech.get(lineId) || null; }
   getTranslation(lineId) { return this.translations?.[lineId]?.translation || ''; }
   getTranslationRecord(lineId) { return this.translations?.[lineId] || null; }
+  getInterpretation(lineId) { return Array.isArray(this.interpretation?.[lineId]) ? this.interpretation[lineId] : []; }
   getVocabulary(lineId) { return Array.isArray(this.vocabulary?.[lineId]) ? this.vocabulary[lineId] : []; }
   getGrammar(lineId) { return Array.isArray(this.grammar?.[lineId]) ? this.grammar[lineId] : []; }
   getDictionary(lemma) { if (!this.dictionary || !lemma) return null; if (this.dictionary[lemma]) return this.dictionary[lemma]; const target = String(lemma).trim().toLowerCase(); const key = Object.keys(this.dictionary).find(k => k.trim().toLowerCase() === target); return key ? this.dictionary[key] : null; }

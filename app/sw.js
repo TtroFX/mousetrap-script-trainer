@@ -1,5 +1,5 @@
 'use strict';
-const BUILD_ID='index-zero-2026-08-26-r5';
+const BUILD_ID='index-zero-2026-08-26-r6';
 const SHELL_CACHE=`mts-zero-shell-${BUILD_ID}`;
 const DATA_CACHE=`mts-zero-data-${BUILD_ID}`;
 const SHELL=[
@@ -7,7 +7,7 @@ const SHELL=[
   './manifest.webmanifest','./offline.html','./icons/icon-192.png','./icons/icon-512.png','./icons/icon-maskable-512.png'
 ];
 const DATA=new Set([
-  'mousetrap_script_data.json','mousetrap_line_translations.json','mousetrap_line_vocabulary.json',
+  'mousetrap_script_data.json','mousetrap_line_translations.json','mousetrap_line_interpretation.json','mousetrap_line_vocabulary.json',
   'mousetrap_line_grammar.json','mousetrap_word_dictionary.json','mousetrap_line_structure.json'
 ]);
 const timeoutFetch=(request,ms=7000)=>new Promise((resolve,reject)=>{

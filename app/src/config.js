@@ -1,4 +1,4 @@
-export const BUILD_ID = 'index-zero-2026-08-26-r5';
+export const BUILD_ID = 'index-zero-2026-08-26-r6';
 
 export const SCENES = Object.freeze([
   { id: 'act1-scene1', label: 'Act I · Scene I', count: 190 },
@@ -14,6 +14,7 @@ export const CAST = Object.freeze([
 export const DATA_PATHS = Object.freeze({
   script: './mousetrap_script_data.json',
   translations: './mousetrap_line_translations.json',
+  interpretation: './mousetrap_line_interpretation.json',
   vocabulary: './mousetrap_line_vocabulary.json',
   grammar: './mousetrap_line_grammar.json',
   dictionary: './mousetrap_word_dictionary.json',
