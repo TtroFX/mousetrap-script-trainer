@@ -13,6 +13,7 @@ assert SPEC and SPEC.loader
 SPEC.loader.exec_module(core)
 
 _original_has_finite_predicate = core.has_finite_predicate
+_original_nearest_parent_clause = core.nearest_parent_clause
 _original_analyze_sentence = core.analyze_sentence
 
 
@@ -29,7 +30,17 @@ def has_finite_predicate(head):
     return _original_has_finite_predicate(head)
 
 
+def nearest_parent_clause(head, candidate_heads):
+    # Dependency ROOT points to itself. A top-level BC therefore has no parent;
+    # never allow the generic ancestor walk to create a self-parent cycle.
+    if head.head == head:
+        return None
+    parent = _original_nearest_parent_clause(head, candidate_heads)
+    return None if parent == head.i else parent
+
+
 core.has_finite_predicate = has_finite_predicate
+core.nearest_parent_clause = nearest_parent_clause
 
 
 def repair_initial_that_subject_clause(row, sentence):
