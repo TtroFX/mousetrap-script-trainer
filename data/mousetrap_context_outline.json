@@ -39,8 +39,9 @@
     },
     {
       "blockId": "block-5",
-      "scope": "Act II — middle section",
-      "boundaryPolicy": "between the natural breaks selected for block-4 and block-6"
+      "scope": "Act II — speeches 0180-0423",
+      "boundaryPolicy": "Begins when Christopher enters immediately after Trotter's private questioning of Mollie. Ends after Trotter completes his interrogation of Paravicini and Paravicini leaves to look for the missing skis; speech 0424 begins a distinct interrogation of Miss Casewell, forming the natural start of Block 6.",
+      "speechCount": 244
     },
     {
       "blockId": "block-6",
@@ -612,6 +613,126 @@
         ],
         "contextMeaningOmitWhen": "Use an empty contextMeaning when the neutral learner-friendly definition already captures the actual local meaning without important loss.",
         "uncertaintyRule": "Keep accusations, police theories, alibis, suspicions and circumstantial evidence distinct from established facts. Do not promote a character's guess into narration."
+      },
+      "status": "outline-complete"
+    },
+    "block-5": {
+      "scope": {
+        "sceneId": "act2",
+        "firstSpeechId": "act2-speech-0180",
+        "lastSpeechId": "act2-speech-0423",
+        "speechCount": 244
+      },
+      "dramaticFunction": "Suspicion stops being an abstract police theory and begins destroying the relationships inside Monkswell Manor. Christopher admits that his name and career story are false and reveals that he deserted during Army service; Mollie in turn hints at a painful past and discovers evidence that Giles lied about his movements. Giles then produces evidence that Mollie also went secretly to London, so the Ralstons' mutual trust collapses. At the same time Trotter's skis disappear, removing his only practical route to outside help. Trotter warns the whole group that one of them is the killer and another may be the intended third victim, then turns his attention to Paravicini, whose age, destination, identity and profession remain deliberately evasive. The block ends when that interrogation pauses and Trotter turns next to Miss Casewell.",
+      "startingState": "Mollie has just been shown that Giles possessed a London evening newspaper despite having told her he spent the previous day elsewhere. Trotter has left her shaken and doubtful. Christopher enters immediately afterward, equally frightened that the police and Giles suspect him.",
+      "endingState": "Trotter has questioned Paravicini about his suspiciously convenient arrival, his age, route, London address, permanent address and profession. Paravicini answers theatrically and evasively, admitting he may not be as old as he looks but providing little verifiable information. Trotter warns him not to treat the murder as a game. Paravicini leaves to search for the missing skis, and Trotter then calls Miss Casewell over, opening a new interrogation sequence.",
+      "globalThreads": [
+        {
+          "thread": "Trust inside the Ralston marriage collapses",
+          "development": "Mollie first suspects Giles after finding the London newspaper; Giles then finds a London bus ticket in Mollie's glove. Each discovers that the other secretly went to London and each withholds the reason. Their argument turns the play's hidden-identity theme inward: they realize that even spouses may not know each other's past or recent actions."
+        },
+        {
+          "thread": "Christopher's false identity becomes explicit",
+          "development": "Christopher admits that 'Christopher Wren' is not his real name, that he is not training as an architect, and that he ran away during Army service. These admissions make Trotter's earlier suspicions more plausible but still do not establish that Christopher is the murderer. His emotional dependence on his dead mother and his fear of being framed remain important context."
+        },
+        {
+          "thread": "Mollie's hidden past surfaces indirectly",
+          "development": "Mollie tells Christopher that she too has something from long ago that she has never forgotten and tries not to think about. She does not explain the event. Her secret trip to London is then exposed, but the reason remains withheld. The block therefore increases suspicion without resolving what she is hiding."
+        },
+        {
+          "thread": "The missing skis deepen deliberate isolation",
+          "development": "Trotter intends to ski to the police station for reinforcements, but his skis disappear from the cupboard. The loss may either prevent him leaving or enable somebody else to escape. Because several people had access to the cupboard, the incident enlarges rather than narrows the suspect pool."
+        },
+        {
+          "thread": "A third killing remains imminent",
+          "development": "Trotter interprets the Three Blind Mice pattern as two victims already 'cancelled out' and a third still to come. He directly addresses the unknown prospective victim and urges anyone concealing a Longridge Farm connection to speak. His warning is a police inference based on the pattern, not proof of exactly who the next victim is."
+        },
+        {
+          "thread": "Paravicini becomes a deliberate identity puzzle",
+          "development": "Paravicini jokes about murder, age, affairs and secrecy while Trotter tests whether his snowdrift accident, route and appearance were staged. Paravicini admits only that he may be younger than he looks and gives evasive answers about his destination, permanent address and profession. The scene encourages suspicion but does not yet establish what he is hiding."
+        }
+      ],
+      "beats": [
+        {
+          "beatId": "b5-01",
+          "speechRange": [
+            180,
+            243
+          ],
+          "summary": "Christopher enters after Trotter's interrogation of Mollie and says he fears everyone suspects him. Mollie urges him to stop running away. He admits that Christopher Wren is an assumed name, that he is not really an architect-in-training and that he ran away during Army service. His memories of school and his mother reveal dependence and unhappiness rather than proving guilt. Mollie then admits that she also has a painful past she tries to suppress. Their mutual confidence is interrupted by Mollie's discovery that Giles possessed a London newspaper from the previous day, raising the possibility that he lied about where he had been. Mollie ends the exchange describing the nightmare-like fear that even familiar people may be strangers pretending to be trustworthy.",
+          "contextNotes": [
+            "'Running away from things' is psychological avoidance, while Christopher's Army admission also gives 'ran away' a literal desertion dimension in a different line.",
+            "'Stick it out' means remain and endure the situation rather than flee.",
+            "Christopher's fear that he will be 'framed' is his fear of being falsely made to appear guilty; it is not evidence that framing is actually occurring.",
+            "Mollie's comments about her own past are intentionally incomplete and must not be expanded into facts not yet stated in the script.",
+            "The repeated imagery of strangers and pretending expresses collapse of trust, not literal claims that every character has a false identity."
+          ]
+        },
+        {
+          "beatId": "b5-02",
+          "speechRange": [
+            244,
+            315
+          ],
+          "summary": "Giles enters and reacts jealously to Mollie's private conversation with Christopher. He accuses Christopher of fitting the murderer's description and implies that Mollie may have a relationship with him. The dispute escalates when Giles reveals a London bus ticket from Mollie's glove, proving she secretly travelled to London; Mollie counters with the London newspaper from Giles's coat, proving that he too concealed a London trip. Neither explains why. Mollie says that after only a year of marriage they may never truly have known each other. Paravicini interrupts the quarrel with theatrical amusement and reports that Trotter's skis are missing.",
+          "contextNotes": [
+            "'Tête-à-tête' refers to a private conversation and here carries Giles's jealous suspicion.",
+            "'Fit the bill' means match the expected description or requirements; in this exchange it means Giles thinks Christopher matches the suspected killer profile.",
+            "'On the sly' means secretly, especially to avoid another person's knowledge.",
+            "Both London trips are established, but the motives for them remain unknown at this point; do not infer an affair or murder involvement as fact.",
+            "Paravicini's description of the argument as a lovers' quarrel is teasing and reductive rather than a neutral account."
+          ]
+        },
+        {
+          "beatId": "b5-03",
+          "speechRange": [
+            316,
+            372
+          ],
+          "summary": "News of the missing skis initially makes Mollie fear Christopher has fled, but he is still in the house. Trotter questions everyone who could have accessed the cupboard. Major Metcalf admits he had the opportunity but denies taking the skis. Trotter rejects the group's suggestion that they simply search, reasoning that such a search could itself be what the killer wants. He then addresses all six remaining occupants: one is the killer, another may be the third intended victim, and the hidden Longridge Farm connection still has not been disclosed. He warns that another death may occur before he identifies the killer.",
+          "contextNotes": [
+            "'Hooked it' means left or escaped quickly; Paravicini uses it before knowing whether Christopher has actually gone.",
+            "'Set to' means begin working energetically on a task together.",
+            "'Keep one step ahead' is figurative: Trotter wants to anticipate the killer's next action.",
+            "'Prospective victim' means the person Trotter believes may be targeted next, not a confirmed identity.",
+            "'Hold out on me' again means conceal relevant information from the investigator."
+          ]
+        },
+        {
+          "beatId": "b5-04",
+          "speechRange": [
+            373,
+            423
+          ],
+          "summary": "Paravicini deliberately makes light of danger, first teasing Mollie with macabre references to the nursery rhyme and then sparring with Trotter. Trotter begins a focused interrogation: Paravicini's car accident may have been conveniently staged; he refuses to identify the friend he supposedly intended to visit; he admits he may be younger than he looks; he says he came from London and stays at the Ritz but avoids giving a permanent address or clear profession. When he says he 'plays the markets,' Trotter rejects the exchange as a game and reminds him that he is involved in a murder investigation. The questioning pauses and Paravicini leaves to search for the skis.",
+          "contextNotes": [
+            "Paravicini's food talk and nursery-rhyme imagery are theatrical provocation; their pragmatic force is to unsettle Mollie and trivialize danger.",
+            "'Prove a negative' means demonstrate that an accusation or proposition is false, which Paravicini presents as difficult.",
+            "Trotter's use of 'conveniently' about the snowdrift is suspicious and ironic, not praise for convenience.",
+            "'Play the markets' means speculate or trade in financial markets, but Paravicini uses it evasively rather than providing a conventional job title.",
+            "'Inquisition' is a sarcastic description of Trotter's questioning as excessively intrusive or severe."
+          ]
+        }
+      ],
+      "characterState": {
+        "MOLLIE": "Emotionally shaken by Trotter's suspicions and increasingly unable to trust Giles. She becomes protective of Christopher, reveals that she has a painful hidden past and admits she secretly travelled to London, but still withholds why.",
+        "GILES": "Jealous of Christopher and convinced he may be dangerous. His suspicion of Mollie intensifies after finding her London bus ticket, but he is compromised by the discovery that he too secretly went to London. His marriage with Mollie reaches its lowest point so far.",
+        "CHRISTOPHER": "More exposed than before: his name, supposed career and Army story are false or incomplete, and he admits running away from service. He remains frightened of suspicion and emotionally dependent on memories of his mother, but the block does not establish him as the killer.",
+        "TROTTER": "Becomes more urgent and strategic after the skis disappear. He explicitly frames the problem as anticipating the killer's next move, warns of a third victim and begins testing individual identity stories more aggressively.",
+        "PARAVICINI": "Continues to treat fear as theatre and refuses straightforward self-disclosure. His appearance, route, age and profession become direct subjects of police suspicion, but he keeps control of the exchange through jokes and evasions.",
+        "MAJOR METCALF": "Admits opportunity to remove the skis but denies doing so. His practical proposal to search is rejected by Trotter as potentially playing into the killer's plan.",
+        "MISS CASEWELL": "Present during the group warning and still withholding her connection to the past. The block ends just before Trotter begins questioning her in detail."
+      },
+      "vocabularyInterpretationPolicy": {
+        "generalRule": "Resolve meaning from the collapse of interpersonal trust, the hidden London trips, the missing-skis isolation, Trotter's third-victim warning and Paravicini's deliberate evasiveness before writing any contextual gloss.",
+        "contextMeaningRequiredWhen": [
+          "an idiom or phrasal verb has a non-compositional local meaning",
+          "jealousy, accusation, fear, irony, teasing or evasiveness materially changes the force of the words",
+          "a dated, British, French or culturally specific expression needs explanation",
+          "the selected sense differs materially from the neutral dictionary sense"
+        ],
+        "contextMeaningOmitWhen": "Leave contextMeaning empty when the neutral dictionary meaning already expresses the local sense without meaningful loss; the future UI will suppress the empty field.",
+        "uncertaintyRule": "Do not convert suspicion into fact. Christopher's false identity details, both Ralstons' secret London trips, the missing skis and Paravicini's evasions increase suspicion but do not by themselves establish who committed the murders or why."
       },
       "status": "outline-complete"
     }
