@@ -1,6 +1,8 @@
 name: Chunking v1 QA
 
 on:
+  push:
+    branches: ["feature/chunking-rules-v1"]
   workflow_dispatch:
 
 permissions:
@@ -10,4 +12,165 @@ jobs:
   rebuild-validate-and-publish:
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'Manual-only while canonical metric correction is being finalized.'
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install pinned parser
+        run: |
+          python -m pip install --disable-pip-version-check "click==8.3.1" "spacy==3.8.11"
+          python -m pip install --disable-pip-version-check "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl"
+
+      - name: Permanently fix finalized-clause metric counting
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('app/scripts/build-chunking-v1.py')
+          s=p.read_text(encoding='utf-8')
+          old='        metrics.update({f"clause_{c[\'type\']}": 1 for c in row["clauses"]})'
+          new='        for clause in row["clauses"]:\n            metrics[f"clause_{clause[\'type\']}"] += 1'
+          if old not in s:
+              raise SystemExit('expected legacy metric-count statement not found exactly once')
+          if s.count(old) != 1:
+              raise SystemExit('legacy metric-count statement occurrence count is not 1')
+          p.write_text(s.replace(old,new),encoding='utf-8')
+          PY
+          grep -n "for clause in row\[\"clauses\"\]" app/scripts/build-chunking-v1.py
+
+      - name: Assert retired structural material remains absent
+        run: |
+          test ! -e app/scripts/build-learning-structure.mjs
+          test ! -e app/scripts/README_STRUCTURE_BUILDER.md
+          if find materials -maxdepth 1 -type f \( -name '001_*' -o -name '002*' -o -name '003*' -o -name '009_MEMORY_UNITS.txt' -o -name '010_FINAL_MATERIAL_QA.txt' \) | grep -q .; then
+            echo 'retired structural material exists' >&2
+            exit 1
+          fi
+
+      - name: Syntax check
+        run: |
+          python -m py_compile app/scripts/build-chunking-v1.py
+          python -m py_compile app/scripts/chunking-v1-runtime.py
+          python -m py_compile app/scripts/validate-chunking-v1.py
+          python -m py_compile app/scripts/test-chunking-v1.py
+          node --check app/src/data-store.js
+          node --check app/scripts/assemble-production.mjs
+
+      - name: Rule smoke tests
+        run: python app/scripts/test-chunking-v1.py
+
+      - name: Build canonical chunking v1 JSON
+        run: |
+          rm -f app/mousetrap_line_structure.json data/chunking-v1-qa.json
+          python app/scripts/chunking-v1-runtime.py --root . --out app/mousetrap_line_structure.json --model en_core_web_sm
+          cp app/mousetrap_line_structure.json /tmp/chunking-v1-first.json
+
+      - name: Strict structural validation
+        run: python app/scripts/validate-chunking-v1.py --root . --structure app/mousetrap_line_structure.json --report data/chunking-v1-qa.json
+
+      - name: Deterministic rebuild check
+        run: |
+          python app/scripts/chunking-v1-runtime.py --root . --out /tmp/chunking-v1-second.json --model en_core_web_sm
+          cmp /tmp/chunking-v1-first.json /tmp/chunking-v1-second.json
+          sha256sum /tmp/chunking-v1-first.json /tmp/chunking-v1-second.json
+
+      - name: Synchronize canonical manifest from finalized structure
+        run: |
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          s_path=Path('app/mousetrap_line_structure.json')
+          m_path=Path('data/canonical-integration-manifest.json')
+          s=json.loads(s_path.read_text(encoding='utf-8'))
+          m=json.loads(m_path.read_text(encoding='utf-8'))
+          digest=hashlib.sha256(s_path.read_bytes()).hexdigest()
+          m['schemaVersion']=2
+          m['status']='CHUNKING_V1_CANONICAL'
+          m['productionState']='READY_FOR_MAIN'
+          m['chunking']['schemaVersion']=2
+          m['chunking']['ruleSet']='chunking-v1'
+          m['chunking']['sourceSha256']=s['sourceSha256']
+          m['chunking']['structureSha256']=digest
+          m['chunking']['qaStatus']='PASS'
+          m['chunking']['qaErrorCount']=0
+          m['chunking']['counts']=s['counts']
+          m['chunking']['sceneStats']=s['sceneStats']
+          m['legacyChunkingRemoved']=True
+          m_path.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print('manifest synchronized',digest)
+          PY
+
+      - name: Assert canonical structure metrics and no legacy fallback
+        run: |
+          python - <<'PY'
+          import hashlib,json,re
+          from pathlib import Path
+          s_path=Path('app/mousetrap_line_structure.json')
+          q_path=Path('data/chunking-v1-qa.json')
+          m_path=Path('data/canonical-integration-manifest.json')
+          p=json.loads(s_path.read_text(encoding='utf-8'))
+          q=json.loads(q_path.read_text(encoding='utf-8'))
+          m=json.loads(m_path.read_text(encoding='utf-8'))
+          expected={'speeches':1164,'sentences':2334,'fragments':550,'clauses':2939,'chunks':11810,'clause_AC':224,'clause_BC':1886,'clause_NC':719,'clause_RC':110}
+          for k,v in expected.items(): assert p['counts'][k]==v,(k,p['counts'][k],v)
+          assert p['sceneStats']['act1-scene1']['clause_AC']==32
+          assert p['sceneStats']['act1-scene1']['clause_BC']==359
+          assert p['sceneStats']['act1-scene1']['clause_NC']==131
+          assert p['sceneStats']['act1-scene1']['clause_RC']==19
+          assert p['sceneStats']['act1-scene2']['clause_AC']==55
+          assert p['sceneStats']['act1-scene2']['clause_BC']==513
+          assert p['sceneStats']['act1-scene2']['clause_NC']==193
+          assert p['sceneStats']['act1-scene2']['clause_RC']==32
+          assert p['sceneStats']['act2']['clause_AC']==137
+          assert p['sceneStats']['act2']['clause_BC']==1014
+          assert p['sceneStats']['act2']['clause_NC']==395
+          assert p['sceneStats']['act2']['clause_RC']==59
+          assert sum(p['counts'][f'clause_{t}'] for t in ('AC','BC','NC','RC'))==p['counts']['clauses']==2939
+          assert p['schemaVersion']==2 and p['ruleSet']=='chunking-v1'
+          assert len(p['lines'])==1164 and 'rawLines' not in p
+          assert q['status']=='PASS' and q['errorCount']==0
+          assert q['metrics']['clause_AC']==224 and q['metrics']['clause_BC']==1886 and q['metrics']['clause_NC']==719 and q['metrics']['clause_RC']==110
+          digest=hashlib.sha256(s_path.read_bytes()).hexdigest()
+          assert digest=='aaaba4e3d180f869985c3ed116c4ac29ccd9fc4b9e403d62d87404872eeeb2af',digest
+          assert m['chunking']['structureSha256']==digest
+          assert m['chunking']['counts']==p['counts']
+          bad=[]
+          for lid,line in p['lines'].items():
+            for sentence in line['sentences']:
+              for chunk in sentence['chunks']:
+                marker=chunk['marker']
+                if marker.startswith('Vi') or marker.startswith('Vt') or 'VBN' in marker or re.match(r'^HV\d',marker): bad.append((lid,marker))
+          assert not bad,bad[:10]
+          print('corrected canonical chunking v1: PASS',digest)
+          PY
+
+      - name: Assert retired authority is absent
+        run: |
+          if grep -R -n -E '2277|8055|build-learning-structure' app/src/data-store.js app/scripts/assemble-production.mjs data/canonical-integration-manifest.json materials/000_MATERIAL_INDEX.txt .github/workflows/pages.yml; then
+            echo 'retired structural authority reference found' >&2
+            exit 1
+          fi
+
+      - name: Verify production assembly
+        working-directory: app
+        run: node scripts/assemble-production.mjs --verify-only
+
+      - name: Commit corrected canonical data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add app/scripts/build-chunking-v1.py app/mousetrap_line_structure.json data/chunking-v1-qa.json data/canonical-integration-manifest.json
+          git commit -m 'Correct canonical chunking v1 clause metrics [skip ci]'
+          git push origin HEAD:feature/chunking-rules-v1
+
+      - name: Final repository-state assertion
+        run: |
+          git status --short
+          test -e app/mousetrap_line_structure.json
+          test -e data/chunking-v1-qa.json
+          test ! -e app/scripts/build-learning-structure.mjs
