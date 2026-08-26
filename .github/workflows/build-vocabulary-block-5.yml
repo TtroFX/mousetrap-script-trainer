@@ -5,9 +5,11 @@ on:
     branches: [main]
     paths:
       - 'scripts/build-vocabulary-block-5.mjs'
+      - 'scripts/apply-block-5-neutral-supplement.mjs'
       - 'scripts/audit-oxford-b1plus-block-5.mjs'
       - 'scripts/validate-vocabulary-block.mjs'
       - 'data/vocabulary-rebuild/block-5-neutral-seed.json'
+      - 'data/vocabulary-rebuild/block-5-neutral-supplement.json'
       - 'data/vocabulary-rebuild/block-5-oxford-review.json'
       - 'data/context-outline-patches/block-5.json'
       - 'data/mousetrap_context_outline.json'
@@ -26,6 +28,8 @@ jobs:
           node-version: '22'
       - name: Build Block 5 vocabulary data
         run: node scripts/build-vocabulary-block-5.mjs
+      - name: Apply neutral dictionary supplement
+        run: node scripts/apply-block-5-neutral-supplement.mjs
       - name: Validate Block 1 regression
         run: node scripts/validate-vocabulary-block.mjs block-1
       - name: Validate Block 2 regression
