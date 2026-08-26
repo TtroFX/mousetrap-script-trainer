@@ -51,6 +51,7 @@ jobs:
           test -e public/index.html
           test -e public/src/main.js
           test -e public/mousetrap_script_data.json
+          test -e public/mousetrap_line_interpretation.json
           test -e public/mousetrap_line_structure.json
           python3 - <<'PY'
           import json
