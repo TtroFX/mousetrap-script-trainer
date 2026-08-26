@@ -143,10 +143,13 @@
     },
     "lineVocabulary": {
       "file": "mousetrap_line_vocabulary.json",
-      "sha256": "c384ec581ab1869861e11d4fd08a292e1e8f27e6f2472b82b5e3af1dd129cb37",
+      "sha256": "5232433d9c86d35cf54dba6f7703a0fcec86d53bb6a5ed18180f6ef00ae8e9bf",
       "coverageSpeechIds": 1164,
       "items": 1741,
-      "annotatedSpeeches": 655
+      "annotatedSpeeches": 655,
+      "playMeaningItems": 1388,
+      "neutralOnlyItems": 353,
+      "presentationField": "playMeaning"
     },
     "lineGrammar": {
       "file": "mousetrap_line_grammar.json",

@@ -47,5 +47,12 @@
       "annotatedSpeeches": 326,
       "items": 788
     }
+  },
+  "presentation": {
+    "policy": "Line Vocabulary is shown only for occurrence entries with a curated/reviewed play meaning. Neutral B1+ promotion remains dictionary/study data but is not presented as a line vocabulary item.",
+    "canonicalItems": 1741,
+    "playMeaningItems": 1388,
+    "neutralOnlyItems": 353,
+    "field": "playMeaning"
   }
 }

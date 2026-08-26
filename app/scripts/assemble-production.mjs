@@ -32,6 +32,9 @@ if(Object.keys(translations).length!==1164||Object.keys(vocabulary).length!==116
 const vocabItems=Object.values(vocabulary).reduce((n,a)=>n+(Array.isArray(a)?a.length:0),0);
 const grammarItems=Object.values(grammar).reduce((n,a)=>n+(Array.isArray(a)?a.length:0),0);
 if(vocabItems<1186||grammarItems!==692)fail('annotation item counts invalid');
+let vocabularyDisplayed=0,vocabularyNeutralOnly=0;
+for(const [lineId,rows] of Object.entries(vocabulary)){if(!Array.isArray(rows))fail(`vocabulary ${lineId}: array required`);const seen=new Set();for(const entry of rows){const surface=String(entry?.surface||'').trim(),lemma=String(entry?.lemma||'').trim(),meaning=String(entry?.meaning||'').trim();if(!surface||!lemma||!meaning||typeof entry.playMeaning!=='boolean')fail(`vocabulary ${lineId}: invalid entry`);const key=`${surface.toLowerCase()}\u0000${lemma.toLowerCase()}`;if(seen.has(key))fail(`vocabulary ${lineId}: duplicate ${surface}/${lemma}`);seen.add(key);entry.playMeaning?vocabularyDisplayed++:vocabularyNeutralOnly++;}}
+if(vocabularyDisplayed!==1388||vocabularyNeutralOnly!==353)fail(`vocabulary presentation counts invalid (${vocabularyDisplayed}/${vocabularyNeutralOnly})`);
 const dictionaryKeys=new Set(Object.keys(dictionary).map(x=>x.trim().toLowerCase()));
 for(const rows of Object.values(vocabulary))for(const entry of rows)if(!dictionaryKeys.has(String(entry.lemma||'').trim().toLowerCase()))fail(`missing dictionary lemma ${entry.lemma}`);
 
@@ -83,6 +86,6 @@ if(!verifyOnly){
   const files=Object.fromEntries(contract.files.map(item=>[item.path,sha(path.join(outDir,item.path))]));
   files['mousetrap_line_interpretation.json']=sha(interpretationPath);
   files['mousetrap_line_structure.json']=sha(path.join(outDir,'mousetrap_line_structure.json'));
-  fs.writeFileSync(path.join(outDir,'production-bundle.json'),JSON.stringify({schemaVersion:2,buildId:version.buildId,runtime:'index-zero',verifiedAt:new Date().toISOString(),qa:{speeches:1164,translations:1164,interpretationCoverage:1164,interpretationSpeeches,interpretationNotes,vocabulary:vocabItems,grammar:grammarItems,dictionary:Object.keys(dictionary).length,structureSentences:2334,structureClauses:2939,structureChunks:11810},files},null,2)+'\n');
+  fs.writeFileSync(path.join(outDir,'production-bundle.json'),JSON.stringify({schemaVersion:2,buildId:version.buildId,runtime:'index-zero',verifiedAt:new Date().toISOString(),qa:{speeches:1164,translations:1164,interpretationCoverage:1164,interpretationSpeeches,interpretationNotes,vocabulary:vocabItems,vocabularyDisplayed,vocabularyNeutralOnly,grammar:grammarItems,dictionary:Object.keys(dictionary).length,structureSentences:2334,structureClauses:2939,structureChunks:11810},files},null,2)+'\n');
 }
-console.log(JSON.stringify({status:'PASS',runtime:'index-zero',buildId:version.buildId,mode:verifyOnly?'verify-only':'assembled',qa:{speeches:1164,translations:1164,interpretationCoverage:1164,interpretationSpeeches,interpretationNotes,vocabulary:vocabItems,grammar:grammarItems,dictionary:Object.keys(dictionary).length,structureSentences:2334,structureClauses:2939,structureChunks:11810}},null,2));
+console.log(JSON.stringify({status:'PASS',runtime:'index-zero',buildId:version.buildId,mode:verifyOnly?'verify-only':'assembled',qa:{speeches:1164,translations:1164,interpretationCoverage:1164,interpretationSpeeches,interpretationNotes,vocabulary:vocabItems,vocabularyDisplayed,vocabularyNeutralOnly,grammar:grammarItems,dictionary:Object.keys(dictionary).length,structureSentences:2334,structureClauses:2939,structureChunks:11810}},null,2));

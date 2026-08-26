@@ -5,7 +5,7 @@
     "test:static": "node tests/index_zero_static.mjs",
     "verify:production": "node scripts/assemble-production.mjs --verify-only",
     "assemble:production": "node scripts/assemble-production.mjs",
-    "test:e2e": "playwright test tests/index_zero.e2e.spec.js tests/resume_bookmarks.e2e.spec.js tests/gesture_english.e2e.spec.js tests/r5_behavior.e2e.spec.js tests/interpretation.e2e.spec.js --config=playwright.index-zero.config.js",
+    "test:e2e": "playwright test tests/index_zero.e2e.spec.js tests/resume_bookmarks.e2e.spec.js tests/gesture_english.e2e.spec.js tests/r5_behavior.e2e.spec.js tests/interpretation.e2e.spec.js tests/canonical_study.e2e.spec.js --config=playwright.index-zero.config.js",
     "test": "npm run test:static && npm run verify:production && npm run test:e2e"
   },
   "devDependencies": {

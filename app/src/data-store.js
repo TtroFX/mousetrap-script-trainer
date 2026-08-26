@@ -65,6 +65,25 @@ function validateInterpretation(value) {
   return value;
 }
 
+function validateVocabulary(value) {
+  validateSpeechMap(value, 'vocabulary');
+  for (const [lineId, rows] of Object.entries(value)) {
+    if (!Array.isArray(rows)) throw new Error(`vocabulary.${lineId}: array required`);
+    const seen = new Set();
+    for (const entry of rows) {
+      const surface = String(entry?.surface || '').trim();
+      const lemma = String(entry?.lemma || '').trim();
+      const meaning = String(entry?.meaning || '').trim();
+      if (!surface || !lemma || !meaning) throw new Error(`vocabulary.${lineId}: surface/lemma/meaning required`);
+      if (typeof entry.playMeaning !== 'boolean') throw new Error(`vocabulary.${lineId}: playMeaning boolean required`);
+      const key = `${surface.toLowerCase()}\u0000${lemma.toLowerCase()}`;
+      if (seen.has(key)) throw new Error(`vocabulary.${lineId}: duplicate ${surface}/${lemma}`);
+      seen.add(key);
+    }
+  }
+  return value;
+}
+
 function validateDictionary(value) {
   if (!value || typeof value !== 'object' || Array.isArray(value)) throw new Error('dictionary: object required');
   if (Object.keys(value).length < 578) throw new Error(`dictionary: unexpectedly small (${Object.keys(value).length})`); for (const [key, entry] of Object.entries(value)) if (!String(key).trim() || !entry || typeof entry !== 'object' || !String(entry.coreMeaning || '').trim()) throw new Error(`dictionary: invalid entry ${key}`);
@@ -145,7 +164,7 @@ export class DataStore extends EventTarget {
     if (this.studyPromise && !force) return this.studyPromise;
     this.studyState = { ...createState(), status: 'loading', startedAt: now() }; this.emit('state', { area: 'study', state: this.studyState });
     this.studyPromise = (async () => {
-      const specs = [['translations', DATA_PATHS.translations, value => validateSpeechMap(value, 'translations')], ['interpretation', DATA_PATHS.interpretation, validateInterpretation], ['vocabulary', DATA_PATHS.vocabulary, value => validateSpeechMap(value, 'vocabulary')], ['grammar', DATA_PATHS.grammar, value => validateSpeechMap(value, 'grammar')], ['dictionary', DATA_PATHS.dictionary, validateDictionary]];
+      const specs = [['translations', DATA_PATHS.translations, value => validateSpeechMap(value, 'translations')], ['interpretation', DATA_PATHS.interpretation, validateInterpretation], ['vocabulary', DATA_PATHS.vocabulary, validateVocabulary], ['grammar', DATA_PATHS.grammar, value => validateSpeechMap(value, 'grammar')], ['dictionary', DATA_PATHS.dictionary, validateDictionary]];
       try {
         const settled = await Promise.allSettled(specs.map(async ([key, url, validator]) => { this.metrics.requests += 1; const value = validator(await fetchJson(url, STUDY_TIMEOUT_MS)); this[key] = value; return key; }));
         const failed = settled.map((result, index) => ({ result, key: specs[index][0] })).filter(x => x.result.status === 'rejected');
@@ -180,7 +199,8 @@ export class DataStore extends EventTarget {
   getTranslation(lineId) { return this.translations?.[lineId]?.translation || ''; }
   getTranslationRecord(lineId) { return this.translations?.[lineId] || null; }
   getInterpretation(lineId) { return Array.isArray(this.interpretation?.[lineId]) ? this.interpretation[lineId] : []; }
-  getVocabulary(lineId) { return Array.isArray(this.vocabulary?.[lineId]) ? this.vocabulary[lineId] : []; }
+  getVocabulary(lineId) { return Array.isArray(this.vocabulary?.[lineId]) ? this.vocabulary[lineId].filter(entry => entry?.playMeaning === true) : []; }
+  getVocabularyAll(lineId) { return Array.isArray(this.vocabulary?.[lineId]) ? this.vocabulary[lineId] : []; }
   getGrammar(lineId) { return Array.isArray(this.grammar?.[lineId]) ? this.grammar[lineId] : []; }
   getDictionary(lemma) { if (!this.dictionary || !lemma) return null; if (this.dictionary[lemma]) return this.dictionary[lemma]; const target = String(lemma).trim().toLowerCase(); const key = Object.keys(this.dictionary).find(k => k.trim().toLowerCase() === target); return key ? this.dictionary[key] : null; }
   getStructure(lineId) { return this.structure?.lines?.[lineId] || null; }
