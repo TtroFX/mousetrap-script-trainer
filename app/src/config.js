@@ -1,4 +1,4 @@
-export const BUILD_ID = 'index-zero-2026-08-26-r1';
+export const BUILD_ID = 'index-zero-2026-08-26-r2';
 
 export const SCENES = Object.freeze([
   { id: 'act1-scene1', label: 'Act I · Scene I', count: 190 },
@@ -35,6 +35,8 @@ export const STORAGE_KEYS = Object.freeze({
   readerProgress: 'mts.reader.progress',
   readerLast: 'mts.reader.lastPosition',
   memoryStages: 'mts.memory.stages',
+  resume: 'mts.resume.v1',
+  bookmarks: 'mts.bookmarks.v1',
 });
 
 export const READER_MODES = Object.freeze(['full', 'mine', 'cue']);
