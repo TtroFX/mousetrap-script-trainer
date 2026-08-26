@@ -120,6 +120,8 @@ function validateStructure(value) {
       }
       for (const chunk of sentence.chunks) {
         const marker = String(chunk?.marker || '');
+        if (chunk.clauseId != null && !clauseIds.has(chunk.clauseId)) throw new Error(`structure.${lineId}: orphan chunk clause ${chunk.clauseId}`);
+        if (chunk.nestedClauseId != null && !clauseIds.has(chunk.nestedClauseId)) throw new Error(`structure.${lineId}: orphan nested clause ${chunk.nestedClauseId}`);
         if (!Number.isInteger(chunk.start) || !Number.isInteger(chunk.end) || chunk.start < 0 || chunk.end <= chunk.start || chunk.end > sentence.end - sentence.start) throw new Error(`structure.${lineId}: invalid chunk span`);
         if (!roleMarker.test(marker) && !allowedUnnumbered.has(marker)) throw new Error(`structure.${lineId}: unknown marker ${marker}`);
         if (/^(Vi|Vt)/.test(marker) || marker.includes('VBN') || /^HV\d/.test(marker)) throw new Error(`structure.${lineId}: legacy marker ${marker}`);
