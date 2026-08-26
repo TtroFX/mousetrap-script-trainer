@@ -29,7 +29,7 @@ jobs:
           node --check app/src/data-store.js
           node --check app/src/main.js
           node --check app/sw.js
-          node app/tests/index_zero_static.mjs
+          (cd app && node tests/index_zero_static.mjs)
       - name: Commit integrated application
         run: |
           git config user.name 'github-actions[bot]'
