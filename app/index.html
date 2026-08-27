@@ -29,6 +29,18 @@
   </div>
   <div id="status-host" class="status-host" role="status" aria-live="polite" hidden></div>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.MTS_PWA_READY = navigator.serviceWorker.register('./sw.js', { scope: './' })
+        .then(() => navigator.serviceWorker.ready)
+        .catch(error => {
+          console.error('Service worker registration failed', error);
+          throw error;
+        });
+    } else {
+      window.MTS_PWA_READY = Promise.resolve(null);
+    }
+  </script>
   <script type="module" src="./src/main.js"></script>
 </body>
 </html>
