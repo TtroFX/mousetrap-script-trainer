@@ -83,6 +83,10 @@ jobs:
           git commit -m 'Record vocabulary runtime validation failure [skip ci]'
           git push
           exit 1
+      - name: Assemble browser QA artifact
+        run: |
+          rm -rf public
+          (cd app && node scripts/assemble-production.mjs --out-dir ../public)
       - name: Install browser QA
         working-directory: app
         run: |
