@@ -151,7 +151,7 @@
     },
     "lineVocabulary": {
       "file": "mousetrap_line_vocabulary.json",
-      "sha256": "6fd8aa91e8e181afdfb38dfb0b769704f4cb030e8d9e206f26142019bde39131",
+      "sha256": "fe480143631867bb8e1d0b87aea8cc8454ccef511541234412ec917eb6a24587",
       "coverageSpeechIds": 1164,
       "items": 1741,
       "annotatedSpeeches": 655,
@@ -167,7 +167,7 @@
     },
     "wordDictionary": {
       "file": "mousetrap_word_dictionary.json",
-      "sha256": "762e98a14d5900e7e2e774251f25ac5b4a25a88e45d688c42d117f7ef4c0d0bb",
+      "sha256": "ab69a08dd7d79a7e3ed6bec99ca9af1629a5d28535e209992a5bb6f38ea0a14e",
       "entries": 1000,
       "referencedLemmas": 1000,
       "presentation": {

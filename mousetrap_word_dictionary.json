@@ -9,7 +9,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "良い結果につながる事情を表す。"
+    "meaning": "幸いなこと"
   },
   "abc": {
     "lemma": "ABC",
@@ -22,7 +22,7 @@
       "dated",
       "culture"
     ],
-    "meaning": "【固有名詞】\n英国で列車時刻を調べるために使われた鉄道時刻表・案内書（ABC Railway Guide）。"
+    "meaning": "【固有名詞】\n英国の鉄道時刻表（ABC Railway Guide）"
   },
   "abroad": {
     "lemma": "abroad",
@@ -45,7 +45,7 @@
       "formal",
       "crime"
     ],
-    "meaning": "【動詞】\n責任・拘束・支払いなどから逃れるため秘密に立ち去る。"
+    "meaning": "【動詞】\n逃亡する、姿をくらます"
   },
   "absurd": {
     "lemma": "absurd",
@@ -54,7 +54,7 @@
     "coreMeaning": "理屈に合わず受け入れがたい。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n道理や常識に合わず、ばかげている。"
+    "meaning": "【形容詞】\nばかげた、不合理な"
   },
   "according to": {
     "lemma": "according to",
@@ -66,7 +66,7 @@
       "collocation",
       "chunk"
     ],
-    "meaning": "情報源・基準に沿って内容を示す。"
+    "meaning": "～によれば"
   },
   "acquainted": {
     "lemma": "acquainted",
@@ -77,7 +77,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【形容詞】\nbe acquainted with で「面識がある・知識がある」。"
+    "meaning": "【形容詞】\n① 知り合いで\n② 事情を知って"
   },
   "adequate": {
     "lemma": "adequate",
@@ -86,7 +86,7 @@
     "coreMeaning": "要求を満たす最低限以上であるが、強い褒め言葉ではない。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n要求を満たす最低限以上であるが、強い褒め言葉ではない。"
+    "meaning": "【形容詞】\n必要十分な、まずまずの"
   },
   "admirable": {
     "lemma": "admirable",
@@ -95,7 +95,7 @@
     "coreMeaning": "賞賛に値するほど良い。劇中ではParaviciniの独特な評価。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n称賛に値する、立派な。"
+    "meaning": "【形容詞】\n① 立派な\n② 感心すべき"
   },
   "adopt": {
     "lemma": "adopt",
@@ -104,7 +104,7 @@
     "coreMeaning": "法的・社会的に自分の子として迎える。",
     "forms": "adopt · adopted · adopted",
     "tags": [],
-    "meaning": "【動詞】\n法的・社会的に自分の子として迎える。"
+    "meaning": "【動詞】\n養子にする"
   },
   "advisable": {
     "lemma": "advisable",
@@ -115,7 +115,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【形容詞】\n行う価値があり推奨できる。"
+    "meaning": "【形容詞】\n望ましい、賢明な"
   },
   "affair": {
     "lemma": "affair",
@@ -127,7 +127,7 @@
       "formal",
       "context"
     ],
-    "meaning": "【名詞】\npublic event から private matter まで「ひとまとまりの事柄」。"
+    "meaning": "【名詞】\n事柄、事件、個人的事情"
   },
   "after all": {
     "lemma": "after all",
@@ -139,7 +139,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "事情を再考して結論を修正・確認する談話表現。"
+    "meaning": "結局／やはり"
   },
   "against the law": {
     "lemma": "against the law",
@@ -151,7 +151,7 @@
       "legal",
       "chunk"
     ],
-    "meaning": "違法であることを表す定型表現。"
+    "meaning": "法律に反して"
   },
   "air force": {
     "lemma": "Air Force",
@@ -162,7 +162,7 @@
     "tags": [
       "military"
     ],
-    "meaning": "軍種としての空軍。"
+    "meaning": "空軍"
   },
   "alas": {
     "lemma": "alas",
@@ -174,7 +174,7 @@
       "dated",
       "literary"
     ],
-    "meaning": "【間投詞】\n悲しみ・残念さを表す『ああ、残念ながら』。"
+    "meaning": "【間投詞】\nああ、残念ながら"
   },
   "all along": {
     "lemma": "all along",
@@ -186,7 +186,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "ある期間全体を通して。"
+    "meaning": "最初からずっと"
   },
   "all the same": {
     "lemma": "all the same",
@@ -198,7 +198,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "前の事情を認めつつ、結論を変えない逆接表現。"
+    "meaning": "それでもやはり"
   },
   "all to no avail": {
     "lemma": "all to no avail",
@@ -211,7 +211,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "avail「役立ち・効果」がない、という硬い定型表現。"
+    "meaning": "まったく効果なく"
   },
   "altogether": {
     "lemma": "altogether",
@@ -231,7 +231,7 @@
     "coreMeaning": "専門家として訓練・雇用されていない人。",
     "forms": "amateur · amateurs",
     "tags": [],
-    "meaning": "【名詞】\n専門家として訓練・雇用されていない人。"
+    "meaning": "【名詞】\n素人"
   },
   "amateurish": {
     "lemma": "amateurish",
@@ -240,7 +240,7 @@
     "coreMeaning": "professional でなく技量・仕上がりが未熟。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\nprofessional でなく技量・仕上がりが未熟。"
+    "meaning": "【形容詞】\n素人っぽい、未熟な"
   },
   "amenity": {
     "lemma": "amenity",
@@ -251,7 +251,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\n生活や滞在を便利・快適にする設備やサービス。"
+    "meaning": "【名詞】\n快適設備、便益"
   },
   "anniversary": {
     "lemma": "anniversary",
@@ -260,7 +260,7 @@
     "coreMeaning": "過去の出来事と同じ日付が毎年巡る日。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\n過去の出来事と同じ日付が毎年巡る日。"
+    "meaning": "【名詞】\n記念日"
   },
   "answer to prayer": {
     "lemma": "answer to prayer",
@@ -327,7 +327,7 @@
     "coreMeaning": "強い不快・驚きを伴う very bad。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n非常に悪い、ぞっとするほどひどい。"
+    "meaning": "【形容詞】\nひどい、ぞっとするほど悪い"
   },
   "apparently": {
     "lemma": "apparently",
@@ -336,7 +336,7 @@
     "coreMeaning": "得られている情報・外見からそう見えるが確定ではない。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【副詞】\n得られている情報・外見からそう見えるが確定ではない。"
+    "meaning": "【副詞】\n① 見たところでは\n② 一見"
   },
   "application": {
     "lemma": "application",
@@ -365,7 +365,7 @@
     "coreMeaning": "建物の設計・計画を専門とする職業。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\n建築物を設計する建築家。"
+    "meaning": "【名詞】\n建築家"
   },
   "architecture": {
     "lemma": "architecture",
@@ -374,7 +374,7 @@
     "coreMeaning": "建物の設計・構造・様式全体。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\n建物の設計・構造・様式全体。"
+    "meaning": "【名詞】\n① 建築様式\n② 建築構造"
   },
   "arrival": {
     "lemma": "arrival",
@@ -383,7 +383,7 @@
     "coreMeaning": "人がある場所へ来ること。文脈では新たな宿泊客の到着。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\n到着、到着する人・物。"
+    "meaning": "【名詞】\n① 到着\n② 到着した人"
   },
   "as a matter of course": {
     "lemma": "as a matter of course",
@@ -396,7 +396,7 @@
       "formal",
       "chunk"
     ],
-    "meaning": "当然のこととして、いつものこととして。"
+    "meaning": "当然のこととして"
   },
   "as a result": {
     "lemma": "as a result",
@@ -408,7 +408,7 @@
       "formal",
       "chunk"
     ],
-    "meaning": "原因に続く結果を明示する。"
+    "meaning": "その結果"
   },
   "as though": {
     "lemma": "as though",
@@ -420,7 +420,7 @@
       "grammar",
       "chunk"
     ],
-    "meaning": "as if と同様の比較・様態。やや書き言葉寄り。"
+    "meaning": "まるで～のように"
   },
   "as to": {
     "lemma": "as to",
@@ -432,7 +432,7 @@
       "formal",
       "chunk"
     ],
-    "meaning": "～について、～に関して。話題や範囲を限定する。"
+    "meaning": "～について"
   },
   "assign": {
     "lemma": "assign",
@@ -441,7 +441,7 @@
     "coreMeaning": "役割・場所・仕事を特定の人に配分する。",
     "forms": "assign · assigned · assigned",
     "tags": [],
-    "meaning": "【動詞】\n役割・場所・仕事を特定の人に配分する。"
+    "meaning": "【動詞】\n割り当てる"
   },
   "association": {
     "lemma": "association",
@@ -452,7 +452,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\n人・団体・出来事の結びつき。"
+    "meaning": "【名詞】\n関係、つながり"
   },
   "assorted": {
     "lemma": "assorted",
@@ -461,7 +461,7 @@
     "coreMeaning": "種類の違うものをひとまとめにした。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\nいろいろな種類を取り合わせた。"
+    "meaning": "【形容詞】\n取り合わせの、さまざまな"
   },
   "at any rate": {
     "lemma": "at any rate",
@@ -474,7 +474,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "いずれにせよ、とにかく。"
+    "meaning": "とにかく／いずれにせよ"
   },
   "at least": {
     "lemma": "at least",
@@ -486,7 +486,7 @@
       "grammar",
       "chunk"
     ],
-    "meaning": "最低限の数量・評価・譲歩を示す。"
+    "meaning": "少なくとも"
   },
   "at once": {
     "lemma": "at once",
@@ -498,7 +498,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "文脈により immediately または simultaneously。"
+    "meaning": "すぐに／同時に"
   },
   "at the present moment": {
     "lemma": "at the present moment",
@@ -510,7 +510,7 @@
       "formal",
       "chunk"
     ],
-    "meaning": "now より硬く、現時点を限定する。"
+    "meaning": "現時点では"
   },
   "attractive": {
     "lemma": "attractive",
@@ -519,7 +519,7 @@
     "coreMeaning": "人の注意・好意を引く性質。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n人の注意・好意を引く性質。"
+    "meaning": "【形容詞】\n魅力的な"
   },
   "background": {
     "lemma": "background",
@@ -530,7 +530,7 @@
     "tags": [
       "context"
     ],
-    "meaning": "【名詞】\n人の経歴・家庭環境・これまでの事情など、その人を理解する背景情報。"
+    "meaning": "【名詞】\n身元・経歴"
   },
   "bank up": {
     "lemma": "bank up",
@@ -543,7 +543,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "火が長くもつよう燃料を積み、燃え方を調整する。"
+    "meaning": "火を長持ちさせるよう燃料を積む／雪などが堆積する"
   },
   "bar of music": {
     "lemma": "bar of music",
@@ -555,7 +555,7 @@
       "music",
       "context"
     ],
-    "meaning": "bar はここでは酒場でなく「小節」。"
+    "meaning": "楽譜の一小節"
   },
   "barmy": {
     "lemma": "barmy",
@@ -605,7 +605,7 @@
       "formal",
       "chunk"
     ],
-    "meaning": "discharge は軍務から正式に解くこと。"
+    "meaning": "陸軍を除隊になる"
   },
   "be fond of": {
     "lemma": "be fond of",
@@ -617,7 +617,7 @@
       "collocation",
       "chunk"
     ],
-    "meaning": "like よりやや持続的な好みを表す。"
+    "meaning": "～が好きである"
   },
   "be held responsible": {
     "lemma": "be held responsible",
@@ -629,7 +629,7 @@
       "formal",
       "chunk"
     ],
-    "meaning": "hold A responsible「Aに責任があるとする」の受動形。"
+    "meaning": "責任を問われる"
   },
   "beastly": {
     "lemma": "beastly",
@@ -642,7 +642,7 @@
       "dated",
       "informal"
     ],
-    "meaning": "【形容詞】\n英国の古めの口語で very unpleasant。"
+    "meaning": "【形容詞】\nひどい、嫌な"
   },
   "beg your pardon": {
     "lemma": "beg your pardon",
@@ -655,7 +655,7 @@
       "polite",
       "chunk"
     ],
-    "meaning": "謝罪または聞き返しに使う丁寧な定型表現。"
+    "meaning": "失礼しました／もう一度お願いします"
   },
   "benares brass": {
     "lemma": "Benares brass",
@@ -667,7 +667,7 @@
       "dated",
       "culture"
     ],
-    "meaning": "ベナレス（現ヴァーラーナシー）に結び付けられる装飾的な真鍮工芸品。"
+    "meaning": "ベナレス（現ヴァーラーナシー）の真鍮工芸品"
   },
   "bilk": {
     "lemma": "bilk",
@@ -679,7 +679,7 @@
       "informal",
       "dated"
     ],
-    "meaning": "【動詞】\n金銭などを不正にだまし取る、支払いを不正に免れる。"
+    "meaning": "【動詞】\n① 宿代などを踏み倒す\n② だます"
   },
   "blare": {
     "lemma": "blare",
@@ -688,7 +688,7 @@
     "coreMeaning": "ラジオなどが耳障りなほど大きく鳴る。",
     "forms": "blare · blared · blared",
     "tags": [],
-    "meaning": "【動詞】\nラジオなどが耳障りなほど大きく鳴る。"
+    "meaning": "【動詞】\n大音量で鳴り響く"
   },
   "blind as a bat": {
     "lemma": "blind as a bat",
@@ -700,7 +700,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "非常に目が見えにくい、または比喩的に明白なことに気づかない。"
+    "meaning": "まるで見えていない／ひどく見落としている"
   },
   "blizzard": {
     "lemma": "blizzard",
@@ -711,7 +711,7 @@
     "tags": [
       "weather"
     ],
-    "meaning": "【名詞】\n強風を伴う激しい吹雪。"
+    "meaning": "【名詞】\n猛吹雪"
   },
   "bogged": {
     "lemma": "bogged",
@@ -733,7 +733,7 @@
     "tags": [
       "informal"
     ],
-    "meaning": "【形容詞】\n偽物の、でたらめな、見せかけの。"
+    "meaning": "【形容詞】\nにせの、いんちきの"
   },
   "bona fide traveller": {
     "lemma": "bona fide traveller",
@@ -747,7 +747,7 @@
       "dated",
       "chunk"
     ],
-    "meaning": "bona fide はラテン語由来で「真正な」。英国の旧宿泊・酒類法の文脈を感じさせる。"
+    "meaning": "正真正銘の旅行者"
   },
   "boorish": {
     "lemma": "boorish",
@@ -756,7 +756,7 @@
     "coreMeaning": "礼儀・洗練に欠け、無神経。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n無作法で粗野な、礼儀を欠く。"
+    "meaning": "【形容詞】\n粗野で無作法な"
   },
   "brick": {
     "lemma": "brick",
@@ -777,7 +777,7 @@
       "context",
       "British English"
     ],
-    "meaning": "【名詞】\nここでは橋ではなく4人で行うトランプゲーム。"
+    "meaning": "【名詞】\nブリッジ（カードゲーム）"
   },
   "broadcast": {
     "lemma": "broadcast",
@@ -811,7 +811,7 @@
     "tags": [
       "context"
     ],
-    "meaning": "【名詞】\n「取り組むべき事柄」が中心で、文脈により仕事・用事・事件を指す。"
+    "meaning": "【名詞】\n① 用事\n② 事件\n③ 本題\n④ 仕事"
   },
   "by chance": {
     "lemma": "by chance",
@@ -823,7 +823,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "意図・計画ではなく偶然起きたことを示す。"
+    "meaning": "偶然に"
   },
   "by the way": {
     "lemma": "by the way",
@@ -835,7 +835,7 @@
       "discourse",
       "chunk"
     ],
-    "meaning": "ところで、ちなみに。話題を付け加えたり変えたりする。"
+    "meaning": "ところで／ちなみに"
   },
   "call box": {
     "lemma": "call box",
@@ -848,7 +848,7 @@
       "dated",
       "chunk"
     ],
-    "meaning": "英国英語の telephone box / call box。"
+    "meaning": "公衆電話ボックス"
   },
   "carry away": {
     "lemma": "carry away",
@@ -883,7 +883,7 @@
     "tags": [
       "British English"
     ],
-    "meaning": "【名詞】\n特に食料・酒などを置く地下室。"
+    "meaning": "【名詞】\n地下貯蔵室、地下室"
   },
   "central heating": {
     "lemma": "central heating",
@@ -894,7 +894,7 @@
     "tags": [
       "British English"
     ],
-    "meaning": "一つの熱源で建物全体を暖める暖房方式。"
+    "meaning": "セントラルヒーティング"
   },
   "cereals": {
     "lemma": "cereals",
@@ -917,7 +917,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "事実・状態・人物などを調べて正しいか確認する。"
+    "meaning": "～を調べて確認する"
   },
   "chilblain": {
     "lemma": "chilblain",
@@ -929,7 +929,7 @@
       "British English",
       "medical"
     ],
-    "meaning": "【名詞】\n寒さで手足などの皮膚が赤く腫れ痛む症状。"
+    "meaning": "【名詞】\nしもやけ"
   },
   "chintz": {
     "lemma": "chintz",
@@ -941,7 +941,7 @@
       "British English",
       "furniture"
     ],
-    "meaning": "【名詞】\n花柄などを印刷した、家具や室内装飾に使う綿布。"
+    "meaning": "【名詞】\n更紗、花柄のプリント綿布"
   },
   "circumstance": {
     "lemma": "circumstance",
@@ -952,7 +952,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\n出来事を取り巻き、状況に影響する条件・事情。"
+    "meaning": "【名詞】\n事情、状況"
   },
   "civilization": {
     "lemma": "civilization",
@@ -963,7 +963,7 @@
     "tags": [
       "context"
     ],
-    "meaning": "【名詞】\n文明、文明社会。"
+    "meaning": "【名詞】\n文明社会"
   },
   "cloakroom": {
     "lemma": "cloakroom",
@@ -999,7 +999,7 @@
       "British English",
       "dated"
     ],
-    "meaning": "【名詞】\n暖炉用の石炭を室内に運び置く容器。"
+    "meaning": "【名詞】\n石炭入れ"
   },
   "coincidence": {
     "lemma": "coincidence",
@@ -1008,7 +1008,7 @@
     "coreMeaning": "因果関係がないのに出来事が一致すること。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\n因果関係がないのに出来事が一致すること。"
+    "meaning": "【名詞】\n偶然の一致"
   },
   "coke": {
     "lemma": "coke",
@@ -1020,7 +1020,7 @@
       "context",
       "dated"
     ],
-    "meaning": "【名詞】\n石炭を乾留して作る固体燃料のコークス。"
+    "meaning": "【名詞】\nコークス（燃料）"
   },
   "cold feet": {
     "lemma": "cold feet",
@@ -1056,7 +1056,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "高い場所・上階から下へ移動する。"
+    "meaning": "下りてくる"
   },
   "come in": {
     "lemma": "come in",
@@ -1069,7 +1069,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "外から内部へ移動する。"
+    "meaning": "入ってくる／中に入る"
   },
   "come out": {
     "lemma": "come out",
@@ -1081,7 +1081,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "外へ出る、明らかになる、表面に現れるなど。"
+    "meaning": "出てくる／外へ出る"
   },
   "come over someone": {
     "lemma": "come over someone",
@@ -1093,7 +1093,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "感情が人の上に「やって来る」比喩。"
+    "meaning": "感情・感覚が急に人を襲う"
   },
   "come to think of it": {
     "lemma": "come to think of it",
@@ -1105,7 +1105,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "話の途中で新たに思い出したことを付け加える。"
+    "meaning": "そういえば／考えてみれば"
   },
   "come up": {
     "lemma": "come up",
@@ -1118,7 +1118,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "上方・話者側へ移動する。"
+    "meaning": "上がってくる／近づいてくる"
   },
   "compliment": {
     "lemma": "compliment",
@@ -1157,7 +1157,7 @@
     "coreMeaning": "時間・場所・条件が目的に合う。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n時間・場所・条件が目的に合う。"
+    "meaning": "【形容詞】\n① 都合がよい\n② 便利な"
   },
   "cornbeef": {
     "lemma": "cornbeef",
@@ -1182,7 +1182,7 @@
       "dated",
       "chunk"
     ],
-    "meaning": "郵便・通信などを利用して遠隔で学ぶ通信講座。"
+    "meaning": "通信講座"
   },
   "could not suit me better": {
     "lemma": "could not suit me better",
@@ -1207,7 +1207,7 @@
       "legal",
       "context"
     ],
-    "meaning": "【名詞】\nここではスポーツのコートでなく司法機関。"
+    "meaning": "【名詞】\n裁判所"
   },
   "crammed": {
     "lemma": "crammed",
@@ -1238,7 +1238,7 @@
     "tags": [
       "legal"
     ],
-    "meaning": "法的責任を問われ得る重大な養育・管理上の怠慢。"
+    "meaning": "犯罪となるほどの養育放棄・怠慢"
   },
   "cross": {
     "lemma": "cross",
@@ -1250,7 +1250,7 @@
       "British English",
       "context"
     ],
-    "meaning": "【形容詞】\nBritish English で angry/annoyed の日常語。"
+    "meaning": "【形容詞】\n不機嫌な、怒った"
   },
   "crush": {
     "lemma": "crush",
@@ -1270,7 +1270,7 @@
     "coreMeaning": "目的達成のため巧みに策略を使う。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n目的達成のため巧みに策略を使う。"
+    "meaning": "【形容詞】\nずる賢い、巧妙な"
   },
   "custard": {
     "lemma": "custard",
@@ -1282,7 +1282,7 @@
       "British English",
       "food"
     ],
-    "meaning": "【名詞】\n卵・牛乳などを使った甘いカスタード。"
+    "meaning": "【名詞】\nカスタード"
   },
   "cut off from": {
     "lemma": "cut off from",
@@ -1307,7 +1307,7 @@
       "dated",
       "chunk"
     ],
-    "meaning": "【動詞的表現】\nたぶん～だろう、～と思う。"
+    "meaning": "【動詞的表現】\n① たぶん～だろう\n② ～と思う"
   },
   "darkish": {
     "lemma": "darkish",
@@ -1318,7 +1318,7 @@
     "tags": [
       "word formation"
     ],
-    "meaning": "【形容詞】\n① -ish が「～がかった\n② やや～」を表す"
+    "meaning": "【形容詞】\nやや暗い色の"
   },
   "deal with": {
     "lemma": "deal with",
@@ -1330,7 +1330,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "問題・人などを扱って処理する。"
+    "meaning": "～を処理する／対処する"
   },
   "definitely": {
     "lemma": "definitely",
@@ -1339,7 +1339,7 @@
     "coreMeaning": "曖昧さを排して確信を示す。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【副詞】\n曖昧さを排して確信を示す。"
+    "meaning": "【副詞】\n間違いなく、はっきり"
   },
   "deliberately": {
     "lemma": "deliberately",
@@ -1348,7 +1348,7 @@
     "coreMeaning": "偶然ではなく意図して行う。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【副詞】\n偶然ではなく意図して行う。"
+    "meaning": "【副詞】\n故意に、わざと"
   },
   "department": {
     "lemma": "department",
@@ -1368,7 +1368,7 @@
     "coreMeaning": "場所を離れること。arrival の反対。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\n出発、立ち去ること。"
+    "meaning": "【名詞】\n出発"
   },
   "description": {
     "lemma": "description",
@@ -1380,7 +1380,7 @@
       "crime",
       "context"
     ],
-    "meaning": "【名詞】\n人・物・状況の特徴を言葉で説明したもの。"
+    "meaning": "【名詞】\n人相・特徴の説明"
   },
   "desert": {
     "lemma": "desert",
@@ -1403,7 +1403,7 @@
     "tags": [
       "military"
     ],
-    "meaning": "【名詞】\n軍務から無断で離脱した人。"
+    "meaning": "【名詞】\n脱走兵"
   },
   "desertion": {
     "lemma": "desertion",
@@ -1415,7 +1415,7 @@
       "military",
       "formal"
     ],
-    "meaning": "【名詞】\n軍務などを無断で離れる行為。"
+    "meaning": "【名詞】\n脱走、職務放棄"
   },
   "despair": {
     "lemma": "despair",
@@ -1444,7 +1444,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\n秘密や他人の事情を慎重に扱う配慮、口外しない慎重さ。"
+    "meaning": "【名詞】\n① 慎重な判断\n② 口外しない配慮"
   },
   "disgrace": {
     "lemma": "disgrace",
@@ -1473,7 +1473,7 @@
     "coreMeaning": "真実・公正さに反する。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n真実・公正さに反する。"
+    "meaning": "【形容詞】\n① 不正直な\n② 不誠実な"
   },
   "dishonourable": {
     "lemma": "dishonourable",
@@ -1486,7 +1486,7 @@
       "spelling",
       "formal"
     ],
-    "meaning": "【形容詞】\n名誉に反する、不誠実で道義に反する。"
+    "meaning": "【形容詞】\n不名誉な、卑劣な"
   },
   "distressing": {
     "lemma": "distressing",
@@ -1495,7 +1495,7 @@
     "coreMeaning": "strongly upsetting で、精神的苦痛を与える。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\nstrongly upsetting で、精神的苦痛を与える。"
+    "meaning": "【形容詞】\n痛ましい、心を苦しめる"
   },
   "ditto": {
     "lemma": "ditto",
@@ -1544,7 +1544,7 @@
       "weather",
       "context"
     ],
-    "meaning": "【名詞】\n風で雪が一か所に積み上がったもの。"
+    "meaning": "【名詞】\n雪の吹きだまり"
   },
   "drunk": {
     "lemma": "drunk",
@@ -1556,7 +1556,7 @@
       "informal",
       "context"
     ],
-    "meaning": "【名詞】\n形容詞だけでなく名詞で「酔っぱらい」。"
+    "meaning": "【名詞】\n酔っぱらい、常習的に酒に酔う人"
   },
   "dry rot": {
     "lemma": "dry rot",
@@ -1568,7 +1568,7 @@
       "British English",
       "housing"
     ],
-    "meaning": "菌によって木材が乾燥し崩れやすくなる腐朽。"
+    "meaning": "乾腐（木材腐朽）"
   },
   "duly": {
     "lemma": "duly",
@@ -1579,7 +1579,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【副詞】\n必要な手順・時期に従って適切に。"
+    "meaning": "【副詞】\n① 正式に\n② 当然の手続きどおり"
   },
   "dump": {
     "lemma": "dump",
@@ -1611,7 +1611,7 @@
     "coreMeaning": "ここ以外の場所を一語で示す。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【副詞】\nほかの場所で・へ。"
+    "meaning": "【副詞】\n① ほかの場所へ\n② で"
   },
   "enquiry": {
     "lemma": "enquiry",
@@ -1637,7 +1637,7 @@
       "collocation",
       "chunk"
     ],
-    "meaning": "ensure + safety の公的・硬い結びつき。"
+    "meaning": "～の安全を確保する"
   },
   "entirely": {
     "lemma": "entirely",
@@ -1646,7 +1646,7 @@
     "coreMeaning": "部分を残さず全体として。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【副詞】\n部分を残さず全体として。"
+    "meaning": "【副詞】\n完全に、全く"
   },
   "equipped": {
     "lemma": "equipped",
@@ -1664,7 +1664,7 @@
     "coreMeaning": "それがなければ目的が成り立たないほど必要。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n絶対に必要な、不可欠な。"
+    "meaning": "【形容詞】\n不可欠な"
   },
   "establish": {
     "lemma": "establish",
@@ -1675,7 +1675,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【動詞】\n事実や状態を証拠により確かなものにする。"
+    "meaning": "【動詞】\n① 確立する\n② 確認する"
   },
   "establishment": {
     "lemma": "establishment",
@@ -1686,7 +1686,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\n組織・施設・事業所。"
+    "meaning": "【名詞】\n施設、事業所"
   },
   "etcetera": {
     "lemma": "etcetera",
@@ -1709,7 +1709,7 @@
       "legal",
       "crime"
     ],
-    "meaning": "【名詞】\n主張・犯罪事実を裏づける情報や物。"
+    "meaning": "【名詞】\n証拠"
   },
   "extension telephone": {
     "lemma": "extension telephone",
@@ -1721,7 +1721,7 @@
       "dated",
       "technology"
     ],
-    "meaning": "同じ回線につながる別の電話機。"
+    "meaning": "内線電話"
   },
   "extraordinary": {
     "lemma": "extraordinary",
@@ -1730,7 +1730,7 @@
     "coreMeaning": "ordinary の範囲を大きく超える。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\nordinary の範囲を大きく超える。"
+    "meaning": "【形容詞】\n並外れた、異常な"
   },
   "far-fetched": {
     "lemma": "far-fetched",
@@ -1742,7 +1742,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "【形容詞】\nありそうになく、こじつけに見える。"
+    "meaning": "【形容詞】\n① こじつけめいた\n② ありそうにない"
   },
   "favourite": {
     "lemma": "favourite",
@@ -1800,7 +1800,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "収入・資産・負債などを含む財務上の状況。"
+    "meaning": "経済状態、資力"
   },
   "find out": {
     "lemma": "find out",
@@ -1812,7 +1812,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "調査・経験を通じて未知の事実を知る。"
+    "meaning": "突き止める、知る"
   },
   "fingerprint": {
     "lemma": "fingerprint",
@@ -1823,7 +1823,7 @@
     "tags": [
       "crime"
     ],
-    "meaning": "【名詞】\n個人識別に使われる指の紋様。"
+    "meaning": "【名詞】\n指紋"
   },
   "first come, first served": {
     "lemma": "first come, first served",
@@ -1835,7 +1835,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "先に来た人から先にサービスを受ける。"
+    "meaning": "早い者勝ち／先着順"
   },
   "firsthand knowledge": {
     "lemma": "firsthand knowledge",
@@ -1847,7 +1847,7 @@
       "formal",
       "chunk"
     ],
-    "meaning": "他人から聞いたのではなく、自分が直接知っていること。"
+    "meaning": "直接得た知識／実体験に基づく知識"
   },
   "fit the bill": {
     "lemma": "fit the bill",
@@ -1859,7 +1859,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "求められる条件・特徴に合う。"
+    "meaning": "条件にぴったり当てはまる"
   },
   "flavour": {
     "lemma": "flavour",
@@ -1880,7 +1880,7 @@
     "coreMeaning": "判断が賢明でない。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n判断が賢明でない。"
+    "meaning": "【形容詞】\n愚かな"
   },
   "for instance": {
     "lemma": "for instance",
@@ -1892,7 +1892,7 @@
       "formal",
       "chunk"
     ],
-    "meaning": "具体例を導入する。"
+    "meaning": "例えば"
   },
   "forecast": {
     "lemma": "forecast",
@@ -1912,7 +1912,7 @@
     "coreMeaning": "自国・自分の文化の外に属する。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n自国・自分の文化の外に属する。"
+    "meaning": "【形容詞】\n① 外国の\n② 外国的な"
   },
   "foreigner": {
     "lemma": "foreigner",
@@ -1932,7 +1932,7 @@
     "coreMeaning": "将来の出来事を前もって見通す。",
     "forms": "foresee · foresaw · foreseen",
     "tags": [],
-    "meaning": "【動詞】\n将来起こることを前もって予見する。"
+    "meaning": "【動詞】\n予見する"
   },
   "forgo": {
     "lemma": "forgo",
@@ -1943,7 +1943,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【動詞】\n望ましいものを自ら諦める、なしで済ませる。"
+    "meaning": "【動詞】\n① ～を諦める\n② なしで済ませる"
   },
   "fourposter": {
     "lemma": "fourposter",
@@ -1955,7 +1955,7 @@
       "British English",
       "furniture"
     ],
-    "meaning": "【名詞】\n四隅に柱が立つ four-poster bed。"
+    "meaning": "【名詞】\n四本柱の天蓋ベッド"
   },
   "frankly": {
     "lemma": "frankly",
@@ -1966,7 +1966,7 @@
     "tags": [
       "discourse"
     ],
-    "meaning": "【副詞】\n遠回しにせず話者の判断を明示する談話副詞。"
+    "meaning": "【副詞】\n率直に言えば"
   },
   "freezing": {
     "lemma": "freezing",
@@ -2001,7 +2001,7 @@
       "crime",
       "formal"
     ],
-    "meaning": "【名詞】\n警察・拘束などから逃れている人。"
+    "meaning": "【名詞】\n逃亡者"
   },
   "gay": {
     "lemma": "gay",
@@ -2035,7 +2035,7 @@
     "coreMeaning": "偽物ではなく由来・性質が本物。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n本物の、偽りのない。"
+    "meaning": "【形容詞】\n本物の、真正な"
   },
   "get at": {
     "lemma": "get at",
@@ -2048,7 +2048,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "what ... getting at で「何を言いたいのか」。"
+    "meaning": "言おうとしている／ほのめかす"
   },
   "get down clearly": {
     "lemma": "get down clearly",
@@ -2061,7 +2061,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "get down は「書き留める／確定する」。"
+    "meaning": "はっきり記録・確定する"
   },
   "get full particulars": {
     "lemma": "get full particulars",
@@ -2074,7 +2074,7 @@
       "police",
       "chunk"
     ],
-    "meaning": "particulars は公的文脈で「詳細事項・身上事項」。"
+    "meaning": "詳しい情報をすべて聞き取る"
   },
   "get had": {
     "lemma": "get had",
@@ -2087,7 +2087,7 @@
       "informal",
       "chunk"
     ],
-    "meaning": "だまされる、一杯食わされる。"
+    "meaning": "だまされる／一杯食わされる"
   },
   "get hold of": {
     "lemma": "get hold of",
@@ -2099,7 +2099,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "物を手に入れる、入手する。"
+    "meaning": "～を手に入れる／確保する"
   },
   "get the bit between one’s teeth": {
     "lemma": "get the bit between one’s teeth",
@@ -2112,7 +2112,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "馬がはみ(bit)を歯で強くくわえて制御しにくくなる比喩。"
+    "meaning": "やる気になって突っ走る"
   },
   "get the lay of the land": {
     "lemma": "get the lay of the land",
@@ -2124,7 +2124,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "場所の配置や状況の全体像を把握する。"
+    "meaning": "状況・地形を把握する"
   },
   "get through": {
     "lemma": "get through",
@@ -2137,7 +2137,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "障害を越えて目的側へ到達する。"
+    "meaning": "通り抜ける／電話がつながる"
   },
   "get to the bottom of": {
     "lemma": "get to the bottom of",
@@ -2149,7 +2149,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "問題の真相・根本原因を突き止める。"
+    "meaning": "真相を突き止める"
   },
   "get warm": {
     "lemma": "get warm",
@@ -2174,7 +2174,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "やめる、諦める、断念する。"
+    "meaning": "諦める／動かなくなる"
   },
   "given certain circumstances": {
     "lemma": "given certain circumstances",
@@ -2187,7 +2187,7 @@
       "grammar",
       "chunk"
     ],
-    "meaning": "given + 名詞で「～を考慮すると／前提とすると」。"
+    "meaning": "ある事情を前提にすれば"
   },
   "go all right": {
     "lemma": "go all right",
@@ -2199,7 +2199,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "進行・結果に問題がないことを表す。"
+    "meaning": "うまくいく"
   },
   "go back": {
     "lemma": "go back",
@@ -2211,7 +2211,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "以前の場所・状態へ戻る。"
+    "meaning": "戻る"
   },
   "go by probability": {
     "lemma": "go by probability",
@@ -2223,7 +2223,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "確定した事実ではなく、可能性の高低を基準に判断する。"
+    "meaning": "確率・可能性を基準に判断する"
   },
   "go down to": {
     "lemma": "go down to",
@@ -2235,7 +2235,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "英国口語で town/village などへ「出かける」感覚にも使う。"
+    "meaning": "～へ行く"
   },
   "go down with": {
     "lemma": "go down with",
@@ -2248,7 +2248,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "病気にかかる、発症する。"
+    "meaning": "病気にかかる"
   },
   "go downhill": {
     "lemma": "go downhill",
@@ -2260,7 +2260,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "坂を下る比喩から状態が悪くなる。"
+    "meaning": "悪化する／衰える"
   },
   "go off": {
     "lemma": "go off",
@@ -2273,7 +2273,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "中心から離れるのが核で、文脈により退去・作動など。"
+    "meaning": "立ち去る／鳴る・作動する"
   },
   "go off one’s head": {
     "lemma": "go off one’s head",
@@ -2286,7 +2286,7 @@
       "informal",
       "chunk"
     ],
-    "meaning": "正常な判断ができないほど精神的に混乱する、という古いくだけた言い方。"
+    "meaning": "頭がおかしくなる／正気を失う"
   },
   "go on": {
     "lemma": "go on",
@@ -2299,7 +2299,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "出来事・行動が継続する。文脈により「起こる」の意味もある。"
+    "meaning": "続く／続ける"
   },
   "go on as usual": {
     "lemma": "go on as usual",
@@ -2311,7 +2311,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "困難があっても通常の生活を継続する。"
+    "meaning": "いつもどおり続ける"
   },
   "go out of one’s mind": {
     "lemma": "go out of one’s mind",
@@ -2323,7 +2323,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "mind を正気・判断力の比喩に使う。"
+    "meaning": "正気を失う／ひどく取り乱す"
   },
   "go straight ahead": {
     "lemma": "go straight ahead",
@@ -2335,7 +2335,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "物理的にも比喩的にも前進を続ける。"
+    "meaning": "まっすぐ進む／ためらわず進む"
   },
   "go through": {
     "lemma": "go through",
@@ -2348,7 +2348,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "過程を最初から最後まで通過する。"
+    "meaning": "一通り行う／経験する"
   },
   "go up": {
     "lemma": "go up",
@@ -2360,7 +2360,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "低い位置から高い位置へ移動する。"
+    "meaning": "上へ行く／上階へ行く"
   },
   "good lord": {
     "lemma": "Good Lord",
@@ -2372,7 +2372,7 @@
       "British English",
       "dated"
     ],
-    "meaning": "驚き・困惑・強い反応を表す感嘆句。宗教的語源を持つが、日常では間投詞的に使われる。"
+    "meaning": "なんてことだ／まったく"
   },
   "gosh": {
     "lemma": "Gosh",
@@ -2383,7 +2383,7 @@
     "tags": [
       "informal"
     ],
-    "meaning": "【間投詞】\n驚き・感嘆を表す穏やかな間投詞。"
+    "meaning": "【間投詞】\n① まあ\n② うわあ"
   },
   "got to": {
     "lemma": "got to",
@@ -2396,7 +2396,7 @@
       "grammar",
       "chunk"
     ],
-    "meaning": "have got to の口語形。"
+    "meaning": "～しなければならない／～する必要がある"
   },
   "governess": {
     "lemma": "governess",
@@ -2408,7 +2408,7 @@
       "British English",
       "dated"
     ],
-    "meaning": "【名詞】\n家庭で子どもの教育を担当する女性家庭教師。"
+    "meaning": "【名詞】\n住み込みの女性家庭教師"
   },
   "grim": {
     "lemma": "grim",
@@ -2417,7 +2417,7 @@
     "coreMeaning": "暗く厳しく、楽しさのない印象。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n厳しく暗い、恐ろしい、楽観できない。"
+    "meaning": "【形容詞】\n厳しい、陰気な、いかめしい"
   },
   "grow up": {
     "lemma": "grow up",
@@ -2429,7 +2429,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "成長して子どもの段階を離れる。"
+    "meaning": "大人になる／精神的に成熟する"
   },
   "guinea": {
     "lemma": "guinea",
@@ -2466,7 +2466,7 @@
       "grammar",
       "chunk"
     ],
-    "meaning": "強い助言・警告。形式は had だが現在・未来についても使う。"
+    "meaning": "～した方がよい／～すべきだ"
   },
   "hang on to": {
     "lemma": "hang on to",
@@ -2478,7 +2478,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "手放さず持ち続ける、保持する。"
+    "meaning": "～を手放さず持っておく"
   },
   "haphazard": {
     "lemma": "haphazard",
@@ -2487,7 +2487,7 @@
     "coreMeaning": "秩序・計画がなく偶然任せ。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n秩序・計画がなく偶然任せ。"
+    "meaning": "【形容詞】\n無計画な、行き当たりばったりの"
   },
   "hardboiled": {
     "lemma": "hardboiled",
@@ -2499,7 +2499,7 @@
       "dated",
       "context"
     ],
-    "meaning": "【形容詞】\n感情に流されず、強硬でタフな。"
+    "meaning": "【形容詞】\nタフで感情を見せない"
   },
   "have no use for": {
     "lemma": "have no use for",
@@ -2511,7 +2511,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "～を必要としない。また人・考えを嫌う、評価しない。"
+    "meaning": "～が大嫌いだ／～を評価しない"
   },
   "have oneself to blame": {
     "lemma": "have oneself to blame",
@@ -2523,7 +2523,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "悪い結果について自分自身にも責任がある。"
+    "meaning": "自分のせいだ／自業自得だ"
   },
   "headquarters": {
     "lemma": "headquarters",
@@ -2547,7 +2547,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "相手に必要なもの・情報を渡さず保持する。"
+    "meaning": "情報などを隠して出し渋る"
   },
   "home comfort": {
     "lemma": "home comfort",
@@ -2559,7 +2559,7 @@
       "British English",
       "chunk"
     ],
-    "meaning": "家庭にあるような快適さ・便利さ。"
+    "meaning": "家庭的な快適設備"
   },
   "homicidal": {
     "lemma": "homicidal",
@@ -2570,7 +2570,7 @@
     "tags": [
       "crime"
     ],
-    "meaning": "【形容詞】\n殺人を犯そうとする、殺人的な。"
+    "meaning": "【形容詞】\n① 殺人的な\n② 殺人衝動のある"
   },
   "homicidal maniac": {
     "lemma": "homicidal maniac",
@@ -2583,7 +2583,7 @@
       "dated",
       "chunk"
     ],
-    "meaning": "殺人衝動があるとみなされた人を指す古い非臨床的・侮蔑的な表現。"
+    "meaning": "殺人衝動のある狂人／殺人犯として描写された人物"
   },
   "hooey": {
     "lemma": "hooey",
@@ -2595,7 +2595,7 @@
       "informal",
       "dated"
     ],
-    "meaning": "【名詞】\nばかげた話、でたらめ。"
+    "meaning": "【名詞】\nでたらめ、くだらない話"
   },
   "hostess": {
     "lemma": "hostess",
@@ -2607,7 +2607,7 @@
       "dated",
       "gendered"
     ],
-    "meaning": "【名詞】\nguest を迎える女性 host の伝統的な性別形。"
+    "meaning": "【名詞】\n① 女性の主人役\n② もてなす女性"
   },
   "hotel keeper": {
     "lemma": "hotel keeper",
@@ -2657,7 +2657,7 @@
       "dated",
       "chunk"
     ],
-    "meaning": "英国の古めの控えめな推測表現。直訳の「驚くべきでない」より「ありそうだ」。"
+    "meaning": "たぶんそうだろう"
   },
   "ice-bound": {
     "lemma": "ice-bound",
@@ -2668,7 +2668,7 @@
     "tags": [
       "weather"
     ],
-    "meaning": "【形容詞】\n氷に閉ざされた、凍結して動きが妨げられた。"
+    "meaning": "【形容詞】\n氷で閉ざされた"
   },
   "if you ask me": {
     "lemma": "if you ask me",
@@ -2701,7 +2701,7 @@
     "coreMeaning": "pass できないほど道路などが塞がれている。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\npass できないほど道路などが塞がれている。"
+    "meaning": "【形容詞】\n通行不能の"
   },
   "imperative": {
     "lemma": "imperative",
@@ -2712,7 +2712,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【形容詞】\n「～しなければならない」ほど重要。"
+    "meaning": "【形容詞】\n① 絶対に必要な\n② 緊急に重要な"
   },
   "impertinence": {
     "lemma": "impertinence",
@@ -2724,7 +2724,7 @@
       "formal",
       "dated"
     ],
-    "meaning": "【名詞】\n立場をわきまえない失礼な態度。"
+    "meaning": "【名詞】\n無礼、出過ぎた言動"
   },
   "implicit": {
     "lemma": "implicit",
@@ -2753,7 +2753,7 @@
     "coreMeaning": "見聞きしたものから心に形成される全体的な感じ。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\n人・物から受ける印象、感じ。"
+    "meaning": "【名詞】\n印象"
   },
   "imprisonment": {
     "lemma": "imprisonment",
@@ -2764,7 +2764,7 @@
     "tags": [
       "legal"
     ],
-    "meaning": "【名詞】\n刑務所に収容される刑罰・状態。"
+    "meaning": "【名詞】\n投獄、禁錮"
   },
   "in a position to": {
     "lemma": "in a position to",
@@ -2776,7 +2776,7 @@
       "formal",
       "chunk"
     ],
-    "meaning": "能力というより状況・資格が整っていること。"
+    "meaning": "～できる立場・状況にある"
   },
   "in advance": {
     "lemma": "in advance",
@@ -2788,7 +2788,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "前もって、事前に。"
+    "meaning": "前もって"
   },
   "in any case": {
     "lemma": "in any case",
@@ -2800,7 +2800,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "いずれにしても、とにかく。"
+    "meaning": "いずれにせよ"
   },
   "in case": {
     "lemma": "in case",
@@ -2812,7 +2812,7 @@
       "grammar",
       "chunk"
     ],
-    "meaning": "～の場合に備えて、～だといけないので。"
+    "meaning": "～の場合に備えて"
   },
   "in connection with": {
     "lemma": "in connection with",
@@ -2824,7 +2824,7 @@
       "formal",
       "chunk"
     ],
-    "meaning": "～と関連して、～に関して。"
+    "meaning": "～に関連して"
   },
   "in fact": {
     "lemma": "in fact",
@@ -2836,7 +2836,7 @@
       "discourse",
       "chunk"
     ],
-    "meaning": "前の内容を訂正・強化する事実を導く。"
+    "meaning": "実際には／実は"
   },
   "in particular": {
     "lemma": "in particular",
@@ -2848,7 +2848,7 @@
       "formal",
       "chunk"
     ],
-    "meaning": "複数の中から一つを特に取り上げる。"
+    "meaning": "特に"
   },
   "in the vicinity": {
     "lemma": "in the vicinity",
@@ -2860,7 +2860,7 @@
       "formal",
       "chunk"
     ],
-    "meaning": "近くに、付近で。"
+    "meaning": "付近で／付近に"
   },
   "incredible": {
     "lemma": "incredible",
@@ -2880,7 +2880,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【形容詞】\n境界・値・状態が一つに定まらない。"
+    "meaning": "【形容詞】\n不確定の、はっきり決められない"
   },
   "inexperienced": {
     "lemma": "inexperienced",
@@ -2889,7 +2889,7 @@
     "coreMeaning": "必要な実地経験が十分でない。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n経験が不足している。"
+    "meaning": "【形容詞】\n経験の浅い"
   },
   "innocent": {
     "lemma": "innocent",
@@ -2900,7 +2900,7 @@
     "tags": [
       "legal"
     ],
-    "meaning": "【形容詞】\n犯罪・非難に関して責任がない。"
+    "meaning": "【形容詞】\n① 無実の\n② 罪のない"
   },
   "inquisition": {
     "lemma": "inquisition",
@@ -2924,7 +2924,7 @@
       "British English",
       "police"
     ],
-    "meaning": "【名詞】\n英国警察では Inspector は階級名。"
+    "meaning": "【名詞】\n① 警部\n② 検査官"
   },
   "inspiration": {
     "lemma": "inspiration",
@@ -2933,7 +2933,7 @@
     "coreMeaning": "何かを生み出す突然の着想。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\n創造的な刺激、良い考えを生むひらめき。"
+    "meaning": "【名詞】\nひらめき、良い思いつき"
   },
   "instability": {
     "lemma": "instability",
@@ -2957,7 +2957,7 @@
       "formal",
       "context"
     ],
-    "meaning": "【名詞】\nthe fifteenth instant の instant は「今月の」の古い商用・法務表現。"
+    "meaning": "【名詞】\n当月（文書日付表現）"
   },
   "instinct": {
     "lemma": "instinct",
@@ -2966,7 +2966,7 @@
     "coreMeaning": "論理的に考える前に自然に生じる判断・衝動。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\n本能、直感的な傾向。"
+    "meaning": "【名詞】\n直感、本能"
   },
   "interrogate": {
     "lemma": "interrogate",
@@ -2978,7 +2978,7 @@
       "police",
       "formal"
     ],
-    "meaning": "【動詞】\n情報を得るため正式・集中的に質問する。"
+    "meaning": "【動詞】\n尋問する"
   },
   "investigate": {
     "lemma": "investigate",
@@ -2989,7 +2989,7 @@
     "tags": [
       "crime"
     ],
-    "meaning": "【動詞】\n事実を明らかにするため体系的に調べる。"
+    "meaning": "【動詞】\n捜査する、調査する"
   },
   "it doesn’t matter": {
     "lemma": "it doesn’t matter",
@@ -3001,7 +3001,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "重要性がないことを表す。"
+    "meaning": "問題ではない／構わない"
   },
   "japs": {
     "lemma": "Japs",
@@ -3023,7 +3023,7 @@
     "coreMeaning": "大切な人・関係を他者に奪われる不安や羨望を感じる。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n大切な人・関係を他者に奪われる不安や羨望を感じる。"
+    "meaning": "【形容詞】\n嫉妬した"
   },
   "juicy": {
     "lemma": "juicy",
@@ -3046,7 +3046,7 @@
     "tags": [
       "informal"
     ],
-    "meaning": "【名詞】\n価値の低い不要品をまとめた口語。"
+    "meaning": "【名詞】\nがらくた"
   },
   "just": {
     "lemma": "just",
@@ -3057,7 +3057,7 @@
     "tags": [
       "context"
     ],
-    "meaning": "【副詞】\n時間・数量・一致などを「狭く限定する」のが中心。"
+    "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ"
   },
   "just after": {
     "lemma": "just after",
@@ -3069,7 +3069,7 @@
       "time",
       "chunk"
     ],
-    "meaning": "時間的にごく近い後を表す。"
+    "meaning": "～の直後に"
   },
   "just before": {
     "lemma": "just before",
@@ -3081,7 +3081,7 @@
       "time",
       "chunk"
     ],
-    "meaning": "時間的にごく近い前を表す。"
+    "meaning": "～の直前に"
   },
   "just in time": {
     "lemma": "just in time",
@@ -3093,7 +3093,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "手遅れになる直前に、ぎりぎり間に合って。"
+    "meaning": "ぎりぎり間に合って"
   },
   "just outside": {
     "lemma": "just outside",
@@ -3105,7 +3105,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "場所が境界のすぐ外側であること。"
+    "meaning": "すぐ外に"
   },
   "keep an eye on": {
     "lemma": "keep an eye on",
@@ -3117,7 +3117,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "人や物の様子を注意して見ておく、見守る。"
+    "meaning": "～を見張る／注意して見ておく"
   },
   "keep away from": {
     "lemma": "keep away from",
@@ -3129,7 +3129,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "距離を保ち、接触を避ける。"
+    "meaning": "～に近づかない"
   },
   "kindling": {
     "lemma": "kindling",
@@ -3140,7 +3140,7 @@
     "tags": [
       "household"
     ],
-    "meaning": "【名詞】\n火を起こすための細い木片など。"
+    "meaning": "【名詞】\nたきつけ"
   },
   "knowledgeable": {
     "lemma": "knowledgeable",
@@ -3149,7 +3149,7 @@
     "coreMeaning": "特定分野について十分な知識を持つ。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n特定分野について十分な知識を持つ。"
+    "meaning": "【形容詞】\n詳しい、知識のある"
   },
   "leave it to someone": {
     "lemma": "leave it to someone",
@@ -3161,7 +3161,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "仕事・判断を人に任せる。"
+    "meaning": "～を人に任せる"
   },
   "liar": {
     "lemma": "liar",
@@ -3170,7 +3170,7 @@
     "coreMeaning": "lie「嘘をつく」人。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\nlie「嘘をつく」人。"
+    "meaning": "【名詞】\n嘘をついた人"
   },
   "licence": {
     "lemma": "licence",
@@ -3182,7 +3182,7 @@
       "British English",
       "spelling"
     ],
-    "meaning": "【名詞】\nBritish noun spelling は licence（動詞は license）。"
+    "meaning": "【名詞】\n免許、許可証"
   },
   "lightish": {
     "lemma": "lightish",
@@ -3193,7 +3193,7 @@
     "tags": [
       "word formation"
     ],
-    "meaning": "【形容詞】\n① -ish が「～がかった\n② やや～」を表す"
+    "meaning": "【形容詞】\nやや明るい色の"
   },
   "like anything": {
     "lemma": "like anything",
@@ -3206,7 +3206,7 @@
       "informal",
       "chunk"
     ],
-    "meaning": "非常に激しく、ものすごく。"
+    "meaning": "ものすごく／ひどく"
   },
   "liquor": {
     "lemma": "liquor",
@@ -3215,7 +3215,7 @@
     "coreMeaning": "アルコール飲料、とくに蒸留酒など。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\nアルコール飲料、とくに蒸留酒など。"
+    "meaning": "【名詞】\n酒類"
   },
   "look after": {
     "lemma": "look after",
@@ -3227,7 +3227,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "人・物を安全な状態に保つよう世話する。"
+    "meaning": "～の世話をする"
   },
   "look as though": {
     "lemma": "look as though",
@@ -3239,7 +3239,7 @@
       "grammar",
       "chunk"
     ],
-    "meaning": "外見・状況から推測した印象を表す。"
+    "meaning": "まるで～のように見える"
   },
   "look into": {
     "lemma": "look into",
@@ -3252,7 +3252,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "物理的に中を見ることから、問題を調査する意味にもなる。"
+    "meaning": "調べる／中をのぞく"
   },
   "look out": {
     "lemma": "look out",
@@ -3265,7 +3265,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "外へ目を向けることから「注意する」にも発展。"
+    "meaning": "注意する／外を見る"
   },
   "look round": {
     "lemma": "look round",
@@ -3278,7 +3278,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "英国英語で look around と同様。"
+    "meaning": "見て回る／調べて回る"
   },
   "lord": {
     "lemma": "Lord",
@@ -3301,7 +3301,7 @@
     "tags": [
       "British English"
     ],
-    "meaning": "【名詞】\n旅行用の荷物・かばん類。"
+    "meaning": "【名詞】\n荷物、旅行かばん類"
   },
   "lunatic": {
     "lemma": "lunatic",
@@ -3325,7 +3325,7 @@
     "tags": [
       "literary"
     ],
-    "meaning": "【形容詞】\n死や恐怖を連想させる、不気味で陰惨な。"
+    "meaning": "【形容詞】\n死や恐怖を不気味に扱う、陰惨趣味の"
   },
   "mad as a hatter": {
     "lemma": "mad as a hatter",
@@ -3338,7 +3338,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "非常に常軌を逸している、ひどく風変わりである、という古い比喩表現。"
+    "meaning": "完全に正気でない、という古い誇張表現"
   },
   "magistrate": {
     "lemma": "magistrate",
@@ -3361,7 +3361,7 @@
     "tags": [
       "culture"
     ],
-    "meaning": "【名詞】\n赤褐色の高級木材マホガニー。"
+    "meaning": "【名詞】\nマホガニー材"
   },
   "make a go of it": {
     "lemma": "make a go of it",
@@ -3374,7 +3374,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "go を「成功する試み」の名詞として使う口語表現。"
+    "meaning": "うまくやり遂げる／成功させる"
   },
   "make it": {
     "lemma": "make it",
@@ -3386,7 +3386,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "目的地に到着する、成功する、間に合う。"
+    "meaning": "たどり着く／間に合う／成功する"
   },
   "make one’s face up": {
     "lemma": "make one’s face up",
@@ -3399,7 +3399,7 @@
       "British English",
       "chunk"
     ],
-    "meaning": "make up one’s face の語順変形。"
+    "meaning": "化粧する"
   },
   "make someone out": {
     "lemma": "make someone out",
@@ -3411,7 +3411,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "人の性格・意図・正体などを理解する、見抜く。"
+    "meaning": "人の正体・性格を理解する"
   },
   "makeup": {
     "lemma": "makeup",
@@ -3422,7 +3422,7 @@
     "tags": [
       "spelling"
     ],
-    "meaning": "【名詞】\n顔に施す化粧。"
+    "meaning": "【名詞】\n化粧"
   },
   "maniac": {
     "lemma": "maniac",
@@ -3446,7 +3446,7 @@
       "British English",
       "food"
     ],
-    "meaning": "【名詞】\n柑橘の皮を含む英国で典型的な保存食。"
+    "meaning": "【名詞】\nマーマレード"
   },
   "means of checking": {
     "lemma": "means of checking",
@@ -3458,7 +3458,7 @@
       "formal",
       "chunk"
     ],
-    "meaning": "情報が正しいかどうかを確認・検証する手段。"
+    "meaning": "確認する手段"
   },
   "medium height": {
     "lemma": "medium height",
@@ -3469,7 +3469,7 @@
     "tags": [
       "description"
     ],
-    "meaning": "人物描写の定型的な言い方。"
+    "meaning": "中くらいの身長"
   },
   "melodramatic": {
     "lemma": "melodramatic",
@@ -3478,7 +3478,7 @@
     "coreMeaning": "melodrama のように感情・危機を過度に強調する。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\nmelodrama のように感情・危機を過度に強調する。"
+    "meaning": "【形容詞】\n芝居がかった、大げさに劇的な"
   },
   "memsahibish": {
     "lemma": "Memsahibish",
@@ -3502,7 +3502,7 @@
     "tags": [
       "context"
     ],
-    "meaning": "【名詞】\n人の思考・心理的な傾向をまとめて指す。"
+    "meaning": "【名詞】\n精神傾向、考え方"
   },
   "merely": {
     "lemma": "merely",
@@ -3513,7 +3513,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【副詞】\n範囲を小さく限定する硬めの副詞。"
+    "meaning": "【副詞】\n単に～にすぎない"
   },
   "middle-aged": {
     "lemma": "middle-aged",
@@ -3522,7 +3522,7 @@
     "coreMeaning": "若年でも老年でもない年齢層。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n若年でも老年でもない年齢層。"
+    "meaning": "【形容詞】\n中年の"
   },
   "misapprehension": {
     "lemma": "misapprehension",
@@ -3533,7 +3533,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\n事実についての誤解、思い違い。"
+    "meaning": "【名詞】\n誤解、思い違い"
   },
   "misleading": {
     "lemma": "misleading",
@@ -3542,7 +3542,7 @@
     "coreMeaning": "事実と違う理解へ導きやすい。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n誤った印象や判断を与える、紛らわしい。"
+    "meaning": "【形容詞】\n誤解を招く"
   },
   "misunderstand": {
     "lemma": "misunderstand",
@@ -3551,7 +3551,7 @@
     "coreMeaning": "発言・状況を意図と違って理解する。",
     "forms": "misunderstand · misunderstood · misunderstood",
     "tags": [],
-    "meaning": "【動詞】\n発言・状況を意図と違って理解する。"
+    "meaning": "【動詞】\n誤解する"
   },
   "monstrous": {
     "lemma": "monstrous",
@@ -3575,7 +3575,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "厳密ではない程度・数量を表す。"
+    "meaning": "だいたい／ほぼ"
   },
   "motive": {
     "lemma": "motive",
@@ -3586,7 +3586,7 @@
     "tags": [
       "crime"
     ],
-    "meaning": "【名詞】\n行為、特に犯罪を起こす理由。"
+    "meaning": "【名詞】\n動機"
   },
   "much of an age": {
     "lemma": "much of an age",
@@ -3599,7 +3599,7 @@
       "dated",
       "chunk"
     ],
-    "meaning": "of an age「同じくらいの年齢」の強調。"
+    "meaning": "ほぼ同年齢で"
   },
   "muffler": {
     "lemma": "muffler",
@@ -3611,7 +3611,7 @@
       "dated",
       "clothing"
     ],
-    "meaning": "【名詞】\n首や顔の周りに巻いて防寒する厚手のスカーフ。"
+    "meaning": "【名詞】\nマフラー、襟巻き"
   },
   "mug": {
     "lemma": "mug",
@@ -3645,7 +3645,7 @@
     "tags": [
       "crime"
     ],
-    "meaning": "【名詞】\n殺人を犯した人。"
+    "meaning": "【名詞】\n殺人犯"
   },
   "murderess": {
     "lemma": "murderess",
@@ -3669,7 +3669,7 @@
     "tags": [
       "food"
     ],
-    "meaning": "【名詞】\n香辛料・調味料。"
+    "meaning": "【名詞】\nマスタード、からし"
   },
   "near shave": {
     "lemma": "near shave",
@@ -3682,7 +3682,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "shave「かすめるほど近い」から、危機一髪。"
+    "meaning": "危うく難を逃れること"
   },
   "nervy": {
     "lemma": "nervy",
@@ -3703,7 +3703,7 @@
     "coreMeaning": "wire/thread を網目状にした材料。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\n網状の材料、ネット。"
+    "meaning": "【名詞】\n網、ネット状の材料"
   },
   "neurotic": {
     "lemma": "neurotic",
@@ -3726,7 +3726,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【副詞】\n前の事実を認めつつ反対方向の内容を続ける硬い接続副詞。"
+    "meaning": "【副詞】\nそれにもかかわらず"
   },
   "newspaper": {
     "lemma": "newspaper",
@@ -3758,7 +3758,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "good を「効用」の意味で使う定型表現。"
+    "meaning": "役に立たない／無駄だ"
   },
   "no hurry": {
     "lemma": "no hurry",
@@ -3783,7 +3783,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "business を「個人的な事柄」の意味で使う強い拒絶。"
+    "meaning": "あなたには関係ない／余計なお世話だ"
   },
   "not in the least": {
     "lemma": "not in the least",
@@ -3795,7 +3795,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "少しも～ない、全く～ない。"
+    "meaning": "少しも～ない／全然構わない"
   },
   "not necessarily": {
     "lemma": "not necessarily",
@@ -3807,7 +3807,7 @@
       "grammar",
       "chunk"
     ],
-    "meaning": "命題全体を部分否定する。"
+    "meaning": "必ずしもそうではない"
   },
   "notebook": {
     "lemma": "notebook",
@@ -3818,7 +3818,7 @@
     "tags": [
       "context"
     ],
-    "meaning": "【名詞】\n劇中では捜査上の手がかりとなる小型のノート。"
+    "meaning": "【名詞】\n手帳、ノート"
   },
   "nowadays": {
     "lemma": "nowadays",
@@ -3827,7 +3827,7 @@
     "coreMeaning": "過去と対比して「現代では」。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【副詞】\n過去と対比して「現代では」。"
+    "meaning": "【副詞】\n今日では"
   },
   "nuisance": {
     "lemma": "nuisance",
@@ -3836,7 +3836,7 @@
     "coreMeaning": "人・物が継続的に迷惑や不便を生むこと。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\n迷惑な人・物・状況、厄介事。"
+    "meaning": "【名詞】\n厄介者、迷惑"
   },
   "nursery rhyme": {
     "lemma": "nursery rhyme",
@@ -3849,7 +3849,7 @@
       "culture",
       "chunk"
     ],
-    "meaning": "幼児向けに伝承される短い童謡・韻文。"
+    "meaning": "童謡／わらべ歌"
   },
   "obligation": {
     "lemma": "obligation",
@@ -3884,7 +3884,7 @@
       "dated",
       "chunk"
     ],
-    "meaning": "重要でない、問題にならない。"
+    "meaning": "重要ではない／問題にならない"
   },
   "offended": {
     "lemma": "offended",
@@ -3893,7 +3893,7 @@
     "coreMeaning": "offend「不快・侮辱を与える」の受動的状態。",
     "forms": "offend · offended · offended",
     "tags": [],
-    "meaning": "【形容詞】\noffend「不快・侮辱を与える」の受動的状態。"
+    "meaning": "【形容詞】\n気分を害した"
   },
   "offhand": {
     "lemma": "offhand",
@@ -3917,7 +3917,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "何度も繰り返されて新鮮味を失った話・冗談・考え。"
+    "meaning": "使い古された話・手口"
   },
   "omelette": {
     "lemma": "omelette",
@@ -3941,7 +3941,7 @@
       "military",
       "chunk"
     ],
-    "meaning": "職務・軍務などから許可された休暇中で。"
+    "meaning": "休暇中で"
   },
   "on one’s way": {
     "lemma": "on one’s way",
@@ -3953,7 +3953,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "目的地へ移動中であることを表す。"
+    "meaning": "向かっている途中で"
   },
   "on the spot": {
     "lemma": "on the spot",
@@ -3965,7 +3965,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "その場で、現場に；即座に。"
+    "meaning": "現場に／その場に"
   },
   "on tiptoe": {
     "lemma": "on tiptoe",
@@ -3977,7 +3977,7 @@
       "collocation",
       "chunk"
     ],
-    "meaning": "tiptoe「つま先」で静かに動く。"
+    "meaning": "つま先立ちで／足音を忍ばせて"
   },
   "on top of": {
     "lemma": "on top of",
@@ -3989,7 +3989,7 @@
       "grammar",
       "chunk"
     ],
-    "meaning": "物理的な上面・最上部を表す。"
+    "meaning": "～の上に"
   },
   "one step ahead of": {
     "lemma": "one step ahead of",
@@ -4001,7 +4001,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "相手の次の行動を先読みしている状態。"
+    "meaning": "～より一歩先を行って"
   },
   "only just": {
     "lemma": "only just",
@@ -4013,7 +4013,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "時間的な「つい今」と程度の「ぎりぎり」の二用法がある。"
+    "meaning": "つい～したばかり／かろうじて"
   },
   "opportunity": {
     "lemma": "opportunity",
@@ -4036,7 +4036,7 @@
     "tags": [
       "grammar"
     ],
-    "meaning": "【副詞・接続的表現】\nそうでなければ、それ以外の点では。"
+    "meaning": "【副詞・接続的表現】\n① そうでなければ\n② 別の仕方で"
   },
   "ought to": {
     "lemma": "ought to",
@@ -4048,7 +4048,7 @@
       "grammar",
       "chunk"
     ],
-    "meaning": "～すべきだ、～のはずだ。"
+    "meaning": "～すべきだ／～のはずだ"
   },
   "out of the blue": {
     "lemma": "out of the blue",
@@ -4060,7 +4060,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "まったく予期せず、突然。"
+    "meaning": "突然、思いがけず"
   },
   "out-of-doors life": {
     "lemma": "out-of-doors life",
@@ -4073,7 +4073,7 @@
       "British English",
       "chunk"
     ],
-    "meaning": "out-of-doors は古めの「屋外での」。"
+    "meaning": "戸外中心の生活"
   },
   "outrageous": {
     "lemma": "outrageous",
@@ -4082,7 +4082,7 @@
     "coreMeaning": "常識・礼儀の限度を超えて許しがたい。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n常識・礼儀の限度を超えて許しがたい。"
+    "meaning": "【形容詞】\nとんでもない、ひどく不当な"
   },
   "overcoat": {
     "lemma": "overcoat",
@@ -4093,7 +4093,7 @@
     "tags": [
       "clothing"
     ],
-    "meaning": "【名詞】\n衣服の上に着る厚手の外套・コート。"
+    "meaning": "【名詞】\nオーバーコート、厚手の外套"
   },
   "parlour": {
     "lemma": "parlour",
@@ -4115,7 +4115,7 @@
     "coreMeaning": "複数候補の中から一部を強く限定する。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【副詞】\n特に、とりわけ。"
+    "meaning": "【副詞】\n特に、とりわけ"
   },
   "passage": {
     "lemma": "passage",
@@ -4136,7 +4136,7 @@
     "coreMeaning": "国際渡航時の本人・国籍証明書。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\n国際渡航時の本人・国籍証明書。"
+    "meaning": "【名詞】\n旅券、パスポート"
   },
   "pay attention": {
     "lemma": "pay attention",
@@ -4148,7 +4148,7 @@
       "collocation",
       "chunk"
     ],
-    "meaning": "意識をある対象へ集中する定型表現。"
+    "meaning": "注意を向ける"
   },
   "peculiar": {
     "lemma": "peculiar",
@@ -4182,7 +4182,7 @@
       "dated",
       "formal"
     ],
-    "meaning": "【名詞】\n永続すること、恒久性。"
+    "meaning": "【名詞】\n永続性、定住性"
   },
   "permanent": {
     "lemma": "permanent",
@@ -4191,7 +4191,7 @@
     "coreMeaning": "一時的ではなく長期間続く。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n一時的ではなく長期間続く。"
+    "meaning": "【形容詞】\n恒久的な"
   },
   "persecution": {
     "lemma": "persecution",
@@ -4202,7 +4202,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\n人を繰り返し不当に苦しめたり迫害したりすること。"
+    "meaning": "【名詞】\n迫害"
   },
   "persistent ill-treatment": {
     "lemma": "persistent ill-treatment",
@@ -4214,7 +4214,7 @@
       "legal",
       "formal"
     ],
-    "meaning": "継続的・反復的な虐待やひどい扱い。"
+    "meaning": "継続的な虐待"
   },
   "personal": {
     "lemma": "personal",
@@ -4223,7 +4223,7 @@
     "coreMeaning": "公的・一般的ではなく本人に直接関係する。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n公的・一般的ではなく本人に直接関係する。"
+    "meaning": "【形容詞】\n個人的な"
   },
   "pick up": {
     "lemma": "pick up",
@@ -4236,7 +4236,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "下から手元へ取る。文脈により電話・情報などにも拡張。"
+    "meaning": "拾う／手に取る"
   },
   "pinch": {
     "lemma": "pinch",
@@ -4260,7 +4260,7 @@
     "tags": [
       "medical"
     ],
-    "meaning": "【名詞】\n肺に炎症が起きる病気。"
+    "meaning": "【名詞】\n肺炎"
   },
   "point to": {
     "lemma": "point to",
@@ -4273,7 +4273,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "証拠・状況がある結論の方向を示す。"
+    "meaning": "～を示唆する／～を指し示す"
   },
   "policeman": {
     "lemma": "policeman",
@@ -4296,7 +4296,7 @@
     "tags": [
       "news"
     ],
-    "meaning": "政治制度・政府などに関する重大な危機。"
+    "meaning": "政治危機"
   },
   "poor relation": {
     "lemma": "poor relation",
@@ -4309,7 +4309,7 @@
       "British English",
       "chunk"
     ],
-    "meaning": "裕福な親族に比べて経済的に恵まれず、低く扱われがちな親戚。"
+    "meaning": "居候同然の貧しい親類"
   },
   "position": {
     "lemma": "position",
@@ -4350,7 +4350,7 @@
     "coreMeaning": "曖昧さ・誤差が少なく特定されている。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n曖昧さ・誤差が少なく特定されている。"
+    "meaning": "【形容詞】\n正確な"
   },
   "predicament": {
     "lemma": "predicament",
@@ -4361,7 +4361,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\n簡単には抜け出せない厄介な状況。"
+    "meaning": "【名詞】\n苦境、困った状況"
   },
   "present": {
     "lemma": "present",
@@ -4394,7 +4394,7 @@
     "tags": [
       "context"
     ],
-    "meaning": "他人が介入すべきでない本人だけの問題。"
+    "meaning": "個人的な事柄"
   },
   "profession": {
     "lemma": "profession",
@@ -4426,7 +4426,7 @@
     "coreMeaning": "子ども・作品などを多数生み出す性質。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n多くの作品・成果・子孫などを生み出す、多産な。"
+    "meaning": "【形容詞】\n① 多産な\n② 非常に多く生み出す"
   },
   "propose": {
     "lemma": "propose",
@@ -4451,7 +4451,7 @@
       "formal",
       "chunk"
     ],
-    "meaning": "今後被害者になる可能性があると見込まれる人。"
+    "meaning": "次の被害者になり得る人"
   },
   "protection": {
     "lemma": "protection",
@@ -4460,7 +4460,7 @@
     "coreMeaning": "危険・害を防いで守ること。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\n危険・害を防いで守ること。"
+    "meaning": "【名詞】\n保護"
   },
   "provisions": {
     "lemma": "provisions",
@@ -4472,7 +4472,7 @@
       "formal",
       "British English"
     ],
-    "meaning": "【名詞】\n特に旅行・非常時に備えた食料や物資。"
+    "meaning": "【名詞】\n食料・備蓄品"
   },
   "psychiatrist": {
     "lemma": "psychiatrist",
@@ -4483,7 +4483,7 @@
     "tags": [
       "medical"
     ],
-    "meaning": "【名詞】\n精神疾患の診断・治療を行う医師。"
+    "meaning": "【名詞】\n精神科医"
   },
   "psychologist": {
     "lemma": "psychologist",
@@ -4506,7 +4506,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "物を脇へ置いて後回しにする；時間・金などを取っておく。"
+    "meaning": "脇に置く／後回しにする"
   },
   "put down": {
     "lemma": "put down",
@@ -4544,7 +4544,7 @@
       "formal",
       "chunk"
     ],
-    "meaning": "内容を明確な言葉にして提示する。"
+    "meaning": "はっきり言えば"
   },
   "put on": {
     "lemma": "put on",
@@ -4593,7 +4593,7 @@
       "British English",
       "context"
     ],
-    "meaning": "【副詞】\nBritish English では形容詞によって「かなり」と「完全に」の両方を取る。"
+    "meaning": "【副詞】\n① かなり\n② 完全に"
   },
   "radiator": {
     "lemma": "radiator",
@@ -4602,7 +4602,7 @@
     "coreMeaning": "温水・蒸気などで室内を暖める装置。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\n温水・蒸気などで室内を暖める装置。"
+    "meaning": "【名詞】\n暖房用ラジエーター"
   },
   "raise our terms": {
     "lemma": "raise our terms",
@@ -4628,7 +4628,7 @@
       "British English",
       "context"
     ],
-    "meaning": "【副詞】\nBritish English で程度を控えめに強めることが多い。"
+    "meaning": "【副詞】\n① やや\n② かなり\n③ むしろ"
   },
   "ration book": {
     "lemma": "ration book",
@@ -4640,7 +4640,7 @@
       "British English",
       "historical"
     ],
-    "meaning": "戦後英国の配給制度で食品等を受け取るための冊子。"
+    "meaning": "配給手帳"
   },
   "reassure": {
     "lemma": "reassure",
@@ -4649,7 +4649,7 @@
     "coreMeaning": "不安・疑念を減らして安心させる。",
     "forms": "reassure · reassured · reassured",
     "tags": [],
-    "meaning": "【動詞】\n不安・疑念を減らして安心させる。"
+    "meaning": "【動詞】\n① 安心させる\n② 信用を裏づける"
   },
   "recognize": {
     "lemma": "recognize",
@@ -4660,7 +4660,7 @@
     "tags": [
       "spelling"
     ],
-    "meaning": "【動詞】\n以前の記憶と現在の人・物を一致させる。"
+    "meaning": "【動詞】\n見分ける、誰だと気づく"
   },
   "reconstruction": {
     "lemma": "reconstruction",
@@ -4672,7 +4672,7 @@
       "formal",
       "crime"
     ],
-    "meaning": "【名詞】\n過去の出来事を証拠・行動から組み立て直すこと。"
+    "meaning": "【名詞】\n再現、再構成"
   },
   "reconstruction of the crime": {
     "lemma": "reconstruction of the crime",
@@ -4685,7 +4685,7 @@
       "formal",
       "chunk"
     ],
-    "meaning": "捜査で事件時の行動を再現すること。"
+    "meaning": "犯行状況の再現"
   },
   "regulation": {
     "lemma": "regulation",
@@ -4696,7 +4696,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\n組織・制度が正式に定めたルール。"
+    "meaning": "【名詞】\n規則、規定"
   },
   "reinforcement": {
     "lemma": "reinforcement",
@@ -4731,7 +4731,7 @@
       "legal",
       "context"
     ],
-    "meaning": "【動詞】\n拘束・制限から自由にする。"
+    "meaning": "【動詞】\n① 釈放する\n② 解放する"
   },
   "reliance": {
     "lemma": "reliance",
@@ -4754,7 +4754,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "任務先から上司などへ結果を報告する。"
+    "meaning": "報告を返す"
   },
   "reproach": {
     "lemma": "reproach",
@@ -4765,7 +4765,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\n相手の失敗・非をとがめること。"
+    "meaning": "【名詞】\n非難、責め"
   },
   "reproduce": {
     "lemma": "reproduce",
@@ -4776,7 +4776,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【動詞】\n元の出来事・状態をもう一度同じように作る。"
+    "meaning": "【動詞】\n再現する、再び作り出す"
   },
   "reserve": {
     "lemma": "reserve",
@@ -4787,7 +4787,7 @@
     "tags": [
       "context"
     ],
-    "meaning": "【名詞】\n必要時に使うため取っておくもの。"
+    "meaning": "【名詞】\n備蓄、予備"
   },
   "respectability": {
     "lemma": "respectability",
@@ -4808,7 +4808,7 @@
     "coreMeaning": "職務・軍務から正式に引退した。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n仕事・職務から退職した。"
+    "meaning": "【形容詞】\n① 退役した\n② 退職した"
   },
   "revenge": {
     "lemma": "revenge",
@@ -4817,7 +4817,7 @@
     "coreMeaning": "受けた害に対して仕返しをしようとすること。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\n受けた害に対して仕返しをしようとすること。"
+    "meaning": "【名詞】\n復讐"
   },
   "revolver": {
     "lemma": "revolver",
@@ -4841,7 +4841,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "英国英語で特に普通の「電話する」。"
+    "meaning": "電話をかける"
   },
   "rouge": {
     "lemma": "rouge",
@@ -4865,7 +4865,7 @@
       "informal",
       "dated"
     ],
-    "meaning": "【形容詞】\n英国口語で bloody を弱めたような強調・悪態。"
+    "meaning": "【形容詞】\n① いまいましい\n② ひどい（婉曲強調）"
   },
   "run into a drift": {
     "lemma": "run into a drift",
@@ -4891,7 +4891,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "すでに通常営業している事業・企業。"
+    "meaning": "営業中の事業／実際に稼働している施設"
   },
   "sadistic": {
     "lemma": "sadistic",
@@ -4903,7 +4903,7 @@
       "psychology",
       "context"
     ],
-    "meaning": "【形容詞】\n他人の苦痛・屈辱を楽しむ性質を持つ、加虐的な。"
+    "meaning": "【形容詞】\n加虐的な"
   },
   "safety measure": {
     "lemma": "safety measure",
@@ -4915,7 +4915,7 @@
       "collocation",
       "chunk"
     ],
-    "meaning": "危険や事故を防ぐために取る予防措置。"
+    "meaning": "安全策／予防措置"
   },
   "satisfactory": {
     "lemma": "satisfactory",
@@ -4924,7 +4924,7 @@
     "coreMeaning": "要求・基準を満たしている。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n要求・基準を満たしている。"
+    "meaning": "【形容詞】\n① 満足できる\n② 問題ない"
   },
   "schizophrenic": {
     "lemma": "schizophrenic",
@@ -4947,7 +4947,7 @@
     "tags": [
       "food"
     ],
-    "meaning": "溶いた卵を混ぜながら加熱した料理。"
+    "meaning": "スクランブルエッグ"
   },
   "sedative": {
     "lemma": "sedative",
@@ -4958,7 +4958,7 @@
     "tags": [
       "medical"
     ],
-    "meaning": "【名詞】\n興奮・不安を抑え、眠気を促すこともある薬。"
+    "meaning": "【名詞】\n鎮静剤"
   },
   "see to": {
     "lemma": "see to",
@@ -4970,7 +4970,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "必要なことを確実に行う。"
+    "meaning": "～を処理する／面倒を見る"
   },
   "sensation": {
     "lemma": "sensation",
@@ -4981,7 +4981,7 @@
     "tags": [
       "context"
     ],
-    "meaning": "【名詞】\n劇中では人々の注目を集める「大事件・評判」の意味になり得る。"
+    "meaning": "【名詞】\n① 大評判\n② 強い感覚"
   },
   "sentence": {
     "lemma": "sentence",
@@ -5005,7 +5005,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "悪い結果を受けても自業自得だ。"
+    "meaning": "～には当然の報いだ／いい気味だ"
   },
   "set to": {
     "lemma": "set to",
@@ -5018,7 +5018,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "仕事などに勢いよく取りかかる。"
+    "meaning": "本腰を入れて取りかかる"
   },
   "settle one’s own affairs": {
     "lemma": "settle one’s own affairs",
@@ -5030,7 +5030,7 @@
       "formal",
       "chunk"
     ],
-    "meaning": "affairs は個人の事情・生活上の事柄。"
+    "meaning": "自分のことを自分で決める／処理する"
   },
   "shan’t": {
     "lemma": "shan’t",
@@ -5055,7 +5055,7 @@
       "collocation",
       "chunk"
     ],
-    "meaning": "shrewd は判断が鋭く、根拠のある見当を表す。"
+    "meaning": "かなり鋭い疑い／有力な見当"
   },
   "sideboard": {
     "lemma": "sideboard",
@@ -5066,7 +5066,7 @@
     "tags": [
       "furniture"
     ],
-    "meaning": "【名詞】\n食器などを収納する、食堂に置く横長の戸棚。"
+    "meaning": "【名詞】\nサイドボード、食器棚兼配膳台"
   },
   "signature": {
     "lemma": "signature",
@@ -5077,7 +5077,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\n本人が自分の名前を書き、文書の真正性を示すもの。"
+    "meaning": "【名詞】\n署名"
   },
   "singularly": {
     "lemma": "singularly",
@@ -5089,7 +5089,7 @@
       "dated",
       "formal"
     ],
-    "meaning": "【副詞】\nsingular「並外れた」から、程度が目立っていることを示す古めの副詞。"
+    "meaning": "【副詞】\n① 非常に\n② 妙に"
   },
   "skid": {
     "lemma": "skid",
@@ -5111,7 +5111,7 @@
     "tags": [
       "weather"
     ],
-    "meaning": "【名詞】\n風で吹き寄せられてできた雪の吹きだまり。"
+    "meaning": "【名詞】\n雪の吹きだまり"
   },
   "snowed up": {
     "lemma": "snowed up",
@@ -5124,7 +5124,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "大雪で道路や建物がふさがれ、移動できない。"
+    "meaning": "雪で閉じ込められた／交通が遮断された"
   },
   "so long as": {
     "lemma": "so long as",
@@ -5136,7 +5136,7 @@
       "grammar",
       "chunk"
     ],
-    "meaning": "～である限り、～さえすれば。"
+    "meaning": "～である限り／～さえすれば"
   },
   "social reference": {
     "lemma": "social reference",
@@ -5148,7 +5148,7 @@
       "dated",
       "formal"
     ],
-    "meaning": "人物の信用・身元を第三者が保証するための reference。"
+    "meaning": "社会的身元を保証する推薦・照会先"
   },
   "solicitor": {
     "lemma": "solicitor",
@@ -5181,7 +5181,7 @@
       "collocation",
       "chunk"
     ],
-    "meaning": "truth と speak の定型的結びつき。"
+    "meaning": "真実を言う"
   },
   "speak up": {
     "lemma": "speak up",
@@ -5193,7 +5193,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "はっきり発言する、情報や意見を申し出る；より大きな声で話す。"
+    "meaning": "はっきり言う／声を上げる"
   },
   "specification": {
     "lemma": "specification",
@@ -5216,7 +5216,7 @@
     "tags": [
       "food"
     ],
-    "meaning": "【名詞】\n葉物野菜。"
+    "meaning": "【名詞】\nほうれん草"
   },
   "spiv": {
     "lemma": "spiv",
@@ -5229,7 +5229,7 @@
       "dated",
       "informal"
     ],
-    "meaning": "【名詞】\n闇取引などで稼ぐ、派手で信用しにくい男を指した英国の古い口語。"
+    "meaning": "【名詞】\nいかがわしい闇商人風の男"
   },
   "sporting": {
     "lemma": "sporting",
@@ -5253,7 +5253,7 @@
       "British English",
       "dated"
     ],
-    "meaning": "tackle を「用具一式」の意味で使う古めの表現。"
+    "meaning": "スポーツ用具"
   },
   "staff": {
     "lemma": "staff",
@@ -5262,7 +5262,7 @@
     "coreMeaning": "組織で働く人々を集合的に指す。",
     "forms": "集合名詞",
     "tags": [],
-    "meaning": "【名詞】\n組織・施設で働く職員・従業員の集団。"
+    "meaning": "【名詞】\n職員、従業員"
   },
   "stagger": {
     "lemma": "stagger",
@@ -5282,7 +5282,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\n食物不足で生命・健康が脅かされる状態。"
+    "meaning": "【名詞】\n飢餓"
   },
   "starve": {
     "lemma": "starve",
@@ -5291,7 +5291,7 @@
     "coreMeaning": "食物を十分に得られない状態にする・なる。",
     "forms": "starve · starved · starved",
     "tags": [],
-    "meaning": "【動詞】\n食物を十分に得られない状態にする・なる。"
+    "meaning": "【動詞】\n① 飢えさせる\n② 飢える"
   },
   "statement": {
     "lemma": "statement",
@@ -5303,7 +5303,7 @@
       "police",
       "formal"
     ],
-    "meaning": "【名詞】\n警察文脈では本人が事実関係を述べた記録・内容。"
+    "meaning": "【名詞】\n供述、陳述"
   },
   "station": {
     "lemma": "station",
@@ -5323,7 +5323,7 @@
     "coreMeaning": "態度・表情が厳しく、甘さがない。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n厳格な、厳しい、険しい。"
+    "meaning": "【形容詞】\n厳格な、いかめしい"
   },
   "stick it out": {
     "lemma": "stick it out",
@@ -5336,7 +5336,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "困難な状況を途中で逃げず最後まで耐え抜く。"
+    "meaning": "最後まで耐え抜く"
   },
   "stockbroker": {
     "lemma": "stockbroker",
@@ -5347,7 +5347,7 @@
     "tags": [
       "finance"
     ],
-    "meaning": "【名詞】\n顧客のため株式などの売買を仲介する職業。"
+    "meaning": "【名詞】\n株式仲買人、証券ブローカー"
   },
   "stoke": {
     "lemma": "stoke",
@@ -5358,7 +5358,7 @@
     "tags": [
       "household"
     ],
-    "meaning": "【動詞】\n炉・火に燃料を足して燃焼を保つ。"
+    "meaning": "【動詞】\n燃料を足して火を保つ"
   },
   "stoke the aga": {
     "lemma": "stoke the Aga",
@@ -5371,7 +5371,7 @@
       "culture",
       "chunk"
     ],
-    "meaning": "Aga は英国で知られる蓄熱式レンジ。stoke は燃料を足して火力を保つ。"
+    "meaning": "Agaの火をたく／燃料を足す"
   },
   "stranger": {
     "lemma": "stranger",
@@ -5380,7 +5380,7 @@
     "coreMeaning": "面識がなく正体をよく知らない人。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\n面識がなく正体をよく知らない人。"
+    "meaning": "【名詞】\n見知らぬ人"
   },
   "strangle": {
     "lemma": "strangle",
@@ -5391,7 +5391,7 @@
     "tags": [
       "crime"
     ],
-    "meaning": "【動詞】\n首を締めて呼吸できなくする。"
+    "meaning": "【動詞】\n① 絞殺する\n② 首を絞めて殺す"
   },
   "strictly": {
     "lemma": "strictly",
@@ -5400,7 +5400,7 @@
     "coreMeaning": "規則・範囲を厳しく限定する。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【副詞】\n規則・範囲を厳しく限定する。"
+    "meaning": "【副詞】\n① 厳密に\n② 完全に"
   },
   "stupendous": {
     "lemma": "stupendous",
@@ -5411,7 +5411,7 @@
     "tags": [
       "dramatic"
     ],
-    "meaning": "【形容詞】\n非常に大きい・すばらしい、驚くほどの。"
+    "meaning": "【形容詞】\n途方もない、ものすごい"
   },
   "subsequently": {
     "lemma": "subsequently",
@@ -5422,7 +5422,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【副詞】\n時間順序で、前の出来事より後に。"
+    "meaning": "【副詞】\nその後"
   },
   "such as": {
     "lemma": "such as",
@@ -5434,7 +5434,7 @@
       "grammar",
       "chunk"
     ],
-    "meaning": "例を挙げる定型表現。"
+    "meaning": "例えば～のような"
   },
   "superintendent": {
     "lemma": "superintendent",
@@ -5446,7 +5446,7 @@
       "British English",
       "police"
     ],
-    "meaning": "【名詞】\n英国警察では階級名 Superintendent。"
+    "meaning": "【名詞】\n① 警視級の警察幹部\n② 管理責任者"
   },
   "surmise": {
     "lemma": "surmise",
@@ -5457,7 +5457,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\n十分な証拠なしに行う推測・推量。"
+    "meaning": "【名詞】\n推測"
   },
   "suspicion": {
     "lemma": "suspicion",
@@ -5468,7 +5468,7 @@
     "tags": [
       "crime"
     ],
-    "meaning": "【名詞】\n十分な証拠はないが悪い可能性を疑うこと。"
+    "meaning": "【名詞】\n疑い"
   },
   "suspicious": {
     "lemma": "suspicious",
@@ -5499,7 +5499,7 @@
     "tags": [
       "house"
     ],
-    "meaning": "蝶番で前後に押して開けられる扉。"
+    "meaning": "スイングドア、両方向に開く扉"
   },
   "switch off": {
     "lemma": "switch off",
@@ -5511,7 +5511,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "装置の作動を止める。"
+    "meaning": "スイッチを切る"
   },
   "sympathetic": {
     "lemma": "sympathetic",
@@ -5529,7 +5529,7 @@
     "coreMeaning": "他人の苦しみ・感情を理解し気の毒に思うこと。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\n他人の苦しみ・感情を理解し気の毒に思うこと。"
+    "meaning": "【名詞】\n同情、共感"
   },
   "tactics": {
     "lemma": "tactics",
@@ -5549,7 +5549,7 @@
     "coreMeaning": "相手の気持ちへの配慮(tact)がない。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n相手の気持ちへの配慮(tact)がない。"
+    "meaning": "【形容詞】\n無神経な、気が利かない"
   },
   "take away from": {
     "lemma": "take away from",
@@ -5561,7 +5561,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "ある場所・人から離す。"
+    "meaning": "～から連れ去る／取り上げる"
   },
   "take every eventuality into account": {
     "lemma": "take every eventuality into account",
@@ -5574,7 +5574,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "起こり得るあらゆる事態・可能性を考慮に入れる。"
+    "meaning": "あらゆる可能性を考慮に入れる"
   },
   "take measures": {
     "lemma": "take measures",
@@ -5587,7 +5587,7 @@
       "collocation",
       "chunk"
     ],
-    "meaning": "目的のために必要な措置・対策を取る。"
+    "meaning": "措置を講じる"
   },
   "take one back to": {
     "lemma": "take one back to",
@@ -5611,7 +5611,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "急がず時間をかける。文脈によっては必要以上に時間をかけることを含意する。"
+    "meaning": "時間をかける／ゆっくりやる"
   },
   "take place": {
     "lemma": "take place",
@@ -5623,7 +5623,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "出来事が「場所を占めて成立する」→起こる。"
+    "meaning": "起こる、行われる"
   },
   "take someone’s place": {
     "lemma": "take someone’s place",
@@ -5635,7 +5635,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "人の占めていた役割・位置に入る。"
+    "meaning": "～の代わりを務める"
   },
   "terms": {
     "lemma": "terms",
@@ -5658,7 +5658,7 @@
     "tags": [
       "informal"
     ],
-    "meaning": "【副詞】\n非常に、ものすごく。"
+    "meaning": "【副詞】\nものすごく、とても"
   },
   "thaw out": {
     "lemma": "thaw out",
@@ -5670,7 +5670,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "凍った物を解かす・解ける。冷えた体を温める。"
+    "meaning": "体を温めて凍えを取る／解凍する"
   },
   "thereabouts": {
     "lemma": "thereabouts",
@@ -5681,7 +5681,7 @@
     "tags": [
       "British English"
     ],
-    "meaning": "【副詞】\n時間・数量・場所が厳密でない近辺。"
+    "meaning": "【副詞】\nそのくらい、その辺り"
   },
   "think it out": {
     "lemma": "think it out",
@@ -5693,7 +5693,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "out が「最後まで」の意味を加える。"
+    "meaning": "よく考えて答えを出す"
   },
   "thoroughly": {
     "lemma": "thoroughly",
@@ -5702,7 +5702,7 @@
     "coreMeaning": "細部まで十分に。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【副詞】\n完全に、徹底的に、十分に。"
+    "meaning": "【副詞】\n徹底的に、すっかり"
   },
   "thrill": {
     "lemma": "thrill",
@@ -5711,7 +5711,7 @@
     "coreMeaning": "興奮・スリルを感じさせること。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\n興奮・スリルを感じさせること。"
+    "meaning": "【名詞】\nわくわくする刺激"
   },
   "to this effect": {
     "lemma": "to this effect",
@@ -5723,7 +5723,7 @@
       "formal",
       "chunk"
     ],
-    "meaning": "このような内容・趣旨で。"
+    "meaning": "この趣旨の／このような内容の"
   },
   "tough": {
     "lemma": "tough",
@@ -5743,7 +5743,7 @@
     "tags": [
       "police"
     ],
-    "meaning": "【動詞】\n手がかりをたどって人・物・原因を見つける。"
+    "meaning": "【動詞】\n所在・経路を追跡する"
   },
   "trapdoor": {
     "lemma": "trapdoor",
@@ -5754,7 +5754,7 @@
     "tags": [
       "house"
     ],
-    "meaning": "【名詞】\n床面などに水平に設けられた小さな扉。"
+    "meaning": "【名詞】\n床・天井の開閉式扉"
   },
   "travel light": {
     "lemma": "travel light",
@@ -5766,7 +5766,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "旅行の荷物を少なくする。"
+    "meaning": "荷物を少なくして旅行する"
   },
   "trek": {
     "lemma": "trek",
@@ -5788,7 +5788,7 @@
     "tags": [
       "music"
     ],
-    "meaning": "【名詞】\n歌詞とは別のメロディー部分。"
+    "meaning": "【名詞】\n旋律、曲"
   },
   "turn out": {
     "lemma": "turn out",
@@ -5800,7 +5800,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "外へ出す、追い出す。結果的に～になる、判明する。"
+    "meaning": "結局～だと分かる／結果として～になる"
   },
   "turn someone out": {
     "lemma": "turn someone out",
@@ -5824,7 +5824,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "予定外・突然に姿を現す。"
+    "meaning": "現れる／到着する"
   },
   "twerp": {
     "lemma": "twerp",
@@ -5836,7 +5836,7 @@
       "British English",
       "informal"
     ],
-    "meaning": "【名詞】\nくだらない人、間抜けな人を指す軽い侮辱語。"
+    "meaning": "【名詞】\nばか、間抜け"
   },
   "twirl": {
     "lemma": "twirl",
@@ -5845,7 +5845,7 @@
     "coreMeaning": "指などで細い物を回転させる。",
     "forms": "twirl · twirled · twirled",
     "tags": [],
-    "meaning": "【動詞】\n指などで細い物を回転させる。"
+    "meaning": "【動詞】\nくるくる回す"
   },
   "tête-à-tête": {
     "lemma": "tête-à-tête",
@@ -5857,7 +5857,7 @@
       "French loan",
       "formal"
     ],
-    "meaning": "【名詞】\n二人だけで行う私的な会話。"
+    "meaning": "【名詞】\n① 二人だけの内緒話\n② 差し向かい"
   },
   "unbalanced": {
     "lemma": "unbalanced",
@@ -5880,7 +5880,7 @@
     "tags": [
       "medical"
     ],
-    "meaning": "【形容詞】\n外界への意識・反応がない状態。"
+    "meaning": "【形容詞】\n意識を失った"
   },
   "under arrest": {
     "lemma": "under arrest",
@@ -5893,7 +5893,7 @@
       "crime",
       "chunk"
     ],
-    "meaning": "警察権限による逮捕状態を表す。"
+    "meaning": "逮捕されて／拘束されて"
   },
   "under control": {
     "lemma": "under control",
@@ -5905,7 +5905,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "制御・管理され、危険や混乱が広がらない状態で。"
+    "meaning": "制御できて／収拾されて"
   },
   "under suspicion": {
     "lemma": "under suspicion",
@@ -5917,7 +5917,7 @@
       "crime",
       "chunk"
     ],
-    "meaning": "疑いをかけられている、容疑の対象になっている。"
+    "meaning": "疑いをかけられて"
   },
   "undesirable": {
     "lemma": "undesirable",
@@ -5938,7 +5938,7 @@
     "coreMeaning": "expect していなかったことが起こる。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n予想していなかった、突然の。"
+    "meaning": "【形容詞】\n予期しない"
   },
   "unwilling": {
     "lemma": "unwilling",
@@ -5947,7 +5947,7 @@
     "coreMeaning": "willing の否定で、自発的に行う意思がない。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\nwilling の否定で、自発的に行う意思がない。"
+    "meaning": "【形容詞】\n気が進まない、したがらない"
   },
   "up to now": {
     "lemma": "up to now",
@@ -5959,7 +5959,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "現在までの期間を表す。"
+    "meaning": "今までのところ"
   },
   "urgent": {
     "lemma": "urgent",
@@ -5968,7 +5968,7 @@
     "coreMeaning": "すぐ対応する必要がある。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\nすぐ対応する必要がある。"
+    "meaning": "【形容詞】\n緊急の"
   },
   "useful": {
     "lemma": "useful",
@@ -5988,7 +5988,7 @@
     "coreMeaning": "意図的に害を与えるほど悪質・攻撃的。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n意図的に害を与えるほど悪質・攻撃的。"
+    "meaning": "【形容詞】\n悪意のある、凶暴な"
   },
   "victim": {
     "lemma": "victim",
@@ -5999,7 +5999,7 @@
     "tags": [
       "crime"
     ],
-    "meaning": "【名詞】\n犯罪・事故などで害を受けた人。"
+    "meaning": "【名詞】\n被害者"
   },
   "vital": {
     "lemma": "vital",
@@ -6010,7 +6010,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【形容詞】\n成功・安全に欠かせないほど重要。"
+    "meaning": "【形容詞】\n① 極めて重要な\n② 不可欠な"
   },
   "vouch for": {
     "lemma": "vouch for",
@@ -6023,7 +6023,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "人の身元・信頼性・真実性などを保証する、請け合う。"
+    "meaning": "～を保証する／身元を請け合う"
   },
   "warn against": {
     "lemma": "warn against",
@@ -6035,7 +6035,7 @@
       "collocation",
       "chunk"
     ],
-    "meaning": "危険・好ましくないことをしないよう警告する。"
+    "meaning": "～に注意するよう警告する"
   },
   "wax flowers": {
     "lemma": "wax flowers",
@@ -6058,7 +6058,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "社会福祉の支援・調査を行う職員。"
+    "meaning": "福祉職員"
   },
   "whacking great": {
     "lemma": "whacking great",
@@ -6071,7 +6071,7 @@
       "informal",
       "chunk"
     ],
-    "meaning": "whacking は英国口語の強調語。"
+    "meaning": "ばかでかい"
   },
   "what do you bet": {
     "lemma": "what do you bet",
@@ -6084,7 +6084,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "『きっと～だと思わないか』と強い予想を示す言い方。"
+    "meaning": "きっと～だと思わないか／賭けてもいい"
   },
   "whatever": {
     "lemma": "whatever",
@@ -6107,7 +6107,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "体調・状況の異変を尋ねる定型表現。"
+    "meaning": "どうしたの／何が問題なの"
   },
   "whereabouts": {
     "lemma": "whereabouts",
@@ -6118,7 +6118,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\nwhere に -abouts がつき、おおよその居場所・所在。"
+    "meaning": "【名詞】\n所在、居場所"
   },
   "wherever": {
     "lemma": "wherever",
@@ -6129,7 +6129,7 @@
     "tags": [
       "grammar"
     ],
-    "meaning": "【副詞】\n場所について範囲を限定しない複合関係語。"
+    "meaning": "【副詞】\nどこであれ"
   },
   "whoever": {
     "lemma": "whoever",
@@ -6140,7 +6140,7 @@
     "tags": [
       "grammar"
     ],
-    "meaning": "【代名詞】\n人について範囲を限定しない複合関係語。"
+    "meaning": "【代名詞】\n誰であれ"
   },
   "wide field": {
     "lemma": "wide field",
@@ -6151,7 +6151,7 @@
     "tags": [
       "context"
     ],
-    "meaning": "field を比喩的に「候補・可能性の範囲」として使う。"
+    "meaning": "候補範囲が広いこと"
   },
   "wireless": {
     "lemma": "wireless",
@@ -6176,7 +6176,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "考えて解決・決定する。計算する。運動する。"
+    "meaning": "考えて解く／うまくいく"
   },
   "worm": {
     "lemma": "worm",
@@ -6200,7 +6200,7 @@
       "grammar",
       "chunk"
     ],
-    "meaning": "mind「嫌がる」を使う丁寧な依頼。"
+    "meaning": "～していただけますか／～は気になりますか"
   },
   "wrapped up in": {
     "lemma": "wrapped up in",
@@ -6224,7 +6224,7 @@
       "British English",
       "dated"
     ],
-    "meaning": "【形容詞】\n非常に不快・不幸な状態を強く表す古めの語。"
+    "meaning": "【形容詞】\n① ひどい\n② みじめな"
   },
   "commit": {
     "lemma": "commit",
@@ -6259,7 +6259,7 @@
     "tags": [
       "food"
     ],
-    "meaning": "【動詞】\n柔らかい食材をつぶしてなめらかにする。"
+    "meaning": "【動詞】\nつぶして混ぜること"
   },
   "fowl": {
     "lemma": "fowl",
@@ -6271,7 +6271,7 @@
       "dated",
       "British English"
     ],
-    "meaning": "【名詞】\n鶏などの家禽・鳥。"
+    "meaning": "【名詞】\n家禽、鶏"
   },
   "cancel out": {
     "lemma": "cancel out",
@@ -6283,7 +6283,7 @@
       "phrasal verb",
       "context"
     ],
-    "meaning": "互いの効果を打ち消す、または対象から除外する。"
+    "meaning": "相殺された／除外された"
   },
   "proportion": {
     "lemma": "proportion",
@@ -6307,7 +6307,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "非常に大きな声で悲鳴・抗議の声を上げる。"
+    "meaning": "大声でわめき立てる"
   },
   "go on to": {
     "lemma": "go on to",
@@ -6331,7 +6331,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "省く、入れ忘れる、除外する。"
+    "meaning": "～を抜かす／省く"
   },
   "get on with": {
     "lemma": "get on with",
@@ -6344,7 +6344,7 @@
       "British English",
       "chunk"
     ],
-    "meaning": "仕事・活動を中断せず進める。"
+    "meaning": "～を進める／続ける"
   },
   "get away": {
     "lemma": "get away",
@@ -6356,7 +6356,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "ある場所・拘束・危険から離れる。"
+    "meaning": "逃げる／その場を離れる"
   },
   "get over": {
     "lemma": "get over",
@@ -6368,7 +6368,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "困難・病気・感情的打撃を乗り越える。"
+    "meaning": "～を乗り越える／立ち直る"
   },
   "get a kick out of": {
     "lemma": "get a kick out of",
@@ -6381,7 +6381,7 @@
       "informal",
       "chunk"
     ],
-    "meaning": "～から強い楽しみ・刺激を得る。"
+    "meaning": "～を面白がる／～から快感を得る"
   },
   "make up": {
     "lemma": "make up",
@@ -6394,7 +6394,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "文脈により、作り上げる・でっち上げる・化粧するなどを表す。"
+    "meaning": "作り話をする／化粧する"
   },
   "run away": {
     "lemma": "run away",
@@ -6406,7 +6406,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "危険・責任・状況から逃げて離れる。"
+    "meaning": "逃げる／逃避する"
   },
   "set eyes on": {
     "lemma": "set eyes on",
@@ -6418,7 +6418,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "人・物を実際に目にする。"
+    "meaning": "～を目にする／見る"
   },
   "turn down": {
     "lemma": "turn down",
@@ -6431,7 +6431,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "音量・強さなどを下げる、または提案等を断る。"
+    "meaning": "音量などを下げる"
   },
   "turn on": {
     "lemma": "turn on",
@@ -6443,7 +6443,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "機器・灯りなどを作動させる。"
+    "meaning": "スイッチを入れる"
   },
   "give in": {
     "lemma": "give in",
@@ -6455,7 +6455,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "抵抗をやめて屈する、負ける。"
+    "meaning": "屈する／折れる"
   },
   "turn one’s back on": {
     "lemma": "turn one’s back on",
@@ -6467,7 +6467,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "～を意図的に拒絶する、背を向ける。"
+    "meaning": "～に背を向ける／見捨てる"
   },
   "stand by": {
     "lemma": "stand by",
@@ -6479,7 +6479,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "待機する、支援する、決定などを守る。"
+    "meaning": "待機する"
   },
   "go into": {
     "lemma": "go into",
@@ -6492,7 +6492,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "話題・問題について詳しく立ち入って扱う。"
+    "meaning": "～について詳しく立ち入る"
   },
   "out with it": {
     "lemma": "out with it",
@@ -6505,7 +6505,7 @@
       "spoken",
       "chunk"
     ],
-    "meaning": "隠さず早く言え、話してしまえ。"
+    "meaning": "さあ言ってしまえ／白状しろ"
   },
   "come out with it": {
     "lemma": "come out with it",
@@ -6529,7 +6529,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "最終的に成功して、最後には自分が優位になる。"
+    "meaning": "最後には勝つ／最終的に優位になる"
   },
   "go down in history": {
     "lemma": "go down in history",
@@ -6541,7 +6541,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "歴史に名を残す、記録に残る。"
+    "meaning": "歴史に名を残す"
   },
   "turn away": {
     "lemma": "turn away",
@@ -6553,7 +6553,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "人の入場・受入れを拒んで帰らせる。"
+    "meaning": "追い返す／入場を断る"
   },
   "give away": {
     "lemma": "give away",
@@ -6579,7 +6579,7 @@
       "phrasal verb",
       "chunk"
     ],
-    "meaning": "ある人と頻繁に付き合い、行動を共にする口語表現。"
+    "meaning": "～と付き合って遊び回る"
   },
   "go about": {
     "lemma": "go about",
@@ -6592,7 +6592,7 @@
       "context",
       "chunk"
     ],
-    "meaning": "あるやり方で行動する、または各所を動き回る。"
+    "meaning": "～して回る／行動する"
   },
   "at present": {
     "lemma": "at present",
@@ -6604,7 +6604,7 @@
       "fixed expression",
       "chunk"
     ],
-    "meaning": "現在という限られた時点・期間を表す。"
+    "meaning": "現在のところ"
   },
   "crime": {
     "lemma": "crime",
@@ -6725,7 +6725,7 @@
     "coreMeaning": "偽造された推薦状・身元照会書。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "偽造された推薦状・身元照会書。"
+    "meaning": "使用人などが信用を得るために偽造した推薦状・身元証明。"
   },
   "reference": {
     "lemma": "reference",
@@ -6846,7 +6846,7 @@
     "coreMeaning": "揺るぎない堅実さ・社会的にきちんとしている印象。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "揺るぎない堅実さ・社会的にきちんとしている印象。"
+    "meaning": "古風な家具が醸し出す、揺るぎない『ちゃんとした中流・上流家庭らしさ』をChristopherが大げさに称賛している。"
   },
   "do away with": {
     "lemma": "do away with",
@@ -6864,7 +6864,7 @@
     "coreMeaning": "狙った印象・効果を台無しにする。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "狙った印象・効果を台無しにする。"
+    "meaning": "小さなテーブルが、Christopherの好む古風で統一された室内の雰囲気を台無しにすること。"
   },
   "effect": {
     "lemma": "effect",
@@ -6891,7 +6891,7 @@
     "coreMeaning": "興奮・熱中しすぎて度を越す。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "興奮・熱中しすぎて度を越す。"
+    "meaning": "時代物の家具への好みに夢中になりすぎ、実用性を忘れて話していたこと。"
   },
   "faded": {
     "lemma": "faded",
@@ -6950,7 +6950,7 @@
     "coreMeaning": "人の性格・特徴がどのようなものか。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "人の性格・特徴がどのようなものか。"
+    "meaning": "外見ではなく、その人の本当の性格・人間性がどんなものかという意味。"
   },
   "artist": {
     "lemma": "artist",
@@ -7022,7 +7022,7 @@
     "coreMeaning": "女性らしさとして捉えられる気質・精神。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "女性らしさとして捉えられる気質・精神。"
+    "meaning": "女性らしい自信や魅力を発揮する気質、というChristopherの誇張された一般論。"
   },
   "spirit": {
     "lemma": "spirit",
@@ -7114,7 +7114,7 @@
     "tags": [
       "dated"
     ],
-    "meaning": "使用人の採用・確保などに関する問題。"
+    "meaning": "使用人を雇ったり確保したりする上での人手不足・雇用上の問題。"
   },
   "local": {
     "lemma": "local",
@@ -7132,7 +7132,7 @@
     "coreMeaning": "建物内で働く常勤・住み込みの従業員や使用人。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "建物内で働く常勤・住み込みの従業員や使用人。"
+    "meaning": "住み込み、または館内で常時働く使用人・従業員。"
   },
   "in running order": {
     "lemma": "in running order",
@@ -7141,7 +7141,7 @@
     "coreMeaning": "機械・施設・事業などが正常に動作・運営できる状態で。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "機械・施設・事業などが正常に動作・運営できる状態で。"
+    "meaning": "設備が動くというだけでなく、宿が必要な人員や仕組みを備えて通常営業している状態。"
   },
   "proper staff": {
     "lemma": "proper staff",
@@ -7159,7 +7159,7 @@
     "coreMeaning": "それほどのものが、よりによって～、まさに～。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "それほどのものが、よりによって～、まさに～。"
+    "meaning": "単なる雪ではなく『よりによって吹雪』だと大げさに強調している。"
   },
   "time of life": {
     "lemma": "time of life",
@@ -7168,7 +7168,7 @@
     "coreMeaning": "人生のある時期・年齢段階。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "人生のある時期・年齢段階。"
+    "meaning": "自分の年齢・人生の段階を遠回しに指し、今は見た目より快適さを重視する年齢だと言っている。"
   },
   "appearance": {
     "lemma": "appearance",
@@ -7258,7 +7258,7 @@
     "coreMeaning": "泥・雪などにはまって動けなくなる。また物事が停滞する。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "泥・雪などにはまって動けなくなる。また物事が停滞する。"
+    "meaning": "ぬかるみではなく、車が深い雪にはまり動けなくなったこと。"
   },
   "manager": {
     "lemma": "manager",
@@ -7378,7 +7378,7 @@
       "British",
       "historical-domestic"
     ],
-    "meaning": "卵を後で使えるよう保存処理して蓄える。"
+    "meaning": "卵を『置く』のではなく、後で使えるよう保存処理して蓄えておくという古い家庭語法。"
   },
   "on earth": {
     "lemma": "on earth",
@@ -7507,7 +7507,7 @@
     "coreMeaning": "強く望んでいたことに対する理想的な解決・救い。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "強く望んでいたことに対する理想的な解決・救い。"
+    "meaning": "実際に祈りへの宗教的回答だと断言するのではなく、絶望的な状況で宿を見つけたことを『願ってもない救い』と大げさに表す。"
   },
   "save": {
     "lemma": "save",
@@ -7570,7 +7570,7 @@
     "coreMeaning": "素性や過去がよく分からない謎めいた男性。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "素性や過去がよく分からない謎めいた男性。"
+    "meaning": "自分の素性を明かさず、謎めいた人物としてわざと演じている。"
   },
   "complete the picture": {
     "lemma": "complete the picture",
@@ -7579,7 +7579,7 @@
     "coreMeaning": "必要な情報・要素を加えて全体像を完成させる。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "必要な情報・要素を加えて全体像を完成させる。"
+    "meaning": "絵を完成させるのではなく、全員が集まった閉ざされた状況に自分が最後の要素として加わること。"
   },
   "cut off": {
     "lemma": "cut off",
@@ -7588,7 +7588,7 @@
     "coreMeaning": "つながり・供給・交通などを断つ、孤立させる。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "つながり・供給・交通などを断つ、孤立させる。"
+    "meaning": "大雪で道路・配達・郵便などが止まり、Monkswell Manorが外界から物理的に孤立すること。場面全体の重要な転換点。／雪で道路が遮断され、さらに電話も使えなくなり、外部との移動・通信の両方が断たれた状態。"
   },
   "suit": {
     "lemma": "suit",
@@ -7696,7 +7696,7 @@
     "tags": [
       "period-household"
     ],
-    "meaning": "ブラシとローラーなどでカーペットのごみを集める手押し式掃除用具。"
+    "meaning": "電動掃除機ではなく、ブラシとローラーでカーペット上のごみを集める手押し式の掃除用具。時代背景の理解に重要。"
   },
   "gather": {
     "lemma": "gather",
@@ -7863,7 +7863,7 @@
     "coreMeaning": "その間に多くのこと・大きな変化が起こる可能性がある。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "その間に多くのこと・大きな変化が起こる可能性がある。"
+    "meaning": "雪が解けるまでに状況が大きく変わっているかもしれない、という意図的に不穏で曖昧な言い方。何が起こるかは明言していない。"
   },
   "peaceful": {
     "lemma": "peaceful",
@@ -8223,7 +8223,7 @@
     "coreMeaning": "人の家・建物の中で生活・宿泊して。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "人の家・建物の中で生活・宿泊して。"
+    "meaning": "同じ屋根の下で眠る、つまり自分の宿・家に泊めている人々を指す。"
   },
   "overturn": {
     "lemma": "overturn",
@@ -8360,7 +8360,7 @@
     "coreMeaning": "回線や接続が機能せず、通話できない電話。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "回線や接続が機能せず、通話できない電話。"
+    "meaning": "電話機が壊れたというより、回線が切れて外部へ電話できない状態。"
   },
   "telephone line": {
     "lemma": "telephone line",
@@ -8398,7 +8398,7 @@
     "coreMeaning": "雑談などを終えて本題・正式な用件に入る。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "雑談などを終えて本題・正式な用件に入る。"
+    "meaning": "雑談や到着の処理を終えて、警察官として来た本来の用件の説明を始めること。"
   },
   "necessary": {
     "lemma": "necessary",
@@ -8452,7 +8452,7 @@
     "coreMeaning": "記録として保管・登録されている。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "記録として保管・登録されている。"
+    "meaning": "指紋が警察の記録として登録・保管されていたため、別名を使っていた女性の身元を確認できたという意味。"
   },
   "difficulty": {
     "lemma": "difficulty",
@@ -8482,7 +8482,7 @@
       "legal",
       "dated"
     ],
-    "meaning": "保護や養護を必要とする状態にあることを示す法的・行政的表現。"
+    "meaning": "子どもを保護対象として扱う当時の法的・福祉的な表現で、単に「世話が必要」という日常表現ではない。"
   },
   "treatment": {
     "lemma": "treatment",
@@ -8502,7 +8502,7 @@
     "tags": [
       "legal"
     ],
-    "meaning": "裁判で科された刑期を服する。"
+    "meaning": "Mrs. Stanningが裁判で科された刑期を服したこと。"
   },
   "yard": {
     "lemma": "yard",
@@ -8531,7 +8531,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "必要な詳細事項・完全な情報。"
+    "meaning": "館内にいる全員について、捜査に必要な詳しい身元・事情を集めるという警察上の意味。"
   },
   "measure": {
     "lemma": "measure",
@@ -8569,7 +8569,7 @@
     "coreMeaning": "人の現在地・行方を調べて突き止める。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "人の現在地・行方を調べて突き止める。"
+    "meaning": "養女となったCorrigan家の少女が現在どこにいるのか、警察が追跡して確認すること。"
   },
   "desert from the army": {
     "lemma": "desert from the army",
@@ -8580,7 +8580,7 @@
     "tags": [
       "military"
     ],
-    "meaning": "軍務を無断で離脱して脱走する。"
+    "meaning": "軍を正式に退役したのではなく、無断で軍務から逃亡したこと。"
   },
   "since": {
     "lemma": "since",
@@ -8664,7 +8664,7 @@
     "coreMeaning": "命に関わるほど重大な危険。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "命に関わるほど重大な危険。"
+    "meaning": "単なる大きな危険ではなく、誰かが殺される可能性があるという切迫した危険。"
   },
   "bygone years": {
     "lemma": "bygone years",
@@ -8894,7 +8894,7 @@
     "coreMeaning": "つらい経験・病気などから立ち直る、克服する。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "つらい経験・病気などから立ち直る、克服する。"
+    "meaning": "つらい過去の経験から時間とともに立ち直り、その影響を乗り越えるという心理的な意味。"
   },
   "humbug": {
     "lemma": "humbug",
@@ -8914,7 +8914,7 @@
     "coreMeaning": "過去を振り返る、過去のことを思い返す。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "過去を振り返る、過去のことを思い返す。"
+    "meaning": "過去のつらい出来事を振り返ったり、それにとらわれたりするな、という比喩。"
   },
   "will": {
     "lemma": "will",
@@ -8935,7 +8935,7 @@
       "idiom",
       "chunk"
     ],
-    "meaning": "～を意図的に拒絶する、背を向ける。"
+    "meaning": "つらい過去の出来事を意識的に拒絶し、振り返らずに生きるという比喩。"
   },
   "wonder": {
     "lemma": "wonder",
@@ -8962,7 +8962,7 @@
     "coreMeaning": "困難・事実などから逃げずに向き合う。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "困難・事実などから逃げずに向き合う。"
+    "meaning": "過去のつらい出来事から逃げず、正面から認めて向き合うこと。／困難・事実などから逃げずに向き合う。"
   },
   "place reliance on": {
     "lemma": "place reliance on",
@@ -8973,7 +8973,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "～を信頼できる根拠として頼りにする。"
+    "meaning": "住所や配給手帳のような情報だけでは、宿泊客の本当の身元を保証する証拠として十分信用できない、という捜査上の意味。"
   },
   "unless": {
     "lemma": "unless",
@@ -9011,7 +9011,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "体格をはっきり特定できないこと。"
+    "meaning": "目撃情報から体格をはっきり特定できず、容疑者を絞る特徴にならないという意味。"
   },
   "hidden": {
     "lemma": "hidden",
@@ -9074,7 +9074,7 @@
     "coreMeaning": "恐怖がどのように生じ、働くかという仕組み。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "恐怖がどのように生じ、働くかという仕組み。"
+    "meaning": "ラジオ番組が説明する「恐怖が人の心にどう作用するかという仕組み」。直後の暗闇と物音を不穏に先取りするが、語義自体は心理的な仕組みを指す。"
   },
   "worth": {
     "lemma": "worth",
@@ -9140,7 +9140,7 @@
     "coreMeaning": "対象となる人・可能性などの、より広い範囲。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "対象となる人・可能性などの、より広い範囲。"
+    "meaning": "Culver Streetと違いMonkswell Manorには、次の標的になり得る人物が複数いるという意味。"
   },
   "surely": {
     "lemma": "surely",
@@ -9215,7 +9215,7 @@
     "coreMeaning": "歌や考えなどが頭から離れず繰り返し浮かぶ。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "歌や考えなどが頭から離れず繰り返し浮かぶ。"
+    "meaning": "Three Blind Miceの旋律が頭から離れず繰り返し浮かぶ、という意味。殺人と結びついたため不穏な含みを持つ。"
   },
   "make something up": {
     "lemma": "make something up",
@@ -9287,7 +9287,7 @@
     "coreMeaning": "不注意などから失敗・ミスをする。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "不注意などから失敗・ミスをする。"
+    "meaning": "犯罪者もいずれ捜査上の手掛かりになるミスを犯す、という意味。"
   },
   "charge": {
     "lemma": "charge",
@@ -9325,7 +9325,7 @@
     "coreMeaning": "人が犯していない犯罪の犯人に見えるよう証拠などを仕組む。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "人が犯していない犯罪の犯人に見えるよう証拠などを仕組む。"
+    "meaning": "Christopherが、自分が犯していない殺人の犯人に仕立て上げられると恐れている。事実として警察がそうしているという意味ではない。"
   },
   "steady": {
     "lemma": "steady",
@@ -9364,7 +9364,7 @@
     "coreMeaning": "複数の証拠・事情が同じ結論を示す。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "複数の証拠・事情が同じ結論を示す。"
+    "meaning": "精神状態・軍からの脱走・報告書など複数の事情が同じ人物像を示している、という捜査上の推論。"
   },
   "mental": {
     "lemma": "mental",
@@ -9568,7 +9568,7 @@
     "coreMeaning": "ある話題・事情について詳しく話す、検討する。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "ある話題・事情について詳しく話す、検討する。"
+    "meaning": "Christopherが本名について詳しく話すことを避け、話題を打ち切ろうとしている。"
   },
   "whilst": {
     "lemma": "whilst",
@@ -9902,7 +9902,7 @@
     "coreMeaning": "相手より先を読み、一歩先んじた状態を保つ。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "相手より先を読み、一歩先んじた状態を保つ。"
+    "meaning": "犯人が動く前に意図を読み、次の殺人を防げる程度に先回りすること。"
   },
   "hesitate": {
     "lemma": "hesitate",
@@ -9929,7 +9929,7 @@
     "coreMeaning": "自分の行為を責める、後ろめたく思う。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "自分の行為を責める、後ろめたく思う。"
+    "meaning": "Longridge Farm事件について少しでも自分に責任・後ろめたさがある者は、それを認めるべきだという意味。"
   },
   "come out with something": {
     "lemma": "come out with something",
@@ -10166,7 +10166,7 @@
     "coreMeaning": "問題解決や仕事などで進展する、成果に近づく。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "問題解決や仕事などで進展する、成果に近づく。"
+    "meaning": "新しい気づきによって捜査がようやく前進しそうだ、という意味。物理的にどこかへ移動することではない。"
   },
   "clue": {
     "lemma": "clue",
@@ -10202,7 +10202,7 @@
     "coreMeaning": "効果なく、成果なく。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "効果なく、成果なく。"
+    "meaning": "スキーをいろいろな場所で探したが、結局何の成果もなかったという意味。"
   },
   "intend": {
     "lemma": "intend",
@@ -10508,7 +10508,7 @@
     "coreMeaning": "特別な機会・よそ行き用に。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "特別な機会・よそ行き用に。"
+    "meaning": "その帽子を普段使いではなく、特別な外出やよそ行きの時に使えばよいという英国的な言い方。"
   },
   "properly": {
     "lemma": "properly",
@@ -10526,6 +10526,6 @@
     "coreMeaning": "～の最新流行、最先端の型。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "～の最新流行、最先端の型。"
+    "meaning": "店員がその帽子を「最新流行の型」だと説明した、という意味。最後に残った帽子という意味ではない。"
   }
 }
