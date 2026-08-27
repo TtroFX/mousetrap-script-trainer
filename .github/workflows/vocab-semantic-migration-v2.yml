@@ -19,7 +19,20 @@ jobs:
         with:
           node-version: '22'
       - name: Apply semantic integration migration
-        run: node scripts/zzz_vocab_semantic_migration_v2.mjs
+        id: migrate
+        continue-on-error: true
+        run: node scripts/zzz_vocab_semantic_migration_v2.mjs > migration-debug.log 2>&1
+      - name: Persist migration failure details
+        if: steps.migrate.outcome == 'failure'
+        run: |
+          mkdir -p data
+          cp migration-debug.log data/vocab-migration-debug.log
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/vocab-migration-debug.log
+          git commit -m 'Record vocabulary migration failure [skip ci]'
+          git push
+          exit 1
       - name: Validate dedicated vocabulary semantics
         run: node scripts/validate-vocabulary-semantics.mjs
       - name: Validate runtime and production assembly
