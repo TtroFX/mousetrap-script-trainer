@@ -31,9 +31,8 @@ export function createDictionarySheet({ store, normalize, setStatus, openLine })
     const shown = store.getVocabulary(line);
     const vocab = shown.find(v => normalize(v.lemma) === normalize(lemma) && (!surface || normalize(v.surface) === normalize(surface))) || shown.find(v => normalize(v.lemma) === normalize(lemma));
     const scene = store.getSceneIdForSpeech(line);
-    const meaning = String(vocab?.meaning || entry?.contextMeaning || entry?.coreMeaning || '').trim();
-    const core = String(entry?.coreMeaning || '').trim();
-    const contextNote = String(entry?.contextExplanation || '').trim();
+    const meaning = String(entry?.meaning || vocab?.meaning || entry?.coreMeaning || '').trim();
+    const inThisPlay = String(vocab?.inThisPlay || '').trim();
     const forms = String(entry?.forms || '').trim();
 
     const header = el('header');
@@ -51,8 +50,7 @@ export function createDictionarySheet({ store, normalize, setStatus, openLine })
       dl.append(el('dt', '', label), el('dd', '', text));
     };
     add('Meaning', meaning);
-    if (core && !sameText(core, meaning)) add('Core', core);
-    if (contextNote && !sameText(contextNote, meaning) && !sameText(contextNote, core)) add('Context', contextNote);
+    add('In this play', inThisPlay);
     add('Forms', forms);
     if (dl.children.length) dictionaryCard.append(dl);
     else dictionaryCard.append(el('p', 'muted', 'Dictionary information not found.'));

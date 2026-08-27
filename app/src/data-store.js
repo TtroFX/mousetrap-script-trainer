@@ -76,6 +76,10 @@ function validateVocabulary(value) {
       const meaning = String(entry?.meaning || '').trim();
       if (!surface || !lemma || !meaning) throw new Error(`vocabulary.${lineId}: surface/lemma/meaning required`);
       if (typeof entry.playMeaning !== 'boolean') throw new Error(`vocabulary.${lineId}: playMeaning boolean required`);
+      if (Object.prototype.hasOwnProperty.call(entry, 'inThisPlay')) {
+        const inThisPlay = String(entry.inThisPlay || '').trim();
+        if (typeof entry.inThisPlay !== 'string' || !inThisPlay || inThisPlay.length > 360 || inThisPlay === meaning) throw new Error(`vocabulary.${lineId}: invalid inThisPlay`);
+      }
       const key = `${surface.toLowerCase()}\u0000${lemma.toLowerCase()}`;
       if (seen.has(key)) throw new Error(`vocabulary.${lineId}: duplicate ${surface}/${lemma}`);
       seen.add(key);
@@ -84,14 +88,23 @@ function validateVocabulary(value) {
   return value;
 }
 
+const normalizeSemantic = value => String(value || '').normalize('NFKC').replace(/\s+/g, ' ').trim();
+function validateVocabularyDictionaryConsistency(vocabulary, dictionary) {
+  const byLemma = new Map(Object.entries(dictionary).map(([key, entry]) => [key.trim().toLowerCase(), entry]));
+  for (const [lineId, rows] of Object.entries(vocabulary)) for (const entry of rows) {
+    const dictionaryEntry = byLemma.get(String(entry.lemma || '').trim().toLowerCase());
+    if (!dictionaryEntry) throw new Error(`vocabulary.${lineId}: missing dictionary lemma ${entry.lemma}`);
+    if (normalizeSemantic(entry.meaning) !== normalizeSemantic(dictionaryEntry.meaning)) throw new Error(`vocabulary.${lineId}: meaning/dictionary mismatch ${entry.lemma}`);
+  }
+}
 function validateDictionary(value) {
   if (!value || typeof value !== 'object' || Array.isArray(value)) throw new Error('dictionary: object required');
   if (Object.keys(value).length < 578) throw new Error('dictionary: unexpectedly small (' + Object.keys(value).length + ')');
   for (const [key, entry] of Object.entries(value)) {
-    if (!String(key).trim() || !entry || typeof entry !== 'object' || !String(entry.coreMeaning || '').trim()) throw new Error('dictionary: invalid entry ' + key);
+    if (!String(key).trim() || !entry || typeof entry !== 'object' || !String(entry.meaning || '').trim() || !String(entry.coreMeaning || '').trim()) throw new Error('dictionary: invalid entry ' + key);
+    if (normalizeSemantic(entry.meaning) !== normalizeSemantic(entry.coreMeaning)) throw new Error('dictionary: coreMeaning must mirror neutral meaning (' + key + ')');
+    if (Object.prototype.hasOwnProperty.call(entry, 'contextMeaning') || Object.prototype.hasOwnProperty.call(entry, 'contextExplanation')) throw new Error('dictionary: play-context fields are forbidden (' + key + ')');
     if (Object.prototype.hasOwnProperty.call(entry, 'pattern') || Object.prototype.hasOwnProperty.call(entry, 'patternDesc')) throw new Error('dictionary: Pattern fields are forbidden (' + key + ')');
-    const context = String(entry.contextExplanation || '').trim();
-    if (/^(?:劇中では|この劇では)/.test(context) || /前後関係からこの意味を取る。?$/.test(context)) throw new Error('dictionary: generic context prose is forbidden (' + key + ')');
   }
   return value;
 }
@@ -207,6 +220,7 @@ export class DataStore extends EventTarget {
         const settled = await Promise.allSettled(specs.map(async ([key, url, validator]) => { this.metrics.requests += 1; const value = validator(await fetchJson(url, STUDY_TIMEOUT_MS)); this[key] = value; return key; }));
         const failed = settled.map((result, index) => ({ result, key: specs[index][0] })).filter(x => x.result.status === 'rejected');
         if (failed.length) { this.metrics.failures += failed.length; const error = new Error(`study data unavailable: ${failed.map(x => x.key).join(', ')}`); error.causes = failed.map(x => x.result.reason); throw error; }
+        validateVocabularyDictionaryConsistency(this.vocabulary, this.dictionary);
         this.studyState.status = 'ready'; this.studyState.error = null; this.studyState.finishedAt = now(); this.metrics.studyMs = Math.round(this.studyState.finishedAt - this.studyState.startedAt); this.emit('ready', { area: 'study' }); return this.studySnapshot();
       } catch (error) { this.studyState.status = 'error'; this.studyState.error = error; this.studyState.finishedAt = now(); this.emit('error', { area: 'study', error }); throw error; }
       finally { this.studyPromise = null; }
