@@ -89,8 +89,21 @@ jobs:
           npm install
           npx playwright install --with-deps chromium
       - name: Run complete UI regression
+        id: e2e
+        continue-on-error: true
         working-directory: app
-        run: npm run test:e2e
+        run: npm run test:e2e > ../e2e-debug.log 2>&1
+      - name: Persist browser regression failure details
+        if: steps.e2e.outcome == 'failure'
+        run: |
+          mkdir -p data
+          cp e2e-debug.log data/vocab-e2e-debug.log
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/vocab-e2e-debug.log
+          git commit -m 'Record vocabulary browser regression failure [skip ci]'
+          git push
+          exit 1
       - name: Commit verified integration
         run: |
           git config user.name 'github-actions[bot]'
