@@ -20,7 +20,7 @@
       "neutralPromoted": 353,
       "replacedByReviewedContext": 108
     },
-    "sha256": "c384ec581ab1869861e11d4fd08a292e1e8f27e6f2472b82b5e3af1dd129cb37"
+    "sha256": "c39a5b926c9a58bcf650f66c876b0a663a85a4f90f928ab2237d31682ceff921"
   },
   "dictionary": {
     "beforeEntries": 578,
@@ -29,7 +29,7 @@
     "completedExistingEntries": 0,
     "referencedLemmas": 1000,
     "unreferencedEntries": 0,
-    "sha256": "70b1c61635a4720a4b1a096cfeacac7f6de2867535c67077b7e8e23be1e96a2d",
+    "sha256": "6e7de5b1f7ea203f0b8c55b39dbb0cb00013f6dad89bcd318e10f0d6f51a9b05",
     "presentation": {
       "patternFields": 0,
       "genericContextParaphrases": 0,
@@ -60,6 +60,9 @@
     "canonicalItems": 1741,
     "playMeaningItems": 1388,
     "neutralOnlyItems": 353,
-    "field": "playMeaning"
+    "field": "playMeaning",
+    "meaningPolicy": "Dictionary-neutral Japanese translation; one-word entries use dictionary-style POS headings and line breaks.",
+    "inThisPlayPolicy": "Optional. Kept only for curated speaker-intent, irony, non-literal, pragmatic, or materially context-specific usage; ordinary line-level restatements are omitted.",
+    "inThisPlayItems": 99
   }
 }

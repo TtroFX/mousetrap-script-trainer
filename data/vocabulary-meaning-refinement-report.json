@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 3,
+  "status": "PASS",
+  "policy": {
+    "meaning": "Neutral Japanese dictionary translation. Safe concise glosses are preferred for single-POS words and phrases; neutral source definitions preserve genuinely multi-POS entries. Single lexical items use POS headings.",
+    "inThisPlay": "Optional occurrence-level field. Only curated contexts expressing speaker intent, irony, non-literal/pragmatic force, or a substantial departure from the ordinary dictionary reading are retained.",
+    "compatibility": "Existing playMeaning booleans are preserved because runtime currently uses them as a presentation filter."
+  },
+  "sources": {
+    "baselineDictionary": "origin/main:mousetrap_word_dictionary.json",
+    "neutralDictionaryFiles": [
+      "block-1-dictionary-supplement.json",
+      "block-1-dictionary.json",
+      "block-2-dictionary-supplement.json",
+      "block-2-dictionary.json",
+      "block-2-neutral-seed.json",
+      "block-3-dictionary-supplement.json",
+      "block-3-dictionary.json",
+      "block-3-neutral-seed.json",
+      "block-4-dictionary-supplement.json",
+      "block-4-dictionary.json",
+      "block-4-neutral-seed.json",
+      "block-5-dictionary-supplement.json",
+      "block-5-dictionary.json",
+      "block-5-neutral-seed.json",
+      "block-5-neutral-supplement.json",
+      "block-6-dictionary-supplement.json",
+      "block-6-dictionary.json",
+      "block-6-neutral-seed.json",
+      "block-6-neutral-supplement.json"
+    ],
+    "curatedPlayMeaningFiles": [
+      "data/vocabulary-rebuild/block-1-line-vocabulary.json",
+      "data/vocabulary-rebuild/block-2-line-vocabulary.json",
+      "data/vocabulary-rebuild/block-3-line-vocabulary.json",
+      "data/vocabulary-rebuild/block-4-line-vocabulary.json",
+      "data/vocabulary-rebuild/block-5-line-vocabulary.json",
+      "data/vocabulary-rebuild/block-6-line-vocabulary.json"
+    ],
+    "curatedNonEmpty": 354,
+    "curatedUniqueKeys": 354
+  },
+  "dictionary": {
+    "entries": 1000,
+    "formatted": 1000,
+    "neutralSource": 191,
+    "baselineGloss": 809,
+    "baselineCore": 0,
+    "unsafeFallbackCount": 0,
+    "sha256": "6e7de5b1f7ea203f0b8c55b39dbb0cb00013f6dad89bcd318e10f0d6f51a9b05",
+    "provenanceExamples": [
+      {
+        "lemma": "a good thing",
+        "sourceType": "baselineGloss",
+        "meaning": "幸いなこと"
+      },
+      {
+        "lemma": "ABC",
+        "sourceType": "baselineGloss",
+        "meaning": "【固有名詞】\n英国の鉄道時刻表（ABC Railway Guide）"
+      },
+      {
+        "lemma": "abroad",
+        "sourceType": "baselineGloss",
+        "meaning": "【副詞】\n① 海外に\n② 海外で"
+      },
+      {
+        "lemma": "abscond",
+        "sourceType": "baselineGloss",
+        "meaning": "【動詞】\n逃亡する、姿をくらます"
+      },
+      {
+        "lemma": "absurd",
+        "sourceType": "baselineGloss",
+        "meaning": "【形容詞】\nばかげた、不合理な"
+      },
+      {
+        "lemma": "according to",
+        "sourceType": "baselineGloss",
+        "meaning": "～によれば"
+      },
+      {
+        "lemma": "acquainted",
+        "sourceType": "baselineGloss",
+        "meaning": "【形容詞】\n① 知り合いで\n② 事情を知って"
+      },
+      {
+        "lemma": "adequate",
+        "sourceType": "baselineGloss",
+        "meaning": "【形容詞】\n必要十分な、まずまずの"
+      },
+      {
+        "lemma": "admirable",
+        "sourceType": "baselineGloss",
+        "meaning": "【形容詞】\n① 立派な\n② 感心すべき"
+      },
+      {
+        "lemma": "adopt",
+        "sourceType": "baselineGloss",
+        "meaning": "【動詞】\n養子にする"
+      },
+      {
+        "lemma": "advisable",
+        "sourceType": "baselineGloss",
+        "meaning": "【形容詞】\n望ましい、賢明な"
+      },
+      {
+        "lemma": "affair",
+        "sourceType": "baselineGloss",
+        "meaning": "【名詞】\n事柄、事件、個人的事情"
+      },
+      {
+        "lemma": "after all",
+        "sourceType": "baselineGloss",
+        "meaning": "結局／やはり"
+      },
+      {
+        "lemma": "against the law",
+        "sourceType": "baselineGloss",
+        "meaning": "法律に反して"
+      },
+      {
+        "lemma": "Air Force",
+        "sourceType": "baselineGloss",
+        "meaning": "空軍"
+      },
+      {
+        "lemma": "alas",
+        "sourceType": "baselineGloss",
+        "meaning": "【間投詞】\nああ、残念ながら"
+      },
+      {
+        "lemma": "all along",
+        "sourceType": "baselineGloss",
+        "meaning": "最初からずっと"
+      },
+      {
+        "lemma": "all the same",
+        "sourceType": "baselineGloss",
+        "meaning": "それでもやはり"
+      },
+      {
+        "lemma": "all to no avail",
+        "sourceType": "baselineGloss",
+        "meaning": "まったく効果なく"
+      },
+      {
+        "lemma": "altogether",
+        "sourceType": "baselineGloss",
+        "meaning": "【副詞】\n① 全体として\n② まったく"
+      }
+    ]
+  },
+  "vocabulary": {
+    "speeches": 1164,
+    "items": 1741,
+    "meaningUpdated": 171,
+    "inThisPlayItems": 99,
+    "curatedKeysEncountered": 354,
+    "curatedKeysIncluded": 97,
+    "curatedKeysOmitted": 257,
+    "removedStaleInThisPlay": 258,
+    "sha256": "c39a5b926c9a58bcf650f66c876b0a663a85a4f90f928ab2237d31682ceff921"
+  },
+  "examples": [
+    {
+      "speechId": "act1-scene1-speech-0001",
+      "surface": "are anxious to interview",
+      "lemma": "be anxious to interview",
+      "meaning": "人に会って質問・面談することを強く望む。",
+      "inThisPlay": "警察発表の定型的な言い回しで、この男性を殺人事件との関係で見つけ出して事情を聴きたい、という意味。単に『ぜひ面接したい』という意味ではない。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0004",
+      "surface": "brute",
+      "lemma": "brute",
+      "meaning": "【名詞】\nひどい人、乱暴者",
+      "inThisPlay": "Gilesを本気で『乱暴者』と非難しているのではなく、家事を自分に任せている夫へ親しみを込めて『ひどい人ね』と軽く文句を言っている。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0011",
+      "surface": "What do you bet",
+      "lemma": "what do you bet",
+      "meaning": "きっと～だと思わないか／賭けてもいい",
+      "inThisPlay": "本当に賭けを持ちかけているのではなく、『明日にはきっと雪で閉じ込められるぞ』と強く予想する言い方。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0016",
+      "surface": "hooked it",
+      "lemma": "hook it",
+      "meaning": "急いで立ち去る、逃げる。",
+      "inThisPlay": "Mrs. Barlowが悪天候を恐れて、仕事を早めに切り上げて帰ってしまったという古めの口語。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0017",
+      "surface": "on your shoulders",
+      "lemma": "on someone's shoulders",
+      "meaning": "責任・負担が人にかかって。",
+      "inThisPlay": "仕事や責任がMollie一人にのしかかる、という比喩。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0020",
+      "surface": "department",
+      "lemma": "department",
+      "meaning": "【名詞】\n担当分野",
+      "inThisPlay": "組織の『部門』ではなく、料理は自分の担当分野だという冗談めいた言い方。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0021",
+      "surface": "Got cold feet",
+      "lemma": "get cold feet",
+      "meaning": "直前になって怖気づく、尻込みする。",
+      "inThisPlay": "文字どおり足が冷えたのではなく、ゲストハウス経営を始めたことに今さら不安になり、怖気づいたのかとからかっている。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0026",
+      "surface": "in disgrace",
+      "lemma": "in disgrace",
+      "meaning": "不名誉・不興を買った状態で。",
+      "inThisPlay": "本当の不名誉ではなく、看板の綴りを間違えたGilesにMollieが冗談で『罰を受ける立場ね』と言っている。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0029",
+      "surface": "appalling",
+      "lemma": "appalling",
+      "meaning": "【形容詞】\nひどい、ぞっとするほど悪い",
+      "inThisPlay": "本気で恐ろしいというより、夜遅くまで暖房の世話をする必要があることへの大げさな不満。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0035",
+      "surface": "mugs",
+      "lemma": "mug",
+      "meaning": "【名詞】\n間抜け、だまされやすい人",
+      "inThisPlay": "自分たちは宿屋経営について世間知らずで、簡単にだまされそうな『間抜け』だという自嘲。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0041",
+      "surface": "woman of business",
+      "lemma": "woman of business",
+      "meaning": "商売・実務に長けた女性。",
+      "inThisPlay": "Mollieが客の素性より料金を重視すると言ったのを受け、Gilesが『実に商売上手だね』と軽くからかっている。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0044",
+      "surface": "sporting instinct",
+      "lemma": "sporting instinct",
+      "meaning": "競技者らしい挑戦心、公平さや冒険心。",
+      "inThisPlay": "危険を冒してでも挑むスポーツマン精神、というChristopherの冗談めいた不満。"
+    }
+  ]
+}
