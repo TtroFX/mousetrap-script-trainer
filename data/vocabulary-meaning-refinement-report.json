@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "policy": {
+    "meaning": "Neutral dictionary Japanese. Single lexical items use dictionary-style part-of-speech headings and line breaks where the source safely supports them.",
+    "inThisPlay": "Optional occurrence-level field. Restored only from non-empty, manually reviewed contextMeaning in block line-vocabulary sources and omitted otherwise.",
+    "compatibility": "Existing playMeaning booleans are preserved because runtime currently uses them as a presentation filter."
+  },
+  "sources": {
+    "neutralDictionaryFiles": [
+      "block-1-dictionary-supplement.json",
+      "block-1-dictionary.json",
+      "block-2-dictionary-supplement.json",
+      "block-2-dictionary.json",
+      "block-2-neutral-seed.json",
+      "block-3-dictionary-supplement.json",
+      "block-3-dictionary.json",
+      "block-3-neutral-seed.json",
+      "block-4-dictionary-supplement.json",
+      "block-4-dictionary.json",
+      "block-4-neutral-seed.json",
+      "block-5-dictionary-supplement.json",
+      "block-5-dictionary.json",
+      "block-5-neutral-seed.json",
+      "block-5-neutral-supplement.json",
+      "block-6-dictionary-supplement.json",
+      "block-6-dictionary.json",
+      "block-6-neutral-seed.json",
+      "block-6-neutral-supplement.json"
+    ],
+    "curatedPlayMeaningFiles": [
+      "data/vocabulary-rebuild/block-1-line-vocabulary.json",
+      "data/vocabulary-rebuild/block-2-line-vocabulary.json",
+      "data/vocabulary-rebuild/block-3-line-vocabulary.json",
+      "data/vocabulary-rebuild/block-4-line-vocabulary.json",
+      "data/vocabulary-rebuild/block-5-line-vocabulary.json",
+      "data/vocabulary-rebuild/block-6-line-vocabulary.json"
+    ],
+    "curatedNonEmpty": 354,
+    "curatedUniqueKeys": 354
+  },
+  "dictionary": {
+    "entries": 1000,
+    "formatted": 1000,
+    "neutralSourceExact": 951,
+    "screenedCurrentNeutral": 49,
+    "unsafeFallbackCount": 0,
+    "screenedCurrentLemmas": [
+      {
+        "lemma": "answer to prayer",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "any good",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "apart from",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "apron",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "be anxious to",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "bogged",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "brick",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "carry away",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "cereals",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "cold feet",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "come back",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "could not suit me better",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "crammed",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "crush",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "cut off from",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "disgrace",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "do with a coat of paint",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "equipped",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "etcetera",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "feminine",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "fill your place",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "general dogsbody",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "get warm",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "hotel keeper",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "How d’you do?",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "if you ask me",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "implicit",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "Lord",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "newspaper",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "no hurry",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "omelette",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "put down",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "put it out of one’s mind",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "put on",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "put oneself in the place of",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "raise our terms",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "respectability",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "run into a drift",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "sporting",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "tactics",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "take one back to",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "turn someone out",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "useful",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "wax flowers",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "worm",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "wrapped up in",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "go on to",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "come out with it",
+        "field": "contextMeaning"
+      },
+      {
+        "lemma": "give away",
+        "field": "contextMeaning"
+      }
+    ],
+    "sha256": "762e98a14d5900e7e2e774251f25ac5b4a25a88e45d688c42d117f7ef4c0d0bb"
+  },
+  "vocabulary": {
+    "speeches": 1164,
+    "items": 1741,
+    "meaningUpdated": 1696,
+    "inThisPlayItems": 357,
+    "matchedCuratedKeys": 354,
+    "removedStaleInThisPlay": 0,
+    "sha256": "6fd8aa91e8e181afdfb38dfb0b769704f4cb030e8d9e206f26142019bde39131"
+  },
+  "examples": [
+    {
+      "speechId": "act1-scene1-speech-0001",
+      "surface": "are anxious to interview",
+      "lemma": "be anxious to interview",
+      "meaning": "人に会って質問・面談することを強く望む。",
+      "inThisPlay": "警察発表の定型的な言い回しで、この男性を殺人事件との関係で見つけ出して事情を聴きたい、という意味。単に『ぜひ面接したい』という意味ではない。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0001",
+      "surface": "ice-bound",
+      "lemma": "ice-bound",
+      "meaning": "【形容詞】\n氷に閉ざされた、凍結して動きが妨げられた。",
+      "inThisPlay": "雪と氷で危険な道路状況を指す。文字どおり完全に氷に閉じ込められた道路というより、凍結して通行が危険な道路。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0002",
+      "surface": "Gosh",
+      "lemma": "gosh",
+      "meaning": "【間投詞】\n驚き・感嘆を表す穏やかな間投詞。",
+      "inThisPlay": "寒さや目の前の状況への軽い驚きを表す間投詞。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0004",
+      "surface": "brute",
+      "lemma": "brute",
+      "meaning": "【名詞】\n乱暴・残酷な人。口語では相手を軽く責める呼び方にもなる。",
+      "inThisPlay": "Gilesを本気で『乱暴者』と非難しているのではなく、家事を自分に任せている夫へ親しみを込めて『ひどい人ね』と軽く文句を言っている。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0005",
+      "surface": "stoke the Aga",
+      "lemma": "stoke",
+      "meaning": "【動詞】\n炉・火に燃料を足して燃焼を保つ。",
+      "inThisPlay": "Aga式レンジの火に燃料を足して火力を保つこと。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0010",
+      "surface": "netting",
+      "lemma": "netting",
+      "meaning": "【名詞】\n網状の材料、ネット。",
+      "inThisPlay": "ここでは鶏用の囲いなどに使う金網・網材。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0011",
+      "surface": "dump",
+      "lemma": "dump",
+      "meaning": "【名詞・動詞】\nごみ捨て場・集積場。物を投げ捨てる。口語で粗末な場所。",
+      "inThisPlay": "ごみ捨て場というより、必要な資材を探しに行った資材置き場・店のような場所をぞんざいに呼んでいる。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0011",
+      "surface": "like anything",
+      "lemma": "like anything",
+      "meaning": "非常に激しく、ものすごく。",
+      "inThisPlay": "車が『ものすごく』横滑りしていた、という口語的な強調。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0011",
+      "surface": "What do you bet",
+      "lemma": "what do you bet",
+      "meaning": "『きっと～だと思わないか』と強い予想を示す言い方。",
+      "inThisPlay": "本当に賭けを持ちかけているのではなく、『明日にはきっと雪で閉じ込められるぞ』と強く予想する言い方。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0011",
+      "surface": "snowed up",
+      "lemma": "snowed up",
+      "meaning": "大雪で道路や建物がふさがれ、移動できない。",
+      "inThisPlay": "大雪のため外へ出られず、交通が遮断された状態。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0013",
+      "surface": "well-stoked up",
+      "lemma": "stoke",
+      "meaning": "【動詞】\n炉・火に燃料を足して燃焼を保つ。",
+      "inThisPlay": "暖房の火に十分な燃料を入れ、切らさないようにしておくこと。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0013",
+      "surface": "coke",
+      "lemma": "coke",
+      "meaning": "【名詞】\n石炭を乾留して作る固体燃料のコークス。",
+      "inThisPlay": "飲料ではなく、暖房用燃料のコークス。"
+    }
+  ]
+}
