@@ -117,5 +117,8 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add mousetrap_word_dictionary.json mousetrap_line_vocabulary.json data/canonical-production-contract.json data/canonical-integration-manifest.json data/vocabulary-context-expansion-report.json data/vocabulary-meaning-refinement-report.json scripts/validate-vocabulary-semantics.mjs app/src/data-store.js app/src/study/dictionary-sheet.js app/src/app.css app/scripts/assemble-production.mjs app/tests/canonical_study.e2e.spec.js app/tests/index_zero_static.mjs .github/workflows/app-qa.yml .github/workflows/pages.yml
           git diff --cached --check
-          git commit -m 'Complete Meaning and In this play integration [skip ci]'
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m 'Complete Meaning and In this play integration [skip ci]'
+          fi
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
