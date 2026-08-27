@@ -5,6 +5,7 @@ on:
     branches: ["fix/vocabulary-meaning-in-this-play"]
     paths:
       - 'scripts/zzz_vocab_semantic_migration_v2.mjs'
+      - 'scripts/zzz_refresh_vocab_reports_v2.mjs'
       - '.github/workflows/vocab-semantic-migration-v2.yml'
 
 permissions:
@@ -61,6 +62,8 @@ jobs:
           git commit -m 'Record vocabulary semantic validation failure [skip ci]'
           git push
           exit 1
+      - name: Refresh vocabulary QA reports
+        run: node scripts/zzz_refresh_vocab_reports_v2.mjs
       - name: Validate runtime and production assembly
         id: runtime
         continue-on-error: true
@@ -112,7 +115,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add mousetrap_word_dictionary.json mousetrap_line_vocabulary.json data/canonical-production-contract.json data/canonical-integration-manifest.json scripts/validate-vocabulary-semantics.mjs app/src/data-store.js app/src/study/dictionary-sheet.js app/src/app.css app/scripts/assemble-production.mjs app/tests/canonical_study.e2e.spec.js app/tests/index_zero_static.mjs .github/workflows/app-qa.yml .github/workflows/pages.yml
+          git add mousetrap_word_dictionary.json mousetrap_line_vocabulary.json data/canonical-production-contract.json data/canonical-integration-manifest.json data/vocabulary-context-expansion-report.json data/vocabulary-meaning-refinement-report.json scripts/validate-vocabulary-semantics.mjs app/src/data-store.js app/src/study/dictionary-sheet.js app/src/app.css app/scripts/assemble-production.mjs app/tests/canonical_study.e2e.spec.js app/tests/index_zero_static.mjs .github/workflows/app-qa.yml .github/workflows/pages.yml
           git diff --cached --check
           git commit -m 'Complete Meaning and In this play integration [skip ci]'
           git push
