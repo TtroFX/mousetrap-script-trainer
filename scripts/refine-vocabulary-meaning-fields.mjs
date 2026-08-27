@@ -22,7 +22,7 @@ const norm = s => String(s || '').toLowerCase().normalize('NFKC')
   .replace(/\s+/g, ' ')
   .trim();
 const exactLemma = s => String(s || '').trim().toLowerCase();
-const compact = s => String(s || '').normalize('NFKC').replace(/[\s。、，,:：;；!！?？「」『』“”‘’"']/g, '').toLowerCase();
+const compact = s => String(s || '').normalize('NFKC').replace(/[\s。、，,:：;；!！?？「」『』“”‘’"'【】]/g, '').toLowerCase();
 
 function loadNeutralSources() {
   const neutral = new Map();
@@ -47,7 +47,6 @@ function loadNeutralSources() {
         tags: Array.isArray(entry?.tags) ? entry.tags : []
       };
       const existing = neutral.get(key);
-      // Prefer the full block dictionary over supplements/seeds when both exist.
       const rank = /-dictionary\.json$/.test(name) ? 30 : /-dictionary-supplement\.json$/.test(name) ? 20 : 10;
       const prevRank = provenance.get(key)?.rank ?? -1;
       if (!existing || rank > prevRank) {
@@ -90,6 +89,20 @@ function cleanNeutralMeaning(text) {
     .replace(/\s+/g, ' ')
     .replace(/。{2,}/g, '。')
     .trim();
+}
+
+const PLAY_SPECIFIC_RE = /劇中|この劇|この場面|この台詞|この文脈|ここでは|前後関係|発言者|話者|皮肉|冗談|からか|言外|含意|Giles|Mollie|Paravicini|Trotter|Casewell|Metcalf|Wren|Boyle/i;
+function safeCurrentNeutral(entry) {
+  const candidates = [
+    ['contextMeaning', String(entry?.contextMeaning || '').trim()],
+    ['coreMeaning', String(entry?.coreMeaning || '').trim()]
+  ];
+  for (const [field, value] of candidates) {
+    if (!value || value.length > 180) continue;
+    if (PLAY_SPECIFIC_RE.test(value)) continue;
+    return { field, meaning: value };
+  }
+  return null;
 }
 
 function singleLexicalItem(lemma) {
@@ -141,9 +154,11 @@ const { neutral, provenance, files: neutralFiles } = loadNeutralSources();
 const { byExact: playByExact, sourceNonEmpty, files: playFiles } = loadCuratedPlayMeanings();
 
 let dictionarySourceExact = 0;
-let dictionarySourceFallback = 0;
+let dictionarySourceScreenedCurrent = 0;
+let dictionaryUnsafeFallback = 0;
 let dictionaryFormatted = 0;
-const fallbackLemmas = [];
+const screenedCurrentLemmas = [];
+const unsafeFallbackLemmas = [];
 
 for (const [key, entry] of Object.entries(dict)) {
   const lemma = String(entry?.lemma || key).trim() || key;
@@ -156,9 +171,15 @@ for (const [key, entry] of Object.entries(dict)) {
     if (source?.pos && !String(entry.pos || '').trim()) entry.pos = source.pos;
     if (Array.isArray(source?.tags) && (!Array.isArray(entry.tags) || entry.tags.length === 0)) entry.tags = source.tags;
   } else {
-    rawMeaning = String(entry?.meaning || entry?.contextMeaning || entry?.coreMeaning || '').trim();
-    dictionarySourceFallback += 1;
-    fallbackLemmas.push(lemma);
+    const screened = safeCurrentNeutral(entry);
+    if (!screened) {
+      dictionaryUnsafeFallback += 1;
+      unsafeFallbackLemmas.push(lemma);
+      continue;
+    }
+    rawMeaning = screened.meaning;
+    dictionarySourceScreenedCurrent += 1;
+    screenedCurrentLemmas.push({ lemma, field: screened.field });
   }
 
   if (!rawMeaning) throw new Error(`no neutral dictionary meaning for ${lemma}`);
@@ -166,10 +187,12 @@ for (const [key, entry] of Object.entries(dict)) {
   if (!formatted) throw new Error(`empty formatted dictionary meaning for ${lemma}`);
 
   entry.meaning = formatted;
-  // contextMeaning had become a mixture of neutral glosses and occurrence-level meanings.
-  // Remove it from the lemma-level dictionary: occurrence-specific context belongs in line vocabulary.inThisPlay.
   delete entry.contextMeaning;
   dictionaryFormatted += 1;
+}
+
+if (dictionaryUnsafeFallback) {
+  throw new Error(`unsafe dictionary fallback requires review: ${JSON.stringify(unsafeFallbackLemmas)}`);
 }
 
 const dictByLemma = new Map();
@@ -182,9 +205,9 @@ let vocabularyItems = 0;
 let vocabularyMeaningUpdated = 0;
 let inThisPlayItems = 0;
 let removedStaleInThisPlay = 0;
-let curatedMatched = 0;
 const missingDictionary = [];
 const unmatchedCurated = new Set(playByExact.keys());
+const matchedCuratedKeys = new Set();
 const examples = [];
 
 for (const [speechId, rows] of Object.entries(vocab)) {
@@ -202,19 +225,15 @@ for (const [speechId, rows] of Object.entries(vocab)) {
 
     const contextKey = `${speechId}\u0000${norm(item.surface)}\u0000${norm(item.lemma)}`;
     const curated = playByExact.get(contextKey);
-    if (curated && compact(curated) !== compact(dictEntry.meaning)) {
+    if (curated) {
       item.inThisPlay = curated;
       inThisPlayItems += 1;
-      curatedMatched += 1;
+      matchedCuratedKeys.add(contextKey);
       unmatchedCurated.delete(contextKey);
       if (examples.length < 12) examples.push({ speechId, surface: item.surface, lemma: item.lemma, meaning: item.meaning, inThisPlay: curated });
     } else {
       if (Object.prototype.hasOwnProperty.call(item, 'inThisPlay')) removedStaleInThisPlay += 1;
       delete item.inThisPlay;
-      if (curated) {
-        curatedMatched += 1;
-        unmatchedCurated.delete(contextKey);
-      }
     }
   }
 }
@@ -283,14 +302,16 @@ const report = {
   sources: {
     neutralDictionaryFiles: neutralFiles,
     curatedPlayMeaningFiles: playFiles,
-    curatedNonEmpty: sourceNonEmpty
+    curatedNonEmpty: sourceNonEmpty,
+    curatedUniqueKeys: playByExact.size
   },
   dictionary: {
     entries: Object.keys(dict).length,
     formatted: dictionaryFormatted,
     neutralSourceExact: dictionarySourceExact,
-    fallbackCount: dictionarySourceFallback,
-    fallbackLemmas: fallbackLemmas.slice(0, 100),
+    screenedCurrentNeutral: dictionarySourceScreenedCurrent,
+    unsafeFallbackCount: dictionaryUnsafeFallback,
+    screenedCurrentLemmas,
     sha256: dictSha
   },
   vocabulary: {
@@ -298,7 +319,7 @@ const report = {
     items: vocabularyItems,
     meaningUpdated: vocabularyMeaningUpdated,
     inThisPlayItems,
-    curatedMatched,
+    matchedCuratedKeys: matchedCuratedKeys.size,
     removedStaleInThisPlay,
     sha256: vocabSha
   },
