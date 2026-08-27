@@ -119,5 +119,4 @@ jobs:
           if ! git diff --cached --quiet; then
             git commit -m 'Complete Meaning and In this play integration [skip ci]'
           fi
-          git pull --rebase origin "$GITHUB_REF_NAME"
           git push origin "HEAD:$GITHUB_REF_NAME"
