@@ -30,6 +30,7 @@ jobs:
           node-version: '22'
       - name: Validate canonical source data
         run: |
+          node scripts/validate-vocabulary-semantics.mjs
           node scripts/validate-interpretation-scene.mjs act1-scene1
           node scripts/validate-interpretation-scene.mjs act1-scene2
           node scripts/validate-interpretation-scene.mjs act2
