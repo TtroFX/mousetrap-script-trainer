@@ -139,7 +139,6 @@ function validateStructure(value, script) {
           if (!parent) throw new Error('structure.' + lineId + ': orphan clause parent');
         }
       }
-      const relationByNested = new Map();
       for (const chunk of sentence.chunks) {
         const marker = String(chunk?.marker || '');
         if (chunk.clauseId != null && !clauseIds.has(chunk.clauseId)) throw new Error('structure.' + lineId + ': orphan chunk clause ' + chunk.clauseId);
@@ -153,18 +152,14 @@ function validateStructure(value, script) {
           const owner = clauseById.get(chunk.clauseId);
           if (!owner || String(owner.number) !== role[2]) throw new Error('structure.' + lineId + ': role marker/owner mismatch ' + marker);
         }
-        if (chunk.source === 'relation') {
-          if (!chunk.nestedClauseId || !/^[SOC]\d+[a-z]?$/.test(marker)) throw new Error('structure.' + lineId + ': invalid relation chunk');
-          const nested = clauseById.get(chunk.nestedClauseId);
-          if (!nested || nested.parentClauseId !== chunk.clauseId || nested.start !== chunk.start || nested.end !== chunk.end) throw new Error('structure.' + lineId + ': relation/nested span mismatch');
-          relationByNested.set(chunk.nestedClauseId, chunk);
-        }
       }
       for (const clause of sentence.clauses) {
-        if (['S','O','C'].includes(clause.functionInParent)) {
-          const relation = relationByNested.get(clause.id);
-          if (!relation || !String(relation.marker).startsWith(clause.functionInParent)) throw new Error('structure.' + lineId + ': missing outer role relation for ' + clause.marker);
-        }
+        if (!['S','O','C'].includes(clause.functionInParent) || !clause.parentClauseId) continue;
+        const parent = clauseById.get(clause.parentClauseId);
+        if (!parent) continue;
+        const expectedMarker = clause.functionInParent + String(parent.number);
+        const relation = sentence.chunks.find(chunk => String(chunk.marker || '') === expectedMarker && chunk.clauseId === parent.id && chunk.nestedClauseId === clause.id && chunk.start === clause.start && chunk.end === clause.end);
+        if (!relation) throw new Error('structure.' + lineId + ': missing outer role relation for ' + clause.marker + ' -> ' + expectedMarker);
       }
     }
     if (speech.text.slice(previousSentenceEnd).trim()) throw new Error('structure.' + lineId + ': trailing unstructured text');

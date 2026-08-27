@@ -62,12 +62,20 @@ export function buildStructureModel(speech, line) {
     const chunks = Array.isArray(sentence.chunks) ? sentence.chunks : [];
     const byId = new Map(clauses.map(clause => [clause.id, clause]));
     const relationByNested = new Map();
-    for (const chunk of chunks) if (chunk.source === 'relation' && chunk.nestedClauseId) relationByNested.set(chunk.nestedClauseId, chunk);
+    for (const clause of clauses) {
+      if (!['S', 'O', 'C'].includes(clause.functionInParent) || !clause.parentClauseId) continue;
+      const parent = byId.get(clause.parentClauseId);
+      if (!parent) continue;
+      const expectedMarker = clause.functionInParent + String(parent.number);
+      const relation = chunks.find(chunk => String(chunk.marker || '') === expectedMarker && chunk.clauseId === parent.id && chunk.nestedClauseId === clause.id && chunk.start === clause.start && chunk.end === clause.end);
+      if (relation) relationByNested.set(clause.id, relation);
+    }
+    const relationChunkIds = new Set([...relationByNested.values()].map(chunk => chunk.id));
 
     const clauseModels = clauses.map(clause => {
       const relation = relationByNested.get(clause.id) || null;
       const ownChunks = chunks
-        .filter(chunk => chunk.clauseId === clause.id && chunk.source !== 'relation')
+        .filter(chunk => chunk.clauseId === clause.id && !relationChunkIds.has(chunk.id))
         .slice()
         .sort((a, b) => a.start - b.start || a.end - b.end)
         .map(chunk => chunkModel(chunk, sentenceText));
@@ -89,7 +97,7 @@ export function buildStructureModel(speech, line) {
     });
 
     const loose = chunks
-      .filter(chunk => chunk.source !== 'relation' && (!chunk.clauseId || !byId.has(chunk.clauseId)))
+      .filter(chunk => !relationChunkIds.has(chunk.id) && (!chunk.clauseId || !byId.has(chunk.clauseId)))
       .slice()
       .sort((a, b) => a.start - b.start || a.end - b.end)
       .map(chunk => chunkModel(chunk, sentenceText));
