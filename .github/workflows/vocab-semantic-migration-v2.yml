@@ -18,6 +18,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Tighten optional In this play selection
+        run: perl -0pi -e "s/if\(text&&keepInThisPlay\(text\)\)/if(text&&keepInThisPlay(text)&&text!==String(d.meaning).trim())/" scripts/zzz_vocab_semantic_migration_v2.mjs
       - name: Apply semantic integration migration
         id: migrate
         continue-on-error: true
