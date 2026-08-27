@@ -24,7 +24,6 @@ function renderSentence(sentence) {
   const loose = sentence.loose.length ? '<section class="syntax-clause syntax-fragment" data-syntax-depth="0" style="--syntax-depth:0"><header class="syntax-clause-head"><span class="syntax-clause-marker">' + (sentence.kind === 'fragment' ? 'Frag' : 'Other') + '</span><span class="syntax-clause-name">' + (sentence.kind === 'fragment' ? 'Dialogue fragment' : 'Unattached structure') + '</span></header><div class="syntax-chunks">' + sentence.loose.map(chunk => renderChunk(chunk, sentence.index)).join('') + '</div></section>' : '';
   return '<section class="syntax-sentence" data-syntax-sentence-index="' + sentence.index + '">' +
     '<div class="syntax-sentence-label">Sentence ' + (sentence.index + 1) + '</div>' +
-    '<p class="syntax-source">' + escapeHtml(sentence.text) + '</p>' +
     '<div class="syntax-map">' + clauses + loose + '</div>' +
     '<div class="syntax-detail" data-syntax-detail="' + sentence.index + '" hidden></div>' +
   '</section>';
