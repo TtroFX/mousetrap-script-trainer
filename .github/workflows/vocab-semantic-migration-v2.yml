@@ -51,12 +51,27 @@ jobs:
           git push
           exit 1
       - name: Validate runtime and production assembly
+        id: runtime
+        continue-on-error: true
         run: |
-          node --check app/src/data-store.js
-          node --check app/src/study/dictionary-sheet.js
-          node --check app/scripts/assemble-production.mjs
-          (cd app && node tests/index_zero_static.mjs)
-          (cd app && node scripts/assemble-production.mjs --verify-only)
+          {
+            node --check app/src/data-store.js
+            node --check app/src/study/dictionary-sheet.js
+            node --check app/scripts/assemble-production.mjs
+            (cd app && node tests/index_zero_static.mjs)
+            (cd app && node scripts/assemble-production.mjs --verify-only)
+          } > runtime-debug.log 2>&1
+      - name: Persist runtime validation failure details
+        if: steps.runtime.outcome == 'failure'
+        run: |
+          mkdir -p data
+          cp runtime-debug.log data/vocab-runtime-debug.log
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/vocab-runtime-debug.log
+          git commit -m 'Record vocabulary runtime validation failure [skip ci]'
+          git push
+          exit 1
       - name: Install browser QA
         working-directory: app
         run: |
