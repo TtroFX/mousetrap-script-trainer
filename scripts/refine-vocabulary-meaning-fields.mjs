@@ -63,7 +63,7 @@ function loadNeutralSources() {
       }
     }
   }
-  return { neutral, provenance, files };
+  return { neutral, files };
 }
 
 function loadCuratedPlayMeanings() {
@@ -121,24 +121,18 @@ function splitPos(pos) {
   return parts.length > 1 && parts.every(x => known.has(x)) ? parts : [text];
 }
 
-function sourceLooksPolysemous(sourceMeaning, pos) {
-  const text = cleanNeutralMeaning(sourceMeaning);
-  if (splitPos(pos).length > 1) return true;
-  const sentences = text.split(/(?<=。)/u).map(x => x.trim()).filter(Boolean);
-  return sentences.length > 1 || /また|用法|文脈によって|意味がある|場合がある|～もある/.test(text);
-}
-
 function chooseRawMeaning({ lemma, pos, sourceMeaning, baselineGloss, baselineCore }) {
   const source = cleanNeutralMeaning(sourceMeaning);
   const gloss = cleanNeutralMeaning(baselineGloss);
-  if (gloss) {
-    if (!source) return { meaning: gloss, sourceType: 'baselineGloss' };
-    if (!singleLexicalItem(lemma)) return { meaning: gloss, sourceType: 'baselineGloss' };
-    if (!sourceLooksPolysemous(source, pos) && gloss.length <= source.length + 2) {
-      return { meaning: gloss, sourceType: 'baselineGloss' };
-    }
+  const poses = splitPos(pos);
+
+  // A safe short gloss is closest to an ordinary J-E dictionary translation.
+  // Keep the neutral source for genuinely multi-POS one-word entries so noun/verb etc. can remain distinct.
+  if (gloss && (!singleLexicalItem(lemma) || poses.length <= 1)) {
+    return { meaning: gloss, sourceType: 'baselineGloss' };
   }
   if (source) return { meaning: source, sourceType: 'neutralSource' };
+  if (gloss) return { meaning: gloss, sourceType: 'baselineGloss' };
   const core = cleanNeutralMeaning(baselineCore);
   if (core) return { meaning: core, sourceType: 'baselineCore' };
   return { meaning: '', sourceType: 'unsafe' };
@@ -147,17 +141,14 @@ function chooseRawMeaning({ lemma, pos, sourceMeaning, baselineGloss, baselineCo
 function formatSenseBody(raw) {
   const text = cleanNeutralMeaning(raw);
   if (!text) return '';
-
   const slashParts = text.split(/\s*／\s*/).map(x => x.trim().replace(/。$/, '')).filter(Boolean);
   if (slashParts.length >= 2 && slashParts.length <= 4 && slashParts.every(x => x.length <= 45)) {
     return slashParts.map((x, i) => `${['①','②','③','④'][i]} ${x}`).join('\n');
   }
-
   const alsoParts = text.split(/。\s*また(?:、|は)?\s*/).map(x => x.trim().replace(/。$/, '')).filter(Boolean);
   if (alsoParts.length >= 2 && alsoParts.length <= 4 && alsoParts.every(x => x.length <= 60)) {
     return alsoParts.map((x, i) => `${['①','②','③','④'][i]} ${x}`).join('\n');
   }
-
   return text;
 }
 
@@ -168,12 +159,22 @@ function formatDictionaryMeaning(lemma, pos, rawMeaning) {
 
   const poses = splitPos(pos);
   const sentences = raw.split(/(?<=。)/u).map(x => x.trim()).filter(Boolean);
-  if (poses.length > 1 && sentences.length === poses.length && poses.length <= 3) {
-    return poses.map((p, i) => `【${p}】\n${formatSenseBody(sentences[i])}`).join('\n');
+  if (poses.length > 1 && sentences.length >= poses.length && poses.length <= 3) {
+    const grouped = poses.map((p, i) => {
+      const slice = i === poses.length - 1 ? sentences.slice(i).join('') : sentences[i];
+      return `【${p}】\n${formatSenseBody(slice)}`;
+    });
+    return grouped.join('\n');
   }
-
   const heading = String(pos || '語句').trim() || '語句';
   return `【${heading}】\n${formatSenseBody(raw)}`;
+}
+
+const INTENT_OR_NONLITERAL_RE = /本気で|冗談|皮肉|からか|自嘲|見下|侮辱|軽蔑|親しみ|愛情|大げさ|誇張|婉曲|遠回し|暗に|ほのめ|わざと|意図|脅し|非難|責め|軽く文句|意味ではない|単に[^。]*ではない|本当に[^。]*ではない|文字どおり[^。]*ではなく|比喩|比喩的|言外|語用|社会的含意|階級意識|警察発表の定型|古めの口語|古い口語|時代的な言い方|強く予想/i;
+function shouldIncludeInThisPlay(context) {
+  const text = String(context || '').trim();
+  if (!text) return false;
+  return INTENT_OR_NONLITERAL_RE.test(text);
 }
 
 const baseline = loadMainBaselineDictionary();
@@ -235,9 +236,11 @@ let vocabularyItems = 0;
 let vocabularyMeaningUpdated = 0;
 let inThisPlayItems = 0;
 let removedStaleInThisPlay = 0;
+let curatedKeysEncountered = 0;
+let curatedKeysIncluded = 0;
 const missingDictionary = [];
-const unmatchedCurated = new Set(playByExact.keys());
-const matchedCuratedKeys = new Set();
+const encounteredCuratedKeys = new Set();
+const includedCuratedKeys = new Set();
 const examples = [];
 
 for (const [speechId, rows] of Object.entries(vocab)) {
@@ -255,21 +258,29 @@ for (const [speechId, rows] of Object.entries(vocab)) {
     const contextKey = `${speechId}\u0000${norm(item.surface)}\u0000${norm(item.lemma)}`;
     const curated = playByExact.get(contextKey);
     if (curated) {
-      item.inThisPlay = curated;
-      inThisPlayItems += 1;
-      matchedCuratedKeys.add(contextKey);
-      unmatchedCurated.delete(contextKey);
-      if (examples.length < 12) examples.push({ speechId, surface: item.surface, lemma: item.lemma, meaning: item.meaning, inThisPlay: curated });
+      encounteredCuratedKeys.add(contextKey);
+      if (shouldIncludeInThisPlay(curated)) {
+        item.inThisPlay = curated;
+        inThisPlayItems += 1;
+        includedCuratedKeys.add(contextKey);
+        if (examples.length < 12) examples.push({ speechId, surface: item.surface, lemma: item.lemma, meaning: item.meaning, inThisPlay: curated });
+      } else {
+        if (Object.prototype.hasOwnProperty.call(item, 'inThisPlay')) removedStaleInThisPlay += 1;
+        delete item.inThisPlay;
+      }
     } else {
       if (Object.prototype.hasOwnProperty.call(item, 'inThisPlay')) removedStaleInThisPlay += 1;
       delete item.inThisPlay;
     }
   }
 }
+curatedKeysEncountered = encounteredCuratedKeys.size;
+curatedKeysIncluded = includedCuratedKeys.size;
 
 if (missingDictionary.length) throw new Error(`missing dictionary meanings: ${JSON.stringify(missingDictionary.slice(0, 10))}`);
 if (Object.keys(vocab).length !== 1164) throw new Error(`vocabulary speech coverage ${Object.keys(vocab).length}/1164`);
-if (unmatchedCurated.size) throw new Error(`unmatched curated In this play entries: ${JSON.stringify([...unmatchedCurated].slice(0, 10))}`);
+if (curatedKeysEncountered !== playByExact.size) throw new Error(`curated key coverage mismatch ${curatedKeysEncountered}/${playByExact.size}`);
+if (!curatedKeysIncluded) throw new Error('strict In this play filter removed every curated entry');
 
 for (const [speechId, rows] of Object.entries(vocab)) {
   for (const item of rows) {
@@ -315,17 +326,17 @@ if (exists(EXPANSION_REPORT)) {
   if (report.dictionary) report.dictionary.sha256 = dictSha;
   report.presentation ||= {};
   report.presentation.meaningPolicy = 'Dictionary-neutral Japanese translation; one-word entries use dictionary-style POS headings and line breaks.';
-  report.presentation.inThisPlayPolicy = 'Optional. Present only when curated contextMeaning materially differs from the neutral dictionary meaning or encodes speaker intent/pragmatic force.';
+  report.presentation.inThisPlayPolicy = 'Optional. Kept only for curated speaker-intent, irony, non-literal, pragmatic, or materially context-specific usage; ordinary line-level restatements are omitted.';
   report.presentation.inThisPlayItems = inThisPlayItems;
   write(EXPANSION_REPORT, report);
 }
 
 const report = {
-  schemaVersion: 2,
+  schemaVersion: 3,
   status: 'PASS',
   policy: {
-    meaning: 'Neutral Japanese dictionary translation. Concise pre-existing neutral glosses are preferred when safe; neutral source definitions supply polysemy and multi-POS coverage. Single lexical items use POS headings.',
-    inThisPlay: 'Optional occurrence-level field. Restored only from non-empty, manually reviewed contextMeaning in block line-vocabulary sources and omitted otherwise.',
+    meaning: 'Neutral Japanese dictionary translation. Safe concise glosses are preferred for single-POS words and phrases; neutral source definitions preserve genuinely multi-POS entries. Single lexical items use POS headings.',
+    inThisPlay: 'Optional occurrence-level field. Only curated contexts expressing speaker intent, irony, non-literal/pragmatic force, or a substantial departure from the ordinary dictionary reading are retained.',
     compatibility: 'Existing playMeaning booleans are preserved because runtime currently uses them as a presentation filter.'
   },
   sources: {
@@ -350,7 +361,9 @@ const report = {
     items: vocabularyItems,
     meaningUpdated: vocabularyMeaningUpdated,
     inThisPlayItems,
-    matchedCuratedKeys: matchedCuratedKeys.size,
+    curatedKeysEncountered,
+    curatedKeysIncluded,
+    curatedKeysOmitted: curatedKeysEncountered - curatedKeysIncluded,
     removedStaleInThisPlay,
     sha256: vocabSha
   },
