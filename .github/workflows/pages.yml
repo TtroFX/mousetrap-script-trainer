@@ -26,8 +26,9 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Validate committed chunking v1 canonical data
+      - name: Validate committed canonical data
         run: |
+          node scripts/validate-vocabulary-semantics.mjs
           python3 -m py_compile app/scripts/validate-chunking-v1.py
           python3 app/scripts/validate-chunking-v1.py --root . --structure app/mousetrap_line_structure.json --report /tmp/chunking-v1-pages-qa.json
 
