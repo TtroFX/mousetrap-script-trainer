@@ -45,8 +45,9 @@ jobs:
           if(report.dictionary.neutralSource+report.dictionary.baselineGloss+report.dictionary.baselineCore!==report.dictionary.entries) throw new Error('dictionary provenance coverage mismatch');
           if(report.dictionary.entries!==1000) throw new Error(`dictionary count changed: ${report.dictionary.entries}`);
           if(report.vocabulary.speeches!==1164||report.vocabulary.items!==1741) throw new Error('vocabulary coverage/count changed');
-          if(report.vocabulary.inThisPlayItems<=0) throw new Error('no optional inThisPlay entries restored');
-          if(report.vocabulary.matchedCuratedKeys!==report.sources.curatedUniqueKeys) throw new Error(`curated context key mismatch ${report.vocabulary.matchedCuratedKeys}/${report.sources.curatedUniqueKeys}`);
+          if(report.vocabulary.curatedKeysEncountered!==report.sources.curatedUniqueKeys) throw new Error(`curated context coverage mismatch ${report.vocabulary.curatedKeysEncountered}/${report.sources.curatedUniqueKeys}`);
+          if(report.vocabulary.curatedKeysIncluded<=0||report.vocabulary.curatedKeysIncluded>=report.vocabulary.curatedKeysEncountered) throw new Error('In this play must be optional and selective');
+          if(report.vocabulary.curatedKeysOmitted!==report.vocabulary.curatedKeysEncountered-report.vocabulary.curatedKeysIncluded) throw new Error('curated omission count mismatch');
           let items=0, inThisPlay=0, singleWordFormatted=0;
           const dictByLemma=new Map();
           for(const [key,entry] of Object.entries(dict)){
@@ -74,7 +75,7 @@ jobs:
             }
           }
           if(items!==1741||inThisPlay!==report.vocabulary.inThisPlayItems) throw new Error('post-write count mismatch');
-          console.log(JSON.stringify({status:'PASS',dictionary:Object.keys(dict).length,items,inThisPlay,singleWordFormatted,neutralSource:report.dictionary.neutralSource,baselineGloss:report.dictionary.baselineGloss,baselineCore:report.dictionary.baselineCore},null,2));
+          console.log(JSON.stringify({status:'PASS',dictionary:Object.keys(dict).length,items,inThisPlay,singleWordFormatted,curatedKeysIncluded:report.vocabulary.curatedKeysIncluded,curatedKeysOmitted:report.vocabulary.curatedKeysOmitted},null,2));
           EOF
 
       - name: Validate production assembly
@@ -98,7 +99,7 @@ jobs:
             echo 'No generated changes.'
             exit 0
           fi
-          git commit -m 'Refine dictionary-style Meaning and optional In this play [skip ci]'
+          git commit -m 'Finalize dictionary Meaning and selective In this play [skip ci]'
           git push origin HEAD:fix/vocabulary-meaning-in-this-play
 
       - name: Final status
