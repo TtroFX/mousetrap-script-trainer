@@ -34,7 +34,20 @@ jobs:
           git push
           exit 1
       - name: Validate dedicated vocabulary semantics
-        run: node scripts/validate-vocabulary-semantics.mjs
+        id: semantic
+        continue-on-error: true
+        run: node scripts/validate-vocabulary-semantics.mjs > semantic-debug.log 2>&1
+      - name: Persist semantic validation failure details
+        if: steps.semantic.outcome == 'failure'
+        run: |
+          mkdir -p data
+          cp semantic-debug.log data/vocab-semantic-debug.log
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/vocab-semantic-debug.log
+          git commit -m 'Record vocabulary semantic validation failure [skip ci]'
+          git push
+          exit 1
       - name: Validate runtime and production assembly
         run: |
           node --check app/src/data-store.js
