@@ -1,0 +1,47 @@
+name: Vocabulary Semantic Integration V2
+
+on:
+  push:
+    branches: ["fix/vocabulary-meaning-in-this-play"]
+    paths:
+      - 'scripts/zzz_vocab_semantic_migration_v2.mjs'
+      - '.github/workflows/vocab-semantic-migration-v2.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  migrate-verify-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Apply semantic integration migration
+        run: node scripts/zzz_vocab_semantic_migration_v2.mjs
+      - name: Validate dedicated vocabulary semantics
+        run: node scripts/validate-vocabulary-semantics.mjs
+      - name: Validate runtime and production assembly
+        run: |
+          node --check app/src/data-store.js
+          node --check app/src/study/dictionary-sheet.js
+          node --check app/scripts/assemble-production.mjs
+          (cd app && node tests/index_zero_static.mjs)
+          (cd app && node scripts/assemble-production.mjs --verify-only)
+      - name: Install browser QA
+        working-directory: app
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+      - name: Run complete UI regression
+        working-directory: app
+        run: npm run test:e2e
+      - name: Commit verified integration
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add mousetrap_word_dictionary.json mousetrap_line_vocabulary.json data/canonical-production-contract.json data/canonical-integration-manifest.json scripts/validate-vocabulary-semantics.mjs app/src/data-store.js app/src/study/dictionary-sheet.js app/src/app.css app/scripts/assemble-production.mjs app/tests/canonical_study.e2e.spec.js .github/workflows/app-qa.yml .github/workflows/pages.yml
+          git diff --cached --check
+          git commit -m 'Complete Meaning and In this play integration [skip ci]'
+          git push
