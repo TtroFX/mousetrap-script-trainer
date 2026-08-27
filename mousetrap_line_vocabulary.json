@@ -77,8 +77,7 @@
       "surface": "ice-bound",
       "lemma": "ice-bound",
       "meaning": "【形容詞】\n氷で閉ざされた",
-      "playMeaning": true,
-      "inThisPlay": "雪と氷で危険な道路状況を指す。文字どおり完全に氷に閉じ込められた道路というより、凍結して通行が危険な道路。"
+      "playMeaning": true
     },
     {
       "surface": "expected",
@@ -104,8 +103,7 @@
       "surface": "Gosh",
       "lemma": "gosh",
       "meaning": "【間投詞】\n① まあ\n② うわあ",
-      "playMeaning": true,
-      "inThisPlay": "寒さや目の前の状況への軽い驚きを表す間投詞。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0003": [],
@@ -113,7 +111,7 @@
     {
       "surface": "brute",
       "lemma": "brute",
-      "meaning": "【名詞】\n乱暴・残酷な人。口語では相手を軽く責める呼び方にもなる。",
+      "meaning": "【名詞】\nひどい人、乱暴者",
       "playMeaning": true,
       "inThisPlay": "Gilesを本気で『乱暴者』と非難しているのではなく、家事を自分に任せている夫へ親しみを込めて『ひどい人ね』と軽く文句を言っている。"
     }
@@ -135,8 +133,7 @@
       "surface": "stoke the Aga",
       "lemma": "stoke",
       "meaning": "【動詞】\n燃料を足して火を保つ",
-      "playMeaning": true,
-      "inThisPlay": "Aga式レンジの火に燃料を足して火力を保つこと。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0006": [],
@@ -144,7 +141,7 @@
     {
       "surface": "Hullo",
       "lemma": "Hullo",
-      "meaning": "【間投詞】\nhello の古い綴り・発音表記。英国の古い作品でよく見られる。",
+      "meaning": "【間投詞】\n① やあ\n② もしもし",
       "playMeaning": true
     }
   ],
@@ -174,8 +171,7 @@
       "surface": "netting",
       "lemma": "netting",
       "meaning": "【名詞】\n網、ネット状の材料",
-      "playMeaning": true,
-      "inThisPlay": "ここでは鶏用の囲いなどに使う金網・網材。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0011": [
@@ -188,9 +184,8 @@
     {
       "surface": "dump",
       "lemma": "dump",
-      "meaning": "【名詞・動詞】\nごみ捨て場・集積場。物を投げ捨てる。口語で粗末な場所。",
-      "playMeaning": true,
-      "inThisPlay": "ごみ捨て場というより、必要な資材を探しに行った資材置き場・店のような場所をぞんざいに呼んでいる。"
+      "meaning": "【名詞】\nごみ捨て場・集積場。\n【動詞】\n物を投げ捨てる。口語で粗末な場所。",
+      "playMeaning": true
     },
     {
       "surface": "any good",
@@ -201,7 +196,7 @@
     {
       "surface": "Practically",
       "lemma": "practically",
-      "meaning": "【副詞】\n① ほとんど、実質的に\n② 実用的な観点では",
+      "meaning": "【副詞】\nほとんど、実質的に",
       "playMeaning": true
     },
     {
@@ -220,8 +215,7 @@
       "surface": "like anything",
       "lemma": "like anything",
       "meaning": "ものすごく／ひどく",
-      "playMeaning": true,
-      "inThisPlay": "車が『ものすごく』横滑りしていた、という口語的な強調。"
+      "playMeaning": true
     },
     {
       "surface": "coming down",
@@ -240,8 +234,7 @@
       "surface": "snowed up",
       "lemma": "snowed up",
       "meaning": "雪で閉じ込められた／交通が遮断された",
-      "playMeaning": true,
-      "inThisPlay": "大雪のため外へ出られず、交通が遮断された状態。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0012": [],
@@ -256,8 +249,7 @@
       "surface": "well-stoked up",
       "lemma": "stoke",
       "meaning": "【動詞】\n燃料を足して火を保つ",
-      "playMeaning": true,
-      "inThisPlay": "暖房の火に十分な燃料を入れ、切らさないようにしておくこと。"
+      "playMeaning": true
     },
     {
       "surface": "stoked",
@@ -269,8 +261,7 @@
       "surface": "coke",
       "lemma": "coke",
       "meaning": "【名詞】\nコークス（燃料）",
-      "playMeaning": true,
-      "inThisPlay": "飲料ではなく、暖房用燃料のコークス。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0014": [
@@ -326,16 +317,15 @@
     {
       "surface": "department",
       "lemma": "department",
-      "meaning": "【名詞】\n① 組織の部門\n② 担当分野",
+      "meaning": "【名詞】\n担当分野",
       "playMeaning": true,
       "inThisPlay": "組織の『部門』ではなく、料理は自分の担当分野だという冗談めいた言い方。"
     },
     {
       "surface": "tins",
       "lemma": "tin",
-      "meaning": "【名詞】\n① 金属の錫\n② 英国英語で缶・缶詰",
-      "playMeaning": true,
-      "inThisPlay": "ここでは缶そのものではなく缶詰食品。"
+      "meaning": "【名詞】\n缶詰",
+      "playMeaning": true
     },
     {
       "surface": "in case",
@@ -347,8 +337,7 @@
       "surface": "snowed up",
       "lemma": "snowed up",
       "meaning": "雪で閉じ込められた／交通が遮断された",
-      "playMeaning": true,
-      "inThisPlay": "大雪で外部との行き来ができなくなること。"
+      "playMeaning": true
     },
     {
       "surface": "going to be all right",
@@ -441,8 +430,7 @@
       "surface": "bank it up",
       "lemma": "bank up",
       "meaning": "火を長持ちさせるよう燃料を積む／雪などが堆積する",
-      "playMeaning": true,
-      "inThisPlay": "暖房の火を一晩もつよう、燃料を多めに入れて火を弱く長く保つこと。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0028": [],
@@ -461,8 +449,7 @@
       "surface": "worked out",
       "lemma": "work out",
       "meaning": "考えて解く／うまくいく",
-      "playMeaning": true,
-      "inThisPlay": "ここでは問題を解くのではなく、どの客をどの部屋に入れるか部屋割りを決めてあること。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0032": [
@@ -498,7 +485,7 @@
     {
       "surface": "mugs",
       "lemma": "mug",
-      "meaning": "【名詞】\nマグカップ。英国口語では、だまされやすい愚かな人。",
+      "meaning": "【名詞】\n間抜け、だまされやすい人",
       "playMeaning": true,
       "inThisPlay": "自分たちは宿屋経営について世間知らずで、簡単にだまされそうな『間抜け』だという自嘲。"
     }
@@ -514,8 +501,7 @@
       "surface": "hang on to",
       "lemma": "hang on to",
       "meaning": "～を手放さず持っておく",
-      "playMeaning": true,
-      "inThisPlay": "客が料金を払わない場合、その荷物を担保のように手元に留めておくこと。"
+      "playMeaning": true
     },
     {
       "surface": "quite",
@@ -547,8 +533,7 @@
       "surface": "get had",
       "lemma": "get had",
       "meaning": "だまされる／一杯食わされる",
-      "playMeaning": true,
-      "inThisPlay": "宿泊客にだまされたり、代金を踏み倒されたりすること。"
+      "playMeaning": true
     },
     {
       "surface": "luggage",
@@ -587,8 +572,7 @@
       "surface": "forged references",
       "lemma": "forged reference",
       "meaning": "使用人などが信用を得るために偽造した推薦状・身元証明。",
-      "playMeaning": true,
-      "inThisPlay": "使用人などが信用を得るために偽造した推薦状・身元証明。"
+      "playMeaning": true
     },
     {
       "surface": "references",
@@ -613,9 +597,8 @@
     {
       "surface": "guineas",
       "lemma": "guinea",
-      "meaning": "【名詞】\n旧英国の通貨・料金単位。1ギニーは21シリング。",
-      "playMeaning": true,
-      "inThisPlay": "当時の英国で料金表示などに使われた旧通貨単位。1ギニー＝21シリング。"
+      "meaning": "【名詞】\nギニー（旧英国通貨単位、21シリング）",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0041": [
@@ -674,8 +657,7 @@
       "surface": "are anxious to interview",
       "lemma": "be anxious to interview",
       "meaning": "人に会って質問・面談することを強く望む。",
-      "playMeaning": true,
-      "inThisPlay": "警察が殺人事件との関係で男性を捜し、事情を聴こうとしているという公式表現。"
+      "playMeaning": true
     },
     {
       "surface": "in the vicinity",
@@ -705,8 +687,7 @@
       "surface": "icebound",
       "lemma": "ice-bound",
       "meaning": "【形容詞】\n氷で閉ざされた",
-      "playMeaning": true,
-      "inThisPlay": "凍結して危険な道路状況。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0043": [],
@@ -715,15 +696,13 @@
       "surface": "gave up",
       "lemma": "give up",
       "meaning": "諦める／動かなくなる",
-      "playMeaning": true,
-      "inThisPlay": "タクシーが故障したというより、運転手が門から先の雪道を進むのを断念したこと。"
+      "playMeaning": true
     },
     {
       "surface": "Wouldn't attempt",
       "lemma": "attempt",
       "meaning": "【動詞・名詞】\n難しいことをやってみる、試みること。",
-      "playMeaning": true,
-      "inThisPlay": "運転手が危険な私道を車で進もうとしなかったこと。"
+      "playMeaning": true
     },
     {
       "surface": "sporting",
@@ -751,8 +730,7 @@
       "surface": "pictured you",
       "lemma": "picture",
       "meaning": "【名詞】\n絵・写真。\n【動詞】\n頭の中で様子を思い描く。",
-      "playMeaning": true,
-      "inThisPlay": "Mollieの姿を実際に見たのではなく、手紙などから頭の中で人物像を想像していたこと。"
+      "playMeaning": true
     },
     {
       "surface": "retired",
@@ -770,13 +748,12 @@
       "surface": "grim",
       "lemma": "grim",
       "meaning": "【形容詞】\n厳しい、陰気な、いかめしい",
-      "playMeaning": true,
-      "inThisPlay": "ここでは怖く厳格で近寄りがたい雰囲気。"
+      "playMeaning": true
     },
     {
       "surface": "Memsahibish",
       "lemma": "Memsahibish",
-      "meaning": "【形容詞】\n英領インド時代の英国人上流女性を連想させるような。",
+      "meaning": "【形容詞】\n植民地期の英国婦人を思わせる、いかにも「メムサーヒブ風」の",
       "playMeaning": true,
       "inThisPlay": "英領インド時代の英国人上流女性を連想させる、威圧的で植民地時代風の雰囲気をからかっている。"
     },
@@ -808,7 +785,7 @@
     {
       "surface": "proportions",
       "lemma": "proportion",
-      "meaning": "【名詞】\n① 全体に対する割合\n② 各部分の大きさの釣り合い",
+      "meaning": "【名詞】\n（建物・部屋の）寸法バランス、比例",
       "playMeaning": true
     },
     {
@@ -833,15 +810,13 @@
       "surface": "wax flowers",
       "lemma": "wax flower",
       "meaning": "蝋で作った装飾用の造花。",
-      "playMeaning": true,
-      "inThisPlay": "蝋で作った装飾用の造花。"
+      "playMeaning": true
     },
     {
       "surface": "birds of Paradise",
       "lemma": "bird of paradise",
       "meaning": "極彩色の羽で知られるフウチョウ類。装飾品・標本を指すこともある。",
-      "playMeaning": true,
-      "inThisPlay": "ここでは室内装飾として飾られる極彩色の鳥やその標本を念頭に置いた表現。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0047": [],
@@ -855,9 +830,8 @@
     {
       "surface": "plummy",
       "lemma": "plummy",
-      "meaning": "【形容詞】\nプラムのような紫がかった色・豊かな質感の。声について上流階級風の響きを表すこともある。",
-      "playMeaning": true,
-      "inThisPlay": "マホガニーの濃く赤紫がかった、重厚で少しけばけばしい色合いをChristopherが面白がって表現している。"
+      "meaning": "【形容詞】\nマホガニーの濃く赤紫がかった、重厚で少しけばけばしい色合いをChristopherが面白がって表現している。",
+      "playMeaning": true
     },
     {
       "surface": "mahogany",
@@ -899,8 +873,7 @@
       "surface": "do away with",
       "lemma": "do away with",
       "meaning": "廃止する、取り除く、なくす。",
-      "playMeaning": true,
-      "inThisPlay": "ここでは『廃止する』ではなく、中央のマホガニー製テーブルを取り除いてしまうこと。"
+      "playMeaning": true
     },
     {
       "surface": "mahogany",
@@ -918,8 +891,7 @@
       "surface": "spoil the effect",
       "lemma": "spoil the effect",
       "meaning": "小さなテーブルが、Christopherの好む古風で統一された室内の雰囲気を台無しにすること。",
-      "playMeaning": true,
-      "inThisPlay": "小さなテーブルが、Christopherの好む古風で統一された室内の雰囲気を台無しにすること。"
+      "playMeaning": true
     },
     {
       "surface": "effect",
@@ -959,15 +931,13 @@
       "surface": "carried away",
       "lemma": "get carried away",
       "meaning": "時代物の家具への好みに夢中になりすぎ、実用性を忘れて話していたこと。",
-      "playMeaning": true,
-      "inThisPlay": "時代物の家具への好みに夢中になりすぎ、実用性を忘れて話していたこと。"
+      "playMeaning": true
     },
     {
       "surface": "period",
       "lemma": "period",
       "meaning": "【名詞】\n期間・時代。\n【形容詞】\n特定時代の様式を再現した。",
-      "playMeaning": true,
-      "inThisPlay": "ここでは特定の時代の様式・雰囲気。"
+      "playMeaning": true
     },
     {
       "surface": "mahogany",
@@ -991,9 +961,8 @@
     {
       "surface": "faded",
       "lemma": "faded",
-      "meaning": "【形容詞】\n色・勢い・若々しさなどが薄れた。",
-      "playMeaning": true,
-      "inThisPlay": "色があせたというより、疲れや年齢で華やかさを失った母親という戯画的描写。"
+      "meaning": "【形容詞】\n色があせたというより、疲れや年齢で華やかさを失った母親という戯画的描写。",
+      "playMeaning": true
     },
     {
       "surface": "assorted",
@@ -1017,13 +986,12 @@
       "surface": "poor relation",
       "lemma": "poor relation",
       "meaning": "居候同然の貧しい親類",
-      "playMeaning": true,
-      "inThisPlay": "経済的に恵まれず、裕福な親族の家に頼って暮らす親戚。"
+      "playMeaning": true
     },
     {
       "surface": "relation",
       "lemma": "relation",
-      "meaning": "【名詞】\n① 関係\n② 親戚",
+      "meaning": "【名詞】\n① 親族\n② 関係",
       "playMeaning": false
     },
     {
@@ -1035,9 +1003,8 @@
     {
       "surface": "general dogsbody",
       "lemma": "dogsbody",
-      "meaning": "【名詞】\n人が嫌がる雑用を何でもやらされる人。",
-      "playMeaning": true,
-      "inThisPlay": "家族の中で、誰もやりたがらない雑用を何でも押しつけられる人。Christopherの架空のヴィクトリア朝家庭像の一部。"
+      "meaning": "【名詞】\n家族の中で、誰もやりたがらない雑用を何でも押しつけられる人。Christopherの架空のヴィクトリア朝家庭像の一部。",
+      "playMeaning": true
     },
     {
       "surface": "grateful",
@@ -1059,8 +1026,7 @@
       "surface": "chintz",
       "lemma": "chintz",
       "meaning": "【名詞】\n更紗、花柄のプリント綿布",
-      "playMeaning": true,
-      "inThisPlay": "花柄などを印刷した綿布。ここでは小さなバラ柄の古風なベッド装飾。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0058": [],
@@ -1090,7 +1056,7 @@
     {
       "surface": "madly interesting",
       "lemma": "madly",
-      "meaning": "【副詞】\n① 狂ったように\n② 口語で非常に、ものすごく",
+      "meaning": "【副詞】\n『狂ったように』ではなく、非常に・ものすごく面白いというChristopherらしい誇張。",
       "playMeaning": true,
       "inThisPlay": "『狂ったように』ではなく、非常に・ものすごく面白いというChristopherらしい誇張。"
     }
@@ -1101,8 +1067,7 @@
       "surface": "what anyone is like",
       "lemma": "what someone is like",
       "meaning": "外見ではなく、その人の本当の性格・人間性がどんなものかという意味。",
-      "playMeaning": true,
-      "inThisPlay": "外見ではなく、その人の本当の性格・人間性がどんなものかという意味。"
+      "playMeaning": true
     },
     {
       "surface": "For instance",
@@ -1130,8 +1095,7 @@
       "surface": "comes out",
       "lemma": "come out",
       "meaning": "出てくる／外へ出る",
-      "playMeaning": true,
-      "inThisPlay": "画家が意識的に説明できなくても、人物の本質が肖像画の中に現れる、という意味。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0066": [],
@@ -1153,15 +1117,13 @@
       "surface": "have the last laugh",
       "lemma": "have the last laugh",
       "meaning": "最後には勝つ／最終的に優位になる",
-      "playMeaning": true,
-      "inThisPlay": "今は名前を笑われても、将来成功して最終的には自分が勝つ・笑う側になること。"
+      "playMeaning": true
     },
     {
       "surface": "Prefab Nests",
       "lemma": "prefab",
       "meaning": "【名詞・形容詞】\n工場で部材を作って現場で組み立てるプレハブ建築・その方式。",
-      "playMeaning": true,
-      "inThisPlay": "Christopherが将来作るかもしれないプレハブ住宅を、鳥の巣になぞらえてふざけて命名している。"
+      "playMeaning": true
     },
     {
       "surface": "go down in history",
@@ -1178,9 +1140,8 @@
     {
       "surface": "sympathetic",
       "lemma": "sympathetic",
-      "meaning": "【形容詞】\n① 同情的な、理解を示す\n② 感じがよく共感できる",
-      "playMeaning": true,
-      "inThisPlay": "ここでは『同情している』より、感じがよく自分と気が合いそうだという意味。"
+      "meaning": "【形容詞】\n同情的な、理解を示す",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0068": [
@@ -1188,8 +1149,7 @@
       "surface": "Indeed",
       "lemma": "indeed",
       "meaning": "【副詞・間投的表現】\n実に、本当に。返答で確認・強調を表す。",
-      "playMeaning": true,
-      "inThisPlay": "単なる『本当に』ではなく、ChristopherがMollieを褒める流れに対するGilesの冷たく警戒した短い応答。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0069": [],
@@ -1198,8 +1158,7 @@
       "surface": "absurd",
       "lemma": "absurd",
       "meaning": "【形容詞】\nばかげた、不合理な",
-      "playMeaning": true,
-      "inThisPlay": "Christopherの『とても美しい』という褒め言葉を、Mollieが照れて『そんなこと言わないで』と退けている。相手の発言を論理的に不合理だと批判しているわけではない。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0071": [
@@ -1263,8 +1222,7 @@
       "surface": "boorish",
       "lemma": "boorish",
       "meaning": "【形容詞】\n粗野で無作法な",
-      "playMeaning": true,
-      "inThisPlay": "Christopherが英国人の夫を、無作法で女性への気遣いがないと挑発的に評している。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0072": [
@@ -1287,15 +1245,14 @@
       "surface": "stoke up",
       "lemma": "stoke",
       "meaning": "【動詞】\n燃料を足して火を保つ",
-      "playMeaning": true,
-      "inThisPlay": "給湯用ボイラーに燃料を足して湯を保つこと。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0075": [
     {
       "surface": "presume",
       "lemma": "presume",
-      "meaning": "【動詞】\n十分な証拠なしに～だと思う、推定する。丁寧に確認する際にも使う。",
+      "meaning": "【動詞】\n① ～だと思う\n② 推定する",
       "playMeaning": true
     }
   ],
@@ -1335,8 +1292,7 @@
       "surface": "risk coming up the drive",
       "lemma": "risk",
       "meaning": "【名詞】\n危険、危険性。\n【動詞】\n危険を承知で行う。",
-      "playMeaning": true,
-      "inThisPlay": "雪のため、タクシー運転手が私道を上がる危険を冒そうとしなかったこと。"
+      "playMeaning": true
     },
     {
       "surface": "coming up",
@@ -1347,7 +1303,7 @@
     {
       "surface": "station",
       "lemma": "station",
-      "meaning": "【名詞】\n① 駅、停留所\n② 配置場所・局",
+      "meaning": "【名詞】\n持ち場、配置場所",
       "playMeaning": true
     },
     {
@@ -1369,8 +1325,7 @@
       "surface": "standing by",
       "lemma": "stand by",
       "meaning": "待機する",
-      "playMeaning": true,
-      "inThisPlay": "ここでは待機して客を迎えられる状態でいること。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0083": [
@@ -1378,8 +1333,7 @@
       "surface": "All trains should have been met",
       "lemma": "meet a train",
       "meaning": "列車の到着時刻に駅へ迎えに行く。",
-      "playMeaning": true,
-      "inThisPlay": "どの列車で来ても宿側が駅まで迎えを出すべきだった、というMrs. Boyleの要求。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0084": [
@@ -1401,15 +1355,13 @@
       "surface": "offhand",
       "lemma": "offhand",
       "meaning": "【形容詞】\n十分考えず即座に。\n【副詞】\nまた人への態度がそっけない。",
-      "playMeaning": true,
-      "inThisPlay": "宿側の対応がよそよそしく、きちんと準備されていないとMrs. Boyleが批判している。"
+      "playMeaning": true
     },
     {
       "surface": "casual",
       "lemma": "casual",
       "meaning": "【形容詞】\n① 形式ばらない\n② 注意や計画が十分でなく、何気ない",
-      "playMeaning": true,
-      "inThisPlay": "ここでは服装がカジュアルという意味ではなく、対応がいい加減で無頓着という批判。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0086": [],
@@ -1422,8 +1374,7 @@
       "surface": "establishment",
       "lemma": "establishment",
       "meaning": "【名詞】\n施設、事業所",
-      "playMeaning": true,
-      "inThisPlay": "ここでは制度や権力層ではなく、宿泊施設・事業所としてのMonkswell Manor。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0092": [],
@@ -1444,8 +1395,7 @@
       "surface": "dry rot",
       "lemma": "dry rot",
       "meaning": "乾腐（木材腐朽）",
-      "playMeaning": true,
-      "inThisPlay": "木材を腐らせる菌による建物の腐朽。Mrs. Boyleが古い家の欠陥を探すように持ち出している。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0094": [],
@@ -1476,8 +1426,7 @@
       "surface": "could do with a coat of paint",
       "lemma": "could do with",
       "meaning": "～があるとよい、～が必要だ。",
-      "playMeaning": true,
-      "inThisPlay": "『～があれば助かる』の意味から、ここでは塗り直した方がよい・塗装が必要だという批評。"
+      "playMeaning": true
     },
     {
       "surface": "worm",
@@ -1488,9 +1437,8 @@
     {
       "surface": "worm in this oak",
       "lemma": "woodworm",
-      "meaning": "【名詞】\n木材を食害する昆虫の幼虫、またその被害。",
-      "playMeaning": true,
-      "inThisPlay": "ミミズではなく、オーク材に木食い虫の被害があるという意味。"
+      "meaning": "【名詞】\nミミズではなく、オーク材に木食い虫の被害があるという意味。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0098": [],
@@ -1517,8 +1465,7 @@
       "surface": "make it",
       "lemma": "make it",
       "meaning": "たどり着く／間に合う／成功する",
-      "playMeaning": true,
-      "inThisPlay": "目的地であるMonkswell Manorまで何とか到着すること。"
+      "playMeaning": true
     },
     {
       "surface": "I beg your pardon",
@@ -1536,8 +1483,7 @@
       "surface": "on leave",
       "lemma": "on leave",
       "meaning": "休暇中で",
-      "playMeaning": true,
-      "inThisPlay": "軍務から一時的に休暇を与えられていたこと。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0100": [],
@@ -1556,8 +1502,7 @@
       "surface": "servant difficulty",
       "lemma": "servant difficulty",
       "meaning": "使用人を雇ったり確保したりする上での人手不足・雇用上の問題。",
-      "playMeaning": true,
-      "inThisPlay": "使用人を雇ったり確保したりする上での人手不足・雇用上の問題。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0105": [
@@ -1585,8 +1530,7 @@
       "surface": "indoor staff",
       "lemma": "indoor staff",
       "meaning": "住み込み、または館内で常時働く使用人・従業員。",
-      "playMeaning": true,
-      "inThisPlay": "住み込み、または館内で常時働く使用人・従業員。"
+      "playMeaning": true
     },
     {
       "surface": "staff",
@@ -1614,8 +1558,7 @@
       "surface": "in full running order",
       "lemma": "in running order",
       "meaning": "設備が動くというだけでなく、宿が必要な人員や仕組みを備えて通常営業している状態。",
-      "playMeaning": true,
-      "inThisPlay": "設備が動くというだけでなく、宿が必要な人員や仕組みを備えて通常営業している状態。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0109": [
@@ -1631,8 +1574,7 @@
       "surface": "proper staff",
       "lemma": "proper staff",
       "meaning": "目的にかなった十分な正式の職員・従業員体制。",
-      "playMeaning": true,
-      "inThisPlay": "Mrs. Boyleの価値観で、宿として当然備えるべき十分で正式な使用人・従業員体制。"
+      "playMeaning": true
     },
     {
       "surface": "staff",
@@ -1689,8 +1631,7 @@
       "surface": "macabre",
       "lemma": "macabre",
       "meaning": "【形容詞】\n死や恐怖を不気味に扱う、陰惨趣味の",
-      "playMeaning": true,
-      "inThisPlay": "Christopherは童謡に含まれる死や不幸の気配を面白がり、『陰惨で不気味』だと楽しげに評している。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0115": [],
@@ -1715,8 +1656,7 @@
       "surface": "amenities",
       "lemma": "amenity",
       "meaning": "【名詞】\n快適設備、便益",
-      "playMeaning": true,
-      "inThisPlay": "宿泊施設としての快適さや便利な設備・サービス。"
+      "playMeaning": true
     },
     {
       "surface": "establishment",
@@ -1734,8 +1674,7 @@
       "surface": "running concern",
       "lemma": "running concern",
       "meaning": "営業中の事業／実際に稼働している施設",
-      "playMeaning": true,
-      "inThisPlay": "新規開業直後ではなく、すでに通常営業して実績のある事業・宿。"
+      "playMeaning": true
     },
     {
       "surface": "concern",
@@ -1753,15 +1692,14 @@
       "surface": "home comfort",
       "lemma": "home comfort",
       "meaning": "家庭的な快適設備",
-      "playMeaning": true,
-      "inThisPlay": "家庭で得られるような快適さや便利さ。Mrs. Boyleは広告から十分な設備を期待していた。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0119": [
     {
       "surface": "obligation",
       "lemma": "obligation",
-      "meaning": "【名詞】\n義務、責任。しなければならないこと。",
+      "meaning": "【名詞】\n義務",
       "playMeaning": true
     },
     {
@@ -1777,8 +1715,7 @@
       "surface": "misapprehension",
       "lemma": "misapprehension",
       "meaning": "【名詞】\n誤解、思い違い",
-      "playMeaning": true,
-      "inThisPlay": "宿の設備や営業状況についてMrs. Boyle側に誤解があった、という丁寧だが距離を取った言い方。"
+      "playMeaning": true
     },
     {
       "surface": "elsewhere",
@@ -1802,21 +1739,19 @@
       "surface": "blocked",
       "lemma": "blocked",
       "meaning": "【形容詞】\n道・通路などがふさがれて通れない。",
-      "playMeaning": true,
-      "inThisPlay": "ここでは雪で道路が通行不能になること。"
+      "playMeaning": true
     },
     {
       "surface": "applications",
       "lemma": "application",
-      "meaning": "【名詞】\n① 申し込み、申請\n② 応用・適用",
+      "meaning": "【名詞】\n申込み、応募",
       "playMeaning": true
     },
     {
       "surface": "applications for rooms",
       "lemma": "application",
-      "meaning": "【名詞】\n① 申し込み、申請\n② 応用・適用",
-      "playMeaning": true,
-      "inThisPlay": "宿泊したいという予約・部屋の申し込み。"
+      "meaning": "【名詞】\n申込み、応募",
+      "playMeaning": true
     },
     {
       "surface": "fill your place",
@@ -1828,8 +1763,7 @@
       "surface": "fill your place",
       "lemma": "fill someone's place",
       "meaning": "人が空けた役割・位置・場所を別の人で補う。",
-      "playMeaning": true,
-      "inThisPlay": "Mrs. Boyleが出て行っても、空いた部屋を別の宿泊客ですぐ埋められるという意味。"
+      "playMeaning": true
     },
     {
       "surface": "quite",
@@ -1858,9 +1792,8 @@
     {
       "surface": "raising our terms",
       "lemma": "terms",
-      "meaning": "【名詞】\n条件、取り決め。料金・支払条件を指すこともある。",
-      "playMeaning": true,
-      "inThisPlay": "条件一般ではなく、ここでは宿泊料金を値上げすること。"
+      "meaning": "【名詞】\n① 料金・条件\n② 刑期",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0122": [
@@ -1880,8 +1813,7 @@
       "surface": "turn me out",
       "lemma": "turn out",
       "meaning": "結局～だと分かる／結果として～になる",
-      "playMeaning": true,
-      "inThisPlay": "客として宿から追い出すこと。Mrs. BoyleはGilesの強気な応答を『自分を追い出そうとしている』と受け取って反発している。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0123": [],
@@ -1944,8 +1876,7 @@
       "surface": "bogged",
       "lemma": "bog down",
       "meaning": "ぬかるみではなく、車が深い雪にはまり動けなくなったこと。",
-      "playMeaning": true,
-      "inThisPlay": "ぬかるみではなく、車が深い雪にはまり動けなくなったこと。"
+      "playMeaning": true
     },
     {
       "surface": "ran into a drift",
@@ -1957,8 +1888,7 @@
       "surface": "drift",
       "lemma": "snowdrift",
       "meaning": "【名詞】\n雪の吹きだまり",
-      "playMeaning": true,
-      "inThisPlay": "風で吹き寄せられて積もった深い雪。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0127": [],
@@ -1967,8 +1897,7 @@
       "surface": "travel light",
       "lemma": "travel light",
       "meaning": "荷物を少なくして旅行する",
-      "playMeaning": true,
-      "inThisPlay": "旅行時に荷物を少なくしていること。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0129": [],
@@ -1991,8 +1920,7 @@
       "surface": "thawed out",
       "lemma": "thaw out",
       "meaning": "体を温めて凍えを取る／解凍する",
-      "playMeaning": true,
-      "inThisPlay": "凍った物を解凍するのではなく、寒さで冷え切った自分の体を暖炉で温めること。"
+      "playMeaning": true
     },
     {
       "surface": "Looks as though",
@@ -2004,8 +1932,7 @@
       "surface": "snowed up",
       "lemma": "snowed up",
       "meaning": "雪で閉じ込められた／交通が遮断された",
-      "playMeaning": true,
-      "inThisPlay": "大雪で外部と行き来できなくなること。"
+      "playMeaning": true
     },
     {
       "surface": "forecast",
@@ -2029,8 +1956,7 @@
       "surface": "provisions",
       "lemma": "provisions",
       "meaning": "【名詞】\n食料・備蓄品",
-      "playMeaning": true,
-      "inThisPlay": "孤立した場合に備える食料・生活物資。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0133": [
@@ -2038,8 +1964,7 @@
       "surface": "manager",
       "lemma": "manager",
       "meaning": "【名詞】\n管理・運営を担当する人。",
-      "playMeaning": true,
-      "inThisPlay": "職名としてのマネージャーではなく、Mollieは家事や食料管理をきちんとこなす人だとGilesが褒めている。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0134": [
@@ -2047,8 +1972,7 @@
       "surface": "Before we start eating each other",
       "lemma": "eat each other",
       "meaning": "互いを食べる。比喩・冗談で極端な飢餓状態を表すことがある。",
-      "playMeaning": true,
-      "inThisPlay": "食料が尽きたら人間同士で食べ合う、という極端な想像を使ったMiss Casewellのブラックユーモア。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0135": [
@@ -2081,15 +2005,14 @@
     {
       "surface": "juicy",
       "lemma": "juicy",
-      "meaning": "【形容詞】\n① 汁気の多い\n② 口語で、刺激的・興味深く話題性がある",
+      "meaning": "【形容詞】\n興味をそそる、刺激的な",
       "playMeaning": true
     },
     {
       "surface": "juicy murder",
       "lemma": "juicy",
-      "meaning": "【形容詞】\n① 汁気の多い\n② 口語で、刺激的・興味深く話題性がある",
-      "playMeaning": true,
-      "inThisPlay": "食べ物が『ジューシー』なのではなく、新聞記事として刺激的で興味をそそる殺人事件という軽薄で暗い言い方。"
+      "meaning": "【形容詞】\n興味をそそる、刺激的な",
+      "playMeaning": true
     },
     {
       "surface": "murder",
@@ -2116,7 +2039,7 @@
     {
       "surface": "maniac",
       "lemma": "maniac",
-      "meaning": "【名詞】\n異常なほど興奮・執着した人。古い用法では精神異常者を指すこともある。",
+      "meaning": "【名詞】\n① 狂人という古い呼称\n② 極端に熱中する人",
       "playMeaning": true
     },
     {
@@ -2179,8 +2102,7 @@
       "surface": "to this effect",
       "lemma": "to this effect",
       "meaning": "この趣旨の／このような内容の",
-      "playMeaning": true,
-      "inThisPlay": "新聞に載った内容と同じ趣旨の警察メッセージが放送されたという意味。"
+      "playMeaning": true
     },
     {
       "surface": "effect",
@@ -2259,7 +2181,7 @@
     {
       "surface": "maniac",
       "lemma": "maniac",
-      "meaning": "【名詞】\n異常なほど興奮・執着した人。古い用法では精神異常者を指すこともある。",
+      "meaning": "【名詞】\n① 狂人という古い呼称\n② 極端に熱中する人",
       "playMeaning": true
     }
   ],
@@ -2297,21 +2219,20 @@
     {
       "surface": "tin",
       "lemma": "tin",
-      "meaning": "【名詞】\n① 金属の錫\n② 英国英語で缶・缶詰",
+      "meaning": "【名詞】\n缶詰",
       "playMeaning": true
     },
     {
       "surface": "tins",
       "lemma": "tin",
-      "meaning": "【名詞】\n① 金属の錫\n② 英国英語で缶・缶詰",
+      "meaning": "【名詞】\n缶詰",
       "playMeaning": true
     },
     {
       "surface": "cereal",
       "lemma": "cereal",
       "meaning": "【名詞】\n① 穀物\n② 穀物から作る食品",
-      "playMeaning": true,
-      "inThisPlay": "ここでは朝食用シリアルではなく、料理に混ぜる穀類・穀物系の食品。"
+      "playMeaning": true
     },
     {
       "surface": "mashing",
@@ -2331,17 +2252,15 @@
       "surface": "original",
       "lemma": "original",
       "meaning": "【形容詞・名詞】\n独創的な、最初の、原物の。",
-      "playMeaning": true,
-      "inThisPlay": "独創的という一般義から、ここでは献立がありきたりで工夫が少ないという意味。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0154": [
     {
       "surface": "adore",
       "lemma": "adore",
-      "meaning": "【動詞】\n深く愛する、非常に好む。",
-      "playMeaning": true,
-      "inThisPlay": "崇拝するほどではなく、料理が大好きだというChristopherらしい強い口語的表現。"
+      "meaning": "【動詞】\n崇拝するほどではなく、料理が大好きだというChristopherらしい強い口語的表現。",
+      "playMeaning": true
     },
     {
       "surface": "omelette",
@@ -2355,15 +2274,13 @@
       "surface": "fowls",
       "lemma": "fowl",
       "meaning": "【名詞】\n家禽、鶏",
-      "playMeaning": true,
-      "inThisPlay": "ここでは家で飼っている鶏。"
+      "playMeaning": true
     },
     {
       "surface": "lay",
       "lemma": "lay",
       "meaning": "【動詞】\n置く、横たえる。鳥などが卵を産む。",
-      "playMeaning": true,
-      "inThisPlay": "ここでは卵を産むこと。"
+      "playMeaning": true
     },
     {
       "surface": "put down",
@@ -2375,8 +2292,7 @@
       "surface": "put down a lot of eggs",
       "lemma": "put down eggs",
       "meaning": "卵を『置く』のではなく、後で使えるよう保存処理して蓄えておくという古い家庭語法。",
-      "playMeaning": true,
-      "inThisPlay": "卵を『置く』のではなく、後で使えるよう保存処理して蓄えておくという古い家庭語法。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0156": [
@@ -2389,15 +2305,14 @@
     {
       "surface": "continental",
       "lemma": "continental",
-      "meaning": "【形容詞】\n大陸の。英国ではしばしばヨーロッパ大陸の。",
+      "meaning": "【形容詞】\nヨーロッパ大陸風の",
       "playMeaning": true
     },
     {
       "surface": "continental flavour",
       "lemma": "continental",
-      "meaning": "【形容詞】\n大陸の。英国ではしばしばヨーロッパ大陸の。",
-      "playMeaning": true,
-      "inThisPlay": "英国から見たヨーロッパ大陸風の、少し洒落た料理らしい風味。"
+      "meaning": "【形容詞】\nヨーロッパ大陸風の",
+      "playMeaning": true
     },
     {
       "surface": "flavour",
@@ -2409,15 +2324,13 @@
       "surface": "daresay",
       "lemma": "daresay",
       "meaning": "【動詞的表現】\n① たぶん～だろう\n② ～と思う",
-      "playMeaning": true,
-      "inThisPlay": "大胆に言うというより、『たぶん～だろう』『きっと～できると思う』という英国的な控えめ表現。"
+      "playMeaning": true
     },
     {
       "surface": "inspiration",
       "lemma": "inspiration",
       "meaning": "【名詞】\nひらめき、良い思いつき",
-      "playMeaning": true,
-      "inThisPlay": "芸術的啓示というより、料理の良いアイデアを思いつくこと。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0157": [
@@ -2451,8 +2364,7 @@
       "surface": "on earth",
       "lemma": "on earth",
       "meaning": "疑問語の後で『いったい』と驚き・苛立ちを強める。",
-      "playMeaning": true,
-      "inThisPlay": "場所の『地球上で』ではなく、『いったいなぜ』とGilesの苛立ちを強める表現。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0159": [
@@ -2484,8 +2396,7 @@
       "surface": "I've got no use for that kind",
       "lemma": "have no use for",
       "meaning": "～が大嫌いだ／～を評価しない",
-      "playMeaning": true,
-      "inThisPlay": "物が役に立たないという意味ではなく、GilesがChristopherのようなタイプの人間を嫌い、信用していないという意味。"
+      "playMeaning": true
     },
     {
       "surface": "'ve got no use for",
@@ -2497,8 +2408,7 @@
       "surface": "handle his suitcase",
       "lemma": "handle",
       "meaning": "【動詞】\n① 手で持つ・扱う\n② 問題や状況に対処する",
-      "playMeaning": true,
-      "inThisPlay": "ここでは『対処する』ではなく、実際にスーツケースを持って重さを確かめたこと。"
+      "playMeaning": true
     },
     {
       "surface": "suitcase",
@@ -2520,8 +2430,7 @@
       "surface": "no weight at all",
       "lemma": "weight",
       "meaning": "【名詞】\n重さ、重量。重要性・負担を表すこともある。",
-      "playMeaning": true,
-      "inThisPlay": "スーツケースが不自然なほど軽く、中にほとんど何も入っていないのではとGilesが疑っている。"
+      "playMeaning": true
     },
     {
       "surface": "If you ask me",
@@ -2551,8 +2460,7 @@
       "surface": "bilking hotel keepers",
       "lemma": "bilk",
       "meaning": "【動詞】\n① 宿代などを踏み倒す\n② だます",
-      "playMeaning": true,
-      "inThisPlay": "宿泊したのに料金を払わず宿の経営者をだますこと。Gilesは証拠ではなく疑いとして言っている。"
+      "playMeaning": true
     },
     {
       "surface": "hotel keepers",
@@ -2571,9 +2479,8 @@
     {
       "surface": "peculiar",
       "lemma": "peculiar",
-      "meaning": "【形容詞】\n① 普通と違って奇妙な\n② 特有の",
-      "playMeaning": true,
-      "inThisPlay": "単に特徴的というより、Miss Casewellを少し変わっていて不可解な人物だと感じている。"
+      "meaning": "【形容詞】\n妙な、独特な",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0166": [
@@ -2590,8 +2497,7 @@
       "surface": "odd",
       "lemma": "odd",
       "meaning": "【形容詞】\n① 奇妙な、普通と違う\n② 奇数の",
-      "playMeaning": true,
-      "inThisPlay": "ここでは奇数ではなく、人柄や振る舞いが変わっていること。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0168": [
@@ -2637,8 +2543,7 @@
       "surface": "the Culver Street murderer",
       "lemma": "Culver Street murderer",
       "meaning": "Culver Streetの殺人事件の犯人を指す表現。",
-      "playMeaning": true,
-      "inThisPlay": "本当に犯人だと考えているのではなく、予想外の来客に対するGilesのブラックジョーク。"
+      "playMeaning": true
     },
     {
       "surface": "murderer",
@@ -2719,20 +2624,19 @@
     {
       "surface": "stagger",
       "lemma": "stagger",
-      "meaning": "【動詞】\nよろめきながら歩く。驚かせる。",
+      "meaning": "【動詞】\nよろめきながら進む",
       "playMeaning": true
     },
     {
       "surface": "habitation",
       "lemma": "habitation",
-      "meaning": "【名詞】\n人が住む場所・住居。居住すること。",
-      "playMeaning": true,
-      "inThisPlay": "普通の『家』より仰々しい語を使い、雪の中で見つけた人の住む建物を芝居がかって表現している。"
+      "meaning": "【名詞】\n住居、人の住む場所",
+      "playMeaning": true
     },
     {
       "surface": "I am saved",
       "lemma": "save",
-      "meaning": "【動詞】\n危険・損失から救う、保存する、節約する。",
+      "meaning": "【動詞】\n命を救われたという大げさな自己演出で、宿を見つけて凍死を免れたという意味。",
       "playMeaning": true,
       "inThisPlay": "命を救われたという大げさな自己演出で、宿を見つけて凍死を免れたという意味。"
     },
@@ -2752,8 +2656,7 @@
       "surface": "despair turns to joy",
       "lemma": "despair",
       "meaning": "【名詞・動詞】\n希望を失った絶望、絶望する。",
-      "playMeaning": true,
-      "inThisPlay": "絶望から歓喜へ、という極端な対比で自分の到着を劇的に語っている。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0178": [],
@@ -2794,8 +2697,7 @@
       "surface": "of no consequence",
       "lemma": "of no consequence",
       "meaning": "重要ではない／問題にならない",
-      "playMeaning": true,
-      "inThisPlay": "車に残した荷物は重要ではなく、取りに行く必要はないという意味。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0185": [],
@@ -2803,9 +2705,8 @@
     {
       "surface": "no thieves abroad",
       "lemma": "abroad",
-      "meaning": "【副詞】\n① 国外へ・国外で\n② 古い用法で、外に出て・広く出回って",
-      "playMeaning": true,
-      "inThisPlay": "海外にいるという意味ではなく、この夜に外をうろついている泥棒はいないだろうという古風な用法。"
+      "meaning": "【副詞】\n① 海外に\n② 海外で",
+      "playMeaning": true
     },
     {
       "surface": "thieves",
@@ -2816,15 +2717,14 @@
     {
       "surface": "abroad",
       "lemma": "abroad",
-      "meaning": "【副詞】\n① 国外へ・国外で\n② 古い用法で、外に出て・広く出回って",
+      "meaning": "【副詞】\n① 海外に\n② 海外で",
       "playMeaning": true
     },
     {
       "surface": "my wants are very simple",
       "lemma": "want",
       "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
-      "playMeaning": true,
-      "inThisPlay": "『欲しい』という動詞ではなく、自分に必要なもの・要求は少ないという名詞用法。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0187": [
@@ -2850,8 +2750,7 @@
       "surface": "occupied",
       "lemma": "occupied",
       "meaning": "【形容詞】\n① 使用中の、ふさがっている\n② 忙しい",
-      "playMeaning": true,
-      "inThisPlay": "ここでは忙しいではなく、他の客がすでに部屋を使用していて空いていないこと。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0188": [],
@@ -2867,8 +2766,7 @@
       "surface": "unexpected guest",
       "lemma": "unexpected",
       "meaning": "【形容詞】\n予期しない",
-      "playMeaning": true,
-      "inThisPlay": "予約されていないParavicini自身を、芝居の登場人物のように『予期せぬ客』と演出している。"
+      "playMeaning": true
     },
     {
       "surface": "just",
@@ -2892,9 +2790,8 @@
     {
       "surface": "dramatic",
       "lemma": "dramatic",
-      "meaning": "【形容詞】\n劇の、劇的な。変化や印象が非常に大きい。",
-      "playMeaning": true,
-      "inThisPlay": "単に劇に関するという意味ではなく、自分の登場がいかにも芝居がかっていて面白い状況だという自己演出。"
+      "meaning": "【形容詞】\n単に劇に関するという意味ではなく、自分の登場がいかにも芝居がかっていて面白い状況だという自己演出。",
+      "playMeaning": true
     },
     {
       "surface": "man of mystery",
@@ -2907,8 +2804,7 @@
       "surface": "complete the picture",
       "lemma": "complete the picture",
       "meaning": "絵を完成させるのではなく、全員が集まった閉ざされた状況に自分が最後の要素として加わること。",
-      "playMeaning": true,
-      "inThisPlay": "絵を完成させるのではなく、全員が集まった閉ざされた状況に自分が最後の要素として加わること。"
+      "playMeaning": true
     },
     {
       "surface": "picture",
@@ -2938,8 +2834,7 @@
       "surface": "cut off from civilization",
       "lemma": "cut off",
       "meaning": "大雪で道路・配達・郵便などが止まり、Monkswell Manorが外界から物理的に孤立すること。場面全体の重要な転換点。／雪で道路が遮断され、さらに電話も使えなくなり、外部との移動・通信の両方が断たれた状態。",
-      "playMeaning": true,
-      "inThisPlay": "大雪で道路・配達・郵便などが止まり、Monkswell Manorが外界から物理的に孤立すること。場面全体の重要な転換点。"
+      "playMeaning": true
     },
     {
       "surface": "civilization",
@@ -2951,8 +2846,7 @@
       "surface": "admirable",
       "lemma": "admirable",
       "meaning": "【形容詞】\n① 立派な\n② 感心すべき",
-      "playMeaning": true,
-      "inThisPlay": "普通なら困る孤立状態をParaviciniが『実に結構だ』と喜んでおり、その倒錯した満足が不穏さを生む。"
+      "playMeaning": true
     },
     {
       "surface": "could not suit me better",
@@ -2964,8 +2858,7 @@
       "surface": "suit me better",
       "lemma": "suit",
       "meaning": "【動詞】\n人の目的・都合・好みに合う。\n【名詞】\n衣服のスーツ。",
-      "playMeaning": true,
-      "inThisPlay": "服が似合うのではなく、この孤立した状況が自分にとって非常に都合がよいという意味。"
+      "playMeaning": true
     },
     {
       "surface": "by the way",
@@ -3039,7 +2932,7 @@
     {
       "surface": "Cornbeef",
       "lemma": "cornbeef",
-      "meaning": "【名詞】\n塩漬けにして保存した牛肉。一般には corned beef と表記される。",
+      "meaning": "【名詞】\nコンビーフ",
       "playMeaning": true
     }
   ],
@@ -3047,13 +2940,13 @@
     {
       "surface": "disguised",
       "lemma": "disguised",
-      "meaning": "【形容詞】\ndisguise「正体を隠す」の過去分詞。料理では味をうまく隠す比喩。",
+      "meaning": "【形容詞】\n分からないよう姿・性質を変えた",
       "playMeaning": true
     },
     {
       "surface": "cornbeef",
       "lemma": "cornbeef",
-      "meaning": "【名詞】\n塩漬けにして保存した牛肉。一般には corned beef と表記される。",
+      "meaning": "【名詞】\nコンビーフ",
       "playMeaning": true
     }
   ],
@@ -3089,7 +2982,7 @@
     {
       "surface": "peculiar",
       "lemma": "peculiar",
-      "meaning": "【形容詞】\n① 普通と違って奇妙な\n② 特有の",
+      "meaning": "【形容詞】\n妙な、独特な",
       "playMeaning": true
     }
   ],
@@ -3129,7 +3022,7 @@
     {
       "surface": "altogether",
       "lemma": "altogether",
-      "meaning": "【副詞】\n部分を合わせた全体、または程度の完全さ。British usageでよく見られる。",
+      "meaning": "【副詞】\n① 全体として\n② まったく",
       "playMeaning": true
     },
     {
@@ -3180,7 +3073,7 @@
     {
       "surface": "shan't",
       "lemma": "shan’t",
-      "meaning": "【短縮表現】\nshall not の短縮。現代では主に英国英語で古風・限定的。",
+      "meaning": "【短縮表現】\n① ～しないつもりだ\n② ～しない",
       "playMeaning": true
     }
   ],
@@ -3189,15 +3082,14 @@
     {
       "surface": "peculiar",
       "lemma": "peculiar",
-      "meaning": "【形容詞】\n① 普通と違って奇妙な\n② 特有の",
+      "meaning": "【形容詞】\n妙な、独特な",
       "playMeaning": true
     },
     {
       "surface": "Unbalanced",
       "lemma": "unbalanced",
-      "meaning": "【形容詞】\n均衡が取れていない。人について古くは、精神状態が不安定だという意味でも使われる。",
-      "playMeaning": true,
-      "inThisPlay": "Mrs. BoyleがChristopherを「精神的に不安定なのでは」と決めつけている侮蔑的な評価。医学的な診断を述べているわけではない。"
+      "meaning": "【形容詞】\n精神的に不安定な、という古い評価語",
+      "playMeaning": true
     },
     {
       "surface": "mentally",
@@ -3223,7 +3115,7 @@
     {
       "surface": "lunatic",
       "lemma": "lunatic",
-      "meaning": "【名詞】\n精神疾患のある人を指した歴史的語。現代の人への呼称としては不適切。",
+      "meaning": "【名詞】\n狂人という古い侮蔑的呼称",
       "playMeaning": true,
       "inThisPlay": "Major MetcalfがMrs. Boyleの疑いに合わせて「精神病院から逃げてきたと思うのか」と皮肉っぽく返している。Christopherについての事実ではない。"
     }
@@ -3247,7 +3139,7 @@
     {
       "surface": "incredible",
       "lemma": "incredible",
-      "meaning": "【形容詞】\ncredible「信じられる」に in-。驚きの強調にも。",
+      "meaning": "【形容詞】\n信じられないほどの",
       "playMeaning": true
     },
     {
@@ -3260,13 +3152,12 @@
       "surface": "carpet sweeper",
       "lemma": "carpet sweeper",
       "meaning": "電動掃除機ではなく、ブラシとローラーでカーペット上のごみを集める手押し式の掃除用具。時代背景の理解に重要。",
-      "playMeaning": true,
-      "inThisPlay": "電動掃除機ではなく、ブラシとローラーでカーペット上のごみを集める手押し式の掃除用具。時代背景の理解に重要。"
+      "playMeaning": true
     },
     {
       "surface": "sweeper",
       "lemma": "sweeper",
-      "meaning": "【名詞】\nsweep する人・もの。文脈でどちらかを判断する。",
+      "meaning": "【名詞】\n① 掃除人\n② 掃除用具",
       "playMeaning": true
     }
   ],
@@ -3408,7 +3299,7 @@
     {
       "surface": "abroad",
       "lemma": "abroad",
-      "meaning": "【副詞】\n① 国外へ・国外で\n② 古い用法で、外に出て・広く出回って",
+      "meaning": "【副詞】\n① 海外に\n② 海外で",
       "playMeaning": true
     }
   ],
@@ -3416,7 +3307,7 @@
     {
       "surface": "abroad",
       "lemma": "abroad",
-      "meaning": "【副詞】\n① 国外へ・国外で\n② 古い用法で、外に出て・広く出回って",
+      "meaning": "【副詞】\n① 海外に\n② 海外で",
       "playMeaning": true
     }
   ],
@@ -3443,8 +3334,7 @@
       "surface": "business",
       "lemma": "business",
       "meaning": "【名詞】\n① 用事\n② 事件\n③ 本題\n④ 仕事",
-      "playMeaning": true,
-      "inThisPlay": "Casewellが英国で片づける必要のある個人的な用事・案件を指す。何の用事なのかはこの時点では明かしていない。"
+      "playMeaning": true
     },
     {
       "surface": "see to",
@@ -3468,8 +3358,7 @@
       "surface": "Would you mind",
       "lemma": "would you mind",
       "meaning": "～していただけますか／～は気になりますか",
-      "playMeaning": true,
-      "inThisPlay": "形式上は丁寧な依頼だが、Mrs. Boyleがラジオの音を下げるようCasewellに求める苦情・要求。"
+      "playMeaning": true
     },
     {
       "surface": "quite",
@@ -3509,7 +3398,7 @@
     {
       "surface": "favourite",
       "lemma": "favourite",
-      "meaning": "【形容詞】\nBritish spelling。米語 favorite。",
+      "meaning": "【形容詞】\nお気に入りの",
       "playMeaning": true
     }
   ],
@@ -3520,7 +3409,7 @@
     {
       "surface": "Hullo",
       "lemma": "Hullo",
-      "meaning": "【間投詞】\nhello の古い綴り・発音表記。英国の古い作品でよく見られる。",
+      "meaning": "【間投詞】\n① やあ\n② もしもし",
       "playMeaning": true
     }
   ],
@@ -3541,7 +3430,7 @@
     {
       "surface": "positively",
       "lemma": "positively",
-      "meaning": "【副詞】\n肯定的に、または程度を強く断定して「まったく」。",
+      "meaning": "【副詞】\n① 実に\n② はっきりと",
       "playMeaning": true
     }
   ],
@@ -3559,8 +3448,7 @@
       "surface": "served its purpose",
       "lemma": "serve its purpose",
       "meaning": "意図された目的・役割を果たす。",
-      "playMeaning": true,
-      "inThisPlay": "ラジオを大きくしてMrs. Boyleを別室へ行かせ、Casewellが暖かい椅子を取るという作戦が目的を果たした、という意味。"
+      "playMeaning": true
     },
     {
       "surface": "purpose",
@@ -3581,8 +3469,7 @@
       "surface": "Tactics",
       "lemma": "tactic",
       "meaning": "【名詞】\n目的を達成するために用いる具体的な方法・作戦。",
-      "playMeaning": true,
-      "inThisPlay": "ラジオを利用してMrs. Boyleを暖かい椅子から追い出し、自分が座るための『作戦』という意味。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0061": [],
@@ -3591,8 +3478,7 @@
       "surface": "pinched",
       "lemma": "pinch",
       "meaning": "【動詞】\n指などでつまむ。\n【名詞】\nまた口語では、物を盗む・無断で取るという意味になることがある。",
-      "playMeaning": true,
-      "inThisPlay": "ここでは椅子を本当に盗んだのではなく、Mrs. Boyleが「一番いい椅子を先に取っていた」という口語的な意味。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0063": [
@@ -3614,8 +3500,7 @@
       "surface": "Not a hope",
       "lemma": "not a hope",
       "meaning": "可能性がまったくない、望みがない。",
-      "playMeaning": true,
-      "inThisPlay": "雪がひどいため、Mrs. Boyleが今すぐ宿を出ていける可能性は「まったくない」という口語表現。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0065": [
@@ -3738,7 +3623,7 @@
     {
       "surface": "impossible",
       "lemma": "impossible",
-      "meaning": "【形容詞】\n実現できない。会話では強い拒絶・驚きにも。",
+      "meaning": "【形容詞】\n不可能な",
       "playMeaning": true
     },
     {
@@ -3757,13 +3642,12 @@
       "surface": "get through",
       "lemma": "get through",
       "meaning": "通り抜ける／電話がつながる",
-      "playMeaning": true,
-      "inThisPlay": "ここでは電話がつながることではなく、大雪で道路を物理的に通り抜けてMonkswell Manorまで来ること。"
+      "playMeaning": true
     },
     {
       "surface": "Hullo",
       "lemma": "Hullo",
-      "meaning": "【間投詞】\nhello の古い綴り・発音表記。英国の古い作品でよく見られる。",
+      "meaning": "【間投詞】\n① やあ\n② もしもし",
       "playMeaning": true
     }
   ],
@@ -3851,8 +3735,7 @@
       "surface": "impress on my husband",
       "lemma": "impress something on someone",
       "meaning": "重要な事柄を人に強く理解・認識させる。",
-      "playMeaning": true,
-      "inThisPlay": "ここでは夫に良い印象を与える意味ではなく、Sergeant Trotterの話をよく聞く必要性をGilesに強く認識させること。"
+      "playMeaning": true
     },
     {
       "surface": "instructions",
@@ -3870,8 +3753,7 @@
       "surface": "implicitly",
       "lemma": "implicitly",
       "meaning": "【副詞】\n① 暗に、明示せずに\n② 古い・限定的用法で、完全に・無条件に",
-      "playMeaning": true,
-      "inThisPlay": "ここでは「暗黙のうちに」ではなく、「Sergeant Trotterの指示に完全に従い、勝手に変えないで」という古めの用法。"
+      "playMeaning": true
     },
     {
       "surface": "extraordinary",
@@ -3886,15 +3768,14 @@
       "surface": "those nylons from Gibraltar",
       "lemma": "nylons from Gibraltar",
       "meaning": "Gibraltarで入手したナイロン製品を指す表現。",
-      "playMeaning": true,
-      "inThisPlay": "Mollieが警察電話の理由を不安になって探し、Gibraltarで入手したナイロン製品が何か問題だったのかと推測している。詳細はこの場面では説明されない。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0088": [
     {
       "surface": "wireless",
       "lemma": "wireless",
-      "meaning": "【名詞】\n英国で radio を指す古い語。wireless set の短縮。",
+      "meaning": "【名詞】\nラジオ",
       "playMeaning": true
     },
     {
@@ -3973,7 +3854,7 @@
     {
       "surface": "practically",
       "lemma": "practically",
-      "meaning": "【副詞】\n① ほとんど、実質的に\n② 実用的な観点では",
+      "meaning": "【副詞】\nほとんど、実質的に",
       "playMeaning": true
     },
     {
@@ -4000,8 +3881,7 @@
       "surface": "go through",
       "lemma": "go through",
       "meaning": "一通り行う／経験する",
-      "playMeaning": true,
-      "inThisPlay": "ここでは缶詰の備蓄を「経験する」のではなく、雪で閉じ込められている間に使い果たしてしまうこと。"
+      "playMeaning": true
     },
     {
       "surface": "reserve",
@@ -4012,7 +3892,7 @@
     {
       "surface": "tins",
       "lemma": "tin",
-      "meaning": "【名詞】\n① 金属の錫\n② 英国英語で缶・缶詰",
+      "meaning": "【名詞】\n缶詰",
       "playMeaning": true
     }
   ],
@@ -4082,7 +3962,7 @@
     {
       "surface": "practically",
       "lemma": "practically",
-      "meaning": "【副詞】\n① ほとんど、実質的に\n② 実用的な観点では",
+      "meaning": "【副詞】\nほとんど、実質的に",
       "playMeaning": true
     }
   ],
@@ -4098,7 +3978,7 @@
     {
       "surface": "guineas",
       "lemma": "guinea",
-      "meaning": "【名詞】\n旧英国の通貨・料金単位。1ギニーは21シリング。",
+      "meaning": "【名詞】\nギニー（旧英国通貨単位、21シリング）",
       "playMeaning": true
     },
     {
@@ -4121,8 +4001,7 @@
       "surface": "extraordinary",
       "lemma": "extraordinary",
       "meaning": "【形容詞】\n並外れた、異常な",
-      "playMeaning": true,
-      "inThisPlay": "Mrs. BoyleはChristopherを「並外れて優秀」と褒めているのではなく、服装や態度が非常に変わっていて怪しい、と批判している。"
+      "playMeaning": true
     },
     {
       "surface": "manners",
@@ -4200,7 +4079,7 @@
     {
       "surface": "enquiries",
       "lemma": "enquiry",
-      "meaning": "【名詞】\nBritish spelling は enquiry が一般的。警察文脈では「調査・照会」。",
+      "meaning": "【名詞】\n① 問い合わせ\n② 調査",
       "playMeaning": true
     }
   ],
@@ -4214,7 +4093,7 @@
     {
       "surface": "guineas",
       "lemma": "guinea",
-      "meaning": "【名詞】\n旧英国の通貨・料金単位。1ギニーは21シリング。",
+      "meaning": "【名詞】\nギニー（旧英国通貨単位、21シリング）",
       "playMeaning": true
     },
     {
@@ -4258,7 +4137,7 @@
     {
       "surface": "foreigner",
       "lemma": "foreigner",
-      "meaning": "【名詞】\n自国以外から来た人。文脈によって距離を置く響きを持つ。",
+      "meaning": "【名詞】\n外国人",
       "playMeaning": true
     }
   ],
@@ -4269,8 +4148,7 @@
       "surface": "turn away",
       "lemma": "turn away",
       "meaning": "追い返す／入場を断る",
-      "playMeaning": true,
-      "inThisPlay": "宿泊を求める正当な旅行者を、宿側が受け入れず追い返すこと。"
+      "playMeaning": true
     },
     {
       "surface": "bona fide traveller",
@@ -4290,15 +4168,14 @@
     {
       "surface": "magistrate",
       "lemma": "magistrate",
-      "meaning": "【名詞】\n比較的軽い事件などを扱う権限を持つ司法官。英国では治安判事などを指す。",
+      "meaning": "【名詞】\n治安判事、下級裁判所の裁判官",
       "playMeaning": true
     },
     {
       "surface": "sitting on the Bench",
       "lemma": "sit on the Bench",
       "meaning": "裁判官・治安判事として法廷で職務を行う。",
-      "playMeaning": true,
-      "inThisPlay": "ここではベンチに座ることではなく、Mrs. Boyleが治安判事として法廷で職務をしていたこと。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0113": [
@@ -4314,8 +4191,7 @@
       "surface": "talk of the devil",
       "lemma": "talk of the devil",
       "meaning": "噂をしていた本人がちょうど現れた時に使う表現。",
-      "playMeaning": true,
-      "inThisPlay": "噂をしていた本人Paraviciniがちょうど現れたことを指す慣用表現。Paraviciniは自分を「devil」に重ねて芝居がかって言っている。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0115": [
@@ -4448,8 +4324,7 @@
       "surface": "references",
       "lemma": "reference",
       "meaning": "【名詞】\n① 参照、言及\n② 人物の経歴・信用を証明する推薦状・照会先",
-      "playMeaning": true,
-      "inThisPlay": "ここでは一般的な「参照」ではなく、宿泊客の身元・信用を確認するための紹介状や信用照会のこと。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0129": [
@@ -4471,8 +4346,7 @@
       "surface": "sleep under your roof",
       "lemma": "under someone’s roof",
       "meaning": "同じ屋根の下で眠る、つまり自分の宿・家に泊めている人々を指す。",
-      "playMeaning": true,
-      "inThisPlay": "同じ屋根の下で眠る、つまり自分の宿・家に泊めている人々を指す。"
+      "playMeaning": true
     },
     {
       "surface": "turn up",
@@ -4514,8 +4388,7 @@
       "surface": "fugitive from justice",
       "lemma": "fugitive from justice",
       "meaning": "法の追及・逮捕から逃れている人。",
-      "playMeaning": true,
-      "inThisPlay": "法の追及から逃げている逃亡者。Paraviciniは自分もそうかもしれないと仮定してMollieを不安にさせているだけで、告白ではない。"
+      "playMeaning": true
     },
     {
       "surface": "murderer",
@@ -4539,8 +4412,7 @@
       "surface": "as far as Mrs. Boyle goes",
       "lemma": "as far as someone goes",
       "meaning": "～に関する限り、～について言えば。",
-      "playMeaning": true,
-      "inThisPlay": "Mrs. Boyleについて言えば・Mrs. Boyleに関する限り、という話題の範囲を限定する表現。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0134": [],
@@ -4555,7 +4427,7 @@
     {
       "surface": "cloakroom",
       "lemma": "cloakroom",
-      "meaning": "【名詞】\ncloak を預ける部屋。英国では公共施設の洗面所を指す場合もあるが、文脈で判断する。",
+      "meaning": "【名詞】\n① クローク\n② 手荷物・上着を預ける場所",
       "playMeaning": true
     },
     {
@@ -4612,7 +4484,7 @@
     {
       "surface": "Hullo",
       "lemma": "Hullo",
-      "meaning": "【間投詞】\nhello の古い綴り・発音表記。英国の古い作品でよく見られる。",
+      "meaning": "【間投詞】\n① やあ\n② もしもし",
       "playMeaning": true
     }
   ],
@@ -4641,8 +4513,7 @@
       "surface": "banked up",
       "lemma": "bank up",
       "meaning": "火を長持ちさせるよう燃料を積む／雪などが堆積する",
-      "playMeaning": true,
-      "inThisPlay": "ここでは暖炉の燃料を積む意味ではなく、雪が道路脇・道路上に高く吹きだまって通行を妨げていること。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0144": [],
@@ -4711,15 +4582,14 @@
     {
       "surface": "policeman",
       "lemma": "policeman",
-      "meaning": "【名詞】\n男性の警察官を指す語。現代では police officer などの性別を限定しない表現も一般的。",
+      "meaning": "【名詞】\n警察官",
       "playMeaning": true
     },
     {
       "surface": "A policeman ― skiing!",
       "lemma": "a policeman skiing",
       "meaning": "スキーをしている警察官を指す表現。",
-      "playMeaning": true,
-      "inThisPlay": "Mrs. Boyleが、警察官がスキーで現れたことを非常識・滑稽だと感じて驚いている。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0154": [],
@@ -4768,7 +4638,7 @@
     {
       "surface": "policemen",
       "lemma": "policeman",
-      "meaning": "【名詞】\n男性の警察官を指す語。現代では police officer などの性別を限定しない表現も一般的。",
+      "meaning": "【名詞】\n警察官",
       "playMeaning": true
     }
   ],
@@ -4777,15 +4647,14 @@
     {
       "surface": "Hullo",
       "lemma": "Hullo",
-      "meaning": "【間投詞】\nhello の古い綴り・発音表記。英国の古い作品でよく見られる。",
+      "meaning": "【間投詞】\n① やあ\n② もしもし",
       "playMeaning": true
     },
     {
       "surface": "telephone is dead",
       "lemma": "dead telephone",
       "meaning": "電話機が壊れたというより、回線が切れて外部へ電話できない状態。",
-      "playMeaning": true,
-      "inThisPlay": "電話機が壊れたというより、回線が切れて外部へ電話できない状態。"
+      "playMeaning": true
     },
     {
       "surface": "quite",
@@ -4814,8 +4683,7 @@
       "surface": "cut off",
       "lemma": "cut off",
       "meaning": "大雪で道路・配達・郵便などが止まり、Monkswell Manorが外界から物理的に孤立すること。場面全体の重要な転換点。／雪で道路が遮断され、さらに電話も使えなくなり、外部との移動・通信の両方が断たれた状態。",
-      "playMeaning": true,
-      "inThisPlay": "雪で道路が遮断され、さらに電話も使えなくなり、外部との移動・通信の両方が断たれた状態。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0168": [],
@@ -4847,15 +4715,13 @@
       "surface": "get to business",
       "lemma": "get to business",
       "meaning": "雑談や到着の処理を終えて、警察官として来た本来の用件の説明を始めること。",
-      "playMeaning": true,
-      "inThisPlay": "雑談や到着の処理を終えて、警察官として来た本来の用件の説明を始めること。"
+      "playMeaning": true
     },
     {
       "surface": "business",
       "lemma": "business",
       "meaning": "【名詞】\n① 用事\n② 事件\n③ 本題\n④ 仕事",
-      "playMeaning": true,
-      "inThisPlay": "商売ではなく、TrotterがMonkswell Manorへ来た警察上の本題・正式な用件。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0172": [],
@@ -4907,8 +4773,7 @@
       "surface": "protection",
       "lemma": "protection",
       "meaning": "【名詞】\n保護",
-      "playMeaning": true,
-      "inThisPlay": "犯罪の処罰ではなく、誰かが危険にさらされる可能性があるため警察が守る必要がある、という意味。この時点では誰を何から守るのかはまだ説明されていない。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0178": [
@@ -4916,8 +4781,7 @@
       "surface": "protection",
       "lemma": "protection",
       "meaning": "【名詞】\n保護",
-      "playMeaning": true,
-      "inThisPlay": "Mollieが「警察の保護？」と驚いて聞き返している。具体的な危険の内容はまだ知らされていない。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0179": [
@@ -4942,7 +4806,7 @@
     {
       "surface": "case",
       "lemma": "case",
-      "meaning": "【名詞】\n調査・議論の対象となる一件。in case などは別の句として扱う。",
+      "meaning": "【名詞】\n事件、事例",
       "playMeaning": true
     }
   ],
@@ -4950,7 +4814,7 @@
     {
       "surface": "wireless",
       "lemma": "wireless",
-      "meaning": "【名詞】\n英国で radio を指す古い語。wireless set の短縮。",
+      "meaning": "【名詞】\nラジオ",
       "playMeaning": true
     },
     {
@@ -4974,8 +4838,7 @@
       "surface": "police record",
       "lemma": "police record",
       "meaning": "警察が保有する、逮捕・有罪歴などに関する記録。",
-      "playMeaning": true,
-      "inThisPlay": "ここでは一般的な記録ではなく、警察が保有する過去の犯罪・捜査上の記録を指す。"
+      "playMeaning": true
     },
     {
       "surface": "fingerprints",
@@ -4987,8 +4850,7 @@
       "surface": "fingerprints were on file",
       "lemma": "on file",
       "meaning": "指紋が警察の記録として登録・保管されていたため、別名を使っていた女性の身元を確認できたという意味。",
-      "playMeaning": true,
-      "inThisPlay": "指紋が警察の記録として登録・保管されていたため、別名を使っていた女性の身元を確認できたという意味。"
+      "playMeaning": true
     },
     {
       "surface": "difficulty",
@@ -5008,7 +4870,7 @@
     {
       "surface": "case",
       "lemma": "case",
-      "meaning": "【名詞】\n調査・議論の対象となる一件。in case などは別の句として扱う。",
+      "meaning": "【名詞】\n事件、事例",
       "playMeaning": true
     }
   ],
@@ -5043,15 +4905,13 @@
       "surface": "criminal neglect",
       "lemma": "criminal neglect",
       "meaning": "犯罪となるほどの養育放棄・怠慢",
-      "playMeaning": true,
-      "inThisPlay": "子どもの死亡につながった、刑事責任を問われるほど重大な養育放棄・怠慢。"
+      "playMeaning": true
     },
     {
       "surface": "persistent ill-treatment",
       "lemma": "persistent ill-treatment",
       "meaning": "継続的な虐待",
-      "playMeaning": true,
-      "inThisPlay": "一度きりではなく、継続して子どもをひどく扱っていたこと。"
+      "playMeaning": true
     },
     {
       "surface": "treatment",
@@ -5062,7 +4922,7 @@
     {
       "surface": "Case",
       "lemma": "case",
-      "meaning": "【名詞】\n調査・議論の対象となる一件。in case などは別の句として扱う。",
+      "meaning": "【名詞】\n事件、事例",
       "playMeaning": true
     },
     {
@@ -5096,7 +4956,7 @@
     {
       "surface": "terms",
       "lemma": "terms",
-      "meaning": "【名詞】\n条件、取り決め。料金・支払条件を指すこともある。",
+      "meaning": "【名詞】\n① 料金・条件\n② 刑期",
       "playMeaning": true
     },
     {
@@ -5109,8 +4969,7 @@
       "surface": "served her sentence",
       "lemma": "serve a sentence",
       "meaning": "Mrs. Stanningが裁判で科された刑期を服したこと。",
-      "playMeaning": true,
-      "inThisPlay": "Mrs. Stanningが裁判で科された刑期を服したこと。"
+      "playMeaning": true
     },
     {
       "surface": "duly",
@@ -5187,7 +5046,7 @@
     {
       "surface": "case",
       "lemma": "case",
-      "meaning": "【名詞】\n調査・議論の対象となる一件。in case などは別の句として扱う。",
+      "meaning": "【名詞】\n事件、事例",
       "playMeaning": true
     }
   ],
@@ -5228,8 +5087,7 @@
       "surface": "full particulars",
       "lemma": "full particulars",
       "meaning": "館内にいる全員について、捜査に必要な詳しい身元・事情を集めるという警察上の意味。",
-      "playMeaning": true,
-      "inThisPlay": "館内にいる全員について、捜査に必要な詳しい身元・事情を集めるという警察上の意味。"
+      "playMeaning": true
     },
     {
       "surface": "report back",
@@ -5247,8 +5105,7 @@
       "surface": "take what measures I thought fit",
       "lemma": "take measures",
       "meaning": "措置を講じる",
-      "playMeaning": true,
-      "inThisPlay": "Trotter自身の判断で、館内の人々を守るため必要と考える対策を実施すること。"
+      "playMeaning": true
     },
     {
       "surface": "measures",
@@ -5315,8 +5172,7 @@
       "surface": "far-fetched",
       "lemma": "far-fetched",
       "meaning": "【形容詞】\n① こじつけめいた\n② ありそうにない",
-      "playMeaning": true,
-      "inThisPlay": "Casewellが、Monkswell Manorでさらに殺人が起きるという警察の見立てを「かなりありそうにない話」と感じている。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0204": [],
@@ -5326,8 +5182,7 @@
       "surface": "Three Blind Mice",
       "lemma": "Three Blind Mice",
       "meaning": "英語圏の伝承童謡『Three Blind Mice』の題名。",
-      "playMeaning": true,
-      "inThisPlay": "ここでは単なる童謡名ではなく、犯人が残した紙・楽譜に使われた反復的な印で、次の犯行を示唆する脅威のモチーフ。"
+      "playMeaning": true
     },
     {
       "surface": "bar of music",
@@ -5376,8 +5231,7 @@
       "surface": "trace her present whereabouts",
       "lemma": "trace someone's whereabouts",
       "meaning": "養女となったCorrigan家の少女が現在どこにいるのか、警察が追跡して確認すること。",
-      "playMeaning": true,
-      "inThisPlay": "養女となったCorrigan家の少女が現在どこにいるのか、警察が追跡して確認すること。"
+      "playMeaning": true
     },
     {
       "surface": "present",
@@ -5394,21 +5248,20 @@
     {
       "surface": "elder",
       "lemma": "elder",
-      "meaning": "【形容詞】\n二人・限られた兄弟姉妹などで「年長の」。older より関係性を強く示す。",
+      "meaning": "【形容詞】\n年上の方の",
       "playMeaning": true
     },
     {
       "surface": "Deserted",
       "lemma": "desert",
-      "meaning": "【動詞】\n軍務を許可なく離れる。砂漠 desert（名詞）と発音・意味が異なる。",
+      "meaning": "【動詞】\n脱走する",
       "playMeaning": true
     },
     {
       "surface": "Deserted from the Army",
       "lemma": "desert from the army",
       "meaning": "軍を正式に退役したのではなく、無断で軍務から逃亡したこと。",
-      "playMeaning": true,
-      "inThisPlay": "軍を正式に退役したのではなく、無断で軍務から逃亡したこと。"
+      "playMeaning": true
     },
     {
       "surface": "since",
@@ -5425,7 +5278,7 @@
     {
       "surface": "psychologist",
       "lemma": "psychologist",
-      "meaning": "【名詞】\n心理の研究・評価を行う専門家。psychiatrist（医師）とは別。",
+      "meaning": "【名詞】\n心理学者",
       "playMeaning": true
     },
     {
@@ -5437,21 +5290,20 @@
     {
       "surface": "schizophrenic",
       "lemma": "schizophrenic",
-      "meaning": "【形容詞】\n劇中の時代的な診断表現。現代では人を病名だけで呼ぶ名詞用法は避ける傾向。",
+      "meaning": "【形容詞】\n① 統合失調症の\n② 統合失調症患者という旧来の名詞用法",
       "playMeaning": true
     },
     {
       "surface": "queer",
       "lemma": "queer",
-      "meaning": "【形容詞】\nこの台詞では「頭がおかしい」のような古い意味。現代では LGBTQ+ の自己称としても使われるため文脈に注意。",
+      "meaning": "【形容詞】\n① 変な\n② 正常でないとされた",
       "playMeaning": true
     },
     {
       "surface": "queer in the head",
       "lemma": "queer in the head",
       "meaning": "精神状態がおかしいという意味で用いられた古い侮蔑的な言い方。",
-      "playMeaning": true,
-      "inThisPlay": "Trotterが当時のくだけた古い言い方で「精神状態がおかしい」と言い換えている。現在の中立的な医学用語ではなく、侮蔑的・時代的な表現。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0212": [],
@@ -5461,8 +5313,7 @@
       "surface": "homicidal maniac",
       "lemma": "homicidal maniac",
       "meaning": "殺人衝動のある狂人／殺人犯として描写された人物",
-      "playMeaning": true,
-      "inThisPlay": "Mollieが警察の推測を受けて「殺人をしかねない危険人物」という意味で恐怖を込めて言っている古い表現。臨床診断名として扱わない。"
+      "playMeaning": true
     },
     {
       "surface": "turn up",
@@ -5505,7 +5356,7 @@
     {
       "surface": "case",
       "lemma": "case",
-      "meaning": "【名詞】\n調査・議論の対象となる一件。in case などは別の句として扱う。",
+      "meaning": "【名詞】\n事件、事例",
       "playMeaning": true
     }
   ],
@@ -5603,8 +5454,7 @@
       "surface": "What I'm getting at",
       "lemma": "what someone is getting at",
       "meaning": "人が言おうとしている要点・意図。",
-      "playMeaning": true,
-      "inThisPlay": "Trotterが「自分が突き止めたい要点は」と話を核心へ戻している。"
+      "playMeaning": true
     },
     {
       "surface": "getting at",
@@ -5640,8 +5490,7 @@
       "surface": "deadly danger",
       "lemma": "deadly danger",
       "meaning": "単なる大きな危険ではなく、誰かが殺される可能性があるという切迫した危険。",
-      "playMeaning": true,
-      "inThisPlay": "単なる大きな危険ではなく、誰かが殺される可能性があるという切迫した危険。"
+      "playMeaning": true
     },
     {
       "surface": "'ve got to",
@@ -5679,8 +5528,7 @@
       "surface": "bygone years",
       "lemma": "bygone years",
       "meaning": "ずっと以前の過ぎ去った年月・時代。",
-      "playMeaning": true,
-      "inThisPlay": "Longridge Farm事件が起きた過去の時期を、Paraviciniが距離を置いて「昔の地方の出来事」と表現している。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0228": [],
@@ -5717,7 +5565,7 @@
     {
       "surface": "case",
       "lemma": "case",
-      "meaning": "【名詞】\n調査・議論の対象となる一件。in case などは別の句として扱う。",
+      "meaning": "【名詞】\n事件、事例",
       "playMeaning": true
     },
     {
@@ -5747,8 +5595,7 @@
       "surface": "you'll have yourself to blame",
       "lemma": "have oneself to blame",
       "meaning": "自分のせいだ／自業自得だ",
-      "playMeaning": true,
-      "inThisPlay": "情報を隠した結果だれかが被害に遭えば、自分たちにも責任がある、とTrotterが協力を迫る強い警告。"
+      "playMeaning": true
     },
     {
       "surface": "have yourself to blame",
@@ -5792,8 +5639,7 @@
       "surface": "hardboiled",
       "lemma": "hardboiled",
       "meaning": "【形容詞】\nタフで感情を見せない",
-      "playMeaning": true,
-      "inThisPlay": "ChristopherがTrotterを「厳しくてタフな刑事らしい」と映画的・芝居がかった調子で面白がって評している。"
+      "playMeaning": true
     },
     {
       "surface": "Quite",
@@ -5832,8 +5678,7 @@
       "surface": "signature tune",
       "lemma": "signature tune",
       "meaning": "人物・番組などを特徴づけるお決まりの曲・テーマ曲。",
-      "playMeaning": true,
-      "inThisPlay": "ここでは通常のテーマ曲ではなく、「Three Blind Mice」が犯人を特徴づける署名のような反復モチーフだという意味。"
+      "playMeaning": true
     },
     {
       "surface": "tune",
@@ -5863,8 +5708,7 @@
       "surface": "what a kick he must be getting out of it",
       "lemma": "get a kick out of",
       "meaning": "～を面白がる／～から快感を得る",
-      "playMeaning": true,
-      "inThisPlay": "犯人が自分の仕掛けや周囲の恐怖から強い刺激・楽しみを得ているのだろう、とChristopherが想像している。事実として確認された心理ではない。"
+      "playMeaning": true
     },
     {
       "surface": "a kick he must be getting out of it",
@@ -5940,13 +5784,13 @@
     {
       "surface": "neurotic",
       "lemma": "neurotic",
-      "meaning": "【形容詞】\n不安・強迫などを広く neurotic と呼んだ時代的表現。現代の診断語として単純には用いない。",
+      "meaning": "【形容詞】\n神経症的な、という旧来の心理語",
       "playMeaning": true
     },
     {
       "surface": "neurotic young man",
       "lemma": "neurotic",
-      "meaning": "【形容詞】\n不安・強迫などを広く neurotic と呼んだ時代的表現。現代の診断語として単純には用いない。",
+      "meaning": "【形容詞】\n神経症的な、という旧来の心理語",
       "playMeaning": true,
       "inThisPlay": "Mrs. BoyleがChristopherの不穏な冗談を非難して「神経質で異常な若者」と決めつける侮蔑的評価。医学的診断ではない。"
     }
@@ -5956,7 +5800,7 @@
     {
       "surface": "policeman",
       "lemma": "policeman",
-      "meaning": "【名詞】\n男性の警察官を指す語。現代では police officer などの性別を限定しない表現も一般的。",
+      "meaning": "【名詞】\n警察官",
       "playMeaning": true
     },
     {
@@ -5978,7 +5822,7 @@
     {
       "surface": "nervy",
       "lemma": "nervy",
-      "meaning": "【形容詞】\nBritish English では「神経質・緊張した」の意味がある。",
+      "meaning": "【形容詞】\n① 神経質な\n② いら立った",
       "playMeaning": true
     },
     {
@@ -6021,7 +5865,7 @@
     {
       "surface": "magistrates",
       "lemma": "magistrate",
-      "meaning": "【名詞】\n比較的軽い事件などを扱う権限を持つ司法官。英国では治安判事などを指す。",
+      "meaning": "【名詞】\n治安判事、下級裁判所の裁判官",
       "playMeaning": true
     },
     {
@@ -6055,8 +5899,7 @@
       "surface": "held responsible",
       "lemma": "hold someone responsible",
       "meaning": "人に責任があるとみなす。",
-      "playMeaning": true,
-      "inThisPlay": "子どもをLongridge Farmへ送った結果について、自分に責任があるとみなされることをMrs. Boyleが否定している。"
+      "playMeaning": true
     },
     {
       "surface": "welfare workers",
@@ -6067,7 +5910,7 @@
     {
       "surface": "anxious",
       "lemma": "anxious",
-      "meaning": "【形容詞】\n悪いことを心配する意味と「強く望む」意味がある。",
+      "meaning": "【形容詞】\n① 不安な\n② 切望している",
       "playMeaning": true
     },
     {
@@ -6160,8 +6003,7 @@
       "surface": "spiv",
       "lemma": "spiv",
       "meaning": "【名詞】\nいかがわしい闇商人風の男",
-      "playMeaning": true,
-      "inThisPlay": "CasewellがParaviciniを、派手でいかがわしい闇商売人のように見えると評する当時の英国俗語。本人の実際の職業を断定しているわけではない。"
+      "playMeaning": true
     },
     {
       "surface": "Makes his face up",
@@ -6178,7 +6020,7 @@
     {
       "surface": "Rouge",
       "lemma": "rouge",
-      "meaning": "【名詞】\n頬を赤く見せる化粧品。blush より古風。",
+      "meaning": "【名詞】\n頬紅",
       "playMeaning": true
     },
     {
@@ -6268,8 +6110,7 @@
       "surface": "gets over things",
       "lemma": "get over something",
       "meaning": "つらい過去の経験から時間とともに立ち直り、その影響を乗り越えるという心理的な意味。",
-      "playMeaning": true,
-      "inThisPlay": "つらい過去の経験から時間とともに立ち直り、その影響を乗り越えるという心理的な意味。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0276": [],
@@ -6280,7 +6121,7 @@
     {
       "surface": "Psychologists",
       "lemma": "psychologist",
-      "meaning": "【名詞】\n心理の研究・評価を行う専門家。psychiatrist（医師）とは別。",
+      "meaning": "【名詞】\n心理学者",
       "playMeaning": true
     }
   ],
@@ -6289,8 +6130,7 @@
       "surface": "humbug",
       "lemma": "humbug",
       "meaning": "【名詞】\nでたらめ、たわごと、見せかけだとして退ける語。",
-      "playMeaning": true,
-      "inThisPlay": "Casewellが心理学者・精神科医の説明を「でたらめだ」と強く退けている。彼女の個人的態度であり、客観的評価ではない。"
+      "playMeaning": true
     },
     {
       "surface": "Just",
@@ -6307,7 +6147,7 @@
     {
       "surface": "psychologists",
       "lemma": "psychologist",
-      "meaning": "【名詞】\n心理の研究・評価を行う専門家。psychiatrist（医師）とは別。",
+      "meaning": "【名詞】\n心理学者",
       "playMeaning": true
     }
   ],
@@ -6363,8 +6203,7 @@
       "surface": "Don't give in",
       "lemma": "give in",
       "meaning": "屈する／折れる",
-      "playMeaning": true,
-      "inThisPlay": "過去の記憶や苦痛に負けて支配されるな、という意味。"
+      "playMeaning": true
     },
     {
       "surface": "give in",
@@ -6403,8 +6242,7 @@
       "surface": "face them",
       "lemma": "face something",
       "meaning": "過去のつらい出来事から逃げず、正面から認めて向き合うこと。／困難・事実などから逃げずに向き合う。",
-      "playMeaning": true,
-      "inThisPlay": "過去のつらい出来事から逃げず、正面から認めて向き合うこと。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0291": [],
@@ -6428,7 +6266,7 @@
     {
       "surface": "draughts",
       "lemma": "draught",
-      "meaning": "【名詞】\nBritish spelling。米語 draft。劇中では室内に入る冷たい隙間風。",
+      "meaning": "【名詞】\n隙間風",
       "playMeaning": true
     }
   ],
@@ -6452,7 +6290,7 @@
     {
       "surface": "suspicious",
       "lemma": "suspicious",
-      "meaning": "【形容詞】\n何か不正・危険があると疑わせる、または人が疑っている。",
+      "meaning": "【形容詞】\n① 疑わしい\n② 疑っている",
       "playMeaning": true
     },
     {
@@ -6525,8 +6363,7 @@
       "surface": "turned up out of the blue",
       "lemma": "out of the blue",
       "meaning": "突然、思いがけず",
-      "playMeaning": true,
-      "inThisPlay": "Paraviciniが事前予約なしに、まったく予期せず突然Monkswell Manorへ現れたこと。"
+      "playMeaning": true
     },
     {
       "surface": "out of the blue",
@@ -6545,15 +6382,14 @@
     {
       "surface": "reliance",
       "lemma": "reliance",
-      "meaning": "【名詞】\nrely on の名詞形。人・物を頼みとすること。",
+      "meaning": "【名詞】\n依存、頼りにすること",
       "playMeaning": true
     },
     {
       "surface": "reliance to be placed on",
       "lemma": "place reliance on",
       "meaning": "住所や配給手帳のような情報だけでは、宿泊客の本当の身元を保証する証拠として十分信用できない、という捜査上の意味。",
-      "playMeaning": true,
-      "inThisPlay": "住所や配給手帳のような情報だけでは、宿泊客の本当の身元を保証する証拠として十分信用できない、という捜査上の意味。"
+      "playMeaning": true
     },
     {
       "surface": "evidence",
@@ -6566,7 +6402,7 @@
     {
       "surface": "maniac",
       "lemma": "maniac",
-      "meaning": "【名詞】\n異常なほど興奮・執着した人。古い用法では精神異常者を指すこともある。",
+      "meaning": "【名詞】\n① 狂人という古い呼称\n② 極端に熱中する人",
       "playMeaning": true
     },
     {
@@ -6599,8 +6435,7 @@
       "surface": "he's here already",
       "lemma": "here already",
       "meaning": "問題の人物がすでにこの場所の中にいること。",
-      "playMeaning": true,
-      "inThisPlay": "雪で外から誰も来られないから安全なのではなく、犯人が前夜から宿泊客の一人としてすでに館内にいる可能性をTrotterが示している。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0315": [],
@@ -6663,8 +6498,7 @@
       "surface": "indeterminate build",
       "lemma": "indeterminate build",
       "meaning": "目撃情報から体格をはっきり特定できず、容疑者を絞る特徴にならないという意味。",
-      "playMeaning": true,
-      "inThisPlay": "目撃情報から体格をはっきり特定できず、容疑者を絞る特徴にならないという意味。"
+      "playMeaning": true
     },
     {
       "surface": "darkish",
@@ -6694,8 +6528,7 @@
       "surface": "muffler",
       "lemma": "muffler",
       "meaning": "【名詞】\nマフラー、襟巻き",
-      "playMeaning": true,
-      "inThisPlay": "ここでは自動車部品ではなく、顔を隠すように巻いた防寒用の厚手のスカーフ。"
+      "playMeaning": true
     },
     {
       "surface": "whisper",
@@ -6771,8 +6604,7 @@
       "surface": "mechanics of fear",
       "lemma": "mechanics of fear",
       "meaning": "ラジオ番組が説明する「恐怖が人の心にどう作用するかという仕組み」。直後の暗闇と物音を不穏に先取りするが、語義自体は心理的な仕組みを指す。",
-      "playMeaning": true,
-      "inThisPlay": "ラジオ番組が説明する「恐怖が人の心にどう作用するかという仕組み」。直後の暗闇と物音を不穏に先取りするが、語義自体は心理的な仕組みを指す。"
+      "playMeaning": true
     },
     {
       "surface": "precise",
@@ -6791,7 +6623,7 @@
     {
       "surface": "programme",
       "lemma": "programme",
-      "meaning": "【名詞】\nBritish spelling。米語 program。劇中では放送番組等の意味。",
+      "meaning": "【名詞】\n① 番組\n② 計画",
       "playMeaning": true
     },
     {
@@ -6854,7 +6686,7 @@
     {
       "surface": "murderess",
       "lemma": "murderess",
-      "meaning": "【名詞】\nmurderer を女性に限定した歴史的形。現代では通常 murderer を性別に関係なく使う。",
+      "meaning": "【名詞】\n女性の殺人犯（古い性別語）",
       "playMeaning": true
     }
   ],
@@ -6897,8 +6729,7 @@
       "surface": "all in",
       "lemma": "all in",
       "meaning": "ひどく疲れ切っている。",
-      "playMeaning": true,
-      "inThisPlay": "Gilesが、Mrs. Boyleの死を発見した直後のMollieが疲労と衝撃で完全に参っている、とTrotterに訴えている。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0014": [
@@ -6936,8 +6767,7 @@
       "surface": "held out on me",
       "lemma": "hold out on someone",
       "meaning": "人に必要な情報などを隠して伝えない。",
-      "playMeaning": true,
-      "inThisPlay": "TrotterはMrs. BoyleがLongridge Farmとの関係を捜査前に隠していたことを指している。"
+      "playMeaning": true
     },
     {
       "surface": "Unless",
@@ -6955,8 +6785,7 @@
       "surface": "get to the bottom of this",
       "lemma": "get to the bottom of",
       "meaning": "真相を突き止める",
-      "playMeaning": true,
-      "inThisPlay": "Mrs. Boyle殺害を含む一連の事件の真相を急いで突き止める、という捜査上の意味。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0015": [
@@ -7014,8 +6843,7 @@
       "surface": "a wider field",
       "lemma": "wider field",
       "meaning": "Culver Streetと違いMonkswell Manorには、次の標的になり得る人物が複数いるという意味。",
-      "playMeaning": true,
-      "inThisPlay": "Culver Streetと違いMonkswell Manorには、次の標的になり得る人物が複数いるという意味。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0021": [
@@ -7058,7 +6886,7 @@
     {
       "surface": "case",
       "lemma": "case",
-      "meaning": "【名詞】\n調査・議論の対象となる一件。in case などは別の句として扱う。",
+      "meaning": "【名詞】\n事件、事例",
       "playMeaning": true
     }
   ],
@@ -7108,7 +6936,7 @@
     {
       "surface": "passage",
       "lemma": "passage",
-      "meaning": "【名詞】\n建物内の細い通路。文章の「一節」ではない。",
+      "meaning": "【名詞】\n廊下、通路",
       "playMeaning": true
     },
     {
@@ -7221,15 +7049,13 @@
       "surface": "took your time",
       "lemma": "take one’s time",
       "meaning": "時間をかける／ゆっくりやる",
-      "playMeaning": true,
-      "inThisPlay": "TrotterがGilesの説明した単純な行動に不自然に長い時間がかかったと疑っている。"
+      "playMeaning": true
     },
     {
       "surface": "took your time",
       "lemma": "take one's time",
       "meaning": "急がず時間をかける。文脈によっては必要以上に時間をかけることを含意する。",
-      "playMeaning": true,
-      "inThisPlay": "TrotterがGilesの説明した単純な行動に不自然に長い時間がかかったと疑っている。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0029": [],
@@ -7344,8 +7170,7 @@
       "surface": "runs in people's head",
       "lemma": "run in someone's head",
       "meaning": "Three Blind Miceの旋律が頭から離れず繰り返し浮かぶ、という意味。殺人と結びついたため不穏な含みを持つ。",
-      "playMeaning": true,
-      "inThisPlay": "Three Blind Miceの旋律が頭から離れず繰り返し浮かぶ、という意味。殺人と結びついたため不穏な含みを持つ。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0055": [],
@@ -7367,8 +7192,7 @@
       "surface": "making this up",
       "lemma": "make something up",
       "meaning": "事実ではない話・説明などを作り上げる。",
-      "playMeaning": true,
-      "inThisPlay": "Trotterが、Paraviciniの「誰かが口笛を吹いていた」という話をその場で作った嘘ではないかと疑っている。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0058": [
@@ -7460,7 +7284,7 @@
     {
       "surface": "relation",
       "lemma": "relation",
-      "meaning": "【名詞】\n① 関係\n② 親戚",
+      "meaning": "【名詞】\n① 親族\n② 関係",
       "playMeaning": true
     }
   ],
@@ -7475,8 +7299,7 @@
       "surface": "none of your damned business",
       "lemma": "none of someone's business",
       "meaning": "その人には関係がなく、口出し・詮索する権利がないこと。",
-      "playMeaning": true,
-      "inThisPlay": "Casewellが手紙の相手についてのTrotterの質問を強く拒絶し、「あなたが詮索することではない」と突き放している。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0077": [
@@ -7484,8 +7307,7 @@
       "surface": "screaming blue murder",
       "lemma": "scream blue murder",
       "meaning": "大声でわめき立てる",
-      "playMeaning": true,
-      "inThisPlay": "Mollieの悲鳴を「非常に大きな悲鳴」と表す英国系の慣用表現で、別の殺人を意味しない。"
+      "playMeaning": true
     },
     {
       "surface": "pick up",
@@ -7629,8 +7451,7 @@
       "surface": "slip up",
       "lemma": "slip up",
       "meaning": "犯罪者もいずれ捜査上の手掛かりになるミスを犯す、という意味。",
-      "playMeaning": true,
-      "inThisPlay": "犯罪者もいずれ捜査上の手掛かりになるミスを犯す、という意味。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0088": [
@@ -7681,13 +7502,12 @@
       "surface": "establish opportunity",
       "lemma": "establish opportunity",
       "meaning": "犯罪を行う物理的・時間的機会が誰にあったかを確認する。",
-      "playMeaning": true,
-      "inThisPlay": "動機だけでなく、Mrs. Boyleを殺せる場所と時間に誰がいたかを捜査で確認すること。"
+      "playMeaning": true
     },
     {
       "surface": "opportunity",
       "lemma": "opportunity",
-      "meaning": "【名詞】\n一般には「機会」。捜査文脈では犯行を実行できた機会。",
+      "meaning": "【名詞】\n① 機会\n② 犯行可能性",
       "playMeaning": true
     },
     {
@@ -7747,7 +7567,7 @@
     {
       "surface": "committed",
       "lemma": "commit",
-      "meaning": "【動詞】\n行為を実行する。crime と結び付くと「犯罪を犯す」。",
+      "meaning": "【動詞】\n（犯罪を）犯す",
       "playMeaning": true
     }
   ],
@@ -7762,8 +7582,7 @@
       "surface": "under suspicion",
       "lemma": "under suspicion",
       "meaning": "疑いをかけられて",
-      "playMeaning": true,
-      "inThisPlay": "Gilesが、Trotterの説明では館内の全員が容疑者扱いされているように聞こえると反発している。"
+      "playMeaning": true
     },
     {
       "surface": "absurd",
@@ -7782,7 +7601,7 @@
     {
       "surface": "case",
       "lemma": "case",
-      "meaning": "【名詞】\n調査・議論の対象となる一件。in case などは別の句として扱う。",
+      "meaning": "【名詞】\n事件、事例",
       "playMeaning": true
     },
     {
@@ -7797,8 +7616,7 @@
       "surface": "fits the bill",
       "lemma": "fit the bill",
       "meaning": "条件にぴったり当てはまる",
-      "playMeaning": true,
-      "inThisPlay": "GilesがChristopherだけが警察の想定する若い男性像に当てはまる、と決めつけている。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0096": [
@@ -7819,8 +7637,7 @@
       "surface": "persecution",
       "lemma": "persecution",
       "meaning": "【名詞】\n迫害",
-      "playMeaning": true,
-      "inThisPlay": "Christopherが皆から疑われる状況を「自分への迫害だ」と感情的に表現している。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0097": [
@@ -7871,8 +7688,7 @@
       "surface": "safety measure",
       "lemma": "safety measure",
       "meaning": "安全策／予防措置",
-      "playMeaning": true,
-      "inThisPlay": "GilesがChristopherを犯人と確定せずとも、他の人を守る予防策として拘束すべきだと主張している。"
+      "playMeaning": true
     },
     {
       "surface": "ought to",
@@ -7906,7 +7722,7 @@
     {
       "surface": "ill-treating",
       "lemma": "ill-treat",
-      "meaning": "【動詞】\ntreat someone ill の複合動詞。現代では ill-treat / mistreat。",
+      "meaning": "【動詞】\n虐待する、ひどく扱う",
       "playMeaning": true
     },
     {
@@ -7918,7 +7734,7 @@
     {
       "surface": "magistrate",
       "lemma": "magistrate",
-      "meaning": "【名詞】\n比較的軽い事件などを扱う権限を持つ司法官。英国では治安判事などを指す。",
+      "meaning": "【名詞】\n治安判事、下級裁判所の裁判官",
       "playMeaning": true
     },
     {
@@ -7936,7 +7752,7 @@
     {
       "surface": "headquarters",
       "lemma": "headquarters",
-      "meaning": "【名詞】\n組織の指揮・管理の中心。police headquarters で警察本部。",
+      "meaning": "【名詞】\n本部",
       "playMeaning": true
     }
   ],
@@ -7977,15 +7793,13 @@
       "surface": "going by probability",
       "lemma": "go by probability",
       "meaning": "確率・可能性を基準に判断する",
-      "playMeaning": true,
-      "inThisPlay": "Trotterは確定的な証拠ではなく、現時点で最も可能性が高い筋を基準に推理していると明示する。"
+      "playMeaning": true
     },
     {
       "surface": "points one way",
       "lemma": "point one way",
       "meaning": "精神状態・軍からの脱走・報告書など複数の事情が同じ人物像を示している、という捜査上の推論。",
-      "playMeaning": true,
-      "inThisPlay": "精神状態・軍からの脱走・報告書など複数の事情が同じ人物像を示している、という捜査上の推論。"
+      "playMeaning": true
     },
     {
       "surface": "mental",
@@ -7996,7 +7810,7 @@
     {
       "surface": "instability",
       "lemma": "instability",
-      "meaning": "【名詞】\nstable でない状態。mental instability では精神状態の不安定さ。",
+      "meaning": "【名詞】\n不安定さ",
       "playMeaning": true
     },
     {
@@ -8044,7 +7858,7 @@
     {
       "surface": "relations",
       "lemma": "relation",
-      "meaning": "【名詞】\n① 関係\n② 親戚",
+      "meaning": "【名詞】\n① 親族\n② 関係",
       "playMeaning": true
     }
   ],
@@ -8067,7 +7881,7 @@
     {
       "surface": "abroad",
       "lemma": "abroad",
-      "meaning": "【副詞】\n① 国外へ・国外で\n② 古い用法で、外に出て・広く出回って",
+      "meaning": "【副詞】\n① 海外に\n② 海外で",
       "playMeaning": true
     },
     {
@@ -8101,8 +7915,7 @@
       "surface": "take every eventuality into account",
       "lemma": "take every eventuality into account",
       "meaning": "あらゆる可能性を考慮に入れる",
-      "playMeaning": true,
-      "inThisPlay": "警察は父親など別の可能性も含め、起こり得る筋を検討しているというTrotterの説明。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0126": [],
@@ -8117,7 +7930,7 @@
     {
       "surface": "Japs",
       "lemma": "Japs",
-      "meaning": "【名詞】\n第二次世界大戦期などに使われた差別的な略称。現代では使用を避ける。",
+      "meaning": "【名詞】\n日本人を指す侮蔑的な旧称",
       "playMeaning": true
     },
     {
@@ -8164,8 +7977,7 @@
       "surface": "surmise",
       "lemma": "surmise",
       "meaning": "【名詞】\n推測",
-      "playMeaning": true,
-      "inThisPlay": "TrotterがMollieの父親犯人説を、証拠のない推測にすぎないと区別している。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0130": [],
@@ -8199,7 +8011,7 @@
     {
       "surface": "frightfully",
       "lemma": "frightfully",
-      "meaning": "【副詞】\n英国上流・中流の古めの強調副詞。字義の「恐ろしく」から弱まった用法。",
+      "meaning": "【副詞】\nひどく、とても",
       "playMeaning": true
     },
     {
@@ -8283,7 +8095,7 @@
     {
       "surface": "disguised",
       "lemma": "disguised",
-      "meaning": "【形容詞】\ndisguise「正体を隠す」の過去分詞。料理では味をうまく隠す比喩。",
+      "meaning": "【形容詞】\n分からないよう姿・性質を変えた",
       "playMeaning": true
     }
   ],
@@ -8291,7 +8103,7 @@
     {
       "surface": "anxious",
       "lemma": "anxious",
-      "meaning": "【形容詞】\n悪いことを心配する意味と「強く望む」意味がある。",
+      "meaning": "【形容詞】\n① 不安な\n② 切望している",
       "playMeaning": true
     }
   ],
@@ -8299,7 +8111,7 @@
     {
       "surface": "somehow",
       "lemma": "somehow",
-      "meaning": "【副詞】\n方法・理由が不明または非特定。",
+      "meaning": "【副詞】\n① どういうわけか\n② 何とかして",
       "playMeaning": true
     }
   ],
@@ -8328,8 +8140,7 @@
       "surface": "gives the sex away",
       "lemma": "give something away",
       "meaning": "隠している情報・正体・感情などを意図せず明らかにする。",
-      "playMeaning": true,
-      "inThisPlay": "通常の声なら話者の性別が分かってしまうため、犯人が囁き声でそれを隠した可能性をTrotterが説明している。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0146": [],
@@ -8359,8 +8170,7 @@
       "surface": "no means of checking it",
       "lemma": "means of checking",
       "meaning": "確認する手段",
-      "playMeaning": true,
-      "inThisPlay": "雪と電話断絶のため、Mollieの自己申告した経歴をその場で外部照会して検証できないこと。"
+      "playMeaning": true
     },
     {
       "surface": "means of checking",
@@ -8417,7 +8227,7 @@
     {
       "surface": "barrister",
       "lemma": "barrister",
-      "meaning": "【名詞】\n英国法曹で、伝統的に法廷弁論を中心に担う職種。solicitor と対になる。",
+      "meaning": "【名詞】\nバリスター（英国の法廷弁護士）",
       "playMeaning": true
     }
   ],
@@ -8428,8 +8238,7 @@
       "surface": "of your own knowledge",
       "lemma": "of one's own knowledge",
       "meaning": "他人から聞いただけでなく、自分自身の直接の知識・経験として。",
-      "playMeaning": true,
-      "inThisPlay": "Gilesの経歴を本人から聞いたのではなく、Mollie自身が独立して事実確認して知っているのか、という意味。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0164": [
@@ -8462,7 +8271,7 @@
     {
       "surface": "relations",
       "lemma": "relation",
-      "meaning": "【名詞】\n① 関係\n② 親戚",
+      "meaning": "【名詞】\n① 親族\n② 関係",
       "playMeaning": true
     },
     {
@@ -8498,7 +8307,7 @@
     {
       "surface": "enquiries",
       "lemma": "enquiry",
-      "meaning": "【名詞】\nBritish spelling は enquiry が一般的。警察文脈では「調査・照会」。",
+      "meaning": "【名詞】\n① 問い合わせ\n② 調査",
       "playMeaning": true
     },
     {
@@ -8624,8 +8433,7 @@
       "surface": "turned out to be",
       "lemma": "turn out to be",
       "meaning": "結果として～だと分かる、実際には～であることが判明する。",
-      "playMeaning": true,
-      "inThisPlay": "Gilesが探しに行った金網が、結果として目的に合わない種類だったという説明。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0173": [
@@ -8665,7 +8473,7 @@
     {
       "surface": "Somehow",
       "lemma": "somehow",
-      "meaning": "【副詞】\n方法・理由が不明または非特定。",
+      "meaning": "【副詞】\n① どういうわけか\n② 何とかして",
       "playMeaning": true
     }
   ],
@@ -8676,13 +8484,13 @@
     {
       "surface": "frightfully",
       "lemma": "frightfully",
-      "meaning": "【副詞】\n英国上流・中流の古めの強調副詞。字義の「恐ろしく」から弱まった用法。",
+      "meaning": "【副詞】\nひどく、とても",
       "playMeaning": true
     },
     {
       "surface": "committed",
       "lemma": "commit",
-      "meaning": "【動詞】\n行為を実行する。crime と結び付くと「犯罪を犯す」。",
+      "meaning": "【動詞】\n（犯罪を）犯す",
       "playMeaning": true
     },
     {
@@ -8783,8 +8591,7 @@
       "surface": "needn't go into that",
       "lemma": "go into something",
       "meaning": "Christopherが本名について詳しく話すことを避け、話題を打ち切ろうとしている。",
-      "playMeaning": true,
-      "inThisPlay": "Christopherが本名について詳しく話すことを避け、話題を打ち切ろうとしている。"
+      "playMeaning": true
     },
     {
       "surface": "go into",
@@ -8831,7 +8638,7 @@
     {
       "surface": "specification",
       "lemma": "specification",
-      "meaning": "【名詞】\n必要条件や特徴を具体的に示した明細・仕様。人物については条件に合う人物像を指すことがある。",
+      "meaning": "【名詞】\n① 条件明細、規格\n② 人物像の条件",
       "playMeaning": true
     }
   ],
@@ -8867,8 +8674,7 @@
       "surface": "bear",
       "lemma": "bear",
       "meaning": "【未分類】\n苦痛・困難・責任などに耐える、受け止める。",
-      "playMeaning": true,
-      "inThisPlay": "MollieがChristopherに、人生で起きるつらい出来事を受け止めて耐えながら生き続ける必要がある、と言っている。"
+      "playMeaning": true
     },
     {
       "surface": "go on just as usual",
@@ -8903,8 +8709,7 @@
       "surface": "put it out of my mind",
       "lemma": "put something out of one's mind",
       "meaning": "あることを意識的に考えないようにする。",
-      "playMeaning": true,
-      "inThisPlay": "Mollieが過去のつらい出来事を思い出さないよう意識的に抑え込んでいるという意味。出来事の内容自体はまだ明かされない。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0218": [
@@ -8956,8 +8761,7 @@
       "surface": "stick it out",
       "lemma": "stick it out",
       "meaning": "最後まで耐え抜く",
-      "playMeaning": true,
-      "inThisPlay": "Christopherが疑われている状況から逃げず、Monkswell Manorに残って耐えること。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0223": [
@@ -8987,7 +8791,7 @@
     {
       "surface": "frightfully",
       "lemma": "frightfully",
-      "meaning": "【副詞】\n英国上流・中流の古めの強調副詞。字義の「恐ろしく」から弱まった用法。",
+      "meaning": "【副詞】\nひどく、とても",
       "playMeaning": true
     },
     {
@@ -9019,15 +8823,13 @@
       "surface": "puts things into your head",
       "lemma": "put something into someone's head",
       "meaning": "人にある考え・疑念などを抱かせる。",
-      "playMeaning": true,
-      "inThisPlay": "MollieはTrotterの質問が、それまで考えなかった疑念を人の心に植え付けると感じている。"
+      "playMeaning": true
     },
     {
       "surface": "possibly",
       "lemma": "possibly",
       "meaning": "【未分類】\nもしかすると；可能な限り。否定語とともに強い不可能を表すことがある。",
-      "playMeaning": true,
-      "inThisPlay": "can't possibly be true で「絶対に本当であるはずがない」と、Mollieが疑念を強く拒んでいる。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0230": [],
@@ -9037,8 +8839,7 @@
       "surface": "out with it",
       "lemma": "out with it",
       "meaning": "さあ言ってしまえ／白状しろ",
-      "playMeaning": true,
-      "inThisPlay": "ChristopherがMollieに、何を疑っているのか隠さず言うよう強く促している。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0233": [],
@@ -9133,7 +8934,7 @@
     {
       "surface": "nightmare",
       "lemma": "nightmare",
-      "meaning": "【名詞】\n恐ろしい夢。比喩的に現実感が崩れる状況にも使う。",
+      "meaning": "【名詞】\n悪夢",
       "playMeaning": true
     },
     {
@@ -9185,8 +8986,7 @@
       "surface": "Tête-à-têtes",
       "lemma": "tête-à-tête",
       "meaning": "【名詞】\n① 二人だけの内緒話\n② 差し向かい",
-      "playMeaning": true,
-      "inThisPlay": "GilesはMollieとChristopherの二人きりの親密な会話を警戒し、嫉妬と殺人への疑念を込めて問題視している。"
+      "playMeaning": true
     },
     {
       "surface": "at present",
@@ -9228,8 +9028,7 @@
       "surface": "fit the bill",
       "lemma": "fit the bill",
       "meaning": "条件にぴったり当てはまる",
-      "playMeaning": true,
-      "inThisPlay": "GilesはChristopherが警察の想定する若い男性の犯人像に合う、と強く決めつけている。これはGilesの疑いであって事実認定ではない。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0254": [
@@ -9276,8 +9075,7 @@
       "surface": "hell",
       "lemma": "hell",
       "meaning": "【未分類】\n地獄；比喩的に非常につらい状態を表し、口語では強い驚き・怒りの強調にも使う。",
-      "playMeaning": true,
-      "inThisPlay": "Gilesの驚きと怒りを強める what the hell の一部で、「いったい何なんだ」のような強い反応。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0260": [],
@@ -9287,7 +9085,7 @@
     {
       "surface": "shan't",
       "lemma": "shan’t",
-      "meaning": "【短縮表現】\nshall not の短縮。現代では主に英国英語で古風・限定的。",
+      "meaning": "【短縮表現】\n① ～しないつもりだ\n② ～しない",
       "playMeaning": true
     }
   ],
@@ -9322,7 +9120,7 @@
     {
       "surface": "barmy",
       "lemma": "barmy",
-      "meaning": "【形容詞】\n英国口語の古めの形容詞。人に対しては侮蔑的になり得る。",
+      "meaning": "【形容詞】\n頭がおかしい、ばかげた",
       "playMeaning": true
     }
   ],
@@ -9390,8 +9188,7 @@
       "surface": "out-of-the-way place",
       "lemma": "out-of-the-way",
       "meaning": "【形容詞】\n人里離れた、交通や人の往来から外れた。",
-      "playMeaning": true,
-      "inThisPlay": "GilesがMonkswell Manorを、人目につきにくい辺鄙な場所として捉え、Christopherがそこを選んだことを疑っている。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0275": [
@@ -9453,8 +9250,7 @@
       "surface": "on the sly",
       "lemma": "on the sly",
       "meaning": "人に知られないようこっそり、秘密に。",
-      "playMeaning": true,
-      "inThisPlay": "Gilesが、Mollieが自分に隠れてChristopherと密会していたのではないかと嫉妬から疑っている。事実ではない。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0279": [
@@ -9529,8 +9325,7 @@
       "surface": "get hold of that",
       "lemma": "get hold of",
       "meaning": "～を手に入れる／確保する",
-      "playMeaning": true,
-      "inThisPlay": "Gilesが、Mollieが自分のポケットにあったロンドンの新聞をどのように手に入れたのか問いただしている。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0293": [
@@ -9570,7 +9365,7 @@
     {
       "surface": "shan't",
       "lemma": "shan’t",
-      "meaning": "【短縮表現】\nshall not の短縮。現代では主に英国英語で古風・限定的。",
+      "meaning": "【短縮表現】\n① ～しないつもりだ\n② ～しない",
       "playMeaning": true
     }
   ],
@@ -9579,8 +9374,7 @@
       "surface": "what's come over you",
       "lemma": "come over someone",
       "meaning": "感情・感覚が急に人を襲う",
-      "playMeaning": true,
-      "inThisPlay": "Gilesが、Mollieの態度が突然別人のように変わったことに戸惑って「どうしたんだ」と問いかけている。"
+      "playMeaning": true
     },
     {
       "surface": "come over you",
@@ -9616,8 +9410,7 @@
       "surface": "hell",
       "lemma": "hell",
       "meaning": "【未分類】\n地獄；比喩的に非常につらい状態を表し、口語では強い驚き・怒りの強調にも使う。",
-      "playMeaning": true,
-      "inThisPlay": "GilesがParaviciniの割り込みに苛立って「いったい何を…」と強く反応している。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0311": [
@@ -9625,15 +9418,13 @@
       "surface": "apt to",
       "lemma": "be apt to",
       "meaning": "～しがちである、～する傾向がある。",
-      "playMeaning": true,
-      "inThisPlay": "Paraviciniが、夫婦喧嘩では人は本心以上のことをつい言いがちだ、と二人の対立を軽く扱っている。"
+      "playMeaning": true
     },
     {
       "surface": "lovers' quarrels",
       "lemma": "lovers' quarrel",
       "meaning": "恋人・夫婦など親密な二人の間の口論。",
-      "playMeaning": true,
-      "inThisPlay": "MollieとGilesの深刻な相互不信を、Paraviciniが単なる恋人同士の口論のように茶化している。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0312": [],
@@ -9698,8 +9489,7 @@
       "surface": "by any chance",
       "lemma": "by any chance",
       "meaning": "ひょっとして、もしかして。",
-      "playMeaning": true,
-      "inThisPlay": "Paraviciniが、Gilesがひょっとしてスキーを動かしたのではないかと柔らかい形で尋ねている。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0319": [],
@@ -9711,13 +9501,13 @@
     {
       "surface": "reinforcements",
       "lemma": "reinforcement",
-      "meaning": "【名詞】\n人員・力を追加して強化するもの。警察なら応援要員。",
+      "meaning": "【名詞】\n増援、補強",
       "playMeaning": true
     },
     {
       "surface": "station",
       "lemma": "station",
-      "meaning": "【名詞】\n① 駅、停留所\n② 配置場所・局",
+      "meaning": "【名詞】\n持ち場、配置場所",
       "playMeaning": true
     }
   ],
@@ -9738,7 +9528,7 @@
     {
       "surface": "shan't",
       "lemma": "shan’t",
-      "meaning": "【短縮表現】\nshall not の短縮。現代では主に英国英語で古風・限定的。",
+      "meaning": "【短縮表現】\n① ～しないつもりだ\n② ～しない",
       "playMeaning": true
     }
   ],
@@ -9771,8 +9561,7 @@
       "surface": "hooked it",
       "lemma": "hook it",
       "meaning": "急いで立ち去る、逃げる。",
-      "playMeaning": true,
-      "inThisPlay": "Paraviciniが、Christopherがスキーを持って逃げ出したのではないかと面白がって推測している。実際にはこの直後Christopherが現れる。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0331": [],
@@ -9830,7 +9619,7 @@
     {
       "surface": "Hullo",
       "lemma": "Hullo",
-      "meaning": "【間投詞】\nhello の古い綴り・発音表記。英国の古い作品でよく見られる。",
+      "meaning": "【間投詞】\n① やあ\n② もしもし",
       "playMeaning": true
     }
   ],
@@ -9916,7 +9705,7 @@
     {
       "surface": "opportunity",
       "lemma": "opportunity",
-      "meaning": "【名詞】\n一般には「機会」。捜査文脈では犯行を実行できた機会。",
+      "meaning": "【名詞】\n① 機会\n② 犯行可能性",
       "playMeaning": true
     }
   ],
@@ -9925,8 +9714,7 @@
       "surface": "grant you that",
       "lemma": "grant someone that",
       "meaning": "その点については相手の言うことを認める。",
-      "playMeaning": true,
-      "inThisPlay": "Metcalfが、自分にもスキーを取る機会があったというTrotterの指摘だけは認めている。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0366": [],
@@ -9941,13 +9729,12 @@
       "surface": "set to",
       "lemma": "set to",
       "meaning": "本腰を入れて取りかかる",
-      "playMeaning": true,
-      "inThisPlay": "Metcalfが全員で手分けしてすぐスキー探しを始めようと提案している。"
+      "playMeaning": true
     },
     {
       "surface": "case",
       "lemma": "case",
-      "meaning": "【名詞】\n調査・議論の対象となる一件。in case などは別の句として扱う。",
+      "meaning": "【名詞】\n事件、事例",
       "playMeaning": true
     },
     {
@@ -9966,9 +9753,8 @@
     {
       "surface": "Whacking great things",
       "lemma": "whacking",
-      "meaning": "【形容詞】\n非常に大きい、ものすごい。",
-      "playMeaning": true,
-      "inThisPlay": "スキーが隠しにくいほど非常に大きい、と英国口語で強調している。"
+      "meaning": "【形容詞】\nスキーが隠しにくいほど非常に大きい、と英国口語で強調している。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0368": [
@@ -9984,7 +9770,7 @@
     {
       "surface": "position",
       "lemma": "position",
-      "meaning": "【名詞】\n捜査文脈では事件時にいた場所。一般には立場・位置。",
+      "meaning": "【名詞】\n① 居場所\n② 立場",
       "playMeaning": true
     },
     {
@@ -10003,8 +9789,7 @@
       "surface": "put myself in the place of",
       "lemma": "put oneself in someone's place",
       "meaning": "相手の立場に自分を置いて考える。",
-      "playMeaning": true,
-      "inThisPlay": "Trotterが犯人の思考を想像し、その次の行動を予測しようとしている。共感ではなく捜査上の思考実験。"
+      "playMeaning": true
     },
     {
       "surface": "cunning",
@@ -10057,8 +9842,7 @@
       "surface": "prospective victim",
       "lemma": "prospective victim",
       "meaning": "次の被害者になり得る人",
-      "playMeaning": true,
-      "inThisPlay": "Trotterが、館内の誰かを犯人が次の標的としている可能性が高いと警告している。誰なのかはまだ不明。"
+      "playMeaning": true
     },
     {
       "surface": "held out on",
@@ -10106,8 +9890,7 @@
       "surface": "reproach themselves for",
       "lemma": "reproach oneself",
       "meaning": "Longridge Farm事件について少しでも自分に責任・後ろめたさがある者は、それを認めるべきだという意味。",
-      "playMeaning": true,
-      "inThisPlay": "Longridge Farm事件について少しでも自分に責任・後ろめたさがある者は、それを認めるべきだという意味。"
+      "playMeaning": true
     },
     {
       "surface": "business",
@@ -10131,8 +9914,7 @@
       "surface": "come out with it",
       "lemma": "come out with something",
       "meaning": "隠していたこと・言いにくいことを口に出す。",
-      "playMeaning": true,
-      "inThisPlay": "Longridge Farmとの隠れた関係をこれ以上伏せず、今すぐTrotterに打ち明けること。"
+      "playMeaning": true
     },
     {
       "surface": "doubt",
@@ -10158,8 +9940,7 @@
       "surface": "soupçon",
       "lemma": "soupçon",
       "meaning": "【名詞】\nほんの少量、わずかな気配。フランス語由来。",
-      "playMeaning": true,
-      "inThisPlay": "Paraviciniが料理を気取って説明し、「ほんのわずかな」マスタードというしゃれた言い回しを使っている。"
+      "playMeaning": true
     },
     {
       "surface": "mustard",
@@ -10170,7 +9951,7 @@
     {
       "surface": "concoct",
       "lemma": "concoct",
-      "meaning": "【動詞】\n材料を組み合わせて料理・飲み物などを作る。転じて話や計画を作り上げる。",
+      "meaning": "【動詞】\n① でっち上げる\n② 考案する",
       "playMeaning": true
     },
     {
@@ -10182,7 +9963,7 @@
     {
       "surface": "occupation",
       "lemma": "occupation",
-      "meaning": "【名詞】\n人が通常従事している仕事。警察の身元確認で使う硬めの語。",
+      "meaning": "【名詞】\n職業",
       "playMeaning": true
     }
   ],
@@ -10217,8 +9998,7 @@
       "surface": "sadistic tendencies",
       "lemma": "sadistic tendency",
       "meaning": "他人の苦痛を楽しむ方向への傾向。",
-      "playMeaning": true,
-      "inThisPlay": "Paraviciniが、Gilesは自分を性的なライバルとしてではなく危険人物として恐れている、とブラックユーモアで自分を物騒に描写している。"
+      "playMeaning": true
     },
     {
       "surface": "fears",
@@ -10257,8 +10037,7 @@
       "surface": "prove a negative",
       "lemma": "prove a negative",
       "meaning": "ある事実・性質が存在しないことを証明する。",
-      "playMeaning": true,
-      "inThisPlay": "自分が殺人犯ではないことのように「存在しないこと」を証明するのは難しい、とParaviciniが自分への疑いを面白がっている。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0378": [],
@@ -10266,7 +10045,7 @@
     {
       "surface": "gay",
       "lemma": "gay",
-      "meaning": "【形容詞】\nこの1950年代の台詞では「陽気で軽快な」の意味。現代では主に性的指向を表す語として広く使われる。",
+      "meaning": "【形容詞】\n陽気な、明るい",
       "playMeaning": true
     },
     {
@@ -10396,8 +10175,7 @@
       "surface": "Indeed",
       "lemma": "indeed",
       "meaning": "【副詞・間投的表現】\n実に、本当に。返答で確認・強調を表す。",
-      "playMeaning": true,
-      "inThisPlay": "ParaviciniがTrotterの含みのある発言に「ほう、そうですか？」と探るように返している。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0390": [
@@ -10445,8 +10223,7 @@
       "surface": "bound for",
       "lemma": "bound for",
       "meaning": "～へ向かっている、～を目的地としている。",
-      "playMeaning": true,
-      "inThisPlay": "Trotterが、事故を起こす前にParaviciniが本来どこを目的地としていたのか確認している。"
+      "playMeaning": true
     },
     {
       "surface": "by the way",
@@ -10496,8 +10273,7 @@
       "surface": "discretion",
       "lemma": "discretion",
       "meaning": "【名詞】\n① 慎重な判断\n② 口外しない配慮",
-      "playMeaning": true,
-      "inThisPlay": "秘密の恋愛なら相手の名を言わないのは慎み・秘密保持のためだ、とParaviciniが逃げ口上に使っている。"
+      "playMeaning": true
     },
     {
       "surface": "jealous",
@@ -10565,8 +10341,7 @@
       "surface": "dislike permanency",
       "lemma": "permanency",
       "meaning": "【名詞】\n永続性、定住性",
-      "playMeaning": true,
-      "inThisPlay": "Paraviciniが恒久的な住所を答える代わりに「定住が嫌い」と洒落た言い回しで質問をかわしている。"
+      "playMeaning": true
     },
     {
       "surface": "permanency",
@@ -10585,7 +10360,7 @@
     {
       "surface": "profession",
       "lemma": "profession",
-      "meaning": "【名詞】\n訓練を要する職業、または職業一般。",
+      "meaning": "【名詞】\n① 専門職\n② 職業",
       "playMeaning": true
     }
   ],
@@ -10594,8 +10369,7 @@
       "surface": "play the markets",
       "lemma": "play the markets",
       "meaning": "金融市場で売買・投機を行う。",
-      "playMeaning": true,
-      "inThisPlay": "Paraviciniは職業を明確にせず、金融市場で投機しているという曖昧で遊びめいた答えを返している。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0418": [
@@ -10619,8 +10393,7 @@
       "surface": "mixed up in a murder case",
       "lemma": "mixed up in",
       "meaning": "好ましくない事件・問題などに関わっている。",
-      "playMeaning": true,
-      "inThisPlay": "TrotterがParaviciniに、好むと好まざるとにかかわらず実際の殺人捜査に関係する立場にいると警告している。"
+      "playMeaning": true
     },
     {
       "surface": "murder",
@@ -10631,7 +10404,7 @@
     {
       "surface": "case",
       "lemma": "case",
-      "meaning": "【名詞】\n調査・議論の対象となる一件。in case などは別の句として扱う。",
+      "meaning": "【名詞】\n事件、事例",
       "playMeaning": true
     },
     {
@@ -10658,7 +10431,7 @@
     {
       "surface": "policemen",
       "lemma": "policeman",
-      "meaning": "【名詞】\n男性の警察官を指す語。現代では police officer などの性別を限定しない表現も一般的。",
+      "meaning": "【名詞】\n警察官",
       "playMeaning": true
     },
     {
@@ -10670,7 +10443,7 @@
     {
       "surface": "inquisition",
       "lemma": "inquisition",
-      "meaning": "【名詞】\nしつこく厳しい尋問・詮索。歴史上の異端審問を踏まえた比喩でも使われる。",
+      "meaning": "【名詞】\n厳しい尋問、詮索",
       "playMeaning": true,
       "inThisPlay": "ParaviciniがTrotterの厳しい尋問を大げさに「異端審問」のようだと皮肉っている。"
     }
@@ -10732,8 +10505,7 @@
       "surface": "Care of Morgan's Bank",
       "lemma": "care of",
       "meaning": "郵便物の宛先で、指定した人・組織を経由して受け取ることを示す「～方、～気付」。",
-      "playMeaning": true,
-      "inThisPlay": "住所での care of は「～方／～気付」の意味。Casewellは英国で固定住所を示さず、Morgan's Bankを郵便物の受取先としている。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0442": [],
@@ -10755,7 +10527,7 @@
     {
       "surface": "propose",
       "lemma": "propose",
-      "meaning": "【動詞】\n① 案を提示する\n② formal に intend の意味でも使う",
+      "meaning": "【動詞】\n① 提案する\n② ～するつもりである",
       "playMeaning": true
     },
     {
@@ -10820,8 +10592,7 @@
       "surface": "Not in the least",
       "lemma": "not in the least",
       "meaning": "少しも～ない／全然構わない",
-      "playMeaning": true,
-      "inThisPlay": "年齢を尋ねられることを「少しも気にしない」とCasewellが平然と答えている。"
+      "playMeaning": true
     },
     {
       "surface": "passport",
@@ -10850,8 +10621,7 @@
       "surface": "vouch for you",
       "lemma": "vouch for",
       "meaning": "～を保証する／身元を請け合う",
-      "playMeaning": true,
-      "inThisPlay": "Trotterは、英国でCasewellの身元や信用を裏付けられる人物がいるかを確認している。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0465": [
@@ -10871,8 +10641,7 @@
       "surface": "as to my financial position",
       "lemma": "as to",
       "meaning": "～について",
-      "playMeaning": true,
-      "inThisPlay": "Casewellは銀行なら自分の経済的信用については保証できる、と話題を限定して答えている。"
+      "playMeaning": true
     },
     {
       "surface": "financial position",
@@ -10883,13 +10652,13 @@
     {
       "surface": "solicitor",
       "lemma": "solicitor",
-      "meaning": "【名詞】\n英国法曹の職種。伝統的に法律相談・書類・依頼人対応を担う。",
+      "meaning": "【名詞】\nソリシター（英国の事務弁護士）",
       "playMeaning": true
     },
     {
       "surface": "discreet",
       "lemma": "discreet",
-      "meaning": "【形容詞】\n秘密や人間関係に配慮して不用意に話さない。discrete「別個の」と区別。",
+      "meaning": "【形容詞】\n口が堅い、慎重な",
       "playMeaning": true
     },
     {
@@ -10907,7 +10676,7 @@
     {
       "surface": "abroad",
       "lemma": "abroad",
-      "meaning": "【副詞】\n① 国外へ・国外で\n② 古い用法で、外に出て・広く出回って",
+      "meaning": "【副詞】\n① 海外に\n② 海外で",
       "playMeaning": true
     }
   ],
@@ -10917,7 +10686,7 @@
     {
       "surface": "abroad",
       "lemma": "abroad",
-      "meaning": "【副詞】\n① 国外へ・国外で\n② 古い用法で、外に出て・広く出回って",
+      "meaning": "【副詞】\n① 海外に\n② 海外で",
       "playMeaning": true
     }
   ],
@@ -10944,7 +10713,7 @@
     {
       "surface": "abroad",
       "lemma": "abroad",
-      "meaning": "【副詞】\n① 国外へ・国外で\n② 古い用法で、外に出て・広く出回って",
+      "meaning": "【副詞】\n① 海外に\n② 海外で",
       "playMeaning": true
     }
   ],
@@ -10991,8 +10760,7 @@
       "surface": "I daresay",
       "lemma": "daresay",
       "meaning": "【動詞的表現】\n① たぶん～だろう\n② ～と思う",
-      "playMeaning": true,
-      "inThisPlay": "CasewellがTrotterの一般論を深く認めず、「まあ、そうでしょうね」程度に受け流している英国的な言い方。"
+      "playMeaning": true
     },
     {
       "surface": "daresay",
@@ -11008,8 +10776,7 @@
       "surface": "hell",
       "lemma": "hell",
       "meaning": "【未分類】\n地獄；比喩的に非常につらい状態を表し、口語では強い驚き・怒りの強調にも使う。",
-      "playMeaning": true,
-      "inThisPlay": "what the hell ... で、Trotterの強い驚きと動揺を表し、『いったい何をしているんだ』に近い強調。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0489": [],
@@ -11087,7 +10854,7 @@
     {
       "surface": "impossible",
       "lemma": "impossible",
-      "meaning": "【形容詞】\n実現できない。会話では強い拒絶・驚きにも。",
+      "meaning": "【形容詞】\n不可能な",
       "playMeaning": true
     }
   ],
@@ -11095,7 +10862,7 @@
     {
       "surface": "impossible",
       "lemma": "impossible",
-      "meaning": "【形容詞】\n実現できない。会話では強い拒絶・驚きにも。",
+      "meaning": "【形容詞】\n不可能な",
       "playMeaning": true
     }
   ],
@@ -11140,8 +10907,7 @@
       "surface": "get somewhere",
       "lemma": "get somewhere",
       "meaning": "新しい気づきによって捜査がようやく前進しそうだ、という意味。物理的にどこかへ移動することではない。",
-      "playMeaning": true,
-      "inThisPlay": "新しい気づきによって捜査がようやく前進しそうだ、という意味。物理的にどこかへ移動することではない。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0499": [
@@ -11183,8 +10949,7 @@
       "surface": "all to no avail",
       "lemma": "to no avail",
       "meaning": "スキーをいろいろな場所で探したが、結局何の成果もなかったという意味。",
-      "playMeaning": true,
-      "inThisPlay": "スキーをいろいろな場所で探したが、結局何の成果もなかったという意味。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0502": [],
@@ -11192,7 +10957,7 @@
     {
       "surface": "Policeman",
       "lemma": "policeman",
-      "meaning": "【名詞】\n男性の警察官を指す語。現代では police officer などの性別を限定しない表現も一般的。",
+      "meaning": "【名詞】\n警察官",
       "playMeaning": true
     },
     {
@@ -11225,7 +10990,7 @@
     {
       "surface": "co-operation",
       "lemma": "co-operation",
-      "meaning": "【名詞】\n共同で目的に向かって働くこと。英国式ハイフン綴り。",
+      "meaning": "【名詞】\n協力",
       "playMeaning": true
     },
     {
@@ -11267,8 +11032,7 @@
       "surface": "chapter",
       "lemma": "chapter",
       "meaning": "【未分類】\n本などの章；物事の一区切り。",
-      "playMeaning": true,
-      "inThisPlay": "Paraviciniが捜査を推理小説になぞらえ、真相説明は『最後の章』まで取っておくべきだと芝居がかって茶化している。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0513": [],
@@ -11310,13 +11074,13 @@
     {
       "surface": "positions",
       "lemma": "position",
-      "meaning": "【名詞】\n捜査文脈では事件時にいた場所。一般には立場・位置。",
+      "meaning": "【名詞】\n① 居場所\n② 立場",
       "playMeaning": true
     },
     {
       "surface": "committed",
       "lemma": "commit",
-      "meaning": "【動詞】\n行為を実行する。crime と結び付くと「犯罪を犯す」。",
+      "meaning": "【動詞】\n（犯罪を）犯す",
       "playMeaning": true
     },
     {
@@ -11424,8 +11188,7 @@
       "surface": "go through these actions a second time",
       "lemma": "go through",
       "meaning": "一通り行う／経験する",
-      "playMeaning": true,
-      "inThisPlay": "全員に、殺人時にしたと申告した行動をもう一度順に実行させる、というTrotterの提案。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0524": [
@@ -11433,8 +11196,7 @@
       "surface": "that old chestnut",
       "lemma": "old chestnut",
       "meaning": "使い古された話・手口",
-      "playMeaning": true,
-      "inThisPlay": "Paraviciniが「犯罪の再現」という発想を、使い古されたお決まりの手だと茶化している。"
+      "playMeaning": true
     },
     {
       "surface": "old chestnut",
@@ -11570,8 +11332,7 @@
       "surface": "count me out",
       "lemma": "count someone out",
       "meaning": "人を参加者・候補などから外す。",
-      "playMeaning": true,
-      "inThisPlay": "Mollieがその再現実験の参加者から自分を外してほしい、と拒もうとしている。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0538": [
@@ -11593,8 +11354,7 @@
       "surface": "what you say goes",
       "lemma": "what someone says goes",
       "meaning": "その人の決定・指示が最終的なものとして通る。",
-      "playMeaning": true,
-      "inThisPlay": "GilesがTrotterの指示に従うと認め、「あなたが決めた通りにする」という意味で使っている。"
+      "playMeaning": true
     },
     {
       "surface": "cooperate",
@@ -11692,8 +11452,7 @@
       "surface": "see the point",
       "lemma": "see the point",
       "meaning": "発言・行為などの目的、意味、理由を理解する。",
-      "playMeaning": true,
-      "inThisPlay": "Gilesは、同じ行動を別人にさせることにどんな目的・意味があるのか理解できないと言っている。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0558": [
@@ -11707,8 +11466,7 @@
       "surface": "checking up on the original statements",
       "lemma": "check up on",
       "meaning": "～を調べて確認する",
-      "playMeaning": true,
-      "inThisPlay": "Trotterは再現によって、最初の供述が本当に成立するかを検証すると説明している。"
+      "playMeaning": true
     },
     {
       "surface": "statement",
@@ -11743,7 +11501,7 @@
     {
       "surface": "stations",
       "lemma": "station",
-      "meaning": "【名詞】\n① 駅、停留所\n② 配置場所・局",
+      "meaning": "【名詞】\n持ち場、配置場所",
       "playMeaning": true
     },
     {
@@ -11762,8 +11520,7 @@
       "surface": "keep an eye on Mrs. Ralston's dinner",
       "lemma": "keep an eye on",
       "meaning": "～を見張る／注意して見ておく",
-      "playMeaning": true,
-      "inThisPlay": "Christopherに、Mollieの代わりに料理の様子を見ておくよう頼んでいる。監視対象は人ではなく料理。"
+      "playMeaning": true
     },
     {
       "surface": "fond",
@@ -11828,7 +11585,7 @@
     {
       "surface": "toughest",
       "lemma": "tough",
-      "meaning": "【形容詞】\n困難に耐える強さ、または対処しにくさを表す。",
+      "meaning": "【形容詞】\n① 強靭な\n② 手ごわい",
       "playMeaning": true
     }
   ],
@@ -11838,8 +11595,7 @@
       "surface": "enacting the part of Mrs. Boyle",
       "lemma": "enact the part of",
       "meaning": "再現・上演などで、ある人物の役割を演じる。",
-      "playMeaning": true,
-      "inThisPlay": "Trotter自身が再現の中でMrs. Boyleがいた役割・位置を担当するという意味。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0561": [
@@ -11862,7 +11618,7 @@
     {
       "surface": "Parlour",
       "lemma": "parlour",
-      "meaning": "【名詞】\nBritish spelling。古い家の formal sitting room。",
+      "meaning": "【名詞】\n客間、応接間",
       "playMeaning": true
     }
   ],
@@ -11947,7 +11703,7 @@
     {
       "surface": "policemen",
       "lemma": "policeman",
-      "meaning": "【名詞】\n男性の警察官を指す語。現代では police officer などの性別を限定しない表現も一般的。",
+      "meaning": "【名詞】\n警察官",
       "playMeaning": true
     },
     {
@@ -11979,8 +11735,7 @@
       "surface": "firsthand knowledge",
       "lemma": "firsthand",
       "meaning": "【形容詞・副詞】\n他人からの伝聞ではなく、直接の経験・観察による。",
-      "playMeaning": true,
-      "inThisPlay": "MollieがLongridge Farm事件を伝聞ではなく、自分自身の経験を通じて知っていたという意味。"
+      "playMeaning": true
     },
     {
       "surface": "affair",
@@ -11991,13 +11746,13 @@
     {
       "surface": "magistrate",
       "lemma": "magistrate",
-      "meaning": "【名詞】\n比較的軽い事件などを扱う権限を持つ司法官。英国では治安判事などを指す。",
+      "meaning": "【名詞】\n治安判事、下級裁判所の裁判官",
       "playMeaning": true
     },
     {
       "surface": "concerned",
       "lemma": "concerned",
-      "meaning": "【未分類】\n関係している、該当する；心配している。",
+      "meaning": "【未分類】\nthe magistrate concerned で、Longridge Farm事件の児童委託に関与した『その件の判事』を指している。心配しているという意味ではない。",
       "playMeaning": true,
       "inThisPlay": "the magistrate concerned で、Longridge Farm事件の児童委託に関与した『その件の判事』を指している。心配しているという意味ではない。"
     },
@@ -12017,8 +11772,7 @@
       "surface": "speak up and say so",
       "lemma": "speak up",
       "meaning": "はっきり言う／声を上げる",
-      "playMeaning": true,
-      "inThisPlay": "ここでは声量を上げるのではなく、知っていた事実を捜査側へ自発的に明かすという意味。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0576": [],
@@ -12061,8 +11815,7 @@
       "surface": "went down with pneumonia",
       "lemma": "go down with",
       "meaning": "病気にかかる",
-      "playMeaning": true,
-      "inThisPlay": "Mollieがその日に肺炎を発症して寝込んだという意味。"
+      "playMeaning": true
     },
     {
       "surface": "pneumonia",
@@ -12080,8 +11833,7 @@
       "surface": "put aside with others",
       "lemma": "put aside",
       "meaning": "脇に置く／後回しにする",
-      "playMeaning": true,
-      "inThisPlay": "手紙が他の郵便物と一緒に脇へ置かれ、Mollieが回復するまで読まれなかったという意味。"
+      "playMeaning": true
     },
     {
       "surface": "afterwards",
@@ -12105,7 +11857,7 @@
     {
       "surface": "monstrous",
       "lemma": "monstrous",
-      "meaning": "【形容詞】\n程度が非常に大きい、または道徳的にひどいことを強調。",
+      "meaning": "【形容詞】\n① とんでもない\n② 怪物のような",
       "playMeaning": true
     }
   ],
@@ -12113,7 +11865,7 @@
     {
       "surface": "monstrous",
       "lemma": "monstrous",
-      "meaning": "【形容詞】\n程度が非常に大きい、または道徳的にひどいことを強調。",
+      "meaning": "【形容詞】\n① とんでもない\n② 怪物のような",
       "playMeaning": true
     }
   ],
@@ -12122,7 +11874,7 @@
     {
       "surface": "policeman",
       "lemma": "policeman",
-      "meaning": "【名詞】\n男性の警察官を指す語。現代では police officer などの性別を限定しない表現も一般的。",
+      "meaning": "【名詞】\n警察官",
       "playMeaning": true
     },
     {
@@ -12140,7 +11892,7 @@
     {
       "surface": "headquarters",
       "lemma": "headquarters",
-      "meaning": "【名詞】\n組織の指揮・管理の中心。police headquarters で警察本部。",
+      "meaning": "【名詞】\n本部",
       "playMeaning": true
     },
     {
@@ -12179,7 +11931,7 @@
     {
       "surface": "revolver",
       "lemma": "revolver",
-      "meaning": "【名詞】\n回転式弾倉を持つ拳銃の種類。劇中では武器名として出る。",
+      "meaning": "【名詞】\n回転式拳銃",
       "playMeaning": true
     },
     {
@@ -12225,7 +11977,7 @@
     {
       "surface": "policeman",
       "lemma": "policeman",
-      "meaning": "【名詞】\n男性の警察官を指す語。現代では police officer などの性別を限定しない表現も一般的。",
+      "meaning": "【名詞】\n警察官",
       "playMeaning": true
     }
   ],
@@ -12233,7 +11985,7 @@
     {
       "surface": "revolver",
       "lemma": "revolver",
-      "meaning": "【名詞】\n回転式弾倉を持つ拳銃の種類。劇中では武器名として出る。",
+      "meaning": "【名詞】\n回転式拳銃",
       "playMeaning": true
     }
   ],
@@ -12318,8 +12070,7 @@
       "surface": "mixed",
       "lemma": "mix",
       "meaning": "【未分類】\n混ぜる；人や物をある状況・関係に巻き込む。",
-      "playMeaning": true,
-      "inThisPlay": "was mixed up in it all で、MollieがLongridge Farm事件に関係する立場だったという意味。何かを物理的に混ぜたのではない。"
+      "playMeaning": true
     },
     {
       "surface": "fault",
@@ -12335,8 +12086,7 @@
       "surface": "under control",
       "lemma": "under control",
       "meaning": "制御できて／収拾されて",
-      "playMeaning": true,
-      "inThisPlay": "Metcalfは、直前の危険な状況がすでに抑えられ、これ以上その場で拡大しない状態だと伝えている。"
+      "playMeaning": true
     },
     {
       "surface": "unconscious",
@@ -12360,8 +12110,7 @@
       "surface": "mad as a hatter",
       "lemma": "mad as a hatter",
       "meaning": "完全に正気でない、という古い誇張表現",
-      "playMeaning": true,
-      "inThisPlay": "Metcalfが非常に常軌を逸しているという意味で使う古い慣用句。医学的な診断名ではない。"
+      "playMeaning": true
     },
     {
       "surface": "suspicions",
@@ -12380,7 +12129,7 @@
     {
       "surface": "policeman",
       "lemma": "policeman",
-      "meaning": "【名詞】\n男性の警察官を指す語。現代では police officer などの性別を限定しない表現も一般的。",
+      "meaning": "【名詞】\n警察官",
       "playMeaning": true
     }
   ],
@@ -12388,7 +12137,7 @@
     {
       "surface": "policeman",
       "lemma": "policeman",
-      "meaning": "【名詞】\n男性の警察官を指す語。現代では police officer などの性別を限定しない表現も一般的。",
+      "meaning": "【名詞】\n警察官",
       "playMeaning": true
     }
   ],
@@ -12404,8 +12153,7 @@
       "surface": "got hold of that notebook",
       "lemma": "get hold of",
       "meaning": "～を手に入れる／確保する",
-      "playMeaning": true,
-      "inThisPlay": "警察がMonkswell Manorと書かれた重要な手帳を入手した、という意味。"
+      "playMeaning": true
     },
     {
       "surface": "notebook",
@@ -12423,8 +12171,7 @@
       "surface": "on the spot",
       "lemma": "on the spot",
       "meaning": "現場に／その場に",
-      "playMeaning": true,
-      "inThisPlay": "事件が起きるMonkswell Manorの現場内に、警察側の人物をあらかじめ配置しておく必要があったという意味。"
+      "playMeaning": true
     },
     {
       "surface": "take his place",
@@ -12436,8 +12183,7 @@
       "surface": "Trotter turned up",
       "lemma": "turn up",
       "meaning": "現れる／到着する",
-      "playMeaning": true,
-      "inThisPlay": "本物の警察側が想定していなかった『Trotter』がMonkswell Manorへ現れたことを指す。"
+      "playMeaning": true
     },
     {
       "surface": "turned up",
@@ -12464,8 +12210,7 @@
       "surface": "just in time",
       "lemma": "just in time",
       "meaning": "ぎりぎり間に合って",
-      "playMeaning": true,
-      "inThisPlay": "Casewellが事態が決定的に悪化する直前にMetcalfへ相談できた、という意味。"
+      "playMeaning": true
     },
     {
       "surface": "by the way",
@@ -12517,8 +12262,7 @@
       "surface": "his line of business",
       "lemma": "line of business",
       "meaning": "職業・商売の分野、通常扱っている仕事の種類。",
-      "playMeaning": true,
-      "inThisPlay": "GilesがParaviciniの普段の商売・稼業の種類について述べている。"
+      "playMeaning": true
     },
     {
       "surface": "business",
@@ -12530,8 +12274,7 @@
       "surface": "nasty little bit of goods",
       "lemma": "a bit of goods",
       "meaning": "人を品物になぞらえて評する古風な口語表現。文脈により軽蔑的・冗談的になり得る。",
-      "playMeaning": true,
-      "inThisPlay": "ここでは物品ではなくParavicini本人を、信用しにくい嫌な人物だとくだけた古風な言い方で評している。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0621": [],
@@ -12581,7 +12324,7 @@
     {
       "surface": "practically",
       "lemma": "practically",
-      "meaning": "【副詞】\n① ほとんど、実質的に\n② 実用的な観点では",
+      "meaning": "【副詞】\nほとんど、実質的に",
       "playMeaning": true
     }
   ],
@@ -12596,8 +12339,7 @@
       "surface": "Just for best",
       "lemma": "for best",
       "meaning": "その帽子を普段使いではなく、特別な外出やよそ行きの時に使えばよいという英国的な言い方。",
-      "playMeaning": true,
-      "inThisPlay": "その帽子を普段使いではなく、特別な外出やよそ行きの時に使えばよいという英国的な言い方。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0633": [],

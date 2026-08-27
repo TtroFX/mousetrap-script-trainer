@@ -1,9 +1,9 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "PASS",
   "policy": {
-    "meaning": "Neutral Japanese dictionary translation. Concise pre-existing neutral glosses are preferred when safe; neutral source definitions supply polysemy and multi-POS coverage. Single lexical items use POS headings.",
-    "inThisPlay": "Optional occurrence-level field. Restored only from non-empty, manually reviewed contextMeaning in block line-vocabulary sources and omitted otherwise.",
+    "meaning": "Neutral Japanese dictionary translation. Safe concise glosses are preferred for single-POS words and phrases; neutral source definitions preserve genuinely multi-POS entries. Single lexical items use POS headings.",
+    "inThisPlay": "Optional occurrence-level field. Only curated contexts expressing speaker intent, irony, non-literal/pragmatic force, or a substantial departure from the ordinary dictionary reading are retained.",
     "compatibility": "Existing playMeaning booleans are preserved because runtime currently uses them as a presentation filter."
   },
   "sources": {
@@ -43,11 +43,11 @@
   "dictionary": {
     "entries": 1000,
     "formatted": 1000,
-    "neutralSource": 333,
-    "baselineGloss": 667,
+    "neutralSource": 191,
+    "baselineGloss": 809,
     "baselineCore": 0,
     "unsafeFallbackCount": 0,
-    "sha256": "ab69a08dd7d79a7e3ed6bec99ca9af1629a5d28535e209992a5bb6f38ea0a14e",
+    "sha256": "6e7de5b1f7ea203f0b8c55b39dbb0cb00013f6dad89bcd318e10f0d6f51a9b05",
     "provenanceExamples": [
       {
         "lemma": "a good thing",
@@ -61,8 +61,8 @@
       },
       {
         "lemma": "abroad",
-        "sourceType": "neutralSource",
-        "meaning": "【副詞】\n① 国外へ・国外で\n② 古い用法で、外に出て・広く出回って"
+        "sourceType": "baselineGloss",
+        "meaning": "【副詞】\n① 海外に\n② 海外で"
       },
       {
         "lemma": "abscond",
@@ -146,19 +146,21 @@
       },
       {
         "lemma": "altogether",
-        "sourceType": "neutralSource",
-        "meaning": "【副詞】\n部分を合わせた全体、または程度の完全さ。British usageでよく見られる。"
+        "sourceType": "baselineGloss",
+        "meaning": "【副詞】\n① 全体として\n② まったく"
       }
     ]
   },
   "vocabulary": {
     "speeches": 1164,
     "items": 1741,
-    "meaningUpdated": 963,
-    "inThisPlayItems": 357,
-    "matchedCuratedKeys": 354,
-    "removedStaleInThisPlay": 0,
-    "sha256": "fe480143631867bb8e1d0b87aea8cc8454ccef511541234412ec917eb6a24587"
+    "meaningUpdated": 171,
+    "inThisPlayItems": 99,
+    "curatedKeysEncountered": 354,
+    "curatedKeysIncluded": 97,
+    "curatedKeysOmitted": 257,
+    "removedStaleInThisPlay": 258,
+    "sha256": "c39a5b926c9a58bcf650f66c876b0a663a85a4f90f928ab2237d31682ceff921"
   },
   "examples": [
     {
@@ -169,53 +171,11 @@
       "inThisPlay": "警察発表の定型的な言い回しで、この男性を殺人事件との関係で見つけ出して事情を聴きたい、という意味。単に『ぜひ面接したい』という意味ではない。"
     },
     {
-      "speechId": "act1-scene1-speech-0001",
-      "surface": "ice-bound",
-      "lemma": "ice-bound",
-      "meaning": "【形容詞】\n氷で閉ざされた",
-      "inThisPlay": "雪と氷で危険な道路状況を指す。文字どおり完全に氷に閉じ込められた道路というより、凍結して通行が危険な道路。"
-    },
-    {
-      "speechId": "act1-scene1-speech-0002",
-      "surface": "Gosh",
-      "lemma": "gosh",
-      "meaning": "【間投詞】\n① まあ\n② うわあ",
-      "inThisPlay": "寒さや目の前の状況への軽い驚きを表す間投詞。"
-    },
-    {
       "speechId": "act1-scene1-speech-0004",
       "surface": "brute",
       "lemma": "brute",
-      "meaning": "【名詞】\n乱暴・残酷な人。口語では相手を軽く責める呼び方にもなる。",
+      "meaning": "【名詞】\nひどい人、乱暴者",
       "inThisPlay": "Gilesを本気で『乱暴者』と非難しているのではなく、家事を自分に任せている夫へ親しみを込めて『ひどい人ね』と軽く文句を言っている。"
-    },
-    {
-      "speechId": "act1-scene1-speech-0005",
-      "surface": "stoke the Aga",
-      "lemma": "stoke",
-      "meaning": "【動詞】\n燃料を足して火を保つ",
-      "inThisPlay": "Aga式レンジの火に燃料を足して火力を保つこと。"
-    },
-    {
-      "speechId": "act1-scene1-speech-0010",
-      "surface": "netting",
-      "lemma": "netting",
-      "meaning": "【名詞】\n網、ネット状の材料",
-      "inThisPlay": "ここでは鶏用の囲いなどに使う金網・網材。"
-    },
-    {
-      "speechId": "act1-scene1-speech-0011",
-      "surface": "dump",
-      "lemma": "dump",
-      "meaning": "【名詞・動詞】\nごみ捨て場・集積場。物を投げ捨てる。口語で粗末な場所。",
-      "inThisPlay": "ごみ捨て場というより、必要な資材を探しに行った資材置き場・店のような場所をぞんざいに呼んでいる。"
-    },
-    {
-      "speechId": "act1-scene1-speech-0011",
-      "surface": "like anything",
-      "lemma": "like anything",
-      "meaning": "ものすごく／ひどく",
-      "inThisPlay": "車が『ものすごく』横滑りしていた、という口語的な強調。"
     },
     {
       "speechId": "act1-scene1-speech-0011",
@@ -225,25 +185,67 @@
       "inThisPlay": "本当に賭けを持ちかけているのではなく、『明日にはきっと雪で閉じ込められるぞ』と強く予想する言い方。"
     },
     {
-      "speechId": "act1-scene1-speech-0011",
-      "surface": "snowed up",
-      "lemma": "snowed up",
-      "meaning": "雪で閉じ込められた／交通が遮断された",
-      "inThisPlay": "大雪のため外へ出られず、交通が遮断された状態。"
+      "speechId": "act1-scene1-speech-0016",
+      "surface": "hooked it",
+      "lemma": "hook it",
+      "meaning": "急いで立ち去る、逃げる。",
+      "inThisPlay": "Mrs. Barlowが悪天候を恐れて、仕事を早めに切り上げて帰ってしまったという古めの口語。"
     },
     {
-      "speechId": "act1-scene1-speech-0013",
-      "surface": "well-stoked up",
-      "lemma": "stoke",
-      "meaning": "【動詞】\n燃料を足して火を保つ",
-      "inThisPlay": "暖房の火に十分な燃料を入れ、切らさないようにしておくこと。"
+      "speechId": "act1-scene1-speech-0017",
+      "surface": "on your shoulders",
+      "lemma": "on someone's shoulders",
+      "meaning": "責任・負担が人にかかって。",
+      "inThisPlay": "仕事や責任がMollie一人にのしかかる、という比喩。"
     },
     {
-      "speechId": "act1-scene1-speech-0013",
-      "surface": "coke",
-      "lemma": "coke",
-      "meaning": "【名詞】\nコークス（燃料）",
-      "inThisPlay": "飲料ではなく、暖房用燃料のコークス。"
+      "speechId": "act1-scene1-speech-0020",
+      "surface": "department",
+      "lemma": "department",
+      "meaning": "【名詞】\n担当分野",
+      "inThisPlay": "組織の『部門』ではなく、料理は自分の担当分野だという冗談めいた言い方。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0021",
+      "surface": "Got cold feet",
+      "lemma": "get cold feet",
+      "meaning": "直前になって怖気づく、尻込みする。",
+      "inThisPlay": "文字どおり足が冷えたのではなく、ゲストハウス経営を始めたことに今さら不安になり、怖気づいたのかとからかっている。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0026",
+      "surface": "in disgrace",
+      "lemma": "in disgrace",
+      "meaning": "不名誉・不興を買った状態で。",
+      "inThisPlay": "本当の不名誉ではなく、看板の綴りを間違えたGilesにMollieが冗談で『罰を受ける立場ね』と言っている。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0029",
+      "surface": "appalling",
+      "lemma": "appalling",
+      "meaning": "【形容詞】\nひどい、ぞっとするほど悪い",
+      "inThisPlay": "本気で恐ろしいというより、夜遅くまで暖房の世話をする必要があることへの大げさな不満。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0035",
+      "surface": "mugs",
+      "lemma": "mug",
+      "meaning": "【名詞】\n間抜け、だまされやすい人",
+      "inThisPlay": "自分たちは宿屋経営について世間知らずで、簡単にだまされそうな『間抜け』だという自嘲。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0041",
+      "surface": "woman of business",
+      "lemma": "woman of business",
+      "meaning": "商売・実務に長けた女性。",
+      "inThisPlay": "Mollieが客の素性より料金を重視すると言ったのを受け、Gilesが『実に商売上手だね』と軽くからかっている。"
+    },
+    {
+      "speechId": "act1-scene1-speech-0044",
+      "surface": "sporting instinct",
+      "lemma": "sporting instinct",
+      "meaning": "競技者らしい挑戦心、公平さや冒険心。",
+      "inThisPlay": "危険を冒してでも挑むスポーツマン精神、というChristopherの冗談めいた不満。"
     }
   ]
 }

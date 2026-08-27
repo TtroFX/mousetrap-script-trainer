@@ -33,7 +33,7 @@
     "tags": [
       "dated-sense"
     ],
-    "meaning": "【副詞】\n① 国外へ・国外で\n② 古い用法で、外に出て・広く出回って"
+    "meaning": "【副詞】\n① 海外に\n② 海外で"
   },
   "abscond": {
     "lemma": "abscond",
@@ -222,7 +222,7 @@
     "tags": [
       "British English"
     ],
-    "meaning": "【副詞】\n部分を合わせた全体、または程度の完全さ。British usageでよく見られる。"
+    "meaning": "【副詞】\n① 全体として\n② まったく"
   },
   "amateur": {
     "lemma": "amateur",
@@ -294,7 +294,7 @@
     "tags": [
       "context"
     ],
-    "meaning": "【形容詞】\n悪いことを心配する意味と「強く望む」意味がある。"
+    "meaning": "【形容詞】\n① 不安な\n② 切望している"
   },
   "any good": {
     "lemma": "any good",
@@ -347,7 +347,7 @@
     "tags": [
       "context"
     ],
-    "meaning": "【名詞】\n① 申し込み、申請\n② 応用・適用"
+    "meaning": "【名詞】\n申込み、応募"
   },
   "apron": {
     "lemma": "apron",
@@ -568,7 +568,7 @@
       "informal",
       "dated"
     ],
-    "meaning": "【形容詞】\n英国口語の古めの形容詞。人に対しては侮蔑的になり得る。"
+    "meaning": "【形容詞】\n頭がおかしい、ばかげた"
   },
   "barrister": {
     "lemma": "barrister",
@@ -580,7 +580,7 @@
       "British English",
       "legal"
     ],
-    "meaning": "【名詞】\n英国法曹で、伝統的に法廷弁論を中心に担う職種。solicitor と対になる。"
+    "meaning": "【名詞】\nバリスター（英国の法廷弁護士）"
   },
   "be anxious to": {
     "lemma": "be anxious to",
@@ -800,7 +800,7 @@
       "context",
       "informal"
     ],
-    "meaning": "【名詞】\n乱暴・残酷な人。口語では相手を軽く責める呼び方にもなる。"
+    "meaning": "【名詞】\nひどい人、乱暴者"
   },
   "business": {
     "lemma": "business",
@@ -872,7 +872,7 @@
       "context",
       "legal"
     ],
-    "meaning": "【名詞】\n調査・議論の対象となる一件。in case などは別の句として扱う。"
+    "meaning": "【名詞】\n事件、事例"
   },
   "cellar": {
     "lemma": "cellar",
@@ -975,7 +975,7 @@
       "British English",
       "context"
     ],
-    "meaning": "【名詞】\ncloak を預ける部屋。英国では公共施設の洗面所を指す場合もあるが、文脈で判断する。"
+    "meaning": "【名詞】\n① クローク\n② 手荷物・上着を預ける場所"
   },
   "co-operation": {
     "lemma": "co-operation",
@@ -987,7 +987,7 @@
       "British English",
       "spelling"
     ],
-    "meaning": "【名詞】\n共同で目的に向かって働くこと。英国式ハイフン綴り。"
+    "meaning": "【名詞】\n協力"
   },
   "coalscuttle": {
     "lemma": "coalscuttle",
@@ -1136,7 +1136,7 @@
     "coreMeaning": "複数要素を混ぜて計画・話を作り上げる。",
     "forms": "concoct · concocted · concocted",
     "tags": [],
-    "meaning": "【動詞】\n材料を組み合わせて料理・飲み物などを作る。転じて話や計画を作り上げる。"
+    "meaning": "【動詞】\n① でっち上げる\n② 考案する"
   },
   "continental": {
     "lemma": "continental",
@@ -1148,7 +1148,7 @@
       "British English",
       "culture"
     ],
-    "meaning": "【形容詞】\n大陸の。英国ではしばしばヨーロッパ大陸の。"
+    "meaning": "【形容詞】\nヨーロッパ大陸風の"
   },
   "convenient": {
     "lemma": "convenient",
@@ -1170,7 +1170,7 @@
       "dated",
       "spelling"
     ],
-    "meaning": "【名詞】\n塩漬けにして保存した牛肉。一般には corned beef と表記される。"
+    "meaning": "【名詞】\nコンビーフ"
   },
   "correspondence course": {
     "lemma": "correspondence course",
@@ -1359,7 +1359,7 @@
     "tags": [
       "context"
     ],
-    "meaning": "【名詞】\n① 組織の部門\n② 担当分野"
+    "meaning": "【名詞】\n担当分野"
   },
   "departure": {
     "lemma": "departure",
@@ -1392,7 +1392,7 @@
       "military",
       "context"
     ],
-    "meaning": "【動詞】\n軍務を許可なく離れる。砂漠 desert（名詞）と発音・意味が異なる。"
+    "meaning": "【動詞】\n脱走する"
   },
   "deserter": {
     "lemma": "deserter",
@@ -1433,7 +1433,7 @@
     "coreMeaning": "秘密や人間関係に配慮して不用意に話さない。discrete「別個の」と区別。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n秘密や人間関係に配慮して不用意に話さない。discrete「別個の」と区別。"
+    "meaning": "【形容詞】\n口が堅い、慎重な"
   },
   "discretion": {
     "lemma": "discretion",
@@ -1464,7 +1464,7 @@
     "tags": [
       "context"
     ],
-    "meaning": "【形容詞】\ndisguise「正体を隠す」の過去分詞。料理では味をうまく隠す比喩。"
+    "meaning": "【形容詞】\n分からないよう姿・性質を変えた"
   },
   "dishonest": {
     "lemma": "dishonest",
@@ -1532,7 +1532,7 @@
       "British English",
       "spelling"
     ],
-    "meaning": "【名詞】\nBritish spelling。米語 draft。劇中では室内に入る冷たい隙間風。"
+    "meaning": "【名詞】\n隙間風"
   },
   "drift": {
     "lemma": "drift",
@@ -1591,7 +1591,7 @@
       "context",
       "informal"
     ],
-    "meaning": "【名詞・動詞】\nごみ捨て場・集積場。物を投げ捨てる。口語で粗末な場所。"
+    "meaning": "【名詞】\nごみ捨て場・集積場。\n【動詞】\n物を投げ捨てる。口語で粗末な場所。"
   },
   "elder": {
     "lemma": "elder",
@@ -1602,7 +1602,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【形容詞】\n二人・限られた兄弟姉妹などで「年長の」。older より関係性を強く示す。"
+    "meaning": "【形容詞】\n年上の方の"
   },
   "elsewhere": {
     "lemma": "elsewhere",
@@ -1624,7 +1624,7 @@
       "spelling",
       "formal"
     ],
-    "meaning": "【名詞】\nBritish spelling は enquiry が一般的。警察文脈では「調査・照会」。"
+    "meaning": "【名詞】\n① 問い合わせ\n② 調査"
   },
   "ensure the safety of": {
     "lemma": "ensure the safety of",
@@ -1754,7 +1754,7 @@
       "British English",
       "spelling"
     ],
-    "meaning": "【形容詞】\nBritish spelling。米語 favorite。"
+    "meaning": "【形容詞】\nお気に入りの"
   },
   "felt": {
     "lemma": "felt",
@@ -1923,7 +1923,7 @@
     "tags": [
       "context"
     ],
-    "meaning": "【名詞】\n自国以外から来た人。文脈によって距離を置く響きを持つ。"
+    "meaning": "【名詞】\n外国人"
   },
   "foresee": {
     "lemma": "foresee",
@@ -1989,7 +1989,7 @@
       "British English",
       "dated"
     ],
-    "meaning": "【副詞】\n英国上流・中流の古めの強調副詞。字義の「恐ろしく」から弱まった用法。"
+    "meaning": "【副詞】\nひどく、とても"
   },
   "fugitive": {
     "lemma": "fugitive",
@@ -2013,7 +2013,7 @@
       "dated sense",
       "context"
     ],
-    "meaning": "【形容詞】\nこの1950年代の台詞では「陽気で軽快な」の意味。現代では主に性的指向を表す語として広く使われる。"
+    "meaning": "【形容詞】\n陽気な、明るい"
   },
   "general dogsbody": {
     "lemma": "general dogsbody",
@@ -2442,7 +2442,7 @@
       "dated",
       "culture"
     ],
-    "meaning": "【名詞】\n旧英国の通貨・料金単位。1ギニーは21シリング。"
+    "meaning": "【名詞】\nギニー（旧英国通貨単位、21シリング）"
   },
   "habitation": {
     "lemma": "habitation",
@@ -2454,7 +2454,7 @@
       "formal",
       "dated"
     ],
-    "meaning": "【名詞】\n人が住む場所・住居。居住すること。"
+    "meaning": "【名詞】\n住居、人の住む場所"
   },
   "had better": {
     "lemma": "had better",
@@ -2534,7 +2534,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\n組織の指揮・管理の中心。police headquarters で警察本部。"
+    "meaning": "【名詞】\n本部"
   },
   "hold out on": {
     "lemma": "hold out on",
@@ -2644,7 +2644,7 @@
       "British English",
       "dated"
     ],
-    "meaning": "【間投詞】\nhello の古い綴り・発音表記。英国の古い作品でよく見られる。"
+    "meaning": "【間投詞】\n① やあ\n② もしもし"
   },
   "i shouldn’t wonder": {
     "lemma": "I shouldn’t wonder",
@@ -2692,7 +2692,7 @@
       "British English",
       "formal"
     ],
-    "meaning": "【動詞】\ntreat someone ill の複合動詞。現代では ill-treat / mistreat。"
+    "meaning": "【動詞】\n虐待する、ひどく扱う"
   },
   "impassable": {
     "lemma": "impassable",
@@ -2744,7 +2744,7 @@
     "coreMeaning": "実現できない。会話では強い拒絶・驚きにも。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n実現できない。会話では強い拒絶・驚きにも。"
+    "meaning": "【形容詞】\n不可能な"
   },
   "impression": {
     "lemma": "impression",
@@ -2869,7 +2869,7 @@
     "coreMeaning": "credible「信じられる」に in-。驚きの強調にも。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\ncredible「信じられる」に in-。驚きの強調にも。"
+    "meaning": "【形容詞】\n信じられないほどの"
   },
   "indeterminate": {
     "lemma": "indeterminate",
@@ -2912,7 +2912,7 @@
       "formal",
       "figurative"
     ],
-    "meaning": "【名詞】\nしつこく厳しい尋問・詮索。歴史上の異端審問を踏まえた比喩でも使われる。"
+    "meaning": "【名詞】\n厳しい尋問、詮索"
   },
   "inspector": {
     "lemma": "inspector",
@@ -2944,7 +2944,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\nstable でない状態。mental instability では精神状態の不安定さ。"
+    "meaning": "【名詞】\n不安定さ"
   },
   "instant": {
     "lemma": "instant",
@@ -3014,7 +3014,7 @@
       "offensive",
       "historical"
     ],
-    "meaning": "【名詞】\n第二次世界大戦期などに使われた差別的な略称。現代では使用を避ける。"
+    "meaning": "【名詞】\n日本人を指す侮蔑的な旧称"
   },
   "jealous": {
     "lemma": "jealous",
@@ -3035,7 +3035,7 @@
       "informal",
       "context"
     ],
-    "meaning": "【形容詞】\n① 汁気の多い\n② 口語で、刺激的・興味深く話題性がある"
+    "meaning": "【形容詞】\n興味をそそる、刺激的な"
   },
   "junk": {
     "lemma": "junk",
@@ -3314,7 +3314,7 @@
       "offensive",
       "context"
     ],
-    "meaning": "【名詞】\n精神疾患のある人を指した歴史的語。現代の人への呼称としては不適切。"
+    "meaning": "【名詞】\n狂人という古い侮蔑的呼称"
   },
   "macabre": {
     "lemma": "macabre",
@@ -3350,7 +3350,7 @@
       "British English",
       "legal"
     ],
-    "meaning": "【名詞】\n比較的軽い事件などを扱う権限を持つ司法官。英国では治安判事などを指す。"
+    "meaning": "【名詞】\n治安判事、下級裁判所の裁判官"
   },
   "mahogany": {
     "lemma": "mahogany",
@@ -3434,7 +3434,7 @@
       "dated",
       "context"
     ],
-    "meaning": "【名詞】\n異常なほど興奮・執着した人。古い用法では精神異常者を指すこともある。"
+    "meaning": "【名詞】\n① 狂人という古い呼称\n② 極端に熱中する人"
   },
   "marmalade": {
     "lemma": "marmalade",
@@ -3491,7 +3491,7 @@
       "dated",
       "colonial"
     ],
-    "meaning": "【形容詞】\n英領インド時代の英国人上流女性を連想させるような。"
+    "meaning": "【形容詞】\n植民地期の英国婦人を思わせる、いかにも「メムサーヒブ風」の"
   },
   "mentality": {
     "lemma": "mentality",
@@ -3563,7 +3563,7 @@
       "dated",
       "dramatic"
     ],
-    "meaning": "【形容詞】\n程度が非常に大きい、または道徳的にひどいことを強調。"
+    "meaning": "【形容詞】\n① とんでもない\n② 怪物のような"
   },
   "more or less": {
     "lemma": "more or less",
@@ -3623,7 +3623,7 @@
       "British English",
       "informal"
     ],
-    "meaning": "【名詞】\nマグカップ。英国口語では、だまされやすい愚かな人。"
+    "meaning": "【名詞】\n間抜け、だまされやすい人"
   },
   "murder": {
     "lemma": "murder",
@@ -3658,7 +3658,7 @@
       "gendered",
       "crime"
     ],
-    "meaning": "【名詞】\nmurderer を女性に限定した歴史的形。現代では通常 murderer を性別に関係なく使う。"
+    "meaning": "【名詞】\n女性の殺人犯（古い性別語）"
   },
   "mustard": {
     "lemma": "mustard",
@@ -3694,7 +3694,7 @@
       "British English",
       "context"
     ],
-    "meaning": "【形容詞】\nBritish English では「神経質・緊張した」の意味がある。"
+    "meaning": "【形容詞】\n① 神経質な\n② いら立った"
   },
   "netting": {
     "lemma": "netting",
@@ -3715,7 +3715,7 @@
       "dated",
       "psychology"
     ],
-    "meaning": "【形容詞】\n不安・強迫などを広く neurotic と呼んだ時代的表現。現代の診断語として単純には用いない。"
+    "meaning": "【形容詞】\n神経症的な、という旧来の心理語"
   },
   "nevertheless": {
     "lemma": "nevertheless",
@@ -3746,7 +3746,7 @@
     "coreMeaning": "恐ろしい夢。比喩的に現実感が崩れる状況にも使う。",
     "forms": "名詞。必要に応じて複数形をとる。",
     "tags": [],
-    "meaning": "【名詞】\n恐ろしい夢。比喩的に現実感が崩れる状況にも使う。"
+    "meaning": "【名詞】\n悪夢"
   },
   "no good": {
     "lemma": "no good",
@@ -3860,7 +3860,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\n義務、責任。しなければならないこと。"
+    "meaning": "【名詞】\n義務"
   },
   "occupation": {
     "lemma": "occupation",
@@ -3871,7 +3871,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\n人が通常従事している仕事。警察の身元確認で使う硬めの語。"
+    "meaning": "【名詞】\n職業"
   },
   "of no consequence": {
     "lemma": "of no consequence",
@@ -4025,7 +4025,7 @@
       "crime",
       "context"
     ],
-    "meaning": "【名詞】\n一般には「機会」。捜査文脈では犯行を実行できた機会。"
+    "meaning": "【名詞】\n① 機会\n② 犯行可能性"
   },
   "otherwise": {
     "lemma": "otherwise",
@@ -4106,7 +4106,7 @@
       "dated",
       "spelling"
     ],
-    "meaning": "【名詞】\nBritish spelling。古い家の formal sitting room。"
+    "meaning": "【名詞】\n客間、応接間"
   },
   "particularly": {
     "lemma": "particularly",
@@ -4127,7 +4127,7 @@
       "British English",
       "context"
     ],
-    "meaning": "【名詞】\n建物内の細い通路。文章の「一節」ではない。"
+    "meaning": "【名詞】\n廊下、通路"
   },
   "passport": {
     "lemma": "passport",
@@ -4159,7 +4159,7 @@
     "tags": [
       "British English"
     ],
-    "meaning": "【形容詞】\n① 普通と違って奇妙な\n② 特有の"
+    "meaning": "【形容詞】\n妙な、独特な"
   },
   "period": {
     "lemma": "period",
@@ -4285,7 +4285,7 @@
       "dated",
       "police"
     ],
-    "meaning": "【名詞】\n男性の警察官を指す語。現代では police officer などの性別を限定しない表現も一般的。"
+    "meaning": "【名詞】\n警察官"
   },
   "political crisis": {
     "lemma": "political crisis",
@@ -4320,7 +4320,7 @@
     "tags": [
       "context"
     ],
-    "meaning": "【名詞】\n捜査文脈では事件時にいた場所。一般には立場・位置。"
+    "meaning": "【名詞】\n① 居場所\n② 立場"
   },
   "positively": {
     "lemma": "positively",
@@ -4332,7 +4332,7 @@
       "dated",
       "context"
     ],
-    "meaning": "【副詞】\n肯定的に、または程度を強く断定して「まったく」。"
+    "meaning": "【副詞】\n① 実に\n② はっきりと"
   },
   "practically": {
     "lemma": "practically",
@@ -4341,7 +4341,7 @@
     "coreMeaning": "厳密には完全ではないが事実上そうである。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【副詞】\n① ほとんど、実質的に\n② 実用的な観点では"
+    "meaning": "【副詞】\nほとんど、実質的に"
   },
   "precise": {
     "lemma": "precise",
@@ -4383,7 +4383,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【動詞】\n十分な証拠なしに～だと思う、推定する。丁寧に確認する際にも使う。"
+    "meaning": "【動詞】\n① ～だと思う\n② 推定する"
   },
   "private affair": {
     "lemma": "private affair",
@@ -4405,7 +4405,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\n訓練を要する職業、または職業一般。"
+    "meaning": "【名詞】\n① 専門職\n② 職業"
   },
   "programme": {
     "lemma": "programme",
@@ -4417,7 +4417,7 @@
       "British English",
       "spelling"
     ],
-    "meaning": "【名詞】\nBritish spelling。米語 program。劇中では放送番組等の意味。"
+    "meaning": "【名詞】\n① 番組\n② 計画"
   },
   "prolific": {
     "lemma": "prolific",
@@ -4438,7 +4438,7 @@
       "formal",
       "context"
     ],
-    "meaning": "【動詞】\n① 案を提示する\n② formal に intend の意味でも使う"
+    "meaning": "【動詞】\n① 提案する\n② ～するつもりである"
   },
   "prospective victim": {
     "lemma": "prospective victim",
@@ -4494,7 +4494,7 @@
     "tags": [
       "psychology"
     ],
-    "meaning": "【名詞】\n心理の研究・評価を行う専門家。psychiatrist（医師）とは別。"
+    "meaning": "【名詞】\n心理学者"
   },
   "put aside": {
     "lemma": "put aside",
@@ -4581,7 +4581,7 @@
       "dated",
       "context"
     ],
-    "meaning": "【形容詞】\nこの台詞では「頭がおかしい」のような古い意味。現代では LGBTQ+ の自己称としても使われるため文脈に注意。"
+    "meaning": "【形容詞】\n① 変な\n② 正常でないとされた"
   },
   "quite": {
     "lemma": "quite",
@@ -4707,7 +4707,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\n人員・力を追加して強化するもの。警察なら応援要員。"
+    "meaning": "【名詞】\n増援、補強"
   },
   "relation": {
     "lemma": "relation",
@@ -4719,7 +4719,7 @@
       "British English",
       "context"
     ],
-    "meaning": "【名詞】\n① 関係\n② 親戚"
+    "meaning": "【名詞】\n① 親族\n② 関係"
   },
   "release": {
     "lemma": "release",
@@ -4742,7 +4742,7 @@
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞】\nrely on の名詞形。人・物を頼みとすること。"
+    "meaning": "【名詞】\n依存、頼りにすること"
   },
   "report back": {
     "lemma": "report back",
@@ -4828,7 +4828,7 @@
     "tags": [
       "crime"
     ],
-    "meaning": "【名詞】\n回転式弾倉を持つ拳銃の種類。劇中では武器名として出る。"
+    "meaning": "【名詞】\n回転式拳銃"
   },
   "ring up": {
     "lemma": "ring up",
@@ -4852,7 +4852,7 @@
     "tags": [
       "dated"
     ],
-    "meaning": "【名詞】\n頬を赤く見せる化粧品。blush より古風。"
+    "meaning": "【名詞】\n頬紅"
   },
   "ruddy": {
     "lemma": "ruddy",
@@ -4936,7 +4936,7 @@
       "medical",
       "dated"
     ],
-    "meaning": "【形容詞】\n劇中の時代的な診断表現。現代では人を病名だけで呼ぶ名詞用法は避ける傾向。"
+    "meaning": "【形容詞】\n① 統合失調症の\n② 統合失調症患者という旧来の名詞用法"
   },
   "scrambled eggs": {
     "lemma": "scrambled eggs",
@@ -5043,7 +5043,7 @@
       "dated",
       "chunk"
     ],
-    "meaning": "【短縮表現】\nshall not の短縮。現代では主に英国英語で古風・限定的。"
+    "meaning": "【短縮表現】\n① ～しないつもりだ\n② ～しない"
   },
   "shrewd suspicion": {
     "lemma": "shrewd suspicion",
@@ -5160,7 +5160,7 @@
       "British English",
       "legal"
     ],
-    "meaning": "【名詞】\n英国法曹の職種。伝統的に法律相談・書類・依頼人対応を担う。"
+    "meaning": "【名詞】\nソリシター（英国の事務弁護士）"
   },
   "somehow": {
     "lemma": "somehow",
@@ -5169,7 +5169,7 @@
     "coreMeaning": "方法・理由が不明または非特定。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【副詞】\n方法・理由が不明または非特定。"
+    "meaning": "【副詞】\n① どういうわけか\n② 何とかして"
   },
   "speak the truth": {
     "lemma": "speak the truth",
@@ -5205,7 +5205,7 @@
       "formal",
       "context"
     ],
-    "meaning": "【名詞】\n必要条件や特徴を具体的に示した明細・仕様。人物については条件に合う人物像を指すことがある。"
+    "meaning": "【名詞】\n① 条件明細、規格\n② 人物像の条件"
   },
   "spinach": {
     "lemma": "spinach",
@@ -5271,7 +5271,7 @@
     "coreMeaning": "バランスを崩しつつ歩く。",
     "forms": "stagger · staggered · staggered",
     "tags": [],
-    "meaning": "【動詞】\nよろめきながら歩く。驚かせる。"
+    "meaning": "【動詞】\nよろめきながら進む"
   },
   "starvation": {
     "lemma": "starvation",
@@ -5314,7 +5314,7 @@
     "tags": [
       "context"
     ],
-    "meaning": "【名詞】\n① 駅、停留所\n② 配置場所・局"
+    "meaning": "【名詞】\n持ち場、配置場所"
   },
   "stern": {
     "lemma": "stern",
@@ -5477,7 +5477,7 @@
     "coreMeaning": "何か不正・危険があると疑わせる、または人が疑っている。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n何か不正・危険があると疑わせる、または人が疑っている。"
+    "meaning": "【形容詞】\n① 疑わしい\n② 疑っている"
   },
   "sweeper": {
     "lemma": "sweeper",
@@ -5488,7 +5488,7 @@
     "tags": [
       "context"
     ],
-    "meaning": "【名詞】\nsweep する人・もの。文脈でどちらかを判断する。"
+    "meaning": "【名詞】\n① 掃除人\n② 掃除用具"
   },
   "swing door": {
     "lemma": "swing door",
@@ -5520,7 +5520,7 @@
     "coreMeaning": "相手の気持ち・苦境に理解や同情を示す。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n① 同情的な、理解を示す\n② 感じがよく共感できる"
+    "meaning": "【形容詞】\n同情的な、理解を示す"
   },
   "sympathy": {
     "lemma": "sympathy",
@@ -5647,7 +5647,7 @@
       "context",
       "British English"
     ],
-    "meaning": "【名詞】\n条件、取り決め。料金・支払条件を指すこともある。"
+    "meaning": "【名詞】\n① 料金・条件\n② 刑期"
   },
   "terrifically": {
     "lemma": "terrifically",
@@ -5732,7 +5732,7 @@
     "coreMeaning": "困難に耐える強さ、または対処しにくさを表す。",
     "forms": "この項目では重要な語形変化なし",
     "tags": [],
-    "meaning": "【形容詞】\n困難に耐える強さ、または対処しにくさを表す。"
+    "meaning": "【形容詞】\n① 強靭な\n② 手ごわい"
   },
   "trace": {
     "lemma": "trace",
@@ -5869,7 +5869,7 @@
       "dated",
       "context"
     ],
-    "meaning": "【形容詞】\n均衡が取れていない。人について古くは、精神状態が不安定だという意味でも使われる。"
+    "meaning": "【形容詞】\n精神的に不安定な、という古い評価語"
   },
   "unconscious": {
     "lemma": "unconscious",
@@ -6163,7 +6163,7 @@
       "British English",
       "dated"
     ],
-    "meaning": "【名詞】\n英国で radio を指す古い語。wireless set の短縮。"
+    "meaning": "【名詞】\nラジオ"
   },
   "work out": {
     "lemma": "work out",
@@ -6237,7 +6237,7 @@
       "crime",
       "context"
     ],
-    "meaning": "【動詞】\n行為を実行する。crime と結び付くと「犯罪を犯す」。"
+    "meaning": "【動詞】\n（犯罪を）犯す"
   },
   "tin": {
     "lemma": "tin",
@@ -6248,7 +6248,7 @@
     "tags": [
       "British English"
     ],
-    "meaning": "【名詞】\n① 金属の錫\n② 英国英語で缶・缶詰"
+    "meaning": "【名詞】\n缶詰"
   },
   "mash": {
     "lemma": "mash",
@@ -6294,7 +6294,7 @@
     "tags": [
       "architecture"
     ],
-    "meaning": "【名詞】\n① 全体に対する割合\n② 各部分の大きさの釣り合い"
+    "meaning": "【名詞】\n（建物・部屋の）寸法バランス、比例"
   },
   "scream blue murder": {
     "lemma": "scream blue murder",
@@ -6819,7 +6819,7 @@
     "tags": [
       "British"
     ],
-    "meaning": "【形容詞】\nプラムのような紫がかった色・豊かな質感の。声について上流階級風の響きを表すこともある。"
+    "meaning": "【形容詞】\nマホガニーの濃く赤紫がかった、重厚で少しけばけばしい色合いをChristopherが面白がって表現している。"
   },
   "solid": {
     "lemma": "solid",
@@ -6900,7 +6900,7 @@
     "coreMeaning": "色・勢い・若々しさなどが薄れた。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【形容詞】\n色・勢い・若々しさなどが薄れた。"
+    "meaning": "【形容詞】\n色があせたというより、疲れや年齢で華やかさを失った母親という戯画的描写。"
   },
   "dogsbody": {
     "lemma": "dogsbody",
@@ -6912,7 +6912,7 @@
       "British",
       "informal"
     ],
-    "meaning": "【名詞】\n人が嫌がる雑用を何でもやらされる人。"
+    "meaning": "【名詞】\n家族の中で、誰もやりたがらない雑用を何でも押しつけられる人。Christopherの架空のヴィクトリア朝家庭像の一部。"
   },
   "grateful": {
     "lemma": "grateful",
@@ -6941,7 +6941,7 @@
     "coreMeaning": "狂ったように。また口語で非常に、ものすごく。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【副詞】\n① 狂ったように\n② 口語で非常に、ものすごく"
+    "meaning": "【副詞】\n『狂ったように』ではなく、非常に・ものすごく面白いというChristopherらしい誇張。"
   },
   "what someone is like": {
     "lemma": "what someone is like",
@@ -7094,7 +7094,7 @@
     "coreMeaning": "木材を食害する昆虫の幼虫、またその被害。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【名詞】\n木材を食害する昆虫の幼虫、またその被害。"
+    "meaning": "【名詞】\nミミズではなく、オーク材に木食い虫の被害があるという意味。"
   },
   "absolute": {
     "lemma": "absolute",
@@ -7357,7 +7357,7 @@
     "coreMeaning": "深く愛する、非常に好む。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【動詞】\n深く愛する、非常に好む。"
+    "meaning": "【動詞】\n崇拝するほどではなく、料理が大好きだというChristopherらしい強い口語的表現。"
   },
   "lay": {
     "lemma": "lay",
@@ -7516,7 +7516,7 @@
     "coreMeaning": "危険・損失から救う、保存する、節約する。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【動詞】\n危険・損失から救う、保存する、節約する。"
+    "meaning": "【動詞】\n命を救われたという大げさな自己演出で、宿を見つけて凍死を免れたという意味。"
   },
   "thief": {
     "lemma": "thief",
@@ -7561,7 +7561,7 @@
     "coreMeaning": "劇の、劇的な。変化や印象が非常に大きい。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【形容詞】\n劇の、劇的な。変化や印象が非常に大きい。"
+    "meaning": "【形容詞】\n単に劇に関するという意味ではなく、自分の登場がいかにも芝居がかっていて面白い状況だという自己演出。"
   },
   "man of mystery": {
     "lemma": "man of mystery",
@@ -9884,7 +9884,7 @@
       "British",
       "informal"
     ],
-    "meaning": "【形容詞】\n非常に大きい、ものすごい。"
+    "meaning": "【形容詞】\nスキーが隠しにくいほど非常に大きい、と英国口語で強調している。"
   },
   "put oneself in someone's place": {
     "lemma": "put oneself in someone's place",
@@ -10382,7 +10382,7 @@
     "coreMeaning": "関係している、該当する；心配している。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n関係している、該当する；心配している。"
+    "meaning": "【未分類】\nthe magistrate concerned で、Longridge Farm事件の児童委託に関与した『その件の判事』を指している。心配しているという意味ではない。"
   },
   "kind": {
     "lemma": "kind",
