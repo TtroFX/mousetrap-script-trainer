@@ -18,8 +18,9 @@ const timeoutFetch=(request,ms=7000)=>new Promise((resolve,reject)=>{
 });
 const relative=request=>{const url=new URL(request.url),scope=new URL(self.registration.scope);if(url.origin!==scope.origin||!url.pathname.startsWith(scope.pathname))return null;const path=url.pathname.slice(scope.pathname.length)||'index.html';return path.replace(/^\//,'')};
 const scopedUrl=asset=>new URL(String(asset).replace(/^\.\//,''),self.registration.scope).href;
+const openCache=cacheName=>caches.open(cacheName);
 async function precacheRequired(cacheName,assets){
-  const cache=await caches.open(cacheName);
+  const cache=await openCache(cacheName);
   await Promise.all(assets.map(async asset=>{
     const url=scopedUrl(asset);
     const response=await timeoutFetch(new Request(url,{cache:'reload'}),20000);
