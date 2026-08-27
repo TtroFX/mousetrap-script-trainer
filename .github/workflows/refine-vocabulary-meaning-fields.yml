@@ -41,16 +41,22 @@ jobs:
           const vocab=read('mousetrap_line_vocabulary.json');
           const dict=read('mousetrap_word_dictionary.json');
           if(report.status!=='PASS') throw new Error('refinement report not PASS');
-          if(report.dictionary.fallbackCount!==0) throw new Error(`neutral dictionary fallback remains: ${report.dictionary.fallbackCount}`);
+          if(report.dictionary.unsafeFallbackCount!==0) throw new Error(`unsafe neutral fallback remains: ${report.dictionary.unsafeFallbackCount}`);
+          if(report.dictionary.neutralSourceExact+report.dictionary.screenedCurrentNeutral!==report.dictionary.entries) throw new Error('dictionary provenance coverage mismatch');
           if(report.dictionary.entries!==1000) throw new Error(`dictionary count changed: ${report.dictionary.entries}`);
           if(report.vocabulary.speeches!==1164||report.vocabulary.items!==1741) throw new Error('vocabulary coverage/count changed');
           if(report.vocabulary.inThisPlayItems<=0) throw new Error('no optional inThisPlay entries restored');
-          if(report.vocabulary.curatedMatched!==report.sources.curatedNonEmpty) throw new Error(`curated context mismatch ${report.vocabulary.curatedMatched}/${report.sources.curatedNonEmpty}`);
-          let items=0, inThisPlay=0;
+          if(report.vocabulary.matchedCuratedKeys!==report.sources.curatedUniqueKeys) throw new Error(`curated context key mismatch ${report.vocabulary.matchedCuratedKeys}/${report.sources.curatedUniqueKeys}`);
+          let items=0, inThisPlay=0, singleWordFormatted=0;
           const dictByLemma=new Map();
           for(const [key,entry] of Object.entries(dict)){
             if(!entry.meaning||!entry.coreMeaning) throw new Error(`dictionary fields missing: ${key}`);
             if(Object.prototype.hasOwnProperty.call(entry,'contextMeaning')) throw new Error(`legacy dictionary.contextMeaning remains: ${key}`);
+            const lemma=String(entry.lemma||key).trim();
+            if(lemma&&!/\s/.test(lemma)){
+              if(!/^【[^】]+】\n/.test(entry.meaning)) throw new Error(`single-word Meaning lacks POS heading: ${key}`);
+              singleWordFormatted++;
+            }
             dictByLemma.set(String(key).trim().toLowerCase(),entry);
             dictByLemma.set(String(entry.lemma||'').trim().toLowerCase(),entry);
           }
@@ -68,7 +74,7 @@ jobs:
             }
           }
           if(items!==1741||inThisPlay!==report.vocabulary.inThisPlayItems) throw new Error('post-write count mismatch');
-          console.log(JSON.stringify({status:'PASS',dictionary:Object.keys(dict).length,items,inThisPlay},null,2));
+          console.log(JSON.stringify({status:'PASS',dictionary:Object.keys(dict).length,items,inThisPlay,singleWordFormatted,screenedCurrentNeutral:report.dictionary.screenedCurrentNeutral},null,2));
           EOF
 
       - name: Validate production assembly
