@@ -48,6 +48,7 @@ jobs:
           node --check sw.js
           node --check scripts/assemble-production.mjs
           node tests/index_zero_static.mjs
+          node tests/offline_pwa_static.mjs
           node scripts/assemble-production.mjs --verify-only
           node scripts/assemble-production.mjs --out-dir ../public
           test -e ../public/mousetrap_line_interpretation.json
