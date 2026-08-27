@@ -20,6 +20,17 @@ jobs:
           node-version: '22'
       - name: Tighten optional In this play selection
         run: perl -0pi -e "s/if\(text&&keepInThisPlay\(text\)\)/if(text&&keepInThisPlay(text)&&text!==String(d.meaning).trim())/" scripts/zzz_vocab_semantic_migration_v2.mjs
+      - name: Update static dictionary presentation contract
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('app/tests/index_zero_static.mjs')
+          s=p.read_text()
+          old="if(dictionaryView.includes('Pattern')||dictionaryView.includes('In this play')||!dictionaryView.includes('vocab?.meaning || entry?.contextMeaning || entry?.coreMeaning'))fail('dictionary presentation contract invalid');if(!data.includes('validateVocabulary')||!data.includes('playMeaning === true')||!data.includes('Pattern fields are forbidden'))fail('Vocabulary/Dictionary contract missing');"
+          new="if(dictionaryView.includes('Pattern')||!dictionaryView.includes('In this play')||!dictionaryView.includes('entry?.meaning || vocab?.meaning || entry?.coreMeaning'))fail('dictionary presentation contract invalid');if(!data.includes('validateVocabularyDictionaryConsistency')||!data.includes('inThisPlay')||!data.includes('play-context fields are forbidden')||!data.includes('playMeaning === true'))fail('Vocabulary/Dictionary contract missing');"
+          if old not in s: raise SystemExit('old static dictionary contract not found')
+          p.write_text(s.replace(old,new))
+          PY
       - name: Apply semantic integration migration
         id: migrate
         continue-on-error: true
@@ -84,7 +95,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add mousetrap_word_dictionary.json mousetrap_line_vocabulary.json data/canonical-production-contract.json data/canonical-integration-manifest.json scripts/validate-vocabulary-semantics.mjs app/src/data-store.js app/src/study/dictionary-sheet.js app/src/app.css app/scripts/assemble-production.mjs app/tests/canonical_study.e2e.spec.js .github/workflows/app-qa.yml .github/workflows/pages.yml
+          git add mousetrap_word_dictionary.json mousetrap_line_vocabulary.json data/canonical-production-contract.json data/canonical-integration-manifest.json scripts/validate-vocabulary-semantics.mjs app/src/data-store.js app/src/study/dictionary-sheet.js app/src/app.css app/scripts/assemble-production.mjs app/tests/canonical_study.e2e.spec.js app/tests/index_zero_static.mjs .github/workflows/app-qa.yml .github/workflows/pages.yml
           git diff --cached --check
           git commit -m 'Complete Meaning and In this play integration [skip ci]'
           git push
