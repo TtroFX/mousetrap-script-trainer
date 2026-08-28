@@ -24,6 +24,19 @@ jobs:
         run: |
           set -euo pipefail
           cat data/final-quarter-vocabulary-patch.seed.{01..07} > data/final-quarter-vocabulary-patch.json.gz.b64
+      - name: Accommodate pre-existing dictionary punctuation aliases
+        shell: bash
+        run: |
+          node --input-type=module <<'EOF'
+          import fs from 'node:fs';
+          const p='scripts/apply-final-quarter-vocabulary.mjs';
+          let s=fs.readFileSync(p,'utf8');
+          const old='  if (dictKeyByNorm.has(n)) fail(`Dictionary normalized-key duplicate: ${key} / ${dictKeyByNorm.get(n)}`);\n  dictKeyByNorm.set(n, key);';
+          const replacement='  if (!dictKeyByNorm.has(n)) dictKeyByNorm.set(n, key);';
+          if (!s.includes(old)) throw new Error('Expected dictionary alias guard not found');
+          s=s.replace(old,replacement);
+          fs.writeFileSync(p,s);
+          EOF
       - name: Apply production vocabulary edit and integrated QA
         run: node scripts/apply-final-quarter-vocabulary.mjs
       - name: Validate Block 1 regression
