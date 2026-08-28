@@ -30,10 +30,7 @@ const originalVocab = structuredClone(vocab);
 const originalDict = structuredClone(dict);
 const stage = decode('data/vocabulary-rebuild/block-292-582-stage.b64');
 const dialogue = decode('data/vocabulary-rebuild/block-292-582-dialogue.b64');
-const defs = decodeParts([
-  'data/vocabulary-rebuild/block-292-582-defs.part0.b64',
-  'data/vocabulary-rebuild/block-292-582-defs.part1.b64'
-]);
+const defs = Object.assign({}, ...Array.from({ length: 8 }, (_, i) => readJson('data/vocabulary-rebuild/block-292-582-defs-' + i + '.json')));
 const context = decode('data/vocabulary-rebuild/block-292-582-context.b64');
 const upgrades = decode('data/vocabulary-rebuild/block-292-582-upgrades.b64');
 
@@ -111,11 +108,6 @@ for (const [lemma, patch] of Object.entries(upgrades)) {
   }
 }
 
-for (const [lemma, def] of Object.entries(defs)) {
-  if (!def?.meaning) continue;
-  ensureDictionary(lemma);
-}
-
 const dictionaryByLower = new Map(Object.entries(dict).map(([k, v]) => [lower(k), v]));
 const counters = {
   stageAdded: 0,
@@ -180,17 +172,53 @@ for (const [speechId, surface, lemma] of stage) {
   addOrImprove(speechId, { surface, lemma, inThisPlay: stageNote }, 'stage', 'stage');
 }
 
+// PDF stage-characterization omitted by the generic stage tokenizer.
+addOrImprove('act1-scene2-speech-0143', {
+  surface: 'cockney accent',
+  lemma: 'Cockney accent',
+  inThisPlay: 'Trotterの登場時のト書きが、彼の話し方の特徴として指定している。'
+}, 'stage', 'stage');
+
+const dialogueSurfaceAliases = new Map([
+  ['think fit', 'thought fit'],
+  ['have no patience with', 'no patience with'],
+  ['get over', 'gets over'],
+  ['have no use for', 'no use for'],
+  ['place reliance on', 'reliance to be placed on'],
+  ['bully', 'bullying'],
+  ['have a share in', 'with a share in']
+]);
+const stageBackedDialogueSpecs = new Set([
+  'Cockney accent', 'judicial manner', 'wall brackets', 'receiver',
+  'dazed', 'torch', 'tune in', 'with a start', 'at breaking point'
+]);
+const outsideTargetDialogueSpecs = new Set(['poker', 'bus ticket', 'London bus ticket']);
 let dialogueSpecsMatched = 0;
 const unmatchedDialogueSpecs = [];
+const excludedDialogueSpecs = [];
 for (const [surface, lemma, inThisPlay, category] of dialogue) {
+  const sourceSurface = dialogueSurfaceAliases.get(surface) || surface;
   let matches = 0;
   for (const speech of scopeSpeeches) {
-    if (!containsSurface(speech.text, surface)) continue;
+    if (!containsSurface(speech.text, sourceSurface)) continue;
     matches++;
-    addOrImprove(speech.id, { surface, lemma, inThisPlay }, 'dialogue', category);
+    addOrImprove(speech.id, { surface: sourceSurface, lemma, inThisPlay }, 'dialogue', category);
   }
-  if (matches) dialogueSpecsMatched++;
-  else unmatchedDialogueSpecs.push({ surface, lemma });
+  if (matches) {
+    dialogueSpecsMatched++;
+    continue;
+  }
+  if (stageBackedDialogueSpecs.has(surface)) {
+    const stageHit = [...scopeIds].some(id => vocab[id].some(item => lower(item.lemma) === lower(lemma)));
+    if (!stageHit) fail('Expected stage-backed candidate missing: ' + surface + ' -> ' + lemma);
+    excludedDialogueSpecs.push({ surface, lemma, reason: 'stage-direction-association' });
+    continue;
+  }
+  if (outsideTargetDialogueSpecs.has(surface)) {
+    excludedDialogueSpecs.push({ surface, lemma, reason: 'outside-target-candidate' });
+    continue;
+  }
+  unmatchedDialogueSpecs.push({ surface, lemma });
 }
 
 for (const [speechId, lemma, inThisPlay] of context) {
@@ -323,6 +351,7 @@ const report = {
     dialogueSpecs: dialogue.length,
     dialogueSpecsMatched,
     unmatchedDialogueSpecs,
+    excludedDialogueSpecs,
     contextUpgrades: context.length,
     meaningUpgrades: Object.keys(upgrades).length
   },

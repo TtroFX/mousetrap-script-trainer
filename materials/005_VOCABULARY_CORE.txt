@@ -3,11 +3,11 @@ MOUSETRAP SCRIPT TRAINER - 005 VOCABULARY CORE
 Material ID: 005
 Status: EXPANDED / CANONICAL REGISTERED
 Validated payload: mousetrap_word_dictionary.json
-Dictionary entries: 1000
-Referenced lemmas: 1000
+Dictionary entries: 1191
+Referenced lemmas: 1191
 Unreferenced dictionary entries: 0
 Missing referenced lemmas: 0
-Payload SHA-256: 70b1c61635a4720a4b1a096cfeacac7f6de2867535c67077b7e8e23be1e96a2d
+Payload SHA-256: 9c89a964c89746d351050263f6001bd26d42be37f065059ffc3a8087f89ea161
 Join: exact case-insensitive lemma from 006 line vocabulary.
 Dictionary presentation: line-specific meaning first; no Pattern field; context notes only when additive.
 

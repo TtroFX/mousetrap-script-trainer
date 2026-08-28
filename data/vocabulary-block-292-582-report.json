@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "scope": {
+    "globalSpeechStart": 292,
+    "globalSpeechEnd": 582,
+    "speeches": 291,
+    "firstId": "act1-scene2-speech-0102",
+    "lastId": "act2-speech-0056"
+  },
+  "sourceAudit": {
+    "stagePayloadAssociations": 317,
+    "dialogueSpecs": 190,
+    "dialogueSpecsMatched": 178,
+    "unmatchedDialogueSpecs": [],
+    "excludedDialogueSpecs": [
+      {
+        "surface": "poker",
+        "lemma": "poker",
+        "reason": "outside-target-candidate"
+      },
+      {
+        "surface": "Cockney accent",
+        "lemma": "Cockney accent",
+        "reason": "stage-direction-association"
+      },
+      {
+        "surface": "judicial manner",
+        "lemma": "judicial manner",
+        "reason": "stage-direction-association"
+      },
+      {
+        "surface": "wall brackets",
+        "lemma": "wall bracket",
+        "reason": "stage-direction-association"
+      },
+      {
+        "surface": "receiver",
+        "lemma": "telephone receiver",
+        "reason": "stage-direction-association"
+      },
+      {
+        "surface": "bus ticket",
+        "lemma": "bus ticket",
+        "reason": "outside-target-candidate"
+      },
+      {
+        "surface": "London bus ticket",
+        "lemma": "London bus ticket",
+        "reason": "outside-target-candidate"
+      },
+      {
+        "surface": "dazed",
+        "lemma": "dazed",
+        "reason": "stage-direction-association"
+      },
+      {
+        "surface": "torch",
+        "lemma": "torch",
+        "reason": "stage-direction-association"
+      },
+      {
+        "surface": "tune in",
+        "lemma": "tune in",
+        "reason": "stage-direction-association"
+      },
+      {
+        "surface": "with a start",
+        "lemma": "with a start",
+        "reason": "stage-direction-association"
+      },
+      {
+        "surface": "at breaking point",
+        "lemma": "at breaking point",
+        "reason": "stage-direction-association"
+      }
+    ],
+    "contextUpgrades": 18,
+    "meaningUpgrades": 13
+  },
+  "vocabulary": {
+    "beforeItems": 1741,
+    "afterItems": 2264,
+    "addedItems": 523,
+    "stageDirectionAdded": 318,
+    "dialogueAdded": 205,
+    "properNounAdded": 103,
+    "multiWordExpressionAdded": 44,
+    "existingAssociationImproved": 60,
+    "inThisPlayAddedOrImproved": 535,
+    "inThisPlayTotal": 589,
+    "outsideScopeMeaningSync": 16,
+    "duplicateSkipped": 34,
+    "touchedScopeSpeeches": 189,
+    "sha256": "665d125b2bff739469e299a76cc34fe7f9f1dba98d9f09b6ba668659a3af8963"
+  },
+  "dictionary": {
+    "beforeEntries": 1000,
+    "afterEntries": 1191,
+    "newEntries": 191,
+    "improvedExistingEntries": 13,
+    "referencedLemmas": 1191,
+    "sha256": "9c89a964c89746d351050263f6001bd26d42be37f065059ffc3a8087f89ea161"
+  },
+  "qa": {
+    "jsonParse": "PASS",
+    "canonicalSpeechCoverage": "1164/1164",
+    "scopeSpeechCoverageReviewed": "291/291",
+    "duplicateAssociations": 0,
+    "danglingReferences": 0,
+    "forbiddenOutsideScopeMutations": 0,
+    "dictionaryMeaningConsistency": "PASS",
+    "inThisPlayValidation": "PASS",
+    "phraseSegmentation": "PASS (58 synthetic address-cue surfaces excluded)",
+    "stageDirectionAudit": "PASS",
+    "polysemyAudit": "PASS",
+    "properNounAudit": "PASS"
+  }
+}

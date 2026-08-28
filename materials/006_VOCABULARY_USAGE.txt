@@ -4,11 +4,11 @@ Material ID: 006
 Status: EXPANDED / CANONICAL REGISTERED
 Validated payload: mousetrap_line_vocabulary.json
 Coverage: 1164 / 1164 canonical speech IDs
-Line vocabulary items: 1741
-Annotated speeches: 655
+Line vocabulary items: 2264
+Annotated speeches: 714
 Added items in this expansion: 555
 Missing dictionary lemmas: 0
-Payload SHA-256: c384ec581ab1869861e11d4fd08a292e1e8f27e6f2472b82b5e3af1dd129cb37
+Payload SHA-256: 665d125b2bff739469e299a76cc34fe7f9f1dba98d9f09b6ba668659a3af8963
 Join key: speechId -> canonical script; lemma -> 005 dictionary.
 
 SCENE INVENTORY
