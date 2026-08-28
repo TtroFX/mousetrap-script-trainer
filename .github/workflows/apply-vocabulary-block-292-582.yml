@@ -32,13 +32,81 @@ jobs:
           src=src.replace(/const defs = decodeParts\(\[[\s\S]*?\]\);/, loader);
           src=src.replace(/const defs = decode\('data\/vocabulary-rebuild\/block-292-582-defs\.b64'\);/, loader);
           if(!src.includes(loader)) throw new Error('Dictionary definition loader normalization failed');
-          const needle=`for (const [lemma, def] of Object.entries(defs)) {
+          const precreate=`for (const [lemma, def] of Object.entries(defs)) {
             if (!def?.meaning) continue;
             ensureDictionary(lemma);
           }
 
           `;
-          if(src.includes(needle)) src=src.replace(needle,'');
+          if(src.includes(precreate)) src=src.replace(precreate,'');
+
+          const oldDialogue=`let dialogueSpecsMatched = 0;
+          const unmatchedDialogueSpecs = [];
+          for (const [surface, lemma, inThisPlay, category] of dialogue) {
+            let matches = 0;
+            for (const speech of scopeSpeeches) {
+              if (!containsSurface(speech.text, surface)) continue;
+              matches++;
+              addOrImprove(speech.id, { surface, lemma, inThisPlay }, 'dialogue', category);
+            }
+            if (matches) dialogueSpecsMatched++;
+            else unmatchedDialogueSpecs.push({ surface, lemma });
+          }
+          `;
+          const newDialogue=`// PDF stage-characterization omitted by the generic stage tokenizer.
+          addOrImprove('act1-scene2-speech-0143', {
+            surface: 'cockney accent',
+            lemma: 'Cockney accent',
+            inThisPlay: 'Trotterの登場時のト書きが、彼の話し方の特徴として指定している。'
+          }, 'stage', 'stage');
+
+          const dialogueSurfaceAliases = new Map([
+            ['think fit', 'thought fit'],
+            ['have no patience with', 'no patience with'],
+            ['get over', 'gets over'],
+            ['have no use for', 'no use for'],
+            ['place reliance on', 'reliance to be placed on'],
+            ['bully', 'bullying'],
+            ['have a share in', 'with a share in']
+          ]);
+          const stageBackedDialogueSpecs = new Set([
+            'Cockney accent', 'judicial manner', 'wall brackets', 'receiver',
+            'dazed', 'torch', 'tune in', 'with a start', 'at breaking point'
+          ]);
+          const outsideTargetDialogueSpecs = new Set(['poker', 'bus ticket', 'London bus ticket']);
+          let dialogueSpecsMatched = 0;
+          const unmatchedDialogueSpecs = [];
+          const excludedDialogueSpecs = [];
+          for (const [surface, lemma, inThisPlay, category] of dialogue) {
+            const sourceSurface = dialogueSurfaceAliases.get(surface) || surface;
+            let matches = 0;
+            for (const speech of scopeSpeeches) {
+              if (!containsSurface(speech.text, sourceSurface)) continue;
+              matches++;
+              addOrImprove(speech.id, { surface: sourceSurface, lemma, inThisPlay }, 'dialogue', category);
+            }
+            if (matches) {
+              dialogueSpecsMatched++;
+              continue;
+            }
+            if (stageBackedDialogueSpecs.has(surface)) {
+              const stageHit = [...scopeIds].some(id => vocab[id].some(item => lower(item.lemma) === lower(lemma)));
+              if (!stageHit) fail('Expected stage-backed candidate missing: ' + surface + ' -> ' + lemma);
+              excludedDialogueSpecs.push({ surface, lemma, reason: 'stage-direction-association' });
+              continue;
+            }
+            if (outsideTargetDialogueSpecs.has(surface)) {
+              excludedDialogueSpecs.push({ surface, lemma, reason: 'outside-target-candidate' });
+              continue;
+            }
+            unmatchedDialogueSpecs.push({ surface, lemma });
+          }
+          `;
+          if(src.includes(oldDialogue)) src=src.replace(oldDialogue,newDialogue);
+          else if(!src.includes('const dialogueSurfaceAliases = new Map([')) throw new Error('Dialogue normalization block not found');
+          if(!src.includes('excludedDialogueSpecs,')) {
+            src=src.replace('dialogueSpecsMatched,\n    unmatchedDialogueSpecs,', 'dialogueSpecsMatched,\n    unmatchedDialogueSpecs,\n    excludedDialogueSpecs,');
+          }
           fs.writeFileSync(path,src);
           EOF
 
@@ -77,6 +145,7 @@ jobs:
           if(r.status!=='PASS') throw new Error('Block report is not PASS');
           if(r.scope?.speeches!==291) throw new Error('Scope speech count mismatch');
           if((r.sourceAudit?.unmatchedDialogueSpecs||[]).length) throw new Error('Unmatched dialogue specs: '+JSON.stringify(r.sourceAudit.unmatchedDialogueSpecs));
+          if((r.sourceAudit?.excludedDialogueSpecs||[]).length!==12) throw new Error('Excluded candidate audit mismatch: '+JSON.stringify(r.sourceAudit.excludedDialogueSpecs));
           if(r.qa?.duplicateAssociations!==0) throw new Error('Duplicate associations');
           if(r.qa?.danglingReferences!==0) throw new Error('Dangling references');
           if(r.qa?.forbiddenOutsideScopeMutations!==0) throw new Error('Forbidden out-of-scope mutations');
