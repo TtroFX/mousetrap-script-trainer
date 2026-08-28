@@ -33,6 +33,7 @@ jobs:
           if(data.counts?.standalone!==5||data.counts?.attached!==772||data.counts?.total!==777||data.counts?.malformedBracketRecovered!==1) throw new Error(`stage counts ${JSON.stringify(data.counts)}`);
           if(!Array.isArray(data.entries)||data.entries.length!==777) throw new Error('stage entries');
           const ids=new Set(); let standalone=0, attached=0, malformed=0;
+          const placements={before:0,delivery:0,after:0};
           const scenes=new Set(['act1-scene1','act1-scene2','act2']);
           for(const entry of data.entries){
             if(!entry||typeof entry!=='object'||!String(entry.id||'').trim()||ids.has(entry.id)) throw new Error('stage id invalid/duplicate');
@@ -47,13 +48,15 @@ jobs:
               if(!entry.anchor||!['before','after'].includes(entry.anchor.type)||!String(entry.anchor.speechId||'').trim()) throw new Error(`scene setting anchor ${entry.id}`);
             }else if(entry.kind==='stage-direction'){
               attached++;
-              if(!String(entry.speechId||'').trim()||!['before','after'].includes(entry.placement)) throw new Error(`attached placement ${entry.id}`);
+              if(!String(entry.speechId||'').trim()||!['before','delivery','after'].includes(entry.placement)) throw new Error(`attached placement ${entry.id}`);
+              placements[entry.placement]++;
               if(entry.malformedSourceBracket) malformed++;
             }else throw new Error(`stage kind ${entry.id}`);
           }
           if(standalone!==5||attached!==772||malformed!==1) throw new Error(`stage derived counts ${standalone}/${attached}/${malformed}`);
+          if(placements.before!==236||placements.delivery!==411||placements.after!==125) throw new Error(`stage placements ${JSON.stringify(placements)}`);
           fs.writeFileSync('mousetrap_stage_directions.json',JSON.stringify(data,null,2)+'\n');
-          console.log(JSON.stringify({status:'PASS',entries:data.entries.length,standalone,attached,malformed,pdfSha256:data.source?.pdfSha256},null,2));
+          console.log(JSON.stringify({status:'PASS',entries:data.entries.length,standalone,attached,malformed,placements,pdfSha256:data.source?.pdfSha256},null,2));
           NODE
       - name: Commit decoded canonical stage data
         run: |
