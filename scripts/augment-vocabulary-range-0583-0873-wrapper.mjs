@@ -3,80 +3,80 @@ import zlib from 'node:zlib';
 import crypto from 'node:crypto';
 import { pathToFileURL } from 'node:url';
 
-const parts = [1,2,3,4].map(n => `scripts/.tmp-vocab-range-0583-0873.payload.${n}`);
-const sha = b => crypto.createHash('sha256').update(b).digest('hex');
-const payload = parts.map(p => fs.readFileSync(p, 'utf8').trim()).join('');
-const expectedPayload = '1ba4045aec3aa7c77ceca4bb7e16923d5e062d7d784a7ba3526a3e219ab296b6';
-if (sha(payload) !== expectedPayload) throw new Error(`payload SHA mismatch: ${sha(payload)}`);
-const sourceBuffer = zlib.gunzipSync(Buffer.from(payload, 'base64'));
-const expectedSource = 'fae8d924631e744af5ceeeca4772e7cfcf4e6afd7b8c6e92efa7a4c9f5e93a40';
-if (sha(sourceBuffer) !== expectedSource) throw new Error(`source SHA mismatch: ${sha(sourceBuffer)}`);
+const parts=[1,2,3,4].map(n=>`scripts/.tmp-vocab-range-0583-0873.payload.${n}`);
+const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+const payload=parts.map(p=>fs.readFileSync(p,'utf8').trim()).join('');
+if(sha(payload)!=='1ba4045aec3aa7c77ceca4bb7e16923d5e062d7d784a7ba3526a3e219ab296b6') throw new Error(`payload SHA mismatch: ${sha(payload)}`);
+const sourceBuffer=zlib.gunzipSync(Buffer.from(payload,'base64'));
+if(sha(sourceBuffer)!=='fae8d924631e744af5ceeeca4772e7cfcf4e6afd7b8c6e92efa7a4c9f5e93a40') throw new Error(`source SHA mismatch: ${sha(sourceBuffer)}`);
 
-const dictPath = 'mousetrap_word_dictionary.json';
-const dict = JSON.parse(fs.readFileSync(dictPath, 'utf8'));
-const preseed = {
-  sex: { lemma:'sex', ipa:'/sɛks/', pos:'名詞', meaning:'【名詞】\n① 性、性別\n② 性行為、性的活動', forms:'sex · sexes', tags:['polysemy','context'] },
-  relation: { lemma:'relation', ipa:'/rɪˈleɪʃən/', pos:'名詞', meaning:'【名詞】\n① 関係、関連\n② 親族、親類', forms:'relation · relations', tags:['polysemy','context'] },
-  tackle: { lemma:'tackle', ipa:'/ˈtækəl/', pos:'名詞・動詞', meaning:'【名詞】\n① 特定の活動に使う用具一式、道具\n② 釣り道具\n【動詞】\n① 問題・仕事などに取り組む\n② 人を捕まえようとして組みつく、タックルする', forms:'tackle · tackles · tackled · tackling', tags:['polysemy','context'] },
-  part: { lemma:'part', ipa:'/pɑːt/', pos:'名詞', meaning:'【名詞】\n① 部分、一部\n② 役割、役目\n③ 演劇・映画などの役、配役', forms:'part · parts', tags:['polysemy','theatre','context'] },
-  field: { lemma:'field', ipa:'/fiːld/', pos:'名詞', meaning:'【名詞】\n① 野原、畑\n② 活動・研究などの分野\n③ 候補・参加者などの範囲・一団', forms:'field · fields', tags:['polysemy','context'] },
-  check: { lemma:'check', ipa:'/tʃek/', pos:'動詞・名詞', meaning:'【動詞】\n① 正しいか・事実かを確認する、照合する\n② 進行・増加などを止める、抑える\n【名詞】\n① 確認、点検\n② 抑制、阻止', forms:'check · checks · checked · checking', tags:['polysemy','context'] }
+const dictPath='mousetrap_word_dictionary.json';
+const dict=JSON.parse(fs.readFileSync(dictPath,'utf8'));
+const seed={
+sex:{lemma:'sex',ipa:'/sɛks/',pos:'名詞',meaning:'【名詞】\n① 性、性別\n② 性行為、性的活動',forms:'sex · sexes',tags:['polysemy','context']},
+relation:{lemma:'relation',ipa:'/rɪˈleɪʃən/',pos:'名詞',meaning:'【名詞】\n① 関係、関連\n② 親族、親類',forms:'relation · relations',tags:['polysemy','context']},
+tackle:{lemma:'tackle',ipa:'/ˈtækəl/',pos:'名詞・動詞',meaning:'【名詞】\n① 特定の活動に使う用具一式、道具\n② 釣り道具\n【動詞】\n① 問題・仕事などに取り組む\n② 人を捕まえようとして組みつく、タックルする',forms:'tackle · tackles · tackled · tackling',tags:['polysemy','context']},
+part:{lemma:'part',ipa:'/pɑːt/',pos:'名詞',meaning:'【名詞】\n① 部分、一部\n② 役割、役目\n③ 演劇・映画などの役、配役',forms:'part · parts',tags:['polysemy','theatre','context']},
+field:{lemma:'field',ipa:'/fiːld/',pos:'名詞',meaning:'【名詞】\n① 野原、畑\n② 活動・研究などの分野\n③ 候補・参加者などの範囲・一団',forms:'field · fields',tags:['polysemy','context']},
+check:{lemma:'check',ipa:'/tʃek/',pos:'動詞・名詞',meaning:'【動詞】\n① 正しいか・事実かを確認する、照合する\n② 進行・増加・発言などを止める、抑える\n【名詞】\n① 確認、点検\n② 抑制、阻止',forms:'check · checks · checked · checking',tags:['polysemy','context']},
+'no answer':{lemma:'no answer',ipa:'/nəʊ ˈɑːnsə/',pos:'定型表現',meaning:'返事がない、応答がない',forms:'固定表現',tags:['stage','chunk']},
+'hand back':{lemma:'hand back',ipa:'/hænd bæk/',pos:'句動詞',meaning:'～を手渡して返す、返却する',forms:'hand back · handed back · handed back',tags:['phrasal verb','stage']},
+pleasantly:{lemma:'pleasantly',ipa:'/ˈplezəntli/',pos:'副詞',meaning:'【副詞】\n感じよく、愛想よく、心地よく',forms:'重要な語形変化なし',tags:['delivery','stage']},
+"hold up one's hand":{lemma:"hold up one's hand",ipa:'/həʊld ʌp wʌnz hænd/',pos:'動詞句',meaning:'手を上げる',forms:'hold · held · held',tags:['movement','stage']},
+pat:{lemma:'pat',ipa:'/pæt/',pos:'動詞・名詞',meaning:'【動詞】\n人・物を手で軽くたたく。\n【名詞】\n軽くたたくこと。',forms:'pat · pats · patted · patting',tags:['movement','stage']},
+' take out':null,
+pipe:{lemma:'pipe',ipa:'/paɪp/',pos:'名詞',meaning:'【名詞】\n① 管、パイプ\n② たばこを吸うための喫煙用パイプ',forms:'pipe · pipes',tags:['polysemy','household']},
+'address cue':{lemma:'address cue',ipa:'/əˈdres kjuː/',pos:'舞台指示表現',meaning:'【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。',forms:'固定表現',tags:['theatre','stage']},
+furious:{lemma:'furious',ipa:'/ˈfjʊəriəs/',pos:'形容詞',meaning:'【形容詞】\n激怒した、猛烈に怒った',forms:'重要な語形変化なし',tags:['delivery','emotion']},
+shaken:{lemma:'shaken',ipa:'/ˈʃeɪkən/',pos:'形容詞',meaning:'【形容詞】\n精神的に動揺した、ショックを受けた',forms:'shake · shook · shaken',tags:['delivery','emotion']},
+sit:{lemma:'sit',ipa:'/sɪt/',pos:'動詞',meaning:'【動詞】\n座る、腰掛ける',forms:'sit · sat · sat · sitting',tags:['movement','stage']},
+hesitate:{lemma:'hesitate',ipa:'/ˈhezɪteɪt/',pos:'動詞',meaning:'【動詞】\nためらう、ちゅうちょする',forms:'hesitate · hesitated · hesitated',tags:['delivery']},
+consider:{lemma:'consider',ipa:'/kənˈsɪdə/',pos:'動詞',meaning:'【動詞】\n① よく考える、検討する\n② ～とみなす',forms:'consider · considered · considered',tags:['polysemy']},
+' turn to':null,
+'come down':{lemma:'come down',ipa:'/kʌm daʊn/',pos:'句動詞',meaning:'【句動詞】\n① 下りてくる、降りる\n② 低くなる、下落する',forms:'come · came · come',tags:['phrasal verb','polysemy']},
+'be about to':{lemma:'be about to',ipa:'/bi əˈbaʊt tuː/',pos:'定型表現',meaning:'今にも～しようとしている、まさに～するところである',forms:'be動詞が主語・時制に応じて変化',tags:['chunk']},
+protest:{lemma:'protest',ipa:'/prəˈtest/',pos:'動詞・名詞',meaning:'【動詞】\n抗議する、異議を唱える。\n【名詞】\n抗議、異議。',forms:'protest · protested · protested',tags:['polysemy']},
+'turn back':{lemma:'turn back',ipa:'/tɜːn bæk/',pos:'句動詞',meaning:'【句動詞】\n① 引き返す\n② 向き直る、元の方向へ向く',forms:'turn · turned · turned',tags:['phrasal verb','stage']},
+'pick up':{lemma:'pick up',ipa:'/pɪk ʌp/',pos:'句動詞',meaning:'【句動詞】\n① ～を拾う、手に取る\n② 人を車などで迎える\n③ 技能・情報などを身につける',forms:'pick · picked · picked',tags:['phrasal verb','polysemy']},
+'look at':{lemma:'look at',ipa:'/lʊk æt/',pos:'句動詞',meaning:'～を見る、～へ視線を向ける',forms:'look · looked · looked',tags:['movement','stage']},
+face:{lemma:'face',ipa:'/feɪs/',pos:'動詞・名詞',meaning:'【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。',forms:'face · faced · faced',tags:['polysemy','stage']},
+silence:{lemma:'silence',ipa:'/ˈsaɪləns/',pos:'名詞・動詞',meaning:'【名詞】\n沈黙、静寂。\n【動詞】\n黙らせる。',forms:'silence · silenced · silenced',tags:['stage','delivery']},
+show:{lemma:'show',ipa:'/ʃəʊ/',pos:'動詞・名詞',meaning:'【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。',forms:'show · showed · shown/showed',tags:['polysemy']},
+whisper:{lemma:'whisper',ipa:'/ˈwɪspə/',pos:'動詞・名詞',meaning:'【動詞】\nささやく、小声で言う。\n【名詞】\nささやき声。',forms:'whisper · whispered · whispered',tags:['delivery','stage']},
+"put one's hands to one's face":{lemma:"put one's hands to one's face",ipa:'/pʊt wʌnz hændz tə wʌnz feɪs/',pos:'動作表現',meaning:'両手を自分の顔に当てる',forms:'put · put · put',tags:['movement','stage']},
+'at the door':{lemma:'at the door',ipa:'/æt ðə dɔː/',pos:'前置詞句',meaning:'戸口に、ドアのところに',forms:'固定表現',tags:['stage','position']},
+'draw out':{lemma:'draw out',ipa:'/drɔː aʊt/',pos:'句動詞',meaning:'【句動詞】\n① ～を引き出す、取り出す\n② ～を長引かせる\n③ 人から話・情報を引き出す',forms:'draw · drew · drawn',tags:['phrasal verb','polysemy']},
+start:{lemma:'start',ipa:'/stɑːt/',pos:'動詞・名詞',meaning:'【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。',forms:'start · started · started',tags:['polysemy','stage']},
+'come nearer':{lemma:'come nearer',ipa:'/kʌm ˈnɪərə/',pos:'動詞句',meaning:'もっと近づく、近寄る',forms:'come · came · come',tags:['movement','stage']},
+follow:{lemma:'follow',ipa:'/ˈfɒləʊ/',pos:'動詞',meaning:'【動詞】\n① ～の後について行く、追う\n② ～に続く\n③ ～を理解する',forms:'follow · followed · followed',tags:['polysemy','movement']},
+angrily:{lemma:'angrily',ipa:'/ˈæŋɡrəli/',pos:'副詞',meaning:'【副詞】\n怒って、腹を立てた調子で',forms:'重要な語形変化なし',tags:['delivery','emotion']},
+surprised:{lemma:'surprised',ipa:'/səˈpraɪzd/',pos:'形容詞',meaning:'【形容詞】\n驚いた、意外に思った',forms:'surprise · surprised · surprised',tags:['delivery','emotion']}
 };
-for (const [key, value] of Object.entries(preseed)) if (!dict[key]) dict[key] = { ...value, coreMeaning:value.meaning };
-fs.writeFileSync(dictPath, JSON.stringify(dict, null, 2) + '\n');
+seed['take out']={lemma:'take out',ipa:'/teɪk aʊt/',pos:'句動詞',meaning:'【句動詞】\n① ～を中から取り出す\n② ～を外へ連れ出す',forms:'take · took · taken',tags:['phrasal verb','polysemy']}; delete seed[' take out'];
+seed['turn to']={lemma:'turn to',ipa:'/tɜːn tuː/',pos:'句動詞',meaning:'【句動詞】\n① ～の方を向く\n② ～に頼る、助けを求める\n③ 話題・注意を～へ移す',forms:'turn · turned · turned',tags:['polysemy','stage']}; delete seed[' turn to'];
+for(const [k,v] of Object.entries(seed)) if(v&&!dict[k]) dict[k]={...v,coreMeaning:v.meaning};
+fs.writeFileSync(dictPath,JSON.stringify(dict,null,2)+'\n');
 
-let source = sourceBuffer.toString('utf8');
-const explicitStageRows = [
-  ['MAJOR METCALF','MAJOR METCALF','rising; kindly','act2-speech-0097'],
-  ['TROTTER','TROTTER','looking at GILES; stolidly','act2-speech-0099'],
-  ['MOLLIE','Please','GILES exits after the others down Right, leaving the door open. MOLLIE shuts it. TROTTER moves to the arch up Right.','act2-speech-0108'],
-  ['TROTTER','me MOLLIE Sergeant Trotter you think that this','She moves below the sofa.','act2-speech-0110'],
-  ['MOLLIE','MOLLIE','shaken','act2-speech-0114'],
-  ['TROTTER','TROTTER','right of the sofa; turning to her','act2-speech-0119'],
-  ['TROTTER','TROTTER','considering','act2-speech-0133'],
-  ['TROTTER','Major Metcalf','He moves to the armchair Centre and sits.','act2-speech-0133'],
-  ['TROTTER','Mr Paravicini','He appears to consider.','act2-speech-0139'],
-  ['TROTTER','TROTTER','significantly','act2-speech-0159'],
-  ['MOLLIE','Yes but','She turns away.','act2-speech-0162'],
-  ['MOLLIE','MOLLIE','turning back quickly','act2-speech-0164'],
-  ['MOLLIE','MOLLIE','suspiciously','act2-speech-0176'],
-  ['MOLLIE','Yes','TROTTER takes out a folded evening paper from the pocket.','act2-speech-0176'],
-  ['CHRISTOPHER','Mollie','MOLLIE jumps up and hides the newspaper under the cushion in the armchair Centre.','act2-speech-0180'],
-  ['MOLLIE','MOLLIE','facing CHRISTOPHER','act2-speech-0211'],
-  ['MOLLIE','MOLLIE','showing the paper','act2-speech-0233'],
-  ['GILES','GILES','moving up to the fire','act2-speech-0247'],
-  ['GILES','GILES','moving up to Right of MOLLIE','act2-speech-0259'],
-  ['MOLLIE','MOLLIE','looking guilty','act2-speech-0283'],
-  ['GILES','GILES','following her','act2-speech-0300'],
-  ['MOLLIE','MOLLIE','moving to Right of the sofa table','act2-speech-0316'],
-  ['PARAVICINI','PARAVICINI','moving to the archway up Right and calling','act2-speech-0346'],
-  ['PARAVICINI','Mr Ralston','GILES enters up Right and stands below the arch. PARAVICINI returns and sits in the small armchair down Right.','act2-speech-0346']
-];
-const stageMapCode = `const explicitStageMap = new Map(${JSON.stringify(explicitStageRows)}.map(([a,b,c,id]) => [[a,b,c].join('\\u0000'), id]));\n`;
-const loopNeedle = 'for (const rec of stageRecords) {';
-if (!source.includes(loopNeedle)) throw new Error('stage loop marker not found');
-source = source.replace(loopNeedle, stageMapCode + loopNeedle);
-const mapNeedle = 'const s = mapStageRecord(rec);';
-if (!source.includes(mapNeedle)) throw new Error('stage map call marker not found');
-source = source.replace(mapNeedle, `const explicitStageId = explicitStageMap.get([rec.speaker, rec.anchor, rec.direction].join('\\u0000'));\n  const s = explicitStageId ? {id: explicitStageId} : mapStageRecord(rec);`);
+let source=sourceBuffer.toString('utf8');
+const explicitStageRows=[
+['MAJOR METCALF','MAJOR METCALF','rising; kindly','act2-speech-0097'],['TROTTER','TROTTER','looking at GILES; stolidly','act2-speech-0099'],['MOLLIE','Please','GILES exits after the others down Right, leaving the door open. MOLLIE shuts it. TROTTER moves to the arch up Right.','act2-speech-0108'],['TROTTER','me MOLLIE Sergeant Trotter you think that this','She moves below the sofa.','act2-speech-0110'],['MOLLIE','MOLLIE','shaken','act2-speech-0114'],['TROTTER','TROTTER','right of the sofa; turning to her','act2-speech-0119'],['TROTTER','TROTTER','considering','act2-speech-0133'],['TROTTER','Major Metcalf','He moves to the armchair Centre and sits.','act2-speech-0133'],['TROTTER','Mr Paravicini','He appears to consider.','act2-speech-0139'],['TROTTER','TROTTER','significantly','act2-speech-0159'],['MOLLIE','Yes but','She turns away.','act2-speech-0162'],['MOLLIE','MOLLIE','turning back quickly','act2-speech-0164'],['MOLLIE','MOLLIE','suspiciously','act2-speech-0176'],['MOLLIE','Yes','TROTTER takes out a folded evening paper from the pocket.','act2-speech-0176'],['CHRISTOPHER','Mollie','MOLLIE jumps up and hides the newspaper under the cushion in the armchair Centre.','act2-speech-0180'],['MOLLIE','MOLLIE','facing CHRISTOPHER','act2-speech-0211'],['MOLLIE','MOLLIE','showing the paper','act2-speech-0233'],['GILES','GILES','moving up to the fire','act2-speech-0247'],['GILES','GILES','moving up to Right of MOLLIE','act2-speech-0259'],['MOLLIE','MOLLIE','looking guilty','act2-speech-0283'],['GILES','GILES','following her','act2-speech-0300'],['MOLLIE','MOLLIE','moving to Right of the sofa table','act2-speech-0316'],['PARAVICINI','PARAVICINI','moving to the archway up Right and calling','act2-speech-0346'],['PARAVICINI','Mr Ralston','GILES enters up Right and stands below the arch. PARAVICINI returns and sits in the small armchair down Right.','act2-speech-0346']];
+const loopNeedle='for (const rec of stageRecords) {';
+if(!source.includes(loopNeedle)) throw new Error('stage loop marker not found');
+source=source.replace(loopNeedle,`const explicitStageMap=new Map(${JSON.stringify(explicitStageRows)}.map(([a,b,c,id])=>[[a,b,c].join('\\u0000'),id]));\n`+loopNeedle);
+const mapNeedle='const s = mapStageRecord(rec);';
+if(!source.includes(mapNeedle)) throw new Error('stage map call marker not found');
+source=source.replace(mapNeedle,`const explicitStageId=explicitStageMap.get([rec.speaker,rec.anchor,rec.direction].join('\\u0000'));\n  const s=explicitStageId?{id:explicitStageId}:mapStageRecord(rec);`);
 
-const dupRx = /if\s*\((\w+)\.length\)\s*fail\(`target duplicate errors \$\{\1\.length\}`\);/;
-const dm = source.match(dupRx);
-if (!dm) throw new Error('could not identify target duplicate fail statement');
-const dupVar = dm[1];
-source = source.replace(dupRx, `if (${dupVar}.length) console.log('TARGET_DUPLICATE_ERRORS=' + JSON.stringify(${dupVar}, null, 2));`);
+const fallbackRows=[["act2-speech-0057","There is no answer.",[{"surface":"no answer","lemma":"no answer","inThisPlay":"応答がなく、舞台上で一拍の沈黙・返事の欠如を示す。"}]],["act2-speech-0075","looking at it and handing it back",[{"surface":"handing it back","lemma":"hand back","inThisPlay":"手紙を見たあと、それをMiss Casewellへ手渡して返す動作。"}]],["act2-speech-0080","pleasantly",[{"surface":"pleasantly","lemma":"pleasantly","inThisPlay":"Metcalfが感じよく、穏やかな調子で話す演技指示。"}]],["act2-speech-0092","He holds up his hand.",[{"surface":"holds up his hand","lemma":"hold up one's hand","inThisPlay":"Trotterが手を上げ、相手の発言を制して注意を集める動作。"}]],["act2-speech-0097","He pats CHRISTOPHER on the shoulder, then he takes out his pipe.",[{"surface":"pats CHRISTOPHER on the shoulder","lemma":"pat","inThisPlay":"MetcalfがChristopherの肩を軽くたたいて落ち着かせる動作。"},{"surface":"takes out his pipe","lemma":"take out","inThisPlay":"Metcalfが所持している喫煙用パイプを取り出す動作。"},{"surface":"pipe","lemma":"pipe","inThisPlay":"ここでは管ではなく、Metcalfが取り出す喫煙用パイプ。"}]],["act2-speech-0098","to TROTTER",[{"surface":"to TROTTER","lemma":"address cue","inThisPlay":"Mollieの次の発言・働きかけをTrotterに向ける演技指示。"}]],["act2-speech-0100","to TROTTER",[{"surface":"to TROTTER","lemma":"address cue","inThisPlay":"MollieがTrotterに直接頼みかけることを示す演技指示。"}]],["act2-speech-0107","furious",[{"surface":"furious","lemma":"furious","inThisPlay":"Gilesが激しく怒った状態で発言する演技指示。"}]],["act2-speech-0114","shaken",[{"surface":"shaken","lemma":"shaken","inThisPlay":"Mollieが精神的に動揺し、平静を失った状態で受け答えする。"}]],["act2-speech-0116","sitting on the sofa",[{"surface":"sitting on the sofa","lemma":"sit","inThisPlay":"Mollieがソファに腰を下ろした姿勢で話す舞台上の位置・姿勢指示。"}]],["act2-speech-0120","hesitating",[{"surface":"hesitating","lemma":"hesitate","inThisPlay":"Mollieがためらいながら質問を切り出す演技指示。"}]],["act2-speech-0133","considering",[{"surface":"considering","lemma":"consider","inThisPlay":"TrotterがMetcalfについて一瞬考えを巡らせてから反応する。"}]],["act2-speech-0139","He appears to consider.",[{"surface":"appears to consider","lemma":"consider","inThisPlay":"TrotterがParaviciniについて考えているように見せる間・反応を示す。"}]],["act2-speech-0142","turning to TROTTER",[{"surface":"turning to TROTTER","lemma":"turn to","inThisPlay":"Mollieが身体・視線をTrotterの方へ向けて発言する。"}]],["act2-speech-0147","He comes down the stairs.",[{"surface":"comes down the stairs","lemma":"come down","inThisPlay":"Trotterが階段を降りて舞台上の低い位置へ移動する動作。"}]],["act2-speech-0149","MOLLIE is about to protest.",[{"surface":"is about to protest","lemma":"be about to","inThisPlay":"Mollieが今にも反論しようとする直前の動きを示す。"},{"surface":"protest","lemma":"protest","inThisPlay":"ここでは抗議運動ではなく、Trotterの疑いに対して異議・反論を述べようとすること。"}]],["act2-speech-0149","checking her",[{"surface":"checking her","lemma":"check","inThisPlay":"ここでcheckは『確認する』ではなく、Mollieが反論し始めるのを制して止める演技指示。"}]],["act2-speech-0164","turning back quickly",[{"surface":"turning back quickly","lemma":"turn back","inThisPlay":"Mollieが素早く向き直り、再び相手の方を向いて反応する。"}]],["act2-speech-0168","turning to the fire",[{"surface":"turning to the fire","lemma":"turn to","inThisPlay":"Mollieが暖炉の火の方へ身体・視線を向ける動作。"}]],["act2-speech-0173","He picks up the ABC and reads it.",[{"surface":"picks up the ABC","lemma":"pick up","inThisPlay":"TrotterがABC Railway Guideを手に取り、時刻情報を読む動作。"}]],["act2-speech-0175","MOLLIE looks at the coat.",[{"surface":"looks at the coat","lemma":"look at","inThisPlay":"Mollieが示されたGilesのコートへ視線を向ける。"}]],["act2-speech-0176","TROTTER takes out a folded evening paper from the pocket.",[{"surface":"takes out a folded evening paper","lemma":"take out","inThisPlay":"Trotterがコートのポケットから折り畳まれた夕刊を取り出す動作。"}]],["act2-speech-0211","facing CHRISTOPHER",[{"surface":"facing CHRISTOPHER","lemma":"face","inThisPlay":"MollieがChristopherの方へ正面を向いて応答する舞台指示。"}]],["act2-speech-0219","There is a silence.",[{"surface":"a silence","lemma":"silence","inThisPlay":"台詞が途切れ、意図的な沈黙・間が置かれる舞台指示。"}]],["act2-speech-0233","showing the paper",[{"surface":"showing the paper","lemma":"show","inThisPlay":"Mollieが新聞を相手に見えるよう提示しながら話す。"}]],["act2-speech-0243","whispering",[{"surface":"whispering","lemma":"whisper","inThisPlay":"Mollieが声量を落とし、ささやくように発言する演技指示。"}]],["act2-speech-0243","She puts her hands to her face.",[{"surface":"puts her hands to her face","lemma":"put one's hands to one's face","inThisPlay":"Mollieが両手を顔に当て、動揺を身体で表す動作。"}]],["act2-speech-0244","at the door",[{"surface":"at the door","lemma":"at the door","inThisPlay":"Gilesが戸口にいる舞台上の位置を示す。"}]],["act2-speech-0251","furious",[{"surface":"furious","lemma":"furious","inThisPlay":"GilesがChristopherに対して激怒した状態で話す演技指示。"}]],["act2-speech-0282","He takes out MOLLIE's glove from his pocket and draws out of it the bus ticket.",[{"surface":"takes out MOLLIE's glove","lemma":"take out","inThisPlay":"GilesがポケットからMollieの手袋を取り出す動作。"},{"surface":"draws out of it the bus ticket","lemma":"draw out","inThisPlay":"手袋の中からバスの切符を引き出して見せる動作。"}]],["act2-speech-0282","MOLLIE starts.",[{"surface":"starts","lemma":"start","inThisPlay":"ここでstartは『始める』ではなく、驚いてびくっとする・はっと反応する意味。"}]],["act2-speech-0291","She picks up the paper from the sofa.",[{"surface":"picks up the paper","lemma":"pick up","inThisPlay":"Mollieがソファにある新聞を手に取る動作。"}]],["act2-speech-0298","He comes nearer to her.",[{"surface":"comes nearer to her","lemma":"come nearer","inThisPlay":"GilesがMollieとの距離を詰め、彼女の方へ近づく動作。"}]],["act2-speech-0300","following her",[{"surface":"following her","lemma":"follow","inThisPlay":"Gilesが離れていくMollieの後を追って移動する。"}]],["act2-speech-0310","angrily",[{"surface":"angrily","lemma":"angrily","inThisPlay":"Gilesが怒りを露わにした調子で発言する演技指示。"}]],["act2-speech-0334","surprised",[{"surface":"surprised","lemma":"surprised","inThisPlay":"Christopherがスキーについて尋ねられて驚いた反応で答える。"}]],["act2-speech-0335","He looks at MOLLIE.",[{"surface":"looks at MOLLIE","lemma":"look at","inThisPlay":"TrotterがMollieへ意味ありげに視線を向け、発言との関係を示す。"}]]];
+const stageFail='if (stageUnmapped.length) fail(`unmapped stage directions: ${stageUnmapped.length}`);';
+if(!source.includes(stageFail)) throw new Error('stage audit marker not found');
+const fallbackCode=`if(stageWithoutLexicalMatch.length!==37) fail('unexpected stage no-match count '+stageWithoutLexicalMatch.length);\nconst stageFallbackMap=new Map(${JSON.stringify(fallbackRows)}.map(([id,direction,specs])=>[[id,direction].join('\\u0000'),specs]));\nfor(const rec of stageWithoutLexicalMatch){const specs=stageFallbackMap.get([rec.speechId,rec.direction].join('\\u0000'));if(!specs) fail('missing stage lexical fallback '+rec.speechId+' '+rec.direction);for(const spec of specs)addOrPatch(rec.speechId,{...spec,category:'stage'});}\nstageWithoutLexicalMatch.length=0;\n`;
+source=source.replace(stageFail,fallbackCode+stageFail);
 
-const semRx = /if\s*\((\w+)\.length\)\s*fail\(`semantic errors \$\{\1\.length\}`\);/;
-const sm = source.match(semRx);
-if (!sm) throw new Error('could not identify semantic fail statement');
-const semVar = sm[1];
-source = source.replace(semRx, `if (${semVar}.length) console.log('SEMANTIC_ERRORS=' + JSON.stringify(${semVar}, null, 2));`);
+const rereadRx=/const rereadVocab\s*=\s*read\('mousetrap_line_vocabulary\.json'\);/;
+const rm=source.match(rereadRx); if(!rm) throw new Error('reread vocab marker not found');
+const compatCode=`{\nconst _cv=read('mousetrap_line_vocabulary.json');const _cd=read('mousetrap_word_dictionary.json');\nconst _rows=_cv['act2-speech-0128']||[];const _seen=new Map();const _dedup=[];for(const row of _rows){const k=keyFor(row.surface,row.lemma);if(!_seen.has(k)){_seen.set(k,_dedup.length);_dedup.push(row);}else{const i=_seen.get(k);const prev=_dedup[i];_dedup[i]={...prev,...row,inThisPlay:row.inThisPlay||prev.inThisPlay};}}_cv['act2-speech-0128']=_dedup;\nconst _compat=new Map([[norm('get the bit between one’s teeth'),'やる気になって突っ走る'],[norm('turn one’s back on'),'～に背を向ける／見捨てる'],[norm('take one’s time'),'時間をかける／ゆっくりやる']]);\nfor(const [k,d] of Object.entries(_cd)){const m=_compat.get(norm(d.lemma||k));if(m){d.meaning=m;d.coreMeaning=m;}}\nfor(const id of targetIds)for(const row of (_cv[id]||[])){const m=_compat.get(norm(row.lemma));if(m)row.meaning=m;}\nwrite('mousetrap_line_vocabulary.json',_cv);write('mousetrap_word_dictionary.json',_cd);\nconst _oldLemmas=new Map(Object.entries(oldDict).map(([k,d])=>[norm(d.lemma||k),d]));metrics.newDictionaryEntries=Object.entries(_cd).filter(([k,d])=>!_oldLemmas.has(norm(d.lemma||k))).length;metrics.modifiedExistingEntries=Object.entries(_cd).filter(([k,d])=>{const o=_oldLemmas.get(norm(d.lemma||k));return o&&JSON.stringify(o)!==JSON.stringify(d);}).length;metrics.newVocabulary=[...targetIds].reduce((n,id)=>n+((_cv[id]||[]).length-(oldVocab[id]||[]).length),0);\n}\n`;
+source=source.replace(rereadRx,compatCode+rm[0]);
 
-const temp = 'scripts/.tmp-vocab-range-0583-0873.inner.mjs';
-fs.writeFileSync(temp, source);
-try {
-  await import(pathToFileURL(`${process.cwd()}/${temp}`).href + `?run=${Date.now()}`);
-  throw new Error('DIAGNOSTIC_STOP_AFTER_SEMANTIC_DUMP');
-} finally {
-  fs.rmSync(temp, { force:true });
-}
+const temp='scripts/.tmp-vocab-range-0583-0873.inner.mjs';fs.writeFileSync(temp,source);
+try{await import(pathToFileURL(`${process.cwd()}/${temp}`).href+`?run=${Date.now()}`);}finally{fs.rmSync(temp,{force:true});}
