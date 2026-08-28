@@ -1248,16 +1248,18 @@
   "cross": {
     "lemma": "cross",
     "ipa": "/kɹˈɒs/",
-    "pos": "形容詞",
-    "coreMeaning": "【形容詞】\n不機嫌な、怒った",
-    "forms": "この項目では重要な語形変化なし",
+    "pos": "形容詞・動詞・名詞",
+    "coreMeaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+    "forms": "cross · crosses · crossed · crossed · crossing",
     "tags": [
       "British English",
       "context",
       "stage direction",
-      "theatre"
+      "theatre",
+      "polysemy",
+      "stage-direction"
     ],
-    "meaning": "【形容詞】\n不機嫌な、怒った"
+    "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。"
   },
   "crush": {
     "lemma": "crush",
@@ -10414,11 +10416,14 @@
   "concerned": {
     "lemma": "concerned",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\nthe magistrate concerned で、Longridge Farm事件の児童委託に関与した『その件の判事』を指している。心配しているという意味ではない。",
-    "forms": "文脈に応じた語形・活用を取る。",
-    "tags": [],
-    "meaning": "【未分類】\nthe magistrate concerned で、Longridge Farm事件の児童委託に関与した『その件の判事』を指している。心配しているという意味ではない。"
+    "pos": "形容詞",
+    "coreMeaning": "【形容詞】\n① 心配している、気にかけている\n② 関係している、関与している、該当する。",
+    "forms": "concerned（形容詞。concern の過去分詞形に由来）",
+    "tags": [
+      "polysemy",
+      "context"
+    ],
+    "meaning": "【形容詞】\n① 心配している、気にかけている\n② 関係している、関与している、該当する。"
   },
   "kind": {
     "lemma": "kind",
