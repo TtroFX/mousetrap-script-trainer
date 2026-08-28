@@ -28,7 +28,9 @@ const dictionaryFixes = {
   "Morgan's Bank": "【固有名詞】\nMorgan's Bankという銀行名。",
   'Ledbury Hotel': '【固有名詞】\nLedbury Hotelというホテル名。',
   'Spot and Plain': '【固有名詞】\nSpot と Plain という二つの名前。',
-  'Monkswell Manor Guest House': '【固有名詞】\nMonkswell Manor Guest Houseという宿泊施設名。'
+  'Monkswell Manor Guest House': '【固有名詞】\nMonkswell Manor Guest Houseという宿泊施設名。',
+  'Monkswell Manor': '【固有名詞】\nMonkswell Manorという屋敷・施設名。',
+  'Prefab Nests': '【固有名詞的表現】\nPrefab Nestsという名称。prefabはprefabricated（プレハブ式の）の略。'
 };
 
 const contextRemovalStrings = new Set([
@@ -74,8 +76,10 @@ const contextOverrides = new Map([
   ['act2-speech-0379\u0000cut off\u0000cut off', 'ここでは「孤立する」ではなく、童謡の cut off their tails で「尾を切り落とす」の意味。'],
   ['act2-speech-0020\u0000wider field\u0000a wider field', 'Culver Streetでは被害者候補が一人だったのに対し、Monkswell Manorには次の標的になり得る人物が複数いる、という意味。'],
   ["act2-speech-0054\u0000run in someone's head\u0000runs in people's head", 'ここではThree Blind Miceの旋律が頭から離れず、繰り返し浮かぶという意味。'],
-  ["act2-speech-0596\u0000spot and plain\u0000spot and plain", '直前にCasewellが思い出したLongridge Farmの犬たち、SpotとPlainを指す。'],
-  ['act1-scene2-speech-0206\u0000three blind mice\u0000three blind mice', 'ここでは殺人事件のメモや紙に記された言葉・旋律として現れ、事件を結びつける反復モチーフになっている童謡。']
+  ['act2-speech-0596\u0000spot and plain\u0000spot and plain', '直前にCasewellが思い出したLongridge Farmの犬たち、SpotとPlainを指す。'],
+  ['act1-scene2-speech-0206\u0000three blind mice\u0000three blind mice', 'ここでは殺人事件のメモや紙に記された言葉・旋律として現れ、事件を結びつける反復モチーフになっている童謡。'],
+  ['act2-speech-0448\u0000monkswell manor\u0000monkswell manor', '本作の主要舞台で、MollieとGilesがゲストハウスとして営んでいる屋敷の名称。'],
+  ['act2-speech-0616\u0000monkswell manor\u0000monkswell manor', '本作の主要舞台で、警察が事件との関係から捜査対象地点として把握していた屋敷の名称。']
 ]);
 
 for (const [speechId, rows] of Object.entries(vocab)) {
@@ -143,7 +147,7 @@ if (manifest.studyAssets?.lineVocabulary) {
 write(MANIFEST_PATH, manifest);
 
 const report = {
-  schemaVersion: 2,
+  schemaVersion: 3,
   status: 'APPLIED',
   changedDictionaryEntries: changedDictionary.length,
   changedDictionary: changedDictionary.sort((a,b) => a.localeCompare(b)),
