@@ -23,7 +23,7 @@ jobs:
           node-version: '22'
       - name: Validate canonical stage data
         run: node scripts/validate-stage-directions.mjs
-      - name: Apply production integration
+      - name: Apply production integration and compatibility closure
         run: |
           python3 - <<'PY'
           from pathlib import Path
@@ -31,11 +31,121 @@ jobs:
           s=p.read_text(encoding='utf-8')
           old="s=regex_once(s,r'function openLine\\(scene,line\\)\\{.*\\}\\nfunction lineView\\(q\\)\\{.*\\}',line_stage,'main line/stage views',re.S)"
           new="s=regex_once(s,r'^function openLine\\(scene,line\\)\\{.*\\}\\nfunction lineView\\(q\\)\\{.*\\}$',line_stage,'main line/stage views',re.M)"
-          if old in s:
-              s=s.replace(old,new,1)
+          if old in s:s=s.replace(old,new,1)
           p.write_text(s,encoding='utf-8')
           PY
           python3 scripts/apply-stage-directions-integration.py
+          python3 - <<'PY'
+          from pathlib import Path
+
+          # One extra canonical core fetch is intentional and visible in diagnostics.
+          p=Path('app/tests/index_zero.e2e.spec.js'); s=p.read_text(encoding='utf-8')
+          s=s.replace('expect(d.metrics.requests).toBeLessThanOrEqual(7);','expect(d.metrics.requests).toBeLessThanOrEqual(8);')
+          p.write_text(s,encoding='utf-8')
+
+          # The stage dataset is ~1 MB and is validated on every fresh browser context.
+          # Keep the production regression deterministic rather than CPU-saturating CI.
+          p=Path('app/playwright.index-zero.config.js'); s=p.read_text(encoding='utf-8')
+          if 'workers:1' not in s:s=s.replace("  timeout:30000,","  timeout:30000,\n  workers:1,")
+          p.write_text(s,encoding='utf-8')
+
+          # Focus paging must use the exact Reader sequence, including standalone Situation pages.
+          p=Path('app/src/gesture-controls.js'); s=p.read_text(encoding='utf-8')
+          old="""const lineRoute=()=>{
+            const raw=location.hash.replace(/^#/,'');
+            const [path,query='']=raw.split('?');
+            if(path!=='/line')return null;
+            const q=new URLSearchParams(query),scene=q.get('scene'),line=q.get('line');
+            return scene&&line?{scene,line}:null;
+          };"""
+          new="""const focusRoute=()=>{
+            const raw=location.hash.replace(/^#/,'');
+            const [path,query='']=raw.split('?'),q=new URLSearchParams(query),scene=q.get('scene');
+            if(path==='/line'){const line=q.get('line');return scene&&line?{kind:'line',scene,line}:null}
+            if(path==='/stage'){const stage=q.get('stage');return scene&&stage?{kind:'stage',scene,stage}:null}
+            return null;
+          };"""
+          if old not in s:raise SystemExit('gesture lineRoute source not found')
+          s=s.replace(old,new,1)
+          s=s.replace("  const route=lineRoute(),api=window.MTS_INDEX_ZERO;","  const route=focusRoute(),api=window.MTS_INDEX_ZERO;",1)
+          s=s.replace("  const speech=api.store.getSpeech(route.scene,route.line),role=api.state.role?.();","  const speech=route.kind==='line'?api.store.getSpeech(route.scene,route.line):null,role=api.state.role?.();",1)
+          s=s.replace("  if(!lineRoute())return;","  if(!focusRoute())return;",1)
+          old="""const moveFocusLine=direction=>{
+            const route=lineRoute(),api=window.MTS_INDEX_ZERO;
+            if(!route||!api?.store)return false;
+            const rows=api.store.getScene(route.scene),index=rows.findIndex(x=>x.id===route.line);
+            if(index<0)return false;
+            const target=rows[index+(direction>0?1:-1)];
+            if(!target)return false;
+            location.hash=`#/line?scene=${encodeURIComponent(route.scene)}&line=${encodeURIComponent(target.id)}`;
+            return true;
+          };"""
+          new="""const moveFocusLine=direction=>{
+            const route=focusRoute(),api=window.MTS_INDEX_ZERO;
+            if(!route||!api?.store?.getReaderSequence)return false;
+            const rows=api.store.getReaderSequence(route.scene),index=rows.findIndex(item=>route.kind==='line'?item.kind==='speech'&&item.speech.id===route.line:item.kind==='stage'&&item.stage.id===route.stage);
+            if(index<0)return false;
+            const target=rows[index+(direction>0?1:-1)];
+            if(!target)return false;
+            location.hash=target.kind==='stage'?`#/stage?scene=${encodeURIComponent(route.scene)}&stage=${encodeURIComponent(target.stage.id)}`:`#/line?scene=${encodeURIComponent(route.scene)}&line=${encodeURIComponent(target.speech.id)}`;
+            return true;
+          };"""
+          if old not in s:raise SystemExit('gesture moveFocusLine source not found')
+          s=s.replace(old,new,1)
+          p.write_text(s,encoding='utf-8')
+
+          # Add a permanent static contract for Situation-aware swipe paging.
+          p=Path('app/tests/index_zero_static.mjs'); s=p.read_text(encoding='utf-8')
+          marker='Situation-aware focus paging contract missing'
+          if marker not in s:
+            s += "\nconst stageGesture=read('src/gesture-controls.js');\nif(!stageGesture.includes(\"path==='/stage'\")||!stageGesture.includes('getReaderSequence(route.scene)'))fail('Situation-aware focus paging contract missing');\n"
+          p.write_text(s,encoding='utf-8')
+
+          # Replace the generated stage E2E with sequence-aware assertions.
+          p=Path('app/tests/stage_directions.e2e.spec.js')
+          p.write_text(r'''const {test,expect}=require('@playwright/test');
+          const BASE='http://127.0.0.1:4173/index.html';
+          async function ready(page){await page.goto(BASE,{waitUntil:'domcontentloaded'});await expect(page.getByRole('heading',{name:'Learn Your Lines'})).toBeVisible();await page.waitForFunction(()=>MTS_INDEX_ZERO?.store?.hasCore?.(),null,{timeout:15000})}
+          const routeFor=(scene,item)=>item.kind==='stage'?`#/stage?scene=${scene}&stage=${item.stage.id}`:`#/line?scene=${scene}&line=${item.speech.id}`;
+
+          test('PDF Situation pages and attached stage directions are integrated into Reader',async({page})=>{
+            await ready(page);
+            const sample=await page.evaluate(()=>{
+              const scene='act1-scene1',standalone=MTS_INDEX_ZERO.store.getStandaloneStageDirections(scene)[0],sequence=MTS_INDEX_ZERO.store.getReaderSequence(scene);
+              const index=sequence.findIndex(x=>x.kind==='stage'&&x.stage.id===standalone.id),next=sequence[index+1];
+              let attached=null;
+              for(const speech of MTS_INDEX_ZERO.store.getScene(scene)){const rows=MTS_INDEX_ZERO.store.getStageDirectionsForSpeech(speech.id);if(rows.length){attached={speech,rows};break}}
+              return{scene,standalone,next,attached,totalStandalone:['act1-scene1','act1-scene2','act2'].reduce((n,id)=>n+MTS_INDEX_ZERO.store.getStandaloneStageDirections(id).length,0)};
+            });
+            expect(sample.totalStandalone).toBe(5);expect(sample.standalone).toBeTruthy();expect(sample.attached).toBeTruthy();expect(sample.next).toBeTruthy();
+            await page.goto(BASE+'#/script');
+            await expect(page.locator(`[data-stage-page="${sample.standalone.id}"]`)).toBeVisible();
+            await page.locator(`[data-stage-page="${sample.standalone.id}"]`).click();
+            await expect(page).toHaveURL(new RegExp(`#\\/stage\\?scene=${sample.scene}`));
+            await expect(page.locator('.stage-page-text')).toHaveText(sample.standalone.text);
+            await expect(page.locator('.stage-summary-ja')).toHaveText(sample.standalone.summaryJa);
+            await expect(page.locator('.stage-vocab-row')).toHaveCount(sample.standalone.vocabulary.length);
+            await expect(page.locator('.stage-notes li')).toHaveCount(sample.standalone.notes.length);
+            const beforeHash=await page.evaluate(()=>location.hash);
+            await page.evaluate(()=>{const p=document.querySelector('.stage-page');p.dispatchEvent(new PointerEvent('pointerdown',{bubbles:true,pointerType:'touch',pointerId:71,clientX:310,clientY:260}));p.dispatchEvent(new PointerEvent('pointerup',{bubbles:true,pointerType:'touch',pointerId:71,clientX:100,clientY:264}))});
+            await expect(page).not.toHaveURL(new RegExp(beforeHash.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')));
+            const expected=routeFor(sample.scene,sample.next);expect(await page.evaluate(()=>location.hash)).toBe(expected);
+            await page.goto(`${BASE}#/line?scene=${sample.scene}&line=${sample.attached.speech.id}`);
+            const block=page.locator('.stage-context-block');await expect(block).toBeVisible();
+            await expect(page.locator('[data-stage-direction]')).toHaveCount(sample.attached.rows.length);
+            const learning=page.locator('[data-stage-direction]');
+            for(let i=0;i<sample.attached.rows.length;i++){const row=learning.nth(i);await expect(row.locator('.stage-direction-text')).toHaveText(sample.attached.rows[i].text);await expect(row.locator('.stage-summary-ja')).toHaveText(sample.attached.rows[i].summaryJa);expect(await row.locator('.stage-vocab-row').count()).toBe(sample.attached.rows[i].vocabulary.length);expect(await row.locator('.stage-notes li').count()).toBe(sample.attached.rows[i].notes.length)}
+            const order=await page.evaluate(()=>{const card=document.querySelector('[data-translation-card]'),stage=card.querySelector('.stage-context-block'),label=[...card.querySelectorAll('.eyebrow')].find(x=>x.textContent.trim()==='Translation');return !!(stage.compareDocumentPosition(label)&Node.DOCUMENT_POSITION_FOLLOWING)});expect(order).toBe(true);
+            const color=await page.locator('.stage-direction-text').first().evaluate(el=>getComputedStyle(el).color);expect(color).not.toBe('rgb(0, 0, 0)');
+          });
+
+          test('Practice speech projection remains exactly 1164 after Situation integration',async({page})=>{
+            await ready(page);
+            const result=await page.evaluate(()=>({speeches:['act1-scene1','act1-scene2','act2'].reduce((n,id)=>n+MTS_INDEX_ZERO.store.getScene(id).length,0),stage:MTS_INDEX_ZERO.store.stageDirections.entries.length,reader:['act1-scene1','act1-scene2','act2'].reduce((n,id)=>n+MTS_INDEX_ZERO.store.getReaderSequence(id).filter(x=>x.kind==='speech').length,0)}));
+            expect(result).toEqual({speeches:1164,stage:777,reader:1164});
+          });
+          ''',encoding='utf-8')
+          PY
       - name: Validate runtime and exact artifact
         run: |
           node scripts/validate-stage-directions.mjs
@@ -66,7 +176,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add app scripts/validate-stage-directions.mjs .github/workflows/app-qa.yml .github/workflows/pages.yml
-          git reset scripts/apply-stage-directions-integration.py .github/workflows/stage-directions-integrate.yml 2>/dev/null || true
+          git reset scripts/apply-stage-directions-integration.py .github/workflows/stage-directions-integrate.yml .github/workflows/stage-directions-debug.yml 2>/dev/null || true
           if git diff --cached --quiet; then echo 'No production changes'; exit 0; fi
           git commit -m 'Integrate PDF stage directions into Reader [skip ci]'
           git push
