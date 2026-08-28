@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "scope": "single-word dictionary-style POS headings and neutral dictionary meanings",
+  "baseline": {
+    "dictionaryEntries": 1375,
+    "singleTokenEntries": 799,
+    "singleWordNoHeader": 5,
+    "multiPosCombinedHeader": 20,
+    "multiPosWithoutSeparateHeaders": 22
+  },
+  "final": {
+    "dictionaryEntries": 1375,
+    "singleTokenEntries": 799,
+    "singleWordNoHeader": 0,
+    "multiPosCombinedHeader": 0,
+    "multiPosWithoutSeparateHeaders": 0
+  },
+  "repair": {
+    "changedDictionaryEntries": 26,
+    "syncedVocabularyItems": 46,
+    "dictionarySha256": "f3d661e57b260f8b083ee19d2f5daccbdd6ed238b891fe789cdaca2b22773b60",
+    "vocabularySha256": "77ea0d174eab53f95f3737d32067a84ea1e304b8903949ef11e2aa23da44478d"
+  },
+  "policy": {
+    "singleWordHeadingRequired": true,
+    "multiPosSingleWordSeparateHeadingsRequired": true,
+    "meaningMustRemainDictionaryNeutral": true,
+    "playSpecificMeaningBelongsInInThisPlay": true
+  },
+  "qa": {
+    "postRepairStyleAudit": "PASS",
+    "semanticValidator": "PASS",
+    "productionAssemblyVerify": "PASS",
+    "appProductionQa": "PASS",
+    "completeUiRegression": "PASS"
+  },
+  "permanentGate": "scripts/validate-vocabulary-semantics.mjs",
+  "reports": [
+    "data/vocabulary-dictionary-style-audit.json",
+    "data/vocabulary-dictionary-style-repair-report.json"
+  ]
+}
