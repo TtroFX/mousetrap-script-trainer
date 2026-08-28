@@ -1,0 +1,5 @@
+{
+  "status": "verification-only",
+  "verifiedMainSha": "8167621f8d4c1ad920b66b45303d724c6bc06afb",
+  "purpose": "Trigger App Production QA on the combined main tree; this branch/file is not intended for main."
+}
