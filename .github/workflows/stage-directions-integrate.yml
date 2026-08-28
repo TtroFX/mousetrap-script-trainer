@@ -22,7 +22,17 @@ jobs:
       - name: Validate canonical stage data
         run: node scripts/validate-stage-directions.mjs
       - name: Apply production integration
-        run: python3 scripts/apply-stage-directions-integration.py
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('scripts/apply-stage-directions-integration.py')
+          s=p.read_text(encoding='utf-8')
+          old="s=regex_once(s,r'function openLine\\(scene,line\\)\\{.*\\}\\nfunction lineView\\(q\\)\\{.*\\}',line_stage,'main line/stage views',re.S)"
+          new="s=regex_once(s,r'^function openLine\\(scene,line\\)\\{.*\\}\\nfunction lineView\\(q\\)\\{.*\\}$',line_stage,'main line/stage views',re.M)"
+          if old not in s: raise SystemExit('migration patch target missing')
+          p.write_text(s.replace(old,new,1),encoding='utf-8')
+          PY
+          python3 scripts/apply-stage-directions-integration.py
       - name: Validate runtime and exact artifact
         run: |
           node scripts/validate-stage-directions.mjs
