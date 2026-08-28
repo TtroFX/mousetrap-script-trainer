@@ -9,6 +9,9 @@ const surfaceKey = value => String(value || '')
   .replace(/[‘’]/g, "'")
   .replace(/\s+/g, ' ')
   .trim();
+const singleToken = lemma => !/\s/.test(String(lemma || '').trim());
+const headers = meaning => [...String(meaning || '').matchAll(/【([^】]+)】/g)].map(m => m[1].trim());
+const splitPos = pos => String(pos || '').split(/[・/、,]/).map(x => x.trim()).filter(Boolean);
 
 const dict = JSON.parse(fs.readFileSync('mousetrap_word_dictionary.json', 'utf8'));
 const vocab = JSON.parse(fs.readFileSync('mousetrap_line_vocabulary.json', 'utf8'));
@@ -23,6 +26,8 @@ const genericContexts = new Set([
 let items = 0;
 let ctx = 0;
 let polysemyItems = 0;
+let singleWordDictionaryEntries = 0;
+let multiPosSingleWords = 0;
 const bySpeechLemma = new Map();
 
 for (const [lemma, entry] of Object.entries(dict)) {
@@ -36,6 +41,17 @@ for (const [lemma, entry] of Object.entries(dict)) {
   if (pos === '未分類' || /【未分類】/.test(meaning)) fail(`unclassified dictionary entry ${lemma}`);
   if ('contextMeaning' in entry || 'contextExplanation' in entry) fail(`play context leaked into dictionary ${lemma}`);
   if (/the magistrate concerned|Longridge Farm事件の児童委託/.test(meaning)) fail(`play-specific prose leaked into dictionary ${lemma}`);
+
+  if (singleToken(lemma)) {
+    singleWordDictionaryEntries += 1;
+    const hs = headers(meaning);
+    if (hs.length === 0) fail(`single-word dictionary entry requires POS-style heading ${lemma}`);
+    const posParts = splitPos(pos);
+    if (posParts.length > 1) {
+      multiPosSingleWords += 1;
+      if (hs.length < 2) fail(`multi-POS single word requires separate headings ${lemma}`);
+    }
+  }
 }
 
 for (const [speechId, rows] of Object.entries(vocab)) {
@@ -120,5 +136,9 @@ console.log(JSON.stringify({
   unclassifiedDictionary: 0,
   genericInThisPlay: 0,
   surfaceLemmaConflicts: 0,
-  duplicateSurfaceLemmaPairs: 0
+  duplicateSurfaceLemmaPairs: 0,
+  singleWordDictionaryEntries,
+  singleWordWithoutHeading: 0,
+  multiPosSingleWords,
+  multiPosSingleWordsWithoutSeparateHeadings: 0
 }, null, 2));
