@@ -96,6 +96,410 @@
       "lemma": "particularly",
       "meaning": "【副詞】\n特に、とりわけ",
       "playMeaning": true
+    },
+    {
+      "surface": "anxious",
+      "lemma": "anxious",
+      "meaning": "【形容詞】\n① 不安な\n② 切望している",
+      "playMeaning": true
+    },
+    {
+      "surface": "Culver Street",
+      "lemma": "Culver Street",
+      "meaning": "【固有名詞】\n通りの名称として用いられる固有名詞。",
+      "playMeaning": true,
+      "inThisPlay": "Paddingtonにある劇中の架空の住所・通り名で、Maureen Lyon殺害事件の現場。"
+    },
+    {
+      "surface": "Maureen Lyon",
+      "lemma": "Maureen Lyon",
+      "meaning": "【固有名詞】\n人名。",
+      "playMeaning": true,
+      "inThisPlay": "Culver Streetで殺害された女性としてラジオニュースに登場する劇中人物。"
+    },
+    {
+      "surface": "Scotland Yard",
+      "lemma": "Scotland Yard",
+      "meaning": "【固有名詞】ロンドン警視庁（Metropolitan Police）の本部・組織を指す通称。",
+      "playMeaning": true,
+      "inThisPlay": "警視庁の本部・組織を指す通称。劇中ではCulver Street殺人事件について情報を発表している警察当局。"
+    },
+    {
+      "surface": "Paddington",
+      "lemma": "Paddington",
+      "meaning": "【固有名詞】Paddington。ロンドン西部の地区。",
+      "playMeaning": true,
+      "inThisPlay": "ロンドン西部の地区Paddington。劇中の殺人事件の所在地として言及される。"
+    },
+    {
+      "surface": "Scotland",
+      "lemma": "Scotland",
+      "meaning": "【固有名詞】スコットランド。英国を構成する地域の一つ。",
+      "playMeaning": true
+    },
+    {
+      "surface": "Scene",
+      "lemma": "scene heading",
+      "meaning": "【舞台】場面を示す見出し。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "Late afternoon",
+      "lemma": "late afternoon",
+      "meaning": "【名句】午後遅く、夕方近く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "period piece",
+      "lemma": "period piece",
+      "meaning": "【名】特定の時代の雰囲気・様式を再現した作品や物。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "dwindling resources",
+      "lemma": "dwindling resources",
+      "meaning": "【名句】次第に減っていく資力・資源。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "up Centre",
+      "lemma": "upstage centre",
+      "meaning": "【舞台】舞台奥の中央。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台奥中央を示す位置指定。"
+    },
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "Up Left",
+      "lemma": "upstage left",
+      "meaning": "【舞台】舞台奥の左側（俳優から見た左）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥左を示す位置指定。"
+    },
+    {
+      "surface": "down Right",
+      "lemma": "downstage right",
+      "meaning": "【舞台】舞台前方の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台前方右を示す位置指定。"
+    },
+    {
+      "surface": "down Left",
+      "lemma": "downstage left",
+      "meaning": "【舞台】舞台前方の左側（俳優から見た左）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台前方左を示す位置指定。"
+    },
+    {
+      "surface": "Left Centre",
+      "lemma": "centre-left",
+      "meaning": "【舞台】舞台中央より左寄りの位置。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台上の位置を指定する語。"
+    },
+    {
+      "surface": "Right Centre",
+      "lemma": "centre-right",
+      "meaning": "【舞台】舞台中央より右寄りの位置。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台上の位置を指定する語。"
+    },
+    {
+      "surface": "downstage",
+      "lemma": "downstage",
+      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】客席に近い舞台前方を示す位置指定。"
+    },
+    {
+      "surface": "upstage",
+      "lemma": "upstage",
+      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】客席から遠い舞台奥側を示す位置指定。"
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "arched opening",
+      "lemma": "arched opening",
+      "meaning": "【名】アーチ形の開口部、アーチ状の出入口。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "entrance hall",
+      "lemma": "entrance hall",
+      "meaning": "建物の入口にある玄関ホール。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "front door",
+      "lemma": "front door",
+      "meaning": "【名】玄関の正面扉。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "library",
+      "lemma": "library",
+      "meaning": "【名】書斎・図書室、図書館。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "drawing room",
+      "lemma": "drawing room",
+      "meaning": "【名】応接間、客間。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "dining room",
+      "lemma": "dining room",
+      "meaning": "【名】食堂、ダイニングルーム。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "open fireplace",
+      "lemma": "fireplace",
+      "meaning": "【名】暖炉。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "fireplace",
+      "lemma": "fireplace",
+      "meaning": "【名】暖炉。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "windowseat",
+      "lemma": "window seat",
+      "meaning": "【名】窓際に造り付けられた腰掛け。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "radiator",
+      "lemma": "radiator",
+      "meaning": "【名詞】\n暖房用ラジエーター",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "refectory table",
+      "lemma": "refectory table",
+      "meaning": "修道院の食堂などに由来する、長く頑丈な大型食卓の様式。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "oak chest",
+      "lemma": "oak chest",
+      "meaning": "【名】オーク材の大型収納箱、木製チェスト。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "Victorian armchair",
+      "lemma": "Victorian armchair",
+      "meaning": "【名】ヴィクトリア朝風の肘掛け椅子。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "bookcase",
+      "lemma": "bookcase",
+      "meaning": "【名】本棚、書棚。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "Canterbury",
+      "lemma": "Canterbury",
+      "meaning": "【名】カンタベリー。家具では新聞・楽譜などを立てて収納する仕切り付きラック。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】都市名ではなく、新聞・雑誌などを収納する仕切り付き家具を指す。"
+    },
+    {
+      "surface": "card table",
+      "lemma": "card table",
+      "meaning": "【名】カードゲーム用の小卓、カードテーブル。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "wall brackets",
+      "lemma": "wall bracket",
+      "meaning": "壁に取り付ける支持具、または壁付けの照明器具。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "wall bracket",
+      "lemma": "wall bracket",
+      "meaning": "壁に取り付ける支持具、または壁付けの照明器具。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "double switches",
+      "lemma": "double switch",
+      "meaning": "【名】二つの回路・照明などを操作する二連スイッチ。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "table lamp",
+      "lemma": "table lamp",
+      "meaning": "【名】卓上ランプ。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "House LIGHTS",
+      "lemma": "house lights",
+      "meaning": "【舞台】客席側の照明、ハウスライト。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】幕開け前の客席照明を指す。舞台照明そのものとは区別される。"
+    },
+    {
+      "surface": "fade",
+      "lemma": "fade",
+      "meaning": "【舞台・動】光・音を徐々に弱める、薄れていく。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+    },
+    {
+      "surface": "fades",
+      "lemma": "fade",
+      "meaning": "【舞台・動】光・音を徐々に弱める、薄れていく。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+    },
+    {
+      "surface": "blackout",
+      "lemma": "blackout",
+      "meaning": "【名】暗転。舞台・会場の照明を完全に消した状態。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】照明を完全に落として真っ暗にする暗転。"
+    },
+    {
+      "surface": "Curtain rises",
+      "lemma": "curtain rises",
+      "meaning": "【舞台】幕が上がる。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】幕が上がり場面が始まることを示す。"
+    },
+    {
+      "surface": "complete darkness",
+      "lemma": "complete darkness",
+      "meaning": "【名句】完全な暗闇。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+    },
+    {
+      "surface": "shrill whistle",
+      "lemma": "shrill whistle",
+      "meaning": "【名句】甲高い笛・口笛の音。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+    },
+    {
+      "surface": "police whistles",
+      "lemma": "police whistle",
+      "meaning": "【名】警察官が用いる笛、警笛。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+    },
+    {
+      "surface": "rises",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "stands",
+      "lemma": "stand",
+      "meaning": "【動】立つ、立っている。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "switch on",
+      "lemma": "switch on",
+      "meaning": "【句動】スイッチを入れる、電源を入れる。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "puts down",
+      "lemma": "put down",
+      "meaning": "置く／保存のため加工する",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "places",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0002": [
@@ -104,9 +508,283 @@
       "lemma": "gosh",
       "meaning": "【間投詞】\n① まあ\n② うわあ",
       "playMeaning": true
+    },
+    {
+      "surface": "Mrs. Barlow",
+      "lemma": "Mrs Barlow",
+      "meaning": "【固有名詞】Mrs Barlowという人名・呼称。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorで日雇い・通いの家事を手伝う女性として言及される人物。"
+    },
+    {
+      "surface": "calling",
+      "lemma": "calling",
+      "meaning": "【動】call の -ing 形。呼びかけること、声をかけること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "returns",
+      "lemma": "return",
+      "meaning": "【動詞】\n戻る、返す。\n【名詞】\n戻ること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "removes",
+      "lemma": "remove",
+      "meaning": "【動】取り除く、脱ぐ、移動させる。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "picks up",
+      "lemma": "pick up",
+      "meaning": "拾う／手に取る",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "down Right",
+      "lemma": "downstage right",
+      "meaning": "【舞台】舞台前方の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台前方右を示す位置指定。"
+    },
+    {
+      "surface": "fireplace",
+      "lemma": "fireplace",
+      "meaning": "【名】暖炉。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "radiator",
+      "lemma": "radiator",
+      "meaning": "【名詞】\n暖房用ラジエーター",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "wall brackets",
+      "lemma": "wall bracket",
+      "meaning": "壁に取り付ける支持具、または壁付けの照明器具。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "wall switch",
+      "lemma": "wall switch",
+      "meaning": "【名】壁面スイッチ。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "table lamp",
+      "lemma": "table lamp",
+      "meaning": "【名】卓上ランプ。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "signboard",
+      "lemma": "signboard",
+      "meaning": "【名】看板、掲示板。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "window alcove",
+      "lemma": "window alcove",
+      "meaning": "【名】窓際のくぼんだ空間、窓のアルコーブ。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "switches on",
+      "lemma": "switch on",
+      "meaning": "【句動】スイッチを入れる、電源を入れる。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "draws the curtains",
+      "lemma": "draw the curtains",
+      "meaning": "【動詞句】カーテンを引いて閉める。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "nodding her head",
+      "lemma": "nod one’s head",
+      "meaning": "【動詞句】うなずく、頭を縦に振る。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "looks round",
+      "lemma": "look round",
+      "meaning": "見て回る／調べて回る",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "places",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "notices",
+      "lemma": "notice",
+      "meaning": "【動】気づく、注目する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "goes to",
+      "lemma": "go to",
+      "meaning": "【動詞句】～へ行く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "front door",
+      "lemma": "front door",
+      "meaning": "【名】玄関の正面扉。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "oak chest",
+      "lemma": "oak chest",
+      "meaning": "【名】オーク材の大型収納箱、木製チェスト。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "hurries off",
+      "lemma": "hurry",
+      "meaning": "【動詞】\n急ぐ、急いで行う。\n【名詞】\nまた、急いでいる状態。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "stamps his feet",
+      "lemma": "stamp one’s feet",
+      "meaning": "【動詞句】足を踏み鳴らす。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "warms his hands",
+      "lemma": "warm one’s hands",
+      "meaning": "【動詞句】手を温める。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "throws",
+      "lemma": "throw",
+      "meaning": "【動】投げる、放る。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "carrying",
+      "lemma": "carry",
+      "meaning": "【動】運ぶ、持って行く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+    },
+    {
+      "surface": "takes off",
+      "lemma": "take off",
+      "meaning": "【句動】衣服などを脱ぐ；離陸する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "takes",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "hands",
+      "lemma": "hand",
+      "meaning": "【動】手渡す。【名】手。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
-  "act1-scene1-speech-0003": [],
+  "act1-scene1-speech-0003": [
+    {
+      "surface": "calling",
+      "lemma": "calling",
+      "meaning": "【動】call の -ing 形。呼びかけること、声をかけること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    }
+  ],
   "act1-scene1-speech-0004": [
     {
       "surface": "brute",
@@ -114,6 +792,27 @@
       "meaning": "【名詞】\nひどい人、乱暴者",
       "playMeaning": true,
       "inThisPlay": "Gilesを本気で『乱暴者』と非難しているのではなく、家事を自分に任せている夫へ親しみを込めて『ひどい人ね』と軽く文句を言っている。"
+    },
+    {
+      "surface": "cheerfully",
+      "lemma": "cheerfully",
+      "meaning": "【副】陽気に、明るく。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "to GILES",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
     }
   ],
   "act1-scene1-speech-0005": [
@@ -134,6 +833,19 @@
       "lemma": "stoke",
       "meaning": "【動詞】\n燃料を足して火を保つ",
       "playMeaning": true
+    },
+    {
+      "surface": "stoke",
+      "lemma": "stoke",
+      "meaning": "【動詞】\n燃料を足して火を保つ",
+      "playMeaning": true
+    },
+    {
+      "surface": "Aga",
+      "lemma": "Aga",
+      "meaning": "【固有名詞・名】Aga社の蓄熱式調理レンジ。英国の家庭で広く知られる商標・製品名。",
+      "playMeaning": true,
+      "inThisPlay": "英国で普及した蓄熱式レンジ。劇中では燃料を足して火を保つ必要がある調理・暖房設備。"
     }
   ],
   "act1-scene1-speech-0006": [],
@@ -143,6 +855,13 @@
       "lemma": "Hullo",
       "meaning": "【間投詞】\n① やあ\n② もしもし",
       "playMeaning": true
+    },
+    {
+      "surface": "kissing",
+      "lemma": "kiss",
+      "meaning": "【動】キスをする、口づけする。【名】キス。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0008": [
@@ -157,6 +876,13 @@
       "lemma": "come in",
       "meaning": "入ってくる／中に入る",
       "playMeaning": true
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
     }
   ],
   "act1-scene1-speech-0009": [],
@@ -235,9 +961,38 @@
       "lemma": "snowed up",
       "meaning": "雪で閉じ込められた／交通が遮断された",
       "playMeaning": true
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "sits",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
-  "act1-scene1-speech-0012": [],
+  "act1-scene1-speech-0012": [
+    {
+      "surface": "radiator",
+      "lemma": "radiator",
+      "meaning": "【名詞】\n暖房用ラジエーター",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    }
+  ],
   "act1-scene1-speech-0013": [
     {
       "surface": "central heating",
@@ -262,6 +1017,34 @@
       "lemma": "coke",
       "meaning": "【名詞】\nコークス（燃料）",
       "playMeaning": true
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "rising",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "to MOLLIE",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    },
+    {
+      "surface": "radiator",
+      "lemma": "radiator",
+      "meaning": "【名詞】\n暖房用ラジエーター",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
     }
   ],
   "act1-scene1-speech-0014": [
@@ -270,15 +1053,50 @@
       "lemma": "impression",
       "meaning": "【名詞】\n印象",
       "playMeaning": true
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "sitting",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
-  "act1-scene1-speech-0015": [],
+  "act1-scene1-speech-0015": [
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    }
+  ],
   "act1-scene1-speech-0016": [
     {
       "surface": "hooked it",
       "lemma": "hook it",
       "meaning": "急いで立ち去る、逃げる。",
       "playMeaning": true
+    },
+    {
+      "surface": "thank goodness",
+      "lemma": "thank goodness",
+      "meaning": "安堵や感謝を表して「よかった」「ありがたい」と言う定型表現。",
+      "playMeaning": true
+    },
+    {
+      "surface": "Mrs. Barlow",
+      "lemma": "Mrs Barlow",
+      "meaning": "【固有名詞】Mrs Barlowという人名・呼称。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorで日雇い・通いの家事を手伝う女性として言及される人物。"
     }
   ],
   "act1-scene1-speech-0017": [
@@ -294,6 +1112,13 @@
       "meaning": "責任・負担が人にかかって。",
       "playMeaning": true,
       "inThisPlay": "仕事や責任がMollie一人にのしかかる、という比喩。"
+    },
+    {
+      "surface": "daily women",
+      "lemma": "daily woman",
+      "meaning": "【名】英国で、住み込みでなく日中だけ通って家事をする女性使用人・家事手伝いを指した表現。",
+      "playMeaning": true,
+      "inThisPlay": "住み込みではなく日中だけ通って家事をする女性使用人・家事手伝いを指す、当時の英国的表現。"
     }
   ],
   "act1-scene1-speech-0018": [
@@ -310,6 +1135,13 @@
       "lemma": "so long as",
       "meaning": "～である限り／～さえすれば",
       "playMeaning": true
+    },
+    {
+      "surface": "crossing",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
     }
   ],
   "act1-scene1-speech-0020": [
@@ -343,6 +1175,33 @@
       "lemma": "go all right",
       "meaning": "うまくいく",
       "playMeaning": true
+    },
+    {
+      "surface": "case",
+      "lemma": "case",
+      "meaning": "【名詞】\n事件、事例",
+      "playMeaning": true
+    },
+    {
+      "surface": "rising",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "crossing",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "to GILES",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
     }
   ],
   "act1-scene1-speech-0021": [
@@ -366,9 +1225,64 @@
       "lemma": "just",
       "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
       "playMeaning": true
+    },
+    {
+      "surface": "talking of",
+      "lemma": "talking of",
+      "meaning": "～と言えば、～の話が出たところで。話題を関連する別の話へ移す表現。",
+      "playMeaning": true
+    },
+    {
+      "surface": "look at",
+      "lemma": "look at",
+      "meaning": "～を見る、～へ視線を向ける",
+      "playMeaning": true
+    },
+    {
+      "surface": "signboard",
+      "lemma": "signboard",
+      "meaning": "【名】看板、掲示板。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "accusing manner",
+      "lemma": "accusingly",
+      "meaning": "【副】非難するように、責める調子で。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "indicates",
+      "lemma": "indicate",
+      "meaning": "【動】指し示す、合図する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
-  "act1-scene1-speech-0023": [],
+  "act1-scene1-speech-0023": [
+    {
+      "surface": "complacently",
+      "lemma": "complacently",
+      "meaning": "【副】得意げに、自己満足した様子で。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "signboard",
+      "lemma": "signboard",
+      "meaning": "【名】看板、掲示板。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    }
+  ],
   "act1-scene1-speech-0024": [
     {
       "surface": "disaster",
@@ -394,6 +1308,12 @@
       "surface": "it doesn't really matter",
       "lemma": "it doesn’t matter",
       "meaning": "問題ではない／構わない",
+      "playMeaning": true
+    },
+    {
+      "surface": "Lord",
+      "lemma": "Lord",
+      "meaning": "【間投詞】\n① まったく\n② やれやれ",
       "playMeaning": true
     }
   ],
@@ -422,6 +1342,13 @@
       "lemma": "central heating",
       "meaning": "セントラルヒーティング",
       "playMeaning": true
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
     }
   ],
   "act1-scene1-speech-0027": [
@@ -429,7 +1356,8 @@
       "surface": "bank it up",
       "lemma": "bank up",
       "meaning": "火を長持ちさせるよう燃料を積む／雪などが堆積する",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは炉・暖房の火が夜通し保つよう燃料を多めに入れ、燃え方を抑えておくこと。"
     }
   ],
   "act1-scene1-speech-0028": [],
@@ -457,6 +1385,48 @@
       "lemma": "fourposter",
       "meaning": "【名詞】\n四本柱の天蓋ベッド",
       "playMeaning": true
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客の一人。"
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客で、Majorの軍階級で呼ばれる人物。"
+    },
+    {
+      "surface": "Miss Casewell",
+      "lemma": "Miss Casewell",
+      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客の一人。"
+    },
+    {
+      "surface": "Fourposter",
+      "lemma": "four-poster",
+      "meaning": "【名詞】\n四隅に高い柱があり、上部の枠や天蓋を支える大型ベッド。",
+      "playMeaning": true,
+      "inThisPlay": "四本の柱で天蓋を支えるfour-poster bedを指す。"
+    },
+    {
+      "surface": "sits",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "picks up",
+      "lemma": "pick up",
+      "meaning": "拾う／手に取る",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0033": [
@@ -471,6 +1441,13 @@
       "lemma": "in advance",
       "meaning": "前もって",
       "playMeaning": true
+    },
+    {
+      "surface": "crossing",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
     }
   ],
   "act1-scene1-speech-0034": [],
@@ -487,6 +1464,13 @@
       "meaning": "【名詞】\n間抜け、だまされやすい人",
       "playMeaning": true,
       "inThisPlay": "自分たちは宿屋経営について世間知らずで、簡単にだまされそうな『間抜け』だという自嘲。"
+    },
+    {
+      "surface": "mugs at this game",
+      "lemma": "mug",
+      "meaning": "【名詞】\n間抜け、だまされやすい人",
+      "playMeaning": true,
+      "inThisPlay": "ここでは『この商売では自分たちは素人同然の間抜けだ』という自嘲的な口語。"
     }
   ],
   "act1-scene1-speech-0036": [
@@ -532,7 +1516,8 @@
       "surface": "get had",
       "lemma": "get had",
       "meaning": "だまされる／一杯食わされる",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "だまされたり、うまく利用されたりすること。"
     },
     {
       "surface": "luggage",
@@ -563,6 +1548,12 @@
       "lemma": "newspaper",
       "meaning": "【名詞】\n新聞紙",
       "playMeaning": true
+    },
+    {
+      "surface": "hotel keeping",
+      "lemma": "hotel keeping",
+      "meaning": "【名】ホテル・宿泊施設の経営、宿屋業。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0038": [],
@@ -571,7 +1562,8 @@
       "surface": "forged references",
       "lemma": "forged reference",
       "meaning": "使用人などが信用を得るために偽造した推薦状・身元証明。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "使用人などが雇用時に示す推薦状・身元照会書を偽造したもの。"
     },
     {
       "surface": "references",
@@ -584,6 +1576,20 @@
       "lemma": "criminal",
       "meaning": "【名詞】\n犯罪者。\n【形容詞】\n犯罪の、犯罪に関する。",
       "playMeaning": true
+    },
+    {
+      "surface": "signboard",
+      "lemma": "signboard",
+      "meaning": "【名】看板、掲示板。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
     }
   ],
   "act1-scene1-speech-0040": [
@@ -598,6 +1604,13 @@
       "lemma": "guinea",
       "meaning": "【名詞】\nギニー（旧英国通貨単位、21シリング）",
       "playMeaning": true
+    },
+    {
+      "surface": "seven guineas",
+      "lemma": "guinea",
+      "meaning": "【名詞】\nギニー（旧英国通貨単位、21シリング）",
+      "playMeaning": true,
+      "inThisPlay": "宿泊料金をギニー単位で示している。1 guineaは旧英国通貨で21 shillings（1 pound 1 shilling）に相当した。"
     }
   ],
   "act1-scene1-speech-0041": [
@@ -606,13 +1619,48 @@
       "lemma": "woman of business",
       "meaning": "商売・実務に長けた女性。",
       "playMeaning": true,
-      "inThisPlay": "Mollieが客の素性より料金を重視すると言ったのを受け、Gilesが『実に商売上手だね』と軽くからかっている。"
+      "inThisPlay": "商売に抜け目のない・実務的な女性という、やや冗談めいた言い方。"
     },
     {
       "surface": "business",
       "lemma": "business",
       "meaning": "【名詞】\n① 用事\n② 事件\n③ 本題\n④ 仕事",
       "playMeaning": true
+    },
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "signboard",
+      "lemma": "signboard",
+      "meaning": "【名】看板、掲示板。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "switches on",
+      "lemma": "switch on",
+      "meaning": "【句動】スイッチを入れる、電源を入れる。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "carrying",
+      "lemma": "carry",
+      "meaning": "【動】運ぶ、持って行く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0042": [
@@ -687,9 +1735,134 @@
       "lemma": "ice-bound",
       "meaning": "【形容詞】\n氷で閉ざされた",
       "playMeaning": true
+    },
+    {
+      "surface": "anxious",
+      "lemma": "anxious",
+      "meaning": "【形容詞】\n① 不安な\n② 切望している",
+      "playMeaning": true
+    },
+    {
+      "surface": "Culver Street",
+      "lemma": "Culver Street",
+      "meaning": "【固有名詞】\n通りの名称として用いられる固有名詞。",
+      "playMeaning": true,
+      "inThisPlay": "Paddingtonにある劇中の架空の住所・通り名で、Maureen Lyon殺害事件の現場。"
+    },
+    {
+      "surface": "Maureen Lyon",
+      "lemma": "Maureen Lyon",
+      "meaning": "【固有名詞】\n人名。",
+      "playMeaning": true,
+      "inThisPlay": "Culver Streetで殺害された女性としてラジオニュースに登場する劇中人物。"
+    },
+    {
+      "surface": "Scotland Yard",
+      "lemma": "Scotland Yard",
+      "meaning": "【固有名詞】ロンドン警視庁（Metropolitan Police）の本部・組織を指す通称。",
+      "playMeaning": true,
+      "inThisPlay": "警視庁の本部・組織を指す通称。劇中ではCulver Street殺人事件について情報を発表している警察当局。"
+    },
+    {
+      "surface": "Paddington",
+      "lemma": "Paddington",
+      "meaning": "【固有名詞】Paddington。ロンドン西部の地区。",
+      "playMeaning": true,
+      "inThisPlay": "ロンドン西部の地区Paddington。劇中の殺人事件の所在地として言及される。"
+    },
+    {
+      "surface": "Scotland",
+      "lemma": "Scotland",
+      "meaning": "【固有名詞】スコットランド。英国を構成する地域の一つ。",
+      "playMeaning": true
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "rises",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "picks up",
+      "lemma": "pick up",
+      "meaning": "拾う／手に取る",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "door bell rings",
+      "lemma": "doorbell",
+      "meaning": "【名】玄関の呼び鈴、ドアベル。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "switches off",
+      "lemma": "switch off",
+      "meaning": "スイッチを切る",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "hurries off",
+      "lemma": "hurry",
+      "meaning": "【動詞】\n急ぐ、急いで行う。\n【名詞】\nまた、急いでいる状態。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
     }
   ],
-  "act1-scene1-speech-0043": [],
+  "act1-scene1-speech-0043": [
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+    }
+  ],
   "act1-scene1-speech-0044": [
     {
       "surface": "gave up",
@@ -714,13 +1887,125 @@
       "lemma": "sporting instinct",
       "meaning": "競技者らしい挑戦心、公平さや冒険心。",
       "playMeaning": true,
-      "inThisPlay": "危険を冒してでも挑むスポーツマン精神、というChristopherの冗談めいた不満。"
+      "inThisPlay": "ここでは悪天候でも挑戦してみる『スポーツマンらしい冒険心』を擬人化した冗談。"
     },
     {
       "surface": "instinct",
       "lemma": "instinct",
       "meaning": "【名詞】\n直感、本能",
       "playMeaning": true
+    },
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+    },
+    {
+      "surface": "up Centre",
+      "lemma": "upstage centre",
+      "meaning": "【舞台】舞台奥の中央。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台奥中央を示す位置指定。"
+    },
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "refectory table",
+      "lemma": "refectory table",
+      "meaning": "修道院の食堂などに由来する、長く頑丈な大型食卓の様式。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "wild-looking",
+      "lemma": "wild-looking",
+      "meaning": "【形】荒々しい・風変わりな外見の。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "neurotic",
+      "lemma": "neurotic",
+      "meaning": "【形容詞】\n神経症的な、という旧来の心理語",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "confiding",
+      "lemma": "confiding",
+      "meaning": "【形】打ち解けて秘密や気持ちを話すような、親しげな。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "childish",
+      "lemma": "childish",
+      "meaning": "【形】子どもっぽい、幼稚な。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "places",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "looking",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "to MOLLIE",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
     }
   ],
   "act1-scene1-speech-0045": [],
@@ -754,7 +2039,7 @@
       "lemma": "Memsahibish",
       "meaning": "【形容詞】\n植民地期の英国婦人を思わせる、いかにも「メムサーヒブ風」の",
       "playMeaning": true,
-      "inThisPlay": "英領インド時代の英国人上流女性を連想させる、威圧的で植民地時代風の雰囲気をからかっている。"
+      "inThisPlay": "英領インド時代の上流階級の英国人女性『memsahib』らしい、尊大で植民地的な雰囲気をいう。"
     },
     {
       "surface": "crammed",
@@ -767,7 +2052,7 @@
       "lemma": "Benares brass",
       "meaning": "ベナレス（現ヴァーラーナシー）の真鍮工芸品",
       "playMeaning": true,
-      "inThisPlay": "インドのベナレス（現ヴァーラーナシー）を連想させる装飾的な真鍮製品。Christopherが植民地時代風の室内を誇張して想像している。"
+      "inThisPlay": "Benares（現Varanasi）産・様式の装飾的な真鍮工芸品。英国の植民地時代的室内装飾の連想で使われる。"
     },
     {
       "surface": "heavenly",
@@ -816,6 +2101,48 @@
       "lemma": "bird of paradise",
       "meaning": "極彩色の羽で知られるフウチョウ類。装飾品・標本を指すこともある。",
       "playMeaning": true
+    },
+    {
+      "surface": "Indian Army",
+      "lemma": "Indian Army",
+      "meaning": "【固有名詞】歴史上のIndian Army（英領インド軍などを指す名称）。",
+      "playMeaning": true,
+      "inThisPlay": "歴史上の英領インド軍。ChristopherがMollieを想像した際の植民地時代的イメージとして言及する。"
+    },
+    {
+      "surface": "Benares",
+      "lemma": "Benares",
+      "meaning": "【固有名詞】インド北部の都市Varanasiの旧英語名Benares（ベナレス）。",
+      "playMeaning": true,
+      "inThisPlay": "現在のインドのVaranasi（旧英語名Benares）。劇中では装飾的な真鍮製品との連想で使われる。"
+    },
+    {
+      "surface": "crossing",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "pointing",
+      "lemma": "point",
+      "meaning": "【動】指さす、方向を示す。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
     }
   ],
   "act1-scene1-speech-0047": [],
@@ -845,9 +2172,144 @@
       "playMeaning": false
     }
   ],
-  "act1-scene1-speech-0049": [],
-  "act1-scene1-speech-0050": [],
-  "act1-scene1-speech-0051": [],
+  "act1-scene1-speech-0049": [
+    {
+      "surface": "down Right",
+      "lemma": "downstage right",
+      "meaning": "【舞台】舞台前方の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台前方右を示す位置指定。"
+    },
+    {
+      "surface": "glances",
+      "lemma": "glance",
+      "meaning": "【動】ちらりと見る。【名】一瞥。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "dining room",
+      "lemma": "dining room",
+      "meaning": "【名】食堂、ダイニングルーム。",
+      "playMeaning": true
+    }
+  ],
+  "act1-scene1-speech-0050": [
+    {
+      "surface": "glance",
+      "lemma": "glance",
+      "meaning": "【動】ちらりと見る。【名】一瞥。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "following her glance",
+      "lemma": "follow someone’s glance",
+      "meaning": "【動詞句】人の視線の先を追う。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "down Right",
+      "lemma": "downstage right",
+      "meaning": "【舞台】舞台前方の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台前方右を示す位置指定。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "archway",
+      "lemma": "archway",
+      "meaning": "【名詞】\nアーチ形の開口部・通路。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "dining room",
+      "lemma": "dining room",
+      "meaning": "【名】食堂、ダイニングルーム。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "looks round",
+      "lemma": "look round",
+      "meaning": "見て回る／調べて回る",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    }
+  ],
+  "act1-scene1-speech-0051": [
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "dining room",
+      "lemma": "dining room",
+      "meaning": "【名】食堂、ダイニングルーム。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    }
+  ],
   "act1-scene1-speech-0052": [
     {
       "surface": "Absolutely",
@@ -859,7 +2321,8 @@
       "surface": "bedrock respectability",
       "lemma": "bedrock respectability",
       "meaning": "古風な家具が醸し出す、揺るぎない『ちゃんとした中流・上流家庭らしさ』をChristopherが大げさに称賛している。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "揺るぎない堅実さ・きちんとした中流階級的体面を象徴するもの、という誇張表現。"
     },
     {
       "surface": "respectability",
@@ -896,6 +2359,47 @@
       "lemma": "effect",
       "meaning": "【名詞】\n① 結果、影響\n② 見た目や演出上の効果",
       "playMeaning": false
+    },
+    {
+      "surface": "centre",
+      "lemma": "Centre",
+      "meaning": "舞台中央。",
+      "playMeaning": true
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "looking",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+    },
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "stands",
+      "lemma": "stand",
+      "meaning": "【動】立つ、立っている。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0053": [],
@@ -923,7 +2427,8 @@
       "surface": "carried away",
       "lemma": "carry away",
       "meaning": "夢中にさせる／我を忘れさせる",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは時代物の家具への熱中に『つい夢中になって言い過ぎた』という意味。"
     },
     {
       "surface": "carried away",
@@ -990,7 +2495,7 @@
       "surface": "relation",
       "lemma": "relation",
       "meaning": "【名詞】\n① 親族\n② 関係",
-      "playMeaning": false
+      "playMeaning": true
     },
     {
       "surface": "general dogsbody",
@@ -1002,16 +2507,101 @@
       "surface": "general dogsbody",
       "lemma": "dogsbody",
       "meaning": "【名詞】\n家族の中で、誰もやりたがらない雑用を何でも押しつけられる人。Christopherの架空のヴィクトリア朝家庭像の一部。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "家の中の雑用を何でもやらされる人、下働きという英国口語。"
     },
     {
       "surface": "grateful",
       "lemma": "grateful",
       "meaning": "【形容詞】\n感謝している、ありがたく思う。",
       "playMeaning": false
+    },
+    {
+      "surface": "dogsbody",
+      "lemma": "dogsbody",
+      "meaning": "【名詞】\n家族の中で、誰もやりたがらない雑用を何でも押しつけられる人。Christopherの架空のヴィクトリア朝家庭像の一部。",
+      "playMeaning": true
+    },
+    {
+      "surface": "Dickens",
+      "lemma": "Charles Dickens",
+      "meaning": "【固有名詞】Charles Dickens（1812–1870）。英国の小説家。",
+      "playMeaning": true,
+      "inThisPlay": "英国の小説家Charles Dickens。雪景色からDickens作品を連想する台詞で言及される。"
+    },
+    {
+      "surface": "Scrooge",
+      "lemma": "Ebenezer Scrooge",
+      "meaning": "【固有名詞】Dickens『A Christmas Carol』の主人公Ebenezer Scrooge。",
+      "playMeaning": true,
+      "inThisPlay": "Dickens『A Christmas Carol』の主人公Ebenezer Scrooge。"
+    },
+    {
+      "surface": "Tiny Tim",
+      "lemma": "Tiny Tim",
+      "meaning": "【固有名詞】Dickens『A Christmas Carol』の登場人物Tiny Tim。",
+      "playMeaning": true,
+      "inThisPlay": "Dickens『A Christmas Carol』の登場人物Tiny Tim。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "shaking hands",
+      "lemma": "shake hands",
+      "meaning": "【動詞句】握手する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "to GILES",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    },
+    {
+      "surface": "hands",
+      "lemma": "hand",
+      "meaning": "【動】手渡す。【名】手。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "turns",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
-  "act1-scene1-speech-0055": [],
+  "act1-scene1-speech-0055": [
+    {
+      "surface": "disliking",
+      "lemma": "dislike",
+      "meaning": "【動】嫌う、好まない。【名】嫌悪、苦手意識。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "picks up",
+      "lemma": "pick up",
+      "meaning": "拾う／手に取る",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "To MOLLIE",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    }
+  ],
   "act1-scene1-speech-0056": [],
   "act1-scene1-speech-0057": [
     {
@@ -1025,10 +2615,33 @@
       "lemma": "chintz",
       "meaning": "【名詞】\n更紗、花柄のプリント綿布",
       "playMeaning": true
+    },
+    {
+      "surface": "fourposter",
+      "lemma": "four-poster",
+      "meaning": "【名詞】\n四隅に高い柱があり、上部の枠や天蓋を支える大型ベッド。",
+      "playMeaning": true,
+      "inThisPlay": "四本の柱で天蓋を支えるfour-poster bedを指す。"
     }
   ],
-  "act1-scene1-speech-0058": [],
-  "act1-scene1-speech-0059": [],
+  "act1-scene1-speech-0058": [
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    }
+  ],
+  "act1-scene1-speech-0059": [
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    }
+  ],
   "act1-scene1-speech-0060": [
     {
       "surface": "just",
@@ -1041,6 +2654,13 @@
       "lemma": "go up",
       "meaning": "上へ行く／上階へ行く",
       "playMeaning": true
+    },
+    {
+      "surface": "coldly",
+      "lemma": "coldly",
+      "meaning": "【副】冷淡に、よそよそしく。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0061": [
@@ -1049,7 +2669,7 @@
       "lemma": "tick off",
       "meaning": "項目に印を付ける。また人を叱る・注意する。",
       "playMeaning": true,
-      "inThisPlay": "Mollieが話題を変えて個人的な質問をやめさせたのを、Christopherが『軽く叱られた・たしなめられた』と冗談めかして受け取っている。"
+      "inThisPlay": "ここではMollieにたしなめられた、叱られたという口語。"
     },
     {
       "surface": "madly interesting",
@@ -1057,9 +2677,31 @@
       "meaning": "【副詞】\n『狂ったように』ではなく、非常に・ものすごく面白いというChristopherらしい誇張。",
       "playMeaning": true,
       "inThisPlay": "『狂ったように』ではなく、非常に・ものすごく面白いというChristopherらしい誇張。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
     }
   ],
-  "act1-scene1-speech-0062": [],
+  "act1-scene1-speech-0062": [
+    {
+      "surface": "turning",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "to CHRISTOPHER",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    }
+  ],
   "act1-scene1-speech-0063": [
     {
       "surface": "what anyone is like",
@@ -1072,6 +2714,13 @@
       "lemma": "for instance",
       "meaning": "例えば",
       "playMeaning": true
+    },
+    {
+      "surface": "smiles",
+      "lemma": "smile",
+      "meaning": "【動】ほほえむ。【名】ほほえみ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0064": [
@@ -1080,6 +2729,20 @@
       "lemma": "not in the least",
       "meaning": "少しも～ない／全然構わない",
       "playMeaning": true
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "takes",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0065": [
@@ -1094,9 +2757,45 @@
       "lemma": "come out",
       "meaning": "出てくる／外へ出る",
       "playMeaning": true
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "sits",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
-  "act1-scene1-speech-0066": [],
+  "act1-scene1-speech-0066": [
+    {
+      "surface": "lights her cigarette",
+      "lemma": "light a cigarette",
+      "meaning": "【動詞句】たばこに火をつける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    }
+  ],
   "act1-scene1-speech-0067": [
     {
       "surface": "architect",
@@ -1140,6 +2839,82 @@
       "lemma": "sympathetic",
       "meaning": "【形容詞】\n同情的な、理解を示す",
       "playMeaning": true
+    },
+    {
+      "surface": "Christopher Wren",
+      "lemma": "Christopher Wren",
+      "meaning": "【固有名詞】\n英語の人名。",
+      "playMeaning": true,
+      "inThisPlay": "宿泊客Christopherの姓名。著名な建築家Sir Christopher Wrenと同名であることが劇中の冗談になっている。"
+    },
+    {
+      "surface": "St. Paul's",
+      "lemma": "St Paul’s Cathedral",
+      "meaning": "【固有名詞】ロンドンのSt Paul’s Cathedral（セント・ポール大聖堂）。",
+      "playMeaning": true,
+      "inThisPlay": "ロンドンのセント・ポール大聖堂。Christopherの名前と建築家Sir Christopher Wrenを結び付ける冗談で言及される。"
+    },
+    {
+      "surface": "last laugh",
+      "lemma": "have the last laugh",
+      "meaning": "最後には勝つ／最終的に優位になる",
+      "playMeaning": true
+    },
+    {
+      "surface": "Prefab Nests",
+      "lemma": "Prefab Nests",
+      "meaning": "【固有名詞的表現】Prefab Nests。本作中で使われる架空の建築・事業名。",
+      "playMeaning": true,
+      "inThisPlay": "Christopherが自分の将来の建築を冗談めかして名付けた架空の呼称。Prefabはprefabricated（プレハブ）の略。"
+    },
+    {
+      "surface": "laughs",
+      "lemma": "laugh",
+      "meaning": "【動】笑う。【名】笑い声、笑い。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "up Left",
+      "lemma": "upstage left",
+      "meaning": "【舞台】舞台奥の左側（俳優から見た左）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥左を示す位置指定。"
+    },
+    {
+      "surface": "archway",
+      "lemma": "archway",
+      "meaning": "【名詞】\nアーチ形の開口部・通路。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "to GILES",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
     }
   ],
   "act1-scene1-speech-0068": [
@@ -1148,15 +2923,44 @@
       "lemma": "indeed",
       "meaning": "【副詞・間投的表現】\n実に、本当に。返答で確認・強調を表す。",
       "playMeaning": true
+    },
+    {
+      "surface": "coldly",
+      "lemma": "coldly",
+      "meaning": "【副】冷淡に、よそよそしく。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
-  "act1-scene1-speech-0069": [],
+  "act1-scene1-speech-0069": [
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "Turning",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    }
+  ],
   "act1-scene1-speech-0070": [
     {
       "surface": "absurd",
       "lemma": "absurd",
       "meaning": "【形容詞】\nばかげた、不合理な",
       "playMeaning": true
+    },
+    {
+      "surface": "leans",
+      "lemma": "lean",
+      "meaning": "【動】寄りかかる、身を傾ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0071": [
@@ -1220,6 +3024,20 @@
       "lemma": "boorish",
       "meaning": "【形容詞】\n粗野で無作法な",
       "playMeaning": true
+    },
+    {
+      "surface": "looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "turns",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0072": [
@@ -1228,6 +3046,27 @@
       "lemma": "come up",
       "meaning": "上がってくる／近づいてくる",
       "playMeaning": true
+    },
+    {
+      "surface": "hastily",
+      "lemma": "hastily",
+      "meaning": "【副】急いで、あわただしく。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "up Left",
+      "lemma": "upstage left",
+      "meaning": "【舞台】舞台奥の左側（俳優から見た左）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥左を示す位置指定。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
     }
   ],
   "act1-scene1-speech-0073": [],
@@ -1243,6 +3082,90 @@
       "lemma": "stoke",
       "meaning": "【動詞】\n燃料を足して火を保つ",
       "playMeaning": true
+    },
+    {
+      "surface": "to GILES",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    },
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "front door",
+      "lemma": "front door",
+      "meaning": "【名】玄関の正面扉。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "door bell peals",
+      "lemma": "doorbell",
+      "meaning": "【名】玄関の呼び鈴、ドアベル。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+    },
+    {
+      "surface": "wind and snow is heard",
+      "lemma": "sound cue",
+      "meaning": "【舞台】効果音・音楽などを入れる合図または音響指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "exit",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "hurriedly",
+      "lemma": "hurry",
+      "meaning": "【動詞】\n急ぐ、急いで行う。\n【名詞】\nまた、急いでいる状態。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "scowls",
+      "lemma": "scowl",
+      "meaning": "【動】顔をしかめてにらむ。【名】不機嫌なしかめ面。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "pause",
+      "lemma": "pause",
+      "meaning": "【動詞】\n一時止まる、間を置く。\n【名詞】\n短い中断、間。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0075": [
@@ -1251,10 +3174,89 @@
       "lemma": "presume",
       "meaning": "【動詞】\n① ～だと思う\n② 推定する",
       "playMeaning": true
+    },
+    {
+      "surface": "Monkswell Manor",
+      "lemma": "Monkswell Manor",
+      "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
+      "playMeaning": true,
+      "inThisPlay": "本作の主要舞台となる屋敷の名称。"
+    },
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
     }
   ],
-  "act1-scene1-speech-0076": [],
-  "act1-scene1-speech-0077": [],
+  "act1-scene1-speech-0076": [
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+    },
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "archway",
+      "lemma": "archway",
+      "meaning": "【名詞】\nアーチ形の開口部・通路。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "imposing",
+      "lemma": "imposing",
+      "meaning": "【形】堂々とした、威圧感のある。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "bad temper",
+      "lemma": "bad temper",
+      "meaning": "【名】不機嫌、怒りっぽい気分。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "carrying",
+      "lemma": "carry",
+      "meaning": "【動】運ぶ、持って行く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    }
+  ],
+  "act1-scene1-speech-0077": [
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客の一人。"
+    },
+    {
+      "surface": "puts down",
+      "lemma": "put down",
+      "meaning": "置く／保存のため加工する",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    }
+  ],
   "act1-scene1-speech-0078": [
     {
       "surface": "Come in",
@@ -1273,6 +3275,20 @@
       "lemma": "luggage",
       "meaning": "【名詞】\n荷物、旅行かばん類",
       "playMeaning": true
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客の一人。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
     }
   ],
   "act1-scene1-speech-0079": [
@@ -1283,7 +3299,15 @@
       "playMeaning": true
     }
   ],
-  "act1-scene1-speech-0080": [],
+  "act1-scene1-speech-0080": [
+    {
+      "surface": "front door",
+      "lemma": "front door",
+      "meaning": "【名】玄関の正面扉。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    }
+  ],
   "act1-scene1-speech-0081": [
     {
       "surface": "risk coming up the drive",
@@ -1308,6 +3332,20 @@
       "lemma": "meet a train",
       "meaning": "列車の到着時刻に駅へ迎えに行く。",
       "playMeaning": true
+    },
+    {
+      "surface": "returns",
+      "lemma": "return",
+      "meaning": "【動詞】\n戻る、返す。\n【名詞】\n戻ること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "accusingly",
+      "lemma": "accusingly",
+      "meaning": "【副】非難するように、責める調子で。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0082": [
@@ -1338,6 +3376,41 @@
       "lemma": "just",
       "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
       "playMeaning": true
+    },
+    {
+      "surface": "stands",
+      "lemma": "stand",
+      "meaning": "【動】立つ、立っている。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "hands",
+      "lemma": "hand",
+      "meaning": "【動】手渡す。【名】手。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "front door",
+      "lemma": "front door",
+      "meaning": "【名】玄関の正面扉。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
     }
   ],
   "act1-scene1-speech-0085": [
@@ -1358,11 +3431,103 @@
       "lemma": "casual",
       "meaning": "【形容詞】\n① 形式ばらない\n② 注意や計画が十分でなく、何気ない",
       "playMeaning": true
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "exit",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "disapprovingly",
+      "lemma": "disapprovingly",
+      "meaning": "【副】不賛成・非難を示すように。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "looks round",
+      "lemma": "look round",
+      "meaning": "見て回る／調べて回る",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "breathless",
+      "lemma": "breathless",
+      "meaning": "【形】息を切らした、息せき切った。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0086": [],
   "act1-scene1-speech-0087": [],
-  "act1-scene1-speech-0088": [],
+  "act1-scene1-speech-0088": [
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "uncertain",
+      "lemma": "uncertain",
+      "meaning": "【形】確信がない、ためらった、不確かな。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "to MRS. BOYLE",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    },
+    {
+      "surface": "hand",
+      "lemma": "hand",
+      "meaning": "【動】手渡す。【名】手。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "surveys",
+      "lemma": "survey",
+      "meaning": "【動】じろじろ見る、全体を見渡す、調査する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "displeasure",
+      "lemma": "displeasure",
+      "meaning": "【名】不快、不満、不機嫌。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    }
+  ],
   "act1-scene1-speech-0089": [],
   "act1-scene1-speech-0090": [],
   "act1-scene1-speech-0091": [
@@ -1373,7 +3538,15 @@
       "playMeaning": true
     }
   ],
-  "act1-scene1-speech-0092": [],
+  "act1-scene1-speech-0092": [
+    {
+      "surface": "backing away",
+      "lemma": "back away",
+      "meaning": "後ずさりする、距離を取るため後方へ下がる。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    }
+  ],
   "act1-scene1-speech-0093": [
     {
       "surface": "Quite",
@@ -1391,16 +3564,54 @@
       "surface": "dry rot",
       "lemma": "dry rot",
       "meaning": "乾腐（木材腐朽）",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "建物の木材が菌類によって腐朽するdry rot。古い家の欠陥としてMrs Boyleが心配している。"
+    },
+    {
+      "surface": "looks round",
+      "lemma": "look round",
+      "meaning": "見て回る／調べて回る",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "sniffs",
+      "lemma": "sniff",
+      "meaning": "【動】鼻を鳴らす、においをかぐ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "suspiciously",
+      "lemma": "suspiciously",
+      "meaning": "【副詞】\n疑わしそうに、疑念を抱いて。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
-  "act1-scene1-speech-0094": [],
+  "act1-scene1-speech-0094": [
+    {
+      "surface": "indignantly",
+      "lemma": "indignantly",
+      "meaning": "【副】憤慨して、心外そうに。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    }
+  ],
   "act1-scene1-speech-0095": [
     {
       "surface": "dry rot",
       "lemma": "dry rot",
       "meaning": "乾腐（木材腐朽）",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "建物の木材が菌類によって腐朽するdry rot。古い家の欠陥としてMrs Boyleが心配している。"
     }
   ],
   "act1-scene1-speech-0096": [
@@ -1434,10 +3645,94 @@
       "surface": "worm in this oak",
       "lemma": "woodworm",
       "meaning": "【名詞】\nミミズではなく、オーク材に木食い虫の被害があるという意味。",
+      "playMeaning": true,
+      "inThisPlay": "ここではミミズではなく、オーク材に木食い虫（woodworm）の被害があるという意味。"
+    },
+    {
+      "surface": "do with a coat of paint",
+      "lemma": "do with a coat of paint",
+      "meaning": "ペンキを一塗りするとよい／塗り直しが必要だ",
+      "playMeaning": true
+    },
+    {
+      "surface": "could do with",
+      "lemma": "could do with",
+      "meaning": "～があるとよい、～が必要だ。",
       "playMeaning": true
     }
   ],
-  "act1-scene1-speech-0098": [],
+  "act1-scene1-speech-0098": [
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+    },
+    {
+      "surface": "up Centre",
+      "lemma": "upstage centre",
+      "meaning": "【舞台】舞台奥の中央。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台奥中央を示す位置指定。"
+    },
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "enter",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "puts down",
+      "lemma": "put down",
+      "meaning": "置く／保存のため加工する",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "military in manner and bearing",
+      "lemma": "military bearing",
+      "meaning": "【名句】軍人らしい姿勢・身のこなし。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "carrying",
+      "lemma": "carry",
+      "meaning": "【動】運ぶ、持って行く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "puts down a suitcase he is carrying and moves above the armchair Centre; MOLLIE moves up",
+      "lemma": "hold up",
+      "meaning": "【句動】持ち上げる、掲げる；遅らせる。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    }
+  ],
   "act1-scene1-speech-0099": [
     {
       "surface": "How d'you do?",
@@ -1467,7 +3762,8 @@
       "surface": "I beg your pardon",
       "lemma": "beg your pardon",
       "meaning": "失礼しました／もう一度お願いします",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは謝罪ではなく、Mrs BoyleがMollieの発言を聞き返し、驚き・不快感を示す『何ですって？』に近い。"
     },
     {
       "surface": "goes on",
@@ -1479,20 +3775,169 @@
       "surface": "on leave",
       "lemma": "on leave",
       "meaning": "休暇中で",
+      "playMeaning": true,
+      "inThisPlay": "軍務から許可を得て休暇中で、という軍事用法。"
+    },
+    {
+      "surface": "beg your pardon",
+      "lemma": "beg your pardon",
+      "meaning": "失礼しました／もう一度お願いします",
       "playMeaning": true
+    },
+    {
+      "surface": "I beg your pardon",
+      "lemma": "I beg your pardon",
+      "meaning": "① 失礼しました／すみません\n② もう一度言ってください\n③ 驚き・異議を表す丁寧な反応。",
+      "playMeaning": true
+    },
+    {
+      "surface": "shaking hands",
+      "lemma": "shake hands",
+      "meaning": "【動詞句】握手する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "hands",
+      "lemma": "hand",
+      "meaning": "【動】手渡す。【名】手。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "sees",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "removes",
+      "lemma": "remove",
+      "meaning": "【動】取り除く、脱ぐ、移動させる。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "down Right",
+      "lemma": "downstage right",
+      "meaning": "【舞台】舞台前方の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台前方右を示す位置指定。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
     }
   ],
-  "act1-scene1-speech-0100": [],
+  "act1-scene1-speech-0100": [
+    {
+      "surface": "To MOLLIE",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    }
+  ],
   "act1-scene1-speech-0101": [
     {
       "surface": "fourposter",
       "lemma": "fourposter",
       "meaning": "【名詞】\n四本柱の天蓋ベッド",
       "playMeaning": true
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客の一人。"
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客で、Majorの軍階級で呼ばれる人物。"
+    },
+    {
+      "surface": "fourposter",
+      "lemma": "four-poster",
+      "meaning": "【名詞】\n四隅に高い柱があり、上部の枠や天蓋を支える大型ベッド。",
+      "playMeaning": true,
+      "inThisPlay": "四本の柱で天蓋を支えるfour-poster bedを指す。"
     }
   ],
-  "act1-scene1-speech-0102": [],
-  "act1-scene1-speech-0103": [],
+  "act1-scene1-speech-0102": [
+    {
+      "surface": "authoritatively",
+      "lemma": "authoritatively",
+      "meaning": "【副詞】\n権威を示すように、きっぱり命令する調子で。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    }
+  ],
+  "act1-scene1-speech-0103": [
+    {
+      "surface": "instinctively",
+      "lemma": "instinctively",
+      "meaning": "【副】本能的に、反射的に。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "down Right",
+      "lemma": "downstage right",
+      "meaning": "【舞台】舞台前方の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台前方右を示す位置指定。"
+    },
+    {
+      "surface": "fireplace",
+      "lemma": "fireplace",
+      "meaning": "【名】暖炉。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "exit",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    }
+  ],
   "act1-scene1-speech-0104": [
     {
       "surface": "servant difficulty",
@@ -1547,6 +3992,26 @@
       "lemma": "just",
       "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
       "playMeaning": true
+    },
+    {
+      "surface": "indoor staff",
+      "lemma": "indoor staff",
+      "meaning": "住み込み、または館内で常時働く使用人・従業員。",
+      "playMeaning": true
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
     }
   ],
   "act1-scene1-speech-0108": [
@@ -1555,6 +4020,13 @@
       "lemma": "in running order",
       "meaning": "設備が動くというだけでなく、宿が必要な人員や仕組みを備えて通常営業している状態。",
       "playMeaning": true
+    },
+    {
+      "surface": "full running order",
+      "lemma": "in running order",
+      "meaning": "設備が動くというだけでなく、宿が必要な人員や仕組みを備えて通常営業している状態。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは宿泊施設が必要な設備・人員を備えて通常営業できる状態。"
     }
   ],
   "act1-scene1-speech-0109": [
@@ -1562,6 +4034,12 @@
       "surface": "only just",
       "lemma": "only just",
       "meaning": "つい～したばかり／かろうじて",
+      "playMeaning": true
+    },
+    {
+      "surface": "just",
+      "lemma": "just",
+      "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
       "playMeaning": true
     }
   ],
@@ -1595,6 +4073,13 @@
       "lemma": "misleading",
       "meaning": "【形容詞】\n誤解を招く",
       "playMeaning": true
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客で、Majorの軍階級で呼ばれる人物。"
     }
   ],
   "act1-scene1-speech-0111": [],
@@ -1610,6 +4095,13 @@
       "lemma": "no less",
       "meaning": "単なる雪ではなく『よりによって吹雪』だと大げさに強調している。",
       "playMeaning": true
+    },
+    {
+      "surface": "turns",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0113": [
@@ -1618,6 +4110,20 @@
       "lemma": "foresee",
       "meaning": "【動詞】\n予見する",
       "playMeaning": true
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "quietly",
+      "lemma": "quietly",
+      "meaning": "【副】静かに、声や物音を立てずに。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0114": [
@@ -1626,15 +4132,44 @@
       "lemma": "macabre",
       "meaning": "【形容詞】\n死や恐怖を不気味に扱う、陰惨趣味の",
       "playMeaning": true
+    },
+    {
+      "surface": "singing",
+      "lemma": "sing",
+      "meaning": "【動】歌う。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
-  "act1-scene1-speech-0115": [],
+  "act1-scene1-speech-0115": [
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客の一人。"
+    },
+    {
+      "surface": "bows",
+      "lemma": "bow",
+      "meaning": "【動】おじぎをする。【名】おじぎ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    }
+  ],
   "act1-scene1-speech-0116": [
     {
       "surface": "How d'you do?",
       "lemma": "How d’you do?",
       "meaning": "はじめまして／ご機嫌いかがですか",
       "playMeaning": true
+    },
+    {
+      "surface": "coldly",
+      "lemma": "coldly",
+      "meaning": "【副】冷淡に、よそよそしく。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0117": [],
@@ -1686,6 +4221,34 @@
       "lemma": "home comfort",
       "meaning": "家庭的な快適設備",
       "playMeaning": true
+    },
+    {
+      "surface": "running concern",
+      "lemma": "going concern",
+      "meaning": "【名】現在も営業・事業活動を続けている企業・事業体。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは実際に営業・運営中の事業体という意味。"
+    },
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "stands",
+      "lemma": "stand",
+      "meaning": "【動】立つ、立っている。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0119": [
@@ -1700,9 +4263,24 @@
       "lemma": "remain",
       "meaning": "【動詞】\nそのまま残る、とどまる。",
       "playMeaning": false
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客の一人。"
     }
   ],
-  "act1-scene1-speech-0120": [],
+  "act1-scene1-speech-0120": [
+    {
+      "surface": "crossing",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    }
+  ],
   "act1-scene1-speech-0121": [
     {
       "surface": "misapprehension",
@@ -1787,6 +4365,39 @@
       "lemma": "terms",
       "meaning": "【名詞】\n① 料金・条件\n② 刑期",
       "playMeaning": true
+    },
+    {
+      "surface": "case",
+      "lemma": "case",
+      "meaning": "【名詞】\n事件、事例",
+      "playMeaning": true
+    },
+    {
+      "surface": "terms",
+      "lemma": "terms",
+      "meaning": "【名詞】\n① 料金・条件\n② 刑期",
+      "playMeaning": true
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "sits",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0122": [
@@ -1800,16 +4411,67 @@
       "surface": "turn me out",
       "lemma": "turn someone out",
       "meaning": "人を追い出す",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "人を追い出す、退去させる。"
     },
     {
       "surface": "turn me out",
       "lemma": "turn out",
       "meaning": "結局～だと分かる／結果として～になる",
       "playMeaning": true
+    },
+    {
+      "surface": "down Left",
+      "lemma": "downstage left",
+      "meaning": "【舞台】舞台前方の左側（俳優から見た左）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台前方左を示す位置指定。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "majestically",
+      "lemma": "majestically",
+      "meaning": "【副】威厳たっぷりに、堂々と。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
-  "act1-scene1-speech-0123": [],
+  "act1-scene1-speech-0123": [
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客の一人。"
+    },
+    {
+      "surface": "softly",
+      "lemma": "softly",
+      "meaning": "【副】静かに、やさしく、小声で。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "To GILES",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    },
+    {
+      "surface": "exit",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    }
+  ],
   "act1-scene1-speech-0124": [
     {
       "surface": "horrible",
@@ -1828,7 +4490,21 @@
       "lemma": "serve someone right",
       "meaning": "～には当然の報いだ／いい気味だ",
       "playMeaning": true,
-      "inThisPlay": "Mrs. Boyleが雪の中へ追い出されても『自業自得だ』というChristopherの誇張された嫌悪。実際に危害を加えようとしている発言ではない。"
+      "inThisPlay": "自業自得だ、いい気味だ。"
+    },
+    {
+      "surface": "rising",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "childishly",
+      "lemma": "childish",
+      "meaning": "【形】子どもっぽい、幼稚な。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0125": [
@@ -1856,6 +4532,61 @@
       "lemma": "come in",
       "meaning": "入ってくる／中に入る",
       "playMeaning": true
+    },
+    {
+      "surface": "got to",
+      "lemma": "got to",
+      "meaning": "～しなければならない／～する必要がある",
+      "playMeaning": true
+    },
+    {
+      "surface": "door bell peals",
+      "lemma": "doorbell",
+      "meaning": "【名】玄関の呼び鈴、ドアベル。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+    },
+    {
+      "surface": "front door",
+      "lemma": "front door",
+      "meaning": "【名】玄関の正面扉。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+    },
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "sits",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0126": [
@@ -1869,7 +4600,8 @@
       "surface": "bogged",
       "lemma": "bog down",
       "meaning": "ぬかるみではなく、車が深い雪にはまり動けなくなったこと。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは車が雪・ぬかるみに取られて動けなくなったこと。"
     },
     {
       "surface": "ran into a drift",
@@ -1882,19 +4614,98 @@
       "lemma": "snowdrift",
       "meaning": "【名詞】\n雪の吹きだまり",
       "playMeaning": true
+    },
+    {
+      "surface": "drift",
+      "lemma": "drift",
+      "meaning": "【名詞】\n雪の吹きだまり",
+      "playMeaning": true
+    },
+    {
+      "surface": "deep, manly voice",
+      "lemma": "manly voice",
+      "meaning": "【名句】低く男性的な声。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
-  "act1-scene1-speech-0127": [],
+  "act1-scene1-speech-0127": [
+    {
+      "surface": "refectory table",
+      "lemma": "refectory table",
+      "meaning": "修道院の食堂などに由来する、長く頑丈な大型食卓の様式。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "takes",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    }
+  ],
   "act1-scene1-speech-0128": [
     {
       "surface": "travel light",
       "lemma": "travel light",
       "meaning": "荷物を少なくして旅行する",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "荷物を少なくして旅行する。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "straddles",
+      "lemma": "straddle",
+      "meaning": "【動】脚を広げてまたがるように立つ・座る。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "manly fashion",
+      "lemma": "manly",
+      "meaning": "【形】男性的な、男らしい。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0129": [],
-  "act1-scene1-speech-0130": [],
+  "act1-scene1-speech-0130": [
+    {
+      "surface": "to CHRISTOPHER",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    },
+    {
+      "surface": "nods",
+      "lemma": "nod",
+      "meaning": "【動】うなずく。【名】うなずき。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    }
+  ],
   "act1-scene1-speech-0131": [],
   "act1-scene1-speech-0132": [
     {
@@ -1913,7 +4724,8 @@
       "surface": "thawed out",
       "lemma": "thaw out",
       "meaning": "体を温めて凍えを取る／解凍する",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "冷え切った体を温める、凍ったものを解かす。"
     },
     {
       "surface": "Looks as though",
@@ -1949,7 +4761,42 @@
       "surface": "provisions",
       "lemma": "provisions",
       "meaning": "【名詞】\n食料・備蓄品",
+      "playMeaning": true,
+      "inThisPlay": "食料・備蓄品。雪で孤立する可能性に備える食料を指す。"
+    },
+    {
+      "surface": "as though",
+      "lemma": "as though",
+      "meaning": "まるで～のように",
       "playMeaning": true
+    },
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+    },
+    {
+      "surface": "takes off",
+      "lemma": "take off",
+      "meaning": "【句動】衣服などを脱ぐ；離陸する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "takes",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "taking",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0133": [
@@ -1966,6 +4813,41 @@
       "lemma": "eat each other",
       "meaning": "互いを食べる。比喩・冗談で極端な飢餓状態を表すことがある。",
       "playMeaning": true
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "sits",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "stridently",
+      "lemma": "stridently",
+      "meaning": "【副】耳障りなほど鋭く・甲高く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "laughs",
+      "lemma": "laugh",
+      "meaning": "【動】笑う。【名】笑い声、笑い。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "throws",
+      "lemma": "throw",
+      "meaning": "【動】投げる、放る。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0135": [
@@ -1974,6 +4856,20 @@
       "lemma": "apart from",
       "meaning": "～を除いて／～のほかに",
       "playMeaning": true
+    },
+    {
+      "surface": "crossing",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "rising",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0136": [
@@ -2005,7 +4901,8 @@
       "surface": "juicy murder",
       "lemma": "juicy",
       "meaning": "【形容詞】\n興味をそそる、刺激的な",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは『興味をそそる、センセーショナルな』殺人事件という不謹慎な口語的用法。"
     },
     {
       "surface": "murder",
@@ -2020,6 +4917,20 @@
       "lemma": "murder",
       "meaning": "【名詞】\n故意に人を殺す犯罪、殺人。\n【動詞】\n人を故意に殺す。",
       "playMeaning": true
+    },
+    {
+      "surface": "turning",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "to MISS CASEWELL",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
     }
   ],
   "act1-scene1-speech-0138": [
@@ -2027,7 +4938,8 @@
       "surface": "homicidal maniac",
       "lemma": "homicidal maniac",
       "meaning": "殺人衝動のある狂人／殺人犯として描写された人物",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "殺人衝動をもつ狂人、という古い犯罪報道的表現。"
     },
     {
       "surface": "maniac",
@@ -2040,6 +4952,53 @@
       "lemma": "strangle",
       "meaning": "【動詞】\n① 絞殺する\n② 首を絞めて殺す",
       "playMeaning": true
+    },
+    {
+      "surface": "homicidal",
+      "lemma": "homicidal",
+      "meaning": "【形容詞】\n① 殺人的な\n② 殺人衝動のある",
+      "playMeaning": true
+    },
+    {
+      "surface": "Sex",
+      "lemma": "sex",
+      "meaning": "【名詞】\n① 性、性別\n② 性行為、性的活動",
+      "playMeaning": true
+    },
+    {
+      "surface": "Paddington",
+      "lemma": "Paddington",
+      "meaning": "【固有名詞】Paddington。ロンドン西部の地区。",
+      "playMeaning": true,
+      "inThisPlay": "ロンドン西部の地区Paddington。劇中の殺人事件の所在地として言及される。"
+    },
+    {
+      "surface": "Sex maniac",
+      "lemma": "sex maniac",
+      "meaning": "【名】性的な危険人物を指す古い大衆的表現。現代では不正確で侮蔑的になり得る。",
+      "playMeaning": true,
+      "inThisPlay": "性的動機をもつ危険人物を指す古く不正確な大衆的表現。"
+    },
+    {
+      "surface": "handing",
+      "lemma": "hand",
+      "meaning": "【動】手渡す。【名】手。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
     }
   ],
   "act1-scene1-speech-0139": [
@@ -2108,6 +5067,26 @@
       "lemma": "broadcast",
       "meaning": "【動詞・名詞】\nテレビ・ラジオなどで放送する、放送。",
       "playMeaning": true
+    },
+    {
+      "surface": "anxious",
+      "lemma": "anxious",
+      "meaning": "【形容詞】\n① 不安な\n② 切望している",
+      "playMeaning": true
+    },
+    {
+      "surface": "Culver Street",
+      "lemma": "Culver Street",
+      "meaning": "【固有名詞】\n通りの名称として用いられる固有名詞。",
+      "playMeaning": true,
+      "inThisPlay": "Paddingtonにある劇中の架空の住所・通り名で、Maureen Lyon殺害事件の現場。"
+    },
+    {
+      "surface": "sits",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0140": [
@@ -2156,6 +5135,12 @@
       "lemma": "murderer",
       "meaning": "【名詞】\n殺人犯",
       "playMeaning": true
+    },
+    {
+      "surface": "anxious",
+      "lemma": "anxious",
+      "meaning": "【形容詞】\n① 不安な\n② 切望している",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0142": [],
@@ -2167,7 +5152,15 @@
       "playMeaning": true
     }
   ],
-  "act1-scene1-speech-0144": [],
+  "act1-scene1-speech-0144": [
+    {
+      "surface": "Maureen Lyon",
+      "lemma": "Maureen Lyon",
+      "meaning": "【固有名詞】\n人名。",
+      "playMeaning": true,
+      "inThisPlay": "Culver Streetで殺害された女性としてラジオニュースに登場する劇中人物。"
+    }
+  ],
   "act1-scene1-speech-0145": [],
   "act1-scene1-speech-0146": [],
   "act1-scene1-speech-0147": [
@@ -2176,15 +5169,92 @@
       "lemma": "maniac",
       "meaning": "【名詞】\n① 狂人という古い呼称\n② 極端に熱中する人",
       "playMeaning": true
+    },
+    {
+      "surface": "sex",
+      "lemma": "sex",
+      "meaning": "【名詞】\n① 性、性別\n② 性行為、性的活動",
+      "playMeaning": true
+    },
+    {
+      "surface": "sex maniac",
+      "lemma": "sex maniac",
+      "meaning": "【名】性的な危険人物を指す古い大衆的表現。現代では不正確で侮蔑的になり得る。",
+      "playMeaning": true,
+      "inThisPlay": "性的動機をもつ危険人物を指す古く不正確な大衆的表現。"
+    },
+    {
+      "surface": "to GILES",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "to MISS CASEWELL",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
     }
   ],
-  "act1-scene1-speech-0148": [],
+  "act1-scene1-speech-0148": [
+    {
+      "surface": "Miss Casewell",
+      "lemma": "Miss Casewell",
+      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客の一人。"
+    }
+  ],
   "act1-scene1-speech-0149": [
     {
       "surface": "How d'you do?",
       "lemma": "How d’you do?",
       "meaning": "はじめまして／ご機嫌いかがですか",
       "playMeaning": true
+    },
+    {
+      "surface": "rising",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "vigorously",
+      "lemma": "vigorously",
+      "meaning": "【副】力強く、元気よく。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "shakes hands",
+      "lemma": "shake hands",
+      "meaning": "【動詞句】握手する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "hands",
+      "lemma": "hand",
+      "meaning": "【動】手渡す。【名】手。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "picks up",
+      "lemma": "pick up",
+      "meaning": "拾う／手に取る",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0150": [
@@ -2195,7 +5265,120 @@
       "playMeaning": true
     }
   ],
-  "act1-scene1-speech-0151": [],
+  "act1-scene1-speech-0151": [
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "down Left",
+      "lemma": "downstage left",
+      "meaning": "【舞台】舞台前方の左側（俳優から見た左）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台前方左を示す位置指定。"
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "refectory table",
+      "lemma": "refectory table",
+      "meaning": "修道院の食堂などに由来する、長く頑丈な大型食卓の様式。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "enter",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "exit",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "rises",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "peeps",
+      "lemma": "peep",
+      "meaning": "【動詞】\nちらりとのぞく。\n【名詞】\nちらりとのぞくこと、かすかな音。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "chuckles",
+      "lemma": "chuckle",
+      "meaning": "【動詞】\nくすくす笑う、含み笑いする。\n【名詞】\nくすくす笑い。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "unhinged mentally",
+      "lemma": "unhinged",
+      "meaning": "【形】精神的に不安定な、正気を失ったような。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】Christopherが『少し精神的に不安定な印象』を与えるように演じる指示。"
+    },
+    {
+      "surface": "carrying",
+      "lemma": "carry",
+      "meaning": "【動】運ぶ、持って行く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+    }
+  ],
   "act1-scene1-speech-0152": [
     {
       "surface": "get on with",
@@ -2238,6 +5421,20 @@
       "lemma": "custard",
       "meaning": "【名詞】\nカスタード",
       "playMeaning": true
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客の一人。"
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客で、Majorの軍階級で呼ばれる人物。"
     }
   ],
   "act1-scene1-speech-0153": [
@@ -2260,6 +5457,13 @@
       "lemma": "omelette",
       "meaning": "【名詞】\nオムレツ",
       "playMeaning": true
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
     }
   ],
   "act1-scene1-speech-0155": [
@@ -2285,7 +5489,15 @@
       "surface": "put down a lot of eggs",
       "lemma": "put down eggs",
       "meaning": "卵を『置く』のではなく、後で使えるよう保存処理して蓄えておくという古い家庭語法。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "卵を長期保存できるよう処理して貯蔵する、という当時の家庭用法。単に『下に置く』ではない。"
+    },
+    {
+      "surface": "breaks away",
+      "lemma": "break away",
+      "meaning": "【句動】離れる、振りほどいて離れる。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0156": [
@@ -2305,7 +5517,8 @@
       "surface": "continental flavour",
       "lemma": "continental",
       "meaning": "【形容詞】\nヨーロッパ大陸風の",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは英国から見たヨーロッパ大陸風の味・雰囲気。"
     },
     {
       "surface": "flavour",
@@ -2324,6 +5537,19 @@
       "lemma": "inspiration",
       "meaning": "【名詞】\nひらめき、良い思いつき",
       "playMeaning": true
+    },
+    {
+      "surface": "I daresay",
+      "lemma": "I daresay",
+      "meaning": "おそらく～だろう、たぶんね。",
+      "playMeaning": true
+    },
+    {
+      "surface": "I daresay",
+      "lemma": "daresay",
+      "meaning": "【動詞的表現】\n① たぶん～だろう\n② ～と思う",
+      "playMeaning": true,
+      "inThisPlay": "『たぶん～だろう』『～と思う』という英国的・やや古風な言い方。"
     }
   ],
   "act1-scene1-speech-0157": [
@@ -2350,6 +5576,89 @@
       "lemma": "come back",
       "meaning": "戻ってくる",
       "playMeaning": true
+    },
+    {
+      "surface": "Come on",
+      "lemma": "come on",
+      "meaning": "相手を促す「さあ」「ほら」、または反論・不信を示す表現。",
+      "playMeaning": true
+    },
+    {
+      "surface": "down Right",
+      "lemma": "downstage right",
+      "meaning": "【舞台】舞台前方の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台前方右を示す位置指定。"
+    },
+    {
+      "surface": "archway",
+      "lemma": "archway",
+      "meaning": "【名詞】\nアーチ形の開口部・通路。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "exit",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "stands",
+      "lemma": "stand",
+      "meaning": "【動】立つ、立っている。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "returns",
+      "lemma": "return",
+      "meaning": "【動詞】\n戻る、返す。\n【名詞】\n戻ること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "picks up",
+      "lemma": "pick up",
+      "meaning": "拾う／手に取る",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "frowns",
+      "lemma": "frown",
+      "meaning": "【動】眉をひそめる、しかめ面をする。【名】しかめ面。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "ejaculates",
+      "lemma": "ejaculate",
+      "meaning": "【動】古風な用法で、短い言葉を突然叫ぶ・発する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】古風な意味の『短く突然言葉を発する』。GilesがChristopherへの不満を吐き捨てる演技指示で、性的意味ではない。"
+    },
+    {
+      "surface": "to CHRISTOPHER",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
     }
   ],
   "act1-scene1-speech-0158": [
@@ -2366,6 +5675,13 @@
       "lemma": "fourposter",
       "meaning": "【名詞】\n四本柱の天蓋ベッド",
       "playMeaning": true
+    },
+    {
+      "surface": "fourposter",
+      "lemma": "four-poster",
+      "meaning": "【名詞】\n四隅に高い柱があり、上部の枠や天蓋を支える大型ベッド。",
+      "playMeaning": true,
+      "inThisPlay": "四本の柱で天蓋を支えるfour-poster bedを指す。"
     }
   ],
   "act1-scene1-speech-0160": [
@@ -2380,6 +5696,13 @@
       "lemma": "twerp",
       "meaning": "【名詞】\nばか、間抜け",
       "playMeaning": true
+    },
+    {
+      "surface": "fourposter",
+      "lemma": "four-poster",
+      "meaning": "【名詞】\n四隅に高い柱があり、上部の枠や天蓋を支える大型ベッド。",
+      "playMeaning": true,
+      "inThisPlay": "四本の柱で天蓋を支えるfour-poster bedを指す。"
     }
   ],
   "act1-scene1-speech-0161": [],
@@ -2407,6 +5730,13 @@
       "lemma": "suitcase",
       "meaning": "【名詞】\n旅行用の手提げかばん。",
       "playMeaning": false
+    },
+    {
+      "surface": "significantly",
+      "lemma": "significantly",
+      "meaning": "【副詞】\n① 重要な程度に\n② 意味ありげに、含みを持たせて。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0163": [
@@ -2415,6 +5745,27 @@
       "lemma": "brick",
       "meaning": "【名詞】\nれんが",
       "playMeaning": true
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "sits",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0164": [
@@ -2452,7 +5803,8 @@
       "surface": "bilking hotel keepers",
       "lemma": "bilk",
       "meaning": "【動詞】\n① 宿代などを踏み倒す\n② だます",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "宿屋・ホテルの料金を踏み倒して経営者をだますこと。"
     },
     {
       "surface": "hotel keepers",
@@ -2473,6 +5825,20 @@
       "lemma": "peculiar",
       "meaning": "【形容詞】\n妙な、独特な",
       "playMeaning": true
+    },
+    {
+      "surface": "Miss Casewell",
+      "lemma": "Miss Casewell",
+      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客の一人。"
+    },
+    {
+      "surface": "pauses",
+      "lemma": "pause",
+      "meaning": "【動詞】\n一時止まる、間を置く。\n【名詞】\n短い中断、間。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0166": [
@@ -2490,6 +5856,13 @@
       "lemma": "odd",
       "meaning": "【形容詞】\n① 奇妙な、普通と違う\n② 奇数の",
       "playMeaning": true
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客で、Majorの軍階級で呼ばれる人物。"
     }
   ],
   "act1-scene1-speech-0168": [
@@ -2527,6 +5900,13 @@
       "meaning": "最悪の事実・状況を知る。",
       "playMeaning": true,
       "inThisPlay": "客たちの癖や問題点が一通り分かり、これ以上意外なことはないだろうという意味。直後にParaviciniが来るため皮肉な前振りになる。"
+    },
+    {
+      "surface": "door bell rings",
+      "lemma": "doorbell",
+      "meaning": "【名】玄関の呼び鈴、ドアベル。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
     }
   ],
   "act1-scene1-speech-0171": [],
@@ -2542,17 +5922,130 @@
       "lemma": "murderer",
       "meaning": "【名詞】\n殺人犯",
       "playMeaning": true
+    },
+    {
+      "surface": "Culver Street murderer",
+      "lemma": "Culver Street murderer",
+      "meaning": "Culver Streetの殺人事件の犯人を指す表現。",
+      "playMeaning": true
+    },
+    {
+      "surface": "Culver Street",
+      "lemma": "Culver Street",
+      "meaning": "【固有名詞】\n通りの名称として用いられる固有名詞。",
+      "playMeaning": true,
+      "inThisPlay": "Paddingtonにある劇中の架空の住所・通り名で、Maureen Lyon殺害事件の現場。"
     }
   ],
-  "act1-scene1-speech-0173": [],
-  "act1-scene1-speech-0174": [],
+  "act1-scene1-speech-0173": [
+    {
+      "surface": "rising",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "front door",
+      "lemma": "front door",
+      "meaning": "【名】玄関の正面扉。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    }
+  ],
+  "act1-scene1-speech-0174": [
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+    },
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "puts down",
+      "lemma": "put down",
+      "meaning": "置く／保存のため加工する",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "flamboyant moustache",
+      "lemma": "flamboyant moustache",
+      "meaning": "【名句】派手で目立つ口ひげ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "Hercule Poirot",
+      "lemma": "Hercule Poirot",
+      "meaning": "【固有名詞】アガサ・クリスティ作品に登場するベルギー人探偵エルキュール・ポアロ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】Paraviciniの外見をAgatha Christieの探偵Hercule Poirotに似たものとして観客へ説明する比較。"
+    },
+    {
+      "surface": "staggers",
+      "lemma": "stagger",
+      "meaning": "【動詞】\nよろめきながら進む",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "leans",
+      "lemma": "lean",
+      "meaning": "【動】寄りかかる、身を傾ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "carrying",
+      "lemma": "carry",
+      "meaning": "【動】運ぶ、持って行く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    }
+  ],
   "act1-scene1-speech-0175": [
     {
       "surface": "A thousand pardons",
       "lemma": "a thousand pardons",
       "meaning": "非常に丁寧・大げさに謝る『どうかお許しを』という表現。",
       "playMeaning": true,
-      "inThisPlay": "文字どおり千回謝るのではなく、Paraviciniらしい大げさで芝居がかった『大変失礼』。"
+      "inThisPlay": "大変失礼しました、どうかお許しを、という大げさで丁寧な謝罪表現。"
     },
     {
       "surface": "pardons",
@@ -2561,7 +6054,22 @@
       "playMeaning": false
     }
   ],
-  "act1-scene1-speech-0176": [],
+  "act1-scene1-speech-0176": [
+    {
+      "surface": "Monkswell Manor",
+      "lemma": "Monkswell Manor",
+      "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
+      "playMeaning": true,
+      "inThisPlay": "本作の主要舞台となる屋敷の名称。"
+    },
+    {
+      "surface": "Monkswell Manor Guest House",
+      "lemma": "Monkswell Manor Guest House",
+      "meaning": "【固有名詞】Monkswell Manor Guest House。本作でMollieとGilesが営む宿泊施設名。",
+      "playMeaning": true,
+      "inThisPlay": "MollieとGilesが始めたゲストハウスの名称。"
+    }
+  ],
   "act1-scene1-speech-0177": [
     {
       "surface": "stupendous",
@@ -2648,6 +6156,83 @@
       "lemma": "despair",
       "meaning": "【名詞・動詞】\n希望を失った絶望、絶望する。",
       "playMeaning": true
+    },
+    {
+      "surface": "Rolls-Royce",
+      "lemma": "Rolls-Royce",
+      "meaning": "【固有名詞】Rolls-Royce。英国の高級自動車ブランド。",
+      "playMeaning": true,
+      "inThisPlay": "英国の高級自動車ブランド。Paraviciniが自分の車として言及する。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "kisses",
+      "lemma": "kiss",
+      "meaning": "【動】キスをする、口づけする。【名】キス。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "to MOLLIE",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    },
+    {
+      "surface": "takes",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "hand",
+      "lemma": "hand",
+      "meaning": "【動】手渡す。【名】手。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "looks round",
+      "lemma": "look round",
+      "meaning": "見て回る／調べて回る",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "changing his manner",
+      "lemma": "change one’s manner",
+      "meaning": "【動詞句】態度・話し方・振る舞いを変える。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene1-speech-0178": [],
@@ -2672,9 +6257,23 @@
       "lemma": "rather",
       "meaning": "【副詞】\n① やや\n② かなり\n③ むしろ",
       "playMeaning": true
+    },
+    {
+      "surface": "just",
+      "lemma": "just",
+      "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
+      "playMeaning": true
     }
   ],
-  "act1-scene1-speech-0182": [],
+  "act1-scene1-speech-0182": [
+    {
+      "surface": "leering",
+      "lemma": "leer",
+      "meaning": "【動詞】\nいやらしさ・悪意などを含んだ目つきで見る。\n【名詞】\nそのような視線・表情。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    }
+  ],
   "act1-scene1-speech-0183": [
     {
       "surface": "luggage",
@@ -2716,6 +6315,20 @@
       "lemma": "want",
       "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
       "playMeaning": true
+    },
+    {
+      "surface": "thieves abroad",
+      "lemma": "abroad",
+      "meaning": "【副詞】\n海外へ、海外で。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは『海外に』ではなく、古風に『外に出ている／出歩いている』の意味。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
     }
   ],
   "act1-scene1-speech-0187": [
@@ -2742,10 +6355,60 @@
       "lemma": "occupied",
       "meaning": "【形容詞】\n① 使用中の、ふさがっている\n② 忙しい",
       "playMeaning": true
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
     }
   ],
   "act1-scene1-speech-0188": [],
-  "act1-scene1-speech-0189": [],
+  "act1-scene1-speech-0189": [
+    {
+      "surface": "Christopher Wren",
+      "lemma": "Christopher Wren",
+      "meaning": "【固有名詞】\n英語の人名。",
+      "playMeaning": true,
+      "inThisPlay": "宿泊客Christopherの姓名。著名な建築家Sir Christopher Wrenと同名であることが劇中の冗談になっている。"
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客の一人。"
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客で、Majorの軍階級で呼ばれる人物。"
+    },
+    {
+      "surface": "Miss Casewell",
+      "lemma": "Miss Casewell",
+      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客の一人。"
+    }
+  ],
   "act1-scene1-speech-0190": [
     {
       "surface": "unexpected",
@@ -2855,6 +6518,123 @@
       "lemma": "by the way",
       "meaning": "ところで／ちなみに",
       "playMeaning": true
+    },
+    {
+      "surface": "cut off from",
+      "lemma": "cut off from",
+      "meaning": "～から遮断される",
+      "playMeaning": true
+    },
+    {
+      "surface": "cut off",
+      "lemma": "cut off",
+      "meaning": "大雪で道路・配達・郵便などが止まり、Monkswell Manorが外界から物理的に孤立すること。場面全体の重要な転換点。／雪で道路が遮断され、さらに電話も使えなくなり、外部との移動・通信の両方が断たれた状態。",
+      "playMeaning": true
+    },
+    {
+      "surface": "Monkswell Manor",
+      "lemma": "Monkswell Manor",
+      "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
+      "playMeaning": true,
+      "inThisPlay": "本作の主要舞台となる屋敷の名称。"
+    },
+    {
+      "surface": "Monkswell Manor Guest House",
+      "lemma": "Monkswell Manor Guest House",
+      "meaning": "【固有名詞】Monkswell Manor Guest House。本作でMollieとGilesが営む宿泊施設名。",
+      "playMeaning": true,
+      "inThisPlay": "MollieとGilesが始めたゲストハウスの名称。"
+    },
+    {
+      "surface": "laughs",
+      "lemma": "laugh",
+      "meaning": "【動】笑う。【名】笑い声、笑い。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "high good humour",
+      "lemma": "high good humour",
+      "meaning": "【名句】非常に上機嫌な状態、たいへん陽気な気分。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "nods his head",
+      "lemma": "nod one’s head",
+      "meaning": "【動詞句】うなずく、頭を縦に振る。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "grins",
+      "lemma": "grin",
+      "meaning": "【動詞】\n歯を見せてにっと笑う。\n【名詞】\nにやりとした笑い。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "nods",
+      "lemma": "nod",
+      "meaning": "【動】うなずく。【名】うなずき。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "looks round",
+      "lemma": "look round",
+      "meaning": "見て回る／調べて回る",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "fireplace",
+      "lemma": "fireplace",
+      "meaning": "【名】暖炉。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "Curtain falls",
+      "lemma": "curtain falls",
+      "meaning": "【舞台】幕が下りる。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】幕が下り場面が終わることを示す。"
+    },
+    {
+      "surface": "uneasily",
+      "lemma": "uneasily",
+      "meaning": "【副】不安そうに、落ち着かない様子で。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene2-speech-0001": [
@@ -2869,6 +6649,54 @@
       "lemma": "only just",
       "meaning": "つい～したばかり／かろうじて",
       "playMeaning": true
+    },
+    {
+      "surface": "just",
+      "lemma": "just",
+      "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
+      "playMeaning": true
+    },
+    {
+      "surface": "Scene",
+      "lemma": "scene heading",
+      "meaning": "【舞台】場面を示す見出し。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "The following afternoon",
+      "lemma": "the following afternoon",
+      "meaning": "【名句】その翌日の午後。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "Curtain rises",
+      "lemma": "curtain rises",
+      "meaning": "【舞台】幕が上がる。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】幕が上がり場面が始まることを示す。"
+    },
+    {
+      "surface": "rises",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "seated",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "sitting",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene2-speech-0002": [
@@ -2895,6 +6723,12 @@
       "lemma": "marmalade",
       "meaning": "【名詞】\nマーマレード",
       "playMeaning": true
+    },
+    {
+      "surface": "got to",
+      "lemma": "got to",
+      "meaning": "～しなければならない／～する必要がある",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0003": [
@@ -2915,6 +6749,12 @@
       "lemma": "staff",
       "meaning": "【名詞】\n職員、従業員",
       "playMeaning": true
+    },
+    {
+      "surface": "proper staff",
+      "lemma": "proper staff",
+      "meaning": "目的にかなった十分な正式の職員・従業員体制。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0004": [],
@@ -2924,6 +6764,13 @@
       "lemma": "cornbeef",
       "meaning": "【名詞】\nコンビーフ",
       "playMeaning": true
+    },
+    {
+      "surface": "Cornbeef",
+      "lemma": "corned beef",
+      "meaning": "【名】塩漬け牛肉、コーンビーフ。",
+      "playMeaning": true,
+      "inThisPlay": "劇中の綴りはCornbeef。塩漬け牛肉（corned beef）を指す。"
     }
   ],
   "act1-scene2-speech-0006": [
@@ -2938,6 +6785,19 @@
       "lemma": "cornbeef",
       "meaning": "【名詞】\nコンビーフ",
       "playMeaning": true
+    },
+    {
+      "surface": "cornbeef",
+      "lemma": "corned beef",
+      "meaning": "【名】塩漬け牛肉、コーンビーフ。",
+      "playMeaning": true,
+      "inThisPlay": "劇中の綴りはCornbeef。塩漬け牛肉（corned beef）を指す。"
+    },
+    {
+      "surface": "Red",
+      "lemma": "Red",
+      "meaning": "【名】政治的俗称で共産主義者・急進左派。【形】赤い。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0007": [
@@ -2946,6 +6806,27 @@
       "lemma": "radiator",
       "meaning": "【名詞】\n暖房用ラジエーター",
       "playMeaning": true
+    },
+    {
+      "surface": "radiator",
+      "lemma": "radiator",
+      "meaning": "【名詞】\n暖房用ラジエーター",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "crossing",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "rising",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene2-speech-0008": [
@@ -2974,6 +6855,20 @@
       "lemma": "peculiar",
       "meaning": "【形容詞】\n妙な、独特な",
       "playMeaning": true
+    },
+    {
+      "surface": "sits",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "returns",
+      "lemma": "return",
+      "meaning": "【動詞】\n戻る、返す。\n【名詞】\n戻ること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene2-speech-0010": [
@@ -2987,7 +6882,8 @@
       "surface": "First come, first served",
       "lemma": "first come, first served",
       "meaning": "早い者勝ち／先着順",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "先に来た人から先にサービス・権利を得る、早い者勝ち。"
     }
   ],
   "act1-scene2-speech-0011": [
@@ -3035,6 +6931,13 @@
       "meaning": "年配の女性たちが特に喜びそうな場所・もの、という古風でからかいを含む表現。",
       "playMeaning": true,
       "inThisPlay": "Major MetcalfがMrs. Boyleの期待する、年配の女性客が喜びそうな保守的で快適な宿をからかって表現している。Mrs. Boyle自身への軽い皮肉。"
+    },
+    {
+      "surface": "old tabbies",
+      "lemma": "old tabby",
+      "meaning": "【名】tabby は猫；古風な俗語で年配の女性を指すことがあり、軽蔑的に響く。",
+      "playMeaning": true,
+      "inThisPlay": "年配女性を指す古風で軽蔑的な口語。Major MetcalfがMrs Boyleのような客層をからかっている。"
     }
   ],
   "act1-scene2-speech-0013": [
@@ -3042,6 +6945,19 @@
       "surface": "I beg your pardon",
       "lemma": "beg your pardon",
       "meaning": "失礼しました／もう一度お願いします",
+      "playMeaning": true,
+      "inThisPlay": "ここでは謝罪ではなく、Mrs BoyleがMollieの発言を聞き返し、驚き・不快感を示す『何ですって？』に近い。"
+    },
+    {
+      "surface": "beg your pardon",
+      "lemma": "beg your pardon",
+      "meaning": "失礼しました／もう一度お願いします",
+      "playMeaning": true
+    },
+    {
+      "surface": "I beg your pardon",
+      "lemma": "I beg your pardon",
+      "meaning": "① 失礼しました／すみません\n② もう一度言ってください\n③ 驚き・異議を表す丁寧な反応。",
       "playMeaning": true
     }
   ],
@@ -3051,6 +6967,20 @@
       "lemma": "quite",
       "meaning": "【副詞】\n① かなり\n② 完全に",
       "playMeaning": true
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "unnoticed",
+      "lemma": "unnoticed",
+      "meaning": "【形・副】気づかれない、誰にも気づかれずに。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene2-speech-0015": [
@@ -3067,7 +6997,36 @@
       "playMeaning": true
     }
   ],
-  "act1-scene2-speech-0016": [],
+  "act1-scene2-speech-0016": [
+    {
+      "surface": "laughing",
+      "lemma": "laugh",
+      "meaning": "【動】笑う。【名】笑い声、笑い。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "up Left",
+      "lemma": "upstage left",
+      "meaning": "【舞台】舞台奥の左側（俳優から見た左）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥左を示す位置指定。"
+    },
+    {
+      "surface": "library",
+      "lemma": "library",
+      "meaning": "【名】書斎・図書室、図書館。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    }
+  ],
   "act1-scene2-speech-0017": [
     {
       "surface": "peculiar",
@@ -3092,6 +7051,13 @@
       "lemma": "I shouldn’t wonder",
       "meaning": "たぶんそうだろう",
       "playMeaning": true
+    },
+    {
+      "surface": "Unbalanced mentally",
+      "lemma": "mentally unbalanced",
+      "meaning": "【形】精神的に不安定な。人については現在ではより配慮した表現が好まれる。",
+      "playMeaning": true,
+      "inThisPlay": "精神的に不安定な、という当時の表現。現代では人についてより配慮した表現が一般的。"
     }
   ],
   "act1-scene2-speech-0018": [
@@ -3108,23 +7074,175 @@
       "meaning": "【名詞】\n狂人という古い侮蔑的呼称",
       "playMeaning": true,
       "inThisPlay": "Major MetcalfがMrs. Boyleの疑いに合わせて「精神病院から逃げてきたと思うのか」と皮肉っぽく返している。Christopherについての事実ではない。"
+    },
+    {
+      "surface": "lunatic asylum",
+      "lemma": "lunatic asylum",
+      "meaning": "【名】精神科病院を指した歴史的名称。現在では lunatic は人を指す語として侮蔑的。",
+      "playMeaning": true,
+      "inThisPlay": "精神科病院を指した歴史的・現在では不適切な表現。劇中人物の時代的な言い方。"
     }
   ],
-  "act1-scene2-speech-0019": [],
-  "act1-scene2-speech-0020": [],
-  "act1-scene2-speech-0021": [],
+  "act1-scene2-speech-0019": [
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "archway",
+      "lemma": "archway",
+      "meaning": "【名詞】\nアーチ形の開口部・通路。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    }
+  ],
+  "act1-scene2-speech-0020": [
+    {
+      "surface": "calling",
+      "lemma": "calling",
+      "meaning": "【動】call の -ing 形。呼びかけること、声をかけること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    }
+  ],
+  "act1-scene2-speech-0021": [
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+    }
+  ],
   "act1-scene2-speech-0022": [],
-  "act1-scene2-speech-0023": [],
+  "act1-scene2-speech-0023": [
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+    },
+    {
+      "surface": "disappears",
+      "lemma": "disappear",
+      "meaning": "【動】姿を消す、見えなくなる。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    }
+  ],
   "act1-scene2-speech-0024": [
     {
       "surface": "exercise",
       "lemma": "exercise",
       "meaning": "【名詞】\n健康や能力の維持・向上のために身体や技能を使う活動。\n【動詞】\nまた、そのような活動を行う。",
       "playMeaning": false
+    },
+    {
+      "surface": "give you a hand",
+      "lemma": "give someone a hand",
+      "meaning": "人を手伝う、力を貸す。",
+      "playMeaning": true,
+      "inThisPlay": "手伝う、力を貸す。"
+    },
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "rises",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "returns",
+      "lemma": "return",
+      "meaning": "【動詞】\n戻る、返す。\n【名詞】\n戻ること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "carrying",
+      "lemma": "carry",
+      "meaning": "【動】運ぶ、持って行く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "vacuum cleaner",
+      "lemma": "vacuum cleaner",
+      "meaning": "【名】掃除機。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "duster",
+      "lemma": "duster",
+      "meaning": "【名】ほこりを払う布・はたき。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "collides",
+      "lemma": "collide",
+      "meaning": "【動】衝突する、ぶつかる。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene2-speech-0025": [],
-  "act1-scene2-speech-0026": [],
+  "act1-scene2-speech-0026": [
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    }
+  ],
   "act1-scene2-speech-0027": [
     {
       "surface": "incredible",
@@ -3142,12 +7260,19 @@
       "surface": "carpet sweeper",
       "lemma": "carpet sweeper",
       "meaning": "電動掃除機ではなく、ブラシとローラーでカーペット上のごみを集める手押し式の掃除用具。時代背景の理解に重要。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "電動掃除機以前から使われた、ブラシとローラーで絨毯のごみを集める手動式掃除具。"
     },
     {
       "surface": "sweeper",
       "lemma": "sweeper",
       "meaning": "【名詞】\n① 掃除人\n② 掃除用具",
+      "playMeaning": true
+    },
+    {
+      "surface": "back stairs",
+      "lemma": "back stairs",
+      "meaning": "建物の裏側・使用人用などに設けられた裏階段。",
       "playMeaning": true
     }
   ],
@@ -3157,6 +7282,27 @@
       "lemma": "convenient",
       "meaning": "【形容詞】\n① 都合がよい\n② 便利な",
       "playMeaning": true
+    },
+    {
+      "surface": "taking",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "lights the cigarette",
+      "lemma": "light a cigarette",
+      "meaning": "【動詞句】たばこに火をつける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene2-speech-0029": [],
@@ -3198,6 +7344,12 @@
       "lemma": "staff",
       "meaning": "【名詞】\n職員、従業員",
       "playMeaning": true
+    },
+    {
+      "surface": "proper staff",
+      "lemma": "proper staff",
+      "meaning": "目的にかなった十分な正式の職員・従業員体制。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0032": [
@@ -3220,7 +7372,7 @@
       "lemma": "lower classes",
       "meaning": "社会階層を上下で捉える古い分類で、比較的低い社会階層とされた人々。",
       "playMeaning": true,
-      "inThisPlay": "Mrs. Boyleが使用人層・労働者階級を見下した調子でまとめて呼ぶ、当時の階級意識を反映した表現。"
+      "inThisPlay": "階級社会で労働者層などを下位階級として呼ぶ表現。Mrs Boyleの階級意識を示す。"
     },
     {
       "surface": "responsibilities",
@@ -3235,14 +7387,7 @@
       "lemma": "lower classes",
       "meaning": "社会階層を上下で捉える古い分類で、比較的低い社会階層とされた人々。",
       "playMeaning": true,
-      "inThisPlay": "CasewellがMrs. Boyleの階級的な言い方をそのまま受けて、皮肉を込めて繰り返している。"
-    },
-    {
-      "surface": "Got the bit between their teeth",
-      "lemma": "get the bit between one’s teeth",
-      "meaning": "やる気になって突っ走る",
-      "playMeaning": true,
-      "inThisPlay": "ここでは「下の階級の人々が自分たちの意思で動くようになり、雇う側が思い通りに扱えなくなった」という比喩。CasewellはMrs. Boyleの階級意識をからかっている。"
+      "inThisPlay": "階級社会で労働者層などを下位階級として呼ぶ表現。Mrs Boyleの階級意識を示す。"
     },
     {
       "surface": "Got the bit between their teeth",
@@ -3250,6 +7395,13 @@
       "meaning": "馬がはみ(bit)を歯で強くくわえて制御しにくくなる比喩。",
       "playMeaning": true,
       "inThisPlay": "ここでは「下の階級の人々が自分たちの意思で動くようになり、雇う側が思い通りに扱えなくなった」という比喩。CasewellはMrs. Boyleの階級意識をからかっている。"
+    },
+    {
+      "surface": "bit between their teeth",
+      "lemma": "get the bit between one's teeth",
+      "meaning": "馬がはみ(bit)を歯で強くくわえて制御しにくくなる比喩。",
+      "playMeaning": true,
+      "inThisPlay": "馬がbit（はみ）を歯の間に強く取る比喩から、勢いづいて自分の思うままに進む・手に負えなくなる。"
     }
   ],
   "act1-scene2-speech-0035": [
@@ -3263,7 +7415,15 @@
       "surface": "Socialist",
       "lemma": "socialist",
       "meaning": "【名詞】\n社会主義を支持する人。\n【形容詞】\nまた、社会主義に関する。",
-      "playMeaning": false
+      "playMeaning": true,
+      "inThisPlay": "ここでは社会主義者という政治的呼称。"
+    },
+    {
+      "surface": "frostily",
+      "lemma": "frostily",
+      "meaning": "【副】冷ややかに、よそよそしく。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene2-speech-0036": [
@@ -3291,6 +7451,40 @@
       "lemma": "abroad",
       "meaning": "【副詞】\n海外へ、海外で。",
       "playMeaning": true
+    },
+    {
+      "surface": "a Red",
+      "lemma": "Red",
+      "meaning": "【名】政治的俗称で共産主義者・急進左派。【形】赤い。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは文字どおり赤色ではなく、共産主義者・急進左派を指す当時の政治的俗称。"
+    },
+    {
+      "surface": "pale pink",
+      "lemma": "pale pink",
+      "meaning": "【名・形】淡いピンク色；政治的比喩で、穏健な左派・社会主義寄り。",
+      "playMeaning": true,
+      "inThisPlay": "政治思想を色にたとえ、『赤＝共産主義者』ほどではない穏健な左派だという冗談。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "sits",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "Red",
+      "lemma": "Red",
+      "meaning": "【名】政治的俗称で共産主義者・急進左派。【形】赤い。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0037": [
@@ -3314,11 +7508,19 @@
       "surface": "gone sadly downhill",
       "lemma": "go downhill",
       "meaning": "悪化する／衰える",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは国の状態・水準が『すっかり悪くなった』という比喩。"
     }
   ],
   "act1-scene2-speech-0040": [],
-  "act1-scene2-speech-0041": [],
+  "act1-scene2-speech-0041": [
+    {
+      "surface": "England",
+      "lemma": "England",
+      "meaning": "【固有名詞】イングランド。英国を構成する地域の一つ。",
+      "playMeaning": true
+    }
+  ],
   "act1-scene2-speech-0042": [
     {
       "surface": "business",
@@ -3339,10 +7541,74 @@
       "playMeaning": true
     }
   ],
-  "act1-scene2-speech-0043": [],
+  "act1-scene2-speech-0043": [
+    {
+      "surface": "France",
+      "lemma": "France",
+      "meaning": "【固有名詞】フランス。",
+      "playMeaning": true
+    }
+  ],
   "act1-scene2-speech-0044": [],
-  "act1-scene2-speech-0045": [],
-  "act1-scene2-speech-0046": [],
+  "act1-scene2-speech-0045": [
+    {
+      "surface": "Italy",
+      "lemma": "Italy",
+      "meaning": "【固有名詞】イタリア。",
+      "playMeaning": true
+    }
+  ],
+  "act1-scene2-speech-0046": [
+    {
+      "surface": "grins",
+      "lemma": "grin",
+      "meaning": "【動詞】\n歯を見せてにっと笑う。\n【名詞】\nにやりとした笑い。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "softly",
+      "lemma": "softly",
+      "meaning": "【副】静かに、やさしく、小声で。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "enquiringly",
+      "lemma": "enquiringly",
+      "meaning": "【副】尋ねるように、問いかけるような表情・調子で。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "volume",
+      "lemma": "volume",
+      "meaning": "【名】音量、ボリューム。【名】冊・巻、容積。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+    },
+    {
+      "surface": "looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "turns",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    }
+  ],
   "act1-scene2-speech-0047": [
     {
       "surface": "Would you mind",
@@ -3367,6 +7633,13 @@
       "lemma": "distract",
       "meaning": "【動詞】\n人の注意を別のものへそらし、集中を妨げる。",
       "playMeaning": false
+    },
+    {
+      "surface": "annoyed",
+      "lemma": "annoyed",
+      "meaning": "【未分類】\nいら立った、腹を立てた。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene2-speech-0048": [],
@@ -3390,10 +7663,137 @@
       "lemma": "favourite",
       "meaning": "【形容詞】\nお気に入りの",
       "playMeaning": true
+    },
+    {
+      "surface": "up Left",
+      "lemma": "upstage left",
+      "meaning": "【舞台】舞台奥の左側（俳優から見た左）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥左を示す位置指定。"
+    },
+    {
+      "surface": "library",
+      "lemma": "library",
+      "meaning": "【名】書斎・図書室、図書館。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "nods",
+      "lemma": "nod",
+      "meaning": "【動】うなずく。【名】うなずき。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene2-speech-0051": [],
-  "act1-scene2-speech-0052": [],
+  "act1-scene2-speech-0052": [
+    {
+      "surface": "dances",
+      "lemma": "dance",
+      "meaning": "【動】踊る。【名】踊り、ダンス。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "up Left",
+      "lemma": "upstage left",
+      "meaning": "【舞台】舞台奥の左側（俳優から見た左）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥左を示す位置指定。"
+    },
+    {
+      "surface": "library",
+      "lemma": "library",
+      "meaning": "【名】書斎・図書室、図書館。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "refectory table",
+      "lemma": "refectory table",
+      "meaning": "修道院の食堂などに由来する、長く頑丈な大型食卓の様式。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "rises",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "picks up",
+      "lemma": "pick up",
+      "meaning": "拾う／手に取る",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "glare",
+      "lemma": "glare",
+      "meaning": "【動】にらみつける。【名】怒った強い視線。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "stubs out",
+      "lemma": "stub out",
+      "meaning": "【句動】たばこなどの火を押しつぶして消す。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "grins",
+      "lemma": "grin",
+      "meaning": "【動詞】\n歯を見せてにっと笑う。\n【名詞】\nにやりとした笑い。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "stubs out her cigarette",
+      "lemma": "stub out",
+      "meaning": "【句動】たばこなどの火を押しつぶして消す。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "sits",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "down Left",
+      "lemma": "downstage left",
+      "meaning": "【舞台】舞台前方の左側（俳優から見た左）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台前方左を示す位置指定。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    }
+  ],
   "act1-scene2-speech-0053": [],
   "act1-scene2-speech-0054": [
     {
@@ -3422,6 +7822,20 @@
       "lemma": "positively",
       "meaning": "【副詞】\n① 実に\n② はっきりと",
       "playMeaning": true
+    },
+    {
+      "surface": "library",
+      "lemma": "library",
+      "meaning": "【名】書斎・図書室、図書館。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "gesturing",
+      "lemma": "gesture",
+      "meaning": "【動詞】\n身振りで示す。\n【名詞】\n身振り、ジェスチャー。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene2-speech-0056": [
@@ -3430,6 +7844,27 @@
       "lemma": "turn down",
       "meaning": "音量などを下げる",
       "playMeaning": true
+    },
+    {
+      "surface": "indicating",
+      "lemma": "indicate",
+      "meaning": "【動】指し示す、合図する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "softly",
+      "lemma": "softly",
+      "meaning": "【副】静かに、やさしく、小声で。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "turns",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene2-speech-0057": [],
@@ -3445,6 +7880,13 @@
       "lemma": "purpose",
       "meaning": "【名詞】\n何かを行う理由、達成しようとする目的。",
       "playMeaning": false
+    },
+    {
+      "surface": "served its purpose",
+      "lemma": "serve one’s purpose",
+      "meaning": "目的を果たす、役に立つ。",
+      "playMeaning": true,
+      "inThisPlay": "目的を果たした、狙いどおりの役目を終えた。"
     }
   ],
   "act1-scene2-speech-0059": [],
@@ -3453,13 +7895,42 @@
       "surface": "Tactics",
       "lemma": "tactics",
       "meaning": "【名詞】\n戦術、やり方",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここではMrs Boyleを部屋から追い出して椅子を取るための『作戦』という冗談。"
     },
     {
       "surface": "Tactics",
       "lemma": "tactic",
       "meaning": "【名詞】\n目的を達成するために用いる具体的な方法・作戦。",
       "playMeaning": true
+    },
+    {
+      "surface": "library",
+      "lemma": "library",
+      "meaning": "【名】書斎・図書室、図書館。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "puzzled",
+      "lemma": "puzzled",
+      "meaning": "【形】困惑した、当惑した。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "indicates",
+      "lemma": "indicate",
+      "meaning": "【動】指し示す、合図する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene2-speech-0061": [],
@@ -3469,6 +7940,13 @@
       "lemma": "pinch",
       "meaning": "【動詞】\n指などでつまむ。\n【名詞】\nまた口語では、物を盗む・無断で取るという意味になることがある。",
       "playMeaning": true
+    },
+    {
+      "surface": "pinched the best chair",
+      "lemma": "pinch",
+      "meaning": "【動詞】\n指などでつまむ。\n【名詞】\nまた口語では、物を盗む・無断で取るという意味になることがある。",
+      "playMeaning": true,
+      "inThisPlay": "英国口語で『盗む・勝手に取る』。ここではMrs Boyleが一番よい椅子を取ったという意味。"
     }
   ],
   "act1-scene2-speech-0063": [
@@ -3483,6 +7961,20 @@
       "lemma": "annoy",
       "meaning": "【動詞】\n人をいら立たせる、うんざりさせる。",
       "playMeaning": false
+    },
+    {
+      "surface": "crossing",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "to MISS CASEWELL",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
     }
   ],
   "act1-scene2-speech-0064": [
@@ -3490,7 +7982,8 @@
       "surface": "Not a hope",
       "lemma": "not a hope",
       "meaning": "可能性がまったくない、望みがない。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "『見込みはまったくない』『とても無理だ』という口語的定型表現。"
     }
   ],
   "act1-scene2-speech-0065": [
@@ -3533,6 +8026,13 @@
       "lemma": "pure",
       "meaning": "【形容詞】\n① 他の物が混じっていない\n② 比喩的に、完全にその性質だけを持つ",
       "playMeaning": false
+    },
+    {
+      "surface": "goes to",
+      "lemma": "go to",
+      "meaning": "【動詞句】～へ行く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene2-speech-0068": [],
@@ -3545,13 +8045,29 @@
     }
   ],
   "act1-scene2-speech-0070": [],
-  "act1-scene2-speech-0071": [],
+  "act1-scene2-speech-0071": [
+    {
+      "surface": "windowseat",
+      "lemma": "window seat",
+      "meaning": "【名】窓際に造り付けられた腰掛け。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "sits",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    }
+  ],
   "act1-scene2-speech-0072": [
     {
       "surface": "chilblains",
       "lemma": "chilblain",
       "meaning": "【名詞】\nしもやけ",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "寒さで手足などにできるしもやけ。"
     },
     {
       "surface": "raw",
@@ -3576,6 +8092,13 @@
       "lemma": "fear",
       "meaning": "【名詞】\n危険や悪い結果を予想して感じる恐れ、不安。\n【動詞】\nまた、それを恐れる。",
       "playMeaning": false
+    },
+    {
+      "surface": "ragged blanket",
+      "lemma": "ragged",
+      "meaning": "【形】ぼろぼろの、擦り切れた；不ぞろいな。",
+      "playMeaning": true,
+      "inThisPlay": "ここではぼろぼろに擦り切れた毛布。"
     }
   ],
   "act1-scene2-speech-0073": [
@@ -3587,13 +8110,105 @@
     }
   ],
   "act1-scene2-speech-0074": [],
-  "act1-scene2-speech-0075": [],
+  "act1-scene2-speech-0075": [
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "rises",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    }
+  ],
   "act1-scene2-speech-0076": [
     {
       "surface": "disappoint",
       "lemma": "disappoint",
       "meaning": "【動詞】\n期待どおりにならず、人を失望させる。",
       "playMeaning": false
+    },
+    {
+      "surface": "puts the magazine up",
+      "lemma": "hold up",
+      "meaning": "【句動】持ち上げる、掲げる；遅らせる。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "drawing room",
+      "lemma": "drawing room",
+      "meaning": "【名】応接間、客間。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "doubtfully",
+      "lemma": "doubtfully",
+      "meaning": "【副】疑わしそうに、ためらいながら。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "telephone rings",
+      "lemma": "telephone rings",
+      "meaning": "【表現】電話のベルが鳴る。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+    },
+    {
+      "surface": "duster",
+      "lemma": "duster",
+      "meaning": "【名】ほこりを払う布・はたき。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "turns",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "hand",
+      "lemma": "hand",
+      "meaning": "【動】手渡す。【名】手。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "goes to",
+      "lemma": "go to",
+      "meaning": "【動詞句】～へ行く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene2-speech-0077": [
@@ -3638,6 +8253,111 @@
       "lemma": "Hullo",
       "meaning": "【間投詞】\n① やあ\n② もしもし",
       "playMeaning": true
+    },
+    {
+      "surface": "Monkswell Manor",
+      "lemma": "Monkswell Manor",
+      "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
+      "playMeaning": true,
+      "inThisPlay": "本作の主要舞台となる屋敷の名称。"
+    },
+    {
+      "surface": "Monkswell Manor Guest House",
+      "lemma": "Monkswell Manor Guest House",
+      "meaning": "【固有名詞】Monkswell Manor Guest House。本作でMollieとGilesが営む宿泊施設名。",
+      "playMeaning": true,
+      "inThisPlay": "MollieとGilesが始めたゲストハウスの名称。"
+    },
+    {
+      "surface": "Berkshire Police",
+      "lemma": "Berkshire Police",
+      "meaning": "【固有名詞】Berkshire地域の警察を指す名称。",
+      "playMeaning": true,
+      "inThisPlay": "Berkshire地域の警察として劇中で電話の相手に言及される組織。"
+    },
+    {
+      "surface": "Superintendent Hogben",
+      "lemma": "Superintendent Hogben",
+      "meaning": "【固有名詞】Superintendent Hogbenという人名・警察官の呼称。Superintendentは英国警察の階級名。",
+      "playMeaning": true,
+      "inThisPlay": "Berkshire Policeの警視級警察官として電話で名が出る劇中人物。"
+    },
+    {
+      "surface": "receiver",
+      "lemma": "receiver",
+      "meaning": "【名】電話の受話器。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+    },
+    {
+      "surface": "turns",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "turns off",
+      "lemma": "turn off",
+      "meaning": "【句動】機器・照明などを切る、止める。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "lowers her magazine",
+      "lemma": "lower",
+      "meaning": "【動】下げる、低くする。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "up Left",
+      "lemma": "upstage left",
+      "meaning": "【舞台】舞台奥の左側（俳優から見た左）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥左を示す位置指定。"
+    },
+    {
+      "surface": "crosses",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台用語として、俳優が舞台上の別の位置へ横切って移動する指示。"
+    },
+    {
+      "surface": "rises",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "removes",
+      "lemma": "remove",
+      "meaning": "【動】取り除く、脱ぐ、移動させる。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene2-speech-0078": [],
@@ -3653,6 +8373,27 @@
       "lemma": "ring up",
       "meaning": "電話をかける",
       "playMeaning": true
+    },
+    {
+      "surface": "up Centre",
+      "lemma": "upstage centre",
+      "meaning": "【舞台】舞台奥の中央。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台奥中央を示す位置指定。"
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
     }
   ],
   "act1-scene2-speech-0080": [
@@ -3674,6 +8415,20 @@
       "lemma": "licence",
       "meaning": "【名詞】\n免許、許可証",
       "playMeaning": true
+    },
+    {
+      "surface": "liquor without a licence",
+      "lemma": "licence",
+      "meaning": "【名詞】\n免許、許可証",
+      "playMeaning": true,
+      "inThisPlay": "酒類販売・提供に必要な許可のこと。Miss Casewellが警察の用件を冗談で推測している。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
     }
   ],
   "act1-scene2-speech-0081": [
@@ -3684,7 +8439,15 @@
       "playMeaning": true
     }
   ],
-  "act1-scene2-speech-0082": [],
+  "act1-scene2-speech-0082": [
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    }
+  ],
   "act1-scene2-speech-0083": [
     {
       "surface": "quite",
@@ -3749,14 +8512,74 @@
       "lemma": "extraordinary",
       "meaning": "【形容詞】\n並外れた、異常な",
       "playMeaning": true
+    },
+    {
+      "surface": "Sergeant Trotter",
+      "lemma": "Sergeant Trotter",
+      "meaning": "【固有名詞】Sergeant Trotterという人名・呼称。Sergeantは軍・警察などの階級名。",
+      "playMeaning": true,
+      "inThisPlay": "警察のSergeantとして派遣される人物。ここではMollieが電話で名前を聞き取っている。"
+    },
+    {
+      "surface": "impress on",
+      "lemma": "impress on",
+      "meaning": "【句動】重要なことを人に強く認識させる、念を押す。",
+      "playMeaning": true
     }
   ],
-  "act1-scene2-speech-0086": [],
+  "act1-scene2-speech-0086": [
+    {
+      "surface": "on earth",
+      "lemma": "on earth",
+      "meaning": "疑問語の後で『いったい』と驚き・苛立ちを強める。",
+      "playMeaning": true
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    }
+  ],
   "act1-scene2-speech-0087": [
     {
       "surface": "those nylons from Gibraltar",
       "lemma": "nylons from Gibraltar",
       "meaning": "Gibraltarで入手したナイロン製品を指す表現。",
+      "playMeaning": true
+    },
+    {
+      "surface": "nylons from Gibraltar",
+      "lemma": "nylons from Gibraltar",
+      "meaning": "Gibraltarで入手したナイロン製品を指す表現。",
+      "playMeaning": true
+    },
+    {
+      "surface": "Gibraltar",
+      "lemma": "Gibraltar",
+      "meaning": "【固有名詞】ジブラルタル。イベリア半島南端の英国海外領土。",
+      "playMeaning": true,
+      "inThisPlay": "イベリア半島南端の英国海外領土Gibraltar。劇中では『Gibraltarからのnylons』という品物の出所として言及される。"
+    },
+    {
+      "surface": "nylons from Gibraltar",
+      "lemma": "nylons",
+      "meaning": "【名】ナイロン製ストッキング。特に20世紀中頃の口語で stockings を指す。",
+      "playMeaning": true,
+      "inThisPlay": "当時貴重だったナイロン製ストッキング。Gibraltarから持ち込んだ品について、規則違反や密輸を心配する冗談。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "nylons",
+      "lemma": "nylons",
+      "meaning": "【名】ナイロン製ストッキング。特に20世紀中頃の口語で stockings を指す。",
       "playMeaning": true
     }
   ],
@@ -3772,6 +8595,13 @@
       "lemma": "licence",
       "meaning": "【名詞】\n免許、許可証",
       "playMeaning": true
+    },
+    {
+      "surface": "wireless licence",
+      "lemma": "wireless licence",
+      "meaning": "【名】英国でラジオ受信機（wireless）の使用に必要だった受信許可証。",
+      "playMeaning": true,
+      "inThisPlay": "英国でラジオ（wireless）受信機の使用に必要だった受信許可証・免許。"
     }
   ],
   "act1-scene2-speech-0089": [],
@@ -3811,6 +8641,13 @@
       "lemma": "fault",
       "meaning": "【名詞】\n失敗・問題についての責任、または物や人の欠点・不具合。",
       "playMeaning": false
+    },
+    {
+      "surface": "near shave",
+      "lemma": "near shave",
+      "meaning": "危うく難を逃れること",
+      "playMeaning": true,
+      "inThisPlay": "危うく事故・災難を免れた出来事、危機一髪。"
     }
   ],
   "act1-scene2-speech-0091": [],
@@ -3837,7 +8674,8 @@
       "surface": "Ministry",
       "lemma": "ministry",
       "meaning": "【名詞】\n政府の特定分野を担当する省・官庁。",
-      "playMeaning": false
+      "playMeaning": true,
+      "inThisPlay": "英国政府の省庁を指す語。ここでは『どこかの省の規則』程度にぼかしている。"
     },
     {
       "surface": "practically",
@@ -3849,6 +8687,33 @@
       "surface": "nowadays",
       "lemma": "nowadays",
       "meaning": "【副詞】\n今日では",
+      "playMeaning": true
+    },
+    {
+      "surface": "tinpot regulation",
+      "lemma": "tinpot",
+      "meaning": "【形】くだらない、取るに足らない、安っぽい。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは『くだらない、取るに足らない』という軽蔑的意味で、細かな官僚規則をけなしている。"
+    },
+    {
+      "surface": "kneeling",
+      "lemma": "kneel",
+      "meaning": "【動詞】\nひざまずく、ひざをつく。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "rises",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "tinpot",
+      "lemma": "tinpot",
+      "meaning": "【形】くだらない、取るに足らない、安っぽい。",
       "playMeaning": true
     }
   ],
@@ -3882,6 +8747,13 @@
       "lemma": "tin",
       "meaning": "【名詞】\n缶詰",
       "playMeaning": true
+    },
+    {
+      "surface": "reserve of tins",
+      "lemma": "reserve",
+      "meaning": "【名詞】\n備蓄、予備",
+      "playMeaning": true,
+      "inThisPlay": "ここでは雪で孤立した場合に備えた缶詰の備蓄。"
     }
   ],
   "act1-scene2-speech-0094": [
@@ -3913,7 +8785,8 @@
       "surface": "kindling",
       "lemma": "kindling",
       "meaning": "【名詞】\nたきつけ",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "火を起こすための細い薪・焚き付け。"
     },
     {
       "surface": "come to think of it",
@@ -3938,6 +8811,104 @@
       "lemma": "urgent",
       "meaning": "【形容詞】\n緊急の",
       "playMeaning": true
+    },
+    {
+      "surface": "Aga",
+      "lemma": "Aga",
+      "meaning": "【固有名詞・名】Aga社の蓄熱式調理レンジ。英国の家庭で広く知られる商標・製品名。",
+      "playMeaning": true,
+      "inThisPlay": "英国で普及した蓄熱式レンジ。劇中では燃料を足して火を保つ必要がある調理・暖房設備。"
+    },
+    {
+      "surface": "coalscuttles",
+      "lemma": "coal scuttle",
+      "meaning": "【名】暖炉用の石炭を入れて運ぶ容器、石炭入れ。",
+      "playMeaning": true,
+      "inThisPlay": "暖炉用の石炭を入れて運ぶ容器、石炭入れ。"
+    },
+    {
+      "surface": "trekking out",
+      "lemma": "trek",
+      "meaning": "【名詞】\n長く、しばしば困難な道のりを移動すること。\n【動詞】\nまた、そのように移動する。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは大雪の中を苦労して長い距離をやって来ること。"
+    },
+    {
+      "surface": "takes",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "takes MOLLIE in his arms",
+      "lemma": "take someone in one’s arms",
+      "meaning": "【動詞句】人を両腕に抱き寄せる。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "breaks off",
+      "lemma": "break off",
+      "meaning": "【句動】途中でやめる、中断する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+    },
+    {
+      "surface": "refectory table",
+      "lemma": "refectory table",
+      "meaning": "修道院の食堂などに由来する、長く頑丈な大型食卓の様式。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "moves",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "up Left",
+      "lemma": "upstage left",
+      "meaning": "【舞台】舞台奥の左側（俳優から見た左）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥左を示す位置指定。"
+    },
+    {
+      "surface": "library",
+      "lemma": "library",
+      "meaning": "【名】書斎・図書室、図書館。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "uneasily",
+      "lemma": "uneasily",
+      "meaning": "【副】不安そうに、落ち着かない様子で。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優の動き・表情・声・所作または場面状態を指定する語句。"
     }
   ],
   "act1-scene2-speech-0095": [
@@ -3952,6 +8923,20 @@
       "lemma": "practically",
       "meaning": "【副詞】\nほとんど、実質的に",
       "playMeaning": true
+    },
+    {
+      "surface": "stone cold",
+      "lemma": "stone-cold",
+      "meaning": "【形】完全に冷え切った、まったく温かくない。",
+      "playMeaning": true,
+      "inThisPlay": "完全に冷え切った、まったく温かくない。"
+    },
+    {
+      "surface": "refectory table",
+      "lemma": "refectory table",
+      "meaning": "修道院の食堂などに由来する、長く頑丈な大型食卓の様式。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
     }
   ],
   "act1-scene2-speech-0096": [
@@ -3960,6 +8945,13 @@
       "lemma": "coke",
       "meaning": "【名詞】\nコークス（燃料）",
       "playMeaning": true
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": true,
+      "inThisPlay": "Monkswell Manorの宿泊客の一人。"
     }
   ],
   "act1-scene2-speech-0097": [
@@ -3974,6 +8966,13 @@
       "lemma": "freeze",
       "meaning": "【動詞】\n① 非常に冷たくなる、凍る・凍らせる\n② ひどい寒さを感じる",
       "playMeaning": false
+    },
+    {
+      "surface": "seven guineas",
+      "lemma": "guinea",
+      "meaning": "【名詞】\nギニー（旧英国通貨単位、21シリング）",
+      "playMeaning": true,
+      "inThisPlay": "宿泊料金をギニー単位で示している。1 guineaは旧英国通貨で21 shillings（1 pound 1 shilling）に相当した。"
     }
   ],
   "act1-scene2-speech-0098": [
@@ -3982,6 +8981,27 @@
       "lemma": "stoke",
       "meaning": "【動詞】\n燃料を足して火を保つ",
       "playMeaning": true
+    },
+    {
+      "surface": "up Right",
+      "lemma": "upstage right",
+      "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+    },
+    {
+      "surface": "archway",
+      "lemma": "archway",
+      "meaning": "【名詞】\nアーチ形の開口部・通路。",
+      "playMeaning": true,
+      "inThisPlay": "【舞台設定】Monkswell Manorの舞台装置・小道具・室内配置の記述で使われる。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
     }
   ],
   "act1-scene2-speech-0099": [
@@ -4011,6 +9031,19 @@
       "surface": "I beg your pardon",
       "lemma": "beg your pardon",
       "meaning": "失礼しました／もう一度お願いします",
+      "playMeaning": true,
+      "inThisPlay": "ここでは謝罪ではなく、Mrs BoyleがMollieの発言を聞き返し、驚き・不快感を示す『何ですって？』に近い。"
+    },
+    {
+      "surface": "beg your pardon",
+      "lemma": "beg your pardon",
+      "meaning": "失礼しました／もう一度お願いします",
+      "playMeaning": true
+    },
+    {
+      "surface": "I beg your pardon",
+      "lemma": "I beg your pardon",
+      "meaning": "① 失礼しました／すみません\n② もう一度言ってください\n③ 驚き・異議を表す丁寧な反応。",
       "playMeaning": true
     }
   ],

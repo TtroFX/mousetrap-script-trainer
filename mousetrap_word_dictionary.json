@@ -2111,19 +2111,6 @@
     ],
     "meaning": "～を手に入れる／確保する"
   },
-  "get the bit between one’s teeth": {
-    "lemma": "get the bit between one’s teeth",
-    "ipa": "/ɡɛt ðə bˈɪt bɪtwˌiːn jɔː tˈiːθ/",
-    "pos": "熟語",
-    "coreMeaning": "やる気になって突っ走る",
-    "forms": "句として固定。動詞部分は文脈に応じて活用する。",
-    "tags": [
-      "British English",
-      "idiom",
-      "chunk"
-    ],
-    "meaning": "やる気になって突っ走る"
-  },
   "get the lay of the land": {
     "lemma": "get the lay of the land",
     "ipa": "/ɡɛt ðə lˈeɪ ɒvðə lˈand/",
@@ -12611,5 +12598,2011 @@
       "emotion"
     ],
     "coreMeaning": "【形容詞】\n驚いた、意外に思った"
+  },
+  "Scotland Yard": {
+    "lemma": "Scotland Yard",
+    "ipa": "/skˈɒtlənd jˈɑːd/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】ロンドン警視庁（Metropolitan Police）の本部・組織を指す通称。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】ロンドン警視庁（Metropolitan Police）の本部・組織を指す通称。"
+  },
+  "Paddington": {
+    "lemma": "Paddington",
+    "ipa": "/pˈadɪŋtən/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】Paddington。ロンドン西部の地区。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】Paddington。ロンドン西部の地区。"
+  },
+  "Scotland": {
+    "lemma": "Scotland",
+    "ipa": "/skˈɒtlənd/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】スコットランド。英国を構成する地域の一つ。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】スコットランド。英国を構成する地域の一つ。"
+  },
+  "Mrs Barlow": {
+    "lemma": "Mrs Barlow",
+    "ipa": "/mˈɪsɪz bˈɑːləʊ/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】Mrs Barlowという人名・呼称。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】Mrs Barlowという人名・呼称。"
+  },
+  "Aga": {
+    "lemma": "Aga",
+    "ipa": "/ˈɑːɡə/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞・名】Aga社の蓄熱式調理レンジ。英国の家庭で広く知られる商標・製品名。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞・名】Aga社の蓄熱式調理レンジ。英国の家庭で広く知られる商標・製品名。"
+  },
+  "Monkswell Manor Guest House": {
+    "lemma": "Monkswell Manor Guest House",
+    "ipa": "/mˈʌnkswɛl mˈanə ɡˈɛst hˈaʊs/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】Monkswell Manor Guest House。本作でMollieとGilesが営む宿泊施設名。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】Monkswell Manor Guest House。本作でMollieとGilesが営む宿泊施設名。"
+  },
+  "Mrs Boyle": {
+    "lemma": "Mrs Boyle",
+    "ipa": "/mˈɪsɪz bˈɔɪl/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】Mrs Boyleという人名・呼称。"
+  },
+  "Major Metcalf": {
+    "lemma": "Major Metcalf",
+    "ipa": "/mˈeɪdʒə mˈɛtkɑːf/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。"
+  },
+  "Miss Casewell": {
+    "lemma": "Miss Casewell",
+    "ipa": "/mˈɪs kˈeɪswɛl/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】Miss Casewellという人名・呼称。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】Miss Casewellという人名・呼称。"
+  },
+  "St Paul’s Cathedral": {
+    "lemma": "St Paul’s Cathedral",
+    "ipa": "/sənt pˈɔːlz kɐθˈiːdɹəl/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】ロンドンのSt Paul’s Cathedral（セント・ポール大聖堂）。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】ロンドンのSt Paul’s Cathedral（セント・ポール大聖堂）。"
+  },
+  "Indian Army": {
+    "lemma": "Indian Army",
+    "ipa": "/ˈɪndiən ˈɑːmi/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】歴史上のIndian Army（英領インド軍などを指す名称）。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】歴史上のIndian Army（英領インド軍などを指す名称）。"
+  },
+  "Benares": {
+    "lemma": "Benares",
+    "ipa": "/bˈɛneəz/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】インド北部の都市Varanasiの旧英語名Benares（ベナレス）。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】インド北部の都市Varanasiの旧英語名Benares（ベナレス）。"
+  },
+  "Charles Dickens": {
+    "lemma": "Charles Dickens",
+    "ipa": "/tʃˈɑːlz dˈɪkənz/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】Charles Dickens（1812–1870）。英国の小説家。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】Charles Dickens（1812–1870）。英国の小説家。"
+  },
+  "Ebenezer Scrooge": {
+    "lemma": "Ebenezer Scrooge",
+    "ipa": "/ˈɛbənˌɛzə skɹˈuːdʒ/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】Dickens『A Christmas Carol』の主人公Ebenezer Scrooge。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】Dickens『A Christmas Carol』の主人公Ebenezer Scrooge。"
+  },
+  "Tiny Tim": {
+    "lemma": "Tiny Tim",
+    "ipa": "/tˈaɪni tˈɪm/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】Dickens『A Christmas Carol』の登場人物Tiny Tim。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】Dickens『A Christmas Carol』の登場人物Tiny Tim。"
+  },
+  "Rolls-Royce": {
+    "lemma": "Rolls-Royce",
+    "ipa": "/ɹˈəʊlzɹˈɔɪs/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】Rolls-Royce。英国の高級自動車ブランド。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】Rolls-Royce。英国の高級自動車ブランド。"
+  },
+  "Berkshire Police": {
+    "lemma": "Berkshire Police",
+    "ipa": "/bˈɜːkʃə pəlˈiːs/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】Berkshire地域の警察を指す名称。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】Berkshire地域の警察を指す名称。"
+  },
+  "Superintendent Hogben": {
+    "lemma": "Superintendent Hogben",
+    "ipa": "/sˌuːpəɹɪntˈɛndənt hˈɒɡbən/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】Superintendent Hogbenという人名・警察官の呼称。Superintendentは英国警察の階級名。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】Superintendent Hogbenという人名・警察官の呼称。Superintendentは英国警察の階級名。"
+  },
+  "Sergeant Trotter": {
+    "lemma": "Sergeant Trotter",
+    "ipa": "/sˈɑːdʒənt tɹˈɒtə/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】Sergeant Trotterという人名・呼称。Sergeantは軍・警察などの階級名。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】Sergeant Trotterという人名・呼称。Sergeantは軍・警察などの階級名。"
+  },
+  "Gibraltar": {
+    "lemma": "Gibraltar",
+    "ipa": "/dʒɪbɹˈɒltə/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】ジブラルタル。イベリア半島南端の英国海外領土。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】ジブラルタル。イベリア半島南端の英国海外領土。"
+  },
+  "France": {
+    "lemma": "France",
+    "ipa": "/fɹˈans/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】フランス。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】フランス。"
+  },
+  "Italy": {
+    "lemma": "Italy",
+    "ipa": "/ˈɪtəli/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】イタリア。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】イタリア。"
+  },
+  "England": {
+    "lemma": "England",
+    "ipa": "/ˈɪŋɡlənd/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】イングランド。英国を構成する地域の一つ。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】イングランド。英国を構成する地域の一つ。"
+  },
+  "daily woman": {
+    "lemma": "daily woman",
+    "ipa": "/dˈeɪli wˈʊmən/",
+    "pos": "名詞",
+    "coreMeaning": "【名】英国で、住み込みでなく日中だけ通って家事をする女性使用人・家事手伝いを指した表現。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "British English",
+      "dated",
+      "chunk"
+    ],
+    "meaning": "【名】英国で、住み込みでなく日中だけ通って家事をする女性使用人・家事手伝いを指した表現。"
+  },
+  "hotel keeping": {
+    "lemma": "hotel keeping",
+    "ipa": "/həʊtˈɛl kˈiːpɪŋ/",
+    "pos": "名詞",
+    "coreMeaning": "【名】ホテル・宿泊施設の経営、宿屋業。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "chunk"
+    ],
+    "meaning": "【名】ホテル・宿泊施設の経営、宿屋業。"
+  },
+  "Prefab Nests": {
+    "lemma": "Prefab Nests",
+    "ipa": "/pɹɪfˈab nˈɛsts/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞的表現】Prefab Nests。本作中で使われる架空の建築・事業名。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "chunk"
+    ],
+    "meaning": "【固有名詞的表現】Prefab Nests。本作中で使われる架空の建築・事業名。"
+  },
+  "old tabby": {
+    "lemma": "old tabby",
+    "ipa": "/ˈəʊld tˈabi/",
+    "pos": "名詞",
+    "coreMeaning": "【名】tabby は猫；古風な俗語で年配の女性を指すことがあり、軽蔑的に響く。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "British English",
+      "dated",
+      "chunk"
+    ],
+    "meaning": "【名】tabby は猫；古風な俗語で年配の女性を指すことがあり、軽蔑的に響く。"
+  },
+  "mentally unbalanced": {
+    "lemma": "mentally unbalanced",
+    "ipa": "/mˈɛntəli ʌnbˈalənst/",
+    "pos": "形容詞",
+    "coreMeaning": "【形】精神的に不安定な。人については現在ではより配慮した表現が好まれる。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "chunk"
+    ],
+    "meaning": "【形】精神的に不安定な。人については現在ではより配慮した表現が好まれる。"
+  },
+  "lunatic asylum": {
+    "lemma": "lunatic asylum",
+    "ipa": "/lˈuːnətˌɪk ɐsˈaɪləm/",
+    "pos": "名詞",
+    "coreMeaning": "【名】精神科病院を指した歴史的名称。現在では lunatic は人を指す語として侮蔑的。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "British English",
+      "dated",
+      "chunk"
+    ],
+    "meaning": "【名】精神科病院を指した歴史的名称。現在では lunatic は人を指す語として侮蔑的。"
+  },
+  "Red": {
+    "lemma": "Red",
+    "ipa": "/ɹˈɛd/",
+    "pos": "名詞",
+    "coreMeaning": "【名】政治的俗称で共産主義者・急進左派。【形】赤い。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "British English",
+      "dated"
+    ],
+    "meaning": "【名】政治的俗称で共産主義者・急進左派。【形】赤い。"
+  },
+  "pale pink": {
+    "lemma": "pale pink",
+    "ipa": "/pˈeɪl pˈɪŋk/",
+    "pos": "定型表現",
+    "coreMeaning": "【名・形】淡いピンク色；政治的比喩で、穏健な左派・社会主義寄り。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "chunk"
+    ],
+    "meaning": "【名・形】淡いピンク色；政治的比喩で、穏健な左派・社会主義寄り。"
+  },
+  "serve one’s purpose": {
+    "lemma": "serve one’s purpose",
+    "ipa": "/sˈɜːv wˈɒnz pˈɜːpəs/",
+    "pos": "定型表現",
+    "coreMeaning": "目的を果たす、役に立つ。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "chunk"
+    ],
+    "meaning": "目的を果たす、役に立つ。"
+  },
+  "ragged": {
+    "lemma": "ragged",
+    "ipa": "/ɹˈaɡɪd/",
+    "pos": "形容詞",
+    "coreMeaning": "【形】ぼろぼろの、擦り切れた；不ぞろいな。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [],
+    "meaning": "【形】ぼろぼろの、擦り切れた；不ぞろいな。"
+  },
+  "impress on": {
+    "lemma": "impress on",
+    "ipa": "/ɪmpɹˈɛs ˈɒn/",
+    "pos": "動詞句",
+    "coreMeaning": "【句動】重要なことを人に強く認識させる、念を押す。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "chunk"
+    ],
+    "meaning": "【句動】重要なことを人に強く認識させる、念を押す。"
+  },
+  "nylons": {
+    "lemma": "nylons",
+    "ipa": "/nˈaɪlɒnz/",
+    "pos": "名詞",
+    "coreMeaning": "【名】ナイロン製ストッキング。特に20世紀中頃の口語で stockings を指す。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "British English",
+      "dated"
+    ],
+    "meaning": "【名】ナイロン製ストッキング。特に20世紀中頃の口語で stockings を指す。"
+  },
+  "wireless licence": {
+    "lemma": "wireless licence",
+    "ipa": "/wˈaɪələs lˈaɪsəns/",
+    "pos": "名詞",
+    "coreMeaning": "【名】英国でラジオ受信機（wireless）の使用に必要だった受信許可証。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "British English",
+      "dated",
+      "chunk"
+    ],
+    "meaning": "【名】英国でラジオ受信機（wireless）の使用に必要だった受信許可証。"
+  },
+  "tinpot": {
+    "lemma": "tinpot",
+    "ipa": "/tˈɪnpɒt/",
+    "pos": "形容詞",
+    "coreMeaning": "【形】くだらない、取るに足らない、安っぽい。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "British English",
+      "dated"
+    ],
+    "meaning": "【形】くだらない、取るに足らない、安っぽい。"
+  },
+  "coal scuttle": {
+    "lemma": "coal scuttle",
+    "ipa": "/kˈəʊl skˈʌtəl/",
+    "pos": "名詞",
+    "coreMeaning": "【名】暖炉用の石炭を入れて運ぶ容器、石炭入れ。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "British English",
+      "dated",
+      "chunk"
+    ],
+    "meaning": "【名】暖炉用の石炭を入れて運ぶ容器、石炭入れ。"
+  },
+  "stone-cold": {
+    "lemma": "stone-cold",
+    "ipa": "/stˈəʊnkˈəʊld/",
+    "pos": "形容詞",
+    "coreMeaning": "【形】完全に冷え切った、まったく温かくない。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [],
+    "meaning": "【形】完全に冷え切った、まったく温かくない。"
+  },
+  "corned beef": {
+    "lemma": "corned beef",
+    "ipa": "/kˈɔːnd bˈiːf/",
+    "pos": "名詞",
+    "coreMeaning": "【名】塩漬け牛肉、コーンビーフ。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "chunk"
+    ],
+    "meaning": "【名】塩漬け牛肉、コーンビーフ。"
+  },
+  "give someone a hand": {
+    "lemma": "give someone a hand",
+    "ipa": "/ɡˈɪv sˈʌmwɒn ɐ hˈand/",
+    "pos": "定型表現",
+    "coreMeaning": "人を手伝う、力を貸す。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "chunk"
+    ],
+    "meaning": "人を手伝う、力を貸す。"
+  },
+  "going concern": {
+    "lemma": "going concern",
+    "ipa": "/ɡˌəʊɪŋ kənsˈɜːn/",
+    "pos": "名詞",
+    "coreMeaning": "【名】現在も営業・事業活動を続けている企業・事業体。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "chunk"
+    ],
+    "meaning": "【名】現在も営業・事業活動を続けている企業・事業体。"
+  },
+  "sex maniac": {
+    "lemma": "sex maniac",
+    "ipa": "/sˈɛks mˈeɪnɪˌak/",
+    "pos": "名詞",
+    "coreMeaning": "【名】性的な危険人物を指す古い大衆的表現。現代では不正確で侮蔑的になり得る。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "British English",
+      "dated",
+      "chunk"
+    ],
+    "meaning": "【名】性的な危険人物を指す古い大衆的表現。現代では不正確で侮蔑的になり得る。"
+  },
+  "scene heading": {
+    "lemma": "scene heading",
+    "ipa": "/sˈiːn hˈɛdɪŋ/",
+    "pos": "舞台用語",
+    "coreMeaning": "【舞台】場面を示す見出し。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "theatre",
+      "chunk"
+    ],
+    "meaning": "【舞台】場面を示す見出し。"
+  },
+  "late afternoon": {
+    "lemma": "late afternoon",
+    "ipa": "/lˈeɪt ˌaftənˈuːn/",
+    "pos": "名詞句",
+    "coreMeaning": "【名句】午後遅く、夕方近く。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名句】午後遅く、夕方近く。"
+  },
+  "period piece": {
+    "lemma": "period piece",
+    "ipa": "/pˈiəɹɪəd pˈiːs/",
+    "pos": "名詞",
+    "coreMeaning": "【名】特定の時代の雰囲気・様式を再現した作品や物。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名】特定の時代の雰囲気・様式を再現した作品や物。"
+  },
+  "dwindling resources": {
+    "lemma": "dwindling resources",
+    "ipa": "/dwˈɪndlɪŋ ɹɪzˈɔːsɪz/",
+    "pos": "名詞句",
+    "coreMeaning": "【名句】次第に減っていく資力・資源。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名句】次第に減っていく資力・資源。"
+  },
+  "upstage centre": {
+    "lemma": "upstage centre",
+    "ipa": "/ʌpstˈeɪdʒ sˈɛntə/",
+    "pos": "舞台用語",
+    "coreMeaning": "【舞台】舞台奥の中央。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "theatre",
+      "chunk"
+    ],
+    "meaning": "【舞台】舞台奥の中央。"
+  },
+  "upstage right": {
+    "lemma": "upstage right",
+    "ipa": "/ʌpstˈeɪdʒ ɹˈaɪt/",
+    "pos": "舞台用語",
+    "coreMeaning": "【舞台】舞台奥の右側（俳優から見た右）。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "theatre",
+      "chunk"
+    ],
+    "meaning": "【舞台】舞台奥の右側（俳優から見た右）。"
+  },
+  "upstage left": {
+    "lemma": "upstage left",
+    "ipa": "/ʌpstˈeɪdʒ lˈɛft/",
+    "pos": "舞台用語",
+    "coreMeaning": "【舞台】舞台奥の左側（俳優から見た左）。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "theatre",
+      "chunk"
+    ],
+    "meaning": "【舞台】舞台奥の左側（俳優から見た左）。"
+  },
+  "downstage right": {
+    "lemma": "downstage right",
+    "ipa": "/dˈaʊnsteɪdʒ ɹˈaɪt/",
+    "pos": "舞台用語",
+    "coreMeaning": "【舞台】舞台前方の右側（俳優から見た右）。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "theatre",
+      "chunk"
+    ],
+    "meaning": "【舞台】舞台前方の右側（俳優から見た右）。"
+  },
+  "downstage left": {
+    "lemma": "downstage left",
+    "ipa": "/dˈaʊnsteɪdʒ lˈɛft/",
+    "pos": "舞台用語",
+    "coreMeaning": "【舞台】舞台前方の左側（俳優から見た左）。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "theatre",
+      "chunk"
+    ],
+    "meaning": "【舞台】舞台前方の左側（俳優から見た左）。"
+  },
+  "centre-left": {
+    "lemma": "centre-left",
+    "ipa": "/sˈɛntəlˈɛft/",
+    "pos": "舞台用語",
+    "coreMeaning": "【舞台】舞台中央より左寄りの位置。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "theatre"
+    ],
+    "meaning": "【舞台】舞台中央より左寄りの位置。"
+  },
+  "centre-right": {
+    "lemma": "centre-right",
+    "ipa": "/sˈɛntəɹˈaɪt/",
+    "pos": "舞台用語",
+    "coreMeaning": "【舞台】舞台中央より右寄りの位置。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "theatre"
+    ],
+    "meaning": "【舞台】舞台中央より右寄りの位置。"
+  },
+  "arched opening": {
+    "lemma": "arched opening",
+    "ipa": "/ˈɑːtʃd ˈəʊpənɪŋ/",
+    "pos": "名詞",
+    "coreMeaning": "【名】アーチ形の開口部、アーチ状の出入口。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名】アーチ形の開口部、アーチ状の出入口。"
+  },
+  "front door": {
+    "lemma": "front door",
+    "ipa": "/fɹˈʌnt dˈɔː/",
+    "pos": "名詞",
+    "coreMeaning": "【名】玄関の正面扉。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名】玄関の正面扉。"
+  },
+  "library": {
+    "lemma": "library",
+    "ipa": "/lˈaɪbɹəɹi/",
+    "pos": "名詞",
+    "coreMeaning": "【名】書斎・図書室、図書館。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【名】書斎・図書室、図書館。"
+  },
+  "drawing room": {
+    "lemma": "drawing room",
+    "ipa": "/dɹˈɔːɪŋ ɹˈuːm/",
+    "pos": "名詞",
+    "coreMeaning": "【名】応接間、客間。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名】応接間、客間。"
+  },
+  "dining room": {
+    "lemma": "dining room",
+    "ipa": "/dˈaɪnɪŋ ɹˈuːm/",
+    "pos": "名詞",
+    "coreMeaning": "【名】食堂、ダイニングルーム。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名】食堂、ダイニングルーム。"
+  },
+  "fireplace": {
+    "lemma": "fireplace",
+    "ipa": "/fˈaɪəpleɪs/",
+    "pos": "名詞",
+    "coreMeaning": "【名】暖炉。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【名】暖炉。"
+  },
+  "window seat": {
+    "lemma": "window seat",
+    "ipa": "/wˈɪndəʊ sˈiːt/",
+    "pos": "名詞",
+    "coreMeaning": "【名】窓際に造り付けられた腰掛け。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名】窓際に造り付けられた腰掛け。"
+  },
+  "oak chest": {
+    "lemma": "oak chest",
+    "ipa": "/ˈəʊk tʃˈɛst/",
+    "pos": "名詞",
+    "coreMeaning": "【名】オーク材の大型収納箱、木製チェスト。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名】オーク材の大型収納箱、木製チェスト。"
+  },
+  "Victorian armchair": {
+    "lemma": "Victorian armchair",
+    "ipa": "/vɪktˈɔːɹiən ˈɑːmtʃeə/",
+    "pos": "名詞",
+    "coreMeaning": "【名】ヴィクトリア朝風の肘掛け椅子。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名】ヴィクトリア朝風の肘掛け椅子。"
+  },
+  "bookcase": {
+    "lemma": "bookcase",
+    "ipa": "/bˈʊkkeɪs/",
+    "pos": "名詞",
+    "coreMeaning": "【名】本棚、書棚。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【名】本棚、書棚。"
+  },
+  "Canterbury": {
+    "lemma": "Canterbury",
+    "ipa": "/kˈantəbɹi/",
+    "pos": "名詞",
+    "coreMeaning": "【名】カンタベリー。家具では新聞・楽譜などを立てて収納する仕切り付きラック。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【名】カンタベリー。家具では新聞・楽譜などを立てて収納する仕切り付きラック。"
+  },
+  "card table": {
+    "lemma": "card table",
+    "ipa": "/kˈɑːd tˈeɪbəl/",
+    "pos": "名詞",
+    "coreMeaning": "【名】カードゲーム用の小卓、カードテーブル。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名】カードゲーム用の小卓、カードテーブル。"
+  },
+  "double switch": {
+    "lemma": "double switch",
+    "ipa": "/dˈʌbəl swˈɪtʃ/",
+    "pos": "名詞",
+    "coreMeaning": "【名】二つの回路・照明などを操作する二連スイッチ。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名】二つの回路・照明などを操作する二連スイッチ。"
+  },
+  "table lamp": {
+    "lemma": "table lamp",
+    "ipa": "/tˈeɪbəl lˈamp/",
+    "pos": "名詞",
+    "coreMeaning": "【名】卓上ランプ。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名】卓上ランプ。"
+  },
+  "house lights": {
+    "lemma": "house lights",
+    "ipa": "/hˈaʊs lˈaɪts/",
+    "pos": "舞台用語",
+    "coreMeaning": "【舞台】客席側の照明、ハウスライト。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "theatre",
+      "chunk"
+    ],
+    "meaning": "【舞台】客席側の照明、ハウスライト。"
+  },
+  "fade": {
+    "lemma": "fade",
+    "ipa": "/fˈeɪd/",
+    "pos": "未分類",
+    "coreMeaning": "【舞台・動】光・音を徐々に弱める、薄れていく。",
+    "forms": "文脈に応じた語形をとる。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【舞台・動】光・音を徐々に弱める、薄れていく。"
+  },
+  "blackout": {
+    "lemma": "blackout",
+    "ipa": "/blˈakaʊt/",
+    "pos": "舞台用語",
+    "coreMeaning": "【名】暗転。舞台・会場の照明を完全に消した状態。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "theatre"
+    ],
+    "meaning": "【名】暗転。舞台・会場の照明を完全に消した状態。"
+  },
+  "curtain rises": {
+    "lemma": "curtain rises",
+    "ipa": "/kˈɜːtən ɹˈaɪzɪz/",
+    "pos": "舞台用語",
+    "coreMeaning": "【舞台】幕が上がる。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "theatre",
+      "chunk"
+    ],
+    "meaning": "【舞台】幕が上がる。"
+  },
+  "complete darkness": {
+    "lemma": "complete darkness",
+    "ipa": "/kəmplˈiːt dˈɑːknəs/",
+    "pos": "名詞句",
+    "coreMeaning": "【名句】完全な暗闇。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名句】完全な暗闇。"
+  },
+  "shrill whistle": {
+    "lemma": "shrill whistle",
+    "ipa": "/ʃɹˈɪl wˈɪsəl/",
+    "pos": "名詞句",
+    "coreMeaning": "【名句】甲高い笛・口笛の音。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名句】甲高い笛・口笛の音。"
+  },
+  "police whistle": {
+    "lemma": "police whistle",
+    "ipa": "/pəlˈiːs wˈɪsəl/",
+    "pos": "名詞",
+    "coreMeaning": "【名】警察官が用いる笛、警笛。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名】警察官が用いる笛、警笛。"
+  },
+  "stand": {
+    "lemma": "stand",
+    "ipa": "/stˈand/",
+    "pos": "動詞",
+    "coreMeaning": "【動】立つ、立っている。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】立つ、立っている。"
+  },
+  "switch on": {
+    "lemma": "switch on",
+    "ipa": "/swˈɪtʃ ˈɒn/",
+    "pos": "動詞句",
+    "coreMeaning": "【句動】スイッチを入れる、電源を入れる。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【句動】スイッチを入れる、電源を入れる。"
+  },
+  "place": {
+    "lemma": "place",
+    "ipa": "/plˈeɪs/",
+    "pos": "動詞",
+    "coreMeaning": "【動】置く、配置する。【名】場所。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】置く、配置する。【名】場所。"
+  },
+  "look": {
+    "lemma": "look",
+    "ipa": "/lˈʊk/",
+    "pos": "動詞",
+    "coreMeaning": "【動】見る、目を向ける。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】見る、目を向ける。"
+  },
+  "offstage": {
+    "lemma": "offstage",
+    "ipa": "/ˈɒfsteɪdʒ/",
+    "pos": "舞台用語",
+    "coreMeaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "theatre"
+    ],
+    "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。"
+  },
+  "calling": {
+    "lemma": "calling",
+    "ipa": "/kˈɔːlɪŋ/",
+    "pos": "動詞",
+    "coreMeaning": "【動】call の -ing 形。呼びかけること、声をかけること。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】call の -ing 形。呼びかけること、声をかけること。"
+  },
+  "remove": {
+    "lemma": "remove",
+    "ipa": "/ɹɪmˈuːv/",
+    "pos": "動詞",
+    "coreMeaning": "【動】取り除く、脱ぐ、移動させる。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】取り除く、脱ぐ、移動させる。"
+  },
+  "wall switch": {
+    "lemma": "wall switch",
+    "ipa": "/wˈɔːl swˈɪtʃ/",
+    "pos": "名詞",
+    "coreMeaning": "【名】壁面スイッチ。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名】壁面スイッチ。"
+  },
+  "signboard": {
+    "lemma": "signboard",
+    "ipa": "/sˈaɪnbɔːd/",
+    "pos": "名詞",
+    "coreMeaning": "【名】看板、掲示板。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【名】看板、掲示板。"
+  },
+  "window alcove": {
+    "lemma": "window alcove",
+    "ipa": "/wˈɪndəʊ ˈalkəʊv/",
+    "pos": "名詞",
+    "coreMeaning": "【名】窓際のくぼんだ空間、窓のアルコーブ。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名】窓際のくぼんだ空間、窓のアルコーブ。"
+  },
+  "draw the curtains": {
+    "lemma": "draw the curtains",
+    "ipa": "/dɹˈɔː ðə kˈɜːtənz/",
+    "pos": "動詞句",
+    "coreMeaning": "【動詞句】カーテンを引いて閉める。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【動詞句】カーテンを引いて閉める。"
+  },
+  "nod one’s head": {
+    "lemma": "nod one’s head",
+    "ipa": "/nˈɒd wˈɒnz hˈɛd/",
+    "pos": "動詞句",
+    "coreMeaning": "【動詞句】うなずく、頭を縦に振る。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【動詞句】うなずく、頭を縦に振る。"
+  },
+  "notice": {
+    "lemma": "notice",
+    "ipa": "/nˈəʊtɪs/",
+    "pos": "動詞",
+    "coreMeaning": "【動】気づく、注目する。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】気づく、注目する。"
+  },
+  "go to": {
+    "lemma": "go to",
+    "ipa": "/ɡˈəʊ tuː/",
+    "pos": "動詞句",
+    "coreMeaning": "【動詞句】～へ行く。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【動詞句】～へ行く。"
+  },
+  "stamp one’s feet": {
+    "lemma": "stamp one’s feet",
+    "ipa": "/stˈamp wˈɒnz fˈiːt/",
+    "pos": "動詞句",
+    "coreMeaning": "【動詞句】足を踏み鳴らす。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【動詞句】足を踏み鳴らす。"
+  },
+  "warm one’s hands": {
+    "lemma": "warm one’s hands",
+    "ipa": "/wˈɔːm wˈɒnz hˈandz/",
+    "pos": "動詞句",
+    "coreMeaning": "【動詞句】手を温める。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【動詞句】手を温める。"
+  },
+  "throw": {
+    "lemma": "throw",
+    "ipa": "/θɹˈəʊ/",
+    "pos": "動詞",
+    "coreMeaning": "【動】投げる、放る。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】投げる、放る。"
+  },
+  "carry": {
+    "lemma": "carry",
+    "ipa": "/kˈaɹi/",
+    "pos": "動詞",
+    "coreMeaning": "【動】運ぶ、持って行く。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】運ぶ、持って行く。"
+  },
+  "take off": {
+    "lemma": "take off",
+    "ipa": "/tˈeɪk ˈɒf/",
+    "pos": "動詞句",
+    "coreMeaning": "【句動】衣服などを脱ぐ；離陸する。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【句動】衣服などを脱ぐ；離陸する。"
+  },
+  "take": {
+    "lemma": "take",
+    "ipa": "/tˈeɪk/",
+    "pos": "動詞",
+    "coreMeaning": "【動】取る、手に取る、持っていく。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】取る、手に取る、持っていく。"
+  },
+  "hand": {
+    "lemma": "hand",
+    "ipa": "/hˈand/",
+    "pos": "動詞",
+    "coreMeaning": "【動】手渡す。【名】手。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】手渡す。【名】手。"
+  },
+  "cheerfully": {
+    "lemma": "cheerfully",
+    "ipa": "/tʃˈiəfəli/",
+    "pos": "副詞",
+    "coreMeaning": "【副】陽気に、明るく。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【副】陽気に、明るく。"
+  },
+  "kiss": {
+    "lemma": "kiss",
+    "ipa": "/kˈɪs/",
+    "pos": "動詞",
+    "coreMeaning": "【動】キスをする、口づけする。【名】キス。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】キスをする、口づけする。【名】キス。"
+  },
+  "accusingly": {
+    "lemma": "accusingly",
+    "ipa": "/ɐkjˈuːzɪŋli/",
+    "pos": "副詞",
+    "coreMeaning": "【副】非難するように、責める調子で。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【副】非難するように、責める調子で。"
+  },
+  "indicate": {
+    "lemma": "indicate",
+    "ipa": "/ˈɪndɪkˌeɪt/",
+    "pos": "動詞",
+    "coreMeaning": "【動】指し示す、合図する。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】指し示す、合図する。"
+  },
+  "complacently": {
+    "lemma": "complacently",
+    "ipa": "/kəmplˈeɪsəntli/",
+    "pos": "副詞",
+    "coreMeaning": "【副】得意げに、自己満足した様子で。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【副】得意げに、自己満足した様子で。"
+  },
+  "doorbell": {
+    "lemma": "doorbell",
+    "ipa": "/dˈɔːbɛl/",
+    "pos": "名詞",
+    "coreMeaning": "【名】玄関の呼び鈴、ドアベル。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【名】玄関の呼び鈴、ドアベル。"
+  },
+  "wild-looking": {
+    "lemma": "wild-looking",
+    "ipa": "/wˈaɪldlˈʊkɪŋ/",
+    "pos": "形容詞",
+    "coreMeaning": "【形】荒々しい・風変わりな外見の。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【形】荒々しい・風変わりな外見の。"
+  },
+  "confiding": {
+    "lemma": "confiding",
+    "ipa": "/kənfˈaɪdɪŋ/",
+    "pos": "形容詞",
+    "coreMeaning": "【形】打ち解けて秘密や気持ちを話すような、親しげな。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【形】打ち解けて秘密や気持ちを話すような、親しげな。"
+  },
+  "childish": {
+    "lemma": "childish",
+    "ipa": "/tʃˈaɪldɪʃ/",
+    "pos": "形容詞",
+    "coreMeaning": "【形】子どもっぽい、幼稚な。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【形】子どもっぽい、幼稚な。"
+  },
+  "point": {
+    "lemma": "point",
+    "ipa": "/pˈɔɪnt/",
+    "pos": "動詞",
+    "coreMeaning": "【動】指さす、方向を示す。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】指さす、方向を示す。"
+  },
+  "glance": {
+    "lemma": "glance",
+    "ipa": "/ɡlˈans/",
+    "pos": "動詞",
+    "coreMeaning": "【動】ちらりと見る。【名】一瞥。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】ちらりと見る。【名】一瞥。"
+  },
+  "follow someone’s glance": {
+    "lemma": "follow someone’s glance",
+    "ipa": "/fˈɒləʊ sˈʌmwɒnz ɡlˈans/",
+    "pos": "動詞句",
+    "coreMeaning": "【動詞句】人の視線の先を追う。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【動詞句】人の視線の先を追う。"
+  },
+  "shake hands": {
+    "lemma": "shake hands",
+    "ipa": "/ʃˈeɪk hˈandz/",
+    "pos": "動詞句",
+    "coreMeaning": "【動詞句】握手する。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【動詞句】握手する。"
+  },
+  "turn": {
+    "lemma": "turn",
+    "ipa": "/tˈɜːn/",
+    "pos": "動詞",
+    "coreMeaning": "【動】向きを変える、振り向く。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】向きを変える、振り向く。"
+  },
+  "dislike": {
+    "lemma": "dislike",
+    "ipa": "/dɪslˈaɪk/",
+    "pos": "動詞",
+    "coreMeaning": "【動】嫌う、好まない。【名】嫌悪、苦手意識。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】嫌う、好まない。【名】嫌悪、苦手意識。"
+  },
+  "coldly": {
+    "lemma": "coldly",
+    "ipa": "/kˈəʊldli/",
+    "pos": "副詞",
+    "coreMeaning": "【副】冷淡に、よそよそしく。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【副】冷淡に、よそよそしく。"
+  },
+  "smile": {
+    "lemma": "smile",
+    "ipa": "/smˈaɪl/",
+    "pos": "動詞",
+    "coreMeaning": "【動】ほほえむ。【名】ほほえみ。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】ほほえむ。【名】ほほえみ。"
+  },
+  "light a cigarette": {
+    "lemma": "light a cigarette",
+    "ipa": "/lˈaɪt ɐ sˌɪɡəɹˈɛt/",
+    "pos": "動詞句",
+    "coreMeaning": "【動詞句】たばこに火をつける。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【動詞句】たばこに火をつける。"
+  },
+  "laugh": {
+    "lemma": "laugh",
+    "ipa": "/lˈaf/",
+    "pos": "動詞",
+    "coreMeaning": "【動】笑う。【名】笑い声、笑い。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】笑う。【名】笑い声、笑い。"
+  },
+  "lean": {
+    "lemma": "lean",
+    "ipa": "/lˈiːn/",
+    "pos": "動詞",
+    "coreMeaning": "【動】寄りかかる、身を傾ける。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】寄りかかる、身を傾ける。"
+  },
+  "hastily": {
+    "lemma": "hastily",
+    "ipa": "/hˈeɪstili/",
+    "pos": "副詞",
+    "coreMeaning": "【副】急いで、あわただしく。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【副】急いで、あわただしく。"
+  },
+  "sound cue": {
+    "lemma": "sound cue",
+    "ipa": "/sˈaʊnd kjˈuː/",
+    "pos": "舞台用語",
+    "coreMeaning": "【舞台】効果音・音楽などを入れる合図または音響指示。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "theatre",
+      "chunk"
+    ],
+    "meaning": "【舞台】効果音・音楽などを入れる合図または音響指示。"
+  },
+  "scowl": {
+    "lemma": "scowl",
+    "ipa": "/skˈaʊl/",
+    "pos": "動詞",
+    "coreMeaning": "【動】顔をしかめてにらむ。【名】不機嫌なしかめ面。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】顔をしかめてにらむ。【名】不機嫌なしかめ面。"
+  },
+  "imposing": {
+    "lemma": "imposing",
+    "ipa": "/ɪmpˈəʊzɪŋ/",
+    "pos": "形容詞",
+    "coreMeaning": "【形】堂々とした、威圧感のある。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【形】堂々とした、威圧感のある。"
+  },
+  "bad temper": {
+    "lemma": "bad temper",
+    "ipa": "/bˈad tˈɛmpə/",
+    "pos": "名詞",
+    "coreMeaning": "【名】不機嫌、怒りっぽい気分。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名】不機嫌、怒りっぽい気分。"
+  },
+  "disapprovingly": {
+    "lemma": "disapprovingly",
+    "ipa": "/dˌɪsɐpɹˈuːvɪŋli/",
+    "pos": "副詞",
+    "coreMeaning": "【副】不賛成・非難を示すように。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【副】不賛成・非難を示すように。"
+  },
+  "breathless": {
+    "lemma": "breathless",
+    "ipa": "/bɹˈɛθləs/",
+    "pos": "形容詞",
+    "coreMeaning": "【形】息を切らした、息せき切った。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【形】息を切らした、息せき切った。"
+  },
+  "uncertain": {
+    "lemma": "uncertain",
+    "ipa": "/ʌnsˈɜːtən/",
+    "pos": "形容詞",
+    "coreMeaning": "【形】確信がない、ためらった、不確かな。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【形】確信がない、ためらった、不確かな。"
+  },
+  "survey": {
+    "lemma": "survey",
+    "ipa": "/sˈɜːveɪ/",
+    "pos": "動詞",
+    "coreMeaning": "【動】じろじろ見る、全体を見渡す、調査する。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】じろじろ見る、全体を見渡す、調査する。"
+  },
+  "displeasure": {
+    "lemma": "displeasure",
+    "ipa": "/dɪsplˈɛʒə/",
+    "pos": "名詞",
+    "coreMeaning": "【名】不快、不満、不機嫌。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【名】不快、不満、不機嫌。"
+  },
+  "sniff": {
+    "lemma": "sniff",
+    "ipa": "/snˈɪf/",
+    "pos": "動詞",
+    "coreMeaning": "【動】鼻を鳴らす、においをかぐ。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】鼻を鳴らす、においをかぐ。"
+  },
+  "indignantly": {
+    "lemma": "indignantly",
+    "ipa": "/ɪndˈɪɡnəntli/",
+    "pos": "副詞",
+    "coreMeaning": "【副】憤慨して、心外そうに。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【副】憤慨して、心外そうに。"
+  },
+  "military bearing": {
+    "lemma": "military bearing",
+    "ipa": "/mˈɪlɪtəɹi bˈeəɹɪŋ/",
+    "pos": "名詞句",
+    "coreMeaning": "【名句】軍人らしい姿勢・身のこなし。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名句】軍人らしい姿勢・身のこなし。"
+  },
+  "hold up": {
+    "lemma": "hold up",
+    "ipa": "/hˈəʊld ˈʌp/",
+    "pos": "動詞句",
+    "coreMeaning": "【句動】持ち上げる、掲げる；遅らせる。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【句動】持ち上げる、掲げる；遅らせる。"
+  },
+  "see": {
+    "lemma": "see",
+    "ipa": "/sˈiː/",
+    "pos": "動詞",
+    "coreMeaning": "【動】見る、見える、気づく。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】見る、見える、気づく。"
+  },
+  "instinctively": {
+    "lemma": "instinctively",
+    "ipa": "/ɪnstˈɪŋktɪvli/",
+    "pos": "副詞",
+    "coreMeaning": "【副】本能的に、反射的に。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【副】本能的に、反射的に。"
+  },
+  "quietly": {
+    "lemma": "quietly",
+    "ipa": "/kwˈaɪətli/",
+    "pos": "副詞",
+    "coreMeaning": "【副】静かに、声や物音を立てずに。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【副】静かに、声や物音を立てずに。"
+  },
+  "sing": {
+    "lemma": "sing",
+    "ipa": "/sˈɪŋ/",
+    "pos": "動詞",
+    "coreMeaning": "【動】歌う。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】歌う。"
+  },
+  "bow": {
+    "lemma": "bow",
+    "ipa": "/baʊ/",
+    "pos": "動詞",
+    "coreMeaning": "【動】おじぎをする。【名】おじぎ。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】おじぎをする。【名】おじぎ。"
+  },
+  "majestically": {
+    "lemma": "majestically",
+    "ipa": "/mɐdʒˈɛstɪkli/",
+    "pos": "副詞",
+    "coreMeaning": "【副】威厳たっぷりに、堂々と。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【副】威厳たっぷりに、堂々と。"
+  },
+  "softly": {
+    "lemma": "softly",
+    "ipa": "/sˈɒftli/",
+    "pos": "副詞",
+    "coreMeaning": "【副】静かに、やさしく、小声で。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【副】静かに、やさしく、小声で。"
+  },
+  "manly voice": {
+    "lemma": "manly voice",
+    "ipa": "/mˈanli vˈɔɪs/",
+    "pos": "名詞句",
+    "coreMeaning": "【名句】低く男性的な声。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名句】低く男性的な声。"
+  },
+  "straddle": {
+    "lemma": "straddle",
+    "ipa": "/stɹˈadəl/",
+    "pos": "動詞",
+    "coreMeaning": "【動】脚を広げてまたがるように立つ・座る。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】脚を広げてまたがるように立つ・座る。"
+  },
+  "manly": {
+    "lemma": "manly",
+    "ipa": "/mˈanli/",
+    "pos": "形容詞",
+    "coreMeaning": "【形】男性的な、男らしい。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【形】男性的な、男らしい。"
+  },
+  "nod": {
+    "lemma": "nod",
+    "ipa": "/nˈɒd/",
+    "pos": "動詞",
+    "coreMeaning": "【動】うなずく。【名】うなずき。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】うなずく。【名】うなずき。"
+  },
+  "stridently": {
+    "lemma": "stridently",
+    "ipa": "/stɹˈaɪdəntli/",
+    "pos": "副詞",
+    "coreMeaning": "【副】耳障りなほど鋭く・甲高く。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【副】耳障りなほど鋭く・甲高く。"
+  },
+  "vigorously": {
+    "lemma": "vigorously",
+    "ipa": "/vˈɪɡəɹəsli/",
+    "pos": "副詞",
+    "coreMeaning": "【副】力強く、元気よく。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【副】力強く、元気よく。"
+  },
+  "unhinged": {
+    "lemma": "unhinged",
+    "ipa": "/ʌnhˈɪndʒd/",
+    "pos": "形容詞",
+    "coreMeaning": "【形】精神的に不安定な、正気を失ったような。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【形】精神的に不安定な、正気を失ったような。"
+  },
+  "break away": {
+    "lemma": "break away",
+    "ipa": "/bɹˈeɪk ɐwˈeɪ/",
+    "pos": "動詞句",
+    "coreMeaning": "【句動】離れる、振りほどいて離れる。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【句動】離れる、振りほどいて離れる。"
+  },
+  "frown": {
+    "lemma": "frown",
+    "ipa": "/fɹˈaʊn/",
+    "pos": "動詞",
+    "coreMeaning": "【動】眉をひそめる、しかめ面をする。【名】しかめ面。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】眉をひそめる、しかめ面をする。【名】しかめ面。"
+  },
+  "ejaculate": {
+    "lemma": "ejaculate",
+    "ipa": "/ɪdʒˈakjʊlˌeɪt/",
+    "pos": "動詞",
+    "coreMeaning": "【動】古風な用法で、短い言葉を突然叫ぶ・発する。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】古風な用法で、短い言葉を突然叫ぶ・発する。"
+  },
+  "flamboyant moustache": {
+    "lemma": "flamboyant moustache",
+    "ipa": "/flˈambɔɪənt məstˈaʃ/",
+    "pos": "名詞句",
+    "coreMeaning": "【名句】派手で目立つ口ひげ。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名句】派手で目立つ口ひげ。"
+  },
+  "Hercule Poirot": {
+    "lemma": "Hercule Poirot",
+    "ipa": "/hˈɜːkjuːl pwˈɑːɹɒt/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】アガサ・クリスティ作品に登場するベルギー人探偵エルキュール・ポアロ。",
+    "forms": "固定固有表現。",
+    "tags": [
+      "stage-direction",
+      "proper-noun",
+      "culture"
+    ],
+    "meaning": "【固有名詞】アガサ・クリスティ作品に登場するベルギー人探偵エルキュール・ポアロ。"
+  },
+  "change one’s manner": {
+    "lemma": "change one’s manner",
+    "ipa": "/tʃˈeɪndʒ wˈɒnz mˈanə/",
+    "pos": "動詞句",
+    "coreMeaning": "【動詞句】態度・話し方・振る舞いを変える。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【動詞句】態度・話し方・振る舞いを変える。"
+  },
+  "high good humour": {
+    "lemma": "high good humour",
+    "ipa": "/hˈaɪ ɡˈʊd hjˈuːmə/",
+    "pos": "名詞句",
+    "coreMeaning": "【名句】非常に上機嫌な状態、たいへん陽気な気分。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名句】非常に上機嫌な状態、たいへん陽気な気分。"
+  },
+  "curtain falls": {
+    "lemma": "curtain falls",
+    "ipa": "/kˈɜːtən fˈɔːlz/",
+    "pos": "舞台用語",
+    "coreMeaning": "【舞台】幕が下りる。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "theatre",
+      "chunk"
+    ],
+    "meaning": "【舞台】幕が下りる。"
+  },
+  "uneasily": {
+    "lemma": "uneasily",
+    "ipa": "/ʌnˈiːzili/",
+    "pos": "副詞",
+    "coreMeaning": "【副】不安そうに、落ち着かない様子で。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【副】不安そうに、落ち着かない様子で。"
+  },
+  "the following afternoon": {
+    "lemma": "the following afternoon",
+    "ipa": "/ðə fˈɒləʊɪŋ ˌaftənˈuːn/",
+    "pos": "名詞句",
+    "coreMeaning": "【名句】その翌日の午後。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名句】その翌日の午後。"
+  },
+  "unnoticed": {
+    "lemma": "unnoticed",
+    "ipa": "/ʌnnˈəʊtɪst/",
+    "pos": "形容詞",
+    "coreMeaning": "【形・副】気づかれない、誰にも気づかれずに。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【形・副】気づかれない、誰にも気づかれずに。"
+  },
+  "disappear": {
+    "lemma": "disappear",
+    "ipa": "/dˌɪsɐpˈiə/",
+    "pos": "動詞",
+    "coreMeaning": "【動】姿を消す、見えなくなる。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】姿を消す、見えなくなる。"
+  },
+  "vacuum cleaner": {
+    "lemma": "vacuum cleaner",
+    "ipa": "/vˈakjuːm klˈiːnə/",
+    "pos": "名詞",
+    "coreMeaning": "【名】掃除機。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【名】掃除機。"
+  },
+  "duster": {
+    "lemma": "duster",
+    "ipa": "/dˈʌstə/",
+    "pos": "名詞",
+    "coreMeaning": "【名】ほこりを払う布・はたき。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【名】ほこりを払う布・はたき。"
+  },
+  "collide": {
+    "lemma": "collide",
+    "ipa": "/kəlˈaɪd/",
+    "pos": "動詞",
+    "coreMeaning": "【動】衝突する、ぶつかる。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】衝突する、ぶつかる。"
+  },
+  "frostily": {
+    "lemma": "frostily",
+    "ipa": "/fɹˈɒstili/",
+    "pos": "副詞",
+    "coreMeaning": "【副】冷ややかに、よそよそしく。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【副】冷ややかに、よそよそしく。"
+  },
+  "enquiringly": {
+    "lemma": "enquiringly",
+    "ipa": "/ɛnkwˈaɪəɹɪŋli/",
+    "pos": "副詞",
+    "coreMeaning": "【副】尋ねるように、問いかけるような表情・調子で。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【副】尋ねるように、問いかけるような表情・調子で。"
+  },
+  "volume": {
+    "lemma": "volume",
+    "ipa": "/vˈɒljuːm/",
+    "pos": "名詞",
+    "coreMeaning": "【名】音量、ボリューム。【名】冊・巻、容積。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【名】音量、ボリューム。【名】冊・巻、容積。"
+  },
+  "dance": {
+    "lemma": "dance",
+    "ipa": "/dˈans/",
+    "pos": "動詞",
+    "coreMeaning": "【動】踊る。【名】踊り、ダンス。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】踊る。【名】踊り、ダンス。"
+  },
+  "glare": {
+    "lemma": "glare",
+    "ipa": "/ɡlˈeə/",
+    "pos": "動詞",
+    "coreMeaning": "【動】にらみつける。【名】怒った強い視線。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】にらみつける。【名】怒った強い視線。"
+  },
+  "stub out": {
+    "lemma": "stub out",
+    "ipa": "/stˈʌb ˈaʊt/",
+    "pos": "動詞句",
+    "coreMeaning": "【句動】たばこなどの火を押しつぶして消す。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【句動】たばこなどの火を押しつぶして消す。"
+  },
+  "puzzled": {
+    "lemma": "puzzled",
+    "ipa": "/pˈʌzəld/",
+    "pos": "形容詞",
+    "coreMeaning": "【形】困惑した、当惑した。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【形】困惑した、当惑した。"
+  },
+  "doubtfully": {
+    "lemma": "doubtfully",
+    "ipa": "/dˈaʊtfəli/",
+    "pos": "副詞",
+    "coreMeaning": "【副】疑わしそうに、ためらいながら。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【副】疑わしそうに、ためらいながら。"
+  },
+  "telephone rings": {
+    "lemma": "telephone rings",
+    "ipa": "/tˈɛlɪfˌəʊn ɹˈɪŋz/",
+    "pos": "定型表現",
+    "coreMeaning": "【表現】電話のベルが鳴る。",
+    "forms": "この項目では重要な語形変化なし。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【表現】電話のベルが鳴る。"
+  },
+  "receiver": {
+    "lemma": "receiver",
+    "ipa": "/ɹɪsˈiːvə/",
+    "pos": "名詞",
+    "coreMeaning": "【名】電話の受話器。",
+    "forms": "名詞。必要に応じて複数形をとる。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【名】電話の受話器。"
+  },
+  "turn off": {
+    "lemma": "turn off",
+    "ipa": "/tˈɜːn ˈɒf/",
+    "pos": "動詞句",
+    "coreMeaning": "【句動】機器・照明などを切る、止める。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【句動】機器・照明などを切る、止める。"
+  },
+  "lower": {
+    "lemma": "lower",
+    "ipa": "/lˈəʊə/",
+    "pos": "動詞",
+    "coreMeaning": "【動】下げる、低くする。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction"
+    ],
+    "meaning": "【動】下げる、低くする。"
+  },
+  "take someone in one’s arms": {
+    "lemma": "take someone in one’s arms",
+    "ipa": "/tˈeɪk sˈʌmwɒn ɪn wˈɒnz ˈɑːmz/",
+    "pos": "動詞句",
+    "coreMeaning": "【動詞句】人を両腕に抱き寄せる。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【動詞句】人を両腕に抱き寄せる。"
+  },
+  "break off": {
+    "lemma": "break off",
+    "ipa": "/bɹˈeɪk ˈɒf/",
+    "pos": "動詞句",
+    "coreMeaning": "【句動】途中でやめる、中断する。",
+    "forms": "動詞・動詞句。文脈に応じて活用する。",
+    "tags": [
+      "stage-direction",
+      "chunk"
+    ],
+    "meaning": "【句動】途中でやめる、中断する。"
   }
 }

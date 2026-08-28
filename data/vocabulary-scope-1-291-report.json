@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "scope": {
+    "globalSpeechRange": [
+      1,
+      291
+    ],
+    "speechCount": 291,
+    "first": "act1-scene1-speech-0001",
+    "last": "act1-scene2-speech-0101",
+    "nextExcluded": "act1-scene2-speech-0102"
+  },
+  "source": {
+    "pdf": "The Mousetrap 台本.pdf",
+    "pdfSha256": "94d46d2afe7504d2010c10b3ef4f1017bc3adfe0c09ab86bfd837167357c397b",
+    "canonicalCounts": {
+      "act1-scene1": 190,
+      "act1-scene2": 336,
+      "act2": 638,
+      "total": 1164
+    }
+  },
+  "vocabulary": {
+    "beforeScopeItems": 581,
+    "afterScopeItems": 1297,
+    "addedItems": 716,
+    "dictionaryReappliedAdded": 62,
+    "manualDialogueAdded": 87,
+    "properNounAdded": 49,
+    "phraseAdded": 71,
+    "stageDerivedAdded": 567,
+    "improvedExistingLineEntries": 56,
+    "inThisPlayAddedOrImproved": 701,
+    "totalItems": 2977,
+    "playMeaningItems": 2568,
+    "neutralItems": 409,
+    "inThisPlayItems": 1150,
+    "sha256": "8d3b656717af9a2e3d8149a3c81403fc1d497f6d9c984312e106256775be6d9d"
+  },
+  "dictionary": {
+    "beforeEntries": 1203,
+    "afterEntries": 1376,
+    "newEntries": 173,
+    "improvedExistingEntries": 0,
+    "skippedBoundarySensitivePatches": [
+      {
+        "lemma": "abroad",
+        "reason": "out-of-scope references exist",
+        "outsideReferences": 4
+      }
+    ],
+    "sha256": "295eb4219a5b986974eba94b5951edcbc4d6d4f87cdef5a36ce0083945e897b8"
+  },
+  "stageDirections": {
+    "reviewedCueGroups": 238,
+    "coveredCueGroups": 238,
+    "selectedOccurrenceUnits": 567,
+    "coverage": "PASS"
+  },
+  "qa": {
+    "jsonParse": "PASS",
+    "canonicalSpeechCounts": "PASS",
+    "scopeBoundary": "PASS",
+    "secondPassRescan": "PASS",
+    "polysemyAudit": "PASS",
+    "properNounAudit": "PASS",
+    "stageDirectionAudit": "PASS",
+    "phraseSegmentationAudit": "PASS",
+    "duplicateCheck": "PASS",
+    "missingDictionaryReferenceCheck": "PASS",
+    "speechIdConsistency": "PASS",
+    "outsideScopeLineMutationCheck": "PASS",
+    "outsideScopeLineMutations": 0,
+    "dictionarySchema": "PASS",
+    "lineVocabularySchema": "PASS",
+    "appCompatibility": "PASS"
+  },
+  "unmatchedRules": [],
+  "cleanup": {
+    "preExistingDuplicateIdiomsCanonicalized": 1
+  },
+  "integration": {
+    "baseMain": "4d457ef1784a5d9f1847e6f8e62eef439232266e",
+    "preservedAllOutOfScopeLines": true
+  }
+}

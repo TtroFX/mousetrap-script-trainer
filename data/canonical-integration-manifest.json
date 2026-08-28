@@ -151,14 +151,14 @@
     },
     "lineVocabulary": {
       "file": "mousetrap_line_vocabulary.json",
-      "sha256": "f492f6072a6ee7096ec6a6c4de70b35c9b78b447426c429fa47423d983e7cebb",
+      "sha256": "8d3b656717af9a2e3d8149a3c81403fc1d497f6d9c984312e106256775be6d9d",
       "coverageSpeechIds": 1164,
-      "items": 2262,
-      "annotatedSpeeches": 743,
-      "playMeaningItems": 1850,
-      "neutralOnlyItems": 412,
+      "items": 2977,
+      "annotatedSpeeches": 795,
+      "playMeaningItems": 2568,
+      "neutralOnlyItems": 409,
       "presentationField": "playMeaning",
-      "inThisPlayItems": 459
+      "inThisPlayItems": 1150
     },
     "lineGrammar": {
       "file": "mousetrap_line_grammar.json",
@@ -167,9 +167,9 @@
     },
     "wordDictionary": {
       "file": "mousetrap_word_dictionary.json",
-      "sha256": "97d2122b36f15777f7a048839a7d56075f3b68642ef3eb9aa4fc31975ab32eab",
-      "entries": 1204,
-      "referencedLemmas": 1163,
+      "sha256": "295eb4219a5b986974eba94b5951edcbc4d6d4f87cdef5a36ce0083945e897b8",
+      "entries": 1376,
+      "referencedLemmas": 1340,
       "presentation": {
         "meaningPriority": [
           "lineVocabulary.meaning",
