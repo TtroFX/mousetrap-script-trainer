@@ -1,0 +1,87 @@
+name: Enrich Vocabulary Scope 1-291
+
+on:
+  push:
+    branches: ["feature/vocab-1-291-20260828"]
+    paths:
+      - '.github/workflows/enrich-vocab-scope-1-291.yml'
+      - 'scripts/.vocab-scope-1-291-new-*.b64'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  enrich-validate-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Reconstruct enrichment script
+        run: |
+          cat scripts/.vocab-scope-1-291-new-*.b64 > /tmp/enrich.b64
+          base64 -d /tmp/enrich.b64 | gzip -d > /tmp/enrich.mjs
+          ACTUAL_SHA="$(sha256sum /tmp/enrich.mjs | cut -d' ' -f1)"
+          EXPECTED_SHA="27531c4fbf91748c86e7f194309e39b74258131449347ade7c070d10f3fd1c4d"
+          test "$ACTUAL_SHA" = "$EXPECTED_SHA"
+          node --check /tmp/enrich.mjs
+
+      - name: Apply scope 1-291 enrichment
+        run: node /tmp/enrich.mjs
+
+      - name: Validate runtime production assembly
+        working-directory: app
+        run: |
+          node --check src/data-store.js
+          node --check scripts/assemble-production.mjs
+          node scripts/assemble-production.mjs --verify-only
+
+      - name: Mark app compatibility PASS
+        run: |
+          node --input-type=module <<'EOF'
+          import fs from 'node:fs';
+          const p='data/vocabulary-scope-1-291-report.json';
+          const r=JSON.parse(fs.readFileSync(p,'utf8'));
+          if(r.status!=='PASS') throw new Error('scope report not PASS');
+          r.qa.appCompatibility='PASS';
+          fs.writeFileSync(p,JSON.stringify(r,null,2)+'\n');
+          EOF
+
+      - name: Final independent assertions
+        run: |
+          node --input-type=module <<'EOF'
+          import fs from 'node:fs';
+          const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+          const r=read('data/vocabulary-scope-1-291-report.json');
+          const v=read('mousetrap_line_vocabulary.json');
+          const d=read('mousetrap_word_dictionary.json');
+          if(r.status!=='PASS'||r.qa.appCompatibility!=='PASS') throw new Error('report gate');
+          if(r.scope.speeches!==291||r.scope.end!=='act1-scene2-speech-0101') throw new Error('scope boundary');
+          if(r.qa.stageCueGroupsReviewed!==238||r.qa.stageCueGroupsCovered!==238) throw new Error('stage coverage');
+          if(r.qa.outOfScopeMutation!==0||r.qa.missingDictionaryReferences!==0||r.qa.duplicates!==0) throw new Error('integrity gate');
+          if(Object.keys(v).length!==1164) throw new Error('speech coverage');
+          if(Object.keys(d).length<1000) throw new Error('dictionary shrank');
+          console.log(JSON.stringify({status:'PASS',scope:r.scope,changes:r.changes,qa:r.qa,totals:r.after},null,2));
+          EOF
+
+      - name: Commit verified production changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm -f scripts/.vocab-scope-1-291-payload-1.b64 scripts/.vocab-scope-1-291-payload-2.b64 2>/dev/null || true
+          git rm -f scripts/.vocab-scope-1-291-new-*.b64
+          git add -A
+          git diff --cached --check
+          git commit -m 'Enrich vocabulary for global speeches 1-291 [skip ci]'
+          git push origin HEAD:feature/vocab-1-291-20260828
+
+      - name: Final repository cleanliness
+        run: git status --short
