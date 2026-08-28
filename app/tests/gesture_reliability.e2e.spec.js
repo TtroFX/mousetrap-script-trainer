@@ -12,17 +12,23 @@ async function swipe(page,targetSelector,fromX,toX,pointerId){
     const fire=(type,x)=>target.dispatchEvent(new PointerEvent(type,{bubbles:true,cancelable:true,pointerType:'touch',pointerId,clientX:x,clientY:260}));
     fire('pointerdown',fromX);
     fire('pointermove',(fromX+toX)/2);
+    const page=document.querySelector('.line-page');
     const mid={
-      dragging:document.querySelector('.line-page')?.classList.contains('is-focus-swiping')||false,
-      x:document.querySelector('.line-page')?.style.getPropertyValue('--focus-swipe-x')||''
+      dragging:page?.classList.contains('is-focus-swiping')||false,
+      transform:page?getComputedStyle(page).transform:'none',
+      opacity:page?getComputedStyle(page).opacity:'1'
     };
     fire('pointermove',toX);
     fire('pointerup',toX);
-    return mid;
+    return {
+      mid,
+      commitAnimations:page?.getAnimations?.().length||0,
+      settling:page?.classList.contains('is-focus-settling')||false
+    };
   },{targetSelector,fromX,toX,pointerId});
 }
 
-test('line swipe follows the pointer, works from vocabulary text after interaction, and navigates both directions',async({page})=>{
+test('line swipe visibly follows the pointer, animates commit, works from vocabulary text, and navigates both directions',async({page})=>{
   await ready(page);
   const target=await page.evaluate(async()=>{
     await MTS_INDEX_ZERO.store.loadStudy();
@@ -46,13 +52,33 @@ test('line swipe follows the pointer, works from vocabulary text after interacti
   await expect(page.locator('#word-overlay')).toBeHidden();
 
   const forward=await swipe(page,'.vocab-inline',310,105,71);
-  expect(forward.dragging).toBe(true);
-  expect(forward.x).not.toBe('');
+  expect(forward.mid.dragging).toBe(true);
+  expect(forward.mid.transform).not.toBe('none');
+  expect(forward.mid.transform).not.toBe('matrix(1, 0, 0, 1, 0, 0)');
+  expect(forward.settling).toBe(true);
+  expect(forward.commitAnimations).toBeGreaterThan(0);
   await expect(page).toHaveURL(new RegExp(target.next));
 
   const backward=await swipe(page,'.line-page',105,310,72);
-  expect(backward.dragging).toBe(true);
+  expect(backward.mid.dragging).toBe(true);
+  expect(backward.mid.transform).not.toBe('none');
+  expect(backward.commitAnimations).toBeGreaterThan(0);
   await expect(page).toHaveURL(new RegExp(target.line));
+});
+
+test('reduced-motion preference still keeps short visible swipe feedback instead of disabling motion completely',async({page})=>{
+  await page.emulateMedia({reducedMotion:'reduce'});
+  await ready(page);
+  const target=await page.evaluate(()=>{
+    const rows=MTS_INDEX_ZERO.store.getScene('act1-scene1');
+    return{scene:'act1-scene1',line:rows[1].id,next:rows[2].id};
+  });
+  await page.goto(`${BASE}#/line?scene=${target.scene}&line=${target.line}`);
+  await page.waitForSelector('.line-page');
+  const result=await swipe(page,'.line-page',310,105,73);
+  expect(result.mid.dragging).toBe(true);
+  expect(result.commitAnimations).toBeGreaterThan(0);
+  await expect(page).toHaveURL(new RegExp(target.next));
 });
 
 test('unrelated pointer cancellation does not kill the active line swipe',async({page})=>{
