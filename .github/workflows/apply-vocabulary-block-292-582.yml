@@ -1,0 +1,84 @@
+name: Apply Vocabulary Block 292-582
+
+on:
+  push:
+    branches:
+      - vocab/block-292-582-20260828
+    paths:
+      - 'scripts/apply-vocabulary-block-292-582.mjs'
+      - 'data/vocabulary-rebuild/block-292-582-*.b64'
+      - '.github/workflows/apply-vocabulary-block-292-582.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Remove unreferenced-definition precreation
+        run: |
+          node --input-type=module <<'EOF'
+          import fs from 'node:fs';
+          const path='scripts/apply-vocabulary-block-292-582.mjs';
+          let src=fs.readFileSync(path,'utf8');
+          const needle=`for (const [lemma, def] of Object.entries(defs)) {
+            if (!def?.meaning) continue;
+            ensureDictionary(lemma);
+          }
+
+          `;
+          if(!src.includes(needle)) throw new Error('Expected definition-precreation block not found');
+          src=src.replace(needle,'');
+          fs.writeFileSync(path,src);
+          EOF
+
+      - name: Apply vocabulary expansion
+        run: node scripts/apply-vocabulary-block-292-582.mjs
+
+      - name: Validate vocabulary semantics
+        run: node scripts/validate-vocabulary-semantics.mjs
+
+      - name: Validate production assembly
+        working-directory: app
+        run: node scripts/assemble-production.mjs --verify-only
+
+      - name: Assert block QA
+        run: |
+          node --input-type=module <<'EOF'
+          import fs from 'node:fs';
+          const r=JSON.parse(fs.readFileSync('data/vocabulary-block-292-582-report.json','utf8'));
+          if(r.status!=='PASS') throw new Error('Block report is not PASS');
+          if(r.scope?.speeches!==291) throw new Error('Scope speech count mismatch');
+          if((r.sourceAudit?.unmatchedDialogueSpecs||[]).length) throw new Error('Unmatched dialogue specs: '+JSON.stringify(r.sourceAudit.unmatchedDialogueSpecs));
+          if(r.qa?.duplicateAssociations!==0) throw new Error('Duplicate associations');
+          if(r.qa?.danglingReferences!==0) throw new Error('Dangling references');
+          if(r.qa?.forbiddenOutsideScopeMutations!==0) throw new Error('Forbidden out-of-scope mutations');
+          if(r.qa?.jsonParse!=='PASS' || r.qa?.dictionaryMeaningConsistency!=='PASS' || r.qa?.inThisPlayValidation!=='PASS') throw new Error('Semantic QA failure');
+          console.log(JSON.stringify(r,null,2));
+          EOF
+
+      - name: Commit validated production data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add scripts/apply-vocabulary-block-292-582.mjs \
+                  mousetrap_line_vocabulary.json \
+                  mousetrap_word_dictionary.json \
+                  data/canonical-production-contract.json \
+                  data/canonical-integration-manifest.json \
+                  data/vocabulary-block-292-582-report.json \
+                  app/scripts/assemble-production.mjs \
+                  materials/005_VOCABULARY_CORE.txt \
+                  materials/006_VOCABULARY_USAGE.txt
+          if git diff --cached --quiet; then
+            echo 'No generated changes.'
+            exit 0
+          fi
+          git commit -m 'Expand vocabulary for speeches 292-582'
+          git push
