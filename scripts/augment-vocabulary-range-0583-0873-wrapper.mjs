@@ -25,26 +25,59 @@ const preseed = {
 for (const [key, value] of Object.entries(preseed)) if (!dict[key]) dict[key] = { ...value, coreMeaning:value.meaning };
 fs.writeFileSync(dictPath, JSON.stringify(dict, null, 2) + '\n');
 
-// Diagnostic transformation only: dump every unmapped stage direction instead
-// of terminating at the final audit. No production merge occurs from a failing
-// or diagnostically incomplete run.
 let source = sourceBuffer.toString('utf8');
-const marker = 'unmapped stage directions:';
-const pos = source.indexOf(marker);
-if (pos < 0) throw new Error('unmapped-stage marker not found in augmentation source');
-console.log('SOURCE_CONTEXT_START');
-console.log(source.slice(Math.max(0,pos-900), Math.min(source.length,pos+500)));
-console.log('SOURCE_CONTEXT_END');
-const rx = /if\s*\((\w+)\.length\)\s*fail\(`unmapped stage directions: \$\{\1\.length\}`\);/;
-const m = source.match(rx);
-if (!m) throw new Error('could not identify unmapped-stage fail statement');
-const variable = m[1];
-source = source.replace(rx, `if (${variable}.length) console.log('UNMAPPED_STAGE_DIRECTIONS=' + JSON.stringify(${variable}, null, 2));`);
+const explicitStageRows = [
+  ['MAJOR METCALF','MAJOR METCALF','rising; kindly','act2-speech-0097'],
+  ['TROTTER','TROTTER','looking at GILES; stolidly','act2-speech-0099'],
+  ['MOLLIE','Please','GILES exits after the others down Right, leaving the door open. MOLLIE shuts it. TROTTER moves to the arch up Right.','act2-speech-0108'],
+  ['TROTTER','me MOLLIE Sergeant Trotter you think that this','She moves below the sofa.','act2-speech-0110'],
+  ['MOLLIE','MOLLIE','shaken','act2-speech-0114'],
+  ['TROTTER','TROTTER','right of the sofa; turning to her','act2-speech-0119'],
+  ['TROTTER','TROTTER','considering','act2-speech-0133'],
+  ['TROTTER','Major Metcalf','He moves to the armchair Centre and sits.','act2-speech-0133'],
+  ['TROTTER','Mr Paravicini','He appears to consider.','act2-speech-0139'],
+  ['TROTTER','TROTTER','significantly','act2-speech-0159'],
+  ['MOLLIE','Yes but','She turns away.','act2-speech-0162'],
+  ['MOLLIE','MOLLIE','turning back quickly','act2-speech-0164'],
+  ['MOLLIE','MOLLIE','suspiciously','act2-speech-0176'],
+  ['MOLLIE','Yes','TROTTER takes out a folded evening paper from the pocket.','act2-speech-0176'],
+  ['CHRISTOPHER','Mollie','MOLLIE jumps up and hides the newspaper under the cushion in the armchair Centre.','act2-speech-0180'],
+  ['MOLLIE','MOLLIE','facing CHRISTOPHER','act2-speech-0211'],
+  ['MOLLIE','MOLLIE','showing the paper','act2-speech-0233'],
+  ['GILES','GILES','moving up to the fire','act2-speech-0247'],
+  ['GILES','GILES','moving up to Right of MOLLIE','act2-speech-0259'],
+  ['MOLLIE','MOLLIE','looking guilty','act2-speech-0283'],
+  ['GILES','GILES','following her','act2-speech-0300'],
+  ['MOLLIE','MOLLIE','moving to Right of the sofa table','act2-speech-0316'],
+  ['PARAVICINI','PARAVICINI','moving to the archway up Right and calling','act2-speech-0346'],
+  ['PARAVICINI','Mr Ralston','GILES enters up Right and stands below the arch. PARAVICINI returns and sits in the small armchair down Right.','act2-speech-0346']
+];
+const stageMapCode = `const explicitStageMap = new Map(${JSON.stringify(explicitStageRows)}.map(([a,b,c,id]) => [[a,b,c].join('\\u0000'), id]));\n`;
+const loopNeedle = 'for (const rec of stageRecords) {';
+if (!source.includes(loopNeedle)) throw new Error('stage loop marker not found');
+source = source.replace(loopNeedle, stageMapCode + loopNeedle);
+const mapNeedle = 'const s = mapStageRecord(rec);';
+if (!source.includes(mapNeedle)) throw new Error('stage map call marker not found');
+source = source.replace(mapNeedle, `const explicitStageId = explicitStageMap.get([rec.speaker, rec.anchor, rec.direction].join('\\u0000'));\n  const s = explicitStageId ? {id: explicitStageId} : mapStageRecord(rec);`);
+
+// Dump duplicate details, but force a diagnostic stop so this run cannot commit.
+const dupMarker = 'target duplicate errors';
+const dupPos = source.indexOf(dupMarker);
+if (dupPos < 0) throw new Error('duplicate audit marker not found');
+console.log('DUP_SOURCE_CONTEXT_START');
+console.log(source.slice(Math.max(0,dupPos-1000), Math.min(source.length,dupPos+600)));
+console.log('DUP_SOURCE_CONTEXT_END');
+const dupRx = /if\s*\((\w+)\.length\)\s*fail\(`target duplicate errors \$\{\1\.length\}`\);/;
+const dm = source.match(dupRx);
+if (!dm) throw new Error('could not identify target duplicate fail statement');
+const dupVar = dm[1];
+source = source.replace(dupRx, `if (${dupVar}.length) console.log('TARGET_DUPLICATE_ERRORS=' + JSON.stringify(${dupVar}, null, 2));`);
 
 const temp = 'scripts/.tmp-vocab-range-0583-0873.inner.mjs';
 fs.writeFileSync(temp, source);
 try {
   await import(pathToFileURL(`${process.cwd()}/${temp}`).href + `?run=${Date.now()}`);
+  throw new Error('DIAGNOSTIC_STOP_AFTER_DUPLICATE_DUMP');
 } finally {
   fs.rmSync(temp, { force:true });
 }
