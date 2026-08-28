@@ -29,8 +29,26 @@ function longestContext(rows) {
     .sort((a, b) => b.length - a.length)[0] || '';
 }
 
+function mergeRows(rows, canonicalLemma, surface) {
+  const { entry } = dictionaryEntry(canonicalLemma);
+  const canonicalKey = norm(canonicalLemma);
+  const candidate = rows.find(row => norm(row.lemma) === canonicalKey) || rows[0];
+  const context = longestContext(rows);
+  const merged = {
+    ...candidate,
+    surface: surface ?? candidate.surface,
+    lemma: entry.lemma || canonicalLemma,
+    meaning: entry.meaning,
+    playMeaning: rows.some(row => row.playMeaning === true)
+  };
+  if (context) merged.inThisPlay = context;
+  else delete merged.inThisPlay;
+  return merged;
+}
+
 let appliedCollapses = 0;
 let appliedRetargets = 0;
+let appliedExactDeduplications = 0;
 
 function collapse(speechId, surface, canonicalLemma, options = {}) {
   const rows = vocab[speechId];
@@ -46,21 +64,8 @@ function collapse(speechId, surface, canonicalLemma, options = {}) {
     throw new Error(`collapse target missing: ${speechId} ${surface}`);
   }
 
-  const { entry } = dictionaryEntry(canonicalLemma);
-  const candidate = group.find(row => norm(row.lemma) === canonicalKey) || group[0];
-  const context = longestContext(group);
-  const playMeaning = group.some(row => row.playMeaning === true);
-  const exactSurface = options.surface || candidate.surface || group[0].surface || surface;
-  const merged = {
-    ...candidate,
-    surface: exactSurface,
-    lemma: entry.lemma || canonicalLemma,
-    meaning: entry.meaning,
-    playMeaning
-  };
-  if (context) merged.inThisPlay = context;
-  else delete merged.inThisPlay;
-
+  const exactSurface = options.surface || group.find(row => norm(row.lemma) === canonicalKey)?.surface || group[0].surface || surface;
+  const merged = mergeRows(group, canonicalLemma, exactSurface);
   vocab[speechId] = rows.filter(row => norm(row.surface) !== surfaceKey);
   vocab[speechId].push(merged);
   appliedCollapses += 1;
@@ -153,6 +158,30 @@ const collapses = [
 ];
 for (const args of collapses) collapse(...args);
 
+// Retargeting a constituent can land on a span already represented by the same
+// lemma. The production contract forbids exact duplicate surface+lemma pairs, so
+// merge such rows losslessly instead of keeping two identical highlights.
+for (const [speechId, rows] of Object.entries(vocab)) {
+  const groups = new Map();
+  for (const row of rows) {
+    const k = `${norm(row.surface)}\u0000${norm(row.lemma)}`;
+    const group = groups.get(k) || [];
+    group.push(row);
+    groups.set(k, group);
+  }
+  if (![...groups.values()].some(group => group.length > 1)) continue;
+  const rebuilt = [];
+  for (const group of groups.values()) {
+    if (group.length === 1) {
+      rebuilt.push(group[0]);
+      continue;
+    }
+    rebuilt.push(mergeRows(group, group[0].lemma, group[0].surface));
+    appliedExactDeduplications += group.length - 1;
+  }
+  vocab[speechId] = rebuilt;
+}
+
 // The served-its-purpose alias was introduced by an earlier merge and has no
 // independent source occurrence after canonicalization. Remove only this proven orphan.
 const servedAliasKey = dictKeyByLemma.get(norm('serve its purpose'));
@@ -164,13 +193,19 @@ if (servedAliasKey) {
 }
 
 const conflicts = [];
+const exactDuplicates = [];
 for (const [speechId, rows] of Object.entries(vocab)) {
   const bySurface = new Map();
+  const exact = new Set();
   for (const item of rows) {
     const surfaceKey = norm(item.surface);
+    const lemmaKey = norm(item.lemma);
+    const exactKey = `${surfaceKey}\u0000${lemmaKey}`;
+    if (exact.has(exactKey)) exactDuplicates.push({ speechId, surface: item.surface, lemma: item.lemma });
+    exact.add(exactKey);
     const record = bySurface.get(surfaceKey) || { surfaces: new Set(), lemmas: new Set() };
     record.surfaces.add(String(item.surface || ''));
-    record.lemmas.add(norm(item.lemma));
+    record.lemmas.add(lemmaKey);
     bySurface.set(surfaceKey, record);
   }
   for (const [surfaceKey, record] of bySurface) {
@@ -184,6 +219,7 @@ for (const [speechId, rows] of Object.entries(vocab)) {
     }
   }
 }
+if (exactDuplicates.length) throw new Error(`exact surface+lemma duplicates remain: ${JSON.stringify(exactDuplicates.slice(0, 10))}`);
 
 write(DICT_PATH, dict);
 write(VOCAB_PATH, vocab);
@@ -212,14 +248,16 @@ write(MANIFEST_PATH, manifest);
 const referencedLemmas = new Set(Object.values(vocab).flat().map(row => norm(row.lemma)));
 const orphanDictionaryEntries = Object.keys(dict).filter(k => !referencedLemmas.has(norm(k))).sort();
 const report = {
-  schemaVersion: 3,
+  schemaVersion: 4,
   status: conflicts.length === 0 ? 'PASS_PHRASE_ALIAS_CLOSURE' : 'REMAINING_SURFACE_LEMMA_CONFLICTS',
   appliedThisRun: {
     collapses: appliedCollapses,
-    retargets: appliedRetargets
+    retargets: appliedRetargets,
+    exactDeduplications: appliedExactDeduplications
   },
   remainingSurfaceLemmaConflicts: conflicts.length,
   conflicts,
+  remainingExactSurfaceLemmaDuplicates: exactDuplicates.length,
   orphanDictionaryEntries: orphanDictionaryEntries.length,
   orphanDictionaryLemmas: orphanDictionaryEntries,
   counts: {
