@@ -31,15 +31,21 @@ jobs:
       - name: Materialize final-quarter production patch
         shell: bash
         run: |
+          set -euo pipefail
           cat data/final-quarter-vocabulary-patch.seed.{01..07} > data/final-quarter-vocabulary-patch.json.gz.b64
+          set +e
           cat scripts/apply-final-quarter-vocabulary.seed.{01..03} | base64 -d | gzip -dc > scripts/apply-final-quarter-vocabulary.mjs
+          gzip_status=${PIPESTATUS[2]}
+          set -e
+          test -s scripts/apply-final-quarter-vocabulary.mjs
+          node --check scripts/apply-final-quarter-vocabulary.mjs
+          echo "Recovered apply script; gzip status=${gzip_status}. Syntax verification is authoritative."
           cat >> scripts/build-vocabulary-block-6.mjs <<'EOF'
 
           // FINAL_QUARTER_BOOTSTRAP_BEGIN
           await import('./apply-final-quarter-vocabulary.mjs');
           // FINAL_QUARTER_BOOTSTRAP_END
           EOF
-          node --check scripts/apply-final-quarter-vocabulary.mjs
       - name: Merge context outline in workspace
         run: node scripts/merge-context-outline.mjs
       - name: Build Block 6 vocabulary data
@@ -82,10 +88,15 @@ jobs:
                   data/vocabulary-rebuild/block-6-neutral-fallbacks.json \
                   data/vocabulary-rebuild/block-6-build-report.json \
                   data/vocabulary-rebuild/block-6-oxford-audit.json \
-                  data/vocabulary-rebuild/block-6-oxford-application.json
+                  data/vocabulary-rebuild/block-6-oxford-application.json \
+                  mousetrap_line_vocabulary.json \
+                  mousetrap_word_dictionary.json \
+                  data/canonical-production-contract.json \
+                  data/canonical-integration-manifest.json \
+                  data/final-quarter-vocabulary-qa.json
           if git diff --cached --quiet; then
             echo 'No generated changes.'
             exit 0
           fi
-          git commit -m 'Finalize Block 6 vocabulary rebuild'
+          git commit -m 'Finalize final-quarter production vocabulary'
           git push
