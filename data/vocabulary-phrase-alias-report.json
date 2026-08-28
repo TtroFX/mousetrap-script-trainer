@@ -1,0 +1,668 @@
+{
+  "schemaVersion": 2,
+  "status": "REMAINING_SURFACE_LEMMA_CONFLICTS",
+  "target": {
+    "speechId": "act1-scene2-speech-0058",
+    "surface": "served its purpose",
+    "repairedThisRun": true,
+    "lemmasBefore": [
+      "serve its purpose",
+      "serve one's purpose"
+    ],
+    "lemmaAfter": [
+      "serve one’s purpose"
+    ],
+    "occurrencesAfter": 1,
+    "aliasDictionaryPresentAfter": false
+  },
+  "remainingSurfaceLemmaConflicts": 58,
+  "conflicts": [
+    {
+      "speechId": "act1-scene1-speech-0005",
+      "normalizedSurface": "stoke the aga",
+      "surfaces": [
+        "stoke the Aga"
+      ],
+      "lemmas": [
+        "stoke the aga",
+        "stoke"
+      ]
+    },
+    {
+      "speechId": "act1-scene1-speech-0032",
+      "normalizedSurface": "fourposter",
+      "surfaces": [
+        "Fourposter"
+      ],
+      "lemmas": [
+        "fourposter",
+        "four-poster"
+      ]
+    },
+    {
+      "speechId": "act1-scene1-speech-0046",
+      "normalizedSurface": "wax flowers",
+      "surfaces": [
+        "wax flowers"
+      ],
+      "lemmas": [
+        "wax flowers",
+        "wax flower"
+      ]
+    },
+    {
+      "speechId": "act1-scene1-speech-0054",
+      "normalizedSurface": "carried away",
+      "surfaces": [
+        "carried away"
+      ],
+      "lemmas": [
+        "carry away",
+        "get carried away"
+      ]
+    },
+    {
+      "speechId": "act1-scene1-speech-0054",
+      "normalizedSurface": "general dogsbody",
+      "surfaces": [
+        "general dogsbody"
+      ],
+      "lemmas": [
+        "general dogsbody",
+        "dogsbody"
+      ]
+    },
+    {
+      "speechId": "act1-scene1-speech-0057",
+      "normalizedSurface": "fourposter",
+      "surfaces": [
+        "fourposter"
+      ],
+      "lemmas": [
+        "fourposter",
+        "four-poster"
+      ]
+    },
+    {
+      "speechId": "act1-scene1-speech-0067",
+      "normalizedSurface": "prefab nests",
+      "surfaces": [
+        "Prefab Nests"
+      ],
+      "lemmas": [
+        "prefab",
+        "prefab nests"
+      ]
+    },
+    {
+      "speechId": "act1-scene1-speech-0097",
+      "normalizedSurface": "could do with a coat of paint",
+      "surfaces": [
+        "could do with a coat of paint"
+      ],
+      "lemmas": [
+        "do with a coat of paint",
+        "could do with"
+      ]
+    },
+    {
+      "speechId": "act1-scene1-speech-0099",
+      "normalizedSurface": "i beg your pardon",
+      "surfaces": [
+        "I beg your pardon"
+      ],
+      "lemmas": [
+        "beg your pardon",
+        "i beg your pardon"
+      ]
+    },
+    {
+      "speechId": "act1-scene1-speech-0101",
+      "normalizedSurface": "fourposter",
+      "surfaces": [
+        "fourposter"
+      ],
+      "lemmas": [
+        "fourposter",
+        "four-poster"
+      ]
+    },
+    {
+      "speechId": "act1-scene1-speech-0118",
+      "normalizedSurface": "running concern",
+      "surfaces": [
+        "running concern"
+      ],
+      "lemmas": [
+        "running concern",
+        "going concern"
+      ]
+    },
+    {
+      "speechId": "act1-scene1-speech-0121",
+      "normalizedSurface": "fill your place",
+      "surfaces": [
+        "fill your place"
+      ],
+      "lemmas": [
+        "fill your place",
+        "fill someone's place"
+      ]
+    },
+    {
+      "speechId": "act1-scene1-speech-0121",
+      "normalizedSurface": "raising our terms",
+      "surfaces": [
+        "raising our terms"
+      ],
+      "lemmas": [
+        "raise our terms",
+        "terms"
+      ]
+    },
+    {
+      "speechId": "act1-scene1-speech-0122",
+      "normalizedSurface": "turn me out",
+      "surfaces": [
+        "turn me out"
+      ],
+      "lemmas": [
+        "turn someone out",
+        "turn out"
+      ]
+    },
+    {
+      "speechId": "act1-scene1-speech-0126",
+      "normalizedSurface": "bogged",
+      "surfaces": [
+        "bogged"
+      ],
+      "lemmas": [
+        "bogged",
+        "bog down"
+      ]
+    },
+    {
+      "speechId": "act1-scene1-speech-0126",
+      "normalizedSurface": "drift",
+      "surfaces": [
+        "drift"
+      ],
+      "lemmas": [
+        "snowdrift",
+        "drift"
+      ]
+    },
+    {
+      "speechId": "act1-scene1-speech-0156",
+      "normalizedSurface": "i daresay",
+      "surfaces": [
+        "I daresay"
+      ],
+      "lemmas": [
+        "i daresay",
+        "daresay"
+      ]
+    },
+    {
+      "speechId": "act1-scene1-speech-0159",
+      "normalizedSurface": "fourposter",
+      "surfaces": [
+        "fourposter"
+      ],
+      "lemmas": [
+        "fourposter",
+        "four-poster"
+      ]
+    },
+    {
+      "speechId": "act1-scene1-speech-0160",
+      "normalizedSurface": "fourposter",
+      "surfaces": [
+        "fourposter"
+      ],
+      "lemmas": [
+        "fourposter",
+        "four-poster"
+      ]
+    },
+    {
+      "speechId": "act1-scene1-speech-0177",
+      "normalizedSurface": "answer to prayer",
+      "surfaces": [
+        "answer to prayer"
+      ],
+      "lemmas": [
+        "answer to prayer",
+        "answer to a prayer"
+      ]
+    },
+    {
+      "speechId": "act1-scene2-speech-0005",
+      "normalizedSurface": "cornbeef",
+      "surfaces": [
+        "Cornbeef"
+      ],
+      "lemmas": [
+        "cornbeef",
+        "corned beef"
+      ]
+    },
+    {
+      "speechId": "act1-scene2-speech-0006",
+      "normalizedSurface": "cornbeef",
+      "surfaces": [
+        "cornbeef"
+      ],
+      "lemmas": [
+        "cornbeef",
+        "corned beef"
+      ]
+    },
+    {
+      "speechId": "act1-scene2-speech-0013",
+      "normalizedSurface": "i beg your pardon",
+      "surfaces": [
+        "I beg your pardon"
+      ],
+      "lemmas": [
+        "beg your pardon",
+        "i beg your pardon"
+      ]
+    },
+    {
+      "speechId": "act1-scene2-speech-0060",
+      "normalizedSurface": "tactics",
+      "surfaces": [
+        "Tactics"
+      ],
+      "lemmas": [
+        "tactics",
+        "tactic"
+      ]
+    },
+    {
+      "speechId": "act1-scene2-speech-0085",
+      "normalizedSurface": "implicitly",
+      "surfaces": [
+        "implicitly"
+      ],
+      "lemmas": [
+        "implicit",
+        "implicitly"
+      ]
+    },
+    {
+      "speechId": "act1-scene2-speech-0087",
+      "normalizedSurface": "nylons from gibraltar",
+      "surfaces": [
+        "nylons from Gibraltar"
+      ],
+      "lemmas": [
+        "nylons from gibraltar",
+        "nylons"
+      ]
+    },
+    {
+      "speechId": "act1-scene2-speech-0092",
+      "normalizedSurface": "tinpot regulation",
+      "surfaces": [
+        "tinpot regulation"
+      ],
+      "lemmas": [
+        "tinpot regulation",
+        "tinpot"
+      ]
+    },
+    {
+      "speechId": "act1-scene2-speech-0094",
+      "normalizedSurface": "coalscuttles",
+      "surfaces": [
+        "coalscuttles"
+      ],
+      "lemmas": [
+        "coalscuttle",
+        "coal scuttle"
+      ]
+    },
+    {
+      "speechId": "act1-scene2-speech-0101",
+      "normalizedSurface": "i beg your pardon",
+      "surfaces": [
+        "I beg your pardon"
+      ],
+      "lemmas": [
+        "beg your pardon",
+        "i beg your pardon"
+      ]
+    },
+    {
+      "speechId": "act1-scene2-speech-0229",
+      "normalizedSurface": "distressing",
+      "surfaces": [
+        "distressing"
+      ],
+      "lemmas": [
+        "distressing",
+        "distress"
+      ]
+    },
+    {
+      "speechId": "act1-scene2-speech-0263",
+      "normalizedSurface": "makes his face up",
+      "surfaces": [
+        "Makes his face up"
+      ],
+      "lemmas": [
+        "make one's face up",
+        "make up"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0020",
+      "normalizedSurface": "a wider field",
+      "surfaces": [
+        "a wider field"
+      ],
+      "lemmas": [
+        "wide field",
+        "wider field"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0057",
+      "normalizedSurface": "making this up",
+      "surfaces": [
+        "making this up"
+      ],
+      "lemmas": [
+        "make up",
+        "make something up"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0060",
+      "normalizedSurface": "offended",
+      "surfaces": [
+        "offended"
+      ],
+      "lemmas": [
+        "offended",
+        "offend"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0128",
+      "normalizedSurface": "japs",
+      "surfaces": [
+        "Japs"
+      ],
+      "lemmas": [
+        "japs",
+        "jap"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0145",
+      "normalizedSurface": "gives the sex away",
+      "surfaces": [
+        "gives the sex away"
+      ],
+      "lemmas": [
+        "give away",
+        "give something away"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0217",
+      "normalizedSurface": "put it out of my mind",
+      "surfaces": [
+        "put it out of my mind"
+      ],
+      "lemmas": [
+        "put it out of one's mind",
+        "put something out of one's mind"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0324",
+      "normalizedSurface": "reinforcements",
+      "surfaces": [
+        "reinforcements"
+      ],
+      "lemmas": [
+        "reinforcement",
+        "reinforcements"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0367",
+      "normalizedSurface": "whacking great",
+      "surfaces": [
+        "Whacking great"
+      ],
+      "lemmas": [
+        "whacking great",
+        "whacking"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0370",
+      "normalizedSurface": "put myself in the place of",
+      "surfaces": [
+        "put myself in the place of"
+      ],
+      "lemmas": [
+        "put oneself in the place of",
+        "put oneself in someone's place"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0372",
+      "normalizedSurface": "prospective victim",
+      "surfaces": [
+        "prospective victim"
+      ],
+      "lemmas": [
+        "prospective victim",
+        "prospective"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0372",
+      "normalizedSurface": "reproach themselves for",
+      "surfaces": [
+        "reproach themselves for"
+      ],
+      "lemmas": [
+        "reproach oneself",
+        "reproach oneself for"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0372",
+      "normalizedSurface": "come out with it",
+      "surfaces": [
+        "come out with it"
+      ],
+      "lemmas": [
+        "come out with it",
+        "come out with something"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0392",
+      "normalizedSurface": "bound for",
+      "surfaces": [
+        "bound for"
+      ],
+      "lemmas": [
+        "bound for",
+        "be bound for"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0417",
+      "normalizedSurface": "play the markets",
+      "surfaces": [
+        "play the markets"
+      ],
+      "lemmas": [
+        "play the markets",
+        "play the market"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0455",
+      "normalizedSurface": "i beg your pardon",
+      "surfaces": [
+        "I beg your pardon"
+      ],
+      "lemmas": [
+        "beg your pardon",
+        "i beg your pardon"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0464",
+      "normalizedSurface": "vouch for you",
+      "surfaces": [
+        "vouch for you"
+      ],
+      "lemmas": [
+        "vouch for",
+        "vouch for someone"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0465",
+      "normalizedSurface": "social reference",
+      "surfaces": [
+        "social reference"
+      ],
+      "lemmas": [
+        "social reference",
+        "reference"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0485",
+      "normalizedSurface": "i daresay",
+      "surfaces": [
+        "I daresay"
+      ],
+      "lemmas": [
+        "daresay",
+        "i daresay"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0501",
+      "normalizedSurface": "all to no avail",
+      "surfaces": [
+        "all to no avail"
+      ],
+      "lemmas": [
+        "all to no avail",
+        "to no avail"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0511",
+      "normalizedSurface": "shrewd suspicion",
+      "surfaces": [
+        "shrewd suspicion"
+      ],
+      "lemmas": [
+        "shrewd suspicion",
+        "shrewd"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0519",
+      "normalizedSurface": "means of checking",
+      "surfaces": [
+        "means of checking"
+      ],
+      "lemmas": [
+        "means of checking",
+        "means of"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0522",
+      "normalizedSurface": "means of checking",
+      "surfaces": [
+        "means of checking"
+      ],
+      "lemmas": [
+        "means of checking",
+        "means of"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0524",
+      "normalizedSurface": "reconstruction of the crime",
+      "surfaces": [
+        "Reconstruction of the crime"
+      ],
+      "lemmas": [
+        "reconstruction of the crime",
+        "reconstruction"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0526",
+      "normalizedSurface": "reconstruction of the crime",
+      "surfaces": [
+        "reconstruction of the crime",
+        "Reconstruction of the crime"
+      ],
+      "lemmas": [
+        "reconstruction of the crime",
+        "reconstruction"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0575",
+      "normalizedSurface": "firsthand knowledge",
+      "surfaces": [
+        "firsthand knowledge"
+      ],
+      "lemmas": [
+        "firsthand knowledge",
+        "firsthand"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0583",
+      "normalizedSurface": "didn't bother",
+      "surfaces": [
+        "didn't bother"
+      ],
+      "lemmas": [
+        "bother",
+        "bother to do something"
+      ]
+    },
+    {
+      "speechId": "act2-speech-0618",
+      "normalizedSurface": "fourposter",
+      "surfaces": [
+        "fourposter"
+      ],
+      "lemmas": [
+        "fourposter",
+        "four-poster"
+      ]
+    }
+  ],
+  "counts": {
+    "dictionary": 1375,
+    "vocabularyItems": 2976
+  },
+  "sha256": {
+    "dictionary": "b004c06d5f02a7b66b1758cf85763398e283106701c3cb1cca48c99834eb8680",
+    "vocabulary": "fc5788b7b8d34a15e6f86bdd415b511f881a93146a6986d384c8aa353b55faae"
+  }
+}

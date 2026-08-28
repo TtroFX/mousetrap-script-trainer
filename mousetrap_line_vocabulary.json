@@ -7608,12 +7608,6 @@
   "act1-scene2-speech-0057": [],
   "act1-scene2-speech-0058": [
     {
-      "surface": "served its purpose",
-      "lemma": "serve its purpose",
-      "meaning": "意図された目的・役割を果たす。",
-      "playMeaning": true
-    },
-    {
       "surface": "purpose",
       "lemma": "purpose",
       "meaning": "【名詞】\n何かを行う理由、達成しようとする目的。",
@@ -7624,7 +7618,7 @@
       "lemma": "serve one’s purpose",
       "meaning": "目的を果たす、役に立つ。",
       "playMeaning": true,
-      "inThisPlay": "目的を果たした、狙いどおりの役目を終えた。"
+      "inThisPlay": "ラジオを大きくしてMrs. Boyleを別室へ行かせ、Casewellが暖かい椅子を取るという作戦が目的を果たした、という意味。"
     }
   ],
   "act1-scene2-speech-0059": [],
