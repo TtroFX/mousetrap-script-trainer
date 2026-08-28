@@ -43,6 +43,10 @@ jobs:
           const newLookup="    const dict = dictionary[lemma] || dictionaryByExact.get(String(lemma).trim().toLowerCase()) || dictionaryByNorm.get(norm(lemma));";
           if (!s.includes(oldLookup)) throw new Error('Expected dictionary QA lookup not found');
           s=s.replace(oldLookup,newLookup);
+          const oldPair='    const pair = `${norm(surface)}\\u0000${norm(lemma)}`;';
+          const newPair='    const pair = `${surface.toLowerCase()}\\u0000${lemma.toLowerCase()}`;';
+          if (!s.includes(oldPair)) throw new Error('Expected vocabulary duplicate key not found');
+          s=s.replace(oldPair,newPair);
           fs.writeFileSync(p,s);
           EOF
       - name: Apply production vocabulary edit and integrated QA
