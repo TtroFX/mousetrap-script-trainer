@@ -7171,7 +7171,22 @@
       "surface": "making this up",
       "lemma": "make something up",
       "meaning": "事実ではない話・説明などを作り上げる。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "TrotterはParaviciniに、口笛の話を事実ではなく作り話としてでっち上げているのか、と疑っている。"
+    },
+    {
+      "surface": "Three Blind Mice",
+      "lemma": "Three Blind Mice",
+      "meaning": "英語圏の伝承童謡『Three Blind Mice』の題名。",
+      "playMeaning": true,
+      "inThisPlay": "この箇所では、事件の反復モチーフになっている童謡の題名。歌詞そのものではなく、題名・旋律への言及。"
+    },
+    {
+      "surface": "no answer",
+      "lemma": "no answer",
+      "meaning": "返事がない、応答がない",
+      "playMeaning": true,
+      "inThisPlay": "応答がなく、舞台上で一拍の沈黙・返事の欠如を示す。"
     }
   ],
   "act2-speech-0058": [
@@ -7186,6 +7201,12 @@
       "lemma": "beg your pardon",
       "meaning": "失礼しました／もう一度お願いします",
       "playMeaning": true
+    },
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0059": [
@@ -7208,9 +7229,58 @@
       "lemma": "offend",
       "meaning": "【動詞】\n人を不快にさせる、感情や価値観を傷つける。",
       "playMeaning": false
+    },
+    {
+      "surface": "scream",
+      "lemma": "scream",
+      "meaning": "【未分類】\n恐怖・痛みなどで大声を上げる、叫ぶ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "holding out",
+      "lemma": "hold out",
+      "meaning": "【句動詞】\n① 手や物を前に差し出す\n② 持ちこたえる。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは「持ちこたえる」でなく、指・手などを前に差し出す動作。"
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
     }
   ],
-  "act2-speech-0061": [],
+  "act2-speech-0061": [
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "gesturing",
+      "lemma": "gesture",
+      "meaning": "【動詞】\n身振りで示す。\n【名詞】\n身振り、ジェスチャー。",
+      "playMeaning": true,
+      "inThisPlay": "言葉に加えて身振りで位置や意味を示す演技指示。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "refectory table",
+      "lemma": "refectory table",
+      "meaning": "食堂などで用いる、長く大きな食卓。",
+      "playMeaning": true,
+      "inThisPlay": "舞台装置として置かれている大きな食卓を指す。移動位置を示す基準物にもなっている。"
+    }
+  ],
   "act2-speech-0062": [],
   "act2-speech-0063": [
     {
@@ -7239,7 +7309,14 @@
     }
   ],
   "act2-speech-0068": [],
-  "act2-speech-0069": [],
+  "act2-speech-0069": [
+    {
+      "surface": "scream",
+      "lemma": "scream",
+      "meaning": "【未分類】\n恐怖・痛みなどで大声を上げる、叫ぶ。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0070": [],
   "act2-speech-0071": [
     {
@@ -7258,13 +7335,50 @@
       "playMeaning": false
     }
   ],
-  "act2-speech-0074": [],
+  "act2-speech-0074": [
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "rising",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは座っている状態などから立ち上がる動作。"
+    }
+  ],
   "act2-speech-0075": [
     {
       "surface": "relation",
       "lemma": "relation",
       "meaning": "【名詞】\n① 親族\n② 関係",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは「関係」ではなく、親族・身内の人という名詞の語義。"
+    },
+    {
+      "surface": "Jessie",
+      "lemma": "Jessie",
+      "meaning": "【固有名詞】\n英語圏の女性名。Jessica などの愛称形としても用いられる。",
+      "playMeaning": true,
+      "inThisPlay": "Miss Casewellが書いていた手紙の宛名として現れる人名。台本はこの箇所だけでは人物をそれ以上同定していない。"
+    },
+    {
+      "surface": "handing it back",
+      "lemma": "hand back",
+      "meaning": "～を手渡して返す、返却する",
+      "playMeaning": true,
+      "inThisPlay": "手紙を見たあと、それをMiss Casewellへ手渡して返す動作。"
     }
   ],
   "act2-speech-0076": [
@@ -7279,6 +7393,19 @@
       "lemma": "none of someone's business",
       "meaning": "その人には関係がなく、口出し・詮索する権利がないこと。",
       "playMeaning": true
+    },
+    {
+      "surface": "business",
+      "lemma": "business",
+      "meaning": "【名詞】\n① 用事\n② 事件\n③ 本題\n④ 仕事",
+      "playMeaning": false
+    },
+    {
+      "surface": "turns away",
+      "lemma": "turn away",
+      "meaning": "追い返す／入場を断る",
+      "playMeaning": true,
+      "inThisPlay": "相手や客席から顔・体をそむける動作。"
     }
   ],
   "act2-speech-0077": [
@@ -7299,15 +7426,77 @@
       "lemma": "fold",
       "meaning": "【動詞】\n紙や布などを曲げて重ねる。\n【名詞】\nまた、その折り目・折り重なった部分。",
       "playMeaning": false
+    },
+    {
+      "surface": "murder",
+      "lemma": "murder",
+      "meaning": "【名詞】\n故意に人を殺す犯罪、殺人。\n【動詞】\n人を故意に殺す。",
+      "playMeaning": false
+    },
+    {
+      "surface": "matter",
+      "lemma": "matter",
+      "meaning": "【名詞】\n問題、事柄、案件。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "refectory table",
+      "lemma": "refectory table",
+      "meaning": "食堂などで用いる、長く大きな食卓。",
+      "playMeaning": true,
+      "inThisPlay": "舞台装置として置かれている大きな食卓を指す。移動位置を示す基準物にもなっている。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
     }
   ],
-  "act2-speech-0078": [],
+  "act2-speech-0078": [
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    }
+  ],
   "act2-speech-0079": [
     {
       "surface": "cellar",
       "lemma": "cellar",
       "meaning": "【名詞】\n地下貯蔵室、地下室",
       "playMeaning": true
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
     }
   ],
   "act2-speech-0080": [
@@ -7333,7 +7522,8 @@
       "surface": "sports tackle",
       "lemma": "sports tackle",
       "meaning": "スポーツ用具",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは「タックルすること」ではなく、戸棚にあるスポーツ用品・用具の意味。"
     },
     {
       "surface": "curious",
@@ -7346,6 +7536,20 @@
       "lemma": "cellar",
       "meaning": "【名詞】\n地下貯蔵室、地下室",
       "playMeaning": true
+    },
+    {
+      "surface": "flight of steps",
+      "lemma": "flight of steps",
+      "meaning": "ひと続きになった一組の階段・段。",
+      "playMeaning": true,
+      "inThisPlay": "地下室へ続く、ひと続きの階段を指す。flight はここでは「飛行」ではない。"
+    },
+    {
+      "surface": "pleasantly",
+      "lemma": "pleasantly",
+      "meaning": "【副詞】\n感じよく、愛想よく、心地よく",
+      "playMeaning": true,
+      "inThisPlay": "Metcalfが感じよく、穏やかな調子で話す演技指示。"
     }
   ],
   "act2-speech-0081": [
@@ -7356,7 +7560,34 @@
       "playMeaning": false
     }
   ],
-  "act2-speech-0082": [],
+  "act2-speech-0082": [
+    {
+      "surface": "Crypt",
+      "lemma": "crypt",
+      "meaning": "【名詞】\n教会などの床下にある地下室・地下納骨堂。",
+      "playMeaning": true,
+      "inThisPlay": "Major Metcalfが地下室を、古い修道院の地下空間らしいと推測して使う語。"
+    },
+    {
+      "surface": "monastery",
+      "lemma": "monastery",
+      "meaning": "【名詞】\n修道士が共同生活し礼拝する建物・修道院。",
+      "playMeaning": false
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "meaning": "【副詞】\nおそらく、たぶん。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Monkswell",
+      "lemma": "Monkswell",
+      "meaning": "【固有名詞】\n地名・建物名として用いられる名称。",
+      "playMeaning": true,
+      "inThisPlay": "Major Metcalfが建物の古い地下構造を見て、現在の館名「Monkswell」と結び付けて推測している名称。"
+    }
+  ],
   "act2-speech-0083": [
     {
       "surface": "engaged",
@@ -7394,15 +7625,72 @@
       "lemma": "murderer",
       "meaning": "【名詞】\n殺人犯",
       "playMeaning": true
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
     }
   ],
-  "act2-speech-0084": [],
+  "act2-speech-0084": [
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "pause",
+      "lemma": "pause",
+      "meaning": "【動詞】\n一時止まる、間を置く。\n【名詞】\n短い中断、間。",
+      "playMeaning": true,
+      "inThisPlay": "演技上の間を置く指示。無言の時間そのものが反応や緊張を表す。"
+    },
+    {
+      "surface": "rising",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは座っている状態などから立ち上がる動作。"
+    }
+  ],
   "act2-speech-0085": [
     {
       "surface": "fingerprints",
       "lemma": "fingerprint",
       "meaning": "【名詞】\n指紋",
       "playMeaning": true
+    },
+    {
+      "surface": "rising",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは座っている状態などから立ち上がる動作。"
     }
   ],
   "act2-speech-0086": [
@@ -7439,6 +7727,12 @@
       "lemma": "wonder",
       "meaning": "【動詞】\n～だろうかと思う、不思議に思う。\n【名詞】\nまた、驚き・驚くべきもの。",
       "playMeaning": false
+    },
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0089": [
@@ -7447,6 +7741,20 @@
       "lemma": "waste",
       "meaning": "【動詞・名詞】\n時間・物資などを無駄にする、無駄。",
       "playMeaning": false
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
     }
   ],
   "act2-speech-0090": [
@@ -7463,7 +7771,29 @@
       "playMeaning": false
     }
   ],
-  "act2-speech-0091": [],
+  "act2-speech-0091": [
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは人物が舞台上の場面から退場すること。"
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    }
+  ],
   "act2-speech-0092": [
     {
       "surface": "'ve got to",
@@ -7529,7 +7859,8 @@
       "surface": "trapdoor",
       "lemma": "trapdoor",
       "meaning": "【名詞】\n床・天井の開閉式扉",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "地下から階段付近へ出られる、床に設けられた開閉戸を指す。"
     },
     {
       "surface": "vital",
@@ -7548,6 +7879,75 @@
       "lemma": "commit",
       "meaning": "【動詞】\n（犯罪を）犯す",
       "playMeaning": true
+    },
+    {
+      "surface": "Got to",
+      "lemma": "got to",
+      "meaning": "～しなければならない／～する必要がある",
+      "playMeaning": false
+    },
+    {
+      "surface": "flight of steps",
+      "lemma": "flight of steps",
+      "meaning": "ひと続きになった一組の階段・段。",
+      "playMeaning": true,
+      "inThisPlay": "地下室へ続く、ひと続きの階段を指す。flight はここでは「飛行」ではない。"
+    },
+    {
+      "surface": "authoritatively",
+      "lemma": "authoritatively",
+      "meaning": "【副詞】\n権威を示すように、きっぱり命令する調子で。",
+      "playMeaning": true,
+      "inThisPlay": "権威を示し、命令するようなきっぱりした声・態度の指示。"
+    },
+    {
+      "surface": "grudgingly",
+      "lemma": "grudgingly",
+      "meaning": "【副詞】\n不承不承に、しぶしぶ。",
+      "playMeaning": true,
+      "inThisPlay": "不満・抵抗感を残しながら、しぶしぶ行動する演技指示。"
+    },
+    {
+      "surface": "holds up his hand",
+      "lemma": "hold up one's hand",
+      "meaning": "手を上げる",
+      "playMeaning": true,
+      "inThisPlay": "Trotterが手を上げ、相手の発言を制して注意を集める動作。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "murmured",
+      "lemma": "murmur",
+      "meaning": "【動詞】\n小声でつぶやく。\n【名詞】\n低いささやき声、ざわめき。",
+      "playMeaning": true,
+      "inThisPlay": "複数人物がはっきり大声で言わず、小声でざわめく反応。"
+    },
+    {
+      "surface": "reenters",
+      "lemma": "re-enter",
+      "meaning": "【動詞】\n再び入る、舞台へ再登場する。",
+      "playMeaning": true,
+      "inThisPlay": "舞台から一度退場した人物が再び登場する、という入退場指示。"
+    },
+    {
+      "surface": "refectory table",
+      "lemma": "refectory table",
+      "meaning": "食堂などで用いる、長く大きな食卓。",
+      "playMeaning": true,
+      "inThisPlay": "舞台装置として置かれている大きな食卓を指す。移動位置を示す基準物にもなっている。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
     }
   ],
   "act2-speech-0093": [
@@ -7568,6 +7968,12 @@
       "lemma": "absurd",
       "meaning": "【形容詞】\nばかげた、不合理な",
       "playMeaning": true
+    },
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0094": [
@@ -7596,6 +8002,26 @@
       "lemma": "fit the bill",
       "meaning": "条件にぴったり当てはまる",
       "playMeaning": true
+    },
+    {
+      "surface": "Culver Street",
+      "lemma": "Culver Street",
+      "meaning": "【固有名詞】\n通りの名称として用いられる固有名詞。",
+      "playMeaning": true,
+      "inThisPlay": "Maureen Lyon殺害事件の場所として言及される通り名。台本から確認できる範囲を超えて実在地とは同定しない。"
+    },
+    {
+      "surface": "mentally",
+      "lemma": "mentally",
+      "meaning": "【副詞】\n心・精神・思考に関して。",
+      "playMeaning": false
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
     }
   ],
   "act2-speech-0096": [
@@ -7616,6 +8042,34 @@
       "lemma": "persecution",
       "meaning": "【名詞】\n迫害",
       "playMeaning": true
+    },
+    {
+      "surface": "crossing",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは舞台上の一地点から別の地点へ横切って移動すること。"
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "pause",
+      "lemma": "pause",
+      "meaning": "【動詞】\n一時止まる、間を置く。\n【名詞】\n短い中断、間。",
+      "playMeaning": true,
+      "inThisPlay": "演技上の間を置く指示。無言の時間そのものが反応や緊張を表す。"
+    },
+    {
+      "surface": "refectory table",
+      "lemma": "refectory table",
+      "meaning": "食堂などで用いる、長く大きな食卓。",
+      "playMeaning": true,
+      "inThisPlay": "舞台装置として置かれている大きな食卓を指す。移動位置を示す基準物にもなっている。"
     }
   ],
   "act2-speech-0097": [
@@ -7630,11 +8084,84 @@
       "lemma": "lad",
       "meaning": "【名詞】\n少年・若い男性を指すくだけた語。",
       "playMeaning": false
+    },
+    {
+      "surface": "pats CHRISTOPHER on the shoulder",
+      "lemma": "pat",
+      "meaning": "【動詞】\n人・物を手で軽くたたく。\n【名詞】\n軽くたたくこと。",
+      "playMeaning": true,
+      "inThisPlay": "MetcalfがChristopherの肩を軽くたたいて落ち着かせる動作。"
+    },
+    {
+      "surface": "pipe",
+      "lemma": "pipe",
+      "meaning": "【名詞】\n水・ガスなどを通す管、パイプ。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは管ではなく、Metcalfが取り出す喫煙用パイプ。"
+    },
+    {
+      "surface": "rising",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは座っている状態などから立ち上がる動作。"
+    },
+    {
+      "surface": "takes out his pipe",
+      "lemma": "take out",
+      "meaning": "【句動詞】\n① ～を中から取り出す\n② ～を外へ連れ出す",
+      "playMeaning": true,
+      "inThisPlay": "Metcalfが所持している喫煙用パイプを取り出す動作。"
     }
   ],
-  "act2-speech-0098": [],
-  "act2-speech-0099": [],
-  "act2-speech-0100": [],
+  "act2-speech-0098": [
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "rising",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは座っている状態などから立ち上がる動作。"
+    },
+    {
+      "surface": "to TROTTER",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "Mollieの次の発言・働きかけをTrotterに向ける演技指示。"
+    }
+  ],
+  "act2-speech-0099": [
+    {
+      "surface": "stolidly",
+      "lemma": "stolidly",
+      "meaning": "【副詞】\n感情をほとんど表に出さず、動じない様子で。",
+      "playMeaning": true,
+      "inThisPlay": "感情を表に出さず動じない調子で演じる、というdelivery direction。"
+    }
+  ],
+  "act2-speech-0100": [
+    {
+      "surface": "to TROTTER",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": true,
+      "inThisPlay": "MollieがTrotterに直接頼みかけることを示す演技指示。"
+    }
+  ],
   "act2-speech-0101": [
     {
       "surface": "'ve got to",
@@ -7647,6 +8174,33 @@
       "lemma": "evidence",
       "meaning": "【名詞】\n証拠",
       "playMeaning": true
+    },
+    {
+      "surface": "Got to",
+      "lemma": "got to",
+      "meaning": "～しなければならない／～する必要がある",
+      "playMeaning": false
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "stolidly",
+      "lemma": "stolidly",
+      "meaning": "【副詞】\n感情をほとんど表に出さず、動じない様子で。",
+      "playMeaning": true,
+      "inThisPlay": "感情を表に出さず動じない調子で演じる、というdelivery direction。"
     }
   ],
   "act2-speech-0102": [
@@ -7679,10 +8233,91 @@
       "lemma": "under arrest",
       "meaning": "逮捕されて／拘束されて",
       "playMeaning": true
+    },
+    {
+      "surface": "safety",
+      "lemma": "safety",
+      "meaning": "【未分類】\n危険がなく安全であること。",
+      "playMeaning": false
+    },
+    {
+      "surface": "ought",
+      "lemma": "ought",
+      "meaning": "【助動詞】\n～すべきだ、～するのが望ましい・当然だという判断を表す。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "up",
+      "lemma": "upstage",
+      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
     }
   ],
-  "act2-speech-0103": [],
-  "act2-speech-0104": [],
+  "act2-speech-0103": [
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    }
+  ],
+  "act2-speech-0104": [
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "meaning": "【副詞】\n確かに、間違いなく。返答で『もちろん』。",
+      "playMeaning": false
+    },
+    {
+      "surface": "go into",
+      "lemma": "go into",
+      "meaning": "～について詳しく立ち入る",
+      "playMeaning": false
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは人物が舞台上の場面から退場すること。"
+    },
+    {
+      "surface": "pause",
+      "lemma": "pause",
+      "meaning": "【動詞】\n一時止まる、間を置く。\n【名詞】\n短い中断、間。",
+      "playMeaning": true,
+      "inThisPlay": "演技上の間を置く指示。無言の時間そのものが反応や緊張を表す。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    }
+  ],
   "act2-speech-0105": [],
   "act2-speech-0106": [],
   "act2-speech-0107": [
@@ -7691,11 +8326,97 @@
       "lemma": "come over someone",
       "meaning": "感情・感覚が急に人を襲う",
       "playMeaning": true
+    },
+    {
+      "surface": "what's come over you",
+      "lemma": "come over someone",
+      "meaning": "感情・感覚が急に人を襲う",
+      "playMeaning": true,
+      "inThisPlay": "「何があなたを越えて来た」ではなく、急に態度が変わった相手へ「どうしたんだ」と問う表現。"
+    },
+    {
+      "surface": "furious",
+      "lemma": "furious",
+      "meaning": "【形容詞】\n激怒した、猛烈に怒った",
+      "playMeaning": true,
+      "inThisPlay": "Gilesが激しく怒った状態で発言する演技指示。"
     }
   ],
-  "act2-speech-0108": [],
-  "act2-speech-0109": [],
-  "act2-speech-0110": [],
+  "act2-speech-0108": [
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは人物が舞台上の場面から退場すること。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "up",
+      "lemma": "upstage",
+      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
+    }
+  ],
+  "act2-speech-0109": [
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    }
+  ],
+  "act2-speech-0110": [
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    }
+  ],
   "act2-speech-0111": [
     {
       "surface": "ill-treating",
@@ -7732,6 +8453,26 @@
       "lemma": "headquarters",
       "meaning": "【名詞】\n本部",
       "playMeaning": true
+    },
+    {
+      "surface": "police headquarters",
+      "lemma": "police headquarters",
+      "meaning": "警察組織の本部・本部庁舎。",
+      "playMeaning": false
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
     }
   ],
   "act2-speech-0112": [
@@ -7756,7 +8497,15 @@
       "playMeaning": true
     }
   ],
-  "act2-speech-0114": [],
+  "act2-speech-0114": [
+    {
+      "surface": "shaken",
+      "lemma": "shaken",
+      "meaning": "【形容詞】\n精神的に動揺した、ショックを受けた",
+      "playMeaning": true,
+      "inThisPlay": "Mollieが精神的に動揺し、平静を失った状態で受け答えする。"
+    }
+  ],
   "act2-speech-0115": [],
   "act2-speech-0116": [
     {
@@ -7764,6 +8513,13 @@
       "lemma": "all the same",
       "meaning": "それでもやはり",
       "playMeaning": true
+    },
+    {
+      "surface": "sitting on the sofa",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": true,
+      "inThisPlay": "Mollieがソファに腰を下ろした姿勢で話す舞台上の位置・姿勢指示。"
     }
   ],
   "act2-speech-0117": [
@@ -7801,13 +8557,42 @@
       "surface": "desertion",
       "lemma": "desertion",
       "meaning": "【名詞】\n脱走、職務放棄",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは一般的な「見捨てること」ではなく、軍からの無断離脱という軍事上の意味。"
     },
     {
       "surface": "psychiatrist",
       "lemma": "psychiatrist",
       "meaning": "【名詞】\n精神科医",
       "playMeaning": true
+    },
+    {
+      "surface": "psychiatrist's",
+      "lemma": "psychiatrist",
+      "meaning": "【名詞】\n精神科医",
+      "playMeaning": true,
+      "inThisPlay": "精神科医が作成した報告書を指す所有格。"
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
     }
   ],
   "act2-speech-0118": [
@@ -7830,6 +8615,13 @@
       "lemma": "such as",
       "meaning": "例えば～のような",
       "playMeaning": true
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
     }
   ],
   "act2-speech-0120": [
@@ -7838,6 +8630,13 @@
       "lemma": "relation",
       "meaning": "【名詞】\n① 親族\n② 関係",
       "playMeaning": true
+    },
+    {
+      "surface": "hesitating",
+      "lemma": "hesitate",
+      "meaning": "【未分類】\nためらう、すぐ行動せず迷う。",
+      "playMeaning": true,
+      "inThisPlay": "Mollieがためらいながら質問を切り出す演技指示。"
     }
   ],
   "act2-speech-0121": [
@@ -7873,6 +8672,18 @@
       "lemma": "discharge",
       "meaning": "【動詞】\n職務・拘束・軍務などから正式に解放する。",
       "playMeaning": false
+    },
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "meaning": "【副詞】\nおそらく、たぶん。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0124": [],
@@ -7896,7 +8707,14 @@
       "playMeaning": true
     }
   ],
-  "act2-speech-0126": [],
+  "act2-speech-0126": [
+    {
+      "surface": "mentally",
+      "lemma": "mentally",
+      "meaning": "【副詞】\n心・精神・思考に関して。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0127": [],
   "act2-speech-0128": [
     {
@@ -7931,12 +8749,6 @@
     },
     {
       "surface": "go off his head",
-      "lemma": "go off one’s head",
-      "meaning": "頭がおかしくなる／正気を失う",
-      "playMeaning": true
-    },
-    {
-      "surface": "go off his head",
       "lemma": "go off one's head",
       "meaning": "正常な判断ができないほど精神的に混乱する、という古いくだけた言い方。",
       "playMeaning": true
@@ -7946,6 +8758,13 @@
       "lemma": "revenge",
       "meaning": "【名詞】\n復讐",
       "playMeaning": true
+    },
+    {
+      "surface": "Japs",
+      "lemma": "Jap",
+      "meaning": "【名詞・形容詞】\nJapanese の短縮形。現在は侮蔑的・攻撃的な語とされる。",
+      "playMeaning": true,
+      "inThisPlay": "第二次世界大戦期の日本人を指して用いられる、現在では侮蔑的とされる歴史的表現。Mollieが父親の戦争体験を推測する発言中に出る。"
     }
   ],
   "act2-speech-0129": [
@@ -7995,9 +8814,38 @@
       "lemma": "upset",
       "meaning": "【形容詞】\n心を乱され、動揺・不安・不快を感じている。\n【動詞】\nまた、人をその状態にする。",
       "playMeaning": false
+    },
+    {
+      "surface": "pause",
+      "lemma": "pause",
+      "meaning": "【動詞】\n一時止まる、間を置く。\n【名詞】\n短い中断、間。",
+      "playMeaning": true,
+      "inThisPlay": "演技上の間を置く指示。無言の時間そのものが反応や緊張を表す。"
     }
   ],
-  "act2-speech-0133": [],
+  "act2-speech-0133": [
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "considering",
+      "lemma": "consider",
+      "meaning": "【動詞】\n① よく考える、検討する\n② ～とみなす",
+      "playMeaning": true,
+      "inThisPlay": "TrotterがMetcalfについて一瞬考えを巡らせてから反応する。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    }
+  ],
   "act2-speech-0134": [
     {
       "surface": "Middle-aged",
@@ -8025,6 +8873,27 @@
       "lemma": "suspect",
       "meaning": "【名詞】\n犯罪などに関わった疑いのある人。\n【動詞】\nまた、人・事柄を疑う。",
       "playMeaning": false
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "rising",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは座っている状態などから立ち上がる動作。"
     }
   ],
   "act2-speech-0137": [],
@@ -8036,7 +8905,15 @@
       "playMeaning": true
     }
   ],
-  "act2-speech-0139": [],
+  "act2-speech-0139": [
+    {
+      "surface": "appears to consider",
+      "lemma": "consider",
+      "meaning": "【動詞】\n① よく考える、検討する\n② ～とみなす",
+      "playMeaning": true,
+      "inThisPlay": "TrotterがParaviciniについて考えているように見せる間・反応を示す。"
+    }
+  ],
   "act2-speech-0140": [
     {
       "surface": "quite",
@@ -8089,16 +8966,39 @@
       "lemma": "somehow",
       "meaning": "【副詞】\n① どういうわけか\n② 何とかして",
       "playMeaning": true
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "turning to TROTTER",
+      "lemma": "turn to",
+      "meaning": "【句動詞】\n① ～の方を向く\n② ～に頼る、助けを求める\n③ 話題・注意を～へ移す",
+      "playMeaning": true,
+      "inThisPlay": "Mollieが身体・視線をTrotterの方へ向けて発言する。"
     }
   ],
-  "act2-speech-0143": [],
+  "act2-speech-0143": [
+    {
+      "surface": "Georgie",
+      "lemma": "Georgie",
+      "meaning": "【固有名詞】\nGeorge の愛称形として使われる人名。",
+      "playMeaning": true,
+      "inThisPlay": "Longridge Farm事件で言及される子どもの呼び名。Georgeの愛称形として現れる。"
+    }
+  ],
   "act2-speech-0144": [],
   "act2-speech-0145": [
     {
       "surface": "muffler",
       "lemma": "muffler",
       "meaning": "【名詞】\nマフラー、襟巻き",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは車の消音器ではなく、首に巻く厚手のマフラー（古風な語義）。顔を隠す服装の一部として言及される。"
     },
     {
       "surface": "whispered",
@@ -8117,6 +9017,41 @@
       "lemma": "give something away",
       "meaning": "隠している情報・正体・感情などを意図せず明らかにする。",
       "playMeaning": true
+    },
+    {
+      "surface": "Maureen Lyon",
+      "lemma": "Maureen Lyon",
+      "meaning": "【固有名詞】\n人名。",
+      "playMeaning": true,
+      "inThisPlay": "劇中の捜査で、Culver Streetで殺された女性として言及される人名。"
+    },
+    {
+      "surface": "sex",
+      "lemma": "sex",
+      "meaning": "【名詞】\n① 性、性別\n② 性行為、性的活動",
+      "playMeaning": true,
+      "inThisPlay": "ここでは性的行為ではなく、声から男性か女性かという性別を見分ける、という意味で使われている。"
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "rising",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは座っている状態などから立ち上がる動作。"
     }
   ],
   "act2-speech-0146": [],
@@ -8132,6 +9067,34 @@
       "lemma": "for instance",
       "meaning": "例えば",
       "playMeaning": true
+    },
+    {
+      "surface": "part",
+      "lemma": "part",
+      "meaning": "【名詞】\n① 部分、一部\n② 役割、役目\n③ 演劇・映画などの役、配役",
+      "playMeaning": true,
+      "inThisPlay": "ここでは「部分」ではなく、想定される犯人像という“役どころ”に合うかどうかを演劇になぞらえた言い方。"
+    },
+    {
+      "surface": "field",
+      "lemma": "field",
+      "meaning": "【名詞】\n① 野原、畑\n② 活動・研究などの分野\n③ 候補・参加者などの範囲・一団",
+      "playMeaning": true,
+      "inThisPlay": "ここでは野原ではなく、疑うことのできる人物・可能性の範囲が広い、という比喩的な意味。"
+    },
+    {
+      "surface": "comes down the stairs",
+      "lemma": "come down",
+      "meaning": "下りてくる",
+      "playMeaning": true,
+      "inThisPlay": "Trotterが階段を降りて舞台上の低い位置へ移動する動作。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
     }
   ],
   "act2-speech-0148": [],
@@ -8153,6 +9116,34 @@
       "lemma": "means of checking",
       "meaning": "確認する手段",
       "playMeaning": true
+    },
+    {
+      "surface": "checking",
+      "lemma": "check",
+      "meaning": "【動詞】\n① 正しいか・事実かを確認する、照合する\n② 進行・増加・発言などを止める、抑える\n【名詞】\n① 確認、点検\n② 抑制、阻止",
+      "playMeaning": true,
+      "inThisPlay": "ここでは「チェック印を付ける」ではなく、話の真偽を照合・確認する意味。"
+    },
+    {
+      "surface": "checking her",
+      "lemma": "check",
+      "meaning": "【動詞】\n① 正しいか・事実かを確認する、照合する\n② 進行・増加・発言などを止める、抑える\n【名詞】\n① 確認、点検\n② 抑制、阻止",
+      "playMeaning": true,
+      "inThisPlay": "ここでcheckは『確認する』ではなく、Mollieが反論し始めるのを制して止める演技指示。"
+    },
+    {
+      "surface": "is about to protest",
+      "lemma": "be about to",
+      "meaning": "今にも～しようとしている、まさに～するところである",
+      "playMeaning": true,
+      "inThisPlay": "Mollieが今にも反論しようとする直前の動きを示す。"
+    },
+    {
+      "surface": "protest",
+      "lemma": "protest",
+      "meaning": "【動詞】\n抗議する、異議を唱える。\n【名詞】\n抗議、異議。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは抗議運動ではなく、Trotterの疑いに対して異議・反論を述べようとすること。"
     }
   ],
   "act2-speech-0150": [
@@ -8168,13 +9159,35 @@
       "surface": "much of an age",
       "lemma": "much of an age",
       "meaning": "ほぼ同年齢で",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "GilesとChristopherがおおむね同じ年齢に見える、という比較。"
     },
     {
       "surface": "Actual",
       "lemma": "actual",
       "meaning": "【形容詞】\n想定・見かけではなく、実際の・現実の。",
       "playMeaning": false
+    },
+    {
+      "surface": "Christopher Wren",
+      "lemma": "Christopher Wren",
+      "meaning": "【固有名詞】\n英語の人名。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは館に滞在している若い男性が名乗っている名前。歴史上の建築家と同一人物として扱ってはならない。"
+    },
+    {
+      "surface": "crossing",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは舞台上の一地点から別の地点へ横切って移動すること。"
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
     }
   ],
   "act2-speech-0152": [
@@ -8195,20 +9208,49 @@
     }
   ],
   "act2-speech-0155": [],
-  "act2-speech-0156": [],
+  "act2-speech-0156": [
+    {
+      "surface": "London",
+      "lemma": "London",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0157": [],
   "act2-speech-0158": [],
-  "act2-speech-0159": [],
+  "act2-speech-0159": [
+    {
+      "surface": "significantly",
+      "lemma": "significantly",
+      "meaning": "【副詞】\n① 重要な程度に\n② 意味ありげに、含みを持たせて。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは「統計的に有意に」ではなく、意味ありげに含みを持たせる演技指示。"
+    }
+  ],
   "act2-speech-0160": [
     {
       "surface": "barrister",
       "lemma": "barrister",
       "meaning": "【名詞】\nバリスター（英国の法廷弁護士）",
       "playMeaning": true
+    },
+    {
+      "surface": "make it",
+      "lemma": "make it",
+      "meaning": "たどり着く／間に合う／成功する",
+      "playMeaning": false
     }
   ],
   "act2-speech-0161": [],
-  "act2-speech-0162": [],
+  "act2-speech-0162": [
+    {
+      "surface": "turns away",
+      "lemma": "turn away",
+      "meaning": "追い返す／入場を断る",
+      "playMeaning": true,
+      "inThisPlay": "相手や客席から顔・体をそむける動作。"
+    }
+  ],
   "act2-speech-0163": [
     {
       "surface": "of your own knowledge",
@@ -8223,6 +9265,13 @@
       "lemma": "outrageous",
       "meaning": "【形容詞】\nとんでもない、ひどく不当な",
       "playMeaning": true
+    },
+    {
+      "surface": "turning back quickly",
+      "lemma": "turn back",
+      "meaning": "【句動詞】\n① 引き返す\n② 向き直る、元の方向へ向く",
+      "playMeaning": true,
+      "inThisPlay": "Mollieが素早く向き直り、再び相手の方を向いて反応する。"
     }
   ],
   "act2-speech-0165": [
@@ -8333,6 +9382,12 @@
       "lemma": "undesirable",
       "meaning": "【形容詞】\n社会的に避けたいと判断されるもの。\n【名詞】\n名詞用法は古めで人を分類する響き。",
       "playMeaning": true
+    },
+    {
+      "surface": "fellow",
+      "lemma": "fellow",
+      "meaning": "【名詞】\n男性・人をくだけた調子で指す語。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0166": [
@@ -8380,6 +9435,31 @@
       "lemma": "take place",
       "meaning": "起こる、行われる",
       "playMeaning": true
+    },
+    {
+      "surface": "homicidal",
+      "lemma": "homicidal",
+      "meaning": "【形容詞】\n① 殺人的な\n② 殺人衝動のある",
+      "playMeaning": false
+    },
+    {
+      "surface": "maniac",
+      "lemma": "maniac",
+      "meaning": "【名詞】\n① 狂人という古い呼称\n② 極端に熱中する人",
+      "playMeaning": false
+    },
+    {
+      "surface": "London",
+      "lemma": "London",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
+    },
+    {
+      "surface": "turning to the fire",
+      "lemma": "turn to",
+      "meaning": "【句動詞】\n① ～の方を向く\n② ～に頼る、助けを求める\n③ 話題・注意を～へ移す",
+      "playMeaning": true,
+      "inThisPlay": "Mollieが暖炉の火の方へ身体・視線を向ける動作。"
     }
   ],
   "act2-speech-0169": [],
@@ -8397,7 +9477,15 @@
       "playMeaning": true
     }
   ],
-  "act2-speech-0171": [],
+  "act2-speech-0171": [
+    {
+      "surface": "crossing",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは舞台上の一地点から別の地点へ横切って移動すること。"
+    }
+  ],
   "act2-speech-0172": [
     {
       "surface": "turned out",
@@ -8418,26 +9506,223 @@
       "lemma": "ABC",
       "meaning": "【固有名詞】\n英国の鉄道時刻表（ABC Railway Guide）",
       "playMeaning": true
+    },
+    {
+      "surface": "picks up the ABC",
+      "lemma": "pick up",
+      "meaning": "拾う／手に取る",
+      "playMeaning": true,
+      "inThisPlay": "TrotterがABC Railway Guideを手に取り、時刻情報を読む動作。"
     }
   ],
-  "act2-speech-0174": [],
+  "act2-speech-0174": [
+    {
+      "surface": "London",
+      "lemma": "London",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
+    },
+    {
+      "surface": "stamping her foot",
+      "lemma": "stamp one's foot",
+      "meaning": "怒り・苛立ちなどで足を強く踏み鳴らす。",
+      "playMeaning": true,
+      "inThisPlay": "苛立ちを身体動作で示し、足を踏み鳴らす演技指示。"
+    }
+  ],
   "act2-speech-0175": [
     {
       "surface": "Just",
       "lemma": "just",
       "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
       "playMeaning": true
+    },
+    {
+      "surface": "crossing",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは舞台上の一地点から別の地点へ横切って移動すること。"
+    },
+    {
+      "surface": "darkish",
+      "lemma": "darkish",
+      "meaning": "【形容詞】\nやや暗い色の",
+      "playMeaning": false
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "looks at the coat",
+      "lemma": "look at",
+      "meaning": "～を見る、～へ視線を向ける",
+      "playMeaning": true,
+      "inThisPlay": "Mollieが示されたGilesのコートへ視線を向ける。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "overcoat",
+      "lemma": "overcoat",
+      "meaning": "【名詞】\nオーバーコート、厚手の外套",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0176": [],
+  "act2-speech-0176": [
+    {
+      "surface": "suspiciously",
+      "lemma": "suspiciously",
+      "meaning": "【副詞】\n疑わしそうに、疑念を抱いて。",
+      "playMeaning": true,
+      "inThisPlay": "疑念を抱いた視線・調子で、という演技指示。"
+    },
+    {
+      "surface": "takes out a folded evening paper",
+      "lemma": "take out",
+      "meaning": "【句動詞】\n① ～を中から取り出す\n② ～を外へ連れ出す",
+      "playMeaning": true,
+      "inThisPlay": "Trotterがコートのポケットから折り畳まれた夕刊を取り出す動作。"
+    }
+  ],
   "act2-speech-0177": [],
   "act2-speech-0178": [],
-  "act2-speech-0179": [],
-  "act2-speech-0180": [],
-  "act2-speech-0181": [],
-  "act2-speech-0182": [],
+  "act2-speech-0179": [
+    {
+      "surface": "archway",
+      "lemma": "archway",
+      "meaning": "【名詞】\nアーチ形の開口部・通路。",
+      "playMeaning": true,
+      "inThisPlay": "舞台装置のアーチ形の開口部。入退場や位置指定の基準になる。"
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは人物が舞台上の場面へ登場すること。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは人物が舞台上の場面から退場すること。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "overcoat",
+      "lemma": "overcoat",
+      "meaning": "【名詞】\nオーバーコート、厚手の外套",
+      "playMeaning": false
+    },
+    {
+      "surface": "peeps",
+      "lemma": "peep",
+      "meaning": "【動詞】\nちらりとのぞく。\n【名詞】\nちらりとのぞくこと、かすかな音。",
+      "playMeaning": true,
+      "inThisPlay": "姿を大きく見せず、そっと中をのぞく動作。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "up",
+      "lemma": "upstage",
+      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
+    }
+  ],
+  "act2-speech-0180": [
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "newspaper",
+      "lemma": "newspaper",
+      "meaning": "【名詞】\n新聞紙",
+      "playMeaning": false
+    }
+  ],
+  "act2-speech-0181": [
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    }
+  ],
+  "act2-speech-0182": [
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    }
+  ],
   "act2-speech-0183": [],
-  "act2-speech-0184": [],
+  "act2-speech-0184": [
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0185": [],
   "act2-speech-0186": [
     {
@@ -8480,6 +9765,20 @@
       "lemma": "particularly",
       "meaning": "【副詞】\n特に、とりわけ",
       "playMeaning": true
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
     }
   ],
   "act2-speech-0191": [
@@ -8501,6 +9800,20 @@
       "meaning": "問題・現実・責任などから逃げて向き合わない。",
       "playMeaning": true,
       "inThisPlay": "MollieはChristopherに、問題や過去から逃げ続ける生き方そのものをやめるよう促している。単にその場から逃走する意味ではない。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
     }
   ],
   "act2-speech-0192": [],
@@ -8511,6 +9824,20 @@
       "lemma": "quite",
       "meaning": "【副詞】\n① かなり\n② 完全に",
       "playMeaning": true
+    },
+    {
+      "surface": "hopelessly",
+      "lemma": "hopelessly",
+      "meaning": "【副詞】\n① 絶望して\n② どうしようもないほど。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは程度副詞「どうしようもなく」より、絶望・途方に暮れた様子で演じる指示。"
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
     }
   ],
   "act2-speech-0195": [
@@ -8525,10 +9852,38 @@
       "lemma": "grow up",
       "meaning": "大人になる／精神的に成熟する",
       "playMeaning": true
+    },
+    {
+      "surface": "Got to",
+      "lemma": "got to",
+      "meaning": "～しなければならない／～する必要がある",
+      "playMeaning": false
+    },
+    {
+      "surface": "affectionately",
+      "lemma": "affectionately",
+      "meaning": "【副詞】\n愛情を込めて、親しげに。",
+      "playMeaning": true,
+      "inThisPlay": "相手への愛情・親しみが伝わる調子で、という演技指示。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
     }
   ],
   "act2-speech-0196": [],
-  "act2-speech-0197": [],
+  "act2-speech-0197": [
+    {
+      "surface": "Christopher Wren",
+      "lemma": "Christopher Wren",
+      "meaning": "【固有名詞】\n英語の人名。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは館に滞在している若い男性が名乗っている名前。歴史上の建築家と同一人物として扱ってはならない。"
+    }
+  ],
   "act2-speech-0198": [],
   "act2-speech-0199": [
     {
@@ -8559,6 +9914,20 @@
       "meaning": "【未分類】\n地獄；比喩的に非常につらい状態を表し、口語では強い驚き・怒りの強調にも使う。",
       "playMeaning": true,
       "inThisPlay": "Christopherにとって学校生活が『地獄のようにつらかった』という比喩。"
+    },
+    {
+      "surface": "Christopher Wren",
+      "lemma": "Christopher Wren",
+      "meaning": "【固有名詞】\n英語の人名。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは館に滞在している若い男性が名乗っている名前。歴史上の建築家と同一人物として扱ってはならない。"
+    },
+    {
+      "surface": "startled",
+      "lemma": "startled",
+      "meaning": "【形容詞】\n突然驚いた、びくっとした。",
+      "playMeaning": true,
+      "inThisPlay": "突然の驚きが表情・身体に出る反応の指示。"
     }
   ],
   "act2-speech-0203": [],
@@ -8616,6 +9985,62 @@
       "lemma": "specification",
       "meaning": "【名詞】\n① 条件明細、規格\n② 人物像の条件",
       "playMeaning": true
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "refectory table",
+      "lemma": "refectory table",
+      "meaning": "食堂などで用いる、長く大きな食卓。",
+      "playMeaning": true,
+      "inThisPlay": "舞台装置として置かれている大きな食卓を指す。移動位置を示す基準物にもなっている。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "rising",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは座っている状態などから立ち上がる動作。"
+    },
+    {
+      "surface": "turns away",
+      "lemma": "turn away",
+      "meaning": "追い返す／入場を断る",
+      "playMeaning": true,
+      "inThisPlay": "相手や客席から顔・体をそむける動作。"
+    },
+    {
+      "surface": "unease",
+      "lemma": "unease",
+      "meaning": "【名詞】\n不安、落ち着かなさ。",
+      "playMeaning": true,
+      "inThisPlay": "人物に急に不安が走る、という内面反応を演技に表す指示。"
     }
   ],
   "act2-speech-0205": [],
@@ -8657,12 +10082,47 @@
       "lemma": "go on as usual",
       "meaning": "いつもどおり続ける",
       "playMeaning": true
+    },
+    {
+      "surface": "after all",
+      "lemma": "after all",
+      "meaning": "結局／やはり",
+      "playMeaning": false
+    },
+    {
+      "surface": "Got to",
+      "lemma": "got to",
+      "meaning": "～しなければならない／～する必要がある",
+      "playMeaning": false
     }
   ],
   "act2-speech-0208": [],
   "act2-speech-0209": [],
-  "act2-speech-0210": [],
-  "act2-speech-0211": [],
+  "act2-speech-0210": [
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    }
+  ],
+  "act2-speech-0211": [
+    {
+      "surface": "facing CHRISTOPHER",
+      "lemma": "face",
+      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+      "playMeaning": true,
+      "inThisPlay": "MollieがChristopherの方へ正面を向いて応答する舞台指示。"
+    }
+  ],
   "act2-speech-0212": [],
   "act2-speech-0213": [],
   "act2-speech-0214": [],
@@ -8685,7 +10145,8 @@
       "surface": "put it out of my mind",
       "lemma": "put something out of one's mind",
       "meaning": "あることを意識的に考えないようにする。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "Mollieが過去の出来事を思い出さないよう意識的に考えから追い出している、という意味。"
     }
   ],
   "act2-speech-0218": [
@@ -8700,6 +10161,12 @@
       "lemma": "face something",
       "meaning": "過去のつらい出来事から逃げず、正面から認めて向き合うこと。／困難・事実などから逃げずに向き合う。",
       "playMeaning": false
+    },
+    {
+      "surface": "running away from things",
+      "lemma": "run away from something",
+      "meaning": "問題・現実・責任などから逃げて向き合わない。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0219": [
@@ -8708,6 +10175,13 @@
       "lemma": "rather",
       "meaning": "【副詞】\n① やや\n② かなり\n③ むしろ",
       "playMeaning": true
+    },
+    {
+      "surface": "a silence",
+      "lemma": "silence",
+      "meaning": "【名詞】\n沈黙、静寂。\n【動詞】\n黙らせる。",
+      "playMeaning": true,
+      "inThisPlay": "台詞が途切れ、意図的な沈黙・間が置かれる舞台指示。"
     }
   ],
   "act2-speech-0220": [
@@ -8738,6 +10212,12 @@
       "lemma": "stick it out",
       "meaning": "最後まで耐え抜く",
       "playMeaning": true
+    },
+    {
+      "surface": "ought",
+      "lemma": "ought",
+      "meaning": "【助動詞】\n～すべきだ、～するのが望ましい・当然だという判断を表す。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0223": [
@@ -8783,6 +10263,12 @@
       "lemma": "guilty",
       "meaning": "【未分類】\n犯罪・過失などについて罪がある、有罪の。",
       "playMeaning": false
+    },
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0227": [
@@ -8791,6 +10277,20 @@
       "lemma": "at least",
       "meaning": "少なくとも",
       "playMeaning": true
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
     }
   ],
   "act2-speech-0228": [],
@@ -8806,6 +10306,12 @@
       "lemma": "possibly",
       "meaning": "【未分類】\nもしかすると；可能な限り。否定語とともに強い不可能を表すことがある。",
       "playMeaning": true
+    },
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0230": [],
@@ -8816,11 +10322,34 @@
       "lemma": "out with it",
       "meaning": "さあ言ってしまえ／白状しろ",
       "playMeaning": true
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
     }
   ],
-  "act2-speech-0233": [],
+  "act2-speech-0233": [
+    {
+      "surface": "showing the paper",
+      "lemma": "show",
+      "meaning": "【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。",
+      "playMeaning": true,
+      "inThisPlay": "Mollieが新聞を相手に見えるよう提示しながら話す。"
+    }
+  ],
   "act2-speech-0234": [],
-  "act2-speech-0235": [],
+  "act2-speech-0235": [
+    {
+      "surface": "evening paper",
+      "lemma": "evening paper",
+      "meaning": "夕方に発行される新聞、夕刊。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは「paper＝紙」ではなく、夕刊の新聞。"
+    }
+  ],
   "act2-speech-0236": [],
   "act2-speech-0237": [
     {
@@ -8848,6 +10377,33 @@
       "lemma": "after all",
       "meaning": "結局／やはり",
       "playMeaning": true
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "meaning": "【副詞】\nおそらく、たぶん。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
     }
   ],
   "act2-speech-0239": [
@@ -8878,6 +10434,13 @@
       "lemma": "murder",
       "meaning": "【名詞】\n故意に人を殺す犯罪、殺人。\n【動詞】\n人を故意に殺す。",
       "playMeaning": true
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
     }
   ],
   "act2-speech-0242": [
@@ -8892,6 +10455,33 @@
       "lemma": "surely",
       "meaning": "【副詞】\n① 確かに、きっと\n② 相手も当然そう考えるはずだという含みで使う",
       "playMeaning": false
+    },
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "crossing",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは舞台上の一地点から別の地点へ横切って移動すること。"
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "up",
+      "lemma": "upstage",
+      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
     }
   ],
   "act2-speech-0243": [
@@ -8930,6 +10520,75 @@
       "lemma": "trust",
       "meaning": "【未分類】\n人・物を信頼する；信頼。",
       "playMeaning": false
+    },
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "backs away",
+      "lemma": "back away",
+      "meaning": "後ずさりする、距離を取るため後方へ下がる。",
+      "playMeaning": true,
+      "inThisPlay": "相手から距離を取るように後ずさる動作。"
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは人物が舞台上の場面へ登場すること。"
+    },
+    {
+      "surface": "kneels",
+      "lemma": "kneel",
+      "meaning": "【動詞】\nひざまずく、ひざをつく。",
+      "playMeaning": true,
+      "inThisPlay": "ひざをつく動作を指定している。"
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "puts her hands to her face",
+      "lemma": "put one's hands to one's face",
+      "meaning": "両手を自分の顔に当てる",
+      "playMeaning": true,
+      "inThisPlay": "Mollieが両手を顔に当て、動揺を身体で表す動作。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "whispering",
+      "lemma": "whisper",
+      "meaning": "【名詞・動詞】\n非常に小さな声で話すこと・ささやき、またはささやく。",
+      "playMeaning": true,
+      "inThisPlay": "Mollieが声量を落とし、ささやくように発言する演技指示。"
     }
   ],
   "act2-speech-0244": [
@@ -8938,6 +10597,13 @@
       "lemma": "interrupt",
       "meaning": "【未分類】\n会話・行動などを途中で遮る。",
       "playMeaning": false
+    },
+    {
+      "surface": "at the door",
+      "lemma": "at the door",
+      "meaning": "戸口に、ドアのところに",
+      "playMeaning": true,
+      "inThisPlay": "Gilesが戸口にいる舞台上の位置を示す。"
     }
   ],
   "act2-speech-0245": [
@@ -8952,10 +10618,61 @@
       "lemma": "spinach",
       "meaning": "【名詞】\nほうれん草",
       "playMeaning": true
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
     }
   ],
-  "act2-speech-0246": [],
-  "act2-speech-0247": [],
+  "act2-speech-0246": [
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "rising",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは座っている状態などから立ち上がる動作。"
+    }
+  ],
+  "act2-speech-0247": [
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    }
+  ],
   "act2-speech-0248": [],
   "act2-speech-0249": [
     {
@@ -8975,6 +10692,12 @@
       "lemma": "keep away from",
       "meaning": "～に近づかない",
       "playMeaning": true
+    },
+    {
+      "surface": "present",
+      "lemma": "present",
+      "meaning": "【形容詞】\n「目の前・今ここにある」が形容詞の中心。\n【名詞】\n名詞では贈り物。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0250": [],
@@ -8990,6 +10713,13 @@
       "lemma": "victim",
       "meaning": "【名詞】\n被害者",
       "playMeaning": true
+    },
+    {
+      "surface": "furious",
+      "lemma": "furious",
+      "meaning": "【形容詞】\n激怒した、猛烈に怒った",
+      "playMeaning": true,
+      "inThisPlay": "GilesがChristopherに対して激怒した状態で話す演技指示。"
     }
   ],
   "act2-speech-0252": [],
@@ -9045,13 +10775,42 @@
       "playMeaning": false
     }
   ],
-  "act2-speech-0258": [],
+  "act2-speech-0258": [
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    }
+  ],
   "act2-speech-0259": [
     {
       "surface": "hell",
       "lemma": "hell",
       "meaning": "【未分類】\n地獄；比喩的に非常につらい状態を表し、口語では強い驚き・怒りの強調にも使う。",
       "playMeaning": true
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
     }
   ],
   "act2-speech-0260": [],
@@ -9063,6 +10822,41 @@
       "lemma": "shan’t",
       "meaning": "【短縮表現】\n① ～しないつもりだ\n② ～しない",
       "playMeaning": true
+    },
+    {
+      "surface": "crossing",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは舞台上の一地点から別の地点へ横切って移動すること。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは人物が舞台上の場面から退場すること。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "up",
+      "lemma": "upstage",
+      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
     }
   ],
   "act2-speech-0264": [
@@ -9083,6 +10877,18 @@
       "lemma": "homicidal maniac",
       "meaning": "殺人衝動のある狂人／殺人犯として描写された人物",
       "playMeaning": true
+    },
+    {
+      "surface": "homicidal",
+      "lemma": "homicidal",
+      "meaning": "【形容詞】\n① 殺人的な\n② 殺人衝動のある",
+      "playMeaning": false
+    },
+    {
+      "surface": "maniac",
+      "lemma": "maniac",
+      "meaning": "【名詞】\n① 狂人という古い呼称\n② 極端に熱中する人",
+      "playMeaning": false
     }
   ],
   "act2-speech-0265": [],
@@ -9115,13 +10921,49 @@
     }
   ],
   "act2-speech-0268": [],
-  "act2-speech-0269": [],
+  "act2-speech-0269": [
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    }
+  ],
   "act2-speech-0270": [
     {
       "surface": "wretched",
       "lemma": "wretched",
       "meaning": "【形容詞】\n① ひどい\n② みじめな",
       "playMeaning": true
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
     }
   ],
   "act2-speech-0271": [],
@@ -9165,6 +11007,27 @@
       "lemma": "out-of-the-way",
       "meaning": "【形容詞】\n人里離れた、交通や人の往来から外れた。",
       "playMeaning": true
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "refectory table",
+      "lemma": "refectory table",
+      "meaning": "食堂などで用いる、長く大きな食卓。",
+      "playMeaning": true,
+      "inThisPlay": "舞台装置として置かれている大きな食卓を指す。移動位置を示す基準物にもなっている。"
     }
   ],
   "act2-speech-0275": [
@@ -9199,6 +11062,33 @@
       "lemma": "go on",
       "meaning": "続く／続ける",
       "playMeaning": true
+    },
+    {
+      "surface": "as though",
+      "lemma": "as though",
+      "meaning": "まるで～のように",
+      "playMeaning": false
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
     }
   ],
   "act2-speech-0277": [
@@ -9219,6 +11109,27 @@
       "lemma": "set eyes on",
       "meaning": "～を目にする／見る",
       "playMeaning": true
+    },
+    {
+      "surface": "Christopher Wren",
+      "lemma": "Christopher Wren",
+      "meaning": "【固有名詞】\n英語の人名。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは館に滞在している若い男性が名乗っている名前。歴史上の建築家と同一人物として扱ってはならない。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
     }
   ],
   "act2-speech-0278": [
@@ -9226,7 +11137,8 @@
       "surface": "on the sly",
       "lemma": "on the sly",
       "meaning": "人に知られないようこっそり、秘密に。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "Gilesが、Mollieが自分に隠れてChristopherと会っていたのではないかと疑う文脈で、「こっそり」の意味。"
     }
   ],
   "act2-speech-0279": [
@@ -9237,13 +11149,33 @@
       "playMeaning": false
     }
   ],
-  "act2-speech-0280": [],
+  "act2-speech-0280": [
+    {
+      "surface": "peculiar",
+      "lemma": "peculiar",
+      "meaning": "【形容詞】\n妙な、独特な",
+      "playMeaning": false
+    },
+    {
+      "surface": "peculiar tone",
+      "lemma": "peculiar tone",
+      "meaning": "普通とは違う、妙な声の調子。",
+      "playMeaning": true,
+      "inThisPlay": "普段と違う妙な声色で言うことを求めるdelivery direction。"
+    }
+  ],
   "act2-speech-0281": [
     {
       "surface": "quite",
       "lemma": "quite",
       "meaning": "【副詞】\n① かなり\n② 完全に",
       "playMeaning": true
+    },
+    {
+      "surface": "on earth",
+      "lemma": "on earth",
+      "meaning": "疑問語の後で『いったい』と驚き・苛立ちを強める。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0282": [
@@ -9252,10 +11184,72 @@
       "lemma": "glove",
       "meaning": "【名詞】\n手を覆う手袋。",
       "playMeaning": false
+    },
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "bus ticket",
+      "lemma": "bus ticket",
+      "meaning": "バスに乗車するための切符・乗車券。",
+      "playMeaning": false
+    },
+    {
+      "surface": "draws out of it the bus ticket",
+      "lemma": "draw out",
+      "meaning": "【句動詞】\n① ～を引き出す、取り出す\n② ～を長引かせる\n③ 人から話・情報を引き出す",
+      "playMeaning": true,
+      "inThisPlay": "手袋の中からバスの切符を引き出して見せる動作。"
+    },
+    {
+      "surface": "starts",
+      "lemma": "start",
+      "meaning": "【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。",
+      "playMeaning": true,
+      "inThisPlay": "ここでstartは『始める』ではなく、驚いてびくっとする・はっと反応する意味。"
+    },
+    {
+      "surface": "takes out MOLLIE's glove",
+      "lemma": "take out",
+      "meaning": "【句動詞】\n① ～を中から取り出す\n② ～を外へ連れ出す",
+      "playMeaning": true,
+      "inThisPlay": "GilesがポケットからMollieの手袋を取り出す動作。"
     }
   ],
-  "act2-speech-0283": [],
-  "act2-speech-0284": [],
+  "act2-speech-0283": [
+    {
+      "surface": "guilty",
+      "lemma": "guilty",
+      "meaning": "【未分類】\n犯罪・過失などについて罪がある、有罪の。",
+      "playMeaning": false
+    },
+    {
+      "surface": "looking guilty",
+      "lemma": "look guilty",
+      "meaning": "罪悪感・後ろめたさがあるような表情や様子に見える。",
+      "playMeaning": true,
+      "inThisPlay": "実際の罪の有無を確定する記述ではなく、後ろめたそうに見える表情・態度の演技指示。"
+    }
+  ],
+  "act2-speech-0284": [
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    }
+  ],
   "act2-speech-0285": [],
   "act2-speech-0286": [
     {
@@ -9277,6 +11271,13 @@
       "lemma": "whilst",
       "meaning": "【未分類】\n～する間に、～である一方。whileに相当する英国英語。",
       "playMeaning": false
+    },
+    {
+      "surface": "with emphasis",
+      "lemma": "with emphasis",
+      "meaning": "強調して、力を込めて。",
+      "playMeaning": true,
+      "inThisPlay": "特定の語句を強く際立たせる言い方をする指示。"
     }
   ],
   "act2-speech-0288": [
@@ -9287,9 +11288,39 @@
       "playMeaning": false
     }
   ],
-  "act2-speech-0289": [],
+  "act2-speech-0289": [
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    }
+  ],
   "act2-speech-0290": [],
-  "act2-speech-0291": [],
+  "act2-speech-0291": [
+    {
+      "surface": "evening paper",
+      "lemma": "evening paper",
+      "meaning": "夕方に発行される新聞、夕刊。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは「paper＝紙」ではなく、夕刊の新聞。"
+    },
+    {
+      "surface": "picks up the paper",
+      "lemma": "pick up",
+      "meaning": "拾う／手に取る",
+      "playMeaning": true,
+      "inThisPlay": "Mollieがソファにある新聞を手に取る動作。"
+    }
+  ],
   "act2-speech-0292": [
     {
       "surface": "get hold of",
@@ -9313,10 +11344,61 @@
     }
   ],
   "act2-speech-0294": [],
-  "act2-speech-0295": [],
-  "act2-speech-0296": [],
-  "act2-speech-0297": [],
-  "act2-speech-0298": [],
+  "act2-speech-0295": [
+    {
+      "surface": "London",
+      "lemma": "London",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
+    }
+  ],
+  "act2-speech-0296": [
+    {
+      "surface": "London",
+      "lemma": "London",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
+    }
+  ],
+  "act2-speech-0297": [
+    {
+      "surface": "in horror",
+      "lemma": "in horror",
+      "meaning": "恐怖・強い衝撃を感じて。",
+      "playMeaning": true,
+      "inThisPlay": "恐怖・強い衝撃を表情や声に出して反応する指示。"
+    }
+  ],
+  "act2-speech-0298": [
+    {
+      "surface": "comes nearer to her",
+      "lemma": "come nearer",
+      "meaning": "もっと近づく、近寄る",
+      "playMeaning": true,
+      "inThisPlay": "GilesがMollieとの距離を詰め、彼女の方へ近づく動作。"
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "recoils",
+      "lemma": "recoil",
+      "meaning": "【動詞】\n驚き・恐れ・嫌悪などで身を引く、後ずさる。\n【名詞】\n反動、後退。",
+      "playMeaning": true,
+      "inThisPlay": "驚きや恐れから反射的に身を引く動作。"
+    }
+  ],
   "act2-speech-0299": [],
   "act2-speech-0300": [
     {
@@ -9324,25 +11406,88 @@
       "lemma": "what’s the matter",
       "meaning": "どうしたの／何が問題なの",
       "playMeaning": true
+    },
+    {
+      "surface": "matter",
+      "lemma": "matter",
+      "meaning": "【名詞】\n問題、事柄、案件。",
+      "playMeaning": false
+    },
+    {
+      "surface": "following her",
+      "lemma": "follow",
+      "meaning": "【動詞】\n① ～の後について行く、追う\n② ～に続く\n③ ～を理解する",
+      "playMeaning": true,
+      "inThisPlay": "Gilesが離れていくMollieの後を追って移動する。"
     }
   ],
   "act2-speech-0301": [],
-  "act2-speech-0302": [],
+  "act2-speech-0302": [
+    {
+      "surface": "Christopher Wren",
+      "lemma": "Christopher Wren",
+      "meaning": "【固有名詞】\n英語の人名。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは館に滞在している若い男性が名乗っている名前。歴史上の建築家と同一人物として扱ってはならない。"
+    }
+  ],
   "act2-speech-0303": [
     {
       "surface": "fool",
       "lemma": "fool",
       "meaning": "【未分類】\n愚かな人、ばかなことをする人。",
       "playMeaning": false
+    },
+    {
+      "surface": "course",
+      "lemma": "course",
+      "meaning": "【名詞】\n① 進路・経過\n② 教育の課程や一連の授業",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0304": [],
+  "act2-speech-0304": [
+    {
+      "surface": "dreamy",
+      "lemma": "dreamy",
+      "meaning": "【形容詞】\n① 夢見るような、ぼんやりした\n② 夢のように心地よい。",
+      "playMeaning": true,
+      "inThisPlay": "現実から少し離れたような、夢見るような表情・態度へ変える指示。"
+    }
+  ],
   "act2-speech-0305": [
     {
       "surface": "shan't",
       "lemma": "shan’t",
       "meaning": "【短縮表現】\n① ～しないつもりだ\n② ～しない",
       "playMeaning": true
+    },
+    {
+      "surface": "archway",
+      "lemma": "archway",
+      "meaning": "【名詞】\nアーチ形の開口部・通路。",
+      "playMeaning": true,
+      "inThisPlay": "舞台装置のアーチ形の開口部。入退場や位置指定の基準になる。"
+    },
+    {
+      "surface": "crossing",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは舞台上の一地点から別の地点へ横切って移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "up",
+      "lemma": "upstage",
+      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
     }
   ],
   "act2-speech-0306": [
@@ -9350,7 +11495,8 @@
       "surface": "what's come over you",
       "lemma": "come over someone",
       "meaning": "感情・感覚が急に人を襲う",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "「何があなたを越えて来た」ではなく、急に態度が変わった相手へ「どうしたんだ」と問う表現。"
     },
     {
       "surface": "come over you",
@@ -9369,6 +11515,20 @@
       "lemma": "as though",
       "meaning": "まるで～のように",
       "playMeaning": true
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
     }
   ],
   "act2-speech-0307": [
@@ -9387,6 +11547,48 @@
       "lemma": "hell",
       "meaning": "【未分類】\n地獄；比喩的に非常につらい状態を表し、口語では強い驚き・怒りの強調にも使う。",
       "playMeaning": true
+    },
+    {
+      "surface": "angrily",
+      "lemma": "angrily",
+      "meaning": "【副詞】\n怒って、腹を立てた調子で",
+      "playMeaning": true,
+      "inThisPlay": "Gilesが怒りを露わにした調子で発言する演技指示。"
+    },
+    {
+      "surface": "archway",
+      "lemma": "archway",
+      "meaning": "【名詞】\nアーチ形の開口部・通路。",
+      "playMeaning": true,
+      "inThisPlay": "舞台装置のアーチ形の開口部。入退場や位置指定の基準になる。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは人物が舞台上の場面へ登場すること。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "up",
+      "lemma": "upstage",
+      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
     }
   ],
   "act2-speech-0311": [
@@ -9403,7 +11605,35 @@
       "playMeaning": true
     }
   ],
-  "act2-speech-0312": [],
+  "act2-speech-0312": [
+    {
+      "surface": "lovers' quarrels",
+      "lemma": "lovers' quarrel",
+      "meaning": "恋人・夫婦など親密な二人の間の口論。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "refectory table",
+      "lemma": "refectory table",
+      "meaning": "食堂などで用いる、長く大きな食卓。",
+      "playMeaning": true,
+      "inThisPlay": "舞台装置として置かれている大きな食卓を指す。移動位置を示す基準物にもなっている。"
+    }
+  ],
   "act2-speech-0313": [
     {
       "surface": "Quite",
@@ -9422,6 +11652,20 @@
       "lemma": "poet",
       "meaning": "【未分類】\n詩を書く人、詩人。",
       "playMeaning": false
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
     }
   ],
   "act2-speech-0314": [
@@ -9430,6 +11674,13 @@
       "lemma": "business",
       "meaning": "【名詞】\n① 用事\n② 事件\n③ 本題\n④ 仕事",
       "playMeaning": true
+    },
+    {
+      "surface": "crossing",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは舞台上の一地点から別の地点へ横切って移動すること。"
     }
   ],
   "act2-speech-0315": [
@@ -9456,23 +11707,143 @@
       "lemma": "annoyed",
       "meaning": "【未分類】\nいら立った、腹を立てた。",
       "playMeaning": false
+    },
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
     }
   ],
-  "act2-speech-0316": [],
+  "act2-speech-0316": [
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    }
+  ],
   "act2-speech-0317": [],
   "act2-speech-0318": [
     {
       "surface": "by any chance",
       "lemma": "by any chance",
       "meaning": "ひょっとして、もしかして。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "断定を避けて「ひょっとして」と柔らかく可能性を尋ねる表現。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
     }
   ],
-  "act2-speech-0319": [],
+  "act2-speech-0319": [
+    {
+      "surface": "course",
+      "lemma": "course",
+      "meaning": "【名詞】\n① 進路・経過\n② 教育の課程や一連の授業",
+      "playMeaning": false
+    },
+    {
+      "surface": "annoyed",
+      "lemma": "annoyed",
+      "meaning": "【未分類】\nいら立った、腹を立てた。",
+      "playMeaning": true,
+      "inThisPlay": "いら立ち・不機嫌さが見える状態で登場するという演技指示。"
+    },
+    {
+      "surface": "archway",
+      "lemma": "archway",
+      "meaning": "【名詞】\nアーチ形の開口部・通路。",
+      "playMeaning": true,
+      "inThisPlay": "舞台装置のアーチ形の開口部。入退場や位置指定の基準になる。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは人物が舞台上の場面へ登場すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "up",
+      "lemma": "upstage",
+      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
+    }
+  ],
   "act2-speech-0320": [],
-  "act2-speech-0321": [],
+  "act2-speech-0321": [
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "meaning": "【副詞】\n確かに、間違いなく。返答で『もちろん』。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0322": [],
-  "act2-speech-0323": [],
+  "act2-speech-0323": [
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    }
+  ],
   "act2-speech-0324": [
     {
       "surface": "reinforcements",
@@ -9485,6 +11856,13 @@
       "lemma": "station",
       "meaning": "【名詞】\n持ち場、配置場所",
       "playMeaning": true
+    },
+    {
+      "surface": "reinforcements",
+      "lemma": "reinforcements",
+      "meaning": "【名詞・複数】\n部隊や人員を強化するために追加で送られる援軍・応援要員。",
+      "playMeaning": true,
+      "inThisPlay": "軍事だけの「援軍」ではなく、孤立した館で捜査を助ける追加の警察要員という意味。"
     }
   ],
   "act2-speech-0325": [
@@ -9505,6 +11883,19 @@
       "lemma": "shan’t",
       "meaning": "【短縮表現】\n① ～しないつもりだ\n② ～しない",
       "playMeaning": true
+    },
+    {
+      "surface": "seen to it",
+      "lemma": "see to it that",
+      "meaning": "確実に～となるよう取り計らう。",
+      "playMeaning": true,
+      "inThisPlay": "誰かがTrotterを外へ出さないよう、意図的に状況をそうした可能性を述べる「確実に～するよう取り計らう」の意味。"
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "meaning": "【副詞】\n確かに、間違いなく。返答で『もちろん』。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0326": [],
@@ -9522,6 +11913,20 @@
       "lemma": "just",
       "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
       "playMeaning": true
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
     }
   ],
   "act2-speech-0329": [],
@@ -9536,10 +11941,54 @@
       "surface": "hooked it",
       "lemma": "hook it",
       "meaning": "急いで立ち去る、逃げる。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "英国口語で「急いで立ち去る・逃げる」。ParaviciniがChristopherが逃げたのではないかと推測している。"
+    },
+    {
+      "surface": "chuckling",
+      "lemma": "chuckle",
+      "meaning": "【動詞】\nくすくす笑う、含み笑いする。\n【名詞】\nくすくす笑い。",
+      "playMeaning": true,
+      "inThisPlay": "声を立てすぎず、くすくす・含み笑いをする演技指示。"
     }
   ],
-  "act2-speech-0331": [],
+  "act2-speech-0331": [
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは人物が舞台上の場面へ登場すること。"
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "refectory table",
+      "lemma": "refectory table",
+      "meaning": "食堂などで用いる、長く大きな食卓。",
+      "playMeaning": true,
+      "inThisPlay": "舞台装置として置かれている大きな食卓を指す。移動位置を示す基準物にもなっている。"
+    }
+  ],
   "act2-speech-0332": [
     {
       "surface": "thank goodness",
@@ -9552,11 +12001,62 @@
       "lemma": "after all",
       "meaning": "結局／やはり",
       "playMeaning": true
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
     }
   ],
-  "act2-speech-0333": [],
-  "act2-speech-0334": [],
-  "act2-speech-0335": [],
+  "act2-speech-0333": [
+    {
+      "surface": "crossing",
+      "lemma": "cross",
+      "meaning": "【形容詞】\n不機嫌な、怒った",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは舞台上の一地点から別の地点へ横切って移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    }
+  ],
+  "act2-speech-0334": [
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "surprised",
+      "lemma": "surprised",
+      "meaning": "【形容詞】\n驚いた、意外に思った",
+      "playMeaning": true,
+      "inThisPlay": "Christopherがスキーについて尋ねられて驚いた反応で答える。"
+    }
+  ],
+  "act2-speech-0335": [
+    {
+      "surface": "looks at MOLLIE",
+      "lemma": "look at",
+      "meaning": "～を見る、～へ視線を向ける",
+      "playMeaning": true,
+      "inThisPlay": "TrotterがMollieへ意味ありげに視線を向け、発言との関係を示す。"
+    }
+  ],
   "act2-speech-0336": [
     {
       "surface": "is very fond of",
@@ -9569,9 +12069,43 @@
       "lemma": "just",
       "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
       "playMeaning": true
+    },
+    {
+      "surface": "exercise",
+      "lemma": "exercise",
+      "meaning": "【名詞】\n健康や能力の維持・向上のために身体や技能を使う活動。\n【動詞】\nまた、そのような活動を行う。",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0337": [],
+  "act2-speech-0337": [
+    {
+      "surface": "exercise",
+      "lemma": "exercise",
+      "meaning": "【名詞】\n健康や能力の維持・向上のために身体や技能を使う活動。\n【動詞】\nまた、そのような活動を行う。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Centre",
+      "lemma": "centre stage",
+      "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "refectory table",
+      "lemma": "refectory table",
+      "meaning": "食堂などで用いる、長く大きな食卓。",
+      "playMeaning": true,
+      "inThisPlay": "舞台装置として置かれている大きな食卓を指す。移動位置を示す基準物にもなっている。"
+    }
+  ],
   "act2-speech-0338": [
     {
       "surface": "communication",
@@ -9584,12 +12118,125 @@
       "lemma": "at once",
       "meaning": "すぐに／同時に",
       "playMeaning": true
+    },
+    {
+      "surface": "serious",
+      "lemma": "serious",
+      "meaning": "【形容詞】\n① 重大で注意を要する\n② 冗談ではなく本気の",
+      "playMeaning": false
+    },
+    {
+      "surface": "matter",
+      "lemma": "matter",
+      "meaning": "【名詞】\n問題、事柄、案件。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0339": [],
-  "act2-speech-0340": [],
-  "act2-speech-0341": [],
-  "act2-speech-0342": [],
+  "act2-speech-0340": [
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは人物が舞台上の場面から退場すること。"
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "up",
+      "lemma": "upstage",
+      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
+    }
+  ],
+  "act2-speech-0341": [
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    }
+  ],
+  "act2-speech-0342": [
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは人物が舞台上の場面へ登場すること。"
+    },
+    {
+      "surface": "exits",
+      "lemma": "exit",
+      "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは人物が舞台上の場面から退場すること。"
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "refectory table",
+      "lemma": "refectory table",
+      "meaning": "食堂などで用いる、長く大きな食卓。",
+      "playMeaning": true,
+      "inThisPlay": "舞台装置として置かれている大きな食卓を指す。移動位置を示す基準物にもなっている。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "up",
+      "lemma": "upstage",
+      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
+    }
+  ],
   "act2-speech-0343": [
     {
       "surface": "Hullo",
@@ -9599,8 +12246,66 @@
     }
   ],
   "act2-speech-0344": [],
-  "act2-speech-0345": [],
-  "act2-speech-0346": [],
+  "act2-speech-0345": [
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    }
+  ],
+  "act2-speech-0346": [
+    {
+      "surface": "archway",
+      "lemma": "archway",
+      "meaning": "【名詞】\nアーチ形の開口部・通路。",
+      "playMeaning": true,
+      "inThisPlay": "舞台装置のアーチ形の開口部。入退場や位置指定の基準になる。"
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
+    },
+    {
+      "surface": "enters",
+      "lemma": "enter",
+      "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは人物が舞台上の場面へ登場すること。"
+    },
+    {
+      "surface": "moving",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": true,
+      "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "up",
+      "lemma": "upstage",
+      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
+      "playMeaning": true,
+      "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
+    }
+  ],
   "act2-speech-0347": [],
   "act2-speech-0348": [
     {

@@ -1,22 +1,29 @@
-MOUSETRAP SCRIPT TRAINER - 006 VOCABULARY USAGE
+Vocabulary data status
 
-Material ID: 006
-Status: EXPANDED / CANONICAL REGISTERED
-Validated payload: mousetrap_line_vocabulary.json
-Coverage: 1164 / 1164 canonical speech IDs
-Line vocabulary items: 1741
-Annotated speeches: 655
-Added items in this expansion: 555
+STATUS: PRODUCTION AUGMENTED / CANONICAL REGISTERED
+
+Canonical speeches: 1164/1164
+Vocabulary items: 2126
+Annotated speeches: 721
+Dictionary entries: 1084
+Referenced lemmas: 1078
 Missing dictionary lemmas: 0
-Payload SHA-256: c384ec581ab1869861e11d4fd08a292e1e8f27e6f2472b82b5e3af1dd129cb37
-Join key: speechId -> canonical script; lemma -> 005 dictionary.
+In-this-play items: 394
 
-SCENE INVENTORY
-act1-scene1: 190 speeches / 124 annotated / 419 items
-act1-scene2: 336 speeches / 205 annotated / 534 items
-act2: 638 speeches / 326 annotated / 788 items
+Range augmentation: Global Speech 583-873 / act2-speech-0057..0347
+Target speeches audited: 291
+Target vocabulary before: 334
+Target vocabulary after: 719
+New vocabulary associations: 386
+New dictionary entries: 52
+Modified existing target entries: 15
+Stage directions audited/mapped: 157/157
 
-ROLE
-006 contains occurrence-specific surface/lemma/meaning information. Reviewed context meanings take priority; reviewed B1+ candidates with no special contextual shift receive the appropriate neutral dictionary sense.
+Scene coverage:
+- act1-scene1: 190 speeches / 124 annotated / 419 items / 30 inThisPlay
+- act1-scene2: 336 speeches / 205 annotated / 534 items / 17 inThisPlay
+- act2: 638 speeches / 392 annotated / 1173 items / 347 inThisPlay
 
-FINAL STATUS: PASS / EXPANDED
+SHA-256
+- mousetrap_line_vocabulary.json: 44c86809f9324ac5396f7e20e9b89dc57ce02f70d21ceba5a9e7d28d9ea6e3ee
+- mousetrap_word_dictionary.json: 12457c5e1c6d28daf7fa452f083ee78c4f669b8805713efca9bb0d466e21eb1c

@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "range": {
+    "globalSpeechStart": 583,
+    "globalSpeechEnd": 873,
+    "scene": "act2",
+    "speechIdStart": "act2-speech-0057",
+    "speechIdEnd": "act2-speech-0347",
+    "speeches": 291
+  },
+  "sources": {
+    "canonicalScript": "mousetrap_script_data.json",
+    "sourcePdf": "The Mousetrap 台本.pdf (stage directions extracted for this range)",
+    "dictionaryResearch": [
+      "Oxford priority per editorial policy",
+      "Cambridge Dictionary",
+      "Collins English Dictionary"
+    ],
+    "notes": "New neutral dictionary senses are kept separate from target-specific inThisPlay explanations."
+  },
+  "metrics": {
+    "newVocabulary": 385,
+    "newDictionaryEntries": 84,
+    "modifiedExistingEntries": 0,
+    "properNouns": 10,
+    "multiWordExpressions": 151,
+    "stageDirectionEntries": 0,
+    "polysemousWithInThisPlay": 137,
+    "autoReusedExistingDictionary": 56,
+    "curatedSpokenEntries": 16,
+    "stageDirectionsAudited": 157,
+    "stageDirectionsMapped": 157,
+    "targetSpeechesChecked": 291
+  },
+  "targetBefore": {
+    "items": 334,
+    "annotated": 148,
+    "inThisPlay": 5
+  },
+  "targetAfter": {
+    "items": 719,
+    "annotated": 214,
+    "inThisPlay": 334
+  },
+  "productionTotals": {
+    "vocabularyItems": 2126,
+    "annotatedSpeeches": 721,
+    "dictionaryEntries": 1084,
+    "referencedLemmas": 1081,
+    "inThisPlayItems": 394
+  },
+  "audits": {
+    "jsonParse": "PASS",
+    "schema": "PASS",
+    "duplicateCheck": "PASS",
+    "missingReferenceCheck": "PASS",
+    "speechIdCheck": "PASS",
+    "targetBoundaryCheck": "PASS",
+    "outOfScopeLineMutationCheck": "PASS",
+    "semanticSeparationCheck": "PASS",
+    "stageDirectionMapping": "PASS",
+    "stageDirectionsWithoutLexicalMatch": 0
+  },
+  "stageDirectionsWithoutLexicalMatch": [],
+  "changedFiles": [
+    "mousetrap_line_vocabulary.json",
+    "mousetrap_word_dictionary.json",
+    "data/canonical-integration-manifest.json",
+    "materials/006_VOCABULARY_USAGE.txt",
+    "data/vocabulary-rebuild/range-0583-0873-production-report.json"
+  ],
+  "unresolvedItems": [],
+  "hashes": {
+    "lineVocabulary": "44c86809f9324ac5396f7e20e9b89dc57ce02f70d21ceba5a9e7d28d9ea6e3ee",
+    "wordDictionary": "346387632f60d5d5cf0fca8ec419381e4be3528a4c15d2ea4d32e94b6764ee5f"
+  },
+  "qa": "PASS",
+  "metricDefinitions": {
+    "newVocabulary": "target final row count minus target baseline row count",
+    "newDictionaryEntries": "final dictionary lemmas absent from baseline using production trim+lowercase lookup",
+    "modifiedExistingEntries": "baseline dictionary lemmas whose final entry object differs using production trim+lowercase lookup",
+    "properNouns": "unique proper-noun lemmas referenced in the final target range",
+    "multiWordExpressions": "new target vocabulary rows whose lemma contains more than one word",
+    "stageDirectionEntries": "final target vocabulary rows marked category=stage",
+    "polysemousWithInThisPlay": "final target rows with inThisPlay whose dictionary entry is tagged/contextual or lists multiple senses"
+  }
+}
