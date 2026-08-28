@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "scope": "vocabulary semantic separation, POS closure, polysemy context coverage, phrase alias normalization, surface/lemma uniqueness",
+  "productionData": {
+    "dictionarySha256": "b004c06d5f02a7b66b1758cf85763398e283106701c3cb1cca48c99834eb8680",
+    "vocabularySha256": "ada285710fcf5abce920a80386f390e9812f781341d72dccbcb764e66de586ea",
+    "dictionaryEntries": 1375,
+    "vocabularyItems": 2926
+  },
+  "closure": {
+    "unclassifiedDictionary": 0,
+    "polysemyContextMissing": 0,
+    "surfaceLemmaConflicts": 0,
+    "exactSurfaceLemmaDuplicates": 0,
+    "genericInThisPlayTemplates": 0
+  },
+  "dictionarySupersetAudit": {
+    "unreferencedDictionaryEntries": 61,
+    "blocking": false,
+    "reason": "The production contract does not require every dictionary entry to be referenced by line vocabulary. The current dictionary UI resolves a dictionary entry from a selected vocabulary lemma, so unreferenced dictionary entries do not create ambiguous line annotations. They remain visible in the audit report for future dictionary-scope cleanup."
+  },
+  "qa": {
+    "semanticValidator": "PASS",
+    "productionAssemblyVerify": "PASS",
+    "appProductionQa": "PASS",
+    "completeUiRegression": "PASS"
+  },
+  "reports": [
+    "data/vocabulary-semantic-repair-report.json",
+    "data/vocabulary-phrase-alias-report.json"
+  ]
+}
