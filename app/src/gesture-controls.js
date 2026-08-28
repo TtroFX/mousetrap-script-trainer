@@ -149,11 +149,12 @@ const endFocusSwipe=event=>{
   if(!state||event.pointerId!==state.pointerId)return false;
   const dx=event.clientX-state.startX,dy=event.clientY-state.startY,ax=Math.abs(dx),ay=Math.abs(dy);
   const duration=Math.max(1,(event.timeStamp||performance.now())-state.startTime);
-  if(state.axis==='x'&&state.moved)suppressClickUntil=performance.now()+260;
+  const inferredAxis=state.axis??(Math.max(ax,ay)>=10?(ax>ay*1.08?'x':ay>ax*1.08?'y':null):null);
+  if(inferredAxis==='x'&&(state.moved||ax>=14))suppressClickUntil=performance.now()+260;
   const width=Math.max(320,state.page?.clientWidth||window.innerWidth||320);
   const distanceThreshold=Math.min(88,Math.max(46,width*.14));
   const velocity=ax/duration;
-  const horizontal=state.axis==='x'&&ax>ay*1.05;
+  const horizontal=inferredAxis==='x'&&ax>ay*1.05;
   const commit=horizontal&&(ax>=distanceThreshold||(ax>=30&&velocity>=.48));
   if(commit)return animateFocusCommit(dx<0?1:-1,state);
   cancelFocusSwipe();
