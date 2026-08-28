@@ -1249,7 +1249,7 @@
     "lemma": "cross",
     "ipa": "/kɹˈɒs/",
     "pos": "形容詞・動詞・名詞",
-    "coreMeaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+    "coreMeaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
     "forms": "cross · crosses · crossed · crossed · crossing",
     "tags": [
       "British English",
@@ -1259,7 +1259,7 @@
       "polysemy",
       "stage-direction"
     ],
-    "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。"
+    "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。"
   },
   "crush": {
     "lemma": "crush",
@@ -9575,11 +9575,11 @@
   "hell": {
     "lemma": "hell",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n地獄；比喩的に非常につらい状態を表し、口語では強い驚き・怒りの強調にも使う。",
+    "pos": "名詞・強意表現",
+    "coreMeaning": "【名】\n地獄；比喩的に、非常につらい状態。\n【強意表現】\n口語で、驚き・怒りなどを強める。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n地獄；比喩的に非常につらい状態を表し、口語では強い驚き・怒りの強調にも使う。"
+    "meaning": "【名】\n地獄；比喩的に、非常につらい状態。\n【強意表現】\n口語で、驚き・怒りなどを強める。"
   },
   "go into something": {
     "lemma": "go into something",
@@ -9593,31 +9593,31 @@
   "whilst": {
     "lemma": "whilst",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n～する間に、～である一方。whileに相当する英国英語。",
+    "pos": "接続詞",
+    "coreMeaning": "【接】\n～する間に、～である一方。while に相当する英国英語。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [
       "British"
     ],
-    "meaning": "【未分類】\n～する間に、～である一方。whileに相当する英国英語。"
+    "meaning": "【接】\n～する間に、～である一方。while に相当する英国英語。"
   },
   "unknown": {
     "lemma": "unknown",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n知られていない、正体・詳細が不明な。",
+    "pos": "形容詞",
+    "coreMeaning": "【形】\n知られていない、正体・詳細が不明な。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n知られていない、正体・詳細が不明な。"
+    "meaning": "【形】\n知られていない、正体・詳細が不明な。"
   },
   "bear": {
     "lemma": "bear",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n苦痛・困難・責任などに耐える、受け止める。",
+    "pos": "動詞",
+    "coreMeaning": "【動】\n苦痛・困難・責任などに耐える、受け止める。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n苦痛・困難・責任などに耐える、受け止める。"
+    "meaning": "【動】\n苦痛・困難・責任などに耐える、受け止める。"
   },
   "put something out of one's mind": {
     "lemma": "put something out of one's mind",
@@ -9631,11 +9631,11 @@
   "guilty": {
     "lemma": "guilty",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n犯罪・過失などについて罪がある、有罪の。",
+    "pos": "形容詞",
+    "coreMeaning": "【形】\n犯罪・過失などについて罪がある、有罪の。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n犯罪・過失などについて罪がある、有罪の。"
+    "meaning": "【形】\n犯罪・過失などについて罪がある、有罪の。"
   },
   "put something into someone's head": {
     "lemma": "put something into someone's head",
@@ -9649,101 +9649,101 @@
   "possibly": {
     "lemma": "possibly",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\nもしかすると；可能な限り。否定語とともに強い不可能を表すことがある。",
+    "pos": "副詞",
+    "coreMeaning": "【副】\n① もしかすると\n② 可能な限り。否定語とともに、強い不可能を表すことがある。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\nもしかすると；可能な限り。否定語とともに強い不可能を表すことがある。"
+    "meaning": "【副】\n① もしかすると\n② 可能な限り。否定語とともに、強い不可能を表すことがある。"
   },
   "chicken wire": {
     "lemma": "chicken wire",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "鶏小屋などの囲いに使う、細い金属線でできた網状の金網。",
+    "pos": "名詞",
+    "coreMeaning": "【名】\n鶏小屋などの囲いに使う、細い金属線でできた網状の金網。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "鶏小屋などの囲いに使う、細い金属線でできた網状の金網。"
+    "meaning": "【名】\n鶏小屋などの囲いに使う、細い金属線でできた網状の金網。"
   },
   "pretend": {
     "lemma": "pretend",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n事実ではないことを事実であるように装う、ふりをする。",
+    "pos": "動詞",
+    "coreMeaning": "【動】\n事実ではないことを事実であるように装う、ふりをする。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n事実ではないことを事実であるように装う、ふりをする。"
+    "meaning": "【動】\n事実ではないことを事実であるように装う、ふりをする。"
   },
   "countryside": {
     "lemma": "countryside",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n都市部ではない田園・地方一帯。",
+    "pos": "名詞",
+    "coreMeaning": "【名】\n都市部ではない田園・地方一帯。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n都市部ではない田園・地方一帯。"
+    "meaning": "【名】\n都市部ではない田園・地方一帯。"
   },
   "doubt": {
     "lemma": "doubt",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n確かではないと思う、疑う；疑念。",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動】\n確かではないと思う、疑う。\n【名】\n疑い、疑念。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n確かではないと思う、疑う；疑念。"
+    "meaning": "【動】\n確かではないと思う、疑う。\n【名】\n疑い、疑念。"
   },
   "trust": {
     "lemma": "trust",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n人・物を信頼する；信頼。",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動】\n信頼する、信用する。\n【名】\n信頼、信用。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n人・物を信頼する；信頼。"
+    "meaning": "【動】\n信頼する、信用する。\n【名】\n信頼、信用。"
   },
   "interrupt": {
     "lemma": "interrupt",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n会話・行動などを途中で遮る。",
+    "pos": "動詞",
+    "coreMeaning": "【動】\n会話・行動などを途中で遮る、中断させる。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n会話・行動などを途中で遮る。"
+    "meaning": "【動】\n会話・行動などを途中で遮る、中断させる。"
   },
   "loose": {
     "lemma": "loose",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n固定・拘束されていない；人・動物が逃げ出して自由になっている。",
+    "pos": "形容詞",
+    "coreMeaning": "【形】\n固定・拘束されていない、ゆるんだ；人・動物が逃げ出して自由になった。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n固定・拘束されていない；人・動物が逃げ出して自由になっている。"
+    "meaning": "【形】\n固定・拘束されていない、ゆるんだ；人・動物が逃げ出して自由になった。"
   },
   "safety": {
     "lemma": "safety",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n危険がなく安全であること。",
+    "pos": "名詞",
+    "coreMeaning": "【名】\n危険がなく安全であること、安全。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n危険がなく安全であること。"
+    "meaning": "【名】\n危険がなく安全であること、安全。"
   },
   "prepared": {
     "lemma": "prepared",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n準備ができた；～する覚悟・意思がある。",
+    "pos": "形容詞",
+    "coreMeaning": "【形】\n① 準備ができた\n② ～する覚悟・意思がある。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n準備ができた；～する覚悟・意思がある。"
+    "meaning": "【形】\n① 準備ができた\n② ～する覚悟・意思がある。"
   },
   "dare": {
     "lemma": "dare",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n勇気を出して～する；How dare ... で、よくも～できるものだ。",
+    "pos": "動詞・助動詞的用法",
+    "coreMeaning": "【動】\n勇気を出して～する、あえて～する。\n【助動詞的用法】\nHow dare ...? で「よくも～できるものだ」。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n勇気を出して～する；How dare ... で、よくも～できるものだ。"
+    "meaning": "【動】\n勇気を出して～する、あえて～する。\n【助動詞的用法】\nHow dare ...? で「よくも～できるものだ」。"
   },
   "out-of-the-way": {
     "lemma": "out-of-the-way",
@@ -9757,11 +9757,11 @@
   "attract": {
     "lemma": "attract",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n人の関心・好意などを引きつける。",
+    "pos": "動詞",
+    "coreMeaning": "【動】\n人の関心・好意などを引きつける。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n人の関心・好意などを引きつける。"
+    "meaning": "【動】\n人の関心・好意などを引きつける。"
   },
   "on the sly": {
     "lemma": "on the sly",
@@ -9777,29 +9777,29 @@
   "admit": {
     "lemma": "admit",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n事実・非などを認める。",
+    "pos": "動詞",
+    "coreMeaning": "【動】\n事実・非などを認める。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n事実・非などを認める。"
+    "meaning": "【動】\n事実・非などを認める。"
   },
   "fool": {
     "lemma": "fool",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n愚かな人、ばかなことをする人。",
+    "pos": "名詞",
+    "coreMeaning": "【名】\n愚かな人、ばかなことをする人。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n愚かな人、ばかなことをする人。"
+    "meaning": "【名】\n愚かな人、ばかなことをする人。"
   },
   "all of a sudden": {
     "lemma": "all of a sudden",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "突然、不意に。",
+    "pos": "副詞句",
+    "coreMeaning": "【副詞句】\n突然、不意に。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "突然、不意に。"
+    "meaning": "【副詞句】\n突然、不意に。"
   },
   "be apt to": {
     "lemma": "be apt to",
@@ -9822,20 +9822,20 @@
   "poet": {
     "lemma": "poet",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n詩を書く人、詩人。",
+    "pos": "名詞",
+    "coreMeaning": "【名】\n詩を書く人、詩人。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n詩を書く人、詩人。"
+    "meaning": "【名】\n詩を書く人、詩人。"
   },
   "annoyed": {
     "lemma": "annoyed",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\nいら立った、腹を立てた。",
+    "pos": "形容詞",
+    "coreMeaning": "【形】\nいら立った、腹を立てた。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\nいら立った、腹を立てた。"
+    "meaning": "【形】\nいら立った、腹を立てた。"
   },
   "by any chance": {
     "lemma": "by any chance",
@@ -9858,20 +9858,20 @@
   "thank goodness": {
     "lemma": "thank goodness",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "安堵や感謝を表して「よかった」「ありがたい」と言う定型表現。",
+    "pos": "間投詞的定型表現",
+    "coreMeaning": "【定型表現】\n安堵や感謝を表して「よかった」「ありがたい」。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "安堵や感謝を表して「よかった」「ありがたい」と言う定型表現。"
+    "meaning": "【定型表現】\n安堵や感謝を表して「よかった」「ありがたい」。"
   },
   "communication": {
     "lemma": "communication",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n情報を伝え合うこと；連絡・通信。",
+    "pos": "名詞",
+    "coreMeaning": "【名】\n情報を伝え合うこと；連絡、通信。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n情報を伝え合うこと；連絡・通信。"
+    "meaning": "【名】\n情報を伝え合うこと；連絡、通信。"
   },
   "grant someone that": {
     "lemma": "grant someone that",
@@ -9930,20 +9930,20 @@
   "hesitate": {
     "lemma": "hesitate",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\nためらう、すぐ行動せず迷う。",
+    "pos": "動詞",
+    "coreMeaning": "【動】\nためらう、すぐ行動せず迷う。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\nためらう、すぐ行動せず迷う。"
+    "meaning": "【動】\nためらう、すぐ行動せず迷う。"
   },
   "slight": {
     "lemma": "slight",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n程度・量などがごく小さい、わずかな。",
+    "pos": "形容詞",
+    "coreMeaning": "【形】\n程度・量などがごく小さい、わずかな。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n程度・量などがごく小さい、わずかな。"
+    "meaning": "【形】\n程度・量などがごく小さい、わずかな。"
   },
   "reproach oneself": {
     "lemma": "reproach oneself",
@@ -9966,11 +9966,11 @@
   "liver": {
     "lemma": "liver",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n肝臓；食材としてのレバー。",
+    "pos": "名詞",
+    "coreMeaning": "【名】\n肝臓；食材としてのレバー。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n肝臓；食材としてのレバー。"
+    "meaning": "【名】\n肝臓；食材としてのレバー。"
   },
   "soupçon": {
     "lemma": "soupçon",
@@ -10008,11 +10008,11 @@
   "wise": {
     "lemma": "wise",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n知恵があり判断が適切な、賢明な。",
+    "pos": "形容詞",
+    "coreMeaning": "【形】\n知恵があり判断が適切な、賢明な。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n知恵があり判断が適切な、賢明な。"
+    "meaning": "【形】\n知恵があり判断が適切な、賢明な。"
   },
   "prove a negative": {
     "lemma": "prove a negative",
@@ -10026,20 +10026,20 @@
   "tail": {
     "lemma": "tail",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n動物の尾、しっぽ。",
+    "pos": "名詞",
+    "coreMeaning": "【名】\n動物の尾、しっぽ。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n動物の尾、しっぽ。"
+    "meaning": "【名】\n動物の尾、しっぽ。"
   },
   "cruel": {
     "lemma": "cruel",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n人や動物に苦痛を与えることを気にしない、残酷な。",
+    "pos": "形容詞",
+    "coreMeaning": "【形】\n人や動物に苦痛を与えることを気にしない、残酷な。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n人や動物に苦痛を与えることを気にしない、残酷な。"
+    "meaning": "【形】\n人や動物に苦痛を与えることを気にしない、残酷な。"
   },
   "the forgetting kind": {
     "lemma": "the forgetting kind",
@@ -10080,13 +10080,13 @@
   "neighbourhood": {
     "lemma": "neighbourhood",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n近所、周辺地域。",
+    "pos": "名詞",
+    "coreMeaning": "【名】\n近所、周辺地域。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [
       "British spelling"
     ],
-    "meaning": "【未分類】\n近所、周辺地域。"
+    "meaning": "【名】\n近所、周辺地域。"
   },
   "amour": {
     "lemma": "amour",
@@ -10130,22 +10130,22 @@
   "humour": {
     "lemma": "humour",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\nユーモア、物事のおかしさを理解し楽しむ感覚。",
+    "pos": "名詞",
+    "coreMeaning": "【名】\nユーモア、物事のおかしさを理解し楽しむ感覚。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [
       "British spelling"
     ],
-    "meaning": "【未分類】\nユーモア、物事のおかしさを理解し楽しむ感覚。"
+    "meaning": "【名】\nユーモア、物事のおかしさを理解し楽しむ感覚。"
   },
   "grand piano": {
     "lemma": "grand piano",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "弦を水平に張った大型のグランドピアノ。",
+    "pos": "名詞",
+    "coreMeaning": "【名】\n弦を水平に張った大型のグランドピアノ。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "弦を水平に張った大型のグランドピアノ。"
+    "meaning": "【名】\n弦を水平に張った大型のグランドピアノ。"
   },
   "care of": {
     "lemma": "care of",
@@ -10161,11 +10161,11 @@
   "prove": {
     "lemma": "prove",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n証明する、事実であると示す。",
+    "pos": "動詞",
+    "coreMeaning": "【動】\n証明する、事実であると示す。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n証明する、事実であると示す。"
+    "meaning": "【動】\n証明する、事実であると示す。"
   },
   "the third degree": {
     "lemma": "the third degree",
@@ -10199,29 +10199,29 @@
   "clue": {
     "lemma": "clue",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n問題や事件を解く手掛かり。",
+    "pos": "名詞",
+    "coreMeaning": "【名】\n問題や事件を解く手掛かり。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n問題や事件を解く手掛かり。"
+    "meaning": "【名】\n問題や事件を解く手掛かり。"
   },
   "assemble": {
     "lemma": "assemble",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n人を一か所に集める、集合させる。",
+    "pos": "動詞",
+    "coreMeaning": "【動】\n人を一か所に集める、集合させる；集まる。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n人を一か所に集める、集合させる。"
+    "meaning": "【動】\n人を一か所に集める、集合させる；集まる。"
   },
   "entertaining": {
     "lemma": "entertaining",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n面白い、楽しませる。",
+    "pos": "形容詞",
+    "coreMeaning": "【形】\n面白い、楽しませる。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n面白い、楽しませる。"
+    "meaning": "【形】\n面白い、楽しませる。"
   },
   "to no avail": {
     "lemma": "to no avail",
@@ -10237,29 +10237,29 @@
   "intend": {
     "lemma": "intend",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n～するつもりである、意図する。",
+    "pos": "動詞",
+    "coreMeaning": "【動】\n～するつもりである、意図する。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n～するつもりである、意図する。"
+    "meaning": "【動】\n～するつもりである、意図する。"
   },
   "chapter": {
     "lemma": "chapter",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n本などの章；物事の一区切り。",
+    "pos": "名詞",
+    "coreMeaning": "【名】\n本などの章；物事の一区切り。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n本などの章；物事の一区切り。"
+    "meaning": "【名】\n本などの章；物事の一区切り。"
   },
   "performance": {
     "lemma": "performance",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n演技・公演；何かを実行すること。",
+    "pos": "名詞",
+    "coreMeaning": "【名】\n① 演技、公演\n② 何かを実行すること、遂行。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n演技・公演；何かを実行すること。"
+    "meaning": "【名】\n① 演技、公演\n② 何かを実行すること、遂行。"
   },
   "trap": {
     "lemma": "trap",
@@ -10273,11 +10273,11 @@
   "simply": {
     "lemma": "simply",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n単純に、ただ；発言を強めて『本当に、まったく』。",
+    "pos": "副詞",
+    "coreMeaning": "【副】\n① 単純に、ただ\n② 発言を強めて「本当に、まったく」。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n単純に、ただ；発言を強めて『本当に、まったく』。"
+    "meaning": "【副】\n① 単純に、ただ\n② 発言を強めて「本当に、まったく」。"
   },
   "count someone out": {
     "lemma": "count someone out",
@@ -10304,29 +10304,29 @@
   "cooperate": {
     "lemma": "cooperate",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n共通の目的のため協力する。",
+    "pos": "動詞",
+    "coreMeaning": "【動】\n共通の目的のため協力する。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n共通の目的のため協力する。"
+    "meaning": "【動】\n共通の目的のため協力する。"
   },
   "signal": {
     "lemma": "signal",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n行動開始などを知らせる合図、信号；合図する。",
+    "pos": "名詞・動詞",
+    "coreMeaning": "【名】\n行動開始などを知らせる合図、信号。\n【動】\n合図する、信号で知らせる。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n行動開始などを知らせる合図、信号；合図する。"
+    "meaning": "【名】\n行動開始などを知らせる合図、信号。\n【動】\n合図する、信号で知らせる。"
   },
   "former": {
     "lemma": "former",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n以前の、前の。",
+    "pos": "形容詞",
+    "coreMeaning": "【形】\n以前の、前の、かつての。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n以前の、前の。"
+    "meaning": "【形】\n以前の、前の、かつての。"
   },
   "see the point": {
     "lemma": "see the point",
@@ -10340,20 +10340,20 @@
   "fond": {
     "lemma": "fond",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n～が好きで、好んで。",
+    "pos": "形容詞",
+    "coreMeaning": "【形】\n～が好きで、～を好んで。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n～が好きで、好んで。"
+    "meaning": "【形】\n～が好きで、～を好んで。"
   },
   "examine": {
     "lemma": "examine",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n詳しく調べる、検査する。",
+    "pos": "動詞",
+    "coreMeaning": "【動】\n詳しく調べる、検査する。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n詳しく調べる、検査する。"
+    "meaning": "【動】\n詳しく調べる、検査する。"
   },
   "enact the part of": {
     "lemma": "enact the part of",
@@ -10367,42 +10367,42 @@
   "objection": {
     "lemma": "objection",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n反対、異議。",
+    "pos": "名詞",
+    "coreMeaning": "【名】\n反対、異議。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n反対、異議。"
+    "meaning": "【名】\n反対、異議。"
   },
   "advise": {
     "lemma": "advise",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n助言する、～するよう勧める。",
+    "pos": "動詞",
+    "coreMeaning": "【動】\n助言する、～するよう勧める。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n助言する、～するよう勧める。"
+    "meaning": "【動】\n助言する、～するよう勧める。"
   },
   "curtain": {
     "lemma": "curtain",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n窓や舞台などに掛けるカーテン、幕。",
+    "pos": "名詞",
+    "coreMeaning": "【名】\n窓や舞台などに掛けるカーテン、幕。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [
       "stage direction",
       "theatre",
       "polysemy"
     ],
-    "meaning": "【未分類】\n窓や舞台などに掛けるカーテン、幕。"
+    "meaning": "【名】\n窓や舞台などに掛けるカーテン、幕。"
   },
   "dumb": {
     "lemma": "dumb",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n口語で、愚かな・頭の鈍い；古い用法では口がきけない。",
+    "pos": "形容詞",
+    "coreMeaning": "【形】\n① 口語で、愚かな、頭の鈍い\n② 古い用法で、口がきけない。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n口語で、愚かな・頭の鈍い；古い用法では口がきけない。"
+    "meaning": "【形】\n① 口語で、愚かな、頭の鈍い\n② 古い用法で、口がきけない。"
   },
   "firsthand": {
     "lemma": "firsthand",
@@ -10417,22 +10417,22 @@
     "lemma": "concerned",
     "ipa": "",
     "pos": "形容詞",
-    "coreMeaning": "【形容詞】\n① 心配している、気にかけている\n② 関係している、関与している、該当する。",
+    "coreMeaning": "【形】\n① 心配している、気にかけている\n② 関係している、関与している、該当する。",
     "forms": "concerned（形容詞。concern の過去分詞形に由来）",
     "tags": [
       "polysemy",
       "context"
     ],
-    "meaning": "【形容詞】\n① 心配している、気にかけている\n② 関係している、関与している、該当する。"
+    "meaning": "【形】\n① 心配している、気にかけている\n② 関係している、関与している、該当する。"
   },
   "kind": {
     "lemma": "kind",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n親切な、思いやりのある。",
+    "pos": "形容詞",
+    "coreMeaning": "【形】\n親切な、思いやりのある。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n親切な、思いやりのある。"
+    "meaning": "【形】\n親切な、思いやりのある。"
   },
   "bother": {
     "lemma": "bother",
@@ -10446,20 +10446,20 @@
   "afterwards": {
     "lemma": "afterwards",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\nその後で、あとになって。",
+    "pos": "副詞",
+    "coreMeaning": "【副】\nその後で、あとになって。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\nその後で、あとになって。"
+    "meaning": "【副】\nその後で、あとになって。"
   },
   "gradually": {
     "lemma": "gradually",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n徐々に、少しずつ。",
+    "pos": "副詞",
+    "coreMeaning": "【副】\n徐々に、少しずつ。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n徐々に、少しずつ。"
+    "meaning": "【副】\n徐々に、少しずつ。"
   },
   "haunt": {
     "lemma": "haunt",
@@ -10475,56 +10475,56 @@
   "scream": {
     "lemma": "scream",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n恐怖・痛みなどで大声を上げる、叫ぶ。",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動】\n恐怖・痛みなどで大声を上げる、叫ぶ。\n【名】\n叫び声、悲鳴。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n恐怖・痛みなどで大声を上げる、叫ぶ。"
+    "meaning": "【動】\n恐怖・痛みなどで大声を上げる、叫ぶ。\n【名】\n叫び声、悲鳴。"
   },
   "fire": {
     "lemma": "fire",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n火をつける；銃などを発射する；解雇する。",
+    "pos": "動詞",
+    "coreMeaning": "【動】\n① 火をつける\n② 銃などを発射する\n③ 解雇する。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n火をつける；銃などを発射する；解雇する。"
+    "meaning": "【動】\n① 火をつける\n② 銃などを発射する\n③ 解雇する。"
   },
   "chase": {
     "lemma": "chase",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n人や動物を追いかける。",
+    "pos": "動詞",
+    "coreMeaning": "【動】\n人や動物を追いかける。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n人や動物を追いかける。"
+    "meaning": "【動】\n人や動物を追いかける。"
   },
   "harm": {
     "lemma": "harm",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n人や物への害、損害；害を与える。",
+    "pos": "名詞・動詞",
+    "coreMeaning": "【名】\n害、損害。\n【動】\n害を与える、傷つける。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n人や物への害、損害；害を与える。"
+    "meaning": "【名】\n害、損害。\n【動】\n害を与える、傷つける。"
   },
   "mix": {
     "lemma": "mix",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n混ぜる；人や物をある状況・関係に巻き込む。",
+    "pos": "動詞",
+    "coreMeaning": "【動】\n① 混ぜる\n② 人や物をある状況・関係に巻き込む。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n混ぜる；人や物をある状況・関係に巻き込む。"
+    "meaning": "【動】\n① 混ぜる\n② 人や物をある状況・関係に巻き込む。"
   },
   "spare": {
     "lemma": "spare",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n予備の、余分の；時間などを割く。",
+    "pos": "形容詞・動詞",
+    "coreMeaning": "【形】\n予備の、余分の。\n【動】\n時間などを割く；人・物を免れさせる。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n予備の、余分の；時間などを割く。"
+    "meaning": "【形】\n予備の、余分の。\n【動】\n時間などを割く；人・物を免れさせる。"
   },
   "line of business": {
     "lemma": "line of business",
@@ -10563,11 +10563,11 @@
   "properly": {
     "lemma": "properly",
     "ipa": "",
-    "pos": "未分類",
-    "coreMeaning": "【未分類】\n正しく、適切に、きちんと。",
+    "pos": "副詞",
+    "coreMeaning": "【副】\n正しく、適切に、きちんと。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【未分類】\n正しく、適切に、きちんと。"
+    "meaning": "【副】\n正しく、適切に、きちんと。"
   },
   "the last thing in": {
     "lemma": "the last thing in",
@@ -13429,13 +13429,13 @@
   "fade": {
     "lemma": "fade",
     "ipa": "/fˈeɪd/",
-    "pos": "未分類",
-    "coreMeaning": "【舞台・動】光・音を徐々に弱める、薄れていく。",
+    "pos": "動詞・舞台用語",
+    "coreMeaning": "【動】\n徐々に薄れる、弱まる。\n【舞台】\n光・音などを徐々に弱める。",
     "forms": "文脈に応じた語形をとる。",
     "tags": [
       "stage-direction"
     ],
-    "meaning": "【舞台・動】光・音を徐々に弱める、薄れていく。"
+    "meaning": "【動】\n徐々に薄れる、弱まる。\n【舞台】\n光・音などを徐々に弱める。"
   },
   "blackout": {
     "lemma": "blackout",

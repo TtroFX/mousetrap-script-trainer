@@ -361,14 +361,14 @@
     {
       "surface": "fade",
       "lemma": "fade",
-      "meaning": "【舞台・動】光・音を徐々に弱める、薄れていく。",
+      "meaning": "【動】\n徐々に薄れる、弱まる。\n【舞台】\n光・音などを徐々に弱める。",
       "playMeaning": true,
       "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
     },
     {
       "surface": "fades",
       "lemma": "fade",
-      "meaning": "【舞台・動】光・音を徐々に弱める、薄れていく。",
+      "meaning": "【動】\n徐々に薄れる、弱まる。\n【舞台】\n光・音などを徐々に弱める。",
       "playMeaning": true,
       "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
     },
@@ -411,7 +411,8 @@
       "surface": "rises",
       "lemma": "rise",
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】When Curtain rises の rises。ここでは人物が「立ち上がる」のではなく、幕が上がって場面が始まることを示す。"
     },
     {
       "surface": "stands",
@@ -454,7 +455,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -508,7 +509,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -741,7 +742,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -817,7 +818,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     }
@@ -923,7 +924,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     }
@@ -964,7 +965,8 @@
       "surface": "rising",
       "lemma": "rise",
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】ここでは人物が座った状態などから立ち上がる動作を示す。"
     },
     {
       "surface": "to MOLLIE",
@@ -1020,7 +1022,7 @@
     {
       "surface": "thank goodness",
       "lemma": "thank goodness",
-      "meaning": "安堵や感謝を表して「よかった」「ありがたい」と言う定型表現。",
+      "meaning": "【定型表現】\n安堵や感謝を表して「よかった」「ありがたい」。",
       "playMeaning": true
     },
     {
@@ -1071,7 +1073,7 @@
     {
       "surface": "crossing",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     }
@@ -1118,12 +1120,13 @@
       "surface": "rising",
       "lemma": "rise",
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】ここでは人物が座った状態などから立ち上がる動作を示す。"
     },
     {
       "surface": "crossing",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -1204,7 +1207,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     }
@@ -1272,7 +1275,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     }
@@ -1369,7 +1372,7 @@
     {
       "surface": "crossing",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     }
@@ -1707,7 +1710,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -1715,7 +1718,8 @@
       "surface": "rises",
       "lemma": "rise",
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】ここでは人物が座った状態などから立ち上がる動作を示す。"
     },
     {
       "surface": "picks up",
@@ -1899,7 +1903,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -2029,7 +2033,7 @@
     {
       "surface": "crossing",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -2791,7 +2795,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -2943,7 +2947,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     }
@@ -3019,7 +3023,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -3193,7 +3197,8 @@
       "surface": "station",
       "lemma": "station",
       "meaning": "【名詞】\n① 駅\n② 配置場所、持ち場\n③ 放送局・施設。\n【動詞】\n人を配置する。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは「駅」。Mrs. Boyle と Major Metcalf がタクシーを相乗りした出発地点を指す。"
     },
     {
       "surface": "Nothing ordered to meet us",
@@ -3347,7 +3352,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -3676,7 +3681,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     }
@@ -4108,7 +4113,7 @@
     {
       "surface": "crossing",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     }
@@ -4325,7 +4330,8 @@
       "surface": "rising",
       "lemma": "rise",
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】ここでは人物が座った状態などから立ち上がる動作を示す。"
     },
     {
       "surface": "childishly",
@@ -4672,7 +4678,7 @@
     {
       "surface": "crossing",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -4680,7 +4686,8 @@
       "surface": "rising",
       "lemma": "rise",
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】ここでは人物が座った状態などから立ち上がる動作を示す。"
     }
   ],
   "act1-scene1-speech-0136": [
@@ -4773,7 +4780,8 @@
       "surface": "Sex",
       "lemma": "sex",
       "meaning": "【名詞】\n① 性、性別\n② 性行為、性的活動",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは sex maniac という当時の表現の中で「性的な」という意味で使われている。時代的な語法として読む。"
     },
     {
       "surface": "Paddington",
@@ -4804,7 +4812,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     }
@@ -4983,7 +4991,8 @@
       "surface": "sex",
       "lemma": "sex",
       "meaning": "【名詞】\n① 性、性別\n② 性行為、性的活動",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは sex maniac という当時の表現の中で「性的な」という意味で使われている。時代的な語法として読む。"
     },
     {
       "surface": "sex maniac",
@@ -5002,7 +5011,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -5034,7 +5043,8 @@
       "surface": "rising",
       "lemma": "rise",
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】ここでは人物が座った状態などから立ち上がる動作を示す。"
     },
     {
       "surface": "vigorously",
@@ -5121,7 +5131,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -5136,13 +5146,15 @@
       "surface": "rises",
       "lemma": "rise",
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】ここでは人物が座った状態などから立ち上がる動作を示す。"
     },
     {
       "surface": "peeps",
       "lemma": "peep",
       "meaning": "【動詞】\nちらりとのぞく。\n【名詞】\nちらりとのぞくこと、かすかな音。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】Christopher が扉の中を短くのぞき込む動作を示す。"
     },
     {
       "surface": "chuckles",
@@ -5403,7 +5415,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -5527,7 +5539,8 @@
       "surface": "significantly",
       "lemma": "significantly",
       "meaning": "【副詞】\n① 重要な程度に\n② 意味ありげに、含みを持たせて。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】単なる「重要に」ではなく、「意味ありげに、含みを持たせて」という演技指示。"
     }
   ],
   "act1-scene1-speech-0163": [
@@ -5547,7 +5560,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -5731,7 +5744,8 @@
       "surface": "rising",
       "lemma": "rise",
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】ここでは人物が座った状態などから立ち上がる動作を示す。"
     },
     {
       "surface": "up Right",
@@ -5756,7 +5770,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     }
@@ -5988,7 +6002,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -6134,7 +6148,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -6378,7 +6392,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -6444,7 +6458,8 @@
       "surface": "rises",
       "lemma": "rise",
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】When Curtain rises の rises。ここでは人物が「立ち上がる」のではなく、幕が上がって場面が始まることを示す。"
     },
     {
       "surface": "seated",
@@ -6576,7 +6591,7 @@
     {
       "surface": "crossing",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -6584,7 +6599,8 @@
       "surface": "rising",
       "lemma": "rise",
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】ここでは人物が座った状態などから立ち上がる動作を示す。"
     }
   ],
   "act1-scene2-speech-0008": [
@@ -6915,7 +6931,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -6923,7 +6939,8 @@
       "surface": "rises",
       "lemma": "rise",
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】ここでは人物が座った状態などから立ち上がる動作を示す。"
     },
     {
       "surface": "enters",
@@ -7036,7 +7053,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -7053,7 +7070,8 @@
       "surface": "gather",
       "lemma": "gather",
       "meaning": "【動詞】\n① 物や人を集める\n② 情報から推測して理解する",
-      "playMeaning": false
+      "playMeaning": false,
+      "inThisPlay": "ここでは「集める」ではなく、I gather ... の形で「話や状況から～だと理解する／推測する」の意味。"
     },
     {
       "surface": "hostess",
@@ -7151,7 +7169,8 @@
       "surface": "gather",
       "lemma": "gather",
       "meaning": "【動詞】\n① 物や人を集める\n② 情報から推測して理解する",
-      "playMeaning": false
+      "playMeaning": false,
+      "inThisPlay": "ここでは「集める」ではなく、I gather ... の形で「話や状況から～だと理解する／推測する」の意味。"
     },
     {
       "surface": "Socialist",
@@ -7240,7 +7259,8 @@
       "surface": "gather",
       "lemma": "gather",
       "meaning": "【動詞】\n① 物や人を集める\n② 情報から推測して理解する",
-      "playMeaning": false
+      "playMeaning": false,
+      "inThisPlay": "ここでは「集める」ではなく、I gather ... の形で「話や状況から～だと理解する／推測する」の意味。"
     }
   ],
   "act1-scene2-speech-0039": [
@@ -7308,7 +7328,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -7372,7 +7392,7 @@
     {
       "surface": "annoyed",
       "lemma": "annoyed",
-      "meaning": "【未分類】\nいら立った、腹を立てた。",
+      "meaning": "【形】\nいら立った、腹を立てた。",
       "playMeaning": true
     }
   ],
@@ -7463,7 +7483,8 @@
       "surface": "rises",
       "lemma": "rise",
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】ここでは人物が座った状態などから立ち上がる動作を示す。"
     },
     {
       "surface": "picks up",
@@ -7678,7 +7699,7 @@
     {
       "surface": "crossing",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -7832,7 +7853,8 @@
       "surface": "rises",
       "lemma": "rise",
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】ここでは人物が座った状態などから立ち上がる動作を示す。"
     }
   ],
   "act1-scene2-speech-0076": [
@@ -7864,7 +7886,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -8024,7 +8046,7 @@
     {
       "surface": "crosses",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -8032,7 +8054,8 @@
       "surface": "rises",
       "lemma": "rise",
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】ここでは人物が座った状態などから立ち上がる動作を示す。"
     },
     {
       "surface": "up Right",
@@ -8401,7 +8424,8 @@
       "surface": "rises",
       "lemma": "rise",
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "【ト書き】ここでは人物が座った状態などから立ち上がる動作を示す。"
     },
     {
       "surface": "tinpot",
@@ -8420,7 +8444,7 @@
     {
       "surface": "cross",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -10225,7 +10249,8 @@
       "surface": "affairs",
       "lemma": "affair",
       "meaning": "【名詞】\n① 出来事、事件、問題\n② 情事、恋愛関係\n③ 用事・事務。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは local affairs で「その土地の出来事・事情」。恋愛関係の意味ではない。"
     },
     {
       "surface": "bygone years",
@@ -11952,7 +11977,7 @@
     {
       "surface": "scream",
       "lemma": "scream",
-      "meaning": "【未分類】\n恐怖・痛みなどで大声を上げる、叫ぶ。",
+      "meaning": "【動】\n恐怖・痛みなどで大声を上げる、叫ぶ。\n【名】\n叫び声、悲鳴。",
       "playMeaning": false
     },
     {
@@ -12032,7 +12057,7 @@
     {
       "surface": "scream",
       "lemma": "scream",
-      "meaning": "【未分類】\n恐怖・痛みなどで大声を上げる、叫ぶ。",
+      "meaning": "【動】\n恐怖・痛みなどで大声を上げる、叫ぶ。\n【名】\n叫び声、悲鳴。",
       "playMeaning": false
     }
   ],
@@ -12765,7 +12790,7 @@
     {
       "surface": "crossing",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -12956,7 +12981,7 @@
     {
       "surface": "safety",
       "lemma": "safety",
-      "meaning": "【未分類】\n危険がなく安全であること。",
+      "meaning": "【名】\n危険がなく安全であること、安全。",
       "playMeaning": false
     },
     {
@@ -13353,7 +13378,7 @@
     {
       "surface": "hesitating",
       "lemma": "hesitate",
-      "meaning": "【未分類】\nためらう、すぐ行動せず迷う。",
+      "meaning": "【動】\nためらう、すぐ行動せず迷う。",
       "playMeaning": true,
       "inThisPlay": "Mollieがためらいながら質問を切り出す演技指示。"
     }
@@ -13898,7 +13923,7 @@
     {
       "surface": "crossing",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -14041,7 +14066,8 @@
       "surface": "affairs",
       "lemma": "affair",
       "meaning": "【名詞】\n① 出来事、事件、問題\n② 情事、恋愛関係\n③ 用事・事務。",
-      "playMeaning": false
+      "playMeaning": false,
+      "inThisPlay": "ここでは settle their own affairs で「自分たち自身の事柄・身の回りのことを自分で決める」という意味。"
     },
     {
       "surface": "relatives",
@@ -14201,7 +14227,7 @@
     {
       "surface": "crossing",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     }
@@ -14260,7 +14286,7 @@
     {
       "surface": "crossing",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -14631,7 +14657,7 @@
     {
       "surface": "hell",
       "lemma": "hell",
-      "meaning": "【未分類】\n地獄；比喩的に非常につらい状態を表し、口語では強い驚き・怒りの強調にも使う。",
+      "meaning": "【名】\n地獄；比喩的に、非常につらい状態。\n【強意表現】\n口語で、驚き・怒りなどを強める。",
       "playMeaning": true,
       "inThisPlay": "Christopherにとって学校生活が『地獄のようにつらかった』という比喩。"
     },
@@ -14673,7 +14699,7 @@
     {
       "surface": "whilst",
       "lemma": "whilst",
-      "meaning": "【未分類】\n～する間に、～である一方。whileに相当する英国英語。",
+      "meaning": "【接】\n～する間に、～である一方。while に相当する英国英語。",
       "playMeaning": false
     },
     {
@@ -14691,7 +14717,7 @@
     {
       "surface": "unknown",
       "lemma": "unknown",
-      "meaning": "【未分類】\n知られていない、正体・詳細が不明な。",
+      "meaning": "【形】\n知られていない、正体・詳細が不明な。",
       "playMeaning": false
     },
     {
@@ -14794,7 +14820,7 @@
     {
       "surface": "bear",
       "lemma": "bear",
-      "meaning": "【未分類】\n苦痛・困難・責任などに耐える、受け止める。",
+      "meaning": "【動】\n苦痛・困難・責任などに耐える、受け止める。",
       "playMeaning": true
     },
     {
@@ -14973,7 +14999,7 @@
     {
       "surface": "guilty",
       "lemma": "guilty",
-      "meaning": "【未分類】\n犯罪・過失などについて罪がある、有罪の。",
+      "meaning": "【形】\n犯罪・過失などについて罪がある、有罪の。",
       "playMeaning": false
     }
   ],
@@ -14981,7 +15007,7 @@
     {
       "surface": "guilty",
       "lemma": "guilty",
-      "meaning": "【未分類】\n犯罪・過失などについて罪がある、有罪の。",
+      "meaning": "【形】\n犯罪・過失などについて罪がある、有罪の。",
       "playMeaning": false
     },
     {
@@ -15024,7 +15050,7 @@
     {
       "surface": "possibly",
       "lemma": "possibly",
-      "meaning": "【未分類】\nもしかすると；可能な限り。否定語とともに強い不可能を表すことがある。",
+      "meaning": "【副】\n① もしかすると\n② 可能な限り。否定語とともに、強い不可能を表すことがある。",
       "playMeaning": true
     },
     {
@@ -15081,7 +15107,7 @@
     {
       "surface": "chicken wire",
       "lemma": "chicken wire",
-      "meaning": "鶏小屋などの囲いに使う、細い金属線でできた網状の金網。",
+      "meaning": "【名】\n鶏小屋などの囲いに使う、細い金属線でできた網状の金網。",
       "playMeaning": false
     }
   ],
@@ -15130,13 +15156,13 @@
     {
       "surface": "pretend",
       "lemma": "pretend",
-      "meaning": "【未分類】\n事実ではないことを事実であるように装う、ふりをする。",
+      "meaning": "【動】\n事実ではないことを事実であるように装う、ふりをする。",
       "playMeaning": false
     },
     {
       "surface": "countryside",
       "lemma": "countryside",
-      "meaning": "【未分類】\n都市部ではない田園・地方一帯。",
+      "meaning": "【名】\n都市部ではない田園・地方一帯。",
       "playMeaning": false
     }
   ],
@@ -15185,7 +15211,7 @@
     {
       "surface": "crossing",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -15208,7 +15234,7 @@
     {
       "surface": "doubt",
       "lemma": "doubt",
-      "meaning": "【未分類】\n確かではないと思う、疑う；疑念。",
+      "meaning": "【動】\n確かではないと思う、疑う。\n【名】\n疑い、疑念。",
       "playMeaning": false
     },
     {
@@ -15232,13 +15258,13 @@
     {
       "surface": "pretending",
       "lemma": "pretend",
-      "meaning": "【未分類】\n事実ではないことを事実であるように装う、ふりをする。",
+      "meaning": "【動】\n事実ではないことを事実であるように装う、ふりをする。",
       "playMeaning": false
     },
     {
       "surface": "trust",
       "lemma": "trust",
-      "meaning": "【未分類】\n人・物を信頼する；信頼。",
+      "meaning": "【動】\n信頼する、信用する。\n【名】\n信頼、信用。",
       "playMeaning": false
     },
     {
@@ -15315,7 +15341,7 @@
     {
       "surface": "interrupting",
       "lemma": "interrupt",
-      "meaning": "【未分類】\n会話・行動などを途中で遮る。",
+      "meaning": "【動】\n会話・行動などを途中で遮る、中断させる。",
       "playMeaning": false
     },
     {
@@ -15447,7 +15473,7 @@
     {
       "surface": "loose",
       "lemma": "loose",
-      "meaning": "【未分類】\n固定・拘束されていない；人・動物が逃げ出して自由になっている。",
+      "meaning": "【形】\n固定・拘束されていない、ゆるんだ；人・動物が逃げ出して自由になった。",
       "playMeaning": false
     },
     {
@@ -15483,7 +15509,7 @@
     {
       "surface": "pretend",
       "lemma": "pretend",
-      "meaning": "【未分類】\n事実ではないことを事実であるように装う、ふりをする。",
+      "meaning": "【動】\n事実ではないことを事実であるように装う、ふりをする。",
       "playMeaning": false
     }
   ],
@@ -15491,7 +15517,7 @@
     {
       "surface": "safety",
       "lemma": "safety",
-      "meaning": "【未分類】\n危険がなく安全であること。",
+      "meaning": "【名】\n危険がなく安全であること、安全。",
       "playMeaning": false
     }
   ],
@@ -15515,7 +15541,7 @@
     {
       "surface": "hell",
       "lemma": "hell",
-      "meaning": "【未分類】\n地獄；比喩的に非常につらい状態を表し、口語では強い驚き・怒りの強調にも使う。",
+      "meaning": "【名】\n地獄；比喩的に、非常につらい状態。\n【強意表現】\n口語で、驚き・怒りなどを強める。",
       "playMeaning": true
     },
     {
@@ -15546,7 +15572,7 @@
     {
       "surface": "crossing",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -15589,7 +15615,7 @@
     {
       "surface": "prepared",
       "lemma": "prepared",
-      "meaning": "【未分類】\n準備ができた；～する覚悟・意思がある。",
+      "meaning": "【形】\n① 準備ができた\n② ～する覚悟・意思がある。",
       "playMeaning": false
     },
     {
@@ -15691,7 +15717,7 @@
     {
       "surface": "pretend",
       "lemma": "pretend",
-      "meaning": "【未分類】\n事実ではないことを事実であるように装う、ふりをする。",
+      "meaning": "【動】\n事実ではないことを事実であるように装う、ふりをする。",
       "playMeaning": false
     }
   ],
@@ -15705,7 +15731,7 @@
     {
       "surface": "dare",
       "lemma": "dare",
-      "meaning": "【未分類】\n勇気を出して～する；How dare ... で、よくも～できるものだ。",
+      "meaning": "【動】\n勇気を出して～する、あえて～する。\n【助動詞的用法】\nHow dare ...? で「よくも～できるものだ」。",
       "playMeaning": false
     }
   ],
@@ -15768,7 +15794,7 @@
     {
       "surface": "attract",
       "lemma": "attract",
-      "meaning": "【未分類】\n人の関心・好意などを引きつける。",
+      "meaning": "【動】\n人の関心・好意などを引きつける。",
       "playMeaning": false
     },
     {
@@ -15943,7 +15969,7 @@
     {
       "surface": "guilty",
       "lemma": "guilty",
-      "meaning": "【未分類】\n犯罪・過失などについて罪がある、有罪の。",
+      "meaning": "【形】\n犯罪・過失などについて罪がある、有罪の。",
       "playMeaning": false
     },
     {
@@ -15975,13 +16001,13 @@
     {
       "surface": "Whilst",
       "lemma": "whilst",
-      "meaning": "【未分類】\n～する間に、～である一方。whileに相当する英国英語。",
+      "meaning": "【接】\n～する間に、～である一方。while に相当する英国英語。",
       "playMeaning": false
     },
     {
       "surface": "countryside",
       "lemma": "countryside",
-      "meaning": "【未分類】\n都市部ではない田園・地方一帯。",
+      "meaning": "【名】\n都市部ではない田園・地方一帯。",
       "playMeaning": false
     }
   ],
@@ -15989,7 +16015,7 @@
     {
       "surface": "Whilst",
       "lemma": "whilst",
-      "meaning": "【未分類】\n～する間に、～である一方。whileに相当する英国英語。",
+      "meaning": "【接】\n～する間に、～である一方。while に相当する英国英語。",
       "playMeaning": false
     },
     {
@@ -16004,7 +16030,7 @@
     {
       "surface": "admit",
       "lemma": "admit",
-      "meaning": "【未分類】\n事実・非などを認める。",
+      "meaning": "【動】\n事実・非などを認める。",
       "playMeaning": false
     }
   ],
@@ -16155,7 +16181,7 @@
     {
       "surface": "fool",
       "lemma": "fool",
-      "meaning": "【未分類】\n愚かな人、ばかなことをする人。",
+      "meaning": "【名】\n愚かな人、ばかなことをする人。",
       "playMeaning": false
     },
     {
@@ -16191,7 +16217,7 @@
     {
       "surface": "crossing",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -16227,7 +16253,7 @@
     {
       "surface": "all of a sudden",
       "lemma": "all of a sudden",
-      "meaning": "突然、不意に。",
+      "meaning": "【副詞句】\n突然、不意に。",
       "playMeaning": false
     },
     {
@@ -16265,7 +16291,7 @@
     {
       "surface": "hell",
       "lemma": "hell",
-      "meaning": "【未分類】\n地獄；比喩的に非常につらい状態を表し、口語では強い驚き・怒りの強調にも使う。",
+      "meaning": "【名】\n地獄；比喩的に、非常につらい状態。\n【強意表現】\n口語で、驚き・怒りなどを強める。",
       "playMeaning": true
     },
     {
@@ -16370,7 +16396,7 @@
     {
       "surface": "poet",
       "lemma": "poet",
-      "meaning": "【未分類】\n詩を書く人、詩人。",
+      "meaning": "【名】\n詩を書く人、詩人。",
       "playMeaning": false
     },
     {
@@ -16398,7 +16424,7 @@
     {
       "surface": "crossing",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     }
@@ -16425,7 +16451,7 @@
     {
       "surface": "annoyed",
       "lemma": "annoyed",
-      "meaning": "【未分類】\nいら立った、腹を立てた。",
+      "meaning": "【形】\nいら立った、腹を立てた。",
       "playMeaning": false
     },
     {
@@ -16499,7 +16525,7 @@
     {
       "surface": "annoyed",
       "lemma": "annoyed",
-      "meaning": "【未分類】\nいら立った、腹を立てた。",
+      "meaning": "【形】\nいら立った、腹を立てた。",
       "playMeaning": true,
       "inThisPlay": "いら立ち・不機嫌さが見える状態で登場するという演技指示。"
     },
@@ -16575,7 +16601,8 @@
       "surface": "station",
       "lemma": "station",
       "meaning": "【名詞】\n① 駅\n② 配置場所、持ち場\n③ 放送局・施設。\n【動詞】\n人を配置する。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは「警察署」。Market Hampton の police station を指す。"
     },
     {
       "surface": "reinforcements",
@@ -16713,7 +16740,7 @@
     {
       "surface": "thank goodness",
       "lemma": "thank goodness",
-      "meaning": "安堵や感謝を表して「よかった」「ありがたい」と言う定型表現。",
+      "meaning": "【定型表現】\n安堵や感謝を表して「よかった」「ありがたい」。",
       "playMeaning": false
     },
     {
@@ -16741,7 +16768,7 @@
     {
       "surface": "crossing",
       "lemma": "cross",
-      "meaning": "【形容詞】\n不機嫌な、怒った。\n【動詞】\n① 横切る、渡る\n② 交差する。\n【名詞】\n十字形、十字架。",
+      "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     },
@@ -16830,7 +16857,7 @@
     {
       "surface": "communication",
       "lemma": "communication",
-      "meaning": "【未分類】\n情報を伝え合うこと；連絡・通信。",
+      "meaning": "【名】\n情報を伝え合うこと；連絡、通信。",
       "playMeaning": false
     },
     {
@@ -17359,7 +17386,7 @@
     {
       "surface": "hesitate",
       "lemma": "hesitate",
-      "meaning": "【未分類】\nためらう、すぐ行動せず迷う。",
+      "meaning": "【動】\nためらう、すぐ行動せず迷う。",
       "playMeaning": true
     },
     {
@@ -17371,7 +17398,7 @@
     {
       "surface": "slight",
       "lemma": "slight",
-      "meaning": "【未分類】\n程度・量などがごく小さい、わずかな。",
+      "meaning": "【形】\n程度・量などがごく小さい、わずかな。",
       "playMeaning": false
     },
     {
@@ -17413,7 +17440,7 @@
     {
       "surface": "doubt",
       "lemma": "doubt",
-      "meaning": "【未分類】\n確かではないと思う、疑う；疑念。",
+      "meaning": "【動】\n確かではないと思う、疑う。\n【名】\n疑い、疑念。",
       "playMeaning": false
     },
     {
@@ -17465,7 +17492,7 @@
     {
       "surface": "livers",
       "lemma": "liver",
-      "meaning": "【未分類】\n肝臓；食材としてのレバー。",
+      "meaning": "【名】\n肝臓；食材としてのレバー。",
       "playMeaning": false
     },
     {
@@ -17612,7 +17639,7 @@
     {
       "surface": "wise",
       "lemma": "wise",
-      "meaning": "【未分類】\n知恵があり判断が適切な、賢明な。",
+      "meaning": "【形】\n知恵があり判断が適切な、賢明な。",
       "playMeaning": false
     },
     {
@@ -17658,7 +17685,8 @@
       "surface": "gay",
       "lemma": "gay",
       "meaning": "【形容詞】\n① 明るく陽気な、快活な（現在は古風）\n② 同性愛の、ゲイの。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは「陽気な、明るく楽しげな」という形容詞義で、a gay little tune を修飾している。"
     },
     {
       "surface": "tune",
@@ -17669,7 +17697,7 @@
     {
       "surface": "tails",
       "lemma": "tail",
-      "meaning": "【未分類】\n動物の尾、しっぽ。",
+      "meaning": "【名】\n動物の尾、しっぽ。",
       "playMeaning": false
     },
     {
@@ -17681,7 +17709,7 @@
     {
       "surface": "Cruel",
       "lemma": "cruel",
-      "meaning": "【未分類】\n人や動物に苦痛を与えることを気にしない、残酷な。",
+      "meaning": "【形】\n人や動物に苦痛を与えることを気にしない、残酷な。",
       "playMeaning": false
     },
     {
@@ -17921,7 +17949,7 @@
     {
       "surface": "neighbourhood",
       "lemma": "neighbourhood",
-      "meaning": "【未分類】\n近所、周辺地域。",
+      "meaning": "【名】\n近所、周辺地域。",
       "playMeaning": true
     }
   ],
@@ -18164,7 +18192,7 @@
     {
       "surface": "humour",
       "lemma": "humour",
-      "meaning": "【未分類】\nユーモア、物事のおかしさを理解し楽しむ感覚。",
+      "meaning": "【名】\nユーモア、物事のおかしさを理解し楽しむ感覚。",
       "playMeaning": false
     },
     {
@@ -18198,7 +18226,7 @@
     {
       "surface": "grand piano",
       "lemma": "grand piano",
-      "meaning": "弦を水平に張った大型のグランドピアノ。",
+      "meaning": "【名】\n弦を水平に張った大型のグランドピアノ。",
       "playMeaning": false
     },
     {
@@ -18596,7 +18624,7 @@
     {
       "surface": "prove",
       "lemma": "prove",
-      "meaning": "【未分類】\n証明する、事実であると示す。",
+      "meaning": "【動】\n証明する、事実であると示す。",
       "playMeaning": false
     }
   ],
@@ -18607,7 +18635,7 @@
     {
       "surface": "Possibly",
       "lemma": "possibly",
-      "meaning": "【未分類】\nもしかすると；可能な限り。否定語とともに強い不可能を表すことがある。",
+      "meaning": "【副】\n① もしかすると\n② 可能な限り。否定語とともに、強い不可能を表すことがある。",
       "playMeaning": false
     }
   ],
@@ -18645,7 +18673,7 @@
     {
       "surface": "hell",
       "lemma": "hell",
-      "meaning": "【未分類】\n地獄；比喩的に非常につらい状態を表し、口語では強い驚き・怒りの強調にも使う。",
+      "meaning": "【名】\n地獄；比喩的に、非常につらい状態。\n【強意表現】\n口語で、驚き・怒りなどを強める。",
       "playMeaning": true
     },
     {
@@ -18804,7 +18832,7 @@
     {
       "surface": "clue",
       "lemma": "clue",
-      "meaning": "【未分類】\n問題や事件を解く手掛かり。",
+      "meaning": "【名】\n問題や事件を解く手掛かり。",
       "playMeaning": true
     }
   ],
@@ -18812,13 +18840,13 @@
     {
       "surface": "clue",
       "lemma": "clue",
-      "meaning": "【未分類】\n問題や事件を解く手掛かり。",
+      "meaning": "【名】\n問題や事件を解く手掛かり。",
       "playMeaning": true
     },
     {
       "surface": "assembled",
       "lemma": "assemble",
-      "meaning": "【未分類】\n人を一か所に集める、集合させる。",
+      "meaning": "【動】\n人を一か所に集める、集合させる；集まる。",
       "playMeaning": false
     }
   ],
@@ -18826,7 +18854,7 @@
     {
       "surface": "entertaining",
       "lemma": "entertaining",
-      "meaning": "【未分類】\n面白い、楽しませる。",
+      "meaning": "【形】\n面白い、楽しませる。",
       "playMeaning": false
     },
     {
@@ -18893,7 +18921,7 @@
     {
       "surface": "intend",
       "lemma": "intend",
-      "meaning": "【未分類】\n～するつもりである、意図する。",
+      "meaning": "【動】\n～するつもりである、意図する。",
       "playMeaning": false
     },
     {
@@ -18935,7 +18963,7 @@
     {
       "surface": "chapter",
       "lemma": "chapter",
-      "meaning": "【未分類】\n本などの章；物事の一区切り。",
+      "meaning": "【名】\n本などの章；物事の一区切り。",
       "playMeaning": true
     },
     {
@@ -19077,7 +19105,7 @@
     {
       "surface": "doubt",
       "lemma": "doubt",
-      "meaning": "【未分類】\n確かではないと思う、疑う；疑念。",
+      "meaning": "【動】\n確かではないと思う、疑う。\n【名】\n疑い、疑念。",
       "playMeaning": false
     }
   ],
@@ -19224,7 +19252,7 @@
     {
       "surface": "performance",
       "lemma": "performance",
-      "meaning": "【未分類】\n演技・公演；何かを実行すること。",
+      "meaning": "【名】\n① 演技、公演\n② 何かを実行すること、遂行。",
       "playMeaning": false
     },
     {
@@ -19279,13 +19307,13 @@
     {
       "surface": "simply",
       "lemma": "simply",
-      "meaning": "【未分類】\n単純に、ただ；発言を強めて『本当に、まったく』。",
+      "meaning": "【副】\n① 単純に、ただ\n② 発言を強めて「本当に、まったく」。",
       "playMeaning": false
     },
     {
       "surface": "possibly",
       "lemma": "possibly",
-      "meaning": "【未分類】\nもしかすると；可能な限り。否定語とともに強い不可能を表すことがある。",
+      "meaning": "【副】\n① もしかすると\n② 可能な限り。否定語とともに、強い不可能を表すことがある。",
       "playMeaning": false
     },
     {
@@ -19320,7 +19348,7 @@
     {
       "surface": "guilty",
       "lemma": "guilty",
-      "meaning": "【未分類】\n犯罪・過失などについて罪がある、有罪の。",
+      "meaning": "【形】\n犯罪・過失などについて罪がある、有罪の。",
       "playMeaning": false
     },
     {
@@ -19340,7 +19368,7 @@
     {
       "surface": "cooperate",
       "lemma": "cooperate",
-      "meaning": "【未分類】\n共通の目的のため協力する。",
+      "meaning": "【動】\n共通の目的のため協力する。",
       "playMeaning": true
     }
   ],
@@ -19421,7 +19449,7 @@
     {
       "surface": "signal",
       "lemma": "signal",
-      "meaning": "【未分類】\n行動開始などを知らせる合図、信号；合図する。",
+      "meaning": "【名】\n行動開始などを知らせる合図、信号。\n【動】\n合図する、信号で知らせる。",
       "playMeaning": true
     },
     {
@@ -19436,13 +19464,13 @@
     {
       "surface": "former",
       "lemma": "former",
-      "meaning": "【未分類】\n以前の、前の。",
+      "meaning": "【形】\n以前の、前の、かつての。",
       "playMeaning": false
     },
     {
       "surface": "former roles",
       "lemma": "former",
-      "meaning": "【未分類】\n以前の、前の。",
+      "meaning": "【形】\n以前の、前の、かつての。",
       "playMeaning": true
     }
   ],
@@ -19535,7 +19563,7 @@
     {
       "surface": "fond",
       "lemma": "fond",
-      "meaning": "【未分類】\n～が好きで、好んで。",
+      "meaning": "【形】\n～が好きで、～を好んで。",
       "playMeaning": false
     },
     {
@@ -19553,7 +19581,7 @@
     {
       "surface": "examine",
       "lemma": "examine",
-      "meaning": "【未分類】\n詳しく調べる、検査する。",
+      "meaning": "【動】\n詳しく調べる、検査する。",
       "playMeaning": false
     },
     {
@@ -19686,13 +19714,13 @@
     {
       "surface": "objection",
       "lemma": "objection",
-      "meaning": "【未分類】\n反対、異議。",
+      "meaning": "【名】\n反対、異議。",
       "playMeaning": false
     },
     {
       "surface": "No objection",
       "lemma": "objection",
-      "meaning": "【未分類】\n反対、異議。",
+      "meaning": "【名】\n反対、異議。",
       "playMeaning": true
     }
   ],
@@ -19700,14 +19728,15 @@
     {
       "surface": "advise",
       "lemma": "advise",
-      "meaning": "【未分類】\n助言する、～するよう勧める。",
+      "meaning": "【動】\n助言する、～するよう勧める。",
       "playMeaning": false
     },
     {
       "surface": "curtain",
       "lemma": "curtain",
-      "meaning": "【未分類】\n窓や舞台などに掛けるカーテン、幕。",
-      "playMeaning": false
+      "meaning": "【名】\n窓や舞台などに掛けるカーテン、幕。",
+      "playMeaning": false,
+      "inThisPlay": "ここでは舞台全体の「幕」ではなく、部屋に掛かっているカーテン。懐中電灯がその後ろにある。"
     },
     {
       "surface": "torch",
@@ -19793,7 +19822,7 @@
     {
       "surface": "dumb",
       "lemma": "dumb",
-      "meaning": "【未分類】\n口語で、愚かな・頭の鈍い；古い用法では口がきけない。",
+      "meaning": "【形】\n① 口語で、愚かな、頭の鈍い\n② 古い用法で、口がきけない。",
       "playMeaning": true
     },
     {
@@ -19818,7 +19847,8 @@
       "surface": "affair",
       "lemma": "affair",
       "meaning": "【名詞】\n① 出来事、事件、問題\n② 情事、恋愛関係\n③ 用事・事務。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは the Longridge Farm affair で「Longridge Farmの一件・事件」を指す。恋愛関係の意味ではない。"
     },
     {
       "surface": "magistrate",
@@ -19829,7 +19859,7 @@
     {
       "surface": "concerned",
       "lemma": "concerned",
-      "meaning": "【形容詞】\n① 心配している、気にかけている\n② 関係している、関与している、該当する。",
+      "meaning": "【形】\n① 心配している、気にかけている\n② 関係している、関与している、該当する。",
       "playMeaning": true,
       "inThisPlay": "ここでは「心配している」ではなく、the magistrate concerned で「その件に関係した／該当する判事」という後置修飾の意味。Longridge Farm事件で児童の委託に関与した判事を指す。"
     },
@@ -19876,7 +19906,7 @@
     {
       "surface": "kind",
       "lemma": "kind",
-      "meaning": "【未分類】\n親切な、思いやりのある。",
+      "meaning": "【形】\n親切な、思いやりのある。",
       "playMeaning": false
     },
     {
@@ -19943,13 +19973,13 @@
     {
       "surface": "afterwards",
       "lemma": "afterwards",
-      "meaning": "【未分類】\nその後で、あとになって。",
+      "meaning": "【副】\nその後で、あとになって。",
       "playMeaning": false
     },
     {
       "surface": "gradually",
       "lemma": "gradually",
-      "meaning": "【未分類】\n徐々に、少しずつ。",
+      "meaning": "【副】\n徐々に、少しずつ。",
       "playMeaning": false
     },
     {
@@ -20058,13 +20088,13 @@
     {
       "surface": "scream",
       "lemma": "scream",
-      "meaning": "【未分類】\n恐怖・痛みなどで大声を上げる、叫ぶ。",
+      "meaning": "【動】\n恐怖・痛みなどで大声を上げる、叫ぶ。\n【名】\n叫び声、悲鳴。",
       "playMeaning": false
     },
     {
       "surface": "fire",
       "lemma": "fire",
-      "meaning": "【未分類】\n火をつける；銃などを発射する；解雇する。",
+      "meaning": "【動】\n① 火をつける\n② 銃などを発射する\n③ 解雇する。",
       "playMeaning": false
     },
     {
@@ -20076,7 +20106,7 @@
     {
       "surface": "cruel",
       "lemma": "cruel",
-      "meaning": "【未分類】\n人や動物に苦痛を与えることを気にしない、残酷な。",
+      "meaning": "【形】\n人や動物に苦痛を与えることを気にしない、残酷な。",
       "playMeaning": false
     },
     {
@@ -20116,7 +20146,7 @@
     {
       "surface": "pretending",
       "lemma": "pretend",
-      "meaning": "【未分類】\n事実ではないことを事実であるように装う、ふりをする。",
+      "meaning": "【動】\n事実ではないことを事実であるように装う、ふりをする。",
       "playMeaning": false
     },
     {
@@ -20159,7 +20189,7 @@
     {
       "surface": "chased",
       "lemma": "chase",
-      "meaning": "【未分類】\n人や動物を追いかける。",
+      "meaning": "【動】\n人や動物を追いかける。",
       "playMeaning": false
     }
   ],
@@ -20231,7 +20261,7 @@
     {
       "surface": "harm",
       "lemma": "harm",
-      "meaning": "【未分類】\n人や物への害、損害；害を与える。",
+      "meaning": "【名】\n害、損害。\n【動】\n害を与える、傷つける。",
       "playMeaning": false
     },
     {
@@ -20271,7 +20301,7 @@
     {
       "surface": "mixed",
       "lemma": "mix",
-      "meaning": "【未分類】\n混ぜる；人や物をある状況・関係に巻き込む。",
+      "meaning": "【動】\n① 混ぜる\n② 人や物をある状況・関係に巻き込む。",
       "playMeaning": true
     },
     {
@@ -20300,7 +20330,8 @@
       "surface": "unconscious",
       "lemma": "unconscious",
       "meaning": "【形容詞】\n意識を失った",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは鎮静剤によって「意識を失った／意識のない」状態になる、という意味。単に眠っているという意味ではない。"
     },
     {
       "surface": "sedative",
@@ -20478,12 +20509,13 @@
       "surface": "gather",
       "lemma": "gather",
       "meaning": "【動詞】\n① 物や人を集める\n② 情報から推測して理解する",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは「集める」ではなく、I gather ... の形で「話や状況から～だと理解する／推測する」の意味。"
     },
     {
       "surface": "examine",
       "lemma": "examine",
-      "meaning": "【未分類】\n詳しく調べる、検査する。",
+      "meaning": "【動】\n詳しく調べる、検査する。",
       "playMeaning": false
     },
     {
@@ -20495,7 +20527,7 @@
     {
       "surface": "spare",
       "lemma": "spare",
-      "meaning": "【未分類】\n予備の、余分の；時間などを割く。",
+      "meaning": "【形】\n予備の、余分の。\n【動】\n時間などを割く；人・物を免れさせる。",
       "playMeaning": false
     },
     {
@@ -20630,7 +20662,7 @@
     {
       "surface": "properly",
       "lemma": "properly",
-      "meaning": "【未分類】\n正しく、適切に、きちんと。",
+      "meaning": "【副】\n正しく、適切に、きちんと。",
       "playMeaning": false
     }
   ],
