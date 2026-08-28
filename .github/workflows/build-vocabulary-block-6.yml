@@ -31,10 +31,18 @@ jobs:
           import fs from 'node:fs';
           const p='scripts/apply-final-quarter-vocabulary.mjs';
           let s=fs.readFileSync(p,'utf8');
-          const old='  if (dictKeyByNorm.has(n)) fail(`Dictionary normalized-key duplicate: ${key} / ${dictKeyByNorm.get(n)}`);\n  dictKeyByNorm.set(n, key);';
-          const replacement='  if (!dictKeyByNorm.has(n)) dictKeyByNorm.set(n, key);';
-          if (!s.includes(old)) throw new Error('Expected dictionary alias guard not found');
-          s=s.replace(old,replacement);
+          const oldGuard='  if (dictKeyByNorm.has(n)) fail(`Dictionary normalized-key duplicate: ${key} / ${dictKeyByNorm.get(n)}`);\n  dictKeyByNorm.set(n, key);';
+          const newGuard='  if (!dictKeyByNorm.has(n)) dictKeyByNorm.set(n, key);';
+          if (!s.includes(oldGuard)) throw new Error('Expected dictionary alias guard not found');
+          s=s.replace(oldGuard,newGuard);
+          const oldMap="const dictionaryByNorm = new Map(Object.entries(dictionary).map(([key, entry]) => [norm(key), entry]));";
+          const newMap="const dictionaryByNorm = new Map();\nfor (const [key, entry] of Object.entries(dictionary)) if (!dictionaryByNorm.has(norm(key))) dictionaryByNorm.set(norm(key), entry);\nconst dictionaryByExact = new Map(Object.entries(dictionary).map(([key, entry]) => [String(key).trim().toLowerCase(), entry]));";
+          if (!s.includes(oldMap)) throw new Error('Expected dictionary QA map not found');
+          s=s.replace(oldMap,newMap);
+          const oldLookup='    const dict = dictionaryByNorm.get(norm(lemma));';
+          const newLookup="    const dict = dictionary[lemma] || dictionaryByExact.get(String(lemma).trim().toLowerCase()) || dictionaryByNorm.get(norm(lemma));";
+          if (!s.includes(oldLookup)) throw new Error('Expected dictionary QA lookup not found');
+          s=s.replace(oldLookup,newLookup);
           fs.writeFileSync(p,s);
           EOF
       - name: Apply production vocabulary edit and integrated QA
