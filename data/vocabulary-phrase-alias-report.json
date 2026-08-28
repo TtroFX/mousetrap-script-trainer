@@ -2,9 +2,9 @@
   "schemaVersion": 4,
   "status": "PASS_PHRASE_ALIAS_CLOSURE",
   "appliedThisRun": {
-    "collapses": 43,
-    "retargets": 15,
-    "exactDeduplications": 7
+    "collapses": 0,
+    "retargets": 0,
+    "exactDeduplications": 0
   },
   "remainingSurfaceLemmaConflicts": 0,
   "conflicts": [],
