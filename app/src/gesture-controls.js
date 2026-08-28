@@ -30,6 +30,58 @@ const closeSheet=()=>{
   else setTimeout(finish,180);
 };
 
+const lineRoute=()=>{
+  const raw=location.hash.replace(/^#/,'');
+  const [path,query='']=raw.split('?');
+  if(path!=='/line')return null;
+  const q=new URLSearchParams(query),scene=q.get('scene'),line=q.get('line');
+  return scene&&line?{scene,line}:null;
+};
+const syncFocusRole=()=>{
+  const page=document.querySelector('.line-page');
+  if(!page)return;
+  const card=page.querySelector(':scope > .card');
+  const route=lineRoute(),api=window.MTS_INDEX_ZERO;
+  if(!card||!route||!api?.store||!api?.state)return;
+  const speech=api.store.getSpeech(route.scene,route.line),role=api.state.role?.();
+  const mine=!!role&&speech?.speaker===role;
+  card.classList.toggle('selected-role-line',mine);
+  card.classList.toggle('focus-role-line',mine);
+  if(mine)card.dataset.ownRole='true';else delete card.dataset.ownRole;
+};
+const scheduleFocusRoleSync=()=>requestAnimationFrame(syncFocusRole);
+const moveFocusLine=direction=>{
+  const route=lineRoute(),api=window.MTS_INDEX_ZERO;
+  if(!route||!api?.store)return false;
+  const rows=api.store.getScene(route.scene),index=rows.findIndex(x=>x.id===route.line);
+  if(index<0)return false;
+  const target=rows[index+(direction>0?1:-1)];
+  if(!target)return false;
+  location.hash=`#/line?scene=${encodeURIComponent(route.scene)}&line=${encodeURIComponent(target.id)}`;
+  return true;
+};
+let focusSwipe=null;
+const focusSwipeBlocked=target=>!!target.closest?.('button,a,input,select,textarea,summary,.vocab-inline,.word-row,.word-sheet');
+const beginFocusSwipe=event=>{
+  if(event.pointerType==='mouse'||overlay&&!overlay.hidden||!event.target.closest?.('.line-page')||focusSwipeBlocked(event.target)){focusSwipe=null;return}
+  focusSwipe={pointerId:event.pointerId,startX:event.clientX,startY:event.clientY,startTime:event.timeStamp||performance.now()};
+};
+const endFocusSwipe=event=>{
+  if(!focusSwipe||event.pointerId!==focusSwipe.pointerId){focusSwipe=null;return false}
+  const dx=event.clientX-focusSwipe.startX,dy=event.clientY-focusSwipe.startY,duration=Math.max(1,(event.timeStamp||performance.now())-focusSwipe.startTime);
+  focusSwipe=null;
+  if(Math.abs(dx)<56||Math.abs(dx)<=Math.abs(dy)*1.25||duration>1000)return false;
+  return moveFocusLine(dx<0?1:-1);
+};
+document.addEventListener('pointerdown',beginFocusSwipe,{passive:true});
+document.addEventListener('pointerup',endFocusSwipe,{passive:true});
+document.addEventListener('pointercancel',()=>{focusSwipe=null},{passive:true});
+window.addEventListener('hashchange',scheduleFocusRoleSync);
+queueMicrotask(()=>{
+  scheduleFocusRoleSync();
+  window.MTS_INDEX_ZERO?.store?.addEventListener?.('ready',scheduleFocusRoleSync);
+});
+
 if(sheet&&overlay){
   let gesture=null;
   const start=(x,y,time=performance.now())=>{gesture={startX:x,startY:y,startTime:time,lastY:y,lastTime:time}};
@@ -68,5 +120,5 @@ if(sheet&&overlay){
   sheet.addEventListener('pointerup',event=>{if(event.pointerType!=='touch'&&gesture)end(event.clientX,event.clientY,event.timeStamp)});
   sheet.addEventListener('pointercancel',event=>{if(event.pointerType!=='touch')cancel()});
 
-  window.MTS_GESTURES=Object.freeze({version:1,closeSheet,resetSheet});
+  window.MTS_GESTURES=Object.freeze({version:2,closeSheet,resetSheet,moveFocusLine,syncFocusRole});
 }
