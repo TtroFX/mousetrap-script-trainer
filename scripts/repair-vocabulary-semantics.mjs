@@ -138,18 +138,32 @@ if (manifest.studyAssets?.lineVocabulary) {
 }
 write(MANIFEST_PATH, manifest);
 
-const unclassifiedDictionary = Object.values(dict).filter(entry => String(entry.pos || '').trim() === '未分類' || /【未分類】/.test(String(entry.meaning || ''))).length;
+const unclassifiedEntries = Object.entries(dict)
+  .filter(([, entry]) => String(entry.pos || '').trim() === '未分類' || /【未分類】/.test(String(entry.meaning || '')))
+  .map(([lemma, entry]) => ({ lemma, pos: String(entry.pos || ''), meaning: String(entry.meaning || '') }));
 const remainingGenericContexts = Object.values(vocab).flat().filter(item => genericContextStrings.has(String(item.inThisPlay || '').trim())).length;
-const polysemyContextMissing = Object.values(vocab).flat().filter(item => {
-  const dictKey = dictKeyByLemma.get(key(item.lemma));
-  const entry = dictKey ? dict[dictKey] : null;
-  return Array.isArray(entry?.tags) && entry.tags.includes('polysemy') && !String(item.inThisPlay || '').trim();
-}).length;
+const polysemyMissingOccurrences = [];
+for (const [speechId, rows] of Object.entries(vocab)) {
+  for (const item of rows) {
+    const dictKey = dictKeyByLemma.get(key(item.lemma));
+    const entry = dictKey ? dict[dictKey] : null;
+    if (Array.isArray(entry?.tags) && entry.tags.includes('polysemy') && !String(item.inThisPlay || '').trim()) {
+      const speech = speechById.get(speechId);
+      polysemyMissingOccurrences.push({
+        speechId,
+        speaker: String(speech?.speaker || ''),
+        surface: String(item.surface || ''),
+        lemma: String(item.lemma || ''),
+        text: String(speech?.text || '')
+      });
+    }
+  }
+}
 
 if (remainingGenericContexts !== 0) throw new Error(`generic inThisPlay remained: ${remainingGenericContexts}`);
 
 const report = {
-  schemaVersion: 1,
+  schemaVersion: 2,
   status: 'PASS_WITH_REMAINING_AUDIT',
   changedLemmas: [...changedLemmas].sort(),
   syncedMeanings,
@@ -158,8 +172,10 @@ const report = {
   concernedContexts,
   anxiousContexts,
   remaining: {
-    unclassifiedDictionary,
-    polysemyContextMissing
+    unclassifiedDictionary: unclassifiedEntries.length,
+    polysemyContextMissing: polysemyMissingOccurrences.length,
+    unclassifiedEntries,
+    polysemyMissingOccurrences
   },
   sha256: {
     dictionary: dictSha,
