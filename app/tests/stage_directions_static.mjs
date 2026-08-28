@@ -1,0 +1,20 @@
+import fs from 'node:fs';
+import path from 'node:path';
+
+const appDir=process.cwd(),root=path.resolve(appDir,'..');
+const text=file=>fs.readFileSync(path.join(appDir,file),'utf8');
+const fail=message=>{throw new Error(message)};
+const stage=JSON.parse(fs.readFileSync(path.join(root,'mousetrap_stage_directions.json'),'utf8'));
+const runtime=JSON.parse(fs.readFileSync(path.join(appDir,'src/mousetrap_stage_directions.json'),'utf8'));
+if(stage.entries?.length!==777||stage.counts?.standalone!==5||stage.counts?.attached!==772)fail('stage counts invalid');
+if(JSON.stringify(stage)!==JSON.stringify(runtime))fail('runtime stage mirror differs from canonical');
+const config=text('src/config.js'),index=text('index.html'),sw=text('sw.js'),module=text('src/stage-directions.js'),css=text('src/stage-directions.css'),version=JSON.parse(text('pwa-version.json'));
+if(!config.includes("stageDirections: './src/mousetrap_stage_directions.json'"))fail('DATA_PATHS stageDirections missing');
+if(!index.includes('./src/stage-directions.js')||!index.includes('./src/stage-directions.css'))fail('stage runtime not loaded from index');
+for(const asset of ['./src/stage-directions.js','./src/stage-directions.css'])if(!sw.includes(asset))fail(`shell precache missing ${asset}`);
+if(!sw.includes("'src/mousetrap_stage_directions.json'"))fail('stage data precache missing');
+if(version.buildId!=='index-zero-2026-08-28-r13'||version.dataVersion!=='canonical-2026-08-28-stage-directions-v1')fail('r13 pwa metadata missing');
+for(const token of ['data-stage-direction-group','data-stage-page','getReaderSequence','Vocabulary / Notes','stageDirections'])if(!module.includes(token))fail(`stage runtime contract missing ${token}`);
+for(const token of ['.stage-original','.stage-direction-card','.stage-situation-page'])if(!css.includes(token))fail(`stage style contract missing ${token}`);
+if(/apply-stage-directions-integration|stage-directions-integrate/.test(index+module+sw))fail('runtime source-mutation integration leaked into production');
+console.log(JSON.stringify({status:'PASS',stageEntries:777,standalone:5,attached:772,buildId:version.buildId},null,2));
