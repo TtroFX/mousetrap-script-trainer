@@ -1,9 +1,9 @@
 'use strict';
-const BUILD_ID='index-zero-2026-08-27-r9';
+const BUILD_ID='index-zero-2026-08-28-r10';
 const SHELL_CACHE=`mts-zero-shell-${BUILD_ID}`;
 const DATA_CACHE=`mts-zero-data-${BUILD_ID}`;
 const SHELL=[
-  './','./index.html','./src/app.css','./src/config.js','./src/data-store.js','./src/state-store.js','./src/resume-bookmarks.js','./src/gesture-controls.js','./src/main.js','./src/study/study.css','./src/study/structure-model.js','./src/study/structure-view.js','./src/study/dictionary-sheet.js',
+  './','./index.html','./src/app.css','./src/focus-mode.css','./src/config.js','./src/data-store.js','./src/state-store.js','./src/resume-bookmarks.js','./src/gesture-controls.js','./src/main.js','./src/study/study.css','./src/study/structure-model.js','./src/study/structure-view.js','./src/study/dictionary-sheet.js',
   './manifest.webmanifest','./offline.html','./icons/icon-192.png','./icons/icon-512.png','./icons/icon-maskable-512.png'
 ];
 const DATA_ASSETS=[
