@@ -27,7 +27,7 @@ jobs:
           const p='scripts/augment-vocabulary-range-0583-0873-wrapper.mjs';
           let s=fs.readFileSync(p,'utf8');
           const before=s;
-          s=s.replace(/const _oldLemmas=.*?metrics\.newVocabulary=.*?;\n/,'');
+          s=s.replace(/const _oldLemmas=.*?metrics\.newVocabulary=.*?;\\n/,'');
           if(s===before) throw new Error('temporary metric line not found');
           fs.writeFileSync(p,s);
           NODE
