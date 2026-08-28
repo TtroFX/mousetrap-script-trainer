@@ -20,29 +20,35 @@ const targetSpeechId = 'act1-scene2-speech-0058';
 const targetSurface = 'served its purpose';
 
 const canonicalKey = Object.keys(dict).find(k => norm(k) === norm(canonicalLemma));
-const aliasKey = Object.keys(dict).find(k => norm(k) === norm(aliasLemma));
+let aliasKey = Object.keys(dict).find(k => norm(k) === norm(aliasLemma));
 if (!canonicalKey) throw new Error(`canonical dictionary entry missing: ${canonicalLemma}`);
 const canonical = dict[canonicalKey];
 const rows = vocab[targetSpeechId];
 if (!Array.isArray(rows)) throw new Error(`target speech missing: ${targetSpeechId}`);
 
-const targetRows = rows.filter(item => norm(item.surface) === norm(targetSurface));
-const targetLemmasBefore = [...new Set(targetRows.map(item => norm(item.lemma)))];
-if (!targetLemmasBefore.includes(norm(canonicalLemma)) || !targetLemmasBefore.includes(norm(aliasLemma))) {
-  throw new Error(`expected phrase alias collision not found: ${JSON.stringify(targetLemmasBefore)}`);
+const targetRowsBefore = rows.filter(item => norm(item.surface) === norm(targetSurface));
+const targetLemmasBefore = [...new Set(targetRowsBefore.map(item => norm(item.lemma)))];
+const hadAliasCollision = targetLemmasBefore.includes(norm(canonicalLemma)) && targetLemmasBefore.includes(norm(aliasLemma));
+const alreadyClosed = targetRowsBefore.length === 1 && targetLemmasBefore.length === 1 && targetLemmasBefore[0] === norm(canonicalLemma) && !aliasKey;
+if (!hadAliasCollision && !alreadyClosed) {
+  throw new Error(`unexpected phrase alias state: rows=${targetRowsBefore.length} lemmas=${JSON.stringify(targetLemmasBefore)} aliasDictionary=${Boolean(aliasKey)}`);
 }
 
-const keep = rows.filter(item => norm(item.surface) !== norm(targetSurface));
-keep.push({
-  surface: targetSurface,
-  lemma: canonical.lemma || canonicalKey,
-  meaning: canonical.meaning,
-  playMeaning: true,
-  inThisPlay: 'ラジオを大きくしてMrs. Boyleを別室へ行かせ、Casewellが暖かい椅子を取るという作戦が目的を果たした、という意味。'
-});
-vocab[targetSpeechId] = keep;
-
-if (aliasKey) delete dict[aliasKey];
+if (hadAliasCollision) {
+  const keep = rows.filter(item => norm(item.surface) !== norm(targetSurface));
+  keep.push({
+    surface: targetSurface,
+    lemma: canonical.lemma || canonicalKey,
+    meaning: canonical.meaning,
+    playMeaning: true,
+    inThisPlay: 'ラジオを大きくしてMrs. Boyleを別室へ行かせ、Casewellが暖かい椅子を取るという作戦が目的を果たした、という意味。'
+  });
+  vocab[targetSpeechId] = keep;
+  if (aliasKey) {
+    delete dict[aliasKey];
+    aliasKey = null;
+  }
+}
 
 const conflicts = [];
 for (const [speechId, speechRows] of Object.entries(vocab)) {
@@ -92,15 +98,16 @@ write(MANIFEST_PATH, manifest);
 
 const canonicalRowsAfter = vocab[targetSpeechId].filter(item => norm(item.surface) === norm(targetSurface));
 const report = {
-  schemaVersion: 1,
+  schemaVersion: 2,
   status: conflicts.length === 0 ? 'PASS_PHRASE_ALIAS_CLOSURE' : 'REMAINING_SURFACE_LEMMA_CONFLICTS',
-  repaired: {
+  target: {
     speechId: targetSpeechId,
     surface: targetSurface,
-    removedDictionaryAlias: Boolean(aliasKey),
+    repairedThisRun: hadAliasCollision,
     lemmasBefore: targetLemmasBefore,
     lemmaAfter: canonicalRowsAfter.map(item => item.lemma),
-    occurrencesAfter: canonicalRowsAfter.length
+    occurrencesAfter: canonicalRowsAfter.length,
+    aliasDictionaryPresentAfter: Object.keys(dict).some(k => norm(k) === norm(aliasLemma))
   },
   remainingSurfaceLemmaConflicts: conflicts.length,
   conflicts,
