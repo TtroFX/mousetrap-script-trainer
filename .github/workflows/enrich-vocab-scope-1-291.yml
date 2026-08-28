@@ -100,7 +100,7 @@ jobs:
           const r=JSON.parse(fs.readFileSync(p,'utf8'));
           if(r.status!=='PASS') throw new Error('scope report not PASS');
           r.qa.appCompatibility='PASS';
-          r.changes.preExistingDuplicateIdiomsCanonicalized=1;
+          r.cleanup={preExistingDuplicateIdiomsCanonicalized:1};
           fs.writeFileSync(p,JSON.stringify(r,null,2)+'\n');
           EOF
 
@@ -113,16 +113,19 @@ jobs:
           const v=read('mousetrap_line_vocabulary.json');
           const d=read('mousetrap_word_dictionary.json');
           if(r.status!=='PASS'||r.qa.appCompatibility!=='PASS') throw new Error('report gate');
-          if(r.scope.speeches!==291||r.scope.end!=='act1-scene2-speech-0101') throw new Error('scope boundary');
-          if(r.qa.stageCueGroupsReviewed!==238||r.qa.stageCueGroupsCovered!==238) throw new Error('stage coverage');
-          if(r.qa.outOfScopeMutation!==0||r.qa.missingDictionaryReferences!==0||r.qa.duplicates!==0) throw new Error('integrity gate');
+          if(r.scope.speechCount!==291||r.scope.first!=='act1-scene1-speech-0001'||r.scope.last!=='act1-scene2-speech-0101'||r.scope.nextExcluded!=='act1-scene2-speech-0102') throw new Error('scope boundary');
+          if(r.stageDirections.reviewedCueGroups!==238||r.stageDirections.coveredCueGroups!==238||r.stageDirections.coverage!=='PASS') throw new Error('stage coverage');
+          if(r.qa.outsideScopeLineMutations!==0||r.qa.missingDictionaryReferenceCheck!=='PASS'||r.qa.duplicateCheck!=='PASS'||r.qa.jsonParse!=='PASS'||r.qa.lineVocabularySchema!=='PASS'||r.qa.dictionarySchema!=='PASS') throw new Error('integrity gate');
+          if(r.qa.secondPassRescan!=='PASS'||r.qa.polysemyAudit!=='PASS'||r.qa.properNounAudit!=='PASS'||r.qa.stageDirectionAudit!=='PASS'||r.qa.phraseSegmentationAudit!=='PASS') throw new Error('review gate');
           if(Object.keys(v).length!==1164) throw new Error('speech coverage');
-          if(Object.keys(d).length<1000) throw new Error('dictionary unexpectedly small');
+          if(Object.keys(d).length!==1201) throw new Error(`dictionary count ${Object.keys(d).length}/1201`);
+          const items=Object.values(v).reduce((n,a)=>n+(Array.isArray(a)?a.length:0),0);
+          if(items!==2445) throw new Error(`vocabulary count ${items}/2445`);
           const bitRows=v['act1-scene2-speech-0034'];
           const bitHits=bitRows.filter(x=>x.surface==='Got the bit between their teeth');
           if(bitHits.length!==1||bitHits[0].lemma!=="get the bit between one's teeth") throw new Error('bit-between-teeth canonicalization');
           if(Object.prototype.hasOwnProperty.call(d,'get the bit between one’s teeth')) throw new Error('curly duplicate dictionary key remains');
-          console.log(JSON.stringify({status:'PASS',scope:r.scope,changes:r.changes,qa:r.qa,totals:r.after},null,2));
+          console.log(JSON.stringify({status:'PASS',scope:r.scope,vocabulary:r.vocabulary,dictionary:r.dictionary,stageDirections:r.stageDirections,qa:r.qa,cleanup:r.cleanup},null,2));
           EOF
 
       - name: Commit verified production changes
