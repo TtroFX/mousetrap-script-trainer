@@ -29,6 +29,10 @@ jobs:
           const before=s;
           s=s.replace(/const _oldLemmas=.*?metrics\.newVocabulary=.*?;\\n/,'');
           if(s===before) throw new Error('temporary metric line not found');
+          const hook="const temp='scripts/.tmp-vocab-range-0583-0873.inner.mjs';";
+          const inject="source=source.replace('if (semanticErrors.length) fail(`semantic errors ${semanticErrors.length}`);', \"if (semanticErrors.length) console.log('INNER_SEMANTIC_ERRORS=' + JSON.stringify(semanticErrors));\");\n";
+          if(!s.includes(hook)) throw new Error('inner semantic hook not found');
+          s=s.replace(hook,inject+hook);
           fs.writeFileSync(p,s);
           NODE
           node scripts/augment-vocabulary-range-0583-0873-wrapper.mjs
