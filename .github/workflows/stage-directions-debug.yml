@@ -1,0 +1,60 @@
+name: Stage Directions Runtime Debug
+
+on:
+  push:
+    branches: ['fix/stage-directions-visible-20260828']
+    paths:
+      - '.github/workflows/stage-directions-debug.yml'
+  workflow_dispatch:
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Apply production integration
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('scripts/apply-stage-directions-integration.py')
+          s=p.read_text(encoding='utf-8')
+          old="s=regex_once(s,r'function openLine\\(scene,line\\)\\{.*\\}\\nfunction lineView\\(q\\)\\{.*\\}',line_stage,'main line/stage views',re.S)"
+          new="s=regex_once(s,r'^function openLine\\(scene,line\\)\\{.*\\}\\nfunction lineView\\(q\\)\\{.*\\}$',line_stage,'main line/stage views',re.M)"
+          if old in s:s=s.replace(old,new,1)
+          p.write_text(s,encoding='utf-8')
+          PY
+          python3 scripts/apply-stage-directions-integration.py
+          cd app && node scripts/assemble-production.mjs --out-dir ../public
+      - name: Install Chromium
+        working-directory: app
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+      - name: Write compact runtime probe
+        working-directory: app
+        run: |
+          cat > tests/stage_runtime_debug.e2e.spec.js <<'EOF'
+          const {test}=require('@playwright/test');
+          const BASE='http://127.0.0.1:4173/index.html';
+          test('compact stage runtime probe',async({page})=>{
+            const errs=[]; page.on('pageerror',e=>errs.push('PAGEERROR '+e.stack)); page.on('console',m=>{if(m.type()==='error')errs.push('CONSOLE '+m.text())}); page.on('requestfailed',r=>errs.push('REQUEST '+r.url()+' '+(r.failure()?.errorText||'')));
+            await page.goto(BASE,{waitUntil:'domcontentloaded'}); await page.waitForTimeout(2500);
+            const boot=await page.evaluate(()=>({hash:location.hash,body:document.body.innerText.slice(0,500),mts:!!window.MTS_INDEX_ZERO,keys:window.MTS_INDEX_ZERO?Object.keys(window.MTS_INDEX_ZERO):[],core:window.MTS_INDEX_ZERO?.store?.coreState,hasCore:window.MTS_INDEX_ZERO?.store?.hasCore?.(),stage:!!window.MTS_INDEX_ZERO?.store?.stageDirections}));
+            console.log('BOOT='+JSON.stringify(boot)); console.log('ERRORS='+JSON.stringify(errs));
+            if(!boot.mts) throw new Error('MTS_INDEX_ZERO missing');
+            await page.evaluate(()=>MTS_INDEX_ZERO.store.loadCore({force:true}));
+            const data=await page.evaluate(()=>{const s=MTS_INDEX_ZERO.store;let sample=null;for(const scene of ['act1-scene1','act1-scene2','act2'])for(const speech of s.getScene(scene)){const rows=s.getStageDirectionsForSpeech?.(speech.id)||[];if(rows.length){sample={scene,line:speech.id,rows:rows.length,id:rows[0].id};break}if(sample)break}return {hasCore:s.hasCore(),count:s.stageDirections?.entries?.length,standalone:s.getStandaloneStageDirections?.('act1-scene1')?.length,sample}});
+            console.log('DATA='+JSON.stringify(data));
+            if(!data.sample)throw new Error('No attached stage sample');
+            await page.goto(`${BASE}#/line?scene=${data.sample.scene}&line=${data.sample.line}`); await page.waitForTimeout(1500);
+            const line=await page.evaluate(()=>({body:document.body.innerText.slice(0,1000),stageCount:document.querySelectorAll('[data-stage-direction]').length,stageText:document.querySelector('.stage-direction-text')?.textContent||'',translation:document.querySelector('[data-translation-card]')?.innerText.slice(0,500)||''}));
+            console.log('LINE='+JSON.stringify(line)); console.log('ERRORS2='+JSON.stringify(errs));
+            if(line.stageCount<1)throw new Error('Stage direction not rendered');
+          });
+          EOF
+      - name: Run compact probe
+        working-directory: app
+        run: npx playwright test tests/stage_runtime_debug.e2e.spec.js --config=playwright.index-zero.config.js --workers=1 --reporter=line
