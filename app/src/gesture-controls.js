@@ -69,18 +69,51 @@ const moveFocusLine=direction=>{
   return true;
 };
 
-const REDUCED_MOTION=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
 let focusSwipe=null;
 let focusSettling=false;
 let pendingEnterDirection=0;
 let suppressClickUntil=0;
+let focusAnimation=null;
 const interactiveSwipeBlock=target=>!!target.closest?.('input,select,textarea,[contenteditable="true"],[data-no-page-swipe]');
 const currentFocusPage=()=>document.querySelector('.line-page');
+const reducedMotion=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
+const motionProfile=()=>reducedMotion()
+  ?{settle:80,commit:100,enter:120,enterOffset:14}
+  :{settle:150,commit:190,enter:220,enterOffset:44};
+const stopFocusAnimation=()=>{
+  try{focusAnimation?.cancel?.()}catch{}
+  focusAnimation=null;
+};
 const resetFocusPage=page=>{
   if(!page)return;
-  page.classList.remove('is-focus-swiping','is-focus-settling');
-  page.style.removeProperty('--focus-swipe-x');
-  page.style.removeProperty('--focus-swipe-opacity');
+  stopFocusAnimation();
+  page.classList.remove('is-focus-swiping','is-focus-settling','focus-enter-next','focus-enter-prev','focus-enter-active');
+  page.style.transform='';
+  page.style.opacity='';
+  page.style.willChange='';
+};
+const runPageAnimation=(page,keyframes,options,onFinish)=>{
+  stopFocusAnimation();
+  if(!page?.animate){
+    const last=keyframes[keyframes.length-1]||{};
+    if(last.transform!=null)page.style.transform=last.transform;
+    if(last.opacity!=null)page.style.opacity=String(last.opacity);
+    setTimeout(onFinish,Number(options.duration)||0);
+    return null;
+  }
+  const animation=page.animate(keyframes,{...options,fill:'forwards'});
+  focusAnimation=animation;
+  let done=false;
+  const finish=()=>{
+    if(done)return;
+    done=true;
+    if(focusAnimation===animation)focusAnimation=null;
+    onFinish();
+  };
+  animation.addEventListener('finish',finish,{once:true});
+  animation.addEventListener('cancel',()=>{if(focusAnimation===animation)focusAnimation=null},{once:true});
+  setTimeout(finish,(Number(options.duration)||0)+80);
+  return animation;
 };
 const cancelFocusSwipe=()=>{
   const state=focusSwipe;
@@ -88,16 +121,20 @@ const cancelFocusSwipe=()=>{
   if(!state)return;
   const page=state.page?.isConnected?state.page:currentFocusPage();
   if(!page)return;
-  if(REDUCED_MOTION()){resetFocusPage(page);return}
+  const profile=motionProfile();
+  const from=getComputedStyle(page).transform==='none'?'translate3d(0,0,0)':getComputedStyle(page).transform;
   page.classList.remove('is-focus-swiping');
   page.classList.add('is-focus-settling');
-  page.style.setProperty('--focus-swipe-x','0px');
-  page.style.setProperty('--focus-swipe-opacity','1');
-  setTimeout(()=>resetFocusPage(page),170);
+  runPageAnimation(page,[
+    {transform:from,opacity:Number(getComputedStyle(page).opacity)||1},
+    {transform:'translate3d(0,0,0)',opacity:1}
+  ],{duration:profile.settle,easing:'cubic-bezier(.22,.72,.24,1)'},()=>resetFocusPage(page));
 };
 const beginFocusSwipe=event=>{
   if(event.pointerType==='mouse'||focusSwipe||focusSettling||overlay&&!overlay.hidden&&!overlay.classList.contains('is-dismissing')||!event.target.closest?.('.line-page')||interactiveSwipeBlock(event.target))return;
   const page=event.target.closest('.line-page');
+  stopFocusAnimation();
+  page.style.willChange='transform, opacity';
   focusSwipe={
     pointerId:event.pointerId,page,startX:event.clientX,startY:event.clientY,lastX:event.clientX,lastY:event.clientY,
     startTime:event.timeStamp||performance.now(),lastTime:event.timeStamp||performance.now(),axis:null,moved:false
@@ -121,27 +158,32 @@ const moveFocusSwipe=event=>{
   state.page=page;
   const resisted=available?dx:dx*.28;
   page.classList.add('is-focus-swiping');
-  page.style.setProperty('--focus-swipe-x',`${resisted}px`);
-  page.style.setProperty('--focus-swipe-opacity',String(Math.max(.9,1-Math.min(Math.abs(resisted)/1200,.1))));
+  page.style.transform=`translate3d(${resisted}px,0,0)`;
+  page.style.opacity=String(Math.max(.88,1-Math.min(Math.abs(resisted)/900,.12)));
 };
 const animateFocusCommit=(direction,state)=>{
   const hit=focusTarget(direction);
   if(!hit){cancelFocusSwipe();return false}
   focusSwipe=null;
   focusSettling=true;
-  suppressClickUntil=performance.now()+320;
+  suppressClickUntil=performance.now()+380;
   const page=state.page?.isConnected?state.page:currentFocusPage();
   const navigate=()=>{
     pendingEnterDirection=direction;
     focusSettling=false;
     moveFocusLine(direction);
   };
-  if(!page||REDUCED_MOTION()){navigate();return true}
+  if(!page){navigate();return true}
+  const profile=motionProfile();
+  const computed=getComputedStyle(page);
+  const from=computed.transform==='none'?'translate3d(0,0,0)':computed.transform;
   page.classList.remove('is-focus-swiping');
   page.classList.add('is-focus-settling');
-  page.style.setProperty('--focus-swipe-x',direction>0?'-108vw':'108vw');
-  page.style.setProperty('--focus-swipe-opacity','.88');
-  setTimeout(navigate,155);
+  page.style.willChange='transform, opacity';
+  runPageAnimation(page,[
+    {transform:from,opacity:Number(computed.opacity)||1},
+    {transform:direction>0?'translate3d(-112vw,0,0)':'translate3d(112vw,0,0)',opacity:.84}
+  ],{duration:profile.commit,easing:'cubic-bezier(.22,.72,.24,1)'},navigate);
   return true;
 };
 const endFocusSwipe=event=>{
@@ -150,7 +192,7 @@ const endFocusSwipe=event=>{
   const dx=event.clientX-state.startX,dy=event.clientY-state.startY,ax=Math.abs(dx),ay=Math.abs(dy);
   const duration=Math.max(1,(event.timeStamp||performance.now())-state.startTime);
   const inferredAxis=state.axis??(Math.max(ax,ay)>=10?(ax>ay*1.08?'x':ay>ax*1.08?'y':null):null);
-  if(inferredAxis==='x'&&(state.moved||ax>=14))suppressClickUntil=performance.now()+260;
+  if(inferredAxis==='x'&&(state.moved||ax>=14))suppressClickUntil=performance.now()+300;
   const width=Math.max(320,state.page?.clientWidth||window.innerWidth||320);
   const distanceThreshold=Math.min(88,Math.max(46,width*.14));
   const velocity=ax/duration;
@@ -167,14 +209,18 @@ const cancelFocusPointer=event=>{
 const animateIncomingFocusPage=()=>{
   const direction=pendingEnterDirection;
   pendingEnterDirection=0;
-  if(!direction||REDUCED_MOTION())return;
-  requestAnimationFrame(()=>{
+  if(!direction)return;
+  const profile=motionProfile();
+  requestAnimationFrame(()=>requestAnimationFrame(()=>{
     const page=currentFocusPage();
     if(!page)return;
-    page.classList.add(direction>0?'focus-enter-next':'focus-enter-prev');
-    requestAnimationFrame(()=>page.classList.add('focus-enter-active'));
-    setTimeout(()=>page.classList.remove('focus-enter-next','focus-enter-prev','focus-enter-active'),190);
-  });
+    page.style.willChange='transform, opacity';
+    const offset=direction>0?profile.enterOffset:-profile.enterOffset;
+    runPageAnimation(page,[
+      {transform:`translate3d(${offset}px,0,0)`,opacity:.9},
+      {transform:'translate3d(0,0,0)',opacity:1}
+    ],{duration:profile.enter,easing:'cubic-bezier(.22,.72,.24,1)'},()=>resetFocusPage(page));
+  }));
 };
 
 document.addEventListener('pointerdown',beginFocusSwipe,{passive:true,capture:true});
@@ -188,7 +234,13 @@ document.addEventListener('click',event=>{
 },{capture:true});
 window.addEventListener('blur',()=>{if(focusSwipe)cancelFocusSwipe()});
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&focusSwipe)cancelFocusSwipe()});
-window.addEventListener('hashchange',()=>{focusSwipe=null;scheduleFocusRoleSync();resetFocusScroll();animateIncomingFocusPage()});
+window.addEventListener('hashchange',()=>{
+  focusSwipe=null;
+  focusSettling=false;
+  scheduleFocusRoleSync();
+  resetFocusScroll();
+  animateIncomingFocusPage();
+});
 queueMicrotask(()=>{
   scheduleFocusRoleSync();
   window.MTS_INDEX_ZERO?.store?.addEventListener?.('ready',scheduleFocusRoleSync);
@@ -232,5 +284,5 @@ if(sheet&&overlay){
   sheet.addEventListener('pointerup',event=>{if(event.pointerType!=='touch'&&gesture)end(event.clientX,event.clientY,event.timeStamp)});
   sheet.addEventListener('pointercancel',event=>{if(event.pointerType!=='touch')cancel()});
 
-  window.MTS_GESTURES=Object.freeze({version:4,closeSheet,resetSheet,moveFocusLine,syncFocusRole,resetFocusScroll});
+  window.MTS_GESTURES=Object.freeze({version:5,closeSheet,resetSheet,moveFocusLine,syncFocusRole,resetFocusScroll});
 }
