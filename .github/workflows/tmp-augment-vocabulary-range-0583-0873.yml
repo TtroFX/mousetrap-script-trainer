@@ -49,4 +49,4 @@ jobs:
           git add -A
           git commit -m 'Augment vocabulary for Global Speech 583-873'
           git push
-# retry after polysemy preseed fix
+# diagnostic run: dump unmapped stage directions
