@@ -36,6 +36,15 @@ jobs:
           fs.writeFileSync(p,s);
           NODE
           node scripts/augment-vocabulary-range-0583-0873-wrapper.mjs
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const base=JSON.parse(fs.readFileSync('/tmp/range-vocab-baseline.json','utf8'));
+          const out=JSON.parse(fs.readFileSync('mousetrap_line_vocabulary.json','utf8'));
+          const target=new Set(Array.from({length:291},(_,i)=>`act2-speech-${String(i+57).padStart(4,'0')}`));
+          for(const [id,rows] of Object.entries(base)) if(!target.has(id)) out[id]=rows;
+          for(const id of Object.keys(out)) if(!target.has(id) && !(id in base)) throw new Error(`unexpected out-of-scope speech ${id}`);
+          fs.writeFileSync('mousetrap_line_vocabulary.json',JSON.stringify(out,null,2)+'\n');
+          NODE
           node scripts/postprocess-vocabulary-range-0583-0873.mjs
       - name: Validate vocabulary semantics
         run: node scripts/validate-vocabulary-semantics.mjs
