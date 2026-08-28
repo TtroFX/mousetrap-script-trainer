@@ -18,11 +18,24 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Reconstruct and run augmentation
-        run: node scripts/augment-vocabulary-range-0583-0873-wrapper.mjs
+      - name: Preserve baseline and run augmentation
+        run: |
+          cp mousetrap_line_vocabulary.json /tmp/range-vocab-baseline.json
+          cp mousetrap_word_dictionary.json /tmp/range-dict-baseline.json
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          const p='scripts/augment-vocabulary-range-0583-0873-wrapper.mjs';
+          let s=fs.readFileSync(p,'utf8');
+          const before=s;
+          s=s.replace(/const _oldLemmas=.*?metrics\.newVocabulary=.*?;\n/,'');
+          if(s===before) throw new Error('temporary metric line not found');
+          fs.writeFileSync(p,s);
+          NODE
+          node scripts/augment-vocabulary-range-0583-0873-wrapper.mjs
+          node scripts/postprocess-vocabulary-range-0583-0873.mjs
       - name: Validate vocabulary semantics
         run: node scripts/validate-vocabulary-semantics.mjs
-      - name: Parse generated JSON and diff-check
+      - name: Parse generated JSON and strict range QA
         run: |
           node --input-type=module <<'NODE'
           import fs from 'node:fs';
@@ -33,17 +46,19 @@ jobs:
             'data/vocabulary-rebuild/range-0583-0873-production-report.json'
           ]) JSON.parse(fs.readFileSync(p, 'utf8'));
           const r=JSON.parse(fs.readFileSync('data/vocabulary-rebuild/range-0583-0873-production-report.json','utf8'));
-          if (r.qa !== 'PASS') throw new Error(`report QA is ${r.qa}`);
+          if (r.qa !== 'PASS' || r.status !== 'PASS') throw new Error('report not PASS');
           if (r.metrics.targetSpeechesChecked !== 291) throw new Error('target speech count mismatch');
           if (r.metrics.stageDirectionsAudited !== 157 || r.metrics.stageDirectionsMapped !== 157) throw new Error('stage audit mismatch');
           if (r.audits.stageDirectionsWithoutLexicalMatch !== 0) throw new Error('stage lexical coverage incomplete');
           if ((r.unresolvedItems||[]).length) throw new Error('unresolved items remain');
+          for (const k of ['jsonParse','schema','duplicateCheck','missingReferenceCheck','speechIdCheck','targetBoundaryCheck','outOfScopeLineMutationCheck','semanticSeparationCheck','stageDirectionMapping']) if(r.audits[k]!=='PASS') throw new Error(`audit ${k}=${r.audits[k]}`);
           console.log(JSON.stringify(r, null, 2));
           NODE
           git diff --check
       - name: Commit production augmentation and remove temporary runner
         run: |
           rm -f scripts/augment-vocabulary-range-0583-0873-wrapper.mjs \
+                scripts/postprocess-vocabulary-range-0583-0873.mjs \
                 scripts/.tmp-vocab-range-0583-0873.payload.1 \
                 scripts/.tmp-vocab-range-0583-0873.payload.2 \
                 scripts/.tmp-vocab-range-0583-0873.payload.3 \
