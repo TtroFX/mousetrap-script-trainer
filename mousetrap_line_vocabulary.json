@@ -2680,7 +2680,7 @@
     {
       "surface": "Prefab Nests",
       "lemma": "Prefab Nests",
-      "meaning": "【固有名詞的表現】Prefab Nests。本作中で使われる架空の建築・事業名。",
+      "meaning": "【固有名詞的表現】\nPrefab Nestsという名称。prefabはprefabricated（プレハブ式の）の略。",
       "playMeaning": true,
       "inThisPlay": "Christopherが自分の将来の建築を冗談めかして名付けた架空の呼称。Prefabはprefabricated（プレハブ）の略。"
     },
@@ -2975,7 +2975,7 @@
     {
       "surface": "Monkswell Manor",
       "lemma": "Monkswell Manor",
-      "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
+      "meaning": "【固有名詞】\nMonkswell Manorという屋敷・施設名。",
       "playMeaning": true,
       "inThisPlay": "本作の主要舞台となる屋敷の名称。"
     },
@@ -5668,7 +5668,7 @@
     {
       "surface": "Monkswell Manor",
       "lemma": "Monkswell Manor",
-      "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
+      "meaning": "【固有名詞】\nMonkswell Manorという屋敷・施設名。",
       "playMeaning": true,
       "inThisPlay": "本作の主要舞台となる屋敷の名称。"
     },
@@ -6131,7 +6131,7 @@
     {
       "surface": "Monkswell Manor",
       "lemma": "Monkswell Manor",
-      "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
+      "meaning": "【固有名詞】\nMonkswell Manorという屋敷・施設名。",
       "playMeaning": true,
       "inThisPlay": "本作の主要舞台となる屋敷の名称。"
     },
@@ -7747,7 +7747,7 @@
     {
       "surface": "Monkswell Manor",
       "lemma": "Monkswell Manor",
-      "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
+      "meaning": "【固有名詞】\nMonkswell Manorという屋敷・施設名。",
       "playMeaning": true,
       "inThisPlay": "本作の主要舞台となる屋敷の名称。"
     },
@@ -17956,8 +17956,9 @@
     {
       "surface": "Monkswell Manor",
       "lemma": "Monkswell Manor",
-      "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
-      "playMeaning": true
+      "meaning": "【固有名詞】\nMonkswell Manorという屋敷・施設名。",
+      "playMeaning": true,
+      "inThisPlay": "本作の主要舞台で、MollieとGilesがゲストハウスとして営んでいる屋敷の名称。"
     }
   ],
   "act2-speech-0449": [],
@@ -20017,8 +20018,9 @@
     {
       "surface": "Monkswell Manor",
       "lemma": "Monkswell Manor",
-      "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
-      "playMeaning": true
+      "meaning": "【固有名詞】\nMonkswell Manorという屋敷・施設名。",
+      "playMeaning": true,
+      "inThisPlay": "本作の主要舞台で、警察が事件との関係から捜査対象地点として把握していた屋敷の名称。"
     },
     {
       "surface": "put to him",

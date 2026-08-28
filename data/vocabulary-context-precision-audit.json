@@ -10,23 +10,17 @@
   "counts": {
     "dictionaryEntries": 1375,
     "vocabularyItems": 2926,
-    "contextItems": 752,
+    "contextItems": 754,
     "properNounOccurrences": 99,
-    "properNounMissingContext": 19,
+    "properNounMissingContext": 17,
     "genericProperNounMissingContext": 0,
-    "dictionaryPlayContextCandidates": 2,
+    "dictionaryPlayContextCandidates": 0,
     "repeatedContextGroups": 29
   },
   "compact": {
     "genericProperNounMissingContext": [],
-    "dictionaryPlayContextCandidates": [
-      "Monkswell Manor",
-      "Prefab Nests"
-    ],
-    "candidateOccurrenceCounts": {
-      "Monkswell Manor": 6,
-      "Prefab Nests": 1
-    },
+    "dictionaryPlayContextCandidates": [],
+    "candidateOccurrenceCounts": {},
     "repeatedContexts": [
       {
         "count": 65,
@@ -147,86 +141,8 @@
     ]
   },
   "genericProperNounMissingContext": [],
-  "dictionaryPlayContextCandidates": [
-    {
-      "lemma": "Monkswell Manor",
-      "pos": "固有名詞",
-      "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
-      "hits": [
-        "本作"
-      ]
-    },
-    {
-      "lemma": "Prefab Nests",
-      "pos": "固有名詞",
-      "meaning": "【固有名詞的表現】Prefab Nests。本作中で使われる架空の建築・事業名。",
-      "hits": [
-        "本作"
-      ]
-    }
-  ],
-  "candidateOccurrencesByLemma": {
-    "Monkswell Manor": [
-      {
-        "speechId": "act1-scene1-speech-0075",
-        "speaker": "MRS. BOYLE",
-        "surface": "Monkswell Manor",
-        "lemma": "Monkswell Manor",
-        "inThisPlay": "本作の主要舞台となる屋敷の名称。",
-        "text": "This is Monkswell Manor, I presume?"
-      },
-      {
-        "speechId": "act1-scene1-speech-0176",
-        "speaker": "GILES",
-        "surface": "Monkswell Manor",
-        "lemma": "Monkswell Manor",
-        "inThisPlay": "本作の主要舞台となる屋敷の名称。",
-        "text": "This is Monkswell Manor Guest House."
-      },
-      {
-        "speechId": "act1-scene1-speech-0190",
-        "speaker": "PARAVICINI",
-        "surface": "Monkswell Manor",
-        "lemma": "Monkswell Manor",
-        "inThisPlay": "本作の主要舞台となる屋敷の名称。",
-        "text": "Yes ― the unexpected guest. The guest that you did not invite. The guest who just arrived ― from nowhere ― out of the storm. It sounds quite dramatic, does it not? Who am I? You do not know. Where do I come from? You do not know. Me, I am the man of mystery. But now, I tell you this. I complete the picture. From now on there will be no more arrivals. And no departures either. By tomorrow ― perhaps even already ― we are cut off from civilization. No butcher, no baker, no milkman, no postman, no daily papers ― nobody and nothing but ourselves. That is admirable ― admirable. It could not suit me better. My name, by the way, is Paravicini. Mr. and Mrs. Ralston? And this ― is Monkswell Manor Guest House, you said? Good. Monkswell Manor Guest House. Perfect. Perfect."
-      },
-      {
-        "speechId": "act1-scene2-speech-0077",
-        "speaker": "MOLLIE",
-        "surface": "Monkswell Manor",
-        "lemma": "Monkswell Manor",
-        "inThisPlay": "本作の主要舞台となる屋敷の名称。",
-        "text": "Yes? Yes ― this is Monkswell Manor Guest House...What?...No, I'm afraid Mr. Ralston can't come to the telephone just now. This is Mrs. Ralston speaking. Who...? The Berkshire Police...? Oh yes, yes, Superintendent Hogben, I'm afraid that's impossible. He'd never get here. We're snowed up. Completely snowed up. The roads are impassable... Nothing can get through...Yes...Very well...But what... Hullo-hullo..."
-      },
-      {
-        "speechId": "act2-speech-0448",
-        "speaker": "TROTTER",
-        "surface": "Monkswell Manor",
-        "lemma": "Monkswell Manor",
-        "inThisPlay": "",
-        "text": "What brought you to Monkswell Manor, Miss Casewell?"
-      },
-      {
-        "speechId": "act2-speech-0616",
-        "speaker": "MAJOR METCALF",
-        "surface": "Monkswell Manor",
-        "lemma": "Monkswell Manor",
-        "inThisPlay": "",
-        "text": "As soon as we got hold of that notebook with \"Monkswell Manor\" written in it, we saw it was vital to have someone on the spot. When it was put to him, Major Metcalf agreed to let me take his place. I couldn't understand it when Trotter turned up."
-      }
-    ],
-    "Prefab Nests": [
-      {
-        "speechId": "act1-scene1-speech-0067",
-        "speaker": "CHRISTOPHER",
-        "surface": "Prefab Nests",
-        "lemma": "Prefab Nests",
-        "inThisPlay": "Christopherが自分の将来の建築を冗談めかして名付けた架空の呼称。Prefabはprefabricated(プレハブ)の略。",
-        "text": "No, I'm an architect. My parents, you know, baptized me Christopher, in the hope that I would be an architect. Christopher Wren! As good as halfway home. Actually, of course, everyone laughs about it and makes jokes about St. Paul's. However ― who knows?― I may yet have the last laugh. Chris Wren's Prefab Nests may yet go down in history! I'm going to like it here. I find your wife most sympathetic."
-      }
-    ]
-  },
+  "dictionaryPlayContextCandidates": [],
+  "candidateOccurrencesByLemma": {},
   "repeatedContextGroups": [
     {
       "context": "ト書きでは指定された舞台位置へ俳優が移動すること。",

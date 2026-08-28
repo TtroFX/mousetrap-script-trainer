@@ -1,24 +1,26 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "APPLIED",
-  "changedDictionaryEntries": 8,
+  "changedDictionaryEntries": 10,
   "changedDictionary": [
     "cut off",
     "Ledbury Hotel",
+    "Monkswell Manor",
     "Monkswell Manor Guest House",
     "Morgan's Bank",
+    "Prefab Nests",
     "reproach oneself",
     "run in someone's head",
     "Spot and Plain",
     "wider field"
   ],
-  "syncedMeanings": 12,
-  "removedRedundantContexts": 126,
+  "syncedMeanings": 7,
+  "removedRedundantContexts": 0,
   "preservedPolysemyContexts": 167,
-  "addedOrUpdatedContexts": 8,
-  "finalContextItems": 752,
+  "addedOrUpdatedContexts": 2,
+  "finalContextItems": 754,
   "sha256": {
-    "dictionary": "08e7b7b8b5b84cd0ca0002dc2a1e07be455cbd04e4f8e5f15079a1b0190c339d",
-    "vocabulary": "b7184eb335c6249d9dcfe12fd4f1528bfbdda6d090b07add6dd30ea63e6230a0"
+    "dictionary": "a2c7d5bd7ae0460d516e604182454e9c2cfc729e3c6e5db698243135f7ca73cc",
+    "vocabulary": "8d266abeaf2f33ad9aabd1c3c8ddc138d910fa28a134ad04def725e1aa5d22cc"
   }
 }
