@@ -38,12 +38,25 @@ jobs:
           node scripts/augment-vocabulary-range-0583-0873-wrapper.mjs
           node --input-type=module <<'NODE'
           import fs from 'node:fs';
+          const norm=s=>String(s||'').toLowerCase().normalize('NFKC').replace(/[‘’]/g,"'").replace(/\s+/g,' ').trim();
           const base=JSON.parse(fs.readFileSync('/tmp/range-vocab-baseline.json','utf8'));
           const out=JSON.parse(fs.readFileSync('mousetrap_line_vocabulary.json','utf8'));
+          const baseDict=JSON.parse(fs.readFileSync('/tmp/range-dict-baseline.json','utf8'));
+          const dict=JSON.parse(fs.readFileSync('mousetrap_word_dictionary.json','utf8'));
           const target=new Set(Array.from({length:291},(_,i)=>`act2-speech-${String(i+57).padStart(4,'0')}`));
           for(const [id,rows] of Object.entries(base)) if(!target.has(id)) out[id]=rows;
           for(const id of Object.keys(out)) if(!target.has(id) && !(id in base)) throw new Error(`unexpected out-of-scope speech ${id}`);
+          const shared=new Set(["get the bit between one's teeth","turn one's back on","take one's time"].map(norm));
+          const baseByLemma=new Map(Object.entries(baseDict).map(([k,d])=>[norm(d.lemma||k),{key:k,value:d}]));
+          for(const [key,d] of Object.entries(dict)){
+            const lemma=norm(d.lemma||key);
+            if(!shared.has(lemma)) continue;
+            const b=baseByLemma.get(lemma); if(!b) throw new Error(`missing shared baseline ${lemma}`);
+            dict[key]=b.value;
+            for(const id of target) for(const row of (out[id]||[])) if(norm(row.lemma)===lemma) row.meaning=b.value.meaning;
+          }
           fs.writeFileSync('mousetrap_line_vocabulary.json',JSON.stringify(out,null,2)+'\n');
+          fs.writeFileSync('mousetrap_word_dictionary.json',JSON.stringify(dict,null,2)+'\n');
           NODE
           node scripts/postprocess-vocabulary-range-0583-0873.mjs
       - name: Validate vocabulary semantics
