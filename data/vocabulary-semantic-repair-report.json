@@ -1,18 +1,551 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "status": "PASS_WITH_REMAINING_AUDIT",
   "changedLemmas": [
     "concerned",
     "cross"
   ],
-  "syncedMeanings": 47,
-  "removedGenericContexts": 320,
+  "syncedMeanings": 0,
+  "removedGenericContexts": 0,
   "crossContexts": 46,
   "concernedContexts": 1,
   "anxiousContexts": 6,
   "remaining": {
     "unclassifiedDictionary": 61,
-    "polysemyContextMissing": 32
+    "polysemyContextMissing": 32,
+    "unclassifiedEntries": [
+      {
+        "lemma": "hell",
+        "pos": "未分類",
+        "meaning": "【未分類】\n地獄；比喩的に非常につらい状態を表し、口語では強い驚き・怒りの強調にも使う。"
+      },
+      {
+        "lemma": "whilst",
+        "pos": "未分類",
+        "meaning": "【未分類】\n～する間に、～である一方。whileに相当する英国英語。"
+      },
+      {
+        "lemma": "unknown",
+        "pos": "未分類",
+        "meaning": "【未分類】\n知られていない、正体・詳細が不明な。"
+      },
+      {
+        "lemma": "bear",
+        "pos": "未分類",
+        "meaning": "【未分類】\n苦痛・困難・責任などに耐える、受け止める。"
+      },
+      {
+        "lemma": "guilty",
+        "pos": "未分類",
+        "meaning": "【未分類】\n犯罪・過失などについて罪がある、有罪の。"
+      },
+      {
+        "lemma": "possibly",
+        "pos": "未分類",
+        "meaning": "【未分類】\nもしかすると；可能な限り。否定語とともに強い不可能を表すことがある。"
+      },
+      {
+        "lemma": "chicken wire",
+        "pos": "未分類",
+        "meaning": "鶏小屋などの囲いに使う、細い金属線でできた網状の金網。"
+      },
+      {
+        "lemma": "pretend",
+        "pos": "未分類",
+        "meaning": "【未分類】\n事実ではないことを事実であるように装う、ふりをする。"
+      },
+      {
+        "lemma": "countryside",
+        "pos": "未分類",
+        "meaning": "【未分類】\n都市部ではない田園・地方一帯。"
+      },
+      {
+        "lemma": "doubt",
+        "pos": "未分類",
+        "meaning": "【未分類】\n確かではないと思う、疑う；疑念。"
+      },
+      {
+        "lemma": "trust",
+        "pos": "未分類",
+        "meaning": "【未分類】\n人・物を信頼する；信頼。"
+      },
+      {
+        "lemma": "interrupt",
+        "pos": "未分類",
+        "meaning": "【未分類】\n会話・行動などを途中で遮る。"
+      },
+      {
+        "lemma": "loose",
+        "pos": "未分類",
+        "meaning": "【未分類】\n固定・拘束されていない；人・動物が逃げ出して自由になっている。"
+      },
+      {
+        "lemma": "safety",
+        "pos": "未分類",
+        "meaning": "【未分類】\n危険がなく安全であること。"
+      },
+      {
+        "lemma": "prepared",
+        "pos": "未分類",
+        "meaning": "【未分類】\n準備ができた；～する覚悟・意思がある。"
+      },
+      {
+        "lemma": "dare",
+        "pos": "未分類",
+        "meaning": "【未分類】\n勇気を出して～する；How dare ... で、よくも～できるものだ。"
+      },
+      {
+        "lemma": "attract",
+        "pos": "未分類",
+        "meaning": "【未分類】\n人の関心・好意などを引きつける。"
+      },
+      {
+        "lemma": "admit",
+        "pos": "未分類",
+        "meaning": "【未分類】\n事実・非などを認める。"
+      },
+      {
+        "lemma": "fool",
+        "pos": "未分類",
+        "meaning": "【未分類】\n愚かな人、ばかなことをする人。"
+      },
+      {
+        "lemma": "all of a sudden",
+        "pos": "未分類",
+        "meaning": "突然、不意に。"
+      },
+      {
+        "lemma": "poet",
+        "pos": "未分類",
+        "meaning": "【未分類】\n詩を書く人、詩人。"
+      },
+      {
+        "lemma": "annoyed",
+        "pos": "未分類",
+        "meaning": "【未分類】\nいら立った、腹を立てた。"
+      },
+      {
+        "lemma": "thank goodness",
+        "pos": "未分類",
+        "meaning": "安堵や感謝を表して「よかった」「ありがたい」と言う定型表現。"
+      },
+      {
+        "lemma": "communication",
+        "pos": "未分類",
+        "meaning": "【未分類】\n情報を伝え合うこと；連絡・通信。"
+      },
+      {
+        "lemma": "hesitate",
+        "pos": "未分類",
+        "meaning": "【未分類】\nためらう、すぐ行動せず迷う。"
+      },
+      {
+        "lemma": "slight",
+        "pos": "未分類",
+        "meaning": "【未分類】\n程度・量などがごく小さい、わずかな。"
+      },
+      {
+        "lemma": "liver",
+        "pos": "未分類",
+        "meaning": "【未分類】\n肝臓；食材としてのレバー。"
+      },
+      {
+        "lemma": "wise",
+        "pos": "未分類",
+        "meaning": "【未分類】\n知恵があり判断が適切な、賢明な。"
+      },
+      {
+        "lemma": "tail",
+        "pos": "未分類",
+        "meaning": "【未分類】\n動物の尾、しっぽ。"
+      },
+      {
+        "lemma": "cruel",
+        "pos": "未分類",
+        "meaning": "【未分類】\n人や動物に苦痛を与えることを気にしない、残酷な。"
+      },
+      {
+        "lemma": "neighbourhood",
+        "pos": "未分類",
+        "meaning": "【未分類】\n近所、周辺地域。"
+      },
+      {
+        "lemma": "humour",
+        "pos": "未分類",
+        "meaning": "【未分類】\nユーモア、物事のおかしさを理解し楽しむ感覚。"
+      },
+      {
+        "lemma": "grand piano",
+        "pos": "未分類",
+        "meaning": "弦を水平に張った大型のグランドピアノ。"
+      },
+      {
+        "lemma": "prove",
+        "pos": "未分類",
+        "meaning": "【未分類】\n証明する、事実であると示す。"
+      },
+      {
+        "lemma": "clue",
+        "pos": "未分類",
+        "meaning": "【未分類】\n問題や事件を解く手掛かり。"
+      },
+      {
+        "lemma": "assemble",
+        "pos": "未分類",
+        "meaning": "【未分類】\n人を一か所に集める、集合させる。"
+      },
+      {
+        "lemma": "entertaining",
+        "pos": "未分類",
+        "meaning": "【未分類】\n面白い、楽しませる。"
+      },
+      {
+        "lemma": "intend",
+        "pos": "未分類",
+        "meaning": "【未分類】\n～するつもりである、意図する。"
+      },
+      {
+        "lemma": "chapter",
+        "pos": "未分類",
+        "meaning": "【未分類】\n本などの章；物事の一区切り。"
+      },
+      {
+        "lemma": "performance",
+        "pos": "未分類",
+        "meaning": "【未分類】\n演技・公演；何かを実行すること。"
+      },
+      {
+        "lemma": "simply",
+        "pos": "未分類",
+        "meaning": "【未分類】\n単純に、ただ；発言を強めて『本当に、まったく』。"
+      },
+      {
+        "lemma": "cooperate",
+        "pos": "未分類",
+        "meaning": "【未分類】\n共通の目的のため協力する。"
+      },
+      {
+        "lemma": "signal",
+        "pos": "未分類",
+        "meaning": "【未分類】\n行動開始などを知らせる合図、信号；合図する。"
+      },
+      {
+        "lemma": "former",
+        "pos": "未分類",
+        "meaning": "【未分類】\n以前の、前の。"
+      },
+      {
+        "lemma": "fond",
+        "pos": "未分類",
+        "meaning": "【未分類】\n～が好きで、好んで。"
+      },
+      {
+        "lemma": "examine",
+        "pos": "未分類",
+        "meaning": "【未分類】\n詳しく調べる、検査する。"
+      },
+      {
+        "lemma": "objection",
+        "pos": "未分類",
+        "meaning": "【未分類】\n反対、異議。"
+      },
+      {
+        "lemma": "advise",
+        "pos": "未分類",
+        "meaning": "【未分類】\n助言する、～するよう勧める。"
+      },
+      {
+        "lemma": "curtain",
+        "pos": "未分類",
+        "meaning": "【未分類】\n窓や舞台などに掛けるカーテン、幕。"
+      },
+      {
+        "lemma": "dumb",
+        "pos": "未分類",
+        "meaning": "【未分類】\n口語で、愚かな・頭の鈍い；古い用法では口がきけない。"
+      },
+      {
+        "lemma": "kind",
+        "pos": "未分類",
+        "meaning": "【未分類】\n親切な、思いやりのある。"
+      },
+      {
+        "lemma": "afterwards",
+        "pos": "未分類",
+        "meaning": "【未分類】\nその後で、あとになって。"
+      },
+      {
+        "lemma": "gradually",
+        "pos": "未分類",
+        "meaning": "【未分類】\n徐々に、少しずつ。"
+      },
+      {
+        "lemma": "scream",
+        "pos": "未分類",
+        "meaning": "【未分類】\n恐怖・痛みなどで大声を上げる、叫ぶ。"
+      },
+      {
+        "lemma": "fire",
+        "pos": "未分類",
+        "meaning": "【未分類】\n火をつける；銃などを発射する；解雇する。"
+      },
+      {
+        "lemma": "chase",
+        "pos": "未分類",
+        "meaning": "【未分類】\n人や動物を追いかける。"
+      },
+      {
+        "lemma": "harm",
+        "pos": "未分類",
+        "meaning": "【未分類】\n人や物への害、損害；害を与える。"
+      },
+      {
+        "lemma": "mix",
+        "pos": "未分類",
+        "meaning": "【未分類】\n混ぜる；人や物をある状況・関係に巻き込む。"
+      },
+      {
+        "lemma": "spare",
+        "pos": "未分類",
+        "meaning": "【未分類】\n予備の、余分の；時間などを割く。"
+      },
+      {
+        "lemma": "properly",
+        "pos": "未分類",
+        "meaning": "【未分類】\n正しく、適切に、きちんと。"
+      },
+      {
+        "lemma": "fade",
+        "pos": "未分類",
+        "meaning": "【舞台・動】光・音を徐々に弱める、薄れていく。"
+      }
+    ],
+    "polysemyMissingOccurrences": [
+      {
+        "speechId": "act1-scene1-speech-0001",
+        "speaker": "VOICE ON THE RADIO",
+        "surface": "rises",
+        "lemma": "rise",
+        "text": "...and according to Scotland Yard, the crime took place at twenty-four Culver Street, Paddington. The murdered woman was a Mrs. Maureen Lyon. In connection with the murder, the police are anxious to interview a man seen in the vicinity, wearing a dark overcoat, light scarf, and a soft felt hat. Motorists are warned against ice-bound roads. The heavy snow is expected to continue, and throughout the country there will be a certain freezing, particularly at points on the north and northeast coast of Scotland."
+      },
+      {
+        "speechId": "act1-scene1-speech-0013",
+        "speaker": "GILES",
+        "surface": "rising",
+        "lemma": "rise",
+        "text": "We'll have to keep the central heating well-stoked up. H'm, not too good ― I wish they'd send the coke along. We've not got any too much."
+      },
+      {
+        "speechId": "act1-scene1-speech-0020",
+        "speaker": "MOLLIE",
+        "surface": "rising",
+        "lemma": "rise",
+        "text": "No, no, that's my department. Anyway, we've got lots of tins in case we are snowed up. Oh, Giles, do you think it's going to be all right?"
+      },
+      {
+        "speechId": "act1-scene1-speech-0042",
+        "speaker": "VOICE ON THE RADIO",
+        "surface": "rises",
+        "lemma": "rise",
+        "text": "And according to Scotland Yard, the crime took place at twenty-four Culver Street, Paddington. The murdered woman was a Mrs. Maureen Lyon. In connection with the murder, the police ― ― are anxious to interview a man seen in the vicinity, wearing a dark overcoat ― ― light scarf ― ― and a soft felt hat. Motorists are warned against icebound roads. The heavy snow is expected to continue, and throughout the country..."
+      },
+      {
+        "speechId": "act1-scene1-speech-0081",
+        "speaker": "MRS. BOYLE",
+        "surface": "station",
+        "lemma": "station",
+        "text": "The taxi wouldn't risk coming up the drive. It stopped at the gate. We had to share a taxi from the station ― and there was great difficulty in getting that. Nothing ordered to meet us, it seems."
+      },
+      {
+        "speechId": "act1-scene1-speech-0124",
+        "speaker": "CHRISTOPHER",
+        "surface": "rising",
+        "lemma": "rise",
+        "text": "I think that's a perfectly horrible woman. I don't like her at all. I'd love to see you turn her out into the snow. Serve her right."
+      },
+      {
+        "speechId": "act1-scene1-speech-0135",
+        "speaker": "CHRISTOPHER",
+        "surface": "rising",
+        "lemma": "rise",
+        "text": "Any news in the paper apart from the weather?"
+      },
+      {
+        "speechId": "act1-scene1-speech-0138",
+        "speaker": "MISS CASEWELL",
+        "surface": "Sex",
+        "lemma": "sex",
+        "text": "They seem to think it was a homicidal maniac. Strangled a woman somewhere near Paddington. Sex maniac, I suppose."
+      },
+      {
+        "speechId": "act1-scene1-speech-0147",
+        "speaker": "MISS CASEWELL",
+        "surface": "sex",
+        "lemma": "sex",
+        "text": "I told you ― sex maniac."
+      },
+      {
+        "speechId": "act1-scene1-speech-0149",
+        "speaker": "MISS CASEWELL",
+        "surface": "rising",
+        "lemma": "rise",
+        "text": "How d'you do?"
+      },
+      {
+        "speechId": "act1-scene1-speech-0151",
+        "speaker": "MISS CASEWELL",
+        "surface": "rises",
+        "lemma": "rise",
+        "text": "You're right, I would."
+      },
+      {
+        "speechId": "act1-scene1-speech-0151",
+        "speaker": "MISS CASEWELL",
+        "surface": "peeps",
+        "lemma": "peep",
+        "text": "You're right, I would."
+      },
+      {
+        "speechId": "act1-scene1-speech-0162",
+        "speaker": "GILES",
+        "surface": "significantly",
+        "lemma": "significantly",
+        "text": "I've got no use for that kind. You didn't handle his suitcase, I did."
+      },
+      {
+        "speechId": "act1-scene1-speech-0173",
+        "speaker": "MOLLIE",
+        "surface": "rising",
+        "lemma": "rise",
+        "text": "Don't!"
+      },
+      {
+        "speechId": "act1-scene2-speech-0001",
+        "speaker": "MRS. BOYLE",
+        "surface": "rises",
+        "lemma": "rise",
+        "text": "I consider it most dishonest not to have told me they were only just starting this place."
+      },
+      {
+        "speechId": "act1-scene2-speech-0007",
+        "speaker": "MRS. BOYLE",
+        "surface": "rising",
+        "lemma": "rise",
+        "text": "These radiators are not really hot. I shall speak about it."
+      },
+      {
+        "speechId": "act1-scene2-speech-0024",
+        "speaker": "MAJOR METCALF",
+        "surface": "rises",
+        "lemma": "rise",
+        "text": "I'll give you a hand, what? Good exercise. Must have exercise."
+      },
+      {
+        "speechId": "act1-scene2-speech-0030",
+        "speaker": "MISS CASEWELL",
+        "surface": "gather",
+        "lemma": "gather",
+        "text": "I gather our hostess had to cook the lunch."
+      },
+      {
+        "speechId": "act1-scene2-speech-0035",
+        "speaker": "MRS. BOYLE",
+        "surface": "gather",
+        "lemma": "gather",
+        "text": "I gather you are a Socialist."
+      },
+      {
+        "speechId": "act1-scene2-speech-0038",
+        "speaker": "MISS CASEWELL",
+        "surface": "gather",
+        "lemma": "gather",
+        "text": "I don't have to cook and clean ― as I gather most people have to do in this country."
+      },
+      {
+        "speechId": "act1-scene2-speech-0052",
+        "speaker": "MISS CASEWELL",
+        "surface": "rises",
+        "lemma": "rise",
+        "text": "Much warmer, I agree. Bloody old bitch."
+      },
+      {
+        "speechId": "act1-scene2-speech-0075",
+        "speaker": "CHRISTOPHER",
+        "surface": "rises",
+        "lemma": "rise",
+        "text": "Are you?"
+      },
+      {
+        "speechId": "act1-scene2-speech-0077",
+        "speaker": "MOLLIE",
+        "surface": "rises",
+        "lemma": "rise",
+        "text": "Yes? Yes ― this is Monkswell Manor Guest House...What?...No, I'm afraid Mr. Ralston can't come to the telephone just now. This is Mrs. Ralston speaking. Who...? The Berkshire Police...? Oh yes, yes, Superintendent Hogben, I'm afraid that's impossible. He'd never get here. We're snowed up. Completely snowed up. The roads are impassable... Nothing can get through...Yes...Very well...But what... Hullo-hullo..."
+      },
+      {
+        "speechId": "act1-scene2-speech-0092",
+        "speaker": "GILES",
+        "surface": "rises",
+        "lemma": "rise",
+        "text": "Probably something to do with running this place. I expect we've ignored some tinpot regulation of some Ministry or other. You practically can't avoid it, nowadays."
+      },
+      {
+        "speechId": "act1-scene2-speech-0227",
+        "speaker": "PARAVICINI",
+        "surface": "affairs",
+        "lemma": "affair",
+        "text": "Para ― Paravicini. But, my dear Inspector, I know nothing, but nothing, of what you have been talking about. I am a stranger in this country. I know nothing of these local affairs of bygone years."
+      },
+      {
+        "speechId": "act2-speech-0165",
+        "speaker": "TROTTER",
+        "surface": "affairs",
+        "lemma": "affair",
+        "text": "You'd be surprised, Mrs. Ralston, if you knew how many cases rather like yours we get. Especially since the war. Homes broken up and families dead. Fellow says he's been in the Air Force, or just finished his Army training. Parents killed ― no relations. There aren't any backgrounds nowadays and young people settle their own affairs ― they meet and marry. It's parents and relatives who used to make the enquiries before they consented to an engagement. That's all done away with. Girl just marries her man. Sometimes she doesn't find out for a year or two that he's an absconding bank clerk, or an Army deserter or something equally undesirable. How long had you known Giles Ralston when you married him?"
+      },
+      {
+        "speechId": "act2-speech-0324",
+        "speaker": "TROTTER",
+        "surface": "station",
+        "lemma": "station",
+        "text": "The snow is still lying. I need help here, reinforcements. I was going to ski over to the police station at Market Hampton to report on the situation."
+      },
+      {
+        "speechId": "act2-speech-0379",
+        "speaker": "PARAVICINI",
+        "surface": "gay",
+        "lemma": "gay",
+        "text": "But such a gay little tune? Don't you think? She cut off their tails with a carving knife ― snick, snick, snick ― delicious. Just what a child would adore. Cruel little things, children. Some of them never grow up."
+      },
+      {
+        "speechId": "act2-speech-0565",
+        "speaker": "TROTTER",
+        "surface": "curtain",
+        "lemma": "curtain",
+        "text": "I should advise it, sir. Take my torch, sir. It's behind the curtain. Mrs. Ralston, count twenty and then begin to play. Mrs. Ralston! Mrs. Ralston!"
+      },
+      {
+        "speechId": "act2-speech-0575",
+        "speaker": "TROTTER",
+        "surface": "affair",
+        "lemma": "affair",
+        "text": "Come now, Mrs. Ralston. We policemen aren't quite so dumb as you think. All along I've realized that you had firsthand knowledge of the Longridge Farm affair. You knew Mrs. Boyle was the magistrate concerned. In fact, you knew all about it. Why didn't you speak up and say so?"
+      },
+      {
+        "speechId": "act2-speech-0612",
+        "speaker": "MAJOR METCALF",
+        "surface": "unconscious",
+        "lemma": "unconscious",
+        "text": "Everything's under control. He will be unconscious soon with a sedative ― his sister's looking after him. Poor fellow's as mad as a hatter, of course. I've had my suspicions of him all along."
+      },
+      {
+        "speechId": "act2-speech-0620",
+        "speaker": "GILES",
+        "surface": "gather",
+        "lemma": "gather",
+        "text": "I gather they'll examine that car of his rather carefully. I shouldn't be surprised if they found a thousand or so Swiss watches in the spare wheel. Yes, that's his line of business, nasty little bit of goods. Mollie, I believe you thought I was..."
+      }
+    ]
   },
   "sha256": {
     "dictionary": "bb20140d555051d162c7b4d1a8771734d0b4e75c8a8c552d336317398a382270",
