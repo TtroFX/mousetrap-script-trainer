@@ -1,0 +1,59 @@
+name: Stage Directions Integration
+
+on:
+  push:
+    branches: ['feature/pdf-stage-directions']
+    paths:
+      - 'scripts/apply-stage-directions-integration.py'
+      - '.github/workflows/stage-directions-integrate.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  integrate-and-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate canonical stage data
+        run: node scripts/validate-stage-directions.mjs
+      - name: Apply production integration
+        run: python3 scripts/apply-stage-directions-integration.py
+      - name: Validate runtime and exact artifact
+        run: |
+          node scripts/validate-stage-directions.mjs
+          node scripts/validate-vocabulary-semantics.mjs
+          python3 app/scripts/validate-chunking-v1.py --root . --structure app/mousetrap_line_structure.json --report /tmp/chunking-stage-integration.json
+          cd app
+          node --check src/config.js
+          node --check src/data-store.js
+          node --check src/main.js
+          node --check src/gesture-controls.js
+          node --check sw.js
+          node --check scripts/assemble-production.mjs
+          node tests/index_zero_static.mjs
+          node tests/offline_pwa_static.mjs
+          node scripts/assemble-production.mjs --verify-only
+          node scripts/assemble-production.mjs --out-dir ../public
+          test -e ../public/mousetrap_stage_directions.json
+      - name: Install browser QA
+        working-directory: app
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+      - name: Run complete browser regression
+        working-directory: app
+        run: npm run test:e2e
+      - name: Commit verified production integration
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add app scripts/validate-stage-directions.mjs .github/workflows/app-qa.yml .github/workflows/pages.yml
+          git reset scripts/apply-stage-directions-integration.py .github/workflows/stage-directions-integrate.yml .github/workflows/stage-directions-decode.yml data/stage-upload-parts 2>/dev/null || true
+          if git diff --cached --quiet; then echo 'No production changes'; exit 0; fi
+          git commit -m 'Integrate PDF stage directions into Reader [skip ci]'
+          git push
