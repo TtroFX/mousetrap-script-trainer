@@ -33,6 +33,26 @@ jobs:
           p.write_text(s.replace(old,new,1),encoding='utf-8')
           PY
           python3 scripts/apply-stage-directions-integration.py
+      - name: Align browser QA with combined Reader sequence
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('app/tests/gesture_english.e2e.spec.js')
+          s=p.read_text(encoding='utf-8')
+          old="const rows=MTS_INDEX_ZERO.store.getScene(scene);for(let i=1;i<rows.length-1;i++)if(rows[i].speaker==='MOLLIE'&&rows[i+1].speaker!=='MOLLIE'&&(MTS_INDEX_ZERO.store.getGrammar(rows[i].id).length||MTS_INDEX_ZERO.store.getVocabulary(rows[i].id).length))return{scene,line:rows[i].id,next:rows[i+1].id};"
+          new="const rows=MTS_INDEX_ZERO.store.getReaderSequence(scene);for(let i=1;i<rows.length-1;i++){const cur=rows[i],nxt=rows[i+1];if(cur.kind==='speech'&&nxt.kind==='speech'&&cur.speech.speaker==='MOLLIE'&&nxt.speech.speaker!=='MOLLIE'&&(MTS_INDEX_ZERO.store.getGrammar(cur.speech.id).length||MTS_INDEX_ZERO.store.getVocabulary(cur.speech.id).length))return{scene,line:cur.speech.id,next:nxt.speech.id};}"
+          if old not in s: raise SystemExit('gesture test target missing')
+          p.write_text(s.replace(old,new,1),encoding='utf-8')
+
+          p=Path('app/tests/stage_directions.e2e.spec.js')
+          s=p.read_text(encoding='utf-8')
+          if 'await stageRow.click();' not in s: raise SystemExit('stage click target missing')
+          s=s.replace('await stageRow.click();','await stageRow.click({force:true});',1)
+          marker="const order=await page.evaluate(()=>{const block=document.querySelector('.stage-context-block'),translation=document.querySelector('.translation');"
+          if marker not in s: raise SystemExit('translation-order target missing')
+          s=s.replace(marker,"await expect(page.locator('.translation')).toBeVisible();"+marker,1)
+          p.write_text(s,encoding='utf-8')
+          PY
       - name: Validate runtime and exact artifact
         run: |
           node scripts/validate-stage-directions.mjs
