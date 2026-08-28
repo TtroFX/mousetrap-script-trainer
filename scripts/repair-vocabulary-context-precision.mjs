@@ -64,6 +64,7 @@ for (const [lemma, meaning] of Object.entries(dictionaryFixes)) {
 
 let syncedMeanings = 0;
 let removedRedundantContexts = 0;
+let preservedPolysemyContexts = 0;
 let addedContexts = 0;
 
 const contextOverrides = new Map([
@@ -81,6 +82,9 @@ for (const [speechId, rows] of Object.entries(vocab)) {
   if (!Array.isArray(rows)) continue;
   for (const item of rows) {
     const dictKey = dictKeyByLemma.get(key(item.lemma));
+    const dictEntry = dictKey ? dict[dictKey] : null;
+    const isPolysemy = Array.isArray(dictEntry?.tags) && dictEntry.tags.includes('polysemy');
+
     if (dictKey && Object.prototype.hasOwnProperty.call(dictionaryFixes, dictKey)) {
       const neutral = dict[dictKey].meaning;
       if (String(item.meaning || '').trim() !== neutral) {
@@ -91,8 +95,12 @@ for (const [speechId, rows] of Object.entries(vocab)) {
 
     const existingContext = String(item.inThisPlay || '').trim();
     if (contextRemovalStrings.has(existingContext)) {
-      delete item.inThisPlay;
-      removedRedundantContexts += 1;
+      if (isPolysemy) {
+        preservedPolysemyContexts += 1;
+      } else {
+        delete item.inThisPlay;
+        removedRedundantContexts += 1;
+      }
     }
 
     const overrideKey = `${speechId}\u0000${key(item.lemma)}\u0000${key(item.surface)}`;
@@ -135,12 +143,13 @@ if (manifest.studyAssets?.lineVocabulary) {
 write(MANIFEST_PATH, manifest);
 
 const report = {
-  schemaVersion: 1,
+  schemaVersion: 2,
   status: 'APPLIED',
   changedDictionaryEntries: changedDictionary.length,
   changedDictionary: changedDictionary.sort((a,b) => a.localeCompare(b)),
   syncedMeanings,
   removedRedundantContexts,
+  preservedPolysemyContexts,
   addedOrUpdatedContexts: addedContexts,
   finalContextItems: Object.values(vocab).flat().filter(item => String(item.inThisPlay || '').trim()).length,
   sha256: { dictionary: dictSha, vocabulary: vocabSha }
