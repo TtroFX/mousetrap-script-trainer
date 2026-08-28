@@ -28,6 +28,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Materialize final-quarter production patch
+        shell: bash
+        run: |
+          cat data/final-quarter-vocabulary-patch.seed.{01..07} > data/final-quarter-vocabulary-patch.json.gz.b64
+          cat scripts/apply-final-quarter-vocabulary.seed.{01..03} | base64 -d | gzip -dc > scripts/apply-final-quarter-vocabulary.mjs
+          cat >> scripts/build-vocabulary-block-6.mjs <<'EOF'
+
+          // FINAL_QUARTER_BOOTSTRAP_BEGIN
+          await import('./apply-final-quarter-vocabulary.mjs');
+          // FINAL_QUARTER_BOOTSTRAP_END
+          EOF
+          node --check scripts/apply-final-quarter-vocabulary.mjs
       - name: Merge context outline in workspace
         run: node scripts/merge-context-outline.mjs
       - name: Build Block 6 vocabulary data
