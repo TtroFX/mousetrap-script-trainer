@@ -50,6 +50,10 @@ const syncFocusRole=()=>{
   if(mine)card.dataset.ownRole='true';else delete card.dataset.ownRole;
 };
 const scheduleFocusRoleSync=()=>requestAnimationFrame(syncFocusRole);
+const resetFocusScroll=()=>{
+  if(!lineRoute())return;
+  requestAnimationFrame(()=>requestAnimationFrame(()=>window.scrollTo({top:0,left:0,behavior:'auto'})));
+};
 const moveFocusLine=direction=>{
   const route=lineRoute(),api=window.MTS_INDEX_ZERO;
   if(!route||!api?.store)return false;
@@ -76,7 +80,7 @@ const endFocusSwipe=event=>{
 document.addEventListener('pointerdown',beginFocusSwipe,{passive:true});
 document.addEventListener('pointerup',endFocusSwipe,{passive:true});
 document.addEventListener('pointercancel',()=>{focusSwipe=null},{passive:true});
-window.addEventListener('hashchange',scheduleFocusRoleSync);
+window.addEventListener('hashchange',()=>{scheduleFocusRoleSync();resetFocusScroll()});
 queueMicrotask(()=>{
   scheduleFocusRoleSync();
   window.MTS_INDEX_ZERO?.store?.addEventListener?.('ready',scheduleFocusRoleSync);
@@ -120,5 +124,5 @@ if(sheet&&overlay){
   sheet.addEventListener('pointerup',event=>{if(event.pointerType!=='touch'&&gesture)end(event.clientX,event.clientY,event.timeStamp)});
   sheet.addEventListener('pointercancel',event=>{if(event.pointerType!=='touch')cancel()});
 
-  window.MTS_GESTURES=Object.freeze({version:2,closeSheet,resetSheet,moveFocusLine,syncFocusRole});
+  window.MTS_GESTURES=Object.freeze({version:3,closeSheet,resetSheet,moveFocusLine,syncFocusRole,resetFocusScroll});
 }
