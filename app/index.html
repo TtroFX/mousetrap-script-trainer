@@ -14,6 +14,49 @@
   <link rel="apple-touch-icon" href="./icons/icon-192.png">
   <link rel="stylesheet" href="./src/app.css">
   <link rel="stylesheet" href="./src/focus-mode.css">
+  <style>
+    /* Make the single reading marker look like a physical ribbon bookmark. */
+    .shiori-toggle > span[aria-hidden="true"] {
+      position: relative;
+      display: block !important;
+      width: 16px !important;
+      height: 19px !important;
+      border: 2px solid currentColor !important;
+      border-bottom: 0 !important;
+      border-radius: 2px 2px 0 0 !important;
+      clip-path: none !important;
+      background: transparent !important;
+    }
+    .shiori-toggle > span[aria-hidden="true"]::before,
+    .shiori-toggle > span[aria-hidden="true"]::after {
+      content: "";
+      position: absolute;
+      bottom: -3px;
+      width: 9px;
+      height: 2px;
+      background: currentColor;
+    }
+    .shiori-toggle > span[aria-hidden="true"]::before {
+      left: -1px;
+      transform: rotate(33deg);
+      transform-origin: left center;
+    }
+    .shiori-toggle > span[aria-hidden="true"]::after {
+      right: -1px;
+      transform: rotate(-33deg);
+      transform-origin: right center;
+    }
+    .shiori-toggle.active > span[aria-hidden="true"] {
+      height: 22px !important;
+      border: 0 !important;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 74%, 0 100%) !important;
+      background: currentColor !important;
+    }
+    .shiori-toggle.active > span[aria-hidden="true"]::before,
+    .shiori-toggle.active > span[aria-hidden="true"]::after {
+      display: none;
+    }
+  </style>
 </head>
 <body>
   <div id="app">
