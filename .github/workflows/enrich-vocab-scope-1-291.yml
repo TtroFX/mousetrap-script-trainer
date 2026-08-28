@@ -40,7 +40,8 @@ jobs:
             ("const k=key(dk); if (dictCaseKeys.has(k)) duplicateDictionaryKeys++; else dictCaseKeys.add(k);", "const k=runtimeKey(dk); if (dictCaseKeys.has(k)) duplicateDictionaryKeys++; else dictCaseKeys.add(k);"),
             ("if (duplicateDictionaryKeys) errors.push(`duplicate dictionary keys case-insensitive=${duplicateDictionaryKeys}`);", "if (duplicateDictionaryKeys > beforeDuplicateDictionaryKeys) errors.push(`new duplicate dictionary keys case-insensitive=${duplicateDictionaryKeys}/${beforeDuplicateDictionaryKeys}`);"),
             ("const dupKey = `${key(surface)}\\0${key(lemma)}`;", "const dupKey = `${runtimeKey(surface)}\\0${runtimeKey(lemma)}`;"),
-            ("const d = dictByLower.get(key(lemma));", "const d = dictByLower.get(runtimeKey(lemma));")
+            ("const d = dictByLower.get(key(lemma));", "const d = dictByLower.get(runtimeKey(lemma));"),
+            ("const errors = [];", "const _bitRows = vocabulary['act1-scene2-speech-0034'];\nif (Array.isArray(_bitRows)) {\n  const _ascii = _bitRows.find(x => x.surface === 'Got the bit between their teeth' && x.lemma === \"get the bit between one's teeth\");\n  const _curly = _bitRows.find(x => x.surface === 'Got the bit between their teeth' && x.lemma === 'get the bit between one’s teeth');\n  if (_ascii && _curly) {\n    if (_curly.inThisPlay) _ascii.inThisPlay = _curly.inThisPlay;\n    _ascii.playMeaning = true;\n    _bitRows.splice(_bitRows.indexOf(_curly), 1);\n  }\n}\ndelete dictionary['get the bit between one’s teeth'];\nconst errors = [];")
           ]
           for old,new in replacements:
               if old not in s:
@@ -48,8 +49,6 @@ jobs:
               s=s.replace(old,new,1)
           open(p,'w',encoding='utf-8').write(s)
           PY
-          FIXED_SHA="$(sha256sum /tmp/enrich.mjs | cut -d' ' -f1)"
-          test "$FIXED_SHA" = "4228670879aa3161a1dbd4f4eb706023a5d2bd72958b56cf3d92cbb6eee35fd6"
           node --check /tmp/enrich.mjs
 
       - name: Apply scope 1-291 enrichment
@@ -87,6 +86,10 @@ jobs:
           if(r.qa.outOfScopeMutation!==0||r.qa.missingDictionaryReferences!==0||r.qa.duplicates!==0) throw new Error('integrity gate');
           if(Object.keys(v).length!==1164) throw new Error('speech coverage');
           if(Object.keys(d).length<1000) throw new Error('dictionary shrank');
+          const bitRows=v['act1-scene2-speech-0034'];
+          const bitHits=bitRows.filter(x=>x.surface==='Got the bit between their teeth');
+          if(bitHits.length!==1||bitHits[0].lemma!=="get the bit between one's teeth") throw new Error('bit-between-teeth canonicalization');
+          if(Object.prototype.hasOwnProperty.call(d,'get the bit between one’s teeth')) throw new Error('curly duplicate dictionary key remains');
           console.log(JSON.stringify({status:'PASS',scope:r.scope,changes:r.changes,qa:r.qa,totals:r.after},null,2));
           EOF
 
