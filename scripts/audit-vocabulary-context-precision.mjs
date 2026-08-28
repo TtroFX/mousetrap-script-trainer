@@ -24,6 +24,8 @@ const playSpecificDictionaryTokens = [
 const properNounMissingContext = [];
 const genericProperNounMissingContext = [];
 const dictionaryPlayContextCandidates = [];
+const candidateLemmaKeys = new Set();
+const candidateOccurrences = new Map();
 const repeatedContexts = new Map();
 let contextItems = 0;
 let properNounOccurrences = 0;
@@ -31,7 +33,10 @@ let properNounOccurrences = 0;
 for (const [lemma, entry] of Object.entries(dict)) {
   const meaning = norm(entry?.meaning);
   const hits = playSpecificDictionaryTokens.filter(token => meaning.includes(token));
-  if (hits.length) dictionaryPlayContextCandidates.push({ lemma, pos: norm(entry?.pos), meaning, hits });
+  if (hits.length) {
+    dictionaryPlayContextCandidates.push({ lemma, pos: norm(entry?.pos), meaning, hits });
+    candidateLemmaKeys.add(key(lemma));
+  }
 }
 
 for (const [speechId, rows] of Object.entries(vocab)) {
@@ -43,6 +48,19 @@ for (const [speechId, rows] of Object.entries(vocab)) {
     const pos = norm(entry?.pos);
     const meaning = norm(entry?.meaning);
     const speech = speechById.get(speechId);
+
+    if (candidateLemmaKeys.has(key(item.lemma))) {
+      const arr = candidateOccurrences.get(key(item.lemma)) || [];
+      arr.push({
+        speechId,
+        speaker: norm(speech?.speaker),
+        surface: norm(item.surface),
+        lemma: dictionaryKey,
+        inThisPlay: context,
+        text: norm(speech?.text)
+      });
+      candidateOccurrences.set(key(item.lemma), arr);
+    }
 
     if (context) {
       contextItems += 1;
@@ -75,8 +93,12 @@ const repeatedContextGroups = [...repeatedContexts.entries()]
   .map(([context, occurrences]) => ({ context, count: occurrences.length, occurrences }))
   .sort((a, b) => b.count - a.count || a.context.localeCompare(b.context));
 
+const candidateOccurrencesByLemma = Object.fromEntries(
+  dictionaryPlayContextCandidates.map(row => [row.lemma, candidateOccurrences.get(key(row.lemma)) || []])
+);
+
 const report = {
-  schemaVersion: 1,
+  schemaVersion: 2,
   status: 'AUDIT_COMPLETE',
   policy: {
     inThisPlayOptional: true,
@@ -97,10 +119,12 @@ const report = {
   compact: {
     genericProperNounMissingContext: genericProperNounMissingContext.map(x => `${x.speechId}|${x.lemma}|${x.surface}`),
     dictionaryPlayContextCandidates: dictionaryPlayContextCandidates.map(x => x.lemma),
+    candidateOccurrenceCounts: Object.fromEntries(Object.entries(candidateOccurrencesByLemma).map(([lemma, rows]) => [lemma, rows.length])),
     repeatedContexts: repeatedContextGroups.map(x => ({ count: x.count, context: x.context }))
   },
   genericProperNounMissingContext,
   dictionaryPlayContextCandidates,
+  candidateOccurrencesByLemma,
   repeatedContextGroups
 };
 
