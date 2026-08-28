@@ -7,6 +7,7 @@ on:
     paths:
       - 'scripts/apply-vocabulary-block-292-582.mjs'
       - 'data/vocabulary-rebuild/block-292-582-*.b64'
+      - 'data/vocabulary-rebuild/block-292-582-defs-*.json'
       - '.github/workflows/apply-vocabulary-block-292-582.yml'
 
 permissions:
@@ -27,18 +28,35 @@ jobs:
           import fs from 'node:fs';
           const path='scripts/apply-vocabulary-block-292-582.mjs';
           let src=fs.readFileSync(path,'utf8');
-          const beforeDefs=src;
-          src=src.replace(/const defs = decodeParts\(\[[\s\S]*?\]\);/, "const defs = decode('data/vocabulary-rebuild/block-292-582-defs.b64');");
-          if(src===beforeDefs) throw new Error('Expected split-definition loader not found');
+          const loader="const defs = Object.assign({}, ...Array.from({ length: 8 }, (_, i) => readJson('data/vocabulary-rebuild/block-292-582-defs-' + i + '.json')));";
+          src=src.replace(/const defs = decodeParts\(\[[\s\S]*?\]\);/, loader);
+          src=src.replace(/const defs = decode\('data\/vocabulary-rebuild\/block-292-582-defs\.b64'\);/, loader);
+          if(!src.includes(loader)) throw new Error('Dictionary definition loader normalization failed');
           const needle=`for (const [lemma, def] of Object.entries(defs)) {
             if (!def?.meaning) continue;
             ensureDictionary(lemma);
           }
 
           `;
-          if(!src.includes(needle)) throw new Error('Expected definition-precreation block not found');
-          src=src.replace(needle,'');
+          if(src.includes(needle)) src=src.replace(needle,'');
           fs.writeFileSync(path,src);
+          EOF
+
+      - name: Validate definition chunks
+        run: |
+          node --input-type=module <<'EOF'
+          import fs from 'node:fs';
+          let count=0; const seen=new Set();
+          for(let i=0;i<8;i++){
+            const d=JSON.parse(fs.readFileSync(`data/vocabulary-rebuild/block-292-582-defs-${i}.json`,'utf8'));
+            for(const [k,v] of Object.entries(d)){
+              if(seen.has(k.toLowerCase())) throw new Error('Duplicate definition '+k);
+              if(!String(v?.meaning||'').trim()) throw new Error('Missing definition meaning '+k);
+              seen.add(k.toLowerCase()); count++;
+            }
+          }
+          if(count!==279) throw new Error(`Definition count ${count}/279`);
+          console.log(JSON.stringify({status:'PASS',definitions:count}));
           EOF
 
       - name: Apply vocabulary expansion
