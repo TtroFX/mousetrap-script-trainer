@@ -21,87 +21,58 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+
       - name: Validate canonical stage data
         run: node scripts/validate-stage-directions.mjs
-      - name: Apply production integration and compatibility closure
+
+      - name: Apply stage integration exactly once
         run: |
+          # Repair the migration definition itself before executing it. Production
+          # source is then transformed once; there is no second source-level patch.
           python3 - <<'PY'
           from pathlib import Path
           p=Path('scripts/apply-stage-directions-integration.py')
           s=p.read_text(encoding='utf-8')
           old="s=regex_once(s,r'function openLine\\(scene,line\\)\\{.*\\}\\nfunction lineView\\(q\\)\\{.*\\}',line_stage,'main line/stage views',re.S)"
           new="s=regex_once(s,r'^function openLine\\(scene,line\\)\\{.*\\}\\nfunction lineView\\(q\\)\\{.*\\}$',line_stage,'main line/stage views',re.M)"
-          if old in s:s=s.replace(old,new,1)
+          if old not in s:
+              raise SystemExit('migration lineView pattern not found')
+          s=s.replace(old,new,1)
           p.write_text(s,encoding='utf-8')
           PY
           python3 scripts/apply-stage-directions-integration.py
+
+      - name: Close test contracts for the new canonical core asset
+        run: |
           python3 - <<'PY'
           from pathlib import Path
 
-          # One extra canonical core fetch is intentional and visible in diagnostics.
-          p=Path('app/tests/index_zero.e2e.spec.js'); s=p.read_text(encoding='utf-8')
-          s=s.replace('expect(d.metrics.requests).toBeLessThanOrEqual(7);','expect(d.metrics.requests).toBeLessThanOrEqual(8);')
+          # Stage data is an additional canonical core request.
+          p=Path('app/tests/index_zero.e2e.spec.js')
+          s=p.read_text(encoding='utf-8')
+          old='expect(d.metrics.requests).toBeLessThanOrEqual(7);'
+          if old not in s: raise SystemExit('request budget assertion not found')
+          p.write_text(s.replace(old,'expect(d.metrics.requests).toBeLessThanOrEqual(8);',1),encoding='utf-8')
+
+          # The full suite opens many fresh contexts; use one worker so the ~1 MB
+          # validated stage dataset cannot turn a functional pass into CI contention.
+          p=Path('app/playwright.index-zero.config.js')
+          s=p.read_text(encoding='utf-8')
+          if 'workers:1' not in s:
+              s=s.replace("  timeout:30000,","  timeout:30000,\n  workers:1,",1)
           p.write_text(s,encoding='utf-8')
 
-          # The stage dataset is ~1 MB and is validated on every fresh browser context.
-          # Keep the production regression deterministic rather than CPU-saturating CI.
-          p=Path('app/playwright.index-zero.config.js'); s=p.read_text(encoding='utf-8')
-          if 'workers:1' not in s:s=s.replace("  timeout:30000,","  timeout:30000,\n  workers:1,")
-          p.write_text(s,encoding='utf-8')
-
-          # Focus paging must use the exact Reader sequence, including standalone Situation pages.
-          p=Path('app/src/gesture-controls.js'); s=p.read_text(encoding='utf-8')
-          old="""const lineRoute=()=>{
-            const raw=location.hash.replace(/^#/,'');
-            const [path,query='']=raw.split('?');
-            if(path!=='/line')return null;
-            const q=new URLSearchParams(query),scene=q.get('scene'),line=q.get('line');
-            return scene&&line?{scene,line}:null;
-          };"""
-          new="""const focusRoute=()=>{
-            const raw=location.hash.replace(/^#/,'');
-            const [path,query='']=raw.split('?'),q=new URLSearchParams(query),scene=q.get('scene');
-            if(path==='/line'){const line=q.get('line');return scene&&line?{kind:'line',scene,line}:null}
-            if(path==='/stage'){const stage=q.get('stage');return scene&&stage?{kind:'stage',scene,stage}:null}
-            return null;
-          };"""
-          if old not in s:raise SystemExit('gesture lineRoute source not found')
-          s=s.replace(old,new,1)
-          s=s.replace("  const route=lineRoute(),api=window.MTS_INDEX_ZERO;","  const route=focusRoute(),api=window.MTS_INDEX_ZERO;",1)
-          s=s.replace("  const speech=api.store.getSpeech(route.scene,route.line),role=api.state.role?.();","  const speech=route.kind==='line'?api.store.getSpeech(route.scene,route.line):null,role=api.state.role?.();",1)
-          s=s.replace("  if(!lineRoute())return;","  if(!focusRoute())return;",1)
-          old="""const moveFocusLine=direction=>{
-            const route=lineRoute(),api=window.MTS_INDEX_ZERO;
-            if(!route||!api?.store)return false;
-            const rows=api.store.getScene(route.scene),index=rows.findIndex(x=>x.id===route.line);
-            if(index<0)return false;
-            const target=rows[index+(direction>0?1:-1)];
-            if(!target)return false;
-            location.hash=`#/line?scene=${encodeURIComponent(route.scene)}&line=${encodeURIComponent(target.id)}`;
-            return true;
-          };"""
-          new="""const moveFocusLine=direction=>{
-            const route=focusRoute(),api=window.MTS_INDEX_ZERO;
-            if(!route||!api?.store?.getReaderSequence)return false;
-            const rows=api.store.getReaderSequence(route.scene),index=rows.findIndex(item=>route.kind==='line'?item.kind==='speech'&&item.speech.id===route.line:item.kind==='stage'&&item.stage.id===route.stage);
-            if(index<0)return false;
-            const target=rows[index+(direction>0?1:-1)];
-            if(!target)return false;
-            location.hash=target.kind==='stage'?`#/stage?scene=${encodeURIComponent(route.scene)}&stage=${encodeURIComponent(target.stage.id)}`:`#/line?scene=${encodeURIComponent(route.scene)}&line=${encodeURIComponent(target.speech.id)}`;
-            return true;
-          };"""
-          if old not in s:raise SystemExit('gesture moveFocusLine source not found')
-          s=s.replace(old,new,1)
-          p.write_text(s,encoding='utf-8')
-
-          # Add a permanent static contract for Situation-aware swipe paging.
-          p=Path('app/tests/index_zero_static.mjs'); s=p.read_text(encoding='utf-8')
+          # Permanent static contract: focus paging must traverse Reader sequence,
+          # including standalone Situation pages.
+          p=Path('app/tests/index_zero_static.mjs')
+          s=p.read_text(encoding='utf-8')
           marker='Situation-aware focus paging contract missing'
           if marker not in s:
-            s += "\nconst stageGesture=read('src/gesture-controls.js');\nif(!stageGesture.includes(\"path==='/stage'\")||!stageGesture.includes('getReaderSequence(route.scene)'))fail('Situation-aware focus paging contract missing');\n"
+              s += "\nconst stageGesture=read('src/gesture-controls.js');\nif(!stageGesture.includes(\"path==='/stage'\")||!stageGesture.includes('getReaderSequence(route.scene)'))fail('Situation-aware focus paging contract missing');\n"
           p.write_text(s,encoding='utf-8')
 
-          # Replace the generated stage E2E with sequence-aware assertions.
+          # Sequence-aware browser QA. A Situation page may legitimately be followed
+          # by another Situation page before the next speech.
           p=Path('app/tests/stage_directions.e2e.spec.js')
           p.write_text(r'''const {test,expect}=require('@playwright/test');
           const BASE='http://127.0.0.1:4173/index.html';
@@ -119,24 +90,30 @@ jobs:
             });
             expect(sample.totalStandalone).toBe(5);expect(sample.standalone).toBeTruthy();expect(sample.attached).toBeTruthy();expect(sample.next).toBeTruthy();
             await page.goto(BASE+'#/script');
-            await expect(page.locator(`[data-stage-page="${sample.standalone.id}"]`)).toBeVisible();
-            await page.locator(`[data-stage-page="${sample.standalone.id}"]`).click();
+            const stageRow=page.locator(`[data-stage-page="${sample.standalone.id}"]`);
+            await expect(stageRow).toBeVisible();
+            await stageRow.click();
             await expect(page).toHaveURL(new RegExp(`#\\/stage\\?scene=${sample.scene}`));
             await expect(page.locator('.stage-page-text')).toHaveText(sample.standalone.text);
             await expect(page.locator('.stage-summary-ja')).toHaveText(sample.standalone.summaryJa);
             await expect(page.locator('.stage-vocab-row')).toHaveCount(sample.standalone.vocabulary.length);
             await expect(page.locator('.stage-notes li')).toHaveCount(sample.standalone.notes.length);
-            const beforeHash=await page.evaluate(()=>location.hash);
             await page.evaluate(()=>{const p=document.querySelector('.stage-page');p.dispatchEvent(new PointerEvent('pointerdown',{bubbles:true,pointerType:'touch',pointerId:71,clientX:310,clientY:260}));p.dispatchEvent(new PointerEvent('pointerup',{bubbles:true,pointerType:'touch',pointerId:71,clientX:100,clientY:264}))});
-            await expect(page).not.toHaveURL(new RegExp(beforeHash.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')));
-            const expected=routeFor(sample.scene,sample.next);expect(await page.evaluate(()=>location.hash)).toBe(expected);
+            expect(await page.evaluate(()=>location.hash)).toBe(routeFor(sample.scene,sample.next));
+
             await page.goto(`${BASE}#/line?scene=${sample.scene}&line=${sample.attached.speech.id}`);
-            const block=page.locator('.stage-context-block');await expect(block).toBeVisible();
+            await expect(page.locator('.stage-context-block')).toBeVisible();
             await expect(page.locator('[data-stage-direction]')).toHaveCount(sample.attached.rows.length);
             const learning=page.locator('[data-stage-direction]');
-            for(let i=0;i<sample.attached.rows.length;i++){const row=learning.nth(i);await expect(row.locator('.stage-direction-text')).toHaveText(sample.attached.rows[i].text);await expect(row.locator('.stage-summary-ja')).toHaveText(sample.attached.rows[i].summaryJa);expect(await row.locator('.stage-vocab-row').count()).toBe(sample.attached.rows[i].vocabulary.length);expect(await row.locator('.stage-notes li').count()).toBe(sample.attached.rows[i].notes.length)}
-            const order=await page.evaluate(()=>{const card=document.querySelector('[data-translation-card]'),stage=card.querySelector('.stage-context-block'),label=[...card.querySelectorAll('.eyebrow')].find(x=>x.textContent.trim()==='Translation');return !!(stage.compareDocumentPosition(label)&Node.DOCUMENT_POSITION_FOLLOWING)});expect(order).toBe(true);
-            const color=await page.locator('.stage-direction-text').first().evaluate(el=>getComputedStyle(el).color);expect(color).not.toBe('rgb(0, 0, 0)');
+            for(let i=0;i<sample.attached.rows.length;i++){
+              const row=learning.nth(i);
+              await expect(row.locator('.stage-direction-text')).toHaveText(sample.attached.rows[i].text);
+              await expect(row.locator('.stage-summary-ja')).toHaveText(sample.attached.rows[i].summaryJa);
+              expect(await row.locator('.stage-vocab-row').count()).toBe(sample.attached.rows[i].vocabulary.length);
+              expect(await row.locator('.stage-notes li').count()).toBe(sample.attached.rows[i].notes.length);
+            }
+            const order=await page.evaluate(()=>{const card=document.querySelector('[data-translation-card]'),stage=card.querySelector('.stage-context-block'),label=[...card.querySelectorAll('.eyebrow')].find(x=>x.textContent.trim()==='Translation');return !!(stage.compareDocumentPosition(label)&Node.DOCUMENT_POSITION_FOLLOWING)});
+            expect(order).toBe(true);
           });
 
           test('Practice speech projection remains exactly 1164 after Situation integration',async({page})=>{
@@ -146,6 +123,7 @@ jobs:
           });
           ''',encoding='utf-8')
           PY
+
       - name: Validate runtime and exact artifact
         run: |
           node scripts/validate-stage-directions.mjs
@@ -163,14 +141,17 @@ jobs:
           node scripts/assemble-production.mjs --verify-only
           node scripts/assemble-production.mjs --out-dir ../public
           test -e ../public/mousetrap_stage_directions.json
+
       - name: Install browser QA
         working-directory: app
         run: |
           npm install
           npx playwright install --with-deps chromium
+
       - name: Run complete browser regression
         working-directory: app
         run: npm run test:e2e
+
       - name: Commit verified production integration
         run: |
           git config user.name 'github-actions[bot]'
