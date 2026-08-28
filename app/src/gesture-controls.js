@@ -54,33 +54,140 @@ const resetFocusScroll=()=>{
   if(!lineRoute())return;
   requestAnimationFrame(()=>requestAnimationFrame(()=>window.scrollTo({top:0,left:0,behavior:'auto'})));
 };
-const moveFocusLine=direction=>{
+const focusTarget=direction=>{
   const route=lineRoute(),api=window.MTS_INDEX_ZERO;
-  if(!route||!api?.store)return false;
+  if(!route||!api?.store)return null;
   const rows=api.store.getScene(route.scene),index=rows.findIndex(x=>x.id===route.line);
-  if(index<0)return false;
+  if(index<0)return null;
   const target=rows[index+(direction>0?1:-1)];
-  if(!target)return false;
-  location.hash=`#/line?scene=${encodeURIComponent(route.scene)}&line=${encodeURIComponent(target.id)}`;
+  return target?{route,target}:null;
+};
+const moveFocusLine=direction=>{
+  const hit=focusTarget(direction);
+  if(!hit)return false;
+  location.hash=`#/line?scene=${encodeURIComponent(hit.route.scene)}&line=${encodeURIComponent(hit.target.id)}`;
   return true;
 };
+
+const REDUCED_MOTION=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
 let focusSwipe=null;
-const focusSwipeBlocked=target=>!!target.closest?.('button,a,input,select,textarea,summary,.vocab-inline,.word-row,.word-sheet');
+let focusSettling=false;
+let pendingEnterDirection=0;
+let suppressClickUntil=0;
+const interactiveSwipeBlock=target=>!!target.closest?.('input,select,textarea,[contenteditable="true"],[data-no-page-swipe]');
+const currentFocusPage=()=>document.querySelector('.line-page');
+const resetFocusPage=page=>{
+  if(!page)return;
+  page.classList.remove('is-focus-swiping','is-focus-settling');
+  page.style.removeProperty('--focus-swipe-x');
+  page.style.removeProperty('--focus-swipe-opacity');
+};
+const cancelFocusSwipe=()=>{
+  const state=focusSwipe;
+  focusSwipe=null;
+  if(!state)return;
+  const page=state.page?.isConnected?state.page:currentFocusPage();
+  if(!page)return;
+  if(REDUCED_MOTION()){resetFocusPage(page);return}
+  page.classList.remove('is-focus-swiping');
+  page.classList.add('is-focus-settling');
+  page.style.setProperty('--focus-swipe-x','0px');
+  page.style.setProperty('--focus-swipe-opacity','1');
+  setTimeout(()=>resetFocusPage(page),170);
+};
 const beginFocusSwipe=event=>{
-  if(event.pointerType==='mouse'||overlay&&!overlay.hidden||!event.target.closest?.('.line-page')||focusSwipeBlocked(event.target)){focusSwipe=null;return}
-  focusSwipe={pointerId:event.pointerId,startX:event.clientX,startY:event.clientY,startTime:event.timeStamp||performance.now()};
+  if(event.pointerType==='mouse'||focusSwipe||focusSettling||overlay&&!overlay.hidden&&!overlay.classList.contains('is-dismissing')||!event.target.closest?.('.line-page')||interactiveSwipeBlock(event.target))return;
+  const page=event.target.closest('.line-page');
+  focusSwipe={
+    pointerId:event.pointerId,page,startX:event.clientX,startY:event.clientY,lastX:event.clientX,lastY:event.clientY,
+    startTime:event.timeStamp||performance.now(),lastTime:event.timeStamp||performance.now(),axis:null,moved:false
+  };
+  try{page.setPointerCapture?.(event.pointerId)}catch{}
+};
+const moveFocusSwipe=event=>{
+  const state=focusSwipe;
+  if(!state||event.pointerId!==state.pointerId)return;
+  const dx=event.clientX-state.startX,dy=event.clientY-state.startY,ax=Math.abs(dx),ay=Math.abs(dy);
+  if(!state.axis&&Math.max(ax,ay)>=10){
+    if(ax>ay*1.08)state.axis='x';
+    else if(ay>ax*1.08)state.axis='y';
+  }
+  state.lastX=event.clientX;state.lastY=event.clientY;state.lastTime=event.timeStamp||performance.now();
+  if(state.axis!=='x')return;
+  state.moved=state.moved||ax>=14;
+  event.preventDefault();
+  const direction=dx<0?1:-1,available=!!focusTarget(direction),page=state.page?.isConnected?state.page:currentFocusPage();
+  if(!page)return;
+  state.page=page;
+  const resisted=available?dx:dx*.28;
+  page.classList.add('is-focus-swiping');
+  page.style.setProperty('--focus-swipe-x',`${resisted}px`);
+  page.style.setProperty('--focus-swipe-opacity',String(Math.max(.9,1-Math.min(Math.abs(resisted)/1200,.1))));
+};
+const animateFocusCommit=(direction,state)=>{
+  const hit=focusTarget(direction);
+  if(!hit){cancelFocusSwipe();return false}
+  focusSwipe=null;
+  focusSettling=true;
+  suppressClickUntil=performance.now()+320;
+  const page=state.page?.isConnected?state.page:currentFocusPage();
+  const navigate=()=>{
+    pendingEnterDirection=direction;
+    focusSettling=false;
+    moveFocusLine(direction);
+  };
+  if(!page||REDUCED_MOTION()){navigate();return true}
+  page.classList.remove('is-focus-swiping');
+  page.classList.add('is-focus-settling');
+  page.style.setProperty('--focus-swipe-x',direction>0?'-108vw':'108vw');
+  page.style.setProperty('--focus-swipe-opacity','.88');
+  setTimeout(navigate,155);
+  return true;
 };
 const endFocusSwipe=event=>{
-  if(!focusSwipe||event.pointerId!==focusSwipe.pointerId){focusSwipe=null;return false}
-  const dx=event.clientX-focusSwipe.startX,dy=event.clientY-focusSwipe.startY,duration=Math.max(1,(event.timeStamp||performance.now())-focusSwipe.startTime);
-  focusSwipe=null;
-  if(Math.abs(dx)<56||Math.abs(dx)<=Math.abs(dy)*1.25||duration>1000)return false;
-  return moveFocusLine(dx<0?1:-1);
+  const state=focusSwipe;
+  if(!state||event.pointerId!==state.pointerId)return false;
+  const dx=event.clientX-state.startX,dy=event.clientY-state.startY,ax=Math.abs(dx),ay=Math.abs(dy);
+  const duration=Math.max(1,(event.timeStamp||performance.now())-state.startTime);
+  if(state.axis==='x'&&state.moved)suppressClickUntil=performance.now()+260;
+  const width=Math.max(320,state.page?.clientWidth||window.innerWidth||320);
+  const distanceThreshold=Math.min(88,Math.max(46,width*.14));
+  const velocity=ax/duration;
+  const horizontal=state.axis==='x'&&ax>ay*1.05;
+  const commit=horizontal&&(ax>=distanceThreshold||(ax>=30&&velocity>=.48));
+  if(commit)return animateFocusCommit(dx<0?1:-1,state);
+  cancelFocusSwipe();
+  return false;
 };
-document.addEventListener('pointerdown',beginFocusSwipe,{passive:true});
-document.addEventListener('pointerup',endFocusSwipe,{passive:true});
-document.addEventListener('pointercancel',()=>{focusSwipe=null},{passive:true});
-window.addEventListener('hashchange',()=>{scheduleFocusRoleSync();resetFocusScroll()});
+const cancelFocusPointer=event=>{
+  if(!focusSwipe||event.pointerId!==focusSwipe.pointerId)return;
+  cancelFocusSwipe();
+};
+const animateIncomingFocusPage=()=>{
+  const direction=pendingEnterDirection;
+  pendingEnterDirection=0;
+  if(!direction||REDUCED_MOTION())return;
+  requestAnimationFrame(()=>{
+    const page=currentFocusPage();
+    if(!page)return;
+    page.classList.add(direction>0?'focus-enter-next':'focus-enter-prev');
+    requestAnimationFrame(()=>page.classList.add('focus-enter-active'));
+    setTimeout(()=>page.classList.remove('focus-enter-next','focus-enter-prev','focus-enter-active'),190);
+  });
+};
+
+document.addEventListener('pointerdown',beginFocusSwipe,{passive:true,capture:true});
+document.addEventListener('pointermove',moveFocusSwipe,{passive:false,capture:true});
+document.addEventListener('pointerup',endFocusSwipe,{passive:true,capture:true});
+document.addEventListener('pointercancel',cancelFocusPointer,{passive:true,capture:true});
+document.addEventListener('click',event=>{
+  if(performance.now()>=suppressClickUntil||!event.target.closest?.('.line-page'))return;
+  event.preventDefault();
+  event.stopImmediatePropagation();
+},{capture:true});
+window.addEventListener('blur',()=>{if(focusSwipe)cancelFocusSwipe()});
+document.addEventListener('visibilitychange',()=>{if(document.hidden&&focusSwipe)cancelFocusSwipe()});
+window.addEventListener('hashchange',()=>{focusSwipe=null;scheduleFocusRoleSync();resetFocusScroll();animateIncomingFocusPage()});
 queueMicrotask(()=>{
   scheduleFocusRoleSync();
   window.MTS_INDEX_ZERO?.store?.addEventListener?.('ready',scheduleFocusRoleSync);
@@ -124,5 +231,5 @@ if(sheet&&overlay){
   sheet.addEventListener('pointerup',event=>{if(event.pointerType!=='touch'&&gesture)end(event.clientX,event.clientY,event.timeStamp)});
   sheet.addEventListener('pointercancel',event=>{if(event.pointerType!=='touch')cancel()});
 
-  window.MTS_GESTURES=Object.freeze({version:3,closeSheet,resetSheet,moveFocusLine,syncFocusRole,resetFocusScroll});
+  window.MTS_GESTURES=Object.freeze({version:4,closeSheet,resetSheet,moveFocusLine,syncFocusRole,resetFocusScroll});
 }
