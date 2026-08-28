@@ -166,36 +166,31 @@
       "surface": "up Centre",
       "lemma": "upstage centre",
       "meaning": "【舞台】舞台奥の中央。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台奥中央を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "Up Left",
       "lemma": "upstage left",
       "meaning": "【舞台】舞台奥の左側（俳優から見た左）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥左を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "down Right",
       "lemma": "downstage right",
       "meaning": "【舞台】舞台前方の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台前方右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "down Left",
       "lemma": "downstage left",
       "meaning": "【舞台】舞台前方の左側（俳優から見た左）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台前方左を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "Left Centre",
@@ -213,8 +208,7 @@
       "surface": "downstage",
       "lemma": "downstage",
       "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】客席に近い舞台前方を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "upstage",
@@ -227,8 +221,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "arched opening",
@@ -362,15 +355,13 @@
       "surface": "fade",
       "lemma": "fade",
       "meaning": "【動】\n徐々に薄れる、弱まる。\n【舞台】\n光・音などを徐々に弱める。",
-      "playMeaning": true,
-      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+      "playMeaning": true
     },
     {
       "surface": "fades",
       "lemma": "fade",
       "meaning": "【動】\n徐々に薄れる、弱まる。\n【舞台】\n光・音などを徐々に弱める。",
-      "playMeaning": true,
-      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+      "playMeaning": true
     },
     {
       "surface": "blackout",
@@ -390,22 +381,19 @@
       "surface": "complete darkness",
       "lemma": "complete darkness",
       "meaning": "【名句】完全な暗闇。",
-      "playMeaning": true,
-      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+      "playMeaning": true
     },
     {
       "surface": "shrill whistle",
       "lemma": "shrill whistle",
       "meaning": "【名句】甲高い笛・口笛の音。",
-      "playMeaning": true,
-      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+      "playMeaning": true
     },
     {
       "surface": "police whistles",
       "lemma": "police whistle",
       "meaning": "【名】警察官が用いる笛、警笛。",
-      "playMeaning": true,
-      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+      "playMeaning": true
     },
     {
       "surface": "rises",
@@ -442,8 +430,7 @@
       "surface": "off",
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+      "playMeaning": true
     },
     {
       "surface": "enters",
@@ -496,15 +483,13 @@
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "crosses",
@@ -535,8 +520,7 @@
       "surface": "down Right",
       "lemma": "downstage right",
       "meaning": "【舞台】舞台前方の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台前方右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "fireplace",
@@ -688,8 +672,7 @@
       "surface": "off",
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+      "playMeaning": true
     },
     {
       "surface": "takes off",
@@ -898,8 +881,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "sits",
@@ -1340,8 +1322,7 @@
       "surface": "Fourposter",
       "lemma": "four-poster",
       "meaning": "【名詞】\n四隅に高い柱があり、上部の枠や天蓋を支える大型ベッド。",
-      "playMeaning": true,
-      "inThisPlay": "四本の柱で天蓋を支えるfour-poster bedを指す。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0033": [
@@ -1545,8 +1526,7 @@
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "signboard",
@@ -1692,8 +1672,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "crosses",
@@ -1719,8 +1698,7 @@
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "exits",
@@ -1733,8 +1711,7 @@
       "surface": "door bell rings",
       "lemma": "doorbell",
       "meaning": "【名】玄関の呼び鈴、ドアベル。",
-      "playMeaning": true,
-      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+      "playMeaning": true
     },
     {
       "surface": "enters",
@@ -1759,8 +1736,7 @@
       "surface": "off",
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0043": [
@@ -1768,8 +1744,7 @@
       "surface": "off",
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0044": [
@@ -1808,29 +1783,25 @@
       "surface": "off",
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+      "playMeaning": true
     },
     {
       "surface": "up Centre",
       "lemma": "upstage centre",
       "meaning": "【舞台】舞台奥の中央。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台奥中央を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "refectory table",
@@ -2023,8 +1994,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "moves",
@@ -2072,8 +2042,7 @@
       "surface": "down Right",
       "lemma": "downstage right",
       "meaning": "【舞台】舞台前方の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台前方右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "glances",
@@ -2105,8 +2074,7 @@
       "surface": "down Right",
       "lemma": "downstage right",
       "meaning": "【舞台】舞台前方の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台前方右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "moves",
@@ -2119,8 +2087,7 @@
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "archway",
@@ -2166,15 +2133,13 @@
       "surface": "off",
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+      "playMeaning": true
     },
     {
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "dining room",
@@ -2270,15 +2235,13 @@
       "surface": "off",
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+      "playMeaning": true
     },
     {
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "stands",
@@ -2482,8 +2445,7 @@
       "surface": "fourposter",
       "lemma": "four-poster",
       "meaning": "【名詞】\n四隅に高い柱があり、上部の枠や天蓋を支える大型ベッド。",
-      "playMeaning": true,
-      "inThisPlay": "四本の柱で天蓋を支えるfour-poster bedを指す。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0058": [
@@ -2627,8 +2589,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "moves",
@@ -2719,7 +2680,7 @@
     {
       "surface": "Prefab Nests",
       "lemma": "Prefab Nests",
-      "meaning": "【固有名詞的表現】Prefab Nests。本作中で使われる架空の建築・事業名。",
+      "meaning": "【固有名詞的表現】\nPrefab Nestsという名称。prefabはprefabricated（プレハブ式の）の略。",
       "playMeaning": true,
       "inThisPlay": "Christopherが自分の将来の建築を冗談めかして名付けた架空の呼称。Prefabはprefabricated（プレハブ）の略。"
     },
@@ -2733,15 +2694,13 @@
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "up Left",
       "lemma": "upstage left",
       "meaning": "【舞台】舞台奥の左側（俳優から見た左）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥左を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "archway",
@@ -2905,8 +2864,7 @@
       "surface": "up Left",
       "lemma": "upstage left",
       "meaning": "【舞台】舞台奥の左側（俳優から見た左）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥左を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "crosses",
@@ -2941,15 +2899,13 @@
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "front door",
@@ -2961,8 +2917,7 @@
       "surface": "door bell peals",
       "lemma": "doorbell",
       "meaning": "【名】玄関の呼び鈴、ドアベル。",
-      "playMeaning": true,
-      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+      "playMeaning": true
     },
     {
       "surface": "wind and snow is heard",
@@ -3020,7 +2975,7 @@
     {
       "surface": "Monkswell Manor",
       "lemma": "Monkswell Manor",
-      "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
+      "meaning": "【固有名詞】\nMonkswell Manorという屋敷・施設名。",
       "playMeaning": true,
       "inThisPlay": "本作の主要舞台となる屋敷の名称。"
     },
@@ -3028,8 +2983,7 @@
       "surface": "off",
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0076": [
@@ -3037,15 +2991,13 @@
       "surface": "off",
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+      "playMeaning": true
     },
     {
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "archway",
@@ -3228,8 +3180,7 @@
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "front door",
@@ -3478,29 +3429,25 @@
       "surface": "off",
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+      "playMeaning": true
     },
     {
       "surface": "up Centre",
       "lemma": "upstage centre",
       "meaning": "【舞台】舞台奥の中央。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台奥中央を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "enter",
@@ -3613,8 +3560,7 @@
       "surface": "down Right",
       "lemma": "downstage right",
       "meaning": "【舞台】舞台前方の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台前方右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "exits",
@@ -3666,8 +3612,7 @@
       "surface": "fourposter",
       "lemma": "four-poster",
       "meaning": "【名詞】\n四隅に高い柱があり、上部の枠や天蓋を支える大型ベッド。",
-      "playMeaning": true,
-      "inThisPlay": "四本の柱で天蓋を支えるfour-poster bedを指す。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0102": [
@@ -3696,8 +3641,7 @@
       "surface": "down Right",
       "lemma": "downstage right",
       "meaning": "【舞台】舞台前方の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台前方右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "fireplace",
@@ -3792,8 +3736,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "moves",
@@ -4004,8 +3947,7 @@
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "enters",
@@ -4141,8 +4083,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "moves",
@@ -4175,8 +4116,7 @@
       "surface": "down Left",
       "lemma": "downstage left",
       "meaning": "【舞台】舞台前方の左側（俳優から見た左）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台前方左を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "moves",
@@ -4298,8 +4238,7 @@
       "surface": "door bell peals",
       "lemma": "doorbell",
       "meaning": "【名】玄関の呼び鈴、ドアベル。",
-      "playMeaning": true,
-      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+      "playMeaning": true
     },
     {
       "surface": "front door",
@@ -4311,15 +4250,13 @@
       "surface": "off",
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+      "playMeaning": true
     },
     {
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "enters",
@@ -4402,8 +4339,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "moves",
@@ -4509,8 +4445,7 @@
       "surface": "off",
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+      "playMeaning": true
     },
     {
       "surface": "takes off",
@@ -4550,8 +4485,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "sits",
@@ -4994,22 +4928,19 @@
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "down Left",
       "lemma": "downstage left",
       "meaning": "【舞台】舞台前方の左側（俳優から見た左）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台前方左を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "refectory table",
@@ -5095,8 +5026,7 @@
       "surface": "off",
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0152": [
@@ -5300,8 +5230,7 @@
       "surface": "down Right",
       "lemma": "downstage right",
       "meaning": "【舞台】舞台前方の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台前方右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "archway",
@@ -5382,8 +5311,7 @@
       "surface": "fourposter",
       "lemma": "four-poster",
       "meaning": "【名詞】\n四隅に高い柱があり、上部の枠や天蓋を支える大型ベッド。",
-      "playMeaning": true,
-      "inThisPlay": "四本の柱で天蓋を支えるfour-poster bedを指す。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0160": [
@@ -5397,8 +5325,7 @@
       "surface": "fourposter",
       "lemma": "four-poster",
       "meaning": "【名詞】\n四隅に高い柱があり、上部の枠や天蓋を支える大型ベッド。",
-      "playMeaning": true,
-      "inThisPlay": "四本の柱で天蓋を支えるfour-poster bedを指す。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0161": [],
@@ -5446,8 +5373,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "crosses",
@@ -5599,8 +5525,7 @@
       "surface": "door bell rings",
       "lemma": "doorbell",
       "meaning": "【名】玄関の呼び鈴、ドアベル。",
-      "playMeaning": true,
-      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0171": [],
@@ -5643,8 +5568,7 @@
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "front door",
@@ -5672,15 +5596,13 @@
       "surface": "off",
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+      "playMeaning": true
     },
     {
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "enters",
@@ -5746,14 +5668,14 @@
     {
       "surface": "Monkswell Manor",
       "lemma": "Monkswell Manor",
-      "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
+      "meaning": "【固有名詞】\nMonkswell Manorという屋敷・施設名。",
       "playMeaning": true,
       "inThisPlay": "本作の主要舞台となる屋敷の名称。"
     },
     {
       "surface": "Monkswell Manor Guest House",
       "lemma": "Monkswell Manor Guest House",
-      "meaning": "【固有名詞】Monkswell Manor Guest House。本作でMollieとGilesが営む宿泊施設名。",
+      "meaning": "【固有名詞】\nMonkswell Manor Guest Houseという宿泊施設名。",
       "playMeaning": true,
       "inThisPlay": "MollieとGilesが始めたゲストハウスの名称。"
     }
@@ -5876,8 +5798,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "crosses",
@@ -6042,8 +5963,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "moves",
@@ -6161,8 +6081,9 @@
     {
       "surface": "cut off from civilization",
       "lemma": "cut off",
-      "meaning": "大雪で道路・配達・郵便などが止まり、Monkswell Manorが外界から物理的に孤立すること。場面全体の重要な転換点。／雪で道路が遮断され、さらに電話も使えなくなり、外部との移動・通信の両方が断たれた状態。",
-      "playMeaning": true
+      "meaning": "【句動詞】\n① 切り離す、切り取る\n② 外部との連絡・交通などを断つ、孤立させる。",
+      "playMeaning": true,
+      "inThisPlay": "大雪で交通や配達が途絶え、Monkswell Manorが外界から孤立すること。"
     },
     {
       "surface": "civilization",
@@ -6203,20 +6124,21 @@
     {
       "surface": "cut off",
       "lemma": "cut off",
-      "meaning": "大雪で道路・配達・郵便などが止まり、Monkswell Manorが外界から物理的に孤立すること。場面全体の重要な転換点。／雪で道路が遮断され、さらに電話も使えなくなり、外部との移動・通信の両方が断たれた状態。",
-      "playMeaning": true
+      "meaning": "【句動詞】\n① 切り離す、切り取る\n② 外部との連絡・交通などを断つ、孤立させる。",
+      "playMeaning": true,
+      "inThisPlay": "大雪で交通や配達が途絶え、Monkswell Manorが外界から孤立すること。"
     },
     {
       "surface": "Monkswell Manor",
       "lemma": "Monkswell Manor",
-      "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
+      "meaning": "【固有名詞】\nMonkswell Manorという屋敷・施設名。",
       "playMeaning": true,
       "inThisPlay": "本作の主要舞台となる屋敷の名称。"
     },
     {
       "surface": "Monkswell Manor Guest House",
       "lemma": "Monkswell Manor Guest House",
-      "meaning": "【固有名詞】Monkswell Manor Guest House。本作でMollieとGilesが営む宿泊施設名。",
+      "meaning": "【固有名詞】\nMonkswell Manor Guest Houseという宿泊施設名。",
       "playMeaning": true,
       "inThisPlay": "MollieとGilesが始めたゲストハウスの名称。"
     },
@@ -6647,8 +6569,7 @@
       "surface": "up Left",
       "lemma": "upstage left",
       "meaning": "【舞台】舞台奥の左側（俳優から見た左）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥左を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "library",
@@ -6725,8 +6646,7 @@
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "archway",
@@ -6755,8 +6675,7 @@
       "surface": "off",
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0022": [],
@@ -6765,8 +6684,7 @@
       "surface": "off",
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+      "playMeaning": true
     },
     {
       "surface": "disappears",
@@ -6793,8 +6711,7 @@
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "crosses",
@@ -6861,8 +6778,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "exits",
@@ -7216,8 +7132,7 @@
       "surface": "volume",
       "lemma": "volume",
       "meaning": "【名】音量、ボリューム。【名】冊・巻、容積。",
-      "playMeaning": true,
-      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+      "playMeaning": true
     },
     {
       "surface": "looks",
@@ -7290,8 +7205,7 @@
       "surface": "up Left",
       "lemma": "upstage left",
       "meaning": "【舞台】舞台奥の左側（俳優から見た左）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥左を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "library",
@@ -7318,8 +7232,7 @@
       "surface": "up Left",
       "lemma": "upstage left",
       "meaning": "【舞台】舞台奥の左側（俳優から見た左）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥左を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "library",
@@ -7394,8 +7307,7 @@
       "surface": "down Left",
       "lemma": "downstage left",
       "meaning": "【舞台】舞台前方の左側（俳優から見た左）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台前方左を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "enters",
@@ -7756,8 +7668,7 @@
       "surface": "telephone rings",
       "lemma": "telephone rings",
       "meaning": "【表現】電話のベルが鳴る。",
-      "playMeaning": true,
-      "inThisPlay": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
+      "playMeaning": true
     },
     {
       "surface": "duster",
@@ -7836,14 +7747,14 @@
     {
       "surface": "Monkswell Manor",
       "lemma": "Monkswell Manor",
-      "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
+      "meaning": "【固有名詞】\nMonkswell Manorという屋敷・施設名。",
       "playMeaning": true,
       "inThisPlay": "本作の主要舞台となる屋敷の名称。"
     },
     {
       "surface": "Monkswell Manor Guest House",
       "lemma": "Monkswell Manor Guest House",
-      "meaning": "【固有名詞】Monkswell Manor Guest House。本作でMollieとGilesが営む宿泊施設名。",
+      "meaning": "【固有名詞】\nMonkswell Manor Guest Houseという宿泊施設名。",
       "playMeaning": true,
       "inThisPlay": "MollieとGilesが始めたゲストハウスの名称。"
     },
@@ -7871,8 +7782,7 @@
       "surface": "off",
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+      "playMeaning": true
     },
     {
       "surface": "turns",
@@ -7896,8 +7806,7 @@
       "surface": "up Left",
       "lemma": "upstage left",
       "meaning": "【舞台】舞台奥の左側（俳優から見た左）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥左を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "crosses",
@@ -7917,8 +7826,7 @@
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "enters",
@@ -7952,15 +7860,13 @@
       "surface": "up Centre",
       "lemma": "upstage centre",
       "meaning": "【舞台】舞台奥の中央。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台奥中央を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】舞台中央という位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "moving",
@@ -8398,8 +8304,7 @@
       "surface": "off",
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
+      "playMeaning": true
     },
     {
       "surface": "refectory table",
@@ -8418,8 +8323,7 @@
       "surface": "up Left",
       "lemma": "upstage left",
       "meaning": "【舞台】舞台奥の左側（俳優から見た左）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥左を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "library",
@@ -8528,8 +8432,7 @@
       "surface": "up Right",
       "lemma": "upstage right",
       "meaning": "【舞台】舞台奥の右側（俳優から見た右）。",
-      "playMeaning": true,
-      "inThisPlay": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "archway",
@@ -9236,8 +9139,9 @@
     {
       "surface": "cut off",
       "lemma": "cut off",
-      "meaning": "大雪で道路・配達・郵便などが止まり、Monkswell Manorが外界から物理的に孤立すること。場面全体の重要な転換点。／雪で道路が遮断され、さらに電話も使えなくなり、外部との移動・通信の両方が断たれた状態。",
-      "playMeaning": true
+      "meaning": "【句動詞】\n① 切り離す、切り取る\n② 外部との連絡・交通などを断つ、孤立させる。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは雪に加えて電話も不通になり、Monkswell Manorが外部との移動・通信を断たれた状態。"
     }
   ],
   "act1-scene2-speech-0168": [],
@@ -9735,7 +9639,8 @@
       "surface": "Three Blind Mice",
       "lemma": "Three Blind Mice",
       "meaning": "英語圏の伝承童謡『Three Blind Mice』の題名。",
-      "playMeaning": true
+      "playMeaning": true,
+      "inThisPlay": "ここでは殺人事件のメモや紙に記された言葉・旋律として現れ、事件を結びつける反復モチーフになっている童謡。"
     },
     {
       "surface": "bar of music",
@@ -11373,8 +11278,9 @@
     {
       "surface": "a wider field",
       "lemma": "wider field",
-      "meaning": "Culver Streetと違いMonkswell Manorには、次の標的になり得る人物が複数いるという意味。",
-      "playMeaning": true
+      "meaning": "【名詞句】\nより広い範囲、より多くの対象・選択肢がある範囲。",
+      "playMeaning": true,
+      "inThisPlay": "Culver Streetでは被害者候補が一人だったのに対し、Monkswell Manorには次の標的になり得る人物が複数いる、という意味。"
     }
   ],
   "act2-speech-0021": [
@@ -11694,8 +11600,9 @@
     {
       "surface": "runs in people's head",
       "lemma": "run in someone's head",
-      "meaning": "Three Blind Miceの旋律が頭から離れず繰り返し浮かぶ、という意味。殺人と結びついたため不穏な含みを持つ。",
-      "playMeaning": true
+      "meaning": "【慣用表現】\n考え・旋律などが頭の中で繰り返し浮かぶ、頭から離れない。",
+      "playMeaning": true,
+      "inThisPlay": "ここではThree Blind Miceの旋律が頭から離れず、繰り返し浮かぶという意味。"
     }
   ],
   "act2-speech-0055": [],
@@ -11790,8 +11697,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "gesturing",
@@ -11938,8 +11844,7 @@
       "surface": "turns away",
       "lemma": "turn away",
       "meaning": "追い返す／入場を断る",
-      "playMeaning": true,
-      "inThisPlay": "相手や客席から顔・体をそむける動作。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0077": [
@@ -11977,8 +11882,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "moving",
@@ -12164,8 +12068,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "Left",
@@ -12201,8 +12104,7 @@
       "surface": "pause",
       "lemma": "pause",
       "meaning": "【動詞】\n一時止まる、間を置く。\n【名詞】\n短い中断、間。",
-      "playMeaning": true,
-      "inThisPlay": "演技上の間を置く指示。無言の時間そのものが反応や緊張を表す。"
+      "playMeaning": true
     },
     {
       "surface": "rising",
@@ -12595,8 +12497,7 @@
       "surface": "pause",
       "lemma": "pause",
       "meaning": "【動詞】\n一時止まる、間を置く。\n【名詞】\n短い中断、間。",
-      "playMeaning": true,
-      "inThisPlay": "演技上の間を置く指示。無言の時間そのものが反応や緊張を表す。"
+      "playMeaning": true
     },
     {
       "surface": "refectory table",
@@ -12784,8 +12685,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "moving",
@@ -12841,8 +12741,7 @@
       "surface": "pause",
       "lemma": "pause",
       "meaning": "【動詞】\n一時止まる、間を置く。\n【名詞】\n短い中断、間。",
-      "playMeaning": true,
-      "inThisPlay": "演技上の間を置く指示。無言の時間そのものが反応や緊張を表す。"
+      "playMeaning": true
     },
     {
       "surface": "Right",
@@ -12918,8 +12817,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "Left",
@@ -13347,8 +13245,7 @@
       "surface": "pause",
       "lemma": "pause",
       "meaning": "【動詞】\n一時止まる、間を置く。\n【名詞】\n短い中断、間。",
-      "playMeaning": true,
-      "inThisPlay": "演技上の間を置く指示。無言の時間そのものが反応や緊張を表す。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0133": [
@@ -13356,8 +13253,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "considering",
@@ -13553,8 +13449,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "moving",
@@ -13770,8 +13665,7 @@
       "surface": "turns away",
       "lemma": "turn away",
       "meaning": "追い返す／入場を断る",
-      "playMeaning": true,
-      "inThisPlay": "相手や客席から顔・体をそむける動作。"
+      "playMeaning": true
     }
   ],
   "act2-speech-0163": [
@@ -14189,8 +14083,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "newspaper",
@@ -14204,8 +14097,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "Left",
@@ -14556,8 +14448,7 @@
       "surface": "turns away",
       "lemma": "turn away",
       "meaning": "追い返す／入場を断る",
-      "playMeaning": true,
-      "inThisPlay": "相手や客席から顔・体をそむける動作。"
+      "playMeaning": true
     },
     {
       "surface": "unease",
@@ -14800,8 +14691,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "moving",
@@ -14906,8 +14796,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "Left",
@@ -15141,8 +15030,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "moving",
@@ -15164,8 +15052,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "moving",
@@ -15530,8 +15417,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "moving",
@@ -15591,8 +15477,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "down",
@@ -15757,8 +15642,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "Right",
@@ -15811,8 +15695,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "moving",
@@ -16236,8 +16119,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "down",
@@ -16470,8 +16352,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "enters",
@@ -16601,8 +16482,7 @@
       "surface": "Centre",
       "lemma": "centre stage",
       "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
-      "playMeaning": true,
-      "inThisPlay": "ト書きの Centre は舞台中央の位置指定。"
+      "playMeaning": true
     },
     {
       "surface": "moving",
@@ -17476,8 +17356,9 @@
     {
       "surface": "cut off",
       "lemma": "cut off",
-      "meaning": "大雪で道路・配達・郵便などが止まり、Monkswell Manorが外界から物理的に孤立すること。場面全体の重要な転換点。／雪で道路が遮断され、さらに電話も使えなくなり、外部との移動・通信の両方が断たれた状態。",
-      "playMeaning": true
+      "meaning": "【句動詞】\n① 切り離す、切り取る\n② 外部との連絡・交通などを断つ、孤立させる。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは「孤立する」ではなく、童謡の cut off their tails で「尾を切り落とす」の意味。"
     },
     {
       "surface": "snick",
@@ -18033,7 +17914,7 @@
     {
       "surface": "Morgan's Bank",
       "lemma": "Morgan's Bank",
-      "meaning": "【固有名詞】\n劇中で住所の受取先として名が挙がる銀行名。実在の特定機関とは断定しない。",
+      "meaning": "【固有名詞】\nMorgan's Bankという銀行名。",
       "playMeaning": true,
       "inThisPlay": "Casewellが英国での連絡先を「Morgan’s Bank気付」と答える。"
     },
@@ -18060,7 +17941,7 @@
     {
       "surface": "Ledbury Hotel",
       "lemma": "Ledbury Hotel",
-      "meaning": "【固有名詞】\n劇中で宿泊先として名が挙がるホテル。実在施設の同定はしない。",
+      "meaning": "【固有名詞】\nLedbury Hotelというホテル名。",
       "playMeaning": true,
       "inThisPlay": "Casewellがイングランド到着後の宿泊先として答える名称。"
     },
@@ -18075,8 +17956,9 @@
     {
       "surface": "Monkswell Manor",
       "lemma": "Monkswell Manor",
-      "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
-      "playMeaning": true
+      "meaning": "【固有名詞】\nMonkswell Manorという屋敷・施設名。",
+      "playMeaning": true,
+      "inThisPlay": "本作の主要舞台で、MollieとGilesがゲストハウスとして営んでいる屋敷の名称。"
     }
   ],
   "act2-speech-0449": [],
@@ -19898,8 +19780,9 @@
     {
       "surface": "Spot and Plain",
       "lemma": "Spot and Plain",
-      "meaning": "【固有名詞】\n劇中のLongridge Farmの思い出で言及される犬の名前。",
-      "playMeaning": true
+      "meaning": "【固有名詞】\nSpot と Plain という二つの名前。",
+      "playMeaning": true,
+      "inThisPlay": "直前にCasewellが思い出したLongridge Farmの犬たち、SpotとPlainを指す。"
     }
   ],
   "act2-speech-0597": [
@@ -20135,8 +20018,9 @@
     {
       "surface": "Monkswell Manor",
       "lemma": "Monkswell Manor",
-      "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
-      "playMeaning": true
+      "meaning": "【固有名詞】\nMonkswell Manorという屋敷・施設名。",
+      "playMeaning": true,
+      "inThisPlay": "本作の主要舞台で、警察が事件との関係から捜査対象地点として把握していた屋敷の名称。"
     },
     {
       "surface": "put to him",

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "scope": "Vocabulary meaning / inThisPlay separation, polysemy context retention, proper-noun context precision, and dictionary neutrality",
+  "baselineMain": "7e54e0b67b6ffe24396dee349de2a72b61da3c32",
+  "policy": {
+    "meaning": "Dictionary-style neutral Japanese meaning only",
+    "inThisPlay": "Required for polysemous entries; otherwise added only when play context materially selects, changes, or clarifies the meaning",
+    "stageDirections": "Same policy as dialogue; polysemous stage terms retain inThisPlay",
+    "properNouns": "Included broadly; inThisPlay is optional when the dictionary description already identifies the entity sufficiently"
+  },
+  "repairs": {
+    "changedDictionaryEntries": 10,
+    "changedDictionary": [
+      "cut off",
+      "Ledbury Hotel",
+      "Monkswell Manor",
+      "Monkswell Manor Guest House",
+      "Morgan's Bank",
+      "Prefab Nests",
+      "reproach oneself",
+      "run in someone's head",
+      "Spot and Plain",
+      "wider field"
+    ],
+    "lineMeaningSynchronizations": 19,
+    "redundantInThisPlayRemoved": 126,
+    "inThisPlayAddedOrUpdated": 10,
+    "polysemyContextsPreserved": 167,
+    "netInThisPlayChange": -116
+  },
+  "finalAudit": {
+    "dictionaryEntries": 1375,
+    "vocabularyItems": 2926,
+    "inThisPlayItems": 754,
+    "properNounOccurrences": 99,
+    "genericProperNounMissingContext": 0,
+    "dictionaryPlayContextCandidates": 0
+  },
+  "semanticGates": {
+    "unclassifiedDictionaryEntries": 0,
+    "polysemyWithoutInThisPlay": 0,
+    "genericInThisPlayForbidden": true,
+    "playSpecificDictionaryMeaningForbidden": true,
+    "surfaceLemmaConflicts": 0,
+    "duplicateSurfaceLemmaPairs": 0,
+    "singleWordDictionaryHeadingRequired": true,
+    "multiPosSingleWordSeparateHeadingsRequired": true,
+    "cutOffMultipleSensesSentinel": true,
+    "stageAndDialogueContextSentinels": true
+  },
+  "verification": {
+    "contextPrecisionAudit": "PASS",
+    "vocabularySemanticValidator": "PASS",
+    "productionAssemblyVerify": "PASS",
+    "completeUiRegression": "PASS",
+    "uiRegressionRunId": 33185281213
+  }
+}

@@ -7594,10 +7594,10 @@
     "lemma": "cut off",
     "ipa": "",
     "pos": "句動詞",
-    "coreMeaning": "大雪で道路・配達・郵便などが止まり、Monkswell Manorが外界から物理的に孤立すること。場面全体の重要な転換点。／雪で道路が遮断され、さらに電話も使えなくなり、外部との移動・通信の両方が断たれた状態。",
+    "coreMeaning": "【句動詞】\n① 切り離す、切り取る\n② 外部との連絡・交通などを断つ、孤立させる。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "大雪で道路・配達・郵便などが止まり、Monkswell Manorが外界から物理的に孤立すること。場面全体の重要な転換点。／雪で道路が遮断され、さらに電話も使えなくなり、外部との移動・通信の両方が断たれた状態。"
+    "meaning": "【句動詞】\n① 切り離す、切り取る\n② 外部との連絡・交通などを断つ、孤立させる。"
   },
   "suit": {
     "lemma": "suit",
@@ -9143,10 +9143,10 @@
     "lemma": "wider field",
     "ipa": "",
     "pos": "名詞句",
-    "coreMeaning": "Culver Streetと違いMonkswell Manorには、次の標的になり得る人物が複数いるという意味。",
+    "coreMeaning": "【名詞句】\nより広い範囲、より多くの対象・選択肢がある範囲。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "Culver Streetと違いMonkswell Manorには、次の標的になり得る人物が複数いるという意味。"
+    "meaning": "【名詞句】\nより広い範囲、より多くの対象・選択肢がある範囲。"
   },
   "surely": {
     "lemma": "surely",
@@ -9221,10 +9221,10 @@
     "lemma": "run in someone's head",
     "ipa": "",
     "pos": "慣用表現",
-    "coreMeaning": "Three Blind Miceの旋律が頭から離れず繰り返し浮かぶ、という意味。殺人と結びついたため不穏な含みを持つ。",
+    "coreMeaning": "【慣用表現】\n考え・旋律などが頭の中で繰り返し浮かぶ、頭から離れない。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "Three Blind Miceの旋律が頭から離れず繰り返し浮かぶ、という意味。殺人と結びついたため不穏な含みを持つ。"
+    "meaning": "【慣用表現】\n考え・旋律などが頭の中で繰り返し浮かぶ、頭から離れない。"
   },
   "make something up": {
     "lemma": "make something up",
@@ -9940,10 +9940,10 @@
     "lemma": "reproach oneself",
     "ipa": "",
     "pos": "動詞句",
-    "coreMeaning": "Longridge Farm事件について少しでも自分に責任・後ろめたさがある者は、それを認めるべきだという意味。",
+    "coreMeaning": "【動詞句】\n自分自身を責める、自責する。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "Longridge Farm事件について少しでも自分に責任・後ろめたさがある者は、それを認めるべきだという意味。"
+    "meaning": "【動詞句】\n自分自身を責める、自責する。"
   },
   "come out with something": {
     "lemma": "come out with something",
@@ -10865,12 +10865,12 @@
   "Morgan's Bank": {
     "lemma": "Morgan's Bank",
     "pos": "固有名詞",
-    "coreMeaning": "【固有名詞】\n劇中で住所の受取先として名が挙がる銀行名。実在の特定機関とは断定しない。",
+    "coreMeaning": "【固有名詞】\nMorgan's Bankという銀行名。",
     "tags": [
       "proper noun",
       "institution"
     ],
-    "meaning": "【固有名詞】\n劇中で住所の受取先として名が挙がる銀行名。実在の特定機関とは断定しない。"
+    "meaning": "【固有名詞】\nMorgan's Bankという銀行名。"
   },
   "Leadenhall Street": {
     "lemma": "Leadenhall Street",
@@ -10885,12 +10885,12 @@
   "Ledbury Hotel": {
     "lemma": "Ledbury Hotel",
     "pos": "固有名詞",
-    "coreMeaning": "【固有名詞】\n劇中で宿泊先として名が挙がるホテル。実在施設の同定はしない。",
+    "coreMeaning": "【固有名詞】\nLedbury Hotelというホテル名。",
     "tags": [
       "proper noun",
       "hotel"
     ],
-    "meaning": "【固有名詞】\n劇中で宿泊先として名が挙がるホテル。実在施設の同定はしない。"
+    "meaning": "【固有名詞】\nLedbury Hotelというホテル名。"
   },
   "Knightsbridge": {
     "lemma": "Knightsbridge",
@@ -10905,12 +10905,12 @@
   "Monkswell Manor": {
     "lemma": "Monkswell Manor",
     "pos": "固有名詞",
-    "coreMeaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
+    "coreMeaning": "【固有名詞】\nMonkswell Manorという屋敷・施設名。",
     "tags": [
       "fictional place",
       "setting"
     ],
-    "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。"
+    "meaning": "【固有名詞】\nMonkswell Manorという屋敷・施設名。"
   },
   "propose to do something": {
     "lemma": "propose to do something",
@@ -11167,12 +11167,12 @@
   "Spot and Plain": {
     "lemma": "Spot and Plain",
     "pos": "固有名詞",
-    "coreMeaning": "【固有名詞】\n劇中のLongridge Farmの思い出で言及される犬の名前。",
+    "coreMeaning": "【固有名詞】\nSpot と Plain という二つの名前。",
     "tags": [
       "fictional proper noun",
       "animal names"
     ],
-    "meaning": "【固有名詞】\n劇中のLongridge Farmの思い出で言及される犬の名前。"
+    "meaning": "【固有名詞】\nSpot と Plain という二つの名前。"
   },
   "Kathy": {
     "lemma": "Kathy",
@@ -12659,13 +12659,13 @@
     "lemma": "Monkswell Manor Guest House",
     "ipa": "/mˈʌnkswɛl mˈanə ɡˈɛst hˈaʊs/",
     "pos": "固有名詞",
-    "coreMeaning": "【固有名詞】Monkswell Manor Guest House。本作でMollieとGilesが営む宿泊施設名。",
+    "coreMeaning": "【固有名詞】\nMonkswell Manor Guest Houseという宿泊施設名。",
     "forms": "固定固有表現。",
     "tags": [
       "proper-noun",
       "culture"
     ],
-    "meaning": "【固有名詞】Monkswell Manor Guest House。本作でMollieとGilesが営む宿泊施設名。"
+    "meaning": "【固有名詞】\nMonkswell Manor Guest Houseという宿泊施設名。"
   },
   "Mrs Boyle": {
     "lemma": "Mrs Boyle",
@@ -12899,12 +12899,12 @@
     "lemma": "Prefab Nests",
     "ipa": "/pɹɪfˈab nˈɛsts/",
     "pos": "固有名詞",
-    "coreMeaning": "【固有名詞的表現】Prefab Nests。本作中で使われる架空の建築・事業名。",
+    "coreMeaning": "【固有名詞的表現】\nPrefab Nestsという名称。prefabはprefabricated（プレハブ式の）の略。",
     "forms": "固定固有表現。",
     "tags": [
       "chunk"
     ],
-    "meaning": "【固有名詞的表現】Prefab Nests。本作中で使われる架空の建築・事業名。"
+    "meaning": "【固有名詞的表現】\nPrefab Nestsという名称。prefabはprefabricated（プレハブ式の）の略。"
   },
   "old tabby": {
     "lemma": "old tabby",

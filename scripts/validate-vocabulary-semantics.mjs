@@ -23,6 +23,12 @@ const genericContexts = new Set([
   '【ト書き】舞台上の位置を指定する語。'
 ]);
 
+const playSpecificDictionaryTokens = [
+  '劇中', '本作', 'Monkswell', 'Longridge Farm', 'Mrs. Boyle', 'Mollie', 'Giles', 'Christopher Wren',
+  'Miss Casewell', 'Paravicini', 'Trotter', 'Major Metcalf', 'Maureen Lyon', 'Culver Street殺人',
+  '三匹の盲目のねずみ', 'Three Blind Mice'
+];
+
 let items = 0;
 let ctx = 0;
 let polysemyItems = 0;
@@ -41,6 +47,16 @@ for (const [lemma, entry] of Object.entries(dict)) {
   if (pos === '未分類' || /【未分類】/.test(meaning)) fail(`unclassified dictionary entry ${lemma}`);
   if ('contextMeaning' in entry || 'contextExplanation' in entry) fail(`play context leaked into dictionary ${lemma}`);
   if (/the magistrate concerned|Longridge Farm事件の児童委託/.test(meaning)) fail(`play-specific prose leaked into dictionary ${lemma}`);
+
+  const lemmaKey = key(lemma);
+  const playSpecificHits = playSpecificDictionaryTokens.filter(token => {
+    if (!meaning.includes(token)) return false;
+    if (token === '劇中' || token === '本作') return true;
+    return !lemmaKey.includes(key(token));
+  });
+  if (playSpecificHits.length) {
+    fail(`play-specific dictionary meaning ${lemma}: ${playSpecificHits.join(', ')}`);
+  }
 
   if (singleToken(lemma)) {
     singleWordDictionaryEntries += 1;
@@ -118,6 +134,7 @@ function requireContext(speechId, lemma, predicate, message) {
 
 requireDictionary('cross', entry => /【動】[\s\S]*横切/.test(norm(entry.meaning)), 'cross must retain the movement verb sense');
 requireDictionary('concerned', entry => /関係している|関与している|該当する/.test(norm(entry.meaning)) && !/magistrate/i.test(norm(entry.meaning)), 'concerned dictionary/context separation regressed');
+requireDictionary('cut off', entry => /切り離す|切り取る/.test(norm(entry.meaning)) && /孤立/.test(norm(entry.meaning)), 'cut off must retain both cutting and isolation senses');
 
 requireContext('act1-scene1-speech-0081', 'station', text => /駅/.test(text) && !/警察署/.test(text), 'railway station context regressed');
 requireContext('act2-speech-0324', 'station', text => /警察署/.test(text), 'police station context regressed');
@@ -126,6 +143,7 @@ requireContext('act2-speech-0565', 'curtain', text => /部屋|カーテン/.test
 requireContext('act2-speech-0612', 'unconscious', text => /意識/.test(text), 'unconscious context regressed');
 requireContext('act1-scene1-speech-0001', 'rise', text => /幕が上が/.test(text), 'Act I Scene I curtain-rise context regressed');
 requireContext('act1-scene2-speech-0001', 'rise', text => /幕が上が/.test(text), 'Act I Scene II curtain-rise context regressed');
+requireContext('act2-speech-0379', 'cut off', text => /尾を切り落とす/.test(text), 'cut off tails context regressed');
 
 console.log(JSON.stringify({
   status: 'PASS',
@@ -135,6 +153,7 @@ console.log(JSON.stringify({
   polysemyItems,
   unclassifiedDictionary: 0,
   genericInThisPlay: 0,
+  playSpecificDictionaryMeanings: 0,
   surfaceLemmaConflicts: 0,
   duplicateSurfaceLemmaPairs: 0,
   singleWordDictionaryEntries,
