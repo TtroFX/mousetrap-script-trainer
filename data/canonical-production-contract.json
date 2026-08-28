@@ -11,7 +11,7 @@
     },
     {
       "path": "mousetrap_line_vocabulary.json",
-      "sha256": "565e16674eab2272624ca9a4e28fc8c09ec8dc4b1231dbb3c53f0132cfdc30f1"
+      "sha256": "d6efcbd204b24aff49adab1778b5110bd732ba3f8f4fcd266b36acbd0c6bd553"
     },
     {
       "path": "mousetrap_line_grammar.json",
@@ -19,7 +19,7 @@
     },
     {
       "path": "mousetrap_word_dictionary.json",
-      "sha256": "5454bd9059b313f7811d66d0a2ba1c7953a803a0cb614832784a742afb5ae26c"
+      "sha256": "674646dabcc8d7e52843427985d937c8e9fd1b465ad6aaf6409a35688a9bf60b"
     }
   ]
 }
