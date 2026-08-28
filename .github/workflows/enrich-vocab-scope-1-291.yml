@@ -46,6 +46,13 @@ jobs:
               if old not in s:
                   raise SystemExit('patch anchor missing: '+old)
               s=s.replace(old,new,1)
+          curly='get the bit between one’s teeth'
+          ascii="get the bit between one's teeth"
+          n=s.count(curly)
+          if n < 1:
+              raise SystemExit('curly idiom rule not found')
+          s=s.replace(curly,ascii)
+          print('normalized curly idiom rule occurrences:',n)
           open(p,'w',encoding='utf-8').write(s)
           PY
           node --check /tmp/enrich.mjs
