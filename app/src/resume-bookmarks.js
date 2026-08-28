@@ -1,3 +1,5 @@
+const SHIORI_STORAGE_KEY = 'mts.shiori.v1';
+
 export class ResumeBookmarksUI {
   constructor({ app, store, state, go, chrome, sceneMeta, esc }) {
     this.app = app;
@@ -17,6 +19,46 @@ export class ResumeBookmarksUI {
     else if (path === '/more') this.decorateMore();
   }
 
+  shiori() {
+    try {
+      const raw = localStorage.getItem(SHIORI_STORAGE_KEY);
+      if (!raw) return null;
+      const entry = JSON.parse(raw);
+      if (!entry || typeof entry !== 'object' || !entry.sceneId || !entry.lineId) {
+        localStorage.removeItem(SHIORI_STORAGE_KEY);
+        return null;
+      }
+      if (this.store.hasCore() && !this.store.getSpeech(entry.sceneId, entry.lineId)) {
+        localStorage.removeItem(SHIORI_STORAGE_KEY);
+        return null;
+      }
+      return entry;
+    } catch {
+      return null;
+    }
+  }
+
+  setShiori(sceneId, lineId) {
+    if (!sceneId || !lineId || (this.store.hasCore() && !this.store.getSpeech(sceneId, lineId))) return false;
+    const previous = this.shiori();
+    const entry = { sceneId, lineId, updatedAt: new Date().toISOString() };
+    try {
+      localStorage.setItem(SHIORI_STORAGE_KEY, JSON.stringify(entry));
+    } catch {
+      return false;
+    }
+    return { entry, previous, moved: !!previous && previous.lineId !== lineId };
+  }
+
+  isShiori(lineId) {
+    return this.shiori()?.lineId === lineId;
+  }
+
+  shioriResume() {
+    const entry = this.shiori();
+    return entry ? { ...entry, kind: 'script', shiori: true } : null;
+  }
+
   resumeTitle(entry) {
     if (!entry) return '';
     if (entry.kind === 'cue') return 'Cue Practice';
@@ -28,6 +70,7 @@ export class ResumeBookmarksUI {
   resumeMeta(entry) {
     if (!entry) return '';
     const bits = [this.sceneMeta(entry.sceneId).label];
+    if (entry.shiori) bits.push('Reading marker');
     if (entry.kind === 'script' && entry.readerMode) bits.push(entry.readerMode === 'full' ? 'Full' : entry.readerMode === 'mine' ? 'Mine' : 'Cue Focus');
     if (entry.role) bits.push(entry.role);
     if (entry.total) bits.push(`${Math.min(Number(entry.current) || 1, Number(entry.total) || 1)} / ${Number(entry.total) || 0}`);
@@ -51,7 +94,7 @@ export class ResumeBookmarksUI {
     if (!shell || !header) return;
     shell.querySelector('[data-resume-home]')?.remove();
     shell.querySelector('[data-bookmarks-home]')?.remove();
-    const latest = this.state.latestResume();
+    const latest = this.shioriResume() || this.state.latestResume();
     const practice = this.state.latestPracticeResume();
     if (latest) {
       const section = document.createElement('section');
@@ -106,13 +149,56 @@ export class ResumeBookmarksUI {
     return el;
   }
 
+  shioriToggle(sceneId, lineId, className = '') {
+    const active = this.isShiori(lineId);
+    const el = document.createElement('span');
+    el.className = `bookmark-toggle shiori-toggle ${active ? 'active' : ''} ${className}`.trim();
+    el.setAttribute('role', 'button');
+    el.setAttribute('tabindex', '0');
+    el.setAttribute('aria-label', active ? 'Reading marker is here' : 'Set reading marker here');
+    el.setAttribute('aria-pressed', active ? 'true' : 'false');
+    el.dataset.shioriToggle = lineId;
+    const glyph = document.createElement('span');
+    glyph.setAttribute('aria-hidden', 'true');
+    glyph.style.cssText = 'display:block;width:14px;height:18px;border:2px solid currentColor;border-radius:2px 2px 0 0;clip-path:polygon(0 0,100% 0,100% 100%,50% 72%,0 100%);';
+    if (active) glyph.style.background = 'currentColor';
+    el.append(glyph);
+    const set = event => {
+      event.preventDefault();
+      event.stopPropagation();
+      const result = this.setShiori(sceneId, lineId);
+      if (!result) {
+        this.showToast('Reading marker could not be saved');
+        return;
+      }
+      this.app.querySelectorAll('[data-shiori-toggle]').forEach(button => {
+        const selected = button.dataset.shioriToggle === lineId;
+        button.classList.toggle('active', selected);
+        button.setAttribute('aria-pressed', selected ? 'true' : 'false');
+        button.setAttribute('aria-label', selected ? 'Reading marker is here' : 'Set reading marker here');
+        const icon = button.firstElementChild;
+        if (icon) icon.style.background = selected ? 'currentColor' : 'transparent';
+      });
+      this.showToast(result.moved ? 'Reading marker moved' : 'Reading marker set');
+    };
+    el.addEventListener('click', set);
+    el.addEventListener('keydown', event => { if (event.key === 'Enter' || event.key === ' ') set(event); });
+    return el;
+  }
+
   decorateScript() {
     const sceneId = this.state.selectedScene();
     this.app.querySelectorAll('[data-line]').forEach(row => {
       const lineId = row.dataset.line;
-      if (!lineId || row.querySelector('[data-bookmark-toggle]')) return;
+      if (!lineId) return;
       row.classList.add('bookmarkable-line');
-      row.append(this.bookmarkToggle(sceneId, lineId, 'line-bookmark-toggle'));
+      row.style.paddingRight = '96px';
+      if (!row.querySelector('[data-shiori-toggle]')) {
+        const shiori = this.shioriToggle(sceneId, lineId, 'line-shiori-toggle');
+        shiori.style.cssText += 'position:absolute;right:53px;top:50%;transform:translateY(-50%);';
+        row.append(shiori);
+      }
+      if (!row.querySelector('[data-bookmark-toggle]')) row.append(this.bookmarkToggle(sceneId, lineId, 'line-bookmark-toggle'));
     });
   }
 
@@ -121,13 +207,23 @@ export class ResumeBookmarksUI {
     const lineId = q.get('line');
     if (!sceneId || !lineId || !this.store.getSpeech(sceneId, lineId)) return;
     const card = this.app.querySelector('.line-page .card');
-    if (!card || card.querySelector('[data-bookmark-toggle]')) return;
-    const holder = document.createElement('div');
-    holder.className = 'line-bookmark-holder';
-    const label = document.createElement('span');
-    label.textContent = 'Bookmark';
-    holder.append(label, this.bookmarkToggle(sceneId, lineId, 'line-detail-bookmark'));
-    card.prepend(holder);
+    if (!card) return;
+    let holder = card.querySelector('.line-bookmark-holder');
+    if (!holder) {
+      holder = document.createElement('div');
+      holder.className = 'line-bookmark-holder';
+      card.prepend(holder);
+    }
+    if (!holder.querySelector('[data-shiori-toggle]')) {
+      const label = document.createElement('span');
+      label.textContent = 'Reading marker';
+      holder.append(label, this.shioriToggle(sceneId, lineId, 'line-detail-shiori'));
+    }
+    if (!holder.querySelector('[data-bookmark-toggle]')) {
+      const label = document.createElement('span');
+      label.textContent = 'Bookmark';
+      holder.append(label, this.bookmarkToggle(sceneId, lineId, 'line-detail-bookmark'));
+    }
   }
 
   decorateMore() {
