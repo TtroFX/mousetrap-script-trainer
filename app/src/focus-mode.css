@@ -1,14 +1,50 @@
 .line-page{
   touch-action:pan-y;
+  position:relative;
+}
+.line-page-motion-layer{
+  position:relative;
+  overflow:hidden;
+}
+.line-page-surface{
+  position:relative;
+  z-index:2;
   transform:translate3d(0,0,0);
   opacity:1;
+  background:var(--bg);
 }
-.line-page.is-focus-swiping,
-.line-page.is-focus-settling{
+.line-page-surface.is-focus-swiping,
+.line-page-surface.is-focus-settling,
+.focus-page-preview.is-focus-settling{
   will-change:transform,opacity;
   user-select:none;
   -webkit-user-select:none;
 }
+.focus-page-preview{
+  position:absolute;
+  z-index:1;
+  inset:0 0 auto 0;
+  width:100%;
+  min-height:100%;
+  pointer-events:none;
+  background:var(--bg);
+  opacity:1;
+  transform:translate3d(100%,0,0);
+}
+.focus-page-preview>.card:first-child{margin-top:0}
+.focus-preview-placeholder{min-height:96px}
+.focus-preview-placeholder::before,
+.focus-preview-placeholder::after{
+  content:"";
+  display:block;
+  height:10px;
+  border-radius:999px;
+  background:#e8e0d7;
+  margin:12px 0;
+}
+.focus-preview-placeholder::after{width:64%}
 .sheet-backdrop.is-dismissing{pointer-events:none}
-.line-page>.card.focus-role-line .speaker-title{color:#6d4327}
-.line-page>.card.focus-role-line .line-detail-text{color:#2d241c}
+.line-page>.card.focus-role-line .speaker-title,
+.line-page-surface>.card.focus-role-line .speaker-title{color:#6d4327}
+.line-page>.card.focus-role-line .line-detail-text,
+.line-page-surface>.card.focus-role-line .line-detail-text{color:#2d241c}

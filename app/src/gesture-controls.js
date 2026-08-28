@@ -37,10 +37,29 @@ const lineRoute=()=>{
   const q=new URLSearchParams(query),scene=q.get('scene'),line=q.get('line');
   return scene&&line?{scene,line}:null;
 };
+const currentFocusPage=()=>document.querySelector('.line-page');
+const prepareFocusPage=(page=currentFocusPage())=>{
+  if(!page)return null;
+  let layer=page.querySelector(':scope > .line-page-motion-layer');
+  let surface=layer?.querySelector(':scope > .line-page-surface');
+  if(surface)return surface;
+  const nav=page.querySelector(':scope > .floating-nav');
+  layer=document.createElement('div');
+  layer.className='line-page-motion-layer';
+  surface=document.createElement('div');
+  surface.className='line-page-surface';
+  for(const child of [...page.children]){
+    if(child===nav)continue;
+    surface.appendChild(child);
+  }
+  layer.appendChild(surface);
+  if(nav)page.insertBefore(layer,nav);else page.appendChild(layer);
+  return surface;
+};
 const syncFocusRole=()=>{
-  const page=document.querySelector('.line-page');
+  const page=currentFocusPage();
   if(!page)return;
-  const card=page.querySelector(':scope > .card');
+  const card=page.querySelector('.line-page-surface > .card')||page.querySelector(':scope > .card');
   const route=lineRoute(),api=window.MTS_INDEX_ZERO;
   if(!card||!route||!api?.store||!api?.state)return;
   const speech=api.store.getSpeech(route.scene,route.line),role=api.state.role?.();
@@ -71,72 +90,155 @@ const moveFocusLine=direction=>{
 
 let focusSwipe=null;
 let focusSettling=false;
-let pendingEnterDirection=0;
 let suppressClickUntil=0;
-let focusAnimation=null;
+let lastFocusTap=null;
+const focusAnimations=new Set();
 const interactiveSwipeBlock=target=>!!target.closest?.('input,select,textarea,[contenteditable="true"],[data-no-page-swipe]');
-const currentFocusPage=()=>document.querySelector('.line-page');
+const interactiveDoubleTapBlock=target=>!!target.closest?.('button,a,summary,input,select,textarea,[role="button"],[contenteditable="true"],[data-no-page-doubletap]');
 const reducedMotion=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
 const motionProfile=()=>reducedMotion()
-  ?{settle:80,commit:100,enter:120,enterOffset:14}
-  :{settle:150,commit:190,enter:220,enterOffset:44};
-const stopFocusAnimation=()=>{
-  try{focusAnimation?.cancel?.()}catch{}
-  focusAnimation=null;
+  ?{settle:80,commit:110}
+  :{settle:150,commit:205};
+const stopFocusAnimations=()=>{
+  for(const animation of [...focusAnimations]){
+    try{animation.cancel?.()}catch{}
+  }
+  focusAnimations.clear();
 };
-const resetFocusPage=page=>{
-  if(!page)return;
-  stopFocusAnimation();
-  page.classList.remove('is-focus-swiping','is-focus-settling','focus-enter-next','focus-enter-prev','focus-enter-active');
-  page.style.transform='';
-  page.style.opacity='';
-  page.style.willChange='';
-};
-const runPageAnimation=(page,keyframes,options,onFinish)=>{
-  stopFocusAnimation();
-  if(!page?.animate){
+const runElementAnimation=(element,keyframes,options,onFinish=()=>{})=>{
+  if(!element){onFinish();return null}
+  const duration=Number(options.duration)||0;
+  if(!element.animate){
     const last=keyframes[keyframes.length-1]||{};
-    if(last.transform!=null)page.style.transform=last.transform;
-    if(last.opacity!=null)page.style.opacity=String(last.opacity);
-    setTimeout(onFinish,Number(options.duration)||0);
+    if(last.transform!=null)element.style.transform=last.transform;
+    if(last.opacity!=null)element.style.opacity=String(last.opacity);
+    setTimeout(onFinish,duration);
     return null;
   }
-  const animation=page.animate(keyframes,{...options,fill:'forwards'});
-  focusAnimation=animation;
+  const animation=element.animate(keyframes,{...options,fill:'forwards'});
+  focusAnimations.add(animation);
   let done=false;
   const finish=()=>{
     if(done)return;
     done=true;
-    if(focusAnimation===animation)focusAnimation=null;
+    focusAnimations.delete(animation);
     onFinish();
   };
+  const cancel=()=>{
+    if(done)return;
+    done=true;
+    focusAnimations.delete(animation);
+  };
   animation.addEventListener('finish',finish,{once:true});
-  animation.addEventListener('cancel',()=>{if(focusAnimation===animation)focusAnimation=null},{once:true});
-  setTimeout(finish,(Number(options.duration)||0)+80);
+  animation.addEventListener('cancel',cancel,{once:true});
+  setTimeout(finish,duration+90);
   return animation;
 };
+const clearFocusPreview=page=>{
+  page?.querySelector(':scope > .line-page-motion-layer > .focus-page-preview')?.remove();
+};
+const resetFocusPage=page=>{
+  if(!page)return;
+  stopFocusAnimations();
+  const surface=page.querySelector(':scope > .line-page-motion-layer > .line-page-surface');
+  surface?.classList.remove('is-focus-swiping','is-focus-settling');
+  if(surface){
+    surface.style.transform='';
+    surface.style.opacity='';
+    surface.style.willChange='';
+  }
+  clearFocusPreview(page);
+};
+const makePreviewCard=(className='card')=>{
+  const card=document.createElement('div');
+  card.className=className;
+  return card;
+};
+const ensureFocusPreview=(page,direction)=>{
+  if(!page)return null;
+  const layer=page.querySelector(':scope > .line-page-motion-layer');
+  if(!layer)return null;
+  const existing=layer.querySelector(':scope > .focus-page-preview');
+  if(existing?.dataset.direction===String(direction))return existing;
+  existing?.remove();
+  const hit=focusTarget(direction),api=window.MTS_INDEX_ZERO;
+  if(!hit||!api?.store)return null;
+  const preview=document.createElement('div');
+  preview.className='focus-page-preview';
+  preview.dataset.direction=String(direction);
+  preview.setAttribute('aria-hidden','true');
+  preview.style.transform=direction>0?'translate3d(100%,0,0)':'translate3d(-100%,0,0)';
+
+  const lineCard=makePreviewCard();
+  const speaker=document.createElement('div');
+  speaker.className='speaker-title';
+  speaker.textContent=hit.target.speaker||'';
+  const text=document.createElement('p');
+  text.className='line-detail-text';
+  text.textContent=hit.target.text||'';
+  const chip=document.createElement('span');
+  chip.className='chip';
+  chip.textContent=page.querySelector('.line-page-surface .chip, :scope > .card .chip')?.textContent||hit.route.scene;
+  lineCard.append(speaker,text,chip);
+
+  const translationCard=makePreviewCard();
+  const kicker=document.createElement('div');
+  kicker.className='eyebrow';
+  kicker.textContent='Translation';
+  const translation=document.createElement('p');
+  translation.className='translation';
+  let translated='';
+  try{if(api.store.hasStudy?.())translated=api.store.getTranslation(hit.target.id)||''}catch{}
+  translation.textContent=translated||'…';
+  translationCard.append(kicker,translation);
+
+  const placeholder=makePreviewCard('card focus-preview-placeholder');
+  preview.append(lineCard,translationCard,placeholder);
+  layer.insertBefore(preview,layer.querySelector('.line-page-surface'));
+  return preview;
+};
+const previewTransform=(direction,dx)=>`translate3d(calc(${direction>0?'100%':'-100%'} + ${dx}px),0,0)`;
 const cancelFocusSwipe=()=>{
   const state=focusSwipe;
   focusSwipe=null;
   if(!state)return;
   const page=state.page?.isConnected?state.page:currentFocusPage();
   if(!page)return;
+  const surface=state.surface?.isConnected?state.surface:prepareFocusPage(page);
+  if(!surface){focusSettling=false;return}
   const profile=motionProfile();
-  const from=getComputedStyle(page).transform==='none'?'translate3d(0,0,0)':getComputedStyle(page).transform;
-  page.classList.remove('is-focus-swiping');
-  page.classList.add('is-focus-settling');
-  runPageAnimation(page,[
-    {transform:from,opacity:Number(getComputedStyle(page).opacity)||1},
+  const from=getComputedStyle(surface).transform==='none'?'translate3d(0,0,0)':getComputedStyle(surface).transform;
+  const preview=page.querySelector(':scope > .line-page-motion-layer > .focus-page-preview');
+  const previewDirection=Number(preview?.dataset.direction)||0;
+  const previewFrom=preview&&getComputedStyle(preview).transform!=='none'?getComputedStyle(preview).transform:null;
+  focusSettling=true;
+  surface.classList.remove('is-focus-swiping');
+  surface.classList.add('is-focus-settling');
+  stopFocusAnimations();
+  if(preview&&previewDirection){
+    preview.classList.add('is-focus-settling');
+    runElementAnimation(preview,[
+      {transform:previewFrom||'translate3d(0,0,0)',opacity:1},
+      {transform:previewDirection>0?'translate3d(100%,0,0)':'translate3d(-100%,0,0)',opacity:1}
+    ],{duration:profile.settle,easing:'cubic-bezier(.22,.72,.24,1)'});
+  }
+  runElementAnimation(surface,[
+    {transform:from,opacity:Number(getComputedStyle(surface).opacity)||1},
     {transform:'translate3d(0,0,0)',opacity:1}
-  ],{duration:profile.settle,easing:'cubic-bezier(.22,.72,.24,1)'},()=>resetFocusPage(page));
+  ],{duration:profile.settle,easing:'cubic-bezier(.22,.72,.24,1)'},()=>{
+    focusSettling=false;
+    resetFocusPage(page);
+  });
 };
 const beginFocusSwipe=event=>{
-  if(event.pointerType==='mouse'||focusSwipe||focusSettling||overlay&&!overlay.hidden&&!overlay.classList.contains('is-dismissing')||!event.target.closest?.('.line-page')||interactiveSwipeBlock(event.target))return;
-  const page=event.target.closest('.line-page');
-  stopFocusAnimation();
-  page.style.willChange='transform, opacity';
+  if(event.pointerType==='mouse'||focusSwipe||focusSettling||(overlay&&!overlay.hidden&&!overlay.classList.contains('is-dismissing'))||!event.target.closest?.('.line-page')||interactiveSwipeBlock(event.target))return;
+  const page=event.target.closest('.line-page'),surface=prepareFocusPage(page);
+  if(!surface)return;
+  stopFocusAnimations();
+  surface.style.willChange='transform, opacity';
   focusSwipe={
-    pointerId:event.pointerId,page,startX:event.clientX,startY:event.clientY,lastX:event.clientX,lastY:event.clientY,
+    pointerId:event.pointerId,page,surface,originTarget:event.target,
+    startX:event.clientX,startY:event.clientY,lastX:event.clientX,lastY:event.clientY,
     startTime:event.timeStamp||performance.now(),lastTime:event.timeStamp||performance.now(),axis:null,moved:false
   };
   try{page.setPointerCapture?.(event.pointerId)}catch{}
@@ -152,39 +254,88 @@ const moveFocusSwipe=event=>{
   state.lastX=event.clientX;state.lastY=event.clientY;state.lastTime=event.timeStamp||performance.now();
   if(state.axis!=='x')return;
   state.moved=state.moved||ax>=14;
+  if(state.moved)lastFocusTap=null;
   event.preventDefault();
   const direction=dx<0?1:-1,available=!!focusTarget(direction),page=state.page?.isConnected?state.page:currentFocusPage();
   if(!page)return;
-  state.page=page;
+  const surface=state.surface?.isConnected?state.surface:prepareFocusPage(page);
+  if(!surface)return;
+  state.page=page;state.surface=surface;
   const resisted=available?dx:dx*.28;
-  page.classList.add('is-focus-swiping');
-  page.style.transform=`translate3d(${resisted}px,0,0)`;
-  page.style.opacity=String(Math.max(.88,1-Math.min(Math.abs(resisted)/900,.12)));
+  surface.classList.add('is-focus-swiping');
+  surface.style.transform=`translate3d(${resisted}px,0,0)`;
+  surface.style.opacity=String(Math.max(.94,1-Math.min(Math.abs(resisted)/1400,.06)));
+  if(available){
+    const preview=ensureFocusPreview(page,direction);
+    if(preview){
+      preview.style.transform=previewTransform(direction,dx);
+      preview.style.opacity='1';
+    }
+  }else clearFocusPreview(page);
 };
-const animateFocusCommit=(direction,state)=>{
+const animateFocusCommit=(direction,state={})=>{
   const hit=focusTarget(direction);
-  if(!hit){cancelFocusSwipe();return false}
+  if(!hit){
+    if(focusSwipe)cancelFocusSwipe();
+    return false;
+  }
   focusSwipe=null;
   focusSettling=true;
-  suppressClickUntil=performance.now()+380;
+  lastFocusTap=null;
+  suppressClickUntil=performance.now()+440;
   const page=state.page?.isConnected?state.page:currentFocusPage();
+  const surface=state.surface?.isConnected?state.surface:prepareFocusPage(page);
   const navigate=()=>{
-    pendingEnterDirection=direction;
     focusSettling=false;
     moveFocusLine(direction);
   };
-  if(!page){navigate();return true}
+  if(!page||!surface){navigate();return true}
+  const preview=ensureFocusPreview(page,direction);
   const profile=motionProfile();
-  const computed=getComputedStyle(page);
+  const computed=getComputedStyle(surface);
   const from=computed.transform==='none'?'translate3d(0,0,0)':computed.transform;
-  page.classList.remove('is-focus-swiping');
-  page.classList.add('is-focus-settling');
-  page.style.willChange='transform, opacity';
-  runPageAnimation(page,[
+  const previewComputed=preview?getComputedStyle(preview):null;
+  const previewFrom=previewComputed&&previewComputed.transform!=='none'?previewComputed.transform:(direction>0?'translate3d(100%,0,0)':'translate3d(-100%,0,0)');
+  surface.classList.remove('is-focus-swiping');
+  surface.classList.add('is-focus-settling');
+  surface.style.willChange='transform, opacity';
+  preview?.classList.add('is-focus-settling');
+  stopFocusAnimations();
+  if(preview)runElementAnimation(preview,[
+    {transform:previewFrom,opacity:Number(previewComputed?.opacity)||1},
+    {transform:'translate3d(0,0,0)',opacity:1}
+  ],{duration:profile.commit,easing:'cubic-bezier(.2,.78,.2,1)'});
+  runElementAnimation(surface,[
     {transform:from,opacity:Number(computed.opacity)||1},
-    {transform:direction>0?'translate3d(-112vw,0,0)':'translate3d(112vw,0,0)',opacity:.84}
-  ],{duration:profile.commit,easing:'cubic-bezier(.22,.72,.24,1)'},navigate);
+    {transform:direction>0?'translate3d(-100%,0,0)':'translate3d(100%,0,0)',opacity:.96}
+  ],{duration:profile.commit,easing:'cubic-bezier(.2,.78,.2,1)'},navigate);
   return true;
+};
+const animateFocusNavigation=direction=>{
+  if(focusSettling||!lineRoute())return false;
+  const page=currentFocusPage(),surface=prepareFocusPage(page);
+  if(!page||!surface||!focusTarget(direction))return false;
+  return animateFocusCommit(direction,{page,surface});
+};
+const handleFocusTap=(event,state)=>{
+  if(event.pointerType==='mouse'||interactiveDoubleTapBlock(state.originTarget)){
+    lastFocusTap=null;
+    return false;
+  }
+  const page=state.page?.isConnected?state.page:currentFocusPage();
+  if(!page)return false;
+  const rect=page.getBoundingClientRect(),mid=rect.left+rect.width/2;
+  const direction=event.clientX<mid?-1:1;
+  const now=performance.now();
+  const previous=lastFocusTap;
+  const isDouble=!!previous&&previous.direction===direction&&now-previous.time<=360&&Math.abs(event.clientX-previous.x)<=56&&Math.abs(event.clientY-previous.y)<=56;
+  if(!isDouble){
+    lastFocusTap={direction,time:now,x:event.clientX,y:event.clientY};
+    return false;
+  }
+  lastFocusTap=null;
+  suppressClickUntil=now+440;
+  return animateFocusNavigation(direction);
 };
 const endFocusSwipe=event=>{
   const state=focusSwipe;
@@ -192,8 +343,19 @@ const endFocusSwipe=event=>{
   const dx=event.clientX-state.startX,dy=event.clientY-state.startY,ax=Math.abs(dx),ay=Math.abs(dy);
   const duration=Math.max(1,(event.timeStamp||performance.now())-state.startTime);
   const inferredAxis=state.axis??(Math.max(ax,ay)>=10?(ax>ay*1.08?'x':ay>ax*1.08?'y':null):null);
-  if(inferredAxis==='x'&&(state.moved||ax>=14))suppressClickUntil=performance.now()+300;
-  const width=Math.max(320,state.page?.clientWidth||window.innerWidth||320);
+  if(!inferredAxis&&ax<=12&&ay<=12&&duration<=460){
+    focusSwipe=null;
+    resetFocusPage(state.page);
+    return handleFocusTap(event,state);
+  }
+  if(inferredAxis==='y'){
+    focusSwipe=null;
+    lastFocusTap=null;
+    resetFocusPage(state.page);
+    return false;
+  }
+  if(inferredAxis==='x'&&(state.moved||ax>=14))suppressClickUntil=performance.now()+320;
+  const width=Math.max(320,state.surface?.clientWidth||window.innerWidth||320);
   const distanceThreshold=Math.min(88,Math.max(46,width*.14));
   const velocity=ax/duration;
   const horizontal=inferredAxis==='x'&&ax>ay*1.05;
@@ -204,23 +366,8 @@ const endFocusSwipe=event=>{
 };
 const cancelFocusPointer=event=>{
   if(!focusSwipe||event.pointerId!==focusSwipe.pointerId)return;
+  lastFocusTap=null;
   cancelFocusSwipe();
-};
-const animateIncomingFocusPage=()=>{
-  const direction=pendingEnterDirection;
-  pendingEnterDirection=0;
-  if(!direction)return;
-  const profile=motionProfile();
-  requestAnimationFrame(()=>requestAnimationFrame(()=>{
-    const page=currentFocusPage();
-    if(!page)return;
-    page.style.willChange='transform, opacity';
-    const offset=direction>0?profile.enterOffset:-profile.enterOffset;
-    runPageAnimation(page,[
-      {transform:`translate3d(${offset}px,0,0)`,opacity:.9},
-      {transform:'translate3d(0,0,0)',opacity:1}
-    ],{duration:profile.enter,easing:'cubic-bezier(.22,.72,.24,1)'},()=>resetFocusPage(page));
-  }));
 };
 
 document.addEventListener('pointerdown',beginFocusSwipe,{passive:true,capture:true});
@@ -228,18 +375,27 @@ document.addEventListener('pointermove',moveFocusSwipe,{passive:false,capture:tr
 document.addEventListener('pointerup',endFocusSwipe,{passive:true,capture:true});
 document.addEventListener('pointercancel',cancelFocusPointer,{passive:true,capture:true});
 document.addEventListener('click',event=>{
-  if(performance.now()>=suppressClickUntil||!event.target.closest?.('.line-page'))return;
+  if(!event.target.closest?.('.line-page'))return;
+  if(performance.now()<suppressClickUntil){
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    return;
+  }
+  const navButton=event.target.closest('.floating-nav [data-prev],.floating-nav [data-next]');
+  if(!navButton||navButton.disabled)return;
   event.preventDefault();
   event.stopImmediatePropagation();
+  animateFocusNavigation(navButton.hasAttribute('data-next')?1:-1);
 },{capture:true});
-window.addEventListener('blur',()=>{if(focusSwipe)cancelFocusSwipe()});
-document.addEventListener('visibilitychange',()=>{if(document.hidden&&focusSwipe)cancelFocusSwipe()});
+window.addEventListener('blur',()=>{lastFocusTap=null;if(focusSwipe)cancelFocusSwipe()});
+document.addEventListener('visibilitychange',()=>{if(document.hidden){lastFocusTap=null;if(focusSwipe)cancelFocusSwipe()}});
 window.addEventListener('hashchange',()=>{
   focusSwipe=null;
   focusSettling=false;
+  lastFocusTap=null;
+  stopFocusAnimations();
   scheduleFocusRoleSync();
   resetFocusScroll();
-  animateIncomingFocusPage();
 });
 queueMicrotask(()=>{
   scheduleFocusRoleSync();
@@ -284,5 +440,5 @@ if(sheet&&overlay){
   sheet.addEventListener('pointerup',event=>{if(event.pointerType!=='touch'&&gesture)end(event.clientX,event.clientY,event.timeStamp)});
   sheet.addEventListener('pointercancel',event=>{if(event.pointerType!=='touch')cancel()});
 
-  window.MTS_GESTURES=Object.freeze({version:5,closeSheet,resetSheet,moveFocusLine,syncFocusRole,resetFocusScroll});
+  window.MTS_GESTURES=Object.freeze({version:6,closeSheet,resetSheet,moveFocusLine,navigateFocusLine:animateFocusNavigation,syncFocusRole,resetFocusScroll});
 }
