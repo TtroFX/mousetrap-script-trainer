@@ -4,17 +4,6 @@ on:
   push:
     branches: [main]
     paths:
-      - 'scripts/build-vocabulary-block-6.mjs'
-      - 'scripts/apply-block-6-neutral-supplement.mjs'
-      - 'scripts/apply-block-6-oxford-review.mjs'
-      - 'scripts/audit-oxford-b1plus-block-6.mjs'
-      - 'scripts/validate-vocabulary-block.mjs'
-      - 'scripts/merge-context-outline.mjs'
-      - 'data/vocabulary-rebuild/block-6-context-seed.json'
-      - 'data/vocabulary-rebuild/block-6-neutral-seed.json'
-      - 'data/vocabulary-rebuild/block-6-neutral-supplement.json'
-      - 'data/vocabulary-rebuild/block-6-oxford-review.json'
-      - 'data/context-outline-patches/block-6.json'
       - '.github/workflows/build-vocabulary-block-6.yml'
 
 permissions:
@@ -28,25 +17,23 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Materialize final-quarter production patch
+      - name: Inspect final-quarter patch schema
         shell: bash
         run: |
-          set -u
+          set -euo pipefail
           cat data/final-quarter-vocabulary-patch.seed.{01..07} > data/final-quarter-vocabulary-patch.json.gz.b64
-          cat scripts/apply-final-quarter-vocabulary.seed.{01..03} | base64 -d | gzip -dc > scripts/apply-final-quarter-vocabulary.recovered.mjs || true
-          echo '=== RECOVERED APPLICATOR ==='
-          nl -ba scripts/apply-final-quarter-vocabulary.recovered.mjs
-          echo '=== PATCH DECODE CHECK ==='
           node --input-type=module <<'EOF'
           import fs from 'node:fs'; import zlib from 'node:zlib';
-          const b64=fs.readFileSync('data/final-quarter-vocabulary-patch.json.gz.b64','utf8');
-          try {
-            const text=zlib.gunzipSync(Buffer.from(b64,'base64')).toString('utf8');
-            const patch=JSON.parse(text);
-            console.log(JSON.stringify({ok:true,keys:Object.keys(patch),lineCount:Object.keys(patch.lines||{}).length,dictionaryCount:Object.keys(patch.dictionary||patch.dictionaryEntries||{}).length},null,2));
-          } catch (e) {
-            console.error('PATCH_DECODE_FAIL', e.stack || e);
-            process.exitCode=1;
-          }
+          const patch=JSON.parse(zlib.gunzipSync(Buffer.from(fs.readFileSync('data/final-quarter-vocabulary-patch.json.gz.b64','utf8'),'base64')).toString('utf8'));
+          const keys=xs=>[...new Set(xs.flatMap(x=>Object.keys(x||{})))].sort();
+          const dictKeys=keys((patch.lineRules||[]).map(x=>x.dictionary));
+          const categories=Object.fromEntries([...new Set((patch.lineRules||[]).map(x=>x.category))].sort().map(c=>[c,(patch.lineRules||[]).filter(x=>x.category===c).length]));
+          const dictOnlyCats=Object.fromEntries([...new Set((patch.dictionaryOnly||[]).map(x=>x.category))].sort().map(c=>[c,(patch.dictionaryOnly||[]).filter(x=>x.category===c).length]));
+          console.log(JSON.stringify({
+            schemaVersion:patch.schemaVersion,patchId:patch.patchId,scope:patch.scope,policy:patch.policy,research:patch.research,
+            lineRules:(patch.lineRules||[]).length,lineRuleKeys:keys(patch.lineRules||[]),lineDictionaryKeys:dictKeys,categories,
+            dictionaryOnly:(patch.dictionaryOnly||[]).length,dictionaryOnlyKeys:keys(patch.dictionaryOnly||[]),dictionaryOnlyDictionaryKeys:keys((patch.dictionaryOnly||[]).map(x=>x.dictionary)),dictOnlyCats,
+            samples:{firstRule:patch.lineRules?.[0],midRule:patch.lineRules?.[Math.floor((patch.lineRules?.length||1)/2)],lastRule:patch.lineRules?.at(-1),firstDictionaryOnly:patch.dictionaryOnly?.[0],lastDictionaryOnly:patch.dictionaryOnly?.at(-1)}
+          },null,2));
           EOF
           exit 1
