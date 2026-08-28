@@ -11707,5 +11707,909 @@
       "emotion"
     ],
     "meaning": "驚き・衝撃で一瞬どう反応してよいか分からなくなる。"
+  },
+  "no answer": {
+    "lemma": "no answer",
+    "ipa": "/nəʊ ˈɑːnsə/",
+    "pos": "定型表現",
+    "meaning": "返事がない、応答がない",
+    "forms": "固定表現",
+    "tags": [
+      "stage",
+      "chunk"
+    ],
+    "coreMeaning": "返事がない、応答がない"
+  },
+  "hold out": {
+    "lemma": "hold out",
+    "ipa": "/ˌhəʊld ˈaʊt/",
+    "pos": "句動詞",
+    "coreMeaning": "【句動詞】\n① 手や物を前に差し出す\n② 持ちこたえる。",
+    "forms": "hold out · holds out · held out · holding out",
+    "tags": [
+      "polysemy",
+      "phrasal-verb"
+    ],
+    "meaning": "【句動詞】\n① 手や物を前に差し出す\n② 持ちこたえる。"
+  },
+  "stage left": {
+    "lemma": "stage left",
+    "ipa": "/ˌsteɪdʒ ˈleft/",
+    "pos": "名詞・副詞",
+    "coreMeaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+    "forms": "固定表現",
+    "tags": [
+      "theatre",
+      "stage-direction"
+    ],
+    "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。"
+  },
+  "centre stage": {
+    "lemma": "centre stage",
+    "ipa": "/ˌsentə ˈsteɪdʒ/",
+    "pos": "名詞・副詞",
+    "coreMeaning": "【舞台用語】\n舞台中央、または舞台中央へ。",
+    "forms": "固定表現",
+    "tags": [
+      "theatre",
+      "stage-direction",
+      "British English"
+    ],
+    "meaning": "【舞台用語】\n舞台中央、または舞台中央へ。"
+  },
+  "gesture": {
+    "lemma": "gesture",
+    "ipa": "/ˈdʒestʃə/",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動詞】\n身振りで示す。\n【名詞】\n身振り、ジェスチャー。",
+    "forms": "gesture · gestures · gestured · gesturing",
+    "tags": [
+      "gesture",
+      "movement"
+    ],
+    "meaning": "【動詞】\n身振りで示す。\n【名詞】\n身振り、ジェスチャー。"
+  },
+  "move": {
+    "lemma": "move",
+    "ipa": "/muːv/",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+    "forms": "move · moves · moved · moving",
+    "tags": [
+      "polysemy",
+      "movement"
+    ],
+    "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。"
+  },
+  "rise": {
+    "lemma": "rise",
+    "ipa": "/raɪz/",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+    "forms": "rise · rises · rose · risen · rising",
+    "tags": [
+      "polysemy",
+      "movement"
+    ],
+    "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。"
+  },
+  "jessie": {
+    "lemma": "Jessie",
+    "ipa": "/ˈdʒesi/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】\n英語圏の女性名。Jessica などの愛称形としても用いられる。",
+    "forms": "固定固有表現",
+    "tags": [
+      "proper-noun"
+    ],
+    "meaning": "【固有名詞】\n英語圏の女性名。Jessica などの愛称形としても用いられる。"
+  },
+  "hand back": {
+    "lemma": "hand back",
+    "ipa": "/hænd bæk/",
+    "pos": "句動詞",
+    "meaning": "～を手渡して返す、返却する",
+    "forms": "hand back · handed back · handed back",
+    "tags": [
+      "phrasal verb",
+      "stage"
+    ],
+    "coreMeaning": "～を手渡して返す、返却する"
+  },
+  "stage right": {
+    "lemma": "stage right",
+    "ipa": "/ˌsteɪdʒ ˈraɪt/",
+    "pos": "名詞・副詞",
+    "coreMeaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+    "forms": "固定表現",
+    "tags": [
+      "theatre",
+      "stage-direction"
+    ],
+    "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。"
+  },
+  "flight of steps": {
+    "lemma": "flight of steps",
+    "ipa": "/ˌflaɪt əv ˈsteps/",
+    "pos": "名詞句",
+    "coreMeaning": "ひと続きになった一組の階段・段。",
+    "forms": "flight of steps · flights of steps",
+    "tags": [
+      "collocation",
+      "building"
+    ],
+    "meaning": "ひと続きになった一組の階段・段。"
+  },
+  "pleasantly": {
+    "lemma": "pleasantly",
+    "ipa": "/ˈplezəntli/",
+    "pos": "副詞",
+    "meaning": "【副詞】\n感じよく、愛想よく、心地よく",
+    "forms": "重要な語形変化なし",
+    "tags": [
+      "delivery",
+      "stage"
+    ],
+    "coreMeaning": "【副詞】\n感じよく、愛想よく、心地よく"
+  },
+  "crypt": {
+    "lemma": "crypt",
+    "ipa": "/krɪpt/",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n教会などの床下にある地下室・地下納骨堂。",
+    "forms": "crypt · crypts",
+    "tags": [
+      "building",
+      "religion"
+    ],
+    "meaning": "【名詞】\n教会などの床下にある地下室・地下納骨堂。"
+  },
+  "monastery": {
+    "lemma": "monastery",
+    "ipa": "/ˈmɒnəstri/",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n修道士が共同生活し礼拝する建物・修道院。",
+    "forms": "monastery · monasteries",
+    "tags": [
+      "religion",
+      "building"
+    ],
+    "meaning": "【名詞】\n修道士が共同生活し礼拝する建物・修道院。"
+  },
+  "monkswell": {
+    "lemma": "Monkswell",
+    "ipa": "/ˈmʌŋkswel/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】\n地名・建物名として用いられる名称。",
+    "forms": "固定固有表現",
+    "tags": [
+      "proper-noun",
+      "fictional"
+    ],
+    "meaning": "【固有名詞】\n地名・建物名として用いられる名称。"
+  },
+  "pause": {
+    "lemma": "pause",
+    "ipa": "/pɔːz/",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動詞】\n一時止まる、間を置く。\n【名詞】\n短い中断、間。",
+    "forms": "pause · pauses · paused · pausing",
+    "tags": [
+      "theatre",
+      "delivery-direction"
+    ],
+    "meaning": "【動詞】\n一時止まる、間を置く。\n【名詞】\n短い中断、間。"
+  },
+  "downstage": {
+    "lemma": "downstage",
+    "ipa": "/ˌdaʊnˈsteɪdʒ/",
+    "pos": "副詞・形容詞・名詞",
+    "coreMeaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+    "forms": "固定表現",
+    "tags": [
+      "theatre",
+      "stage-direction"
+    ],
+    "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。"
+  },
+  "exit": {
+    "lemma": "exit",
+    "ipa": "/ˈeɡzɪt/",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
+    "forms": "exit · exits · exited · exiting",
+    "tags": [
+      "theatre",
+      "polysemy"
+    ],
+    "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。"
+  },
+  "authoritatively": {
+    "lemma": "authoritatively",
+    "ipa": "/ɔːˈθɒrɪtətɪvli/",
+    "pos": "副詞",
+    "coreMeaning": "【副詞】\n権威を示すように、きっぱり命令する調子で。",
+    "forms": "この項目では重要な語形変化なし",
+    "tags": [
+      "delivery-direction"
+    ],
+    "meaning": "【副詞】\n権威を示すように、きっぱり命令する調子で。"
+  },
+  "grudgingly": {
+    "lemma": "grudgingly",
+    "ipa": "/ˈɡrʌdʒɪŋli/",
+    "pos": "副詞",
+    "coreMeaning": "【副詞】\n不承不承に、しぶしぶ。",
+    "forms": "この項目では重要な語形変化なし",
+    "tags": [
+      "delivery-direction"
+    ],
+    "meaning": "【副詞】\n不承不承に、しぶしぶ。"
+  },
+  "hold up one's hand": {
+    "lemma": "hold up one's hand",
+    "ipa": "/həʊld ʌp wʌnz hænd/",
+    "pos": "動詞句",
+    "meaning": "手を上げる",
+    "forms": "hold · held · held",
+    "tags": [
+      "movement",
+      "stage"
+    ],
+    "coreMeaning": "手を上げる"
+  },
+  "murmur": {
+    "lemma": "murmur",
+    "ipa": "/ˈmɜːmə/",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動詞】\n小声でつぶやく。\n【名詞】\n低いささやき声、ざわめき。",
+    "forms": "murmur · murmurs · murmured · murmuring",
+    "tags": [
+      "delivery-direction"
+    ],
+    "meaning": "【動詞】\n小声でつぶやく。\n【名詞】\n低いささやき声、ざわめき。"
+  },
+  "re-enter": {
+    "lemma": "re-enter",
+    "ipa": "/ˌriːˈentə/",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n再び入る、舞台へ再登場する。",
+    "forms": "re-enter · re-enters · re-entered · re-entering",
+    "tags": [
+      "theatre"
+    ],
+    "meaning": "【動詞】\n再び入る、舞台へ再登場する。"
+  },
+  "culver street": {
+    "lemma": "Culver Street",
+    "ipa": "/ˈkʌlvə striːt/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】\n通りの名称として用いられる固有名詞。",
+    "forms": "固定固有表現",
+    "tags": [
+      "proper-noun"
+    ],
+    "meaning": "【固有名詞】\n通りの名称として用いられる固有名詞。"
+  },
+  "pat": {
+    "lemma": "pat",
+    "ipa": "/pæt/",
+    "pos": "動詞・名詞",
+    "meaning": "【動詞】\n人・物を手で軽くたたく。\n【名詞】\n軽くたたくこと。",
+    "forms": "pat · pats · patted · patting",
+    "tags": [
+      "movement",
+      "stage"
+    ],
+    "coreMeaning": "【動詞】\n人・物を手で軽くたたく。\n【名詞】\n軽くたたくこと。"
+  },
+  "take out": {
+    "lemma": "take out",
+    "ipa": "/teɪk aʊt/",
+    "pos": "句動詞",
+    "meaning": "【句動詞】\n① ～を中から取り出す\n② ～を外へ連れ出す",
+    "forms": "take · took · taken",
+    "tags": [
+      "phrasal verb",
+      "polysemy"
+    ],
+    "coreMeaning": "【句動詞】\n① ～を中から取り出す\n② ～を外へ連れ出す"
+  },
+  "address cue": {
+    "lemma": "address cue",
+    "ipa": "/əˈdres kjuː/",
+    "pos": "舞台指示表現",
+    "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+    "forms": "固定表現",
+    "tags": [
+      "theatre",
+      "stage"
+    ],
+    "coreMeaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。"
+  },
+  "stolidly": {
+    "lemma": "stolidly",
+    "ipa": "/ˈstɒlɪdli/",
+    "pos": "副詞",
+    "coreMeaning": "【副詞】\n感情をほとんど表に出さず、動じない様子で。",
+    "forms": "この項目では重要な語形変化なし",
+    "tags": [
+      "delivery-direction"
+    ],
+    "meaning": "【副詞】\n感情をほとんど表に出さず、動じない様子で。"
+  },
+  "upstage": {
+    "lemma": "upstage",
+    "ipa": "/ˌʌpˈsteɪdʒ/",
+    "pos": "副詞・形容詞・名詞・動詞",
+    "coreMeaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
+    "forms": "upstage · upstages · upstaged · upstaging",
+    "tags": [
+      "theatre",
+      "polysemy"
+    ],
+    "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。"
+  },
+  "furious": {
+    "lemma": "furious",
+    "ipa": "/ˈfjʊəriəs/",
+    "pos": "形容詞",
+    "meaning": "【形容詞】\n激怒した、猛烈に怒った",
+    "forms": "重要な語形変化なし",
+    "tags": [
+      "delivery",
+      "emotion"
+    ],
+    "coreMeaning": "【形容詞】\n激怒した、猛烈に怒った"
+  },
+  "shaken": {
+    "lemma": "shaken",
+    "ipa": "/ˈʃeɪkən/",
+    "pos": "形容詞",
+    "meaning": "【形容詞】\n精神的に動揺した、ショックを受けた",
+    "forms": "shake · shook · shaken",
+    "tags": [
+      "delivery",
+      "emotion"
+    ],
+    "coreMeaning": "【形容詞】\n精神的に動揺した、ショックを受けた"
+  },
+  "sit": {
+    "lemma": "sit",
+    "ipa": "/sɪt/",
+    "pos": "動詞",
+    "meaning": "【動詞】\n座る、腰掛ける",
+    "forms": "sit · sat · sat · sitting",
+    "tags": [
+      "movement",
+      "stage"
+    ],
+    "coreMeaning": "【動詞】\n座る、腰掛ける"
+  },
+  "jap": {
+    "lemma": "Jap",
+    "ipa": "/dʒæp/",
+    "pos": "名詞・形容詞",
+    "coreMeaning": "【名詞・形容詞】\nJapanese の短縮形。現在は侮蔑的・攻撃的な語とされる。",
+    "forms": "Jap · Japs",
+    "tags": [
+      "dated",
+      "offensive",
+      "historical"
+    ],
+    "meaning": "【名詞・形容詞】\nJapanese の短縮形。現在は侮蔑的・攻撃的な語とされる。"
+  },
+  "consider": {
+    "lemma": "consider",
+    "ipa": "/kənˈsɪdə/",
+    "pos": "動詞",
+    "meaning": "【動詞】\n① よく考える、検討する\n② ～とみなす",
+    "forms": "consider · considered · considered",
+    "tags": [
+      "polysemy"
+    ],
+    "coreMeaning": "【動詞】\n① よく考える、検討する\n② ～とみなす"
+  },
+  "turn to": {
+    "lemma": "turn to",
+    "ipa": "/tɜːn tuː/",
+    "pos": "句動詞",
+    "meaning": "【句動詞】\n① ～の方を向く\n② ～に頼る、助けを求める\n③ 話題・注意を～へ移す",
+    "forms": "turn · turned · turned",
+    "tags": [
+      "polysemy",
+      "stage"
+    ],
+    "coreMeaning": "【句動詞】\n① ～の方を向く\n② ～に頼る、助けを求める\n③ 話題・注意を～へ移す"
+  },
+  "maureen lyon": {
+    "lemma": "Maureen Lyon",
+    "ipa": "/mɔːˈriːn ˈlaɪən/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】\n人名。",
+    "forms": "固定固有表現",
+    "tags": [
+      "proper-noun"
+    ],
+    "meaning": "【固有名詞】\n人名。"
+  },
+  "sex": {
+    "lemma": "sex",
+    "ipa": "/sɛks/",
+    "pos": "名詞",
+    "meaning": "【名詞】\n① 性、性別\n② 性行為、性的活動",
+    "forms": "sex · sexes",
+    "tags": [
+      "polysemy",
+      "context"
+    ],
+    "coreMeaning": "【名詞】\n① 性、性別\n② 性行為、性的活動"
+  },
+  "part": {
+    "lemma": "part",
+    "ipa": "/pɑːt/",
+    "pos": "名詞",
+    "meaning": "【名詞】\n① 部分、一部\n② 役割、役目\n③ 演劇・映画などの役、配役",
+    "forms": "part · parts",
+    "tags": [
+      "polysemy",
+      "theatre",
+      "context"
+    ],
+    "coreMeaning": "【名詞】\n① 部分、一部\n② 役割、役目\n③ 演劇・映画などの役、配役"
+  },
+  "field": {
+    "lemma": "field",
+    "ipa": "/fiːld/",
+    "pos": "名詞",
+    "meaning": "【名詞】\n① 野原、畑\n② 活動・研究などの分野\n③ 候補・参加者などの範囲・一団",
+    "forms": "field · fields",
+    "tags": [
+      "polysemy",
+      "context"
+    ],
+    "coreMeaning": "【名詞】\n① 野原、畑\n② 活動・研究などの分野\n③ 候補・参加者などの範囲・一団"
+  },
+  "check": {
+    "lemma": "check",
+    "ipa": "/tʃek/",
+    "pos": "動詞・名詞",
+    "meaning": "【動詞】\n① 正しいか・事実かを確認する、照合する\n② 進行・増加・発言などを止める、抑える\n【名詞】\n① 確認、点検\n② 抑制、阻止",
+    "forms": "check · checks · checked · checking",
+    "tags": [
+      "polysemy",
+      "context"
+    ],
+    "coreMeaning": "【動詞】\n① 正しいか・事実かを確認する、照合する\n② 進行・増加・発言などを止める、抑える\n【名詞】\n① 確認、点検\n② 抑制、阻止"
+  },
+  "be about to": {
+    "lemma": "be about to",
+    "ipa": "/bi əˈbaʊt tuː/",
+    "pos": "定型表現",
+    "meaning": "今にも～しようとしている、まさに～するところである",
+    "forms": "be動詞が主語・時制に応じて変化",
+    "tags": [
+      "chunk"
+    ],
+    "coreMeaning": "今にも～しようとしている、まさに～するところである"
+  },
+  "protest": {
+    "lemma": "protest",
+    "ipa": "/prəˈtest/",
+    "pos": "動詞・名詞",
+    "meaning": "【動詞】\n抗議する、異議を唱える。\n【名詞】\n抗議、異議。",
+    "forms": "protest · protested · protested",
+    "tags": [
+      "polysemy"
+    ],
+    "coreMeaning": "【動詞】\n抗議する、異議を唱える。\n【名詞】\n抗議、異議。"
+  },
+  "christopher wren": {
+    "lemma": "Christopher Wren",
+    "ipa": "/ˈkrɪstəfə ren/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】\n英語の人名。",
+    "forms": "固定固有表現",
+    "tags": [
+      "proper-noun"
+    ],
+    "meaning": "【固有名詞】\n英語の人名。"
+  },
+  "london": {
+    "lemma": "London",
+    "ipa": "/ˈlʌndən/",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+    "forms": "固定固有表現",
+    "tags": [
+      "proper-noun",
+      "place"
+    ],
+    "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。"
+  },
+  "significantly": {
+    "lemma": "significantly",
+    "ipa": "/sɪɡˈnɪfɪkəntli/",
+    "pos": "副詞",
+    "coreMeaning": "【副詞】\n① 重要な程度に\n② 意味ありげに、含みを持たせて。",
+    "forms": "この項目では重要な語形変化なし",
+    "tags": [
+      "polysemy",
+      "delivery-direction"
+    ],
+    "meaning": "【副詞】\n① 重要な程度に\n② 意味ありげに、含みを持たせて。"
+  },
+  "turn back": {
+    "lemma": "turn back",
+    "ipa": "/tɜːn bæk/",
+    "pos": "句動詞",
+    "meaning": "【句動詞】\n① 引き返す\n② 向き直る、元の方向へ向く",
+    "forms": "turn · turned · turned",
+    "tags": [
+      "phrasal verb",
+      "stage"
+    ],
+    "coreMeaning": "【句動詞】\n① 引き返す\n② 向き直る、元の方向へ向く"
+  },
+  "stamp one's foot": {
+    "lemma": "stamp one's foot",
+    "ipa": "/ˌstæmp wʌnz ˈfʊt/",
+    "pos": "動詞句",
+    "coreMeaning": "怒り・苛立ちなどで足を強く踏み鳴らす。",
+    "forms": "stamp one's foot · stamps · stamped · stamping",
+    "tags": [
+      "gesture",
+      "collocation"
+    ],
+    "meaning": "怒り・苛立ちなどで足を強く踏み鳴らす。"
+  },
+  "look at": {
+    "lemma": "look at",
+    "ipa": "/lʊk æt/",
+    "pos": "句動詞",
+    "meaning": "～を見る、～へ視線を向ける",
+    "forms": "look · looked · looked",
+    "tags": [
+      "movement",
+      "stage"
+    ],
+    "coreMeaning": "～を見る、～へ視線を向ける"
+  },
+  "suspiciously": {
+    "lemma": "suspiciously",
+    "ipa": "/səˈspɪʃəsli/",
+    "pos": "副詞",
+    "coreMeaning": "【副詞】\n疑わしそうに、疑念を抱いて。",
+    "forms": "この項目では重要な語形変化なし",
+    "tags": [
+      "delivery-direction"
+    ],
+    "meaning": "【副詞】\n疑わしそうに、疑念を抱いて。"
+  },
+  "enter": {
+    "lemma": "enter",
+    "ipa": "/ˈentə/",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
+    "forms": "enter · enters · entered · entering",
+    "tags": [
+      "theatre",
+      "polysemy"
+    ],
+    "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。"
+  },
+  "peep": {
+    "lemma": "peep",
+    "ipa": "/piːp/",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動詞】\nちらりとのぞく。\n【名詞】\nちらりとのぞくこと、かすかな音。",
+    "forms": "peep · peeps · peeped · peeping",
+    "tags": [
+      "movement",
+      "polysemy"
+    ],
+    "meaning": "【動詞】\nちらりとのぞく。\n【名詞】\nちらりとのぞくこと、かすかな音。"
+  },
+  "hopelessly": {
+    "lemma": "hopelessly",
+    "ipa": "/ˈhəʊpləsli/",
+    "pos": "副詞",
+    "coreMeaning": "【副詞】\n① 絶望して\n② どうしようもないほど。",
+    "forms": "この項目では重要な語形変化なし",
+    "tags": [
+      "polysemy",
+      "delivery-direction"
+    ],
+    "meaning": "【副詞】\n① 絶望して\n② どうしようもないほど。"
+  },
+  "affectionately": {
+    "lemma": "affectionately",
+    "ipa": "/əˈfekʃənətli/",
+    "pos": "副詞",
+    "coreMeaning": "【副詞】\n愛情を込めて、親しげに。",
+    "forms": "この項目では重要な語形変化なし",
+    "tags": [
+      "delivery-direction"
+    ],
+    "meaning": "【副詞】\n愛情を込めて、親しげに。"
+  },
+  "unease": {
+    "lemma": "unease",
+    "ipa": "/ʌnˈiːz/",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n不安、落ち着かなさ。",
+    "forms": "不可算名詞として用いられることが多い",
+    "tags": [
+      "emotion"
+    ],
+    "meaning": "【名詞】\n不安、落ち着かなさ。"
+  },
+  "face": {
+    "lemma": "face",
+    "ipa": "/feɪs/",
+    "pos": "動詞・名詞",
+    "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+    "forms": "face · faced · faced",
+    "tags": [
+      "polysemy",
+      "stage"
+    ],
+    "coreMeaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。"
+  },
+  "silence": {
+    "lemma": "silence",
+    "ipa": "/ˈsaɪləns/",
+    "pos": "名詞・動詞",
+    "meaning": "【名詞】\n沈黙、静寂。\n【動詞】\n黙らせる。",
+    "forms": "silence · silenced · silenced",
+    "tags": [
+      "stage",
+      "delivery"
+    ],
+    "coreMeaning": "【名詞】\n沈黙、静寂。\n【動詞】\n黙らせる。"
+  },
+  "show": {
+    "lemma": "show",
+    "ipa": "/ʃəʊ/",
+    "pos": "動詞・名詞",
+    "meaning": "【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。",
+    "forms": "show · showed · shown/showed",
+    "tags": [
+      "polysemy"
+    ],
+    "coreMeaning": "【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。"
+  },
+  "evening paper": {
+    "lemma": "evening paper",
+    "ipa": "/ˈiːvnɪŋ ˌpeɪpə/",
+    "pos": "名詞句",
+    "coreMeaning": "夕方に発行される新聞、夕刊。",
+    "forms": "evening paper · evening papers",
+    "tags": [
+      "British English",
+      "media"
+    ],
+    "meaning": "夕方に発行される新聞、夕刊。"
+  },
+  "back away": {
+    "lemma": "back away",
+    "ipa": "/ˌbæk əˈweɪ/",
+    "pos": "句動詞",
+    "coreMeaning": "後ずさりする、距離を取るため後方へ下がる。",
+    "forms": "back away · backs away · backed away · backing away",
+    "tags": [
+      "movement",
+      "phrasal-verb"
+    ],
+    "meaning": "後ずさりする、距離を取るため後方へ下がる。"
+  },
+  "kneel": {
+    "lemma": "kneel",
+    "ipa": "/niːl/",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\nひざまずく、ひざをつく。",
+    "forms": "kneel · kneels · knelt/kneeled · kneeling",
+    "tags": [
+      "movement"
+    ],
+    "meaning": "【動詞】\nひざまずく、ひざをつく。"
+  },
+  "put one's hands to one's face": {
+    "lemma": "put one's hands to one's face",
+    "ipa": "/pʊt wʌnz hændz tə wʌnz feɪs/",
+    "pos": "動作表現",
+    "meaning": "両手を自分の顔に当てる",
+    "forms": "put · put · put",
+    "tags": [
+      "movement",
+      "stage"
+    ],
+    "coreMeaning": "両手を自分の顔に当てる"
+  },
+  "at the door": {
+    "lemma": "at the door",
+    "ipa": "/æt ðə dɔː/",
+    "pos": "前置詞句",
+    "meaning": "戸口に、ドアのところに",
+    "forms": "固定表現",
+    "tags": [
+      "stage",
+      "position"
+    ],
+    "coreMeaning": "戸口に、ドアのところに"
+  },
+  "peculiar tone": {
+    "lemma": "peculiar tone",
+    "ipa": "/pɪˌkjuːliə ˈtəʊn/",
+    "pos": "名詞句",
+    "coreMeaning": "普通とは違う、妙な声の調子。",
+    "forms": "固定表現",
+    "tags": [
+      "delivery-direction"
+    ],
+    "meaning": "普通とは違う、妙な声の調子。"
+  },
+  "bus ticket": {
+    "lemma": "bus ticket",
+    "ipa": "/ˈbʌs ˌtɪkɪt/",
+    "pos": "名詞句",
+    "coreMeaning": "バスに乗車するための切符・乗車券。",
+    "forms": "bus ticket · bus tickets",
+    "tags": [
+      "transport"
+    ],
+    "meaning": "バスに乗車するための切符・乗車券。"
+  },
+  "draw out": {
+    "lemma": "draw out",
+    "ipa": "/drɔː aʊt/",
+    "pos": "句動詞",
+    "meaning": "【句動詞】\n① ～を引き出す、取り出す\n② ～を長引かせる\n③ 人から話・情報を引き出す",
+    "forms": "draw · drew · drawn",
+    "tags": [
+      "phrasal verb",
+      "polysemy"
+    ],
+    "coreMeaning": "【句動詞】\n① ～を引き出す、取り出す\n② ～を長引かせる\n③ 人から話・情報を引き出す"
+  },
+  "start": {
+    "lemma": "start",
+    "ipa": "/stɑːt/",
+    "pos": "動詞・名詞",
+    "meaning": "【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。",
+    "forms": "start · started · started",
+    "tags": [
+      "polysemy",
+      "stage"
+    ],
+    "coreMeaning": "【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。"
+  },
+  "look guilty": {
+    "lemma": "look guilty",
+    "ipa": "/ˌlʊk ˈɡɪlti/",
+    "pos": "動詞句",
+    "coreMeaning": "罪悪感・後ろめたさがあるような表情や様子に見える。",
+    "forms": "look guilty · looks/looked/looking guilty",
+    "tags": [
+      "reaction-direction"
+    ],
+    "meaning": "罪悪感・後ろめたさがあるような表情や様子に見える。"
+  },
+  "with emphasis": {
+    "lemma": "with emphasis",
+    "ipa": "/wɪð ˈemfəsɪs/",
+    "pos": "副詞句",
+    "coreMeaning": "強調して、力を込めて。",
+    "forms": "固定表現",
+    "tags": [
+      "delivery-direction"
+    ],
+    "meaning": "強調して、力を込めて。"
+  },
+  "in horror": {
+    "lemma": "in horror",
+    "ipa": "/ɪn ˈhɒrə/",
+    "pos": "副詞句",
+    "coreMeaning": "恐怖・強い衝撃を感じて。",
+    "forms": "固定表現",
+    "tags": [
+      "delivery-direction"
+    ],
+    "meaning": "恐怖・強い衝撃を感じて。"
+  },
+  "come nearer": {
+    "lemma": "come nearer",
+    "ipa": "/kʌm ˈnɪərə/",
+    "pos": "動詞句",
+    "meaning": "もっと近づく、近寄る",
+    "forms": "come · came · come",
+    "tags": [
+      "movement",
+      "stage"
+    ],
+    "coreMeaning": "もっと近づく、近寄る"
+  },
+  "recoil": {
+    "lemma": "recoil",
+    "ipa": "/rɪˈkɔɪl/",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動詞】\n驚き・恐れ・嫌悪などで身を引く、後ずさる。\n【名詞】\n反動、後退。",
+    "forms": "recoil · recoils · recoiled · recoiling",
+    "tags": [
+      "movement",
+      "polysemy"
+    ],
+    "meaning": "【動詞】\n驚き・恐れ・嫌悪などで身を引く、後ずさる。\n【名詞】\n反動、後退。"
+  },
+  "follow": {
+    "lemma": "follow",
+    "ipa": "/ˈfɒləʊ/",
+    "pos": "動詞",
+    "meaning": "【動詞】\n① ～の後について行く、追う\n② ～に続く\n③ ～を理解する",
+    "forms": "follow · followed · followed",
+    "tags": [
+      "polysemy",
+      "movement"
+    ],
+    "coreMeaning": "【動詞】\n① ～の後について行く、追う\n② ～に続く\n③ ～を理解する"
+  },
+  "dreamy": {
+    "lemma": "dreamy",
+    "ipa": "/ˈdriːmi/",
+    "pos": "形容詞",
+    "coreMeaning": "【形容詞】\n① 夢見るような、ぼんやりした\n② 夢のように心地よい。",
+    "forms": "dreamy · dreamier · dreamiest",
+    "tags": [
+      "polysemy",
+      "delivery-direction"
+    ],
+    "meaning": "【形容詞】\n① 夢見るような、ぼんやりした\n② 夢のように心地よい。"
+  },
+  "angrily": {
+    "lemma": "angrily",
+    "ipa": "/ˈæŋɡrəli/",
+    "pos": "副詞",
+    "meaning": "【副詞】\n怒って、腹を立てた調子で",
+    "forms": "重要な語形変化なし",
+    "tags": [
+      "delivery",
+      "emotion"
+    ],
+    "coreMeaning": "【副詞】\n怒って、腹を立てた調子で"
+  },
+  "reinforcements": {
+    "lemma": "reinforcements",
+    "ipa": "/ˌriːɪnˈfɔːsmənts/",
+    "pos": "名詞",
+    "coreMeaning": "【名詞・複数】\n部隊や人員を強化するために追加で送られる援軍・応援要員。",
+    "forms": "通常複数形 reinforcements",
+    "tags": [
+      "military",
+      "police"
+    ],
+    "meaning": "【名詞・複数】\n部隊や人員を強化するために追加で送られる援軍・応援要員。"
+  },
+  "chuckle": {
+    "lemma": "chuckle",
+    "ipa": "/ˈtʃʌkəl/",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動詞】\nくすくす笑う、含み笑いする。\n【名詞】\nくすくす笑い。",
+    "forms": "chuckle · chuckles · chuckled · chuckling",
+    "tags": [
+      "delivery-direction"
+    ],
+    "meaning": "【動詞】\nくすくす笑う、含み笑いする。\n【名詞】\nくすくす笑い。"
+  },
+  "surprised": {
+    "lemma": "surprised",
+    "ipa": "/səˈpraɪzd/",
+    "pos": "形容詞",
+    "meaning": "【形容詞】\n驚いた、意外に思った",
+    "forms": "surprise · surprised · surprised",
+    "tags": [
+      "delivery",
+      "emotion"
+    ],
+    "coreMeaning": "【形容詞】\n驚いた、意外に思った"
   }
 }

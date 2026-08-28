@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "range": {
+    "globalSpeechStart": 583,
+    "globalSpeechEnd": 873,
+    "scene": "act2",
+    "speechIdStart": "act2-speech-0057",
+    "speechIdEnd": "act2-speech-0347",
+    "speeches": 291
+  },
+  "sources": {
+    "canonicalScript": "mousetrap_script_data.json",
+    "sourcePdf": "The Mousetrap 台本.pdf (stage directions extracted for this range)",
+    "dictionaryResearch": [
+      "Oxford priority per editorial policy",
+      "Cambridge Dictionary",
+      "Collins English Dictionary"
+    ],
+    "notes": "New neutral dictionary senses are kept separate from target-specific inThisPlay explanations."
+  },
+  "metrics": {
+    "newVocabulary": 385,
+    "newDictionaryEntries": 77,
+    "modifiedExistingEntries": 0,
+    "properNouns": 10,
+    "multiWordExpressions": 151,
+    "stageDirectionEntries": 0,
+    "polysemousWithInThisPlay": 137,
+    "autoReusedExistingDictionary": 56,
+    "curatedSpokenEntries": 16,
+    "stageDirectionsAudited": 157,
+    "stageDirectionsMapped": 157,
+    "targetSpeechesChecked": 291
+  },
+  "targetBefore": {
+    "items": 334,
+    "annotated": 148,
+    "inThisPlay": 5
+  },
+  "targetAfter": {
+    "items": 719,
+    "annotated": 214,
+    "inThisPlay": 334
+  },
+  "productionTotals": {
+    "vocabularyItems": 2262,
+    "annotatedSpeeches": 743,
+    "dictionaryEntries": 1204,
+    "referencedLemmas": 1163,
+    "inThisPlayItems": 459
+  },
+  "audits": {
+    "jsonParse": "PASS",
+    "schema": "PASS",
+    "duplicateCheck": "PASS",
+    "missingReferenceCheck": "PASS",
+    "speechIdCheck": "PASS",
+    "targetBoundaryCheck": "PASS",
+    "outOfScopeLineMutationCheck": "PASS",
+    "semanticSeparationCheck": "PASS",
+    "stageDirectionMapping": "PASS",
+    "stageDirectionsWithoutLexicalMatch": 0
+  },
+  "stageDirectionsWithoutLexicalMatch": [],
+  "changedFiles": [
+    "mousetrap_line_vocabulary.json",
+    "mousetrap_word_dictionary.json",
+    "data/canonical-integration-manifest.json",
+    "data/vocabulary-rebuild/range-0583-0873-production-report.json"
+  ],
+  "unresolvedItems": [],
+  "hashes": {
+    "lineVocabulary": "f492f6072a6ee7096ec6a6c4de70b35c9b78b447426c429fa47423d983e7cebb",
+    "wordDictionary": "97d2122b36f15777f7a048839a7d56075f3b68642ef3eb9aa4fc31975ab32eab"
+  },
+  "qa": "PASS",
+  "metricDefinitions": {
+    "newVocabulary": "target final row count minus current-main target baseline row count",
+    "newDictionaryEntries": "final dictionary exact keys absent from current-main baseline",
+    "modifiedExistingEntries": "current-main dictionary entries changed in place (must be zero)",
+    "properNouns": "unique proper-noun lemmas referenced in final target range",
+    "multiWordExpressions": "new target vocabulary rows whose lemma contains whitespace",
+    "stageDirectionEntries": "final target rows explicitly marked category=stage",
+    "polysemousWithInThisPlay": "final target rows with inThisPlay whose dictionary entry is contextual/polysemous"
+  },
+  "integration": {
+    "baseMainSha": "4d457ef1784a5d9f1847e6f8e62eef439232266e",
+    "sourceRangeCommit": "dabb6ed",
+    "verifiedIntegrationCommit": "16ffa32",
+    "appQaTrigger": "connector-trigger-1",
+    "strategy": "replace target speech rows; preserve all main dictionary entries; add only missing exact-key lemmas; align target row meaning to main dictionary when reused"
+  }
+}
