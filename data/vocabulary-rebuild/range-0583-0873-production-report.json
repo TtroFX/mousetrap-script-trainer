@@ -84,8 +84,10 @@
     "polysemousWithInThisPlay": "final target rows with inThisPlay whose dictionary entry is contextual/polysemous"
   },
   "integration": {
-    "baseMainSha": "041cfa83a0d074974dddced2d6b7ef641b2a04f9",
+    "baseMainSha": "4d457ef1784a5d9f1847e6f8e62eef439232266e",
     "sourceRangeCommit": "dabb6ed",
+    "verifiedIntegrationCommit": "16ffa32",
+    "appQaTrigger": "connector-trigger-1",
     "strategy": "replace target speech rows; preserve all main dictionary entries; add only missing exact-key lemmas; align target row meaning to main dictionary when reused"
   }
 }
