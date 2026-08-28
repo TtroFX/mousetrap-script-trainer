@@ -212,7 +212,7 @@
     {
       "surface": "downstage",
       "lemma": "downstage",
-      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】客席に近い舞台前方を示す位置指定。"
     },
@@ -860,7 +860,7 @@
     {
       "surface": "wasted",
       "lemma": "waste",
-      "meaning": "【動詞・名詞】\n時間・物資などを無駄にする、無駄。",
+      "meaning": "【動】\n時間・物資などを無駄にする。\n【名】\n無駄、浪費。",
       "playMeaning": false
     },
     {
@@ -1782,7 +1782,7 @@
     {
       "surface": "Wouldn't attempt",
       "lemma": "attempt",
-      "meaning": "【動詞・名詞】\n難しいことをやってみる、試みること。",
+      "meaning": "【動】\n難しいことをやってみる、試みる。\n【名】\n試み、企て。",
       "playMeaning": true
     },
     {
@@ -1977,7 +1977,7 @@
     {
       "surface": "fake",
       "lemma": "fake",
-      "meaning": "【名詞・形容詞・動詞】\n偽物、偽の。偽造する。",
+      "meaning": "【名】\n偽物。\n【形】\n偽の、偽物の。\n【動】\n偽造する、装う。",
       "playMeaning": false
     },
     {
@@ -2063,7 +2063,7 @@
     {
       "surface": "solid",
       "lemma": "solid",
-      "meaning": "【形容詞・名詞】\n固体の、頑丈な、中身の詰まった。",
+      "meaning": "【形】\n固体の、頑丈な、中身の詰まった。\n【名】\n固体。",
       "playMeaning": false
     }
   ],
@@ -2250,7 +2250,7 @@
     {
       "surface": "centre",
       "lemma": "Centre",
-      "meaning": "舞台中央。",
+      "meaning": "【舞台】\n舞台中央。",
       "playMeaning": true
     },
     {
@@ -2675,7 +2675,7 @@
     {
       "surface": "Prefab",
       "lemma": "prefab",
-      "meaning": "【名詞・形容詞】\n工場で部材を作って現場で組み立てるプレハブ建築・その方式。",
+      "meaning": "【名】\nあらかじめ工場で部材を作り、現場で組み立てるプレハブ建築。\n【形】\nプレハブ式の、あらかじめ部材を製造した。",
       "playMeaning": true
     },
     {
@@ -2775,7 +2775,7 @@
     {
       "surface": "Indeed",
       "lemma": "indeed",
-      "meaning": "【副詞・間投的表現】\n実に、本当に。返答で確認・強調を表す。",
+      "meaning": "【副】\n実に、本当に、確かに。\n【間投的表現】\n返答で確認・強調を表す。",
       "playMeaning": true
     },
     {
@@ -2829,7 +2829,7 @@
     {
       "surface": "European",
       "lemma": "European",
-      "meaning": "【形容詞・名詞】\nヨーロッパの、ヨーロッパ人。",
+      "meaning": "【形】\nヨーロッパの。\n【名】\nヨーロッパ人。",
       "playMeaning": false
     },
     {
@@ -3745,7 +3745,7 @@
     {
       "surface": "local",
       "lemma": "local",
-      "meaning": "【形容詞・名詞】\nその地域の、地元の。",
+      "meaning": "【形】\nその地域の、地元の。\n【名】\n地元の人。",
       "playMeaning": false
     },
     {
@@ -4831,7 +4831,7 @@
     {
       "surface": "Fit pretty well anyone",
       "lemma": "fit",
-      "meaning": "【動詞・形容詞】\n大きさ・条件・特徴などが合う、適合する。",
+      "meaning": "【動】\n大きさ・条件・特徴などが合う、適合する。\n【形】\n適した、ふさわしい。",
       "playMeaning": true,
       "inThisPlay": "その人相・服装の説明は特徴が曖昧すぎて、ほとんど誰にでも当てはまり得るという皮肉。"
     }
@@ -4846,7 +4846,7 @@
     {
       "surface": "a polite way of hinting",
       "lemma": "hint",
-      "meaning": "【動詞・名詞】\n直接言わずにほのめかす、ほのめかし。",
+      "meaning": "【動】\n直接言わずにほのめかす。\n【名】\nほのめかし、手掛かり。",
       "playMeaning": true,
       "inThisPlay": "『事情を聴きたい』という警察の婉曲表現が、実際にはその男を犯人として疑っていることをほのめかしているのか、と尋ねている。"
     },
@@ -5161,7 +5161,7 @@
     {
       "surface": "original",
       "lemma": "original",
-      "meaning": "【形容詞・名詞】\n独創的な、最初の、原物の。",
+      "meaning": "【形】\n独創的な、最初の、原物の。\n【名】\n原物、原本。",
       "playMeaning": true
     }
   ],
@@ -6626,7 +6626,7 @@
     {
       "surface": "indeed",
       "lemma": "indeed",
-      "meaning": "【副詞・間投的表現】\n実に、本当に。返答で確認・強調を表す。",
+      "meaning": "【副】\n実に、本当に、確かに。\n【間投的表現】\n返答で確認・強調を表す。",
       "playMeaning": false
     },
     {
@@ -6992,7 +6992,7 @@
     {
       "surface": "indeed",
       "lemma": "indeed",
-      "meaning": "【副詞・間投的表現】\n実に、本当に。返答で確認・強調を表す。",
+      "meaning": "【副】\n実に、本当に、確かに。\n【間投的表現】\n返答で確認・強調を表す。",
       "playMeaning": false
     },
     {
@@ -8781,7 +8781,7 @@
     {
       "surface": "Indeed",
       "lemma": "indeed",
-      "meaning": "【副詞・間投的表現】\n実に、本当に。返答で確認・強調を表す。",
+      "meaning": "【副】\n実に、本当に、確かに。\n【間投的表現】\n返答で確認・強調を表す。",
       "playMeaning": false
     }
   ],
@@ -9245,7 +9245,7 @@
     {
       "surface": "indeed",
       "lemma": "indeed",
-      "meaning": "【副詞・間投的表現】\n実に、本当に。返答で確認・強調を表す。",
+      "meaning": "【副】\n実に、本当に、確かに。\n【間投的表現】\n返答で確認・強調を表す。",
       "playMeaning": false
     }
   ],
@@ -10283,7 +10283,7 @@
     {
       "surface": "Till",
       "lemma": "till",
-      "meaning": "【前置詞・接続詞】\n～まで、～する時まで。",
+      "meaning": "【前】\n～まで。\n【接】\n～する時まで。",
       "playMeaning": false
     },
     {
@@ -10526,7 +10526,7 @@
     {
       "surface": "indeed",
       "lemma": "indeed",
-      "meaning": "【副詞・間投的表現】\n実に、本当に。返答で確認・強調を表す。",
+      "meaning": "【副】\n実に、本当に、確かに。\n【間投的表現】\n返答で確認・強調を表す。",
       "playMeaning": false
     },
     {
@@ -10951,7 +10951,7 @@
     {
       "surface": "till",
       "lemma": "till",
-      "meaning": "【前置詞・接続詞】\n～まで、～する時まで。",
+      "meaning": "【前】\n～まで。\n【接】\n～する時まで。",
       "playMeaning": false
     },
     {
@@ -10986,7 +10986,7 @@
     {
       "surface": "Plenty",
       "lemma": "plenty",
-      "meaning": "【代名詞・名詞】\n十分以上の量、多くのもの・こと。",
+      "meaning": "【代】\n十分以上の量、多くのもの・こと。\n【名】\n十分な量、豊富さ。",
       "playMeaning": false
     }
   ],
@@ -10997,7 +10997,7 @@
     {
       "surface": "attempted",
       "lemma": "attempt",
-      "meaning": "【動詞・名詞】\n難しいことをやってみる、試みること。",
+      "meaning": "【動】\n難しいことをやってみる、試みる。\n【名】\n試み、企て。",
       "playMeaning": false
     }
   ],
@@ -11070,7 +11070,7 @@
     {
       "surface": "whisper",
       "lemma": "whisper",
-      "meaning": "【名詞・動詞】\n非常に小さな声で話すこと・ささやき、またはささやく。",
+      "meaning": "【名】\nささやき、小声。\n【動】\n非常に小さな声で話す、ささやく。",
       "playMeaning": false
     },
     {
@@ -12132,7 +12132,7 @@
     {
       "surface": "antiquarian",
       "lemma": "antiquarian",
-      "meaning": "【形容詞・名詞】\n古い物・歴史資料を専門的に扱う antiquary に関係する。",
+      "meaning": "【形】\n古物・古書・歴史資料などに関する、好古趣味の。\n【名】\n古物・古書・歴史資料などを研究・収集する人、好古家。",
       "playMeaning": true
     },
     {
@@ -12273,7 +12273,7 @@
     {
       "surface": "wasting",
       "lemma": "waste",
-      "meaning": "【動詞・名詞】\n時間・物資などを無駄にする、無駄。",
+      "meaning": "【動】\n時間・物資などを無駄にする。\n【名】\n無駄、浪費。",
       "playMeaning": false
     },
     {
@@ -12309,7 +12309,7 @@
     {
       "surface": "down",
       "lemma": "downstage",
-      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
       "playMeaning": true,
       "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
     },
@@ -12826,7 +12826,7 @@
     {
       "surface": "down",
       "lemma": "downstage",
-      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
       "playMeaning": true,
       "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
     },
@@ -12880,7 +12880,7 @@
     {
       "surface": "down",
       "lemma": "downstage",
-      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
       "playMeaning": true,
       "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
     },
@@ -13290,7 +13290,7 @@
     {
       "surface": "Japs",
       "lemma": "Jap",
-      "meaning": "【名詞・形容詞】\nJapanese の短縮形。現在は侮蔑的・攻撃的な語とされる。",
+      "meaning": "【名】\nJapanese を指す短縮形。現在は侮蔑的・攻撃的な語。\n【形】\nJapanese を表す短縮形。現在は侮蔑的・攻撃的な語。",
       "playMeaning": true,
       "inThisPlay": "第二次世界大戦期の日本人を指して用いられる、現在では侮蔑的とされる歴史的表現。Mollieが父親の戦争体験を推測する発言中に出る。"
     }
@@ -13532,7 +13532,7 @@
     {
       "surface": "whispered",
       "lemma": "whisper",
-      "meaning": "【名詞・動詞】\n非常に小さな声で話すこと・ささやき、またはささやく。",
+      "meaning": "【名】\nささやき、小声。\n【動】\n非常に小さな声で話す、ささやく。",
       "playMeaning": false
     },
     {
@@ -13862,7 +13862,7 @@
     {
       "surface": "consented",
       "lemma": "consent",
-      "meaning": "【名詞・動詞】\n提案・行為などを受け入れて同意すること、または同意する。",
+      "meaning": "【名】\n同意、承諾。\n【動】\n同意する、承諾する。",
       "playMeaning": false
     },
     {
@@ -14131,7 +14131,7 @@
     {
       "surface": "down",
       "lemma": "downstage",
-      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
       "playMeaning": true,
       "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
     },
@@ -14513,7 +14513,7 @@
     {
       "surface": "down",
       "lemma": "downstage",
-      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
       "playMeaning": true,
       "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
     },
@@ -15055,7 +15055,7 @@
     {
       "surface": "down",
       "lemma": "downstage",
-      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
       "playMeaning": true,
       "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
     },
@@ -15104,7 +15104,7 @@
     {
       "surface": "whispering",
       "lemma": "whisper",
-      "meaning": "【名詞・動詞】\n非常に小さな声で話すこと・ささやき、またはささやく。",
+      "meaning": "【名】\nささやき、小声。\n【動】\n非常に小さな声で話す、ささやく。",
       "playMeaning": true,
       "inThisPlay": "Mollieが声量を落とし、ささやくように発言する演技指示。"
     }
@@ -15443,7 +15443,7 @@
     {
       "surface": "down",
       "lemma": "downstage",
-      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
       "playMeaning": true,
       "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
     },
@@ -15597,7 +15597,7 @@
     {
       "surface": "down",
       "lemma": "downstage",
-      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
       "playMeaning": true,
       "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
     },
@@ -15898,7 +15898,7 @@
     {
       "surface": "down",
       "lemma": "downstage",
-      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
       "playMeaning": true,
       "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
     },
@@ -16242,7 +16242,7 @@
     {
       "surface": "down",
       "lemma": "downstage",
-      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
       "playMeaning": true,
       "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
     },
@@ -16680,7 +16680,7 @@
     {
       "surface": "down",
       "lemma": "downstage",
-      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
       "playMeaning": true,
       "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
     },
@@ -16786,7 +16786,7 @@
     {
       "surface": "down",
       "lemma": "downstage",
-      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
       "playMeaning": true,
       "inThisPlay": "このト書きの down は単なる「下」ではなく、客席寄りの舞台前方を示す舞台用語。"
     },
@@ -17482,7 +17482,7 @@
     {
       "surface": "snick",
       "lemma": "snick",
-      "meaning": "【間投詞・名詞】\n小さく鋭い切断音・クリック音を表す語。",
+      "meaning": "【間投】\n小さく鋭い切断音・クリック音を表す。\n【名】\n小さく鋭い切断音・クリック音。",
       "playMeaning": true
     },
     {
@@ -17600,7 +17600,7 @@
     {
       "surface": "Indeed",
       "lemma": "indeed",
-      "meaning": "【副詞・間投的表現】\n実に、本当に。返答で確認・強調を表す。",
+      "meaning": "【副】\n実に、本当に、確かに。\n【間投的表現】\n返答で確認・強調を表す。",
       "playMeaning": true
     }
   ],
@@ -18737,7 +18737,7 @@
     {
       "surface": "ditto",
       "lemma": "ditto",
-      "meaning": "【副詞・名詞】\n直前と同じ内容であることを示す語。",
+      "meaning": "【副】\n前と同じく、同様に。\n【名】\n前と同じ内容であることを示す「同上」。",
       "playMeaning": true
     },
     {
@@ -19086,7 +19086,7 @@
     {
       "surface": "consent",
       "lemma": "consent",
-      "meaning": "【名詞・動詞】\n提案・行為などを受け入れて同意すること、または同意する。",
+      "meaning": "【名】\n同意、承諾。\n【動】\n同意する、承諾する。",
       "playMeaning": true
     }
   ],
@@ -19546,7 +19546,7 @@
     {
       "surface": "firsthand",
       "lemma": "firsthand",
-      "meaning": "【形容詞・副詞】\n他人からの伝聞ではなく、直接の経験・観察による。",
+      "meaning": "【形】\n他人からの伝聞ではなく、直接の経験・観察による。\n【副】\n直接に、自分自身で。",
       "playMeaning": true
     },
     {

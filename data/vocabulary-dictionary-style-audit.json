@@ -8,479 +8,62 @@
   "counts": {
     "dictionaryEntries": 1375,
     "singleTokenEntries": 799,
-    "singleWordNoHeader": 5,
-    "multiPosSingleWords": 96,
-    "multiPosCombinedHeader": 20,
-    "multiPosWithoutSeparateHeaders": 22
+    "singleWordNoHeader": 0,
+    "multiPosSingleWords": 95,
+    "multiPosCombinedHeader": 0,
+    "multiPosWithoutSeparateHeaders": 0
   },
   "compact": {
-    "singleWordNoHeader": [
-      "Centre",
-      "frowning",
-      "shrugging",
-      "reeling",
-      "wailing"
-    ],
-    "multiPosCombinedHeader": [
-      "antiquarian",
-      "ditto",
-      "waste",
-      "attempt",
-      "fake",
-      "solid",
-      "prefab",
-      "indeed",
-      "European",
-      "local",
-      "fit",
-      "hint",
-      "original",
-      "till",
-      "plenty",
-      "whisper",
-      "consent",
-      "firsthand",
-      "snick",
-      "jap"
-    ],
-    "multiPosWithoutSeparateHeaders": [
-      "antiquarian",
-      "ditto",
-      "waste",
-      "attempt",
-      "fake",
-      "solid",
-      "prefab",
-      "indeed",
-      "European",
-      "local",
-      "fit",
-      "hint",
-      "original",
-      "till",
-      "plenty",
-      "whisper",
-      "consent",
-      "firsthand",
-      "snick",
-      "wailing",
-      "downstage",
-      "jap"
-    ]
+    "singleWordNoHeader": [],
+    "multiPosCombinedHeader": [],
+    "multiPosWithoutSeparateHeaders": []
   },
   "headerLabelCounts": {
     "名詞": 304,
     "形容詞": 169,
     "動詞": 126,
-    "名": 75,
+    "名": 92,
     "副詞": 69,
-    "動": 58,
+    "動": 69,
     "固有名詞": 42,
-    "形": 30,
-    "副": 22,
-    "舞台": 14,
+    "形": 41,
+    "副": 26,
+    "舞台": 15,
     "動詞句": 10,
     "名句": 9,
     "句動": 8,
-    "動詞・名詞": 5,
     "句動詞": 5,
-    "名詞・動詞": 5,
-    "形容詞・名詞": 5,
-    "舞台用語": 5,
+    "舞台用語": 4,
     "間投詞": 4,
-    "名詞・形容詞": 3,
+    "名詞・動詞": 3,
     "接続詞": 3,
     "代名詞": 2,
-    "代名詞・名詞": 1,
-    "前置詞・接続詞": 1,
-    "副詞・名詞": 1,
+    "動詞・名詞": 2,
+    "接": 2,
+    "代": 1,
+    "前": 1,
     "副詞・接続的表現": 1,
-    "副詞・間投的表現": 1,
     "副詞句": 1,
     "副詞的表現": 1,
     "助動詞": 1,
     "助動詞的用法": 1,
-    "動詞・形容詞": 1,
     "動詞的表現": 1,
     "名・形": 1,
-    "名詞・形容詞・動詞": 1,
+    "名詞・形容詞": 1,
     "名詞・複数": 1,
     "固有名詞・名": 1,
     "固有名詞的表現": 1,
     "定型表現": 1,
     "強意表現": 1,
     "形・副": 1,
-    "形容詞・副詞": 1,
-    "接": 1,
     "短縮表現": 1,
     "舞台用語・副詞/形容詞/名詞": 1,
     "表現": 1,
-    "間投詞・名詞": 1,
+    "間投": 1,
+    "間投的表現": 1,
     "限定詞": 1
   },
-  "singleWordNoHeader": [
-    {
-      "lemma": "Centre",
-      "pos": "舞台位置表現",
-      "meaning": "舞台中央。"
-    },
-    {
-      "lemma": "frowning",
-      "pos": "動作表現",
-      "meaning": "眉をひそめて、不満・心配・集中などを表して。"
-    },
-    {
-      "lemma": "shrugging",
-      "pos": "動作表現",
-      "meaning": "肩をすくめて、知らない・仕方がない等の態度を示して。"
-    },
-    {
-      "lemma": "reeling",
-      "pos": "動作表現",
-      "meaning": "よろめきながら、ふらついて。"
-    },
-    {
-      "lemma": "wailing",
-      "pos": "動作・発声表現",
-      "meaning": "大声で嘆くように、泣き叫ぶように。"
-    }
-  ],
-  "multiPosCombinedHeader": [
-    {
-      "lemma": "antiquarian",
-      "pos": "形容詞・名詞",
-      "headers": [
-        "形容詞・名詞"
-      ],
-      "meaning": "【形容詞・名詞】\n古い物・歴史資料を専門的に扱う antiquary に関係する。"
-    },
-    {
-      "lemma": "ditto",
-      "pos": "副詞・名詞",
-      "headers": [
-        "副詞・名詞"
-      ],
-      "meaning": "【副詞・名詞】\n直前と同じ内容であることを示す語。"
-    },
-    {
-      "lemma": "waste",
-      "pos": "動詞・名詞",
-      "headers": [
-        "動詞・名詞"
-      ],
-      "meaning": "【動詞・名詞】\n時間・物資などを無駄にする、無駄。"
-    },
-    {
-      "lemma": "attempt",
-      "pos": "動詞・名詞",
-      "headers": [
-        "動詞・名詞"
-      ],
-      "meaning": "【動詞・名詞】\n難しいことをやってみる、試みること。"
-    },
-    {
-      "lemma": "fake",
-      "pos": "名詞・形容詞・動詞",
-      "headers": [
-        "名詞・形容詞・動詞"
-      ],
-      "meaning": "【名詞・形容詞・動詞】\n偽物、偽の。偽造する。"
-    },
-    {
-      "lemma": "solid",
-      "pos": "形容詞・名詞",
-      "headers": [
-        "形容詞・名詞"
-      ],
-      "meaning": "【形容詞・名詞】\n固体の、頑丈な、中身の詰まった。"
-    },
-    {
-      "lemma": "prefab",
-      "pos": "名詞・形容詞",
-      "headers": [
-        "名詞・形容詞"
-      ],
-      "meaning": "【名詞・形容詞】\n工場で部材を作って現場で組み立てるプレハブ建築・その方式。"
-    },
-    {
-      "lemma": "indeed",
-      "pos": "副詞・間投的表現",
-      "headers": [
-        "副詞・間投的表現"
-      ],
-      "meaning": "【副詞・間投的表現】\n実に、本当に。返答で確認・強調を表す。"
-    },
-    {
-      "lemma": "European",
-      "pos": "形容詞・名詞",
-      "headers": [
-        "形容詞・名詞"
-      ],
-      "meaning": "【形容詞・名詞】\nヨーロッパの、ヨーロッパ人。"
-    },
-    {
-      "lemma": "local",
-      "pos": "形容詞・名詞",
-      "headers": [
-        "形容詞・名詞"
-      ],
-      "meaning": "【形容詞・名詞】\nその地域の、地元の。"
-    },
-    {
-      "lemma": "fit",
-      "pos": "動詞・形容詞",
-      "headers": [
-        "動詞・形容詞"
-      ],
-      "meaning": "【動詞・形容詞】\n大きさ・条件・特徴などが合う、適合する。"
-    },
-    {
-      "lemma": "hint",
-      "pos": "動詞・名詞",
-      "headers": [
-        "動詞・名詞"
-      ],
-      "meaning": "【動詞・名詞】\n直接言わずにほのめかす、ほのめかし。"
-    },
-    {
-      "lemma": "original",
-      "pos": "形容詞・名詞",
-      "headers": [
-        "形容詞・名詞"
-      ],
-      "meaning": "【形容詞・名詞】\n独創的な、最初の、原物の。"
-    },
-    {
-      "lemma": "till",
-      "pos": "前置詞・接続詞",
-      "headers": [
-        "前置詞・接続詞"
-      ],
-      "meaning": "【前置詞・接続詞】\n～まで、～する時まで。"
-    },
-    {
-      "lemma": "plenty",
-      "pos": "代名詞・名詞",
-      "headers": [
-        "代名詞・名詞"
-      ],
-      "meaning": "【代名詞・名詞】\n十分以上の量、多くのもの・こと。"
-    },
-    {
-      "lemma": "whisper",
-      "pos": "名詞・動詞",
-      "headers": [
-        "名詞・動詞"
-      ],
-      "meaning": "【名詞・動詞】\n非常に小さな声で話すこと・ささやき、またはささやく。"
-    },
-    {
-      "lemma": "consent",
-      "pos": "名詞・動詞",
-      "headers": [
-        "名詞・動詞"
-      ],
-      "meaning": "【名詞・動詞】\n提案・行為などを受け入れて同意すること、または同意する。"
-    },
-    {
-      "lemma": "firsthand",
-      "pos": "形容詞・副詞",
-      "headers": [
-        "形容詞・副詞"
-      ],
-      "meaning": "【形容詞・副詞】\n他人からの伝聞ではなく、直接の経験・観察による。"
-    },
-    {
-      "lemma": "snick",
-      "pos": "間投詞・名詞",
-      "headers": [
-        "間投詞・名詞"
-      ],
-      "meaning": "【間投詞・名詞】\n小さく鋭い切断音・クリック音を表す語。"
-    },
-    {
-      "lemma": "jap",
-      "pos": "名詞・形容詞",
-      "headers": [
-        "名詞・形容詞"
-      ],
-      "meaning": "【名詞・形容詞】\nJapanese の短縮形。現在は侮蔑的・攻撃的な語とされる。"
-    }
-  ],
-  "multiPosWithoutSeparateHeaders": [
-    {
-      "lemma": "antiquarian",
-      "pos": "形容詞・名詞",
-      "headers": [
-        "形容詞・名詞"
-      ],
-      "meaning": "【形容詞・名詞】\n古い物・歴史資料を専門的に扱う antiquary に関係する。"
-    },
-    {
-      "lemma": "ditto",
-      "pos": "副詞・名詞",
-      "headers": [
-        "副詞・名詞"
-      ],
-      "meaning": "【副詞・名詞】\n直前と同じ内容であることを示す語。"
-    },
-    {
-      "lemma": "waste",
-      "pos": "動詞・名詞",
-      "headers": [
-        "動詞・名詞"
-      ],
-      "meaning": "【動詞・名詞】\n時間・物資などを無駄にする、無駄。"
-    },
-    {
-      "lemma": "attempt",
-      "pos": "動詞・名詞",
-      "headers": [
-        "動詞・名詞"
-      ],
-      "meaning": "【動詞・名詞】\n難しいことをやってみる、試みること。"
-    },
-    {
-      "lemma": "fake",
-      "pos": "名詞・形容詞・動詞",
-      "headers": [
-        "名詞・形容詞・動詞"
-      ],
-      "meaning": "【名詞・形容詞・動詞】\n偽物、偽の。偽造する。"
-    },
-    {
-      "lemma": "solid",
-      "pos": "形容詞・名詞",
-      "headers": [
-        "形容詞・名詞"
-      ],
-      "meaning": "【形容詞・名詞】\n固体の、頑丈な、中身の詰まった。"
-    },
-    {
-      "lemma": "prefab",
-      "pos": "名詞・形容詞",
-      "headers": [
-        "名詞・形容詞"
-      ],
-      "meaning": "【名詞・形容詞】\n工場で部材を作って現場で組み立てるプレハブ建築・その方式。"
-    },
-    {
-      "lemma": "indeed",
-      "pos": "副詞・間投的表現",
-      "headers": [
-        "副詞・間投的表現"
-      ],
-      "meaning": "【副詞・間投的表現】\n実に、本当に。返答で確認・強調を表す。"
-    },
-    {
-      "lemma": "European",
-      "pos": "形容詞・名詞",
-      "headers": [
-        "形容詞・名詞"
-      ],
-      "meaning": "【形容詞・名詞】\nヨーロッパの、ヨーロッパ人。"
-    },
-    {
-      "lemma": "local",
-      "pos": "形容詞・名詞",
-      "headers": [
-        "形容詞・名詞"
-      ],
-      "meaning": "【形容詞・名詞】\nその地域の、地元の。"
-    },
-    {
-      "lemma": "fit",
-      "pos": "動詞・形容詞",
-      "headers": [
-        "動詞・形容詞"
-      ],
-      "meaning": "【動詞・形容詞】\n大きさ・条件・特徴などが合う、適合する。"
-    },
-    {
-      "lemma": "hint",
-      "pos": "動詞・名詞",
-      "headers": [
-        "動詞・名詞"
-      ],
-      "meaning": "【動詞・名詞】\n直接言わずにほのめかす、ほのめかし。"
-    },
-    {
-      "lemma": "original",
-      "pos": "形容詞・名詞",
-      "headers": [
-        "形容詞・名詞"
-      ],
-      "meaning": "【形容詞・名詞】\n独創的な、最初の、原物の。"
-    },
-    {
-      "lemma": "till",
-      "pos": "前置詞・接続詞",
-      "headers": [
-        "前置詞・接続詞"
-      ],
-      "meaning": "【前置詞・接続詞】\n～まで、～する時まで。"
-    },
-    {
-      "lemma": "plenty",
-      "pos": "代名詞・名詞",
-      "headers": [
-        "代名詞・名詞"
-      ],
-      "meaning": "【代名詞・名詞】\n十分以上の量、多くのもの・こと。"
-    },
-    {
-      "lemma": "whisper",
-      "pos": "名詞・動詞",
-      "headers": [
-        "名詞・動詞"
-      ],
-      "meaning": "【名詞・動詞】\n非常に小さな声で話すこと・ささやき、またはささやく。"
-    },
-    {
-      "lemma": "consent",
-      "pos": "名詞・動詞",
-      "headers": [
-        "名詞・動詞"
-      ],
-      "meaning": "【名詞・動詞】\n提案・行為などを受け入れて同意すること、または同意する。"
-    },
-    {
-      "lemma": "firsthand",
-      "pos": "形容詞・副詞",
-      "headers": [
-        "形容詞・副詞"
-      ],
-      "meaning": "【形容詞・副詞】\n他人からの伝聞ではなく、直接の経験・観察による。"
-    },
-    {
-      "lemma": "snick",
-      "pos": "間投詞・名詞",
-      "headers": [
-        "間投詞・名詞"
-      ],
-      "meaning": "【間投詞・名詞】\n小さく鋭い切断音・クリック音を表す語。"
-    },
-    {
-      "lemma": "wailing",
-      "pos": "動作・発声表現",
-      "headers": [],
-      "meaning": "大声で嘆くように、泣き叫ぶように。"
-    },
-    {
-      "lemma": "downstage",
-      "pos": "副詞・形容詞・名詞",
-      "headers": [
-        "舞台用語"
-      ],
-      "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。"
-    },
-    {
-      "lemma": "jap",
-      "pos": "名詞・形容詞",
-      "headers": [
-        "名詞・形容詞"
-      ],
-      "meaning": "【名詞・形容詞】\nJapanese の短縮形。現在は侮蔑的・攻撃的な語とされる。"
-    }
-  ]
+  "singleWordNoHeader": [],
+  "multiPosCombinedHeader": [],
+  "multiPosWithoutSeparateHeaders": []
 }

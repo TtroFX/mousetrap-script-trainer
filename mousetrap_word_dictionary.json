@@ -279,12 +279,12 @@
     "lemma": "antiquarian",
     "ipa": "/ˌantɪkwˈeəɹiən/",
     "pos": "形容詞・名詞",
-    "coreMeaning": "【形容詞・名詞】\n古い物・歴史資料を専門的に扱う antiquary に関係する。",
+    "coreMeaning": "【形】\n古物・古書・歴史資料などに関する、好古趣味の。\n【名】\n古物・古書・歴史資料などを研究・収集する人、好古家。",
     "forms": "語形変化なし",
     "tags": [
       "formal"
     ],
-    "meaning": "【形容詞・名詞】\n古い物・歴史資料を専門的に扱う antiquary に関係する。"
+    "meaning": "【形】\n古物・古書・歴史資料などに関する、好古趣味の。\n【名】\n古物・古書・歴史資料などを研究・収集する人、好古家。"
   },
   "anxious": {
     "lemma": "anxious",
@@ -1511,13 +1511,13 @@
     "lemma": "ditto",
     "ipa": "/dˈɪtəʊ/",
     "pos": "副詞・名詞",
-    "coreMeaning": "【副詞・名詞】\n直前と同じ内容であることを示す語。",
+    "coreMeaning": "【副】\n前と同じく、同様に。\n【名】\n前と同じ内容であることを示す「同上」。",
     "forms": "語形変化なし",
     "tags": [
       "dated",
       "formal"
     ],
-    "meaning": "【副詞・名詞】\n直前と同じ内容であることを示す語。"
+    "meaning": "【副】\n前と同じく、同様に。\n【名】\n前と同じ内容であることを示す「同上」。"
   },
   "do with a coat of paint": {
     "lemma": "do with a coat of paint",
@@ -6646,10 +6646,10 @@
     "lemma": "waste",
     "ipa": "",
     "pos": "動詞・名詞",
-    "coreMeaning": "【動詞・名詞】\n時間・物資などを無駄にする、無駄。",
+    "coreMeaning": "【動】\n時間・物資などを無駄にする。\n【名】\n無駄、浪費。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【動詞・名詞】\n時間・物資などを無駄にする、無駄。"
+    "meaning": "【動】\n時間・物資などを無駄にする。\n【名】\n無駄、浪費。"
   },
   "hook it": {
     "lemma": "hook it",
@@ -6760,10 +6760,10 @@
     "lemma": "attempt",
     "ipa": "",
     "pos": "動詞・名詞",
-    "coreMeaning": "【動詞・名詞】\n難しいことをやってみる、試みること。",
+    "coreMeaning": "【動】\n難しいことをやってみる、試みる。\n【名】\n試み、企て。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【動詞・名詞】\n難しいことをやってみる、試みること。"
+    "meaning": "【動】\n難しいことをやってみる、試みる。\n【名】\n試み、企て。"
   },
   "sporting instinct": {
     "lemma": "sporting instinct",
@@ -6796,10 +6796,10 @@
     "lemma": "fake",
     "ipa": "",
     "pos": "名詞・形容詞・動詞",
-    "coreMeaning": "【名詞・形容詞・動詞】\n偽物、偽の。偽造する。",
+    "coreMeaning": "【名】\n偽物。\n【形】\n偽の、偽物の。\n【動】\n偽造する、装う。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【名詞・形容詞・動詞】\n偽物、偽の。偽造する。"
+    "meaning": "【名】\n偽物。\n【形】\n偽の、偽物の。\n【動】\n偽造する、装う。"
   },
   "wax flower": {
     "lemma": "wax flower",
@@ -6834,10 +6834,10 @@
     "lemma": "solid",
     "ipa": "",
     "pos": "形容詞・名詞",
-    "coreMeaning": "【形容詞・名詞】\n固体の、頑丈な、中身の詰まった。",
+    "coreMeaning": "【形】\n固体の、頑丈な、中身の詰まった。\n【名】\n固体。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【形容詞・名詞】\n固体の、頑丈な、中身の詰まった。"
+    "meaning": "【形】\n固体の、頑丈な、中身の詰まった。\n【名】\n固体。"
   },
   "absolutely": {
     "lemma": "absolutely",
@@ -6983,10 +6983,10 @@
     "lemma": "prefab",
     "ipa": "",
     "pos": "名詞・形容詞",
-    "coreMeaning": "【名詞・形容詞】\n工場で部材を作って現場で組み立てるプレハブ建築・その方式。",
+    "coreMeaning": "【名】\nあらかじめ工場で部材を作り、現場で組み立てるプレハブ建築。\n【形】\nプレハブ式の、あらかじめ部材を製造した。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【名詞・形容詞】\n工場で部材を作って現場で組み立てるプレハブ建築・その方式。"
+    "meaning": "【名】\nあらかじめ工場で部材を作り、現場で組み立てるプレハブ建築。\n【形】\nプレハブ式の、あらかじめ部材を製造した。"
   },
   "history": {
     "lemma": "history",
@@ -7001,10 +7001,10 @@
     "lemma": "indeed",
     "ipa": "",
     "pos": "副詞・間投的表現",
-    "coreMeaning": "【副詞・間投的表現】\n実に、本当に。返答で確認・強調を表す。",
+    "coreMeaning": "【副】\n実に、本当に、確かに。\n【間投的表現】\n返答で確認・強調を表す。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【副詞・間投的表現】\n実に、本当に。返答で確認・強調を表す。"
+    "meaning": "【副】\n実に、本当に、確かに。\n【間投的表現】\n返答で確認・強調を表す。"
   },
   "embarrass": {
     "lemma": "embarrass",
@@ -7019,10 +7019,10 @@
     "lemma": "European",
     "ipa": "",
     "pos": "形容詞・名詞",
-    "coreMeaning": "【形容詞・名詞】\nヨーロッパの、ヨーロッパ人。",
+    "coreMeaning": "【形】\nヨーロッパの。\n【名】\nヨーロッパ人。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【形容詞・名詞】\nヨーロッパの、ヨーロッパ人。"
+    "meaning": "【形】\nヨーロッパの。\n【名】\nヨーロッパ人。"
   },
   "feminine spirit": {
     "lemma": "feminine spirit",
@@ -7129,10 +7129,10 @@
     "lemma": "local",
     "ipa": "",
     "pos": "形容詞・名詞",
-    "coreMeaning": "【形容詞・名詞】\nその地域の、地元の。",
+    "coreMeaning": "【形】\nその地域の、地元の。\n【名】\n地元の人。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【形容詞・名詞】\nその地域の、地元の。"
+    "meaning": "【形】\nその地域の、地元の。\n【名】\n地元の人。"
   },
   "indoor staff": {
     "lemma": "indoor staff",
@@ -7309,19 +7309,19 @@
     "lemma": "fit",
     "ipa": "",
     "pos": "動詞・形容詞",
-    "coreMeaning": "【動詞・形容詞】\n大きさ・条件・特徴などが合う、適合する。",
+    "coreMeaning": "【動】\n大きさ・条件・特徴などが合う、適合する。\n【形】\n適した、ふさわしい。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【動詞・形容詞】\n大きさ・条件・特徴などが合う、適合する。"
+    "meaning": "【動】\n大きさ・条件・特徴などが合う、適合する。\n【形】\n適した、ふさわしい。"
   },
   "hint": {
     "lemma": "hint",
     "ipa": "",
     "pos": "動詞・名詞",
-    "coreMeaning": "【動詞・名詞】\n直接言わずにほのめかす、ほのめかし。",
+    "coreMeaning": "【動】\n直接言わずにほのめかす。\n【名】\nほのめかし、手掛かり。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【動詞・名詞】\n直接言わずにほのめかす、ほのめかし。"
+    "meaning": "【動】\n直接言わずにほのめかす。\n【名】\nほのめかし、手掛かり。"
   },
   "polite": {
     "lemma": "polite",
@@ -7354,10 +7354,10 @@
     "lemma": "original",
     "ipa": "",
     "pos": "形容詞・名詞",
-    "coreMeaning": "【形容詞・名詞】\n独創的な、最初の、原物の。",
+    "coreMeaning": "【形】\n独創的な、最初の、原物の。\n【名】\n原物、原本。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【形容詞・名詞】\n独創的な、最初の、原物の。"
+    "meaning": "【形】\n独創的な、最初の、原物の。\n【名】\n原物、原本。"
   },
   "adore": {
     "lemma": "adore",
@@ -8730,10 +8730,10 @@
     "lemma": "till",
     "ipa": "",
     "pos": "前置詞・接続詞",
-    "coreMeaning": "【前置詞・接続詞】\n～まで、～する時まで。",
+    "coreMeaning": "【前】\n～まで。\n【接】\n～する時まで。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【前置詞・接続詞】\n～まで、～する時まで。"
+    "meaning": "【前】\n～まで。\n【接】\n～する時まで。"
   },
   "creep": {
     "lemma": "creep",
@@ -9001,10 +9001,10 @@
     "lemma": "plenty",
     "ipa": "",
     "pos": "代名詞・名詞",
-    "coreMeaning": "【代名詞・名詞】\n十分以上の量、多くのもの・こと。",
+    "coreMeaning": "【代】\n十分以上の量、多くのもの・こと。\n【名】\n十分な量、豊富さ。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【代名詞・名詞】\n十分以上の量、多くのもの・こと。"
+    "meaning": "【代】\n十分以上の量、多くのもの・こと。\n【名】\n十分な量、豊富さ。"
   },
   "indeterminate build": {
     "lemma": "indeterminate build",
@@ -9030,10 +9030,10 @@
     "lemma": "whisper",
     "ipa": "",
     "pos": "名詞・動詞",
-    "coreMeaning": "【名詞・動詞】\n非常に小さな声で話すこと・ささやき、またはささやく。",
+    "coreMeaning": "【名】\nささやき、小声。\n【動】\n非常に小さな声で話す、ささやく。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【名詞・動詞】\n非常に小さな声で話すこと・ささやき、またはささやく。"
+    "meaning": "【名】\nささやき、小声。\n【動】\n非常に小さな声で話す、ささやく。"
   },
   "hang": {
     "lemma": "hang",
@@ -9511,12 +9511,12 @@
     "lemma": "consent",
     "ipa": "",
     "pos": "名詞・動詞",
-    "coreMeaning": "【名詞・動詞】\n提案・行為などを受け入れて同意すること、または同意する。",
+    "coreMeaning": "【名】\n同意、承諾。\n【動】\n同意する、承諾する。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [
       "formal"
     ],
-    "meaning": "【名詞・動詞】\n提案・行為などを受け入れて同意すること、または同意する。"
+    "meaning": "【名】\n同意、承諾。\n【動】\n同意する、承諾する。"
   },
   "engagement": {
     "lemma": "engagement",
@@ -10399,10 +10399,10 @@
     "lemma": "firsthand",
     "ipa": "",
     "pos": "形容詞・副詞",
-    "coreMeaning": "【形容詞・副詞】\n他人からの伝聞ではなく、直接の経験・観察による。",
+    "coreMeaning": "【形】\n他人からの伝聞ではなく、直接の経験・観察による。\n【副】\n直接に、自分自身で。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【形容詞・副詞】\n他人からの伝聞ではなく、直接の経験・観察による。"
+    "meaning": "【形】\n他人からの伝聞ではなく、直接の経験・観察による。\n【副】\n直接に、自分自身で。"
   },
   "concerned": {
     "lemma": "concerned",
@@ -10756,11 +10756,11 @@
   "snick": {
     "lemma": "snick",
     "pos": "間投詞・名詞",
-    "coreMeaning": "【間投詞・名詞】\n小さく鋭い切断音・クリック音を表す語。",
+    "coreMeaning": "【間投】\n小さく鋭い切断音・クリック音を表す。\n【名】\n小さく鋭い切断音・クリック音。",
     "tags": [
       "onomatopoeia"
     ],
-    "meaning": "【間投詞・名詞】\n小さく鋭い切断音・クリック音を表す語。"
+    "meaning": "【間投】\n小さく鋭い切断音・クリック音を表す。\n【名】\n小さく鋭い切断音・クリック音。"
   },
   "go to pieces": {
     "lemma": "go to pieces",
@@ -11299,12 +11299,12 @@
   "Centre": {
     "lemma": "Centre",
     "pos": "舞台位置表現",
-    "coreMeaning": "舞台中央。",
+    "coreMeaning": "【舞台】\n舞台中央。",
     "tags": [
       "stage direction",
       "theatre"
     ],
-    "meaning": "舞台中央。"
+    "meaning": "【舞台】\n舞台中央。"
   },
   "archway": {
     "lemma": "archway",
@@ -11501,33 +11501,33 @@
   },
   "frowning": {
     "lemma": "frowning",
-    "pos": "動作表現",
-    "coreMeaning": "眉をひそめて、不満・心配・集中などを表して。",
+    "pos": "動詞（現在分詞）",
+    "coreMeaning": "【動】\nfrown の現在分詞。眉をひそめる。",
     "tags": [
       "stage direction",
       "manner"
     ],
-    "meaning": "眉をひそめて、不満・心配・集中などを表して。"
+    "meaning": "【動】\nfrown の現在分詞。眉をひそめる。"
   },
   "shrugging": {
     "lemma": "shrugging",
-    "pos": "動作表現",
-    "coreMeaning": "肩をすくめて、知らない・仕方がない等の態度を示して。",
+    "pos": "動詞（現在分詞）",
+    "coreMeaning": "【動】\nshrug の現在分詞。肩をすくめる。",
     "tags": [
       "stage direction",
       "manner"
     ],
-    "meaning": "肩をすくめて、知らない・仕方がない等の態度を示して。"
+    "meaning": "【動】\nshrug の現在分詞。肩をすくめる。"
   },
   "reeling": {
     "lemma": "reeling",
-    "pos": "動作表現",
-    "coreMeaning": "よろめきながら、ふらついて。",
+    "pos": "動詞（現在分詞）",
+    "coreMeaning": "【動】\nreel の現在分詞。よろめく、ふらつく。",
     "tags": [
       "stage direction",
       "movement"
     ],
-    "meaning": "よろめきながら、ふらついて。"
+    "meaning": "【動】\nreel の現在分詞。よろめく、ふらつく。"
   },
   "childlike": {
     "lemma": "childlike",
@@ -11611,14 +11611,14 @@
   },
   "wailing": {
     "lemma": "wailing",
-    "pos": "動作・発声表現",
-    "coreMeaning": "大声で嘆くように、泣き叫ぶように。",
+    "pos": "動詞（現在分詞）",
+    "coreMeaning": "【動】\nwail の現在分詞。大声で嘆く、泣き叫ぶ。",
     "tags": [
       "stage direction",
       "emotion",
       "voice"
     ],
-    "meaning": "大声で嘆くように、泣き叫ぶように。"
+    "meaning": "【動】\nwail の現在分詞。大声で嘆く、泣き叫ぶ。"
   },
   "switch on the lights": {
     "lemma": "switch on the lights",
@@ -11887,13 +11887,13 @@
     "lemma": "downstage",
     "ipa": "/ˌdaʊnˈsteɪdʒ/",
     "pos": "副詞・形容詞・名詞",
-    "coreMeaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。",
+    "coreMeaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
     "forms": "固定表現",
     "tags": [
       "theatre",
       "stage-direction"
     ],
-    "meaning": "【舞台用語】\n舞台前方（客席寄り）に、舞台前方の、舞台前方。"
+    "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。"
   },
   "exit": {
     "lemma": "exit",
@@ -12073,14 +12073,14 @@
     "lemma": "Jap",
     "ipa": "/dʒæp/",
     "pos": "名詞・形容詞",
-    "coreMeaning": "【名詞・形容詞】\nJapanese の短縮形。現在は侮蔑的・攻撃的な語とされる。",
+    "coreMeaning": "【名】\nJapanese を指す短縮形。現在は侮蔑的・攻撃的な語。\n【形】\nJapanese を表す短縮形。現在は侮蔑的・攻撃的な語。",
     "forms": "Jap · Japs",
     "tags": [
       "dated",
       "offensive",
       "historical"
     ],
-    "meaning": "【名詞・形容詞】\nJapanese の短縮形。現在は侮蔑的・攻撃的な語とされる。"
+    "meaning": "【名】\nJapanese を指す短縮形。現在は侮蔑的・攻撃的な語。\n【形】\nJapanese を表す短縮形。現在は侮蔑的・攻撃的な語。"
   },
   "consider": {
     "lemma": "consider",
