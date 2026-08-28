@@ -38,7 +38,7 @@ jobs:
           node scripts/augment-vocabulary-range-0583-0873-wrapper.mjs
           node --input-type=module <<'NODE'
           import fs from 'node:fs';
-          const norm=s=>String(s||'').toLowerCase().normalize('NFKC').replace(/[‘’]/g,"'").replace(/\s+/g,' ').trim();
+          const norm=s=>String(s||'').toLowerCase().normalize('NFKC').replace(/\s+/g,' ').trim();
           const base=JSON.parse(fs.readFileSync('/tmp/range-vocab-baseline.json','utf8'));
           const out=JSON.parse(fs.readFileSync('mousetrap_line_vocabulary.json','utf8'));
           const baseDict=JSON.parse(fs.readFileSync('/tmp/range-dict-baseline.json','utf8'));
@@ -95,4 +95,4 @@ jobs:
           git add -A
           git commit -m 'Augment vocabulary for Global Speech 583-873'
           git push
-# rerun after apostrophe-sensitive reference QA fix
+# rerun after apostrophe-sensitive baseline restore fix
