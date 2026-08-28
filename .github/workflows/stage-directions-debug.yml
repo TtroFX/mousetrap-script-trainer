@@ -40,21 +40,29 @@ jobs:
           const {test}=require('@playwright/test');
           const BASE='http://127.0.0.1:4173/index.html';
           test('compact stage runtime probe',async({page})=>{
-            const errs=[]; page.on('pageerror',e=>errs.push('PAGEERROR '+e.stack)); page.on('console',m=>{if(m.type()==='error')errs.push('CONSOLE '+m.text())}); page.on('requestfailed',r=>errs.push('REQUEST '+r.url()+' '+(r.failure()?.errorText||'')));
-            await page.goto(BASE,{waitUntil:'domcontentloaded'}); await page.waitForTimeout(2500);
-            const boot=await page.evaluate(()=>({hash:location.hash,body:document.body.innerText.slice(0,500),mts:!!window.MTS_INDEX_ZERO,keys:window.MTS_INDEX_ZERO?Object.keys(window.MTS_INDEX_ZERO):[],core:window.MTS_INDEX_ZERO?.store?.coreState,hasCore:window.MTS_INDEX_ZERO?.store?.hasCore?.(),stage:!!window.MTS_INDEX_ZERO?.store?.stageDirections}));
-            console.log('BOOT='+JSON.stringify(boot)); console.log('ERRORS='+JSON.stringify(errs));
-            if(!boot.mts) throw new Error('MTS_INDEX_ZERO missing');
-            await page.evaluate(()=>MTS_INDEX_ZERO.store.loadCore({force:true}));
-            const data=await page.evaluate(()=>{const s=MTS_INDEX_ZERO.store;let sample=null;for(const scene of ['act1-scene1','act1-scene2','act2'])for(const speech of s.getScene(scene)){const rows=s.getStageDirectionsForSpeech?.(speech.id)||[];if(rows.length){sample={scene,line:speech.id,rows:rows.length,id:rows[0].id};break}if(sample)break}return {hasCore:s.hasCore(),count:s.stageDirections?.entries?.length,standalone:s.getStandaloneStageDirections?.('act1-scene1')?.length,sample}});
-            console.log('DATA='+JSON.stringify(data));
-            if(!data.sample)throw new Error('No attached stage sample');
-            await page.goto(`${BASE}#/line?scene=${data.sample.scene}&line=${data.sample.line}`); await page.waitForTimeout(1500);
-            const line=await page.evaluate(()=>({body:document.body.innerText.slice(0,1000),stageCount:document.querySelectorAll('[data-stage-direction]').length,stageText:document.querySelector('.stage-direction-text')?.textContent||'',translation:document.querySelector('[data-translation-card]')?.innerText.slice(0,500)||''}));
-            console.log('LINE='+JSON.stringify(line)); console.log('ERRORS2='+JSON.stringify(errs));
-            if(line.stageCount<1)throw new Error('Stage direction not rendered');
+            const errs=[]; page.on('pageerror',e=>errs.push('PAGEERROR '+e.stack)); page.on('console',m=>{if(m.type()==='error')errs.push('CONSOLE '+m.text())});
+            await page.goto(BASE,{waitUntil:'domcontentloaded'}); await page.waitForTimeout(1200);
+            const boot=await page.evaluate(()=>({mts:!!window.MTS_INDEX_ZERO,hasCore:window.MTS_INDEX_ZERO?.store?.hasCore?.(),stage:!!window.MTS_INDEX_ZERO?.store?.stageDirections}));
+            console.log('BOOT='+JSON.stringify(boot)); console.log('ERRORS='+JSON.stringify(errs)); if(!boot.mts)throw new Error('MTS_INDEX_ZERO missing');
+            const data=await page.evaluate(()=>{const s=MTS_INDEX_ZERO.store;let sample=null;for(const scene of ['act1-scene1','act1-scene2','act2'])for(const speech of s.getScene(scene)){const rows=s.getStageDirectionsForSpeech?.(speech.id)||[];if(rows.length){sample={scene,line:speech.id,rows:rows.length};break}if(sample)break}return{count:s.stageDirections?.entries?.length,sample}});
+            console.log('DATA='+JSON.stringify(data)); if(!data.sample)throw new Error('No attached stage sample');
+            await page.goto(`${BASE}#/line?scene=${data.sample.scene}&line=${data.sample.line}`); await page.waitForTimeout(800);
+            const line=await page.evaluate(()=>({stageCount:document.querySelectorAll('[data-stage-direction]').length,translation:document.querySelector('[data-translation-card]')?.innerText.slice(0,200)||''})); console.log('LINE='+JSON.stringify(line)); if(line.stageCount<1)throw new Error('Stage direction not rendered');
           });
           EOF
       - name: Run compact probe
         working-directory: app
         run: npx playwright test tests/stage_runtime_debug.e2e.spec.js --config=playwright.index-zero.config.js --workers=1 --reporter=line
+      - name: Run spec-by-spec regression summary
+        working-directory: app
+        run: |
+          set +e
+          failed=0
+          for f in tests/index_zero.e2e.spec.js tests/resume_bookmarks.e2e.spec.js tests/gesture_english.e2e.spec.js tests/r5_behavior.e2e.spec.js tests/interpretation.e2e.spec.js tests/canonical_study.e2e.spec.js tests/study_rebuild.e2e.spec.js tests/offline_pwa.e2e.spec.js tests/stage_directions.e2e.spec.js; do
+            [ -f "$f" ] || continue
+            npx playwright test "$f" --config=playwright.index-zero.config.js --workers=1 --reporter=line > /tmp/spec.log 2>&1
+            rc=$?
+            echo "SPEC_RESULT $f rc=$rc"
+            if [ $rc -ne 0 ]; then failed=1; grep -E -A6 -B2 'Error:|TimeoutError|expect\(' /tmp/spec.log | tail -n 100 || tail -n 80 /tmp/spec.log; fi
+          done
+          exit $failed
