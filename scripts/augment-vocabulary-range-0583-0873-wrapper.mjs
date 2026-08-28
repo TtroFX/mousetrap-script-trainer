@@ -60,24 +60,23 @@ const mapNeedle = 'const s = mapStageRecord(rec);';
 if (!source.includes(mapNeedle)) throw new Error('stage map call marker not found');
 source = source.replace(mapNeedle, `const explicitStageId = explicitStageMap.get([rec.speaker, rec.anchor, rec.direction].join('\\u0000'));\n  const s = explicitStageId ? {id: explicitStageId} : mapStageRecord(rec);`);
 
-// Dump duplicate details, but force a diagnostic stop so this run cannot commit.
-const dupMarker = 'target duplicate errors';
-const dupPos = source.indexOf(dupMarker);
-if (dupPos < 0) throw new Error('duplicate audit marker not found');
-console.log('DUP_SOURCE_CONTEXT_START');
-console.log(source.slice(Math.max(0,dupPos-1000), Math.min(source.length,dupPos+600)));
-console.log('DUP_SOURCE_CONTEXT_END');
 const dupRx = /if\s*\((\w+)\.length\)\s*fail\(`target duplicate errors \$\{\1\.length\}`\);/;
 const dm = source.match(dupRx);
 if (!dm) throw new Error('could not identify target duplicate fail statement');
 const dupVar = dm[1];
 source = source.replace(dupRx, `if (${dupVar}.length) console.log('TARGET_DUPLICATE_ERRORS=' + JSON.stringify(${dupVar}, null, 2));`);
 
+const semRx = /if\s*\((\w+)\.length\)\s*fail\(`semantic errors \$\{\1\.length\}`\);/;
+const sm = source.match(semRx);
+if (!sm) throw new Error('could not identify semantic fail statement');
+const semVar = sm[1];
+source = source.replace(semRx, `if (${semVar}.length) console.log('SEMANTIC_ERRORS=' + JSON.stringify(${semVar}, null, 2));`);
+
 const temp = 'scripts/.tmp-vocab-range-0583-0873.inner.mjs';
 fs.writeFileSync(temp, source);
 try {
   await import(pathToFileURL(`${process.cwd()}/${temp}`).href + `?run=${Date.now()}`);
-  throw new Error('DIAGNOSTIC_STOP_AFTER_DUPLICATE_DUMP');
+  throw new Error('DIAGNOSTIC_STOP_AFTER_SEMANTIC_DUMP');
 } finally {
   fs.rmSync(temp, { force:true });
 }
