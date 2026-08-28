@@ -24,14 +24,36 @@ jobs:
           node <<'NODE'
           const fs=require('fs');
           const zlib=require('zlib');
-          const parts=['data/stage-upload-parts/part-1.txt','data/stage-upload-parts/part-2.txt'];
+          const parts=Array.from({length:7},(_,i)=>`data/stage-upload-parts/part-${i+1}.txt`);
+          for(const p of parts) if(!fs.existsSync(p)) throw new Error(`missing ${p}`);
           const encoded=parts.map(p=>fs.readFileSync(p,'utf8').trim()).join('');
           const raw=zlib.gunzipSync(Buffer.from(encoded,'base64')).toString('utf8');
           const data=JSON.parse(raw);
+          if(data.schemaVersion!==1) throw new Error('stage schemaVersion');
+          if(data.counts?.standalone!==5||data.counts?.attached!==772||data.counts?.total!==777||data.counts?.malformedBracketRecovered!==1) throw new Error(`stage counts ${JSON.stringify(data.counts)}`);
+          if(!Array.isArray(data.entries)||data.entries.length!==777) throw new Error('stage entries');
+          const ids=new Set(); let standalone=0, attached=0, malformed=0;
+          const scenes=new Set(['act1-scene1','act1-scene2','act2']);
+          for(const entry of data.entries){
+            if(!entry||typeof entry!=='object'||!String(entry.id||'').trim()||ids.has(entry.id)) throw new Error('stage id invalid/duplicate');
+            ids.add(entry.id);
+            if(!scenes.has(entry.sceneId)||!String(entry.text||'').trim()||!String(entry.summaryJa||'').trim()) throw new Error(`stage core invalid ${entry.id}`);
+            if(!Array.isArray(entry.sourcePages)||!entry.sourcePages.length||entry.sourcePages.some(p=>!Number.isInteger(p)||p<1||p>84)) throw new Error(`stage sourcePages ${entry.id}`);
+            if(!Array.isArray(entry.vocabulary)||!entry.vocabulary.length) throw new Error(`stage vocabulary ${entry.id}`);
+            for(const v of entry.vocabulary) if(!String(v?.surface||'').trim()||!String(v?.lemma||'').trim()||!String(v?.meaning||'').trim()||!String(v?.note||'').trim()) throw new Error(`stage vocab invalid ${entry.id}`);
+            if(!Array.isArray(entry.notes)||!entry.notes.length||entry.notes.some(n=>!String(n||'').trim())) throw new Error(`stage notes ${entry.id}`);
+            if(entry.kind==='scene-setting'){
+              standalone++;
+              if(!entry.anchor||!['before','after'].includes(entry.anchor.type)||!String(entry.anchor.speechId||'').trim()) throw new Error(`scene setting anchor ${entry.id}`);
+            }else if(entry.kind==='stage-direction'){
+              attached++;
+              if(!String(entry.speechId||'').trim()||!['before','after'].includes(entry.placement)) throw new Error(`attached placement ${entry.id}`);
+              if(entry.malformedSourceBracket) malformed++;
+            }else throw new Error(`stage kind ${entry.id}`);
+          }
+          if(standalone!==5||attached!==772||malformed!==1) throw new Error(`stage derived counts ${standalone}/${attached}/${malformed}`);
           fs.writeFileSync('mousetrap_stage_directions.json',JSON.stringify(data,null,2)+'\n');
-          const summarize=v=>Array.isArray(v)?{type:'array',length:v.length,sample:v.slice(0,2)}:v&&typeof v==='object'?{type:'object',keys:Object.keys(v),sample:Object.fromEntries(Object.entries(v).slice(0,3))}:{type:typeof v,value:v};
-          console.log('STAGE_TOP_LEVEL',JSON.stringify(summarize(data),null,2));
-          for(const [k,v] of Object.entries(data||{})) console.log('STAGE_FIELD',k,JSON.stringify(summarize(v)));
+          console.log(JSON.stringify({status:'PASS',entries:data.entries.length,standalone,attached,malformed,pdfSha256:data.source?.pdfSha256},null,2));
           NODE
       - name: Commit decoded canonical stage data
         run: |
