@@ -39,6 +39,44 @@ test('Cue Practice and Rehearsal both produce resumable state',async({page})=>{
   expect(resume?.sceneId).toBe('act1-scene1');expect(resume?.role).toBe('MOLLIE');
 });
 
+test('Shiori sits left of Bookmark and only the most recently pressed line stays active',async({page})=>{
+  await ready(page);
+  await page.goto(BASE+'#/script');
+  const rows=page.locator('[data-line]');
+  const first=rows.nth(0),second=rows.nth(1);
+  const firstId=await first.getAttribute('data-line'),secondId=await second.getAttribute('data-line');
+  await expect(first.locator('[data-shiori-toggle]')).toBeVisible();
+  await expect(first.locator('[data-bookmark-toggle]')).toBeVisible();
+  expect(await first.evaluate(row=>{
+    const shiori=row.querySelector('[data-shiori-toggle]'),bookmark=row.querySelector('[data-bookmark-toggle]');
+    return !!(shiori&&bookmark&&(shiori.compareDocumentPosition(bookmark)&Node.DOCUMENT_POSITION_FOLLOWING));
+  })).toBe(true);
+  await first.locator('[data-shiori-toggle]').click();
+  expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('mts.shiori.v1')||'null')?.lineId)).toBe(firstId);
+  await expect(first.locator('[data-shiori-toggle]')).toHaveAttribute('aria-pressed','true');
+  await second.locator('[data-shiori-toggle]').click();
+  expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('mts.shiori.v1')||'null')?.lineId)).toBe(secondId);
+  await expect(first.locator('[data-shiori-toggle]')).toHaveAttribute('aria-pressed','false');
+  await expect(second.locator('[data-shiori-toggle]')).toHaveAttribute('aria-pressed','true');
+  await page.reload();await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasCore());
+  await expect(page.locator('[data-line="'+secondId+'"] [data-shiori-toggle]')).toHaveAttribute('aria-pressed','true');
+  expect(await page.locator('[data-shiori-toggle][aria-pressed="true"]').count()).toBe(1);
+});
+
+test('Home Continue prefers Shiori over a newer normal resume',async({page})=>{
+  await ready(page);
+  await page.goto(BASE+'#/script');
+  const markerLine=await page.locator('[data-line]').nth(2).getAttribute('data-line');
+  await page.locator('[data-line="'+markerLine+'"] [data-shiori-toggle]').click();
+  const newerLine=await page.evaluate(()=>MTS_INDEX_ZERO.store.getScene('act1-scene1')[12].id);
+  await page.goto(BASE+'#/line?scene=act1-scene1&line='+newerLine);
+  await page.waitForFunction(id=>MTS_INDEX_ZERO.state.latestResume()?.lineId===id,newerLine);
+  await page.goto(BASE+'#/home');
+  await expect(page.locator('[data-resume-home]')).toContainText('Reading marker');
+  await page.getByRole('button',{name:'Continue'}).click();
+  await expect(page).toHaveURL(new RegExp('#\\/script\\?line='+markerLine+'$'));
+});
+
 test('Bookmark persists, opens, deletes in one click, and supports Undo',async({page})=>{
   await ready(page);
   await page.goto(BASE+'#/script');
@@ -60,10 +98,13 @@ test('Bookmark persists, opens, deletes in one click, and supports Undo',async({
   await expect(page.locator('[data-bookmark-row="'+line+'"]').first()).toBeVisible();
 });
 
-test('Line Detail can add/remove Bookmark and bookmark page is mobile-safe',async({page})=>{
+test('Line Detail can set Shiori, add/remove Bookmark, and bookmark page is mobile-safe',async({page})=>{
   await ready(page);
   const line=await page.evaluate(()=>MTS_INDEX_ZERO.store.getScene('act1-scene1')[10].id);
   await page.goto(BASE+'#/line?scene=act1-scene1&line='+line);
+  const shiori=page.locator('.line-detail-shiori');
+  await expect(shiori).toBeVisible();await shiori.click();
+  expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('mts.shiori.v1')||'null')?.lineId)).toBe(line);
   const toggle=page.locator('.line-detail-bookmark');
   await expect(toggle).toBeVisible();await toggle.click();
   expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),line)).toBe(true);
@@ -84,22 +125,30 @@ test('Bookmark page filters by scene in canonical order',async({page})=>{
   await expect(page.locator('[data-bookmark-row="'+ids[0]+'"]').first()).toHaveCount(0);
 });
 
-test('Resume and Bookmark runtime survives an offline PWA reload',async({page,context})=>{
+test('Resume, Shiori, and Bookmark runtime survive an offline PWA reload',async({page,context})=>{
   await ready(page);
+  await page.goto(BASE+'#/script');
+  await page.locator('[data-line]').first().locator('[data-shiori-toggle]').click();
+  const markerLine=await page.evaluate(()=>JSON.parse(localStorage.getItem('mts.shiori.v1')||'null')?.lineId);
   await page.waitForFunction(()=>!!navigator.serviceWorker?.controller,null,{timeout:12000});
   await page.reload({waitUntil:'domcontentloaded'});
   await page.waitForFunction(()=>window.MTS_INDEX_ZERO?.store?.hasCore?.(),null,{timeout:12000});
-  await page.waitForFunction(async()=>{
-    const shell=(await caches.keys()).find(x=>x.includes('mts-zero-shell-index-zero-2026-08-26-r5'));
-    const data=(await caches.keys()).find(x=>x.includes('mts-zero-data-index-zero-2026-08-26-r5'));
+  const buildId=await page.evaluate(()=>MTS_INDEX_ZERO.buildId);
+  await page.waitForFunction(async id=>{
+    const shell=(await caches.keys()).find(x=>x===`mts-zero-shell-${id}`);
+    const data=(await caches.keys()).find(x=>x===`mts-zero-data-${id}`);
     if(!shell||!data)return false;
     const sc=await caches.open(shell),dc=await caches.open(data);
     return !!(await sc.match('./src/resume-bookmarks.js'))&&!!(await dc.match('mousetrap_script_data.json'));
-  },null,{timeout:12000});
+  },buildId,{timeout:12000});
   await context.setOffline(true);
   await page.reload({waitUntil:'domcontentloaded'});
-  await expect(page.getByRole('heading',{name:'Learn Your Lines'})).toBeVisible();
   await page.waitForFunction(()=>window.MTS_INDEX_ZERO?.store?.hasCore?.(),null,{timeout:12000});
+  await page.goto(BASE+'#/home');
+  await expect(page.getByRole('heading',{name:'Learn Your Lines'})).toBeVisible();
+  await expect(page.locator('[data-resume-home]')).toContainText('Reading marker');
+  await page.getByRole('button',{name:'Continue'}).click();
+  await expect(page).toHaveURL(new RegExp('#\\/script\\?line='+markerLine+'$'));
   await page.goto(BASE+'#/bookmarks');
   await expect(page.getByRole('heading',{name:'Bookmarks',exact:true})).toBeVisible();
   await context.setOffline(false);
