@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "AUDIT_COMPLETE",
   "policy": {
     "inThisPlayOptional": true,
@@ -14,38 +14,34 @@
     "properNounOccurrences": 99,
     "properNounMissingContext": 21,
     "genericProperNounMissingContext": 0,
-    "dictionaryPlayContextCandidates": 12,
+    "dictionaryPlayContextCandidates": 10,
     "repeatedContextGroups": 41
   },
   "compact": {
     "genericProperNounMissingContext": [],
     "dictionaryPlayContextCandidates": [
       "cut off",
-      "Three Blind Mice",
       "wider field",
       "run in someone's head",
       "reproach oneself",
       "Morgan's Bank",
       "Ledbury Hotel",
+      "Monkswell Manor",
       "Spot and Plain",
       "Monkswell Manor Guest House",
-      "Major Metcalf",
-      "Miss Casewell",
-      "Sergeant Trotter"
+      "Prefab Nests"
     ],
     "candidateOccurrenceCounts": {
       "cut off": 4,
-      "Three Blind Mice": 2,
       "wider field": 1,
       "run in someone's head": 1,
       "reproach oneself": 0,
       "Morgan's Bank": 1,
       "Ledbury Hotel": 1,
+      "Monkswell Manor": 6,
       "Spot and Plain": 1,
       "Monkswell Manor Guest House": 3,
-      "Major Metcalf": 6,
-      "Miss Casewell": 4,
-      "Sergeant Trotter": 1
+      "Prefab Nests": 1
     },
     "repeatedContexts": [
       {
@@ -225,14 +221,6 @@
       ]
     },
     {
-      "lemma": "Three Blind Mice",
-      "pos": "固有名詞",
-      "meaning": "英語圏の伝承童謡『Three Blind Mice』の題名。",
-      "hits": [
-        "Three Blind Mice"
-      ]
-    },
-    {
       "lemma": "wider field",
       "pos": "名詞句",
       "meaning": "Culver Streetと違いMonkswell Manorには、次の標的になり得る人物が複数いるという意味。",
@@ -273,6 +261,14 @@
       ]
     },
     {
+      "lemma": "Monkswell Manor",
+      "pos": "固有名詞",
+      "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
+      "hits": [
+        "本作"
+      ]
+    },
+    {
       "lemma": "Spot and Plain",
       "pos": "固有名詞",
       "meaning": "【固有名詞】\n劇中のLongridge Farmの思い出で言及される犬の名前。",
@@ -286,33 +282,17 @@
       "pos": "固有名詞",
       "meaning": "【固有名詞】Monkswell Manor Guest House。本作でMollieとGilesが営む宿泊施設名。",
       "hits": [
-        "Monkswell",
+        "本作",
         "Mollie",
         "Giles"
       ]
     },
     {
-      "lemma": "Major Metcalf",
+      "lemma": "Prefab Nests",
       "pos": "固有名詞",
-      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "meaning": "【固有名詞的表現】Prefab Nests。本作中で使われる架空の建築・事業名。",
       "hits": [
-        "Major Metcalf"
-      ]
-    },
-    {
-      "lemma": "Miss Casewell",
-      "pos": "固有名詞",
-      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
-      "hits": [
-        "Miss Casewell"
-      ]
-    },
-    {
-      "lemma": "Sergeant Trotter",
-      "pos": "固有名詞",
-      "meaning": "【固有名詞】Sergeant Trotterという人名・呼称。Sergeantは軍・警察などの階級名。",
-      "hits": [
-        "Trotter"
+        "本作"
       ]
     }
   ],
@@ -349,24 +329,6 @@
         "lemma": "cut off",
         "inThisPlay": "",
         "text": "But such a gay little tune? Don't you think? She cut off their tails with a carving knife ― snick, snick, snick ― delicious. Just what a child would adore. Cruel little things, children. Some of them never grow up."
-      }
-    ],
-    "Three Blind Mice": [
-      {
-        "speechId": "act1-scene2-speech-0206",
-        "speaker": "TROTTER",
-        "surface": "Three Blind Mice",
-        "lemma": "Three Blind Mice",
-        "inThisPlay": "",
-        "text": "Yes, Mrs. Ralston. Below the two addresses was written \"Three Blind Mice.\" And on the dead woman's body was a paper with \"This is the First\" written on it, and below the words, a drawing of three little mice and a bar of music. The music was the tune of the nursery rhyme Three Blind Mice. You know how it goes. \"Three Blind Mice...\""
-      },
-      {
-        "speechId": "act2-speech-0057",
-        "speaker": "TROTTER",
-        "surface": "Three Blind Mice",
-        "lemma": "Three Blind Mice",
-        "inThisPlay": "この箇所では、事件の反復モチーフになっている童謡の題名。歌詞そのものではなく、題名・旋律への言及。",
-        "text": "Who was whistling Three Blind Mice? Are you making this up, Mr. Paravicini?"
       }
     ],
     "wider field": [
@@ -410,6 +372,56 @@
         "text": "At the Ledbury Hotel, Knightsbridge."
       }
     ],
+    "Monkswell Manor": [
+      {
+        "speechId": "act1-scene1-speech-0075",
+        "speaker": "MRS. BOYLE",
+        "surface": "Monkswell Manor",
+        "lemma": "Monkswell Manor",
+        "inThisPlay": "本作の主要舞台となる屋敷の名称。",
+        "text": "This is Monkswell Manor, I presume?"
+      },
+      {
+        "speechId": "act1-scene1-speech-0176",
+        "speaker": "GILES",
+        "surface": "Monkswell Manor",
+        "lemma": "Monkswell Manor",
+        "inThisPlay": "本作の主要舞台となる屋敷の名称。",
+        "text": "This is Monkswell Manor Guest House."
+      },
+      {
+        "speechId": "act1-scene1-speech-0190",
+        "speaker": "PARAVICINI",
+        "surface": "Monkswell Manor",
+        "lemma": "Monkswell Manor",
+        "inThisPlay": "本作の主要舞台となる屋敷の名称。",
+        "text": "Yes ― the unexpected guest. The guest that you did not invite. The guest who just arrived ― from nowhere ― out of the storm. It sounds quite dramatic, does it not? Who am I? You do not know. Where do I come from? You do not know. Me, I am the man of mystery. But now, I tell you this. I complete the picture. From now on there will be no more arrivals. And no departures either. By tomorrow ― perhaps even already ― we are cut off from civilization. No butcher, no baker, no milkman, no postman, no daily papers ― nobody and nothing but ourselves. That is admirable ― admirable. It could not suit me better. My name, by the way, is Paravicini. Mr. and Mrs. Ralston? And this ― is Monkswell Manor Guest House, you said? Good. Monkswell Manor Guest House. Perfect. Perfect."
+      },
+      {
+        "speechId": "act1-scene2-speech-0077",
+        "speaker": "MOLLIE",
+        "surface": "Monkswell Manor",
+        "lemma": "Monkswell Manor",
+        "inThisPlay": "本作の主要舞台となる屋敷の名称。",
+        "text": "Yes? Yes ― this is Monkswell Manor Guest House...What?...No, I'm afraid Mr. Ralston can't come to the telephone just now. This is Mrs. Ralston speaking. Who...? The Berkshire Police...? Oh yes, yes, Superintendent Hogben, I'm afraid that's impossible. He'd never get here. We're snowed up. Completely snowed up. The roads are impassable... Nothing can get through...Yes...Very well...But what... Hullo-hullo..."
+      },
+      {
+        "speechId": "act2-speech-0448",
+        "speaker": "TROTTER",
+        "surface": "Monkswell Manor",
+        "lemma": "Monkswell Manor",
+        "inThisPlay": "",
+        "text": "What brought you to Monkswell Manor, Miss Casewell?"
+      },
+      {
+        "speechId": "act2-speech-0616",
+        "speaker": "MAJOR METCALF",
+        "surface": "Monkswell Manor",
+        "lemma": "Monkswell Manor",
+        "inThisPlay": "",
+        "text": "As soon as we got hold of that notebook with \"Monkswell Manor\" written in it, we saw it was vital to have someone on the spot. When it was put to him, Major Metcalf agreed to let me take his place. I couldn't understand it when Trotter turned up."
+      }
+    ],
     "Spot and Plain": [
       {
         "speechId": "act2-speech-0596",
@@ -446,98 +458,14 @@
         "text": "Yes? Yes ― this is Monkswell Manor Guest House...What?...No, I'm afraid Mr. Ralston can't come to the telephone just now. This is Mrs. Ralston speaking. Who...? The Berkshire Police...? Oh yes, yes, Superintendent Hogben, I'm afraid that's impossible. He'd never get here. We're snowed up. Completely snowed up. The roads are impassable... Nothing can get through...Yes...Very well...But what... Hullo-hullo..."
       }
     ],
-    "Major Metcalf": [
+    "Prefab Nests": [
       {
-        "speechId": "act1-scene1-speech-0032",
-        "speaker": "MOLLIE",
-        "surface": "Major Metcalf",
-        "lemma": "Major Metcalf",
-        "inThisPlay": "Monkswell Manorの宿泊客で、Majorの軍階級で呼ばれる人物。",
-        "text": "Yes. Mrs. Boyle, Front Fourposter Room. Major Metcalf, Blue Room. Miss Casewell, East Room. Mr. Wren, Oak Room."
-      },
-      {
-        "speechId": "act1-scene1-speech-0101",
-        "speaker": "MOLLIE",
-        "surface": "Major Metcalf",
-        "lemma": "Major Metcalf",
-        "inThisPlay": "Monkswell Manorの宿泊客で、Majorの軍階級で呼ばれる人物。",
-        "text": "No ― I put Mr. Wren in the Rose Room. He liked the fourposter so much. So it's Mrs. Boyle in the Oak Room and Major Metcalf in the Blue Room."
-      },
-      {
-        "speechId": "act1-scene1-speech-0110",
-        "speaker": "MRS. BOYLE",
-        "surface": "Major Metcalf",
-        "lemma": "Major Metcalf",
-        "inThisPlay": "Monkswell Manorの宿泊客で、Majorの軍階級で呼ばれる人物。",
-        "text": "I would have said that a proper staff of servants was essential before opening this kind of establishment. I consider your advertisement was most misleading. May I ask if I am the only guest ― with Major Metcalf, that is?"
-      },
-      {
-        "speechId": "act1-scene1-speech-0152",
-        "speaker": "MOLLIE",
-        "surface": "Major Metcalf",
-        "lemma": "Major Metcalf",
-        "inThisPlay": "Monkswell Manorの宿泊客で、Majorの軍階級で呼ばれる人物。",
-        "text": "I must hurry out to the kitchen and get on with things. Major Metcalf is very nice. He won't be difficult. It's Mrs. Boyle really frightens me. We must have a nice dinner. I was thinking of opening two tins of minced beef and cereal and a tin of peas, and mashing the potatoes. And there's stewed figs and custard. Do you think that will be all right?"
-      },
-      {
-        "speechId": "act1-scene1-speech-0167",
-        "speaker": "MOLLIE",
-        "surface": "Major Metcalf",
-        "lemma": "Major Metcalf",
-        "inThisPlay": "Monkswell Manorの宿泊客で、Majorの軍階級で呼ばれる人物。",
-        "text": "It seems very hard that all our guests should be either unpleasant or odd. Anyway, I think Major Metcalf's all right, don't you?"
-      },
-      {
-        "speechId": "act1-scene1-speech-0189",
-        "speaker": "MOLLIE",
-        "surface": "Major Metcalf",
-        "lemma": "Major Metcalf",
-        "inThisPlay": "Monkswell Manorの宿泊客で、Majorの軍階級で呼ばれる人物。",
-        "text": "There's Mrs. Boyle and Major Metcalf and Miss Casewell and a young man called Christopher Wren ― and now ― you."
-      }
-    ],
-    "Miss Casewell": [
-      {
-        "speechId": "act1-scene1-speech-0032",
-        "speaker": "MOLLIE",
-        "surface": "Miss Casewell",
-        "lemma": "Miss Casewell",
-        "inThisPlay": "Monkswell Manorの宿泊客の一人。",
-        "text": "Yes. Mrs. Boyle, Front Fourposter Room. Major Metcalf, Blue Room. Miss Casewell, East Room. Mr. Wren, Oak Room."
-      },
-      {
-        "speechId": "act1-scene1-speech-0148",
-        "speaker": "GILES",
-        "surface": "Miss Casewell",
-        "lemma": "Miss Casewell",
-        "inThisPlay": "Monkswell Manorの宿泊客の一人。",
-        "text": "Here's Miss Casewell, Mollie. My wife."
-      },
-      {
-        "speechId": "act1-scene1-speech-0165",
-        "speaker": "MOLLIE",
-        "surface": "Miss Casewell",
-        "lemma": "Miss Casewell",
-        "inThisPlay": "Monkswell Manorの宿泊客の一人。",
-        "text": "I don't believe it. I like him. I think Miss Casewell's rather peculiar, don't you?"
-      },
-      {
-        "speechId": "act1-scene1-speech-0189",
-        "speaker": "MOLLIE",
-        "surface": "Miss Casewell",
-        "lemma": "Miss Casewell",
-        "inThisPlay": "Monkswell Manorの宿泊客の一人。",
-        "text": "There's Mrs. Boyle and Major Metcalf and Miss Casewell and a young man called Christopher Wren ― and now ― you."
-      }
-    ],
-    "Sergeant Trotter": [
-      {
-        "speechId": "act1-scene2-speech-0085",
-        "speaker": "MOLLIE",
-        "surface": "Sergeant Trotter",
-        "lemma": "Sergeant Trotter",
-        "inThisPlay": "警察のSergeantとして派遣される人物。ここではMollieが電話で名前を聞き取っている。",
-        "text": "That's what I asked. But he wouldn't say. Just said I was to impress on my husband to listen very carefully to what Sergeant Trotter, I think it was, had to say, and to follow his instructions implicitly. Isn't it extraordinary?"
+        "speechId": "act1-scene1-speech-0067",
+        "speaker": "CHRISTOPHER",
+        "surface": "Prefab Nests",
+        "lemma": "Prefab Nests",
+        "inThisPlay": "Christopherが自分の将来の建築を冗談めかして名付けた架空の呼称。Prefabはprefabricated(プレハブ)の略。",
+        "text": "No, I'm an architect. My parents, you know, baptized me Christopher, in the hope that I would be an architect. Christopher Wren! As good as halfway home. Actually, of course, everyone laughs about it and makes jokes about St. Paul's. However ― who knows?― I may yet have the last laugh. Chris Wren's Prefab Nests may yet go down in history! I'm going to like it here. I find your wife most sympathetic."
       }
     ]
   },
