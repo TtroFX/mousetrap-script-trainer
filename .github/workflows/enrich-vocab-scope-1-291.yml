@@ -25,13 +25,31 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Reconstruct enrichment script
+      - name: Reconstruct and patch enrichment script
         run: |
           cat scripts/.vocab-scope-1-291-new-*.b64 > /tmp/enrich.b64
           base64 -d /tmp/enrich.b64 | gzip -d > /tmp/enrich.mjs
-          ACTUAL_SHA="$(sha256sum /tmp/enrich.mjs | cut -d' ' -f1)"
-          EXPECTED_SHA="27531c4fbf91748c86e7f194309e39b74258131449347ade7c070d10f3fd1c4d"
-          test "$ACTUAL_SHA" = "$EXPECTED_SHA"
+          BASE_SHA="$(sha256sum /tmp/enrich.mjs | cut -d' ' -f1)"
+          test "$BASE_SHA" = "27531c4fbf91748c86e7f194309e39b74258131449347ade7c070d10f3fd1c4d"
+          python3 - <<'PY'
+          p='/tmp/enrich.mjs'
+          s=open(p,encoding='utf-8').read()
+          replacements=[
+            ("const key = v => norm(v).toLowerCase();", "const key = v => norm(v).toLowerCase();\nconst runtimeKey = v => String(v ?? '').trim().toLowerCase();"),
+            ("const dictByLower = new Map(Object.entries(dictionary).map(([dk,e]) => [key(dk),e]));", "const beforeRuntimeKeys = new Set();\nlet beforeDuplicateDictionaryKeys=0;\nfor (const dk of Object.keys(beforeDict)) { const k=runtimeKey(dk); if (beforeRuntimeKeys.has(k)) beforeDuplicateDictionaryKeys++; else beforeRuntimeKeys.add(k); }\nconst dictByLower = new Map(Object.entries(dictionary).map(([dk,e]) => [runtimeKey(dk),e]));"),
+            ("const k=key(dk); if (dictCaseKeys.has(k)) duplicateDictionaryKeys++; else dictCaseKeys.add(k);", "const k=runtimeKey(dk); if (dictCaseKeys.has(k)) duplicateDictionaryKeys++; else dictCaseKeys.add(k);"),
+            ("if (duplicateDictionaryKeys) errors.push(`duplicate dictionary keys case-insensitive=${duplicateDictionaryKeys}`);", "if (duplicateDictionaryKeys > beforeDuplicateDictionaryKeys) errors.push(`new duplicate dictionary keys case-insensitive=${duplicateDictionaryKeys}/${beforeDuplicateDictionaryKeys}`);"),
+            ("const dupKey = `${key(surface)}\\0${key(lemma)}`;", "const dupKey = `${runtimeKey(surface)}\\0${runtimeKey(lemma)}`;"),
+            ("const d = dictByLower.get(key(lemma));", "const d = dictByLower.get(runtimeKey(lemma));")
+          ]
+          for old,new in replacements:
+              if old not in s:
+                  raise SystemExit('patch anchor missing: '+old)
+              s=s.replace(old,new,1)
+          open(p,'w',encoding='utf-8').write(s)
+          PY
+          FIXED_SHA="$(sha256sum /tmp/enrich.mjs | cut -d' ' -f1)"
+          test "$FIXED_SHA" = "4228670879aa3161a1dbd4f4eb706023a5d2bd72958b56cf3d92cbb6eee35fd6"
           node --check /tmp/enrich.mjs
 
       - name: Apply scope 1-291 enrichment
