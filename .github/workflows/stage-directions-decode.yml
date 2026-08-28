@@ -1,0 +1,43 @@
+name: Decode Stage Directions
+
+on:
+  push:
+    branches: ['feature/pdf-stage-directions']
+    paths:
+      - 'data/stage-upload-parts/**'
+      - '.github/workflows/stage-directions-decode.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  decode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Decode and validate stage-direction JSON
+        run: |
+          node <<'NODE'
+          const fs=require('fs');
+          const zlib=require('zlib');
+          const parts=['data/stage-upload-parts/part-1.txt','data/stage-upload-parts/part-2.txt'];
+          const encoded=parts.map(p=>fs.readFileSync(p,'utf8').trim()).join('');
+          const raw=zlib.gunzipSync(Buffer.from(encoded,'base64')).toString('utf8');
+          const data=JSON.parse(raw);
+          fs.writeFileSync('mousetrap_stage_directions.json',JSON.stringify(data,null,2)+'\n');
+          const summarize=v=>Array.isArray(v)?{type:'array',length:v.length,sample:v.slice(0,2)}:v&&typeof v==='object'?{type:'object',keys:Object.keys(v),sample:Object.fromEntries(Object.entries(v).slice(0,3))}:{type:typeof v,value:v};
+          console.log('STAGE_TOP_LEVEL',JSON.stringify(summarize(data),null,2));
+          for(const [k,v] of Object.entries(data||{})) console.log('STAGE_FIELD',k,JSON.stringify(summarize(v)));
+          NODE
+      - name: Commit decoded canonical stage data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add mousetrap_stage_directions.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Decode canonical stage directions [skip ci]'
+          git push
