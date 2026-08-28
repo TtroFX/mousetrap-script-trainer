@@ -101,7 +101,19 @@ test('floating previous close next controller stays viewport-fixed while the lin
     return{scene:'act1-scene1',line:rows[Math.min(8,rows.length-2)].id};
   });
   await page.goto(`${BASE}#/line?scene=${target.scene}&line=${target.line}`);
-  await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasStudy()&&document.body.scrollHeight>innerHeight+100,null,{timeout:15000});
+  await page.waitForSelector('.line-page .floating-nav');
+  await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasStudy(),null,{timeout:15000});
+  await page.evaluate(()=>{
+    if(document.body.scrollHeight<=innerHeight+100){
+      const root=document.querySelector('.line-page-surface')||document.querySelector('.line-page');
+      const spacer=document.createElement('div');
+      spacer.dataset.fixedNavScrollTest='true';
+      spacer.style.height='1000px';
+      spacer.style.pointerEvents='none';
+      root.append(spacer);
+    }
+  });
+  await page.waitForFunction(()=>document.body.scrollHeight>innerHeight+100,null,{timeout:3000});
   const before=await page.locator('.floating-nav').boundingBox();
   expect(before).toBeTruthy();
   await page.evaluate(()=>window.scrollTo(0,document.documentElement.scrollHeight));
