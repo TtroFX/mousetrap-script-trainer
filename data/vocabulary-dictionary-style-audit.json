@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "status": "AUDIT_COMPLETE",
   "policy": {
     "target": "single-token dictionary lemmas",
@@ -12,6 +12,61 @@
     "multiPosSingleWords": 96,
     "multiPosCombinedHeader": 20,
     "multiPosWithoutSeparateHeaders": 22
+  },
+  "compact": {
+    "singleWordNoHeader": [
+      "Centre",
+      "frowning",
+      "shrugging",
+      "reeling",
+      "wailing"
+    ],
+    "multiPosCombinedHeader": [
+      "antiquarian",
+      "ditto",
+      "waste",
+      "attempt",
+      "fake",
+      "solid",
+      "prefab",
+      "indeed",
+      "European",
+      "local",
+      "fit",
+      "hint",
+      "original",
+      "till",
+      "plenty",
+      "whisper",
+      "consent",
+      "firsthand",
+      "snick",
+      "jap"
+    ],
+    "multiPosWithoutSeparateHeaders": [
+      "antiquarian",
+      "ditto",
+      "waste",
+      "attempt",
+      "fake",
+      "solid",
+      "prefab",
+      "indeed",
+      "European",
+      "local",
+      "fit",
+      "hint",
+      "original",
+      "till",
+      "plenty",
+      "whisper",
+      "consent",
+      "firsthand",
+      "snick",
+      "wailing",
+      "downstage",
+      "jap"
+    ]
   },
   "headerLabelCounts": {
     "名詞": 304,
