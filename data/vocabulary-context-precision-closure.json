@@ -53,6 +53,7 @@
     "contextPrecisionAudit": "PASS",
     "vocabularySemanticValidator": "PASS",
     "productionAssemblyVerify": "PASS",
-    "completeUiRegression": "PENDING_FINAL_CANDIDATE_RUN"
+    "completeUiRegression": "PASS",
+    "uiRegressionRunId": 33185281213
   }
 }
