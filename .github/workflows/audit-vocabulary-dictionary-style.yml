@@ -1,0 +1,35 @@
+name: Audit Vocabulary Dictionary Style
+
+on:
+  push:
+    branches:
+      - audit/vocabulary-dictionary-style
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: audit/vocabulary-dictionary-style
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Audit dictionary style
+        run: node scripts/audit-vocabulary-dictionary-style.mjs
+      - name: Commit audit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/vocabulary-dictionary-style-audit.json
+          if git diff --cached --quiet; then
+            echo "No audit report changes."
+            exit 0
+          fi
+          git commit -m "Record vocabulary dictionary style audit"
+          git push origin HEAD:audit/vocabulary-dictionary-style
