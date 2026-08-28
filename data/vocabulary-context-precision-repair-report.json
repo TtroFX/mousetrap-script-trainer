@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 2,
+  "status": "APPLIED",
+  "changedDictionaryEntries": 8,
+  "changedDictionary": [
+    "cut off",
+    "Ledbury Hotel",
+    "Monkswell Manor Guest House",
+    "Morgan's Bank",
+    "reproach oneself",
+    "run in someone's head",
+    "Spot and Plain",
+    "wider field"
+  ],
+  "syncedMeanings": 12,
+  "removedRedundantContexts": 126,
+  "preservedPolysemyContexts": 167,
+  "addedOrUpdatedContexts": 8,
+  "finalContextItems": 752,
+  "sha256": {
+    "dictionary": "08e7b7b8b5b84cd0ca0002dc2a1e07be455cbd04e4f8e5f15079a1b0190c339d",
+    "vocabulary": "b7184eb335c6249d9dcfe12fd4f1528bfbdda6d090b07add6dd30ea63e6230a0"
+  }
+}

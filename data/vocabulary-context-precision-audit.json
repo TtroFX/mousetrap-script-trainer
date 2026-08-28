@@ -10,37 +10,21 @@
   "counts": {
     "dictionaryEntries": 1375,
     "vocabularyItems": 2926,
-    "contextItems": 870,
+    "contextItems": 752,
     "properNounOccurrences": 99,
-    "properNounMissingContext": 21,
+    "properNounMissingContext": 19,
     "genericProperNounMissingContext": 0,
-    "dictionaryPlayContextCandidates": 10,
-    "repeatedContextGroups": 41
+    "dictionaryPlayContextCandidates": 2,
+    "repeatedContextGroups": 29
   },
   "compact": {
     "genericProperNounMissingContext": [],
     "dictionaryPlayContextCandidates": [
-      "cut off",
-      "wider field",
-      "run in someone's head",
-      "reproach oneself",
-      "Morgan's Bank",
-      "Ledbury Hotel",
       "Monkswell Manor",
-      "Spot and Plain",
-      "Monkswell Manor Guest House",
       "Prefab Nests"
     ],
     "candidateOccurrenceCounts": {
-      "cut off": 4,
-      "wider field": 1,
-      "run in someone's head": 1,
-      "reproach oneself": 0,
-      "Morgan's Bank": 1,
-      "Ledbury Hotel": 1,
       "Monkswell Manor": 6,
-      "Spot and Plain": 1,
-      "Monkswell Manor Guest House": 3,
       "Prefab Nests": 1
     },
     "repeatedContexts": [
@@ -73,24 +57,8 @@
         "context": "【ト書き】俳優・人物が舞台から退場する指示。"
       },
       {
-        "count": 21,
-        "context": "【ト書き】俳優から見て舞台奥右を示す位置指定。"
-      },
-      {
-        "count": 20,
-        "context": "【ト書き】舞台中央という位置指定。"
-      },
-      {
-        "count": 20,
-        "context": "ト書きの Centre は舞台中央の位置指定。"
-      },
-      {
         "count": 19,
         "context": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
-      },
-      {
-        "count": 18,
-        "context": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。"
       },
       {
         "count": 14,
@@ -106,10 +74,6 @@
       },
       {
         "count": 11,
-        "context": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。"
-      },
-      {
-        "count": 11,
         "context": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
       },
       {
@@ -119,14 +83,6 @@
       {
         "count": 9,
         "context": "ト書きでは座っている状態などから立ち上がる動作。"
-      },
-      {
-        "count": 8,
-        "context": "【ト書き】俳優から見て舞台奥左を示す位置指定。"
-      },
-      {
-        "count": 7,
-        "context": "【ト書き】俳優から見て舞台前方右を示す位置指定。"
       },
       {
         "count": 7,
@@ -150,19 +106,7 @@
       },
       {
         "count": 5,
-        "context": "四本の柱で天蓋を支えるfour-poster bedを指す。"
-      },
-      {
-        "count": 5,
         "context": "舞台装置のアーチ形の開口部。入退場や位置指定の基準になる。"
-      },
-      {
-        "count": 4,
-        "context": "【ト書き】俳優から見て舞台前方左を示す位置指定。"
-      },
-      {
-        "count": 4,
-        "context": "【ト書き】舞台奥中央を示す位置指定。"
       },
       {
         "count": 4,
@@ -179,10 +123,6 @@
       {
         "count": 4,
         "context": "殺人時刻にどこにいたかについて、各人がTrotterへ述べた供述を指す。"
-      },
-      {
-        "count": 4,
-        "context": "演技上の間を置く指示。無言の時間そのものが反応や緊張を表す。"
       },
       {
         "count": 3,
@@ -203,88 +143,17 @@
       {
         "count": 3,
         "context": "ロンドン西部の地区Paddington。劇中の殺人事件の所在地として言及される。"
-      },
-      {
-        "count": 3,
-        "context": "相手や客席から顔・体をそむける動作。"
       }
     ]
   },
   "genericProperNounMissingContext": [],
   "dictionaryPlayContextCandidates": [
     {
-      "lemma": "cut off",
-      "pos": "句動詞",
-      "meaning": "大雪で道路・配達・郵便などが止まり、Monkswell Manorが外界から物理的に孤立すること。場面全体の重要な転換点。/雪で道路が遮断され、さらに電話も使えなくなり、外部との移動・通信の両方が断たれた状態。",
-      "hits": [
-        "Monkswell"
-      ]
-    },
-    {
-      "lemma": "wider field",
-      "pos": "名詞句",
-      "meaning": "Culver Streetと違いMonkswell Manorには、次の標的になり得る人物が複数いるという意味。",
-      "hits": [
-        "Monkswell"
-      ]
-    },
-    {
-      "lemma": "run in someone's head",
-      "pos": "慣用表現",
-      "meaning": "Three Blind Miceの旋律が頭から離れず繰り返し浮かぶ、という意味。殺人と結びついたため不穏な含みを持つ。",
-      "hits": [
-        "Three Blind Mice"
-      ]
-    },
-    {
-      "lemma": "reproach oneself",
-      "pos": "動詞句",
-      "meaning": "Longridge Farm事件について少しでも自分に責任・後ろめたさがある者は、それを認めるべきだという意味。",
-      "hits": [
-        "Longridge Farm"
-      ]
-    },
-    {
-      "lemma": "Morgan's Bank",
-      "pos": "固有名詞",
-      "meaning": "【固有名詞】\n劇中で住所の受取先として名が挙がる銀行名。実在の特定機関とは断定しない。",
-      "hits": [
-        "劇中"
-      ]
-    },
-    {
-      "lemma": "Ledbury Hotel",
-      "pos": "固有名詞",
-      "meaning": "【固有名詞】\n劇中で宿泊先として名が挙がるホテル。実在施設の同定はしない。",
-      "hits": [
-        "劇中"
-      ]
-    },
-    {
       "lemma": "Monkswell Manor",
       "pos": "固有名詞",
       "meaning": "【固有名詞】\n本作の主要舞台となるゲストハウスの名称。",
       "hits": [
         "本作"
-      ]
-    },
-    {
-      "lemma": "Spot and Plain",
-      "pos": "固有名詞",
-      "meaning": "【固有名詞】\n劇中のLongridge Farmの思い出で言及される犬の名前。",
-      "hits": [
-        "劇中",
-        "Longridge Farm"
-      ]
-    },
-    {
-      "lemma": "Monkswell Manor Guest House",
-      "pos": "固有名詞",
-      "meaning": "【固有名詞】Monkswell Manor Guest House。本作でMollieとGilesが営む宿泊施設名。",
-      "hits": [
-        "本作",
-        "Mollie",
-        "Giles"
       ]
     },
     {
@@ -297,81 +166,6 @@
     }
   ],
   "candidateOccurrencesByLemma": {
-    "cut off": [
-      {
-        "speechId": "act1-scene1-speech-0190",
-        "speaker": "PARAVICINI",
-        "surface": "cut off from civilization",
-        "lemma": "cut off",
-        "inThisPlay": "",
-        "text": "Yes ― the unexpected guest. The guest that you did not invite. The guest who just arrived ― from nowhere ― out of the storm. It sounds quite dramatic, does it not? Who am I? You do not know. Where do I come from? You do not know. Me, I am the man of mystery. But now, I tell you this. I complete the picture. From now on there will be no more arrivals. And no departures either. By tomorrow ― perhaps even already ― we are cut off from civilization. No butcher, no baker, no milkman, no postman, no daily papers ― nobody and nothing but ourselves. That is admirable ― admirable. It could not suit me better. My name, by the way, is Paravicini. Mr. and Mrs. Ralston? And this ― is Monkswell Manor Guest House, you said? Good. Monkswell Manor Guest House. Perfect. Perfect."
-      },
-      {
-        "speechId": "act1-scene1-speech-0190",
-        "speaker": "PARAVICINI",
-        "surface": "cut off",
-        "lemma": "cut off",
-        "inThisPlay": "",
-        "text": "Yes ― the unexpected guest. The guest that you did not invite. The guest who just arrived ― from nowhere ― out of the storm. It sounds quite dramatic, does it not? Who am I? You do not know. Where do I come from? You do not know. Me, I am the man of mystery. But now, I tell you this. I complete the picture. From now on there will be no more arrivals. And no departures either. By tomorrow ― perhaps even already ― we are cut off from civilization. No butcher, no baker, no milkman, no postman, no daily papers ― nobody and nothing but ourselves. That is admirable ― admirable. It could not suit me better. My name, by the way, is Paravicini. Mr. and Mrs. Ralston? And this ― is Monkswell Manor Guest House, you said? Good. Monkswell Manor Guest House. Perfect. Perfect."
-      },
-      {
-        "speechId": "act1-scene2-speech-0167",
-        "speaker": "CHRISTOPHER",
-        "surface": "cut off",
-        "lemma": "cut off",
-        "inThisPlay": "",
-        "text": "So we're quite cut off now. Quite cut off. That's funny, isn't it?"
-      },
-      {
-        "speechId": "act2-speech-0379",
-        "speaker": "PARAVICINI",
-        "surface": "cut off",
-        "lemma": "cut off",
-        "inThisPlay": "",
-        "text": "But such a gay little tune? Don't you think? She cut off their tails with a carving knife ― snick, snick, snick ― delicious. Just what a child would adore. Cruel little things, children. Some of them never grow up."
-      }
-    ],
-    "wider field": [
-      {
-        "speechId": "act2-speech-0020",
-        "speaker": "TROTTER",
-        "surface": "a wider field",
-        "lemma": "wider field",
-        "inThisPlay": "",
-        "text": "Because there were only two addresses in the notebook we found. Now, at twenty-four Culver Street there was only one possible victim. She's dead. But here at Monkswell Manor there is a wider field."
-      }
-    ],
-    "run in someone's head": [
-      {
-        "speechId": "act2-speech-0054",
-        "speaker": "PARAVICINI",
-        "surface": "runs in people's head",
-        "lemma": "run in someone's head",
-        "inThisPlay": "",
-        "text": "And yet ― it runs in people's head. Someone was whistling it, too."
-      }
-    ],
-    "reproach oneself": [],
-    "Morgan's Bank": [
-      {
-        "speechId": "act2-speech-0441",
-        "speaker": "MISS CASEWELL",
-        "surface": "Morgan's Bank",
-        "lemma": "Morgan's Bank",
-        "inThisPlay": "Casewellが英国での連絡先を「Morgan’s Bank気付」と答える。",
-        "text": "Care of Morgan's Bank, Leadenhall Street."
-      }
-    ],
-    "Ledbury Hotel": [
-      {
-        "speechId": "act2-speech-0447",
-        "speaker": "MISS CASEWELL",
-        "surface": "Ledbury Hotel",
-        "lemma": "Ledbury Hotel",
-        "inThisPlay": "Casewellがイングランド到着後の宿泊先として答える名称。",
-        "text": "At the Ledbury Hotel, Knightsbridge."
-      }
-    ],
     "Monkswell Manor": [
       {
         "speechId": "act1-scene1-speech-0075",
@@ -420,42 +214,6 @@
         "lemma": "Monkswell Manor",
         "inThisPlay": "",
         "text": "As soon as we got hold of that notebook with \"Monkswell Manor\" written in it, we saw it was vital to have someone on the spot. When it was put to him, Major Metcalf agreed to let me take his place. I couldn't understand it when Trotter turned up."
-      }
-    ],
-    "Spot and Plain": [
-      {
-        "speechId": "act2-speech-0596",
-        "speaker": "MISS CASEWELL",
-        "surface": "Spot and Plain",
-        "lemma": "Spot and Plain",
-        "inThisPlay": "",
-        "text": "Yes, Spot and Plain."
-      }
-    ],
-    "Monkswell Manor Guest House": [
-      {
-        "speechId": "act1-scene1-speech-0176",
-        "speaker": "GILES",
-        "surface": "Monkswell Manor Guest House",
-        "lemma": "Monkswell Manor Guest House",
-        "inThisPlay": "MollieとGilesが始めたゲストハウスの名称。",
-        "text": "This is Monkswell Manor Guest House."
-      },
-      {
-        "speechId": "act1-scene1-speech-0190",
-        "speaker": "PARAVICINI",
-        "surface": "Monkswell Manor Guest House",
-        "lemma": "Monkswell Manor Guest House",
-        "inThisPlay": "MollieとGilesが始めたゲストハウスの名称。",
-        "text": "Yes ― the unexpected guest. The guest that you did not invite. The guest who just arrived ― from nowhere ― out of the storm. It sounds quite dramatic, does it not? Who am I? You do not know. Where do I come from? You do not know. Me, I am the man of mystery. But now, I tell you this. I complete the picture. From now on there will be no more arrivals. And no departures either. By tomorrow ― perhaps even already ― we are cut off from civilization. No butcher, no baker, no milkman, no postman, no daily papers ― nobody and nothing but ourselves. That is admirable ― admirable. It could not suit me better. My name, by the way, is Paravicini. Mr. and Mrs. Ralston? And this ― is Monkswell Manor Guest House, you said? Good. Monkswell Manor Guest House. Perfect. Perfect."
-      },
-      {
-        "speechId": "act1-scene2-speech-0077",
-        "speaker": "MOLLIE",
-        "surface": "Monkswell Manor Guest House",
-        "lemma": "Monkswell Manor Guest House",
-        "inThisPlay": "MollieとGilesが始めたゲストハウスの名称。",
-        "text": "Yes? Yes ― this is Monkswell Manor Guest House...What?...No, I'm afraid Mr. Ralston can't come to the telephone just now. This is Mrs. Ralston speaking. Who...? The Berkshire Police...? Oh yes, yes, Superintendent Hogben, I'm afraid that's impossible. He'd never get here. We're snowed up. Completely snowed up. The roads are impassable... Nothing can get through...Yes...Very well...But what... Hullo-hullo..."
       }
     ],
     "Prefab Nests": [
@@ -1823,329 +1581,6 @@
       ]
     },
     {
-      "context": "【ト書き】俳優から見て舞台奥右を示す位置指定。",
-      "count": 21,
-      "occurrences": [
-        {
-          "speechId": "act1-scene1-speech-0001",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0002",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0041",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0042",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0044",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0050",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0052",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0067",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0074",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0076",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0084",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0098",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0118",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0125",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0151",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0173",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0174",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene2-speech-0019",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene2-speech-0024",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene2-speech-0077",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        },
-        {
-          "speechId": "act1-scene2-speech-0098",
-          "lemma": "upstage right",
-          "surface": "up Right"
-        }
-      ]
-    },
-    {
-      "context": "【ト書き】舞台中央という位置指定。",
-      "count": 20,
-      "occurrences": [
-        {
-          "speechId": "act1-scene1-speech-0001",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act1-scene1-speech-0002",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act1-scene1-speech-0011",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act1-scene1-speech-0042",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act1-scene1-speech-0044",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act1-scene1-speech-0046",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act1-scene1-speech-0051",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act1-scene1-speech-0065",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act1-scene1-speech-0074",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act1-scene1-speech-0098",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act1-scene1-speech-0107",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act1-scene1-speech-0121",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act1-scene1-speech-0128",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act1-scene1-speech-0134",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act1-scene1-speech-0151",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act1-scene1-speech-0163",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act1-scene1-speech-0177",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act1-scene1-speech-0187",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act1-scene2-speech-0026",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act1-scene2-speech-0079",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        }
-      ]
-    },
-    {
-      "context": "ト書きの Centre は舞台中央の位置指定。",
-      "count": 20,
-      "occurrences": [
-        {
-          "speechId": "act2-speech-0061",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act2-speech-0077",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act2-speech-0083",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act2-speech-0102",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act2-speech-0109",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act2-speech-0133",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act2-speech-0145",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act2-speech-0180",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act2-speech-0181",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act2-speech-0227",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act2-speech-0238",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act2-speech-0245",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act2-speech-0246",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act2-speech-0274",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act2-speech-0276",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act2-speech-0284",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act2-speech-0289",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act2-speech-0315",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act2-speech-0331",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        },
-        {
-          "speechId": "act2-speech-0337",
-          "lemma": "centre stage",
-          "surface": "Centre"
-        }
-      ]
-    },
-    {
       "context": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。",
       "count": 19,
       "occurrences": [
@@ -2243,102 +1678,6 @@
           "speechId": "act1-scene2-speech-0063",
           "lemma": "address cue",
           "surface": "to MISS CASEWELL"
-        }
-      ]
-    },
-    {
-      "context": "【ト書き】人物が舞台上に見えない場所から声を出す、または舞台外にいることを示す。",
-      "count": 18,
-      "occurrences": [
-        {
-          "speechId": "act1-scene1-speech-0001",
-          "lemma": "offstage",
-          "surface": "off"
-        },
-        {
-          "speechId": "act1-scene1-speech-0002",
-          "lemma": "offstage",
-          "surface": "off"
-        },
-        {
-          "speechId": "act1-scene1-speech-0042",
-          "lemma": "offstage",
-          "surface": "off"
-        },
-        {
-          "speechId": "act1-scene1-speech-0043",
-          "lemma": "offstage",
-          "surface": "off"
-        },
-        {
-          "speechId": "act1-scene1-speech-0044",
-          "lemma": "offstage",
-          "surface": "off"
-        },
-        {
-          "speechId": "act1-scene1-speech-0051",
-          "lemma": "offstage",
-          "surface": "off"
-        },
-        {
-          "speechId": "act1-scene1-speech-0052",
-          "lemma": "offstage",
-          "surface": "off"
-        },
-        {
-          "speechId": "act1-scene1-speech-0075",
-          "lemma": "offstage",
-          "surface": "off"
-        },
-        {
-          "speechId": "act1-scene1-speech-0076",
-          "lemma": "offstage",
-          "surface": "off"
-        },
-        {
-          "speechId": "act1-scene1-speech-0098",
-          "lemma": "offstage",
-          "surface": "off"
-        },
-        {
-          "speechId": "act1-scene1-speech-0125",
-          "lemma": "offstage",
-          "surface": "off"
-        },
-        {
-          "speechId": "act1-scene1-speech-0132",
-          "lemma": "offstage",
-          "surface": "off"
-        },
-        {
-          "speechId": "act1-scene1-speech-0151",
-          "lemma": "offstage",
-          "surface": "off"
-        },
-        {
-          "speechId": "act1-scene1-speech-0174",
-          "lemma": "offstage",
-          "surface": "off"
-        },
-        {
-          "speechId": "act1-scene2-speech-0021",
-          "lemma": "offstage",
-          "surface": "off"
-        },
-        {
-          "speechId": "act1-scene2-speech-0023",
-          "lemma": "offstage",
-          "surface": "off"
-        },
-        {
-          "speechId": "act1-scene2-speech-0077",
-          "lemma": "offstage",
-          "surface": "off"
-        },
-        {
-          "speechId": "act1-scene2-speech-0094",
-          "lemma": "offstage",
-          "surface": "off"
         }
       ]
     },
@@ -2561,67 +1900,6 @@
       ]
     },
     {
-      "context": "【舞台設定】照明・音響・効果音のタイミングや状態を示す指示。",
-      "count": 11,
-      "occurrences": [
-        {
-          "speechId": "act1-scene1-speech-0001",
-          "lemma": "fade",
-          "surface": "fade"
-        },
-        {
-          "speechId": "act1-scene1-speech-0001",
-          "lemma": "fade",
-          "surface": "fades"
-        },
-        {
-          "speechId": "act1-scene1-speech-0001",
-          "lemma": "complete darkness",
-          "surface": "complete darkness"
-        },
-        {
-          "speechId": "act1-scene1-speech-0001",
-          "lemma": "shrill whistle",
-          "surface": "shrill whistle"
-        },
-        {
-          "speechId": "act1-scene1-speech-0001",
-          "lemma": "police whistle",
-          "surface": "police whistles"
-        },
-        {
-          "speechId": "act1-scene1-speech-0042",
-          "lemma": "doorbell",
-          "surface": "door bell rings"
-        },
-        {
-          "speechId": "act1-scene1-speech-0074",
-          "lemma": "doorbell",
-          "surface": "door bell peals"
-        },
-        {
-          "speechId": "act1-scene1-speech-0125",
-          "lemma": "doorbell",
-          "surface": "door bell peals"
-        },
-        {
-          "speechId": "act1-scene1-speech-0170",
-          "lemma": "doorbell",
-          "surface": "door bell rings"
-        },
-        {
-          "speechId": "act1-scene2-speech-0046",
-          "lemma": "volume",
-          "surface": "volume"
-        },
-        {
-          "speechId": "act1-scene2-speech-0076",
-          "lemma": "telephone rings",
-          "surface": "telephone rings"
-        }
-      ]
-    },
-    {
       "context": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。",
       "count": 11,
       "occurrences": [
@@ -2786,93 +2064,6 @@
           "speechId": "act2-speech-0246",
           "lemma": "rise",
           "surface": "rising"
-        }
-      ]
-    },
-    {
-      "context": "【ト書き】俳優から見て舞台奥左を示す位置指定。",
-      "count": 8,
-      "occurrences": [
-        {
-          "speechId": "act1-scene1-speech-0001",
-          "lemma": "upstage left",
-          "surface": "Up Left"
-        },
-        {
-          "speechId": "act1-scene1-speech-0067",
-          "lemma": "upstage left",
-          "surface": "up Left"
-        },
-        {
-          "speechId": "act1-scene1-speech-0072",
-          "lemma": "upstage left",
-          "surface": "up Left"
-        },
-        {
-          "speechId": "act1-scene2-speech-0016",
-          "lemma": "upstage left",
-          "surface": "up Left"
-        },
-        {
-          "speechId": "act1-scene2-speech-0050",
-          "lemma": "upstage left",
-          "surface": "up Left"
-        },
-        {
-          "speechId": "act1-scene2-speech-0052",
-          "lemma": "upstage left",
-          "surface": "up Left"
-        },
-        {
-          "speechId": "act1-scene2-speech-0077",
-          "lemma": "upstage left",
-          "surface": "up Left"
-        },
-        {
-          "speechId": "act1-scene2-speech-0094",
-          "lemma": "upstage left",
-          "surface": "up Left"
-        }
-      ]
-    },
-    {
-      "context": "【ト書き】俳優から見て舞台前方右を示す位置指定。",
-      "count": 7,
-      "occurrences": [
-        {
-          "speechId": "act1-scene1-speech-0001",
-          "lemma": "downstage right",
-          "surface": "down Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0002",
-          "lemma": "downstage right",
-          "surface": "down Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0049",
-          "lemma": "downstage right",
-          "surface": "down Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0050",
-          "lemma": "downstage right",
-          "surface": "down Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0099",
-          "lemma": "downstage right",
-          "surface": "down Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0103",
-          "lemma": "downstage right",
-          "surface": "down Right"
-        },
-        {
-          "speechId": "act1-scene1-speech-0157",
-          "lemma": "downstage right",
-          "surface": "down Right"
         }
       ]
     },
@@ -3057,37 +2248,6 @@
       ]
     },
     {
-      "context": "四本の柱で天蓋を支えるfour-poster bedを指す。",
-      "count": 5,
-      "occurrences": [
-        {
-          "speechId": "act1-scene1-speech-0032",
-          "lemma": "four-poster",
-          "surface": "Fourposter"
-        },
-        {
-          "speechId": "act1-scene1-speech-0057",
-          "lemma": "four-poster",
-          "surface": "fourposter"
-        },
-        {
-          "speechId": "act1-scene1-speech-0101",
-          "lemma": "four-poster",
-          "surface": "fourposter"
-        },
-        {
-          "speechId": "act1-scene1-speech-0159",
-          "lemma": "four-poster",
-          "surface": "fourposter"
-        },
-        {
-          "speechId": "act1-scene1-speech-0160",
-          "lemma": "four-poster",
-          "surface": "fourposter"
-        }
-      ]
-    },
-    {
       "context": "舞台装置のアーチ形の開口部。入退場や位置指定の基準になる。",
       "count": 5,
       "occurrences": [
@@ -3115,58 +2275,6 @@
           "speechId": "act2-speech-0346",
           "lemma": "archway",
           "surface": "archway"
-        }
-      ]
-    },
-    {
-      "context": "【ト書き】俳優から見て舞台前方左を示す位置指定。",
-      "count": 4,
-      "occurrences": [
-        {
-          "speechId": "act1-scene1-speech-0001",
-          "lemma": "downstage left",
-          "surface": "down Left"
-        },
-        {
-          "speechId": "act1-scene1-speech-0122",
-          "lemma": "downstage left",
-          "surface": "down Left"
-        },
-        {
-          "speechId": "act1-scene1-speech-0151",
-          "lemma": "downstage left",
-          "surface": "down Left"
-        },
-        {
-          "speechId": "act1-scene2-speech-0052",
-          "lemma": "downstage left",
-          "surface": "down Left"
-        }
-      ]
-    },
-    {
-      "context": "【ト書き】舞台奥中央を示す位置指定。",
-      "count": 4,
-      "occurrences": [
-        {
-          "speechId": "act1-scene1-speech-0001",
-          "lemma": "upstage centre",
-          "surface": "up Centre"
-        },
-        {
-          "speechId": "act1-scene1-speech-0044",
-          "lemma": "upstage centre",
-          "surface": "up Centre"
-        },
-        {
-          "speechId": "act1-scene1-speech-0098",
-          "lemma": "upstage centre",
-          "surface": "up Centre"
-        },
-        {
-          "speechId": "act1-scene2-speech-0079",
-          "lemma": "upstage centre",
-          "surface": "up Centre"
         }
       ]
     },
@@ -3275,32 +2383,6 @@
       ]
     },
     {
-      "context": "演技上の間を置く指示。無言の時間そのものが反応や緊張を表す。",
-      "count": 4,
-      "occurrences": [
-        {
-          "speechId": "act2-speech-0084",
-          "lemma": "pause",
-          "surface": "pause"
-        },
-        {
-          "speechId": "act2-speech-0096",
-          "lemma": "pause",
-          "surface": "pause"
-        },
-        {
-          "speechId": "act2-speech-0104",
-          "lemma": "pause",
-          "surface": "pause"
-        },
-        {
-          "speechId": "act2-speech-0132",
-          "lemma": "pause",
-          "surface": "pause"
-        }
-      ]
-    },
-    {
       "context": "Casewellが過去の「Kathy」としてGeorgieに認識され、二人の共有する幼少期が明らかになる。",
       "count": 3,
       "occurrences": [
@@ -3402,27 +2484,6 @@
           "speechId": "act1-scene1-speech-0138",
           "lemma": "Paddington",
           "surface": "Paddington"
-        }
-      ]
-    },
-    {
-      "context": "相手や客席から顔・体をそむける動作。",
-      "count": 3,
-      "occurrences": [
-        {
-          "speechId": "act2-speech-0076",
-          "lemma": "turn away",
-          "surface": "turns away"
-        },
-        {
-          "speechId": "act2-speech-0162",
-          "lemma": "turn away",
-          "surface": "turns away"
-        },
-        {
-          "speechId": "act2-speech-0204",
-          "lemma": "turn away",
-          "surface": "turns away"
         }
       ]
     }
