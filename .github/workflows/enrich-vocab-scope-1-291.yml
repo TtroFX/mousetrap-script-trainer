@@ -40,8 +40,7 @@ jobs:
             ("const k=key(dk); if (dictCaseKeys.has(k)) duplicateDictionaryKeys++; else dictCaseKeys.add(k);", "const k=runtimeKey(dk); if (dictCaseKeys.has(k)) duplicateDictionaryKeys++; else dictCaseKeys.add(k);"),
             ("if (duplicateDictionaryKeys) errors.push(`duplicate dictionary keys case-insensitive=${duplicateDictionaryKeys}`);", "if (duplicateDictionaryKeys > beforeDuplicateDictionaryKeys) errors.push(`new duplicate dictionary keys case-insensitive=${duplicateDictionaryKeys}/${beforeDuplicateDictionaryKeys}`);"),
             ("const dupKey = `${key(surface)}\\0${key(lemma)}`;", "const dupKey = `${runtimeKey(surface)}\\0${runtimeKey(lemma)}`;"),
-            ("const d = dictByLower.get(key(lemma));", "const d = dictByLower.get(runtimeKey(lemma));"),
-            ("const errors = [];", "const _bitRows = vocabulary['act1-scene2-speech-0034'];\nif (Array.isArray(_bitRows)) {\n  const _ascii = _bitRows.find(x => x.surface === 'Got the bit between their teeth' && x.lemma === \"get the bit between one's teeth\");\n  const _curly = _bitRows.find(x => x.surface === 'Got the bit between their teeth' && x.lemma === 'get the bit between one’s teeth');\n  if (_ascii && _curly) {\n    if (_curly.inThisPlay) _ascii.inThisPlay = _curly.inThisPlay;\n    _ascii.playMeaning = true;\n    _bitRows.splice(_bitRows.indexOf(_curly), 1);\n  }\n}\ndelete dictionary['get the bit between one’s teeth'];\nconst errors = [];")
+            ("const d = dictByLower.get(key(lemma));", "const d = dictByLower.get(runtimeKey(lemma));")
           ]
           for old,new in replacements:
               if old not in s:
@@ -50,6 +49,31 @@ jobs:
           open(p,'w',encoding='utf-8').write(s)
           PY
           node --check /tmp/enrich.mjs
+
+      - name: Canonicalize pre-existing duplicate idiom
+        run: |
+          node --input-type=module <<'EOF'
+          import fs from 'node:fs';
+          const vp='mousetrap_line_vocabulary.json';
+          const dp='mousetrap_word_dictionary.json';
+          const v=JSON.parse(fs.readFileSync(vp,'utf8'));
+          const d=JSON.parse(fs.readFileSync(dp,'utf8'));
+          const id='act1-scene2-speech-0034';
+          const rows=v[id];
+          if(!Array.isArray(rows)) throw new Error('missing speech 0034');
+          const asciiLemma="get the bit between one's teeth";
+          const curlyLemma='get the bit between one’s teeth';
+          const ascii=rows.find(x=>x.surface==='Got the bit between their teeth'&&x.lemma===asciiLemma);
+          const curly=rows.find(x=>x.surface==='Got the bit between their teeth'&&x.lemma===curlyLemma);
+          if(!ascii||!curly) throw new Error('expected duplicate idiom pair not found');
+          if(curly.inThisPlay) ascii.inThisPlay=curly.inThisPlay;
+          ascii.playMeaning=true;
+          ascii.meaning=d[asciiLemma].meaning;
+          v[id]=rows.filter(x=>x!==curly);
+          delete d[curlyLemma];
+          fs.writeFileSync(vp,JSON.stringify(v,null,2)+'\n');
+          fs.writeFileSync(dp,JSON.stringify(d,null,2)+'\n');
+          EOF
 
       - name: Apply scope 1-291 enrichment
         run: node /tmp/enrich.mjs
@@ -69,6 +93,7 @@ jobs:
           const r=JSON.parse(fs.readFileSync(p,'utf8'));
           if(r.status!=='PASS') throw new Error('scope report not PASS');
           r.qa.appCompatibility='PASS';
+          r.changes.preExistingDuplicateIdiomsCanonicalized=1;
           fs.writeFileSync(p,JSON.stringify(r,null,2)+'\n');
           EOF
 
@@ -85,7 +110,7 @@ jobs:
           if(r.qa.stageCueGroupsReviewed!==238||r.qa.stageCueGroupsCovered!==238) throw new Error('stage coverage');
           if(r.qa.outOfScopeMutation!==0||r.qa.missingDictionaryReferences!==0||r.qa.duplicates!==0) throw new Error('integrity gate');
           if(Object.keys(v).length!==1164) throw new Error('speech coverage');
-          if(Object.keys(d).length<1000) throw new Error('dictionary shrank');
+          if(Object.keys(d).length<1000) throw new Error('dictionary unexpectedly small');
           const bitRows=v['act1-scene2-speech-0034'];
           const bitHits=bitRows.filter(x=>x.surface==='Got the bit between their teeth');
           if(bitHits.length!==1||bitHits[0].lemma!=="get the bit between one's teeth") throw new Error('bit-between-teeth canonicalization');
