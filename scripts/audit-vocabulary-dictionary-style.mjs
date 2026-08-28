@@ -39,7 +39,7 @@ for (const [lemma, entry] of Object.entries(dict)) {
 }
 
 const report = {
-  schemaVersion: 1,
+  schemaVersion: 2,
   status: 'AUDIT_COMPLETE',
   policy: {
     target: 'single-token dictionary lemmas',
@@ -53,6 +53,11 @@ const report = {
     multiPosCombinedHeader: singleWordMultiPosCombinedHeader.length,
     multiPosWithoutSeparateHeaders: singleWordMultiPosNoSeparateHeaders.length
   },
+  compact: {
+    singleWordNoHeader: singleWordNoHeader.map(x => x.lemma),
+    multiPosCombinedHeader: singleWordMultiPosCombinedHeader.map(x => x.lemma),
+    multiPosWithoutSeparateHeaders: singleWordMultiPosNoSeparateHeaders.map(x => x.lemma)
+  },
   headerLabelCounts: Object.fromEntries(Object.entries(labelCounts).sort((a,b) => b[1]-a[1] || a[0].localeCompare(b[0]))),
   singleWordNoHeader,
   multiPosCombinedHeader: singleWordMultiPosCombinedHeader,
@@ -60,4 +65,4 @@ const report = {
 };
 
 fs.writeFileSync(REPORT_PATH, JSON.stringify(report, null, 2) + '\n');
-console.log(JSON.stringify(report.counts, null, 2));
+console.log(JSON.stringify({counts: report.counts, compact: report.compact}, null, 2));
