@@ -1,3 +1,31 @@
-.line-page{touch-action:pan-y}
+.line-page{
+  touch-action:pan-y;
+  transform:translate3d(var(--focus-swipe-x,0px),0,0);
+  opacity:var(--focus-swipe-opacity,1);
+}
+.line-page.is-focus-swiping{
+  will-change:transform,opacity;
+  user-select:none;
+  -webkit-user-select:none;
+}
+.line-page.is-focus-settling{
+  will-change:transform,opacity;
+  transition:transform 155ms cubic-bezier(.22,.72,.24,1),opacity 155ms ease-out;
+}
+.line-page.focus-enter-next,.line-page.focus-enter-prev{
+  will-change:transform,opacity;
+  transition:transform 180ms cubic-bezier(.22,.72,.24,1),opacity 180ms ease-out;
+  opacity:.92;
+}
+.line-page.focus-enter-next{transform:translate3d(24px,0,0)}
+.line-page.focus-enter-prev{transform:translate3d(-24px,0,0)}
+.line-page.focus-enter-active{transform:translate3d(0,0,0);opacity:1}
+.sheet-backdrop.is-dismissing{pointer-events:none}
 .line-page>.card.focus-role-line .speaker-title{color:#6d4327}
 .line-page>.card.focus-role-line .line-detail-text{color:#2d241c}
+@media (prefers-reduced-motion:reduce){
+  .line-page,.line-page.is-focus-settling,.line-page.focus-enter-next,.line-page.focus-enter-prev{
+    transition:none!important;
+    animation:none!important;
+  }
+}
