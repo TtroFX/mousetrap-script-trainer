@@ -21,12 +21,15 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Remove unreferenced-definition precreation
+      - name: Normalize apply script
         run: |
           node --input-type=module <<'EOF'
           import fs from 'node:fs';
           const path='scripts/apply-vocabulary-block-292-582.mjs';
           let src=fs.readFileSync(path,'utf8');
+          const beforeDefs=src;
+          src=src.replace(/const defs = decodeParts\(\[[\s\S]*?\]\);/, "const defs = decode('data/vocabulary-rebuild/block-292-582-defs.b64');");
+          if(src===beforeDefs) throw new Error('Expected split-definition loader not found');
           const needle=`for (const [lemma, def] of Object.entries(defs)) {
             if (!def?.meaning) continue;
             ensureDictionary(lemma);
