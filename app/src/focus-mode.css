@@ -48,3 +48,23 @@
 .line-page-surface>.card.focus-role-line .speaker-title{color:#6d4327}
 .line-page>.card.focus-role-line .line-detail-text,
 .line-page-surface>.card.focus-role-line .line-detail-text{color:#2d241c}
+
+/* Keep the viewport-fixed line controller geometrically invariant under press/focus. */
+.floating-nav>button{
+  flex:0 0 48px;
+  width:48px;
+  min-width:48px;
+  max-width:48px;
+  height:48px;
+  min-height:48px;
+  max-height:48px;
+  margin:0;
+  transform:none!important;
+  translate:none!important;
+}
+.floating-nav>button:active,
+.floating-nav>button:focus,
+.floating-nav>button:focus-visible{
+  transform:none!important;
+  translate:none!important;
+}
