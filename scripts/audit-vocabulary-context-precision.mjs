@@ -16,7 +16,7 @@ for (const scene of Object.values(script)) {
 const dictByKey = new Map(Object.entries(dict).map(([lemma, entry]) => [key(lemma), { dictionaryKey: lemma, entry }]));
 const genericProperMeaning = /^(?:【固有名詞】\s*)?(?:人名[。.]?|地名[。.]?|通りの名称(?:として用いられる)?固有名詞[。.]?|固有名詞[。.]?)$/s;
 const playSpecificDictionaryTokens = [
-  '劇中', 'Monkswell', 'Longridge Farm', 'Mrs. Boyle', 'Mollie', 'Giles', 'Christopher Wren',
+  '劇中', '本作', 'Monkswell', 'Longridge Farm', 'Mrs. Boyle', 'Mollie', 'Giles', 'Christopher Wren',
   'Miss Casewell', 'Paravicini', 'Trotter', 'Major Metcalf', 'Maureen Lyon', 'Culver Street殺人',
   '三匹の盲目のねずみ', 'Three Blind Mice'
 ];
@@ -32,10 +32,15 @@ let properNounOccurrences = 0;
 
 for (const [lemma, entry] of Object.entries(dict)) {
   const meaning = norm(entry?.meaning);
-  const hits = playSpecificDictionaryTokens.filter(token => meaning.includes(token));
+  const lemmaKey = key(lemma);
+  const hits = playSpecificDictionaryTokens.filter(token => {
+    if (!meaning.includes(token)) return false;
+    if (token === '劇中' || token === '本作') return true;
+    return !lemmaKey.includes(key(token));
+  });
   if (hits.length) {
     dictionaryPlayContextCandidates.push({ lemma, pos: norm(entry?.pos), meaning, hits });
-    candidateLemmaKeys.add(key(lemma));
+    candidateLemmaKeys.add(lemmaKey);
   }
 }
 
@@ -98,7 +103,7 @@ const candidateOccurrencesByLemma = Object.fromEntries(
 );
 
 const report = {
-  schemaVersion: 2,
+  schemaVersion: 3,
   status: 'AUDIT_COMPLETE',
   policy: {
     inThisPlayOptional: true,
