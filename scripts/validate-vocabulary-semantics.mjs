@@ -3,6 +3,12 @@ import fs from 'node:fs';
 const fail = message => { throw new Error(message); };
 const norm = value => String(value || '').trim();
 const key = value => norm(value).toLowerCase();
+const surfaceKey = value => String(value || '')
+  .normalize('NFKC')
+  .toLowerCase()
+  .replace(/[‘’]/g, "'")
+  .replace(/\s+/g, ' ')
+  .trim();
 
 const dict = JSON.parse(fs.readFileSync('mousetrap_word_dictionary.json', 'utf8'));
 const vocab = JSON.parse(fs.readFileSync('mousetrap_line_vocabulary.json', 'utf8'));
@@ -34,12 +40,27 @@ for (const [lemma, entry] of Object.entries(dict)) {
 
 for (const [speechId, rows] of Object.entries(vocab)) {
   if (!Array.isArray(rows)) fail(`rows ${speechId}`);
+
+  const seenSurfaceLemma = new Set();
+  const lemmasBySurface = new Map();
+
   for (const item of rows) {
     items += 1;
     const lemmaKey = key(item.lemma);
+    const normalizedSurface = surfaceKey(item.surface);
     const entry = map.get(lemmaKey);
+
+    if (!normalizedSurface) fail(`missing surface ${speechId} ${item.lemma}`);
     if (!entry) fail(`missing lemma ${item.lemma}`);
     if (norm(item.meaning) !== norm(entry.meaning)) fail(`meaning mismatch ${speechId} ${item.lemma}`);
+
+    const pairKey = `${normalizedSurface}\u0000${lemmaKey}`;
+    if (seenSurfaceLemma.has(pairKey)) fail(`duplicate surface+lemma ${speechId} ${item.surface}/${item.lemma}`);
+    seenSurfaceLemma.add(pairKey);
+
+    const surfaceLemmas = lemmasBySurface.get(normalizedSurface) || new Set();
+    surfaceLemmas.add(lemmaKey);
+    lemmasBySurface.set(normalizedSurface, surfaceLemmas);
 
     const context = 'inThisPlay' in item ? norm(item.inThisPlay) : '';
     if ('inThisPlay' in item) {
@@ -59,6 +80,12 @@ for (const [speechId, rows] of Object.entries(vocab)) {
     const list = bySpeechLemma.get(lookupKey) || [];
     list.push(item);
     bySpeechLemma.set(lookupKey, list);
+  }
+
+  for (const [normalizedSurface, lemmas] of lemmasBySurface) {
+    if (lemmas.size > 1) {
+      fail(`surface maps to multiple lemmas ${speechId} ${normalizedSurface}: ${[...lemmas].join(', ')}`);
+    }
   }
 }
 
@@ -91,5 +118,7 @@ console.log(JSON.stringify({
   inThisPlay: ctx,
   polysemyItems,
   unclassifiedDictionary: 0,
-  genericInThisPlay: 0
+  genericInThisPlay: 0,
+  surfaceLemmaConflicts: 0,
+  duplicateSurfaceLemmaPairs: 0
 }, null, 2));
