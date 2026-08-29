@@ -30,6 +30,8 @@ jobs:
         run: node scripts/apply-consensus-polysemy-coverage.mjs
       - name: Audit dialogue vocabulary coverage final
         run: node scripts/audit-vocabulary-full-coverage.mjs
+      - name: Cross-check historical B1 plus and Oxford reviews
+        run: node scripts/crosscheck-historical-vocabulary-coverage.mjs
       - name: Validate vocabulary semantics
         run: node scripts/validate-vocabulary-semantics.mjs
       - name: Verify production assembly
@@ -39,10 +41,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add mousetrap_line_vocabulary.json data/canonical-production-contract.json data/canonical-integration-manifest.json data/vocabulary-full-coverage-audit.json data/vocabulary-full-coverage-summary.json data/vocabulary-full-coverage-safe-repair.json data/vocabulary-full-coverage-polysemy-consensus-repair.json
+          git add mousetrap_line_vocabulary.json data/canonical-production-contract.json data/canonical-integration-manifest.json data/vocabulary-full-coverage-audit.json data/vocabulary-full-coverage-summary.json data/vocabulary-full-coverage-safe-repair.json data/vocabulary-full-coverage-polysemy-consensus-repair.json data/vocabulary-full-coverage-historical-crosscheck.json
           if git diff --cached --quiet; then
             echo "No dialogue coverage changes."
             exit 0
           fi
-          git commit -m "Reuse consensus polysemy contexts for dialogue coverage"
+          git commit -m "Cross-check dialogue vocabulary coverage"
           git push origin HEAD:audit/vocabulary-full-coverage
