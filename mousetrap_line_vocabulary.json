@@ -487,6 +487,12 @@
       "lemma": "point",
       "meaning": "【動】指さす、方向を示す。",
       "playMeaning": false
+    },
+    {
+      "surface": "took",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0002": [
@@ -1973,6 +1979,12 @@
       "lemma": "see",
       "meaning": "【動】見る、見える、気づく。",
       "playMeaning": false
+    },
+    {
+      "surface": "took",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0043": [
@@ -3060,6 +3072,12 @@
       "lemma": "downstage",
       "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
       "playMeaning": false
+    },
+    {
+      "surface": "laugh",
+      "lemma": "laugh",
+      "meaning": "【動】笑う。【名】笑い声、笑い。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0068": [
@@ -3454,6 +3472,12 @@
       "lemma": "see to",
       "meaning": "～を処理する／面倒を見る",
       "playMeaning": true
+    },
+    {
+      "surface": "seeing",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0080": [
@@ -4673,6 +4697,12 @@
       "lemma": "take",
       "meaning": "【動】取る、手に取る、持っていく。",
       "playMeaning": false
+    },
+    {
+      "surface": "turn",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0123": [
@@ -4759,6 +4789,12 @@
       "surface": "see",
       "lemma": "see",
       "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
+    },
+    {
+      "surface": "turn",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
       "playMeaning": false
     }
   ],
@@ -6143,6 +6179,12 @@
       "lemma": "hotel keeper",
       "meaning": "ホテル経営者／宿屋の主人",
       "playMeaning": true
+    },
+    {
+      "surface": "weight",
+      "lemma": "weight",
+      "meaning": "【名詞】\n重さ、重量。重要性・負担を表すこともある。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0165": [
@@ -6607,6 +6649,12 @@
       "lemma": "see",
       "meaning": "【動】見る、見える、気づく。",
       "playMeaning": false
+    },
+    {
+      "surface": "saved",
+      "lemma": "save",
+      "meaning": "【動詞】\n命を救われたという大げさな自己演出で、宿を見つけて凍死を免れたという意味。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0178": [],
@@ -6732,6 +6780,12 @@
       "surface": "assure",
       "lemma": "assure",
       "meaning": "【動詞】\n確かだと相手に保証する、安心させる。",
+      "playMeaning": false
+    },
+    {
+      "surface": "wants",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
       "playMeaning": false
     }
   ],
@@ -8018,6 +8072,12 @@
       "lemma": "go back",
       "meaning": "戻る",
       "playMeaning": true
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0043": [
@@ -8341,6 +8401,12 @@
       "surface": "down",
       "lemma": "downstage",
       "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Turn",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
       "playMeaning": false
     }
   ],
@@ -9725,6 +9791,12 @@
       "lemma": "Mrs Boyle",
       "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
       "playMeaning": false
+    },
+    {
+      "surface": "turn",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0111": [],
@@ -10031,6 +10103,12 @@
       "surface": "Take",
       "lemma": "take",
       "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
+    },
+    {
+      "surface": "turn",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
       "playMeaning": false
     }
   ],
@@ -11129,6 +11207,12 @@
       "lemma": "ski",
       "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
       "playMeaning": false
+    },
+    {
+      "surface": "take",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0196": [
@@ -11392,6 +11476,12 @@
       "surface": "will",
       "lemma": "will",
       "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "turn",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
       "playMeaning": false
     }
   ],
@@ -12563,6 +12653,12 @@
       "lemma": "turn one's back on",
       "meaning": "つらい過去の出来事を意識的に拒絶し、振り返らずに生きるという比喩。",
       "playMeaning": true
+    },
+    {
+      "surface": "Turn",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0290": [
@@ -13208,6 +13304,12 @@
       "lemma": "turn out",
       "meaning": "結局～だと分かる／結果として～になる",
       "playMeaning": true
+    },
+    {
+      "surface": "turn",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0336": [],
@@ -13792,6 +13894,12 @@
       "lemma": "close",
       "meaning": "【副詞】\n近くに、すぐそばに。",
       "playMeaning": false
+    },
+    {
+      "surface": "looked",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0026": [
@@ -13821,6 +13929,12 @@
       "lemma": "take one's time",
       "meaning": "急がず時間をかける。文脈によっては必要以上に時間をかけることを含意する。",
       "playMeaning": true
+    },
+    {
+      "surface": "took",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0029": [],
@@ -14541,6 +14655,12 @@
       "surface": "saw",
       "lemma": "see",
       "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
+    },
+    {
+      "surface": "looked",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
       "playMeaning": false
     }
   ],
@@ -15736,6 +15856,12 @@
       "lemma": "childish",
       "meaning": "【形】子どもっぽい、幼稚な。",
       "playMeaning": false
+    },
+    {
+      "surface": "points",
+      "lemma": "point",
+      "meaning": "【動】指さす、方向を示す。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0118": [
@@ -15755,6 +15881,12 @@
       "surface": "to Christopher",
       "lemma": "address cue",
       "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": false
+    },
+    {
+      "surface": "point",
+      "lemma": "point",
+      "meaning": "【動】指さす、方向を示す。",
       "playMeaning": false
     }
   ],
@@ -15800,6 +15932,12 @@
       "lemma": "take away from",
       "meaning": "～から連れ去る／取り上げる",
       "playMeaning": true
+    },
+    {
+      "surface": "taken",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0122": [],
@@ -15854,6 +15992,12 @@
       "lemma": "take every eventuality into account",
       "meaning": "あらゆる可能性を考慮に入れる",
       "playMeaning": true
+    },
+    {
+      "surface": "take",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0126": [
@@ -16728,6 +16872,12 @@
       "lemma": "place",
       "meaning": "【動】置く、配置する。【名】場所。",
       "playMeaning": false
+    },
+    {
+      "surface": "took",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0169": [],
@@ -17369,6 +17519,12 @@
       "lemma": "take",
       "meaning": "【動】取る、手に取る、持っていく。",
       "playMeaning": false
+    },
+    {
+      "surface": "looked",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0207": [
@@ -17418,6 +17574,18 @@
       "surface": "just",
       "lemma": "just",
       "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
+      "playMeaning": false
+    },
+    {
+      "surface": "usual",
+      "lemma": "usual",
+      "meaning": "【形容詞】\nいつもの、通常の。",
+      "playMeaning": false
+    },
+    {
+      "surface": "looked",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
       "playMeaning": false
     }
   ],
@@ -19568,6 +19736,12 @@
       "lemma": "certainly",
       "meaning": "【副詞】\n確かに、間違いなく。返答で『もちろん』。",
       "playMeaning": false
+    },
+    {
+      "surface": "seen",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0326": [],
@@ -20924,6 +21098,12 @@
       "surface": "prove",
       "lemma": "prove",
       "meaning": "【動】\n証明する、事実であると示す。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Take",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
       "playMeaning": false
     }
   ],
@@ -22397,6 +22577,12 @@
       "lemma": "as though",
       "meaning": "まるで～のように",
       "playMeaning": false
+    },
+    {
+      "surface": "seen",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0498": [
@@ -23422,6 +23608,18 @@
       "lemma": "see the point",
       "meaning": "発言・行為などの目的、意味、理由を理解する。",
       "playMeaning": true
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
+    },
+    {
+      "surface": "point",
+      "lemma": "point",
+      "meaning": "【動】指さす、方向を示す。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0558": [
@@ -24325,6 +24523,12 @@
       "lemma": "take",
       "meaning": "【動】取る、手に取る、持っていく。",
       "playMeaning": false
+    },
+    {
+      "surface": "usual",
+      "lemma": "usual",
+      "meaning": "【形容詞】\nいつもの、通常の。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0594": [
@@ -24721,6 +24925,12 @@
       "surface": "saw",
       "lemma": "see",
       "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
+    },
+    {
+      "surface": "take",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
       "playMeaning": false
     }
   ],

@@ -13,18 +13,17 @@
   },
   "counts": {
     "canonicalSpeeches": 1164,
-    "vocabularyItems": 3706,
+    "vocabularyItems": 3741,
     "dictionaryEntries": 1375,
     "tokenCount": 15934,
     "functionTokenCount": 10024,
     "knownNameTokenCount": 266,
     "properDeferredCount": 272,
-    "reviewCandidates": 3051,
+    "reviewCandidates": 3016,
     "unknownTokenTypes": 801,
     "polysemyLemmaTypes": 16,
     "properNounDeferredTypes": 50,
     "byKind": {
-      "ADD_EXISTING_SURFACE": 35,
       "DEFER_PROPER_NOUN_PHASE3": 243,
       "REVIEW_NEW_LEXEME_OR_EXCLUSION": 2660,
       "REVIEW_POLYSEMY_EXACT_DICTIONARY": 14,
@@ -1310,15 +1309,6 @@
     {
       "speechId": "act1-scene1-speech-0001",
       "speaker": "VOICE ON THE RADIO",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "took",
-      "lemma": "take",
-      "meaning": "【動】取る、手に取る、持っていく。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
-    },
-    {
-      "speechId": "act1-scene1-speech-0001",
-      "speaker": "VOICE ON THE RADIO",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "woman",
       "lemma": "",
@@ -2422,15 +2412,6 @@
     {
       "speechId": "act1-scene1-speech-0042",
       "speaker": "VOICE ON THE RADIO",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "took",
-      "lemma": "take",
-      "meaning": "【動】取る、手に取る、持っていく。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
-    },
-    {
-      "speechId": "act1-scene1-speech-0042",
-      "speaker": "VOICE ON THE RADIO",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "woman",
       "lemma": "",
@@ -3321,15 +3302,6 @@
     {
       "speechId": "act1-scene1-speech-0067",
       "speaker": "CHRISTOPHER",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "laugh",
-      "lemma": "laugh",
-      "meaning": "【動】笑う。【名】笑い声、笑い。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
-    },
-    {
-      "speechId": "act1-scene1-speech-0067",
-      "speaker": "CHRISTOPHER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "parents",
       "lemma": "",
@@ -3584,15 +3556,6 @@
       "surface": "weather",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene1-speech-0079",
-      "speaker": "MRS. BOYLE",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "seeing",
-      "lemma": "see",
-      "meaning": "【動】見る、見える、気づく。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
     },
     {
       "speechId": "act1-scene1-speech-0080",
@@ -4564,15 +4527,6 @@
     {
       "speechId": "act1-scene1-speech-0122",
       "speaker": "MRS. BOYLE",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "turn",
-      "lemma": "turn",
-      "meaning": "【動】向きを変える、振り向く。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
-    },
-    {
-      "speechId": "act1-scene1-speech-0122",
-      "speaker": "MRS. BOYLE",
       "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
       "surface": "up",
       "lemma": "upstage",
@@ -4650,15 +4604,6 @@
       "surface": "wonderful",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene1-speech-0124",
-      "speaker": "CHRISTOPHER",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "turn",
-      "lemma": "turn",
-      "meaning": "【動】向きを変える、振り向く。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
     },
     {
       "speechId": "act1-scene1-speech-0124",
@@ -5698,15 +5643,6 @@
     {
       "speechId": "act1-scene1-speech-0164",
       "speaker": "GILES",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "weight",
-      "lemma": "weight",
-      "meaning": "【名詞】\n重さ、重量。重要性・負担を表すこともある。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
-    },
-    {
-      "speechId": "act1-scene1-speech-0164",
-      "speaker": "GILES",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "inside",
       "lemma": "",
@@ -5864,15 +5800,6 @@
       "lemma": "upstage",
       "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
       "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act1-scene1-speech-0177",
-      "speaker": "PARAVICINI",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "saved",
-      "lemma": "save",
-      "meaning": "【動詞】\n命を救われたという大げさな自己演出で、宿を見つけて凍死を免れたという意味。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
     },
     {
       "speechId": "act1-scene1-speech-0177",
@@ -6129,15 +6056,6 @@
       "surface": "get",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene1-speech-0186",
-      "speaker": "PARAVICINI",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "wants",
-      "lemma": "want",
-      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
     },
     {
       "speechId": "act1-scene1-speech-0186",
@@ -7220,15 +7138,6 @@
     {
       "speechId": "act1-scene2-speech-0042",
       "speaker": "MISS CASEWELL",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "see",
-      "lemma": "see",
-      "meaning": "【動】見る、見える、気づく。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
-    },
-    {
-      "speechId": "act1-scene2-speech-0042",
-      "speaker": "MISS CASEWELL",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "Depends",
       "lemma": "",
@@ -7425,15 +7334,6 @@
       "surface": "seems",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene2-speech-0056",
-      "speaker": "MISS CASEWELL",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "Turn",
-      "lemma": "turn",
-      "meaning": "【動】向きを変える、振り向く。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
     },
     {
       "speechId": "act1-scene2-speech-0056",
@@ -8645,15 +8545,6 @@
     {
       "speechId": "act1-scene2-speech-0110",
       "speaker": "MOLLIE",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "turn",
-      "lemma": "turn",
-      "meaning": "【動】向きを変える、振り向く。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
-    },
-    {
-      "speechId": "act1-scene2-speech-0110",
-      "speaker": "MOLLIE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "know",
       "lemma": "",
@@ -9042,15 +8933,6 @@
       "surface": "came",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene2-speech-0130",
-      "speaker": "PARAVICINI",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "turn",
-      "lemma": "turn",
-      "meaning": "【動】向きを変える、振り向く。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
     },
     {
       "speechId": "act1-scene2-speech-0130",
@@ -10396,15 +10278,6 @@
     {
       "speechId": "act1-scene2-speech-0195",
       "speaker": "TROTTER",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "take",
-      "lemma": "take",
-      "meaning": "【動】取る、手に取る、持っていく。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
-    },
-    {
-      "speechId": "act1-scene2-speech-0195",
-      "speaker": "TROTTER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "think",
       "lemma": "",
@@ -10841,15 +10714,6 @@
       "surface": "Stanning",
       "lemma": "",
       "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
-    },
-    {
-      "speechId": "act1-scene2-speech-0214",
-      "speaker": "MOLLIE",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "turn",
-      "lemma": "turn",
-      "meaning": "【動】向きを変える、振り向く。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
     },
     {
       "speechId": "act1-scene2-speech-0214",
@@ -12251,15 +12115,6 @@
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
     },
     {
-      "speechId": "act1-scene2-speech-0289",
-      "speaker": "MISS CASEWELL",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "Turn",
-      "lemma": "turn",
-      "meaning": "【動】向きを変える、振り向く。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
-    },
-    {
       "speechId": "act1-scene2-speech-0290",
       "speaker": "MOLLIE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
@@ -13301,15 +13156,6 @@
     {
       "speechId": "act1-scene2-speech-0335",
       "speaker": "MRS. BOYLE",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "turn",
-      "lemma": "turn",
-      "meaning": "【動】向きを変える、振り向く。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
-    },
-    {
-      "speechId": "act1-scene2-speech-0335",
-      "speaker": "MRS. BOYLE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "find",
       "lemma": "",
@@ -14121,15 +13967,6 @@
     {
       "speechId": "act2-speech-0025",
       "speaker": "GILES",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "looked",
-      "lemma": "look",
-      "meaning": "【動】見る、目を向ける。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
-    },
-    {
-      "speechId": "act2-speech-0025",
-      "speaker": "GILES",
       "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
       "surface": "up",
       "lemma": "upstage",
@@ -14231,15 +14068,6 @@
       "surface": "think",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0028",
-      "speaker": "TROTTER",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "took",
-      "lemma": "take",
-      "meaning": "【動】取る、手に取る、持っていく。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
     },
     {
       "speechId": "act2-speech-0028",
@@ -15166,15 +14994,6 @@
       "surface": "say",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0080",
-      "speaker": "MAJOR METCALF",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "looked",
-      "lemma": "look",
-      "meaning": "【動】見る、目を向ける。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
     },
     {
       "speechId": "act2-speech-0080",
@@ -16213,15 +16032,6 @@
     {
       "speechId": "act2-speech-0117",
       "speaker": "TROTTER",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "points",
-      "lemma": "point",
-      "meaning": "【動】指さす、方向を示す。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
-    },
-    {
-      "speechId": "act2-speech-0117",
-      "speaker": "TROTTER",
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Army",
       "lemma": "",
@@ -16234,15 +16044,6 @@
       "surface": "report",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0118",
-      "speaker": "MOLLIE",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "point",
-      "lemma": "point",
-      "meaning": "【動】指さす、方向を示す。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
     },
     {
       "speechId": "act2-speech-0118",
@@ -16283,15 +16084,6 @@
       "surface": "children",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0121",
-      "speaker": "TROTTER",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "taken",
-      "lemma": "take",
-      "meaning": "【動】取る、手に取る、持っていく。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
     },
     {
       "speechId": "act2-speech-0121",
@@ -16356,15 +16148,6 @@
       "surface": "know",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0125",
-      "speaker": "TROTTER",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "take",
-      "lemma": "take",
-      "meaning": "【動】取る、手に取る、持っていく。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
     },
     {
       "speechId": "act2-speech-0125",
@@ -17587,15 +17370,6 @@
     {
       "speechId": "act2-speech-0168",
       "speaker": "MOLLIE",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "took",
-      "lemma": "take",
-      "meaning": "【動】取る、手に取る、持っていく。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
-    },
-    {
-      "speechId": "act2-speech-0168",
-      "speaker": "MOLLIE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "true",
       "lemma": "",
@@ -18213,37 +17987,10 @@
     {
       "speechId": "act2-speech-0206",
       "speaker": "CHRISTOPHER",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "looked",
-      "lemma": "look",
-      "meaning": "【動】見る、目を向ける。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
-    },
-    {
-      "speechId": "act2-speech-0206",
-      "speaker": "CHRISTOPHER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "died",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0207",
-      "speaker": "MOLLIE",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "usual",
-      "lemma": "usual",
-      "meaning": "【形容詞】\nいつもの、通常の。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
-    },
-    {
-      "speechId": "act2-speech-0207",
-      "speaker": "MOLLIE",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "looked",
-      "lemma": "look",
-      "meaning": "【動】見る、目を向ける。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
     },
     {
       "speechId": "act2-speech-0207",
@@ -20219,15 +19966,6 @@
     {
       "speechId": "act2-speech-0325",
       "speaker": "PARAVICINI",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "seen",
-      "lemma": "see",
-      "meaning": "【動】見る、見える、気づく。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
-    },
-    {
-      "speechId": "act2-speech-0325",
-      "speaker": "PARAVICINI",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "dear",
       "lemma": "",
@@ -21177,15 +20915,6 @@
       "surface": "think",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0377",
-      "speaker": "PARAVICINI",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "Take",
-      "lemma": "take",
-      "meaning": "【動】取る、手に取る、持っていく。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
     },
     {
       "speechId": "act2-speech-0377",
@@ -22827,15 +22556,6 @@
     {
       "speechId": "act2-speech-0497",
       "speaker": "CHRISTOPHER",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "seen",
-      "lemma": "see",
-      "meaning": "【動】見る、見える、気づく。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
-    },
-    {
-      "speechId": "act2-speech-0497",
-      "speaker": "CHRISTOPHER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "Dear",
       "lemma": "",
@@ -23868,24 +23588,6 @@
       "surface": "Ralston",
       "lemma": "",
       "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
-    },
-    {
-      "speechId": "act2-speech-0557",
-      "speaker": "GILES",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "see",
-      "lemma": "see",
-      "meaning": "【動】見る、見える、気づく。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
-    },
-    {
-      "speechId": "act2-speech-0557",
-      "speaker": "GILES",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "point",
-      "lemma": "point",
-      "meaning": "【動】指さす、方向を示す。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
     },
     {
       "speechId": "act2-speech-0558",
@@ -25019,15 +24721,6 @@
     {
       "speechId": "act2-speech-0593",
       "speaker": "TROTTER",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "usual",
-      "lemma": "usual",
-      "meaning": "【形容詞】\nいつもの、通常の。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
-    },
-    {
-      "speechId": "act2-speech-0593",
-      "speaker": "TROTTER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "better",
       "lemma": "",
@@ -25395,15 +25088,6 @@
       "surface": "Ralston",
       "lemma": "",
       "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
-    },
-    {
-      "speechId": "act2-speech-0616",
-      "speaker": "MAJOR METCALF",
-      "kind": "ADD_EXISTING_SURFACE",
-      "surface": "take",
-      "lemma": "take",
-      "meaning": "【動】取る、手に取る、持っていく。",
-      "reason": "Known validated surface/lemma occurs in another speech and can be associated here with the same neutral dictionary entry."
     },
     {
       "speechId": "act2-speech-0616",
