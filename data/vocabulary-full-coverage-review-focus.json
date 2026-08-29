@@ -1,0 +1,2096 @@
+{
+  "schemaVersion": 1,
+  "status": "REVIEW_FOCUS_BUILT",
+  "counts": {
+    "polysemyOccurrences": 27,
+    "polysemyLemmas": 9,
+    "unknownTokenTypes": 801,
+    "suspiciousTokenTypes": 119
+  },
+  "polysemy": [
+    {
+      "speechId": "act1-scene1-speech-0100",
+      "speaker": "GILES",
+      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
+      "surface": "Rose",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
+      "text": "I'll take these up. Which rooms did you say? Blue Room and the Rose Room."
+    },
+    {
+      "speechId": "act1-scene1-speech-0101",
+      "speaker": "MOLLIE",
+      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
+      "surface": "Rose",
+      "lemma": "rise",
+      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
+      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
+      "text": "No ― I put Mr. Wren in the Rose Room. He liked the fourposter so much. So it's Mrs. Boyle in the Oak Room and Major Metcalf in the Blue Room."
+    },
+    {
+      "speechId": "act1-scene1-speech-0109",
+      "speaker": "MOLLIE",
+      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
+      "surface": "starting",
+      "lemma": "start",
+      "meaning": "【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。",
+      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
+      "text": "We're only just starting."
+    },
+    {
+      "speechId": "act1-scene1-speech-0110",
+      "speaker": "MRS. BOYLE",
+      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
+      "surface": "consider",
+      "lemma": "consider",
+      "meaning": "【動詞】\n① よく考える、検討する\n② ～とみなす",
+      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
+      "text": "I would have said that a proper staff of servants was essential before opening this kind of establishment. I consider your advertisement was most misleading. May I ask if I am the only guest ― with Major Metcalf, that is?"
+    },
+    {
+      "speechId": "act1-scene1-speech-0156",
+      "speaker": "CHRISTOPHER",
+      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
+      "surface": "Show",
+      "lemma": "show",
+      "meaning": "【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。",
+      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
+      "text": "And if you've got a bottle of cheap, any-type wine, you could add it to the ―\"minced beef and cereals,\" did you say? Give it a continental flavour. Show me where the kitchen is and what you've got, and I daresay I shall have an inspiration."
+    },
+    {
+      "speechId": "act1-scene1-speech-0187",
+      "speaker": "MOLLIE",
+      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
+      "surface": "faces",
+      "lemma": "face",
+      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
+      "text": "You'd better get thoroughly warm. I'll see about your room. I'm afraid it's rather a cold room because it faces north, but all the others are occupied."
+    },
+    {
+      "speechId": "act1-scene2-speech-0001",
+      "speaker": "MRS. BOYLE",
+      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
+      "surface": "consider",
+      "lemma": "consider",
+      "meaning": "【動詞】\n① よく考える、検討する\n② ～とみなす",
+      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
+      "text": "I consider it most dishonest not to have told me they were only just starting this place."
+    },
+    {
+      "speechId": "act1-scene2-speech-0001",
+      "speaker": "MRS. BOYLE",
+      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
+      "surface": "starting",
+      "lemma": "start",
+      "meaning": "【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。",
+      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
+      "text": "I consider it most dishonest not to have told me they were only just starting this place."
+    },
+    {
+      "speechId": "act1-scene2-speech-0085",
+      "speaker": "MOLLIE",
+      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
+      "surface": "follow",
+      "lemma": "follow",
+      "meaning": "【動詞】\n① ～の後について行く、追う\n② ～に続く\n③ ～を理解する",
+      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
+      "text": "That's what I asked. But he wouldn't say. Just said I was to impress on my husband to listen very carefully to what Sergeant Trotter, I think it was, had to say, and to follow his instructions implicitly. Isn't it extraordinary?"
+    },
+    {
+      "speechId": "act1-scene2-speech-0093",
+      "speaker": "MOLLIE",
+      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
+      "surface": "started",
+      "lemma": "start",
+      "meaning": "【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。",
+      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
+      "text": "Oh dear, I wish we'd never started this place. We're going to be snowed up for days, and everyone is cross, and we shall go through all our reserve of tins."
+    },
+    {
+      "speechId": "act1-scene2-speech-0226",
+      "speaker": "TROTTER",
+      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
+      "surface": "following",
+      "lemma": "follow",
+      "meaning": "【動詞】\n① ～の後について行く、追う\n② ～に続く\n③ ～を理解する",
+      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
+      "text": "I see. What I'm getting at is that anyone who's been following you around might know very well that you were coming here. Now, there's just one thing I want to know, and I want to know it quick. Which one of you is it that has some connection with that business at Longridge Farm? You're not being very sensible, you know. One of you is in danger ― deadly danger. I've got to know which one that is. All right, I'll ask you one by one. You, first, since you seem to have arrived here more or less by accident, Mr. Pari ―?"
+    },
+    {
+      "speechId": "act1-scene2-speech-0229",
+      "speaker": "MRS. BOYLE",
+      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
+      "surface": "consider",
+      "lemma": "consider",
+      "meaning": "【動詞】\n① よく考える、検討する\n② ～とみなす",
+      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
+      "text": "Boyle. I don't see ― really I consider it an impertinence...Why on earth should I have anything to do with such ― this distressing business?"
+    },
+    {
+      "speechId": "act1-scene2-speech-0233",
+      "speaker": "MAJOR METCALF",
+      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
+      "surface": "stationed",
+      "lemma": "station",
+      "meaning": "【名詞】\n① 駅\n② 配置場所、持ち場\n③ 放送局・施設。\n【動詞】\n人を配置する。",
+      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
+      "text": "Metcalf ― Major. Read about the case in the papers at the time. I was stationed at Edinburgh then. No personal knowledge."
+    },
+    {
+      "speechId": "act1-scene2-speech-0244",
+      "speaker": "CHRISTOPHER",
+      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
+      "surface": "faces",
+      "lemma": "face",
+      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
+      "text": "Oh, but it is! That's just what it is. A madman's joke. That's just what makes it so deliciously macabre. If you could just see your faces!"
+    },
+    {
+      "speechId": "act1-scene2-speech-0324",
+      "speaker": "TROTTER",
+      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
+      "surface": "face",
+      "lemma": "face",
+      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
+      "text": "Medium height, indeterminate build, darkish overcoat, soft felt hat, face hidden by a muffler. Spoke in a whisper. There are three darkish overcoats hanging up in the hall now. One of them is yours, Mr. Ralston...There are three lightish felt hats..."
+    },
+    {
+      "speechId": "act2-speech-0052",
+      "speaker": "PARAVICINI",
+      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
+      "surface": "haunting",
+      "lemma": "haunt",
+      "meaning": "【動詞】\n記憶・不安などが長く心につきまとい、苦しめる；場所に幽霊が出る。",
+      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
+      "text": "Yes. It is a very catchy little tune. It is ― how shall I say?― a haunting little tune? Don't you all agree?"
+    },
+    {
+      "speechId": "act2-speech-0132",
+      "speaker": "MOLLIE",
+      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
+      "surface": "face",
+      "lemma": "face",
+      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
+      "text": "So the murderer may be middle-aged, or even old. When I said the police had rung up, Major Metcalf was frightfully upset. He really was. I saw his face."
+    },
+    {
+      "speechId": "act2-speech-0134",
+      "speaker": "MOLLIE",
+      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
+      "surface": "show",
+      "lemma": "show",
+      "meaning": "【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。",
+      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
+      "text": "Middle-aged. A soldier. He seems quite nice and perfectly normal ― but it mightn't show, might it?"
+    },
+    {
+      "speechId": "act2-speech-0135",
+      "speaker": "TROTTER",
+      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
+      "surface": "show",
+      "lemma": "show",
+      "meaning": "【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。",
+      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
+      "text": "No, often it doesn't show at all."
+    },
+    {
+      "speechId": "act2-speech-0140",
+      "speaker": "MOLLIE",
+      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
+      "surface": "face",
+      "lemma": "face",
+      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
+      "text": "I know he seems quite old ― and foreign and everything, but he mightn't really be as old as he looks. He moves like a much younger man, and he's definitely got makeup on his face. Miss Casewell noticed it, too. He might be ― oh, I know it sounds very melodramatic ― but he might be disguised."
+    },
+    {
+      "speechId": "act2-speech-0243",
+      "speaker": "MOLLIE",
+      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
+      "surface": "faces",
+      "lemma": "face",
+      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
+      "text": "I don't know what the Sergeant thinks. And he can make you think things about people. You ask yourself questions and you begin to doubt. You feel that somebody you love and know well might be ― a stranger. That's what happens in a nightmare. You're somewhere in the middle of friends and then you suddenly look at their faces and they're not your friends any longer ― they're different people ― just pretending. Perhaps you can't trust anybody ― perhaps everybody's a stranger."
+    },
+    {
+      "speechId": "act2-speech-0318",
+      "speaker": "PARAVICINI",
+      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
+      "surface": "moved",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
+      "text": "He wants to know if you have by any chance moved them, Mr. Ralston."
+    },
+    {
+      "speechId": "act2-speech-0381",
+      "speaker": "MOLLIE",
+      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
+      "surface": "face",
+      "lemma": "face",
+      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
+      "text": "It's silly of me. But you see ― I found her. Her face was all purple. I can't forget it..."
+    },
+    {
+      "speechId": "act2-speech-0517",
+      "speaker": "TROTTER",
+      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
+      "surface": "follows",
+      "lemma": "follow",
+      "meaning": "【動詞】\n① ～の後について行く、追う\n② ～に続く\n③ ～を理解する",
+      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
+      "text": "Sit down, Miss Casewell, Mrs. Ralston... Will you all pay attention, please? You may remember that after the murder of Mrs. Boyle, I took statements from you all. Those statements related to your positions at the time the murder was committed. These statements were as follows: Mrs. Ralston in the kitchen, Mr. Paravicini playing the piano in the drawing room, Mr. Ralston in his bedroom. Mr. Wren ditto. Miss Casewell in the library. Major Metcalf in the cellar."
+    },
+    {
+      "speechId": "act2-speech-0558",
+      "speaker": "TROTTER",
+      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
+      "surface": "show",
+      "lemma": "show",
+      "meaning": "【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。",
+      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
+      "text": "There is a point. It is a means of checking up on the original statements, and maybe one statement in particular. Now then, will you all pay attention, please. I will assign each of you your new stations. Mr. Wren, will you kindly go to the kitchen. Just keep an eye on Mrs. Ralston's dinner for her. You're very fond of cooking, I believe. Mr. Paravicini, will you go up to Mr. Wren's room. By the back stairs is the most convenient way. Major Metcalf, will you go up to Mr. Ralston's room and examine the telephone there. Miss Casewell, would you mind going down to the cellars? Mr. Wren will show you the way. Unfortunately, I need someone to reproduce my own actions. I am sorry to ask it of you, Mr. Ralston, but would you go out by that window and follow the telephone wire round to near the front door. Rather a chilly job ― but you're probably the toughest person here."
+    },
+    {
+      "speechId": "act2-speech-0558",
+      "speaker": "TROTTER",
+      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
+      "surface": "follow",
+      "lemma": "follow",
+      "meaning": "【動詞】\n① ～の後について行く、追う\n② ～に続く\n③ ～を理解する",
+      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
+      "text": "There is a point. It is a means of checking up on the original statements, and maybe one statement in particular. Now then, will you all pay attention, please. I will assign each of you your new stations. Mr. Wren, will you kindly go to the kitchen. Just keep an eye on Mrs. Ralston's dinner for her. You're very fond of cooking, I believe. Mr. Paravicini, will you go up to Mr. Wren's room. By the back stairs is the most convenient way. Major Metcalf, will you go up to Mr. Ralston's room and examine the telephone there. Miss Casewell, would you mind going down to the cellars? Mr. Wren will show you the way. Unfortunately, I need someone to reproduce my own actions. I am sorry to ask it of you, Mr. Ralston, but would you go out by that window and follow the telephone wire round to near the front door. Rather a chilly job ― but you're probably the toughest person here."
+    },
+    {
+      "speechId": "act2-speech-0618",
+      "speaker": "MAJOR METCALF",
+      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
+      "surface": "started",
+      "lemma": "start",
+      "meaning": "【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。",
+      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
+      "text": "Yes, it seems she recognized him just before this last business. Didn't know what to do, but fortunately came to me about it, just in time. Well, it's started to thaw, help should be here pretty soon. Oh, by the way, Mrs. Ralston, I'll remove those skis. I hid them on top of the fourposter."
+    }
+  ],
+  "suspiciousUnknowns": [
+    {
+      "token": "inconveniently",
+      "count": 1,
+      "length": 14,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act2-speech-0391",
+          "speaker": "PARAVICINI",
+          "text": "Inconveniently, you mean, don't you, Sergeant?"
+        }
+      ]
+    },
+    {
+      "token": "unfortunately",
+      "count": 1,
+      "length": 13,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act2-speech-0558",
+          "speaker": "TROTTER",
+          "text": "There is a point. It is a means of checking up on the original statements, and maybe one statement in particular. Now then, will you all pay attention, please. I will assign each of you your new stations. Mr. Wren, will you kindly go to the kitchen. Just keep an eye on Mrs. Ralston's dinner for her. You're very fond of cooking, I believe. Mr. Paravicini, will you go up to Mr. Wren's room. By the back stairs is the most convenient way. Major Metcalf, will you go up to Mr. Ralston's room and examine the telephone there. Miss Casewell, would you mind going down to the cellars? Mr. Wren will show you the way. Unfortunately, I need someone to reproduce my own actions. I am sorry to ask it of you, Mr. Ralston, but would you go out by that window and follow the telephone wire round to near the front door. Rather a chilly job ― but you're probably the toughest person here."
+        }
+      ]
+    },
+    {
+      "token": "inconvenient",
+      "count": 1,
+      "length": 12,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act2-speech-0506",
+          "speaker": "MOLLIE",
+          "text": "Must I come now? It's very inconvenient."
+        }
+      ]
+    },
+    {
+      "token": "deliciously",
+      "count": 1,
+      "length": 11,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0244",
+          "speaker": "CHRISTOPHER",
+          "text": "Oh, but it is! That's just what it is. A madman's joke. That's just what makes it so deliciously macabre. If you could just see your faces!"
+        }
+      ]
+    },
+    {
+      "token": "fortunately",
+      "count": 1,
+      "length": 11,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act2-speech-0618",
+          "speaker": "MAJOR METCALF",
+          "text": "Yes, it seems she recognized him just before this last business. Didn't know what to do, but fortunately came to me about it, just in time. Well, it's started to thaw, help should be here pretty soon. Oh, by the way, Mrs. Ralston, I'll remove those skis. I hid them on top of the fourposter."
+        }
+      ]
+    },
+    {
+      "token": "immediately",
+      "count": 1,
+      "length": 11,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0177",
+          "speaker": "PARAVICINI",
+          "text": "But what stupendous good fortune! Madame! What an answer to prayer. A guest house ― and a charming hostess. My Rolls-Royce, alas, has run into a snowdrift. Blinding snow everywhere. I do not know where I am. Perhaps, I think to myself, I shall freeze to death. And then I take a little bag, I stagger through the snow, I see before me big iron gates. A habitation! I am saved. Twice I fall into the snow as I come up your drive, but at last I arrive and immediately ― despair turns to joy. you can let me have a room ― yes?"
+        }
+      ]
+    },
+    {
+      "token": "possibility",
+      "count": 1,
+      "length": 11,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act2-speech-0127",
+          "speaker": "TROTTER",
+          "text": "Well, it's a possibility."
+        }
+      ]
+    },
+    {
+      "token": "suggestions",
+      "count": 1,
+      "length": 11,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act2-speech-0137",
+          "speaker": "TROTTER",
+          "text": "Any other suggestions?"
+        }
+      ]
+    },
+    {
+      "token": "unfortunate",
+      "count": 1,
+      "length": 11,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0112",
+          "speaker": "MRS. BOYLE",
+          "text": "This weather, too. A blizzard ― no less ― all very unfortunate."
+        }
+      ]
+    },
+    {
+      "token": "unhappiness",
+      "count": 1,
+      "length": 11,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act2-speech-0484",
+          "speaker": "TROTTER",
+          "text": "Unhappiness ― despair..."
+        }
+      ]
+    },
+    {
+      "token": "arrivederl",
+      "count": 1,
+      "length": 10,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act2-speech-0375",
+          "speaker": "PARAVICINI",
+          "text": "Your husband is afraid for you. Quite natural under the circumstances. He doesn't fancy your being alone with me. It is my sadistic tendencies he fears ― not my dishonourable ones. Alas, what an inconvenience the husband always is. Arrivederlà..."
+        }
+      ]
+    },
+    {
+      "token": "beforehand",
+      "count": 1,
+      "length": 10,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0317",
+          "speaker": "GILES",
+          "text": "But except for Mr. Paravicini, they'd all booked beforehand."
+        }
+      ]
+    },
+    {
+      "token": "completely",
+      "count": 1,
+      "length": 10,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0077",
+          "speaker": "MOLLIE",
+          "text": "Yes? Yes ― this is Monkswell Manor Guest House...What?...No, I'm afraid Mr. Ralston can't come to the telephone just now. This is Mrs. Ralston speaking. Who...? The Berkshire Police...? Oh yes, yes, Superintendent Hogben, I'm afraid that's impossible. He'd never get here. We're snowed up. Completely snowed up. The roads are impassable... Nothing can get through...Yes...Very well...But what... Hullo-hullo..."
+        }
+      ]
+    },
+    {
+      "token": "delightful",
+      "count": 1,
+      "length": 10,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0044",
+          "speaker": "CHRISTOPHER",
+          "text": "Thanks so much. Weather is simply awful. My taxi gave up at your gate. Wouldn't attempt the drive. No sporting instinct. Are you Mrs. Ralston? How delightful! My name's Wren."
+        }
+      ]
+    },
+    {
+      "token": "directions",
+      "count": 1,
+      "length": 10,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act2-speech-0024",
+          "speaker": "TROTTER",
+          "text": "Yes. As you say, people came ― a lot of people from different directions ― all arriving more or less at once. Now then, when I got out of that window to trace the telephone wire, you, Mr. Ralston, went upstairs to the room you and Mrs. Ralston occupy, to try the extension telephone. Where were you when Mrs. Ralston screamed?"
+        }
+      ]
+    },
+    {
+      "token": "disgusting",
+      "count": 1,
+      "length": 10,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0263",
+          "speaker": "MISS CASEWELL",
+          "text": "Looks a bit of a spiv to me. Makes his face up, too. Rouge and powder. Disgusting. He must be quite old, too."
+        }
+      ]
+    },
+    {
+      "token": "enchanting",
+      "count": 1,
+      "length": 10,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0128",
+          "speaker": "PARAVICINI",
+          "text": "You are without doubt an enchanting cook. May I give you a little word of warning, Mrs. Ralston? You and your husband must not be too trusting, you know. Have you references with these guests of yours?"
+        }
+      ]
+    },
+    {
+      "token": "especially",
+      "count": 1,
+      "length": 10,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act2-speech-0165",
+          "speaker": "TROTTER",
+          "text": "You'd be surprised, Mrs. Ralston, if you knew how many cases rather like yours we get. Especially since the war. Homes broken up and families dead. Fellow says he's been in the Air Force, or just finished his Army training. Parents killed ― no relations. There aren't any backgrounds nowadays and young people settle their own affairs ― they meet and marry. It's parents and relatives who used to make the enquiries before they consented to an engagement. That's all done away with. Girl just marries her man. Sometimes she doesn't find out for a year or two that he's an absconding bank clerk, or an Army deserter or something equally undesirable. How long had you known Giles Ralston when you married him?"
+        }
+      ]
+    },
+    {
+      "token": "everywhere",
+      "count": 1,
+      "length": 10,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0177",
+          "speaker": "PARAVICINI",
+          "text": "But what stupendous good fortune! Madame! What an answer to prayer. A guest house ― and a charming hostess. My Rolls-Royce, alas, has run into a snowdrift. Blinding snow everywhere. I do not know where I am. Perhaps, I think to myself, I shall freeze to death. And then I take a little bag, I stagger through the snow, I see before me big iron gates. A habitation! I am saved. Twice I fall into the snow as I come up your drive, but at last I arrive and immediately ― despair turns to joy. you can let me have a room ― yes?"
+        }
+      ]
+    },
+    {
+      "token": "interested",
+      "count": 1,
+      "length": 10,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act2-speech-0363",
+          "speaker": "MAJOR METCALF",
+          "text": "No good shouting at me, young fellow. I wasn't thinking about any damned skis. I was interested in the cellars. Architecture of this place is very interesting. I opened the other door and I went on down. So I can't tell you whether the skis were there or not."
+        }
+      ]
+    },
+    {
+      "token": "leamington",
+      "count": 1,
+      "length": 10,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0310",
+          "speaker": "MOLLIE",
+          "text": "Leamington."
+        }
+      ]
+    },
+    {
+      "token": "particular",
+      "count": 1,
+      "length": 10,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act2-speech-0083",
+          "speaker": "TROTTER",
+          "text": "We're not engaged in antiquarian research, Major Metcalf. We're investigating a murder. Mrs. Ralston has told us that she heard a door shut with a faint creak. That particular door shuts with a creak. It could be, you know, that after killing Mrs. Boyle, the murderer heard Mrs. Ralston coming from the kitchen and slipped into the cupboard pulling the door to after him."
+        }
+      ]
+    },
+    {
+      "token": "staircases",
+      "count": 1,
+      "length": 10,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act2-speech-0092",
+          "speaker": "TROTTER",
+          "text": "Mr. Ralston! Thank you. We've got to establish opportunity, you know, as well as motive. And now let me tell you this ― you all had opportunity. There are two staircases ― anyone could go up by one and come down by the other. Anyone could go down to the cellars by the door near the kitchen and come up by a flight of steps that leads up through a trapdoor to the foot of the stairs over there. The vital fact was that every one of you was alone at the time the murder was committed."
+        }
+      ]
+    },
+    {
+      "token": "suggesting",
+      "count": 1,
+      "length": 10,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0196",
+          "speaker": "GILES",
+          "text": "Safety? What danger does he think we're in? Good Lord, he's not suggesting that somebody is going to be killed here."
+        }
+      ]
+    },
+    {
+      "token": "sweetheart",
+      "count": 1,
+      "length": 10,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0007",
+          "speaker": "GILES",
+          "text": "Hullo, sweetheart. Your nose is cold."
+        }
+      ]
+    },
+    {
+      "token": "unpleasant",
+      "count": 1,
+      "length": 10,
+      "score": 5,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0167",
+          "speaker": "MOLLIE",
+          "text": "It seems very hard that all our guests should be either unpleasant or odd. Anyway, I think Major Metcalf's all right, don't you?"
+        }
+      ]
+    },
+    {
+      "token": "advertisement",
+      "count": 2,
+      "length": 13,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0110",
+          "speaker": "MRS. BOYLE",
+          "text": "I would have said that a proper staff of servants was essential before opening this kind of establishment. I consider your advertisement was most misleading. May I ask if I am the only guest ― with Major Metcalf, that is?"
+        },
+        {
+          "speechId": "act1-scene2-speech-0011",
+          "speaker": "MRS. BOYLE",
+          "text": "From the advertisement I got quite a different impression of what this place would be like. A comfortable writing room, and a much larger place altogether ― with bridge and other amenities."
+        }
+      ]
+    },
+    {
+      "token": "possibilities",
+      "count": 2,
+      "length": 13,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0118",
+          "speaker": "MOLLIE",
+          "text": "Oh, I know, and therefore it all seems to point to Christopher. But I don't believe it is Christopher. There must be other possibilities."
+        },
+        {
+          "speechId": "act2-speech-0143",
+          "speaker": "TROTTER",
+          "text": "Mrs. Ralston, let me tell you something. I've had all possibilities in mind ever since the beginning. The boy Georgie, the father ― and someone else. There was a sister, you remember."
+        }
+      ]
+    },
+    {
+      "token": "downstairs",
+      "count": 2,
+      "length": 10,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0136",
+          "speaker": "MAJOR METCALF",
+          "text": "Mrs. Ralston, is your husband about? I'm afraid the pipes of the ― er ― the downstairs cloakroom are frozen."
+        },
+        {
+          "speechId": "act2-speech-0011",
+          "speaker": "TROTTER",
+          "text": "Think, Mrs. Ralston ― try and think. Upstairs? Downstairs? Close at hand? Right? Left?"
+        }
+      ]
+    },
+    {
+      "token": "experience",
+      "count": 2,
+      "length": 10,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0091",
+          "speaker": "MRS. BOYLE",
+          "text": "To be running an establishment of this kind. You can't have had much experience."
+        },
+        {
+          "speechId": "act2-speech-0128",
+          "speaker": "MOLLIE",
+          "text": "If he came home, after being a prisoner with the Japs, perhaps, and having suffered terribly ― if he came home and found his wife dead and that his children had gone through some terrible experience, and one of them had died through it, he might go off his head a bit and want ― revenge!"
+        }
+      ]
+    },
+    {
+      "token": "throughout",
+      "count": 3,
+      "length": 10,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0001",
+          "speaker": "VOICE ON THE RADIO",
+          "text": "...and according to Scotland Yard, the crime took place at twenty-four Culver Street, Paddington. The murdered woman was a Mrs. Maureen Lyon. In connection with the murder, the police are anxious to interview a man seen in the vicinity, wearing a dark overcoat, light scarf, and a soft felt hat. Motorists are warned against ice-bound roads. The heavy snow is expected to continue, and throughout the country there will be a certain freezing, particularly at points on the north and northeast coast of Scotland."
+        },
+        {
+          "speechId": "act1-scene1-speech-0042",
+          "speaker": "VOICE ON THE RADIO",
+          "text": "And according to Scotland Yard, the crime took place at twenty-four Culver Street, Paddington. The murdered woman was a Mrs. Maureen Lyon. In connection with the murder, the police ― ― are anxious to interview a man seen in the vicinity, wearing a dark overcoat ― ― light scarf ― ― and a soft felt hat. Motorists are warned against icebound roads. The heavy snow is expected to continue, and throughout the country..."
+        },
+        {
+          "speechId": "act1-scene1-speech-0139",
+          "speaker": "CHRISTOPHER",
+          "text": "Doesn't say much, does it? \"The police are anxious to interview a man seen in the vicinity of Culver Street at the time. Medium height, wearing darkish overcoat, lightish scarf and soft felt hat. Police messages to this effect have been broadcast throughout the day.\""
+        }
+      ]
+    },
+    {
+      "token": "understood",
+      "count": 2,
+      "length": 10,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0108",
+          "speaker": "MRS. BOYLE",
+          "text": "In-deed. I understood this was a guest house in full running order."
+        },
+        {
+          "speechId": "act2-speech-0555",
+          "speaker": "PARAVICINI",
+          "text": "But, Sergeant, I understood that we were each to repeat our former roles."
+        }
+      ]
+    },
+    {
+      "token": "unfinished",
+      "count": 2,
+      "length": 10,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0073",
+          "speaker": "TROTTER",
+          "text": "And yet there doesn't seem to be any unfinished letter on the writing desk in the library."
+        },
+        {
+          "speechId": "act2-speech-0077",
+          "speaker": "TROTTER",
+          "text": "Perhaps not. You know if I were to hear someone screaming blue murder when I was writing a letter, I don't believe I'd take the time to pick up my unfinished letter, fold it and put it in my handbag before going to see what was the matter."
+        }
+      ]
+    },
+    {
+      "token": "vegetables",
+      "count": 2,
+      "length": 10,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0327",
+          "speaker": "MOLLIE",
+          "text": "I must go and get on with the vegetables."
+        },
+        {
+          "speechId": "act2-speech-0022",
+          "speaker": "TROTTER",
+          "text": "Given certain circumstances, it wouldn't be so much of a coincidence. Think it out, Miss Casewell. Now I want to get down quite clearly where everyone was when Mrs. Boyle was killed. I've already got Mrs. Ralston's statement. You were in the kitchen preparing vegetables. You came out of the kitchen, along the passage, through the swing door into the hall and in here. The radio was blaring, but the light was switched off, and the hall was dark. You switched the light on, saw Mrs. Boyle, and screamed."
+        }
+      ]
+    },
+    {
+      "token": "arresting",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0101",
+          "speaker": "TROTTER",
+          "text": "I'm not arresting anyone. To do that, I've got to have evidence. I haven't got any evidence ― yet."
+        }
+      ]
+    },
+    {
+      "token": "brilliant",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0100",
+          "speaker": "MOLLIE",
+          "text": "He's an extremely brilliant young architect."
+        }
+      ]
+    },
+    {
+      "token": "cigarette",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0064",
+          "speaker": "MOLLIE",
+          "text": "Not in the least. Cigarette?"
+        }
+      ]
+    },
+    {
+      "token": "completes",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0298",
+          "speaker": "TROTTER",
+          "text": "Well, that completes the tour. Nothing suspicious. I think I'll make my report now to Superintendent Hogben."
+        }
+      ]
+    },
+    {
+      "token": "delicious",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0379",
+          "speaker": "PARAVICINI",
+          "text": "But such a gay little tune? Don't you think? She cut off their tails with a carving knife ― snick, snick, snick ― delicious. Just what a child would adore. Cruel little things, children. Some of them never grow up."
+        }
+      ]
+    },
+    {
+      "token": "depressed",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0170",
+          "speaker": "GILES",
+          "text": "No, I don't. I was just feeling rather depressed. Well, at any rate we know the worst now. They've all arrived."
+        }
+      ]
+    },
+    {
+      "token": "extremely",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0100",
+          "speaker": "MOLLIE",
+          "text": "He's an extremely brilliant young architect."
+        }
+      ]
+    },
+    {
+      "token": "fifteenth",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0179",
+          "speaker": "TROTTER",
+          "text": "It relates to the death of Mrs. Lyon ― Mrs. Maureen Lyon of twenty-four Culver Street, London, West two, who was murdered yesterday, the fifteenth instant. You may have heard or read about the case?"
+        }
+      ]
+    },
+    {
+      "token": "happening",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0516",
+          "speaker": "MISS CASEWELL",
+          "text": "What is happening?"
+        }
+      ]
+    },
+    {
+      "token": "introduce",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0115",
+          "speaker": "MOLLIE",
+          "text": "May I introduce. Mr. Wren ― Mrs. Boyle."
+        }
+      ]
+    },
+    {
+      "token": "knowledge",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0233",
+          "speaker": "MAJOR METCALF",
+          "text": "Metcalf ― Major. Read about the case in the papers at the time. I was stationed at Edinburgh then. No personal knowledge."
+        }
+      ]
+    },
+    {
+      "token": "movements",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0526",
+          "speaker": "TROTTER",
+          "text": "Not a reconstruction of the crime, Mr. Paravicini. A reconstruction of the movements of apparently innocent persons."
+        }
+      ]
+    },
+    {
+      "token": "northeast",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0001",
+          "speaker": "VOICE ON THE RADIO",
+          "text": "...and according to Scotland Yard, the crime took place at twenty-four Culver Street, Paddington. The murdered woman was a Mrs. Maureen Lyon. In connection with the murder, the police are anxious to interview a man seen in the vicinity, wearing a dark overcoat, light scarf, and a soft felt hat. Motorists are warned against ice-bound roads. The heavy snow is expected to continue, and throughout the country there will be a certain freezing, particularly at points on the north and northeast coast of Scotland."
+        }
+      ]
+    },
+    {
+      "token": "overdoing",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0407",
+          "speaker": "PARAVICINI",
+          "text": "Having asked questions of so many people ― you ask questions of yourself as well? Isn't that overdoing things?"
+        }
+      ]
+    },
+    {
+      "token": "preparing",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0022",
+          "speaker": "TROTTER",
+          "text": "Given certain circumstances, it wouldn't be so much of a coincidence. Think it out, Miss Casewell. Now I want to get down quite clearly where everyone was when Mrs. Boyle was killed. I've already got Mrs. Ralston's statement. You were in the kitchen preparing vegetables. You came out of the kitchen, along the passage, through the swing door into the hall and in here. The radio was blaring, but the light was switched off, and the hall was dark. You switched the light on, saw Mrs. Boyle, and screamed."
+        }
+      ]
+    },
+    {
+      "token": "receiving",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0193",
+          "speaker": "TROTTER",
+          "text": "Yes, sir. That's why Superintendent Hogben, on receiving this information from Scotland Yard, thought it imperative for me to come out here and find out if you knew of any connection between this house, or anyone in this house, and the Longridge Farm case."
+        }
+      ]
+    },
+    {
+      "token": "satisfied",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0119",
+          "speaker": "GILES",
+          "text": "There is no obligation for you to remain here if you are not satisfied, Mrs. Boyle."
+        }
+      ]
+    },
+    {
+      "token": "shivering",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0072",
+          "speaker": "MISS CASEWELL",
+          "text": "Ice on a bedroom jug, chilblains, raw and bleeding ― one thin ragged blanket ― a child shivering with cold and fear."
+        }
+      ]
+    },
+    {
+      "token": "situation",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0324",
+          "speaker": "TROTTER",
+          "text": "The snow is still lying. I need help here, reinforcements. I was going to ski over to the police station at Market Hampton to report on the situation."
+        }
+      ]
+    },
+    {
+      "token": "suggested",
+      "count": 1,
+      "length": 9,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0272",
+          "speaker": "GILES",
+          "text": "Perhaps you'd met him before. Perhaps you suggested to him to come here and that you'd both pretend to meet for the first time. All cooked up between you, was it?"
+        }
+      ]
+    },
+    {
+      "token": "anywhere",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0186",
+          "speaker": "CHRISTOPHER",
+          "text": "If only I could get away. Somehow ― some way. Is there anywhere I could hide ― in the house?"
+        }
+      ]
+    },
+    {
+      "token": "arriving",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0024",
+          "speaker": "TROTTER",
+          "text": "Yes. As you say, people came ― a lot of people from different directions ― all arriving more or less at once. Now then, when I got out of that window to trace the telephone wire, you, Mr. Ralston, went upstairs to the room you and Mrs. Ralston occupy, to try the extension telephone. Where were you when Mrs. Ralston screamed?"
+        }
+      ]
+    },
+    {
+      "token": "baptized",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0067",
+          "speaker": "CHRISTOPHER",
+          "text": "No, I'm an architect. My parents, you know, baptized me Christopher, in the hope that I would be an architect. Christopher Wren! As good as halfway home. Actually, of course, everyone laughs about it and makes jokes about St. Paul's. However ― who knows?― I may yet have the last laugh. Chris Wren's Prefab Nests may yet go down in history! I'm going to like it here. I find your wife most sympathetic."
+        }
+      ]
+    },
+    {
+      "token": "behaving",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0248",
+          "speaker": "MRS. BOYLE",
+          "text": "Your friend, the architect, has been behaving in a most abnormal manner."
+        }
+      ]
+    },
+    {
+      "token": "believed",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0118",
+          "speaker": "MRS. BOYLE",
+          "text": "I have come to the time of life when the amenities of an establishment are more important than its appearance. If I had not believed this was a running concern I should never have come here. I understand it was fully equipped with every home comfort."
+        }
+      ]
+    },
+    {
+      "token": "bullying",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0013",
+          "speaker": "GILES",
+          "text": "Can't you stop bullying her? Can't you see she's all in?"
+        }
+      ]
+    },
+    {
+      "token": "discover",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0519",
+          "speaker": "TROTTER",
+          "text": "Those were the statements you made. I had no means of checking these statements. They may be true ― they may not. To put it quite clearly, five of those statements are true, but one is false ― which one? Five of you were speaking the truth, one of you was lying. I have a plan that may help me to discover the liar. And if I discover that one of you lied to me ― then I know who the murderer is."
+        }
+      ]
+    },
+    {
+      "token": "dragging",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0503",
+          "speaker": "PARAVICINI",
+          "text": "Yes, Sergeant? What can I do for you? Little Bo Policeman has lost his skis and doesn't know where to find them. Leave them alone, and they'll come home, dragging a murderer behind them."
+        }
+      ]
+    },
+    {
+      "token": "exciting",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0512",
+          "speaker": "PARAVICINI",
+          "text": "Please don't. I always think explanations should be kept to the very end. That exciting last chapter, you know."
+        }
+      ]
+    },
+    {
+      "token": "families",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0165",
+          "speaker": "TROTTER",
+          "text": "You'd be surprised, Mrs. Ralston, if you knew how many cases rather like yours we get. Especially since the war. Homes broken up and families dead. Fellow says he's been in the Air Force, or just finished his Army training. Parents killed ― no relations. There aren't any backgrounds nowadays and young people settle their own affairs ― they meet and marry. It's parents and relatives who used to make the enquiries before they consented to an engagement. That's all done away with. Girl just marries her man. Sometimes she doesn't find out for a year or two that he's an absconding bank clerk, or an Army deserter or something equally undesirable. How long had you known Giles Ralston when you married him?"
+        }
+      ]
+    },
+    {
+      "token": "handsome",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0054",
+          "speaker": "CHRISTOPHER",
+          "text": "How do you do? Terrible weather, isn't it? Takes one back to Dickens and Scrooge and that irritating Tiny Tim. So bogus. Of course, Mrs. Ralston, you're absolutely right about the little tables. I was being carried away by my feeling for period. If you had a mahogany dining table, you'd have to have the right family round it. Stern handsome father with a beard, prolific, faded mother, eleven children of assorted ages, a grim governess, and somebody called \"poor Harriet,\" the poor relation who acts as general dogsbody and is very, very grateful for being given a good home!"
+        }
+      ]
+    },
+    {
+      "token": "helpless",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0142",
+          "speaker": "MOLLIE",
+          "text": "He seems so ― helpless, somehow. And so unhappy."
+        }
+      ]
+    },
+    {
+      "token": "identify",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0183",
+          "speaker": "TROTTER",
+          "text": "You mayn't have known of her under the name of Lyon. Lyon wasn't her real name. She had a police record and her fingerprints were on file, so we were able to identify her without difficulty. Her real name was Maureen Stanning. Her husband was a farmer, John Stanning, who resided at Longridge Farm not very far from here."
+        }
+      ]
+    },
+    {
+      "token": "interest",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0036",
+          "speaker": "MISS CASEWELL",
+          "text": "Oh, I wouldn't say that. I'm not a Red ― just pale pink. But I don't take much interest in politics ― I live abroad."
+        }
+      ]
+    },
+    {
+      "token": "jeunesse",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0313",
+          "speaker": "PARAVICINI",
+          "text": "Quite so. Quite so. I know just how you feel. I have been through all this myself when I was a younger man. Jeunesse ― jeunesse ― as the poet says. Not been married long, I imagine?"
+        }
+      ]
+    },
+    {
+      "token": "messages",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0139",
+          "speaker": "CHRISTOPHER",
+          "text": "Doesn't say much, does it? \"The police are anxious to interview a man seen in the vicinity of Culver Street at the time. Medium height, wearing darkish overcoat, lightish scarf and soft felt hat. Police messages to this effect have been broadcast throughout the day.\""
+        }
+      ]
+    },
+    {
+      "token": "painters",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0065",
+          "speaker": "CHRISTOPHER",
+          "text": "No, thank you. You see? The only people who really know what other people are like are artists ― and they don't know why they know it! But if they're portrait painters it comes out ― on the canvas."
+        }
+      ]
+    },
+    {
+      "token": "planning",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0370",
+          "speaker": "TROTTER",
+          "text": "I'm in the position now where I've got to put myself in the place of a crazy cunning brain. I've got to ask myself what he wants us to do and what he, himself, is planning to do next. I've got to try and keep just one step ahead of him. Because if I don't, there's going to be another death."
+        }
+      ]
+    },
+    {
+      "token": "pleasure",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0125",
+          "speaker": "GILES",
+          "text": "It's a pleasure I've got to forgo, I'm afraid. Lord, there's another of them. Come in ― come in."
+        }
+      ]
+    },
+    {
+      "token": "portrait",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0065",
+          "speaker": "CHRISTOPHER",
+          "text": "No, thank you. You see? The only people who really know what other people are like are artists ― and they don't know why they know it! But if they're portrait painters it comes out ― on the canvas."
+        }
+      ]
+    },
+    {
+      "token": "problems",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0041",
+          "speaker": "MRS. BOYLE",
+          "text": "They certainly solve some of one's problems. Are you over in England for long?"
+        }
+      ]
+    },
+    {
+      "token": "produced",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0334",
+          "speaker": "VOICE ON THE RADIO",
+          "text": "...to understand what I may term as the mechanics of fear, you have to study the precise effect produced on the human mind. Imagine, for instance, that you are alone in a room. It is late in the afternoon. A door opens softly behind you..."
+        }
+      ]
+    },
+    {
+      "token": "promised",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0006",
+          "speaker": "MAJOR METCALF",
+          "text": "But very well-disguised cornbeef. Red wine in it. Mrs. Ralston promised to make a pie for us tonight."
+        }
+      ]
+    },
+    {
+      "token": "realized",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0575",
+          "speaker": "TROTTER",
+          "text": "Come now, Mrs. Ralston. We policemen aren't quite so dumb as you think. All along I've realized that you had firsthand knowledge of the Longridge Farm affair. You knew Mrs. Boyle was the magistrate concerned. In fact, you knew all about it. Why didn't you speak up and say so?"
+        }
+      ]
+    },
+    {
+      "token": "securely",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0184",
+          "speaker": "PARAVICINI",
+          "text": "That is of no consequence. I have locked the car securely."
+        }
+      ]
+    },
+    {
+      "token": "shouting",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0060",
+          "speaker": "PARAVICINI",
+          "text": "With one finger so...And then I hear the radio ― playing very loud ― someone is shouting on it. It offended my ears. And after that ― suddenly ― I hear Mrs. Ralston scream."
+        }
+      ]
+    },
+    {
+      "token": "shutting",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0295",
+          "speaker": "MRS. BOYLE",
+          "text": "Would you mind shutting that door. This place is full of draughts."
+        }
+      ]
+    },
+    {
+      "token": "thousand",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0620",
+          "speaker": "GILES",
+          "text": "I gather they'll examine that car of his rather carefully. I shouldn't be surprised if they found a thousand or so Swiss watches in the spare wheel. Yes, that's his line of business, nasty little bit of goods. Mollie, I believe you thought I was..."
+        }
+      ]
+    },
+    {
+      "token": "unstable",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0126",
+          "speaker": "MOLLIE",
+          "text": "But you don't know where he may be at this minute, and if the son is mentally unstable, the father may have been unstable, too."
+        }
+      ]
+    },
+    {
+      "token": "watching",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0591",
+          "speaker": "TROTTER",
+          "text": "Someone's hidden my skis! I can't find them. But it doesn't matter. I don't really mind if I get away or not. I'm tired. It's all been such fun. Watching you all. And pretending to be a policeman."
+        }
+      ]
+    },
+    {
+      "token": "worrying",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act2-speech-0257",
+          "speaker": "GILES",
+          "text": "I tell you I'm worrying about my wife's safety."
+        }
+      ]
+    },
+    {
+      "token": "youngest",
+      "count": 1,
+      "length": 8,
+      "score": 4,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0209",
+          "speaker": "TROTTER",
+          "text": "Yes, the youngest, a boy of eleven."
+        }
+      ]
+    },
+    {
+      "token": "information",
+      "count": 4,
+      "length": 11,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0193",
+          "speaker": "TROTTER",
+          "text": "Yes, sir. That's why Superintendent Hogben, on receiving this information from Scotland Yard, thought it imperative for me to come out here and find out if you knew of any connection between this house, or anyone in this house, and the Longridge Farm case."
+        },
+        {
+          "speechId": "act2-speech-0014",
+          "speaker": "TROTTER",
+          "text": "We're investigating a murder, Mr. Ralston. Up to now, nobody has taken this thing seriously. Mrs. Boyle didn't. She held out on me with information. You all held out on me. Well, Mrs. Boyle is dead. Unless we get to the bottom of this ― and quickly, mind ― there may be another death."
+        },
+        {
+          "speechId": "act2-speech-0125",
+          "speaker": "TROTTER",
+          "text": "We've no information. To trace him may take some time, but I can assure you, Mrs. Ralston, that the police take every eventuality into account."
+        }
+      ]
+    },
+    {
+      "token": "interesting",
+      "count": 5,
+      "length": 11,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0063",
+          "speaker": "CHRISTOPHER",
+          "text": "No, I don't agree. They're all interesting, because you never really know what anyone is like ― or what they are really thinking. For instance, you don't know what I'm thinking about now, do you?"
+        },
+        {
+          "speechId": "act2-speech-0078",
+          "speaker": "MISS CASEWELL",
+          "text": "You wouldn't? How interesting."
+        },
+        {
+          "speechId": "act2-speech-0330",
+          "speaker": "PARAVICINI",
+          "text": "So our young architect has hooked it, has he? Very, very interesting."
+        }
+      ]
+    },
+    {
+      "token": "everyone's",
+      "count": 1,
+      "length": 10,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act2-speech-0096",
+          "speaker": "CHRISTOPHER",
+          "text": "It's not true ― it's not true! You're all against me. Everyone's always been against me. You're going to frame me for a murder. It's persecution, that's what it is ― persecution."
+        }
+      ]
+    },
+    {
+      "token": "understand",
+      "count": 5,
+      "length": 10,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0118",
+          "speaker": "MRS. BOYLE",
+          "text": "I have come to the time of life when the amenities of an establishment are more important than its appearance. If I had not believed this was a running concern I should never have come here. I understand it was fully equipped with every home comfort."
+        },
+        {
+          "speechId": "act1-scene2-speech-0177",
+          "speaker": "TROTTER",
+          "text": "Done? Oh, it's nothing of that kind, Mrs. Ralston. It's something quite different. It's more a matter of police protection, if you understand me."
+        },
+        {
+          "speechId": "act1-scene2-speech-0334",
+          "speaker": "VOICE ON THE RADIO",
+          "text": "...to understand what I may term as the mechanics of fear, you have to study the precise effect produced on the human mind. Imagine, for instance, that you are alone in a room. It is late in the afternoon. A door opens softly behind you..."
+        }
+      ]
+    },
+    {
+      "token": "beautiful",
+      "count": 2,
+      "length": 9,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0069",
+          "speaker": "CHRISTOPHER",
+          "text": "And really very beautiful."
+        },
+        {
+          "speechId": "act1-scene1-speech-0117",
+          "speaker": "CHRISTOPHER",
+          "text": "This is a very beautiful house. Don't you think so?"
+        }
+      ]
+    },
+    {
+      "token": "beginning",
+      "count": 3,
+      "length": 9,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0092",
+          "speaker": "MOLLIE",
+          "text": "There has to be a beginning for everything, hasn't there?"
+        },
+        {
+          "speechId": "act1-scene2-speech-0002",
+          "speaker": "MAJOR METCALF",
+          "text": "Well, everything's got to have a beginning, you know. Excellent breakfast this morning. Good coffee. Scrambled eggs, homemade marmalade. And all nicely served, too. Little woman does it all herself."
+        },
+        {
+          "speechId": "act2-speech-0143",
+          "speaker": "TROTTER",
+          "text": "Mrs. Ralston, let me tell you something. I've had all possibilities in mind ever since the beginning. The boy Georgie, the father ― and someone else. There was a sister, you remember."
+        }
+      ]
+    },
+    {
+      "token": "breakfast",
+      "count": 2,
+      "length": 9,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0002",
+          "speaker": "MAJOR METCALF",
+          "text": "Well, everything's got to have a beginning, you know. Excellent breakfast this morning. Good coffee. Scrambled eggs, homemade marmalade. And all nicely served, too. Little woman does it all herself."
+        },
+        {
+          "speechId": "act2-speech-0495",
+          "speaker": "CHRISTOPHER",
+          "text": "What can't you believe? Six impossible things before breakfast, like the Red Queen?"
+        }
+      ]
+    },
+    {
+      "token": "carefully",
+      "count": 2,
+      "length": 9,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0085",
+          "speaker": "MOLLIE",
+          "text": "That's what I asked. But he wouldn't say. Just said I was to impress on my husband to listen very carefully to what Sergeant Trotter, I think it was, had to say, and to follow his instructions implicitly. Isn't it extraordinary?"
+        },
+        {
+          "speechId": "act2-speech-0620",
+          "speaker": "GILES",
+          "text": "I gather they'll examine that car of his rather carefully. I shouldn't be surprised if they found a thousand or so Swiss watches in the spare wheel. Yes, that's his line of business, nasty little bit of goods. Mollie, I believe you thought I was..."
+        }
+      ]
+    },
+    {
+      "token": "dangerous",
+      "count": 2,
+      "length": 9,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0201",
+          "speaker": "TROTTER",
+          "text": "Yes, sir. It's because it's crazy that it's dangerous."
+        },
+        {
+          "speechId": "act2-speech-0267",
+          "speaker": "MOLLIE",
+          "text": "He isn't. He's just unhappy. I tell you, Giles, he isn't dangerous. I'd know if he was dangerous. And anyway, I can look after myself."
+        }
+      ]
+    },
+    {
+      "token": "excellent",
+      "count": 3,
+      "length": 9,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0133",
+          "speaker": "GILES",
+          "text": "Oh yes. My wife's an excellent manager. Anyway, we can always eat our hens."
+        },
+        {
+          "speechId": "act1-scene2-speech-0002",
+          "speaker": "MAJOR METCALF",
+          "text": "Well, everything's got to have a beginning, you know. Excellent breakfast this morning. Good coffee. Scrambled eggs, homemade marmalade. And all nicely served, too. Little woman does it all herself."
+        },
+        {
+          "speechId": "act1-scene2-speech-0004",
+          "speaker": "MAJOR METCALF",
+          "text": "Excellent lunch, too."
+        }
+      ]
+    },
+    {
+      "token": "fantastic",
+      "count": 2,
+      "length": 9,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0321",
+          "speaker": "GILES",
+          "text": "I can't believe it. It's so fantastic."
+        },
+        {
+          "speechId": "act1-scene2-speech-0322",
+          "speaker": "TROTTER",
+          "text": "It isn't fantastic. It's just facts."
+        }
+      ]
+    },
+    {
+      "token": "important",
+      "count": 3,
+      "length": 9,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0014",
+          "speaker": "MOLLIE",
+          "text": "Oh! I do so want everything to go well at first. First impressions are so important."
+        },
+        {
+          "speechId": "act1-scene1-speech-0118",
+          "speaker": "MRS. BOYLE",
+          "text": "I have come to the time of life when the amenities of an establishment are more important than its appearance. If I had not believed this was a running concern I should never have come here. I understand it was fully equipped with every home comfort."
+        },
+        {
+          "speechId": "act2-speech-0507",
+          "speaker": "TROTTER",
+          "text": "There are more important things than meals, Mrs. Ralston. Mrs. Boyle, for instance, won't want another meal."
+        }
+      ]
+    },
+    {
+      "token": "listening",
+      "count": 2,
+      "length": 9,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0335",
+          "speaker": "MRS. BOYLE",
+          "text": "Oh, it's you. I can't find any programme worth listening to. Here ― what are you doing? Why did you turn out the light?"
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "speaker": "TROTTER",
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        }
+      ]
+    },
+    {
+      "token": "motorists",
+      "count": 3,
+      "length": 9,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0001",
+          "speaker": "VOICE ON THE RADIO",
+          "text": "...and according to Scotland Yard, the crime took place at twenty-four Culver Street, Paddington. The murdered woman was a Mrs. Maureen Lyon. In connection with the murder, the police are anxious to interview a man seen in the vicinity, wearing a dark overcoat, light scarf, and a soft felt hat. Motorists are warned against ice-bound roads. The heavy snow is expected to continue, and throughout the country there will be a certain freezing, particularly at points on the north and northeast coast of Scotland."
+        },
+        {
+          "speechId": "act1-scene1-speech-0042",
+          "speaker": "VOICE ON THE RADIO",
+          "text": "And according to Scotland Yard, the crime took place at twenty-four Culver Street, Paddington. The murdered woman was a Mrs. Maureen Lyon. In connection with the murder, the police ― ― are anxious to interview a man seen in the vicinity, wearing a dark overcoat ― ― light scarf ― ― and a soft felt hat. Motorists are warned against icebound roads. The heavy snow is expected to continue, and throughout the country..."
+        },
+        {
+          "speechId": "act1-scene1-speech-0132",
+          "speaker": "MISS CASEWELL",
+          "text": "No hurry. Got to get myself thawed out. Looks as though you're going to be snowed up here. Weather forecast says heavy falls expected. Motorists warned, etcetera. Hope you've got plenty of provisions in."
+        }
+      ]
+    },
+    {
+      "token": "performed",
+      "count": 2,
+      "length": 9,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act2-speech-0548",
+          "speaker": "TROTTER",
+          "text": "The same actions will be performed, yes."
+        },
+        {
+          "speechId": "act2-speech-0556",
+          "speaker": "TROTTER",
+          "text": "The same actions will be performed, but not necessarily by the same people. Thank you, Mrs. Ralston."
+        }
+      ]
+    },
+    {
+      "token": "supposing",
+      "count": 2,
+      "length": 9,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act2-speech-0367",
+          "speaker": "MAJOR METCALF",
+          "text": "Ought to be able to find them if we all set to. Not a case of \"Hunt the Thimble.\" Whacking great things, skis. Supposing we all set to."
+        },
+        {
+          "speechId": "act2-speech-0523",
+          "speaker": "TROTTER",
+          "text": "No, but supposing everyone was to go through these actions a second time."
+        }
+      ]
+    },
+    {
+      "token": "whistling",
+      "count": 3,
+      "length": 9,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act2-speech-0054",
+          "speaker": "PARAVICINI",
+          "text": "And yet ― it runs in people's head. Someone was whistling it, too."
+        },
+        {
+          "speechId": "act2-speech-0055",
+          "speaker": "TROTTER",
+          "text": "Whistling it? Where?"
+        },
+        {
+          "speechId": "act2-speech-0057",
+          "speaker": "TROTTER",
+          "text": "Who was whistling Three Blind Mice? Are you making this up, Mr. Paravicini?"
+        }
+      ]
+    },
+    {
+      "token": "wonderful",
+      "count": 3,
+      "length": 9,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0041",
+          "speaker": "GILES",
+          "text": "You're such a wonderful woman of business, Mollie."
+        },
+        {
+          "speechId": "act1-scene1-speech-0123",
+          "speaker": "MOLLIE",
+          "text": "Certainly, Mrs. Boyle. Darling, you were wonderful..."
+        },
+        {
+          "speechId": "act1-scene2-speech-0204",
+          "speaker": "CHRISTOPHER",
+          "text": "I think it's wonderful."
+        }
+      ]
+    },
+    {
+      "token": "abnormal",
+      "count": 2,
+      "length": 8,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0248",
+          "speaker": "MRS. BOYLE",
+          "text": "Your friend, the architect, has been behaving in a most abnormal manner."
+        },
+        {
+          "speechId": "act2-speech-0095",
+          "speaker": "GILES",
+          "text": "But you know pretty well who killed that woman in Culver Street. You think it's the eldest of those three children at the farm. A mentally abnormal young man who is now twenty-three years of age. Well, damn it all, there's only one person here who fits the bill."
+        }
+      ]
+    },
+    {
+      "token": "accident",
+      "count": 2,
+      "length": 8,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0226",
+          "speaker": "TROTTER",
+          "text": "I see. What I'm getting at is that anyone who's been following you around might know very well that you were coming here. Now, there's just one thing I want to know, and I want to know it quick. Which one of you is it that has some connection with that business at Longridge Farm? You're not being very sensible, you know. One of you is in danger ― deadly danger. I've got to know which one that is. All right, I'll ask you one by one. You, first, since you seem to have arrived here more or less by accident, Mr. Pari ―?"
+        },
+        {
+          "speechId": "act2-speech-0392",
+          "speaker": "TROTTER",
+          "text": "That rather depends on the way you're looking at it. Just where were you bound for, by the way, when you had this ― accident?"
+        }
+      ]
+    },
+    {
+      "token": "answered",
+      "count": 2,
+      "length": 8,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act2-speech-0456",
+          "speaker": "TROTTER",
+          "text": "You haven't answered my question."
+        },
+        {
+          "speechId": "act2-speech-0581",
+          "speaker": "TROTTER",
+          "text": "It's true, isn't it, that Jimmy, the child who died, managed to get a letter posted to you? The letter begged for help ― help from his kind young teacher. You never answered that letter."
+        }
+      ]
+    },
+    {
+      "token": "chickens",
+      "count": 2,
+      "length": 8,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act2-speech-0170",
+          "speaker": "MOLLIE",
+          "text": "He went across country to a sale to get some wire netting for our chickens."
+        },
+        {
+          "speechId": "act2-speech-0373",
+          "speaker": "PARAVICINI",
+          "text": "Talking of chicken, dear lady, have you ever tried chickens' livers served on toast that has been thickly smeared with foie gras, with a very thin rasher of bacon just touched with a soupçon of fresh mustard? I will come with you to the kitchen and we will see what we can concoct together. A charming occupation."
+        }
+      ]
+    },
+    {
+      "token": "continue",
+      "count": 2,
+      "length": 8,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0001",
+          "speaker": "VOICE ON THE RADIO",
+          "text": "...and according to Scotland Yard, the crime took place at twenty-four Culver Street, Paddington. The murdered woman was a Mrs. Maureen Lyon. In connection with the murder, the police are anxious to interview a man seen in the vicinity, wearing a dark overcoat, light scarf, and a soft felt hat. Motorists are warned against ice-bound roads. The heavy snow is expected to continue, and throughout the country there will be a certain freezing, particularly at points on the north and northeast coast of Scotland."
+        },
+        {
+          "speechId": "act1-scene1-speech-0042",
+          "speaker": "VOICE ON THE RADIO",
+          "text": "And according to Scotland Yard, the crime took place at twenty-four Culver Street, Paddington. The murdered woman was a Mrs. Maureen Lyon. In connection with the murder, the police ― ― are anxious to interview a man seen in the vicinity, wearing a dark overcoat ― ― light scarf ― ― and a soft felt hat. Motorists are warned against icebound roads. The heavy snow is expected to continue, and throughout the country..."
+        }
+      ]
+    },
+    {
+      "token": "enjoying",
+      "count": 3,
+      "length": 8,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act2-speech-0372",
+          "speaker": "TROTTER",
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        },
+        {
+          "speechId": "act2-speech-0420",
+          "speaker": "TROTTER",
+          "text": "Enjoying this little game, aren't you? Sure of yourself, too. But I shouldn't be too sure. You're mixed up in a murder case, and don't you forget it. Murder isn't just fun and games."
+        },
+        {
+          "speechId": "act2-speech-0515",
+          "speaker": "PARAVICINI",
+          "text": "You think the murderer is enjoying himself. Maybe ― maybe."
+        }
+      ]
+    },
+    {
+      "token": "finished",
+      "count": 2,
+      "length": 8,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act2-speech-0165",
+          "speaker": "TROTTER",
+          "text": "You'd be surprised, Mrs. Ralston, if you knew how many cases rather like yours we get. Especially since the war. Homes broken up and families dead. Fellow says he's been in the Air Force, or just finished his Army training. Parents killed ― no relations. There aren't any backgrounds nowadays and young people settle their own affairs ― they meet and marry. It's parents and relatives who used to make the enquiries before they consented to an engagement. That's all done away with. Girl just marries her man. Sometimes she doesn't find out for a year or two that he's an absconding bank clerk, or an Army deserter or something equally undesirable. How long had you known Giles Ralston when you married him?"
+        },
+        {
+          "speechId": "act2-speech-0451",
+          "speaker": "MISS CASEWELL",
+          "text": "Until I've finished what I came here to do."
+        }
+      ]
+    },
+    {
+      "token": "happened",
+      "count": 3,
+      "length": 8,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene2-speech-0210",
+          "speaker": "GILES",
+          "text": "What happened to the other two?"
+        },
+        {
+          "speechId": "act1-scene2-speech-0278",
+          "speaker": "MOLLIE",
+          "text": "They say that what happened when you're a child matters more than anything else."
+        },
+        {
+          "speechId": "act2-speech-0390",
+          "speaker": "TROTTER",
+          "text": "I've been wondering about that car of yours, and how it happened to overturn in a snowdrift so conveniently."
+        }
+      ]
+    },
+    {
+      "token": "husbands",
+      "count": 2,
+      "length": 8,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0071",
+          "speaker": "CHRISTOPHER",
+          "text": "There, isn't that like an Englishwoman? Compliments always embarrass them. European women take compliments as a matter of course, but Englishwomen have all the feminine spirit crushed out of them by their husbands. There's something very boorish about English husbands."
+        },
+        {
+          "speechId": "act2-speech-0401",
+          "speaker": "PARAVICINI",
+          "text": "But there might be ― so many reasons. An amour ― discretion. These jealous husbands."
+        }
+      ]
+    },
+    {
+      "token": "monkwell",
+      "count": 2,
+      "length": 8,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0024",
+          "speaker": "MOLLIE",
+          "text": "It's a disaster! Don't you see? You've left out the \"S\". Monkwell instead of Monkswell."
+        },
+        {
+          "speechId": "act1-scene1-speech-0025",
+          "speaker": "GILES",
+          "text": "Good Lord, so I did. However did I come to do that? But it doesn't really matter, does it? Monkwell is as good a name."
+        }
+      ]
+    },
+    {
+      "token": "potatoes",
+      "count": 3,
+      "length": 8,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0152",
+          "speaker": "MOLLIE",
+          "text": "I must hurry out to the kitchen and get on with things. Major Metcalf is very nice. He won't be difficult. It's Mrs. Boyle really frightens me. We must have a nice dinner. I was thinking of opening two tins of minced beef and cereal and a tin of peas, and mashing the potatoes. And there's stewed figs and custard. Do you think that will be all right?"
+        },
+        {
+          "speechId": "act2-speech-0245",
+          "speaker": "MOLLIE",
+          "text": "No, we were ― just talking. I must go to the kitchen ― there's the pie and potatoes ― and I must do ― do the spinach."
+        },
+        {
+          "speechId": "act2-speech-0383",
+          "speaker": "MOLLIE",
+          "text": "I must go ― the food ― dinner ― prepare the spinach ― and the potatoes all going to pieces ― please, Giles."
+        }
+      ]
+    },
+    {
+      "token": "suddenly",
+      "count": 2,
+      "length": 8,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act2-speech-0060",
+          "speaker": "PARAVICINI",
+          "text": "With one finger so...And then I hear the radio ― playing very loud ― someone is shouting on it. It offended my ears. And after that ― suddenly ― I hear Mrs. Ralston scream."
+        },
+        {
+          "speechId": "act2-speech-0243",
+          "speaker": "MOLLIE",
+          "text": "I don't know what the Sergeant thinks. And he can make you think things about people. You ask yourself questions and you begin to doubt. You feel that somebody you love and know well might be ― a stranger. That's what happens in a nightmare. You're somewhere in the middle of friends and then you suddenly look at their faces and they're not your friends any longer ― they're different people ― just pretending. Perhaps you can't trust anybody ― perhaps everybody's a stranger."
+        }
+      ]
+    },
+    {
+      "token": "together",
+      "count": 2,
+      "length": 8,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0157",
+          "speaker": "MOLLIE",
+          "text": "Come on. Isn't he sweet? He's put on an apron and he's getting all the things together. He says leave it all to him and don't come back for half an hour. If our guests want to do the cooking themselves, it will save a lot of trouble."
+        },
+        {
+          "speechId": "act2-speech-0373",
+          "speaker": "PARAVICINI",
+          "text": "Talking of chicken, dear lady, have you ever tried chickens' livers served on toast that has been thickly smeared with foie gras, with a very thin rasher of bacon just touched with a soupçon of fresh mustard? I will come with you to the kitchen and we will see what we can concoct together. A charming occupation."
+        }
+      ]
+    },
+    {
+      "token": "tomorrow",
+      "count": 2,
+      "length": 8,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act1-scene1-speech-0011",
+          "speaker": "GILES",
+          "text": "It wasn't the right kind. I went on to another dump but that wasn't any good either. Practically a whole day wasted. My God, I'm half frozen. Car was skidding like anything. The snow's coming down thick. What do you bet we're not snowed up tomorrow?"
+        },
+        {
+          "speechId": "act1-scene1-speech-0190",
+          "speaker": "PARAVICINI",
+          "text": "Yes ― the unexpected guest. The guest that you did not invite. The guest who just arrived ― from nowhere ― out of the storm. It sounds quite dramatic, does it not? Who am I? You do not know. Where do I come from? You do not know. Me, I am the man of mystery. But now, I tell you this. I complete the picture. From now on there will be no more arrivals. And no departures either. By tomorrow ― perhaps even already ― we are cut off from civilization. No butcher, no baker, no milkman, no postman, no daily papers ― nobody and nothing but ourselves. That is admirable ― admirable. It could not suit me better. My name, by the way, is Paravicini. Mr. and Mrs. Ralston? And this ― is Monkswell Manor Guest House, you said? Good. Monkswell Manor Guest House. Perfect. Perfect."
+        }
+      ]
+    },
+    {
+      "token": "training",
+      "count": 2,
+      "length": 8,
+      "score": 3,
+      "examples": [
+        {
+          "speechId": "act2-speech-0165",
+          "speaker": "TROTTER",
+          "text": "You'd be surprised, Mrs. Ralston, if you knew how many cases rather like yours we get. Especially since the war. Homes broken up and families dead. Fellow says he's been in the Air Force, or just finished his Army training. Parents killed ― no relations. There aren't any backgrounds nowadays and young people settle their own affairs ― they meet and marry. It's parents and relatives who used to make the enquiries before they consented to an engagement. That's all done away with. Girl just marries her man. Sometimes she doesn't find out for a year or two that he's an absconding bank clerk, or an Army deserter or something equally undesirable. How long had you known Giles Ralston when you married him?"
+        },
+        {
+          "speechId": "act2-speech-0199",
+          "speaker": "MOLLIE",
+          "text": "And you're not really training to be an architect?"
+        }
+      ]
+    }
+  ]
+}
