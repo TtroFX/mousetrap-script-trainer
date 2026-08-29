@@ -1,14 +1,14 @@
 'use strict';
-const BUILD_ID='index-zero-2026-08-29-r15';
+const BUILD_ID='index-zero-2026-08-29-r16';
 const SHELL_CACHE=`mts-zero-shell-${BUILD_ID}`;
 const DATA_CACHE=`mts-zero-data-${BUILD_ID}`;
 const SHELL=[
-  './','./index.html','./src/app.css','./src/focus-mode.css','./src/config.js','./src/data-store.js','./src/state-store.js','./src/resume-bookmarks.js','./src/gesture-controls.js','./src/main.js','./src/study/study.css','./src/study/structure-model.js','./src/study/structure-view.js','./src/study/dictionary-sheet.js',
+  './','./index.html','./src/app.css','./src/focus-mode.css','./src/stage-directions.css','./src/config.js','./src/data-store.js','./src/state-store.js','./src/resume-bookmarks.js','./src/gesture-controls.js','./src/main.js','./src/stage-directions.js','./src/study/study.css','./src/study/structure-model.js','./src/study/structure-view.js','./src/study/dictionary-sheet.js',
   './manifest.webmanifest','./offline.html','./icons/icon-192.png','./icons/icon-512.png','./icons/icon-maskable-512.png'
 ];
 const DATA_ASSETS=[
   'mousetrap_script_data.json','mousetrap_line_translations.json','mousetrap_line_interpretation.json','mousetrap_line_vocabulary.json',
-  'mousetrap_line_grammar.json','mousetrap_word_dictionary.json','mousetrap_line_structure.json'
+  'mousetrap_line_grammar.json','mousetrap_word_dictionary.json','mousetrap_line_structure.json','src/mousetrap_stage_directions.json'
 ];
 const DATA=new Set(DATA_ASSETS);
 const timeoutFetch=(request,ms=7000)=>new Promise((resolve,reject)=>{

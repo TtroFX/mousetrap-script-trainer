@@ -24,6 +24,26 @@ const script=readJson(scriptPath);
 let speeches=0;const expectedIds=[];
 for(const[id,count]of scenes){const rows=script[id]?.speeches;if(!Array.isArray(rows)||rows.length!==count)fail(`script ${id} count`);rows.forEach((row,i)=>{const expected=`${id}-speech-${String(i+1).padStart(4,'0')}`;if(row?.id!==expected||!row?.speaker||!row?.text)fail(`script ${id} #${i+1}`);expectedIds.push(expected)});speeches+=rows.length}
 if(speeches!==1164)fail('script total');
+const speechScene=new Map();
+for(const [sceneId] of scenes)for(const speech of script[sceneId].speeches)speechScene.set(speech.id,sceneId);
+const stagePath=path.join(rootDir,'mousetrap_stage_directions.json');
+const stageRuntimePath=path.join(appDir,'src/mousetrap_stage_directions.json');
+if(!fs.existsSync(stagePath)||!fs.existsSync(stageRuntimePath)||sha(stagePath)!==sha(stageRuntimePath))fail('canonical/runtime stage directions differ');
+const stageDirections=readJson(stagePath);
+if(stageDirections.schemaVersion!==2||stageDirections.entries?.length!==777||stageDirections.counts?.standalone!==5||stageDirections.counts?.attached!==772||stageDirections.counts?.total!==777)fail('stage direction schema/counts invalid');
+if(stageDirections.policy?.canonicalSpeechCountUnchanged!==1164||stageDirections.policy?.orderedScriptStream!==true||stageDirections.policy?.explicitSourceOrder!==true||stageDirections.policy?.stageDirectionsAreNotSpeeches!==true)fail('stage direction policy invalid');
+const stageIds=new Set(),stageSceneCounts=new Map(),stageCategories=new Map();
+let stageStandalone=0,stageAttached=0;
+for(const entry of stageDirections.entries){
+  const expectedOrder=(stageSceneCounts.get(entry.sceneId)||0)+1;
+  const anchorSpeech=String(entry.anchor?.speechId||'');
+  if(!entry?.id||stageIds.has(entry.id)||entry.sourceOrder!==expectedOrder||speechScene.get(anchorSpeech)!==entry.sceneId||!String(entry.text||'').trim()||!String(entry.category||'').trim())fail(`stage direction invalid ${entry?.id||'unknown'}`);
+  if(entry.kind==='scene-setting')stageStandalone++;
+  else if(entry.kind==='stage-direction'&&entry.speechId===anchorSpeech&&entry.placement===entry.anchor?.type)stageAttached++;
+  else fail(`stage direction kind/anchor invalid ${entry.id}`);
+  stageIds.add(entry.id);stageSceneCounts.set(entry.sceneId,entry.sourceOrder);stageCategories.set(entry.category,(stageCategories.get(entry.category)||0)+1);
+}
+if(stageStandalone!==5||stageAttached!==772||[...stageSceneCounts.values()].join(',')!=='185,229,363')fail('stage direction derived counts/order invalid');
 const translations=readJson(path.join(rootDir,'mousetrap_line_translations.json'));
 const vocabulary=readJson(path.join(rootDir,'mousetrap_line_vocabulary.json'));
 const grammar=readJson(path.join(rootDir,'mousetrap_line_grammar.json'));
@@ -73,7 +93,7 @@ for(const line of Object.values(structure.lines))for(const sentence of line.sent
 
 const required=['index.html','manifest.webmanifest','sw.js','offline.html','pwa-version.json'];
 for(const file of required)if(!fs.existsSync(path.join(appDir,file)))fail(`missing runtime ${file}`);
-for(const file of ['src/app.css','src/config.js','src/data-store.js','src/state-store.js','src/resume-bookmarks.js','src/gesture-controls.js','src/main.js','src/study/study.css','src/study/structure-model.js','src/study/structure-view.js','src/study/dictionary-sheet.js'])if(!fs.existsSync(path.join(appDir,file)))fail(`missing module ${file}`);
+for(const file of ['src/app.css','src/focus-mode.css','src/stage-directions.css','src/config.js','src/data-store.js','src/state-store.js','src/resume-bookmarks.js','src/gesture-controls.js','src/main.js','src/stage-directions.js','src/mousetrap_stage_directions.json','src/study/study.css','src/study/structure-model.js','src/study/structure-view.js','src/study/dictionary-sheet.js'])if(!fs.existsSync(path.join(appDir,file)))fail(`missing module ${file}`);
 const legacy=['p5_app.js','reader_sheet.js','practice_navigation.js','p6_private_data.js','p6_pwa.js','p6_pwa.css','P2_learning.html','008_cue_practice_P3.html','009_rehearsal_P4.html'];
 
 if(!verifyOnly){
@@ -88,6 +108,7 @@ if(!verifyOnly){
   const files=Object.fromEntries(contract.files.map(item=>[item.path,sha(path.join(outDir,item.path))]));
   files['mousetrap_line_interpretation.json']=sha(interpretationPath);
   files['mousetrap_line_structure.json']=sha(path.join(outDir,'mousetrap_line_structure.json'));
-  fs.writeFileSync(path.join(outDir,'production-bundle.json'),JSON.stringify({schemaVersion:2,buildId:version.buildId,runtime:'index-zero',verifiedAt:new Date().toISOString(),qa:{speeches:1164,translations:1164,interpretationCoverage:1164,interpretationSpeeches,interpretationNotes,vocabulary:vocabItems,vocabularyDisplayed,vocabularyNeutralOnly,grammar:grammarItems,dictionary:Object.keys(dictionary).length,structureSentences:2334,structureClauses:2939,structureChunks:11810},files},null,2)+'\n');
+  files['src/mousetrap_stage_directions.json']=sha(path.join(outDir,'src/mousetrap_stage_directions.json'));
+  fs.writeFileSync(path.join(outDir,'production-bundle.json'),JSON.stringify({schemaVersion:2,buildId:version.buildId,runtime:'index-zero',verifiedAt:new Date().toISOString(),qa:{speeches:1164,translations:1164,interpretationCoverage:1164,interpretationSpeeches,interpretationNotes,vocabulary:vocabItems,vocabularyDisplayed,vocabularyNeutralOnly,grammar:grammarItems,dictionary:Object.keys(dictionary).length,structureSentences:2334,structureClauses:2939,structureChunks:11810,stageDirections:777,stageStandalone,stageAttached,stageCategories:Object.fromEntries(stageCategories)},files},null,2)+'\n');
 }
-console.log(JSON.stringify({status:'PASS',runtime:'index-zero',buildId:version.buildId,mode:verifyOnly?'verify-only':'assembled',qa:{speeches:1164,translations:1164,interpretationCoverage:1164,interpretationSpeeches,interpretationNotes,vocabulary:vocabItems,vocabularyDisplayed,vocabularyNeutralOnly,grammar:grammarItems,dictionary:Object.keys(dictionary).length,structureSentences:2334,structureClauses:2939,structureChunks:11810}},null,2));
+console.log(JSON.stringify({status:'PASS',runtime:'index-zero',buildId:version.buildId,mode:verifyOnly?'verify-only':'assembled',qa:{speeches:1164,translations:1164,interpretationCoverage:1164,interpretationSpeeches,interpretationNotes,vocabulary:vocabItems,vocabularyDisplayed,vocabularyNeutralOnly,grammar:grammarItems,dictionary:Object.keys(dictionary).length,structureSentences:2334,structureClauses:2939,structureChunks:11810,stageDirections:777,stageStandalone,stageAttached,stageCategories:Object.fromEntries(stageCategories)}},null,2));

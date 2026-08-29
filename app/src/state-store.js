@@ -21,6 +21,8 @@ export class StateStore extends EventTarget {
   setRole(role) { if (!CAST.includes(role)) return false; safeSet(STORAGE_KEYS.character, role); this.emit('change', { key: 'role', value: role }); return true; }
   readerMode() { const value = safeGet(STORAGE_KEYS.readerMode) || 'full'; return READER_MODES.includes(value) ? value : 'full'; }
   setReaderMode(mode) { const value = READER_MODES.includes(mode) ? mode : 'full'; safeSet(STORAGE_KEYS.readerMode, value); this.emit('change', { key: 'readerMode', value }); return value; }
+  stageDirectionsVisible() { return safeGet(STORAGE_KEYS.stageDirectionsVisible) !== 'false'; }
+  setStageDirectionsVisible(visible) { const value = visible !== false; safeSet(STORAGE_KEYS.stageDirectionsVisible, String(value)); this.emit('change', { key: 'stageDirectionsVisible', value }); return value; }
 
   resumeState() {
     const raw = safeParse(safeGet(STORAGE_KEYS.resume), {}) || {};

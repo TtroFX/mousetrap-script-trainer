@@ -29,6 +29,7 @@ jobs:
       - name: Validate committed canonical data
         run: |
           node scripts/validate-vocabulary-semantics.mjs
+          node scripts/validate-stage-directions.mjs
           python3 -m py_compile app/scripts/validate-chunking-v1.py
           python3 app/scripts/validate-chunking-v1.py --root . --structure app/mousetrap_line_structure.json --report /tmp/chunking-v1-pages-qa.json
 
@@ -39,12 +40,14 @@ jobs:
           node --check src/data-store.js
           node --check src/state-store.js
           node --check src/main.js
+          node --check src/stage-directions.js
           node --check src/study/structure-model.js
           node --check src/study/structure-view.js
           node --check src/study/dictionary-sheet.js
           node --check sw.js
           node --check scripts/assemble-production.mjs
           node tests/index_zero_static.mjs
+          node tests/stage_directions_static.mjs
           node tests/offline_pwa_static.mjs
           node scripts/assemble-production.mjs --verify-only
 
@@ -55,6 +58,9 @@ jobs:
           touch public/.nojekyll
           test -e public/index.html
           test -e public/src/main.js
+          test -e public/src/stage-directions.js
+          test -e public/src/stage-directions.css
+          test -e public/src/mousetrap_stage_directions.json
           test -e public/src/study/study.css
           test -e public/src/study/structure-model.js
           test -e public/src/study/structure-view.js

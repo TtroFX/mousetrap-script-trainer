@@ -31,6 +31,7 @@ jobs:
       - name: Validate canonical source data
         run: |
           node scripts/validate-vocabulary-semantics.mjs
+          node scripts/validate-stage-directions.mjs
           node scripts/validate-interpretation-scene.mjs act1-scene1
           node scripts/validate-interpretation-scene.mjs act1-scene2
           node scripts/validate-interpretation-scene.mjs act2
@@ -42,16 +43,21 @@ jobs:
           node --check src/config.js
           node --check src/data-store.js
           node --check src/main.js
+          node --check src/stage-directions.js
           node --check src/study/structure-model.js
           node --check src/study/structure-view.js
           node --check src/study/dictionary-sheet.js
           node --check sw.js
           node --check scripts/assemble-production.mjs
           node tests/index_zero_static.mjs
+          node tests/stage_directions_static.mjs
           node tests/offline_pwa_static.mjs
           node scripts/assemble-production.mjs --verify-only
           node scripts/assemble-production.mjs --out-dir ../public
           test -e ../public/mousetrap_line_interpretation.json
+          test -e ../public/src/mousetrap_stage_directions.json
+          test -e ../public/src/stage-directions.js
+          test -e ../public/src/stage-directions.css
           test -e ../public/src/study/structure-view.js
           test -e ../public/src/study/dictionary-sheet.js
       - name: Install browser QA

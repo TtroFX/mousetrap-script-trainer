@@ -1,4 +1,4 @@
-import { DATA_PATHS, SCENES, CORE_TIMEOUT_MS, STUDY_TIMEOUT_MS, STRUCTURE_TIMEOUT_MS } from './config.js';
+import { DATA_PATHS, SCENES, CORE_TIMEOUT_MS, STUDY_TIMEOUT_MS, STRUCTURE_TIMEOUT_MS, STAGE_TIMEOUT_MS } from './config.js';
 
 const now = () => (globalThis.performance?.now ? performance.now() : Date.now());
 function createState() { return { status: 'idle', error: null, startedAt: 0, finishedAt: 0 }; }
@@ -180,14 +180,38 @@ function validateStructure(value, script) {
   return value;
 }
 
+function validateStageDirections(value,script){
+  if(!script)throw new Error('stage directions: canonical script must be loaded first');
+  if(value?.schemaVersion!==2||!Array.isArray(value.entries)||value.entries.length!==777)throw new Error('stage directions: schema/count invalid');
+  if(value.counts?.standalone!==5||value.counts?.attached!==772||value.counts?.total!==777)throw new Error('stage directions: declared counts invalid');
+  const expectedScenes=new Map(SCENES.map(scene=>[scene.id,scene]));
+  const speechScene=new Map();
+  for(const scene of SCENES)for(const speech of script[scene.id]?.speeches||[])speechScene.set(speech.id,scene.id);
+  const ids=new Set(),orders=new Map();
+  for(const entry of value.entries){
+    const scene=expectedScenes.get(entry?.sceneId),expectedOrder=(orders.get(entry?.sceneId)||0)+1;
+    if(!entry?.id||ids.has(entry.id)||!scene||entry.sourceOrder!==expectedOrder||!String(entry.text||'').trim()||!String(entry.category||'').trim())throw new Error(`stage directions: invalid entry ${entry?.id||'unknown'}`);
+    ids.add(entry.id);orders.set(entry.sceneId,entry.sourceOrder);
+    const anchorSpeech=String(entry.anchor?.speechId||'');
+    if(speechScene.get(anchorSpeech)!==entry.sceneId)throw new Error(`stage directions: broken anchor ${entry.id}`);
+    if(entry.kind==='scene-setting'){
+      if(!['before','after'].includes(entry.anchor?.type))throw new Error(`stage directions: invalid scene setting ${entry.id}`);
+    }else if(entry.kind==='stage-direction'){
+      if(entry.speechId!==anchorSpeech||entry.placement!==entry.anchor?.type||!['before','delivery','after'].includes(entry.placement))throw new Error(`stage directions: invalid speech attachment ${entry.id}`);
+    }else throw new Error(`stage directions: invalid kind ${entry.id}`);
+  }
+  return value;
+}
+
 export class DataStore extends EventTarget {
   constructor() {
     super();
-    this.script = null; this.translations = null; this.interpretation = null; this.vocabulary = null; this.grammar = null; this.dictionary = null; this.structure = null;
-    this.coreState = createState(); this.studyState = createState(); this.structureState = createState();
-    this.corePromise = null; this.studyPromise = null; this.structurePromise = null;
+    this.script = null; this.translations = null; this.interpretation = null; this.vocabulary = null; this.grammar = null; this.dictionary = null; this.structure = null; this.stageDirections = null;
+    this.coreState = createState(); this.studyState = createState(); this.structureState = createState(); this.stageState = createState();
+    this.corePromise = null; this.studyPromise = null; this.structurePromise = null; this.stagePromise = null;
     this.speechById = new Map(); this.sceneBySpeech = new Map();
-    this.metrics = { requests: 0, failures: 0, coreMs: null, studyMs: null, structureMs: null };
+    this.stageById = new Map(); this.stageBySpeech = new Map(); this.stageByScene = new Map(); this.readerSequenceByScene = new Map();
+    this.metrics = { requests: 0, failures: 0, coreMs: null, studyMs: null, structureMs: null, stageMs: null };
   }
   emit(type, detail = {}) { this.dispatchEvent(new CustomEvent(type, { detail })); }
 
@@ -240,10 +264,58 @@ export class DataStore extends EventTarget {
     return this.structurePromise;
   }
 
+  async loadStageDirections({force=false}={}){
+    if(this.stageState.status==='ready'&&!force)return this.stageDirections;
+    if(this.stagePromise&&!force)return this.stagePromise;
+    this.stageState={...createState(),status:'loading',startedAt:now()};this.emit('state',{area:'stage',state:this.stageState});
+    this.stagePromise=(async()=>{
+      try{
+        if(!this.hasCore())await this.loadCore();
+        this.metrics.requests+=1;
+        this.stageDirections=validateStageDirections(await fetchJson(DATA_PATHS.stageDirections,STAGE_TIMEOUT_MS),this.script);
+        this.stageById.clear();this.stageBySpeech.clear();this.stageByScene.clear();this.readerSequenceByScene.clear();
+        for(const entry of this.stageDirections.entries){
+          this.stageById.set(entry.id,entry);
+          if(!this.stageByScene.has(entry.sceneId))this.stageByScene.set(entry.sceneId,[]);
+          this.stageByScene.get(entry.sceneId).push(entry);
+          const speechId=entry.kind==='scene-setting'?entry.anchor.speechId:entry.speechId;
+          if(!this.stageBySpeech.has(speechId))this.stageBySpeech.set(speechId,[]);
+          this.stageBySpeech.get(speechId).push(entry);
+        }
+        for(const scene of SCENES){
+          const speeches=this.getScene(scene.id),pre=new Map(),post=new Map(),append=(map,key,entry)=>{if(!map.has(key))map.set(key,[]);map.get(key).push(entry)};
+          for(const entry of this.stageByScene.get(scene.id)||[]){
+            if(entry.kind==='scene-setting')append(entry.anchor.type==='before'?pre:post,entry.anchor.speechId,entry);
+            else if(entry.placement==='delivery')append(pre,entry.speechId,entry);
+            else if(entry.placement==='after')append(post,entry.speechId,entry);
+            else{
+              const index=speeches.findIndex(speech=>speech.id===entry.speechId);
+              append(index<=0?pre:post,index<=0?entry.speechId:speeches[index-1].id,entry);
+            }
+          }
+          for(const rows of [...pre.values(),...post.values()])rows.sort((a,b)=>a.sourceOrder-b.sourceOrder);
+          const sequence=[];
+          for(const speech of speeches){
+            for(const entry of pre.get(speech.id)||[])sequence.push({kind:'stage',sceneId:scene.id,id:entry.id,stage:entry});
+            sequence.push({kind:'speech',sceneId:scene.id,id:speech.id,speech});
+            for(const entry of post.get(speech.id)||[])sequence.push({kind:'stage',sceneId:scene.id,id:entry.id,stage:entry});
+          }
+          const stageOrders=sequence.filter(item=>item.kind==='stage').map(item=>item.stage.sourceOrder);
+          if(sequence.length!==speeches.length+(this.stageByScene.get(scene.id)?.length||0)||stageOrders.some((order,index)=>order!==index+1))throw new Error(`stage directions: reader order invalid ${scene.id}`);
+          this.readerSequenceByScene.set(scene.id,sequence);
+        }
+        this.stageState.status='ready';this.stageState.error=null;this.stageState.finishedAt=now();this.metrics.stageMs=Math.round(this.stageState.finishedAt-this.stageState.startedAt);this.emit('ready',{area:'stage'});return this.stageDirections;
+      }catch(error){this.metrics.failures+=1;this.stageState.status='error';this.stageState.error=error;this.stageState.finishedAt=now();this.emit('error',{area:'stage',error});throw error}
+      finally{this.stagePromise=null}
+    })();
+    return this.stagePromise;
+  }
+
   studySnapshot() { return { translations: this.translations, interpretation: this.interpretation, vocabulary: this.vocabulary, grammar: this.grammar, dictionary: this.dictionary }; }
   hasCore() { return this.coreState.status === 'ready' && !!this.script; }
   hasStudy() { return this.studyState.status === 'ready'; }
   hasStructure() { return this.structureState.status === 'ready'; }
+  hasStageDirections() { return this.stageState.status === 'ready' && !!this.stageDirections; }
   getScene(sceneId) { return this.script?.[sceneId]?.speeches || []; }
   getSpeech(sceneId, lineId) { return this.getScene(sceneId).find(x => x.id === lineId) || null; }
   getSpeechById(lineId) { return this.speechById.get(lineId) || null; }
@@ -256,5 +328,9 @@ export class DataStore extends EventTarget {
   getGrammar(lineId) { return Array.isArray(this.grammar?.[lineId]) ? this.grammar[lineId] : []; }
   getDictionary(lemma) { if (!this.dictionary || !lemma) return null; if (this.dictionary[lemma]) return this.dictionary[lemma]; const target = String(lemma).trim().toLowerCase(); const key = Object.keys(this.dictionary).find(k => k.trim().toLowerCase() === target); return key ? this.dictionary[key] : null; }
   getStructure(lineId) { return this.structure?.lines?.[lineId] || null; }
-  diagnostics() { return { core: { ...this.coreState, error: this.coreState.error ? String(this.coreState.error.message || this.coreState.error) : null }, study: { ...this.studyState, error: this.studyState.error ? String(this.studyState.error.message || this.studyState.error) : null }, structure: { ...this.structureState, error: this.structureState.error ? String(this.structureState.error.message || this.structureState.error) : null }, metrics: { ...this.metrics } }; }
+  getStageDirection(id){return this.stageById.get(id)||null}
+  getStageDirectionsForSpeech(lineId){return[...(this.stageBySpeech.get(lineId)||[])].sort((a,b)=>a.sourceOrder-b.sourceOrder)}
+  getStageDirectionsForScene(sceneId){return[...(this.stageByScene.get(sceneId)||[])]}
+  getReaderSequence(sceneId){return[...(this.readerSequenceByScene.get(sceneId)||[])]}
+  diagnostics() { return { core: { ...this.coreState, error: this.coreState.error ? String(this.coreState.error.message || this.coreState.error) : null }, study: { ...this.studyState, error: this.studyState.error ? String(this.studyState.error.message || this.studyState.error) : null }, structure: { ...this.structureState, error: this.structureState.error ? String(this.structureState.error.message || this.structureState.error) : null }, stage: { ...this.stageState, error: this.stageState.error ? String(this.stageState.error.message || this.stageState.error) : null }, metrics: { ...this.metrics } }; }
 }
