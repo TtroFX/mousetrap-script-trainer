@@ -20,44 +20,42 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Fix coverage audit morphology typo
+      - name: Fix audit morphology typo
         run: node scripts/fix-vocabulary-coverage-audit-typo.mjs
-      - name: Audit dialogue vocabulary coverage before reviewed repair
+      - name: Audit before repair
         run: node scripts/audit-vocabulary-full-coverage.mjs
-      - name: Apply remaining safe dialogue coverage repairs
+      - name: Apply safe repairs
         run: node scripts/apply-safe-vocabulary-full-coverage.mjs
-      - name: Re-audit after safe repair
+      - name: Re-audit
         run: node scripts/audit-vocabulary-full-coverage.mjs
-      - name: Apply consensus polysemy coverage repairs
+      - name: Apply consensus context repairs
         run: node scripts/apply-consensus-polysemy-coverage.mjs
-      - name: Apply manual residual polysemy resolutions
+      - name: Apply manual context resolutions
         run: node scripts/apply-manual-dialogue-polysemy-coverage.mjs
-      - name: Re-audit after polysemy repair
+      - name: Re-audit context repairs
         run: node scripts/audit-vocabulary-full-coverage.mjs
-      - name: Apply reviewed suspicious dialogue vocabulary
+      - name: Apply reviewed vocabulary additions
         run: node scripts/apply-suspicious-dialogue-coverage.mjs
-      - name: Re-audit after reviewed suspicious repair
+      - name: Converge safe candidates
+        run: node scripts/converge-safe-vocabulary-coverage.mjs
+      - name: Final coverage audit
         run: node scripts/audit-vocabulary-full-coverage.mjs
-      - name: Apply newly exposed safe coverage repairs
-        run: node scripts/apply-safe-vocabulary-full-coverage.mjs
-      - name: Audit dialogue vocabulary coverage final
-        run: node scripts/audit-vocabulary-full-coverage.mjs
-      - name: Cross-check historical B1 plus and Oxford reviews
+      - name: Historical review cross-check
         run: node scripts/crosscheck-historical-vocabulary-coverage.mjs
-      - name: Build focused residual review
+      - name: Build focused review
         run: node scripts/build-dialogue-coverage-review-focus.mjs
-      - name: Build compact polysemy residual
+      - name: Build context residual
         run: node scripts/build-dialogue-polysemy-residual.mjs
-      - name: Export suspicious residual ledger
+      - name: Export residual ledger
         run: node scripts/export-dialogue-suspicious-review.mjs
-      - name: Classify every residual dialogue token type
+      - name: Classify residual token types
         run: node scripts/classify-dialogue-coverage-residual.mjs
-      - name: Validate vocabulary semantics
+      - name: Validate semantics
         run: node scripts/validate-vocabulary-semantics.mjs
       - name: Verify production assembly
         working-directory: app
         run: node scripts/assemble-production.mjs --verify-only
-      - name: Commit repaired data and audit reports
+      - name: Commit data and reports
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
