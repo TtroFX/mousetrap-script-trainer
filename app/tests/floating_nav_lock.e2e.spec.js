@@ -1,3 +1,4 @@
+// QA trigger only: behavior identical to main r15.
 const {test,expect}=require('@playwright/test');
 const BASE='http://127.0.0.1:4173/index.html';
 
