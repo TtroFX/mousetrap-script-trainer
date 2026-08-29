@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "AUDIT_COMPLETE",
   "counts": {
     "canonicalSpeeches": 1164,
@@ -8,16 +8,16 @@
     "tokenCount": 15934,
     "functionTokenCount": 10024,
     "knownNameTokenCount": 266,
-    "properDeferredCount": 272,
+    "properDeferredCount": 274,
     "reviewCandidates": 2930,
     "unknownTokenTypes": 801,
-    "polysemyLemmaTypes": 9,
-    "properNounDeferredTypes": 50,
+    "polysemyLemmaTypes": 8,
+    "properNounDeferredTypes": 51,
     "byKind": {
-      "DEFER_PROPER_NOUN_PHASE3": 243,
+      "DEFER_PROPER_NOUN_PHASE3": 245,
       "REVIEW_NEW_LEXEME_OR_EXCLUSION": 2660,
       "REVIEW_POLYSEMY_EXACT_DICTIONARY": 13,
-      "REVIEW_POLYSEMY_MORPHOLOGY": 14
+      "REVIEW_POLYSEMY_MORPHOLOGY": 12
     }
   },
   "compact": {
@@ -27,7 +27,6 @@
       "follow",
       "haunt",
       "move",
-      "rise",
       "show",
       "start",
       "station"
@@ -75,6 +74,7 @@
       "ritz",
       "robin",
       "room",
+      "rose",
       "s",
       "spanish",
       "stanning",

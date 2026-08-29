@@ -2,32 +2,12 @@
   "schemaVersion": 1,
   "status": "REVIEW_FOCUS_BUILT",
   "counts": {
-    "polysemyOccurrences": 27,
-    "polysemyLemmas": 9,
+    "polysemyOccurrences": 25,
+    "polysemyLemmas": 8,
     "unknownTokenTypes": 801,
     "suspiciousTokenTypes": 119
   },
   "polysemy": [
-    {
-      "speechId": "act1-scene1-speech-0100",
-      "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "Rose",
-      "lemma": "rise",
-      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
-      "text": "I'll take these up. Which rooms did you say? Blue Room and the Rose Room."
-    },
-    {
-      "speechId": "act1-scene1-speech-0101",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "Rose",
-      "lemma": "rise",
-      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
-      "text": "No ― I put Mr. Wren in the Rose Room. He liked the fourposter so much. So it's Mrs. Boyle in the Oak Room and Major Metcalf in the Blue Room."
-    },
     {
       "speechId": "act1-scene1-speech-0109",
       "speaker": "MOLLIE",

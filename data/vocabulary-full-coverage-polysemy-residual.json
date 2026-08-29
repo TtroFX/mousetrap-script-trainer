@@ -2,26 +2,10 @@
   "schemaVersion": 1,
   "status": "REVIEW_REQUIRED",
   "counts": {
-    "lemmas": 9,
-    "occurrences": 27
+    "lemmas": 8,
+    "occurrences": 25
   },
   "groups": {
-    "rise": [
-      {
-        "speechId": "act1-scene1-speech-0100",
-        "surface": "Rose",
-        "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-        "speaker": "GILES",
-        "text": "I'll take these up. Which rooms did you say? Blue Room and the Rose Room."
-      },
-      {
-        "speechId": "act1-scene1-speech-0101",
-        "surface": "Rose",
-        "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-        "speaker": "MOLLIE",
-        "text": "No ― I put Mr. Wren in the Rose Room. He liked the fourposter so much. So it's Mrs. Boyle in the Oak Room and Major Metcalf in the Blue Room."
-      }
-    ],
     "start": [
       {
         "speechId": "act1-scene1-speech-0109",

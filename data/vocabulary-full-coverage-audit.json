@@ -1,12 +1,12 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "status": "AUDIT_COMPLETE",
   "scope": "Dialogue vocabulary coverage across all 1,164 canonical speeches. Stage directions and proper-noun completeness are audited separately in Phase 3.",
   "policy": {
     "functionWords": "Explicit closed-class/high-frequency discourse list and grammatical contractions may be intentionally excluded.",
     "easyContentWords": "Not automatically excluded merely for being easy.",
     "existingSurfaceReuse": "A surface→lemma mapping is reusable only when globally unambiguous and the dictionary entry exists.",
-    "morphology": "Only conservative transformations that resolve to an existing single-word dictionary key are accepted.",
+    "morphology": "Only conservative transformations that resolve to an existing single-word dictionary key are accepted, after proper-name evidence is checked.",
     "polysemy": "Never auto-add without inThisPlay review.",
     "properNouns": "Capitalized unresolved types are deferred, not silently excluded.",
     "unknownContentTokens": "Remain review-required until added or explicitly classified."
@@ -18,16 +18,16 @@
     "tokenCount": 15934,
     "functionTokenCount": 10024,
     "knownNameTokenCount": 266,
-    "properDeferredCount": 272,
+    "properDeferredCount": 274,
     "reviewCandidates": 2930,
     "unknownTokenTypes": 801,
-    "polysemyLemmaTypes": 9,
-    "properNounDeferredTypes": 50,
+    "polysemyLemmaTypes": 8,
+    "properNounDeferredTypes": 51,
     "byKind": {
-      "DEFER_PROPER_NOUN_PHASE3": 243,
+      "DEFER_PROPER_NOUN_PHASE3": 245,
       "REVIEW_NEW_LEXEME_OR_EXCLUSION": 2660,
       "REVIEW_POLYSEMY_EXACT_DICTIONARY": 13,
-      "REVIEW_POLYSEMY_MORPHOLOGY": 14
+      "REVIEW_POLYSEMY_MORPHOLOGY": 12
     }
   },
   "compact": {
@@ -37,7 +37,6 @@
       "follow",
       "haunt",
       "move",
-      "rise",
       "show",
       "start",
       "station"
@@ -85,6 +84,7 @@
       "ritz",
       "robin",
       "room",
+      "rose",
       "s",
       "spanish",
       "stanning",
@@ -1600,7 +1600,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "God",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0011",
@@ -2008,7 +2008,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "S",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0024",
@@ -2144,7 +2144,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Front",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0032",
@@ -2152,7 +2152,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Room",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0032",
@@ -2160,7 +2160,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Blue",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0032",
@@ -2168,7 +2168,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "East",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0032",
@@ -2176,7 +2176,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Oak",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0033",
@@ -2512,7 +2512,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0044",
@@ -2552,7 +2552,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "General's",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0046",
@@ -2776,7 +2776,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0054",
@@ -2888,7 +2888,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Harriet",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0054",
@@ -2936,7 +2936,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Oak",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0055",
@@ -2944,7 +2944,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Room",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0055",
@@ -3288,7 +3288,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Chris",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0067",
@@ -3296,7 +3296,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Wren's",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0067",
@@ -3352,7 +3352,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Englishwoman",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0071",
@@ -3376,7 +3376,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Englishwomen",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0071",
@@ -3392,7 +3392,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "English",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0072",
@@ -3432,7 +3432,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0078",
@@ -3648,7 +3648,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0089",
@@ -3912,7 +3912,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Blue",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0100",
@@ -3920,16 +3920,15 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Room",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0100",
       "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
+      "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Rose",
-      "lemma": "rise",
-      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding."
+      "lemma": "",
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0101",
@@ -3942,11 +3941,10 @@
     {
       "speechId": "act1-scene1-speech-0101",
       "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
+      "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Rose",
-      "lemma": "rise",
-      "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding."
+      "lemma": "",
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0101",
@@ -3954,7 +3952,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Room",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0101",
@@ -3970,7 +3968,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Oak",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0101",
@@ -3978,7 +3976,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Blue",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0105",
@@ -4132,7 +4130,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "North",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0114",
@@ -4140,7 +4138,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Wind",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0114",
@@ -4444,7 +4442,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0123",
@@ -5533,7 +5531,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Casewell's",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0166",
@@ -5597,7 +5595,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Metcalf's",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0169",
@@ -6142,7 +6140,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene1-speech-0190",
@@ -6304,7 +6302,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0006",
@@ -7472,7 +7470,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0077",
@@ -7938,7 +7936,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0095",
@@ -8002,7 +8000,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0099",
@@ -8634,7 +8632,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0128",
@@ -8810,7 +8808,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0136",
@@ -8874,7 +8872,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Police",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0139",
@@ -8882,7 +8880,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Police",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0139",
@@ -9018,7 +9016,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0146",
@@ -9130,7 +9128,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0152",
@@ -9258,7 +9256,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0160",
@@ -9306,7 +9304,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0165",
@@ -9394,7 +9392,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0172",
@@ -9458,7 +9456,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0177",
@@ -9490,7 +9488,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Police",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0179",
@@ -9506,7 +9504,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "West",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0179",
@@ -9626,7 +9624,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Stanning",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0183",
@@ -9650,7 +9648,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "John",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0183",
@@ -9658,7 +9656,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Longridge",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0183",
@@ -9666,7 +9664,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Farm",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0183",
@@ -9682,7 +9680,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Longridge",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0184",
@@ -9690,7 +9688,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Farm",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0184",
@@ -9706,7 +9704,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Longridge",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0185",
@@ -9714,7 +9712,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Farm",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0186",
@@ -9730,7 +9728,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Corrigans",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0187",
@@ -9778,7 +9776,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Stanning",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0187",
@@ -9786,7 +9784,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Longridge",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0187",
@@ -9794,7 +9792,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Farm",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0187",
@@ -9850,7 +9848,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Stannings",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0189",
@@ -9858,7 +9856,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Stanning",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0189",
@@ -9978,7 +9976,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Longridge",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0193",
@@ -9986,7 +9984,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Farm",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0195",
@@ -10202,7 +10200,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0206",
@@ -10426,7 +10424,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Stanning",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0214",
@@ -10450,7 +10448,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Longridge",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0215",
@@ -10458,7 +10456,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Farm",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0217",
@@ -10506,7 +10504,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0221",
@@ -10651,7 +10649,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Longridge",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0226",
@@ -10659,7 +10657,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Farm",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0226",
@@ -10772,7 +10770,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Longridge",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0231",
@@ -10780,7 +10778,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Farm",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0231",
@@ -10829,7 +10827,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Edinburgh",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0233",
@@ -10893,7 +10891,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0236",
@@ -11206,7 +11204,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Longridge",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0253",
@@ -11214,7 +11212,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Farm",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0254",
@@ -12078,7 +12076,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0306",
@@ -12158,7 +12156,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Bournemouth",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0309",
@@ -12198,7 +12196,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Hampstead",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0311",
@@ -12222,7 +12220,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Kensington",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0311",
@@ -12334,7 +12332,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0316",
@@ -12382,7 +12380,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Stanning",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0316",
@@ -12559,7 +12557,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0324",
@@ -12631,7 +12629,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act1-scene2-speech-0330",
@@ -12839,7 +12837,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0001",
@@ -13119,7 +13117,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0011",
@@ -13191,7 +13189,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0014",
@@ -13271,7 +13269,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Longridge",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0017",
@@ -13279,7 +13277,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Farm",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0019",
@@ -13343,7 +13341,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Longridge",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0021",
@@ -13351,7 +13349,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Farm",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0022",
@@ -13535,7 +13533,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0024",
@@ -13655,7 +13653,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0027",
@@ -13711,7 +13709,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0031",
@@ -13903,7 +13901,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0042",
@@ -13911,7 +13909,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0042",
@@ -14248,7 +14246,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0061",
@@ -14256,7 +14254,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0061",
@@ -14304,7 +14302,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0068",
@@ -14352,7 +14350,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0071",
@@ -14672,7 +14670,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0083",
@@ -14872,7 +14870,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0092",
@@ -14880,7 +14878,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0092",
@@ -15152,7 +15150,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Chris",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0098",
@@ -15296,7 +15294,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0104",
@@ -15336,7 +15334,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0109",
@@ -15392,7 +15390,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Farm",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0110",
@@ -15528,7 +15526,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0113",
@@ -15552,7 +15550,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0116",
@@ -15568,7 +15566,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Army",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0117",
@@ -15704,7 +15702,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0125",
@@ -15864,7 +15862,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0131",
@@ -16116,7 +16114,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0143",
@@ -16276,7 +16274,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0149",
@@ -16396,7 +16394,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0152",
@@ -16572,7 +16570,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0165",
@@ -16668,7 +16666,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Army",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0165",
@@ -17060,7 +17058,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0175",
@@ -17084,7 +17082,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "News",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0177",
@@ -17300,7 +17298,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Chris",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0196",
@@ -17364,7 +17362,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Robin",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0202",
@@ -17404,7 +17402,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Army",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0204",
@@ -17748,7 +17746,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Giles's",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0235",
@@ -18213,7 +18211,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Chris",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0261",
@@ -19222,7 +19220,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0320",
@@ -19230,7 +19228,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0320",
@@ -19326,7 +19324,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Market",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0324",
@@ -19334,7 +19332,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Hampton",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0324",
@@ -19422,7 +19420,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0332",
@@ -19438,7 +19436,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0335",
@@ -19582,7 +19580,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0347",
@@ -20991,7 +20989,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ritz",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0413",
@@ -20999,7 +20997,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Hotel",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0414",
@@ -21175,7 +21173,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Margaret",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0433",
@@ -21183,7 +21181,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Katherine",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0434",
@@ -21191,7 +21189,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Katherine",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0435",
@@ -21207,7 +21205,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "K",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0436",
@@ -21231,7 +21229,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Mariposa",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0437",
@@ -21239,7 +21237,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Pine",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0437",
@@ -21263,7 +21261,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Spanish",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0440",
@@ -21279,7 +21277,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "English",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0442",
@@ -21735,7 +21733,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Margaret",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0487",
@@ -21743,7 +21741,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Katherine",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0488",
@@ -21751,7 +21749,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Katherine",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0488",
@@ -21767,7 +21765,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "God",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0489",
@@ -22063,7 +22061,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0506",
@@ -22111,7 +22109,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0507",
@@ -22167,7 +22165,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0509",
@@ -22223,7 +22221,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0511",
@@ -22343,7 +22341,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0517",
@@ -22584,7 +22582,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0532",
@@ -22792,7 +22790,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0552",
@@ -22904,7 +22902,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0558",
@@ -22952,7 +22950,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Wren's",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0558",
@@ -23025,7 +23023,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0558",
@@ -23146,7 +23144,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0565",
@@ -23226,7 +23224,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0573",
@@ -23314,7 +23312,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0575",
@@ -23362,7 +23360,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Waring",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0579",
@@ -23370,7 +23368,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Waring",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0579",
@@ -23658,7 +23656,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0587",
@@ -23714,7 +23712,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0589",
@@ -24186,7 +24184,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0604",
@@ -24314,7 +24312,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0616",
@@ -24435,7 +24433,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0618",
@@ -24731,7 +24729,7 @@
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
-      "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
+      "reason": "Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology."
     },
     {
       "speechId": "act2-speech-0637",
