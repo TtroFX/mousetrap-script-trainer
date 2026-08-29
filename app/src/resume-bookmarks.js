@@ -158,10 +158,20 @@ export class ResumeBookmarksUI {
     el.setAttribute('aria-label', active ? 'Reading marker is here' : 'Set reading marker here');
     el.setAttribute('aria-pressed', active ? 'true' : 'false');
     el.dataset.shioriToggle = lineId;
-    const glyph = document.createElement('span');
+    const glyph = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    glyph.setAttribute('viewBox', '0 0 24 28');
+    glyph.setAttribute('width', '18');
+    glyph.setAttribute('height', '22');
     glyph.setAttribute('aria-hidden', 'true');
-    glyph.style.cssText = 'display:block;width:14px;height:18px;border:2px solid currentColor;border-radius:2px 2px 0 0;clip-path:polygon(0 0,100% 0,100% 100%,50% 72%,0 100%);';
-    if (active) glyph.style.background = 'currentColor';
+    glyph.setAttribute('data-shiori-glyph', '1');
+    glyph.style.pointerEvents = 'none';
+    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    path.setAttribute('d', 'M5 2h14v23l-7-5-7 5V2z');
+    path.setAttribute('fill', active ? 'currentColor' : 'none');
+    path.setAttribute('stroke', 'currentColor');
+    path.setAttribute('stroke-width', '2.2');
+    path.setAttribute('stroke-linejoin', 'round');
+    glyph.append(path);
     el.append(glyph);
     const set = event => {
       event.preventDefault();
@@ -176,8 +186,8 @@ export class ResumeBookmarksUI {
         button.classList.toggle('active', selected);
         button.setAttribute('aria-pressed', selected ? 'true' : 'false');
         button.setAttribute('aria-label', selected ? 'Reading marker is here' : 'Set reading marker here');
-        const icon = button.firstElementChild;
-        if (icon) icon.style.background = selected ? 'currentColor' : 'transparent';
+        const icon = button.querySelector('[data-shiori-glyph] path');
+        if (icon) icon.setAttribute('fill', selected ? 'currentColor' : 'none');
       });
       this.showToast(result.moved ? 'Reading marker moved' : 'Reading marker set');
     };

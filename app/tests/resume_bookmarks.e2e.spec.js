@@ -144,12 +144,12 @@ test('Resume, Shiori, and Bookmark runtime survive an offline PWA reload',async(
   await context.setOffline(true);
   await page.reload({waitUntil:'domcontentloaded'});
   await page.waitForFunction(()=>window.MTS_INDEX_ZERO?.store?.hasCore?.(),null,{timeout:12000});
-  await page.goto(BASE+'#/home');
+  await page.evaluate(()=>{location.hash='#/home'});
   await expect(page.getByRole('heading',{name:'Learn Your Lines'})).toBeVisible();
   await expect(page.locator('[data-resume-home]')).toContainText('Reading marker');
   await page.getByRole('button',{name:'Continue'}).click();
   await expect(page).toHaveURL(new RegExp('#\\/script\\?line='+markerLine+'$'));
-  await page.goto(BASE+'#/bookmarks');
+  await page.evaluate(()=>{location.hash='#/bookmarks'});
   await expect(page.getByRole('heading',{name:'Bookmarks',exact:true})).toBeVisible();
   await context.setOffline(false);
 });
