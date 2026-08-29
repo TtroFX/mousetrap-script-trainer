@@ -12,7 +12,6 @@ if(!dkey.has('as follows')){
   dict['as follows']={lemma:'as follows',ipa:'/əz ˈfɒləʊz/',pos:'定型表現',coreMeaning:'【定型表現】\n次のとおり、以下のとおり。',forms:'定型表現として用いる。',tags:['chunk'],meaning:'【定型表現】\n次のとおり、以下のとおり。'};
   dkey.set('as follows','as follows');
 }
-// Dictionary meaning is canonical for every existing occurrence.
 for(const rows of Object.values(vocab))for(const item of rows||[]){const dk=dkey.get(key(item.lemma));if(dk&&(dk===showKey||dk===followKey))item.meaning=dict[dk].meaning;}
 let added=0;
 const add=(speechId,surface,lemma,ctx)=>{const dk=dkey.get(key(lemma));if(!dk)throw new Error(`dictionary missing ${lemma}`);const rows=vocab[speechId]||=([]);if(rows.some(x=>key(x.surface)===key(surface)&&key(x.lemma)===key(dk)))return;rows.push({surface,lemma:dk,meaning:dict[dk].meaning,playMeaning:true,inThisPlay:ctx});added++;};
@@ -26,7 +25,8 @@ add('act1-scene1-speech-0156','Show','show','ここでは場所を相手に示�
 for(const sid of ['act2-speech-0134','act2-speech-0135']) add(sid,'show','show','ここでは「見せる」ではなく、異常や性質が外見に「表れる／見て分かる」という意味。');
 add('act2-speech-0558','show','show','show you the way で「道を示す／案内する」という意味。');
 add('act1-scene1-speech-0187','faces','face','ここでは部屋が北の方を「向いている／北に面している」という動詞。');
-for(const [sid,surface] of [['act1-scene2-speech-0244','faces'],['act1-scene2-speech-0324','face'],['act2-speech-0132','face'],['act2-speech-0140','face'],['act2-speech-0243','faces'],['act2-speech-0381','face']]) add(sid,surface,'face','ここでは動詞ではなく、人の「顔」を表す名詞。');
+for(const [sid,surface] of [['act1-scene2-speech-0244','faces'],['act1-scene2-speech-0324','face'],['act2-speech-0132','face'],['act2-speech-0140','face'],['act2-speech-0243','faces'],['act2-speech-0381','face'],['act1-scene2-speech-0263','face']]) add(sid,surface,'face','ここでは動詞ではなく、人の「顔」を表す名詞。');
+add('act1-scene2-speech-0290','face','face','ここでは相手・問題から目をそらさず「向き合う／直面する」という動詞の意味。');
 add('act1-scene2-speech-0085','follow','follow','follow his instructions で「彼の指示に従う」という意味。');
 add('act1-scene2-speech-0226','following','follow','ここでは人物の後をつけて「尾行する／追跡する」に近い意味。');
 add('act2-speech-0517','as follows','as follows','発言内容を列挙する前の定型表現で「次のとおり」の意味。');
@@ -37,4 +37,4 @@ add('act2-speech-0318','moved','move','ここでは物の位置を変える、�
 write(D,dict);write(V,vocab);
 const ds=sha(D),vs=sha(V);const contract=read(C);for(const f of contract.files||[]){if(f.path===D)f.sha256=ds;if(f.path===V)f.sha256=vs;}write(C,contract);
 const manifest=read(M);if(manifest.studyAssets?.wordDictionary){manifest.studyAssets.wordDictionary.sha256=ds;manifest.studyAssets.wordDictionary.entries=Object.keys(dict).length;}if(manifest.studyAssets?.lineVocabulary){manifest.studyAssets.lineVocabulary.sha256=vs;manifest.studyAssets.lineVocabulary.items=Object.values(vocab).reduce((n,r)=>n+(r?.length||0),0);manifest.studyAssets.lineVocabulary.annotatedSpeeches=Object.values(vocab).filter(r=>r?.length).length;}write(M,manifest);
-const report={schemaVersion:1,status:'APPLIED',addedItems:added,dictionaryEntries:Object.keys(dict).length,vocabularyItems:Object.values(vocab).reduce((n,r)=>n+(r?.length||0),0),dictionaryChanges:['show','follow','as follows'],falsePositiveMorphologyDeferred:['act1-scene1-speech-0100|Rose','act1-scene1-speech-0101|Rose'],sha256:{dictionary:ds,vocabulary:vs}};write('data/vocabulary-full-coverage-polysemy-manual-repair.json',report);console.log(JSON.stringify(report,null,2));
+const report={schemaVersion:2,status:'APPLIED',addedItems:added,dictionaryEntries:Object.keys(dict).length,vocabularyItems:Object.values(vocab).reduce((n,r)=>n+(r?.length||0),0),dictionaryChanges:['show','follow','as follows'],falsePositiveMorphologyDeferred:['act1-scene1-speech-0100|Rose','act1-scene1-speech-0101|Rose'],sha256:{dictionary:ds,vocabulary:vs}};write('data/vocabulary-full-coverage-polysemy-manual-repair.json',report);console.log(JSON.stringify(report,null,2));
