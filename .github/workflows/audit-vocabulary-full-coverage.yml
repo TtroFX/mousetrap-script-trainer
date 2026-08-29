@@ -20,14 +20,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Audit dialogue vocabulary coverage pass 1
+      - name: Audit dialogue vocabulary coverage
         run: node scripts/audit-vocabulary-full-coverage.mjs
-      - name: Apply safe dialogue coverage repairs pass 1
+      - name: Apply remaining safe dialogue coverage repairs
         run: node scripts/apply-safe-vocabulary-full-coverage.mjs
-      - name: Audit dialogue vocabulary coverage pass 2
+      - name: Re-audit after safe repair
         run: node scripts/audit-vocabulary-full-coverage.mjs
-      - name: Apply safe dialogue coverage repairs pass 2
-        run: node scripts/apply-safe-vocabulary-full-coverage.mjs
+      - name: Apply consensus polysemy coverage repairs
+        run: node scripts/apply-consensus-polysemy-coverage.mjs
       - name: Audit dialogue vocabulary coverage final
         run: node scripts/audit-vocabulary-full-coverage.mjs
       - name: Validate vocabulary semantics
@@ -39,10 +39,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add mousetrap_line_vocabulary.json data/canonical-production-contract.json data/canonical-integration-manifest.json data/vocabulary-full-coverage-audit.json data/vocabulary-full-coverage-summary.json data/vocabulary-full-coverage-safe-repair.json
+          git add mousetrap_line_vocabulary.json data/canonical-production-contract.json data/canonical-integration-manifest.json data/vocabulary-full-coverage-audit.json data/vocabulary-full-coverage-summary.json data/vocabulary-full-coverage-safe-repair.json data/vocabulary-full-coverage-polysemy-consensus-repair.json
           if git diff --cached --quiet; then
             echo "No dialogue coverage changes."
             exit 0
           fi
-          git commit -m "Close safe dialogue vocabulary coverage candidates"
+          git commit -m "Reuse consensus polysemy contexts for dialogue coverage"
           git push origin HEAD:audit/vocabulary-full-coverage
