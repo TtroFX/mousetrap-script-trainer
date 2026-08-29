@@ -1,0 +1,1299 @@
+{
+  "schemaVersion": 2,
+  "status": "AUDIT_COMPLETE",
+  "counts": {
+    "canonicalSpeeches": 1164,
+    "vocabularyItems": 3706,
+    "dictionaryEntries": 1375,
+    "tokenCount": 15934,
+    "functionTokenCount": 10024,
+    "knownNameTokenCount": 266,
+    "properDeferredCount": 272,
+    "reviewCandidates": 3051,
+    "unknownTokenTypes": 801,
+    "polysemyLemmaTypes": 16,
+    "properNounDeferredTypes": 50,
+    "byKind": {
+      "ADD_EXISTING_SURFACE": 35,
+      "DEFER_PROPER_NOUN_PHASE3": 243,
+      "REVIEW_NEW_LEXEME_OR_EXCLUSION": 2660,
+      "REVIEW_POLYSEMY_EXACT_DICTIONARY": 14,
+      "REVIEW_POLYSEMY_EXISTING_SURFACE": 82,
+      "REVIEW_POLYSEMY_MORPHOLOGY": 17
+    }
+  },
+  "compact": {
+    "polysemyLemmas": [
+      "affair",
+      "check",
+      "consider",
+      "face",
+      "field",
+      "follow",
+      "gather",
+      "haunt",
+      "hold out",
+      "move",
+      "part",
+      "rise",
+      "show",
+      "start",
+      "station",
+      "upstage"
+    ],
+    "properNounTypes": [
+      "army",
+      "bank",
+      "blue",
+      "bournemouth",
+      "casewell's",
+      "chris",
+      "corrigans",
+      "east",
+      "edinburgh",
+      "english",
+      "englishwoman",
+      "englishwomen",
+      "farm",
+      "front",
+      "general's",
+      "giles's",
+      "god",
+      "guest",
+      "hampstead",
+      "hampton",
+      "harriet",
+      "hotel",
+      "house",
+      "john",
+      "k",
+      "katherine",
+      "kensington",
+      "longridge",
+      "margaret",
+      "mariposa",
+      "market",
+      "metcalf's",
+      "mice",
+      "news",
+      "north",
+      "oak",
+      "pine",
+      "police",
+      "ralston",
+      "ritz",
+      "robin",
+      "room",
+      "s",
+      "spanish",
+      "stanning",
+      "stannings",
+      "waring",
+      "west",
+      "wind",
+      "wren's"
+    ],
+    "topUnknownTokenTypes": [
+      {
+        "token": "know",
+        "count": 111
+      },
+      {
+        "token": "think",
+        "count": 64
+      },
+      {
+        "token": "say",
+        "count": 44
+      },
+      {
+        "token": "like",
+        "count": 38
+      },
+      {
+        "token": "got",
+        "count": 33
+      },
+      {
+        "token": "people",
+        "count": 33
+      },
+      {
+        "token": "go",
+        "count": 28
+      },
+      {
+        "token": "young",
+        "count": 26
+      },
+      {
+        "token": "get",
+        "count": 25
+      },
+      {
+        "token": "kitchen",
+        "count": 23
+      },
+      {
+        "token": "come",
+        "count": 22
+      },
+      {
+        "token": "going",
+        "count": 22
+      },
+      {
+        "token": "mean",
+        "count": 22
+      },
+      {
+        "token": "time",
+        "count": 21
+      },
+      {
+        "token": "snow",
+        "count": 20
+      },
+      {
+        "token": "things",
+        "count": 20
+      },
+      {
+        "token": "woman",
+        "count": 20
+      },
+      {
+        "token": "believe",
+        "count": 19
+      },
+      {
+        "token": "tell",
+        "count": 18
+      },
+      {
+        "token": "always",
+        "count": 17
+      },
+      {
+        "token": "true",
+        "count": 17
+      },
+      {
+        "token": "went",
+        "count": 17
+      },
+      {
+        "token": "heard",
+        "count": 16
+      },
+      {
+        "token": "man",
+        "count": 16
+      },
+      {
+        "token": "children",
+        "count": 15
+      },
+      {
+        "token": "name",
+        "count": 15
+      },
+      {
+        "token": "old",
+        "count": 15
+      },
+      {
+        "token": "said",
+        "count": 15
+      },
+      {
+        "token": "dear",
+        "count": 14
+      },
+      {
+        "token": "killed",
+        "count": 14
+      },
+      {
+        "token": "long",
+        "count": 14
+      },
+      {
+        "token": "seems",
+        "count": 14
+      },
+      {
+        "token": "thought",
+        "count": 14
+      },
+      {
+        "token": "way",
+        "count": 14
+      },
+      {
+        "token": "dead",
+        "count": 13
+      },
+      {
+        "token": "door",
+        "count": 13
+      },
+      {
+        "token": "good",
+        "count": 13
+      },
+      {
+        "token": "suppose",
+        "count": 13
+      },
+      {
+        "token": "yesterday",
+        "count": 13
+      },
+      {
+        "token": "came",
+        "count": 12
+      },
+      {
+        "token": "done",
+        "count": 12
+      },
+      {
+        "token": "find",
+        "count": 12
+      },
+      {
+        "token": "hear",
+        "count": 12
+      },
+      {
+        "token": "hope",
+        "count": 12
+      },
+      {
+        "token": "husband",
+        "count": 12
+      },
+      {
+        "token": "thinking",
+        "count": 12
+      },
+      {
+        "token": "told",
+        "count": 12
+      },
+      {
+        "token": "afraid",
+        "count": 11
+      },
+      {
+        "token": "lot",
+        "count": 11
+      },
+      {
+        "token": "make",
+        "count": 11
+      },
+      {
+        "token": "sorry",
+        "count": 11
+      },
+      {
+        "token": "try",
+        "count": 11
+      },
+      {
+        "token": "wife",
+        "count": 11
+      },
+      {
+        "token": "anyway",
+        "count": 10
+      },
+      {
+        "token": "ask",
+        "count": 10
+      },
+      {
+        "token": "bedroom",
+        "count": 10
+      },
+      {
+        "token": "car",
+        "count": 10
+      },
+      {
+        "token": "crazy",
+        "count": 10
+      },
+      {
+        "token": "nice",
+        "count": 10
+      },
+      {
+        "token": "remember",
+        "count": 10
+      },
+      {
+        "token": "seem",
+        "count": 10
+      },
+      {
+        "token": "thing",
+        "count": 10
+      },
+      {
+        "token": "weather",
+        "count": 10
+      },
+      {
+        "token": "bit",
+        "count": 9
+      },
+      {
+        "token": "child",
+        "count": 9
+      },
+      {
+        "token": "coming",
+        "count": 9
+      },
+      {
+        "token": "country",
+        "count": 9
+      },
+      {
+        "token": "cut",
+        "count": 9
+      },
+      {
+        "token": "died",
+        "count": 9
+      },
+      {
+        "token": "doing",
+        "count": 9
+      },
+      {
+        "token": "forget",
+        "count": 9
+      },
+      {
+        "token": "found",
+        "count": 9
+      },
+      {
+        "token": "upstairs",
+        "count": 9
+      },
+      {
+        "token": "arrived",
+        "count": 8
+      },
+      {
+        "token": "away",
+        "count": 8
+      },
+      {
+        "token": "darling",
+        "count": 8
+      },
+      {
+        "token": "day",
+        "count": 8
+      },
+      {
+        "token": "guests",
+        "count": 8
+      },
+      {
+        "token": "meet",
+        "count": 8
+      },
+      {
+        "token": "piano",
+        "count": 8
+      },
+      {
+        "token": "put",
+        "count": 8
+      },
+      {
+        "token": "alone",
+        "count": 7
+      },
+      {
+        "token": "help",
+        "count": 7
+      },
+      {
+        "token": "idea",
+        "count": 7
+      },
+      {
+        "token": "let",
+        "count": 7
+      },
+      {
+        "token": "letter",
+        "count": 7
+      },
+      {
+        "token": "married",
+        "count": 7
+      },
+      {
+        "token": "minute",
+        "count": 7
+      },
+      {
+        "token": "near",
+        "count": 7
+      },
+      {
+        "token": "night",
+        "count": 7
+      },
+      {
+        "token": "playing",
+        "count": 7
+      },
+      {
+        "token": "round",
+        "count": 7
+      },
+      {
+        "token": "telephone",
+        "count": 7
+      },
+      {
+        "token": "writing",
+        "count": 7
+      },
+      {
+        "token": "able",
+        "count": 6
+      },
+      {
+        "token": "address",
+        "count": 6
+      },
+      {
+        "token": "brought",
+        "count": 6
+      },
+      {
+        "token": "death",
+        "count": 6
+      },
+      {
+        "token": "eh",
+        "count": 6
+      },
+      {
+        "token": "everything's",
+        "count": 6
+      },
+      {
+        "token": "give",
+        "count": 6
+      },
+      {
+        "token": "hall",
+        "count": 6
+      },
+      {
+        "token": "hat",
+        "count": 6
+      },
+      {
+        "token": "kill",
+        "count": 6
+      },
+      {
+        "token": "killer",
+        "count": 6
+      },
+      {
+        "token": "knew",
+        "count": 6
+      },
+      {
+        "token": "letters",
+        "count": 6
+      },
+      {
+        "token": "mind",
+        "count": 6
+      },
+      {
+        "token": "moment",
+        "count": 6
+      },
+      {
+        "token": "mother",
+        "count": 6
+      },
+      {
+        "token": "person",
+        "count": 6
+      },
+      {
+        "token": "says",
+        "count": 6
+      },
+      {
+        "token": "stairs",
+        "count": 6
+      },
+      {
+        "token": "staying",
+        "count": 6
+      },
+      {
+        "token": "table",
+        "count": 6
+      },
+      {
+        "token": "window",
+        "count": 6
+      },
+      {
+        "token": "year",
+        "count": 6
+      },
+      {
+        "token": "actually",
+        "count": 5
+      },
+      {
+        "token": "afternoon",
+        "count": 5
+      },
+      {
+        "token": "awful",
+        "count": 5
+      },
+      {
+        "token": "back",
+        "count": 5
+      },
+      {
+        "token": "boy",
+        "count": 5
+      },
+      {
+        "token": "cold",
+        "count": 5
+      },
+      {
+        "token": "cook",
+        "count": 5
+      },
+      {
+        "token": "dark",
+        "count": 5
+      },
+      {
+        "token": "different",
+        "count": 5
+      },
+      {
+        "token": "dum",
+        "count": 5
+      },
+      {
+        "token": "far",
+        "count": 5
+      },
+      {
+        "token": "father",
+        "count": 5
+      },
+      {
+        "token": "fun",
+        "count": 5
+      },
+      {
+        "token": "gone",
+        "count": 5
+      },
+      {
+        "token": "half",
+        "count": 5
+      },
+      {
+        "token": "happen",
+        "count": 5
+      },
+      {
+        "token": "home",
+        "count": 5
+      },
+      {
+        "token": "instead",
+        "count": 5
+      },
+      {
+        "token": "interesting",
+        "count": 5
+      },
+      {
+        "token": "joke",
+        "count": 5
+      },
+      {
+        "token": "lady",
+        "count": 5
+      },
+      {
+        "token": "leave",
+        "count": 5
+      },
+      {
+        "token": "light",
+        "count": 5
+      },
+      {
+        "token": "love",
+        "count": 5
+      },
+      {
+        "token": "need",
+        "count": 5
+      },
+      {
+        "token": "poor",
+        "count": 5
+      },
+      {
+        "token": "pretty",
+        "count": 5
+      },
+      {
+        "token": "questions",
+        "count": 5
+      },
+      {
+        "token": "real",
+        "count": 5
+      },
+      {
+        "token": "roads",
+        "count": 5
+      },
+      {
+        "token": "running",
+        "count": 5
+      },
+      {
+        "token": "school",
+        "count": 5
+      },
+      {
+        "token": "somewhere",
+        "count": 5
+      },
+      {
+        "token": "sort",
+        "count": 5
+      },
+      {
+        "token": "talking",
+        "count": 5
+      },
+      {
+        "token": "today",
+        "count": 5
+      },
+      {
+        "token": "trying",
+        "count": 5
+      },
+      {
+        "token": "understand",
+        "count": 5
+      },
+      {
+        "token": "wearing",
+        "count": 5
+      },
+      {
+        "token": "whole",
+        "count": 5
+      },
+      {
+        "token": "wish",
+        "count": 5
+      },
+      {
+        "token": "addresses",
+        "count": 4
+      },
+      {
+        "token": "almost",
+        "count": 4
+      },
+      {
+        "token": "along",
+        "count": 4
+      },
+      {
+        "token": "behind",
+        "count": 4
+      },
+      {
+        "token": "better",
+        "count": 4
+      },
+      {
+        "token": "called",
+        "count": 4
+      },
+      {
+        "token": "cooking",
+        "count": 4
+      },
+      {
+        "token": "enjoying",
+        "count": 4
+      },
+      {
+        "token": "exactly",
+        "count": 4
+      },
+      {
+        "token": "feel",
+        "count": 4
+      },
+      {
+        "token": "finger",
+        "count": 4
+      },
+      {
+        "token": "forgotten",
+        "count": 4
+      },
+      {
+        "token": "friend",
+        "count": 4
+      },
+      {
+        "token": "girl",
+        "count": 4
+      },
+      {
+        "token": "having",
+        "count": 4
+      },
+      {
+        "token": "information",
+        "count": 4
+      },
+      {
+        "token": "inside",
+        "count": 4
+      },
+      {
+        "token": "listen",
+        "count": 4
+      },
+      {
+        "token": "morning",
+        "count": 4
+      },
+      {
+        "token": "parents",
+        "count": 4
+      },
+      {
+        "token": "perfect",
+        "count": 4
+      },
+      {
+        "token": "possible",
+        "count": 4
+      },
+      {
+        "token": "question",
+        "count": 4
+      },
+      {
+        "token": "radio",
+        "count": 4
+      },
+      {
+        "token": "seemed",
+        "count": 4
+      },
+      {
+        "token": "soft",
+        "count": 4
+      },
+      {
+        "token": "sometimes",
+        "count": 4
+      },
+      {
+        "token": "soon",
+        "count": 4
+      },
+      {
+        "token": "sounds",
+        "count": 4
+      },
+      {
+        "token": "speaking",
+        "count": 4
+      },
+      {
+        "token": "stay",
+        "count": 4
+      },
+      {
+        "token": "taxi",
+        "count": 4
+      },
+      {
+        "token": "terrible",
+        "count": 4
+      },
+      {
+        "token": "used",
+        "count": 4
+      },
+      {
+        "token": "week",
+        "count": 4
+      },
+      {
+        "token": "weeks",
+        "count": 4
+      },
+      {
+        "token": "written",
+        "count": 4
+      },
+      {
+        "token": "wrong",
+        "count": 4
+      },
+      {
+        "token": "younger",
+        "count": 4
+      },
+      {
+        "token": "across",
+        "count": 3
+      },
+      {
+        "token": "actions",
+        "count": 3
+      },
+      {
+        "token": "age",
+        "count": 3
+      },
+      {
+        "token": "ago",
+        "count": 3
+      },
+      {
+        "token": "agree",
+        "count": 3
+      },
+      {
+        "token": "around",
+        "count": 3
+      },
+      {
+        "token": "bad",
+        "count": 3
+      },
+      {
+        "token": "beginning",
+        "count": 3
+      },
+      {
+        "token": "bring",
+        "count": 3
+      },
+      {
+        "token": "brush",
+        "count": 3
+      },
+      {
+        "token": "call",
+        "count": 3
+      },
+      {
+        "token": "creak",
+        "count": 3
+      },
+      {
+        "token": "danger",
+        "count": 3
+      },
+      {
+        "token": "dangerous",
+        "count": 3
+      },
+      {
+        "token": "drive",
+        "count": 3
+      },
+      {
+        "token": "excellent",
+        "count": 3
+      },
+      {
+        "token": "except",
+        "count": 3
+      },
+      {
+        "token": "game",
+        "count": 3
+      },
+      {
+        "token": "great",
+        "count": 3
+      },
+      {
+        "token": "h'm",
+        "count": 3
+      },
+      {
+        "token": "ha",
+        "count": 3
+      },
+      {
+        "token": "hair",
+        "count": 3
+      },
+      {
+        "token": "happened",
+        "count": 3
+      },
+      {
+        "token": "hard",
+        "count": 3
+      },
+      {
+        "token": "hate",
+        "count": 3
+      },
+      {
+        "token": "heavy",
+        "count": 3
+      },
+      {
+        "token": "hot",
+        "count": 3
+      },
+      {
+        "token": "hour",
+        "count": 3
+      },
+      {
+        "token": "husbands",
+        "count": 3
+      },
+      {
+        "token": "ill",
+        "count": 3
+      },
+      {
+        "token": "important",
+        "count": 3
+      },
+      {
+        "token": "known",
+        "count": 3
+      },
+      {
+        "token": "late",
+        "count": 3
+      },
+      {
+        "token": "leslie",
+        "count": 3
+      },
+      {
+        "token": "life",
+        "count": 3
+      },
+      {
+        "token": "liked",
+        "count": 3
+      },
+      {
+        "token": "loud",
+        "count": 3
+      },
+      {
+        "token": "lovely",
+        "count": 3
+      },
+      {
+        "token": "lunch",
+        "count": 3
+      },
+      {
+        "token": "mad",
+        "count": 3
+      },
+      {
+        "token": "made",
+        "count": 3
+      },
+      {
+        "token": "makes",
+        "count": 3
+      },
+      {
+        "token": "met",
+        "count": 3
+      },
+      {
+        "token": "motorists",
+        "count": 3
+      },
+      {
+        "token": "older",
+        "count": 3
+      },
+      {
+        "token": "once",
+        "count": 3
+      },
+      {
+        "token": "opened",
+        "count": 3
+      },
+      {
+        "token": "paper",
+        "count": 3
+      },
+      {
+        "token": "pay",
+        "count": 3
+      },
+      {
+        "token": "pie",
+        "count": 3
+      },
+      {
+        "token": "play",
+        "count": 3
+      },
+      {
+        "token": "potatoes",
+        "count": 3
+      },
+      {
+        "token": "prison",
+        "count": 3
+      },
+      {
+        "token": "read",
+        "count": 3
+      },
+      {
+        "token": "report",
+        "count": 3
+      },
+      {
+        "token": "rooms",
+        "count": 3
+      },
+      {
+        "token": "saying",
+        "count": 3
+      },
+      {
+        "token": "scarf",
+        "count": 3
+      },
+      {
+        "token": "send",
+        "count": 3
+      },
+      {
+        "token": "sending",
+        "count": 3
+      },
+      {
+        "token": "shut",
+        "count": 3
+      },
+      {
+        "token": "simple",
+        "count": 3
+      },
+      {
+        "token": "sister",
+        "count": 3
+      },
+      {
+        "token": "speak",
+        "count": 3
+      },
+      {
+        "token": "stop",
+        "count": 3
+      },
+      {
+        "token": "thinks",
+        "count": 3
+      },
+      {
+        "token": "throughout",
+        "count": 3
+      },
+      {
+        "token": "tried",
+        "count": 3
+      },
+      {
+        "token": "unhappy",
+        "count": 3
+      },
+      {
+        "token": "use",
+        "count": 3
+      },
+      {
+        "token": "village",
+        "count": 3
+      },
+      {
+        "token": "wait",
+        "count": 3
+      },
+      {
+        "token": "warmer",
+        "count": 3
+      },
+      {
+        "token": "whistling",
+        "count": 3
+      },
+      {
+        "token": "wonderful",
+        "count": 3
+      },
+      {
+        "token": "wrote",
+        "count": 3
+      },
+      {
+        "token": "abnormal",
+        "count": 2
+      },
+      {
+        "token": "accident",
+        "count": 2
+      },
+      {
+        "token": "advertisement",
+        "count": 2
+      },
+      {
+        "token": "answered",
+        "count": 2
+      },
+      {
+        "token": "arrive",
+        "count": 2
+      },
+      {
+        "token": "asked",
+        "count": 2
+      },
+      {
+        "token": "bag",
+        "count": 2
+      },
+      {
+        "token": "beautiful",
+        "count": 2
+      },
+      {
+        "token": "beef",
+        "count": 2
+      },
+      {
+        "token": "begin",
+        "count": 2
+      },
+      {
+        "token": "best",
+        "count": 2
+      },
+      {
+        "token": "boiler",
+        "count": 2
+      },
+      {
+        "token": "booked",
+        "count": 2
+      },
+      {
+        "token": "boys",
+        "count": 2
+      },
+      {
+        "token": "bravo",
+        "count": 2
+      },
+      {
+        "token": "breakfast",
+        "count": 2
+      },
+      {
+        "token": "carefully",
+        "count": 2
+      },
+      {
+        "token": "chance",
+        "count": 2
+      },
+      {
+        "token": "chicken",
+        "count": 2
+      },
+      {
+        "token": "chickens",
+        "count": 2
+      },
+      {
+        "token": "coat",
+        "count": 2
+      },
+      {
+        "token": "continue",
+        "count": 2
+      },
+      {
+        "token": "depends",
+        "count": 2
+      },
+      {
+        "token": "dinner",
+        "count": 2
+      },
+      {
+        "token": "discover",
+        "count": 2
+      },
+      {
+        "token": "dogs",
+        "count": 2
+      },
+      {
+        "token": "downstairs",
+        "count": 2
+      }
+    ]
+  }
+}

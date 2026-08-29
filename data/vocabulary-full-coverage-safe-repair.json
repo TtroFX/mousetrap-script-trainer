@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "status": "APPLIED",
+  "safeKinds": [
+    "ADD_EXISTING_SURFACE",
+    "ADD_EXACT_DICTIONARY",
+    "ADD_MORPHOLOGY"
+  ],
+  "candidateOccurrences": 978,
+  "addedVocabularyItems": 780,
+  "alreadyPresent": 0,
+  "collapsedDuplicates": 198,
+  "byKind": {
+    "ADD_EXISTING_SURFACE": 597,
+    "ADD_MORPHOLOGY": 114,
+    "ADD_EXACT_DICTIONARY": 267
+  },
+  "finalVocabularyItems": 3706,
+  "finalAnnotatedSpeeches": 885,
+  "sha256": {
+    "vocabulary": "d74c24048b8e84beb1f97271a8bceb3bf8dab5c8f7aa83b287d940e5be6b1466"
+  }
+}

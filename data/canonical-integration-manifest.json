@@ -151,10 +151,10 @@
     },
     "lineVocabulary": {
       "file": "mousetrap_line_vocabulary.json",
-      "sha256": "8d266abeaf2f33ad9aabd1c3c8ddc138d910fa28a134ad04def725e1aa5d22cc",
+      "sha256": "d74c24048b8e84beb1f97271a8bceb3bf8dab5c8f7aa83b287d940e5be6b1466",
       "coverageSpeechIds": 1164,
-      "items": 2926,
-      "annotatedSpeeches": 795,
+      "items": 3706,
+      "annotatedSpeeches": 885,
       "playMeaningItems": 2568,
       "neutralOnlyItems": 409,
       "presentationField": "playMeaning",

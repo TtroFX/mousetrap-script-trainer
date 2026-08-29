@@ -457,6 +457,36 @@
       "lemma": "place",
       "meaning": "【動】置く、配置する。【名】場所。",
       "playMeaning": true
+    },
+    {
+      "surface": "Yard",
+      "lemma": "yard",
+      "meaning": "【名詞】\n① 庭・囲まれた屋外の場所\n② 長さの単位ヤード",
+      "playMeaning": false
+    },
+    {
+      "surface": "connection",
+      "lemma": "connection",
+      "meaning": "【名詞】\n人・物・出来事どうしのつながり、関係。",
+      "playMeaning": false
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "seen",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
+    },
+    {
+      "surface": "points",
+      "lemma": "point",
+      "meaning": "【動】指さす、方向を示す。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0002": [
@@ -691,6 +721,12 @@
       "lemma": "hand",
       "meaning": "【動】手渡す。【名】手。",
       "playMeaning": true
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0003": [
@@ -800,7 +836,14 @@
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
     }
   ],
-  "act1-scene1-speech-0009": [],
+  "act1-scene1-speech-0009": [
+    {
+      "surface": "Surely",
+      "lemma": "surely",
+      "meaning": "【副詞】\n① 確かに、きっと\n② 相手も当然そう考えるはずだという含みで使う",
+      "playMeaning": false
+    }
+  ],
   "act1-scene1-speech-0010": [
     {
       "surface": "go down to",
@@ -813,6 +856,12 @@
       "lemma": "netting",
       "meaning": "【名詞】\n網、ネット状の材料",
       "playMeaning": true
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0011": [
@@ -888,6 +937,36 @@
       "lemma": "sit",
       "meaning": "【動詞】\n座る、腰掛ける",
       "playMeaning": true
+    },
+    {
+      "surface": "frozen",
+      "lemma": "frozen",
+      "meaning": "【形容詞】\n凍った、凍結した、非常に冷たい。",
+      "playMeaning": false
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
+    },
+    {
+      "surface": "went on",
+      "lemma": "go on",
+      "meaning": "続く／続ける",
+      "playMeaning": false
+    },
+    {
+      "surface": "kind",
+      "lemma": "kind",
+      "meaning": "【形】\n親切な、思いやりのある。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0012": [
@@ -903,6 +982,18 @@
       "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
+    },
+    {
+      "surface": "freeze",
+      "lemma": "freeze",
+      "meaning": "【動詞】\n① 非常に冷たくなる、凍る・凍らせる\n② ひどい寒さを感じる",
+      "playMeaning": false
+    },
+    {
+      "surface": "pipes",
+      "lemma": "pipe",
+      "meaning": "【名詞】\n水・ガスなどを通す管、パイプ。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0013": [
@@ -977,6 +1068,12 @@
       "lemma": "sit",
       "meaning": "【動詞】\n座る、腰掛ける",
       "playMeaning": true
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0015": [
@@ -986,6 +1083,12 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "yet",
+      "lemma": "yet",
+      "meaning": "【接続詞】\nそれにもかかわらず、しかし。それまでの内容と対照を示す。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0016": [
@@ -1112,6 +1215,12 @@
       "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0021": [
@@ -1127,6 +1236,18 @@
       "lemma": "cold feet",
       "meaning": "怖気、尻込み",
       "playMeaning": true
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
+    },
+    {
+      "surface": "left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0022": [
@@ -1165,6 +1286,12 @@
       "lemma": "indicate",
       "meaning": "【動】指し示す、合図する。",
       "playMeaning": true
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0023": [
@@ -1200,6 +1327,24 @@
       "lemma": "leave out",
       "meaning": "～を抜かす／省く",
       "playMeaning": true
+    },
+    {
+      "surface": "left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Monkswell",
+      "lemma": "monkswell",
+      "meaning": "【固有名詞】\n地名・建物名として用いられる名称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0025": [
@@ -1220,6 +1365,12 @@
       "lemma": "Lord",
       "meaning": "【間投詞】\n① まったく\n② やれやれ",
       "playMeaning": true
+    },
+    {
+      "surface": "matter",
+      "lemma": "matter",
+      "meaning": "【名詞】\n問題、事柄、案件。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0026": [
@@ -1254,6 +1405,12 @@
       "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
+    },
+    {
+      "surface": "stoke up",
+      "lemma": "stoke",
+      "meaning": "【動詞】\n燃料を足して火を保つ",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0027": [
@@ -1263,6 +1420,12 @@
       "meaning": "火を長持ちさせるよう燃料を積む／雪などが堆積する",
       "playMeaning": true,
       "inThisPlay": "ここでは炉・暖房の火が夜通し保つよう燃料を多めに入れ、燃え方を抑えておくこと。"
+    },
+    {
+      "surface": "yard",
+      "lemma": "yard",
+      "meaning": "【名詞】\n① 庭・囲まれた屋外の場所\n② 長さの単位ヤード",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0028": [],
@@ -1275,7 +1438,14 @@
       "inThisPlay": "本気で恐ろしいというより、夜遅くまで暖房の世話をする必要があることへの大げさな不満。"
     }
   ],
-  "act1-scene1-speech-0030": [],
+  "act1-scene1-speech-0030": [
+    {
+      "surface": "Hurry",
+      "lemma": "hurry",
+      "meaning": "【動詞】\n急ぐ、急いで行う。\n【名詞】\nまた、急いでいる状態。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene1-speech-0031": [
     {
       "surface": "worked out",
@@ -1344,6 +1514,18 @@
       "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "wonder",
+      "lemma": "wonder",
+      "meaning": "【動詞】\n～だろうかと思う、不思議に思う。\n【名詞】\nまた、驚き・驚くべきもの。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0034": [],
@@ -1450,6 +1632,18 @@
       "lemma": "hotel keeping",
       "meaning": "【名】ホテル・宿泊施設の経営、宿屋業。",
       "playMeaning": true
+    },
+    {
+      "surface": "ought",
+      "lemma": "ought",
+      "meaning": "【助動詞】\n～すべきだ、～するのが望ましい・当然だという判断を表す。",
+      "playMeaning": false
+    },
+    {
+      "surface": "taken",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0038": [],
@@ -1485,6 +1679,12 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "servants",
+      "lemma": "servant",
+      "meaning": "【名詞】\n家庭などで雇われ、家事や身の回りの仕事をする人。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0040": [
@@ -1737,6 +1937,42 @@
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
       "playMeaning": true
+    },
+    {
+      "surface": "crime",
+      "lemma": "crime",
+      "meaning": "【名詞】\n法律に反する犯罪、罪。",
+      "playMeaning": false
+    },
+    {
+      "surface": "expected",
+      "lemma": "expect",
+      "meaning": "【動詞】\n～だろうと予想する、期待する。",
+      "playMeaning": false
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Yard",
+      "lemma": "yard",
+      "meaning": "【名詞】\n① 庭・囲まれた屋外の場所\n② 長さの単位ヤード",
+      "playMeaning": false
+    },
+    {
+      "surface": "connection",
+      "lemma": "connection",
+      "meaning": "【名詞】\n人・物・出来事どうしのつながり、関係。",
+      "playMeaning": false
+    },
+    {
+      "surface": "seen",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0043": [
@@ -1879,6 +2115,12 @@
       "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    },
+    {
+      "surface": "simply",
+      "lemma": "simply",
+      "meaning": "【副】\n① 単純に、ただ\n② 発言を強めて「本当に、まったく」。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0045": [],
@@ -2008,6 +2250,18 @@
       "lemma": "wax flower",
       "meaning": "蝋で作った装飾用の造花。",
       "playMeaning": true
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
+    },
+    {
+      "surface": "simply",
+      "lemma": "simply",
+      "meaning": "【副】\n① 単純に、ただ\n② 発言を強めて「本当に、まったく」。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0047": [],
@@ -2126,6 +2380,12 @@
       "lemma": "look",
       "meaning": "【動】見る、目を向ける。",
       "playMeaning": true
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0051": [
@@ -2410,6 +2670,30 @@
       "meaning": "時代物の家具への好みに夢中になりすぎ、実用性を忘れて話していたこと。",
       "playMeaning": true,
       "inThisPlay": "ここでは時代物の家具への熱中に『つい夢中になって言い過ぎた』という意味。"
+    },
+    {
+      "surface": "Takes",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
+    },
+    {
+      "surface": "course",
+      "lemma": "course",
+      "meaning": "【名詞】\n① 進路・経過\n② 教育の課程や一連の授業",
+      "playMeaning": false
+    },
+    {
+      "surface": "absolutely",
+      "lemma": "absolutely",
+      "meaning": "【副詞】\n完全に、まったく。本当に。",
+      "playMeaning": false
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0055": [
@@ -2431,6 +2715,18 @@
       "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    },
+    {
+      "surface": "suitcase",
+      "lemma": "suitcase",
+      "meaning": "【名詞】\n旅行用の手提げかばん。",
+      "playMeaning": false
+    },
+    {
+      "surface": "take",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0056": [],
@@ -2484,6 +2780,12 @@
       "lemma": "coldly",
       "meaning": "【副】冷淡に、よそよそしく。",
       "playMeaning": true
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0061": [
@@ -2507,6 +2809,12 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0062": [
@@ -2603,6 +2911,12 @@
       "lemma": "sit",
       "meaning": "【動詞】\n座る、腰掛ける",
       "playMeaning": true
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0066": [
@@ -2728,6 +3042,24 @@
       "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    },
+    {
+      "surface": "course",
+      "lemma": "course",
+      "meaning": "【名詞】\n① 進路・経過\n② 教育の課程や一連の授業",
+      "playMeaning": false
+    },
+    {
+      "surface": "yet",
+      "lemma": "yet",
+      "meaning": "【接続詞】\nそれにもかかわらず、しかし。それまでの内容と対照を示す。",
+      "playMeaning": false
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0068": [
@@ -2845,6 +3177,24 @@
       "lemma": "turn",
       "meaning": "【動】向きを変える、振り向く。",
       "playMeaning": true
+    },
+    {
+      "surface": "course",
+      "lemma": "course",
+      "meaning": "【名詞】\n① 進路・経過\n② 教育の課程や一連の授業",
+      "playMeaning": false
+    },
+    {
+      "surface": "matter",
+      "lemma": "matter",
+      "meaning": "【名詞】\n問題、事柄、案件。",
+      "playMeaning": false
+    },
+    {
+      "surface": "take",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0072": [
@@ -2872,6 +3222,12 @@
       "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0073": [],
@@ -2984,6 +3340,12 @@
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
       "playMeaning": true
+    },
+    {
+      "surface": "Monkswell",
+      "lemma": "monkswell",
+      "meaning": "【固有名詞】\n地名・建物名として用いられる名称。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0076": [
@@ -3078,6 +3440,12 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "fire",
+      "lemma": "fire",
+      "meaning": "【動】\n① 火をつける\n② 銃などを発射する\n③ 解雇する。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0079": [
@@ -3133,6 +3501,24 @@
       "lemma": "accusingly",
       "meaning": "【副】非難するように、責める調子で。",
       "playMeaning": true
+    },
+    {
+      "surface": "difficulty",
+      "lemma": "difficulty",
+      "meaning": "【名詞】\n困難、難しさ、問題。",
+      "playMeaning": false
+    },
+    {
+      "surface": "share",
+      "lemma": "share",
+      "meaning": "【名詞】\n① 全体のうち自分に属する部分・分け前\n② 関与する部分・役割",
+      "playMeaning": false
+    },
+    {
+      "surface": "risk",
+      "lemma": "risk",
+      "meaning": "【名詞】\n危険、危険性。\n【動詞】\n危険を承知で行う。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0082": [
@@ -3147,6 +3533,24 @@
       "lemma": "stand by",
       "meaning": "待機する",
       "playMeaning": true
+    },
+    {
+      "surface": "course",
+      "lemma": "course",
+      "meaning": "【名詞】\n① 進路・経過\n② 教育の課程や一連の授業",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
+    },
+    {
+      "surface": "seen",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0083": [
@@ -3194,6 +3598,24 @@
       "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "hand",
+      "lemma": "hand",
+      "meaning": "【動】手渡す。【名】手。",
+      "playMeaning": false
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "take",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0085": [
@@ -3311,6 +3733,12 @@
       "lemma": "establishment",
       "meaning": "【名詞】\n施設、事業所",
       "playMeaning": true
+    },
+    {
+      "surface": "kind",
+      "lemma": "kind",
+      "meaning": "【形】\n親切な、思いやりのある。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0092": [
@@ -3364,6 +3792,12 @@
       "lemma": "suspiciously",
       "meaning": "【副詞】\n疑わしそうに、疑念を抱いて。",
       "playMeaning": true
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0094": [
@@ -3372,6 +3806,12 @@
       "lemma": "indignantly",
       "meaning": "【副】憤慨して、心外そうに。",
       "playMeaning": true
+    },
+    {
+      "surface": "Certainly",
+      "lemma": "certainly",
+      "meaning": "【副詞】\n確かに、間違いなく。返答で『もちろん』。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0095": [
@@ -3582,6 +4022,18 @@
       "meaning": "失礼しました／もう一度お願いします",
       "playMeaning": true,
       "inThisPlay": "ここでは謝罪ではなく、Mrs BoyleがMollieの発言を聞き返し、驚き・不快感を示す『何ですって？』に近い。"
+    },
+    {
+      "surface": "since",
+      "lemma": "since",
+      "meaning": "【副詞】\nその時以来、それ以降ずっと。",
+      "playMeaning": false
+    },
+    {
+      "surface": "seen",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0100": [
@@ -3591,6 +4043,12 @@
       "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    },
+    {
+      "surface": "take",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0101": [
@@ -3677,6 +4135,12 @@
       "lemma": "servant difficulty",
       "meaning": "使用人を雇ったり確保したりする上での人手不足・雇用上の問題。",
       "playMeaning": true
+    },
+    {
+      "surface": "difficulty",
+      "lemma": "difficulty",
+      "meaning": "【名詞】\n困難、難しさ、問題。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0105": [
@@ -3812,6 +4276,24 @@
       "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
       "playMeaning": true,
       "inThisPlay": "Monkswell Manorの宿泊客で、Majorの軍階級で呼ばれる人物。"
+    },
+    {
+      "surface": "proper",
+      "lemma": "proper",
+      "meaning": "【形容詞】\n目的・状況に適した、正しい・きちんとした。",
+      "playMeaning": false
+    },
+    {
+      "surface": "servants",
+      "lemma": "servant",
+      "meaning": "【名詞】\n家庭などで雇われ、家事や身の回りの仕事をする人。",
+      "playMeaning": false
+    },
+    {
+      "surface": "kind",
+      "lemma": "kind",
+      "meaning": "【形】\n親切な、思いやりのある。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0111": [],
@@ -3868,6 +4350,24 @@
       "lemma": "sing",
       "meaning": "【動】歌う。",
       "playMeaning": true
+    },
+    {
+      "surface": "adore",
+      "lemma": "adore",
+      "meaning": "【動詞】\n崇拝するほどではなく、料理が大好きだというChristopherらしい強い口語的表現。",
+      "playMeaning": false
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "blow",
+      "lemma": "blow",
+      "meaning": "【名詞】\n打撃、一撃。物理的に打つ・殴る一回の力。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0115": [
@@ -3998,6 +4498,12 @@
       "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
+    },
+    {
+      "surface": "indeed",
+      "lemma": "indeed",
+      "meaning": "【副】\n実に、本当に、確かに。\n【間投的表現】\n返答で確認・強調を表す。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0121": [
@@ -4103,6 +4609,18 @@
       "lemma": "fill someone's place",
       "meaning": "人が空けた役割・位置・場所を別の人で補う。",
       "playMeaning": true
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
+    },
+    {
+      "surface": "yet",
+      "lemma": "yet",
+      "meaning": "【接続詞】\nそれにもかかわらず、しかし。それまでの内容と対照を示す。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0122": [
@@ -4137,6 +4655,24 @@
       "meaning": "人を追い出す",
       "playMeaning": true,
       "inThisPlay": "人を追い出す、退去させる。"
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "take",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0123": [
@@ -4166,6 +4702,12 @@
       "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "Certainly",
+      "lemma": "certainly",
+      "meaning": "【副詞】\n確かに、間違いなく。返答で『もちろん』。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0124": [
@@ -4200,6 +4742,24 @@
       "lemma": "childish",
       "meaning": "【形】子どもっぽい、幼稚な。",
       "playMeaning": true
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "perfectly",
+      "lemma": "perfectly",
+      "meaning": "【副詞】\n① 完全に、まったく\n② 非常にという強調にも使う",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0125": [
@@ -4304,6 +4864,12 @@
       "lemma": "drift",
       "meaning": "【名詞】\n雪の吹きだまり",
       "playMeaning": true
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0127": [
@@ -4318,6 +4884,12 @@
       "lemma": "take",
       "meaning": "【動】取る、手に取る、持っていく。",
       "playMeaning": true
+    },
+    {
+      "surface": "take",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0128": [
@@ -4359,6 +4931,24 @@
       "lemma": "manly",
       "meaning": "【形】男性的な、男らしい。",
       "playMeaning": true
+    },
+    {
+      "surface": "glad",
+      "lemma": "glad",
+      "meaning": "【形容詞】\nうれしい、喜んでいる、安心している。",
+      "playMeaning": false
+    },
+    {
+      "surface": "fire",
+      "lemma": "fire",
+      "meaning": "【動】\n① 火をつける\n② 銃などを発射する\n③ 解雇する。",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0129": [],
@@ -4377,7 +4967,20 @@
       "playMeaning": true
     }
   ],
-  "act1-scene1-speech-0131": [],
+  "act1-scene1-speech-0131": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene1-speech-0132": [
     {
       "surface": "No hurry",
@@ -4464,6 +5067,24 @@
       "lemma": "take",
       "meaning": "【動】取る、手に取る、持っていく。",
       "playMeaning": true
+    },
+    {
+      "surface": "Looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
+    },
+    {
+      "surface": "hurry",
+      "lemma": "hurry",
+      "meaning": "【動詞】\n急ぐ、急いで行う。\n【名詞】\nまた、急いでいる状態。",
+      "playMeaning": false
+    },
+    {
+      "surface": "plenty",
+      "lemma": "plenty",
+      "meaning": "【代】\n十分以上の量、多くのもの・こと。\n【名】\n十分な量、豊富さ。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0133": [
@@ -4571,6 +5192,12 @@
       "lemma": "murder",
       "meaning": "【名詞】\n故意に人を殺す犯罪、殺人。\n【動詞】\n人を故意に殺す。",
       "playMeaning": true
+    },
+    {
+      "surface": "Usual",
+      "lemma": "usual",
+      "meaning": "【形容詞】\nいつもの、通常の。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0137": [
@@ -4747,6 +5374,18 @@
       "lemma": "sit",
       "meaning": "【動詞】\n座る、腰掛ける",
       "playMeaning": true
+    },
+    {
+      "surface": "are anxious to interview",
+      "lemma": "be anxious to interview",
+      "meaning": "人に会って質問・面談することを強く望む。",
+      "playMeaning": false
+    },
+    {
+      "surface": "seen",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0140": [
@@ -4802,6 +5441,12 @@
       "meaning": "【形容詞】\n① 不安な\n② 切望している",
       "playMeaning": true,
       "inThisPlay": "ここでは「不安な」ではなく、anxious to ... の形で「ぜひ～したい／強く望む」の意味。"
+    },
+    {
+      "surface": "are anxious to interview",
+      "lemma": "be anxious to interview",
+      "meaning": "人に会って質問・面談することを強く望む。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0142": [],
@@ -5027,6 +5672,12 @@
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
       "playMeaning": true
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0152": [
@@ -5085,6 +5736,30 @@
       "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
       "playMeaning": true,
       "inThisPlay": "Monkswell Manorの宿泊客で、Majorの軍階級で呼ばれる人物。"
+    },
+    {
+      "surface": "difficult",
+      "lemma": "difficult",
+      "meaning": "【形容詞】\n行う・理解する・扱うことが容易でない。",
+      "playMeaning": false
+    },
+    {
+      "surface": "hurry",
+      "lemma": "hurry",
+      "meaning": "【動詞】\n急ぐ、急いで行う。\n【名詞】\nまた、急いでいる状態。",
+      "playMeaning": false
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0153": [
@@ -5147,6 +5822,18 @@
       "lemma": "break away",
       "meaning": "【句動】離れる、振りほどいて離れる。",
       "playMeaning": true
+    },
+    {
+      "surface": "plenty",
+      "lemma": "plenty",
+      "meaning": "【代】\n十分以上の量、多くのもの・こと。\n【名】\n十分な量、豊富さ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0156": [
@@ -5296,6 +5983,24 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
+    },
+    {
+      "surface": "save",
+      "lemma": "save",
+      "meaning": "【動詞】\n命を救われたという大げさな自己演出で、宿を見つけて凍死を免れたという意味。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0158": [
@@ -5360,6 +6065,12 @@
       "meaning": "【副詞】\n① 重要な程度に\n② 意味ありげに、含みを持たせて。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】単なる「重要に」ではなく、「意味ありげに、含みを持たせて」という演技指示。"
+    },
+    {
+      "surface": "kind",
+      "lemma": "kind",
+      "meaning": "【形】\n親切な、思いやりのある。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0163": [
@@ -5483,6 +6194,12 @@
       "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
       "playMeaning": true,
       "inThisPlay": "Monkswell Manorの宿泊客で、Majorの軍階級で呼ばれる人物。"
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0168": [
@@ -5492,6 +6209,12 @@
       "meaning": "【動詞】\n飲む、飲み物。\n【名詞】\n文脈により酒を飲む・飲酒習慣を持つ。",
       "playMeaning": true,
       "inThisPlay": "Major Metcalfも何か問題があるはずだ、という流れでGilesが冗談半分に『たぶん酒飲みだ』と根拠なく言っている。"
+    },
+    {
+      "surface": "Probably",
+      "lemma": "probably",
+      "meaning": "【副詞】\nおそらく、たぶん。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0169": [],
@@ -5554,6 +6277,12 @@
       "meaning": "【固有名詞】\n通りの名称として用いられる固有名詞。",
       "playMeaning": true,
       "inThisPlay": "Paddingtonにある劇中の架空の住所・通り名で、Maureen Lyon殺害事件の現場。"
+    },
+    {
+      "surface": "Probably",
+      "lemma": "probably",
+      "meaning": "【副詞】\nおそらく、たぶん。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0173": [
@@ -5678,6 +6407,12 @@
       "meaning": "【固有名詞】\nMonkswell Manor Guest Houseという宿泊施設名。",
       "playMeaning": true,
       "inThisPlay": "MollieとGilesが始めたゲストハウスの名称。"
+    },
+    {
+      "surface": "Monkswell",
+      "lemma": "monkswell",
+      "meaning": "【固有名詞】\n地名・建物名として用いられる名称。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0177": [
@@ -5830,6 +6565,48 @@
       "lemma": "answer to prayer",
       "meaning": "願ってもないもの／祈りへの答え",
       "playMeaning": true
+    },
+    {
+      "surface": "turns",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
+      "playMeaning": false
+    },
+    {
+      "surface": "freeze",
+      "lemma": "freeze",
+      "meaning": "【動詞】\n① 非常に冷たくなる、凍る・凍らせる\n② ひどい寒さを感じる",
+      "playMeaning": false
+    },
+    {
+      "surface": "charming",
+      "lemma": "charming",
+      "meaning": "【形容詞】\n人を引きつける魅力があり、感じがよい。",
+      "playMeaning": false
+    },
+    {
+      "surface": "snowdrift",
+      "lemma": "snowdrift",
+      "meaning": "【名詞】\n雪の吹きだまり",
+      "playMeaning": false
+    },
+    {
+      "surface": "Blinding",
+      "lemma": "blind",
+      "meaning": "【形容詞】\n目が見えない、視覚を失っている。",
+      "playMeaning": false
+    },
+    {
+      "surface": "take",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0178": [],
@@ -5841,7 +6618,14 @@
       "playMeaning": true
     }
   ],
-  "act1-scene1-speech-0180": [],
+  "act1-scene1-speech-0180": [
+    {
+      "surface": "Naturally",
+      "lemma": "naturally",
+      "meaning": "【副詞】\n① 自然に\n② 当然のこととして・当然ながら",
+      "playMeaning": false
+    }
+  ],
   "act1-scene1-speech-0181": [
     {
       "surface": "only just",
@@ -5860,6 +6644,12 @@
       "lemma": "just",
       "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
       "playMeaning": true
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0182": [
@@ -5868,6 +6658,12 @@
       "lemma": "leer",
       "meaning": "【動詞】\nいやらしさ・悪意などを含んだ目つきで見る。\n【名詞】\nそのような視線・表情。",
       "playMeaning": true
+    },
+    {
+      "surface": "Charming",
+      "lemma": "charming",
+      "meaning": "【形容詞】\n人を引きつける魅力があり、感じがよい。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0183": [
@@ -5925,6 +6721,18 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "assure",
+      "lemma": "assure",
+      "meaning": "【動詞】\n確かだと相手に保証する、安心させる。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0187": [
@@ -5971,6 +6779,12 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene1-speech-0188": [],
@@ -6222,6 +7036,24 @@
       "lemma": "look",
       "meaning": "【動】見る、目を向ける。",
       "playMeaning": true
+    },
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": false
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Monkswell",
+      "lemma": "monkswell",
+      "meaning": "【固有名詞】\n地名・建物名として用いられる名称。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0001": [
@@ -6280,6 +7112,12 @@
       "lemma": "sit",
       "meaning": "【動詞】\n座る、腰掛ける",
       "playMeaning": true
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0002": [
@@ -6405,6 +7243,12 @@
       "lemma": "at least",
       "meaning": "少なくとも",
       "playMeaning": true
+    },
+    {
+      "surface": "comfortable",
+      "lemma": "comfortable",
+      "meaning": "【形容詞】\n身体的・心理的に快適で、苦痛や不便が少ない。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0009": [
@@ -6437,6 +7281,12 @@
       "lemma": "return",
       "meaning": "【動詞】\n戻る、返す。\n【名詞】\n戻ること。",
       "playMeaning": true
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0010": [
@@ -6490,6 +7340,12 @@
       "lemma": "amenity",
       "meaning": "【名詞】\n快適設備、便益",
       "playMeaning": true
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0012": [
@@ -6542,6 +7398,12 @@
       "lemma": "unnoticed",
       "meaning": "【形・副】気づかれない、誰にも気づかれずに。",
       "playMeaning": true
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0015": [
@@ -6583,6 +7445,12 @@
       "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0017": [
@@ -6616,6 +7484,12 @@
       "meaning": "【形】精神的に不安定な。人については現在ではより配慮した表現が好まれる。",
       "playMeaning": true,
       "inThisPlay": "精神的に不安定な、という当時の表現。現代では人についてより配慮した表現が一般的。"
+    },
+    {
+      "surface": "wonder",
+      "lemma": "wonder",
+      "meaning": "【動詞】\n～だろうかと思う、不思議に思う。\n【名詞】\nまた、驚き・驚くべきもの。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0018": [
@@ -6660,6 +7534,12 @@
       "meaning": "【動詞】\n中へ入る、参加する。舞台では登場する。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】俳優・人物が舞台へ登場する指示。"
+    },
+    {
+      "surface": "surprised",
+      "lemma": "surprised",
+      "meaning": "【形容詞】\n驚いた、意外に思った",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0020": [
@@ -6770,6 +7650,12 @@
       "lemma": "collide",
       "meaning": "【動】衝突する、ぶつかる。",
       "playMeaning": true
+    },
+    {
+      "surface": "hand",
+      "lemma": "hand",
+      "meaning": "【動】手渡す。【名】手。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0025": [],
@@ -6786,6 +7672,12 @@
       "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0027": [
@@ -6819,6 +7711,12 @@
       "lemma": "back stairs",
       "meaning": "建物の裏側・使用人用などに設けられた裏階段。",
       "playMeaning": true
+    },
+    {
+      "surface": "Carrying",
+      "lemma": "carry",
+      "meaning": "【動】運ぶ、持って行く。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0028": [
@@ -6846,9 +7744,22 @@
       "lemma": "light a cigarette",
       "meaning": "【動詞句】たばこに火をつける。",
       "playMeaning": true
+    },
+    {
+      "surface": "fire",
+      "lemma": "fire",
+      "meaning": "【動】\n① 火をつける\n② 銃などを発射する\n③ 解雇する。",
+      "playMeaning": false
     }
   ],
-  "act1-scene2-speech-0029": [],
+  "act1-scene2-speech-0029": [
+    {
+      "surface": "housework",
+      "lemma": "housework",
+      "meaning": "【名詞】\n掃除、洗濯、料理など家庭を維持するための日常的な仕事。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0030": [
     {
       "surface": "gather",
@@ -7028,6 +7939,12 @@
       "lemma": "Red",
       "meaning": "【名】政治的俗称で共産主義者・急進左派。【形】赤い。",
       "playMeaning": true
+    },
+    {
+      "surface": "take",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0037": [
@@ -7036,6 +7953,12 @@
       "lemma": "abroad",
       "meaning": "【副詞】\n海外へ、海外で。",
       "playMeaning": true
+    },
+    {
+      "surface": "conditions",
+      "lemma": "condition",
+      "meaning": "【名詞】\n① 状態、状況\n② 条件",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0038": [
@@ -7054,6 +7977,12 @@
       "meaning": "悪化する／衰える",
       "playMeaning": true,
       "inThisPlay": "ここでは国の状態・水準が『すっかり悪くなった』という比喩。"
+    },
+    {
+      "surface": "difficult",
+      "lemma": "difficult",
+      "meaning": "【形容詞】\n行う・理解する・扱うことが容易でない。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0040": [],
@@ -7063,6 +7992,12 @@
       "lemma": "England",
       "meaning": "【固有名詞】イングランド。英国を構成する地域の一つ。",
       "playMeaning": true
+    },
+    {
+      "surface": "certainly",
+      "lemma": "certainly",
+      "meaning": "【副詞】\n確かに、間違いなく。返答で『もちろん』。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0042": [
@@ -7192,6 +8127,12 @@
       "lemma": "just",
       "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
       "playMeaning": true
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0050": [
@@ -7357,6 +8298,18 @@
       "lemma": "gesture",
       "meaning": "【動詞】\n身振りで示す。\n【名詞】\n身振り、ジェスチャー。",
       "playMeaning": true
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
+    },
+    {
+      "surface": "glares",
+      "lemma": "glare",
+      "meaning": "【動】にらみつける。【名】怒った強い視線。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0056": [
@@ -7383,9 +8336,22 @@
       "lemma": "turn",
       "meaning": "【動】向きを変える、振り向く。",
       "playMeaning": true
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
     }
   ],
-  "act1-scene2-speech-0057": [],
+  "act1-scene2-speech-0057": [
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0058": [
     {
       "surface": "purpose",
@@ -7401,7 +8367,14 @@
       "inThisPlay": "ラジオを大きくしてMrs. Boyleを別室へ行かせ、Casewellが暖かい椅子を取るという作戦が目的を果たした、という意味。"
     }
   ],
-  "act1-scene2-speech-0059": [],
+  "act1-scene2-speech-0059": [
+    {
+      "surface": "purpose",
+      "lemma": "purpose",
+      "meaning": "【名詞】\n何かを行う理由、達成しようとする目的。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0060": [
     {
       "surface": "library",
@@ -7840,6 +8813,12 @@
       "lemma": "remove",
       "meaning": "【動】取り除く、脱ぐ、移動させる。",
       "playMeaning": true
+    },
+    {
+      "surface": "Monkswell",
+      "lemma": "monkswell",
+      "meaning": "【固有名詞】\n地名・建物名として用いられる名称。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0078": [],
@@ -7917,6 +8896,12 @@
       "lemma": "inspector",
       "meaning": "【名詞】\n① 警部\n② 検査官",
       "playMeaning": true
+    },
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0082": [
@@ -7999,6 +8984,12 @@
       "lemma": "implicitly",
       "meaning": "【副詞】\n① 暗に、明示せずに\n② 古い・限定的用法で、完全に・無条件に",
       "playMeaning": true
+    },
+    {
+      "surface": "Sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0086": [
@@ -8176,6 +9167,24 @@
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは人物が座った状態などから立ち上がる動作を示す。"
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Probably",
+      "lemma": "probably",
+      "meaning": "【副詞】\nおそらく、たぶん。",
+      "playMeaning": false
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "meaning": "【動詞】\n～だろうと予想する、期待する。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0093": [
@@ -8216,6 +9225,12 @@
       "meaning": "【名詞】\n備蓄、予備",
       "playMeaning": true,
       "inThisPlay": "ここでは雪で孤立した場合に備えた缶詰の備蓄。"
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0094": [
@@ -8356,6 +9371,24 @@
       "meaning": "【名】暖炉用の石炭を入れて運ぶ容器、石炭入れ。",
       "playMeaning": true,
       "inThisPlay": "暖炉用の石炭を入れて運ぶ容器、石炭入れ。"
+    },
+    {
+      "surface": "stoked",
+      "lemma": "stoke",
+      "meaning": "【動詞】\n燃料を足して火を保つ",
+      "playMeaning": false
+    },
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0095": [
@@ -8383,6 +9416,12 @@
       "lemma": "refectory table",
       "meaning": "修道院の食堂などに由来する、長く頑丈な大型食卓の様式。",
       "playMeaning": true
+    },
+    {
+      "surface": "library",
+      "lemma": "library",
+      "meaning": "【名】書斎・図書室、図書館。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0096": [
@@ -8419,6 +9458,12 @@
       "meaning": "【名詞】\nギニー（旧英国通貨単位、21シリング）",
       "playMeaning": true,
       "inThisPlay": "宿泊料金をギニー単位で示している。1 guineaは旧英国通貨で21 shillings（1 pound 1 shilling）に相当した。"
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0098": [
@@ -8491,6 +9536,12 @@
       "lemma": "architect",
       "meaning": "【名詞】\n建築家",
       "playMeaning": true
+    },
+    {
+      "surface": "Christopher Wren",
+      "lemma": "christopher wren",
+      "meaning": "【固有名詞】\n英語の人名。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0103": [
@@ -8511,6 +9562,24 @@
       "lemma": "educated",
       "meaning": "【形容詞】\n教育を受け、知識や教養を身につけている。",
       "playMeaning": false
+    },
+    {
+      "surface": "course",
+      "lemma": "course",
+      "meaning": "【名詞】\n① 進路・経過\n② 教育の課程や一連の授業",
+      "playMeaning": false
+    },
+    {
+      "surface": "Christopher Wren",
+      "lemma": "christopher wren",
+      "meaning": "【固有名詞】\n英語の人名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "St. Paul's",
+      "lemma": "St Paul’s Cathedral",
+      "meaning": "【固有名詞】ロンドンのSt Paul’s Cathedral（セント・ポール大聖堂）。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0104": [
@@ -8525,6 +9594,12 @@
       "lemma": "turn out",
       "meaning": "結局～だと分かる／結果として～になる",
       "playMeaning": true
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0105": [
@@ -8571,6 +9646,24 @@
       "lemma": "whether",
       "meaning": "【接続詞】\n二つ以上の可能性のどちらであるか、または～かどうかを示す。",
       "playMeaning": false
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "seven guineas",
+      "lemma": "guinea",
+      "meaning": "【名詞】\nギニー（旧英国通貨単位、21シリング）",
+      "playMeaning": false
+    },
+    {
+      "surface": "matter",
+      "lemma": "matter",
+      "meaning": "【名詞】\n問題、事柄、案件。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0107": [
@@ -8600,7 +9693,14 @@
     }
   ],
   "act1-scene2-speech-0108": [],
-  "act1-scene2-speech-0109": [],
+  "act1-scene2-speech-0109": [
+    {
+      "surface": "expecting",
+      "lemma": "expect",
+      "meaning": "【動詞】\n～だろうと予想する、期待する。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0110": [
     {
       "surface": "turn away",
@@ -8619,6 +9719,12 @@
       "lemma": "against the law",
       "meaning": "法律に反して",
       "playMeaning": true
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0111": [],
@@ -8634,6 +9740,24 @@
       "lemma": "sit on the Bench",
       "meaning": "裁判官・治安判事として法廷で職務を行う。",
       "playMeaning": true
+    },
+    {
+      "surface": "sitting",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": false
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "on the Bench",
+      "lemma": "on the Bench",
+      "meaning": "裁判官・治安判事として法廷で職務に就いて。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0113": [
@@ -8678,6 +9802,12 @@
       "lemma": "amusing",
       "meaning": "【形容詞】\n面白く、笑いや楽しさを感じさせる。",
       "playMeaning": false
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0117": [
@@ -8695,6 +9825,18 @@
       "lemma": "get on with",
       "meaning": "～を進める／続ける",
       "playMeaning": true
+    },
+    {
+      "surface": "drawing room",
+      "lemma": "drawing room",
+      "meaning": "【名】応接間、客間。",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0120": [
@@ -8714,6 +9856,12 @@
       "surface": "upset",
       "lemma": "upset",
       "meaning": "【動詞】\n① 人を動揺させる\n② 予定・均衡などを乱す。\n【形容詞】\n動揺した。\n【名詞】\n混乱、番狂わせ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
       "playMeaning": false
     }
   ],
@@ -8738,6 +9886,12 @@
       "meaning": "物事を容易にする、やりやすくする。",
       "playMeaning": true,
       "inThisPlay": "雪が「物事を簡単にする」とParaviciniが意味深に言う。何が容易になるのかをわざと説明せず、不穏さを作っている。"
+    },
+    {
+      "surface": "difficult",
+      "lemma": "difficult",
+      "meaning": "【形容詞】\n行う・理解する・扱うことが容易でない。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0123": [],
@@ -8761,6 +9915,12 @@
       "lemma": "make a go of it",
       "meaning": "うまくやり遂げる／成功させる",
       "playMeaning": true
+    },
+    {
+      "surface": "I daresay",
+      "lemma": "I daresay",
+      "meaning": "おそらく～だろう、たぶんね。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0126": [],
@@ -8783,6 +9943,12 @@
       "lemma": "reference",
       "meaning": "【名詞】\n① 参照、言及\n② 人物の経歴・信用を証明する推薦状・照会先",
       "playMeaning": true
+    },
+    {
+      "surface": "doubt",
+      "lemma": "doubt",
+      "meaning": "【動】\n確かではないと思う、疑う。\n【名】\n疑い、疑念。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0129": [
@@ -8791,6 +9957,12 @@
       "lemma": "just",
       "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
       "playMeaning": true
+    },
+    {
+      "surface": "usual",
+      "lemma": "usual",
+      "meaning": "【形容詞】\nいつもの、通常の。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0130": [
@@ -8854,6 +10026,12 @@
       "meaning": "【名詞】\n殺人犯",
       "playMeaning": true,
       "inThisPlay": "Paraviciniが自分にもあり得る身元としてわざと挙げる『殺人犯』。自分が殺人犯だと認めた発言ではない。"
+    },
+    {
+      "surface": "Take",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0131": [],
@@ -8863,6 +10041,12 @@
       "lemma": "just",
       "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
       "playMeaning": true
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0133": [
@@ -8871,10 +10055,36 @@
       "lemma": "as far as someone goes",
       "meaning": "～に関する限り、～について言えば。",
       "playMeaning": true
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
     }
   ],
-  "act1-scene2-speech-0134": [],
-  "act1-scene2-speech-0135": [],
+  "act1-scene2-speech-0134": [
+    {
+      "surface": "drawing room",
+      "lemma": "drawing room",
+      "meaning": "【名】応接間、客間。",
+      "playMeaning": false
+    },
+    {
+      "surface": "sit",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": false
+    }
+  ],
+  "act1-scene2-speech-0135": [
+    {
+      "surface": "fire",
+      "lemma": "fire",
+      "meaning": "【動】\n① 火をつける\n② 銃などを発射する\n③ 解雇する。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0136": [
     {
       "surface": "pipes",
@@ -8943,6 +10153,18 @@
       "lemma": "Hullo",
       "meaning": "【間投詞】\n① やあ\n② もしもし",
       "playMeaning": true
+    },
+    {
+      "surface": "matter",
+      "lemma": "matter",
+      "meaning": "【名詞】\n問題、事柄、案件。",
+      "playMeaning": false
+    },
+    {
+      "surface": "coke's",
+      "lemma": "coke",
+      "meaning": "【名詞】\nコークス（燃料）",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0142": [
@@ -8971,6 +10193,24 @@
       "lemma": "bank up",
       "meaning": "火を長持ちさせるよう燃料を積む／雪などが堆積する",
       "playMeaning": true
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0144": [],
@@ -8993,9 +10233,34 @@
       "lemma": "ski",
       "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
       "playMeaning": false
+    },
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Berkshire Police",
+      "lemma": "Berkshire Police",
+      "meaning": "【固有名詞】Berkshire地域の警察を指す名称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Sergeant Trotter",
+      "lemma": "Sergeant Trotter",
+      "meaning": "【固有名詞】Sergeant Trotterという人名・呼称。Sergeantは軍・警察などの階級名。",
+      "playMeaning": false
     }
   ],
-  "act1-scene2-speech-0147": [],
+  "act1-scene2-speech-0147": [
+    {
+      "surface": "front door",
+      "lemma": "front door",
+      "meaning": "【名】玄関の正面扉。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0148": [],
   "act1-scene2-speech-0149": [
     {
@@ -9033,6 +10298,24 @@
       "meaning": "【形容詞】\n元気で活力があり、健康的・陽気な印象の。",
       "playMeaning": true,
       "inThisPlay": "Christopherが、雪まみれで元気そうなTrotterを「いかにも健康的で快活そう」と少しからかう調子で評している。"
+    },
+    {
+      "surface": "drawing room",
+      "lemma": "drawing room",
+      "meaning": "【名】応接間、客間。",
+      "playMeaning": false
+    },
+    {
+      "surface": "looking",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0153": [
@@ -9049,7 +10332,26 @@
       "playMeaning": true
     }
   ],
-  "act1-scene2-speech-0154": [],
+  "act1-scene2-speech-0154": [
+    {
+      "surface": "Sergeant Trotter",
+      "lemma": "Sergeant Trotter",
+      "meaning": "【固有名詞】Sergeant Trotterという人名・呼称。Sergeantは軍・警察などの階級名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Detective",
+      "lemma": "detective",
+      "meaning": "【名詞】\n犯罪を捜査する刑事・探偵。\n【形容詞】\n捜査の。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0155": [],
   "act1-scene2-speech-0156": [
     {
@@ -9065,6 +10367,12 @@
       "lemma": "quite",
       "meaning": "【副詞】\n① かなり\n② 完全に",
       "playMeaning": true
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0158": [
@@ -9082,9 +10390,29 @@
       "inThisPlay": "Christopherが先ほどと同じくTrotterの健康的で活動的な印象をからかい気味に繰り返している。"
     }
   ],
-  "act1-scene2-speech-0159": [],
+  "act1-scene2-speech-0159": [
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0160": [],
-  "act1-scene2-speech-0161": [],
+  "act1-scene2-speech-0161": [
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "course",
+      "lemma": "course",
+      "meaning": "【名詞】\n① 進路・経過\n② 教育の課程や一連の授業",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0162": [
     {
       "surface": "attractive",
@@ -9099,7 +10427,20 @@
       "playMeaning": true
     }
   ],
-  "act1-scene2-speech-0163": [],
+  "act1-scene2-speech-0163": [
+    {
+      "surface": "glance",
+      "lemma": "glance",
+      "meaning": "【動】ちらりと見る。【名】一瞥。",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0164": [
     {
       "surface": "Hullo",
@@ -9120,12 +10461,25 @@
       "playMeaning": true
     }
   ],
-  "act1-scene2-speech-0165": [],
+  "act1-scene2-speech-0165": [
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0166": [
     {
       "surface": "line",
       "lemma": "telephone line",
       "meaning": "電話通信を伝える回線。",
+      "playMeaning": false
+    },
+    {
+      "surface": "weight",
+      "lemma": "weight",
+      "meaning": "【名詞】\n重さ、重量。重要性・負担を表すこともある。",
       "playMeaning": false
     }
   ],
@@ -9142,9 +10496,28 @@
       "meaning": "【句動詞】\n① 切り離す、切り取る\n② 外部との連絡・交通などを断つ、孤立させる。",
       "playMeaning": true,
       "inThisPlay": "ここでは雪に加えて電話も不通になり、Monkswell Manorが外部との移動・通信を断たれた状態。"
+    },
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": false
     }
   ],
-  "act1-scene2-speech-0168": [],
+  "act1-scene2-speech-0168": [
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
+    },
+    {
+      "surface": "laugh",
+      "lemma": "laugh",
+      "meaning": "【動】笑う。【名】笑い声、笑い。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0169": [
     {
       "surface": "indeed",
@@ -9166,6 +10539,12 @@
       "meaning": "【名詞】\n探偵、捜査をする人。しばしば冗談めいた語。",
       "playMeaning": true,
       "inThisPlay": "Trotterを探偵役のように芝居がかって呼ぶ、Christopherの冗談めいた表現。"
+    },
+    {
+      "surface": "returning",
+      "lemma": "return",
+      "meaning": "【動詞】\n戻る、返す。\n【名詞】\n戻ること。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0171": [
@@ -9182,7 +10561,32 @@
       "playMeaning": true
     }
   ],
-  "act1-scene2-speech-0172": [],
+  "act1-scene2-speech-0172": [
+    {
+      "surface": "library",
+      "lemma": "library",
+      "meaning": "【名】書斎・図書室、図書館。",
+      "playMeaning": false
+    },
+    {
+      "surface": "go into",
+      "lemma": "go into",
+      "meaning": "～について詳しく立ち入る",
+      "playMeaning": false
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0173": [
     {
       "surface": "necessary",
@@ -9195,6 +10599,18 @@
       "lemma": "present",
       "meaning": "【形容詞】\n「目の前・今ここにある」が形容詞の中心。\n【名詞】\n名詞では贈り物。",
       "playMeaning": true
+    },
+    {
+      "surface": "save",
+      "lemma": "save",
+      "meaning": "【動詞】\n命を救われたという大げさな自己演出で、宿を見つけて凍死を免れたという意味。",
+      "playMeaning": false
+    },
+    {
+      "surface": "sit",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0174": [
@@ -9203,6 +10619,12 @@
       "lemma": "beg your pardon",
       "meaning": "失礼しました／もう一度お願いします",
       "playMeaning": true
+    },
+    {
+      "surface": "beg your pardon",
+      "lemma": "beg your pardon",
+      "meaning": "失礼しました／もう一度お願いします",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0175": [],
@@ -9232,6 +10654,12 @@
       "lemma": "protection",
       "meaning": "【名詞】\n保護",
       "playMeaning": true
+    },
+    {
+      "surface": "kind",
+      "lemma": "kind",
+      "meaning": "【形】\n親切な、思いやりのある。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0178": [
@@ -9266,6 +10694,24 @@
       "lemma": "case",
       "meaning": "【名詞】\n事件、事例",
       "playMeaning": true
+    },
+    {
+      "surface": "Culver Street",
+      "lemma": "culver street",
+      "meaning": "【固有名詞】\n通りの名称として用いられる固有名詞。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Maureen Lyon",
+      "lemma": "maureen lyon",
+      "meaning": "【固有名詞】\n人名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "London",
+      "lemma": "london",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0180": [
@@ -9288,6 +10734,18 @@
       "lemma": "acquainted",
       "meaning": "【形容詞】\n① 知り合いで\n② 事情を知って",
       "playMeaning": true
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0182": [],
@@ -9387,6 +10845,12 @@
       "lemma": "sensation",
       "meaning": "【名詞】\n① 大評判\n② 強い感覚",
       "playMeaning": true
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0188": [
@@ -9445,6 +10909,12 @@
       "lemma": "strangle",
       "meaning": "【動詞】\n① 絞殺する\n② 首を絞めて殺す",
       "playMeaning": true
+    },
+    {
+      "surface": "Culver Street",
+      "lemma": "culver street",
+      "meaning": "【固有名詞】\n通りの名称として用いられる固有名詞。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0190": [],
@@ -9460,6 +10930,36 @@
       "lemma": "pick up",
       "meaning": "拾う／手に取る",
       "playMeaning": true
+    },
+    {
+      "surface": "crime",
+      "lemma": "crime",
+      "meaning": "【名詞】\n法律に反する犯罪、罪。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Culver Street",
+      "lemma": "culver street",
+      "meaning": "【固有名詞】\n通りの名称として用いられる固有名詞。",
+      "playMeaning": false
+    },
+    {
+      "surface": "scene",
+      "lemma": "scene heading",
+      "meaning": "【舞台】場面を示す見出し。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Monkswell Manor",
+      "lemma": "Monkswell Manor",
+      "meaning": "【固有名詞】\nMonkswell Manorという屋敷・施設名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Monkswell",
+      "lemma": "monkswell",
+      "meaning": "【固有名詞】\n地名・建物名として用いられる名称。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0192": [],
@@ -9505,6 +11005,24 @@
       "lemma": "case",
       "meaning": "【名詞】\n事件、事例",
       "playMeaning": true
+    },
+    {
+      "surface": "Scotland Yard",
+      "lemma": "Scotland Yard",
+      "meaning": "【固有名詞】ロンドン警視庁（Metropolitan Police）の本部・組織を指す通称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Scotland",
+      "lemma": "Scotland",
+      "meaning": "【固有名詞】スコットランド。英国を構成する地域の一つ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Superintendent Hogben",
+      "lemma": "Superintendent Hogben",
+      "meaning": "【固有名詞】Superintendent Hogbenという人名・警察官の呼称。Superintendentは英国警察の階級名。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0194": [
@@ -9581,6 +11099,36 @@
       "lemma": "household",
       "meaning": "【名詞】\n同じ住居で暮らす人々・世帯。\n【形容詞】\nまた、家庭の。",
       "playMeaning": false
+    },
+    {
+      "surface": "Superintendent Hogben",
+      "lemma": "Superintendent Hogben",
+      "meaning": "【固有名詞】Superintendent Hogbenという人名・警察官の呼称。Superintendentは英国警察の階級名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "instructions",
+      "lemma": "instruction",
+      "meaning": "【名詞】\n何をどのように行うべきかを示す指示、命令、説明。",
+      "playMeaning": false
+    },
+    {
+      "surface": "safety",
+      "lemma": "safety",
+      "meaning": "【名】\n危険がなく安全であること、安全。",
+      "playMeaning": false
+    },
+    {
+      "surface": "conditions",
+      "lemma": "condition",
+      "meaning": "【名詞】\n① 状態、状況\n② 条件",
+      "playMeaning": false
+    },
+    {
+      "surface": "ski",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0196": [
@@ -9589,6 +11137,18 @@
       "lemma": "Good Lord",
       "meaning": "驚き・いらだち・強調を表す「なんてことだ」「まったく」。",
       "playMeaning": true
+    },
+    {
+      "surface": "Lord",
+      "lemma": "lord",
+      "meaning": "【間投詞】\n① まったく\n② やれやれ",
+      "playMeaning": false
+    },
+    {
+      "surface": "Safety",
+      "lemma": "safety",
+      "meaning": "【名】\n危険がなく安全であること、安全。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0197": [
@@ -9603,6 +11163,12 @@
       "lemma": "frankly",
       "meaning": "【副詞】\n率直に言えば",
       "playMeaning": true
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0198": [],
@@ -9633,7 +11199,14 @@
     }
   ],
   "act1-scene2-speech-0204": [],
-  "act1-scene2-speech-0205": [],
+  "act1-scene2-speech-0205": [
+    {
+      "surface": "Sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0206": [
     {
       "surface": "Three Blind Mice",
@@ -9659,6 +11232,12 @@
       "lemma": "nursery rhyme",
       "meaning": "童謡／わらべ歌",
       "playMeaning": true
+    },
+    {
+      "surface": "Blind",
+      "lemma": "blind",
+      "meaning": "【形容詞】\n目が見えない、視覚を失っている。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0207": [
@@ -9666,6 +11245,24 @@
       "surface": "horrible",
       "lemma": "horrible",
       "meaning": "【形容詞】\nとても不快な、恐ろしい、ひどい。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Three Blind Mice",
+      "lemma": "Three Blind Mice",
+      "meaning": "英語圏の伝承童謡『Three Blind Mice』の題名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Blind",
+      "lemma": "blind",
+      "meaning": "【形容詞】\n目が見えない、視覚を失っている。",
+      "playMeaning": false
+    },
+    {
+      "surface": "See",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
       "playMeaning": false
     }
   ],
@@ -9778,6 +11375,24 @@
       "lemma": "turn up",
       "meaning": "現れる／到着する",
       "playMeaning": true
+    },
+    {
+      "surface": "maniac",
+      "lemma": "maniac",
+      "meaning": "【名詞】\n① 狂人という古い呼称\n② 極端に熱中する人",
+      "playMeaning": false
+    },
+    {
+      "surface": "homicidal",
+      "lemma": "homicidal",
+      "meaning": "【形容詞】\n① 殺人的な\n② 殺人衝動のある",
+      "playMeaning": false
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0215": [
@@ -9816,6 +11431,18 @@
       "lemma": "case",
       "meaning": "【名詞】\n事件、事例",
       "playMeaning": true
+    },
+    {
+      "surface": "sees",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
+    },
+    {
+      "surface": "got to",
+      "lemma": "got to",
+      "meaning": "～しなければならない／～する必要がある",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0216": [],
@@ -9854,6 +11481,24 @@
       "lemma": "would you mind",
       "meaning": "～していただけますか／～は気になりますか",
       "playMeaning": true
+    },
+    {
+      "surface": "Sergeant Trotter",
+      "lemma": "Sergeant Trotter",
+      "meaning": "【固有名詞】Sergeant Trotterという人名・呼称。Sergeantは軍・警察などの階級名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0221": [
@@ -9862,6 +11507,12 @@
       "lemma": "quite",
       "meaning": "【副詞】\n① かなり\n② 完全に",
       "playMeaning": true
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0222": [
@@ -9882,6 +11533,18 @@
       "lemma": "merely",
       "meaning": "【副詞】\n単に～にすぎない",
       "playMeaning": true
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
+    },
+    {
+      "surface": "kind",
+      "lemma": "kind",
+      "meaning": "【形】\n親切な、思いやりのある。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0223": [
@@ -9890,6 +11553,12 @@
       "lemma": "in advance",
       "meaning": "前もって",
       "playMeaning": true
+    },
+    {
+      "surface": "ahead",
+      "lemma": "ahead",
+      "meaning": "【副詞】\n① 前方へ・前方に\n② 時間・順序・進行などで先に",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0224": [],
@@ -9961,6 +11630,36 @@
       "lemma": "more or less",
       "meaning": "だいたい／ほぼ",
       "playMeaning": true
+    },
+    {
+      "surface": "got to",
+      "lemma": "got to",
+      "meaning": "～しなければならない／～する必要がある",
+      "playMeaning": false
+    },
+    {
+      "surface": "since",
+      "lemma": "since",
+      "meaning": "【副詞】\nその時以来、それ以降ずっと。",
+      "playMeaning": false
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0227": [
@@ -9988,6 +11687,18 @@
       "lemma": "bygone years",
       "meaning": "ずっと以前の過ぎ去った年月・時代。",
       "playMeaning": true
+    },
+    {
+      "surface": "local",
+      "lemma": "local",
+      "meaning": "【形】\nその地域の、地元の。\n【名】\n地元の人。",
+      "playMeaning": false
+    },
+    {
+      "surface": "bygone",
+      "lemma": "bygone",
+      "meaning": "【形容詞】\n過ぎ去った、昔の。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0228": [],
@@ -10009,6 +11720,18 @@
       "lemma": "distressing",
       "meaning": "【形容詞】\n痛ましい、心を苦しめる",
       "playMeaning": true
+    },
+    {
+      "surface": "on earth",
+      "lemma": "on earth",
+      "meaning": "疑問語の後で『いったい』と驚き・苛立ちを強める。",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0230": [],
@@ -10034,6 +11757,12 @@
       "surface": "mere",
       "lemma": "mere",
       "meaning": "【形容詞】\n単なる、ほんの～にすぎない。重要性や程度が小さいことを強調する。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Christopher Wren",
+      "lemma": "christopher wren",
+      "meaning": "【固有名詞】\n英語の人名。",
       "playMeaning": false
     }
   ],
@@ -10061,6 +11790,12 @@
       "lemma": "look round",
       "meaning": "見て回る／調べて回る",
       "playMeaning": true
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0237": [
@@ -10117,6 +11852,18 @@
       "lemma": "tune",
       "meaning": "【名詞】\n旋律、曲",
       "playMeaning": true
+    },
+    {
+      "surface": "Three Blind Mice",
+      "lemma": "Three Blind Mice",
+      "meaning": "英語圏の伝承童謡『Three Blind Mice』の題名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Blind",
+      "lemma": "blind",
+      "meaning": "【形容詞】\n目が見えない、視覚を失っている。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0238": [],
@@ -10202,6 +11949,18 @@
       "lemma": "throat",
       "meaning": "【名詞】\n口の奥から首の内部へ続く喉。",
       "playMeaning": false
+    },
+    {
+      "surface": "hands",
+      "lemma": "hand",
+      "meaning": "【動】手渡す。【名】手。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0242": [],
@@ -10225,6 +11984,12 @@
       "lemma": "macabre",
       "meaning": "【形容詞】\n死や恐怖を不気味に扱う、陰惨趣味の",
       "playMeaning": true
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0245": [
@@ -10246,6 +12011,12 @@
       "meaning": "【形容詞】\n神経症的な、という旧来の心理語",
       "playMeaning": true,
       "inThisPlay": "Mrs. BoyleがChristopherの不穏な冗談を非難して「神経質で異常な若者」と決めつける侮蔑的評価。医学的診断ではない。"
+    },
+    {
+      "surface": "mannered",
+      "lemma": "manner",
+      "meaning": "【名詞】\n物事のやり方、態度、振る舞い。複数形 manners では礼儀作法を表すことがある。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0246": [],
@@ -10261,6 +12032,12 @@
       "lemma": "conduct",
       "meaning": "【動詞】\n活動・調査などを行う、実施する。\n【名詞】\nまた、人を案内する。",
       "playMeaning": false
+    },
+    {
+      "surface": "Taking",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0248": [
@@ -10269,6 +12046,12 @@
       "lemma": "architect",
       "meaning": "【名詞】\n建築家",
       "playMeaning": true
+    },
+    {
+      "surface": "manner",
+      "lemma": "manner",
+      "meaning": "【名詞】\n物事のやり方、態度、振る舞い。複数形 manners では礼儀作法を表すことがある。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0249": [
@@ -10289,6 +12072,12 @@
       "lemma": "daresay",
       "meaning": "【動詞的表現】\n① たぶん～だろう\n② ～と思う",
       "playMeaning": true
+    },
+    {
+      "surface": "fellows",
+      "lemma": "fellow",
+      "meaning": "【名詞】\n男性・人をくだけた調子で指す語。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0250": [
@@ -10311,6 +12100,12 @@
       "lemma": "just",
       "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
       "playMeaning": true
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0252": [],
@@ -10332,6 +12127,12 @@
       "lemma": "in fact",
       "meaning": "実際には／実は",
       "playMeaning": true
+    },
+    {
+      "surface": "responsible",
+      "lemma": "responsible",
+      "meaning": "【形容詞】\n行為・結果について責任がある、または責任を負う立場の。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0254": [
@@ -10377,6 +12178,18 @@
       "lemma": "out-of-doors life",
       "meaning": "戸外中心の生活",
       "playMeaning": true
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "responsible",
+      "lemma": "responsible",
+      "meaning": "【形容詞】\n行為・結果について責任がある、または責任を負う立場の。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0255": [
@@ -10406,7 +12219,14 @@
     }
   ],
   "act1-scene2-speech-0256": [],
-  "act1-scene2-speech-0257": [],
+  "act1-scene2-speech-0257": [
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0258": [
     {
       "surface": "public duty",
@@ -10480,6 +12300,12 @@
       "lemma": "make one’s face up",
       "meaning": "化粧する",
       "playMeaning": true
+    },
+    {
+      "surface": "Looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0264": [
@@ -10508,12 +12334,25 @@
       "playMeaning": true
     }
   ],
-  "act1-scene2-speech-0265": [],
+  "act1-scene2-speech-0265": [
+    {
+      "surface": "wanting",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0266": [
     {
       "surface": "yet",
       "lemma": "yet",
       "meaning": "【接続詞】\nそれにもかかわらず、しかし。それまでの内容と対照を示す。",
+      "playMeaning": false
+    },
+    {
+      "surface": "turn",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
       "playMeaning": false
     }
   ],
@@ -10560,8 +12399,22 @@
     }
   ],
   "act1-scene2-speech-0276": [],
-  "act1-scene2-speech-0277": [],
-  "act1-scene2-speech-0278": [],
+  "act1-scene2-speech-0277": [
+    {
+      "surface": "Damned",
+      "lemma": "damned",
+      "meaning": "【形容詞】\nいまいましい、ひどい。\n【副詞】\n口語で「ひどく、まったく」のように強調する。",
+      "playMeaning": false
+    }
+  ],
+  "act1-scene2-speech-0278": [
+    {
+      "surface": "matters",
+      "lemma": "matter",
+      "meaning": "【名詞】\n問題、事柄、案件。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0279": [],
   "act1-scene2-speech-0280": [
     {
@@ -10595,6 +12448,18 @@
       "lemma": "psychologist",
       "meaning": "【名詞】\n心理学者",
       "playMeaning": true
+    },
+    {
+      "surface": "damned",
+      "lemma": "damned",
+      "meaning": "【形容詞】\nいまいましい、ひどい。\n【副詞】\n口語で「ひどく、まったく」のように強調する。",
+      "playMeaning": false
+    },
+    {
+      "surface": "psychiatrists",
+      "lemma": "psychiatrist",
+      "meaning": "【名詞】\n精神科医",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0282": [],
@@ -10622,9 +12487,28 @@
       "lemma": "look back",
       "meaning": "過去のつらい出来事を振り返ったり、それにとらわれたりするな、という比喩。",
       "playMeaning": true
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
+    },
+    {
+      "surface": "ahead",
+      "lemma": "ahead",
+      "meaning": "【副詞】\n① 前方へ・前方に\n② 時間・順序・進行などで先に",
+      "playMeaning": false
     }
   ],
-  "act1-scene2-speech-0284": [],
+  "act1-scene2-speech-0284": [
+    {
+      "surface": "looking",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0285": [
     {
       "surface": "Nonsense",
@@ -10641,7 +12525,20 @@
   ],
   "act1-scene2-speech-0286": [],
   "act1-scene2-speech-0287": [],
-  "act1-scene2-speech-0288": [],
+  "act1-scene2-speech-0288": [
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "meaning": "【動詞】\n～だろうと予想する、期待する。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0289": [
     {
       "surface": "Don't give in",
@@ -10686,6 +12583,12 @@
       "lemma": "face something",
       "meaning": "過去のつらい出来事から逃げず、正面から認めて向き合うこと。／困難・事実などから逃げずに向き合う。",
       "playMeaning": true
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0291": [],
@@ -10697,8 +12600,28 @@
       "playMeaning": false
     }
   ],
-  "act1-scene2-speech-0293": [],
-  "act1-scene2-speech-0294": [],
+  "act1-scene2-speech-0293": [
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
+    }
+  ],
+  "act1-scene2-speech-0294": [
+    {
+      "surface": "drawing room",
+      "lemma": "drawing room",
+      "meaning": "【名】応接間、客間。",
+      "playMeaning": false
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0295": [
     {
       "surface": "Would you mind",
@@ -10711,6 +12634,12 @@
       "lemma": "draught",
       "meaning": "【名詞】\n隙間風",
       "playMeaning": true
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0296": [
@@ -10725,6 +12654,18 @@
       "lemma": "get the lay of the land",
       "meaning": "状況・地形を把握する",
       "playMeaning": true
+    },
+    {
+      "surface": "got to",
+      "lemma": "got to",
+      "meaning": "～しなければならない／～する必要がある",
+      "playMeaning": false
+    },
+    {
+      "surface": "lay",
+      "lemma": "lay",
+      "meaning": "【動詞】\n置く、横たえる。鳥などが卵を産む。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0297": [],
@@ -10740,16 +12681,48 @@
       "lemma": "superintendent",
       "meaning": "【名詞】\n① 警視級の警察幹部\n② 管理責任者",
       "playMeaning": true
+    },
+    {
+      "surface": "Superintendent Hogben",
+      "lemma": "Superintendent Hogben",
+      "meaning": "【固有名詞】Superintendent Hogbenという人名・警察官の呼称。Superintendentは英国警察の階級名。",
+      "playMeaning": false
     }
   ],
-  "act1-scene2-speech-0299": [],
-  "act1-scene2-speech-0300": [],
+  "act1-scene2-speech-0299": [
+    {
+      "surface": "line",
+      "lemma": "telephone line",
+      "meaning": "電話通信を伝える回線。",
+      "playMeaning": false
+    }
+  ],
+  "act1-scene2-speech-0300": [
+    {
+      "surface": "Since",
+      "lemma": "since",
+      "meaning": "【副詞】\nその時以来、それ以降ずっと。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0301": [
     {
       "surface": "just after",
       "lemma": "just after",
       "meaning": "～の直後に",
       "playMeaning": true
+    },
+    {
+      "surface": "just",
+      "lemma": "just",
+      "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
+      "playMeaning": false
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0302": [
@@ -10764,9 +12737,34 @@
       "lemma": "get through",
       "meaning": "通り抜ける／電話がつながる",
       "playMeaning": true
+    },
+    {
+      "surface": "Superintendent Hogben",
+      "lemma": "Superintendent Hogben",
+      "meaning": "【固有名詞】Superintendent Hogbenという人名・警察官の呼称。Superintendentは英国警察の階級名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
     }
   ],
-  "act1-scene2-speech-0303": [],
+  "act1-scene2-speech-0303": [
+    {
+      "surface": "since",
+      "lemma": "since",
+      "meaning": "【副詞】\nその時以来、それ以降ずっと。",
+      "playMeaning": false
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0304": [
     {
       "surface": "wonder",
@@ -10786,7 +12784,20 @@
   ],
   "act1-scene2-speech-0307": [],
   "act1-scene2-speech-0308": [],
-  "act1-scene2-speech-0309": [],
+  "act1-scene2-speech-0309": [
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0310": [],
   "act1-scene2-speech-0311": [
     {
@@ -10838,6 +12849,18 @@
       "lemma": "evidence",
       "meaning": "【名詞】\n証拠",
       "playMeaning": true
+    },
+    {
+      "surface": "course",
+      "lemma": "course",
+      "meaning": "【名詞】\n① 進路・経過\n② 教育の課程や一連の授業",
+      "playMeaning": false
+    },
+    {
+      "surface": "go into",
+      "lemma": "go into",
+      "meaning": "～について詳しく立ち入る",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0313": [
@@ -10896,13 +12919,51 @@
     }
   ],
   "act1-scene2-speech-0317": [],
-  "act1-scene2-speech-0318": [],
-  "act1-scene2-speech-0319": [],
+  "act1-scene2-speech-0318": [
+    {
+      "surface": "crimes",
+      "lemma": "crime",
+      "meaning": "【名詞】\n法律に反する犯罪、罪。",
+      "playMeaning": false
+    }
+  ],
+  "act1-scene2-speech-0319": [
+    {
+      "surface": "crime",
+      "lemma": "crime",
+      "meaning": "【名詞】\n法律に反する犯罪、罪。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Culver Street",
+      "lemma": "culver street",
+      "meaning": "【固有名詞】\n通りの名称として用いられる固有名詞。",
+      "playMeaning": false
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Crimes",
+      "lemma": "crime",
+      "meaning": "【名詞】\n法律に反する犯罪、罪。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0320": [
     {
       "surface": "attempted",
       "lemma": "attempt",
       "meaning": "【動】\n難しいことをやってみる、試みる。\n【名】\n試み、企て。",
+      "playMeaning": false
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
       "playMeaning": false
     }
   ],
@@ -10921,6 +12982,18 @@
       "lemma": "description",
       "meaning": "【名詞】\n人相・特徴の説明",
       "playMeaning": true
+    },
+    {
+      "surface": "London",
+      "lemma": "london",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
+    },
+    {
+      "surface": "looked",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0324": [
@@ -10989,6 +13062,18 @@
       "lemma": "lightish",
       "meaning": "【形容詞】\nやや明るい色の",
       "playMeaning": true
+    },
+    {
+      "surface": "Medium",
+      "lemma": "medium",
+      "meaning": "【形容詞】\n中くらいの、中間の。\n【名詞】\n媒体・手段など。",
+      "playMeaning": false
+    },
+    {
+      "surface": "overcoats",
+      "lemma": "overcoat",
+      "meaning": "【名詞】\nオーバーコート、厚手の外套",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0325": [],
@@ -10997,6 +13082,12 @@
       "surface": "wire",
       "lemma": "wire",
       "meaning": "【名詞】\n金属を細長く伸ばした線。電気・通信を伝える線にも使う。",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
       "playMeaning": false
     }
   ],
@@ -11022,6 +13113,12 @@
       "lemma": "beg your pardon",
       "meaning": "失礼しました／もう一度お願いします",
       "playMeaning": true
+    },
+    {
+      "surface": "beg your pardon",
+      "lemma": "beg your pardon",
+      "meaning": "失礼しました／もう一度お願いします",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0330": [
@@ -11033,8 +13130,22 @@
     }
   ],
   "act1-scene2-speech-0331": [],
-  "act1-scene2-speech-0332": [],
-  "act1-scene2-speech-0333": [],
+  "act1-scene2-speech-0332": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    }
+  ],
+  "act1-scene2-speech-0333": [
+    {
+      "surface": "left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": false
+    }
+  ],
   "act1-scene2-speech-0334": [
     {
       "surface": "term",
@@ -11059,6 +13170,24 @@
       "lemma": "for instance",
       "meaning": "例えば",
       "playMeaning": true
+    },
+    {
+      "surface": "effect",
+      "lemma": "effect",
+      "meaning": "【名詞】\n① 結果、影響\n② 見た目や演出上の効果",
+      "playMeaning": false
+    },
+    {
+      "surface": "softly",
+      "lemma": "softly",
+      "meaning": "【副】静かに、やさしく、小声で。",
+      "playMeaning": false
+    },
+    {
+      "surface": "fear",
+      "lemma": "fear",
+      "meaning": "【名詞】\n危険や悪い結果を予想して感じる恐れ、不安。\n【動詞】\nまた、それを恐れる。",
+      "playMeaning": false
     }
   ],
   "act1-scene2-speech-0335": [
@@ -11096,6 +13225,24 @@
       "lemma": "got to",
       "meaning": "～しなければならない／～する必要がある",
       "playMeaning": true
+    },
+    {
+      "surface": "just",
+      "lemma": "just",
+      "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
+      "playMeaning": false
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0004": [
@@ -11130,6 +13277,12 @@
       "lemma": "murderess",
       "meaning": "【名詞】\n女性の殺人犯（古い性別語）",
       "playMeaning": true
+    },
+    {
+      "surface": "murderer's",
+      "lemma": "murderer",
+      "meaning": "【名詞】\n殺人犯",
+      "playMeaning": false
     }
   ],
   "act2-speech-0006": [],
@@ -11139,6 +13292,24 @@
       "lemma": "murderer",
       "meaning": "【名詞】\n殺人犯",
       "playMeaning": true
+    },
+    {
+      "surface": "dining room",
+      "lemma": "dining room",
+      "meaning": "【名】食堂、ダイニングルーム。",
+      "playMeaning": false
+    },
+    {
+      "surface": "back stairs",
+      "lemma": "back stairs",
+      "meaning": "建物の裏側・使用人用などに設けられた裏階段。",
+      "playMeaning": false
+    },
+    {
+      "surface": "left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0008": [
@@ -11163,6 +13334,24 @@
       "lemma": "close",
       "meaning": "【副詞】\n近くに、すぐそばに。",
       "playMeaning": false
+    },
+    {
+      "surface": "hand",
+      "lemma": "hand",
+      "meaning": "【動】手渡す。【名】手。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0012": [],
@@ -11172,6 +13361,12 @@
       "lemma": "all in",
       "meaning": "ひどく疲れ切っている。",
       "playMeaning": true
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0014": [
@@ -11228,6 +13423,18 @@
       "lemma": "get to the bottom of",
       "meaning": "真相を突き止める",
       "playMeaning": true
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "taken",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0015": [
@@ -11281,6 +13488,24 @@
       "meaning": "【名詞句】\nより広い範囲、より多くの対象・選択肢がある範囲。",
       "playMeaning": true,
       "inThisPlay": "Culver Streetでは被害者候補が一人だったのに対し、Monkswell Manorには次の標的になり得る人物が複数いる、という意味。"
+    },
+    {
+      "surface": "Culver Street",
+      "lemma": "culver street",
+      "meaning": "【固有名詞】\n通りの名称として用いられる固有名詞。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Monkswell Manor",
+      "lemma": "Monkswell Manor",
+      "meaning": "【固有名詞】\nMonkswell Manorという屋敷・施設名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Monkswell",
+      "lemma": "monkswell",
+      "meaning": "【固有名詞】\n地名・建物名として用いられる名称。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0021": [
@@ -11393,9 +13618,64 @@
       "lemma": "switch off",
       "meaning": "スイッチを切る",
       "playMeaning": true
+    },
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Miss Casewell",
+      "lemma": "Miss Casewell",
+      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "quite",
+      "lemma": "quite",
+      "meaning": "【副詞】\n① かなり\n② 完全に",
+      "playMeaning": false
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
+    },
+    {
+      "surface": "saw",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
+    },
+    {
+      "surface": "screamed",
+      "lemma": "scream",
+      "meaning": "【動】\n恐怖・痛みなどで大声を上げる、叫ぶ。\n【名】\n叫び声、悲鳴。",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0023": [],
+  "act2-speech-0023": [
+    {
+      "surface": "screamed",
+      "lemma": "scream",
+      "meaning": "【動】\n恐怖・痛みなどで大声を上げる、叫ぶ。\n【名】\n叫び声、悲鳴。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0024": [
     {
       "surface": "more or less",
@@ -11432,6 +13712,18 @@
       "lemma": "extension telephone",
       "meaning": "内線電話",
       "playMeaning": true
+    },
+    {
+      "surface": "extension",
+      "lemma": "extension",
+      "meaning": "【名詞】\n範囲・長さ・期間などを延ばすこと、または延長された部分。",
+      "playMeaning": false
+    },
+    {
+      "surface": "screamed",
+      "lemma": "scream",
+      "meaning": "【動】\n恐怖・痛みなどで大声を上げる、叫ぶ。\n【名】\n叫び声、悲鳴。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0025": [
@@ -11464,6 +13756,42 @@
       "lemma": "rush",
       "meaning": "【動詞】\n非常に急いで移動・行動する。\n【名詞】\nまた、急ぐこと・急激な動き。",
       "playMeaning": false
+    },
+    {
+      "surface": "Just",
+      "lemma": "just",
+      "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
+      "playMeaning": false
+    },
+    {
+      "surface": "extension",
+      "lemma": "extension",
+      "meaning": "【名詞】\n範囲・長さ・期間などを延ばすこと、または延長された部分。",
+      "playMeaning": false
+    },
+    {
+      "surface": "scream",
+      "lemma": "scream",
+      "meaning": "【動】\n恐怖・痛みなどで大声を上げる、叫ぶ。\n【名】\n叫び声、悲鳴。",
+      "playMeaning": false
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
+    },
+    {
+      "surface": "closed",
+      "lemma": "close",
+      "meaning": "【副詞】\n近くに、すぐそばに。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0026": [
@@ -11472,6 +13800,12 @@
       "lemma": "rather",
       "meaning": "【副詞】\n① やや\n② かなり\n③ むしろ",
       "playMeaning": true
+    },
+    {
+      "surface": "took",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0027": [],
@@ -11491,7 +13825,20 @@
   ],
   "act2-speech-0029": [],
   "act2-speech-0030": [],
-  "act2-speech-0031": [],
+  "act2-speech-0031": [
+    {
+      "surface": "adore",
+      "lemma": "adore",
+      "meaning": "【動詞】\n崇拝するほどではなく、料理が大好きだというChristopherらしい強い口語的表現。",
+      "playMeaning": false
+    },
+    {
+      "surface": "seeing",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0032": [],
   "act2-speech-0033": [
     {
@@ -11499,13 +13846,47 @@
       "lemma": "quite",
       "meaning": "【副詞】\n① かなり\n② 完全に",
       "playMeaning": true
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0034": [],
-  "act2-speech-0035": [],
-  "act2-speech-0036": [],
+  "act2-speech-0034": [
+    {
+      "surface": "wanted",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
+    }
+  ],
+  "act2-speech-0035": [
+    {
+      "surface": "wanted",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
+    }
+  ],
+  "act2-speech-0036": [
+    {
+      "surface": "wanted",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0037": [],
-  "act2-speech-0038": [],
+  "act2-speech-0038": [
+    {
+      "surface": "scream",
+      "lemma": "scream",
+      "meaning": "【動】\n恐怖・痛みなどで大声を上げる、叫ぶ。\n【名】\n叫び声、悲鳴。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0039": [],
   "act2-speech-0040": [
     {
@@ -11513,6 +13894,12 @@
       "lemma": "come down",
       "meaning": "下りてくる",
       "playMeaning": true
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0041": [],
@@ -11530,24 +13917,62 @@
       "lemma": "come down",
       "meaning": "下りてくる",
       "playMeaning": true
+    },
+    {
+      "surface": "back stairs",
+      "lemma": "back stairs",
+      "meaning": "建物の裏側・使用人用などに設けられた裏階段。",
+      "playMeaning": false
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0044": [],
+  "act2-speech-0044": [
+    {
+      "surface": "back stairs",
+      "lemma": "back stairs",
+      "meaning": "建物の裏側・使用人用などに設けられた裏階段。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0045": [
     {
       "surface": "went up",
       "lemma": "go up",
       "meaning": "上へ行く／上階へ行く",
       "playMeaning": true
+    },
+    {
+      "surface": "back stairs",
+      "lemma": "back stairs",
+      "meaning": "建物の裏側・使用人用などに設けられた裏階段。",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0046": [],
+  "act2-speech-0046": [
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0047": [
     {
       "surface": "Inspector",
       "lemma": "inspector",
       "meaning": "【名詞】\n① 警部\n② 検査官",
       "playMeaning": true
+    },
+    {
+      "surface": "drawing room",
+      "lemma": "drawing room",
+      "meaning": "【名】応接間、客間。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0048": [
@@ -11562,14 +13987,39 @@
       "lemma": "just",
       "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
       "playMeaning": true
+    },
+    {
+      "surface": "Sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0049": [],
+  "act2-speech-0049": [
+    {
+      "surface": "softly",
+      "lemma": "softly",
+      "meaning": "【副】静かに、やさしく、小声で。",
+      "playMeaning": false
+    },
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "meaning": "【動詞】\n～だろうと予想する、期待する。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0050": [
     {
       "surface": "Blind",
       "lemma": "blind",
       "meaning": "【形容詞】\n目が見えない、視覚を失っている。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Three Blind Mice",
+      "lemma": "Three Blind Mice",
+      "meaning": "英語圏の伝承童謡『Three Blind Mice』の題名。",
       "playMeaning": false
     }
   ],
@@ -11654,6 +14104,12 @@
       "lemma": "sergeant",
       "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
       "playMeaning": false
+    },
+    {
+      "surface": "beg your pardon",
+      "lemma": "beg your pardon",
+      "meaning": "失礼しました／もう一度お願いします",
+      "playMeaning": false
     }
   ],
   "act2-speech-0059": [
@@ -11719,9 +14175,28 @@
       "meaning": "修道院の食堂などに由来する、長く頑丈な大型食卓の様式。",
       "playMeaning": true,
       "inThisPlay": "舞台装置として置かれている大きな食卓を指す。移動位置を示す基準物にもなっている。"
+    },
+    {
+      "surface": "drawing room",
+      "lemma": "drawing room",
+      "meaning": "【名】応接間、客間。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Miss Casewell",
+      "lemma": "Miss Casewell",
+      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0062": [],
+  "act2-speech-0062": [
+    {
+      "surface": "library",
+      "lemma": "library",
+      "meaning": "【名】書斎・図書室、図書館。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0063": [
     {
       "surface": "going on",
@@ -11730,7 +14205,14 @@
       "playMeaning": true
     }
   ],
-  "act2-speech-0064": [],
+  "act2-speech-0064": [
+    {
+      "surface": "screamed",
+      "lemma": "scream",
+      "meaning": "【動】\n恐怖・痛みなどで大声を上げる、叫ぶ。\n【名】\n叫び声、悲鳴。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0065": [],
   "act2-speech-0066": [
     {
@@ -11764,6 +14246,12 @@
       "lemma": "come in",
       "meaning": "入ってくる／中に入る",
       "playMeaning": true
+    },
+    {
+      "surface": "hurriedly",
+      "lemma": "hurry",
+      "meaning": "【動詞】\n急ぐ、急いで行う。\n【名詞】\nまた、急いでいる状態。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0072": [],
@@ -11772,6 +14260,12 @@
       "surface": "yet",
       "lemma": "yet",
       "meaning": "【接続詞】\nそれにもかかわらず、しかし。それまでの内容と対照を示す。",
+      "playMeaning": false
+    },
+    {
+      "surface": "library",
+      "lemma": "library",
+      "meaning": "【名】書斎・図書室、図書館。",
       "playMeaning": false
     }
   ],
@@ -11845,6 +14339,12 @@
       "lemma": "turn away",
       "meaning": "追い返す／入場を断る",
       "playMeaning": true
+    },
+    {
+      "surface": "damned",
+      "lemma": "damned",
+      "meaning": "【形容詞】\nいまいましい、ひどい。\n【副詞】\n口語で「ひどく、まったく」のように強調する。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0077": [
@@ -11904,6 +14404,18 @@
       "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": true,
       "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "take",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0078": [
@@ -11935,6 +14447,12 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0080": [
@@ -11988,6 +14506,42 @@
       "meaning": "【副詞】\n感じよく、愛想よく、心地よく",
       "playMeaning": true,
       "inThisPlay": "Metcalfが感じよく、穏やかな調子で話す演技指示。"
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Looking",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
+    },
+    {
+      "surface": "cupboard",
+      "lemma": "cupboard",
+      "meaning": "【名詞】\n食器・衣類などをしまう戸棚、収納棚。",
+      "playMeaning": false
+    },
+    {
+      "surface": "noticed",
+      "lemma": "notice",
+      "meaning": "【動】気づく、注目する。",
+      "playMeaning": false
+    },
+    {
+      "surface": "saw",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0081": [
@@ -12024,6 +14578,12 @@
       "meaning": "【固有名詞】\n地名・建物名として用いられる名称。",
       "playMeaning": true,
       "inThisPlay": "Major Metcalfが建物の古い地下構造を見て、現在の館名「Monkswell」と結び付けて推測している名称。"
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0083": [
@@ -12090,6 +14650,24 @@
       "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": true,
       "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "cupboard",
+      "lemma": "cupboard",
+      "meaning": "【名詞】\n食器・衣類などをしまう戸棚、収納棚。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0084": [
@@ -12127,6 +14705,12 @@
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは座っている状態などから立ち上がる動作。"
+    },
+    {
+      "surface": "cupboard",
+      "lemma": "cupboard",
+      "meaning": "【名詞】\n食器・衣類などをしまう戸棚、収納棚。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0086": [
@@ -12140,6 +14724,12 @@
       "surface": "gloves",
       "lemma": "glove",
       "meaning": "【名詞】\n手を覆う手袋。",
+      "playMeaning": false
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": false
     }
   ],
@@ -12155,6 +14745,12 @@
       "lemma": "slip up",
       "meaning": "犯罪者もいずれ捜査上の手掛かりになるミスを犯す、という意味。",
       "playMeaning": true
+    },
+    {
+      "surface": "usual",
+      "lemma": "usual",
+      "meaning": "【形容詞】\nいつもの、通常の。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0088": [
@@ -12191,6 +14787,12 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0090": [
@@ -12384,6 +14986,12 @@
       "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": true,
       "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0093": [
@@ -12409,6 +15017,12 @@
       "surface": "sergeant",
       "lemma": "sergeant",
       "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
       "playMeaning": false
     }
   ],
@@ -12577,6 +15191,12 @@
       "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
       "playMeaning": true,
       "inThisPlay": "Mollieの次の発言・働きかけをTrotterに向ける演技指示。"
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0099": [
@@ -12636,6 +15256,12 @@
       "meaning": "【副詞】\n感情をほとんど表に出さず、動じない様子で。",
       "playMeaning": true,
       "inThisPlay": "感情を表に出さず動じない調子で演じる、というdelivery direction。"
+    },
+    {
+      "surface": "yet",
+      "lemma": "yet",
+      "meaning": "【接続詞】\nそれにもかかわらず、しかし。それまでの内容と対照を示す。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0102": [
@@ -12708,6 +15334,12 @@
       "lemma": "sergeant",
       "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
       "playMeaning": false
+    },
+    {
+      "surface": "Sergeant Trotter",
+      "lemma": "Sergeant Trotter",
+      "meaning": "【固有名詞】Sergeant Trotterという人名・呼称。Sergeantは軍・警察などの階級名。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0104": [
@@ -12749,6 +15381,18 @@
       "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": true,
       "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "dining room",
+      "lemma": "dining room",
+      "meaning": "【名】食堂、ダイニングルーム。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0105": [],
@@ -12832,6 +15476,12 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0110": [
@@ -12847,6 +15497,12 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Sergeant Trotter",
+      "lemma": "Sergeant Trotter",
+      "meaning": "【固有名詞】Sergeant Trotterという人名・呼称。Sergeantは軍・警察などの階級名。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0111": [
@@ -12905,6 +15561,12 @@
       "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": true,
       "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "placing",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0112": [
@@ -12927,6 +15589,30 @@
       "lemma": "just outside",
       "meaning": "すぐ外に",
       "playMeaning": true
+    },
+    {
+      "surface": "front door",
+      "lemma": "front door",
+      "meaning": "【名】玄関の正面扉。",
+      "playMeaning": false
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
+    },
+    {
+      "surface": "just",
+      "lemma": "just",
+      "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
+      "playMeaning": false
+    },
+    {
+      "surface": "line",
+      "lemma": "telephone line",
+      "meaning": "電話通信を伝える回線。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0114": [
@@ -12936,9 +15622,28 @@
       "meaning": "【形容詞】\n精神的に動揺した、ショックを受けた",
       "playMeaning": true,
       "inThisPlay": "Mollieが精神的に動揺し、平静を失った状態で受け答えする。"
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0115": [],
+  "act2-speech-0115": [
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Sit",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0116": [
     {
       "surface": "all the same",
@@ -13025,6 +15730,12 @@
       "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": true,
       "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "childish",
+      "lemma": "childish",
+      "meaning": "【形】子どもっぽい、幼稚な。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0118": [
@@ -13039,6 +15750,12 @@
       "lemma": "point to",
       "meaning": "～を示唆する／～を指し示す",
       "playMeaning": true
+    },
+    {
+      "surface": "to Christopher",
+      "lemma": "address cue",
+      "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0119": [
@@ -13191,6 +15908,18 @@
       "meaning": "【名】\nJapanese を指す短縮形。現在は侮蔑的・攻撃的な語。\n【形】\nJapanese を表す短縮形。現在は侮蔑的・攻撃的な語。",
       "playMeaning": true,
       "inThisPlay": "第二次世界大戦期の日本人を指して用いられる、現在では侮蔑的とされる歴史的表現。Mollieが父親の戦争体験を推測する発言中に出る。"
+    },
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": false
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0129": [
@@ -13246,6 +15975,18 @@
       "lemma": "pause",
       "meaning": "【動詞】\n一時止まる、間を置く。\n【名詞】\n短い中断、間。",
       "playMeaning": true
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "saw",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0133": [
@@ -13268,6 +16009,12 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0134": [
@@ -13318,6 +16065,12 @@
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは座っている状態などから立ち上がる動作。"
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0137": [],
@@ -13374,6 +16127,24 @@
       "lemma": "disguised",
       "meaning": "【形容詞】\n分からないよう姿・性質を変えた",
       "playMeaning": true
+    },
+    {
+      "surface": "looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Miss Casewell",
+      "lemma": "Miss Casewell",
+      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "noticed",
+      "lemma": "notice",
+      "meaning": "【動】気づく、注目する。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0141": [
@@ -13414,6 +16185,12 @@
       "meaning": "【固有名詞】\n男性名Georgeの愛称形として用いられる名前。",
       "playMeaning": true,
       "inThisPlay": "Longridge Farm事件で言及される子どもの呼び名。Georgeの愛称形として現れる。"
+    },
+    {
+      "surface": "since",
+      "lemma": "since",
+      "meaning": "【副詞】\nその時以来、それ以降ずっと。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0144": [],
@@ -13470,9 +16247,28 @@
       "lemma": "give something away",
       "meaning": "隠している情報・正体・感情などを意図せず明らかにする。",
       "playMeaning": true
+    },
+    {
+      "surface": "felt",
+      "lemma": "felt",
+      "meaning": "【名詞・形容詞】\n圧縮した繊維で作るフェルト、フェルト製の。",
+      "playMeaning": false
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0146": [],
+  "act2-speech-0146": [
+    {
+      "surface": "Miss Casewell",
+      "lemma": "Miss Casewell",
+      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0147": [
     {
       "surface": "a very wide field",
@@ -13513,6 +16309,12 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0148": [],
@@ -13562,6 +16364,18 @@
       "meaning": "【動詞】\n抗議する、異議を唱える。\n【名詞】\n抗議、異議。",
       "playMeaning": true,
       "inThisPlay": "ここでは抗議運動ではなく、Trotterの疑いに対して異議・反論を述べようとすること。"
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "means of",
+      "lemma": "means of",
+      "meaning": "～するための手段・方法。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0150": [
@@ -13606,6 +16420,12 @@
       "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
       "playMeaning": true,
       "inThisPlay": "ト書きの Left は俳優が客席を向いた基準での舞台左側。日常の「左」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0152": [
@@ -13631,6 +16451,12 @@
       "surface": "London",
       "lemma": "London",
       "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
+    },
+    {
+      "surface": "dance",
+      "lemma": "dance",
+      "meaning": "【動】踊る。【名】踊り、ダンス。",
       "playMeaning": false
     }
   ],
@@ -13806,6 +16632,24 @@
       "lemma": "fellow",
       "meaning": "【名詞】\n男性・人をくだけた調子で指す語。",
       "playMeaning": false
+    },
+    {
+      "surface": "since",
+      "lemma": "since",
+      "meaning": "【副詞】\nその時以来、それ以降ずっと。",
+      "playMeaning": false
+    },
+    {
+      "surface": "surprised",
+      "lemma": "surprised",
+      "meaning": "【形容詞】\n驚いた、意外に思った",
+      "playMeaning": false
+    },
+    {
+      "surface": "cases",
+      "lemma": "case",
+      "meaning": "【名詞】\n事件、事例",
+      "playMeaning": false
     }
   ],
   "act2-speech-0166": [
@@ -13878,6 +16722,12 @@
       "meaning": "【句動詞】\n① ～の方を向く\n② ～に頼る、助けを求める\n③ 話題・注意を～へ移す",
       "playMeaning": true,
       "inThisPlay": "Mollieが暖炉の火の方へ身体・視線を向ける動作。"
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0169": [],
@@ -13916,6 +16766,12 @@
       "lemma": "turn out to be",
       "meaning": "結果として～だと分かる、実際には～であることが判明する。",
       "playMeaning": true
+    },
+    {
+      "surface": "kind",
+      "lemma": "kind",
+      "meaning": "【形】\n親切な、思いやりのある。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0173": [
@@ -13931,6 +16787,12 @@
       "meaning": "拾う／手に取る",
       "playMeaning": true,
       "inThisPlay": "TrotterがABC Railway Guideを手に取り、時刻情報を読む動作。"
+    },
+    {
+      "surface": "London",
+      "lemma": "london",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0174": [
@@ -14112,6 +16974,12 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "startled",
+      "lemma": "startled",
+      "meaning": "【形容詞】\n突然驚いた、ぎょっとした。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0182": [
@@ -14344,6 +17212,12 @@
       "meaning": "【形容詞】\n突然驚いた、ぎょっとした。",
       "playMeaning": true,
       "inThisPlay": "突然の驚きが表情・身体に出る反応の指示。"
+    },
+    {
+      "surface": "laugh",
+      "lemma": "laugh",
+      "meaning": "【動】笑う。【名】笑い声、笑い。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0203": [],
@@ -14456,6 +17330,18 @@
       "meaning": "【名詞】\n不安、落ち着かなさ。",
       "playMeaning": true,
       "inThisPlay": "人物に急に不安が走る、という内面反応を演技に表す指示。"
+    },
+    {
+      "surface": "fitted",
+      "lemma": "fit",
+      "meaning": "【動】\n大きさ・条件・特徴などが合う、適合する。\n【形】\n適した、ふさわしい。",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0205": [],
@@ -14465,6 +17351,24 @@
       "lemma": "look after",
       "meaning": "～の世話をする",
       "playMeaning": true
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "care of",
+      "lemma": "care of",
+      "meaning": "郵便物の宛先で、指定した人・組織を経由して受け取ることを示す「～方、～気付」。",
+      "playMeaning": false
+    },
+    {
+      "surface": "taken",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0207": [
@@ -14508,6 +17412,12 @@
       "surface": "Got to",
       "lemma": "got to",
       "meaning": "～しなければならない／～する必要がある",
+      "playMeaning": false
+    },
+    {
+      "surface": "just",
+      "lemma": "just",
+      "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
       "playMeaning": false
     }
   ],
@@ -14591,6 +17501,12 @@
       "meaning": "【名詞】\n沈黙、静寂。\n【動詞】\n黙らせる。",
       "playMeaning": true,
       "inThisPlay": "台詞が途切れ、意図的な沈黙・間が置かれる舞台指示。"
+    },
+    {
+      "surface": "saw",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0220": [
@@ -14650,6 +17566,24 @@
       "lemma": "quite",
       "meaning": "【副詞】\n① かなり\n② 完全に",
       "playMeaning": true
+    },
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
+    },
+    {
+      "surface": "ski",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0225": [
@@ -14664,6 +17598,12 @@
       "lemma": "guilty",
       "meaning": "【形】\n犯罪・過失などについて罪がある、有罪の。",
       "playMeaning": false
+    },
+    {
+      "surface": "admitting",
+      "lemma": "admit",
+      "meaning": "【動】\n事実・非などを認める。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0226": [
@@ -14677,6 +17617,12 @@
       "surface": "sergeant",
       "lemma": "sergeant",
       "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Sergeant Trotter",
+      "lemma": "Sergeant Trotter",
+      "meaning": "【固有名詞】Sergeant Trotterという人名・呼称。Sergeantは軍・警察などの階級名。",
       "playMeaning": false
     }
   ],
@@ -14720,6 +17666,12 @@
       "lemma": "sergeant",
       "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
       "playMeaning": false
+    },
+    {
+      "surface": "Sergeant Trotter",
+      "lemma": "Sergeant Trotter",
+      "meaning": "【固有名詞】Sergeant Trotterという人名・呼称。Sergeantは軍・警察などの階級名。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0230": [],
@@ -14737,6 +17689,12 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Come on",
+      "lemma": "come on",
+      "meaning": "相手を促す「さあ」「ほら」、または反論・不信を示す表現。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0233": [
@@ -14746,6 +17704,12 @@
       "meaning": "【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。",
       "playMeaning": true,
       "inThisPlay": "Mollieが新聞を相手に見えるよう提示しながら話す。"
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0234": [],
@@ -14756,6 +17720,12 @@
       "meaning": "夕方に発行される新聞、夕刊。",
       "playMeaning": true,
       "inThisPlay": "ここでは「paper＝紙」ではなく、夕刊の新聞。"
+    },
+    {
+      "surface": "London",
+      "lemma": "london",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0236": [],
@@ -14770,6 +17740,24 @@
       "surface": "chicken wire",
       "lemma": "chicken wire",
       "meaning": "【名】\n鶏小屋などの囲いに使う、細い金属線でできた網状の金網。",
+      "playMeaning": false
+    },
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": false
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
+    },
+    {
+      "surface": "wire",
+      "lemma": "wire",
+      "meaning": "【名詞】\n金属を細長く伸ばした線。電気・通信を伝える線にも使う。",
       "playMeaning": false
     }
   ],
@@ -14811,6 +17799,18 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "London",
+      "lemma": "london",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0239": [
@@ -14889,6 +17889,12 @@
       "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
       "playMeaning": true,
       "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
+    },
+    {
+      "surface": "Lord",
+      "lemma": "lord",
+      "meaning": "【間投詞】\n① まったく\n② やれやれ",
+      "playMeaning": false
     }
   ],
   "act2-speech-0243": [
@@ -14996,6 +18002,18 @@
       "meaning": "【名】\nささやき、小声。\n【動】\n非常に小さな声で話す、ささやく。",
       "playMeaning": true,
       "inThisPlay": "Mollieが声量を落とし、ささやくように発言する演技指示。"
+    },
+    {
+      "surface": "look at",
+      "lemma": "look at",
+      "meaning": "～を見る、～へ視線を向ける",
+      "playMeaning": false
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0244": [
@@ -15067,6 +18085,18 @@
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは座っている状態などから立ち上がる動作。"
+    },
+    {
+      "surface": "hand",
+      "lemma": "hand",
+      "meaning": "【動】手渡す。【名】手。",
+      "playMeaning": false
+    },
+    {
+      "surface": "give you a hand",
+      "lemma": "give someone a hand",
+      "meaning": "人を手伝う、力を貸す。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0247": [
@@ -15105,7 +18135,14 @@
       "playMeaning": false
     }
   ],
-  "act2-speech-0250": [],
+  "act2-speech-0250": [
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0251": [
     {
       "surface": "keep away from",
@@ -15150,7 +18187,14 @@
       "playMeaning": true
     }
   ],
-  "act2-speech-0255": [],
+  "act2-speech-0255": [
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0256": [
     {
       "surface": "blind",
@@ -15216,6 +18260,12 @@
       "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": true,
       "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "What the hell",
+      "lemma": "what the hell",
+      "meaning": "驚き・怒り・いらだちを強める「いったい何を」「何なんだ」。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0260": [],
@@ -15309,6 +18359,24 @@
       "lemma": "barmy",
       "meaning": "【形容詞】\n頭がおかしい、ばかげた",
       "playMeaning": true
+    },
+    {
+      "surface": "look at",
+      "lemma": "look at",
+      "meaning": "～を見る、～へ視線を向ける",
+      "playMeaning": false
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0267": [
@@ -15323,9 +18391,22 @@
       "lemma": "look after",
       "meaning": "～の世話をする",
       "playMeaning": true
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0268": [],
+  "act2-speech-0268": [
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0269": [
     {
       "surface": "down",
@@ -15369,6 +18450,12 @@
       "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": true,
       "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "Look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0271": [],
@@ -15432,6 +18519,12 @@
       "meaning": "修道院の食堂などに由来する、長く頑丈な大型食卓の様式。",
       "playMeaning": true,
       "inThisPlay": "舞台装置として置かれている大きな食卓を指す。移動位置を示す基準物にもなっている。"
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0275": [
@@ -15439,6 +18532,24 @@
       "surface": "odder",
       "lemma": "odd",
       "meaning": "【形容詞】\n① 奇妙な、普通と違う\n② 奇数の",
+      "playMeaning": false
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Miss Casewell",
+      "lemma": "Miss Casewell",
+      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
       "playMeaning": false
     }
   ],
@@ -15492,6 +18603,18 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
+    },
+    {
+      "surface": "cases",
+      "lemma": "case",
+      "meaning": "【名詞】\n事件、事例",
+      "playMeaning": false
     }
   ],
   "act2-speech-0277": [
@@ -15542,6 +18665,12 @@
       "meaning": "人に知られないようこっそり、秘密に。",
       "playMeaning": true,
       "inThisPlay": "Gilesが、Mollieが自分に隠れてChristopherと会っていたのではないかと疑う文脈で、「こっそり」の意味。"
+    },
+    {
+      "surface": "London",
+      "lemma": "london",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0279": [
@@ -15549,6 +18678,12 @@
       "surface": "perfectly",
       "lemma": "perfectly",
       "meaning": "【副詞】\n① 完全に、まったく\n② 非常にという強調にも使う",
+      "playMeaning": false
+    },
+    {
+      "surface": "London",
+      "lemma": "london",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
       "playMeaning": false
     }
   ],
@@ -15565,6 +18700,12 @@
       "meaning": "普通とは違う、妙な声の調子。",
       "playMeaning": true,
       "inThisPlay": "普段と違う妙な声色で言うことを求めるdelivery direction。"
+    },
+    {
+      "surface": "London",
+      "lemma": "london",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0281": [
@@ -15620,6 +18761,24 @@
       "meaning": "【句動詞】\n① ～を中から取り出す\n② ～を外へ連れ出す",
       "playMeaning": true,
       "inThisPlay": "GilesがポケットからMollieの手袋を取り出す動作。"
+    },
+    {
+      "surface": "Sergeant Trotter",
+      "lemma": "Sergeant Trotter",
+      "meaning": "【固有名詞】Sergeant Trotterという人名・呼称。Sergeantは軍・警察などの階級名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "London",
+      "lemma": "london",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0283": [
@@ -15650,9 +18809,22 @@
       "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": true,
       "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "London",
+      "lemma": "london",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0285": [],
+  "act2-speech-0285": [
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0286": [
     {
       "surface": "Whilst",
@@ -15688,6 +18860,18 @@
       "lemma": "admit",
       "meaning": "【動】\n事実・非などを認める。",
       "playMeaning": false
+    },
+    {
+      "surface": "Come on",
+      "lemma": "come on",
+      "meaning": "相手を促す「さあ」「ほら」、または反論・不信を示す表現。",
+      "playMeaning": false
+    },
+    {
+      "surface": "London",
+      "lemma": "london",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0289": [
@@ -15703,6 +18887,18 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "London",
+      "lemma": "london",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0290": [],
@@ -15758,6 +18954,12 @@
       "surface": "London",
       "lemma": "London",
       "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": false
     }
   ],
@@ -15830,6 +19032,12 @@
       "meaning": "【固有名詞】\n英語の人名。",
       "playMeaning": true,
       "inThisPlay": "ここでは館に滞在している若い男性が名乗っている名前。歴史上の建築家と同一人物として扱ってはならない。"
+    },
+    {
+      "surface": "London",
+      "lemma": "london",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0303": [
@@ -15938,10 +19146,23 @@
       "lemma": "suffer",
       "meaning": "【動詞】\n苦痛・損害・つらい経験を受ける。",
       "playMeaning": false
+    },
+    {
+      "surface": "felt",
+      "lemma": "felt",
+      "meaning": "【名詞・形容詞】\n圧縮した繊維で作るフェルト、フェルト製の。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0308": [],
-  "act2-speech-0309": [],
+  "act2-speech-0309": [
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0310": [
     {
       "surface": "hell",
@@ -15990,6 +19211,12 @@
       "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
       "playMeaning": true,
       "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
+    },
+    {
+      "surface": "What the hell",
+      "lemma": "what the hell",
+      "meaning": "驚き・怒り・いらだちを強める「いったい何を」「何なんだ」。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0311": [
@@ -16134,6 +19361,12 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0316": [
@@ -16167,6 +19400,12 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "wants",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0319": [
@@ -16218,7 +19457,26 @@
       "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
     }
   ],
-  "act2-speech-0320": [],
+  "act2-speech-0320": [
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
+    },
+    {
+      "surface": "cupboard",
+      "lemma": "cupboard",
+      "meaning": "【名詞】\n食器・衣類などをしまう戸棚、収納棚。",
+      "playMeaning": false
+    },
+    {
+      "surface": "removed",
+      "lemma": "remove",
+      "meaning": "【動】取り除く、脱ぐ、移動させる。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0321": [
     {
       "surface": "certainly",
@@ -16227,7 +19485,14 @@
       "playMeaning": false
     }
   ],
-  "act2-speech-0322": [],
+  "act2-speech-0322": [
+    {
+      "surface": "taken",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0323": [
     {
       "surface": "moving",
@@ -16242,6 +19507,12 @@
       "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": true,
       "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0324": [
@@ -16258,6 +19529,12 @@
       "meaning": "【名詞】\n増援、補強",
       "playMeaning": true,
       "inThisPlay": "軍事だけの「援軍」ではなく、孤立した館で捜査を助ける追加の警察要員という意味。"
+    },
+    {
+      "surface": "ski",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0325": [
@@ -16300,6 +19577,12 @@
       "lemma": "get away",
       "meaning": "逃げる／その場を離れる",
       "playMeaning": true
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0328": [
@@ -16425,6 +19708,18 @@
       "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": true,
       "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
+    },
+    {
+      "surface": "take",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0334": [
@@ -16440,6 +19735,12 @@
       "meaning": "【形容詞】\n驚いた、意外に思った",
       "playMeaning": true,
       "inThisPlay": "Christopherがスキーについて尋ねられて驚いた反応で答える。"
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0335": [
@@ -16468,6 +19769,30 @@
       "surface": "exercise",
       "lemma": "exercise",
       "meaning": "【名詞】\n健康や能力の維持・向上のために身体や技能を使う活動。\n【動詞】\nまた、そのような活動を行う。",
+      "playMeaning": false
+    },
+    {
+      "surface": "fond of",
+      "lemma": "be fond of",
+      "meaning": "～が好きである",
+      "playMeaning": false
+    },
+    {
+      "surface": "fond",
+      "lemma": "fond",
+      "meaning": "【形】\n～が好きで、～を好んで。",
+      "playMeaning": false
+    },
+    {
+      "surface": "ski",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
+    },
+    {
+      "surface": "taken",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
       "playMeaning": false
     }
   ],
@@ -16523,9 +19848,28 @@
       "lemma": "matter",
       "meaning": "【名詞】\n問題、事柄、案件。",
       "playMeaning": false
+    },
+    {
+      "surface": "removed",
+      "lemma": "remove",
+      "meaning": "【動】取り除く、脱ぐ、移動させる。",
+      "playMeaning": false
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0339": [],
+  "act2-speech-0339": [
+    {
+      "surface": "Miss Casewell",
+      "lemma": "Miss Casewell",
+      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0340": [
     {
       "surface": "exits",
@@ -16577,6 +19921,24 @@
       "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": true,
       "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "dining room",
+      "lemma": "dining room",
+      "meaning": "【名】食堂、ダイニングルーム。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0342": [
@@ -16636,9 +19998,22 @@
       "lemma": "Hullo",
       "meaning": "【間投詞】\n① やあ\n② もしもし",
       "playMeaning": true
+    },
+    {
+      "surface": "wanting",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0344": [],
+  "act2-speech-0344": [
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0345": [
     {
       "surface": "Left",
@@ -16653,6 +20028,12 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "Skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0346": [
@@ -16699,7 +20080,26 @@
       "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
     }
   ],
-  "act2-speech-0347": [],
+  "act2-speech-0347": [
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
+    },
+    {
+      "surface": "cupboard",
+      "lemma": "cupboard",
+      "meaning": "【名詞】\n食器・衣類などをしまう戸棚、収納棚。",
+      "playMeaning": false
+    },
+    {
+      "surface": "remove",
+      "lemma": "remove",
+      "meaning": "【動】取り除く、脱ぐ、移動させる。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0348": [
     {
       "surface": "Good Lord",
@@ -16707,6 +20107,12 @@
       "meaning": "驚き・いらだち・強調を表す「なんてことだ」「まったく」。",
       "playMeaning": true,
       "inThisPlay": "Casewellが、スキーを動かしたのではという含みを強く否定する驚きの間投詞。"
+    },
+    {
+      "surface": "Lord",
+      "lemma": "lord",
+      "meaning": "【間投詞】\n① まったく\n② やれやれ",
+      "playMeaning": false
     }
   ],
   "act2-speech-0349": [],
@@ -16734,7 +20140,14 @@
       "playMeaning": true
     }
   ],
-  "act2-speech-0353": [],
+  "act2-speech-0353": [
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0354": [
     {
       "surface": "cupboard",
@@ -16744,7 +20157,14 @@
     }
   ],
   "act2-speech-0355": [],
-  "act2-speech-0356": [],
+  "act2-speech-0356": [
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0357": [
     {
       "surface": "gone down to",
@@ -16757,6 +20177,18 @@
       "lemma": "cellar",
       "meaning": "【名詞】\n地下貯蔵室、地下室",
       "playMeaning": true
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0358": [
@@ -16771,6 +20203,12 @@
       "lemma": "pass through",
       "meaning": "場所を通り抜ける、通過する。",
       "playMeaning": true
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0359": [
@@ -16781,9 +20219,23 @@
       "playMeaning": true
     }
   ],
-  "act2-speech-0360": [],
+  "act2-speech-0360": [
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0361": [],
-  "act2-speech-0362": [],
+  "act2-speech-0362": [
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0363": [
     {
       "surface": "No good",
@@ -16832,6 +20284,30 @@
       "lemma": "damned",
       "meaning": "【形容詞】\nいまいましい、ひどい。\n【副詞】\n口語で「ひどく、まったく」のように強調する。",
       "playMeaning": true
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
+    },
+    {
+      "surface": "fellow",
+      "lemma": "fellow",
+      "meaning": "【名詞】\n男性・人をくだけた調子で指す語。",
+      "playMeaning": false
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0364": [
@@ -16846,6 +20322,12 @@
       "lemma": "opportunity",
       "meaning": "【名詞】\n① 機会\n② 犯行可能性",
       "playMeaning": true
+    },
+    {
+      "surface": "taking",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0365": [
@@ -16860,6 +20342,12 @@
       "lemma": "grant someone that",
       "meaning": "その点については相手の言うことを認める。",
       "playMeaning": true
+    },
+    {
+      "surface": "wanted",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0366": [],
@@ -16908,6 +20396,18 @@
       "meaning": "【形容詞】\nスキーが隠しにくいほど非常に大きい、と英国口語で強調している。",
       "playMeaning": true,
       "inThisPlay": "スキーが「ものすごく大きい物」なのだから見つけやすい、という英国口語の強調。"
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Ought",
+      "lemma": "ought",
+      "meaning": "【助動詞】\n～すべきだ、～するのが望ましい・当然だという判断を表す。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0368": [
@@ -16922,6 +20422,12 @@
       "lemma": "not quite so fast",
       "meaning": "ちょっと待って、そう急がないで。相手の行動・結論を制止する言い方。",
       "playMeaning": true
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0369": [
@@ -16975,6 +20481,30 @@
       "meaning": "～の立場になって考える",
       "playMeaning": true,
       "inThisPlay": "Trotterは犯人の考え方を予測するため、犯人の立場に自分を置いて考えると言っている。"
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
+    },
+    {
+      "surface": "got to",
+      "lemma": "got to",
+      "meaning": "～しなければならない／～する必要がある",
+      "playMeaning": false
+    },
+    {
+      "surface": "ahead",
+      "lemma": "ahead",
+      "meaning": "【副詞】\n① 前方へ・前方に\n② 時間・順序・進行などで先に",
+      "playMeaning": false
+    },
+    {
+      "surface": "wants",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0371": [],
@@ -17114,6 +20644,60 @@
       "lemma": "come out with something",
       "meaning": "隠していたこと・言いにくいことを口に出す。",
       "playMeaning": true
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Miss Casewell",
+      "lemma": "Miss Casewell",
+      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "come out",
+      "lemma": "come out",
+      "meaning": "出てくる／外へ出る",
+      "playMeaning": false
+    },
+    {
+      "surface": "Three blind mice",
+      "lemma": "Three Blind Mice",
+      "meaning": "英語圏の伝承童謡『Three Blind Mice』の題名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "yet",
+      "lemma": "yet",
+      "meaning": "【接続詞】\nそれにもかかわらず、しかし。それまでの内容と対照を示す。",
+      "playMeaning": false
+    },
+    {
+      "surface": "victim",
+      "lemma": "victim",
+      "meaning": "【名詞】\n被害者",
+      "playMeaning": false
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "out with it",
+      "lemma": "out with it",
+      "meaning": "さあ言ってしまえ／白状しろ",
+      "playMeaning": false
+    },
+    {
+      "surface": "holding out on me",
+      "lemma": "hold out on",
+      "meaning": "情報などを隠して出し渋る",
+      "playMeaning": false
     }
   ],
   "act2-speech-0373": [
@@ -17183,6 +20767,18 @@
       "lemma": "rasher",
       "meaning": "【名詞】\nベーコンなどの薄切り一枚。",
       "playMeaning": true
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0374": [],
@@ -17260,6 +20856,12 @@
       "lemma": "inconvenience",
       "meaning": "【名詞】\n不便、迷惑。\n【動詞】\n人に不便をかける。",
       "playMeaning": true
+    },
+    {
+      "surface": "fancy",
+      "lemma": "fancy",
+      "meaning": "【動詞】\n～と思う・想像する、または～したいと思う。\n【形容詞】\n形容詞では装飾的・高級な。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0376": [],
@@ -17305,6 +20907,24 @@
       "lemma": "maniac",
       "meaning": "【名詞】\n① 狂人という古い呼称\n② 極端に熱中する人",
       "playMeaning": true
+    },
+    {
+      "surface": "difficult",
+      "lemma": "difficult",
+      "meaning": "【形容詞】\n行う・理解する・扱うことが容易でない。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "prove",
+      "lemma": "prove",
+      "meaning": "【動】\n証明する、事実であると示す。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0378": [],
@@ -17371,6 +20991,12 @@
       "lemma": "adore",
       "meaning": "【動詞】\n崇拝するほどではなく、料理が大好きだというChristopherらしい強い口語的表現。",
       "playMeaning": true
+    },
+    {
+      "surface": "off",
+      "lemma": "offstage",
+      "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0380": [
@@ -17393,6 +21019,12 @@
       "lemma": "silly",
       "meaning": "【形容詞】\n考えが浅い、ばかげた、分別に欠ける。",
       "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0382": [
@@ -17402,6 +21034,18 @@
       "meaning": "物事を容易に忘れるタイプの人。",
       "playMeaning": true,
       "inThisPlay": "ParaviciniがMollieを、つらいことを簡単に忘れられる人ではないと見抜いたように語り、彼女の過去にも不穏な含みを持たせている。"
+    },
+    {
+      "surface": "difficult",
+      "lemma": "difficult",
+      "meaning": "【形容詞】\n行う・理解する・扱うことが容易でない。",
+      "playMeaning": false
+    },
+    {
+      "surface": "kind",
+      "lemma": "kind",
+      "meaning": "【形】\n親切な、思いやりのある。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0383": [
@@ -17458,6 +21102,18 @@
       "lemma": "be fond of",
       "meaning": "～が好きである",
       "playMeaning": true
+    },
+    {
+      "surface": "Sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "fond",
+      "lemma": "fond",
+      "meaning": "【形】\n～が好きで、～を好んで。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0386": [],
@@ -17466,6 +21122,12 @@
       "surface": "wonder",
       "lemma": "wonder",
       "meaning": "【動詞】\n～だろうかと思う、不思議に思う。\n【名詞】\nまた、驚き・驚くべきもの。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
       "playMeaning": false
     }
   ],
@@ -17526,6 +21188,12 @@
       "meaning": "【副詞】\n都合よく、好都合な形で。文脈によっては『都合がよすぎるほど』という皮肉を含み得る。",
       "playMeaning": true,
       "inThisPlay": "Trotterは事故がParaviciniにとって「都合よく」起きたのではないかと疑いを込めている。"
+    },
+    {
+      "surface": "Sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0392": [
@@ -17558,6 +21226,12 @@
       "lemma": "be bound for",
       "meaning": "～へ向かっている、～行きである。",
       "playMeaning": true
+    },
+    {
+      "surface": "looking",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0393": [
@@ -17566,6 +21240,12 @@
       "lemma": "on one’s way",
       "meaning": "向かっている途中で",
       "playMeaning": true
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0394": [
@@ -17584,6 +21264,24 @@
       "lemma": "predicament",
       "meaning": "【名詞】\n苦境、困った状況",
       "playMeaning": true
+    },
+    {
+      "surface": "Sergeant Trotter",
+      "lemma": "Sergeant Trotter",
+      "meaning": "【固有名詞】Sergeant Trotterという人名・呼称。Sergeantは軍・警察などの階級名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "matter",
+      "lemma": "matter",
+      "meaning": "【名詞】\n問題、事柄、案件。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0398": [
@@ -17647,6 +21345,12 @@
       "lemma": "at one’s time of life",
       "meaning": "その年齢では、その年代になって。",
       "playMeaning": true
+    },
+    {
+      "surface": "time of life",
+      "lemma": "time of life",
+      "meaning": "自分の年齢・人生の段階を遠回しに指し、今は見た目より快適さを重視する年齢だと言っている。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0403": [
@@ -17655,6 +21359,18 @@
       "lemma": "quite",
       "meaning": "【副詞】\n① かなり\n② 完全に",
       "playMeaning": true
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0404": [
@@ -17672,14 +21388,34 @@
       "lemma": "go about",
       "meaning": "～して回る／行動する",
       "playMeaning": true
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0407": [],
   "act2-speech-0408": [],
   "act2-speech-0409": [],
   "act2-speech-0410": [],
-  "act2-speech-0411": [],
-  "act2-speech-0412": [],
+  "act2-speech-0411": [
+    {
+      "surface": "London",
+      "lemma": "london",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
+    }
+  ],
+  "act2-speech-0412": [
+    {
+      "surface": "London",
+      "lemma": "london",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0413": [],
   "act2-speech-0414": [
     {
@@ -17791,6 +21527,12 @@
       "lemma": "be mixed up in",
       "meaning": "好ましくない事件・状況などに巻き込まれている、関係している。",
       "playMeaning": true
+    },
+    {
+      "surface": "mixed",
+      "lemma": "mix",
+      "meaning": "【動】\n① 混ぜる\n② 人や物をある状況・関係に巻き込む。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0421": [
@@ -17824,6 +21566,24 @@
       "lemma": "sense of humour",
       "meaning": "ユーモアを理解し楽しむ感覚。",
       "playMeaning": true
+    },
+    {
+      "surface": "Sergeant Trotter",
+      "lemma": "Sergeant Trotter",
+      "meaning": "【固有名詞】Sergeant Trotterという人名・呼称。Sergeantは軍・警察などの階級名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "serious",
+      "lemma": "serious",
+      "meaning": "【形容詞】\n① 重大で注意を要する\n② 冗談ではなく本気の",
+      "playMeaning": false
+    },
+    {
+      "surface": "Sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0422": [],
@@ -17851,6 +21611,36 @@
       "lemma": "just in case",
       "meaning": "万一に備えて、念のため。",
       "playMeaning": true
+    },
+    {
+      "surface": "drawing room",
+      "lemma": "drawing room",
+      "meaning": "【名】応接間、客間。",
+      "playMeaning": false
+    },
+    {
+      "surface": "case",
+      "lemma": "case",
+      "meaning": "【名詞】\n事件、事例",
+      "playMeaning": false
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
+    },
+    {
+      "surface": "hidden",
+      "lemma": "hidden",
+      "meaning": "【形容詞】\n見えないように隠された、容易には見つからない。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0424": [
@@ -17862,12 +21652,39 @@
     }
   ],
   "act2-speech-0425": [],
-  "act2-speech-0426": [],
-  "act2-speech-0427": [],
+  "act2-speech-0426": [
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
+    },
+    {
+      "surface": "sit",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": false
+    }
+  ],
+  "act2-speech-0427": [
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0428": [],
   "act2-speech-0429": [],
   "act2-speech-0430": [],
-  "act2-speech-0431": [],
+  "act2-speech-0431": [
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0432": [
     {
       "surface": "Full name",
@@ -17895,9 +21712,29 @@
       "playMeaning": true
     }
   ],
-  "act2-speech-0438": [],
+  "act2-speech-0438": [
+    {
+      "surface": "Italy",
+      "lemma": "Italy",
+      "meaning": "【固有名詞】イタリア。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0439": [],
-  "act2-speech-0440": [],
+  "act2-speech-0440": [
+    {
+      "surface": "England",
+      "lemma": "England",
+      "meaning": "【固有名詞】イングランド。英国を構成する地域の一つ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0441": [
     {
       "surface": "Care of Morgan's Bank",
@@ -17927,7 +21764,14 @@
   ],
   "act2-speech-0442": [],
   "act2-speech-0443": [],
-  "act2-speech-0444": [],
+  "act2-speech-0444": [
+    {
+      "surface": "England",
+      "lemma": "England",
+      "meaning": "【固有名詞】イングランド。英国を構成する地域の一つ。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0445": [],
   "act2-speech-0446": [
     {
@@ -17935,6 +21779,12 @@
       "lemma": "arrival",
       "meaning": "【名詞】\n① 到着\n② 到着した人",
       "playMeaning": true
+    },
+    {
+      "surface": "since",
+      "lemma": "since",
+      "meaning": "【副詞】\nその時以来、それ以降ずっと。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0447": [
@@ -17959,9 +21809,28 @@
       "meaning": "【固有名詞】\nMonkswell Manorという屋敷・施設名。",
       "playMeaning": true,
       "inThisPlay": "本作の主要舞台で、MollieとGilesがゲストハウスとして営んでいる屋敷の名称。"
+    },
+    {
+      "surface": "Miss Casewell",
+      "lemma": "Miss Casewell",
+      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Monkswell",
+      "lemma": "monkswell",
+      "meaning": "【固有名詞】\n地名・建物名として用いられる名称。",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0449": [],
+  "act2-speech-0449": [
+    {
+      "surface": "wanted",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0450": [
     {
       "surface": "propose",
@@ -17992,6 +21861,12 @@
       "lemma": "beg your pardon",
       "meaning": "失礼しました／もう一度お願いします",
       "playMeaning": true
+    },
+    {
+      "surface": "beg your pardon",
+      "lemma": "beg your pardon",
+      "meaning": "失礼しました／もう一度お願いします",
+      "playMeaning": false
     }
   ],
   "act2-speech-0456": [],
@@ -18026,6 +21901,24 @@
       "lemma": "strictly private",
       "meaning": "完全に私的な、他人に明かすべきでない。",
       "playMeaning": true
+    },
+    {
+      "surface": "private",
+      "lemma": "private",
+      "meaning": "【形容詞】\n公のものではなく個人的な、他人に公開しない。",
+      "playMeaning": false
+    },
+    {
+      "surface": "matter",
+      "lemma": "matter",
+      "meaning": "【名詞】\n問題、事柄、案件。",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0458": [
@@ -18034,6 +21927,12 @@
       "lemma": "all the same",
       "meaning": "それでもやはり",
       "playMeaning": true
+    },
+    {
+      "surface": "Miss Casewell",
+      "lemma": "Miss Casewell",
+      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0459": [],
@@ -18066,6 +21965,12 @@
       "lemma": "quite",
       "meaning": "【副詞】\n① かなり\n② 完全に",
       "playMeaning": true
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0464": [
@@ -18149,6 +22054,18 @@
       "meaning": "【名詞】\n① 参照、言及\n② 人物の経歴・信用を証明する推薦状・照会先",
       "playMeaning": true,
       "inThisPlay": "ここでは社会的信用・身元を保証してくれる人物や照会先の意味。"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "position",
+      "lemma": "position",
+      "meaning": "【名詞】\n① 居場所\n② 立場",
+      "playMeaning": false
     }
   ],
   "act2-speech-0466": [
@@ -18165,6 +22082,12 @@
       "lemma": "Majorca",
       "meaning": "【固有名詞】\n地中海のバレアレス諸島にあるスペイン領マヨルカ島の英語名。",
       "playMeaning": true
+    },
+    {
+      "surface": "places",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0468": [
@@ -18175,7 +22098,20 @@
       "playMeaning": true
     }
   ],
-  "act2-speech-0469": [],
+  "act2-speech-0469": [
+    {
+      "surface": "England",
+      "lemma": "England",
+      "meaning": "【固有名詞】イングランド。英国を構成する地域の一つ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0470": [
     {
       "surface": "quite",
@@ -18195,9 +22131,22 @@
       "meaning": "人の正体・性格を理解する",
       "playMeaning": true,
       "inThisPlay": "TrotterはCasewellが何者で何を目的にしているのか理解できないと言っている。"
+    },
+    {
+      "surface": "Miss Casewell",
+      "lemma": "Miss Casewell",
+      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0471": [],
+  "act2-speech-0471": [
+    {
+      "surface": "matter",
+      "lemma": "matter",
+      "meaning": "【名詞】\n問題、事柄、案件。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0472": [],
   "act2-speech-0473": [],
   "act2-speech-0474": [
@@ -18234,7 +22183,26 @@
       "playMeaning": false
     }
   ],
-  "act2-speech-0480": [],
+  "act2-speech-0480": [
+    {
+      "surface": "England",
+      "lemma": "England",
+      "meaning": "【固有名詞】イングランド。英国を構成する地域の一つ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "left",
+      "lemma": "stage left",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台左側、またはその方向へ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0481": [],
   "act2-speech-0482": [],
   "act2-speech-0483": [
@@ -18312,6 +22280,12 @@
       "lemma": "interrogate",
       "meaning": "【動詞】\n尋問する",
       "playMeaning": true
+    },
+    {
+      "surface": "Miss Casewell",
+      "lemma": "Miss Casewell",
+      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0492": [
@@ -18382,6 +22356,12 @@
       "meaning": "【固有名詞】\nルイス・キャロル『鏡の国のアリス』に登場する女王の一人。",
       "playMeaning": true,
       "inThisPlay": "Christopherは「朝食前に六つの不可能なこと」というモチーフをRed Queenに結び付けている。原作でこの発言をするのはWhite Queenであり、本作の台詞はその帰属と一致しない。"
+    },
+    {
+      "surface": "Red",
+      "lemma": "Red",
+      "meaning": "【名】政治的俗称で共産主義者・急進左派。【形】赤い。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0496": [
@@ -18405,6 +22385,18 @@
       "meaning": "非常に驚いたり青ざめたりした様子に見える。",
       "playMeaning": true,
       "inThisPlay": "ChristopherがTrotterの表情を、非常に驚き動揺しているようだと比喩的に評している。"
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
+    },
+    {
+      "surface": "as though",
+      "lemma": "as though",
+      "meaning": "まるで～のように",
+      "playMeaning": false
     }
   ],
   "act2-speech-0498": [
@@ -18426,6 +22418,24 @@
       "lemma": "get somewhere",
       "meaning": "新しい気づきによって捜査がようやく前進しそうだ、という意味。物理的にどこかへ移動することではない。",
       "playMeaning": true
+    },
+    {
+      "surface": "ought",
+      "lemma": "ought",
+      "meaning": "【助動詞】\n～すべきだ、～するのが望ましい・当然だという判断を表す。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Blind",
+      "lemma": "blind",
+      "meaning": "【形容詞】\n目が見えない、視覚を失っている。",
+      "playMeaning": false
+    },
+    {
+      "surface": "seen",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0499": [
@@ -18448,6 +22458,12 @@
       "lemma": "assemble",
       "meaning": "【動】\n人を一か所に集める、集合させる；集まる。",
       "playMeaning": false
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0501": [
@@ -18462,6 +22478,36 @@
       "lemma": "all to no avail",
       "meaning": "まったく効果なく",
       "playMeaning": true
+    },
+    {
+      "surface": "places",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
+    },
+    {
+      "surface": "looked",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0502": [],
@@ -18484,10 +22530,35 @@
       "meaning": "【固有名詞】\n英語圏の童謡「Little Bo-Peep」と、その中の羊飼いの少女。",
       "playMeaning": true,
       "inThisPlay": "Paraviciniが「Little Bo-Peep」を「Little Bo Policeman」にもじり、なくしたスキー探しを童謡風にからかっている。"
+    },
+    {
+      "surface": "Sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0504": [],
-  "act2-speech-0505": [],
+  "act2-speech-0505": [
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Sit",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0506": [],
   "act2-speech-0507": [
     {
@@ -18495,6 +22566,18 @@
       "lemma": "for instance",
       "meaning": "例えば",
       "playMeaning": true
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0508": [
@@ -18503,6 +22586,12 @@
       "lemma": "tactless",
       "meaning": "【形容詞】\n無神経な、気が利かない",
       "playMeaning": true
+    },
+    {
+      "surface": "Sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0509": [
@@ -18529,9 +22618,46 @@
       "lemma": "go up",
       "meaning": "上へ行く／上階へ行く",
       "playMeaning": true
+    },
+    {
+      "surface": "Miss Casewell",
+      "lemma": "Miss Casewell",
+      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0510": [],
+  "act2-speech-0510": [
+    {
+      "surface": "Sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0511": [
     {
       "surface": "shrewd suspicion",
@@ -18551,6 +22677,24 @@
       "meaning": "【形容詞】\n状況を鋭く見抜く、判断の鋭い。",
       "playMeaning": true,
       "inThisPlay": "「かなり確かな見当がついている」という含みで suspicion を修飾している。"
+    },
+    {
+      "surface": "present",
+      "lemma": "present",
+      "meaning": "【形容詞】\n「目の前・今ここにある」が形容詞の中心。\n【名詞】\n名詞では贈り物。",
+      "playMeaning": false
+    },
+    {
+      "surface": "took",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
+    },
+    {
+      "surface": "taken",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0512": [
@@ -18633,6 +22777,60 @@
       "lemma": "relate to",
       "meaning": "～に関係する、～に関連する。",
       "playMeaning": true
+    },
+    {
+      "surface": "library",
+      "lemma": "library",
+      "meaning": "【名】書斎・図書室、図書館。",
+      "playMeaning": false
+    },
+    {
+      "surface": "drawing room",
+      "lemma": "drawing room",
+      "meaning": "【名】応接間、客間。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Miss Casewell",
+      "lemma": "Miss Casewell",
+      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Sit",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": false
+    },
+    {
+      "surface": "took",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0518": [],
@@ -18679,6 +22877,12 @@
       "lemma": "means of",
       "meaning": "～するための手段・方法。",
       "playMeaning": true
+    },
+    {
+      "surface": "quite",
+      "lemma": "quite",
+      "meaning": "【副詞】\n① かなり\n② 完全に",
+      "playMeaning": false
     }
   ],
   "act2-speech-0520": [
@@ -18777,6 +22981,12 @@
       "meaning": "【名詞】\n再現、再構成",
       "playMeaning": true,
       "inThisPlay": "ここでは犯罪時の状況・行動を再現する捜査上の「再現」を指す。"
+    },
+    {
+      "surface": "crime",
+      "lemma": "crime",
+      "meaning": "【名詞】\n法律に反する犯罪、罪。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0525": [
@@ -18819,9 +23029,22 @@
       "meaning": "【副詞】\n① 見たところでは\n② 一見",
       "playMeaning": true,
       "inThisPlay": "「外見上は無実に見える人々」という、疑いを残した表現。"
+    },
+    {
+      "surface": "crime",
+      "lemma": "crime",
+      "meaning": "【名詞】\n法律に反する犯罪、罪。",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0527": [],
+  "act2-speech-0527": [
+    {
+      "surface": "expect",
+      "lemma": "expect",
+      "meaning": "【動詞】\n～だろうと予想する、期待する。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0528": [
     {
       "surface": "forgive",
@@ -18834,6 +23057,12 @@
       "lemma": "just",
       "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
       "playMeaning": true
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0529": [
@@ -18849,6 +23078,12 @@
       "meaning": "同じ演技・出来事をもう一度繰り返すこと。",
       "playMeaning": true,
       "inThisPlay": "劇中人物が、さきほどと同じ行動を再演することを舞台的な語で表現している。"
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0530": [],
@@ -18890,7 +23125,14 @@
       "playMeaning": false
     }
   ],
-  "act2-speech-0534": [],
+  "act2-speech-0534": [
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0535": [
     {
       "surface": "simply",
@@ -18921,6 +23163,12 @@
       "lemma": "nonsense",
       "meaning": "【名詞】\n意味をなさないこと、ばかげたこと・発言。",
       "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0536": [],
@@ -18944,6 +23192,12 @@
       "lemma": "unwilling",
       "meaning": "【形容詞】\n気が進まない、したがらない",
       "playMeaning": true
+    },
+    {
+      "surface": "looks",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0539": [
@@ -18958,10 +23212,29 @@
       "lemma": "cooperate",
       "meaning": "【動】\n共通の目的のため協力する。",
       "playMeaning": true
+    },
+    {
+      "surface": "course",
+      "lemma": "course",
+      "meaning": "【名詞】\n① 進路・経過\n② 教育の課程や一連の授業",
+      "playMeaning": false
+    },
+    {
+      "surface": "Sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0540": [],
-  "act2-speech-0541": [],
+  "act2-speech-0541": [
+    {
+      "surface": "Miss Casewell",
+      "lemma": "Miss Casewell",
+      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0542": [],
   "act2-speech-0543": [],
   "act2-speech-0544": [
@@ -18975,7 +23248,14 @@
   "act2-speech-0545": [],
   "act2-speech-0546": [],
   "act2-speech-0547": [],
-  "act2-speech-0548": [],
+  "act2-speech-0548": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0549": [
     {
       "surface": "signature",
@@ -19001,6 +23281,30 @@
       "meaning": "人物・番組などを特徴づけるお決まりの曲・テーマ曲。",
       "playMeaning": true,
       "inThisPlay": "Paraviciniは「Three Blind Mice」を殺人者を象徴するテーマ曲のように呼んでいる。"
+    },
+    {
+      "surface": "drawing room",
+      "lemma": "drawing room",
+      "meaning": "【名】応接間、客間。",
+      "playMeaning": false
+    },
+    {
+      "surface": "return",
+      "lemma": "return",
+      "meaning": "【動詞】\n戻る、返す。\n【名詞】\n戻ること。",
+      "playMeaning": false
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Turn",
+      "lemma": "turn",
+      "meaning": "【動】向きを変える、振り向く。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0550": [
@@ -19024,6 +23328,18 @@
       "lemma": "tune",
       "meaning": "【名詞】\n旋律、曲",
       "playMeaning": true
+    },
+    {
+      "surface": "Three Blind Mice",
+      "lemma": "Three Blind Mice",
+      "meaning": "英語圏の伝承童謡『Three Blind Mice』の題名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Blind",
+      "lemma": "blind",
+      "meaning": "【形容詞】\n目が見えない、視覚を失っている。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0553": [],
@@ -19046,6 +23362,24 @@
       "meaning": "楽器で旋律を、一音ずつ探るように弾く。",
       "playMeaning": true,
       "inThisPlay": "ピアノで「Three Blind Mice」の旋律を片手・一本指でたどって弾くこと。"
+    },
+    {
+      "surface": "drawing room",
+      "lemma": "drawing room",
+      "meaning": "【名】応接間、客間。",
+      "playMeaning": false
+    },
+    {
+      "surface": "go into",
+      "lemma": "go into",
+      "meaning": "～について詳しく立ち入る",
+      "playMeaning": false
+    },
+    {
+      "surface": "sit",
+      "lemma": "sit",
+      "meaning": "【動詞】\n座る、腰掛ける",
+      "playMeaning": false
     }
   ],
   "act2-speech-0555": [
@@ -19060,6 +23394,12 @@
       "lemma": "former",
       "meaning": "【形】\n以前の、前の、かつての。",
       "playMeaning": true
+    },
+    {
+      "surface": "Sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0556": [
@@ -19068,6 +23408,12 @@
       "lemma": "not necessarily",
       "meaning": "必ずしもそうではない",
       "playMeaning": true
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0557": [
@@ -19244,6 +23590,60 @@
       "meaning": "【動詞】\n再現する、再び作り出す",
       "playMeaning": true,
       "inThisPlay": "Trotter自身が前に行った動きを別の人物に再現してもらう意味。"
+    },
+    {
+      "surface": "front door",
+      "lemma": "front door",
+      "meaning": "【名】玄関の正面扉。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Miss Casewell",
+      "lemma": "Miss Casewell",
+      "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "original",
+      "lemma": "original",
+      "meaning": "【形】\n独創的な、最初の、原物の。\n【名】\n原物、原本。",
+      "playMeaning": false
+    },
+    {
+      "surface": "probably",
+      "lemma": "probably",
+      "meaning": "【副詞】\nおそらく、たぶん。",
+      "playMeaning": false
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
+    },
+    {
+      "surface": "means of",
+      "lemma": "means of",
+      "meaning": "～するための手段・方法。",
+      "playMeaning": false
+    },
+    {
+      "surface": "point",
+      "lemma": "point",
+      "meaning": "【動】指さす、方向を示す。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0559": [],
@@ -19260,6 +23660,12 @@
       "meaning": "【動詞】\n① 役・場面を演じる、再現する\n② 法律を制定する。",
       "playMeaning": true,
       "inThisPlay": "ここではMrs. Boyleの役を演じて行動を再現する、という演劇的な意味。"
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0561": [
@@ -19274,6 +23680,12 @@
       "lemma": "take a risk",
       "meaning": "危険を冒す、リスクを取る。",
       "playMeaning": true
+    },
+    {
+      "surface": "Taking",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0562": [
@@ -19281,6 +23693,18 @@
       "surface": "remain",
       "lemma": "remain",
       "meaning": "【動詞】\nそのまま残る、とどまる。",
+      "playMeaning": false
+    },
+    {
+      "surface": "places",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
       "playMeaning": false
     }
   ],
@@ -19338,10 +23762,36 @@
       "lemma": "count to twenty",
       "meaning": "1から20まで数える。",
       "playMeaning": true
+    },
+    {
+      "surface": "Take",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0566": [],
-  "act2-speech-0567": [],
+  "act2-speech-0566": [
+    {
+      "surface": "looking",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
+    },
+    {
+      "surface": "wanted",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
+    }
+  ],
+  "act2-speech-0567": [
+    {
+      "surface": "wanted",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0568": [
     {
       "surface": "murderer",
@@ -19358,6 +23808,12 @@
       "lemma": "ought to",
       "meaning": "～すべきだ／～のはずだ",
       "playMeaning": true
+    },
+    {
+      "surface": "ought",
+      "lemma": "ought",
+      "meaning": "【助動詞】\n～すべきだ、～するのが望ましい・当然だという判断を表す。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0572": [],
@@ -19391,6 +23847,12 @@
       "lemma": "as a result",
       "meaning": "その結果",
       "playMeaning": true
+    },
+    {
+      "surface": "serious",
+      "lemma": "serious",
+      "meaning": "【形容詞】\n① 重大で注意を要する\n② 冗談ではなく本気の",
+      "playMeaning": false
     }
   ],
   "act2-speech-0574": [],
@@ -19476,9 +23938,22 @@
       "meaning": "【名詞】\n① 出来事、事件、問題\n② 情事、恋愛関係\n③ 用事・事務。",
       "playMeaning": true,
       "inThisPlay": "ここでは恋愛関係ではなく、Longridge Farmで起きた児童虐待事件全体を指す。"
+    },
+    {
+      "surface": "Mrs. Boyle",
+      "lemma": "Mrs Boyle",
+      "meaning": "【固有名詞】Mrs Boyleという人名・呼称。",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0576": [],
+  "act2-speech-0576": [
+    {
+      "surface": "wanted",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0577": [
     {
       "surface": "maiden name",
@@ -19583,6 +24058,18 @@
       "meaning": "【動詞】\n記憶・不安などが長く心につきまとい、苦しめる；場所に幽霊が出る。",
       "playMeaning": true,
       "inThisPlay": "助けられなかった記憶と罪悪感がMollieを長く苦しめ続けた、という比喩。"
+    },
+    {
+      "surface": "since",
+      "lemma": "since",
+      "meaning": "【副詞】\nその時以来、それ以降ずっと。",
+      "playMeaning": false
+    },
+    {
+      "surface": "down",
+      "lemma": "downstage",
+      "meaning": "【副】\n舞台前方（客席寄り）へ、舞台前方で。\n【形】\n舞台前方の。\n【名】\n舞台前方。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0585": [
@@ -19593,7 +24080,20 @@
       "playMeaning": true
     }
   ],
-  "act2-speech-0586": [],
+  "act2-speech-0586": [
+    {
+      "surface": "carry",
+      "lemma": "carry",
+      "meaning": "【動】運ぶ、持って行く。",
+      "playMeaning": false
+    },
+    {
+      "surface": "revolvers",
+      "lemma": "revolver",
+      "meaning": "【名詞】\n回転式拳銃",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0587": [
     {
       "surface": "policeman",
@@ -19657,6 +24157,30 @@
       "meaning": "【固有名詞】\nJamesの愛称形として用いられる男性名。",
       "playMeaning": true,
       "inThisPlay": "Longridge Farmで亡くなった子どもの名として用いられる。"
+    },
+    {
+      "surface": "front door",
+      "lemma": "front door",
+      "meaning": "【名】玄関の正面扉。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Sergeant Trotter",
+      "lemma": "Sergeant Trotter",
+      "meaning": "【固有名詞】Sergeant Trotterという人名・呼称。Sergeantは軍・警察などの階級名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Georgie",
+      "lemma": "Georgie",
+      "meaning": "【固有名詞】\n男性名Georgeの愛称形として用いられる名前。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0588": [],
@@ -19736,6 +24260,24 @@
       "lemma": "policeman",
       "meaning": "【名詞】\n警察官",
       "playMeaning": true
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
+    },
+    {
+      "surface": "matter",
+      "lemma": "matter",
+      "meaning": "【名詞】\n問題、事柄、案件。",
+      "playMeaning": false
+    },
+    {
+      "surface": "hidden",
+      "lemma": "hidden",
+      "meaning": "【形容詞】\n見えないように隠された、容易には見つからない。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0592": [
@@ -19744,6 +24286,12 @@
       "lemma": "revolver",
       "meaning": "【名詞】\n回転式拳銃",
       "playMeaning": true
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0593": [
@@ -19765,6 +24313,18 @@
       "meaning": "【形容詞】\nいつもの、通常の。",
       "playMeaning": true,
       "inThisPlay": "犯人がこれまでと同じ方法をほのめかす不穏な表現。"
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "take",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0594": [
@@ -19772,6 +24332,12 @@
       "surface": "chased",
       "lemma": "chase",
       "meaning": "【動】\n人や動物を追いかける。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Georgie",
+      "lemma": "Georgie",
+      "meaning": "【固有名詞】\n男性名Georgeの愛称形として用いられる名前。",
       "playMeaning": false
     }
   ],
@@ -19831,6 +24397,18 @@
       "meaning": "【動詞】\nくるくる回す",
       "playMeaning": true,
       "inThisPlay": "髪を指でくるくる巻くしぐさが、人物を認識する手掛かりになる。"
+    },
+    {
+      "surface": "England",
+      "lemma": "England",
+      "meaning": "【固有名詞】イングランド。英国を構成する地域の一つ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Georgie",
+      "lemma": "Georgie",
+      "meaning": "【固有名詞】\n男性名Georgeの愛称形として用いられる名前。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0601": [],
@@ -19858,10 +24436,53 @@
       "lemma": "do harm",
       "meaning": "害を与える、危害・損害をもたらす。",
       "playMeaning": true
+    },
+    {
+      "surface": "look",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
+    },
+    {
+      "surface": "taking",
+      "lemma": "take",
+      "meaning": "【動】取る、手に取る、持っていく。",
+      "playMeaning": false
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Georgie",
+      "lemma": "Georgie",
+      "meaning": "【固有名詞】\n男性名Georgeの愛称形として用いられる名前。",
+      "playMeaning": false
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0603": [],
-  "act2-speech-0604": [],
+  "act2-speech-0604": [
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0605": [],
   "act2-speech-0606": [
     {
@@ -19898,10 +24519,23 @@
       "lemma": "be mixed up in",
       "meaning": "好ましくない事件・状況などに巻き込まれている、関係している。",
       "playMeaning": true
+    },
+    {
+      "surface": "saved",
+      "lemma": "save",
+      "meaning": "【動詞】\n命を救われたという大げさな自己演出で、宿を見つけて凍死を免れたという意味。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0610": [],
-  "act2-speech-0611": [],
+  "act2-speech-0611": [
+    {
+      "surface": "wanted",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0612": [
     {
       "surface": "under control",
@@ -19946,6 +24580,36 @@
       "lemma": "all along",
       "meaning": "最初からずっと",
       "playMeaning": true
+    },
+    {
+      "surface": "course",
+      "lemma": "course",
+      "meaning": "【名詞】\n① 進路・経過\n② 教育の課程や一連の授業",
+      "playMeaning": false
+    },
+    {
+      "surface": "looking",
+      "lemma": "look",
+      "meaning": "【動】見る、目を向ける。",
+      "playMeaning": false
+    },
+    {
+      "surface": "fellow",
+      "lemma": "fellow",
+      "meaning": "【名詞】\n男性・人をくだけた調子で指す語。",
+      "playMeaning": false
+    },
+    {
+      "surface": "fellow's",
+      "lemma": "fellow",
+      "meaning": "【名詞】\n男性・人をくだけた調子で指す語。",
+      "playMeaning": false
+    },
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0613": [
@@ -19962,6 +24626,12 @@
       "lemma": "policeman",
       "meaning": "【名詞】\n警察官",
       "playMeaning": true
+    },
+    {
+      "surface": "see",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0615": [],
@@ -20028,6 +24698,30 @@
       "meaning": "提案・質問・主張などを人に提示する、持ちかける。",
       "playMeaning": true,
       "inThisPlay": "本物のMajor Metcalfに、警察官が代わりに彼の立場に入る案を持ちかけた、という意味。"
+    },
+    {
+      "surface": "place",
+      "lemma": "place",
+      "meaning": "【動】置く、配置する。【名】場所。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Major Metcalf",
+      "lemma": "Major Metcalf",
+      "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
+      "playMeaning": false
+    },
+    {
+      "surface": "Monkswell",
+      "lemma": "monkswell",
+      "meaning": "【固有名詞】\n地名・建物名として用いられる名称。",
+      "playMeaning": false
+    },
+    {
+      "surface": "saw",
+      "lemma": "see",
+      "meaning": "【動】見る、見える、気づく。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0617": [],
@@ -20079,6 +24773,30 @@
       "lemma": "four-poster",
       "meaning": "【名詞】\n四隅に高い柱があり、上部の枠や天蓋を支える大型ベッド。",
       "playMeaning": true
+    },
+    {
+      "surface": "just",
+      "lemma": "just",
+      "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
+      "playMeaning": false
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": false
+    },
+    {
+      "surface": "recognized",
+      "lemma": "recognize",
+      "meaning": "【動詞】\n見分ける、誰だと気づく",
+      "playMeaning": false
+    },
+    {
+      "surface": "remove",
+      "lemma": "remove",
+      "meaning": "【動】取り除く、脱ぐ、移動させる。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0619": [],
@@ -20153,9 +24871,28 @@
       "meaning": "職業・商売の分野、通常扱っている仕事の種類。",
       "playMeaning": true,
       "inThisPlay": "GilesはParaviciniの「商売」を、表向きではない怪しい取引だと見ている。"
+    },
+    {
+      "surface": "line",
+      "lemma": "telephone line",
+      "meaning": "電話通信を伝える回線。",
+      "playMeaning": false
+    },
+    {
+      "surface": "surprised",
+      "lemma": "surprised",
+      "meaning": "【形容詞】\n驚いた、意外に思った",
+      "playMeaning": false
     }
   ],
-  "act2-speech-0621": [],
+  "act2-speech-0621": [
+    {
+      "surface": "London",
+      "lemma": "london",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0622": [
     {
       "surface": "anniversary",
@@ -20182,9 +24919,29 @@
       "playMeaning": true
     }
   ],
-  "act2-speech-0623": [],
+  "act2-speech-0623": [
+    {
+      "surface": "London",
+      "lemma": "london",
+      "meaning": "【固有名詞】\n英国・イングランドの首都ロンドン。",
+      "playMeaning": false
+    },
+    {
+      "surface": "want",
+      "lemma": "want",
+      "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0624": [],
-  "act2-speech-0625": [],
+  "act2-speech-0625": [
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0626": [
     {
       "surface": "splendid",
@@ -20193,7 +24950,14 @@
       "playMeaning": true
     }
   ],
-  "act2-speech-0627": [],
+  "act2-speech-0627": [
+    {
+      "surface": "will",
+      "lemma": "will",
+      "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
+      "playMeaning": false
+    }
+  ],
   "act2-speech-0628": [],
   "act2-speech-0629": [
     {
@@ -20257,6 +25021,12 @@
       "meaning": "店員がその帽子を「最新流行の型」だと説明した、という意味。最後に残った帽子という意味ではない。",
       "playMeaning": true,
       "inThisPlay": "店員の言葉として、その帽子が最新流行だという意味。"
+    },
+    {
+      "surface": "right",
+      "lemma": "stage right",
+      "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
+      "playMeaning": false
     }
   ],
   "act2-speech-0637": [
