@@ -16,7 +16,7 @@ const FUNCTION_WORDS = new Set(`a an the this that these those i me my mine myse
 const NAME_TOKENS = new Set(`mollie giles christopher wren boyle metcalf casewell paravicini trotter hogben maureen lyon georgie kathy jimmy`.split(/\s+/));
 const CONTRACTION_BASES = new Set(`i you he she it we they that there here who what where when why how is are was were have has had do does did can could may might must shall should will would let`.split(/\s+/));
 const IRREGULAR = {
-  arose:'arise', awoke:'awake', awakened:'awaken', became:'become', begun:'begin', began:'begin', bent:'bend', bet:'bet', bit:'bite', bitten:'bite', blew:'blow', blown:'blow', broke:'break', broken:'break', brought:'bring', built:'build', bought:'buy', caught:'catch', chose:'choose', chosen:'choose', came:'come', cost:'cost', cut:'cut', dealt:'deal', dug:'dig', done:'do', drew:'draw', drawn:'draw', drank:'drink', drunk:'drink', drove:'drive', driven:'drive', ate:'eat', eaten:'eat', fell:'fall', fallen:'fall', fed:'feed', felt:'feel', fought:'fight', found:'find', fled:'flee', flew:'fly', flown:'fly', forgot:'forget', forgotten:'forget', forgave:'forgive', forgiven:'forgive', froze:'freeze', frozen:'freeze', got:'get', gotten:'get', gave:'give', given:'give', went:'go', gone:'go', grew:'grow', grown:'grow', hung:'hang', heard:'hear', hid:'hide', hidden:'hide', hit:'hit', held:'hold', kept:'keep', knew:'know', known:'know', laid:'lay', led:'lead', left:'leave', lent:'lend', let:'let', lay:'lie', lain:'lie', lost:'lose', made:'make', meant:'mean', met:'meet', paid:'pay', put:'put', read:'read', rode:'ride', ridden:'ride', rang:'ring', rung:'ring', rose:'rise', risen:'rise', ran:'run', said:'say', saw:'see', seen:'see', sold:'sell', sent:'send', shook:'shake', shaken:'shake', shot:'shoot', showed:'show', shown:'show', shut:'shut', sang:'sing', sung:'sing', sank:'sink', sunk:'sink', sat:'sit', slept:'sleep', spoke:'speak', spoken:'speak', spent:'spend', stood:'stand', stole:'steal', stolen:'steal', stuck:'stick', struck:'strike', swore:'swear', sworn:'swear', swam:'swim', swum:'swim', took:'take', taken:'take', taught:'teach', tore:'tear', torn:'tear', told:'tell', thought:'think', threw:'throw', thrown:'throw', understood:'understand', woke:'wake', worn:'wear', wore:'wear', won:'win', wrote:'write', written:'write'
+  arose:'arise', awoke:'awake', awakened:'awaken', became:'become', begun:'begin', began:'begin', bent:'bend', bet:'bet', bit:'bite', bitten:'bite', blew:'blow', blown:'blow', broke:'break', broken:'break', brought:'bring', built:'build', bought:'buy', caught:'catch', chose:'choose', chosen:'choose', came:'come', cost:'cost', cut:'cut', dealt:'deal', dug:'dig', done:'do', drew:'draw', drawn:'draw', drank:'drink', drunk:'drink', drove:'drive', driven:'drive', ate:'eat', eaten:'eat', fell:'fall', fallen:'fall', fed:'feed', felt:'feel', fought:'fight', found:'find', fled:'flee', flew:'fly', flown:'fly', forgot:'forget', forgotten:'forget', forgave:'forgive', forgiven:'give', froze:'freeze', frozen:'freeze', got:'get', gotten:'get', gave:'give', given:'give', went:'go', gone:'go', grew:'grow', grown:'grow', hung:'hang', heard:'hear', hid:'hide', hidden:'hide', hit:'hit', held:'hold', kept:'keep', knew:'know', known:'know', laid:'lay', led:'lead', left:'leave', lent:'lend', let:'let', lay:'lie', lain:'lie', lost:'lose', made:'make', meant:'mean', met:'meet', paid:'pay', put:'put', read:'read', rode:'ride', ridden:'ride', rang:'ring', rung:'ring', rose:'rise', risen:'rise', ran:'run', said:'say', saw:'see', seen:'see', sold:'sell', sent:'send', shook:'shake', shaken:'shake', shot:'shoot', showed:'show', shown:'show', shut:'shut', sang:'sing', sung:'sing', sank:'sink', sunk:'sink', sat:'sit', slept:'sleep', spoke:'speak', spoken:'speak', spent:'spend', stood:'stand', stole:'steal', stolen:'steal', stuck:'stick', struck:'strike', swore:'swear', sworn:'swear', swam:'swim', swum:'swim', took:'take', taken:'take', taught:'teach', tore:'tear', torn:'tear', told:'tell', thought:'think', threw:'throw', thrown:'throw', understood:'understand', woke:'wake', worn:'wear', wore:'wear', won:'win', wrote:'write', written:'write'
 };
 
 const isFunctionOrContraction = lower => {
@@ -49,7 +49,6 @@ const morphologyCandidates = lower => {
   return [...out];
 };
 
-// Token-type capitalization statistics help defer likely proper nouns to Phase 3 without mistaking sentence-initial common words.
 const tokenStats = new Map();
 for (const speech of speeches) {
   const text = norm(speech.text);
@@ -121,6 +120,14 @@ for (const speech of speeches) {
       continue;
     }
 
+    // Prefer evidence that an unresolved capitalized form is a name/title over a morphology guess.
+    const stats = tokenStats.get(token.lower);
+    if (/^[A-Z]/.test(token.surface) && stats?.midSentenceCapitalized > 0) {
+      properDeferredCount += 1;
+      addCandidate({speechId:speech.id,speaker:speech.speaker,kind:'DEFER_PROPER_NOUN_PHASE3',surface:token.surface,lemma:'',reason:'Capitalized outside sentence-initial position and not resolved to an exact dictionary lemma; defer identity/completeness review to Phase 3 before morphology.'});
+      continue;
+    }
+
     let morphHit = null;
     for (const lemmaLower of morphologyCandidates(token.lower)) {
       const hit = dictByLower.get(lemmaLower);
@@ -132,7 +139,6 @@ for (const speech of speeches) {
       continue;
     }
 
-    const stats = tokenStats.get(token.lower);
     if (stats?.midSentenceCapitalized > 0) {
       properDeferredCount += 1;
       addCandidate({speechId:speech.id,speaker:speech.speaker,kind:'DEFER_PROPER_NOUN_PHASE3',surface:token.surface,lemma:'',reason:'Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3.'});
@@ -151,8 +157,8 @@ const unknownTypes=[...unknownTokenFreq.entries()].sort((a,b)=>b[1]-a[1]||a[0].l
 const polysemyLemmas=[...new Set(candidates.filter(x=>x.kind.startsWith('REVIEW_POLYSEMY')).map(x=>x.lemma))].sort((a,b)=>a.localeCompare(b));
 const properNounTypes=[...new Set(candidates.filter(x=>x.kind==='DEFER_PROPER_NOUN_PHASE3').map(x=>key(x.surface)))].sort();
 
-const report={schemaVersion:2,status:'AUDIT_COMPLETE',scope:'Dialogue vocabulary coverage across all 1,164 canonical speeches. Stage directions and proper-noun completeness are audited separately in Phase 3.',policy:{functionWords:'Explicit closed-class/high-frequency discourse list and grammatical contractions may be intentionally excluded.',easyContentWords:'Not automatically excluded merely for being easy.',existingSurfaceReuse:'A surface→lemma mapping is reusable only when globally unambiguous and the dictionary entry exists.',morphology:'Only conservative transformations that resolve to an existing single-word dictionary key are accepted.',polysemy:'Never auto-add without inThisPlay review.',properNouns:'Capitalized unresolved types are deferred, not silently excluded.',unknownContentTokens:'Remain review-required until added or explicitly classified.'},counts:{canonicalSpeeches:speeches.length,vocabularyItems:Object.values(vocab).reduce((n,rows)=>n+(Array.isArray(rows)?rows.length:0),0),dictionaryEntries:Object.keys(dict).length,tokenCount,functionTokenCount,knownNameTokenCount:nameTokenCount,properDeferredCount,reviewCandidates:candidates.length,unknownTokenTypes:unknownTypes.length,polysemyLemmaTypes:polysemyLemmas.length,properNounDeferredTypes:properNounTypes.length,byKind},compact:{polysemyLemmas,properNounTypes,topUnknownTokenTypes:unknownTypes.slice(0,300)},candidates};
+const report={schemaVersion:3,status:'AUDIT_COMPLETE',scope:'Dialogue vocabulary coverage across all 1,164 canonical speeches. Stage directions and proper-noun completeness are audited separately in Phase 3.',policy:{functionWords:'Explicit closed-class/high-frequency discourse list and grammatical contractions may be intentionally excluded.',easyContentWords:'Not automatically excluded merely for being easy.',existingSurfaceReuse:'A surface→lemma mapping is reusable only when globally unambiguous and the dictionary entry exists.',morphology:'Only conservative transformations that resolve to an existing single-word dictionary key are accepted, after proper-name evidence is checked.',polysemy:'Never auto-add without inThisPlay review.',properNouns:'Capitalized unresolved types are deferred, not silently excluded.',unknownContentTokens:'Remain review-required until added or explicitly classified.'},counts:{canonicalSpeeches:speeches.length,vocabularyItems:Object.values(vocab).reduce((n,rows)=>n+(Array.isArray(rows)?rows.length:0),0),dictionaryEntries:Object.keys(dict).length,tokenCount,functionTokenCount,knownNameTokenCount:nameTokenCount,properDeferredCount,reviewCandidates:candidates.length,unknownTokenTypes:unknownTypes.length,polysemyLemmaTypes:polysemyLemmas.length,properNounDeferredTypes:properNounTypes.length,byKind},compact:{polysemyLemmas,properNounTypes,topUnknownTokenTypes:unknownTypes.slice(0,300)},candidates};
 if(speeches.length!==1164)throw new Error(`canonical speech count mismatch: ${speeches.length}`);
 write('data/vocabulary-full-coverage-audit.json',report);
-write('data/vocabulary-full-coverage-summary.json',{schemaVersion:2,status:'AUDIT_COMPLETE',counts:report.counts,compact:report.compact});
+write('data/vocabulary-full-coverage-summary.json',{schemaVersion:3,status:'AUDIT_COMPLETE',counts:report.counts,compact:report.compact});
 console.log(JSON.stringify({counts:report.counts,compact:{polysemyLemmas,properNounTypes:properNounTypes.slice(0,80),topUnknownTokenTypes:unknownTypes.slice(0,120)}},null,2));
