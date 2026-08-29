@@ -50,6 +50,13 @@
 .line-page-surface>.card.focus-role-line .line-detail-text{color:#2d241c}
 
 /* Keep the viewport-fixed line controller geometrically invariant under press/focus. */
+.floating-nav{
+  left:0;
+  right:0;
+  width:160px;
+  margin-inline:auto;
+  transform:none;
+}
 .floating-nav>button{
   flex:0 0 48px;
   width:48px;
