@@ -1,0 +1,893 @@
+{
+  "schemaVersion": 1,
+  "status": "REVIEW_REQUIRED",
+  "count": 119,
+  "rows": [
+    {
+      "token": "inconveniently",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0391"
+      ]
+    },
+    {
+      "token": "unfortunately",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0558"
+      ]
+    },
+    {
+      "token": "inconvenient",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0506"
+      ]
+    },
+    {
+      "token": "deliciously",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0244"
+      ]
+    },
+    {
+      "token": "fortunately",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0618"
+      ]
+    },
+    {
+      "token": "immediately",
+      "count": 1,
+      "speechIds": [
+        "act1-scene1-speech-0177"
+      ]
+    },
+    {
+      "token": "possibility",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0127"
+      ]
+    },
+    {
+      "token": "suggestions",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0137"
+      ]
+    },
+    {
+      "token": "unfortunate",
+      "count": 1,
+      "speechIds": [
+        "act1-scene1-speech-0112"
+      ]
+    },
+    {
+      "token": "unhappiness",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0484"
+      ]
+    },
+    {
+      "token": "arrivederl",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0375"
+      ]
+    },
+    {
+      "token": "beforehand",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0317"
+      ]
+    },
+    {
+      "token": "completely",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0077"
+      ]
+    },
+    {
+      "token": "delightful",
+      "count": 1,
+      "speechIds": [
+        "act1-scene1-speech-0044"
+      ]
+    },
+    {
+      "token": "directions",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0024"
+      ]
+    },
+    {
+      "token": "disgusting",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0263"
+      ]
+    },
+    {
+      "token": "enchanting",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0128"
+      ]
+    },
+    {
+      "token": "especially",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0165"
+      ]
+    },
+    {
+      "token": "everywhere",
+      "count": 1,
+      "speechIds": [
+        "act1-scene1-speech-0177"
+      ]
+    },
+    {
+      "token": "interested",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0363"
+      ]
+    },
+    {
+      "token": "leamington",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0310"
+      ]
+    },
+    {
+      "token": "particular",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0083"
+      ]
+    },
+    {
+      "token": "staircases",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0092"
+      ]
+    },
+    {
+      "token": "suggesting",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0196"
+      ]
+    },
+    {
+      "token": "sweetheart",
+      "count": 1,
+      "speechIds": [
+        "act1-scene1-speech-0007"
+      ]
+    },
+    {
+      "token": "unpleasant",
+      "count": 1,
+      "speechIds": [
+        "act1-scene1-speech-0167"
+      ]
+    },
+    {
+      "token": "advertisement",
+      "count": 2,
+      "speechIds": [
+        "act1-scene1-speech-0110",
+        "act1-scene2-speech-0011"
+      ]
+    },
+    {
+      "token": "possibilities",
+      "count": 2,
+      "speechIds": [
+        "act2-speech-0118",
+        "act2-speech-0143"
+      ]
+    },
+    {
+      "token": "downstairs",
+      "count": 2,
+      "speechIds": [
+        "act1-scene2-speech-0136",
+        "act2-speech-0011"
+      ]
+    },
+    {
+      "token": "experience",
+      "count": 2,
+      "speechIds": [
+        "act1-scene1-speech-0091",
+        "act2-speech-0128"
+      ]
+    },
+    {
+      "token": "throughout",
+      "count": 3,
+      "speechIds": [
+        "act1-scene1-speech-0001",
+        "act1-scene1-speech-0042",
+        "act1-scene1-speech-0139"
+      ]
+    },
+    {
+      "token": "understood",
+      "count": 2,
+      "speechIds": [
+        "act1-scene1-speech-0108",
+        "act2-speech-0555"
+      ]
+    },
+    {
+      "token": "unfinished",
+      "count": 2,
+      "speechIds": [
+        "act2-speech-0073",
+        "act2-speech-0077"
+      ]
+    },
+    {
+      "token": "vegetables",
+      "count": 2,
+      "speechIds": [
+        "act1-scene2-speech-0327",
+        "act2-speech-0022"
+      ]
+    },
+    {
+      "token": "arresting",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0101"
+      ]
+    },
+    {
+      "token": "brilliant",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0100"
+      ]
+    },
+    {
+      "token": "cigarette",
+      "count": 1,
+      "speechIds": [
+        "act1-scene1-speech-0064"
+      ]
+    },
+    {
+      "token": "completes",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0298"
+      ]
+    },
+    {
+      "token": "delicious",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0379"
+      ]
+    },
+    {
+      "token": "depressed",
+      "count": 1,
+      "speechIds": [
+        "act1-scene1-speech-0170"
+      ]
+    },
+    {
+      "token": "extremely",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0100"
+      ]
+    },
+    {
+      "token": "fifteenth",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0179"
+      ]
+    },
+    {
+      "token": "happening",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0516"
+      ]
+    },
+    {
+      "token": "introduce",
+      "count": 1,
+      "speechIds": [
+        "act1-scene1-speech-0115"
+      ]
+    },
+    {
+      "token": "knowledge",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0233"
+      ]
+    },
+    {
+      "token": "movements",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0526"
+      ]
+    },
+    {
+      "token": "northeast",
+      "count": 1,
+      "speechIds": [
+        "act1-scene1-speech-0001"
+      ]
+    },
+    {
+      "token": "overdoing",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0407"
+      ]
+    },
+    {
+      "token": "preparing",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0022"
+      ]
+    },
+    {
+      "token": "receiving",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0193"
+      ]
+    },
+    {
+      "token": "satisfied",
+      "count": 1,
+      "speechIds": [
+        "act1-scene1-speech-0119"
+      ]
+    },
+    {
+      "token": "shivering",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0072"
+      ]
+    },
+    {
+      "token": "situation",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0324"
+      ]
+    },
+    {
+      "token": "suggested",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0272"
+      ]
+    },
+    {
+      "token": "anywhere",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0186"
+      ]
+    },
+    {
+      "token": "arriving",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0024"
+      ]
+    },
+    {
+      "token": "baptized",
+      "count": 1,
+      "speechIds": [
+        "act1-scene1-speech-0067"
+      ]
+    },
+    {
+      "token": "behaving",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0248"
+      ]
+    },
+    {
+      "token": "believed",
+      "count": 1,
+      "speechIds": [
+        "act1-scene1-speech-0118"
+      ]
+    },
+    {
+      "token": "bullying",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0013"
+      ]
+    },
+    {
+      "token": "discover",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0519"
+      ]
+    },
+    {
+      "token": "dragging",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0503"
+      ]
+    },
+    {
+      "token": "exciting",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0512"
+      ]
+    },
+    {
+      "token": "families",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0165"
+      ]
+    },
+    {
+      "token": "handsome",
+      "count": 1,
+      "speechIds": [
+        "act1-scene1-speech-0054"
+      ]
+    },
+    {
+      "token": "helpless",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0142"
+      ]
+    },
+    {
+      "token": "identify",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0183"
+      ]
+    },
+    {
+      "token": "interest",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0036"
+      ]
+    },
+    {
+      "token": "jeunesse",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0313"
+      ]
+    },
+    {
+      "token": "messages",
+      "count": 1,
+      "speechIds": [
+        "act1-scene1-speech-0139"
+      ]
+    },
+    {
+      "token": "painters",
+      "count": 1,
+      "speechIds": [
+        "act1-scene1-speech-0065"
+      ]
+    },
+    {
+      "token": "planning",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0370"
+      ]
+    },
+    {
+      "token": "pleasure",
+      "count": 1,
+      "speechIds": [
+        "act1-scene1-speech-0125"
+      ]
+    },
+    {
+      "token": "portrait",
+      "count": 1,
+      "speechIds": [
+        "act1-scene1-speech-0065"
+      ]
+    },
+    {
+      "token": "problems",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0041"
+      ]
+    },
+    {
+      "token": "produced",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0334"
+      ]
+    },
+    {
+      "token": "promised",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0006"
+      ]
+    },
+    {
+      "token": "realized",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0575"
+      ]
+    },
+    {
+      "token": "securely",
+      "count": 1,
+      "speechIds": [
+        "act1-scene1-speech-0184"
+      ]
+    },
+    {
+      "token": "shouting",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0060"
+      ]
+    },
+    {
+      "token": "shutting",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0295"
+      ]
+    },
+    {
+      "token": "thousand",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0620"
+      ]
+    },
+    {
+      "token": "unstable",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0126"
+      ]
+    },
+    {
+      "token": "watching",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0591"
+      ]
+    },
+    {
+      "token": "worrying",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0257"
+      ]
+    },
+    {
+      "token": "youngest",
+      "count": 1,
+      "speechIds": [
+        "act1-scene2-speech-0209"
+      ]
+    },
+    {
+      "token": "information",
+      "count": 4,
+      "speechIds": [
+        "act1-scene2-speech-0193",
+        "act2-speech-0014",
+        "act2-speech-0125"
+      ]
+    },
+    {
+      "token": "interesting",
+      "count": 5,
+      "speechIds": [
+        "act1-scene1-speech-0063",
+        "act2-speech-0078",
+        "act2-speech-0330"
+      ]
+    },
+    {
+      "token": "everyone's",
+      "count": 1,
+      "speechIds": [
+        "act2-speech-0096"
+      ]
+    },
+    {
+      "token": "understand",
+      "count": 5,
+      "speechIds": [
+        "act1-scene1-speech-0118",
+        "act1-scene2-speech-0177",
+        "act1-scene2-speech-0334"
+      ]
+    },
+    {
+      "token": "beautiful",
+      "count": 2,
+      "speechIds": [
+        "act1-scene1-speech-0069",
+        "act1-scene1-speech-0117"
+      ]
+    },
+    {
+      "token": "beginning",
+      "count": 3,
+      "speechIds": [
+        "act1-scene1-speech-0092",
+        "act1-scene2-speech-0002",
+        "act2-speech-0143"
+      ]
+    },
+    {
+      "token": "breakfast",
+      "count": 2,
+      "speechIds": [
+        "act1-scene2-speech-0002",
+        "act2-speech-0495"
+      ]
+    },
+    {
+      "token": "carefully",
+      "count": 2,
+      "speechIds": [
+        "act1-scene2-speech-0085",
+        "act2-speech-0620"
+      ]
+    },
+    {
+      "token": "dangerous",
+      "count": 2,
+      "speechIds": [
+        "act1-scene2-speech-0201",
+        "act2-speech-0267"
+      ]
+    },
+    {
+      "token": "excellent",
+      "count": 3,
+      "speechIds": [
+        "act1-scene1-speech-0133",
+        "act1-scene2-speech-0002",
+        "act1-scene2-speech-0004"
+      ]
+    },
+    {
+      "token": "fantastic",
+      "count": 2,
+      "speechIds": [
+        "act1-scene2-speech-0321",
+        "act1-scene2-speech-0322"
+      ]
+    },
+    {
+      "token": "important",
+      "count": 3,
+      "speechIds": [
+        "act1-scene1-speech-0014",
+        "act1-scene1-speech-0118",
+        "act2-speech-0507"
+      ]
+    },
+    {
+      "token": "listening",
+      "count": 2,
+      "speechIds": [
+        "act1-scene2-speech-0335",
+        "act2-speech-0372"
+      ]
+    },
+    {
+      "token": "motorists",
+      "count": 3,
+      "speechIds": [
+        "act1-scene1-speech-0001",
+        "act1-scene1-speech-0042",
+        "act1-scene1-speech-0132"
+      ]
+    },
+    {
+      "token": "performed",
+      "count": 2,
+      "speechIds": [
+        "act2-speech-0548",
+        "act2-speech-0556"
+      ]
+    },
+    {
+      "token": "supposing",
+      "count": 2,
+      "speechIds": [
+        "act2-speech-0367",
+        "act2-speech-0523"
+      ]
+    },
+    {
+      "token": "whistling",
+      "count": 3,
+      "speechIds": [
+        "act2-speech-0054",
+        "act2-speech-0055",
+        "act2-speech-0057"
+      ]
+    },
+    {
+      "token": "wonderful",
+      "count": 3,
+      "speechIds": [
+        "act1-scene1-speech-0041",
+        "act1-scene1-speech-0123",
+        "act1-scene2-speech-0204"
+      ]
+    },
+    {
+      "token": "abnormal",
+      "count": 2,
+      "speechIds": [
+        "act1-scene2-speech-0248",
+        "act2-speech-0095"
+      ]
+    },
+    {
+      "token": "accident",
+      "count": 2,
+      "speechIds": [
+        "act1-scene2-speech-0226",
+        "act2-speech-0392"
+      ]
+    },
+    {
+      "token": "answered",
+      "count": 2,
+      "speechIds": [
+        "act2-speech-0456",
+        "act2-speech-0581"
+      ]
+    },
+    {
+      "token": "chickens",
+      "count": 2,
+      "speechIds": [
+        "act2-speech-0170",
+        "act2-speech-0373"
+      ]
+    },
+    {
+      "token": "continue",
+      "count": 2,
+      "speechIds": [
+        "act1-scene1-speech-0001",
+        "act1-scene1-speech-0042"
+      ]
+    },
+    {
+      "token": "enjoying",
+      "count": 3,
+      "speechIds": [
+        "act2-speech-0372",
+        "act2-speech-0420",
+        "act2-speech-0515"
+      ]
+    },
+    {
+      "token": "finished",
+      "count": 2,
+      "speechIds": [
+        "act2-speech-0165",
+        "act2-speech-0451"
+      ]
+    },
+    {
+      "token": "happened",
+      "count": 3,
+      "speechIds": [
+        "act1-scene2-speech-0210",
+        "act1-scene2-speech-0278",
+        "act2-speech-0390"
+      ]
+    },
+    {
+      "token": "husbands",
+      "count": 2,
+      "speechIds": [
+        "act1-scene1-speech-0071",
+        "act2-speech-0401"
+      ]
+    },
+    {
+      "token": "monkwell",
+      "count": 2,
+      "speechIds": [
+        "act1-scene1-speech-0024",
+        "act1-scene1-speech-0025"
+      ]
+    },
+    {
+      "token": "potatoes",
+      "count": 3,
+      "speechIds": [
+        "act1-scene1-speech-0152",
+        "act2-speech-0245",
+        "act2-speech-0383"
+      ]
+    },
+    {
+      "token": "suddenly",
+      "count": 2,
+      "speechIds": [
+        "act2-speech-0060",
+        "act2-speech-0243"
+      ]
+    },
+    {
+      "token": "together",
+      "count": 2,
+      "speechIds": [
+        "act1-scene1-speech-0157",
+        "act2-speech-0373"
+      ]
+    },
+    {
+      "token": "tomorrow",
+      "count": 2,
+      "speechIds": [
+        "act1-scene1-speech-0011",
+        "act1-scene1-speech-0190"
+      ]
+    },
+    {
+      "token": "training",
+      "count": 2,
+      "speechIds": [
+        "act2-speech-0165",
+        "act2-speech-0199"
+      ]
+    }
+  ]
+}
