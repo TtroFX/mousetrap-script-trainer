@@ -11,10 +11,14 @@ const safeKinds=['ADD_EXISTING_SURFACE','ADD_EXACT_DICTIONARY','ADD_MORPHOLOGY']
 const safeResidual=(audit.candidates||[]).filter(x=>safeKinds.includes(x.kind));
 const polyResidual=(audit.candidates||[]).filter(x=>String(x.kind).startsWith('REVIEW_POLYSEMY_'));
 const suspiciousResidual=focus.suspiciousUnknowns||[];
+const explicitDeferred=new Set((suspiciousRepair.deferredToPhase3||[]).map(key));
+const explicitExcluded=new Set(Object.keys(suspiciousRepair.excluded||{}).map(key));
+const allowedSuspicious=new Set([...explicitDeferred,...explicitExcluded]);
+const unexpectedSuspicious=suspiciousResidual.filter(x=>!allowedSuspicious.has(key(x.token)));
 if(safeResidual.length)throw new Error(`safe coverage residual ${safeResidual.length}`);
 if(polyResidual.length||poly?.counts?.occurrences)throw new Error(`polysemy coverage residual ${polyResidual.length}/${poly?.counts?.occurrences}`);
 if(historical.historicalMissTokenTypes!==0)throw new Error(`historical B1+/Oxford miss types ${historical.historicalMissTokenTypes}`);
-if(suspiciousResidual.length)throw new Error(`suspicious dialogue token types remain ${suspiciousResidual.length}`);
+if(unexpectedSuspicious.length)throw new Error(`unexpected suspicious dialogue token types remain ${unexpectedSuspicious.map(x=>x.token).join(', ')}`);
 
 const grouped=new Map();
 for(const c of audit.candidates||[]){
@@ -24,16 +28,30 @@ for(const c of audit.candidates||[]){
 const noise=new Set(['dum','hm','hmm','mm','ugh','gosh','hullo','hello','ha','ah','oh','eh','er','um','uh']);
 const grammatical=new Set(["everyone's","someone's","anyone's","nobody's","everything's","nothing's"]);
 const classifications=[];
+const explicitlyDeferredFromUnknown=[];
 for(const [token,rows] of [...grouped.entries()].sort((a,b)=>a[0].localeCompare(b[0]))){
   let category='INTENTIONAL_BASIC_OR_TRANSPARENT';
   let rationale='Not selected by prior B1+/Oxford review, not flagged by the long/rare suspicious review after the overinclusive repair pass, and not polysemous in the current production dictionary.';
-  if(noise.has(token)){category='VOCALIZATION_OR_DISCOURSE_NOISE';rationale='Vocalization/interjection-like token rather than a lexical lookup target for this dialogue vocabulary layer.';}
-  else if(grammatical.has(token)){category='GRAMMATICAL_CONTRACTION_OR_POSSESSIVE';rationale='Transparent grammatical contraction/possessive handled by grammar rather than a separate dictionary lexeme.';}
+  if(explicitDeferred.has(token)){
+    category='DEFER_PROPER_NOUN_PHASE3';
+    rationale='Explicitly reviewed in Phase 2 and delegated to the proper-noun/name-variant audit in Phase 3.';
+    explicitlyDeferredFromUnknown.push({token,count:rows.length,category,rationale,speechIds:[...new Set(rows.map(x=>x.speechId))]});
+    continue;
+  }
+  if(explicitExcluded.has(token)||grammatical.has(token)){
+    category='GRAMMATICAL_CONTRACTION_OR_POSSESSIVE';
+    rationale='Explicitly reviewed as transparent grammatical contraction/possessive handled by grammar rather than a separate dictionary lexeme.';
+  } else if(noise.has(token)){
+    category='VOCALIZATION_OR_DISCOURSE_NOISE';
+    rationale='Vocalization/interjection-like token rather than a lexical lookup target for this dialogue vocabulary layer.';
+  }
   classifications.push({token,count:rows.length,category,rationale,speechIds:[...new Set(rows.map(x=>x.speechId))]});
 }
 const proper=(audit.candidates||[]).filter(x=>x.kind==='DEFER_PROPER_NOUN_PHASE3');
 const properGroups=new Map();for(const c of proper){const k=key(c.surface);if(!properGroups.has(k))properGroups.set(k,[]);properGroups.get(k).push(c);}
-const deferredProper=[...properGroups.entries()].sort((a,b)=>a[0].localeCompare(b[0])).map(([token,rows])=>({token,count:rows.length,category:'DEFER_PROPER_NOUN_PHASE3',speechIds:[...new Set(rows.map(x=>x.speechId))]}));
+const deferredProper=[...properGroups.entries()].sort((a,b)=>a[0].localeCompare(b[0])).map(([token,rows])=>({token,count:rows.length,category:'DEFER_PROPER_NOUN_PHASE3',rationale:'Capitalized unresolved form delegated to Phase 3 proper-noun audit.',speechIds:[...new Set(rows.map(x=>x.speechId))]}));
+for(const row of explicitlyDeferredFromUnknown){if(!deferredProper.some(x=>x.token===row.token))deferredProper.push(row);}
+deferredProper.sort((a,b)=>a.token.localeCompare(b.token));
 const counts={
   canonicalSpeeches:audit.counts.canonicalSpeeches,
   vocabularyItems:audit.counts.vocabularyItems,
@@ -42,11 +60,13 @@ const counts={
   polysemyResidualOccurrences:polyResidual.length,
   historicalMissTokenTypes:historical.historicalMissTokenTypes,
   suspiciousResidualTokenTypes:suspiciousResidual.length,
+  explicitlyDelegatedSuspiciousTypes:suspiciousResidual.filter(x=>allowedSuspicious.has(key(x.token))).length,
+  unexpectedSuspiciousResidualTypes:unexpectedSuspicious.length,
   intentionalBasicOrTransparentTypes:classifications.filter(x=>x.category==='INTENTIONAL_BASIC_OR_TRANSPARENT').length,
   vocalizationOrNoiseTypes:classifications.filter(x=>x.category==='VOCALIZATION_OR_DISCOURSE_NOISE').length,
   grammaticalTypes:classifications.filter(x=>x.category==='GRAMMATICAL_CONTRACTION_OR_POSSESSIVE').length,
   deferredProperNounTypes:deferredProper.length,
   unreviewedTokenTypes:0
 };
-const out={schemaVersion:1,status:'PASS',policy:{dialogueOnly:true,overinclusiveSuspiciousReview:true,historicalSelectionCrosscheckRequired:true,polysemyMustBeResolved:true,properNounsDeferredToPhase3:true,remainingBasicTokensExplicitlyClassified:true},counts,suspiciousRepairSummary:{reviewedSuspiciousTokenTypes:suspiciousRepair.reviewedSuspiciousTokenTypes,addedDictionaryEntries:suspiciousRepair.addedDictionaryEntries,addedVocabularyItems:suspiciousRepair.addedVocabularyItems,deferredToPhase3:suspiciousRepair.deferredToPhase3,excluded:suspiciousRepair.excluded},residualClassifications:classifications,deferredProperNouns:deferredProper};
-write('data/vocabulary-full-coverage-classification.json',out);console.log(JSON.stringify({status:out.status,counts},null,2));
+const out={schemaVersion:2,status:'PASS',policy:{dialogueOnly:true,overinclusiveSuspiciousReview:true,historicalSelectionCrosscheckRequired:true,polysemyMustBeResolved:true,properNounsDeferredToPhase3:true,explicitGrammarExclusionsAllowed:true,remainingBasicTokensExplicitlyClassified:true},counts,suspiciousRepairSummary:{reviewedSuspiciousTokenTypes:suspiciousRepair.reviewedSuspiciousTokenTypes,addedDictionaryEntries:suspiciousRepair.addedDictionaryEntries,addedVocabularyItems:suspiciousRepair.addedVocabularyItems,deferredToPhase3:suspiciousRepair.deferredToPhase3,excluded:suspiciousRepair.excluded},allowedSuspiciousResiduals:suspiciousResidual.filter(x=>allowedSuspicious.has(key(x.token))).map(x=>({token:x.token,count:x.count,disposition:explicitDeferred.has(key(x.token))?'DEFER_PROPER_NOUN_PHASE3':'GRAMMATICAL_EXCLUSION'})),residualClassifications:classifications,deferredProperNouns:deferredProper};
+write('data/vocabulary-full-coverage-classification.json',out);console.log(JSON.stringify({status:out.status,counts,allowedSuspiciousResiduals:out.allowedSuspiciousResiduals},null,2));
