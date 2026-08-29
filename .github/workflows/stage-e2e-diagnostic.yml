@@ -82,7 +82,7 @@ jobs:
         working-directory: work/app
         run: |
           npm install
-          npm run assemble:production
+          npm run assemble:production -- --out-dir ../public
           npx playwright install --with-deps chromium
       - name: Run concise E2E diagnostic
         working-directory: work/app
