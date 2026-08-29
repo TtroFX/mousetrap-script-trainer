@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_VOCABULARY_FINAL_CLOSURE",
+  "validatedCommit": "7bbfe632e9f194fb845495dd8e5f2f791b867fe3",
+  "workflowRunId": 33241815936,
+  "policy": {
+    "meaningIsDictionaryNeutral": true,
+    "inThisPlayIsOptionalButRequiredForPolysemy": true,
+    "stageDirectionsAreInScope": true,
+    "properNounsRequireContextOnlyWhenIdentificationNeedsClarification": true,
+    "singleWordsUsePosSeparatedDictionaryFormatting": true
+  },
+  "counts": {
+    "speeches": 1164,
+    "dictionaryEntries": 1375,
+    "vocabularyItems": 2926,
+    "vocabularyDisplayed": 2519,
+    "vocabularyNeutralOnly": 407,
+    "inThisPlayItems": 754,
+    "polysemyItems": 301,
+    "properNounOccurrences": 99,
+    "properNounMissingContext": 17,
+    "genericProperNounMissingContext": 0,
+    "dictionaryPlayContextCandidates": 0,
+    "unclassifiedDictionary": 0,
+    "genericInThisPlay": 0,
+    "playSpecificDictionaryMeanings": 0,
+    "surfaceLemmaConflicts": 0,
+    "duplicateSurfaceLemmaPairs": 0,
+    "singleWordDictionaryEntries": 799,
+    "singleWordWithoutHeading": 0,
+    "multiPosSingleWords": 95,
+    "multiPosSingleWordsWithoutSeparateHeadings": 0
+  },
+  "qa": {
+    "dictionaryStyleAudit": "PASS",
+    "contextPrecisionAudit": "PASS",
+    "semanticValidator": "PASS",
+    "productionAssemblyVerify": "PASS",
+    "productionAssembly": "PASS",
+    "vocabularyUiRegression": {
+      "status": "PASS",
+      "suite": "app/tests/canonical_study.e2e.spec.js",
+      "passed": 5,
+      "failed": 0
+    }
+  },
+  "notes": [
+    "The 17 proper-noun occurrences without inThisPlay are intentional: their dictionary meanings are already sufficiently identifying and the field is optional unless context materially clarifies identity or usage.",
+    "Repeated inThisPlay wording is permitted where the same polysemous or theatrical sense recurs; the semantic validator requires context for every polysemy-tagged occurrence and reports zero generic inThisPlay entries.",
+    "The failed 585-context experiment was not adopted. The canonical closure retains required polysemy and theatrical context, resulting in 754 inThisPlay items."
+  ]
+}
