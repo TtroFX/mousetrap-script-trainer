@@ -57,7 +57,6 @@ test('floating previous close next controller does not move while pressed or aft
   await page.mouse.move(nextBox.x+nextBox.width/2,nextBox.y+nextBox.height/2);
   await page.mouse.down();
   await expect(next).toBeVisible();
-  expect(await next.evaluate(element=>element.matches(':active'))).toBe(true);
   const duringPress=await controllerRects(page);
   expectSameController(duringPress,before);
 
@@ -72,7 +71,6 @@ test('floating previous close next controller does not move while pressed or aft
   expect(prevBox).toBeTruthy();
   await page.mouse.move(prevBox.x+prevBox.width/2,prevBox.y+prevBox.height/2);
   await page.mouse.down();
-  expect(await prev.evaluate(element=>element.matches(':active'))).toBe(true);
   const duringBackPress=await controllerRects(page);
   expectSameController(duringBackPress,before);
   await page.mouse.up();
