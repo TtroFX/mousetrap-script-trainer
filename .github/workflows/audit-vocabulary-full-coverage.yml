@@ -42,6 +42,8 @@ jobs:
         run: node scripts/build-dialogue-coverage-review-focus.mjs
       - name: Build compact polysemy residual
         run: node scripts/build-dialogue-polysemy-residual.mjs
+      - name: Export suspicious residual ledger
+        run: node scripts/export-dialogue-suspicious-review.mjs
       - name: Validate vocabulary semantics
         run: node scripts/validate-vocabulary-semantics.mjs
       - name: Verify production assembly
@@ -51,10 +53,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add mousetrap_word_dictionary.json mousetrap_line_vocabulary.json data/canonical-production-contract.json data/canonical-integration-manifest.json data/vocabulary-full-coverage-audit.json data/vocabulary-full-coverage-summary.json data/vocabulary-full-coverage-safe-repair.json data/vocabulary-full-coverage-polysemy-consensus-repair.json data/vocabulary-full-coverage-polysemy-manual-repair.json data/vocabulary-full-coverage-historical-crosscheck.json data/vocabulary-full-coverage-review-focus.json data/vocabulary-full-coverage-polysemy-residual.json
+          git add mousetrap_word_dictionary.json mousetrap_line_vocabulary.json data/canonical-production-contract.json data/canonical-integration-manifest.json data/vocabulary-full-coverage-audit.json data/vocabulary-full-coverage-summary.json data/vocabulary-full-coverage-safe-repair.json data/vocabulary-full-coverage-polysemy-consensus-repair.json data/vocabulary-full-coverage-polysemy-manual-repair.json data/vocabulary-full-coverage-historical-crosscheck.json data/vocabulary-full-coverage-review-focus.json data/vocabulary-full-coverage-polysemy-residual.json data/vocabulary-full-coverage-suspicious-review.tsv data/vocabulary-full-coverage-suspicious-review.json
           if git diff --cached --quiet; then
             echo "No dialogue coverage changes."
             exit 0
           fi
-          git commit -m "Resolve dialogue vocabulary polysemy coverage"
+          git commit -m "Record suspicious dialogue vocabulary review ledger"
           git push origin HEAD:audit/vocabulary-full-coverage
