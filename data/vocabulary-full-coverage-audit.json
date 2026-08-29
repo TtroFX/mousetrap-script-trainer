@@ -13,26 +13,23 @@
   },
   "counts": {
     "canonicalSpeeches": 1164,
-    "vocabularyItems": 3848,
+    "vocabularyItems": 3850,
     "dictionaryEntries": 1376,
     "tokenCount": 15934,
     "functionTokenCount": 10024,
     "knownNameTokenCount": 266,
     "properDeferredCount": 274,
-    "reviewCandidates": 2907,
+    "reviewCandidates": 2905,
     "unknownTokenTypes": 801,
-    "polysemyLemmaTypes": 1,
+    "polysemyLemmaTypes": 0,
     "properNounDeferredTypes": 51,
     "byKind": {
       "DEFER_PROPER_NOUN_PHASE3": 245,
-      "REVIEW_NEW_LEXEME_OR_EXCLUSION": 2660,
-      "REVIEW_POLYSEMY_EXISTING_SURFACE": 2
+      "REVIEW_NEW_LEXEME_OR_EXCLUSION": 2660
     }
   },
   "compact": {
-    "polysemyLemmas": [
-      "face"
-    ],
+    "polysemyLemmas": [],
     "properNounTypes": [
       "army",
       "bank",
@@ -11293,15 +11290,6 @@
     {
       "speechId": "act1-scene2-speech-0263",
       "speaker": "MISS CASEWELL",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "face",
-      "lemma": "face",
-      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act1-scene2-speech-0263",
-      "speaker": "MISS CASEWELL",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "bit",
       "lemma": "",
@@ -11690,15 +11678,6 @@
       "surface": "remember",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene2-speech-0290",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "face",
-      "lemma": "face",
-      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene2-speech-0290",

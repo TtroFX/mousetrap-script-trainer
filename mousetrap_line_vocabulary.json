@@ -12718,6 +12718,13 @@
       "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
       "playMeaning": true,
       "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
+    },
+    {
+      "surface": "face",
+      "lemma": "face",
+      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは動詞ではなく、人の「顔」を表す名詞。"
     }
   ],
   "act1-scene2-speech-0264": [
@@ -13007,6 +13014,13 @@
       "lemma": "stage right",
       "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": false
+    },
+    {
+      "surface": "face",
+      "lemma": "face",
+      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは動詞ではなく、人の「顔」を表す名詞。"
     }
   ],
   "act1-scene2-speech-0291": [],

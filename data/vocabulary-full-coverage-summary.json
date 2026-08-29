@@ -3,26 +3,23 @@
   "status": "AUDIT_COMPLETE",
   "counts": {
     "canonicalSpeeches": 1164,
-    "vocabularyItems": 3848,
+    "vocabularyItems": 3850,
     "dictionaryEntries": 1376,
     "tokenCount": 15934,
     "functionTokenCount": 10024,
     "knownNameTokenCount": 266,
     "properDeferredCount": 274,
-    "reviewCandidates": 2907,
+    "reviewCandidates": 2905,
     "unknownTokenTypes": 801,
-    "polysemyLemmaTypes": 1,
+    "polysemyLemmaTypes": 0,
     "properNounDeferredTypes": 51,
     "byKind": {
       "DEFER_PROPER_NOUN_PHASE3": 245,
-      "REVIEW_NEW_LEXEME_OR_EXCLUSION": 2660,
-      "REVIEW_POLYSEMY_EXISTING_SURFACE": 2
+      "REVIEW_NEW_LEXEME_OR_EXCLUSION": 2660
     }
   },
   "compact": {
-    "polysemyLemmas": [
-      "face"
-    ],
+    "polysemyLemmas": [],
     "properNounTypes": [
       "army",
       "bank",

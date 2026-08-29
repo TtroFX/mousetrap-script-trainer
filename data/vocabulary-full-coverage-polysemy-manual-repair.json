@@ -1,9 +1,9 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "status": "APPLIED",
-  "addedItems": 25,
+  "addedItems": 0,
   "dictionaryEntries": 1376,
-  "vocabularyItems": 3848,
+  "vocabularyItems": 3850,
   "dictionaryChanges": [
     "show",
     "follow",
@@ -15,6 +15,6 @@
   ],
   "sha256": {
     "dictionary": "ab52f32c8de60ee7a365b22b02c06b86e81f7c2e1c0e75ca8d305eb8311649fc",
-    "vocabulary": "d1b177b8ca17f51b08a43de4def9cb20420ce7af5588f5528a2dfc6ebd976baf"
+    "vocabulary": "50125450cce493aa32b12192836b10edfce50bcb58b9f8df5d36ada8e2092e54"
   }
 }

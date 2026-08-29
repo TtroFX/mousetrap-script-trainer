@@ -1,14 +1,16 @@
 {
   "schemaVersion": 1,
   "status": "APPLIED",
-  "candidateOccurrences": 25,
-  "addedVocabularyItems": 0,
-  "noConsensus": 25,
+  "candidateOccurrences": 2,
+  "addedVocabularyItems": 2,
+  "noConsensus": 0,
   "ambiguousConsensus": 0,
   "duplicates": 0,
-  "addedByLemma": {},
-  "finalVocabularyItems": 3823,
+  "addedByLemma": {
+    "face": 2
+  },
+  "finalVocabularyItems": 3850,
   "sha256": {
-    "vocabulary": "575b49f3933088634ce4c892be98af4830c37c40e36808a05f01469992f70edc"
+    "vocabulary": "50125450cce493aa32b12192836b10edfce50bcb58b9f8df5d36ada8e2092e54"
   }
 }

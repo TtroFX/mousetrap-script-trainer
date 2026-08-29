@@ -2,33 +2,12 @@
   "schemaVersion": 1,
   "status": "REVIEW_FOCUS_BUILT",
   "counts": {
-    "polysemyOccurrences": 2,
-    "polysemyLemmas": 1,
+    "polysemyOccurrences": 0,
+    "polysemyLemmas": 0,
     "unknownTokenTypes": 801,
     "suspiciousTokenTypes": 119
   },
-  "polysemy": [
-    {
-      "speechId": "act1-scene2-speech-0263",
-      "speaker": "MISS CASEWELL",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "face",
-      "lemma": "face",
-      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding.",
-      "text": "Looks a bit of a spiv to me. Makes his face up, too. Rouge and powder. Disgusting. He must be quite old, too."
-    },
-    {
-      "speechId": "act1-scene2-speech-0290",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "face",
-      "lemma": "face",
-      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding.",
-      "text": "Is that really the right way? I wonder. Perhaps that's all wrong. Perhaps one ought really to face them."
-    }
-  ],
+  "polysemy": [],
   "suspiciousUnknowns": [
     {
       "token": "inconveniently",

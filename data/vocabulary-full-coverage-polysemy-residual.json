@@ -2,25 +2,8 @@
   "schemaVersion": 1,
   "status": "REVIEW_REQUIRED",
   "counts": {
-    "lemmas": 1,
-    "occurrences": 2
+    "lemmas": 0,
+    "occurrences": 0
   },
-  "groups": {
-    "face": [
-      {
-        "speechId": "act1-scene2-speech-0263",
-        "surface": "face",
-        "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-        "speaker": "MISS CASEWELL",
-        "text": "Looks a bit of a spiv to me. Makes his face up, too. Rouge and powder. Disgusting. He must be quite old, too."
-      },
-      {
-        "speechId": "act1-scene2-speech-0290",
-        "surface": "face",
-        "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-        "speaker": "MOLLIE",
-        "text": "Is that really the right way? I wonder. Perhaps that's all wrong. Perhaps one ought really to face them."
-      }
-    ]
-  }
+  "groups": {}
 }
