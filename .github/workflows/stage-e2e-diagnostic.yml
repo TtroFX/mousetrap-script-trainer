@@ -1,0 +1,97 @@
+name: Stage E2E Diagnostic
+
+on:
+  push:
+    branches: ['feature/pdf-stage-directions']
+    paths:
+      - '.github/workflows/stage-e2e-diagnostic.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout exact stage source
+        uses: actions/checkout@v4
+        with:
+          ref: ca90a09f180c119c136368c5d9ed8564aaf173d4
+          path: source
+      - name: Checkout exact main used by failed run
+        uses: actions/checkout@v4
+        with:
+          ref: dd59c1431a034543d241424ce5957f6fb882ce08
+          path: work
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Reproduce exact stage integration
+        run: |
+          cp source/mousetrap_stage_directions.json work/mousetrap_stage_directions.json
+          cp source/scripts/validate-stage-directions.mjs work/scripts/validate-stage-directions.mjs
+          cp source/scripts/apply-stage-directions-integration.py work/scripts/apply-stage-directions-integration.py
+          cd work
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('scripts/apply-stage-directions-integration.py')
+          s=p.read_text(encoding='utf-8')
+          s=s.replace("index-zero-2026-08-28-r11","index-zero-2026-08-29-r14")
+          s=s.replace("index-zero-2026-08-28-r12","index-zero-2026-08-29-r15")
+          old="s=regex_once(s,r'function openLine\\(scene,line\\)\\{.*\\}\\nfunction lineView\\(q\\)\\{.*\\}',line_stage,'main line/stage views',re.S)"
+          new="s=regex_once(s,r'^function openLine\\(scene,line\\)\\{.*\\}\\nfunction lineView\\(q\\)\\{.*\\}$',line_stage,'main line/stage views',re.M)"
+          if old in s:s=s.replace(old,new,1)
+          start=s.index('# Focus gesture navigation now traverses')
+          end=s.index('# Stage visual system:',start)
+          s=s[:start]+s[end:]
+          p.write_text(s,encoding='utf-8')
+          PY
+          python3 scripts/apply-stage-directions-integration.py
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          p=Path('app/src/gesture-controls.js')
+          s=p.read_text(encoding='utf-8')
+          old=re.search(r"const lineRoute=\(\)=>\{.*?\n\};\nconst currentFocusPage",s,re.S)
+          if not old: raise SystemExit('lineRoute block missing')
+          block="""const focusRoute=()=>{\n  const raw=location.hash.replace(/^#/,'');\n  const [path,query='']=raw.split('?'),q=new URLSearchParams(query),scene=q.get('scene');\n  if(path==='/line'){const line=q.get('line');return scene&&line?{scene,id:line,kind:'speech'}:null}\n  if(path==='/stage'){const stage=q.get('stage');return scene&&stage?{scene,id:stage,kind:'stage'}:null}\n  return null;\n};\nconst lineRoute=()=>{const route=focusRoute();return route?.kind==='speech'?{scene:route.scene,line:route.id}:null};\nconst currentFocusPage"""
+          s=s[:old.start()]+block+s[old.end():]
+          s=s.replace("  if(!card||!route||!api?.store||!api?.state)return;","  if(!card||!api?.store||!api?.state)return;\n  if(!route){card.classList.remove('selected-role-line','focus-role-line');delete card.dataset.ownRole;return}",1)
+          s=s.replace("  if(!lineRoute())return;","  if(!focusRoute())return;",1)
+          old=re.search(r"const focusTarget=direction=>\{.*?\n\};\nconst moveFocusLine=direction=>\{.*?\n\};",s,re.S)
+          if not old: raise SystemExit('focusTarget block missing')
+          block="""const focusTarget=direction=>{\n  const route=focusRoute(),api=window.MTS_INDEX_ZERO;\n  if(!route||!api?.store?.getReaderSequence)return null;\n  const rows=api.store.getReaderSequence(route.scene),index=rows.findIndex(item=>item.kind===route.kind&&item.id===route.id);\n  if(index<0)return null;\n  const target=rows[index+(direction>0?1:-1)];\n  return target?{route,target}:null;\n};\nconst moveFocusLine=direction=>{\n  const hit=focusTarget(direction);\n  if(!hit)return false;\n  location.hash=hit.target.kind==='stage'?`#/stage?scene=${encodeURIComponent(hit.route.scene)}&stage=${encodeURIComponent(hit.target.stage.id)}`:`#/line?scene=${encodeURIComponent(hit.route.scene)}&line=${encodeURIComponent(hit.target.speech.id)}`;\n  return true;\n};"""
+          s=s[:old.start()]+block+s[old.end():]
+          old=re.search(r"const ensureFocusPreview=\(page,direction\)=>\{.*?\n\};\nconst previewTransform",s,re.S)
+          if not old: raise SystemExit('preview block missing')
+          block="""const ensureFocusPreview=(page,direction)=>{\n  if(!page)return null;\n  const layer=page.querySelector(':scope > .line-page-motion-layer');\n  if(!layer)return null;\n  const existing=layer.querySelector(':scope > .focus-page-preview');\n  if(existing?.dataset.direction===String(direction))return existing;\n  existing?.remove();\n  const hit=focusTarget(direction),api=window.MTS_INDEX_ZERO;\n  if(!hit||!api?.store)return null;\n  const preview=document.createElement('div');\n  preview.className='focus-page-preview';preview.dataset.direction=String(direction);preview.setAttribute('aria-hidden','true');\n  preview.style.transform=direction>0?'translate3d(100%,0,0)':'translate3d(-100%,0,0)';\n  const lineCard=makePreviewCard();\n  const speaker=document.createElement('div');speaker.className='speaker-title';\n  const text=document.createElement('p');text.className='line-detail-text';\n  const translationCard=makePreviewCard();\n  const kicker=document.createElement('div');kicker.className='eyebrow';\n  const translation=document.createElement('p');translation.className='translation';\n  if(hit.target.kind==='stage'){\n    const stage=hit.target.stage;speaker.textContent='SITUATION';text.textContent=stage.text||'';kicker.textContent='状況説明';translation.textContent=stage.summaryJa||'';lineCard.classList.add('stage-page-card');text.classList.add('stage-page-text');\n  }else{\n    const speech=hit.target.speech;speaker.textContent=speech.speaker||'';text.textContent=speech.text||'';kicker.textContent='Translation';let translated='';try{if(api.store.hasStudy?.())translated=api.store.getTranslation(speech.id)||''}catch{}translation.textContent=translated||'…';\n  }\n  const chip=document.createElement('span');chip.className='chip';chip.textContent=page.querySelector('.line-page-surface .chip, :scope > .card .chip')?.textContent||hit.route.scene;\n  lineCard.append(speaker,text,chip);translationCard.append(kicker,translation);\n  const placeholder=makePreviewCard('card focus-preview-placeholder');preview.append(lineCard,translationCard,placeholder);layer.insertBefore(preview,layer.querySelector('.line-page-surface'));return preview;\n};\nconst previewTransform"""
+          s=s[:old.start()]+block+s[old.end():]
+          s=s.replace("if(focusSettling||!lineRoute())return false;","if(focusSettling||!focusRoute())return false;",1)
+          p.write_text(s,encoding='utf-8')
+          PY
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('app/tests/gesture_english.e2e.spec.js')
+          s=p.read_text(encoding='utf-8')
+          old="const rows=MTS_INDEX_ZERO.store.getScene(scene);for(let i=1;i<rows.length-1;i++)if(rows[i].speaker==='MOLLIE'&&rows[i+1].speaker!=='MOLLIE'&&(MTS_INDEX_ZERO.store.getGrammar(rows[i].id).length||MTS_INDEX_ZERO.store.getVocabulary(rows[i].id).length))return{scene,line:rows[i].id,next:rows[i+1].id};"
+          new="const rows=MTS_INDEX_ZERO.store.getReaderSequence(scene);for(let i=1;i<rows.length-1;i++){const cur=rows[i],nxt=rows[i+1];if(cur.kind==='speech'&&nxt.kind==='speech'&&cur.speech.speaker==='MOLLIE'&&nxt.speech.speaker!=='MOLLIE'&&(MTS_INDEX_ZERO.store.getGrammar(cur.speech.id).length||MTS_INDEX_ZERO.store.getVocabulary(cur.speech.id).length))return{scene,line:cur.speech.id,next:nxt.speech.id};}"
+          if old in s:s=s.replace(old,new,1)
+          p.write_text(s,encoding='utf-8')
+          PY
+      - name: Install browser QA
+        working-directory: work/app
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+      - name: Run concise E2E diagnostic
+        working-directory: work/app
+        shell: bash
+        run: |
+          set +e
+          npm run test:e2e -- --reporter=line 2>&1 | tee /tmp/stage-e2e.log
+          status=${PIPESTATUS[0]}
+          echo '===== FAILURE SUMMARY ====='
+          grep -E '(^|[[:space:]])([0-9]+\)|Error:|Expected:|Received:|Timeout|failed|×|✘)' /tmp/stage-e2e.log | tail -n 300 || true
+          echo '===== ERROR CONTEXTS ====='
+          find test-results -type f -name 'error-context.md' -print -exec sh -c 'echo ---; cat "$1"' _ {} \; 2>/dev/null || true
+          exit $status
