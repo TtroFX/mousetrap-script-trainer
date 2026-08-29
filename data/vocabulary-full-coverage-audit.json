@@ -13,33 +13,25 @@
   },
   "counts": {
     "canonicalSpeeches": 1164,
-    "vocabularyItems": 3823,
-    "dictionaryEntries": 1375,
+    "vocabularyItems": 3848,
+    "dictionaryEntries": 1376,
     "tokenCount": 15934,
     "functionTokenCount": 10024,
     "knownNameTokenCount": 266,
     "properDeferredCount": 274,
-    "reviewCandidates": 2930,
+    "reviewCandidates": 2907,
     "unknownTokenTypes": 801,
-    "polysemyLemmaTypes": 8,
+    "polysemyLemmaTypes": 1,
     "properNounDeferredTypes": 51,
     "byKind": {
       "DEFER_PROPER_NOUN_PHASE3": 245,
       "REVIEW_NEW_LEXEME_OR_EXCLUSION": 2660,
-      "REVIEW_POLYSEMY_EXACT_DICTIONARY": 13,
-      "REVIEW_POLYSEMY_MORPHOLOGY": 12
+      "REVIEW_POLYSEMY_EXISTING_SURFACE": 2
     }
   },
   "compact": {
     "polysemyLemmas": [
-      "consider",
-      "face",
-      "follow",
-      "haunt",
-      "move",
-      "show",
-      "start",
-      "station"
+      "face"
     ],
     "properNounTypes": [
       "army",
@@ -4035,15 +4027,6 @@
       "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
     },
     {
-      "speechId": "act1-scene1-speech-0109",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "starting",
-      "lemma": "start",
-      "meaning": "【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding."
-    },
-    {
       "speechId": "act1-scene1-speech-0110",
       "speaker": "MRS. BOYLE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
@@ -4058,15 +4041,6 @@
       "surface": "opening",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene1-speech-0110",
-      "speaker": "MRS. BOYLE",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "consider",
-      "lemma": "consider",
-      "meaning": "【動詞】\n① よく考える、検討する\n② ～とみなす",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense."
     },
     {
       "speechId": "act1-scene1-speech-0110",
@@ -5311,15 +5285,6 @@
     {
       "speechId": "act1-scene1-speech-0156",
       "speaker": "CHRISTOPHER",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "Show",
-      "lemma": "show",
-      "meaning": "【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense."
-    },
-    {
-      "speechId": "act1-scene1-speech-0156",
-      "speaker": "CHRISTOPHER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "kitchen",
       "lemma": "",
@@ -5952,15 +5917,6 @@
     {
       "speechId": "act1-scene1-speech-0187",
       "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "faces",
-      "lemma": "face",
-      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding."
-    },
-    {
-      "speechId": "act1-scene1-speech-0187",
-      "speaker": "MOLLIE",
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "north",
       "lemma": "",
@@ -6161,28 +6117,10 @@
     {
       "speechId": "act1-scene2-speech-0001",
       "speaker": "MRS. BOYLE",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "consider",
-      "lemma": "consider",
-      "meaning": "【動詞】\n① よく考える、検討する\n② ～とみなす",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense."
-    },
-    {
-      "speechId": "act1-scene2-speech-0001",
-      "speaker": "MRS. BOYLE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "told",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene2-speech-0001",
-      "speaker": "MRS. BOYLE",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "starting",
-      "lemma": "start",
-      "meaning": "【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding."
     },
     {
       "speechId": "act1-scene2-speech-0002",
@@ -7665,15 +7603,6 @@
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
     },
     {
-      "speechId": "act1-scene2-speech-0085",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "follow",
-      "lemma": "follow",
-      "meaning": "【動詞】\n① ～の後について行く、追う\n② ～に続く\n③ ～を理解する",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense."
-    },
-    {
       "speechId": "act1-scene2-speech-0086",
       "speaker": "GILES",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
@@ -7784,15 +7713,6 @@
       "surface": "wish",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene2-speech-0093",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "started",
-      "lemma": "start",
-      "meaning": "【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding."
     },
     {
       "speechId": "act1-scene2-speech-0093",
@@ -10597,15 +10517,6 @@
     {
       "speechId": "act1-scene2-speech-0226",
       "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "following",
-      "lemma": "follow",
-      "meaning": "【動詞】\n① ～の後について行く、追う\n② ～に続く\n③ ～を理解する",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding."
-    },
-    {
-      "speechId": "act1-scene2-speech-0226",
-      "speaker": "TROTTER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "around",
       "lemma": "",
@@ -10740,15 +10651,6 @@
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
     },
     {
-      "speechId": "act1-scene2-speech-0229",
-      "speaker": "MRS. BOYLE",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "consider",
-      "lemma": "consider",
-      "meaning": "【動詞】\n① よく考える、検討する\n② ～とみなす",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense."
-    },
-    {
       "speechId": "act1-scene2-speech-0231",
       "speaker": "MISS CASEWELL",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
@@ -10811,15 +10713,6 @@
       "surface": "time",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene2-speech-0233",
-      "speaker": "MAJOR METCALF",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "stationed",
-      "lemma": "station",
-      "meaning": "【名詞】\n① 駅\n② 配置場所、持ち場\n③ 放送局・施設。\n【動詞】\n人を配置する。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding."
     },
     {
       "speechId": "act1-scene2-speech-0233",
@@ -11052,15 +10945,6 @@
       "surface": "deliciously",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene2-speech-0244",
-      "speaker": "CHRISTOPHER",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "faces",
-      "lemma": "face",
-      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding."
     },
     {
       "speechId": "act1-scene2-speech-0245",
@@ -11405,6 +11289,15 @@
       "surface": "know",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
+    },
+    {
+      "speechId": "act1-scene2-speech-0263",
+      "speaker": "MISS CASEWELL",
+      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
+      "surface": "face",
+      "lemma": "face",
+      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene2-speech-0263",
@@ -11797,6 +11690,15 @@
       "surface": "remember",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
+    },
+    {
+      "speechId": "act1-scene2-speech-0290",
+      "speaker": "MOLLIE",
+      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
+      "surface": "face",
+      "lemma": "face",
+      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene2-speech-0290",
@@ -12525,15 +12427,6 @@
       "surface": "hat",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene2-speech-0324",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "face",
-      "lemma": "face",
-      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense."
     },
     {
       "speechId": "act1-scene2-speech-0324",
@@ -14054,15 +13947,6 @@
       "surface": "say",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0052",
-      "speaker": "PARAVICINI",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "haunting",
-      "lemma": "haunt",
-      "meaning": "【動詞】\n記憶・不安などが長く心につきまとい、苦しめる；場所に幽霊が出る。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0052",
@@ -15897,15 +15781,6 @@
       "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
     },
     {
-      "speechId": "act2-speech-0132",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "face",
-      "lemma": "face",
-      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense."
-    },
-    {
       "speechId": "act2-speech-0134",
       "speaker": "MOLLIE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
@@ -15938,30 +15813,12 @@
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
     },
     {
-      "speechId": "act2-speech-0134",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "show",
-      "lemma": "show",
-      "meaning": "【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense."
-    },
-    {
       "speechId": "act2-speech-0135",
       "speaker": "TROTTER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "often",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0135",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "show",
-      "lemma": "show",
-      "meaning": "【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense."
     },
     {
       "speechId": "act2-speech-0137",
@@ -16058,15 +15915,6 @@
       "surface": "got",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0140",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "face",
-      "lemma": "face",
-      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense."
     },
     {
       "speechId": "act2-speech-0140",
@@ -17975,15 +17823,6 @@
     {
       "speechId": "act2-speech-0243",
       "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "faces",
-      "lemma": "face",
-      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0243",
-      "speaker": "MOLLIE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "longer",
       "lemma": "",
@@ -19208,15 +19047,6 @@
     {
       "speechId": "act2-speech-0318",
       "speaker": "PARAVICINI",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "moved",
-      "lemma": "move",
-      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0318",
-      "speaker": "PARAVICINI",
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
@@ -20389,15 +20219,6 @@
       "surface": "found",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0381",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "face",
-      "lemma": "face",
-      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense."
     },
     {
       "speechId": "act2-speech-0381",
@@ -22362,15 +22183,6 @@
     {
       "speechId": "act2-speech-0517",
       "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "follows",
-      "lemma": "follow",
-      "meaning": "【動詞】\n① ～の後について行く、追う\n② ～に続く\n③ ～を理解する",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0517",
-      "speaker": "TROTTER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "kitchen",
       "lemma": "",
@@ -22979,15 +22791,6 @@
     {
       "speechId": "act2-speech-0558",
       "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "show",
-      "lemma": "show",
-      "meaning": "【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense."
-    },
-    {
-      "speechId": "act2-speech-0558",
-      "speaker": "TROTTER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "Unfortunately",
       "lemma": "",
@@ -23032,15 +22835,6 @@
       "surface": "window",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0558",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "follow",
-      "lemma": "follow",
-      "meaning": "【動詞】\n① ～の後について行く、追う\n② ～に続く\n③ ～を理解する",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense."
     },
     {
       "speechId": "act2-speech-0558",
@@ -24393,15 +24187,6 @@
       "surface": "came",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0618",
-      "speaker": "MAJOR METCALF",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "started",
-      "lemma": "start",
-      "meaning": "【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0618",

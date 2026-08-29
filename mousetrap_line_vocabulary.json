@@ -4352,6 +4352,13 @@
       "lemma": "just",
       "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
       "playMeaning": true
+    },
+    {
+      "surface": "starting",
+      "lemma": "start",
+      "meaning": "【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは「びくっとする」ではなく、「始める／始まる」の意味。"
     }
   ],
   "act1-scene1-speech-0110": [
@@ -4409,6 +4416,13 @@
       "lemma": "kind",
       "meaning": "【形】\n親切な、思いやりのある。",
       "playMeaning": false
+    },
+    {
+      "surface": "consider",
+      "lemma": "consider",
+      "meaning": "【動詞】\n① よく考える、検討する\n② ～とみなす",
+      "playMeaning": true,
+      "inThisPlay": "ここでは「検討する」よりも、ある事柄を「～だと考える／みなす」という意味。"
     }
   ],
   "act1-scene1-speech-0111": [],
@@ -6035,6 +6049,13 @@
       "meaning": "おそらく～だろう、たぶんね。",
       "playMeaning": true,
       "inThisPlay": "『たぶん～だろう』『～と思う』という英国的・やや古風な言い方。"
+    },
+    {
+      "surface": "Show",
+      "lemma": "show",
+      "meaning": "【動】\n① ～を見せる、示す。\n② 性質・状態・感情などが表れる、見える。\n【名】\n見せ物、ショー、上演。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは場所を相手に示し、案内する意味。"
     }
   ],
   "act1-scene1-speech-0157": [
@@ -6965,6 +6986,13 @@
       "lemma": "see",
       "meaning": "【動】見る、見える、気づく。",
       "playMeaning": false
+    },
+    {
+      "surface": "faces",
+      "lemma": "face",
+      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは部屋が北の方を「向いている／北に面している」という動詞。"
     }
   ],
   "act1-scene1-speech-0188": [],
@@ -7298,6 +7326,20 @@
       "lemma": "place",
       "meaning": "【動】置く、配置する。【名】場所。",
       "playMeaning": false
+    },
+    {
+      "surface": "starting",
+      "lemma": "start",
+      "meaning": "【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは宿の営業を「始める」という意味で、驚いてびくっとする意味ではない。"
+    },
+    {
+      "surface": "consider",
+      "lemma": "consider",
+      "meaning": "【動詞】\n① よく考える、検討する\n② ～とみなす",
+      "playMeaning": true,
+      "inThisPlay": "ここでは「検討する」よりも、ある事柄を「～だと考える／みなす」という意味。"
     }
   ],
   "act1-scene2-speech-0002": [
@@ -9217,6 +9259,13 @@
       "lemma": "sergeant",
       "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
       "playMeaning": false
+    },
+    {
+      "surface": "follow",
+      "lemma": "follow",
+      "meaning": "【動】\n① ～の後について行く、追う。\n② ～に続く。\n③ ～を理解する。\n④ 指示・助言・規則などに従う。",
+      "playMeaning": true,
+      "inThisPlay": "follow his instructions で「彼の指示に従う」という意味。"
     }
   ],
   "act1-scene2-speech-0086": [
@@ -9465,6 +9514,13 @@
       "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
       "playMeaning": true,
       "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
+    },
+    {
+      "surface": "started",
+      "lemma": "start",
+      "meaning": "【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。",
+      "playMeaning": true,
+      "inThisPlay": "ここではこのゲストハウスの営業を「始めた」という意味。"
     }
   ],
   "act1-scene2-speech-0094": [
@@ -11974,6 +12030,13 @@
       "lemma": "want",
       "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
       "playMeaning": false
+    },
+    {
+      "surface": "following",
+      "lemma": "follow",
+      "meaning": "【動】\n① ～の後について行く、追う。\n② ～に続く。\n③ ～を理解する。\n④ 指示・助言・規則などに従う。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは人物の後をつけて「尾行する／追跡する」に近い意味。"
     }
   ],
   "act1-scene2-speech-0227": [
@@ -12046,6 +12109,13 @@
       "lemma": "see",
       "meaning": "【動】見る、見える、気づく。",
       "playMeaning": false
+    },
+    {
+      "surface": "consider",
+      "lemma": "consider",
+      "meaning": "【動詞】\n① よく考える、検討する\n② ～とみなす",
+      "playMeaning": true,
+      "inThisPlay": "ここでは「検討する」よりも、ある事柄を「～だと考える／みなす」という意味。"
     }
   ],
   "act1-scene2-speech-0230": [],
@@ -12063,6 +12133,13 @@
       "lemma": "personal",
       "meaning": "【形容詞】\n個人的な",
       "playMeaning": true
+    },
+    {
+      "surface": "stationed",
+      "lemma": "station",
+      "meaning": "【名詞】\n① 駅\n② 配置場所、持ち場\n③ 放送局・施設。\n【動詞】\n人を配置する。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは軍人がEdinburghに「配属・駐屯していた」という動詞の意味。"
     }
   ],
   "act1-scene2-speech-0234": [],
@@ -12311,6 +12388,13 @@
       "lemma": "see",
       "meaning": "【動】見る、見える、気づく。",
       "playMeaning": false
+    },
+    {
+      "surface": "faces",
+      "lemma": "face",
+      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは動詞ではなく、人の「顔」を表す名詞。"
     }
   ],
   "act1-scene2-speech-0245": [
@@ -13430,6 +13514,13 @@
       "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
       "playMeaning": true,
       "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
+    },
+    {
+      "surface": "face",
+      "lemma": "face",
+      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは動詞ではなく、人の「顔」を表す名詞。"
     }
   ],
   "act1-scene2-speech-0325": [],
@@ -14461,6 +14552,13 @@
       "lemma": "tune",
       "meaning": "【名詞】\n旋律、曲",
       "playMeaning": true
+    },
+    {
+      "surface": "haunting",
+      "lemma": "haunt",
+      "meaning": "【動詞】\n記憶・不安などが長く心につきまとい、苦しめる；場所に幽霊が出る。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは幽霊が出るという意味ではなく、旋律が忘れにくく心に残る、という形容詞的な用法。"
     }
   ],
   "act2-speech-0053": [
@@ -16490,6 +16588,13 @@
       "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
       "playMeaning": true,
       "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
+    },
+    {
+      "surface": "face",
+      "lemma": "face",
+      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは動詞ではなく、人の「顔」を表す名詞。"
     }
   ],
   "act2-speech-0133": [
@@ -16538,9 +16643,24 @@
       "lemma": "perfectly",
       "meaning": "【副詞】\n① 完全に、まったく\n② 非常にという強調にも使う",
       "playMeaning": false
+    },
+    {
+      "surface": "show",
+      "lemma": "show",
+      "meaning": "【動】\n① ～を見せる、示す。\n② 性質・状態・感情などが表れる、見える。\n【名】\n見せ物、ショー、上演。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは「見せる」ではなく、異常や性質が外見に「表れる／見て分かる」という意味。"
     }
   ],
-  "act2-speech-0135": [],
+  "act2-speech-0135": [
+    {
+      "surface": "show",
+      "lemma": "show",
+      "meaning": "【動】\n① ～を見せる、示す。\n② 性質・状態・感情などが表れる、見える。\n【名】\n見せ物、ショー、上演。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは「見せる」ではなく、異常や性質が外見に「表れる／見て分かる」という意味。"
+    }
+  ],
   "act2-speech-0136": [
     {
       "surface": "suspect",
@@ -16662,6 +16782,13 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "face",
+      "lemma": "face",
+      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは動詞ではなく、人の「顔」を表す名詞。"
     }
   ],
   "act2-speech-0141": [
@@ -18270,7 +18397,7 @@
     {
       "surface": "showing the paper",
       "lemma": "show",
-      "meaning": "【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。",
+      "meaning": "【動】\n① ～を見せる、示す。\n② 性質・状態・感情などが表れる、見える。\n【名】\n見せ物、ショー、上演。",
       "playMeaning": true,
       "inThisPlay": "Mollieが新聞を相手に見えるよう提示しながら話す。"
     },
@@ -18590,6 +18717,13 @@
       "lemma": "look",
       "meaning": "【動】見る、目を向ける。",
       "playMeaning": false
+    },
+    {
+      "surface": "faces",
+      "lemma": "face",
+      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは動詞ではなく、人の「顔」を表す名詞。"
     }
   ],
   "act2-speech-0244": [
@@ -19637,7 +19771,7 @@
     {
       "surface": "following her",
       "lemma": "follow",
-      "meaning": "【動詞】\n① ～の後について行く、追う\n② ～に続く\n③ ～を理解する",
+      "meaning": "【動】\n① ～の後について行く、追う。\n② ～に続く。\n③ ～を理解する。\n④ 指示・助言・規則などに従う。",
       "playMeaning": true,
       "inThisPlay": "Gilesが離れていくMollieの後を追って移動する。"
     }
@@ -20024,6 +20158,13 @@
       "lemma": "want",
       "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。",
       "playMeaning": false
+    },
+    {
+      "surface": "moved",
+      "lemma": "move",
+      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは物の位置を変える、別の場所へ移動させる意味。"
     }
   ],
   "act2-speech-0319": [
@@ -21669,6 +21810,13 @@
       "lemma": "see",
       "meaning": "【動】見る、見える、気づく。",
       "playMeaning": false
+    },
+    {
+      "surface": "face",
+      "lemma": "face",
+      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは動詞ではなく、人の「顔」を表す名詞。"
     }
   ],
   "act2-speech-0382": [
@@ -23509,6 +23657,13 @@
       "lemma": "take",
       "meaning": "【動】取る、手に取る、持っていく。",
       "playMeaning": false
+    },
+    {
+      "surface": "as follows",
+      "lemma": "as follows",
+      "meaning": "【定型表現】\n次のとおり、以下のとおり。",
+      "playMeaning": true,
+      "inThisPlay": "発言内容を列挙する前の定型表現で「次のとおり」の意味。"
     }
   ],
   "act2-speech-0518": [],
@@ -24362,6 +24517,20 @@
       "meaning": "【動詞】\n① 正しいか・事実かを確認する、照合する\n② 進行・増加・発言などを止める、抑える\n【名詞】\n① 確認、点検\n② 抑制、阻止",
       "playMeaning": true,
       "inThisPlay": "ここでは「チェック印を付ける」ではなく、話の真偽を照合・確認する意味。"
+    },
+    {
+      "surface": "show",
+      "lemma": "show",
+      "meaning": "【動】\n① ～を見せる、示す。\n② 性質・状態・感情などが表れる、見える。\n【名】\n見せ物、ショー、上演。",
+      "playMeaning": true,
+      "inThisPlay": "show you the way で「道を示す／案内する」という意味。"
+    },
+    {
+      "surface": "follow",
+      "lemma": "follow",
+      "meaning": "【動】\n① ～の後について行く、追う。\n② ～に続く。\n③ ～を理解する。\n④ 指示・助言・規則などに従う。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは電話線に沿ってたどる、という意味。"
     }
   ],
   "act2-speech-0559": [],
@@ -25583,6 +25752,13 @@
       "lemma": "remove",
       "meaning": "【動】取り除く、脱ぐ、移動させる。",
       "playMeaning": false
+    },
+    {
+      "surface": "started",
+      "lemma": "start",
+      "meaning": "【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは雪が「解け始めた」という意味で、びくっとする意味ではない。"
     }
   ],
   "act2-speech-0619": [],

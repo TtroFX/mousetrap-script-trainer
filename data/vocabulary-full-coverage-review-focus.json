@@ -2,261 +2,31 @@
   "schemaVersion": 1,
   "status": "REVIEW_FOCUS_BUILT",
   "counts": {
-    "polysemyOccurrences": 25,
-    "polysemyLemmas": 8,
+    "polysemyOccurrences": 2,
+    "polysemyLemmas": 1,
     "unknownTokenTypes": 801,
     "suspiciousTokenTypes": 119
   },
   "polysemy": [
     {
-      "speechId": "act1-scene1-speech-0109",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "starting",
-      "lemma": "start",
-      "meaning": "【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
-      "text": "We're only just starting."
-    },
-    {
-      "speechId": "act1-scene1-speech-0110",
-      "speaker": "MRS. BOYLE",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "consider",
-      "lemma": "consider",
-      "meaning": "【動詞】\n① よく考える、検討する\n② ～とみなす",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
-      "text": "I would have said that a proper staff of servants was essential before opening this kind of establishment. I consider your advertisement was most misleading. May I ask if I am the only guest ― with Major Metcalf, that is?"
-    },
-    {
-      "speechId": "act1-scene1-speech-0156",
-      "speaker": "CHRISTOPHER",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "Show",
-      "lemma": "show",
-      "meaning": "【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
-      "text": "And if you've got a bottle of cheap, any-type wine, you could add it to the ―\"minced beef and cereals,\" did you say? Give it a continental flavour. Show me where the kitchen is and what you've got, and I daresay I shall have an inspiration."
-    },
-    {
-      "speechId": "act1-scene1-speech-0187",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "faces",
-      "lemma": "face",
-      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
-      "text": "You'd better get thoroughly warm. I'll see about your room. I'm afraid it's rather a cold room because it faces north, but all the others are occupied."
-    },
-    {
-      "speechId": "act1-scene2-speech-0001",
-      "speaker": "MRS. BOYLE",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "consider",
-      "lemma": "consider",
-      "meaning": "【動詞】\n① よく考える、検討する\n② ～とみなす",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
-      "text": "I consider it most dishonest not to have told me they were only just starting this place."
-    },
-    {
-      "speechId": "act1-scene2-speech-0001",
-      "speaker": "MRS. BOYLE",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "starting",
-      "lemma": "start",
-      "meaning": "【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
-      "text": "I consider it most dishonest not to have told me they were only just starting this place."
-    },
-    {
-      "speechId": "act1-scene2-speech-0085",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "follow",
-      "lemma": "follow",
-      "meaning": "【動詞】\n① ～の後について行く、追う\n② ～に続く\n③ ～を理解する",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
-      "text": "That's what I asked. But he wouldn't say. Just said I was to impress on my husband to listen very carefully to what Sergeant Trotter, I think it was, had to say, and to follow his instructions implicitly. Isn't it extraordinary?"
-    },
-    {
-      "speechId": "act1-scene2-speech-0093",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "started",
-      "lemma": "start",
-      "meaning": "【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
-      "text": "Oh dear, I wish we'd never started this place. We're going to be snowed up for days, and everyone is cross, and we shall go through all our reserve of tins."
-    },
-    {
-      "speechId": "act1-scene2-speech-0226",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "following",
-      "lemma": "follow",
-      "meaning": "【動詞】\n① ～の後について行く、追う\n② ～に続く\n③ ～を理解する",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
-      "text": "I see. What I'm getting at is that anyone who's been following you around might know very well that you were coming here. Now, there's just one thing I want to know, and I want to know it quick. Which one of you is it that has some connection with that business at Longridge Farm? You're not being very sensible, you know. One of you is in danger ― deadly danger. I've got to know which one that is. All right, I'll ask you one by one. You, first, since you seem to have arrived here more or less by accident, Mr. Pari ―?"
-    },
-    {
-      "speechId": "act1-scene2-speech-0229",
-      "speaker": "MRS. BOYLE",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "consider",
-      "lemma": "consider",
-      "meaning": "【動詞】\n① よく考える、検討する\n② ～とみなす",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
-      "text": "Boyle. I don't see ― really I consider it an impertinence...Why on earth should I have anything to do with such ― this distressing business?"
-    },
-    {
-      "speechId": "act1-scene2-speech-0233",
-      "speaker": "MAJOR METCALF",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "stationed",
-      "lemma": "station",
-      "meaning": "【名詞】\n① 駅\n② 配置場所、持ち場\n③ 放送局・施設。\n【動詞】\n人を配置する。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
-      "text": "Metcalf ― Major. Read about the case in the papers at the time. I was stationed at Edinburgh then. No personal knowledge."
-    },
-    {
-      "speechId": "act1-scene2-speech-0244",
-      "speaker": "CHRISTOPHER",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "faces",
-      "lemma": "face",
-      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
-      "text": "Oh, but it is! That's just what it is. A madman's joke. That's just what makes it so deliciously macabre. If you could just see your faces!"
-    },
-    {
-      "speechId": "act1-scene2-speech-0324",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
+      "speechId": "act1-scene2-speech-0263",
+      "speaker": "MISS CASEWELL",
+      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
       "surface": "face",
       "lemma": "face",
       "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
-      "text": "Medium height, indeterminate build, darkish overcoat, soft felt hat, face hidden by a muffler. Spoke in a whisper. There are three darkish overcoats hanging up in the hall now. One of them is yours, Mr. Ralston...There are three lightish felt hats..."
+      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding.",
+      "text": "Looks a bit of a spiv to me. Makes his face up, too. Rouge and powder. Disgusting. He must be quite old, too."
     },
     {
-      "speechId": "act2-speech-0052",
-      "speaker": "PARAVICINI",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "haunting",
-      "lemma": "haunt",
-      "meaning": "【動詞】\n記憶・不安などが長く心につきまとい、苦しめる；場所に幽霊が出る。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
-      "text": "Yes. It is a very catchy little tune. It is ― how shall I say?― a haunting little tune? Don't you all agree?"
-    },
-    {
-      "speechId": "act2-speech-0132",
+      "speechId": "act1-scene2-speech-0290",
       "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
+      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
       "surface": "face",
       "lemma": "face",
       "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
-      "text": "So the murderer may be middle-aged, or even old. When I said the police had rung up, Major Metcalf was frightfully upset. He really was. I saw his face."
-    },
-    {
-      "speechId": "act2-speech-0134",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "show",
-      "lemma": "show",
-      "meaning": "【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
-      "text": "Middle-aged. A soldier. He seems quite nice and perfectly normal ― but it mightn't show, might it?"
-    },
-    {
-      "speechId": "act2-speech-0135",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "show",
-      "lemma": "show",
-      "meaning": "【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
-      "text": "No, often it doesn't show at all."
-    },
-    {
-      "speechId": "act2-speech-0140",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "face",
-      "lemma": "face",
-      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
-      "text": "I know he seems quite old ― and foreign and everything, but he mightn't really be as old as he looks. He moves like a much younger man, and he's definitely got makeup on his face. Miss Casewell noticed it, too. He might be ― oh, I know it sounds very melodramatic ― but he might be disguised."
-    },
-    {
-      "speechId": "act2-speech-0243",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "faces",
-      "lemma": "face",
-      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
-      "text": "I don't know what the Sergeant thinks. And he can make you think things about people. You ask yourself questions and you begin to doubt. You feel that somebody you love and know well might be ― a stranger. That's what happens in a nightmare. You're somewhere in the middle of friends and then you suddenly look at their faces and they're not your friends any longer ― they're different people ― just pretending. Perhaps you can't trust anybody ― perhaps everybody's a stranger."
-    },
-    {
-      "speechId": "act2-speech-0318",
-      "speaker": "PARAVICINI",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "moved",
-      "lemma": "move",
-      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
-      "text": "He wants to know if you have by any chance moved them, Mr. Ralston."
-    },
-    {
-      "speechId": "act2-speech-0381",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "face",
-      "lemma": "face",
-      "meaning": "【動詞】\n① ～の方を向く、～に面する\n② 問題・困難に直面する。\n【名詞】\n顔、表面。",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
-      "text": "It's silly of me. But you see ― I found her. Her face was all purple. I can't forget it..."
-    },
-    {
-      "speechId": "act2-speech-0517",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "follows",
-      "lemma": "follow",
-      "meaning": "【動詞】\n① ～の後について行く、追う\n② ～に続く\n③ ～を理解する",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
-      "text": "Sit down, Miss Casewell, Mrs. Ralston... Will you all pay attention, please? You may remember that after the murder of Mrs. Boyle, I took statements from you all. Those statements related to your positions at the time the murder was committed. These statements were as follows: Mrs. Ralston in the kitchen, Mr. Paravicini playing the piano in the drawing room, Mr. Ralston in his bedroom. Mr. Wren ditto. Miss Casewell in the library. Major Metcalf in the cellar."
-    },
-    {
-      "speechId": "act2-speech-0558",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "show",
-      "lemma": "show",
-      "meaning": "【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
-      "text": "There is a point. It is a means of checking up on the original statements, and maybe one statement in particular. Now then, will you all pay attention, please. I will assign each of you your new stations. Mr. Wren, will you kindly go to the kitchen. Just keep an eye on Mrs. Ralston's dinner for her. You're very fond of cooking, I believe. Mr. Paravicini, will you go up to Mr. Wren's room. By the back stairs is the most convenient way. Major Metcalf, will you go up to Mr. Ralston's room and examine the telephone there. Miss Casewell, would you mind going down to the cellars? Mr. Wren will show you the way. Unfortunately, I need someone to reproduce my own actions. I am sorry to ask it of you, Mr. Ralston, but would you go out by that window and follow the telephone wire round to near the front door. Rather a chilly job ― but you're probably the toughest person here."
-    },
-    {
-      "speechId": "act2-speech-0558",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "follow",
-      "lemma": "follow",
-      "meaning": "【動詞】\n① ～の後について行く、追う\n② ～に続く\n③ ～を理解する",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense.",
-      "text": "There is a point. It is a means of checking up on the original statements, and maybe one statement in particular. Now then, will you all pay attention, please. I will assign each of you your new stations. Mr. Wren, will you kindly go to the kitchen. Just keep an eye on Mrs. Ralston's dinner for her. You're very fond of cooking, I believe. Mr. Paravicini, will you go up to Mr. Wren's room. By the back stairs is the most convenient way. Major Metcalf, will you go up to Mr. Ralston's room and examine the telephone there. Miss Casewell, would you mind going down to the cellars? Mr. Wren will show you the way. Unfortunately, I need someone to reproduce my own actions. I am sorry to ask it of you, Mr. Ralston, but would you go out by that window and follow the telephone wire round to near the front door. Rather a chilly job ― but you're probably the toughest person here."
-    },
-    {
-      "speechId": "act2-speech-0618",
-      "speaker": "MAJOR METCALF",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "started",
-      "lemma": "start",
-      "meaning": "【動詞】\n① 始める、始まる\n② 驚きなどでびくっとする、はっとする。\n【名詞】\n開始、出発。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding.",
-      "text": "Yes, it seems she recognized him just before this last business. Didn't know what to do, but fortunately came to me about it, just in time. Well, it's started to thaw, help should be here pretty soon. Oh, by the way, Mrs. Ralston, I'll remove those skis. I hid them on top of the fourposter."
+      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding.",
+      "text": "Is that really the right way? I wonder. Perhaps that's all wrong. Perhaps one ought really to face them."
     }
   ],
   "suspiciousUnknowns": [

@@ -12355,12 +12355,12 @@
     "lemma": "show",
     "ipa": "/ʃəʊ/",
     "pos": "動詞・名詞",
-    "meaning": "【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。",
+    "meaning": "【動】\n① ～を見せる、示す。\n② 性質・状態・感情などが表れる、見える。\n【名】\n見せ物、ショー、上演。",
     "forms": "show · showed · shown/showed",
     "tags": [
       "polysemy"
     ],
-    "coreMeaning": "【動詞】\n～を見せる、示す。\n【名詞】\n見せ物、ショー、上演。"
+    "coreMeaning": "【動】\n① ～を見せる、示す。\n② 性質・状態・感情などが表れる、見える。\n【名】\n見せ物、ショー、上演。"
   },
   "evening paper": {
     "lemma": "evening paper",
@@ -12528,13 +12528,13 @@
     "lemma": "follow",
     "ipa": "/ˈfɒləʊ/",
     "pos": "動詞",
-    "meaning": "【動詞】\n① ～の後について行く、追う\n② ～に続く\n③ ～を理解する",
+    "meaning": "【動】\n① ～の後について行く、追う。\n② ～に続く。\n③ ～を理解する。\n④ 指示・助言・規則などに従う。",
     "forms": "follow · followed · followed",
     "tags": [
       "polysemy",
       "movement"
     ],
-    "coreMeaning": "【動詞】\n① ～の後について行く、追う\n② ～に続く\n③ ～を理解する"
+    "coreMeaning": "【動】\n① ～の後について行く、追う。\n② ～に続く。\n③ ～を理解する。\n④ 指示・助言・規則などに従う。"
   },
   "dreamy": {
     "lemma": "dreamy",
@@ -14600,5 +14600,16 @@
       "chunk"
     ],
     "meaning": "【句動】途中でやめる、中断する。"
+  },
+  "as follows": {
+    "lemma": "as follows",
+    "ipa": "/əz ˈfɒləʊz/",
+    "pos": "定型表現",
+    "coreMeaning": "【定型表現】\n次のとおり、以下のとおり。",
+    "forms": "定型表現として用いる。",
+    "tags": [
+      "chunk"
+    ],
+    "meaning": "【定型表現】\n次のとおり、以下のとおり。"
   }
 }

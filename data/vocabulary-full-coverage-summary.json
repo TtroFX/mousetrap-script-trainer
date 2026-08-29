@@ -3,33 +3,25 @@
   "status": "AUDIT_COMPLETE",
   "counts": {
     "canonicalSpeeches": 1164,
-    "vocabularyItems": 3823,
-    "dictionaryEntries": 1375,
+    "vocabularyItems": 3848,
+    "dictionaryEntries": 1376,
     "tokenCount": 15934,
     "functionTokenCount": 10024,
     "knownNameTokenCount": 266,
     "properDeferredCount": 274,
-    "reviewCandidates": 2930,
+    "reviewCandidates": 2907,
     "unknownTokenTypes": 801,
-    "polysemyLemmaTypes": 8,
+    "polysemyLemmaTypes": 1,
     "properNounDeferredTypes": 51,
     "byKind": {
       "DEFER_PROPER_NOUN_PHASE3": 245,
       "REVIEW_NEW_LEXEME_OR_EXCLUSION": 2660,
-      "REVIEW_POLYSEMY_EXACT_DICTIONARY": 13,
-      "REVIEW_POLYSEMY_MORPHOLOGY": 12
+      "REVIEW_POLYSEMY_EXISTING_SURFACE": 2
     }
   },
   "compact": {
     "polysemyLemmas": [
-      "consider",
-      "face",
-      "follow",
-      "haunt",
-      "move",
-      "show",
-      "start",
-      "station"
+      "face"
     ],
     "properNounTypes": [
       "army",
