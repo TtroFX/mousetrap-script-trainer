@@ -1,0 +1,501 @@
+===== FAILURE SUMMARY =====
+  1) tests/gesture_english.e2e.spec.js:9:1 › line focus swipes between speeches, resets scroll, and highlights the selected role 
+    Error: expect(page).toHaveURL(expected) failed
+    Timeout: 5000ms
+        14 × locator resolved to <html lang="en">…</html>
+  2) tests/index_zero.e2e.spec.js:35:1 › Search opens Line Detail and study/structure load on demand 
+    Error: expect(received).toBeLessThanOrEqual(expected)
+    Expected: <= 7
+    Received:    8
+  2 failed
+===== ERROR CONTEXTS =====
+test-results/index_zero.e2e-Search-open-7a9ea-dy-structure-load-on-demand/error-context.md
+---
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: index_zero.e2e.spec.js >> Search opens Line Detail and study/structure load on demand
+- Location: tests/index_zero.e2e.spec.js:35:1
+
+# Error details
+
+```
+Error: expect(received).toBeLessThanOrEqual(expected)
+
+Expected: <= 7
+Received:    8
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - main [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - generic [ref=e6]: Script to Stage
+          - generic [ref=e7]: The Mousetrap Trainer
+        - button "Role" [ref=e8] [cursor=pointer]
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]: Reading marker
+            - button "Set reading marker here" [ref=e13] [cursor=pointer]
+            - generic [ref=e15]: Bookmark
+            - button "Add bookmark" [ref=e16] [cursor=pointer]: ☆
+          - generic [ref=e17]: MOLLIE
+          - paragraph [ref=e18]:
+            - button "Mrs. Barlow" [ref=e19] [cursor=pointer]
+            - text: "!"
+            - button "Mrs. Barlow" [ref=e20] [cursor=pointer]
+            - text: "! Brr! It's cold. It really does look nice ― oh! How stupid of Giles."
+            - button "Gosh" [ref=e21] [cursor=pointer]
+            - text: "!"
+          - text: Act I · Scene I
+        - generic [ref=e22]:
+          - region "Situation details" [ref=e23]:
+            - generic [ref=e24]: Situation
+            - generic [ref=e25]:
+              - generic [ref=e26]:
+                - generic [ref=e27]: Before line
+                - generic [ref=e28]: PDF p.3
+              - paragraph [ref=e29]: MOLLIE RALSTON enters through the arch up Right. She is a tall, pretty young woman with an ingenuous air, in her twenties. She puts down her handbag and gloves on the armchair Centre, then crosses to the radio and switches it off during the next speech. She places a small parcel in the desk cupboard.
+              - paragraph [ref=e30]: MOLLIEの登場位置と、その直後の舞台上の動作を指定するト書き。
+              - group [ref=e31]:
+                - generic "Vocabulary & notes" [ref=e32] [cursor=pointer]
+            - generic [ref=e33]:
+              - generic [ref=e34]:
+                - generic [ref=e35]: Delivery
+                - generic [ref=e36]: PDF p.3
+              - paragraph [ref=e37]: calling
+              - paragraph [ref=e38]: 呼びかけながら。
+              - group [ref=e39]:
+                - generic "Vocabulary & notes" [ref=e40] [cursor=pointer]
+            - generic [ref=e41]:
+              - generic [ref=e42]:
+                - generic [ref=e43]: Delivery
+                - generic [ref=e44]: PDF p.3
+              - paragraph [ref=e45]: Receiving no reply, she crosses to the armchair Centre, picks up her handbag and one glove, and then goes out through the arch up Right. She removes her overcoat and then returns.
+              - paragraph [ref=e46]: 退場・移動の方向と、その前後の動作を指定するト書き。
+              - group [ref=e47]:
+                - generic "Vocabulary & notes" [ref=e48] [cursor=pointer]
+            - generic [ref=e49]:
+              - generic [ref=e50]:
+                - generic [ref=e51]: After line
+                - generic [ref=e52]: PDF p.4
+              - paragraph [ref=e53]: She notices that there is no "S" on the sign.
+              - paragraph [ref=e54]: 視線・注目先・反応を指定するト書き。
+              - group [ref=e55]:
+                - generic "Vocabulary & notes" [ref=e56] [cursor=pointer]
+            - generic [ref=e57]:
+              - generic [ref=e58]:
+                - generic [ref=e59]: After line
+                - generic [ref=e60]: PDF p.4
+              - paragraph [ref=e61]: She looks at her watch then at the clock.
+              - paragraph [ref=e62]: 視線・注目先・反応を指定するト書き。
+              - group [ref=e63]:
+                - generic "Vocabulary & notes" [ref=e64] [cursor=pointer]
+          - generic [ref=e65]: Translation
+          - paragraph [ref=e66]: バーロウさん！ バーロウさん！ うう、寒い。本当にいい感じになったわ――あっ！ ジャイルズったら、なんて間抜けなの。まあ！
+          - generic [ref=e67]:
+            - generic [ref=e68]: Interpretation
+            - paragraph [ref=e70]: 寒い屋外から戻って屋敷の様子を見たあと、ジャイルズのミスに気づいて反応している。何のミスかは後の看板の綴りのやり取りで明らかになる。
+        - generic [ref=e71]:
+          - heading "Vocabulary" [level=3] [ref=e72]
+          - button "Gosh · 【間投詞】 ① まあ ② うわあ gosh" [ref=e73] [cursor=pointer]:
+            - text: Gosh · 【間投詞】 ① まあ ② うわあ
+            - generic [ref=e74]: gosh
+          - button "Mrs. Barlow · 【固有名詞】Mrs Barlowという人名・呼称。 Mrs Barlow" [ref=e75] [cursor=pointer]:
+            - text: Mrs. Barlow · 【固有名詞】Mrs Barlowという人名・呼称。
+            - generic [ref=e76]: Mrs Barlow
+          - button "calling · 【動】call の -ing 形。呼びかけること、声をかけること。 calling" [ref=e77] [cursor=pointer]:
+            - text: calling · 【動】call の -ing 形。呼びかけること、声をかけること。
+            - generic [ref=e78]: calling
+          - button "up Right · 【舞台】舞台奥の右側（俳優から見た右）。 upstage right" [ref=e79] [cursor=pointer]:
+            - text: up Right · 【舞台】舞台奥の右側（俳優から見た右）。
+            - generic [ref=e80]: upstage right
+          - button "Centre · 【舞台用語】 舞台中央、または舞台中央へ。 centre stage" [ref=e81] [cursor=pointer]:
+            - text: Centre · 【舞台用語】 舞台中央、または舞台中央へ。
+            - generic [ref=e82]: centre stage
+          - button "crosses · 【形】 不機嫌な、怒った。 【動】 ① 横切る、渡る ② 交差する。 【名】 十字形、十字架。 cross" [ref=e83] [cursor=pointer]:
+            - text: crosses · 【形】 不機嫌な、怒った。 【動】 ① 横切る、渡る ② 交差する。 【名】 十字形、十字架。
+            - generic [ref=e84]: cross
+          - button "returns · 【動詞】 戻る、返す。 【名詞】 戻ること。 return" [ref=e85] [cursor=pointer]:
+            - text: returns · 【動詞】 戻る、返す。 【名詞】 戻ること。
+            - generic [ref=e86]: return
+          - button "removes · 【動】取り除く、脱ぐ、移動させる。 remove" [ref=e87] [cursor=pointer]:
+            - text: removes · 【動】取り除く、脱ぐ、移動させる。
+            - generic [ref=e88]: remove
+          - button "picks up · 拾う／手に取る pick up" [ref=e89] [cursor=pointer]:
+            - text: picks up · 拾う／手に取る
+            - generic [ref=e90]: pick up
+          - button "down Right · 【舞台】舞台前方の右側（俳優から見た右）。 downstage right" [ref=e91] [cursor=pointer]:
+            - text: down Right · 【舞台】舞台前方の右側（俳優から見た右）。
+            - generic [ref=e92]: downstage right
+          - button "fireplace · 【名】暖炉。 fireplace" [ref=e93] [cursor=pointer]:
+            - text: fireplace · 【名】暖炉。
+            - generic [ref=e94]: fireplace
+          - button "radiator · 【名詞】 暖房用ラジエーター radiator" [ref=e95] [cursor=pointer]:
+            - text: radiator · 【名詞】 暖房用ラジエーター
+            - generic [ref=e96]: radiator
+          - button "wall brackets · 壁に取り付ける支持具、または壁付けの照明器具。 wall bracket" [ref=e97] [cursor=pointer]:
+            - text: wall brackets · 壁に取り付ける支持具、または壁付けの照明器具。
+            - generic [ref=e98]: wall bracket
+          - button "wall switch · 【名】壁面スイッチ。 wall switch" [ref=e99] [cursor=pointer]:
+            - text: wall switch · 【名】壁面スイッチ。
+            - generic [ref=e100]: wall switch
+          - button "table lamp · 【名】卓上ランプ。 table lamp" [ref=e101] [cursor=pointer]:
+            - text: table lamp · 【名】卓上ランプ。
+            - generic [ref=e102]: table lamp
+          - button "signboard · 【名】看板、掲示板。 signboard" [ref=e103] [cursor=pointer]:
+            - text: signboard · 【名】看板、掲示板。
+            - generic [ref=e104]: signboard
+          - button "window alcove · 【名】窓際のくぼんだ空間、窓のアルコーブ。 window alcove" [ref=e105] [cursor=pointer]:
+            - text: window alcove · 【名】窓際のくぼんだ空間、窓のアルコーブ。
+            - generic [ref=e106]: window alcove
+          - button "moves · 【動詞】 動く、移動する、動かす。 【名詞】 動き、移動、行動。 move" [ref=e107] [cursor=pointer]:
+            - text: moves · 【動詞】 動く、移動する、動かす。 【名詞】 動き、移動、行動。
+            - generic [ref=e108]: move
+          - button "switches on · 【句動】スイッチを入れる、電源を入れる。 switch on" [ref=e109] [cursor=pointer]:
+            - text: switches on · 【句動】スイッチを入れる、電源を入れる。
+            - generic [ref=e110]: switch on
+          - button "draws the curtains · 【動詞句】カーテンを引いて閉める。 draw the curtains" [ref=e111] [cursor=pointer]:
+            - text: draws the curtains · 【動詞句】カーテンを引いて閉める。
+            - generic [ref=e112]: draw the curtains
+          - button "nodding her head · 【動詞句】うなずく、頭を縦に振る。 nod one’s head" [ref=e113] [cursor=pointer]:
+            - text: nodding her head · 【動詞句】うなずく、頭を縦に振る。
+            - generic [ref=e114]: nod one’s head
+          - button "looks round · 見て回る／調べて回る look round" [ref=e115] [cursor=pointer]:
+            - text: looks round · 見て回る／調べて回る
+            - generic [ref=e116]: look round
+          - button "places · 【動】置く、配置する。【名】場所。 place" [ref=e117] [cursor=pointer]:
+            - text: places · 【動】置く、配置する。【名】場所。
+            - generic [ref=e118]: place
+          - button "notices · 【動】気づく、注目する。 notice" [ref=e119] [cursor=pointer]:
+            - text: notices · 【動】気づく、注目する。
+            - generic [ref=e120]: notice
+          - button "looks · 【動】見る、目を向ける。 look" [ref=e121] [cursor=pointer]:
+            - text: looks · 【動】見る、目を向ける。
+            - generic [ref=e122]: look
+          - button "goes to · 【動詞句】～へ行く。 go to" [ref=e123] [cursor=pointer]:
+            - text: goes to · 【動詞句】～へ行く。
+            - generic [ref=e124]: go to
+          - button "front door · 【名】玄関の正面扉。 front door" [ref=e125] [cursor=pointer]:
+            - text: front door · 【名】玄関の正面扉。
+            - generic [ref=e126]: front door
+          - button "oak chest · 【名】オーク材の大型収納箱、木製チェスト。 oak chest" [ref=e127] [cursor=pointer]:
+            - text: oak chest · 【名】オーク材の大型収納箱、木製チェスト。
+            - generic [ref=e128]: oak chest
+          - button "enters · 【動詞】 中へ入る、参加する。舞台では登場する。 enter" [ref=e129] [cursor=pointer]:
+            - text: enters · 【動詞】 中へ入る、参加する。舞台では登場する。
+            - generic [ref=e130]: enter
+          - button "hurries off · 【動詞】 急ぐ、急いで行う。 【名詞】 また、急いでいる状態。 hurry" [ref=e131] [cursor=pointer]:
+            - text: hurries off · 【動詞】 急ぐ、急いで行う。 【名詞】 また、急いでいる状態。
+            - generic [ref=e132]: hurry
+          - button "stamps his feet · 【動詞句】足を踏み鳴らす。 stamp one’s feet" [ref=e133] [cursor=pointer]:
+            - text: stamps his feet · 【動詞句】足を踏み鳴らす。
+            - generic [ref=e134]: stamp one’s feet
+          - button "warms his hands · 【動詞句】手を温める。 warm one’s hands" [ref=e135] [cursor=pointer]:
+            - text: warms his hands · 【動詞句】手を温める。
+            - generic [ref=e136]: warm one’s hands
+          - button "throws · 【動】投げる、放る。 throw" [ref=e137] [cursor=pointer]:
+            - text: throws · 【動】投げる、放る。
+            - generic [ref=e138]: throw
+          - button "carrying · 【動】運ぶ、持って行く。 carry" [ref=e139] [cursor=pointer]:
+            - text: carrying · 【動】運ぶ、持って行く。
+            - generic [ref=e140]: carry
+          - button "off · 【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。 offstage" [ref=e141] [cursor=pointer]:
+            - text: off · 【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。
+            - generic [ref=e142]: offstage
+          - button "takes off · 【句動】衣服などを脱ぐ；離陸する。 take off" [ref=e143] [cursor=pointer]:
+            - text: takes off · 【句動】衣服などを脱ぐ；離陸する。
+            - generic [ref=e144]: take off
+          - button "takes · 【動】取る、手に取る、持っていく。 take" [ref=e145] [cursor=pointer]:
+            - text: takes · 【動】取る、手に取る、持っていく。
+            - generic [ref=e146]: take
+          - button "hands · 【動】手渡す。【名】手。 hand" [ref=e147] [cursor=pointer]:
+            - text: hands · 【動】手渡す。【名】手。
+            - generic [ref=e148]: hand
+        - group [ref=e150]:
+          - generic "Structure Clause hierarchy · S / V / O / C · connectors ⌄" [ref=e151] [cursor=pointer]:
+            - generic [ref=e152]: Structure
+            - generic [ref=e153]: Clause hierarchy · S / V / O / C · connectors
+            - text: ⌄
+        - generic [ref=e155]:
+          - button "Cue Practice" [ref=e156] [cursor=pointer]
+          - button "Rehearsal" [ref=e157] [cursor=pointer]
+        - generic [ref=e158]:
+          - button "‹" [ref=e159] [cursor=pointer]
+          - button "×" [ref=e160] [cursor=pointer]
+          - button "›" [ref=e161] [cursor=pointer]
+    - navigation [ref=e162]:
+      - button "Home" [ref=e163] [cursor=pointer]
+      - button "Script" [ref=e164] [cursor=pointer]
+      - button "Practice" [ref=e165] [cursor=pointer]
+      - button "Progress" [ref=e166] [cursor=pointer]
+      - button "More" [ref=e167] [cursor=pointer]
+  - status
+```
+
+# Test source
+
+```ts
+  1   | const {test,expect}=require('@playwright/test');
+  2   | const BASE='http://127.0.0.1:4173/index.html';
+  3   | async function ready(page){await page.goto(BASE,{waitUntil:'domcontentloaded'});await expect(page.getByRole('heading',{name:'Learn Your Lines'})).toBeVisible();await page.waitForFunction(()=>window.MTS_INDEX_ZERO?.store?.hasCore?.(),null,{timeout:12000})}
+  4   | 
+  5   | test('new index boots immediately with no legacy runtime or iframe',async({page})=>{
+  6   |   await page.goto(BASE,{waitUntil:'domcontentloaded'});
+  7   |   await expect(page.getByRole('heading',{name:'Learn Your Lines'})).toBeVisible();
+  8   |   expect(await page.locator('iframe').count()).toBe(0);
+  9   |   expect(await page.evaluate(()=>({old:typeof MTS_PRIVATE_DATA,shared:Object.keys(window).filter(k=>k.startsWith('MTS_SHARED_')).length}))).toEqual({old:'undefined',shared:0});
+  10  | });
+  11  | 
+  12  | test('core has exactly 1164 speeches and Home navigation remains usable',async({page})=>{
+  13  |   await ready(page);
+  14  |   const count=await page.evaluate(()=>['act1-scene1','act1-scene2','act2'].reduce((n,scene)=>n+MTS_INDEX_ZERO.store.getScene(scene).length,0));
+  15  |   expect(count).toBe(1164);
+  16  |   await page.getByRole('button',{name:/Open Act I/}).click();
+  17  |   await expect(page).toHaveURL(/#\/script/);
+  18  |   await expect(page.locator('[data-line]').first()).toBeVisible();
+  19  | });
+  20  | 
+  21  | test('Reader Full Mine Cue Focus and role persistence',async({page})=>{
+  22  |   await ready(page);
+  23  |   await page.goto(BASE+'#/more');
+  24  |   await page.getByRole('button',{name:/^MOLLIE/}).click();
+  25  |   await page.goto(BASE+'#/script');
+  26  |   await page.getByRole('button',{name:'Mine'}).click();
+  27  |   await expect(page.locator('[data-line]').first()).toBeVisible();
+  28  |   expect(await page.locator('[data-line]').count()).toBeGreaterThan(0);
+  29  |   await page.getByRole('button',{name:'Cue Focus'}).click();
+  30  |   await expect(page.locator('.cue-row').first()).toBeVisible();
+  31  |   await expect(page.locator('.target-row').first()).toBeVisible();
+  32  |   expect(await page.evaluate(()=>localStorage.getItem('mts.reader.mode'))).toBe('cue');
+  33  | });
+  34  | 
+  35  | test('Search opens Line Detail and study/structure load on demand',async({page})=>{
+  36  |   await ready(page);
+  37  |   await page.goto(BASE+'#/search?q=MOLLIE');
+  38  |   await expect(page.locator('.search-result').first()).toBeVisible();
+  39  |   await page.locator('.search-result').first().click();
+  40  |   await expect(page).toHaveURL(/#\/line\?/);
+  41  |   await expect(page.getByText('Translation',{exact:true})).toBeVisible();
+  42  |   await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasStudy()&&MTS_INDEX_ZERO.store.hasStructure(),null,{timeout:15000});
+  43  |   await expect(page.getByText('Structure',{exact:true})).toBeVisible();
+  44  |   const grammarCount=await page.evaluate(()=>{const q=new URLSearchParams(location.hash.split('?')[1]||'');return MTS_INDEX_ZERO.store.getGrammar(q.get('line')).length});
+  45  |   if(grammarCount)await expect(page.getByText('Grammar / Usage',{exact:true})).toBeVisible();
+  46  |   else await expect(page.getByText('Grammar / Usage',{exact:true})).toHaveCount(0);
+  47  |   const d=await page.evaluate(()=>MTS_INDEX_ZERO.diagnostics().data);
+> 48  |   expect(d.metrics.requests).toBeLessThanOrEqual(7);
+      |                              ^ Error: expect(received).toBeLessThanOrEqual(expected)
+  49  | });
+  50  | 
+  51  | test('Dictionary opens from a registered vocabulary item without iframe',async({page})=>{
+  52  |   await ready(page);
+  53  |   await page.goto(BASE+'#/search?q=MOLLIE');
+  54  |   await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasStudy(),null,{timeout:15000});
+  55  |   await page.goto(BASE+'#/script');
+  56  |   const word=page.locator('[data-word-line]').first();
+  57  |   await expect(word).toBeVisible();
+  58  |   await word.click();
+  59  |   await expect(page.locator('#word-overlay')).toBeVisible();
+  60  |   await expect(page.getByText('Word dictionary',{exact:true})).toBeVisible();
+  61  |   expect(await page.locator('#word-overlay iframe').count()).toBe(0);
+  62  | });
+  63  | 
+  64  | test('Cue Practice reveal/rating persists state and progress',async({page})=>{
+  65  |   await ready(page);
+  66  |   await page.goto(BASE+'#/more');await page.getByRole('button',{name:/^MOLLIE/}).click();
+  67  |   await page.goto(BASE+'#/cue?scene=act1-scene1');
+  68  |   await expect(page.getByText(/YOUR LINE · MOLLIE/)).toBeVisible();
+  69  |   await page.getByRole('button',{name:'Reveal'}).click();
+  70  |   await expect(page.getByRole('button',{name:/Got it/})).toBeVisible();
+  71  |   await page.getByRole('button',{name:/Got it/}).click();
+  72  |   const count=await page.evaluate(()=>Object.keys(MTS_INDEX_ZERO.state.cueRatings()).length);
+  73  |   expect(count).toBeGreaterThan(0);
+  74  | });
+  75  | 
+  76  | test('Rehearsal keeps controls and persists position',async({page})=>{
+  77  |   await ready(page);
+  78  |   await page.goto(BASE+'#/more');await page.getByRole('button',{name:/^MOLLIE/}).click();
+  79  |   await page.goto(BASE+'#/rehearsal?scene=act1-scene1');
+  80  |   await expect(page.getByRole('button',{name:/Skip/})).toBeVisible();
+  81  |   await page.getByRole('button',{name:/Skip/}).click();
+  82  |   const saved=await page.evaluate(()=>Object.keys(MTS_INDEX_ZERO.state.rehearsalStates()).length);
+  83  |   expect(saved).toBeGreaterThan(0);
+  84  | });
+  85  | 
+  86  | test('Progress weighting remains compatible',async({page})=>{
+  87  |   await ready(page);
+  88  |   await page.evaluate(()=>{MTS_INDEX_ZERO.state.setSceneProgress('act1-scene1',100);MTS_INDEX_ZERO.state.setSceneProgress('act1-scene2',0);MTS_INDEX_ZERO.state.setSceneProgress('act2',50)});
+  89  |   await page.goto(BASE+'#/progress');
+  90  |   await expect(page.locator('[data-act1]')).toHaveText('36%');
+  91  |   await expect(page.locator('[data-act2]')).toHaveText('50%');
+  92  |   await expect(page.locator('[data-overall]')).toHaveText('44%');
+  93  | });
+  94  | 
+  95  | test('core network failure never creates an infinite blocking gate',async({page})=>{
+  96  |   await page.route('**/mousetrap_script_data.json',route=>route.abort());
+  97  |   await page.goto(BASE,{waitUntil:'domcontentloaded'});
+  98  |   await expect(page.getByRole('heading',{name:'Learn Your Lines'})).toBeVisible();
+  99  |   await page.goto(BASE+'#/script');
+  100 |   await expect(page.getByText('Script data could not be loaded.',{exact:true})).toBeVisible({timeout:12000});
+  101 |   expect(await page.locator('#dataGate').count()).toBe(0);
+  102 | });
+  103 | 
+  104 | test('mobile routes have no page exceptions or horizontal overflow',async({page})=>{
+  105 |   const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  106 |   await page.setViewportSize({width:390,height:844});
+  107 |   await ready(page);
+  108 |   for(const route of ['#/home','#/script','#/search?q=MOLLIE','#/progress','#/more']){await page.goto(BASE+route);await page.waitForTimeout(80)}
+  109 |   const size=await page.evaluate(()=>({s:document.documentElement.scrollWidth,c:document.documentElement.clientWidth}));
+  110 |   expect(size.s).toBeLessThanOrEqual(size.c+1);expect(errors).toEqual([]);
+  111 | });
+  112 | 
+```test-results/gesture_english.e2e-line-f-ecf5d-ighlights-the-selected-role/error-context.md
+---
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: gesture_english.e2e.spec.js >> line focus swipes between speeches, resets scroll, and highlights the selected role
+- Location: tests/gesture_english.e2e.spec.js:9:1
+
+# Error details
+
+```
+Error: expect(page).toHaveURL(expected) failed
+
+Expected pattern: /act1-scene1-speech-0003/
+Received string:  "http://127.0.0.1:4173/index.html#/line?scene=act1-scene1&line=act1-scene1-speech-0002"
+Timeout: 5000ms
+
+Call log:
+  - Expect "toHaveURL" with timeout 5000ms
+    14 × locator resolved to <html lang="en">…</html>
+       - unexpected value "http://127.0.0.1:4173/index.html#/line?scene=act1-scene1&line=act1-scene1-speech-0002"
+
+```
+
+```yaml
+- main:
+  - text: Script to Stage The Mousetrap Trainer
+  - button "Role · MOLLIE"
+  - text: Reading marker
+  - button "Set reading marker here"
+  - text: Bookmark
+  - button "Add bookmark": ☆
+  - text: MOLLIE
+  - paragraph:
+    - button "Mrs. Barlow"
+    - text: "!"
+    - button "Mrs. Barlow"
+    - text: "! Brr! It's cold. It really does look nice ― oh! How stupid of Giles."
+    - button "Gosh"
+    - text: "!"
+  - text: Act I · Scene I
+  - region "Situation details":
+    - text: Situation Before line PDF p.3
+    - paragraph: MOLLIE RALSTON enters through the arch up Right. She is a tall, pretty young woman with an ingenuous air, in her twenties. She puts down her handbag and gloves on the armchair Centre, then crosses to the radio and switches it off during the next speech. She places a small parcel in the desk cupboard.
+    - paragraph: MOLLIEの登場位置と、その直後の舞台上の動作を指定するト書き。
+    - group: Vocabulary & notes
+    - text: Delivery PDF p.3
+    - paragraph: calling
+    - paragraph: 呼びかけながら。
+    - group: Vocabulary & notes
+    - text: Delivery PDF p.3
+    - paragraph: Receiving no reply, she crosses to the armchair Centre, picks up her handbag and one glove, and then goes out through the arch up Right. She removes her overcoat and then returns.
+    - paragraph: 退場・移動の方向と、その前後の動作を指定するト書き。
+    - group: Vocabulary & notes
+    - text: After line PDF p.4
+    - paragraph: She notices that there is no "S" on the sign.
+    - paragraph: 視線・注目先・反応を指定するト書き。
+    - group: Vocabulary & notes
+    - text: After line PDF p.4
+    - paragraph: She looks at her watch then at the clock.
+    - paragraph: 視線・注目先・反応を指定するト書き。
+    - group: Vocabulary & notes
+  - text: Translation
+  - paragraph: バーロウさん！ バーロウさん！ うう、寒い。本当にいい感じになったわ――あっ！ ジャイルズったら、なんて間抜けなの。まあ！
+  - text: Interpretation
+  - paragraph: 寒い屋外から戻って屋敷の様子を見たあと、ジャイルズのミスに気づいて反応している。何のミスかは後の看板の綴りのやり取りで明らかになる。
+  - heading "Vocabulary" [level=3]
+  - button "Gosh · 【間投詞】 ① まあ ② うわあ gosh"
+  - button "Mrs. Barlow · 【固有名詞】Mrs Barlowという人名・呼称。 Mrs Barlow"
+  - button "calling · 【動】call の -ing 形。呼びかけること、声をかけること。 calling"
+  - button "up Right · 【舞台】舞台奥の右側（俳優から見た右）。 upstage right"
+  - button "Centre · 【舞台用語】 舞台中央、または舞台中央へ。 centre stage"
+  - button "crosses · 【形】 不機嫌な、怒った。 【動】 ① 横切る、渡る ② 交差する。 【名】 十字形、十字架。 cross"
+  - button "returns · 【動詞】 戻る、返す。 【名詞】 戻ること。 return"
+  - button "removes · 【動】取り除く、脱ぐ、移動させる。 remove"
+  - button "picks up · 拾う／手に取る pick up"
+  - button "down Right · 【舞台】舞台前方の右側（俳優から見た右）。 downstage right"
+  - button "fireplace · 【名】暖炉。 fireplace"
+  - button "radiator · 【名詞】 暖房用ラジエーター radiator"
+  - button "wall brackets · 壁に取り付ける支持具、または壁付けの照明器具。 wall bracket"
+  - button "wall switch · 【名】壁面スイッチ。 wall switch"
+  - button "table lamp · 【名】卓上ランプ。 table lamp"
+  - button "signboard · 【名】看板、掲示板。 signboard"
+  - button "window alcove · 【名】窓際のくぼんだ空間、窓のアルコーブ。 window alcove"
+  - button "moves · 【動詞】 動く、移動する、動かす。 【名詞】 動き、移動、行動。 move"
+  - button "switches on · 【句動】スイッチを入れる、電源を入れる。 switch on"
+  - button "draws the curtains · 【動詞句】カーテンを引いて閉める。 draw the curtains"
+  - button "nodding her head · 【動詞句】うなずく、頭を縦に振る。 nod one’s head"
+  - button "looks round · 見て回る／調べて回る look round"
+  - button "places · 【動】置く、配置する。【名】場所。 place"
+  - button "notices · 【動】気づく、注目する。 notice"
+  - button "looks · 【動】見る、目を向ける。 look"
+  - button "goes to · 【動詞句】～へ行く。 go to"
+  - button "front door · 【名】玄関の正面扉。 front door"
+  - button "oak chest · 【名】オーク材の大型収納箱、木製チェスト。 oak chest"
+  - button "enters · 【動詞】 中へ入る、参加する。舞台では登場する。 enter"
+  - button "hurries off · 【動詞】 急ぐ、急いで行う。 【名詞】 また、急いでいる状態。 hurry"
+  - button "stamps his feet · 【動詞句】足を踏み鳴らす。 stamp one’s feet"
+  - button "warms his hands · 【動詞句】手を温める。 warm one’s hands"
+  - button "throws · 【動】投げる、放る。 throw"
+  - button "carrying · 【動】運ぶ、持って行く。 carry"
+  - button "off · 【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。 offstage"
+  - button "takes off · 【句動】衣服などを脱ぐ；離陸する。 take off"
+  - button "takes · 【動】取る、手に取る、持っていく。 take"
+  - button "hands · 【動】手渡す。【名】手。 hand"
+  - group: Structure Clause hierarchy · S / V / O / C · connectors ⌄
+  - button "Cue Practice"
+  - button "Rehearsal"
+  - button "‹"
+  - button "×"
+  - button "›"
+- navigation:
+  - button "Home"
+  - button "Script"
+  - button "Practice"
+  - button "Progress"
+  - button "More"
+- status
+```
+
+# Test source
+
+```ts
+  1  | const {test,expect}=require('@playwright/test');
+  2  | const BASE='http://127.0.0.1:4173/index.html';
+  3  | async function ready(page){await page.goto(BASE,{waitUntil:'domcontentloaded'});await expect(page.getByRole('heading',{name:'Learn Your Lines'})).toBeVisible();await page.waitForFunction(()=>MTS_INDEX_ZERO?.store?.hasCore?.(),null,{timeout:12000})}
+  4  | const focusCard='.line-page-surface>.card,.line-page>.card';
+  5  | async function focusSwipe(page,fromX,toX,pointerId,y=260){await page.evaluate(({fromX,toX,pointerId,y})=>{const p=document.querySelector('.line-page');if(!p)throw new Error('line page missing');const fire=(type,x,yy=y)=>p.dispatchEvent(new PointerEvent(type,{bubbles:true,cancelable:true,pointerType:'touch',pointerId,clientX:x,clientY:yy}));fire('pointerdown',fromX);fire('pointermove',(fromX+toX)/2,y+3);fire('pointermove',toX,y+5);fire('pointerup',toX,y+5)},{fromX,toX,pointerId,y})}
+  6  | test('UI chrome is English and pull-to-refresh overscroll is disabled',async({page})=>{await ready(page);await expect(page.getByRole('button',{name:/Open Act I · Scene I/})).toBeVisible();await page.goto(BASE+'#/more');await expect(page.getByRole('heading',{name:'Choose Your Role'})).toBeVisible();const x=await page.evaluate(()=>({html:getComputedStyle(document.documentElement).overscrollBehaviorY,body:getComputedStyle(document.body).overscrollBehaviorY,lang:document.documentElement.lang}));expect(x).toEqual({html:'none',body:'none',lang:'en'})});
+  7  | test('study notes precede collapsed Structure when grammar exists',async({page})=>{await ready(page);const target=await page.evaluate(async()=>{await MTS_INDEX_ZERO.store.loadStudy();for(const scene of ['act1-scene1','act1-scene2','act2'])for(const speech of MTS_INDEX_ZERO.store.getScene(scene))if(MTS_INDEX_ZERO.store.getGrammar(speech.id).length)return{scene,line:speech.id};return null});expect(target).toBeTruthy();await page.goto(`${BASE}#/line?scene=${target.scene}&line=${target.line}`);await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasStudy()&&MTS_INDEX_ZERO.store.hasStructure(),null,{timeout:15000});await expect(page.getByText('Grammar / Usage',{exact:true})).toBeVisible();const order=await page.evaluate(()=>{const root=document.querySelector('.line-page-surface')||document.querySelector('.line-page');return[...root.querySelectorAll(':scope > .card')].map((c,i)=>({i,t:c.textContent}))});const gi=order.find(x=>x.t.includes('Grammar / Usage')).i,si=order.find(x=>x.t.includes('Structure')).i;expect(gi).toBeLessThan(si);const details=page.locator('.structure-details');await expect(details).not.toHaveAttribute('open','');await page.locator('.structure-summary').click();await expect(details).toHaveAttribute('open','')});
+  8  | test('dictionary sheet closes with a fast downward flick from a scrolled position',async({page})=>{await ready(page);const target=await page.evaluate(async()=>{await MTS_INDEX_ZERO.store.loadStudy();for(const s of ['act1-scene1','act1-scene2','act2'])for(const x of MTS_INDEX_ZERO.store.getScene(s))if(MTS_INDEX_ZERO.store.getVocabulary(x.id).length)return{scene:s,line:x.id};return null});await page.goto(BASE+'#/line?scene='+target.scene+'&line='+target.line);await page.waitForFunction(()=>!!document.querySelector('[data-detail-word]'),null,{timeout:15000});await page.locator('[data-detail-word]').first().click();await expect(page.locator('#word-overlay')).toBeVisible();await page.evaluate(()=>{const s=document.querySelector('.word-sheet');s.scrollTop=120;s.dispatchEvent(new PointerEvent('pointerdown',{bubbles:true,pointerType:'pen',clientX:180,clientY:220}));s.dispatchEvent(new PointerEvent('pointerup',{bubbles:true,pointerType:'pen',clientX:182,clientY:350}))});await expect(page.locator('#word-overlay')).toBeHidden({timeout:1000})});
+> 9  | test('line focus swipes between speeches, resets scroll, and highlights the selected role',async({page})=>{await ready(page);const target=await page.evaluate(async()=>{await MTS_INDEX_ZERO.store.loadStudy();for(const scene of ['act1-scene1','act1-scene2','act2']){const rows=MTS_INDEX_ZERO.store.getReaderSequence(scene);for(let i=1;i<rows.length-1;i++){const cur=rows[i],nxt=rows[i+1];if(cur.kind==='speech'&&nxt.kind==='speech'&&cur.speech.speaker==='MOLLIE'&&nxt.speech.speaker!=='MOLLIE'&&(MTS_INDEX_ZERO.store.getGrammar(cur.speech.id).length||MTS_INDEX_ZERO.store.getVocabulary(cur.speech.id).length))return{scene,line:cur.speech.id,next:nxt.speech.id};}}return null});expect(target).toBeTruthy();const makeScrollable=()=>page.evaluate(()=>{const pageEl=document.querySelector('.line-page-surface')||document.querySelector('.line-page');if(!pageEl)throw new Error('line page missing');const spacer=document.createElement('div');spacer.dataset.focusScrollTest='true';spacer.style.height='1200px';spacer.style.pointerEvents='none';pageEl.append(spacer)});await page.evaluate(t=>{MTS_INDEX_ZERO.state.setRole('MOLLIE');location.hash=`#/line?scene=${encodeURIComponent(t.scene)}&line=${encodeURIComponent(t.line)}`},target);await expect(page.locator('.speaker-title')).toHaveText('MOLLIE');await page.waitForFunction(()=>{const c=document.querySelector('.line-page-surface>.card,.line-page>.card');return c?.dataset.ownRole==='true'});await expect(page.locator(focusCard).first()).toHaveClass(/selected-role-line/);await expect(page.locator(focusCard).first()).toHaveClass(/focus-role-line/);await makeScrollable();await page.evaluate(()=>window.scrollTo(0,document.documentElement.scrollHeight));expect(await page.evaluate(()=>scrollY)).toBeGreaterThan(20);await focusSwipe(page,310,110,41);await expect(page).toHaveURL(new RegExp(target.next));await page.waitForFunction(()=>scrollY<2,null,{timeout:2000});await expect(page.locator(focusCard).first()).not.toHaveClass(/focus-role-line/);const nextHash=await page.evaluate(()=>location.hash);await page.evaluate(()=>{const p=document.querySelector('.line-page');p.dispatchEvent(new PointerEvent('pointerdown',{bubbles:true,pointerType:'touch',pointerId:42,clientX:220,clientY:220}));p.dispatchEvent(new PointerEvent('pointermove',{bubbles:true,cancelable:true,pointerType:'touch',pointerId:42,clientX:223,clientY:285}));p.dispatchEvent(new PointerEvent('pointerup',{bubbles:true,pointerType:'touch',pointerId:42,clientX:226,clientY:340}))});expect(await page.evaluate(()=>location.hash)).toBe(nextHash);await makeScrollable();await page.evaluate(()=>window.scrollTo(0,document.documentElement.scrollHeight));expect(await page.evaluate(()=>scrollY)).toBeGreaterThan(20);await focusSwipe(page,110,310,43);await expect(page).toHaveURL(new RegExp(target.line));await page.waitForFunction(()=>scrollY<2,null,{timeout:2000});await page.waitForFunction(()=>{const c=document.querySelector('.line-page-surface>.card,.line-page>.card');return c?.dataset.ownRole==='true'});await expect(page.locator(focusCard).first()).toHaveClass(/focus-role-line/);await makeScrollable();await page.evaluate(()=>window.scrollTo(0,document.documentElement.scrollHeight));expect(await page.evaluate(()=>scrollY)).toBeGreaterThan(20);await page.locator('[data-next]').click();await expect(page).toHaveURL(new RegExp(target.next));await page.waitForFunction(()=>scrollY<2,null,{timeout:2000})});
+     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ^ Error: expect(page).toHaveURL(expected) failed
+  10 | 
+```
