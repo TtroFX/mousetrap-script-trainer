@@ -20,11 +20,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Audit dialogue vocabulary coverage before repair
+      - name: Audit dialogue vocabulary coverage pass 1
         run: node scripts/audit-vocabulary-full-coverage.mjs
-      - name: Apply safe dialogue coverage repairs
+      - name: Apply safe dialogue coverage repairs pass 1
         run: node scripts/apply-safe-vocabulary-full-coverage.mjs
-      - name: Audit dialogue vocabulary coverage after repair
+      - name: Audit dialogue vocabulary coverage pass 2
+        run: node scripts/audit-vocabulary-full-coverage.mjs
+      - name: Apply safe dialogue coverage repairs pass 2
+        run: node scripts/apply-safe-vocabulary-full-coverage.mjs
+      - name: Audit dialogue vocabulary coverage final
         run: node scripts/audit-vocabulary-full-coverage.mjs
       - name: Validate vocabulary semantics
         run: node scripts/validate-vocabulary-semantics.mjs
@@ -40,5 +44,5 @@ jobs:
             echo "No dialogue coverage changes."
             exit 0
           fi
-          git commit -m "Apply safe dialogue vocabulary coverage repairs"
+          git commit -m "Close safe dialogue vocabulary coverage candidates"
           git push origin HEAD:audit/vocabulary-full-coverage
