@@ -20,16 +20,25 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Audit dialogue vocabulary coverage
+      - name: Audit dialogue vocabulary coverage before repair
         run: node scripts/audit-vocabulary-full-coverage.mjs
-      - name: Commit audit report
+      - name: Apply safe dialogue coverage repairs
+        run: node scripts/apply-safe-vocabulary-full-coverage.mjs
+      - name: Audit dialogue vocabulary coverage after repair
+        run: node scripts/audit-vocabulary-full-coverage.mjs
+      - name: Validate vocabulary semantics
+        run: node scripts/validate-vocabulary-semantics.mjs
+      - name: Verify production assembly
+        working-directory: app
+        run: node scripts/assemble-production.mjs --verify-only
+      - name: Commit repaired data and audit reports
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/vocabulary-full-coverage-audit.json
+          git add mousetrap_line_vocabulary.json data/canonical-production-contract.json data/canonical-integration-manifest.json data/vocabulary-full-coverage-audit.json data/vocabulary-full-coverage-summary.json data/vocabulary-full-coverage-safe-repair.json
           if git diff --cached --quiet; then
-            echo "No audit report changes."
+            echo "No dialogue coverage changes."
             exit 0
           fi
-          git commit -m "Record full dialogue vocabulary coverage audit"
+          git commit -m "Apply safe dialogue vocabulary coverage repairs"
           git push origin HEAD:audit/vocabulary-full-coverage
