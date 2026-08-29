@@ -1,14 +1,12 @@
 {
   "schemaVersion": 1,
   "status": "APPLIED",
-  "candidateOccurrences": 2,
-  "addedVocabularyItems": 2,
+  "candidateOccurrences": 0,
+  "addedVocabularyItems": 0,
   "noConsensus": 0,
   "ambiguousConsensus": 0,
   "duplicates": 0,
-  "addedByLemma": {
-    "face": 2
-  },
+  "addedByLemma": {},
   "finalVocabularyItems": 3850,
   "sha256": {
     "vocabulary": "50125450cce493aa32b12192836b10edfce50bcb58b9f8df5d36ada8e2092e54"
