@@ -1,4 +1,4 @@
-export const BUILD_ID = 'index-zero-2026-08-29-r15';
+export const BUILD_ID = 'index-zero-2026-08-29-r16';
 
 export const SCENES = Object.freeze([
   { id: 'act1-scene1', label: 'Act I · Scene I', count: 190 },
@@ -19,6 +19,7 @@ export const DATA_PATHS = Object.freeze({
   grammar: './mousetrap_line_grammar.json',
   dictionary: './mousetrap_word_dictionary.json',
   structure: './mousetrap_line_structure.json',
+  stageDirections: './src/mousetrap_stage_directions.json',
 });
 
 export const STORAGE_KEYS = Object.freeze({
@@ -38,6 +39,7 @@ export const STORAGE_KEYS = Object.freeze({
   memoryStages: 'mts.memory.stages',
   resume: 'mts.resume.v1',
   bookmarks: 'mts.bookmarks.v1',
+  stageDirectionsVisible: 'mts.stageDirections.visible',
 });
 
 export const READER_MODES = Object.freeze(['full', 'mine', 'cue']);
@@ -45,3 +47,4 @@ export const RATING_VALUES = Object.freeze(['again', 'hard', 'good']);
 export const CORE_TIMEOUT_MS = 10000;
 export const STUDY_TIMEOUT_MS = 12000;
 export const STRUCTURE_TIMEOUT_MS = 12000;
+export const STAGE_TIMEOUT_MS = 12000;

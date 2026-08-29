@@ -78,3 +78,30 @@ test('floating previous close next controller does not move while pressed or aft
   const afterBack=await controllerRects(page);
   expectSameController(afterBack,before);
 });
+
+test('controller stays viewport-fixed at page top middle and bottom on mobile and desktop',async({page})=>{
+  for(const viewport of [{width:390,height:844},{width:1280,height:900}]){
+    await page.setViewportSize(viewport);
+    await ready(page);
+    const target=await page.evaluate(()=>{const rows=MTS_INDEX_ZERO.store.getScene('act1-scene2');return{scene:'act1-scene2',line:rows[8].id,next:rows[9].id}});
+    await page.goto(`${BASE}#/line?scene=${target.scene}&line=${target.line}`);
+    await page.waitForSelector('.line-page .floating-nav');
+    await page.evaluate(()=>{const root=document.querySelector('.line-page-surface')||document.querySelector('.line-page');const spacer=document.createElement('div');spacer.style.height='1800px';spacer.style.pointerEvents='none';root.append(spacer);window.scrollTo(0,0)});
+    const top=await controllerRects(page);
+    await page.evaluate(()=>window.scrollTo(0,document.documentElement.scrollHeight/2));
+    const middle=await controllerRects(page);
+    await page.evaluate(()=>window.scrollTo(0,document.documentElement.scrollHeight));
+    const bottom=await controllerRects(page);
+    expectSameController(middle,top);
+    expectSameController(bottom,top);
+    const bounds=await page.evaluate(()=>{const r=document.querySelector('.floating-nav').getBoundingClientRect();return{left:r.left,right:r.right,top:r.top,bottom:r.bottom,width:innerWidth,height:innerHeight,position:getComputedStyle(document.querySelector('.floating-nav')).position,overflow:document.documentElement.scrollWidth-document.documentElement.clientWidth}});
+    expect(bounds.position).toBe('fixed');
+    expect(bounds.left).toBeGreaterThanOrEqual(0);
+    expect(bounds.right).toBeLessThanOrEqual(bounds.width);
+    expect(bounds.top).toBeGreaterThanOrEqual(0);
+    expect(bounds.bottom).toBeLessThanOrEqual(bounds.height);
+    expect(bounds.overflow).toBeLessThanOrEqual(1);
+    await page.locator('[data-next]').click();
+    await expect(page).toHaveURL(new RegExp(target.next));
+  }
+});

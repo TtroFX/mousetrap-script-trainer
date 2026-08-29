@@ -16,8 +16,8 @@ if(!sw.includes('await Promise.all(['))fail('Precache completion is not awaited'
 if(sw.includes('Promise.allSettled(SHELL'))fail('Shell precache must not silently accept missing assets');
 
 const required=[
-  './index.html','./src/app.css','./src/focus-mode.css','./src/config.js','./src/data-store.js','./src/state-store.js','./src/resume-bookmarks.js','./src/gesture-controls.js','./src/main.js','./src/study/study.css','./src/study/structure-model.js','./src/study/structure-view.js','./src/study/dictionary-sheet.js','./manifest.webmanifest','./offline.html',
-  'mousetrap_script_data.json','mousetrap_line_translations.json','mousetrap_line_interpretation.json','mousetrap_line_vocabulary.json','mousetrap_line_grammar.json','mousetrap_word_dictionary.json','mousetrap_line_structure.json'
+  './index.html','./src/app.css','./src/focus-mode.css','./src/stage-directions.css','./src/config.js','./src/data-store.js','./src/state-store.js','./src/resume-bookmarks.js','./src/gesture-controls.js','./src/main.js','./src/stage-directions.js','./src/study/study.css','./src/study/structure-model.js','./src/study/structure-view.js','./src/study/dictionary-sheet.js','./manifest.webmanifest','./offline.html',
+  'mousetrap_script_data.json','mousetrap_line_translations.json','mousetrap_line_interpretation.json','mousetrap_line_vocabulary.json','mousetrap_line_grammar.json','mousetrap_word_dictionary.json','mousetrap_line_structure.json','src/mousetrap_stage_directions.json'
 ];
 for(const asset of required)if(!sw.includes(`'${asset}'`))fail(`Required offline asset missing from Service Worker: ${asset}`);
 console.log(`PASS offline PWA static contract (${required.length} required assets, ${swBuild})`);
