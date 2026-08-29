@@ -13,42 +13,34 @@
   },
   "counts": {
     "canonicalSpeeches": 1164,
-    "vocabularyItems": 3741,
+    "vocabularyItems": 3823,
     "dictionaryEntries": 1375,
     "tokenCount": 15934,
     "functionTokenCount": 10024,
     "knownNameTokenCount": 266,
     "properDeferredCount": 272,
-    "reviewCandidates": 3016,
+    "reviewCandidates": 2930,
     "unknownTokenTypes": 801,
-    "polysemyLemmaTypes": 16,
+    "polysemyLemmaTypes": 9,
     "properNounDeferredTypes": 50,
     "byKind": {
       "DEFER_PROPER_NOUN_PHASE3": 243,
       "REVIEW_NEW_LEXEME_OR_EXCLUSION": 2660,
-      "REVIEW_POLYSEMY_EXACT_DICTIONARY": 14,
-      "REVIEW_POLYSEMY_EXISTING_SURFACE": 82,
-      "REVIEW_POLYSEMY_MORPHOLOGY": 17
+      "REVIEW_POLYSEMY_EXACT_DICTIONARY": 13,
+      "REVIEW_POLYSEMY_MORPHOLOGY": 14
     }
   },
   "compact": {
     "polysemyLemmas": [
-      "affair",
-      "check",
       "consider",
       "face",
-      "field",
       "follow",
-      "gather",
       "haunt",
-      "hold out",
       "move",
-      "part",
       "rise",
       "show",
       "start",
-      "station",
-      "upstage"
+      "station"
     ],
     "properNounTypes": [
       "army",
@@ -1589,15 +1581,6 @@
     {
       "speechId": "act1-scene1-speech-0011",
       "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act1-scene1-speech-0011",
-      "speaker": "GILES",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "whole",
       "lemma": "",
@@ -1674,15 +1657,6 @@
       "surface": "hope",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene1-speech-0013",
-      "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene1-speech-0013",
@@ -1875,15 +1849,6 @@
       "surface": "cook",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene1-speech-0020",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene1-speech-0020",
@@ -2088,28 +2053,10 @@
     {
       "speechId": "act1-scene1-speech-0026",
       "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act1-scene1-speech-0026",
-      "speaker": "MOLLIE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "Go",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene1-speech-0027",
-      "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene1-speech-0027",
@@ -2158,15 +2105,6 @@
       "surface": "night",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene1-speech-0030",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene1-speech-0030",
@@ -2295,15 +2233,6 @@
       "surface": "simple",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene1-speech-0037",
-      "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene1-speech-0037",
@@ -2536,15 +2465,6 @@
       "surface": "country",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene1-speech-0044",
-      "speaker": "CHRISTOPHER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene1-speech-0044",
@@ -3117,15 +3037,6 @@
     {
       "speechId": "act1-scene1-speech-0060",
       "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act1-scene1-speech-0060",
-      "speaker": "MOLLIE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "married",
       "lemma": "",
@@ -3486,28 +3397,10 @@
     {
       "speechId": "act1-scene1-speech-0072",
       "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act1-scene1-speech-0072",
-      "speaker": "MOLLIE",
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "room",
       "lemma": "",
       "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
-    },
-    {
-      "speechId": "act1-scene1-speech-0074",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene1-speech-0074",
@@ -3564,15 +3457,6 @@
       "surface": "leave",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene1-speech-0081",
-      "speaker": "MRS. BOYLE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene1-speech-0081",
@@ -4005,15 +3889,6 @@
       "surface": "forty",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene1-speech-0100",
-      "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene1-speech-0100",
@@ -4462,15 +4337,6 @@
     {
       "speechId": "act1-scene1-speech-0121",
       "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act1-scene1-speech-0121",
-      "speaker": "GILES",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "better",
       "lemma": "",
@@ -4523,15 +4389,6 @@
       "surface": "month",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene1-speech-0122",
-      "speaker": "MRS. BOYLE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene1-speech-0122",
@@ -4764,15 +4621,6 @@
       "surface": "minute",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene1-speech-0132",
-      "speaker": "MISS CASEWELL",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene1-speech-0132",
@@ -5149,15 +4997,6 @@
       "surface": "wife",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene1-speech-0150",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene1-speech-0150",
@@ -5791,15 +5630,6 @@
       "surface": "arrived",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene1-speech-0177",
-      "speaker": "PARAVICINI",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene1-speech-0177",
@@ -6871,15 +6701,6 @@
     {
       "speechId": "act1-scene2-speech-0030",
       "speaker": "MISS CASEWELL",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "I gather",
-      "lemma": "gather",
-      "meaning": "【動詞】\n① 物や人を集める\n② 情報から推測して理解する",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act1-scene2-speech-0030",
-      "speaker": "MISS CASEWELL",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "cook",
       "lemma": "",
@@ -6942,15 +6763,6 @@
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
     },
     {
-      "speechId": "act1-scene2-speech-0035",
-      "speaker": "MRS. BOYLE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "I gather",
-      "lemma": "gather",
-      "meaning": "【動詞】\n① 物や人を集める\n② 情報から推測して理解する",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
       "speechId": "act1-scene2-speech-0036",
       "speaker": "MISS CASEWELL",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
@@ -6989,15 +6801,6 @@
       "surface": "easier",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene2-speech-0038",
-      "speaker": "MISS CASEWELL",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "I gather",
-      "lemma": "gather",
-      "meaning": "【動詞】\n① 物や人を集める\n② 情報から推測して理解する",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene2-speech-0038",
@@ -7658,15 +7461,6 @@
     {
       "speechId": "act1-scene2-speech-0077",
       "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act1-scene2-speech-0077",
-      "speaker": "MOLLIE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "afraid",
       "lemma": "",
@@ -7735,15 +7529,6 @@
       "surface": "spade",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene2-speech-0079",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene2-speech-0079",
@@ -7989,15 +7774,6 @@
     {
       "speechId": "act1-scene2-speech-0093",
       "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act1-scene2-speech-0093",
-      "speaker": "MOLLIE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "dear",
       "lemma": "",
@@ -8035,15 +7811,6 @@
       "surface": "days",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene2-speech-0094",
-      "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene2-speech-0094",
@@ -8220,15 +7987,6 @@
       "surface": "week",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene2-speech-0098",
-      "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene2-speech-0098",
@@ -8937,15 +8695,6 @@
     {
       "speechId": "act1-scene2-speech-0130",
       "speaker": "PARAVICINI",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act1-scene2-speech-0130",
-      "speaker": "PARAVICINI",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "know",
       "lemma": "",
@@ -9146,15 +8895,6 @@
     {
       "speechId": "act1-scene2-speech-0140",
       "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act1-scene2-speech-0140",
-      "speaker": "MOLLIE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "say",
       "lemma": "",
@@ -9223,15 +8963,6 @@
       "surface": "police",
       "lemma": "",
       "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
-    },
-    {
-      "speechId": "act1-scene2-speech-0143",
-      "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene2-speech-0143",
@@ -9696,15 +9427,6 @@
       "surface": "table",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene2-speech-0176",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene2-speech-0176",
@@ -10177,15 +9899,6 @@
       "surface": "found",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene2-speech-0191",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene2-speech-0191",
@@ -10714,15 +10427,6 @@
       "surface": "Stanning",
       "lemma": "",
       "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
-    },
-    {
-      "speechId": "act1-scene2-speech-0214",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene2-speech-0214",
@@ -11266,15 +10970,6 @@
     {
       "speechId": "act1-scene2-speech-0241",
       "speaker": "CHRISTOPHER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act1-scene2-speech-0241",
-      "speaker": "CHRISTOPHER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "wait",
       "lemma": "",
@@ -11712,15 +11407,6 @@
       "surface": "know",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene2-speech-0263",
-      "speaker": "MISS CASEWELL",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene2-speech-0263",
@@ -12445,24 +12131,6 @@
     {
       "speechId": "act1-scene2-speech-0308",
       "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "moves",
-      "lemma": "move",
-      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act1-scene2-speech-0308",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "moves",
-      "lemma": "move",
-      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding."
-    },
-    {
-      "speechId": "act1-scene2-speech-0308",
-      "speaker": "TROTTER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "sofa",
       "lemma": "",
@@ -12515,15 +12183,6 @@
       "surface": "Leamington",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene2-speech-0311",
-      "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene2-speech-0311",
@@ -12856,15 +12515,6 @@
     {
       "speechId": "act1-scene2-speech-0324",
       "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act1-scene2-speech-0324",
-      "speaker": "TROTTER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "soft",
       "lemma": "",
@@ -12994,28 +12644,10 @@
     {
       "speechId": "act1-scene2-speech-0331",
       "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act1-scene2-speech-0331",
-      "speaker": "GILES",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "bedroom",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act1-scene2-speech-0332",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act1-scene2-speech-0332",
@@ -13356,15 +12988,6 @@
     {
       "speechId": "act2-speech-0007",
       "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0007",
-      "speaker": "TROTTER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "done",
       "lemma": "",
@@ -13565,15 +13188,6 @@
     {
       "speechId": "act2-speech-0014",
       "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "Up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0014",
-      "speaker": "TROTTER",
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
@@ -13674,15 +13288,6 @@
       "surface": "death",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0020",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "field",
-      "lemma": "field",
-      "meaning": "【名詞】\n① 野原、畑\n② 活動・研究などの分野\n③ 候補・参加者などの範囲・一団",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0020",
@@ -13967,15 +13572,6 @@
     {
       "speechId": "act2-speech-0025",
       "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0025",
-      "speaker": "GILES",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "bedroom",
       "lemma": "",
@@ -14248,15 +13844,6 @@
     {
       "speechId": "act2-speech-0035",
       "speaker": "CHRISTOPHER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0035",
-      "speaker": "CHRISTOPHER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "brush",
       "lemma": "",
@@ -14381,15 +13968,6 @@
       "surface": "come",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0045",
-      "speaker": "CHRISTOPHER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0047",
@@ -14559,15 +14137,6 @@
       "surface": "bedroom",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0057",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0057",
@@ -14788,15 +14357,6 @@
     {
       "speechId": "act2-speech-0071",
       "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0071",
-      "speaker": "TROTTER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "got",
       "lemma": "",
@@ -14889,15 +14449,6 @@
       "surface": "friend",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0077",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0077",
@@ -15278,15 +14829,6 @@
     {
       "speechId": "act2-speech-0087",
       "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0087",
-      "speaker": "TROTTER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "sooner",
       "lemma": "",
@@ -15331,15 +14873,6 @@
       "surface": "Ralston",
       "lemma": "",
       "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
-    },
-    {
-      "speechId": "act2-speech-0092",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0092",
@@ -16344,15 +15877,6 @@
     {
       "speechId": "act2-speech-0132",
       "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0132",
-      "speaker": "MOLLIE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "old",
       "lemma": "",
@@ -16452,15 +15976,6 @@
     {
       "speechId": "act2-speech-0138",
       "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0138",
-      "speaker": "MOLLIE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "drop",
       "lemma": "",
@@ -16493,15 +16008,6 @@
     {
       "speechId": "act2-speech-0140",
       "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "moves",
-      "lemma": "move",
-      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0140",
-      "speaker": "MOLLIE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "know",
       "lemma": "",
@@ -16522,15 +16028,6 @@
       "surface": "old",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0140",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "moves",
-      "lemma": "move",
-      "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0140",
@@ -16700,15 +16197,6 @@
       "surface": "sister",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0145",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0145",
@@ -17077,15 +16565,6 @@
       "surface": "know",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0165",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0165",
@@ -17810,15 +17289,6 @@
     {
       "speechId": "act2-speech-0195",
       "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0195",
-      "speaker": "MOLLIE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "time",
       "lemma": "",
@@ -18115,28 +17585,10 @@
     {
       "speechId": "act2-speech-0219",
       "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "Considering",
-      "lemma": "consider",
-      "meaning": "【動詞】\n① よく考える、検討する\n② ～とみなす",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0219",
-      "speaker": "MOLLIE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "way",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0219",
-      "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_MORPHOLOGY",
-      "surface": "Considering",
-      "lemma": "consider",
-      "meaning": "【動詞】\n① よく考える、検討する\n② ～とみなす",
-      "reason": "Inflected form resolves to an existing polysemous lemma; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0219",
@@ -18345,15 +17797,6 @@
       "surface": "find",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0238",
-      "speaker": "CHRISTOPHER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0239",
@@ -18815,15 +18258,6 @@
     {
       "speechId": "act2-speech-0264",
       "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0264",
-      "speaker": "GILES",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "crazy",
       "lemma": "",
@@ -18916,15 +18350,6 @@
       "surface": "sorry",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0272",
-      "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0272",
@@ -19097,15 +18522,6 @@
     {
       "speechId": "act2-speech-0278",
       "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0278",
-      "speaker": "GILES",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "say",
       "lemma": "",
@@ -19130,15 +18546,6 @@
     {
       "speechId": "act2-speech-0279",
       "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0279",
-      "speaker": "MOLLIE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "know",
       "lemma": "",
@@ -19151,15 +18558,6 @@
       "surface": "weeks",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0280",
-      "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0280",
@@ -19184,15 +18582,6 @@
       "surface": "true",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0282",
-      "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0282",
@@ -20558,15 +19947,6 @@
     {
       "speechId": "act2-speech-0372",
       "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "holding out",
-      "lemma": "hold out",
-      "meaning": "【句動詞】\n① 手や物を前に差し出す\n② 持ちこたえる。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0372",
-      "speaker": "TROTTER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "mouse",
       "lemma": "",
@@ -20931,15 +20311,6 @@
       "surface": "instead",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0379",
-      "speaker": "PARAVICINI",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0379",
@@ -21641,15 +21012,6 @@
     {
       "speechId": "act2-speech-0420",
       "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0420",
-      "speaker": "TROTTER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "Enjoying",
       "lemma": "",
@@ -22046,15 +21408,6 @@
       "surface": "question",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0457",
-      "speaker": "MISS CASEWELL",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "affair",
-      "lemma": "affair",
-      "meaning": "【名詞】\n① 出来事、事件、問題\n② 情事、恋愛関係\n③ 用事・事務。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0457",
@@ -22491,15 +21844,6 @@
     {
       "speechId": "act2-speech-0493",
       "speaker": "MISS CASEWELL",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0493",
-      "speaker": "MISS CASEWELL",
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "room",
       "lemma": "",
@@ -22804,15 +22148,6 @@
     {
       "speechId": "act2-speech-0509",
       "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0509",
-      "speaker": "TROTTER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "sorry",
       "lemma": "",
@@ -23078,15 +22413,6 @@
     {
       "speechId": "act2-speech-0519",
       "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "checking",
-      "lemma": "check",
-      "meaning": "【動詞】\n① 正しいか・事実かを確認する、照合する\n② 進行・増加・発言などを止める、抑える\n【名詞】\n① 確認、点検\n② 抑制、阻止",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0519",
-      "speaker": "TROTTER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "made",
       "lemma": "",
@@ -23171,15 +22497,6 @@
       "surface": "reason",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0522",
-      "speaker": "GILES",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "checking",
-      "lemma": "check",
-      "meaning": "【動詞】\n① 正しいか・事実かを確認する、照合する\n② 進行・増加・発言などを止める、抑える\n【名詞】\n① 確認、点検\n② 抑制、阻止",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0522",
@@ -23592,24 +22909,6 @@
     {
       "speechId": "act2-speech-0558",
       "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0558",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "checking",
-      "lemma": "check",
-      "meaning": "【動詞】\n① 正しいか・事実かを確認する、照合する\n② 進行・増加・発言などを止める、抑える\n【名詞】\n① 確認、点検\n② 抑制、阻止",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0558",
-      "speaker": "TROTTER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "new",
       "lemma": "",
@@ -23794,15 +23093,6 @@
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
     },
     {
-      "speechId": "act2-speech-0560",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "part",
-      "lemma": "part",
-      "meaning": "【名詞】\n① 部分、一部\n② 役割、役目\n③ 演劇・映画などの役、配役",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
       "speechId": "act2-speech-0562",
       "speaker": "TROTTER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
@@ -23941,15 +23231,6 @@
     {
       "speechId": "act2-speech-0573",
       "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "holding out",
-      "lemma": "hold out",
-      "meaning": "【句動詞】\n① 手や物を前に差し出す\n② 持ちこたえる。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0573",
-      "speaker": "TROTTER",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "know",
       "lemma": "",
@@ -24018,15 +23299,6 @@
       "surface": "mean",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0575",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0575",
@@ -24383,15 +23655,6 @@
     {
       "speechId": "act2-speech-0587",
       "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0587",
-      "speaker": "TROTTER",
       "kind": "DEFER_PROPER_NOUN_PHASE3",
       "surface": "Ralston",
       "lemma": "",
@@ -24444,15 +23707,6 @@
       "surface": "know",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0589",
-      "speaker": "TROTTER",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0589",
@@ -24745,15 +23999,6 @@
     {
       "speechId": "act2-speech-0594",
       "speaker": "MISS CASEWELL",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "field",
-      "lemma": "field",
-      "meaning": "【名詞】\n① 野原、畑\n② 活動・研究などの分野\n③ 候補・参加者などの範囲・一団",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0594",
-      "speaker": "MISS CASEWELL",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "know",
       "lemma": "",
@@ -24830,15 +24075,6 @@
       "surface": "across",
       "lemma": "",
       "reason": "Non-function dialogue token is not covered and does not resolve to an existing dictionary lemma by the conservative morphology rules. Review as a new lexeme or explicit intentional exclusion."
-    },
-    {
-      "speechId": "act2-speech-0594",
-      "speaker": "MISS CASEWELL",
-      "kind": "REVIEW_POLYSEMY_EXACT_DICTIONARY",
-      "surface": "field",
-      "lemma": "field",
-      "meaning": "【名詞】\n① 野原、畑\n② 活動・研究などの分野\n③ 候補・参加者などの範囲・一団",
-      "reason": "Exact dictionary lexeme occurs but is polysemous; select the local sense."
     },
     {
       "speechId": "act2-speech-0594",
@@ -24979,15 +24215,6 @@
     {
       "speechId": "act2-speech-0609",
       "speaker": "MOLLIE",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
-    },
-    {
-      "speechId": "act2-speech-0609",
-      "speaker": "MOLLIE",
       "kind": "REVIEW_NEW_LEXEME_OR_EXCLUSION",
       "surface": "taught",
       "lemma": "",
@@ -25088,15 +24315,6 @@
       "surface": "Ralston",
       "lemma": "",
       "reason": "Capitalized outside sentence-initial position and not resolved to an existing dictionary lemma; defer identity/completeness review to Phase 3."
-    },
-    {
-      "speechId": "act2-speech-0616",
-      "speaker": "MAJOR METCALF",
-      "kind": "REVIEW_POLYSEMY_EXISTING_SURFACE",
-      "surface": "up",
-      "lemma": "upstage",
-      "meaning": "【舞台用語・副詞/形容詞/名詞】\n舞台奥に、舞台奥の、舞台奥。\n【動詞】\n① 舞台奥へ動いて他の俳優を客席に背を向けさせる\n② 人から注目を奪う。",
-      "reason": "Known surface/lemma occurs here but dictionary entry is polysemous; select the local sense before adding."
     },
     {
       "speechId": "act2-speech-0616",

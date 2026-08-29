@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "status": "APPLIED",
+  "candidateOccurrences": 113,
+  "addedVocabularyItems": 82,
+  "noConsensus": 27,
+  "ambiguousConsensus": 0,
+  "duplicates": 4,
+  "addedByLemma": {
+    "upstage": 67,
+    "gather": 3,
+    "move": 2,
+    "field": 2,
+    "consider": 1,
+    "hold out": 2,
+    "affair": 1,
+    "check": 3,
+    "part": 1
+  },
+  "finalVocabularyItems": 3823,
+  "sha256": {
+    "vocabulary": "575b49f3933088634ce4c892be98af4830c37c40e36808a05f01469992f70edc"
+  }
+}

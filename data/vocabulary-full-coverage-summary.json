@@ -3,42 +3,34 @@
   "status": "AUDIT_COMPLETE",
   "counts": {
     "canonicalSpeeches": 1164,
-    "vocabularyItems": 3741,
+    "vocabularyItems": 3823,
     "dictionaryEntries": 1375,
     "tokenCount": 15934,
     "functionTokenCount": 10024,
     "knownNameTokenCount": 266,
     "properDeferredCount": 272,
-    "reviewCandidates": 3016,
+    "reviewCandidates": 2930,
     "unknownTokenTypes": 801,
-    "polysemyLemmaTypes": 16,
+    "polysemyLemmaTypes": 9,
     "properNounDeferredTypes": 50,
     "byKind": {
       "DEFER_PROPER_NOUN_PHASE3": 243,
       "REVIEW_NEW_LEXEME_OR_EXCLUSION": 2660,
-      "REVIEW_POLYSEMY_EXACT_DICTIONARY": 14,
-      "REVIEW_POLYSEMY_EXISTING_SURFACE": 82,
-      "REVIEW_POLYSEMY_MORPHOLOGY": 17
+      "REVIEW_POLYSEMY_EXACT_DICTIONARY": 13,
+      "REVIEW_POLYSEMY_MORPHOLOGY": 14
     }
   },
   "compact": {
     "polysemyLemmas": [
-      "affair",
-      "check",
       "consider",
       "face",
-      "field",
       "follow",
-      "gather",
       "haunt",
-      "hold out",
       "move",
-      "part",
       "rise",
       "show",
       "start",
-      "station",
-      "upstage"
+      "station"
     ],
     "properNounTypes": [
       "army",
