@@ -16,7 +16,7 @@ jobs:
       - name: Checkout exact stage source
         uses: actions/checkout@v4
         with:
-          ref: ca90a09f180c119c136368c5d9ed8564aaf173d4
+          ref: 9ad242627204eb65e91a5d5656dd3ff0a9e1f21f
           path: source
       - name: Checkout exact main used by failed run
         uses: actions/checkout@v4
@@ -78,10 +78,11 @@ jobs:
           if old in s:s=s.replace(old,new,1)
           p.write_text(s,encoding='utf-8')
           PY
-      - name: Install browser QA
+      - name: Install browser QA and assemble production
         working-directory: work/app
         run: |
           npm install
+          npm run assemble:production
           npx playwright install --with-deps chromium
       - name: Run concise E2E diagnostic
         working-directory: work/app
