@@ -392,6 +392,7 @@ document.addEventListener('visibilitychange',()=>{if(document.hidden){lastFocusT
 window.addEventListener('hashchange',()=>{
   focusSwipe=null;
   focusSettling=false;
+  suppressClickUntil=0;
   lastFocusTap=null;
   stopFocusAnimations();
   scheduleFocusRoleSync();
