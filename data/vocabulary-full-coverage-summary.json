@@ -3,19 +3,19 @@
   "status": "AUDIT_COMPLETE",
   "counts": {
     "canonicalSpeeches": 1164,
-    "vocabularyItems": 3850,
-    "dictionaryEntries": 1376,
+    "vocabularyItems": 4152,
+    "dictionaryEntries": 1488,
     "tokenCount": 15934,
     "functionTokenCount": 10024,
     "knownNameTokenCount": 266,
     "properDeferredCount": 274,
-    "reviewCandidates": 2905,
-    "unknownTokenTypes": 801,
+    "reviewCandidates": 2620,
+    "unknownTokenTypes": 659,
     "polysemyLemmaTypes": 0,
     "properNounDeferredTypes": 51,
     "byKind": {
       "DEFER_PROPER_NOUN_PHASE3": 245,
-      "REVIEW_NEW_LEXEME_OR_EXCLUSION": 2660
+      "REVIEW_NEW_LEXEME_OR_EXCLUSION": 2375
     }
   },
   "compact": {
@@ -103,10 +103,6 @@
         "count": 28
       },
       {
-        "token": "young",
-        "count": 26
-      },
-      {
         "token": "get",
         "count": 25
       },
@@ -141,10 +137,6 @@
       {
         "token": "woman",
         "count": 20
-      },
-      {
-        "token": "believe",
-        "count": 19
       },
       {
         "token": "tell",
@@ -223,10 +215,6 @@
         "count": 13
       },
       {
-        "token": "suppose",
-        "count": 13
-      },
-      {
         "token": "yesterday",
         "count": 13
       },
@@ -248,10 +236,6 @@
       },
       {
         "token": "hope",
-        "count": 12
-      },
-      {
-        "token": "husband",
         "count": 12
       },
       {
@@ -365,10 +349,6 @@
       {
         "token": "upstairs",
         "count": 9
-      },
-      {
-        "token": "arrived",
-        "count": 8
       },
       {
         "token": "away",
@@ -603,19 +583,11 @@
         "count": 5
       },
       {
-        "token": "happen",
-        "count": 5
-      },
-      {
         "token": "home",
         "count": 5
       },
       {
         "token": "instead",
-        "count": 5
-      },
-      {
-        "token": "interesting",
         "count": 5
       },
       {
@@ -691,10 +663,6 @@
         "count": 5
       },
       {
-        "token": "understand",
-        "count": 5
-      },
-      {
         "token": "wearing",
         "count": 5
       },
@@ -735,10 +703,6 @@
         "count": 4
       },
       {
-        "token": "enjoying",
-        "count": 4
-      },
-      {
         "token": "exactly",
         "count": 4
       },
@@ -767,15 +731,7 @@
         "count": 4
       },
       {
-        "token": "information",
-        "count": 4
-      },
-      {
         "token": "inside",
-        "count": 4
-      },
-      {
-        "token": "listen",
         "count": 4
       },
       {
@@ -859,10 +815,6 @@
         "count": 4
       },
       {
-        "token": "younger",
-        "count": 4
-      },
-      {
         "token": "across",
         "count": 3
       },
@@ -891,10 +843,6 @@
         "count": 3
       },
       {
-        "token": "beginning",
-        "count": 3
-      },
-      {
         "token": "bring",
         "count": 3
       },
@@ -915,15 +863,7 @@
         "count": 3
       },
       {
-        "token": "dangerous",
-        "count": 3
-      },
-      {
         "token": "drive",
-        "count": 3
-      },
-      {
-        "token": "excellent",
         "count": 3
       },
       {
@@ -951,10 +891,6 @@
         "count": 3
       },
       {
-        "token": "happened",
-        "count": 3
-      },
-      {
         "token": "hard",
         "count": 3
       },
@@ -975,15 +911,7 @@
         "count": 3
       },
       {
-        "token": "husbands",
-        "count": 3
-      },
-      {
         "token": "ill",
-        "count": 3
-      },
-      {
-        "token": "important",
         "count": 3
       },
       {
@@ -1035,10 +963,6 @@
         "count": 3
       },
       {
-        "token": "motorists",
-        "count": 3
-      },
-      {
         "token": "older",
         "count": 3
       },
@@ -1064,10 +988,6 @@
       },
       {
         "token": "play",
-        "count": 3
-      },
-      {
-        "token": "potatoes",
         "count": 3
       },
       {
@@ -1103,10 +1023,6 @@
         "count": 3
       },
       {
-        "token": "shut",
-        "count": 3
-      },
-      {
         "token": "simple",
         "count": 3
       },
@@ -1124,10 +1040,6 @@
       },
       {
         "token": "thinks",
-        "count": 3
-      },
-      {
-        "token": "throughout",
         "count": 3
       },
       {
@@ -1155,36 +1067,8 @@
         "count": 3
       },
       {
-        "token": "whistling",
-        "count": 3
-      },
-      {
-        "token": "wonderful",
-        "count": 3
-      },
-      {
         "token": "wrote",
         "count": 3
-      },
-      {
-        "token": "abnormal",
-        "count": 2
-      },
-      {
-        "token": "accident",
-        "count": 2
-      },
-      {
-        "token": "advertisement",
-        "count": 2
-      },
-      {
-        "token": "answered",
-        "count": 2
-      },
-      {
-        "token": "arrive",
-        "count": 2
       },
       {
         "token": "asked",
@@ -1192,10 +1076,6 @@
       },
       {
         "token": "bag",
-        "count": 2
-      },
-      {
-        "token": "beautiful",
         "count": 2
       },
       {
@@ -1227,31 +1107,11 @@
         "count": 2
       },
       {
-        "token": "breakfast",
-        "count": 2
-      },
-      {
-        "token": "carefully",
-        "count": 2
-      },
-      {
         "token": "chance",
         "count": 2
       },
       {
-        "token": "chicken",
-        "count": 2
-      },
-      {
-        "token": "chickens",
-        "count": 2
-      },
-      {
         "token": "coat",
-        "count": 2
-      },
-      {
-        "token": "continue",
         "count": 2
       },
       {
@@ -1263,15 +1123,155 @@
         "count": 2
       },
       {
-        "token": "discover",
-        "count": 2
-      },
-      {
         "token": "dogs",
         "count": 2
       },
       {
-        "token": "downstairs",
+        "token": "easier",
+        "count": 2
+      },
+      {
+        "token": "eggs",
+        "count": 2
+      },
+      {
+        "token": "eldest",
+        "count": 2
+      },
+      {
+        "token": "evening",
+        "count": 2
+      },
+      {
+        "token": "everybody's",
+        "count": 2
+      },
+      {
+        "token": "excuse",
+        "count": 2
+      },
+      {
+        "token": "feeling",
+        "count": 2
+      },
+      {
+        "token": "feet",
+        "count": 2
+      },
+      {
+        "token": "fresh",
+        "count": 2
+      },
+      {
+        "token": "friends",
+        "count": 2
+      },
+      {
+        "token": "gate",
+        "count": 2
+      },
+      {
+        "token": "gets",
+        "count": 2
+      },
+      {
+        "token": "getting",
+        "count": 2
+      },
+      {
+        "token": "given",
+        "count": 2
+      },
+      {
+        "token": "goes",
+        "count": 2
+      },
+      {
+        "token": "happy",
+        "count": 2
+      },
+      {
+        "token": "healthy",
+        "count": 2
+      },
+      {
+        "token": "helping",
+        "count": 2
+      },
+      {
+        "token": "hens",
+        "count": 2
+      },
+      {
+        "token": "hide",
+        "count": 2
+      },
+      {
+        "token": "imagine",
+        "count": 2
+      },
+      {
+        "token": "island",
+        "count": 2
+      },
+      {
+        "token": "keep",
+        "count": 2
+      },
+      {
+        "token": "killer's",
+        "count": 2
+      },
+      {
+        "token": "knows",
+        "count": 2
+      },
+      {
+        "token": "later",
+        "count": 2
+      },
+      {
+        "token": "lied",
+        "count": 2
+      },
+      {
+        "token": "line's",
+        "count": 2
+      },
+      {
+        "token": "longer",
+        "count": 2
+      },
+      {
+        "token": "lots",
+        "count": 2
+      },
+      {
+        "token": "lying",
+        "count": 2
+      },
+      {
+        "token": "meant",
+        "count": 2
+      },
+      {
+        "token": "minced",
+        "count": 2
+      },
+      {
+        "token": "monkwell",
+        "count": 2
+      },
+      {
+        "token": "mouse",
+        "count": 2
+      },
+      {
+        "token": "natural",
+        "count": 2
+      },
+      {
+        "token": "new",
         "count": 2
       }
     ]

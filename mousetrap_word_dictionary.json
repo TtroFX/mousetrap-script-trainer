@@ -14611,5 +14611,901 @@
       "chunk"
     ],
     "meaning": "【定型表現】\n次のとおり、以下のとおり。"
+  },
+  "inconveniently": {
+    "lemma": "inconveniently",
+    "pos": "副詞",
+    "coreMeaning": "【副】不便に、都合の悪い形で。",
+    "meaning": "【副】不便に、都合の悪い形で。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "unfortunately": {
+    "lemma": "unfortunately",
+    "pos": "副詞",
+    "coreMeaning": "【副】残念ながら、不運にも。",
+    "meaning": "【副】残念ながら、不運にも。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "inconvenient": {
+    "lemma": "inconvenient",
+    "pos": "形容詞",
+    "coreMeaning": "【形】不便な、都合の悪い。",
+    "meaning": "【形】不便な、都合の悪い。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "deliciously": {
+    "lemma": "deliciously",
+    "pos": "副詞",
+    "coreMeaning": "【副】おいしく；非常に愉快に、魅力的に。",
+    "meaning": "【副】おいしく；非常に愉快に、魅力的に。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "fortunately": {
+    "lemma": "fortunately",
+    "pos": "副詞",
+    "coreMeaning": "【副】幸運にも、ありがたいことに。",
+    "meaning": "【副】幸運にも、ありがたいことに。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "immediately": {
+    "lemma": "immediately",
+    "pos": "副詞",
+    "coreMeaning": "【副】すぐに、直ちに。",
+    "meaning": "【副】すぐに、直ちに。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "possibility": {
+    "lemma": "possibility",
+    "pos": "名詞",
+    "coreMeaning": "【名】可能性、あり得ること。",
+    "meaning": "【名】可能性、あり得ること。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "suggestion": {
+    "lemma": "suggestion",
+    "pos": "名詞",
+    "coreMeaning": "【名】提案；示唆、ほのめかし。",
+    "meaning": "【名】提案；示唆、ほのめかし。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "unfortunate": {
+    "lemma": "unfortunate",
+    "pos": "形容詞",
+    "coreMeaning": "【形】不運な；残念な、好ましくない。",
+    "meaning": "【形】不運な；残念な、好ましくない。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "unhappiness": {
+    "lemma": "unhappiness",
+    "pos": "名詞",
+    "coreMeaning": "【名】不幸、不満、悲しみ。",
+    "meaning": "【名】不幸、不満、悲しみ。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "beforehand": {
+    "lemma": "beforehand",
+    "pos": "副詞",
+    "coreMeaning": "【副】前もって、あらかじめ。",
+    "meaning": "【副】前もって、あらかじめ。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "completely": {
+    "lemma": "completely",
+    "pos": "副詞",
+    "coreMeaning": "【副】完全に、すっかり。",
+    "meaning": "【副】完全に、すっかり。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "delightful": {
+    "lemma": "delightful",
+    "pos": "形容詞",
+    "coreMeaning": "【形】とても楽しい、魅力的な。",
+    "meaning": "【形】とても楽しい、魅力的な。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "direction": {
+    "lemma": "direction",
+    "pos": "名詞",
+    "coreMeaning": "【名】方向；指示、案内。",
+    "meaning": "【名】方向；指示、案内。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "disgusting": {
+    "lemma": "disgusting",
+    "pos": "形容詞",
+    "coreMeaning": "【形】非常に不快な、嫌悪感を起こさせる。",
+    "meaning": "【形】非常に不快な、嫌悪感を起こさせる。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "enchanting": {
+    "lemma": "enchanting",
+    "pos": "形容詞",
+    "coreMeaning": "【形】とても魅力的な、うっとりさせる。",
+    "meaning": "【形】とても魅力的な、うっとりさせる。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "especially": {
+    "lemma": "especially",
+    "pos": "副詞",
+    "coreMeaning": "【副】特に、とりわけ。",
+    "meaning": "【副】特に、とりわけ。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "everywhere": {
+    "lemma": "everywhere",
+    "pos": "副詞",
+    "coreMeaning": "【副】どこにでも、至る所に。",
+    "meaning": "【副】どこにでも、至る所に。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "interested": {
+    "lemma": "interested",
+    "pos": "形容詞",
+    "coreMeaning": "【形】興味・関心を持っている。",
+    "meaning": "【形】興味・関心を持っている。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "particular": {
+    "lemma": "particular",
+    "pos": "形容詞",
+    "coreMeaning": "【形】特定の；特別な；細かい点にこだわる。",
+    "meaning": "【形】特定の；特別な；細かい点にこだわる。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "staircase": {
+    "lemma": "staircase",
+    "pos": "名詞",
+    "coreMeaning": "【名】階段、階段部分。",
+    "meaning": "【名】階段、階段部分。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "suggest": {
+    "lemma": "suggest",
+    "pos": "動詞",
+    "coreMeaning": "【動】提案する；示唆する、ほのめかす。",
+    "meaning": "【動】提案する；示唆する、ほのめかす。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "sweetheart": {
+    "lemma": "sweetheart",
+    "pos": "名詞",
+    "coreMeaning": "【名】恋人、愛する人；親しい呼びかけ。",
+    "meaning": "【名】恋人、愛する人；親しい呼びかけ。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "unpleasant": {
+    "lemma": "unpleasant",
+    "pos": "形容詞",
+    "coreMeaning": "【形】不快な、嫌な。",
+    "meaning": "【形】不快な、嫌な。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "advertisement": {
+    "lemma": "advertisement",
+    "pos": "名詞",
+    "coreMeaning": "【名】広告、宣伝。",
+    "meaning": "【名】広告、宣伝。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "downstairs": {
+    "lemma": "downstairs",
+    "pos": "副詞・形容詞・名詞",
+    "coreMeaning": "【副】階下へ、階下で。\n【形】階下の。\n【名】階下。",
+    "meaning": "【副】階下へ、階下で。\n【形】階下の。\n【名】階下。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "experience": {
+    "lemma": "experience",
+    "pos": "名詞・動詞",
+    "coreMeaning": "【名】経験、体験。\n【動】経験する。",
+    "meaning": "【名】経験、体験。\n【動】経験する。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "throughout": {
+    "lemma": "throughout",
+    "pos": "前置詞・副詞",
+    "coreMeaning": "【前】～の間ずっと、～の至る所で。\n【副】最初から最後まで、至る所に。",
+    "meaning": "【前】～の間ずっと、～の至る所で。\n【副】最初から最後まで、至る所に。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "understand": {
+    "lemma": "understand",
+    "pos": "動詞",
+    "coreMeaning": "【動】理解する；～だと認識する、聞いている。",
+    "meaning": "【動】理解する；～だと認識する、聞いている。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "unfinished": {
+    "lemma": "unfinished",
+    "pos": "形容詞",
+    "coreMeaning": "【形】未完成の、終わっていない。",
+    "meaning": "【形】未完成の、終わっていない。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "vegetable": {
+    "lemma": "vegetable",
+    "pos": "名詞",
+    "coreMeaning": "【名】野菜。",
+    "meaning": "【名】野菜。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "arrest": {
+    "lemma": "arrest",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動】逮捕する。\n【名】逮捕。",
+    "meaning": "【動】逮捕する。\n【名】逮捕。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "brilliant": {
+    "lemma": "brilliant",
+    "pos": "形容詞",
+    "coreMeaning": "【形】非常に優れた、すばらしい；輝くように明るい。",
+    "meaning": "【形】非常に優れた、すばらしい；輝くように明るい。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "cigarette": {
+    "lemma": "cigarette",
+    "pos": "名詞",
+    "coreMeaning": "【名】紙巻きたばこ。",
+    "meaning": "【名】紙巻きたばこ。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "complete": {
+    "lemma": "complete",
+    "pos": "動詞・形容詞",
+    "coreMeaning": "【動】完成させる、完了する；不足を補って完全にする。\n【形】完全な、全部そろった。",
+    "meaning": "【動】完成させる、完了する；不足を補って完全にする。\n【形】完全な、全部そろった。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "delicious": {
+    "lemma": "delicious",
+    "pos": "形容詞",
+    "coreMeaning": "【形】とてもおいしい；くだけた用法で、とても愉快な・楽しい。",
+    "meaning": "【形】とてもおいしい；くだけた用法で、とても愉快な・楽しい。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "depressed": {
+    "lemma": "depressed",
+    "pos": "形容詞",
+    "coreMeaning": "【形】気落ちした、憂うつな。",
+    "meaning": "【形】気落ちした、憂うつな。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "extremely": {
+    "lemma": "extremely",
+    "pos": "副詞",
+    "coreMeaning": "【副】非常に、極めて。",
+    "meaning": "【副】非常に、極めて。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "fifteenth": {
+    "lemma": "fifteenth",
+    "pos": "序数詞・名詞",
+    "coreMeaning": "【序】第15の。\n【名】15番目；15日。",
+    "meaning": "【序】第15の。\n【名】15番目；15日。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "happen": {
+    "lemma": "happen",
+    "pos": "動詞",
+    "coreMeaning": "【動】起こる、生じる。",
+    "meaning": "【動】起こる、生じる。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "introduce": {
+    "lemma": "introduce",
+    "pos": "動詞",
+    "coreMeaning": "【動】紹介する；導入する。",
+    "meaning": "【動】紹介する；導入する。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "knowledge": {
+    "lemma": "knowledge",
+    "pos": "名詞",
+    "coreMeaning": "【名】知識；知っていること。",
+    "meaning": "【名】知識；知っていること。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "movement": {
+    "lemma": "movement",
+    "pos": "名詞",
+    "coreMeaning": "【名】動き、動作；移動。",
+    "meaning": "【名】動き、動作；移動。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "northeast": {
+    "lemma": "northeast",
+    "pos": "名詞・形容詞・副詞",
+    "coreMeaning": "【名】北東。\n【形】北東の。\n【副】北東へ。",
+    "meaning": "【名】北東。\n【形】北東の。\n【副】北東へ。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "overdo": {
+    "lemma": "overdo",
+    "pos": "動詞",
+    "coreMeaning": "【動】やり過ぎる、度を越す。",
+    "meaning": "【動】やり過ぎる、度を越す。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "prepare": {
+    "lemma": "prepare",
+    "pos": "動詞",
+    "coreMeaning": "【動】準備する、用意する。",
+    "meaning": "【動】準備する、用意する。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "receive": {
+    "lemma": "receive",
+    "pos": "動詞",
+    "coreMeaning": "【動】受け取る；迎える、受け入れる。",
+    "meaning": "【動】受け取る；迎える、受け入れる。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "satisfied": {
+    "lemma": "satisfied",
+    "pos": "形容詞",
+    "coreMeaning": "【形】満足した；納得した。",
+    "meaning": "【形】満足した；納得した。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "shiver": {
+    "lemma": "shiver",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動】寒さ・恐怖などで震える。\n【名】震え。",
+    "meaning": "【動】寒さ・恐怖などで震える。\n【名】震え。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "situation": {
+    "lemma": "situation",
+    "pos": "名詞",
+    "coreMeaning": "【名】状況、事態。",
+    "meaning": "【名】状況、事態。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "anywhere": {
+    "lemma": "anywhere",
+    "pos": "副詞",
+    "coreMeaning": "【副】どこかに、どこへでも；どこにも。",
+    "meaning": "【副】どこかに、どこへでも；どこにも。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "arrive": {
+    "lemma": "arrive",
+    "pos": "動詞",
+    "coreMeaning": "【動】到着する、着く。",
+    "meaning": "【動】到着する、着く。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "baptize": {
+    "lemma": "baptize",
+    "pos": "動詞",
+    "coreMeaning": "【動】洗礼を授ける；洗礼名を付ける。",
+    "meaning": "【動】洗礼を授ける；洗礼名を付ける。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "behave": {
+    "lemma": "behave",
+    "pos": "動詞",
+    "coreMeaning": "【動】振る舞う、行動する。",
+    "meaning": "【動】振る舞う、行動する。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "believe": {
+    "lemma": "believe",
+    "pos": "動詞",
+    "coreMeaning": "【動】信じる；～だと思う。",
+    "meaning": "【動】信じる；～だと思う。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "bully": {
+    "lemma": "bully",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動】いじめる、威圧する。\n【名】いじめる人、弱い者を威圧する人。",
+    "meaning": "【動】いじめる、威圧する。\n【名】いじめる人、弱い者を威圧する人。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "discover": {
+    "lemma": "discover",
+    "pos": "動詞",
+    "coreMeaning": "【動】発見する；気づく、知る。",
+    "meaning": "【動】発見する；気づく、知る。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "drag": {
+    "lemma": "drag",
+    "pos": "動詞",
+    "coreMeaning": "【動】引きずる、無理に引っ張る。",
+    "meaning": "【動】引きずる、無理に引っ張る。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "exciting": {
+    "lemma": "exciting",
+    "pos": "形容詞",
+    "coreMeaning": "【形】わくわくさせる、刺激的な。",
+    "meaning": "【形】わくわくさせる、刺激的な。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "family": {
+    "lemma": "family",
+    "pos": "名詞",
+    "coreMeaning": "【名】家族、一家。",
+    "meaning": "【名】家族、一家。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "handsome": {
+    "lemma": "handsome",
+    "pos": "形容詞",
+    "coreMeaning": "【形】（主に男性が）顔立ちの整った；立派な。",
+    "meaning": "【形】（主に男性が）顔立ちの整った；立派な。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "helpless": {
+    "lemma": "helpless",
+    "pos": "形容詞",
+    "coreMeaning": "【形】自力ではどうにもできない、無力な。",
+    "meaning": "【形】自力ではどうにもできない、無力な。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "identify": {
+    "lemma": "identify",
+    "pos": "動詞",
+    "coreMeaning": "【動】身元・正体を確認する、特定する。",
+    "meaning": "【動】身元・正体を確認する、特定する。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "interest": {
+    "lemma": "interest",
+    "pos": "名詞・動詞",
+    "coreMeaning": "【名】興味、関心。\n【動】興味を持たせる。",
+    "meaning": "【名】興味、関心。\n【動】興味を持たせる。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "message": {
+    "lemma": "message",
+    "pos": "名詞",
+    "coreMeaning": "【名】伝言、メッセージ。",
+    "meaning": "【名】伝言、メッセージ。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "painter": {
+    "lemma": "painter",
+    "pos": "名詞",
+    "coreMeaning": "【名】画家；塗装工。",
+    "meaning": "【名】画家；塗装工。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "plan": {
+    "lemma": "plan",
+    "pos": "名詞・動詞",
+    "coreMeaning": "【名】計画。\n【動】計画する。",
+    "meaning": "【名】計画。\n【動】計画する。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "pleasure": {
+    "lemma": "pleasure",
+    "pos": "名詞",
+    "coreMeaning": "【名】喜び、楽しみ。",
+    "meaning": "【名】喜び、楽しみ。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "portrait": {
+    "lemma": "portrait",
+    "pos": "名詞",
+    "coreMeaning": "【名】肖像、肖像画。",
+    "meaning": "【名】肖像、肖像画。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "problem": {
+    "lemma": "problem",
+    "pos": "名詞",
+    "coreMeaning": "【名】問題、難題。",
+    "meaning": "【名】問題、難題。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "produce": {
+    "lemma": "produce",
+    "pos": "動詞",
+    "coreMeaning": "【動】作り出す；提示する、取り出して見せる。",
+    "meaning": "【動】作り出す；提示する、取り出して見せる。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "promise": {
+    "lemma": "promise",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動】約束する。\n【名】約束。",
+    "meaning": "【動】約束する。\n【名】約束。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "realize": {
+    "lemma": "realize",
+    "pos": "動詞",
+    "coreMeaning": "【動】理解する、気づく；実現する。",
+    "meaning": "【動】理解する、気づく；実現する。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "securely": {
+    "lemma": "securely",
+    "pos": "副詞",
+    "coreMeaning": "【副】しっかりと、安全に、外れないように。",
+    "meaning": "【副】しっかりと、安全に、外れないように。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "shout": {
+    "lemma": "shout",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動】叫ぶ、大声で言う。\n【名】叫び声。",
+    "meaning": "【動】叫ぶ、大声で言う。\n【名】叫び声。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "shut": {
+    "lemma": "shut",
+    "pos": "動詞・形容詞",
+    "coreMeaning": "【動】閉める、閉じる。\n【形】閉じた。",
+    "meaning": "【動】閉める、閉じる。\n【形】閉じた。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "thousand": {
+    "lemma": "thousand",
+    "pos": "数詞・名詞",
+    "coreMeaning": "【数】1000の。\n【名】1000。",
+    "meaning": "【数】1000の。\n【名】1000。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "unstable": {
+    "lemma": "unstable",
+    "pos": "形容詞",
+    "coreMeaning": "【形】不安定な；精神・感情などが安定していない。",
+    "meaning": "【形】不安定な；精神・感情などが安定していない。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "watch": {
+    "lemma": "watch",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動】注意して見る、見張る。\n【名】腕時計；見張り。",
+    "meaning": "【動】注意して見る、見張る。\n【名】腕時計；見張り。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "worry": {
+    "lemma": "worry",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動】心配する、心配させる。\n【名】心配、悩み。",
+    "meaning": "【動】心配する、心配させる。\n【名】心配、悩み。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "young": {
+    "lemma": "young",
+    "pos": "形容詞",
+    "coreMeaning": "【形】若い、年若い。",
+    "meaning": "【形】若い、年若い。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "information": {
+    "lemma": "information",
+    "pos": "名詞",
+    "coreMeaning": "【名】情報、知らせ。",
+    "meaning": "【名】情報、知らせ。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "interesting": {
+    "lemma": "interesting",
+    "pos": "形容詞",
+    "coreMeaning": "【形】興味深い、おもしろい。",
+    "meaning": "【形】興味深い、おもしろい。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "beautiful": {
+    "lemma": "beautiful",
+    "pos": "形容詞",
+    "coreMeaning": "【形】美しい、見事な。",
+    "meaning": "【形】美しい、見事な。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "beginning": {
+    "lemma": "beginning",
+    "pos": "名詞",
+    "coreMeaning": "【名】始まり、初め。",
+    "meaning": "【名】始まり、初め。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "breakfast": {
+    "lemma": "breakfast",
+    "pos": "名詞・動詞",
+    "coreMeaning": "【名】朝食。\n【動】朝食をとる。",
+    "meaning": "【名】朝食。\n【動】朝食をとる。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "carefully": {
+    "lemma": "carefully",
+    "pos": "副詞",
+    "coreMeaning": "【副】注意深く、慎重に。",
+    "meaning": "【副】注意深く、慎重に。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "dangerous": {
+    "lemma": "dangerous",
+    "pos": "形容詞",
+    "coreMeaning": "【形】危険な。",
+    "meaning": "【形】危険な。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "excellent": {
+    "lemma": "excellent",
+    "pos": "形容詞",
+    "coreMeaning": "【形】非常に優れた、すばらしい。",
+    "meaning": "【形】非常に優れた、すばらしい。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "fantastic": {
+    "lemma": "fantastic",
+    "pos": "形容詞",
+    "coreMeaning": "【形】すばらしい；空想的な、現実離れした。",
+    "meaning": "【形】すばらしい；空想的な、現実離れした。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "important": {
+    "lemma": "important",
+    "pos": "形容詞",
+    "coreMeaning": "【形】重要な、大切な。",
+    "meaning": "【形】重要な、大切な。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "listen": {
+    "lemma": "listen",
+    "pos": "動詞",
+    "coreMeaning": "【動】聞く、耳を傾ける。",
+    "meaning": "【動】聞く、耳を傾ける。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "motorist": {
+    "lemma": "motorist",
+    "pos": "名詞",
+    "coreMeaning": "【名】自動車を運転する人、ドライバー。",
+    "meaning": "【名】自動車を運転する人、ドライバー。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "perform": {
+    "lemma": "perform",
+    "pos": "動詞",
+    "coreMeaning": "【動】行う、実行する；演じる。",
+    "meaning": "【動】行う、実行する；演じる。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "suppose": {
+    "lemma": "suppose",
+    "pos": "動詞",
+    "coreMeaning": "【動】～と思う；～と仮定する。",
+    "meaning": "【動】～と思う；～と仮定する。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "whistle": {
+    "lemma": "whistle",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動】口笛を吹く；笛を鳴らす。\n【名】口笛；笛、警笛。",
+    "meaning": "【動】口笛を吹く；笛を鳴らす。\n【名】口笛；笛、警笛。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "wonderful": {
+    "lemma": "wonderful",
+    "pos": "形容詞",
+    "coreMeaning": "【形】すばらしい、見事な。",
+    "meaning": "【形】すばらしい、見事な。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "abnormal": {
+    "lemma": "abnormal",
+    "pos": "形容詞",
+    "coreMeaning": "【形】異常な、普通ではない。",
+    "meaning": "【形】異常な、普通ではない。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "accident": {
+    "lemma": "accident",
+    "pos": "名詞",
+    "coreMeaning": "【名】事故；偶然の出来事。",
+    "meaning": "【名】事故；偶然の出来事。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "answer": {
+    "lemma": "answer",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動】答える、返事をする。\n【名】答え、返事。",
+    "meaning": "【動】答える、返事をする。\n【名】答え、返事。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "chicken": {
+    "lemma": "chicken",
+    "pos": "名詞",
+    "coreMeaning": "【名】鶏；鶏肉。",
+    "meaning": "【名】鶏；鶏肉。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "continue": {
+    "lemma": "continue",
+    "pos": "動詞",
+    "coreMeaning": "【動】続ける、続く。",
+    "meaning": "【動】続ける、続く。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "enjoy": {
+    "lemma": "enjoy",
+    "pos": "動詞",
+    "coreMeaning": "【動】楽しむ。",
+    "meaning": "【動】楽しむ。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "finish": {
+    "lemma": "finish",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動】終える、終わる。\n【名】終わり、仕上げ。",
+    "meaning": "【動】終える、終わる。\n【名】終わり、仕上げ。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "husband": {
+    "lemma": "husband",
+    "pos": "名詞",
+    "coreMeaning": "【名】夫。",
+    "meaning": "【名】夫。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "potato": {
+    "lemma": "potato",
+    "pos": "名詞",
+    "coreMeaning": "【名】ジャガイモ。",
+    "meaning": "【名】ジャガイモ。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "suddenly": {
+    "lemma": "suddenly",
+    "pos": "副詞",
+    "coreMeaning": "【副】突然、急に。",
+    "meaning": "【副】突然、急に。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "together": {
+    "lemma": "together",
+    "pos": "副詞",
+    "coreMeaning": "【副】一緒に；まとめて。",
+    "meaning": "【副】一緒に；まとめて。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "tomorrow": {
+    "lemma": "tomorrow",
+    "pos": "副詞・名詞",
+    "coreMeaning": "【副】明日。\n【名】明日。",
+    "meaning": "【副】明日。\n【名】明日。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "training": {
+    "lemma": "training",
+    "pos": "名詞",
+    "coreMeaning": "【名】訓練、研修、トレーニング。",
+    "meaning": "【名】訓練、研修、トレーニング。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "jeunesse": {
+    "lemma": "jeunesse",
+    "pos": "外国語表現",
+    "coreMeaning": "【仏・名】若さ、青春。",
+    "meaning": "【仏・名】若さ、青春。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
+  },
+  "arrivederla": {
+    "lemma": "arrivederla",
+    "pos": "外国語表現",
+    "coreMeaning": "【伊・間投】さようなら、ごきげんよう。",
+    "meaning": "【伊・間投】さようなら、ごきげんよう。",
+    "forms": "本文中では必要に応じて活用・派生形で現れる。",
+    "tags": []
   }
 }

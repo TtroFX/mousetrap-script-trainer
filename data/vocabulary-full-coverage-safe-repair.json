@@ -6,14 +6,16 @@
     "ADD_EXACT_DICTIONARY",
     "ADD_MORPHOLOGY"
   ],
-  "candidateOccurrences": 0,
-  "addedVocabularyItems": 0,
+  "candidateOccurrences": 6,
+  "addedVocabularyItems": 6,
   "alreadyPresent": 0,
   "collapsedDuplicates": 0,
-  "byKind": {},
-  "finalVocabularyItems": 3850,
-  "finalAnnotatedSpeeches": 888,
+  "byKind": {
+    "ADD_EXISTING_SURFACE": 6
+  },
+  "finalVocabularyItems": 4152,
+  "finalAnnotatedSpeeches": 919,
   "sha256": {
-    "vocabulary": "50125450cce493aa32b12192836b10edfce50bcb58b9f8df5d36ada8e2092e54"
+    "vocabulary": "21020419a1101e85e26b28b99694bab3831aea72e538bdc681153126b56f4283"
   }
 }
