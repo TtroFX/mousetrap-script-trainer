@@ -7,7 +7,7 @@ on:
       - '.github/workflows/stage-e2e-diagnostic.yml'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   diagnose:
@@ -23,6 +23,11 @@ jobs:
         with:
           ref: dd59c1431a034543d241424ce5957f6fb882ce08
           path: work
+      - name: Checkout report branch
+        uses: actions/checkout@v4
+        with:
+          ref: feature/pdf-stage-directions
+          path: report
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -91,8 +96,20 @@ jobs:
           set +e
           npm run test:e2e -- --reporter=line 2>&1 | tee /tmp/stage-e2e.log
           status=${PIPESTATUS[0]}
-          echo '===== FAILURE SUMMARY ====='
-          grep -E '(^|[[:space:]])([0-9]+\)|Error:|Expected:|Received:|Timeout|failed|×|✘)' /tmp/stage-e2e.log | tail -n 300 || true
-          echo '===== ERROR CONTEXTS ====='
-          find test-results -type f -name 'error-context.md' -print -exec sh -c 'echo ---; cat "$1"' _ {} \; 2>/dev/null || true
+          {
+            echo '===== FAILURE SUMMARY ====='
+            grep -E '(^|[[:space:]])([0-9]+\)|Error:|Expected:|Received:|Timeout|failed|×|✘)' /tmp/stage-e2e.log | tail -n 300 || true
+            echo '===== ERROR CONTEXTS ====='
+            find test-results -type f -name 'error-context.md' -print -exec sh -c 'echo ---; cat "$1"' _ {} \; 2>/dev/null || true
+          } | tee /tmp/stage-e2e-summary.txt
+          mkdir -p ../../report/diagnostics
+          cp /tmp/stage-e2e-summary.txt ../../report/diagnostics/stage-e2e-latest.txt
+          cd ../../report
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add diagnostics/stage-e2e-latest.txt
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record latest stage E2E failure summary'
+            git push origin HEAD:feature/pdf-stage-directions
+          fi
           exit $status
