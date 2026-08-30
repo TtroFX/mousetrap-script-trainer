@@ -15536,9 +15536,1001 @@
       "act": 1,
       "scene": 2,
       "sourceOrder": 186,
-  
-... 33279 bytes omitted ...
-�舞台上の動作・状態を簡潔に記述する。",
+      "category": "music",
+      "anchor": {
+        "type": "before",
+        "speechId": "act1-scene2-speech-0268",
+        "order": 186
+      },
+      "actorCueForSpeech": false
+    },
+    {
+      "id": "sd-act1-scene2-0186",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0268",
+      "placement": "delivery",
+      "text": "moving up to the window to close the curtains",
+      "summaryJa": "MOLLIEが窓辺へ移動する。",
+      "sourcePages": [
+        38
+      ],
+      "sourceSpeakerOrdinal": 268,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "curtain",
+          "lemma": "curtain",
+          "meaning": "幕、カーテン",
+          "note": "文脈により舞台幕または室内のカーテン。"
+        }
+      ],
+      "notes": [
+        "舞台脚本のト書きでは、現在形や現在分詞を使って舞台上の動作・状態を簡潔に記述する。",
+        "この指示は話者名と同じ行に置かれており、台詞の言い方・直前動作に直接結び付く。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 187,
+      "category": "delivery",
+      "anchor": {
+        "type": "delivery",
+        "speechId": "act1-scene2-speech-0268",
+        "order": 187
+      },
+      "actorCueForSpeech": true
+    },
+    {
+      "id": "sd-act1-scene2-0187",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0270",
+      "placement": "delivery",
+      "text": "She moves round to Centre of the refectory table.",
+      "summaryJa": "MOLLIEが舞台中央へ移動する。",
+      "sourcePages": [
+        38
+      ],
+      "sourceSpeakerOrdinal": 270,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "Centre",
+          "lemma": "Centre",
+          "meaning": "舞台中央",
+          "note": "舞台位置を表す表記。"
+        },
+        {
+          "surface": "move",
+          "lemma": "move",
+          "meaning": "移動する",
+          "note": "舞台上の位置取りを変える動作。"
+        },
+        {
+          "surface": "refectory table",
+          "lemma": "refectory table",
+          "meaning": "長い食堂用テーブル",
+          "note": "大広間に置かれた舞台家具。"
+        }
+      ],
+      "notes": [
+        "舞台脚本のト書きでは、現在形や現在分詞を使って舞台上の動作・状態を簡潔に記述する。",
+        "Left / Right / Centre / up / down は舞台上の位置を示す表記。up は舞台奥、down は舞台手前を表す。",
+        "この指示は話者名と同じ行に置かれており、台詞の言い方・直前動作に直接結び付く。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 188,
+      "category": "delivery",
+      "anchor": {
+        "type": "delivery",
+        "speechId": "act1-scene2-speech-0270",
+        "order": 188
+      },
+      "actorCueForSpeech": true
+    },
+    {
+      "id": "sd-act1-scene2-0188",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0273",
+      "placement": "delivery",
+      "text": "crossing to the fire",
+      "summaryJa": "暖炉の火へ移動しながら。",
+      "sourcePages": [
+        38
+      ],
+      "sourceSpeakerOrdinal": 273,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "cross",
+          "lemma": "cross",
+          "meaning": "（舞台上を）移動する、横切る",
+          "note": "舞台ト書きでは立ち位置を変える動作を表す。"
+        }
+      ],
+      "notes": [
+        "現在分詞を中心にした省略形で、台詞と同時または直前の動作を簡潔に指定している。",
+        "この指示は話者名と同じ行に置かれており、台詞の言い方・直前動作に直接結び付く。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 189,
+      "category": "delivery",
+      "anchor": {
+        "type": "delivery",
+        "speechId": "act1-scene2-speech-0273",
+        "order": 189
+      },
+      "actorCueForSpeech": true
+    },
+    {
+      "id": "sd-act1-scene2-0189",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0282",
+      "placement": "delivery",
+      "text": "moving down below the sofa",
+      "summaryJa": "MOLLIEがソファへ移動する。",
+      "sourcePages": [
+        39
+      ],
+      "sourceSpeakerOrdinal": 282,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "sofa",
+          "lemma": "sofa",
+          "meaning": "ソファ",
+          "note": "舞台家具。"
+        }
+      ],
+      "notes": [
+        "現在分詞を中心にした省略形で、台詞と同時または直前の動作を簡潔に指定している。",
+        "この指示は話者名と同じ行に置かれており、台詞の言い方・直前動作に直接結び付く。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 190,
+      "category": "delivery",
+      "anchor": {
+        "type": "delivery",
+        "speechId": "act1-scene2-speech-0282",
+        "order": 190
+      },
+      "actorCueForSpeech": true
+    },
+    {
+      "id": "sd-act1-scene2-0190",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0287",
+      "placement": "delivery",
+      "text": "forcefully",
+      "summaryJa": "力強く。",
+      "sourcePages": [
+        39
+      ],
+      "sourceSpeakerOrdinal": 287,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "forcefully",
+          "lemma": "forcefully",
+          "meaning": "力強く",
+          "note": "このト書き全体を一つの舞台表現として読む。"
+        }
+      ],
+      "notes": [
+        "台詞の口調・感情・声の出し方を指定する短いト書き。",
+        "この指示は話者名と同じ行に置かれており、台詞の言い方・直前動作に直接結び付く。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 191,
+      "category": "delivery",
+      "anchor": {
+        "type": "delivery",
+        "speechId": "act1-scene2-speech-0287",
+        "order": 191
+      },
+      "actorCueForSpeech": true
+    },
+    {
+      "id": "sd-act1-scene2-0191",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0287",
+      "placement": "delivery",
+      "text": "She moves down Centre.",
+      "summaryJa": "彼女が舞台手前中央へ移動する。",
+      "sourcePages": [
+        39
+      ],
+      "sourceSpeakerOrdinal": 287,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "down Centre",
+          "lemma": "down Centre",
+          "meaning": "舞台手前中央",
+          "note": "舞台位置を表す表記。"
+        },
+        {
+          "surface": "Centre",
+          "lemma": "Centre",
+          "meaning": "舞台中央",
+          "note": "舞台位置を表す表記。"
+        },
+        {
+          "surface": "move",
+          "lemma": "move",
+          "meaning": "移動する",
+          "note": "舞台上の位置取りを変える動作。"
+        }
+      ],
+      "notes": [
+        "舞台脚本のト書きでは、現在形や現在分詞を使って舞台上の動作・状態を簡潔に記述する。",
+        "Left / Right / Centre / up / down は舞台上の位置を示す表記。up は舞台奥、down は舞台手前を表す。",
+        "この指示は話者名と同じ行に置かれており、台詞の言い方・直前動作に直接結び付く。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 192,
+      "category": "delivery",
+      "anchor": {
+        "type": "delivery",
+        "speechId": "act1-scene2-speech-0287",
+        "order": 192
+      },
+      "actorCueForSpeech": true
+    },
+    {
+      "id": "sd-act1-scene2-0192",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0288",
+      "placement": "delivery",
+      "text": "She sighs.",
+      "summaryJa": "MOLLIEがため息をつく。",
+      "sourcePages": [
+        39
+      ],
+      "sourceSpeakerOrdinal": 288,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "She sighs",
+          "lemma": "she sighs",
+          "meaning": "台詞に伴う動作・表情・位置取りを補足するト書き",
+          "note": "このト書き全体を一つの舞台表現として読む。"
+        }
+      ],
+      "notes": [
+        "舞台脚本のト書きでは、現在形や現在分詞を使って舞台上の動作・状態を簡潔に記述する。",
+        "この指示は話者名と同じ行に置かれており、台詞の言い方・直前動作に直接結び付く。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 193,
+      "category": "delivery",
+      "anchor": {
+        "type": "delivery",
+        "speechId": "act1-scene2-speech-0288",
+        "order": 193
+      },
+      "actorCueForSpeech": true
+    },
+    {
+      "id": "sd-act1-scene2-0193",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0292",
+      "placement": "delivery",
+      "text": "with a slight laugh",
+      "summaryJa": "かすかに笑いながら。",
+      "sourcePages": [
+        39
+      ],
+      "sourceSpeakerOrdinal": 292,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "with a slight laugh",
+          "lemma": "with a slight laugh",
+          "meaning": "かすかに笑いながら",
+          "note": "このト書き全体を一つの舞台表現として読む。"
+        }
+      ],
+      "notes": [
+        "台詞の口調・感情・声の出し方を指定する短いト書き。",
+        "この指示は話者名と同じ行に置かれており、台詞の言い方・直前動作に直接結び付く。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 194,
+      "category": "delivery",
+      "anchor": {
+        "type": "delivery",
+        "speechId": "act1-scene2-speech-0292",
+        "order": 194
+      },
+      "actorCueForSpeech": true
+    },
+    {
+      "id": "sd-act1-scene2-0194",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0293",
+      "placement": "before",
+      "text": "She sits on the sofa.",
+      "summaryJa": "彼女がソファに座る。",
+      "sourcePages": [
+        39
+      ],
+      "sourceSpeakerOrdinal": 292,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "sit",
+          "lemma": "sit",
+          "meaning": "座る",
+          "note": "舞台上の姿勢を指定する動作。"
+        },
+        {
+          "surface": "sofa",
+          "lemma": "sofa",
+          "meaning": "ソファ",
+          "note": "舞台家具。"
+        }
+      ],
+      "notes": [
+        "舞台脚本のト書きでは、現在形や現在分詞を使って舞台上の動作・状態を簡潔に記述する。",
+        "この指示は次の台詞の直前に置かれており、その台詞に入る時点の舞台状況を補足する。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 195,
+      "category": "movement",
+      "anchor": {
+        "type": "before",
+        "speechId": "act1-scene2-speech-0293",
+        "order": 195
+      },
+      "actorCueForSpeech": false
+    },
+    {
+      "id": "sd-act1-scene2-0195",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0293",
+      "placement": "delivery",
+      "text": "moving to MOLLIE",
+      "summaryJa": "MOLLIEに向けて。",
+      "sourcePages": [
+        39
+      ],
+      "sourceSpeakerOrdinal": 293,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "moving to MOLLIE",
+          "lemma": "moving to mollie",
+          "meaning": "MOLLIEの舞台上の移動経路・立ち位置・向きを指定するト書き",
+          "note": "このト書き全体を一つの舞台表現として読む。"
+        }
+      ],
+      "notes": [
+        "現在分詞を中心にした省略形で、台詞と同時または直前の動作を簡潔に指定している。",
+        "この指示は話者名と同じ行に置かれており、台詞の言い方・直前動作に直接結び付く。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 196,
+      "category": "delivery",
+      "anchor": {
+        "type": "delivery",
+        "speechId": "act1-scene2-speech-0293",
+        "order": 196
+      },
+      "actorCueForSpeech": true
+    },
+    {
+      "id": "sd-act1-scene2-0196",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0294",
+      "placement": "before",
+      "text": "GILES and TROTTER enter from the stairs Left.",
+      "summaryJa": "GILES・TROTTERが登場する。",
+      "sourcePages": [
+        39
+      ],
+      "sourceSpeakerOrdinal": 293,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "enter",
+          "lemma": "enter",
+          "meaning": "登場する",
+          "note": "舞台に入ることを示す。"
+        }
+      ],
+      "notes": [
+        "舞台脚本のト書きでは、現在形や現在分詞を使って舞台上の動作・状態を簡潔に記述する。",
+        "Left / Right / Centre / up / down は舞台上の位置を示す表記。up は舞台奥、down は舞台手前を表す。",
+        "この指示は次の台詞の直前に置かれており、その台詞に入る時点の舞台状況を補足する。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 197,
+      "category": "entrance",
+      "anchor": {
+        "type": "before",
+        "speechId": "act1-scene2-speech-0294",
+        "order": 197
+      },
+      "actorCueForSpeech": true
+    },
+    {
+      "id": "sd-act1-scene2-0197",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0294",
+      "placement": "delivery",
+      "text": "He looks at the open dining room door, crosses and exits into the dining room. He reappears in the archway up Right.",
+      "summaryJa": "TROTTERが食堂を見る。",
+      "sourcePages": [
+        39
+      ],
+      "sourceSpeakerOrdinal": 294,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "up Right",
+          "lemma": "up Right",
+          "meaning": "舞台奥右",
+          "note": "舞台位置を表す表記。"
+        },
+        {
+          "surface": "cross",
+          "lemma": "cross",
+          "meaning": "（舞台上を）移動する、横切る",
+          "note": "舞台ト書きでは立ち位置を変える動作を表す。"
+        },
+        {
+          "surface": "exit",
+          "lemma": "exit",
+          "meaning": "退場する",
+          "note": "舞台から出ることを示す。"
+        },
+        {
+          "surface": "archway",
+          "lemma": "archway",
+          "meaning": "アーチ状の出入口",
+          "note": "舞台装置の出入口。"
+        },
+        {
+          "surface": "arch",
+          "lemma": "arch",
+          "meaning": "アーチ状の出入口",
+          "note": "舞台装置の出入口。"
+        },
+        {
+          "surface": "dining room",
+          "lemma": "dining room",
+          "meaning": "食堂",
+          "note": "食事をする部屋。"
+        }
+      ],
+      "notes": [
+        "舞台脚本のト書きでは、現在形や現在分詞を使って舞台上の動作・状態を簡潔に記述する。",
+        "Left / Right / Centre / up / down は舞台上の位置を示す表記。up は舞台奥、down は舞台手前を表す。",
+        "この指示は話者名と同じ行に置かれており、台詞の言い方・直前動作に直接結び付く。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 198,
+      "category": "delivery",
+      "anchor": {
+        "type": "delivery",
+        "speechId": "act1-scene2-speech-0294",
+        "order": 198
+      },
+      "actorCueForSpeech": true
+    },
+    {
+      "id": "sd-act1-scene2-0198",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0295",
+      "placement": "before",
+      "text": "MISS CASEWELL exits into the dining room, leaving the door open. MOLLIE rises and begins to tidy up, rearranging the cushions, then moves up to the curtains. GILES moves up to Left of MOLLIE. TROTTER crosses down Left.",
+      "summaryJa": "幕が下りる。",
+      "sourcePages": [
+        40
+      ],
+      "sourceSpeakerOrdinal": 294,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "down Left",
+          "lemma": "down Left",
+          "meaning": "舞台手前左",
+          "note": "舞台位置を表す表記。"
+        },
+        {
+          "surface": "cross",
+          "lemma": "cross",
+          "meaning": "（舞台上を）移動する、横切る",
+          "note": "舞台ト書きでは立ち位置を変える動作を表す。"
+        },
+        {
+          "surface": "move",
+          "lemma": "move",
+          "meaning": "移動する",
+          "note": "舞台上の位置取りを変える動作。"
+        },
+        {
+          "surface": "rise",
+          "lemma": "rise",
+          "meaning": "立ち上がる",
+          "note": "舞台ト書きで頻出する動作。"
+        },
+        {
+          "surface": "exit",
+          "lemma": "exit",
+          "meaning": "退場する",
+          "note": "舞台から出ることを示す。"
+        },
+        {
+          "surface": "dining room",
+          "lemma": "dining room",
+          "meaning": "食堂",
+          "note": "食事をする部屋。"
+        },
+        {
+          "surface": "curtain",
+          "lemma": "curtain",
+          "meaning": "幕、カーテン",
+          "note": "文脈により舞台幕または室内のカーテン。"
+        }
+      ],
+      "notes": [
+        "舞台脚本のト書きでは、現在形や現在分詞を使って舞台上の動作・状態を簡潔に記述する。",
+        "Left / Right / Centre / up / down は舞台上の位置を示す表記。up は舞台奥、down は舞台手前を表す。",
+        "この指示は次の台詞の直前に置かれており、その台詞に入る時点の舞台状況を補足する。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 199,
+      "category": "exit",
+      "anchor": {
+        "type": "before",
+        "speechId": "act1-scene2-speech-0295",
+        "order": 199
+      },
+      "actorCueForSpeech": false
+    },
+    {
+      "id": "sd-act1-scene2-0199",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0295",
+      "placement": "before",
+      "text": "opening the door down Left",
+      "summaryJa": "ドア（舞台手前左）へ開けながら。",
+      "sourcePages": [
+        40
+      ],
+      "sourceSpeakerOrdinal": 294,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "down Left",
+          "lemma": "down Left",
+          "meaning": "舞台手前左",
+          "note": "舞台位置を表す表記。"
+        }
+      ],
+      "notes": [
+        "現在分詞を中心にした省略形で、台詞と同時または直前の動作を簡潔に指定している。",
+        "Left / Right / Centre / up / down は舞台上の位置を示す表記。up は舞台奥、down は舞台手前を表す。",
+        "この指示は次の台詞の直前に置かれており、その台詞に入る時点の舞台状況を補足する。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 200,
+      "category": "action",
+      "anchor": {
+        "type": "before",
+        "speechId": "act1-scene2-speech-0295",
+        "order": 200
+      },
+      "actorCueForSpeech": false
+    },
+    {
+      "id": "sd-act1-scene2-0200",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0295",
+      "placement": "before",
+      "text": "The sound of the piano is heard much louder while the door is open. TROTTER exits into the drawing room and shuts the door. Presently he reappears at the door up Left.",
+      "summaryJa": "TROTTERがドアを開ける。",
+      "sourcePages": [
+        40
+      ],
+      "sourceSpeakerOrdinal": 294,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "up Left",
+          "lemma": "up Left",
+          "meaning": "舞台奥左",
+          "note": "舞台位置を表す表記。"
+        },
+        {
+          "surface": "exit",
+          "lemma": "exit",
+          "meaning": "退場する",
+          "note": "舞台から出ることを示す。"
+        },
+        {
+          "surface": "drawing room",
+          "lemma": "drawing room",
+          "meaning": "応接間",
+          "note": "客を迎える居間・応接室。"
+        }
+      ],
+      "notes": [
+        "舞台脚本のト書きでは、現在形や現在分詞を使って舞台上の動作・状態を簡潔に記述する。",
+        "Left / Right / Centre / up / down は舞台上の位置を示す表記。up は舞台奥、down は舞台手前を表す。",
+        "この指示は次の台詞の直前に置かれており、その台詞に入る時点の舞台状況を補足する。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 201,
+      "category": "music",
+      "anchor": {
+        "type": "before",
+        "speechId": "act1-scene2-speech-0295",
+        "order": 201
+      },
+      "actorCueForSpeech": false
+    },
+    {
+      "id": "sd-act1-scene2-0201",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0295",
+      "placement": "delivery",
+      "text": "off",
+      "summaryJa": "舞台袖から。",
+      "sourcePages": [
+        40
+      ],
+      "sourceSpeakerOrdinal": 295,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "off",
+          "lemma": "off",
+          "meaning": "舞台袖から、舞台外で",
+          "note": "話者が舞台上に見えていない状態を示す。"
+        }
+      ],
+      "notes": [
+        "台詞の口調・感情・声の出し方を指定する短いト書き。",
+        "この指示は話者名と同じ行に置かれており、台詞の言い方・直前動作に直接結び付く。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 202,
+      "category": "delivery",
+      "anchor": {
+        "type": "delivery",
+        "speechId": "act1-scene2-speech-0295",
+        "order": 202
+      },
+      "actorCueForSpeech": true
+    },
+    {
+      "id": "sd-act1-scene2-0202",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0297",
+      "placement": "before",
+      "text": "TROTTER closes the door and exits up the stairs. MOLLIE moves above the armchair Centre.",
+      "summaryJa": "TROTTERがドアを閉める。",
+      "sourcePages": [
+        40
+      ],
+      "sourceSpeakerOrdinal": 296,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "Centre",
+          "lemma": "Centre",
+          "meaning": "舞台中央",
+          "note": "舞台位置を表す表記。"
+        },
+        {
+          "surface": "move",
+          "lemma": "move",
+          "meaning": "移動する",
+          "note": "舞台上の位置取りを変える動作。"
+        },
+        {
+          "surface": "exit",
+          "lemma": "exit",
+          "meaning": "退場する",
+          "note": "舞台から出ることを示す。"
+        },
+        {
+          "surface": "armchair",
+          "lemma": "armchair",
+          "meaning": "肘掛け椅子",
+          "note": "舞台家具。"
+        }
+      ],
+      "notes": [
+        "舞台脚本のト書きでは、現在形や現在分詞を使って舞台上の動作・状態を簡潔に記述する。",
+        "Left / Right / Centre / up / down は舞台上の位置を示す表記。up は舞台奥、down は舞台手前を表す。",
+        "この指示は次の台詞の直前に置かれており、その台詞に入る時点の舞台状況を補足する。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 203,
+      "category": "exit",
+      "anchor": {
+        "type": "before",
+        "speechId": "act1-scene2-speech-0297",
+        "order": 203
+      },
+      "actorCueForSpeech": false
+    },
+    {
+      "id": "sd-act1-scene2-0203",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0297",
+      "placement": "delivery",
+      "text": "coming down to Left of MOLLIE",
+      "summaryJa": "MOLLIEの左へ。",
+      "sourcePages": [
+        40
+      ],
+      "sourceSpeakerOrdinal": 297,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "coming down to Left of MOLLIE",
+          "lemma": "coming down to left of mollie",
+          "meaning": "MOLLIEの舞台上の移動経路・立ち位置・向きを指定するト書き",
+          "note": "このト書き全体を一つの舞台表現として読む。"
+        }
+      ],
+      "notes": [
+        "台詞の口調・感情・声の出し方を指定する短いト書き。",
+        "Left / Right / Centre / up / down は舞台上の位置を示す表記。up は舞台奥、down は舞台手前を表す。",
+        "この指示は話者名と同じ行に置かれており、台詞の言い方・直前動作に直接結び付く。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 204,
+      "category": "delivery",
+      "anchor": {
+        "type": "delivery",
+        "speechId": "act1-scene2-speech-0297",
+        "order": 204
+      },
+      "actorCueForSpeech": true
+    },
+    {
+      "id": "sd-act1-scene2-0204",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0298",
+      "placement": "before",
+      "text": "TROTTER reappears down the stairs.",
+      "summaryJa": "TROTTERが登場する。",
+      "sourcePages": [
+        40
+      ],
+      "sourceSpeakerOrdinal": 297,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "TROTTER reappears down the stairs",
+          "lemma": "trotter reappears down the stairs",
+          "meaning": "TROTTERの舞台上の移動経路・立ち位置・向きを指定するト書き",
+          "note": "このト書き全体を一つの舞台表現として読む。"
+        }
+      ],
+      "notes": [
+        "舞台脚本のト書きでは、現在形や現在分詞を使って舞台上の動作・状態を簡潔に記述する。",
+        "この指示は次の台詞の直前に置かれており、その台詞に入る時点の舞台状況を補足する。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 205,
+      "category": "action",
+      "anchor": {
+        "type": "before",
+        "speechId": "act1-scene2-speech-0298",
+        "order": 205
+      },
+      "actorCueForSpeech": true
+    },
+    {
+      "id": "sd-act1-scene2-0205",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0298",
+      "placement": "after",
+      "text": "He goes to the telephone.",
+      "summaryJa": "彼が電話へ移動する。",
+      "sourcePages": [
+        40
+      ],
+      "sourceSpeakerOrdinal": 298,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "He goes to the telephone",
+          "lemma": "he goes to the telephone",
+          "meaning": "彼が電話へ移動する",
+          "note": "このト書き全体を一つの舞台表現として読む。"
+        }
+      ],
+      "notes": [
+        "舞台脚本のト書きでは、現在形や現在分詞を使って舞台上の動作・状態を簡潔に記述する。",
+        "この指示は台詞の途中または直後に置かれており、発話と並行する動作を補足する。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 206,
+      "category": "sound",
+      "anchor": {
+        "type": "after",
+        "speechId": "act1-scene2-speech-0298",
+        "order": 206
+      },
+      "actorCueForSpeech": true
+    },
+    {
+      "id": "sd-act1-scene2-0206",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0299",
+      "placement": "delivery",
+      "text": "moving to Left of the refectory table",
+      "summaryJa": "長い食堂用テーブルの左側へ移動しながら。",
+      "sourcePages": [
+        40
+      ],
+      "sourceSpeakerOrdinal": 299,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "refectory table",
+          "lemma": "refectory table",
+          "meaning": "長い食堂用テーブル",
+          "note": "大広間に置かれた舞台家具。"
+        }
+      ],
+      "notes": [
+        "現在分詞を中心にした省略形で、台詞と同時または直前の動作を簡潔に指定している。",
+        "Left / Right / Centre / up / down は舞台上の位置を示す表記。up は舞台奥、down は舞台手前を表す。",
+        "この指示は話者名と同じ行に置かれており、台詞の言い方・直前動作に直接結び付く。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 207,
+      "category": "delivery",
+      "anchor": {
+        "type": "delivery",
+        "speechId": "act1-scene2-speech-0299",
+        "order": 207
+      },
+      "actorCueForSpeech": true
+    },
+    {
+      "id": "sd-act1-scene2-0207",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0300",
+      "placement": "delivery",
+      "text": "swinging round sharply",
+      "summaryJa": "鋭く。",
+      "sourcePages": [
+        40
+      ],
+      "sourceSpeakerOrdinal": 300,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "sharply",
+          "lemma": "sharply",
+          "meaning": "鋭く、きつく",
+          "note": "口調・反応の強さを示す副詞。"
+        }
+      ],
+      "notes": [
+        "台詞の口調・感情・声の出し方を指定する短いト書き。",
+        "この指示は話者名と同じ行に置かれており、台詞の言い方・直前動作に直接結び付く。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 208,
+      "category": "delivery",
+      "anchor": {
+        "type": "delivery",
+        "speechId": "act1-scene2-speech-0300",
+        "order": 208
+      },
+      "actorCueForSpeech": true
+    },
+    {
+      "id": "sd-act1-scene2-0208",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0300",
+      "placement": "delivery",
+      "text": "He picks up the receiver.",
+      "summaryJa": "彼が受話器を拾い上げる。",
+      "sourcePages": [
+        40
+      ],
+      "sourceSpeakerOrdinal": 300,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "receiver",
+          "lemma": "receiver",
+          "meaning": "受話器",
+          "note": "電話の受話器。"
+        }
+      ],
+      "notes": [
+        "舞台脚本のト書きでは、現在形や現在分詞を使って舞台上の動作・状態を簡潔に記述する。",
+        "この指示は話者名と同じ行に置かれており、台詞の言い方・直前動作に直接結び付く。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 209,
+      "category": "delivery",
+      "anchor": {
+        "type": "delivery",
+        "speechId": "act1-scene2-speech-0300",
+        "order": 209
+      },
+      "actorCueForSpeech": true
+    },
+    {
+      "id": "sd-act1-scene2-0209",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0304",
+      "placement": "delivery",
+      "text": "He puts the receiver down and turns to them.",
+      "summaryJa": "TROTTERが受話器を置く。",
+      "sourcePages": [
+        40
+      ],
+      "sourceSpeakerOrdinal": 304,
+      "malformedSourceBracket": false,
+      "vocabulary": [
+        {
+          "surface": "receiver",
+          "lemma": "receiver",
+          "meaning": "受話器",
+          "note": "電話の受話器。"
+        }
+      ],
+      "notes": [
+        "舞台脚本のト書きでは、現在形や現在分詞を使って舞台上の動作・状態を簡潔に記述する。",
         "この指示は話者名と同じ行に置かれており、台詞の言い方・直前動作に直接結び付く。"
       ],
       "act": 1,
