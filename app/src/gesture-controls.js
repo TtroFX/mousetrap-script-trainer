@@ -90,6 +90,8 @@ const moveFocusLine=direction=>{
 
 let focusSwipe=null;
 let focusSettling=false;
+let pendingFocusTransition=null;
+let focusTransitionId=0;
 let suppressClickUntil=0;
 let lastFocusTap=null;
 const focusAnimations=new Set();
@@ -273,6 +275,76 @@ const moveFocusSwipe=event=>{
     }
   }else clearFocusPreview(page);
 };
+const emitFocusTransition=(phase,transition,extra={})=>{
+  const detail={phase,id:transition.id,direction:transition.direction,scene:transition.scene,line:transition.line,route:location.hash,...extra};
+  window.dispatchEvent(new CustomEvent('mts:focus-transition',{detail}));
+};
+const preloadFocusData=()=>{
+  const store=window.MTS_INDEX_ZERO?.store;
+  if(!store)return Promise.resolve();
+  const pending=[];
+  if(!store.hasStudy?.()&&store.studyState?.status!=='error')pending.push(store.loadStudy?.());
+  if(!store.hasStructure?.()&&store.structureState?.status!=='error')pending.push(store.loadStructure?.());
+  if(!store.hasStageDirections?.()&&store.stageState?.status!=='error')pending.push(store.loadStageDirections?.());
+  return Promise.allSettled(pending.filter(Boolean));
+};
+const focusDestinationReady=transition=>{
+  const current=lineRoute(),store=window.MTS_INDEX_ZERO?.store;
+  if(!current||current.scene!==transition.scene||current.line!==transition.line||!store)return null;
+  if((!store.hasStudy?.()&&store.studyState?.status!=='error')||(!store.hasStructure?.()&&store.structureState?.status!=='error')||(!store.hasStageDirections?.()&&store.stageState?.status!=='error'))return null;
+  const page=currentFocusPage();
+  if(!page||page.dataset.focusDestinationLine===transition.line)return null;
+  const expected=store.hasStageDirections?.()?store.getStageDirectionsForSpeech(transition.line):[];
+  if(expected.some(entry=>entry.actorCueForSpeech===true)&&!page.querySelector('[data-stage-actor-cues]'))return null;
+  if(expected.some(entry=>entry.actorCueForSpeech!==true)&&!page.querySelector('[data-stage-context-details]'))return null;
+  return{page,surface:prepareFocusPage(page)};
+};
+const scheduleLoadedFocusEntrance=transition=>{
+  const deadline=performance.now()+2600;
+  const probe=()=>{
+    if(pendingFocusTransition!==transition)return;
+    let ready=focusDestinationReady(transition);
+    if(!ready&&performance.now()<deadline){requestAnimationFrame(probe);return}
+    if(!ready){
+      const page=currentFocusPage();
+      ready=page?{page,surface:prepareFocusPage(page)}:null;
+    }
+    if(!ready?.surface){
+      document.documentElement.classList.remove('focus-route-pending');
+      pendingFocusTransition=null;focusSettling=false;
+      emitFocusTransition('failed',transition);
+      return;
+    }
+    const {page,surface}=ready,profile=motionProfile();
+    page.dataset.focusDestinationLine=transition.line;
+    surface.dataset.focusLoadedTransition=String(transition.id);
+    surface.classList.remove('is-focus-swiping');
+    surface.classList.add('is-focus-settling','is-focus-entering');
+    surface.style.willChange='transform, opacity';
+    const from=transition.direction>0?'translate3d(100%,0,0)':'translate3d(-100%,0,0)';
+    surface.style.transform=from;
+    surface.style.opacity='.98';
+    window.scrollTo({top:0,left:0,behavior:'auto'});
+    emitFocusTransition('loaded',transition,{surfaceLine:page.dataset.focusDestinationLine});
+    document.documentElement.classList.remove('focus-route-pending');
+    surface.getBoundingClientRect();
+    requestAnimationFrame(()=>{
+      if(pendingFocusTransition!==transition||!surface.isConnected)return;
+      emitFocusTransition('animationstart',transition,{surfaceLine:page.dataset.focusDestinationLine});
+      runElementAnimation(surface,[
+        {transform:from,opacity:.98},
+        {transform:'translate3d(0,0,0)',opacity:1}
+      ],{duration:profile.commit,easing:'cubic-bezier(.2,.78,.2,1)'},()=>{
+        surface.classList.remove('is-focus-settling','is-focus-entering');
+        surface.style.transform='';surface.style.opacity='';surface.style.willChange='';
+        if(pendingFocusTransition===transition)pendingFocusTransition=null;
+        focusSettling=false;
+        emitFocusTransition('complete',transition,{surfaceLine:page.dataset.focusDestinationLine});
+      });
+    });
+  };
+  requestAnimationFrame(probe);
+};
 const animateFocusCommit=(direction,state={})=>{
   const hit=focusTarget(direction);
   if(!hit){
@@ -283,32 +355,18 @@ const animateFocusCommit=(direction,state={})=>{
   focusSettling=true;
   lastFocusTap=null;
   suppressClickUntil=performance.now()+440;
-  const page=state.page?.isConnected?state.page:currentFocusPage();
-  const surface=state.surface?.isConnected?state.surface:prepareFocusPage(page);
-  const navigate=()=>{
-    focusSettling=false;
-    moveFocusLine(direction);
-  };
-  if(!page||!surface){navigate();return true}
-  const preview=ensureFocusPreview(page,direction);
-  const profile=motionProfile();
-  const computed=getComputedStyle(surface);
-  const from=computed.transform==='none'?'translate3d(0,0,0)':computed.transform;
-  const previewComputed=preview?getComputedStyle(preview):null;
-  const previewFrom=previewComputed&&previewComputed.transform!=='none'?previewComputed.transform:(direction>0?'translate3d(100%,0,0)':'translate3d(-100%,0,0)');
-  surface.classList.remove('is-focus-swiping');
-  surface.classList.add('is-focus-settling');
-  surface.style.willChange='transform, opacity';
-  preview?.classList.add('is-focus-settling');
   stopFocusAnimations();
-  if(preview)runElementAnimation(preview,[
-    {transform:previewFrom,opacity:Number(previewComputed?.opacity)||1},
-    {transform:'translate3d(0,0,0)',opacity:1}
-  ],{duration:profile.commit,easing:'cubic-bezier(.2,.78,.2,1)'});
-  runElementAnimation(surface,[
-    {transform:from,opacity:Number(computed.opacity)||1},
-    {transform:direction>0?'translate3d(-100%,0,0)':'translate3d(100%,0,0)',opacity:.96}
-  ],{duration:profile.commit,easing:'cubic-bezier(.2,.78,.2,1)'},navigate);
+  const transition={id:++focusTransitionId,direction,scene:hit.route.scene,line:hit.target.id,sourceScene:hit.route.scene,sourceLine:hit.route.line};
+  pendingFocusTransition=transition;
+  emitFocusTransition('preload',transition);
+  preloadFocusData().then(()=>{
+    if(pendingFocusTransition!==transition)return;
+    const current=lineRoute();
+    if(!current||current.scene!==transition.sourceScene||current.line!==transition.sourceLine){pendingFocusTransition=null;focusSettling=false;return}
+    document.documentElement.classList.add('focus-route-pending');
+    emitFocusTransition('route',transition);
+    location.hash=`#/line?scene=${encodeURIComponent(transition.scene)}&line=${encodeURIComponent(transition.line)}`;
+  });
   return true;
 };
 const animateFocusNavigation=direction=>{
@@ -391,10 +449,18 @@ window.addEventListener('blur',()=>{lastFocusTap=null;if(focusSwipe)cancelFocusS
 document.addEventListener('visibilitychange',()=>{if(document.hidden){lastFocusTap=null;if(focusSwipe)cancelFocusSwipe()}});
 window.addEventListener('hashchange',()=>{
   focusSwipe=null;
-  focusSettling=false;
-  suppressClickUntil=0;
   lastFocusTap=null;
   stopFocusAnimations();
+  const current=lineRoute(),transition=pendingFocusTransition;
+  if(transition&&current?.scene===transition.scene&&current?.line===transition.line){
+    focusSettling=true;
+    scheduleLoadedFocusEntrance(transition);
+  }else{
+    pendingFocusTransition=null;
+    focusSettling=false;
+    suppressClickUntil=0;
+    document.documentElement.classList.remove('focus-route-pending');
+  }
   scheduleFocusRoleSync();
   resetFocusScroll();
 });
@@ -441,5 +507,5 @@ if(sheet&&overlay){
   sheet.addEventListener('pointerup',event=>{if(event.pointerType!=='touch'&&gesture)end(event.clientX,event.clientY,event.timeStamp)});
   sheet.addEventListener('pointercancel',event=>{if(event.pointerType!=='touch')cancel()});
 
-  window.MTS_GESTURES=Object.freeze({version:6,closeSheet,resetSheet,moveFocusLine,navigateFocusLine:animateFocusNavigation,syncFocusRole,resetFocusScroll});
+  window.MTS_GESTURES=Object.freeze({version:7,closeSheet,resetSheet,moveFocusLine,navigateFocusLine:animateFocusNavigation,syncFocusRole,resetFocusScroll,transitionState:()=>pendingFocusTransition?{...pendingFocusTransition}:null});
 }

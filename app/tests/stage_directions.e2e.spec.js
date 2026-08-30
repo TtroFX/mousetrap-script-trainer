@@ -13,7 +13,7 @@ async function stageJson(request){
   return response.json();
 }
 
-test('Script Full renders the exact ordered speech and stage-direction stream',async({page,request})=>{
+test('Script Full renders the exact ordered stream as compact Japanese-first stage notes',async({page,request})=>{
   const data=await stageJson(request),scene='act1-scene1';
   await ready(page);
   await page.evaluate(scene=>{MTS_INDEX_ZERO.state.setScene(scene);MTS_INDEX_ZERO.state.setReaderMode('full');location.hash='#/script'},scene);
@@ -28,25 +28,57 @@ test('Script Full renders the exact ordered speech and stage-direction stream',a
   const sourceOrders=await page.evaluate(scene=>MTS_STAGE.getReaderSequence(scene).filter(item=>item.kind==='stage').map(item=>item.stage.sourceOrder),scene);
   expect(sourceOrders).toEqual(Array.from({length:185},(_,index)=>index+1));
   expect(data.entries.filter(entry=>entry.sceneId===scene).map(entry=>entry.id)).toEqual(sourceOrders.map(order=>data.entries.find(entry=>entry.sceneId===scene&&entry.sourceOrder===order).id));
+  const entry=data.entries.find(item=>item.sceneId===scene&&item.kind==='stage-direction');
+  const row=page.locator(`[data-stage-reader="${entry.id}"]`);
+  await expect(row.locator('.stage-note-ja')).toHaveText(entry.summaryJa);
+  await expect(row.locator('.stage-note-en')).toBeHidden();
+  await expect(row).not.toContainText('Stage direction');
+  await expect(row).not.toContainText('Open context');
+  const compact=await row.evaluate(node=>({font:parseFloat(getComputedStyle(node.querySelector('.stage-note-ja')).fontSize),height:node.getBoundingClientRect().height,border:getComputedStyle(node).borderTopWidth}));
+  expect(compact.font).toBeLessThanOrEqual(10);
+  expect(compact.height).toBeLessThanOrEqual(42);
+  expect(compact.border).toBe('0px');
+  await row.locator('[data-stage-reveal]').click();
+  await expect(row.locator('[data-stage-reveal]')).toHaveAttribute('aria-expanded','true');
+  await expect(row.locator('.stage-note-en')).toBeVisible();
+  await expect(row.locator('.stage-note-en')).toContainText(entry.text.slice(0,24));
 });
 
-test('Line Detail shows nearby stage context before Translation without changing dialogue counts',async({page,request})=>{
-  const data=await stageJson(request),attached=data.entries.find(entry=>entry.kind==='stage-direction'&&entry.vocabulary?.length&&entry.notes?.length);
-  expect(attached).toBeTruthy();
+test('Line Detail keeps actor cues by the speech and folds the remainder below Structure',async({page,request})=>{
+  const data=await stageJson(request),bySpeech=new Map();
+  for(const entry of data.entries.filter(entry=>entry.kind==='stage-direction')){
+    if(!bySpeech.has(entry.speechId))bySpeech.set(entry.speechId,[]);
+    bySpeech.get(entry.speechId).push(entry);
+  }
+  const pair=[...bySpeech].find(([,entries])=>entries.some(entry=>entry.actorCueForSpeech)&&entries.some(entry=>!entry.actorCueForSpeech));
+  expect(pair).toBeTruthy();
+  const [speechId,entries]=pair,actor=entries.find(entry=>entry.actorCueForSpeech),remainder=entries.find(entry=>!entry.actorCueForSpeech);
   await ready(page);
-  await page.evaluate(entry=>{location.hash=`#/line?scene=${encodeURIComponent(entry.sceneId)}&line=${encodeURIComponent(entry.speechId)}&stage=${encodeURIComponent(entry.id)}`},attached);
-  const card=page.locator(`[data-stage-direction="${attached.id}"]`);
-  await expect(card).toBeVisible();
-  await expect(card).toHaveClass(/stage-highlight/);
-  await expect(card.locator('.stage-original')).toContainText(attached.text.slice(0,32));
-  await expect(card.locator('.stage-ja')).toContainText(attached.summaryJa.slice(0,24));
-  expect(await page.evaluate(id=>{
-    const stage=document.querySelector(`[data-stage-direction="${CSS.escape(id)}"]`),translation=document.querySelector('[data-translation-card]');
-    return !!stage&&!!translation&&!!(stage.compareDocumentPosition(translation)&Node.DOCUMENT_POSITION_FOLLOWING);
-  },attached.id)).toBe(true);
-  await card.locator('summary').click();
-  await expect(card.getByText(attached.vocabulary[0].meaning,{exact:true})).toBeVisible();
-  await expect(card.getByText(attached.notes[0],{exact:true})).toBeVisible();
+  await page.evaluate(({sceneId,speechId})=>{location.hash=`#/line?scene=${encodeURIComponent(sceneId)}&line=${encodeURIComponent(speechId)}`},{sceneId:actor.sceneId,speechId});
+  const actorCard=page.locator(`[data-stage-direction="${actor.id}"]`),details=page.locator('[data-stage-context-details]'),remainderCard=page.locator(`[data-stage-direction="${remainder.id}"]`);
+  await expect(actorCard).toBeVisible();
+  await expect(actorCard.locator('.stage-note-ja')).toHaveText(actor.summaryJa);
+  await expect(actorCard.locator('.stage-note-en')).toBeHidden();
+  expect(await page.evaluate(()=>{
+    const surface=document.querySelector('.line-page-surface')||document.querySelector('.line-page');
+    const speech=surface.querySelector(':scope > .card'),actorNotes=surface.querySelector('[data-stage-actor-cues]'),translation=surface.querySelector('[data-translation-card]'),structure=surface.querySelector('[data-structure-card]'),context=surface.querySelector('[data-stage-context-details]');
+    return !!speech&&!!actorNotes&&!!translation&&!!structure&&!!context&&!!(speech.compareDocumentPosition(actorNotes)&Node.DOCUMENT_POSITION_FOLLOWING)&&!!(actorNotes.compareDocumentPosition(translation)&Node.DOCUMENT_POSITION_FOLLOWING)&&!!(structure.compareDocumentPosition(context)&Node.DOCUMENT_POSITION_FOLLOWING);
+  })).toBe(true);
+  await actorCard.locator('[data-stage-reveal]').click();
+  await expect(actorCard.locator('.stage-note-en')).toBeVisible();
+  await expect(details).not.toHaveAttribute('open','');
+  await expect(remainderCard).toBeHidden();
+  await details.locator('summary').click();
+  await expect(details).toHaveAttribute('open','');
+  await expect(remainderCard.locator('.stage-note-ja')).toHaveText(remainder.summaryJa);
+  await expect(remainderCard.locator('.stage-note-en')).toBeHidden();
+  await remainderCard.locator('[data-stage-reveal]').click();
+  await expect(remainderCard.locator('.stage-note-en')).toBeVisible();
+  await page.evaluate(({sceneId,speechId,stageId})=>{location.hash=`#/line?scene=${encodeURIComponent(sceneId)}&line=${encodeURIComponent(speechId)}&stage=${encodeURIComponent(stageId)}`},{sceneId:remainder.sceneId,speechId,stageId:remainder.id});
+  await expect(remainderCard).toHaveClass(/stage-highlight/);
+  await expect(details).toHaveAttribute('open','');
+  await expect(remainderCard.locator('.stage-note-en')).toBeVisible();
+  await expect(page.locator('[data-stage-direction-group]')).toHaveCount(0);
   expect(await page.evaluate(()=>({speechCount:MTS_INDEX_ZERO.store.speechById.size,stageCount:MTS_STAGE.diagnostics().total}))).toEqual({speechCount:1164,stageCount:777});
 });
 
@@ -98,7 +130,7 @@ test('Cue Practice and Rehearsal display stage directions with a persisted opt-o
 });
 
 test('stage directions remain available after a complete offline reload',async({page,context,request})=>{
-  const data=await stageJson(request),attached=data.entries.find(entry=>entry.kind==='stage-direction');
+  const data=await stageJson(request),attached=data.entries.find(entry=>entry.kind==='stage-direction'&&entry.actorCueForSpeech===true);
   await ready(page);
   await page.evaluate(async()=>{await window.MTS_PWA_READY;await window.MTS_STAGE.ready});
   await page.waitForFunction(async()=>!!(await caches.match(new URL('./src/mousetrap_stage_directions.json',location.href).href)),null,{timeout:30000});

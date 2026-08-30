@@ -53,12 +53,38 @@ function contextCardHtml(entry,{compact=false}={}){
   return `<article class="stage-direction-card${compact?' stage-direction-compact':''}" data-stage-direction="${esc(entry.id)}" data-placement="${esc(entry.anchor.type)}"><div class="stage-kicker"><span>Stage direction</span><span>${esc(label(entry.category))} · ${esc(label(entry.anchor.type))}</span></div><p class="stage-original">${esc(entry.text)}</p>${compact?'':`<p class="stage-ja">${esc(entry.summaryJa)}</p>${stageStudyHtml(entry)}`}</article>`;
 }
 
+function stageNoteInnerHtml(entry,variant){
+  const englishId=`stage-${variant}-english-${entry.id}`;
+  return `<button class="stage-note-toggle" type="button" data-stage-reveal aria-expanded="false" aria-controls="${esc(englishId)}"><span class="stage-note-ja" lang="ja">${esc(entry.summaryJa)}</span></button><p class="stage-note-en stage-original" id="${esc(englishId)}" lang="en" hidden>${esc(entry.text)}</p>`;
+}
+
+function setStageNoteExpanded(button,expanded){
+  const english=button?.parentElement?.querySelector('.stage-note-en');
+  if(!button||!english)return;
+  button.setAttribute('aria-expanded',String(expanded));
+  english.hidden=!expanded;
+}
+
+function bindStageNoteToggles(root){
+  root.querySelectorAll('[data-stage-reveal]').forEach(button=>{
+    if(button.dataset.bound==='true')return;
+    button.dataset.bound='true';
+    button.addEventListener('click',()=>setStageNoteExpanded(button,button.getAttribute('aria-expanded')!=='true'));
+  });
+}
+
+function lineStageNoteHtml(entry,variant){
+  return `<article class="stage-note stage-${variant}-note" data-stage-direction="${esc(entry.id)}" data-placement="${esc(entry.anchor.type)}">${stageNoteInnerHtml(entry,variant)}</article>`;
+}
+
 function readerRow(entry){
   const article=document.createElement('article');
-  article.className='line-row stage-reader-row';
+  article.className='stage-note stage-reader-row';
   article.dataset.stageReader=entry.id;
-  article.innerHTML=`<div class="stage-reader-head"><span>Stage direction</span><span>${esc(label(entry.category))}</span></div><p class="line-text stage-original">${esc(entry.text)}</p><p class="stage-row-ja">${esc(entry.summaryJa)}</p><button class="stage-context-link" type="button" data-stage-context="${esc(entry.id)}">Open context</button>`;
-  article.querySelector('[data-stage-context]').addEventListener('click',()=>navigateItem({kind:'stage',sceneId:entry.sceneId,id:entry.id,stage:entry}));
+  article.dataset.stageDirection=entry.id;
+  article.dataset.placement=entry.anchor.type;
+  article.innerHTML=stageNoteInnerHtml(entry,'reader');
+  bindStageNoteToggles(article);
   return article;
 }
 
@@ -78,9 +104,6 @@ function enhanceScriptList(current){
   }
   list.replaceChildren(fragment);
   list.dataset.stageEnhanced='true';
-  const count=app.querySelector('.shell > section.card .muted');
-  const stageCount=api.store.getStageDirectionsForScene(sceneId).length;
-  if(count&&stageCount&&!count.dataset.stageCount){count.dataset.stageCount='true';count.append(` · ${stageCount} stage directions`)}
   const focus=current.q.get('line');
   if(focus)requestAnimationFrame(()=>document.getElementById(focus)?.scrollIntoView({block:'center'}));
 }
@@ -94,18 +117,34 @@ function enhanceLineDetail(current){
   const speechId=current.q.get('line'),page=app.querySelector('.line-page');
   if(!speechId||!page)return;
   const surface=page.querySelector('.line-page-surface')||page;
-  const translation=surface.querySelector('[data-translation-card]');
   const entries=nearbyForSpeech(speechId);
-  if(translation&&entries.length&&!surface.querySelector('[data-stage-direction-group]')){
+  const actorEntries=entries.filter(entry=>entry.actorCueForSpeech===true);
+  const remainder=entries.filter(entry=>entry.actorCueForSpeech!==true);
+  const speechCard=surface.querySelector(':scope > .card');
+  if(speechCard&&actorEntries.length&&!surface.querySelector('[data-stage-actor-cues]')){
     const section=document.createElement('section');
-    section.className='stage-direction-group';section.dataset.stageDirectionGroup='true';
-    section.innerHTML=`<div class="stage-group-heading">Stage directions near this line</div>${entries.map(entry=>contextCardHtml(entry)).join('')}`;
-    translation.before(section);
+    section.className='stage-actor-cues';section.dataset.stageActorCues='true';
+    section.innerHTML=actorEntries.map(entry=>lineStageNoteHtml(entry,'actor')).join('');
+    speechCard.after(section);
+    bindStageNoteToggles(section);
+  }
+  const structure=surface.querySelector('[data-structure-card]');
+  if(structure&&remainder.length&&!surface.querySelector('[data-stage-context-details]')){
+    const details=document.createElement('details');
+    details.className='card stage-context-details';details.dataset.stageContextDetails='true';
+    details.innerHTML=`<summary class="stage-context-summary"><span>周辺の動き・状況</span><small>${remainder.length}</small></summary><div class="stage-context-body">${remainder.map(entry=>lineStageNoteHtml(entry,'context')).join('')}</div>`;
+    structure.after(details);
+    bindStageNoteToggles(details);
   }
   const selected=current.q.get('stage');
   if(selected){
     const card=[...surface.querySelectorAll('[data-stage-direction]')].find(node=>node.dataset.stageDirection===selected);
-    if(card&&!card.dataset.stageFocused){card.dataset.stageFocused='true';card.classList.add('stage-highlight');requestAnimationFrame(()=>card.scrollIntoView({block:'center'}))}
+    if(card&&!card.dataset.stageFocused){
+      card.dataset.stageFocused='true';card.classList.add('stage-highlight');
+      const details=card.closest('[data-stage-context-details]');if(details)details.open=true;
+      setStageNoteExpanded(card.querySelector('[data-stage-reveal]'),true);
+      requestAnimationFrame(()=>card.scrollIntoView({block:'center'}));
+    }
   }
 }
 

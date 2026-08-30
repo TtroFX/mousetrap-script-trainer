@@ -184,22 +184,30 @@ function validateStageDirections(value,script){
   if(!script)throw new Error('stage directions: canonical script must be loaded first');
   if(value?.schemaVersion!==2||!Array.isArray(value.entries)||value.entries.length!==777)throw new Error('stage directions: schema/count invalid');
   if(value.counts?.standalone!==5||value.counts?.attached!==772||value.counts?.total!==777)throw new Error('stage directions: declared counts invalid');
+  if(value.policy?.attachedAboveTranslation!==false||value.policy?.summaryJaKind!=='minimal-paraphrase'||value.policy?.summaryJaMaxChars!==64||value.policy?.readerShowsJapaneseFirst!==true||value.policy?.lineDetailStageLayout!=='actor-cues-before-translation; remainder-collapsed-after-structure')throw new Error('stage directions: Japanese-first display policy invalid');
   const expectedScenes=new Map(SCENES.map(scene=>[scene.id,scene]));
   const speechScene=new Map();
   for(const scene of SCENES)for(const speech of script[scene.id]?.speeches||[])speechScene.set(speech.id,scene.id);
-  const ids=new Set(),orders=new Map();
+  const ids=new Set(),orders=new Map();let actorCues=0;
   for(const entry of value.entries){
     const scene=expectedScenes.get(entry?.sceneId),expectedOrder=(orders.get(entry?.sceneId)||0)+1;
     if(!entry?.id||ids.has(entry.id)||!scene||entry.sourceOrder!==expectedOrder||!String(entry.text||'').trim()||!String(entry.category||'').trim())throw new Error(`stage directions: invalid entry ${entry?.id||'unknown'}`);
+    const summaryJa=String(entry.summaryJa||'').trim();
+    if(!summaryJa||[...summaryJa].length>64||!/[぀-ヿ㐀-鿿]/.test(summaryJa)||/[a-z]{2,}/.test(summaryJa)||/ト書き|指定|補足|説明|ます/.test(summaryJa))throw new Error(`stage directions: invalid Japanese paraphrase ${entry.id}`);
+    if(typeof entry.actorCueForSpeech!=='boolean')throw new Error(`stage directions: invalid actor cue flag ${entry.id}`);
+    if(entry.actorCueForSpeech)actorCues+=1;
     ids.add(entry.id);orders.set(entry.sceneId,entry.sourceOrder);
     const anchorSpeech=String(entry.anchor?.speechId||'');
     if(speechScene.get(anchorSpeech)!==entry.sceneId)throw new Error(`stage directions: broken anchor ${entry.id}`);
     if(entry.kind==='scene-setting'){
       if(!['before','after'].includes(entry.anchor?.type))throw new Error(`stage directions: invalid scene setting ${entry.id}`);
+      if(entry.actorCueForSpeech)throw new Error(`stage directions: scene setting cannot be actor cue ${entry.id}`);
     }else if(entry.kind==='stage-direction'){
       if(entry.speechId!==anchorSpeech||entry.placement!==entry.anchor?.type||!['before','delivery','after'].includes(entry.placement))throw new Error(`stage directions: invalid speech attachment ${entry.id}`);
+      if(entry.placement==='delivery'&&!entry.actorCueForSpeech)throw new Error(`stage directions: delivery actor cue missing ${entry.id}`);
     }else throw new Error(`stage directions: invalid kind ${entry.id}`);
   }
+  if(actorCues!==611)throw new Error(`stage directions: actor cue count invalid ${actorCues}/611`);
   return value;
 }
 

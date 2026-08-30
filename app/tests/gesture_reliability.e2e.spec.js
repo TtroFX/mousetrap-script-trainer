@@ -26,9 +26,8 @@ async function swipe(page,targetSelector,fromX,toX,pointerId){
     const livePreview=document.querySelector('.focus-page-preview');
     return {
       mid,
-      commitAnimations:(liveSurface?.getAnimations?.().length||0)+(livePreview?.getAnimations?.().length||0),
       settling:liveSurface?.classList.contains('is-focus-settling')||false,
-      previewSettling:livePreview?.classList.contains('is-focus-settling')||false
+      previewAfterCommit:!!livePreview
     };
   },{targetSelector,fromX,toX,pointerId});
 }
@@ -43,14 +42,40 @@ async function doubleTap(page,direction){
     const fire=(type,id)=>target.dispatchEvent(new PointerEvent(type,{bubbles:true,cancelable:true,pointerType:'touch',pointerId:id,clientX:x,clientY:y}));
     fire('pointerdown',91);fire('pointerup',91);
     fire('pointerdown',92);fire('pointerup',92);
-    const surface=document.querySelector('.line-page-surface');
-    const preview=document.querySelector('.focus-page-preview');
-    return{
-      preview:!!preview,
-      previewText:preview?.querySelector('.line-detail-text')?.textContent||'',
-      animations:(surface?.getAnimations?.().length||0)+(preview?.getAnimations?.().length||0)
-    };
+    return true;
   },direction);
+}
+
+async function watchTransitions(page){
+  await page.evaluate(()=>{
+    window.__mtsFocusEvents=[];
+    if(window.__mtsFocusEventsBound)return;
+    window.__mtsFocusEventsBound=true;
+    window.addEventListener('mts:focus-transition',event=>window.__mtsFocusEvents.push({...event.detail}));
+  });
+}
+
+async function completedTransition(page,line){
+  await page.waitForFunction(line=>window.__mtsFocusEvents?.some(event=>event.phase==='complete'&&event.line===line),line,{timeout:8000});
+  return page.evaluate(line=>{
+    const all=window.__mtsFocusEvents||[],complete=[...all].reverse().find(event=>event.phase==='complete'&&event.line===line);
+    const events=all.filter(event=>event.id===complete.id);
+    const surface=document.querySelector('.line-page-surface');
+    return{events,actualLine:document.querySelector('.line-page')?.dataset.focusDestinationLine||'',loadedSurface:surface?.dataset.focusLoadedTransition||'',preview:!!document.querySelector('.focus-page-preview'),pending:document.documentElement.classList.contains('focus-route-pending')};
+  },line);
+}
+
+function expectLoadedBeforeAnimation(result,line){
+  expect(result.events.map(event=>event.phase)).toEqual(['preload','route','loaded','animationstart','complete']);
+  for(const phase of ['loaded','animationstart','complete']){
+    const event=result.events.find(item=>item.phase===phase);
+    expect(event.route).toContain(line);
+    expect(event.surfaceLine).toBe(line);
+  }
+  expect(result.actualLine).toBe(line);
+  expect(result.loadedSurface).not.toBe('');
+  expect(result.preview).toBe(false);
+  expect(result.pending).toBe(false);
 }
 
 test('line swipe follows the pointer, exposes the destination page, and navigates both directions',async({page})=>{
@@ -69,6 +94,7 @@ test('line swipe follows the pointer, exposes the destination page, and navigate
   expect(target).toBeTruthy();
   await page.goto(`${BASE}#/line?scene=${target.scene}&line=${target.line}`);
   await page.waitForFunction(()=>MTS_INDEX_ZERO.store.hasStudy()&&!!document.querySelector('.vocab-inline'),null,{timeout:15000});
+  await watchTransitions(page);
 
   await page.locator('.vocab-inline').first().click();
   await expect(page.locator('#word-overlay')).toBeVisible();
@@ -80,15 +106,14 @@ test('line swipe follows the pointer, exposes the destination page, and navigate
   expect(forward.mid.transform).not.toBe('none');
   expect(forward.mid.preview).toBe(true);
   expect(forward.mid.previewTransform).not.toBe('none');
-  expect(forward.settling).toBe(true);
-  expect(forward.previewSettling).toBe(true);
-  expect(forward.commitAnimations).toBeGreaterThan(1);
+  expectLoadedBeforeAnimation(await completedTransition(page,target.next),target.next);
   await expect(page).toHaveURL(new RegExp(target.next));
 
+  await watchTransitions(page);
   const backward=await swipe(page,'.line-page',105,310,72);
   expect(backward.mid.dragging).toBe(true);
   expect(backward.mid.preview).toBe(true);
-  expect(backward.commitAnimations).toBeGreaterThan(1);
+  expectLoadedBeforeAnimation(await completedTransition(page,target.line),target.line);
   await expect(page).toHaveURL(new RegExp(target.line));
 });
 
@@ -124,7 +149,7 @@ test('floating previous close next controller stays viewport-fixed while the lin
   expect(Math.abs(after.x-before.x)).toBeLessThan(2);
 });
 
-test('right and left double-tap page turns use the same visible destination transition',async({page})=>{
+test('right and left double-tap page turns animate only after the destination has loaded',async({page})=>{
   await ready(page);
   const target=await page.evaluate(()=>{
     const rows=MTS_INDEX_ZERO.store.getScene('act1-scene1');
@@ -132,20 +157,18 @@ test('right and left double-tap page turns use the same visible destination tran
   });
   await page.goto(`${BASE}#/line?scene=${target.scene}&line=${target.line}`);
   await page.waitForSelector('.line-page');
-  const forward=await doubleTap(page,1);
-  expect(forward.preview).toBe(true);
-  expect(forward.previewText).toBe(target.nextText);
-  expect(forward.animations).toBeGreaterThan(1);
+  await watchTransitions(page);
+  await doubleTap(page,1);
+  expectLoadedBeforeAnimation(await completedTransition(page,target.next),target.next);
   await expect(page).toHaveURL(new RegExp(target.next));
 
-  const backward=await doubleTap(page,-1);
-  expect(backward.preview).toBe(true);
-  expect(backward.previewText).toBe(target.line?await page.evaluate(({scene,line})=>MTS_INDEX_ZERO.store.getSpeech(scene,line).text,{scene:target.scene,line:target.line}):'');
-  expect(backward.animations).toBeGreaterThan(1);
+  await watchTransitions(page);
+  await doubleTap(page,-1);
+  expectLoadedBeforeAnimation(await completedTransition(page,target.line),target.line);
   await expect(page).toHaveURL(new RegExp(target.line));
 });
 
-test('previous and next buttons animate with destination page visible before navigation',async({page})=>{
+test('previous and next buttons load the destination before animating its real surface',async({page})=>{
   await ready(page);
   const target=await page.evaluate(()=>{
     const rows=MTS_INDEX_ZERO.store.getScene('act1-scene1');
@@ -153,20 +176,9 @@ test('previous and next buttons animate with destination page visible before nav
   });
   await page.goto(`${BASE}#/line?scene=${target.scene}&line=${target.line}`);
   await page.waitForSelector('[data-next]');
-  const result=await page.evaluate(()=>{
-    const button=document.querySelector('[data-next]');
-    button.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));
-    const surface=document.querySelector('.line-page-surface');
-    const preview=document.querySelector('.focus-page-preview');
-    return{
-      preview:!!preview,
-      previewText:preview?.querySelector('.line-detail-text')?.textContent||'',
-      animations:(surface?.getAnimations?.().length||0)+(preview?.getAnimations?.().length||0)
-    };
-  });
-  expect(result.preview).toBe(true);
-  expect(result.previewText).toBe(target.nextText);
-  expect(result.animations).toBeGreaterThan(1);
+  await watchTransitions(page);
+  await page.locator('[data-next]').click();
+  expectLoadedBeforeAnimation(await completedTransition(page,target.next),target.next);
   await expect(page).toHaveURL(new RegExp(target.next));
 });
 
@@ -179,10 +191,11 @@ test('reduced-motion preference still keeps short visible swipe feedback instead
   });
   await page.goto(`${BASE}#/line?scene=${target.scene}&line=${target.line}`);
   await page.waitForSelector('.line-page');
+  await watchTransitions(page);
   const result=await swipe(page,'.line-page',310,105,73);
   expect(result.mid.dragging).toBe(true);
   expect(result.mid.preview).toBe(true);
-  expect(result.commitAnimations).toBeGreaterThan(1);
+  expectLoadedBeforeAnimation(await completedTransition(page,target.next),target.next);
   await expect(page).toHaveURL(new RegExp(target.next));
 });
 
