@@ -1,0 +1,56 @@
+name: One-time Act I Scene 2 translation fix
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/one-time-translation-pronoun-fix.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Correct verified pronoun mistranslation and audit record
+        shell: python
+        run: |
+          import json
+          from pathlib import Path
+
+          translations_path = Path('mousetrap_line_translations.json')
+          data = json.loads(translations_path.read_text(encoding='utf-8'))
+          key = 'act1-scene2-speech-0105'
+          old = 'ふん。わたくしには、どうも怪しい話に聞こえますね。あなたなら、あの人について少し調べますけれど。いったい何をご存じなの？'
+          new = 'ふん。わたくしには、どうも怪しい話に聞こえますね。私があなたなら、あの人について少し調べますけれど。いったい何をご存じなの？'
+          actual = data[key]['translation']
+          if actual != old:
+              raise SystemExit(f'Unexpected current translation for {key}: {actual!r}')
+          data[key]['translation'] = new
+          translations_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          audit_path = Path('translation-semantic-audit-2026-08-31.md')
+          audit = audit_path.read_text(encoding='utf-8')
+          audit = audit.replace(
+              'No new translation entry met the correction threshold in either pass.\n\nTherefore `mousetrap_line_translations.json` was intentionally left unchanged. No cosmetic rewrite was made.',
+              'The initial two-pass audit incorrectly reported zero qualifying errors. A targeted first/second-person re-audit subsequently found one verified semantic error in `act1-scene2-speech-0105`: English `I should ... if I were you` had been rendered with the action assigned to `you`. It was corrected minimally to `私があなたなら…`. No cosmetic rewrites were made.'
+          )
+          audit = audit.replace('- New major semantic mistranslations found: **0**', '- New major semantic mistranslations found after targeted re-audit: **1**')
+          audit = audit.replace('- Translation entries changed: **0**', '- Translation entries changed: **1** (`act1-scene2-speech-0105`)')
+          audit = audit.replace('- Existing translation JSON preserved exactly', '- All other translation entries preserved')
+          audit_path.write_text(audit, encoding='utf-8')
+
+      - name: Commit the correction and remove this one-time workflow
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add mousetrap_line_translations.json translation-semantic-audit-2026-08-31.md
+          git rm .github/workflows/one-time-translation-pronoun-fix.yml
+          git commit -m "fix: correct Act I Scene 2 pronoun translation"
+          git push origin HEAD:main
