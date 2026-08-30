@@ -33,7 +33,9 @@ Several suspicious-looking lines were rechecked against the English canonical da
 ## Canonical inputs audited
 
 - `mousetrap_script_data.json` Git blob: `03ce77ec781b82b3e925cdf7e39b5e9df741a880`
-- `mousetrap_line_translations.json` Git blob: `0cec58aadea1341ac0b31d7426a8ee9538e66d00`
+- Pre-correction `mousetrap_line_translations.json` Git blob: `0cec58aadea1341ac0b31d7426a8ee9538e66d00`
+- Corrected `mousetrap_line_translations.json` Git blob: `8f919a4f71e50903746caa91a2ade8c478c5651f`
+- Correction commit: `c3977f2222a48276fd150c1edbd62ec42b70c73a`
 
 ## Outcome
 
