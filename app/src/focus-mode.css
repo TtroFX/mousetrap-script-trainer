@@ -2,6 +2,7 @@
   touch-action:pan-y;
   position:relative;
 }
+.focus-route-pending .line-page{visibility:hidden}
 .line-page-motion-layer{
   position:relative;
   overflow:hidden;
@@ -15,6 +16,7 @@
 }
 .line-page-surface.is-focus-swiping,
 .line-page-surface.is-focus-settling,
+.line-page-surface.is-focus-entering,
 .focus-page-preview.is-focus-settling{
   will-change:transform,opacity;
   user-select:none;

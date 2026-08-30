@@ -29,11 +29,12 @@ if(stage.source?.pdfSha256!=='94d46d2afe7504d2010c10b3ef4f1017bc3adfe0c09ab86bfd
 if(stage.counts?.standalone!==5||stage.counts?.attached!==772||stage.counts?.total!==777||stage.counts?.malformedBracketRecovered!==1)fail(`stage declared counts invalid ${JSON.stringify(stage.counts)}`);
 if(stage.entries.length!==777)fail(`stage entries ${stage.entries.length}/777`);
 if(stage.policy?.canonicalSpeechCountUnchanged!==1164||stage.policy?.orderedScriptStream!==true||stage.policy?.explicitSourceOrder!==true||stage.policy?.stageDirectionsAreNotSpeeches!==true)fail('stage policy contract invalid');
+if(stage.policy?.attachedAboveTranslation!==false||stage.policy?.summaryJaKind!=='minimal-paraphrase'||stage.policy?.summaryJaMaxChars!==64||stage.policy?.readerShowsJapaneseFirst!==true||stage.policy?.lineDetailStageLayout!=='actor-cues-before-translation; remainder-collapsed-after-structure')fail('stage Japanese-first display policy invalid');
 
 const allowedCategories=new Set(['scene-setting','entrance','exit','movement','action','delivery','pause','gesture','sound','music','radio','light','curtain']);
 const ids=new Set(),placements={before:0,delivery:0,after:0},categories=new Map(),sceneCounts=new Map();
 const lastOrder=new Map(),lastPage=new Map();
-let standalone=0,attached=0,malformed=0,vocabularyItems=0,noteItems=0;
+let standalone=0,attached=0,malformed=0,vocabularyItems=0,noteItems=0,actorCues=0;
 for(const entry of stage.entries){
   if(!entry||typeof entry!=='object'||!String(entry.id||'').trim()||ids.has(entry.id))fail(`stage duplicate/invalid id ${entry?.id}`);
   ids.add(entry.id);
@@ -45,7 +46,11 @@ for(const entry of stage.entries){
   const firstPage=Math.min(...(entry.sourcePages||[]));
   if(!Number.isInteger(firstPage)||firstPage<1||firstPage>84||firstPage<(lastPage.get(entry.sceneId)||0))fail(`stage source page order ${entry.id}`);
   lastPage.set(entry.sceneId,firstPage);
-  if(!String(entry.text||'').trim()||!String(entry.summaryJa||'').trim())fail(`stage text/summary ${entry.id}`);
+  const summaryJa=String(entry.summaryJa||'').trim();
+  if(!String(entry.text||'').trim()||!summaryJa)fail(`stage text/summary ${entry.id}`);
+  if([...summaryJa].length>64||!/[぀-ヿ㐀-鿿]/.test(summaryJa)||/[a-z]{2,}/.test(summaryJa)||/ト書き|指定|補足|説明|ます/.test(summaryJa))fail(`stage Japanese paraphrase quality ${entry.id}`);
+  if(typeof entry.actorCueForSpeech!=='boolean')fail(`stage actor cue flag ${entry.id}`);
+  if(entry.actorCueForSpeech)actorCues+=1;
   if(!allowedCategories.has(entry.category))fail(`stage category ${entry.id}`);
   categories.set(entry.category,(categories.get(entry.category)||0)+1);
   sceneCounts.set(entry.sceneId,(sceneCounts.get(entry.sceneId)||0)+1);
@@ -61,11 +66,13 @@ for(const entry of stage.entries){
     const anchorSpeech=speechById.get(String(entry.anchor?.speechId||''));
     if(!anchorSpeech||anchorSpeech.sceneId!==entry.sceneId||!['before','after'].includes(entry.anchor?.type)||!Number.isInteger(entry.anchor?.order))fail(`scene-setting anchor ${entry.id}`);
     if(entry.category!=='scene-setting')fail(`scene-setting category ${entry.id}`);
+    if(entry.actorCueForSpeech)fail(`scene-setting cannot be an actor cue ${entry.id}`);
   }else if(entry.kind==='stage-direction'){
     attached+=1;
     const anchorSpeech=speechById.get(String(entry.speechId||''));
     if(!anchorSpeech||anchorSpeech.sceneId!==entry.sceneId||!['before','delivery','after'].includes(entry.placement))fail(`stage speech/placement ${entry.id}`);
     if(entry.anchor?.speechId!==entry.speechId||entry.anchor?.type!==entry.placement)fail(`stage normalized anchor ${entry.id}`);
+    if(entry.placement==='delivery'&&!entry.actorCueForSpeech)fail(`delivery missing actor cue ${entry.id}`);
     const expectedDelta=entry.placement==='before'?1:0;
     if(!Number.isInteger(entry.sourceSpeakerOrdinal)||anchorSpeech.ordinal-entry.sourceSpeakerOrdinal!==expectedDelta)fail(`stage source anchor ${entry.id}`);
     placements[entry.placement]+=1;
@@ -73,6 +80,7 @@ for(const entry of stage.entries){
   }else fail(`stage kind ${entry.id}`);
 }
 if(standalone!==5||attached!==772||malformed!==1)fail(`stage derived counts ${standalone}/${attached}/${malformed}`);
+if(actorCues!==611)fail(`stage actor cue count ${actorCues}/611`);
 if(placements.before!==236||placements.delivery!==411||placements.after!==125)fail(`stage placement counts ${JSON.stringify(placements)}`);
 for(const scene of scenes)if(sceneCounts.get(scene.id)!==scene.stageCount)fail(`stage scene count ${scene.id}: ${sceneCounts.get(scene.id)}/${scene.stageCount}`);
 for(const category of allowedCategories)if(!categories.get(category))fail(`stage category coverage missing ${category}`);
@@ -82,5 +90,5 @@ console.log(JSON.stringify({
   duplicateStageIds:0,brokenAnchors:0,orderInversions:0,invalidSceneAssociations:0,
   standalone,attached,malformedRecovered:malformed,placements,
   scenes:Object.fromEntries(sceneCounts),categories:Object.fromEntries(categories),
-  vocabularyItems,noteItems,pdfSha256:stage.source.pdfSha256,
+  vocabularyItems,noteItems,actorCues,japaneseParaphrases:777,pdfSha256:stage.source.pdfSha256,
 },null,2));
