@@ -234,8 +234,17 @@ const cancelFocusSwipe=()=>{
   });
 };
 const beginFocusSwipe=event=>{
-  if(event.pointerType==='mouse'||focusSwipe||focusSettling||(overlay&&!overlay.hidden&&!overlay.classList.contains('is-dismissing'))||!event.target.closest?.('.line-page')||interactiveSwipeBlock(event.target))return;
-  const page=event.target.closest('.line-page'),surface=prepareFocusPage(page);
+  if(event.pointerType==='mouse'||focusSwipe||(overlay&&!overlay.hidden&&!overlay.classList.contains('is-dismissing'))||!event.target.closest?.('.line-page')||interactiveSwipeBlock(event.target))return;
+  const page=event.target.closest('.line-page');
+  if(focusSettling){
+    focusSwipe={
+      pointerId:event.pointerId,page,surface:null,originTarget:event.target,queuedOnly:true,
+      startX:event.clientX,startY:event.clientY,lastX:event.clientX,lastY:event.clientY,
+      startTime:event.timeStamp||performance.now(),lastTime:event.timeStamp||performance.now(),axis:null,moved:false
+    };
+    return;
+  }
+  const surface=prepareFocusPage(page);
   if(!surface)return;
   stopFocusAnimations();
   surface.style.willChange='transform, opacity';
@@ -259,6 +268,7 @@ const moveFocusSwipe=event=>{
   state.moved=state.moved||ax>=14;
   if(state.moved)lastFocusTap=null;
   event.preventDefault();
+  if(state.queuedOnly)return;
   const direction=dx<0?1:-1,available=!!focusTarget(direction),page=state.page?.isConnected?state.page:currentFocusPage();
   if(!page)return;
   const surface=state.surface?.isConnected?state.surface:prepareFocusPage(page);
@@ -408,6 +418,19 @@ const endFocusSwipe=event=>{
   const dx=event.clientX-state.startX,dy=event.clientY-state.startY,ax=Math.abs(dx),ay=Math.abs(dy);
   const duration=Math.max(1,(event.timeStamp||performance.now())-state.startTime);
   const inferredAxis=state.axis??(Math.max(ax,ay)>=10?(ax>ay*1.08?'x':ay>ax*1.08?'y':null):null);
+  if(state.queuedOnly){
+    focusSwipe=null;
+    const width=Math.max(320,window.innerWidth||320);
+    const distanceThreshold=Math.min(88,Math.max(46,width*.14));
+    const velocity=ax/duration;
+    const commit=inferredAxis==='x'&&ax>ay*1.05&&(ax>=distanceThreshold||(ax>=30&&velocity>=.48));
+    if(commit){
+      const direction=dx<0?1:-1;
+      queuedFocusSteps=Math.max(-4,Math.min(4,queuedFocusSteps+direction));
+      return true;
+    }
+    return false;
+  }
   if(!inferredAxis&&ax<=12&&ay<=12&&duration<=460){
     focusSwipe=null;
     resetFocusPage(state.page);
@@ -517,5 +540,5 @@ if(sheet&&overlay){
   sheet.addEventListener('pointerup',event=>{if(event.pointerType!=='touch'&&gesture)end(event.clientX,event.clientY,event.timeStamp)});
   sheet.addEventListener('pointercancel',event=>{if(event.pointerType!=='touch')cancel()});
 
-  window.MTS_GESTURES=Object.freeze({version:7,closeSheet,resetSheet,moveFocusLine,navigateFocusLine:animateFocusNavigation,syncFocusRole,resetFocusScroll,transitionState:()=>pendingFocusTransition?{...pendingFocusTransition}:null});
+  window.MTS_GESTURES=Object.freeze({version:8,closeSheet,resetSheet,moveFocusLine,navigateFocusLine:animateFocusNavigation,syncFocusRole,resetFocusScroll,transitionState:()=>pendingFocusTransition?{...pendingFocusTransition}:null});
 }

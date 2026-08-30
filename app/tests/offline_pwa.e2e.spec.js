@@ -46,7 +46,8 @@ test('installed app remains fully usable with network disabled',async({page,cont
   const sample=await page.evaluate(()=>{
     for(const scene of ['act1-scene1','act1-scene2','act2'])for(const speech of MTS_INDEX_ZERO.store.getScene(scene)){
       const vocab=MTS_INDEX_ZERO.store.getVocabulary(speech.id);
-      if(vocab.length&&MTS_INDEX_ZERO.store.getTranslation(speech.id)&&MTS_INDEX_ZERO.store.getStructure(speech.id)&&MTS_INDEX_ZERO.store.getStageDirectionsForSpeech(speech.id).length)return{scene,line:speech.id};
+      const stageDirections=MTS_INDEX_ZERO.store.getStageDirectionsForSpeech(speech.id);
+      if(vocab.length&&MTS_INDEX_ZERO.store.getTranslation(speech.id)&&MTS_INDEX_ZERO.store.getStructure(speech.id)&&stageDirections.some(entry=>entry.actorCueForSpeech===true))return{scene,line:speech.id};
     }
     return null;
   });
@@ -55,7 +56,7 @@ test('installed app remains fully usable with network disabled',async({page,cont
   await expect(page.locator('.line-page')).toBeVisible();
   await expect(page.getByText('Translation',{exact:true})).toBeVisible();
   await expect(page.getByText('Structure',{exact:true})).toBeVisible();
-  await expect(page.locator('[data-stage-direction]').first()).toBeVisible();
+  await expect(page.locator('[data-stage-actor-cues] [data-stage-direction]').first()).toBeVisible();
   await expect(page.locator('[data-word-line]').first()).toBeVisible();
   await page.locator('[data-word-line]').first().click();
   await expect(page.locator('#word-overlay')).toBeVisible();
