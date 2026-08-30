@@ -1,14 +1,16 @@
-# The Mousetrap Script Trainer v1.0.0
+# The Mousetrap Script Trainer v1.1.0
 
-Production completion release.
+Japanese-first stage direction and navigation reliability release.
 
 - Preserves the canonical 1,164-dialogue universe and all related study-data references.
-- Adds 777 first-class stage directions in canonical source order.
-- Integrates stage directions into Script, Line Detail, search, Cue Practice, and Rehearsal without changing dialogue scoring or progress counts.
-- Fixes rapid sequential page navigation and stabilizes the viewport-fixed controller across mobile, desktop, and PWA layouts.
-- Includes exact-artifact offline, persistence, canonical integrity, and 51-test UI regression coverage.
+- Keeps all 777 first-class stage directions in canonical source order and adds a concise Japanese paraphrase to every entry.
+- Makes Script stage notes extremely compact and Japanese-first, with the English original revealed on demand.
+- Places actor-critical notes beside the speech and folds remaining context below Structure in Line Detail.
+- Loads the destination line and its study/stage data before animating the real destination page.
+- Queues rapid previous/next input so a page turn is not lost during an active transition.
+- Retains fixed-controller, offline, persistence, canonical-integrity, and full Playwright regression coverage.
 
-- Build ID: `index-zero-2026-08-29-r16`
-- Data version: `canonical-2026-08-29-stage-directions-v2`
+- Build ID: `index-zero-2026-08-30-r17`
+- Data version: `canonical-2026-08-30-stage-directions-ja-v3`
 
 Known non-blocking limitation: the Structure validator retains 185 heuristic warnings while reporting zero validation errors.

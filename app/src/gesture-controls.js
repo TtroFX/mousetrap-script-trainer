@@ -92,6 +92,7 @@ let focusSwipe=null;
 let focusSettling=false;
 let pendingFocusTransition=null;
 let focusTransitionId=0;
+let queuedFocusSteps=0;
 let suppressClickUntil=0;
 let lastFocusTap=null;
 const focusAnimations=new Set();
@@ -340,6 +341,11 @@ const scheduleLoadedFocusEntrance=transition=>{
         if(pendingFocusTransition===transition)pendingFocusTransition=null;
         focusSettling=false;
         emitFocusTransition('complete',transition,{surfaceLine:page.dataset.focusDestinationLine});
+        const queuedDirection=Math.sign(queuedFocusSteps);
+        if(queuedDirection){
+          queuedFocusSteps-=queuedDirection;
+          requestAnimationFrame(()=>animateFocusNavigation(queuedDirection));
+        }
       });
     });
   };
@@ -370,7 +376,8 @@ const animateFocusCommit=(direction,state={})=>{
   return true;
 };
 const animateFocusNavigation=direction=>{
-  if(focusSettling||!lineRoute())return false;
+  if(!lineRoute())return false;
+  if(focusSettling){queuedFocusSteps=Math.max(-4,Math.min(4,queuedFocusSteps+(direction>0?1:-1)));return true}
   const page=currentFocusPage(),surface=prepareFocusPage(page);
   if(!page||!surface||!focusTarget(direction))return false;
   return animateFocusCommit(direction,{page,surface});
@@ -434,16 +441,18 @@ document.addEventListener('pointerup',endFocusSwipe,{passive:true,capture:true})
 document.addEventListener('pointercancel',cancelFocusPointer,{passive:true,capture:true});
 document.addEventListener('click',event=>{
   if(!event.target.closest?.('.line-page'))return;
+  const navButton=event.target.closest('.floating-nav [data-prev],.floating-nav [data-next]');
+  if(navButton&&!navButton.disabled){
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    animateFocusNavigation(navButton.hasAttribute('data-next')?1:-1);
+    return;
+  }
   if(performance.now()<suppressClickUntil){
     event.preventDefault();
     event.stopImmediatePropagation();
     return;
   }
-  const navButton=event.target.closest('.floating-nav [data-prev],.floating-nav [data-next]');
-  if(!navButton||navButton.disabled)return;
-  event.preventDefault();
-  event.stopImmediatePropagation();
-  animateFocusNavigation(navButton.hasAttribute('data-next')?1:-1);
 },{capture:true});
 window.addEventListener('blur',()=>{lastFocusTap=null;if(focusSwipe)cancelFocusSwipe()});
 document.addEventListener('visibilitychange',()=>{if(document.hidden){lastFocusTap=null;if(focusSwipe)cancelFocusSwipe()}});
@@ -458,6 +467,7 @@ window.addEventListener('hashchange',()=>{
   }else{
     pendingFocusTransition=null;
     focusSettling=false;
+    queuedFocusSteps=0;
     suppressClickUntil=0;
     document.documentElement.classList.remove('focus-route-pending');
   }
