@@ -26,9 +26,7 @@ Stylistic differences, natural paraphrases, register, and minor wording differen
 
 ## Result
 
-No new translation entry met the correction threshold in either pass.
-
-Therefore `mousetrap_line_translations.json` was intentionally left unchanged. No cosmetic rewrite was made.
+The initial two-pass audit incorrectly reported zero qualifying errors. A targeted first/second-person re-audit subsequently found one verified semantic error in `act1-scene2-speech-0105`: English `I should ... if I were you` had been rendered with the action assigned to `you`. It was corrected minimally to `私があなたなら…`. No cosmetic rewrites were made.
 
 Several suspicious-looking lines were rechecked against the English canonical data and retained because the current Japanese preserves the source proposition in context, including the Act I Scene 2 suspect-description passage and the Act II age/identity/reveal passages.
 
@@ -39,6 +37,6 @@ Several suspicious-looking lines were rechecked against the English canonical da
 
 ## Outcome
 
-- New major semantic mistranslations found: **0**
-- Translation entries changed: **0**
-- Existing translation JSON preserved exactly
+- New major semantic mistranslations found after targeted re-audit: **1**
+- Translation entries changed: **1** (`act1-scene2-speech-0105`)
+- All other translation entries preserved
