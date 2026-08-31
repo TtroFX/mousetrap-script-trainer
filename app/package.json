@@ -5,7 +5,7 @@
     "test:static": "node ../scripts/validate-stage-directions.mjs && node tests/stage_directions_static.mjs && node tests/pdf_pages_static.mjs && node tests/index_zero_static.mjs && node tests/offline_pwa_static.mjs",
     "verify:production": "node scripts/assemble-production.mjs --verify-only",
     "assemble:production": "node scripts/assemble-production.mjs",
-    "test:e2e": "playwright test tests/index_zero.e2e.spec.js tests/resume_bookmarks.e2e.spec.js tests/pdf_pages.e2e.spec.js tests/gesture_english.e2e.spec.js tests/gesture_reliability.e2e.spec.js tests/floating_nav_lock.e2e.spec.js tests/r5_behavior.e2e.spec.js tests/interpretation.e2e.spec.js tests/canonical_study.e2e.spec.js tests/study_rebuild.e2e.spec.js tests/stage_directions.e2e.spec.js tests/offline_pwa.e2e.spec.js --config=playwright.index-zero.config.js",
+    "test:e2e": "playwright test tests/index_zero.e2e.spec.js tests/resume_bookmarks.e2e.spec.js tests/pdf_pages.e2e.spec.js tests/gesture_english.e2e.spec.js tests/gesture_reliability.e2e.spec.js tests/gesture_swipe_handoff.e2e.spec.js tests/floating_nav_lock.e2e.spec.js tests/r5_behavior.e2e.spec.js tests/interpretation.e2e.spec.js tests/canonical_study.e2e.spec.js tests/study_rebuild.e2e.spec.js tests/stage_directions.e2e.spec.js tests/offline_pwa.e2e.spec.js --config=playwright.index-zero.config.js",
     "test": "npm run test:static && npm run verify:production && npm run test:e2e"
   },
   "devDependencies": {
