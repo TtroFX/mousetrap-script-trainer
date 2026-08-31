@@ -224,16 +224,8 @@ export class ResumeBookmarksUI {
       holder.className = 'line-bookmark-holder';
       card.prepend(holder);
     }
-    if (!holder.querySelector('[data-shiori-toggle]')) {
-      const label = document.createElement('span');
-      label.textContent = 'Reading marker';
-      holder.append(label, this.shioriToggle(sceneId, lineId, 'line-detail-shiori'));
-    }
-    if (!holder.querySelector('[data-bookmark-toggle]')) {
-      const label = document.createElement('span');
-      label.textContent = 'Bookmark';
-      holder.append(label, this.bookmarkToggle(sceneId, lineId, 'line-detail-bookmark'));
-    }
+    if (!holder.querySelector('[data-shiori-toggle]')) holder.append(this.shioriToggle(sceneId, lineId, 'line-detail-shiori'));
+    if (!holder.querySelector('[data-bookmark-toggle]')) holder.append(this.bookmarkToggle(sceneId, lineId, 'line-detail-bookmark'));
   }
 
   decorateMore() {
