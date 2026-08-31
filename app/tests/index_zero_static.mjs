@@ -39,7 +39,7 @@ if(scriptStart<0||scriptEnd<0||!scriptRender.includes('pageForLine(')||!scriptRe
 if(detailStart<0||detailEnd<0||!detailRender.includes('pageForLine(')||!detailRender.includes('data-pdf-page')||!detailRender.includes('p.${'))fail('Line Detail canonical render path does not emit PDF page markup');
 if(/MutationObserver|document\.|window\.|location\.|querySelector|createElement/.test(pdfPages))fail('PDF page mapping module must be pure and DOM-free');
 if(fs.existsSync(path.join(root,'src/pdf-page-badges.js'))||index.includes('pdf-page-badges.js'))fail('legacy observer-based PDF page badge runtime remains');
-const resume=read('src/resume-bookmarks.js'),lineControlStart=resume.indexOf('decorateLine(q)'),lineControlEnd=resume.indexOf('decorateMore()',lineControlStart),lineControls=resume.slice(lineControlStart,lineControlEnd);
+const resume=read('src/resume-bookmarks.js'),lineControlStart=resume.indexOf('\n  decorateLine(q) {'),lineControlEnd=resume.indexOf('\n  decorateMore() {',lineControlStart),lineControls=resume.slice(lineControlStart,lineControlEnd);
 if(lineControlStart<0||lineControlEnd<0)fail('Line Detail bookmark/shiori decorator missing');
 if(lineControls.includes("textContent = 'Reading marker'")||lineControls.includes("textContent = 'Bookmark'"))fail('Line Detail controls still render visible Reading marker/Bookmark labels');
 if(!lineControls.includes("this.shioriToggle(sceneId, lineId, 'line-detail-shiori')")||!lineControls.includes("this.bookmarkToggle(sceneId, lineId, 'line-detail-bookmark')"))fail('Line Detail symbol controls are not preserved');
