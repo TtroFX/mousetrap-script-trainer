@@ -1,15 +1,29 @@
 .line-page{
   touch-action:pan-y;
   position:relative;
+  height:var(--line-page-viewport-height,calc(100dvh - 150px));
+  min-height:220px;
+  padding-bottom:0!important;
+  overflow:hidden;
 }
 .focus-route-pending .line-page{visibility:hidden}
 .line-page-motion-layer{
   position:relative;
+  height:100%;
+  min-height:0;
   overflow:hidden;
 }
 .line-page-surface{
   position:relative;
   z-index:2;
+  width:100%;
+  height:100%;
+  min-height:0;
+  overflow-x:hidden;
+  overflow-y:auto;
+  overscroll-behavior-y:contain;
+  -webkit-overflow-scrolling:touch;
+  padding-bottom:72px;
   transform:translate3d(0,0,0);
   opacity:1;
   background:var(--bg);
@@ -25,9 +39,15 @@
 .focus-page-preview{
   position:absolute;
   z-index:1;
-  inset:0 0 auto 0;
+  inset:0;
   width:100%;
-  min-height:100%;
+  height:100%;
+  min-height:0;
+  overflow-x:hidden;
+  overflow-y:auto;
+  overscroll-behavior-y:contain;
+  -webkit-overflow-scrolling:touch;
+  padding-bottom:72px;
   pointer-events:none;
   background:var(--bg);
   opacity:1;
