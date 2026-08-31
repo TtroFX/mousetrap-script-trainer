@@ -1,4 +1,4 @@
-// PDF page badges for Script reader tiles.
+// PDF page badges for Script reader tiles and Line Detail.
 // Source authority: "The Mousetrap 台本.pdf"
 // SHA-256: 94d46d2afe7504d2010c10b3ef4f1017bc3adfe0c09ab86bfd837167357c397b
 // A speech is labeled with the physical PDF page on which its speaker label begins.
@@ -33,26 +33,54 @@ function ensureStyle() {
     '.line-row{position:relative}',
     '.pdf-page-badge{position:absolute;top:6px;right:10px;z-index:1;pointer-events:none;',
     'font:800 9px/1 system-ui,-apple-system,"Noto Sans JP",sans-serif;letter-spacing:.02em;',
-    'color:var(--muted);opacity:.78}'
+    'color:var(--muted);opacity:.78}',
+    '.line-page .speaker-title{display:flex;align-items:center;justify-content:space-between;gap:12px}',
+    '.pdf-page-badge.pdf-page-badge--detail{position:static;z-index:auto;flex:0 0 auto;',
+    'font-size:10px;letter-spacing:0;text-transform:none;color:var(--muted);opacity:.82}'
   ].join('');
   document.head.append(style);
 }
 
-function decorate(root) {
+function createBadge(page, detail = false) {
+  const badge = document.createElement('span');
+  badge.className = `pdf-page-badge${detail ? ' pdf-page-badge--detail' : ''}`;
+  badge.dataset.pdfPage = String(page);
+  badge.textContent = `p.${page}`;
+  badge.title = `PDF page ${page}`;
+  badge.setAttribute('aria-label', `PDF page ${page}`);
+  return badge;
+}
+
+function decorateList(root) {
   root.querySelectorAll('.line-row[data-line]').forEach(row => {
     if (row.querySelector('[data-pdf-page]')) return;
 
     const page = pageForLine(row.dataset.line);
     if (!page) return;
 
-    const badge = document.createElement('span');
-    badge.className = 'pdf-page-badge';
-    badge.dataset.pdfPage = String(page);
-    badge.textContent = `p.${page}`;
-    badge.title = `PDF page ${page}`;
-    badge.setAttribute('aria-label', `PDF page ${page}`);
-    row.append(badge);
+    row.append(createBadge(page));
   });
+}
+
+function currentDetailLineId() {
+  if (!location.hash.startsWith('#/line')) return '';
+  const query = location.hash.split('?')[1] || '';
+  return new URLSearchParams(query).get('line') || '';
+}
+
+function decorateDetail(root) {
+  const title = root.querySelector('.line-page .card:first-child .speaker-title');
+  if (!title || title.querySelector('[data-pdf-page]')) return;
+
+  const page = pageForLine(currentDetailLineId());
+  if (!page) return;
+
+  title.append(createBadge(page, true));
+}
+
+function decorate(root) {
+  decorateList(root);
+  decorateDetail(root);
 }
 
 function start() {
@@ -72,6 +100,7 @@ function start() {
   };
 
   new MutationObserver(schedule).observe(app, { childList: true, subtree: true });
+  window.addEventListener('hashchange', schedule);
   schedule();
 }
 
