@@ -182,6 +182,32 @@ test('previous and next buttons load the destination before animating its real s
   await expect(page).toHaveURL(new RegExp(target.next));
 });
 
+test('rapid next-button presses interrupt the active page-turn animation and immediately refire',async({page})=>{
+  await ready(page);
+  const target=await page.evaluate(()=>{
+    const rows=MTS_INDEX_ZERO.store.getScene('act1-scene1');
+    return{scene:'act1-scene1',line:rows[4].id,first:rows[5].id,second:rows[6].id};
+  });
+  await page.goto(`${BASE}#/line?scene=${target.scene}&line=${target.line}`);
+  await page.waitForSelector('[data-next]');
+  await watchTransitions(page);
+
+  await page.locator('[data-next]').click();
+  await page.waitForFunction(line=>window.__mtsFocusEvents?.some(event=>event.phase==='animationstart'&&event.line===line),target.first,{timeout:8000});
+  await page.locator('[data-next]').click();
+
+  const result=await completedTransition(page,target.second);
+  expectLoadedBeforeAnimation(result,target.second);
+  await expect(page).toHaveURL(new RegExp(target.second));
+  const interrupted=await page.evaluate(line=>{
+    const all=window.__mtsFocusEvents||[];
+    const first=all.find(event=>event.phase==='animationstart'&&event.line===line);
+    return first?all.filter(event=>event.id===first.id):[];
+  },target.first);
+  expect(interrupted.map(event=>event.phase)).toContain('interrupted');
+  expect(interrupted.map(event=>event.phase)).not.toContain('complete');
+});
+
 test('reduced-motion preference still keeps short visible swipe feedback instead of disabling motion completely',async({page})=>{
   await page.emulateMedia({reducedMotion:'reduce'});
   await ready(page);
