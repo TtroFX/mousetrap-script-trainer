@@ -9,7 +9,7 @@ async function ready(page){
 
 async function selectRole(page,role='MOLLIE'){
   await page.goto(BASE+'#/more');
-  await page.getByRole('button',{name:new RegExp(`^${role}`)}).click();
+  await page.locator(`button.role-card[data-role="${role}"]`).click();
 }
 
 test('Resume Continue restores the last studied location',async({page})=>{
