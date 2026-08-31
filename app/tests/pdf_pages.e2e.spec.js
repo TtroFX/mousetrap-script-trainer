@@ -22,7 +22,7 @@ test('Script canonical render shows p.3 in Full, Mine, and Cue Focus',async({pag
   await expectPageBadge(row,3);
 
   await page.goto(BASE+'#/more');
-  await page.getByRole('button',{name:/^MOLLIE/}).click();
+  await page.locator('button.role-card[data-role="MOLLIE"]').click();
   await page.goto(BASE+'#/script');
   await page.getByRole('button',{name:'Mine'}).click();
   row=page.locator(`[data-line="${LINE}"]`);
@@ -54,14 +54,17 @@ test('Line Detail renders p.3 and compact accessible reading controls',async({pa
   await expect(bookmark).toBeVisible();
   await expect(bookmark).toHaveText('☆');
   await expect(bookmark).toHaveAttribute('aria-label','Add bookmark');
+  await expect(bookmark).toHaveAttribute('aria-pressed','false');
 
   await bookmark.focus();
   await page.keyboard.press('Enter');
   await expect(bookmark).toHaveText('★');
   await expect(bookmark).toHaveAttribute('aria-label','Remove bookmark');
+  await expect(bookmark).toHaveAttribute('aria-pressed','true');
   expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),LINE)).toBe(true);
   await page.keyboard.press('Space');
   await expect(bookmark).toHaveText('☆');
+  await expect(bookmark).toHaveAttribute('aria-pressed','false');
   expect(await page.evaluate(id=>MTS_INDEX_ZERO.state.isBookmarked(id),LINE)).toBe(false);
 
   await shiori.focus();
