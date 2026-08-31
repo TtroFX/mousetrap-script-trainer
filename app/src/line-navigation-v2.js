@@ -12,6 +12,21 @@ const navStyle=document.createElement('style');
 navStyle.textContent='.line-nav-v2-overlay .floating-nav{pointer-events:auto!important}.line-nav-v2-overlay .floating-nav>button{pointer-events:auto!important}';
 document.head.append(navStyle);
 
+const AXIS_LOCK_PX=8;
+const AXIS_DOMINANCE=1.08;
+const COMMIT_MIN_PX=30;
+const COMMIT_MAX_PX=56;
+const COMMIT_RATIO=.075;
+const FLICK_MIN_PX=18;
+const FLICK_VELOCITY=.18;
+const resolveAxis=(ax,ay)=>{
+  if(Math.max(ax,ay)<AXIS_LOCK_PX)return null;
+  if(ax>ay*AXIS_DOMINANCE)return'x';
+  if(ay>ax*AXIS_DOMINANCE)return'y';
+  return null;
+};
+const commitThreshold=width=>Math.min(COMMIT_MAX_PX,Math.max(COMMIT_MIN_PX,width*COMMIT_RATIO));
+
 let swipe=null,lastTap=null,suppressClickUntil=0,committing=false;
 const interactiveSwipeBlock=target=>!!target.closest?.('input,select,textarea,[contenteditable="true"],[data-no-page-swipe]');
 const interactiveTapBlock=target=>!!target.closest?.('button,a,summary,input,select,textarea,[role="button"],[contenteditable="true"],[data-no-page-doubletap]');
@@ -97,12 +112,12 @@ function begin(event){
 function move(event){
   const state=swipe;if(!state||event.pointerId!==state.pointerId)return;
   const dx=event.clientX-state.startX,dy=event.clientY-state.startY,ax=Math.abs(dx),ay=Math.abs(dy);
-  if(!state.axis&&Math.max(ax,ay)>=10){if(ax>ay*1.08)state.axis='x';else if(ay>ax*1.08)state.axis='y'}
+  if(!state.axis)state.axis=resolveAxis(ax,ay);
   state.lastX=event.clientX;state.lastY=event.clientY;state.currentDx=dx;
   if(state.axis!=='x')return;
   event.stopImmediatePropagation();event.preventDefault();
   if(!state.captured){try{state.page.setPointerCapture?.(event.pointerId);state.captured=true}catch{}}
-  state.moved=state.moved||ax>=14;if(state.moved)lastTap=null;
+  state.moved=state.moved||ax>=12;if(state.moved)lastTap=null;
   const direction=dx<0?1:-1,target=adjacentRoute(state.route,direction),resisted=target?dx:dx*.28;
   state.direction=direction;state.surface.classList.add('is-focus-swiping');state.surface.style.transform=`translate3d(${resisted}px,0,0)`;state.surface.style.opacity='1';
   if(target)getPreview(state,direction,dx);else{state.activePreview?.remove();state.activePreview=null}
@@ -127,13 +142,13 @@ function end(event){
   const state=swipe;if(!state||event.pointerId!==state.pointerId)return;
   swipe=null;
   const dx=event.clientX-state.startX,dy=event.clientY-state.startY,ax=Math.abs(dx),ay=Math.abs(dy),duration=Math.max(1,(event.timeStamp||performance.now())-state.startTime);
-  const axis=state.axis??(Math.max(ax,ay)>=10?(ax>ay*1.08?'x':ay>ax*1.08?'y':null):null);
+  const axis=state.axis??resolveAxis(ax,ay);
   if(axis==='y'){lastTap=null;clearSurfaceMotion(state.surface);removePreviews(state);return}
   event.stopImmediatePropagation();
   if(!axis&&ax<=12&&ay<=12&&duration<=460){clearSurfaceMotion(state.surface);removePreviews(state);tap(event,state);return}
-  if(axis==='x'&&(state.moved||ax>=14))suppressClickUntil=performance.now()+360;
-  const width=Math.max(320,state.surface.clientWidth||innerWidth||320),threshold=Math.min(88,Math.max(46,width*.14)),velocity=ax/duration;
-  const shouldCommit=axis==='x'&&ax>ay*1.05&&(ax>=threshold||(ax>=30&&velocity>=.48)),direction=dx<0?1:-1;
+  if(axis==='x'&&(state.moved||ax>=12))suppressClickUntil=performance.now()+360;
+  const width=Math.max(320,state.surface.clientWidth||innerWidth||320),threshold=commitThreshold(width),velocity=ax/duration;
+  const shouldCommit=axis==='x'&&(ax>=threshold||(ax>=FLICK_MIN_PX&&velocity>=FLICK_VELOCITY)),direction=dx<0?1:-1;
   if(shouldCommit&&adjacentRoute(state.route,direction)){commit(state,direction,'swipe');return}
   settleBack(state);
 }
@@ -173,4 +188,4 @@ const scheduleRoleSync=()=>requestAnimationFrame(syncFocusRole);
 window.addEventListener('hashchange',()=>{lastTap=null;scheduleRoleSync();resetFocusScroll();scheduleLineScroll();if(readRoute())ensureRequiredData().catch(()=>{})});
 apiReady.then(api=>{scheduleRoleSync();scheduleLineScroll();api.store?.addEventListener?.('ready',()=>{scheduleRoleSync();scheduleLineScroll()})}).catch(()=>{});
 
-window.MTS_LINE_NAVIGATION=Object.freeze({version:2,easing:COMMIT_EASING,navigate:direction=>buttonNavigate(Math.sign(direction)||1,'api'),transitionState});
+window.MTS_LINE_NAVIGATION=Object.freeze({version:2,easing:COMMIT_EASING,navigate:direction=>buttonNavigate(Math.sign(direction)||1,'api'),transitionState,gestureProfile:Object.freeze({axisLockPx:AXIS_LOCK_PX,axisDominance:AXIS_DOMINANCE,commitMinPx:COMMIT_MIN_PX,commitMaxPx:COMMIT_MAX_PX,commitRatio:COMMIT_RATIO,flickMinPx:FLICK_MIN_PX,flickVelocity:FLICK_VELOCITY})});
