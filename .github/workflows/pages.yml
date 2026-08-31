@@ -87,9 +87,9 @@ jobs:
           ! grep -F 'pdf-page-badges.js' public/index.html
           node --input-type=module - <<'NODE'
           import { pageForLine } from './public/src/pdf-pages.js';
-          if(pageForLine('act1-scene1-speech-0002')!==3)throw new Error('artifact page mapping mismatch for speech-0002');
-          if(pageForLine('act1-scene2-speech-0001')!==20)throw new Error('artifact Scene II page mapping mismatch');
-          if(pageForLine('act2-speech-0001')!==44)throw new Error('artifact Act II page mapping mismatch');
+          if(pageForLine('act1-scene1-speech-0002')!==2)throw new Error('artifact page mapping mismatch for speech-0002');
+          if(pageForLine('act1-scene2-speech-0001')!==19)throw new Error('artifact Scene II page mapping mismatch');
+          if(pageForLine('act2-speech-0001')!==43)throw new Error('artifact Act II page mapping mismatch');
           NODE
           python3 - <<'PY'
           import json
