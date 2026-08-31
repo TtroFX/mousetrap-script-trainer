@@ -119,33 +119,44 @@ export class ResumeBookmarksUI {
       this.go(`#/line?scene=${encodeURIComponent(button.dataset.homeBookmarkScene)}&line=${encodeURIComponent(button.dataset.homeBookmarkOpen)}`);
     });
     bookmarkCard.querySelectorAll('[data-home-bookmark-remove]').forEach(button => button.onclick = () => {
-      const removed = this.state.removeBookmark(button.dataset.homeBookmarkRemove);
+      const lineId = button.dataset.homeBookmarkRemove;
+      const removed = this.state.removeBookmark(lineId);
+      if (!removed || this.state.isBookmarked(lineId)) {
+        this.showToast('Bookmark could not be removed');
+        return;
+      }
       this.decorateHome();
-      this.showToast('Bookmark removed', removed || null);
+      this.showToast('Bookmark removed', removed);
     });
   }
 
-  bookmarkToggle(sceneId, lineId, className = '') {
+  syncBookmarkToggle(el, lineId) {
     const active = this.state.isBookmarked(lineId);
-    const el = document.createElement('span');
-    el.className = `bookmark-toggle ${active ? 'active' : ''} ${className}`.trim();
-    el.setAttribute('role', 'button');
-    el.setAttribute('tabindex', '0');
-    el.setAttribute('aria-label', active ? 'Remove bookmark' : 'Add bookmark');
-    el.dataset.bookmarkToggle = lineId;
+    el.classList.toggle('active', active);
     el.textContent = active ? '★' : '☆';
+    el.setAttribute('aria-label', active ? 'Remove bookmark' : 'Add bookmark');
+    el.setAttribute('aria-pressed', active ? 'true' : 'false');
+    return active;
+  }
+
+  bookmarkToggle(sceneId, lineId, className = '') {
+    const el = document.createElement('button');
+    el.type = 'button';
+    el.className = `bookmark-toggle ${className}`.trim();
+    el.dataset.bookmarkToggle = lineId;
+    this.syncBookmarkToggle(el, lineId);
     const toggle = event => {
       event.preventDefault();
       event.stopPropagation();
       const result = this.state.toggleBookmark(sceneId, lineId);
-      const now = !!result?.bookmarked;
-      el.classList.toggle('active', now);
-      el.textContent = now ? '★' : '☆';
-      el.setAttribute('aria-label', now ? 'Remove bookmark' : 'Add bookmark');
-      this.showToast(now ? 'Bookmark added' : 'Bookmark removed', result?.removed || null);
+      const now = this.syncBookmarkToggle(el, lineId);
+      if (!result?.changed) {
+        this.showToast(now ? 'Bookmark could not be removed' : 'Bookmark could not be saved');
+        return;
+      }
+      this.showToast(now ? 'Bookmark added' : 'Bookmark removed', now ? null : result.removed || null);
     };
     el.addEventListener('click', toggle);
-    el.addEventListener('keydown', event => { if (event.key === 'Enter' || event.key === ' ') toggle(event); });
     return el;
   }
 
@@ -265,10 +276,15 @@ export class ResumeBookmarksUI {
     this.app.querySelectorAll('[data-bookmark-filter]').forEach(button => button.onclick = () => this.go(button.dataset.bookmarkFilter === 'all' ? '#/bookmarks' : `#/bookmarks?scene=${encodeURIComponent(button.dataset.bookmarkFilter)}`));
     this.app.querySelectorAll('[data-bookmark-open]').forEach(button => button.onclick = () => { this.state.setScene(button.dataset.bookmarkScene); this.go(`#/line?scene=${encodeURIComponent(button.dataset.bookmarkScene)}&line=${encodeURIComponent(button.dataset.bookmarkOpen)}`); });
     this.app.querySelectorAll('[data-bookmark-remove]').forEach(button => button.onclick = () => {
-      const removed = this.state.removeBookmark(button.dataset.bookmarkRemove);
+      const lineId = button.dataset.bookmarkRemove;
+      const removed = this.state.removeBookmark(lineId);
+      if (!removed || this.state.isBookmarked(lineId)) {
+        this.showToast('Bookmark could not be removed');
+        return;
+      }
       button.closest('[data-bookmark-row]')?.remove();
       if (!this.app.querySelector('[data-bookmark-row]')) this.renderBookmarks(new URLSearchParams(location.hash.split('?')[1] || ''));
-      this.showToast('Bookmark removed', removed || null);
+      this.showToast('Bookmark removed', removed);
     });
     this.app.querySelector('[data-bookmark-go-script]')?.addEventListener('click', () => this.go('#/script'));
   }
@@ -287,7 +303,11 @@ export class ResumeBookmarksUI {
       undo.type = 'button';
       undo.textContent = 'Undo';
       undo.onclick = () => {
-        this.state.restoreBookmark(undoEntry);
+        const restored = this.state.restoreBookmark(undoEntry);
+        if (!restored || !this.state.isBookmarked(undoEntry.lineId)) {
+          this.showToast('Bookmark could not be restored');
+          return;
+        }
         host.classList.remove('show', 'actionable');
         if (location.hash.startsWith('#/bookmarks')) this.renderBookmarks(new URLSearchParams(location.hash.split('?')[1] || ''));
         else this.afterRoute(location.hash.replace(/^#/, '').split('?')[0] || '/home', new URLSearchParams(location.hash.split('?')[1] || ''));
