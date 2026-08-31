@@ -1,7 +1,8 @@
 // Physical PDF page mapping for The Mousetrap script.
 // Source authority: "The Mousetrap 台本.pdf"
 // SHA-256: 94d46d2afe7504d2010c10b3ef4f1017bc3adfe0c09ab86bfd837167357c397b
-// A speech is labeled with the physical PDF page on which its speaker label begins.
+// A speech is mapped to the physical PDF page on which its speaker label begins.
+// UI page numbers exclude the cover, so the displayed page is physical PDF page - 1.
 const PDF_PAGE_BOUNDARIES = Object.freeze({
   'act1-scene1': [[1,3],[3,4],[15,5],[33,6],[43,7],[51,8],[61,9],[72,10],[85,11],[99,12],[114,13],[123,14],[133,15],[150,16],[158,17],[174,18],[187,19]],
   'act1-scene2': [[1,20],[14,21],[30,22],[48,23],[66,24],[79,25],[95,26],[109,27],[125,28],[138,29],[150,30],[168,31],[183,32],[194,33],[208,34],[222,35],[233,36],[245,37],[260,38],[275,39],[295,40],[310,41],[327,42],[336,43]],
@@ -19,5 +20,5 @@ export function pageForLine(lineId) {
     if (ordinal < start) break;
     page = candidate;
   }
-  return page;
+  return Number.isInteger(page) ? page - 1 : null;
 }
