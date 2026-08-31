@@ -47,26 +47,52 @@ export class StateStore extends EventTarget {
     return [all.cue, all.rehearsal].filter(x => x && !x.completed).sort(resumeSort)[0] || null;
   }
 
-  bookmarks() { const raw = safeParse(safeGet(STORAGE_KEYS.bookmarks), {}) || {}; return raw && typeof raw === 'object' ? raw : {}; }
-  isBookmarked(lineId) { return !!this.bookmarks()[lineId]; }
+  bookmarks() {
+    const raw = safeParse(safeGet(STORAGE_KEYS.bookmarks), {}) || {};
+    return raw && typeof raw === 'object' && !Array.isArray(raw) ? raw : {};
+  }
+  writeBookmarks(entries) {
+    const next = entries && typeof entries === 'object' && !Array.isArray(entries) ? entries : {};
+    if (!jsonSet(STORAGE_KEYS.bookmarks, next)) return false;
+    return this.bookmarks();
+  }
+  isBookmarked(lineId) { return !!(lineId && this.bookmarks()[lineId]); }
   addBookmark(sceneId, lineId, createdAt = stamp()) {
     if (!sceneIds.has(sceneId) || !lineId || (this.data.hasCore() && !this.data.getSpeech(sceneId, lineId))) return false;
     const all = this.bookmarks();
-    all[lineId] = { lineId, sceneId, createdAt: all[lineId]?.createdAt || createdAt };
-    jsonSet(STORAGE_KEYS.bookmarks, all);
-    this.emit('change', { key: 'bookmark', action: 'add', value: all[lineId] });
-    return all[lineId];
+    const entry = { lineId, sceneId, createdAt: all[lineId]?.createdAt || createdAt };
+    const persisted = this.writeBookmarks({ ...all, [lineId]: entry });
+    const saved = persisted && persisted[lineId];
+    if (!saved || saved.sceneId !== sceneId) return false;
+    this.emit('change', { key: 'bookmark', action: 'add', value: saved });
+    return saved;
   }
   removeBookmark(lineId) {
     const all = this.bookmarks(), old = all[lineId];
     if (!old) return false;
-    delete all[lineId];
-    jsonSet(STORAGE_KEYS.bookmarks, all);
+    const next = { ...all };
+    delete next[lineId];
+    const persisted = this.writeBookmarks(next);
+    if (!persisted || persisted[lineId]) return false;
     this.emit('change', { key: 'bookmark', action: 'remove', value: old });
     return old;
   }
-  restoreBookmark(entry) { return entry?.lineId ? this.addBookmark(entry.sceneId, entry.lineId, entry.createdAt) : false; }
-  toggleBookmark(sceneId, lineId) { return this.isBookmarked(lineId) ? { bookmarked: false, removed: this.removeBookmark(lineId) } : { bookmarked: true, entry: this.addBookmark(sceneId, lineId) }; }
+  restoreBookmark(entry) {
+    if (!entry?.lineId) return false;
+    const restored = this.addBookmark(entry.sceneId, entry.lineId, entry.createdAt);
+    return restored && this.isBookmarked(entry.lineId) ? restored : false;
+  }
+  toggleBookmark(sceneId, lineId) {
+    const wasBookmarked = this.isBookmarked(lineId);
+    if (wasBookmarked) {
+      const removed = this.removeBookmark(lineId);
+      const bookmarked = this.isBookmarked(lineId);
+      return { bookmarked, changed: !!removed && !bookmarked, removed: removed || null };
+    }
+    const entry = this.addBookmark(sceneId, lineId);
+    const bookmarked = this.isBookmarked(lineId);
+    return { bookmarked, changed: !!entry && bookmarked, entry: entry || null };
+  }
 
   readerProgress() { const p = safeParse(safeGet(STORAGE_KEYS.readerProgress), {}) || {}; return { version: 1, globalSeen: Array.isArray(p.globalSeen) ? p.globalSeen : [], roles: p.roles && typeof p.roles === 'object' ? p.roles : {}, last: p.last && typeof p.last === 'object' ? p.last : null, updatedAt: p.updatedAt || '' }; }
   markReaderSeen(sceneId, lineId) {
