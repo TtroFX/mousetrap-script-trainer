@@ -21,7 +21,7 @@ test('core has exactly 1164 speeches and Home navigation remains usable',async({
 test('Reader Full Mine Cue Focus and role persistence',async({page})=>{
   await ready(page);
   await page.goto(BASE+'#/more');
-  await page.getByRole('button',{name:/^MOLLIE/}).click();
+  await page.locator('button.role-card[data-role="MOLLIE"]').click();
   await page.goto(BASE+'#/script');
   await page.getByRole('button',{name:'Mine'}).click();
   await expect(page.locator('[data-line]').first()).toBeVisible();
@@ -63,7 +63,7 @@ test('Dictionary opens from a registered vocabulary item without iframe',async({
 
 test('Cue Practice reveal/rating persists state and progress',async({page})=>{
   await ready(page);
-  await page.goto(BASE+'#/more');await page.getByRole('button',{name:/^MOLLIE/}).click();
+  await page.goto(BASE+'#/more');await page.locator('button.role-card[data-role="MOLLIE"]').click();
   await page.goto(BASE+'#/cue?scene=act1-scene1');
   await expect(page.getByText(/YOUR LINE · MOLLIE/)).toBeVisible();
   await page.getByRole('button',{name:'Reveal'}).click();
@@ -75,7 +75,7 @@ test('Cue Practice reveal/rating persists state and progress',async({page})=>{
 
 test('Rehearsal keeps controls and persists position',async({page})=>{
   await ready(page);
-  await page.goto(BASE+'#/more');await page.getByRole('button',{name:/^MOLLIE/}).click();
+  await page.goto(BASE+'#/more');await page.locator('button.role-card[data-role="MOLLIE"]').click();
   await page.goto(BASE+'#/rehearsal?scene=act1-scene1');
   await expect(page.getByRole('button',{name:/Skip/})).toBeVisible();
   await page.getByRole('button',{name:/Skip/}).click();
