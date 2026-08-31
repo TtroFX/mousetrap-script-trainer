@@ -4,5 +4,6 @@
 .speaker-title{display:flex;align-items:center;justify-content:space-between;gap:12px}
 .pdf-page-badge--detail{position:static;z-index:auto;flex:0 0 auto;font-size:10px;letter-spacing:0;text-transform:none;opacity:.82}
 .line-bookmark-holder{gap:6px;margin:-3px 0 8px}
+.line-page .line-bookmark-holder>span:not(.bookmark-toggle){display:none!important}
 .line-bookmark-holder .bookmark-toggle{width:34px;height:34px}
 @media(max-width:380px){.pdf-page-badge{right:94px}.speaker-title{gap:8px}}
