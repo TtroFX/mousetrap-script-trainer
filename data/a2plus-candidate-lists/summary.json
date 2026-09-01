@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "policy": "A2+ screening by conservative A1 exclusion; intentionally over-inclusive",
+  "parts": {
+    "part1": {
+      "scope": [
+        1,
+        291
+      ],
+      "raw": 1313,
+      "deduped": 686,
+      "final": 314
+    },
+    "part2": {
+      "scope": [
+        292,
+        582
+      ],
+      "raw": 1156,
+      "deduped": 552,
+      "final": 267
+    }
+  },
+  "crossPartOverlapCandidates": 106,
+  "note": "Each TXT is independently deduplicated and filtered against current implemented dictionary/vocabulary. Cross-part overlap is intentionally reported, not silently removed, so each quarter remains auditable."
+}
