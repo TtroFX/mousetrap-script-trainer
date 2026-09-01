@@ -1,0 +1,23 @@
+{
+  "middle": {"pos":"名詞","meaning":"【名詞】\n中央、中間；物事や集団のただ中。"},
+  "nasty": {"pos":"形容詞","meaning":"【形容詞】\n不快な、意地の悪い、ひどい。"},
+  "normal": {"pos":"形容詞","meaning":"【形容詞】\n普通の、正常な、通常どおりの。"},
+  "offer": {"pos":"動詞","meaning":"【動詞】\n～を申し出る、提供する、差し出す。"},
+  "particular": {"pos":"形容詞","meaning":"【形容詞】\n特定の、特にその；個別の。"},
+  "pass": {"pos":"動詞","meaning":"【動詞】\n～を通り過ぎる、通過する；そばを通る。"},
+  "perform": {"pos":"動詞","meaning":"【動詞】\n行動・作業などを行う、実行する；演じる。"},
+  "pick": {"pos":"動詞","meaning":"【動詞】\n～を選ぶ；つまみ取る、拾い上げる。"},
+  "pleased": {"pos":"形容詞","meaning":"【形容詞】\nうれしい、満足している、喜んでいる。"},
+  "pocket": {"pos":"名詞","meaning":"【名詞】\n衣服などに付いたポケット、物を入れる小袋状の部分。"},
+  "possibility": {"pos":"名詞","meaning":"【名詞】\n可能性；起こり得る事柄・選択肢。"},
+  "pull": {"pos":"動詞","meaning":"【動詞】\n～を引く、引っ張る。"},
+  "realize": {"pos":"動詞","meaning":"【動詞】\n～に気づく、理解する；～を実現する。"},
+  "rest": {"pos":"名詞","meaning":"【名詞】\n残り、残りの人・物；休息。"},
+  "round": {"pos":"前置詞・副詞","meaning":"【前置詞】\n～の周りに、～のあちこちを。\n【副詞】\n周囲を、ぐるりと；あちこちに。","tags":["British English"]},
+  "shout": {"pos":"動詞","meaning":"【動詞】\n大声で叫ぶ、怒鳴る。"},
+  "smoke": {"pos":"動詞","meaning":"【動詞】\nたばこ・葉巻などを吸う；煙を出す。"},
+  "soldier": {"pos":"名詞","meaning":"【名詞】\n軍人、兵士。"},
+  "sort": {"pos":"名詞","meaning":"【名詞】\n種類、タイプ、類。"},
+  "suddenly": {"pos":"副詞","meaning":"【副詞】\n突然、急に。"},
+  "suggestion": {"pos":"名詞","meaning":"【名詞】\n提案、意見；示唆。"}
+}
