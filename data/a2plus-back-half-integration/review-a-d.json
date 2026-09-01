@@ -1,0 +1,2795 @@
+{
+  "schemaVersion": 1,
+  "group": "a-d",
+  "count": 41,
+  "items": [
+    {
+      "word": "after",
+      "cefr": "A2",
+      "parts": "3,4",
+      "occurrences": 13,
+      "firstSpeechId": "act2-speech-0060",
+      "surfaceForms": "after",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0060",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "after"
+          ],
+          "text": "With one finger so...And then I hear the radio ― playing very loud ― someone is shouting on it. It offended my ears. And after that ― suddenly ― I hear Mrs. Ralston scream."
+        },
+        {
+          "speechId": "act2-speech-0083",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "after"
+          ],
+          "text": "We're not engaged in antiquarian research, Major Metcalf. We're investigating a murder. Mrs. Ralston has told us that she heard a door shut with a faint creak. That particular door shuts with a creak. It could be, you know, that after killing Mrs. Boyle, the murderer heard Mrs. Ralston coming from the kitchen and slipped into the cupboard pulling the door to after him."
+        },
+        {
+          "speechId": "act2-speech-0121",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "after"
+          ],
+          "text": "The mother was a drunk. She died soon after the children were taken away from her."
+        },
+        {
+          "speechId": "act2-speech-0128",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "after"
+          ],
+          "text": "If he came home, after being a prisoner with the Japs, perhaps, and having suffered terribly ― if he came home and found his wife dead and that his children had gone through some terrible experience, and one of them had died through it, he might go off his head a bit and want ― revenge!"
+        },
+        {
+          "speechId": "act2-speech-0206",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "after"
+          ],
+          "text": "Everything would be all right if she hadn't died. She would have taken care of me ― and looked after me..."
+        },
+        {
+          "speechId": "act2-speech-0207",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "after"
+          ],
+          "text": "You can't go on being looked after all your life. Things happen to you. And you've got to bear them ― you've got to go on just as usual."
+        },
+        {
+          "speechId": "act2-speech-0238",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "after"
+          ],
+          "text": "Well, that's all right. Probably he did go up to London after all."
+        },
+        {
+          "speechId": "act2-speech-0267",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "after"
+          ],
+          "text": "He isn't. He's just unhappy. I tell you, Giles, he isn't dangerous. I'd know if he was dangerous. And anyway, I can look after myself."
+        },
+        {
+          "speechId": "act2-speech-0332",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "after"
+          ],
+          "text": "Oh, thank goodness. You haven't gone, after all."
+        },
+        {
+          "speechId": "act2-speech-0517",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "after"
+          ],
+          "text": "Sit down, Miss Casewell, Mrs. Ralston... Will you all pay attention, please? You may remember that after the murder of Mrs. Boyle, I took statements from you all. Those statements related to your positions at the time the murder was committed. These statements were as follows: Mrs. Ralston in the kitchen, Mr. Paravicini playing the piano in the drawing room, Mr. Ralston in his bedroom. Mr. Wren ditto. Miss Casewell in the library. Major Metcalf in the cellar."
+        },
+        {
+          "speechId": "act2-speech-0602",
+          "speaker": "MISS CASEWELL",
+          "matchedForms": [
+            "after"
+          ],
+          "text": "It's all right, Georgie. I'm taking you somewhere where they will look after you, and see that you won't do any more harm."
+        },
+        {
+          "speechId": "act2-speech-0612",
+          "speaker": "MAJOR METCALF",
+          "matchedForms": [
+            "after"
+          ],
+          "text": "Everything's under control. He will be unconscious soon with a sedative ― his sister's looking after him. Poor fellow's as mad as a hatter, of course. I've had my suspicions of him all along."
+        }
+      ]
+    },
+    {
+      "word": "age",
+      "cefr": "B1",
+      "parts": "3,4",
+      "occurrences": 5,
+      "firstSpeechId": "act2-speech-0095",
+      "surfaceForms": "age",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0095",
+          "speaker": "GILES",
+          "matchedForms": [
+            "age"
+          ],
+          "text": "But you know pretty well who killed that woman in Culver Street. You think it's the eldest of those three children at the farm. A mentally abnormal young man who is now twenty-three years of age. Well, damn it all, there's only one person here who fits the bill."
+        },
+        {
+          "speechId": "act2-speech-0149",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "age"
+          ],
+          "text": "You're about the right age. No, no. Whatever you tell me about yourself, I've got no means of checking it at this moment, remember. And then there's your husband."
+        },
+        {
+          "speechId": "act2-speech-0151",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "age"
+          ],
+          "text": "He and Christopher Wren are much of an age. Say your husband looks older than his years, and Christopher Wren looks younger. Actual age is very hard to tell. How much do you know about your husband, Mrs. Ralston?"
+        },
+        {
+          "speechId": "act2-speech-0460",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "age"
+          ],
+          "text": "Would you mind telling me your age?"
+        }
+      ]
+    },
+    {
+      "word": "aged",
+      "cefr": "B1",
+      "parts": "3",
+      "occurrences": 2,
+      "firstSpeechId": "act2-speech-0132",
+      "surfaceForms": "aged",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0132",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "aged"
+          ],
+          "text": "So the murderer may be middle-aged, or even old. When I said the police had rung up, Major Metcalf was frightfully upset. He really was. I saw his face."
+        },
+        {
+          "speechId": "act2-speech-0134",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "aged"
+          ],
+          "text": "Middle-aged. A soldier. He seems quite nice and perfectly normal ― but it mightn't show, might it?"
+        }
+      ]
+    },
+    {
+      "word": "alive",
+      "cefr": "A2",
+      "parts": "3",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0123",
+      "surfaceForms": "alive",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0123",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "alive"
+          ],
+          "text": "He was an Army sergeant, serving abroad. If he's alive, he's probably discharged from the Army by now."
+        }
+      ]
+    },
+    {
+      "word": "all",
+      "cefr": "A2",
+      "parts": "3,4",
+      "occurrences": 72,
+      "firstSpeechId": "act2-speech-0082",
+      "surfaceForms": "all",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0082",
+          "speaker": "MAJOR METCALF",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Not at all. Crypt of an old monastery, I should say. Probably why this place is called \"Monkswell.\""
+        },
+        {
+          "speechId": "act2-speech-0086",
+          "speaker": "MAJOR METCALF",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Mine are there all right. But most criminals are careful to wear gloves, aren't they?"
+        },
+        {
+          "speechId": "act2-speech-0087",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "It's usual. But all criminals slip up sooner or later."
+        },
+        {
+          "speechId": "act2-speech-0092",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Mr. Ralston! Thank you. We've got to establish opportunity, you know, as well as motive. And now let me tell you this ― you all had opportunity. There are two staircases ― anyone could go up by one and come down by the other. Anyone could go down to the cellars by the door near the kitchen and come up by a flight of steps that leads up through a trapdoor to the foot of the stairs over there. The vital fact was that every one of you was alone at the time the murder was committed."
+        },
+        {
+          "speechId": "act2-speech-0093",
+          "speaker": "GILES",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "But look here, Sergeant, you speak as though we were all under suspicion. That's absurd!"
+        },
+        {
+          "speechId": "act2-speech-0095",
+          "speaker": "GILES",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "But you know pretty well who killed that woman in Culver Street. You think it's the eldest of those three children at the farm. A mentally abnormal young man who is now twenty-three years of age. Well, damn it all, there's only one person here who fits the bill."
+        },
+        {
+          "speechId": "act2-speech-0096",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "It's not true ― it's not true! You're all against me. Everyone's always been against me. You're going to frame me for a murder. It's persecution, that's what it is ― persecution."
+        },
+        {
+          "speechId": "act2-speech-0098",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "It's all right, Chris. Nobody's against you. Tell him it's all right."
+        },
+        {
+          "speechId": "act2-speech-0111",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "We don't actually know a thing. All we've got so far is that the woman who joined with her husband in ill-treating and starving those children has been killed, and that the woman magistrate who was responsible for placing them there has been killed. The telephone wire that links me with police headquarters has been cut..."
+        },
+        {
+          "speechId": "act2-speech-0116",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "But, all the same, you don't know..."
+        },
+        {
+          "speechId": "act2-speech-0117",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "I'm going by probability. It all points one way; mental instability, childish mentality, desertion from the Army and the psychiatrist's report."
+        },
+        {
+          "speechId": "act2-speech-0118",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Oh, I know, and therefore it all seems to point to Christopher. But I don't believe it is Christopher. There must be other possibilities."
+        },
+        {
+          "speechId": "act2-speech-0120",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Well ― hadn't those children any relations at all?"
+        },
+        {
+          "speechId": "act2-speech-0135",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "No, often it doesn't show at all."
+        },
+        {
+          "speechId": "act2-speech-0143",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Mrs. Ralston, let me tell you something. I've had all possibilities in mind ever since the beginning. The boy Georgie, the father ― and someone else. There was a sister, you remember."
+        },
+        {
+          "speechId": "act2-speech-0158",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "He hasn't any people. They're all dead."
+        },
+        {
+          "speechId": "act2-speech-0159",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "They're all dead?"
+        },
+        {
+          "speechId": "act2-speech-0160",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Yes ― but oh, you make it sound all wrong. His father was a barrister and his mother died when he was a baby."
+        },
+        {
+          "speechId": "act2-speech-0165",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "You'd be surprised, Mrs. Ralston, if you knew how many cases rather like yours we get. Especially since the war. Homes broken up and families dead. Fellow says he's been in the Air Force, or just finished his Army training. Parents killed ― no relations. There aren't any backgrounds nowadays and young people settle their own affairs ― they meet and marry. It's parents and relatives who used to make the enquiries before they consented to an engagement. That's all done away with. Girl just marries her man. Sometimes she doesn't find out for a year or two that he's an absconding bank clerk, or an Army deserter or something equally undesirable. How long had you known Giles Ralston when you married him?"
+        },
+        {
+          "speechId": "act2-speech-0190",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "But, darling, they're all so frightfully against me. They're going to say I committed these murders ― particularly your husband."
+        },
+        {
+          "speechId": "act2-speech-0191",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Never mind him. Listen, Christopher, you can't go on ― running away from things ― all your life."
+        },
+        {
+          "speechId": "act2-speech-0204",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "We needn't go into that. I ran away whilst I was doing my Army service. It was all so beastly ― I hated it. Yes, I'm just like the unknown murderer. I told you I was the one the specification fitted. You see, my mother my mother..."
+        },
+        {
+          "speechId": "act2-speech-0206",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Everything would be all right if she hadn't died. She would have taken care of me ― and looked after me..."
+        },
+        {
+          "speechId": "act2-speech-0207",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "You can't go on being looked after all your life. Things happen to you. And you've got to bear them ― you've got to go on just as usual."
+        },
+        {
+          "speechId": "act2-speech-0230",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "What is all this?"
+        },
+        {
+          "speechId": "act2-speech-0236",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Well, if he was here all day..."
+        },
+        {
+          "speechId": "act2-speech-0238",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Well, that's all right. Probably he did go up to London after all."
+        },
+        {
+          "speechId": "act2-speech-0239",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Then why shouldn't he tell me he did? Why pretend he'd been driving all round the countryside?"
+        },
+        {
+          "speechId": "act2-speech-0264",
+          "speaker": "GILES",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "What is all this? Mollie, you must be crazy. Perfectly prepared to shut yourself up in the kitchen with a homicidal maniac."
+        },
+        {
+          "speechId": "act2-speech-0271",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "What do you mean by between us? I'm sorry for him ― that's all."
+        },
+        {
+          "speechId": "act2-speech-0272",
+          "speaker": "GILES",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Perhaps you'd met him before. Perhaps you suggested to him to come here and that you'd both pretend to meet for the first time. All cooked up between you, was it?"
+        },
+        {
+          "speechId": "act2-speech-0285",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "All right, I went to..."
+        },
+        {
+          "speechId": "act2-speech-0289",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "All right. I went to London. So did you!"
+        },
+        {
+          "speechId": "act2-speech-0296",
+          "speaker": "GILES",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "All right. Yes, I was in London. I didn't go to meet a woman there."
+        },
+        {
+          "speechId": "act2-speech-0306",
+          "speaker": "GILES",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Mollie, what's come over you? You're different all of a sudden. I feel as though I don't know you any more."
+        },
+        {
+          "speechId": "act2-speech-0309",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "All right then, I'm crazy! Why not? Perhaps it's fun to be crazy!"
+        },
+        {
+          "speechId": "act2-speech-0313",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Quite so. Quite so. I know just how you feel. I have been through all this myself when I was a younger man. Jeunesse ― jeunesse ― as the poet says. Not been married long, I imagine?"
+        },
+        {
+          "speechId": "act2-speech-0315",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "No, no, no business at all. But I just came in to say that the Sergeant cannot find his skis and I'm afraid he is very annoyed."
+        },
+        {
+          "speechId": "act2-speech-0332",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Oh, thank goodness. You haven't gone, after all."
+        },
+        {
+          "speechId": "act2-speech-0367",
+          "speaker": "MAJOR METCALF",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Ought to be able to find them if we all set to. Not a case of \"Hunt the Thimble.\" Whacking great things, skis. Supposing we all set to."
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        },
+        {
+          "speechId": "act2-speech-0381",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "It's silly of me. But you see ― I found her. Her face was all purple. I can't forget it..."
+        },
+        {
+          "speechId": "act2-speech-0383",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "I must go ― the food ― dinner ― prepare the spinach ― and the potatoes all going to pieces ― please, Giles."
+        },
+        {
+          "speechId": "act2-speech-0458",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "All the same, Miss Casewell..."
+        },
+        {
+          "speechId": "act2-speech-0493",
+          "speaker": "MISS CASEWELL",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "No, it's nothing. It's just ― all this ― murder ― it's so horrible. It came over me suddenly. I'll go up to my room."
+        },
+        {
+          "speechId": "act2-speech-0501",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Giles and Mollie are in the kitchen. I have been helping Major Metcalf to look for your skis. We've looked in the most entertaining places-but all to no avail. I don't know where Paravicini is."
+        },
+        {
+          "speechId": "act2-speech-0504",
+          "speaker": "MAJOR METCALF",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "What is all this?"
+        },
+        {
+          "speechId": "act2-speech-0517",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Sit down, Miss Casewell, Mrs. Ralston... Will you all pay attention, please? You may remember that after the murder of Mrs. Boyle, I took statements from you all. Those statements related to your positions at the time the murder was committed. These statements were as follows: Mrs. Ralston in the kitchen, Mr. Paravicini playing the piano in the drawing room, Mr. Ralston in his bedroom. Mr. Wren ditto. Miss Casewell in the library. Major Metcalf in the cellar."
+        },
+        {
+          "speechId": "act2-speech-0538",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "I can't count anybody out. One might almost believe that you're all guilty by the looks of you. Why are you all so unwilling?"
+        },
+        {
+          "speechId": "act2-speech-0539",
+          "speaker": "GILES",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Of course, what you say goes, Sergeant. We'll all cooperate. Eh, Mollie?"
+        },
+        {
+          "speechId": "act2-speech-0547",
+          "speaker": "GILES",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Are we all to do exactly what we did before?"
+        },
+        {
+          "speechId": "act2-speech-0553",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Don't we all know it?"
+        },
+        {
+          "speechId": "act2-speech-0558",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "There is a point. It is a means of checking up on the original statements, and maybe one statement in particular. Now then, will you all pay attention, please. I will assign each of you your new stations. Mr. Wren, will you kindly go to the kitchen. Just keep an eye on Mrs. Ralston's dinner for her. You're very fond of cooking, I believe. Mr. Paravicini, will you go up to Mr. Wren's room. By the back stairs is the most convenient way. Major Metcalf, will you go up to Mr. Ralston's room and examine the telephone there. Miss Casewell, would you mind going down to the cellars? Mr. Wren will show you the way. Unfortunately, I need someone to reproduce my own actions. I am sorry to ask it of you, Mr. Ralston, but would you go out by that window and follow the telephone wire round to near the front door. Rather a chilly job ― but you're probably the toughest person here."
+        },
+        {
+          "speechId": "act2-speech-0562",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "You will all stay in your places and remain there until you hear me call you."
+        },
+        {
+          "speechId": "act2-speech-0575",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Come now, Mrs. Ralston. We policemen aren't quite so dumb as you think. All along I've realized that you had firsthand knowledge of the Longridge Farm affair. You knew Mrs. Boyle was the magistrate concerned. In fact, you knew all about it. Why didn't you speak up and say so?"
+        },
+        {
+          "speechId": "act2-speech-0589",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "You'd better not scream, Mrs. Ralston ― because if you do I shall fire this revolver...I'd like to talk to you a little. I said I'd like to talk to you a little. Jimmy died. That nasty cruel woman killed him. They put her in prison. Prison wasn't bad enough for her. I said I'd kill her one day...I did, too. In the fog. It was great fun. I hope Jimmy knows. \"I'll kill them all when I've grown up.\" That's what I said to myself. Because grown-ups can do anything they like. I'm going to kill you in a minute."
+        },
+        {
+          "speechId": "act2-speech-0591",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Someone's hidden my skis! I can't find them. But it doesn't matter. I don't really mind if I get away or not. I'm tired. It's all been such fun. Watching you all. And pretending to be a policeman."
+        },
+        {
+          "speechId": "act2-speech-0602",
+          "speaker": "MISS CASEWELL",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "It's all right, Georgie. I'm taking you somewhere where they will look after you, and see that you won't do any more harm."
+        },
+        {
+          "speechId": "act2-speech-0604",
+          "speaker": "GILES",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Mollie, Mollie, are you all right? Darling, darling."
+        },
+        {
+          "speechId": "act2-speech-0609",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "I was mixed up in it all, I taught in the school. It wasn't my fault ― but he thought I could have saved that child."
+        },
+        {
+          "speechId": "act2-speech-0612",
+          "speaker": "MAJOR METCALF",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Everything's under control. He will be unconscious soon with a sedative ― his sister's looking after him. Poor fellow's as mad as a hatter, of course. I've had my suspicions of him all along."
+        },
+        {
+          "speechId": "act2-speech-0625",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "They're cigars. I do hope they're all right."
+        },
+        {
+          "speechId": "act2-speech-0630",
+          "speaker": "GILES",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "Oh yes, I forgot all about your present. It's a hat."
+        },
+        {
+          "speechId": "act2-speech-0636",
+          "speaker": "GILES",
+          "matchedForms": [
+            "all"
+          ],
+          "text": "It is all right, isn't it? The girl in the shop said it was the last thing in hats."
+        }
+      ]
+    },
+    {
+      "word": "any",
+      "cefr": "A2",
+      "parts": "3,4",
+      "occurrences": 14,
+      "firstSpeechId": "act2-speech-0073",
+      "surfaceForms": "any",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0073",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "any"
+          ],
+          "text": "And yet there doesn't seem to be any unfinished letter on the writing desk in the library."
+        },
+        {
+          "speechId": "act2-speech-0101",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "any"
+          ],
+          "text": "I'm not arresting anyone. To do that, I've got to have evidence. I haven't got any evidence ― yet."
+        },
+        {
+          "speechId": "act2-speech-0120",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "any"
+          ],
+          "text": "Well ― hadn't those children any relations at all?"
+        },
+        {
+          "speechId": "act2-speech-0137",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "any"
+          ],
+          "text": "Any other suggestions?"
+        },
+        {
+          "speechId": "act2-speech-0158",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "any"
+          ],
+          "text": "He hasn't any people. They're all dead."
+        },
+        {
+          "speechId": "act2-speech-0165",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "any"
+          ],
+          "text": "You'd be surprised, Mrs. Ralston, if you knew how many cases rather like yours we get. Especially since the war. Homes broken up and families dead. Fellow says he's been in the Air Force, or just finished his Army training. Parents killed ― no relations. There aren't any backgrounds nowadays and young people settle their own affairs ― they meet and marry. It's parents and relatives who used to make the enquiries before they consented to an engagement. That's all done away with. Girl just marries her man. Sometimes she doesn't find out for a year or two that he's an absconding bank clerk, or an Army deserter or something equally undesirable. How long had you known Giles Ralston when you married him?"
+        },
+        {
+          "speechId": "act2-speech-0237",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "any"
+          ],
+          "text": "But he wasn't. He went off in the car to look for chicken wire, but he couldn't find any."
+        },
+        {
+          "speechId": "act2-speech-0243",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "any"
+          ],
+          "text": "I don't know what the Sergeant thinks. And he can make you think things about people. You ask yourself questions and you begin to doubt. You feel that somebody you love and know well might be ― a stranger. That's what happens in a nightmare. You're somewhere in the middle of friends and then you suddenly look at their faces and they're not your friends any longer ― they're different people ― just pretending. Perhaps you can't trust anybody ― perhaps everybody's a stranger."
+        },
+        {
+          "speechId": "act2-speech-0306",
+          "speaker": "GILES",
+          "matchedForms": [
+            "any"
+          ],
+          "text": "Mollie, what's come over you? You're different all of a sudden. I feel as though I don't know you any more."
+        },
+        {
+          "speechId": "act2-speech-0318",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "any"
+          ],
+          "text": "He wants to know if you have by any chance moved them, Mr. Ralston."
+        },
+        {
+          "speechId": "act2-speech-0363",
+          "speaker": "MAJOR METCALF",
+          "matchedForms": [
+            "any"
+          ],
+          "text": "No good shouting at me, young fellow. I wasn't thinking about any damned skis. I was interested in the cellars. Architecture of this place is very interesting. I opened the other door and I went on down. So I can't tell you whether the skis were there or not."
+        },
+        {
+          "speechId": "act2-speech-0409",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "any"
+          ],
+          "text": "Well, well ― try again ― that is, if you have any more questions to ask."
+        },
+        {
+          "speechId": "act2-speech-0511",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "any"
+          ],
+          "text": "No, Mrs. Ralston, but I may say I have a very shrewd suspicion of who took them, and of why they were taken. I won't say any more at the present moment."
+        },
+        {
+          "speechId": "act2-speech-0602",
+          "speaker": "MISS CASEWELL",
+          "matchedForms": [
+            "any"
+          ],
+          "text": "It's all right, Georgie. I'm taking you somewhere where they will look after you, and see that you won't do any more harm."
+        }
+      ]
+    },
+    {
+      "word": "anywhere",
+      "cefr": "A2",
+      "parts": "3",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0186",
+      "surfaceForms": "anywhere",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0186",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "anywhere"
+          ],
+          "text": "If only I could get away. Somehow ― some way. Is there anywhere I could hide ― in the house?"
+        }
+      ]
+    },
+    {
+      "word": "argue",
+      "cefr": "A2",
+      "parts": "4",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0459",
+      "surfaceForms": "argue",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0459",
+          "speaker": "MISS CASEWELL",
+          "matchedForms": [
+            "argue"
+          ],
+          "text": "No, I don't think we'll argue about it."
+        }
+      ]
+    },
+    {
+      "word": "arrest",
+      "cefr": "B1",
+      "parts": "3",
+      "occurrences": 3,
+      "firstSpeechId": "act2-speech-0100",
+      "surfaceForms": "arrest, arresting",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0100",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "arrest"
+          ],
+          "text": "Tell him you're not going to arrest him."
+        },
+        {
+          "speechId": "act2-speech-0101",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "arresting"
+          ],
+          "text": "I'm not arresting anyone. To do that, I've got to have evidence. I haven't got any evidence ― yet."
+        },
+        {
+          "speechId": "act2-speech-0102",
+          "speaker": "GILES",
+          "matchedForms": [
+            "arrest"
+          ],
+          "text": "I think you're crazy, Mollie. And you, too! There's just one person who fits the bill and, if only as a safety measure, he ought to be put under arrest. It's only fair to the rest of us."
+        }
+      ]
+    },
+    {
+      "word": "as",
+      "cefr": "A2",
+      "parts": "3,4",
+      "occurrences": 29,
+      "firstSpeechId": "act2-speech-0092",
+      "surfaceForms": "as",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0092",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "Mr. Ralston! Thank you. We've got to establish opportunity, you know, as well as motive. And now let me tell you this ― you all had opportunity. There are two staircases ― anyone could go up by one and come down by the other. Anyone could go down to the cellars by the door near the kitchen and come up by a flight of steps that leads up through a trapdoor to the foot of the stairs over there. The vital fact was that every one of you was alone at the time the murder was committed."
+        },
+        {
+          "speechId": "act2-speech-0093",
+          "speaker": "GILES",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "But look here, Sergeant, you speak as though we were all under suspicion. That's absurd!"
+        },
+        {
+          "speechId": "act2-speech-0102",
+          "speaker": "GILES",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "I think you're crazy, Mollie. And you, too! There's just one person who fits the bill and, if only as a safety measure, he ought to be put under arrest. It's only fair to the rest of us."
+        },
+        {
+          "speechId": "act2-speech-0119",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "Such as?"
+        },
+        {
+          "speechId": "act2-speech-0136",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "So, it's not only Christopher who's a suspect. There's Major Metcalf as well."
+        },
+        {
+          "speechId": "act2-speech-0140",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "I know he seems quite old ― and foreign and everything, but he mightn't really be as old as he looks. He moves like a much younger man, and he's definitely got makeup on his face. Miss Casewell noticed it, too. He might be ― oh, I know it sounds very melodramatic ― but he might be disguised."
+        },
+        {
+          "speechId": "act2-speech-0207",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "You can't go on being looked after all your life. Things happen to you. And you've got to bear them ― you've got to go on just as usual."
+        },
+        {
+          "speechId": "act2-speech-0276",
+          "speaker": "GILES",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "I read once in a paper that these homicidal cases were able to attract women. Looks as though it were true. Where did you first know him? How long has this been going on?"
+        },
+        {
+          "speechId": "act2-speech-0284",
+          "speaker": "GILES",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "So it seems that you didn't only go to the village yesterday, you went to London as well."
+        },
+        {
+          "speechId": "act2-speech-0306",
+          "speaker": "GILES",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "Mollie, what's come over you? You're different all of a sudden. I feel as though I don't know you any more."
+        },
+        {
+          "speechId": "act2-speech-0313",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "Quite so. Quite so. I know just how you feel. I have been through all this myself when I was a younger man. Jeunesse ― jeunesse ― as the poet says. Not been married long, I imagine?"
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        },
+        {
+          "speechId": "act2-speech-0403",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "My dear Sergeant, I am not, perhaps, quite so old as I look."
+        },
+        {
+          "speechId": "act2-speech-0406",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "That you may not be as old as you ― try to look. There's a lot of people trying to look younger than they are. If somebody goes about trying to look older ― well, it does make one ask oneself why."
+        },
+        {
+          "speechId": "act2-speech-0407",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "Having asked questions of so many people ― you ask questions of yourself as well? Isn't that overdoing things?"
+        },
+        {
+          "speechId": "act2-speech-0465",
+          "speaker": "MISS CASEWELL",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "My bank will reassure you as to my financial position. I can also refer you to a solicitor ― a very discreet man. I am not in a position to offer you a social reference. I have lived most of my life abroad."
+        },
+        {
+          "speechId": "act2-speech-0497",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "Dear me ― you look as though you'd seen a ghost."
+        },
+        {
+          "speechId": "act2-speech-0498",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "I've seen something I ought to have seen before. Blind as a bat, I've been. But I think now we may be able to get somewhere."
+        },
+        {
+          "speechId": "act2-speech-0517",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "Sit down, Miss Casewell, Mrs. Ralston... Will you all pay attention, please? You may remember that after the murder of Mrs. Boyle, I took statements from you all. Those statements related to your positions at the time the murder was committed. These statements were as follows: Mrs. Ralston in the kitchen, Mr. Paravicini playing the piano in the drawing room, Mr. Ralston in his bedroom. Mr. Wren ditto. Miss Casewell in the library. Major Metcalf in the cellar."
+        },
+        {
+          "speechId": "act2-speech-0554",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "Then you could pick it out on the piano with one finger just as Mr. Paravicini did. Good. Please go into the drawing room, sit at the piano, and be ready to play when I give you the signal."
+        },
+        {
+          "speechId": "act2-speech-0573",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "Yes, you've been extraordinary foolish, you know. You've run a very good chance of being killed by holding out on me. As a result, you've been in serious danger more than once."
+        },
+        {
+          "speechId": "act2-speech-0575",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "Come now, Mrs. Ralston. We policemen aren't quite so dumb as you think. All along I've realized that you had firsthand knowledge of the Longridge Farm affair. You knew Mrs. Boyle was the magistrate concerned. In fact, you knew all about it. Why didn't you speak up and say so?"
+        },
+        {
+          "speechId": "act2-speech-0612",
+          "speaker": "MAJOR METCALF",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "Everything's under control. He will be unconscious soon with a sedative ― his sister's looking after him. Poor fellow's as mad as a hatter, of course. I've had my suspicions of him all along."
+        },
+        {
+          "speechId": "act2-speech-0616",
+          "speaker": "MAJOR METCALF",
+          "matchedForms": [
+            "as"
+          ],
+          "text": "As soon as we got hold of that notebook with \"Monkswell Manor\" written in it, we saw it was vital to have someone on the spot. When it was put to him, Major Metcalf agreed to let me take his place. I couldn't understand it when Trotter turned up."
+        }
+      ]
+    },
+    {
+      "word": "aside",
+      "cefr": "B2",
+      "parts": "4",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0584",
+      "surfaceForms": "aside",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0584",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "aside"
+          ],
+          "text": "That's not true. I was ill. I went down with pneumonia that very day. The letter was put aside with others. It was weeks afterwards that I found it with a lot of other letters. And by then that poor child was dead... Dead ― dead...Waiting for me to do something ― hoping ― gradually losing hope...Oh, it's haunted me ever since...If only I hadn't been ill ― if only I'd known...Oh, it's monstrous that such things should happen."
+        }
+      ]
+    },
+    {
+      "word": "attention",
+      "cefr": "A2",
+      "parts": "4",
+      "occurrences": 2,
+      "firstSpeechId": "act2-speech-0517",
+      "surfaceForms": "attention",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0517",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "attention"
+          ],
+          "text": "Sit down, Miss Casewell, Mrs. Ralston... Will you all pay attention, please? You may remember that after the murder of Mrs. Boyle, I took statements from you all. Those statements related to your positions at the time the murder was committed. These statements were as follows: Mrs. Ralston in the kitchen, Mr. Paravicini playing the piano in the drawing room, Mr. Ralston in his bedroom. Mr. Wren ditto. Miss Casewell in the library. Major Metcalf in the cellar."
+        },
+        {
+          "speechId": "act2-speech-0558",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "attention"
+          ],
+          "text": "There is a point. It is a means of checking up on the original statements, and maybe one statement in particular. Now then, will you all pay attention, please. I will assign each of you your new stations. Mr. Wren, will you kindly go to the kitchen. Just keep an eye on Mrs. Ralston's dinner for her. You're very fond of cooking, I believe. Mr. Paravicini, will you go up to Mr. Wren's room. By the back stairs is the most convenient way. Major Metcalf, will you go up to Mr. Ralston's room and examine the telephone there. Miss Casewell, would you mind going down to the cellars? Mr. Wren will show you the way. Unfortunately, I need someone to reproduce my own actions. I am sorry to ask it of you, Mr. Ralston, but would you go out by that window and follow the telephone wire round to near the front door. Rather a chilly job ― but you're probably the toughest person here."
+        }
+      ]
+    },
+    {
+      "word": "back",
+      "cefr": "A2/B2",
+      "parts": "3,4",
+      "occurrences": 5,
+      "firstSpeechId": "act2-speech-0171",
+      "surfaceForms": "back",
+      "allOxfordLevels": "A1/A2/B2",
+      "mixedA1": true,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0171",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "back"
+          ],
+          "text": "Bring it back with him?"
+        },
+        {
+          "speechId": "act2-speech-0291",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "back"
+          ],
+          "text": "So did you. You brought back an evening paper."
+        },
+        {
+          "speechId": "act2-speech-0320",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "back"
+          ],
+          "text": "Mr. Ralston ― Mrs. Ralston ― have you removed my skis from the cupboard back there where we put them?"
+        },
+        {
+          "speechId": "act2-speech-0351",
+          "speaker": "MISS CASEWELL",
+          "matchedForms": [
+            "back"
+          ],
+          "text": "By the back stairs."
+        },
+        {
+          "speechId": "act2-speech-0558",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "back"
+          ],
+          "text": "There is a point. It is a means of checking up on the original statements, and maybe one statement in particular. Now then, will you all pay attention, please. I will assign each of you your new stations. Mr. Wren, will you kindly go to the kitchen. Just keep an eye on Mrs. Ralston's dinner for her. You're very fond of cooking, I believe. Mr. Paravicini, will you go up to Mr. Wren's room. By the back stairs is the most convenient way. Major Metcalf, will you go up to Mr. Ralston's room and examine the telephone there. Miss Casewell, would you mind going down to the cellars? Mr. Wren will show you the way. Unfortunately, I need someone to reproduce my own actions. I am sorry to ask it of you, Mr. Ralston, but would you go out by that window and follow the telephone wire round to near the front door. Rather a chilly job ― but you're probably the toughest person here."
+        }
+      ]
+    },
+    {
+      "word": "bat",
+      "cefr": "B2/C1",
+      "parts": "4",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0498",
+      "surfaceForms": "bat",
+      "allOxfordLevels": "B2/C1",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0498",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "bat"
+          ],
+          "text": "I've seen something I ought to have seen before. Blind as a bat, I've been. But I think now we may be able to get somewhere."
+        }
+      ]
+    },
+    {
+      "word": "before",
+      "cefr": "A2",
+      "parts": "3,4",
+      "occurrences": 12,
+      "firstSpeechId": "act2-speech-0077",
+      "surfaceForms": "before",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0077",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "before"
+          ],
+          "text": "Perhaps not. You know if I were to hear someone screaming blue murder when I was writing a letter, I don't believe I'd take the time to pick up my unfinished letter, fold it and put it in my handbag before going to see what was the matter."
+        },
+        {
+          "speechId": "act2-speech-0165",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "before"
+          ],
+          "text": "You'd be surprised, Mrs. Ralston, if you knew how many cases rather like yours we get. Especially since the war. Homes broken up and families dead. Fellow says he's been in the Air Force, or just finished his Army training. Parents killed ― no relations. There aren't any backgrounds nowadays and young people settle their own affairs ― they meet and marry. It's parents and relatives who used to make the enquiries before they consented to an engagement. That's all done away with. Girl just marries her man. Sometimes she doesn't find out for a year or two that he's an absconding bank clerk, or an Army deserter or something equally undesirable. How long had you known Giles Ralston when you married him?"
+        },
+        {
+          "speechId": "act2-speech-0215",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "before"
+          ],
+          "text": "No, it was long before I met Giles."
+        },
+        {
+          "speechId": "act2-speech-0272",
+          "speaker": "GILES",
+          "matchedForms": [
+            "before"
+          ],
+          "text": "Perhaps you'd met him before. Perhaps you suggested to him to come here and that you'd both pretend to meet for the first time. All cooked up between you, was it?"
+        },
+        {
+          "speechId": "act2-speech-0307",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "before"
+          ],
+          "text": "Perhaps you never did know me. We've been married how long ― a year? But you don't really know anything about me. What I'd done or thought or felt or suffered before you knew me."
+        },
+        {
+          "speechId": "act2-speech-0495",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "before"
+          ],
+          "text": "What can't you believe? Six impossible things before breakfast, like the Red Queen?"
+        },
+        {
+          "speechId": "act2-speech-0498",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "before"
+          ],
+          "text": "I've seen something I ought to have seen before. Blind as a bat, I've been. But I think now we may be able to get somewhere."
+        },
+        {
+          "speechId": "act2-speech-0534",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "before"
+          ],
+          "text": "I only want people to do exactly what they did before."
+        },
+        {
+          "speechId": "act2-speech-0535",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "before"
+          ],
+          "text": "But I don't see ― I simply can't see ― what you can possibly hope to find out by just making people do the things they did before. I think it's just nonsense."
+        },
+        {
+          "speechId": "act2-speech-0547",
+          "speaker": "GILES",
+          "matchedForms": [
+            "before"
+          ],
+          "text": "Are we all to do exactly what we did before?"
+        },
+        {
+          "speechId": "act2-speech-0587",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "before"
+          ],
+          "text": "The police don't... I'm not a policeman, Mrs. Ralston. You thought I was a policeman because I rang up from a call box and said I was speaking from police headquarters and that Sergeant Trotter was on his way. I cut the telephone wires before I came to the front door. You know who I am, Mrs. Ralston? I'm Georgie ― I'm Jimmy's brother, Georgie."
+        },
+        {
+          "speechId": "act2-speech-0618",
+          "speaker": "MAJOR METCALF",
+          "matchedForms": [
+            "before"
+          ],
+          "text": "Yes, it seems she recognized him just before this last business. Didn't know what to do, but fortunately came to me about it, just in time. Well, it's started to thaw, help should be here pretty soon. Oh, by the way, Mrs. Ralston, I'll remove those skis. I hid them on top of the fourposter."
+        }
+      ]
+    },
+    {
+      "word": "being",
+      "cefr": "B2",
+      "parts": "3,4",
+      "occurrences": 6,
+      "firstSpeechId": "act2-speech-0128",
+      "surfaceForms": "being",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0128",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "being"
+          ],
+          "text": "If he came home, after being a prisoner with the Japs, perhaps, and having suffered terribly ― if he came home and found his wife dead and that his children had gone through some terrible experience, and one of them had died through it, he might go off his head a bit and want ― revenge!"
+        },
+        {
+          "speechId": "act2-speech-0202",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "being"
+          ],
+          "text": "Call myself Christopher Wren? It just amused me. And then they used to laugh at me at school and call me little Christopher Robin. Robin ― Wren ― association of ideas. It was hell being at school."
+        },
+        {
+          "speechId": "act2-speech-0207",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "being"
+          ],
+          "text": "You can't go on being looked after all your life. Things happen to you. And you've got to bear them ― you've got to go on just as usual."
+        },
+        {
+          "speechId": "act2-speech-0277",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "being"
+          ],
+          "text": "You're being absolutely ridiculous. I never set eyes on Christopher Wren until he arrived yesterday."
+        },
+        {
+          "speechId": "act2-speech-0375",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "being"
+          ],
+          "text": "Your husband is afraid for you. Quite natural under the circumstances. He doesn't fancy your being alone with me. It is my sadistic tendencies he fears ― not my dishonourable ones. Alas, what an inconvenience the husband always is. Arrivederlà..."
+        },
+        {
+          "speechId": "act2-speech-0573",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "being"
+          ],
+          "text": "Yes, you've been extraordinary foolish, you know. You've run a very good chance of being killed by holding out on me. As a result, you've been in serious danger more than once."
+        }
+      ]
+    },
+    {
+      "word": "best",
+      "cefr": "A2",
+      "parts": "4",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0632",
+      "surfaceForms": "best",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0632",
+          "speaker": "GILES",
+          "matchedForms": [
+            "best"
+          ],
+          "text": "Just for best."
+        }
+      ]
+    },
+    {
+      "word": "better",
+      "cefr": "A2/B1",
+      "parts": "4",
+      "occurrences": 4,
+      "firstSpeechId": "act2-speech-0372",
+      "surfaceForms": "better",
+      "allOxfordLevels": "A1/A2/B1",
+      "mixedA1": true,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0372",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "better"
+          ],
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        },
+        {
+          "speechId": "act2-speech-0589",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "better"
+          ],
+          "text": "You'd better not scream, Mrs. Ralston ― because if you do I shall fire this revolver...I'd like to talk to you a little. I said I'd like to talk to you a little. Jimmy died. That nasty cruel woman killed him. They put her in prison. Prison wasn't bad enough for her. I said I'd kill her one day...I did, too. In the fog. It was great fun. I hope Jimmy knows. \"I'll kill them all when I've grown up.\" That's what I said to myself. Because grown-ups can do anything they like. I'm going to kill you in a minute."
+        },
+        {
+          "speechId": "act2-speech-0590",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "better"
+          ],
+          "text": "You'd better not. You'll never get safely away, you know."
+        },
+        {
+          "speechId": "act2-speech-0593",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "better"
+          ],
+          "text": "It will rather. Much better to do it the usual way, and take you by the neck. The last little mouse in the trap."
+        }
+      ]
+    },
+    {
+      "word": "between",
+      "cefr": "A2",
+      "parts": "3",
+      "occurrences": 4,
+      "firstSpeechId": "act2-speech-0221",
+      "surfaceForms": "between",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0221",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "between"
+          ],
+          "text": "I don't know. I suppose there's a sort of ― sympathy between us."
+        },
+        {
+          "speechId": "act2-speech-0270",
+          "speaker": "GILES",
+          "matchedForms": [
+            "between"
+          ],
+          "text": "Look here, what is there between you and that wretched boy?"
+        },
+        {
+          "speechId": "act2-speech-0271",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "between"
+          ],
+          "text": "What do you mean by between us? I'm sorry for him ― that's all."
+        },
+        {
+          "speechId": "act2-speech-0272",
+          "speaker": "GILES",
+          "matchedForms": [
+            "between"
+          ],
+          "text": "Perhaps you'd met him before. Perhaps you suggested to him to come here and that you'd both pretend to meet for the first time. All cooked up between you, was it?"
+        }
+      ]
+    },
+    {
+      "word": "bill",
+      "cefr": "B2",
+      "parts": "3",
+      "occurrences": 4,
+      "firstSpeechId": "act2-speech-0095",
+      "surfaceForms": "bill",
+      "allOxfordLevels": "A1/B2",
+      "mixedA1": true,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0095",
+          "speaker": "GILES",
+          "matchedForms": [
+            "bill"
+          ],
+          "text": "But you know pretty well who killed that woman in Culver Street. You think it's the eldest of those three children at the farm. A mentally abnormal young man who is now twenty-three years of age. Well, damn it all, there's only one person here who fits the bill."
+        },
+        {
+          "speechId": "act2-speech-0102",
+          "speaker": "GILES",
+          "matchedForms": [
+            "bill"
+          ],
+          "text": "I think you're crazy, Mollie. And you, too! There's just one person who fits the bill and, if only as a safety measure, he ought to be put under arrest. It's only fair to the rest of us."
+        },
+        {
+          "speechId": "act2-speech-0253",
+          "speaker": "GILES",
+          "matchedForms": [
+            "bill"
+          ],
+          "text": "I've already said so, haven't I? There's a killer loose in this house ― and it seems to me you fit the bill."
+        },
+        {
+          "speechId": "act2-speech-0254",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "bill"
+          ],
+          "text": "I'm not the only one to fit the bill."
+        }
+      ]
+    },
+    {
+      "word": "bound",
+      "cefr": "B2",
+      "parts": "4",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0392",
+      "surfaceForms": "bound",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0392",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "bound"
+          ],
+          "text": "That rather depends on the way you're looking at it. Just where were you bound for, by the way, when you had this ― accident?"
+        }
+      ]
+    },
+    {
+      "word": "broken",
+      "cefr": "A2",
+      "parts": "3",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0165",
+      "surfaceForms": "broken",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0165",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "broken"
+          ],
+          "text": "You'd be surprised, Mrs. Ralston, if you knew how many cases rather like yours we get. Especially since the war. Homes broken up and families dead. Fellow says he's been in the Air Force, or just finished his Army training. Parents killed ― no relations. There aren't any backgrounds nowadays and young people settle their own affairs ― they meet and marry. It's parents and relatives who used to make the enquiries before they consented to an engagement. That's all done away with. Girl just marries her man. Sometimes she doesn't find out for a year or two that he's an absconding bank clerk, or an Army deserter or something equally undesirable. How long had you known Giles Ralston when you married him?"
+        }
+      ]
+    },
+    {
+      "word": "burn",
+      "cefr": "A2/B2",
+      "parts": "4",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0637",
+      "surfaceForms": "burning",
+      "allOxfordLevels": "A2/B2",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0637",
+          "speaker": "MAJOR METCALF",
+          "matchedForms": [
+            "burning"
+          ],
+          "text": "Mrs. Ralston! Mrs. Ralston! There's a terrible smell of burning coming from the kitchen."
+        }
+      ]
+    },
+    {
+      "word": "but",
+      "cefr": "B2",
+      "parts": "3,4",
+      "occurrences": 48,
+      "firstSpeechId": "act2-speech-0086",
+      "surfaceForms": "but",
+      "allOxfordLevels": "A1/B2",
+      "mixedA1": true,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0086",
+          "speaker": "MAJOR METCALF",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "Mine are there all right. But most criminals are careful to wear gloves, aren't they?"
+        },
+        {
+          "speechId": "act2-speech-0087",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "It's usual. But all criminals slip up sooner or later."
+        },
+        {
+          "speechId": "act2-speech-0091",
+          "speaker": "GILES",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "Oh, very well, but..."
+        },
+        {
+          "speechId": "act2-speech-0093",
+          "speaker": "GILES",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "But look here, Sergeant, you speak as though we were all under suspicion. That's absurd!"
+        },
+        {
+          "speechId": "act2-speech-0095",
+          "speaker": "GILES",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "But you know pretty well who killed that woman in Culver Street. You think it's the eldest of those three children at the farm. A mentally abnormal young man who is now twenty-three years of age. Well, damn it all, there's only one person here who fits the bill."
+        },
+        {
+          "speechId": "act2-speech-0110",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "Sergeant Trotter, you think that this ― this crazy killer must be the ― eldest of those three boys at the Farm ― but you don't know that, do you?"
+        },
+        {
+          "speechId": "act2-speech-0116",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "But, all the same, you don't know..."
+        },
+        {
+          "speechId": "act2-speech-0118",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "Oh, I know, and therefore it all seems to point to Christopher. But I don't believe it is Christopher. There must be other possibilities."
+        },
+        {
+          "speechId": "act2-speech-0125",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "We've no information. To trace him may take some time, but I can assure you, Mrs. Ralston, that the police take every eventuality into account."
+        },
+        {
+          "speechId": "act2-speech-0126",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "But you don't know where he may be at this minute, and if the son is mentally unstable, the father may have been unstable, too."
+        },
+        {
+          "speechId": "act2-speech-0130",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "But it's possible?"
+        },
+        {
+          "speechId": "act2-speech-0134",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "Middle-aged. A soldier. He seems quite nice and perfectly normal ― but it mightn't show, might it?"
+        },
+        {
+          "speechId": "act2-speech-0140",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "I know he seems quite old ― and foreign and everything, but he mightn't really be as old as he looks. He moves like a much younger man, and he's definitely got makeup on his face. Miss Casewell noticed it, too. He might be ― oh, I know it sounds very melodramatic ― but he might be disguised."
+        },
+        {
+          "speechId": "act2-speech-0160",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "Yes ― but oh, you make it sound all wrong. His father was a barrister and his mother died when he was a baby."
+        },
+        {
+          "speechId": "act2-speech-0162",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "Yes ― but..."
+        },
+        {
+          "speechId": "act2-speech-0166",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "Just three weeks. But..."
+        },
+        {
+          "speechId": "act2-speech-0190",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "But, darling, they're all so frightfully against me. They're going to say I committed these murders ― particularly your husband."
+        },
+        {
+          "speechId": "act2-speech-0235",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "What is it? Yesterday's evening paper ― a London paper. And it was in Giles's pocket. But Giles didn't go to London yesterday."
+        },
+        {
+          "speechId": "act2-speech-0237",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "But he wasn't. He went off in the car to look for chicken wire, but he couldn't find any."
+        },
+        {
+          "speechId": "act2-speech-0250",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "But really, look here..."
+        },
+        {
+          "speechId": "act2-speech-0307",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "Perhaps you never did know me. We've been married how long ― a year? But you don't really know anything about me. What I'd done or thought or felt or suffered before you knew me."
+        },
+        {
+          "speechId": "act2-speech-0315",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "No, no, no business at all. But I just came in to say that the Sergeant cannot find his skis and I'm afraid he is very annoyed."
+        },
+        {
+          "speechId": "act2-speech-0325",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "And now you can't ― dear, dear...Somebody's seen to it that you certainly shan't do that. But there could be another reason, couldn't there?"
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        },
+        {
+          "speechId": "act2-speech-0379",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "But such a gay little tune? Don't you think? She cut off their tails with a carving knife ― snick, snick, snick ― delicious. Just what a child would adore. Cruel little things, children. Some of them never grow up."
+        },
+        {
+          "speechId": "act2-speech-0381",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "It's silly of me. But you see ― I found her. Her face was all purple. I can't forget it..."
+        },
+        {
+          "speechId": "act2-speech-0401",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "But there might be ― so many reasons. An amour ― discretion. These jealous husbands."
+        },
+        {
+          "speechId": "act2-speech-0420",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "Enjoying this little game, aren't you? Sure of yourself, too. But I shouldn't be too sure. You're mixed up in a murder case, and don't you forget it. Murder isn't just fun and games."
+        },
+        {
+          "speechId": "act2-speech-0498",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "I've seen something I ought to have seen before. Blind as a bat, I've been. But I think now we may be able to get somewhere."
+        },
+        {
+          "speechId": "act2-speech-0501",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "Giles and Mollie are in the kitchen. I have been helping Major Metcalf to look for your skis. We've looked in the most entertaining places-but all to no avail. I don't know where Paravicini is."
+        },
+        {
+          "speechId": "act2-speech-0509",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "I'm sorry, but I want co-operation and I intend to get it. Mr. Ralston, will you go and ask Miss Casewell to come down again? She went up in her room. Tell her it will only be for a few minutes."
+        },
+        {
+          "speechId": "act2-speech-0511",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "No, Mrs. Ralston, but I may say I have a very shrewd suspicion of who took them, and of why they were taken. I won't say any more at the present moment."
+        },
+        {
+          "speechId": "act2-speech-0519",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "Those were the statements you made. I had no means of checking these statements. They may be true ― they may not. To put it quite clearly, five of those statements are true, but one is false ― which one? Five of you were speaking the truth, one of you was lying. I have a plan that may help me to discover the liar. And if I discover that one of you lied to me ― then I know who the murderer is."
+        },
+        {
+          "speechId": "act2-speech-0522",
+          "speaker": "GILES",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "But what's the idea? You've just said you had no means of checking these statements."
+        },
+        {
+          "speechId": "act2-speech-0523",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "No, but supposing everyone was to go through these actions a second time."
+        },
+        {
+          "speechId": "act2-speech-0535",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "But I don't see ― I simply can't see ― what you can possibly hope to find out by just making people do the things they did before. I think it's just nonsense."
+        },
+        {
+          "speechId": "act2-speech-0555",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "But, Sergeant, I understood that we were each to repeat our former roles."
+        },
+        {
+          "speechId": "act2-speech-0556",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "The same actions will be performed, but not necessarily by the same people. Thank you, Mrs. Ralston."
+        },
+        {
+          "speechId": "act2-speech-0558",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "There is a point. It is a means of checking up on the original statements, and maybe one statement in particular. Now then, will you all pay attention, please. I will assign each of you your new stations. Mr. Wren, will you kindly go to the kitchen. Just keep an eye on Mrs. Ralston's dinner for her. You're very fond of cooking, I believe. Mr. Paravicini, will you go up to Mr. Wren's room. By the back stairs is the most convenient way. Major Metcalf, will you go up to Mr. Ralston's room and examine the telephone there. Miss Casewell, would you mind going down to the cellars? Mr. Wren will show you the way. Unfortunately, I need someone to reproduce my own actions. I am sorry to ask it of you, Mr. Ralston, but would you go out by that window and follow the telephone wire round to near the front door. Rather a chilly job ― but you're probably the toughest person here."
+        },
+        {
+          "speechId": "act2-speech-0591",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "Someone's hidden my skis! I can't find them. But it doesn't matter. I don't really mind if I get away or not. I'm tired. It's all been such fun. Watching you all. And pretending to be a policeman."
+        },
+        {
+          "speechId": "act2-speech-0608",
+          "speaker": "GILES",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "Yes, but you..."
+        },
+        {
+          "speechId": "act2-speech-0609",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "I was mixed up in it all, I taught in the school. It wasn't my fault ― but he thought I could have saved that child."
+        },
+        {
+          "speechId": "act2-speech-0618",
+          "speaker": "MAJOR METCALF",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "Yes, it seems she recognized him just before this last business. Didn't know what to do, but fortunately came to me about it, just in time. Well, it's started to thaw, help should be here pretty soon. Oh, by the way, Mrs. Ralston, I'll remove those skis. I hid them on top of the fourposter."
+        },
+        {
+          "speechId": "act2-speech-0631",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "but"
+          ],
+          "text": "A hat? But I practically never wear one."
+        }
+      ]
+    },
+    {
+      "word": "by",
+      "cefr": "B1",
+      "parts": "3,4",
+      "occurrences": 23,
+      "firstSpeechId": "act2-speech-0092",
+      "surfaceForms": "by",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0092",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "by"
+          ],
+          "text": "Mr. Ralston! Thank you. We've got to establish opportunity, you know, as well as motive. And now let me tell you this ― you all had opportunity. There are two staircases ― anyone could go up by one and come down by the other. Anyone could go down to the cellars by the door near the kitchen and come up by a flight of steps that leads up through a trapdoor to the foot of the stairs over there. The vital fact was that every one of you was alone at the time the murder was committed."
+        },
+        {
+          "speechId": "act2-speech-0113",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "by"
+          ],
+          "text": "No, Mrs. Ralston, the line was deliberately cut. It was cut just outside by the front door. I found the place."
+        },
+        {
+          "speechId": "act2-speech-0117",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "by"
+          ],
+          "text": "I'm going by probability. It all points one way; mental instability, childish mentality, desertion from the Army and the psychiatrist's report."
+        },
+        {
+          "speechId": "act2-speech-0123",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "by"
+          ],
+          "text": "He was an Army sergeant, serving abroad. If he's alive, he's probably discharged from the Army by now."
+        },
+        {
+          "speechId": "act2-speech-0173",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "by"
+          ],
+          "text": "Only thirty miles from London, aren't you? Oh, you got an ABC? Only an hour by train ― a little longer by car."
+        },
+        {
+          "speechId": "act2-speech-0271",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "by"
+          ],
+          "text": "What do you mean by between us? I'm sorry for him ― that's all."
+        },
+        {
+          "speechId": "act2-speech-0318",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "by"
+          ],
+          "text": "He wants to know if you have by any chance moved them, Mr. Ralston."
+        },
+        {
+          "speechId": "act2-speech-0351",
+          "speaker": "MISS CASEWELL",
+          "matchedForms": [
+            "by"
+          ],
+          "text": "By the back stairs."
+        },
+        {
+          "speechId": "act2-speech-0387",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "by"
+          ],
+          "text": "Now I do wonder what you mean by that, Sergeant?"
+        },
+        {
+          "speechId": "act2-speech-0392",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "by"
+          ],
+          "text": "That rather depends on the way you're looking at it. Just where were you bound for, by the way, when you had this ― accident?"
+        },
+        {
+          "speechId": "act2-speech-0535",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "by"
+          ],
+          "text": "But I don't see ― I simply can't see ― what you can possibly hope to find out by just making people do the things they did before. I think it's just nonsense."
+        },
+        {
+          "speechId": "act2-speech-0538",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "by"
+          ],
+          "text": "I can't count anybody out. One might almost believe that you're all guilty by the looks of you. Why are you all so unwilling?"
+        },
+        {
+          "speechId": "act2-speech-0556",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "by"
+          ],
+          "text": "The same actions will be performed, but not necessarily by the same people. Thank you, Mrs. Ralston."
+        },
+        {
+          "speechId": "act2-speech-0558",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "by"
+          ],
+          "text": "There is a point. It is a means of checking up on the original statements, and maybe one statement in particular. Now then, will you all pay attention, please. I will assign each of you your new stations. Mr. Wren, will you kindly go to the kitchen. Just keep an eye on Mrs. Ralston's dinner for her. You're very fond of cooking, I believe. Mr. Paravicini, will you go up to Mr. Wren's room. By the back stairs is the most convenient way. Major Metcalf, will you go up to Mr. Ralston's room and examine the telephone there. Miss Casewell, would you mind going down to the cellars? Mr. Wren will show you the way. Unfortunately, I need someone to reproduce my own actions. I am sorry to ask it of you, Mr. Ralston, but would you go out by that window and follow the telephone wire round to near the front door. Rather a chilly job ― but you're probably the toughest person here."
+        },
+        {
+          "speechId": "act2-speech-0573",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "by"
+          ],
+          "text": "Yes, you've been extraordinary foolish, you know. You've run a very good chance of being killed by holding out on me. As a result, you've been in serious danger more than once."
+        },
+        {
+          "speechId": "act2-speech-0584",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "by"
+          ],
+          "text": "That's not true. I was ill. I went down with pneumonia that very day. The letter was put aside with others. It was weeks afterwards that I found it with a lot of other letters. And by then that poor child was dead... Dead ― dead...Waiting for me to do something ― hoping ― gradually losing hope...Oh, it's haunted me ever since...If only I hadn't been ill ― if only I'd known...Oh, it's monstrous that such things should happen."
+        },
+        {
+          "speechId": "act2-speech-0593",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "by"
+          ],
+          "text": "It will rather. Much better to do it the usual way, and take you by the neck. The last little mouse in the trap."
+        },
+        {
+          "speechId": "act2-speech-0618",
+          "speaker": "MAJOR METCALF",
+          "matchedForms": [
+            "by"
+          ],
+          "text": "Yes, it seems she recognized him just before this last business. Didn't know what to do, but fortunately came to me about it, just in time. Well, it's started to thaw, help should be here pretty soon. Oh, by the way, Mrs. Ralston, I'll remove those skis. I hid them on top of the fourposter."
+        }
+      ]
+    },
+    {
+      "word": "can",
+      "cefr": "A2",
+      "parts": "3,4",
+      "occurrences": 17,
+      "firstSpeechId": "act2-speech-0103",
+      "surfaceForms": "can",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0103",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "Wait, Giles, wait. Sergeant Trotter, can I ― can I speak to you a minute?"
+        },
+        {
+          "speechId": "act2-speech-0125",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "We've no information. To trace him may take some time, but I can assure you, Mrs. Ralston, that the police take every eventuality into account."
+        },
+        {
+          "speechId": "act2-speech-0191",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "Never mind him. Listen, Christopher, you can't go on ― running away from things ― all your life."
+        },
+        {
+          "speechId": "act2-speech-0207",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "You can't go on being looked after all your life. Things happen to you. And you've got to bear them ― you've got to go on just as usual."
+        },
+        {
+          "speechId": "act2-speech-0208",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "One can't do that."
+        },
+        {
+          "speechId": "act2-speech-0209",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "Yes, one can."
+        },
+        {
+          "speechId": "act2-speech-0223",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "Well, frankly, what else can you do?"
+        },
+        {
+          "speechId": "act2-speech-0224",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "I might pinch the sergeant's skis. I can ski quite well."
+        },
+        {
+          "speechId": "act2-speech-0229",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "Sergeant Trotter. He puts things into your head. Things that aren't true, that can't possibly be true."
+        },
+        {
+          "speechId": "act2-speech-0243",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "I don't know what the Sergeant thinks. And he can make you think things about people. You ask yourself questions and you begin to doubt. You feel that somebody you love and know well might be ― a stranger. That's what happens in a nightmare. You're somewhere in the middle of friends and then you suddenly look at their faces and they're not your friends any longer ― they're different people ― just pretending. Perhaps you can't trust anybody ― perhaps everybody's a stranger."
+        },
+        {
+          "speechId": "act2-speech-0267",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "He isn't. He's just unhappy. I tell you, Giles, he isn't dangerous. I'd know if he was dangerous. And anyway, I can look after myself."
+        },
+        {
+          "speechId": "act2-speech-0325",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "And now you can't ― dear, dear...Somebody's seen to it that you certainly shan't do that. But there could be another reason, couldn't there?"
+        },
+        {
+          "speechId": "act2-speech-0361",
+          "speaker": "MAJOR METCALF",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "Can't remember."
+        },
+        {
+          "speechId": "act2-speech-0363",
+          "speaker": "MAJOR METCALF",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "No good shouting at me, young fellow. I wasn't thinking about any damned skis. I was interested in the cellars. Architecture of this place is very interesting. I opened the other door and I went on down. So I can't tell you whether the skis were there or not."
+        },
+        {
+          "speechId": "act2-speech-0372",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        },
+        {
+          "speechId": "act2-speech-0373",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "Talking of chicken, dear lady, have you ever tried chickens' livers served on toast that has been thickly smeared with foie gras, with a very thin rasher of bacon just touched with a soupçon of fresh mustard? I will come with you to the kitchen and we will see what we can concoct together. A charming occupation."
+        },
+        {
+          "speechId": "act2-speech-0377",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "He is very wise. Take no chances. Can I prove to you or to him or to our dogged Sergeant that I am not a homicidal maniac? So difficult to prove a negative. And suppose that instead I am really..."
+        },
+        {
+          "speechId": "act2-speech-0381",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "It's silly of me. But you see ― I found her. Her face was all purple. I can't forget it..."
+        },
+        {
+          "speechId": "act2-speech-0464",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "Is there anyone in this country who can ― vouch for you?"
+        },
+        {
+          "speechId": "act2-speech-0465",
+          "speaker": "MISS CASEWELL",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "My bank will reassure you as to my financial position. I can also refer you to a solicitor ― a very discreet man. I am not in a position to offer you a social reference. I have lived most of my life abroad."
+        },
+        {
+          "speechId": "act2-speech-0470",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "You know, Miss Casewell, I can't quite make you out."
+        },
+        {
+          "speechId": "act2-speech-0494",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "It's impossible...I can't believe it..."
+        },
+        {
+          "speechId": "act2-speech-0495",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "What can't you believe? Six impossible things before breakfast, like the Red Queen?"
+        },
+        {
+          "speechId": "act2-speech-0503",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "Yes, Sergeant? What can I do for you? Little Bo Policeman has lost his skis and doesn't know where to find them. Leave them alone, and they'll come home, dragging a murderer behind them."
+        },
+        {
+          "speechId": "act2-speech-0535",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "But I don't see ― I simply can't see ― what you can possibly hope to find out by just making people do the things they did before. I think it's just nonsense."
+        },
+        {
+          "speechId": "act2-speech-0537",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "Well, you can count me out. I'm too busy in the kitchen."
+        },
+        {
+          "speechId": "act2-speech-0538",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "I can't count anybody out. One might almost believe that you're all guilty by the looks of you. Why are you all so unwilling?"
+        },
+        {
+          "speechId": "act2-speech-0589",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "You'd better not scream, Mrs. Ralston ― because if you do I shall fire this revolver...I'd like to talk to you a little. I said I'd like to talk to you a little. Jimmy died. That nasty cruel woman killed him. They put her in prison. Prison wasn't bad enough for her. I said I'd kill her one day...I did, too. In the fog. It was great fun. I hope Jimmy knows. \"I'll kill them all when I've grown up.\" That's what I said to myself. Because grown-ups can do anything they like. I'm going to kill you in a minute."
+        },
+        {
+          "speechId": "act2-speech-0591",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "can"
+          ],
+          "text": "Someone's hidden my skis! I can't find them. But it doesn't matter. I don't really mind if I get away or not. I'm tired. It's all been such fun. Watching you all. And pretending to be a policeman."
+        }
+      ]
+    },
+    {
+      "word": "cancel",
+      "cefr": "B2",
+      "parts": "4",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0372",
+      "surfaceForms": "cancelled",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0372",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "cancelled"
+          ],
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        }
+      ]
+    },
+    {
+      "word": "careful",
+      "cefr": "A2",
+      "parts": "3",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0086",
+      "surfaceForms": "careful",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0086",
+          "speaker": "MAJOR METCALF",
+          "matchedForms": [
+            "careful"
+          ],
+          "text": "Mine are there all right. But most criminals are careful to wear gloves, aren't they?"
+        }
+      ]
+    },
+    {
+      "word": "carve",
+      "cefr": "C1",
+      "parts": "4",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0379",
+      "surfaceForms": "carving",
+      "allOxfordLevels": "C1",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0379",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "carving"
+          ],
+          "text": "But such a gay little tune? Don't you think? She cut off their tails with a carving knife ― snick, snick, snick ― delicious. Just what a child would adore. Cruel little things, children. Some of them never grow up."
+        }
+      ]
+    },
+    {
+      "word": "clear",
+      "cefr": "A2/B1",
+      "parts": "4",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0528",
+      "surfaceForms": "clear",
+      "allOxfordLevels": "A2/B1",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0528",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "clear"
+          ],
+          "text": "You will forgive me if I don't make that clear just at the moment."
+        }
+      ]
+    },
+    {
+      "word": "control",
+      "cefr": "A2",
+      "parts": "4",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0612",
+      "surfaceForms": "control",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0612",
+          "speaker": "MAJOR METCALF",
+          "matchedForms": [
+            "control"
+          ],
+          "text": "Everything's under control. He will be unconscious soon with a sedative ― his sister's looking after him. Poor fellow's as mad as a hatter, of course. I've had my suspicions of him all along."
+        }
+      ]
+    },
+    {
+      "word": "cook",
+      "cefr": "A2",
+      "parts": "3,4",
+      "occurrences": 2,
+      "firstSpeechId": "act2-speech-0272",
+      "surfaceForms": "cooked, cooking",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0272",
+          "speaker": "GILES",
+          "matchedForms": [
+            "cooked"
+          ],
+          "text": "Perhaps you'd met him before. Perhaps you suggested to him to come here and that you'd both pretend to meet for the first time. All cooked up between you, was it?"
+        },
+        {
+          "speechId": "act2-speech-0558",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "cooking"
+          ],
+          "text": "There is a point. It is a means of checking up on the original statements, and maybe one statement in particular. Now then, will you all pay attention, please. I will assign each of you your new stations. Mr. Wren, will you kindly go to the kitchen. Just keep an eye on Mrs. Ralston's dinner for her. You're very fond of cooking, I believe. Mr. Paravicini, will you go up to Mr. Wren's room. By the back stairs is the most convenient way. Major Metcalf, will you go up to Mr. Ralston's room and examine the telephone there. Miss Casewell, would you mind going down to the cellars? Mr. Wren will show you the way. Unfortunately, I need someone to reproduce my own actions. I am sorry to ask it of you, Mr. Ralston, but would you go out by that window and follow the telephone wire round to near the front door. Rather a chilly job ― but you're probably the toughest person here."
+        }
+      ]
+    },
+    {
+      "word": "count",
+      "cefr": "A2/B1",
+      "parts": "4",
+      "occurrences": 3,
+      "firstSpeechId": "act2-speech-0537",
+      "surfaceForms": "count",
+      "allOxfordLevels": "A2/B1",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0537",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "count"
+          ],
+          "text": "Well, you can count me out. I'm too busy in the kitchen."
+        },
+        {
+          "speechId": "act2-speech-0538",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "count"
+          ],
+          "text": "I can't count anybody out. One might almost believe that you're all guilty by the looks of you. Why are you all so unwilling?"
+        },
+        {
+          "speechId": "act2-speech-0565",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "count"
+          ],
+          "text": "I should advise it, sir. Take my torch, sir. It's behind the curtain. Mrs. Ralston, count twenty and then begin to play. Mrs. Ralston! Mrs. Ralston!"
+        }
+      ]
+    },
+    {
+      "word": "cut",
+      "cefr": "B1",
+      "parts": "3,4",
+      "occurrences": 5,
+      "firstSpeechId": "act2-speech-0111",
+      "surfaceForms": "cut",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0111",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "cut"
+          ],
+          "text": "We don't actually know a thing. All we've got so far is that the woman who joined with her husband in ill-treating and starving those children has been killed, and that the woman magistrate who was responsible for placing them there has been killed. The telephone wire that links me with police headquarters has been cut..."
+        },
+        {
+          "speechId": "act2-speech-0113",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "cut"
+          ],
+          "text": "No, Mrs. Ralston, the line was deliberately cut. It was cut just outside by the front door. I found the place."
+        },
+        {
+          "speechId": "act2-speech-0379",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "cut"
+          ],
+          "text": "But such a gay little tune? Don't you think? She cut off their tails with a carving knife ― snick, snick, snick ― delicious. Just what a child would adore. Cruel little things, children. Some of them never grow up."
+        },
+        {
+          "speechId": "act2-speech-0587",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "cut"
+          ],
+          "text": "The police don't... I'm not a policeman, Mrs. Ralston. You thought I was a policeman because I rang up from a call box and said I was speaking from police headquarters and that Sergeant Trotter was on his way. I cut the telephone wires before I came to the front door. You know who I am, Mrs. Ralston? I'm Georgie ― I'm Jimmy's brother, Georgie."
+        }
+      ]
+    },
+    {
+      "word": "deal",
+      "cefr": "A2/B1",
+      "parts": "4",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0372",
+      "surfaceForms": "deal",
+      "allOxfordLevels": "A2/B1",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0372",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "deal"
+          ],
+          "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
+        }
+      ]
+    },
+    {
+      "word": "dear",
+      "cefr": "A2",
+      "parts": "3,4",
+      "occurrences": 7,
+      "firstSpeechId": "act2-speech-0075",
+      "surfaceForms": "dear, dearest",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0075",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "dearest"
+          ],
+          "text": "Dearest Jessie ― h'm ― a friend of yours, or a relation?"
+        },
+        {
+          "speechId": "act2-speech-0325",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "dear"
+          ],
+          "text": "And now you can't ― dear, dear...Somebody's seen to it that you certainly shan't do that. But there could be another reason, couldn't there?"
+        },
+        {
+          "speechId": "act2-speech-0373",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "dear"
+          ],
+          "text": "Talking of chicken, dear lady, have you ever tried chickens' livers served on toast that has been thickly smeared with foie gras, with a very thin rasher of bacon just touched with a soupçon of fresh mustard? I will come with you to the kitchen and we will see what we can concoct together. A charming occupation."
+        },
+        {
+          "speechId": "act2-speech-0403",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "dear"
+          ],
+          "text": "My dear Sergeant, I am not, perhaps, quite so old as I look."
+        },
+        {
+          "speechId": "act2-speech-0421",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "dear"
+          ],
+          "text": "Not even this murder? Dear me, you're very serious, Sergeant Trotter. I always have thought policemen have no sense of humour. Is the inquisition over ― for the moment?"
+        },
+        {
+          "speechId": "act2-speech-0497",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "dear"
+          ],
+          "text": "Dear me ― you look as though you'd seen a ghost."
+        }
+      ]
+    },
+    {
+      "word": "degree",
+      "cefr": "A2",
+      "parts": "4",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0490",
+      "surfaceForms": "degree",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0490",
+          "speaker": "CHRISTOPHER",
+          "matchedForms": [
+            "degree"
+          ],
+          "text": "I always thought the police weren't allowed to give people the third degree."
+        }
+      ]
+    },
+    {
+      "word": "discover",
+      "cefr": "A2",
+      "parts": "4",
+      "occurrences": 2,
+      "firstSpeechId": "act2-speech-0519",
+      "surfaceForms": "discover",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0519",
+          "speaker": "TROTTER",
+          "matchedForms": [
+            "discover"
+          ],
+          "text": "Those were the statements you made. I had no means of checking these statements. They may be true ― they may not. To put it quite clearly, five of those statements are true, but one is false ― which one? Five of you were speaking the truth, one of you was lying. I have a plan that may help me to discover the liar. And if I discover that one of you lied to me ― then I know who the murderer is."
+        }
+      ]
+    },
+    {
+      "word": "drag",
+      "cefr": "B2",
+      "parts": "4",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0503",
+      "surfaceForms": "dragging",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0503",
+          "speaker": "PARAVICINI",
+          "matchedForms": [
+            "dragging"
+          ],
+          "text": "Yes, Sergeant? What can I do for you? Little Bo Policeman has lost his skis and doesn't know where to find them. Leave them alone, and they'll come home, dragging a murderer behind them."
+        }
+      ]
+    },
+    {
+      "word": "driving",
+      "cefr": "A2/C1",
+      "parts": "3",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0239",
+      "surfaceForms": "driving",
+      "allOxfordLevels": "A2/C1",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0239",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "driving"
+          ],
+          "text": "Then why shouldn't he tell me he did? Why pretend he'd been driving all round the countryside?"
+        }
+      ]
+    },
+    {
+      "word": "drop",
+      "cefr": "A2/B1",
+      "parts": "3",
+      "occurrences": 2,
+      "firstSpeechId": "act2-speech-0138",
+      "surfaceForms": "drop, dropped",
+      "allOxfordLevels": "A2/B1",
+      "mixedA1": false,
+      "contexts": [
+        {
+          "speechId": "act2-speech-0138",
+          "speaker": "MOLLIE",
+          "matchedForms": [
+            "drop"
+          ],
+          "text": "Well, Mr. Paravicini did drop the poker when I said the police had rung up."
+        },
+        {
+          "speechId": "act2-speech-0282",
+          "speaker": "GILES",
+          "matchedForms": [
+            "dropped"
+          ],
+          "text": "Is it? Then what's this? This is one of the gloves you were wearing yesterday. You dropped it. I picked it up this afternoon when I was talking to Sergeant Trotter. You see what's inside it ― a London bus ticket!"
+        }
+      ]
+    }
+  ]
+}
