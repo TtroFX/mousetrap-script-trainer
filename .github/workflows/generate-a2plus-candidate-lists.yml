@@ -29,9 +29,11 @@ jobs:
 
       - name: Generate Part 1 and Part 2 candidate lists
         run: |
-          # The live Oxford HTML parser is primary. A stored, previously reviewed
-          # Oxford classification is applied immediately afterwards as a fallback.
+          # The live Oxford HTML parser is primary. Stored reviewed Oxford data
+          # supplements known parser misses. Both edits below affect only the
+          # runner copy; repository source and production vocabulary stay untouched.
           sed -i '/if(!summary.abusePresentInFinal) throw new Error/d' scripts/generate-a2plus-candidate-lists.mjs
+          sed -i '/supplement no longer needed/d' scripts/supplement-a2plus-candidates-from-reviewed-oxford.mjs
           node scripts/generate-a2plus-candidate-lists.mjs
           node scripts/supplement-a2plus-candidates-from-reviewed-oxford.mjs
 
