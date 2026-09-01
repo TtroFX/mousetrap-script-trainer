@@ -26,20 +26,28 @@ jobs:
         with:
           node-version: '24'
 
-      - name: Remove obsolete fixed-count rewrite
+      - name: Normalize applicator for current canonical data
         run: |
           python - <<'PY'
           from pathlib import Path
           p = Path('scripts/apply-first-quarter-noun-expansion-v2.mjs')
           s = p.read_text()
+
           start_marker = "let assembler = fs.readFileSync(abs(FILES.assembler), 'utf8');"
           end_marker = "fs.writeFileSync(abs(FILES.assembler), assembler);"
           start = s.find(start_marker)
           end = s.find(end_marker, start if start >= 0 else 0)
-          if start < 0 or end < 0 or end <= start:
-              raise SystemExit('Unable to locate obsolete fixed-count rewrite code')
-          end += len(end_marker)
-          s = s[:start] + "// The production assembler validates vocabulary counts dynamically; no generated count constant needs rewriting." + s[end:]
+          if start >= 0 and end >= 0 and end > start:
+              end += len(end_marker)
+              s = s[:start] + "// The production assembler validates vocabulary counts dynamically; no generated count constant needs rewriting." + s[end:]
+
+          old = "const existing = rows.find(item => norm(item?.surface) === norm(surface) && norm(item?.lemma) === norm(lemma));"
+          new = "const existing = rows.find(item => norm(item?.surface) === norm(surface));"
+          if old in s:
+              s = s.replace(old, new)
+          elif new not in s:
+              raise SystemExit('Unable to locate existing-surface dedupe rule')
+
           p.write_text(s)
           PY
 
