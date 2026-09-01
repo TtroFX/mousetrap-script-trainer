@@ -3,6 +3,8 @@ name: Audit Japanese user-facing prose
 on:
   push:
     branches: ["main"]
+  pull_request:
+    branches: ["main"]
 
 permissions:
   contents: read
@@ -15,5 +17,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: List untranslated ASCII in translations and interpretation
+      - name: Reject accidental non-name English in Japanese prose
         run: node scripts/audit-japanese-prose.mjs
