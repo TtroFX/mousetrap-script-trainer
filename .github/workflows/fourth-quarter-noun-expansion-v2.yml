@@ -1,0 +1,102 @@
+name: Apply fourth-quarter noun expansion v2
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/fourth-quarter-noun-expansion-v2/**'
+      - '.github/workflows/fourth-quarter-noun-expansion-v2.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Generate fourth-quarter applicator from verified Part 3 template
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          src = Path('scripts/apply-third-quarter-noun-expansion-v2.mjs').read_text()
+          s = src.replace('third-quarter', 'fourth-quarter').replace('Part 3', 'Part 4')
+          s = s.replace("[583, 873]", "[874, 1164]")
+          s = s.replace("if (scope.first !== 'act2-speech-0057' || scope.last !== 'act2-speech-0347' || scope.nextExcluded !== 'act2-speech-0348') fail('Unexpected scope boundary');", "if (scope.first !== 'act2-speech-0348' || scope.last !== 'act2-speech-0638') fail('Unexpected scope boundary');")
+          s = s.replace("const targetSpeeches = script['act2'].speeches.slice(56, 347);", "const targetSpeeches = script['act2'].speeches.slice(347);")
+          if "fourth-quarter-noun-expansion-v2-2026-09-01" not in s:
+              raise SystemExit('patch identity transform failed')
+          if "slice(347)" not in s:
+              raise SystemExit('target extraction transform failed')
+          if "exactPart4Boundary" not in s:
+              raise SystemExit('Part 4 QA label transform failed')
+          Path('scripts/apply-fourth-quarter-noun-expansion-v2.mjs').write_text(s)
+          PY
+
+      - name: Apply Part 4 expansion and run canonical QA
+        run: node scripts/apply-fourth-quarter-noun-expansion-v2.mjs
+
+      - name: Run final four-part reconciliation
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+          import { execFileSync } from 'node:child_process';
+          const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
+          const norm=s=>String(s??'').normalize('NFKC').toLowerCase().replace(/[‘’]/g,"'").replace(/[‐‑‒–—―-]/g,' ').replace(/[^\p{L}\p{N}']+/gu,' ').trim().replace(/\s+/g,' ');
+          const expected=[
+            ['data/first-quarter-noun-expansion-v2-qa.json',1,291],
+            ['data/second-quarter-noun-expansion-v2-qa.json',292,582],
+            ['data/third-quarter-noun-expansion-v2-qa.json',583,873],
+            ['data/fourth-quarter-noun-expansion-v2-qa.json',874,1164]
+          ];
+          const reports=expected.map(([p,a,b])=>{const r=read(p);if(r.status!=='PASS')throw new Error(`${p} not PASS`);const range=r.scope?.globalSpeechRange;if(range?.[0]!==a||range?.[1]!==b)throw new Error(`${p} range mismatch`);if(r.qa?.outOfScopeLineMutations!==0)throw new Error(`${p} out-of-scope mutations`);return r;});
+          for(let i=0;i<expected.length-1;i++) if(expected[i][2]+1!==expected[i+1][1]) throw new Error('quarter gap/overlap');
+          if(expected[0][1]!==1||expected.at(-1)[2]!==1164)throw new Error('quarters do not cover whole play');
+          const vocab=read('mousetrap_line_vocabulary.json');
+          const dict=read('mousetrap_word_dictionary.json');
+          const script=read('mousetrap_script_data.json');
+          const ids=[...script['act1-scene1'].speeches,...script['act1-scene2'].speeches,...script.act2.speeches].map(x=>x.id);
+          if(ids.length!==1164||new Set(ids).size!==1164)throw new Error('canonical speech ids invalid');
+          const dictByNorm=new Map();
+          for(const [k,d] of Object.entries(dict)){const n=norm(k);if(!dictByNorm.has(n))dictByNorm.set(n,d);if(!String(d.meaning||'').trim()||String(d.meaning).trim()!==String(d.coreMeaning||'').trim())throw new Error(`dictionary meaning mismatch ${k}`);}
+          let items=0,inThisPlay=0,duplicates=0,missingRefs=0,meaningMismatches=0;
+          const referenced=new Set();
+          for(const id of ids){const rows=vocab[id];if(!Array.isArray(rows))throw new Error(`missing vocabulary key ${id}`);const seen=new Set();for(const row of rows){items++;const pair=`${norm(row.surface)}\u0000${norm(row.lemma)}`;if(seen.has(pair))duplicates++;seen.add(pair);const d=dict[row.lemma]??dictByNorm.get(norm(row.lemma));if(!d){missingRefs++;continue;}referenced.add(norm(row.lemma));if(String(d.meaning).trim()!==String(row.meaning||'').trim())meaningMismatches++;if(Object.prototype.hasOwnProperty.call(row,'inThisPlay'))inThisPlay++;}}
+          if(duplicates||missingRefs||meaningMismatches)throw new Error(`global reconciliation failed dup=${duplicates} refs=${missingRefs} meanings=${meaningMismatches}`);
+          const semantic=JSON.parse(execFileSync(process.execPath,['scripts/validate-vocabulary-semantics.mjs'],{encoding:'utf8'}));
+          if(semantic.status!=='PASS')throw new Error('semantic validator failed');
+          const production=JSON.parse(execFileSync(process.execPath,['scripts/assemble-production.mjs','--verify-only'],{cwd:'app',encoding:'utf8'}));
+          if(production.status!=='PASS')throw new Error('production verifier failed');
+          const audit={schemaVersion:1,status:'PASS',scope:{globalSpeechRange:[1,1164],speechCount:1164,quarters:expected.map(([,a,b])=>[a,b])},quarterReports:reports.map(r=>({patchId:r.patchId,range:r.scope.globalSpeechRange,newVocabularyItems:r.stats.newVocabularyItems,newDictionaryEntries:r.stats.newDictionaryEntries,outOfScopeLineMutations:r.qa.outOfScopeLineMutations})),global:{vocabularyItems:items,dictionaryEntries:Object.keys(dict).length,referencedDictionaryLemmas:referenced.size,inThisPlayItems:inThisPlay,duplicateVocabularyPairs:duplicates,missingDictionaryReferences:missingRefs,dictionaryMeaningMismatches:meaningMismatches},qa:{quarterCoverageNoGapsOrOverlaps:'PASS',canonicalSpeechCoverage:'PASS',dictionaryMeaningConsistency:'PASS',duplicateVocabularyPairs:'PASS',missingDictionaryReferences:'PASS',semanticValidator:semantic,productionVerifier:production}};
+          fs.writeFileSync('data/vocabulary-four-part-final-audit.json',JSON.stringify(audit,null,2)+'\n');
+          console.log(JSON.stringify(audit,null,2));
+          NODE
+
+      - name: Commit verified Part 4 and final audit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            scripts/apply-fourth-quarter-noun-expansion-v2.mjs \
+            mousetrap_line_vocabulary.json \
+            mousetrap_word_dictionary.json \
+            data/canonical-production-contract.json \
+            data/canonical-integration-manifest.json \
+            data/fourth-quarter-noun-expansion-v2-qa.json \
+            data/vocabulary-four-part-final-audit.json
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit"
+            exit 0
+          fi
+          git commit -m "Expand final-quarter vocabulary and reconcile all quarters"
+          git push
