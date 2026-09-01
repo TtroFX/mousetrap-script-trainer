@@ -1,0 +1,256 @@
+THE MOUSETRAP — A2+ ADDITION CANDIDATES — PART 4 / 874-1164
+Scope: global speeches 874-1164 (291 speeches)
+CEFR source: Oxford 3000 and 5000 (4941 parsed headwords)
+Dictionary definitions are NOT created in this phase. Production vocabulary/dictionary files are NOT modified.
+
+PIPELINE — OXFORD A2+
+1. Extracted A2+ candidate occurrences: 1071
+2. After headword deduplication: 345
+3. Already-implemented dictionary headwords removed: 161
+4. Final Oxford A2+ addition candidates: 184
+
+FINAL OXFORD A2+ ADDITION CANDIDATES
+word	cefr	occurrences	firstSpeechId	surfaceForms	allOxfordLevels
+able	A2	2	act2-speech-0367	able	A2
+actually	A2	1	act2-speech-0354	actually	A2
+after	A2	3	act2-speech-0517	after	A1/A2
+age	B1	1	act2-speech-0460	age	A1/B1
+ah	A2	1	act2-speech-0524	ah	A2
+all	A2	31	act2-speech-0367	all	A1/A2
+allow	A2	1	act2-speech-0490	allowed	A2
+almost	A2	1	act2-speech-0538	almost	A2
+alone	A2	3	act2-speech-0375	alone	A2
+along	A2	2	act2-speech-0575	along	A2
+any	A2	4	act2-speech-0363	any	A1/A2
+anybody	A2	2	act2-speech-0372	anybody	A2
+argue	A2	1	act2-speech-0459	argue	A2
+as	A2	16	act2-speech-0372	as	A1/A2
+aside	B2	1	act2-speech-0584	aside	B2
+attention	A2	2	act2-speech-0517	attention	A2
+back	A2/B2	2	act2-speech-0351	back	A1/A2/B2
+bat	B2/C1	1	act2-speech-0498	bat	B2/C1
+before	A2	7	act2-speech-0495	before	A1/A2
+beg	B2	2	act2-speech-0455	beg, begged	B2
+being	B2	2	act2-speech-0375	being	B2
+best	A2	1	act2-speech-0632	best	A1/A2
+better	A2/B1	4	act2-speech-0372	better	A1/A2/B1
+bit	A2	2	act2-speech-0561	bit	A2
+bound	B2	1	act2-speech-0392	bound	B2
+burn	A2/B2	1	act2-speech-0637	burning	A2/B2
+but	B2	23	act2-speech-0372	but	A1/B2
+by	B1	12	act2-speech-0351	by	A1/B1
+can	A2	9	act2-speech-0372	can	A1/A2
+cancel	B2	1	act2-speech-0372	cancelled	B2
+care	A2	1	act2-speech-0441	care	A2
+carefully	A2	1	act2-speech-0620	carefully	A2
+carve	C1	1	act2-speech-0379	carving	C1
+chance	A2	2	act2-speech-0377	chance, chances	A2
+clear	A2/B1	1	act2-speech-0528	clear	A2/B1
+clearly	A2	1	act2-speech-0519	clearly	A2
+control	A2	1	act2-speech-0612	control	A2
+cook	A2	1	act2-speech-0558	cooking	A1/A2
+count	A2/B1	3	act2-speech-0537	count	A2/B1
+crazy	A2	1	act2-speech-0370	crazy	A2
+cut	B1	2	act2-speech-0379	cut	A1/B1
+dead	A2	4	act2-speech-0372	dead	A2
+deal	A2/B1	1	act2-speech-0372	deal	A2/B1
+dear	A2	4	act2-speech-0373	dear	A1/A2
+degree	A2	1	act2-speech-0490	degree	A2
+depend	A2	1	act2-speech-0392	depends	A2
+discover	A2	2	act2-speech-0519	discover	A2
+drag	B2	1	act2-speech-0503	dragging	B2
+even	B2	1	act2-speech-0421	even	A1/B2
+exactly	A2	3	act2-speech-0534	exactly	A2
+excellent	A2	1	act2-speech-0364	excellent	A2
+far	B1	1	act2-speech-0395	far	A1/B1
+fat	A2	1	act2-speech-0594	fat	A1/A2
+financial	B1	1	act2-speech-0465	financial	B1
+finish	A2	1	act2-speech-0451	finished	A1/A2
+fortunately	A2	1	act2-speech-0618	fortunately	A2
+found	B2	4	act2-speech-0381	found	B2
+fresh	A2	1	act2-speech-0373	fresh	A2
+frightening	B1	1	act2-speech-0380	frightening	B1
+fun	A2	6	act2-speech-0385	fun	A1/A2
+go	B1	20	act2-speech-0350	go, gone, went	A1/B1
+god	A2	2	act2-speech-0489	god	A2
+good	A2	5	act2-speech-0348	good	A1/A2
+goods	B1	1	act2-speech-0620	goods	B1
+grand	B2	1	act2-speech-0423	grand	B2
+grant	B2	1	act2-speech-0365	grant	B2
+have	A2	32	act2-speech-0364	had, have, having	A1/A2
+himself	A2	3	act2-speech-0370	himself	A2
+his	A2	9	act2-speech-0503	his	A1/A2
+hold	A2/B2	4	act2-speech-0372	held, hold, holding	A2/B2
+hope	A2	5	act2-speech-0535	hope, hoping	A1/A2
+hunt	B1/B2	1	act2-speech-0367	hunt	B1/B2
+ill	A2	2	act2-speech-0584	ill	A2
+instead	A2	1	act2-speech-0377	instead	A2
+it	B1	85	act2-speech-0372	it, it's	A1/B1
+joke	A2	1	act2-speech-0385	joke	A2
+kill	A2	14	act2-speech-0356	kill, killed, killer, killer's	A2
+knife	A2	1	act2-speech-0379	knife	A2
+lady	A2	3	act2-speech-0373	ladies, lady	A2
+last	A2	6	act2-speech-0410	last	A1/A2
+later	A2	1	act2-speech-0635	later	A1/A2
+least	A2	2	act2-speech-0359	least	A2
+leave	B2	3	act2-speech-0469	leave, left	A1/B2
+like	B1	7	act2-speech-0398	like	A1/B1
+line	B2	1	act2-speech-0620	line	A1/B2
+little	A2	12	act2-speech-0379	little	A1/A2
+live	B1	1	act2-speech-0465	lived	A1/B1
+lost	A2	1	act2-speech-0503	lost	A2
+lovely	A2	1	act2-speech-0633	lovely	A2
+mad	B1	3	act2-speech-0607	mad	B1
+make	B2	5	act2-speech-0406	made, make	A1/B2
+making	B2	1	act2-speech-0535	making	B2
+manage	A2	1	act2-speech-0581	managed	A2
+marry	A2	1	act2-speech-0622	married	A2
+may	A2	10	act2-speech-0372	may	A1/A2
+might	A2	3	act2-speech-0401	might	A2
+mind	A2	3	act2-speech-0460	mind	A2
+minute	C1	3	act2-speech-0424	minute, minutes	A1/C1
+mixed	B2	2	act2-speech-0420	mixed	B2
+myself	A2	4	act2-speech-0370	myself	A2
+nasty	B2	2	act2-speech-0589	nasty	B2
+necessarily	B1	2	act2-speech-0520	necessarily	B1
+need	A2/B1	2	act2-speech-0372	need, needs	A1/A2/B1
+negative	B2	1	act2-speech-0377	negative	A1/B2
+next	B1	1	act2-speech-0370	next	A1/B1
+noise	A2	1	act2-speech-0592	noise	A2
+now	B1	14	act2-speech-0366	now	A1/B1
+offer	A2	1	act2-speech-0465	offer	A2
+once	B1	3	act2-speech-0380	once	A1/B1
+operation	B1	1	act2-speech-0509	operation	B1
+own	A2	1	act2-speech-0558	own	A1/A2
+particular	A2	1	act2-speech-0558	particular	A2
+pass	A2/B1	2	act2-speech-0352	passed	A2/B1
+pay	A2	2	act2-speech-0517	pay	A1/A2
+perform	A2	2	act2-speech-0548	performed	A2
+perhaps	A2	2	act2-speech-0403	perhaps	A2
+pick	A2/B2	2	act2-speech-0549	pick	A2/B2
+plain	B2	1	act2-speech-0596	plain	B2
+planning	B1	1	act2-speech-0370	planning	B1
+please	A2	7	act2-speech-0383	please	A1/A2
+pleased	A2	1	act2-speech-0566	pleased	A2
+queen	A2	1	act2-speech-0495	queen	A2
+question	A2	6	act2-speech-0366	question, questions	A1/A2
+realize	A2	2	act2-speech-0364	realize, realized	A2
+refer	A2	1	act2-speech-0465	refer	A2
+related	B1	1	act2-speech-0517	related	B1
+repeat	B1	2	act2-speech-0529	repeat	A1/B1
+result	B1	1	act2-speech-0573	result	A1/B1
+role	A2	1	act2-speech-0555	roles	A2
+round	A2/B2	1	act2-speech-0558	round	A2/B2
+run	A2	1	act2-speech-0573	run	A1/A2
+running	A2	1	act2-speech-0402	running	A2
+say	C1	16	act2-speech-0353	said, say	A1/C1
+second	A2	1	act2-speech-0523	second	A1/A2
+sense	A2/B2	1	act2-speech-0421	sense	A2/B2
+serve	A2	1	act2-speech-0373	served	A2
+set	B1	2	act2-speech-0367	set	B1
+shall	A2	3	act2-speech-0372	shall	A2
+shout	A2	1	act2-speech-0363	shouting	A2
+simple	A2	1	act2-speech-0411	simple	A2
+sir	A2	6	act2-speech-0384	sir	A2
+smell	A2	1	act2-speech-0637	smell	A2
+smoke	A2	2	act2-speech-0627	smoke	A2
+social	A2	1	act2-speech-0465	social	A2
+somewhere	A2	3	act2-speech-0449	somewhere	A2
+spell	C1	1	act2-speech-0435	spell	A1/C1
+spot	B1/B2	2	act2-speech-0596	spot	B1/B2
+stair	A2	2	act2-speech-0351	stairs	A2
+stay	A2	3	act2-speech-0413	stay, staying	A1/A2
+step	A2/B2	1	act2-speech-0370	step	A2/B2
+still	B1	2	act2-speech-0371	still	A1/B1
+such	A2	3	act2-speech-0379	such	A2
+suddenly	A2	1	act2-speech-0493	suddenly	A2
+suppose	A2	3	act2-speech-0367	suppose, supposing	A2
+sure	A2	4	act2-speech-0376	sure	A1/A2
+sweet	A2	1	act2-speech-0626	sweet	A2
+talk	A2	3	act2-speech-0373	talk, talking	A1/A2
+that	B1	61	act2-speech-0354	that, that's	A1/B1
+themselves	A2	1	act2-speech-0372	themselves	A2
+thin	A2	1	act2-speech-0373	thin	A2
+thinking	A2	4	act2-speech-0363	thinking	A2
+third	A2	3	act2-speech-0372	third	A1/A2
+this	B1	15	act2-speech-0363	this	A1/B1
+though	B1	1	act2-speech-0497	though	B1
+thought	A2	7	act2-speech-0421	thought	A2
+time	B2	8	act2-speech-0356	time	A1/B2
+top	A2/C1	1	act2-speech-0618	top	A2/C1
+touch	A2/B1	2	act2-speech-0349	touch, touched	A2/B1
+truth	B1	1	act2-speech-0519	truth	B1
+try	B2	7	act2-speech-0370	tried, try, trying	A1/B2
+unfortunately	A2	1	act2-speech-0558	unfortunately	A2
+used	B1	1	act2-speech-0600	used	B1
+very	B2	17	act2-speech-0363	very	A1/B2
+wait	A2	1	act2-speech-0584	waiting	A1/A2
+war	A2	2	act2-speech-0577	waring	A2
+way	B2	11	act2-speech-0350	way	A1/B2
+well	C1	9	act2-speech-0372	well	A1/C1
+wheel	A2	1	act2-speech-0620	wheel	A2
+wish	A2	1	act2-speech-0489	wish	A2
+worry	A2/B1	2	act2-speech-0473	worry	A2/B1
+written	B1	1	act2-speech-0616	written	B1
+wrong	B1/B2	1	act2-speech-0514	wrong	A1/B1/B2
+young	B1	3	act2-speech-0363	young, younger	A1/B1
+yours	A2	1	act2-speech-0390	yours	A2
+
+OXFORD-UNCLASSIFIED / MANUAL REVIEW
+These are non-basic-looking script tokens not found in the Oxford 3000/5000 parser after removing implemented dictionary headwords.
+They are NOT automatically classified as A2+; retain them for later manual review so British/dated/rare words are not silently lost.
+word	occurrences	firstSpeechId	surfaceForms
+arrivederl	1	act2-speech-0375	arrivederl
+avail	1	act2-speech-0501	avail
+chestnut	1	act2-speech-0524	chestnut
+chilly	1	act2-speech-0558	chilly
+d'or	1	act2-speech-0437	d'or
+darling	5	act2-speech-0604	darling
+dealt	1	act2-speech-0372	dealt
+died	2	act2-speech-0581	died
+doing	5	act2-speech-0388	doing
+dreamt	1	act2-speech-0606	dreamt
+dum	5	act2-speech-0549	dum
+foie	1	act2-speech-0373	foie
+forgot	1	act2-speech-0630	forgot
+forgotten	1	act2-speech-0481	forgotten
+goes	2	act2-speech-0406	goes
+going	8	act2-speech-0370	going
+gras	1	act2-speech-0373	gras
+grown	2	act2-speech-0589	grown
+hatter	1	act2-speech-0612	hatter
+hid	1	act2-speech-0618	hid
+inconvenient	1	act2-speech-0506	inconvenient
+inconveniently	1	act2-speech-0391	inconveniently
+katherine	4	act2-speech-0433	katherine
+kindly	1	act2-speech-0558	kindly
+leadenhall	1	act2-speech-0441	leadenhall
+ledbury	1	act2-speech-0447	ledbury
+lied	2	act2-speech-0519	lied
+lying	1	act2-speech-0519	lying
+maiden	1	act2-speech-0577	maiden
+manor	2	act2-speech-0448	manor
+margaret	2	act2-speech-0433	margaret
+mariposa	1	act2-speech-0437	mariposa
+morgan's	1	act2-speech-0441	morgan's
+mrs	28	act2-speech-0356	mrs
+oneself	1	act2-speech-0406	oneself
+overdoing	1	act2-speech-0407	overdoing
+pine	1	act2-speech-0437	pine
+policemen	2	act2-speech-0421	policemen
+ralston's	2	act2-speech-0558	ralston's
+rang	1	act2-speech-0587	rang
+ritz	1	act2-speech-0413	ritz
+safely	1	act2-speech-0590	safely
+seem	1	act2-speech-0492	seem
+seems	3	act2-speech-0400	seems
+smeared	1	act2-speech-0373	smeared
+spanish	1	act2-speech-0439	spanish
+taught	2	act2-speech-0579	taught
+thickly	1	act2-speech-0373	thickly
+understood	1	act2-speech-0555	understood
+ups	1	act2-speech-0589	ups
+villa	1	act2-speech-0437	villa
+vouch	1	act2-speech-0464	vouch
+wren's	1	act2-speech-0558	wren's
+

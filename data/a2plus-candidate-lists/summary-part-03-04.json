@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "source": "https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000",
+  "parsedOxfordWords": 4941,
+  "policy": "Oxford A2+ (A2/B1/B2/C1/C2) extraction -> headword dedupe -> remove current dictionary headwords. Oxford-unclassified tokens are retained separately for manual review. No dictionary definitions or production vocabulary data are generated.",
+  "parts": {
+    "part3": {
+      "scope": [
+        583,
+        873
+      ],
+      "extractedOccurrences": 1058,
+      "deduped": 315,
+      "implementedDictionaryRemoved": 149,
+      "finalOxfordA2Plus": 166,
+      "manualUnclassified": 35
+    },
+    "part4": {
+      "scope": [
+        874,
+        1164
+      ],
+      "extractedOccurrences": 1071,
+      "deduped": 345,
+      "implementedDictionaryRemoved": 161,
+      "finalOxfordA2Plus": 184,
+      "manualUnclassified": 53
+    }
+  },
+  "uniqueOxfordA2PlusAcrossParts3And4": 250
+}
