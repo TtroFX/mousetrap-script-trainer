@@ -19,7 +19,7 @@ async function swipe(page,fromX,toX,pointerId,y=300){
   },{fromX,toX,pointerId,y});
 }
 
-test('adjacent line pages keep independent vertical scroll positions while horizontal swipe stays finger-locked',async({page})=>{
+test('committed swipes reopen adjacent pages at the top and keep vertical scrolling unlocked',async({page})=>{
   await ready(page);
   const target=await page.evaluate(()=>{
     for(const scene of ['act1-scene1','act1-scene2','act2']){
@@ -97,7 +97,7 @@ test('adjacent line pages keep independent vertical scroll positions while horiz
     previousTransform:getComputedStyle(document.querySelector('.focus-page-preview')).transform
   }));
   expect(backDrag.currentTop).toBeGreaterThan(160);
-  expect(backDrag.previousTop).toBeGreaterThan(400);
+  expect(backDrag.previousTop).toBeLessThan(3);
   expect(backDrag.currentTransform).not.toBe('none');
   expect(backDrag.previousTransform).not.toBe('none');
 
@@ -107,7 +107,30 @@ test('adjacent line pages keep independent vertical scroll positions while horiz
   });
   await expect(page).toHaveURL(new RegExp(target.line));
   await page.waitForFunction(line=>location.hash.includes(line)&&!document.querySelector('.line-nav-v2-overlay'),target.line,{timeout:12000});
-  expect(await page.evaluate(()=>document.querySelector('.line-page-surface')?.scrollTop||0)).toBeGreaterThan(400);
+  expect(await page.evaluate(()=>document.querySelector('.line-page-surface')?.scrollTop||0)).toBeLessThan(3);
+
+  const unlocked=await page.evaluate(({scene,line})=>{
+    const surface=document.querySelector('.line-page-surface');
+    const spacer=document.createElement('div');
+    spacer.dataset.postReturnScrollSpacer='true';spacer.style.height='1400px';spacer.style.pointerEvents='none';
+    surface.append(spacer);
+    surface.scrollTop=210;
+    surface.dispatchEvent(new Event('scroll'));
+    const marker=document.createElement('span');marker.dataset.scrollMutationProbe='true';surface.append(marker);
+    MTS_LINE_SCROLL.activate();
+    return new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>resolve({
+      top:surface.scrollTop,
+      remembered:MTS_LINE_SCROLL.get({scene,line}),
+      overflowY:getComputedStyle(surface).overflowY,
+      touchAction:getComputedStyle(surface).touchAction,
+      pointerEvents:getComputedStyle(surface).pointerEvents
+    }))));
+  },{scene:target.scene,line:target.line});
+  expect(unlocked.top).toBeGreaterThan(180);
+  expect(unlocked.remembered).toBeGreaterThan(180);
+  expect(unlocked.overflowY).toBe('auto');
+  expect(unlocked.touchAction).toContain('pan-y');
+  expect(unlocked.pointerEvents).not.toBe('none');
 });
 
 test('vertical gesture remains native scroll and does not start horizontal page motion',async({page})=>{

@@ -5,9 +5,10 @@ const MAX_SCROLL_ROUTES=48;
 let scheduled=false;
 
 const keyFor=route=>route?routeHash(route):'';
+const normalizeTop=value=>Math.max(0,Number(value)||0);
 const remember=(key,value)=>{
   if(!key)return;
-  const top=Math.max(0,Number(value)||0);
+  const top=normalizeTop(value);
   if(scrollMemory.has(key))scrollMemory.delete(key);
   scrollMemory.set(key,top);
   while(scrollMemory.size>MAX_SCROLL_ROUTES)scrollMemory.delete(scrollMemory.keys().next().value);
@@ -15,6 +16,19 @@ const remember=(key,value)=>{
 
 export function rememberedScrollTop(route){
   return scrollMemory.get(keyFor(route))||0;
+}
+
+export function setRouteScrollTop(route,value=0,surface=null){
+  const key=keyFor(route);
+  if(!key)return 0;
+  const top=normalizeTop(value);
+  remember(key,top);
+  if(surface&&surface.dataset?.lineScrollKey===key&&Math.abs(surface.scrollTop-top)>1)surface.scrollTop=top;
+  return top;
+}
+
+export function resetRouteScroll(route,surface=null){
+  return setRouteScrollTop(route,0,surface);
 }
 
 export function bindSurfaceScroll(surface,route=readRoute()){
@@ -30,9 +44,9 @@ export function bindSurfaceScroll(surface,route=readRoute()){
   return surface;
 }
 
-export function preparePreviewScroll(preview,route){
+export function preparePreviewScroll(preview,route,topOverride=null){
   if(!preview||!route)return preview;
-  const key=keyFor(route),top=rememberedScrollTop(route);
+  const key=keyFor(route),top=topOverride==null?rememberedScrollTop(route):normalizeTop(topOverride);
   preview.dataset.lineScrollKey=key;
   if(Math.abs(preview.scrollTop-top)>1)preview.scrollTop=top;
   return preview;
@@ -82,4 +96,6 @@ window.MTS_LINE_SCROLL=Object.freeze({
   version:1,
   activate:scheduleLineScroll,
   get:route=>rememberedScrollTop(route),
+  set:(route,value)=>setRouteScrollTop(route,value),
+  reset:route=>resetRouteScroll(route),
 });
