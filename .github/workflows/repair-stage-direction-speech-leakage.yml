@@ -87,11 +87,11 @@ jobs:
           patch('scripts/validate-stage-directions.mjs',[
             (r"\{id:'act1-scene2',act:1,scene:2,count:336,stageCount:\d+\}",f"{{id:'act1-scene2',act:1,scene:2,count:336,stageCount:{scene_counts['act1-scene2']}}}"),
             (r'stage\.counts\?\.attached!==\d+',f'stage.counts?.attached!=={attached}'),(r'stage\.counts\?\.total!==\d+',f'stage.counts?.total!=={total}'),(r'stage\.entries\.length!==\d+',f'stage.entries.length!=={total}'),
-            (r'entries\.length}/\d+',f'entries.length}}/{total}'),(r'attached!==\d+\|\|malformed!==\d+',f'attached!=={attached}||malformed!=={malformed}'),(r'actorCues!==\d+',f'actorCues!=={actor}'),
+            (r'(stage entries \$\{stage\.entries\.length\}/)\d+',rf'\g<1>{total}'),(r'attached!==\d+\|\|malformed!==\d+',f'attached!=={attached}||malformed!=={malformed}'),(r'actorCues!==\d+',f'actorCues!=={actor}'),
             (r'placements\.before!==\d+\|\|placements\.delivery!==\d+\|\|placements\.after!==\d+',f"placements.before!=={placements['before']}||placements.delivery!=={placements['delivery']}||placements.after!=={placements['after']}")])
           patch('app/tests/stage_directions_static.mjs',[
             (r'stage\.entries\?\.length!==\d+',f'stage.entries?.length!=={total}'),(r'stage\.counts\?\.attached!==\d+',f'stage.counts?.attached!=={attached}'),(r'stage\.counts\?\.total!==\d+',f'stage.counts?.total!=={total}'),
-            (r"join\(','\)!=='\d+,\d+,\d+'",f"join(',')!=='{scene_csv}'"),(r'actorCues!==\d+',f'actorCues!=={actor}'),(r'actor cue count \$\{actorCues\}/\d+',f'actor cue count ${{actorCues}}/{actor}')])
+            (r"join\(','\)!=='\d+,\d+,\d+'",f"join(',')!=='{scene_csv}'"),(r'actorCues!==\d+',f'actorCues!=={actor}')])
           patch('app/tests/stage_directions.e2e.spec.js',[(r'stageCount:\d+',f'stageCount:{total}')])
           patch('.github/workflows/pages.yml',[
             (r"p\['counts'\]\['sentences'\]==\d+",f"p['counts']['sentences']=={s}"),(r"p\['counts'\]\['clauses'\']==\d+",f"p['counts']['clauses']=={cl}"),(r"p\['counts'\]\['chunks'\']==\d+",f"p['counts']['chunks']=={ch}")])
