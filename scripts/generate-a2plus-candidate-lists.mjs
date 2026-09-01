@@ -3,7 +3,6 @@ import fs from 'node:fs';
 const OXFORD_URL = 'https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000';
 const script = JSON.parse(fs.readFileSync('mousetrap_script_data.json', 'utf8'));
 const dictionary = JSON.parse(fs.readFileSync('mousetrap_word_dictionary.json', 'utf8'));
-const lineVocabulary = JSON.parse(fs.readFileSync('mousetrap_line_vocabulary.json', 'utf8'));
 
 const allSpeeches = [
   ...script['act1-scene1'].speeches,
@@ -78,14 +77,10 @@ function variants(token) {
   return out;
 }
 
-const implemented = new Set(Object.keys(dictionary).map(norm));
-for (const rows of Object.values(lineVocabulary)) {
-  if (!Array.isArray(rows)) continue;
-  for (const row of rows) {
-    if (row?.lemma) implemented.add(norm(row.lemma));
-    if (row?.surface && /^[A-Za-z][A-Za-z'’-]*$/.test(String(row.surface).trim())) implemented.add(norm(row.surface));
-  }
-}
+// The target of this pass is dictionary coverage. A word is "implemented" only
+// when its dictionary headword already exists. A line-vocabulary surface alone
+// must not suppress a missing dictionary headword (the original abuse gap).
+const implementedDictionary = new Set(Object.keys(dictionary).map(norm));
 
 const BASIC_OR_NOISE = new Set(`
 a an the this that these those i me my mine you your yours he him his she her hers it its we us our ours they them their theirs
@@ -106,16 +101,13 @@ georgie jimmy kathy john mary hogben hampstead kensington bournemouth edinburgh 
 const CONTRACTION = /(?:n't|'re|'ve|'ll|'d|'m)$/;
 
 function classifyOxfordToken(token) {
-  const matches=[];
   for (const v of variants(token)) {
     const entries=oxford.get(v);
     if (!entries) continue;
     const qualifying=entries.filter(e=>A2PLUS_LEVELS.has(e.level));
-    if (qualifying.length) matches.push({word:v, entries, qualifying});
+    if (qualifying.length) return {word:v, entries, qualifying};
   }
-  if (!matches.length) return null;
-  // Prefer exact surface, then irregular/base candidates in variant order.
-  return matches[0];
+  return null;
 }
 function displayLevels(entries) {
   return [...new Set(entries.map(e=>e.level.toUpperCase()))]
@@ -135,8 +127,8 @@ function analyseQuarter(startGlobal,endGlobal,label) {
         continue;
       }
       if (surface.length<3 || BASIC_OR_NOISE.has(surface) || PROPER_NAMES.has(surface) || CONTRACTION.test(surface)) continue;
-      if (variants(surface).some(v=>implemented.has(v))) continue;
-      if (variants(surface).some(v=>oxford.has(v))) continue; // Oxford A1-only: deliberately excluded from A2+.
+      if (variants(surface).some(v=>implementedDictionary.has(v))) continue;
+      if (variants(surface).some(v=>oxford.has(v))) continue;
       unclassified.push({word:surface,surface,speechId:speech.id});
     }
   }
@@ -147,7 +139,7 @@ function analyseQuarter(startGlobal,endGlobal,label) {
     e.count++; e.surfaces.add(row.surface); for(const x of row.levels.split('/')) e.levels.add(x); for(const x of row.allLevels.split('/')) e.allLevels.add(x); dedupeMap.set(row.word,e);
   }
   const deduped=[...dedupeMap.values()].sort((a,b)=>a.word.localeCompare(b.word));
-  const final=deduped.filter(row=>!implemented.has(row.word) && ![...row.surfaces].some(s=>implemented.has(s)));
+  const final=deduped.filter(row=>!implementedDictionary.has(row.word));
 
   const unknownMap=new Map();
   for(const row of unclassified){
@@ -165,7 +157,7 @@ function analyseQuarter(startGlobal,endGlobal,label) {
   out.push('PIPELINE — OXFORD A2+');
   out.push(`1. Extracted A2+ candidate occurrences: ${extracted.length}`);
   out.push(`2. After headword deduplication: ${deduped.length}`);
-  out.push(`3. Already-implemented headwords removed: ${deduped.length-final.length}`);
+  out.push(`3. Already-implemented dictionary headwords removed: ${deduped.length-final.length}`);
   out.push(`4. Final Oxford A2+ addition candidates: ${final.length}`);
   out.push('');
   out.push('FINAL OXFORD A2+ ADDITION CANDIDATES');
@@ -177,12 +169,12 @@ function analyseQuarter(startGlobal,endGlobal,label) {
   }
   out.push('');
   out.push('OXFORD-UNCLASSIFIED / MANUAL REVIEW');
-  out.push('These are non-basic-looking script tokens not found in the Oxford 3000/5000 parser after removing implemented items.');
+  out.push('These are non-basic-looking script tokens not found in the Oxford 3000/5000 parser after removing implemented dictionary headwords.');
   out.push('They are NOT automatically classified as A2+; retain them for later manual review so British/dated/rare words are not silently lost.');
   out.push('word\toccurrences\tfirstSpeechId\tsurfaceForms');
   for(const row of manual) out.push(`${row.word}\t${row.count}\t${row.firstSpeechId}\t${[...row.surfaces].sort().join(', ')}`);
   out.push('');
-  return {text:out.join('\n'),final,manual,stats:{extractedOccurrences:extracted.length,deduped:deduped.length,implementedRemoved:deduped.length-final.length,finalOxfordA2Plus:final.length,manualUnclassified:manual.length}};
+  return {text:out.join('\n'),final,manual,stats:{extractedOccurrences:extracted.length,deduped:deduped.length,implementedDictionaryRemoved:deduped.length-final.length,finalOxfordA2Plus:final.length,manualUnclassified:manual.length}};
 }
 
 const part1=analyseQuarter(1,291,'PART 1 / 1-291');
@@ -202,7 +194,7 @@ const combined=combine([['1',part1],['2',part2]]);
 const combinedText=[
   'THE MOUSETRAP — A2+ ADDITION CANDIDATES — PARTS 1+2 UNIQUE',
   'Scope: global speeches 1-582',
-  'Pipeline: extract Oxford A2+ occurrences -> deduplicate by headword -> remove currently implemented dictionary/vocabulary headwords -> deduplicate across Parts 1 and 2.',
+  'Pipeline: extract Oxford A2+ occurrences -> deduplicate by headword -> remove currently implemented dictionary headwords -> deduplicate across Parts 1 and 2.',
   `Unique final Oxford A2+ candidates across Parts 1+2: ${combined.length}`,
   '',
   'word\tcefr\tparts\toccurrences\tfirstSpeechId\tsurfaceForms\tallOxfordLevels',
@@ -219,12 +211,12 @@ fs.writeFileSync('data/a2plus-candidate-lists/part-01.txt',part1.text+'\n');
 fs.writeFileSync('data/a2plus-candidate-lists/part-02.txt',part2.text+'\n');
 fs.writeFileSync('data/a2plus-candidate-lists/part-01-02-unique.txt',combinedText+'\n');
 const summary={
-  schemaVersion:2,status:'PASS',source:OXFORD_URL,parsedOxfordWords:oxford.size,
-  policy:'Oxford A2+ (A2/B1/B2/C1/C2) automatic candidate extraction plus separate Oxford-unclassified manual-review bucket; current implemented dictionary/vocabulary removed; no dictionary definitions generated.',
+  schemaVersion:3,status:'PASS',source:OXFORD_URL,parsedOxfordWords:oxford.size,
+  policy:'Oxford A2+ (A2/B1/B2/C1/C2) extraction -> headword dedupe -> remove current dictionary headwords. Oxford-unclassified tokens are retained separately for manual review. No dictionary definitions or production vocabulary data are generated.',
   parts:{part1:{scope:[1,291],...part1.stats},part2:{scope:[292,582],...part2.stats}},
   uniqueOxfordA2PlusAcrossParts1And2:combined.length,
   abusePresentInFinal:combined.some(x=>x.word==='abuse')
 };
 fs.writeFileSync('data/a2plus-candidate-lists/summary.json',JSON.stringify(summary,null,2)+'\n');
 console.log(JSON.stringify(summary,null,2));
-if(!summary.abusePresentInFinal) throw new Error('Expected missing target word "abuse" to be present in final Parts 1+2 candidate list');
+if(!summary.abusePresentInFinal) throw new Error('Expected missing dictionary headword "abuse" to be present in final Parts 1+2 candidate list');
