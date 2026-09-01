@@ -12,8 +12,10 @@ const navStyle=document.createElement('style');
 navStyle.textContent='.line-nav-v2-overlay .floating-nav{pointer-events:auto!important}.line-nav-v2-overlay .floating-nav>button{pointer-events:auto!important}';
 document.head.append(navStyle);
 
-const AXIS_LOCK_PX=8;
-const AXIS_DOMINANCE=1.08;
+const VERTICAL_LOCK_PX=5;
+const HORIZONTAL_LOCK_PX=12;
+const VERTICAL_DOMINANCE=.9;
+const HORIZONTAL_DOMINANCE=1.25;
 const COMMIT_MIN_PX=22;
 const COMMIT_MAX_PX=42;
 const COMMIT_RATIO=.055;
@@ -24,9 +26,8 @@ const MOTION_X1=.3;
 const MOTION_X2=.7;
 const clamp=(value,min,max)=>Math.min(max,Math.max(min,value));
 const resolveAxis=(ax,ay)=>{
-  if(Math.max(ax,ay)<AXIS_LOCK_PX)return null;
-  if(ax>ay*AXIS_DOMINANCE)return'x';
-  if(ay>ax*AXIS_DOMINANCE)return'y';
+  if(ay>=VERTICAL_LOCK_PX&&ay>=ax*VERTICAL_DOMINANCE)return'y';
+  if(ax>=HORIZONTAL_LOCK_PX&&ax>ay*HORIZONTAL_DOMINANCE)return'x';
   return null;
 };
 const commitThreshold=width=>Math.min(COMMIT_MAX_PX,Math.max(COMMIT_MIN_PX,width*COMMIT_RATIO));
@@ -72,6 +73,11 @@ function releaseCapture(state){
   if(!state?.captured)return;
   try{if(state.page?.hasPointerCapture?.(state.pointerId))state.page.releasePointerCapture(state.pointerId)}catch{}
   state.captured=false;
+}
+function yieldNativeScroll(state){
+  state.cancelled=true;lastTap=null;releaseCapture(state);
+  clearSurfaceMotion(state.surface);removePreviews(state);
+  if(swipe===state)swipe=null;
 }
 function cancelSettling(){
   const task=settling;if(!task)return false;
@@ -166,6 +172,7 @@ function move(event){
   const dx=event.clientX-state.startX,dy=event.clientY-state.startY,ax=Math.abs(dx),ay=Math.abs(dy);
   if(!state.axis)state.axis=resolveAxis(ax,ay);
   state.lastY=event.clientY;state.currentDx=dx;
+  if(state.axis==='y'){yieldNativeScroll(state);return}
   if(state.axis!=='x')return;
   event.stopImmediatePropagation();event.preventDefault();
   if(!state.captured){try{state.page.setPointerCapture?.(event.pointerId);state.captured=!!state.page.hasPointerCapture?.(event.pointerId)}catch{state.captured=false}}
@@ -205,12 +212,14 @@ function finishGesture(state,{x=state.lastX,y=state.lastY,time=state.lastTime||p
 }
 function end(event){
   const state=swipe;if(!state||event.pointerId!==state.pointerId)return;
-  swipe=null;event.stopImmediatePropagation();releaseCapture(state);
+  const dx=event.clientX-state.startX,dy=event.clientY-state.startY,axis=state.axis??resolveAxis(Math.abs(dx),Math.abs(dy));
+  swipe=null;if(axis!=='y')event.stopImmediatePropagation();releaseCapture(state);
   finishGesture(state,{x:event.clientX,y:event.clientY,time:event.timeStamp||performance.now(),allowTap:true,tapEvent:event});
 }
 function cancel(event){
   const state=swipe;if(!state||event.pointerId!==state.pointerId)return;
-  swipe=null;lastTap=null;event.stopImmediatePropagation();releaseCapture(state);
+  const dx=state.lastX-state.startX,dy=state.lastY-state.startY,axis=state.axis??resolveAxis(Math.abs(dx),Math.abs(dy));
+  swipe=null;lastTap=null;if(axis!=='y')event.stopImmediatePropagation();releaseCapture(state);
   finishGesture(state,{x:state.lastX,y:state.lastY,time:state.lastTime||performance.now()});
 }
 function lostCapture(event){
@@ -250,4 +259,4 @@ const scheduleRoleSync=()=>requestAnimationFrame(syncFocusRole);
 window.addEventListener('hashchange',()=>{lastTap=null;cancelSettling();scheduleRoleSync();resetFocusScroll();scheduleLineScroll();if(readRoute())ensureRequiredData().catch(()=>{})});
 apiReady.then(api=>{scheduleRoleSync();scheduleLineScroll();api.store?.addEventListener?.('ready',()=>{scheduleRoleSync();scheduleLineScroll()})}).catch(()=>{});
 
-window.MTS_LINE_NAVIGATION=Object.freeze({version:2,easing:COMMIT_EASING,motionModel:MOTION_MODEL,navigate:direction=>buttonNavigate(Math.sign(direction)||1,'api'),transitionState,gestureProfile:Object.freeze({axisLockPx:AXIS_LOCK_PX,axisDominance:AXIS_DOMINANCE,commitMinPx:COMMIT_MIN_PX,commitMaxPx:COMMIT_MAX_PX,commitRatio:COMMIT_RATIO,flickMinPx:FLICK_MIN_PX,flickVelocity:FLICK_VELOCITY})});
+window.MTS_LINE_NAVIGATION=Object.freeze({version:2,easing:COMMIT_EASING,motionModel:MOTION_MODEL,navigate:direction=>buttonNavigate(Math.sign(direction)||1,'api'),transitionState,gestureProfile:Object.freeze({axisLockPx:HORIZONTAL_LOCK_PX,axisDominance:HORIZONTAL_DOMINANCE,horizontalLockPx:HORIZONTAL_LOCK_PX,horizontalDominance:HORIZONTAL_DOMINANCE,verticalLockPx:VERTICAL_LOCK_PX,verticalDominance:VERTICAL_DOMINANCE,commitMinPx:COMMIT_MIN_PX,commitMaxPx:COMMIT_MAX_PX,commitRatio:COMMIT_RATIO,flickMinPx:FLICK_MIN_PX,flickVelocity:FLICK_VELOCITY})});

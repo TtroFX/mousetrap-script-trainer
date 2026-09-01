@@ -23,6 +23,7 @@
   overflow-y:auto;
   overscroll-behavior-y:contain;
   -webkit-overflow-scrolling:touch;
+  touch-action:pan-y;
   padding-bottom:72px;
   transform:translate3d(0,0,0);
   opacity:1;
