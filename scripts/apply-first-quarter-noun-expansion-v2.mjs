@@ -71,14 +71,14 @@ const protectedHashes = { script: sha256(FILES.script), translations: sha256(FIL
 const dictKeyByNorm = new Map();
 for (const key of Object.keys(dictionary)) {
   const n = norm(key);
-  if (!n || dictKeyByNorm.has(n)) fail(`Dictionary normalized key problem: ${key}`);
-  dictKeyByNorm.set(n, key);
+  if (!n) fail(`Dictionary key normalizes empty: ${key}`);
+  if (!dictKeyByNorm.has(n)) dictKeyByNorm.set(n, key);
 }
 
 let newDictionaryEntries = 0;
 function ensureDictionary(lemma, spec) {
   const n = norm(lemma);
-  let key = dictKeyByNorm.get(n);
+  let key = Object.prototype.hasOwnProperty.call(dictionary, lemma) ? lemma : dictKeyByNorm.get(n);
   if (key) {
     const entry = dictionary[key];
     if (!entry || typeof entry !== 'object' || !String(entry.meaning || '').trim() || !String(entry.coreMeaning || '').trim()) fail(`Invalid existing dictionary entry: ${key}`);
@@ -166,7 +166,12 @@ for (const [id, before] of outOfScopeSnapshot) if (JSON.stringify(vocabulary[id]
 writeJson(FILES.vocabulary, vocabulary);
 writeJson(FILES.dictionary, dictionary);
 
-const dictionaryByNorm = new Map(Object.entries(dictionary).map(([key, entry]) => [norm(key), entry]));
+const dictionaryByNorm = new Map();
+for (const [key, entry] of Object.entries(dictionary)) {
+  const n = norm(key);
+  if (!dictionaryByNorm.has(n)) dictionaryByNorm.set(n, entry);
+}
+const dictionaryEntryForLemma = lemma => Object.prototype.hasOwnProperty.call(dictionary, lemma) ? dictionary[lemma] : dictionaryByNorm.get(norm(lemma));
 let vocabItems = 0, playMeaningItems = 0, neutralOnlyItems = 0, inThisPlayItems = 0, annotatedSpeeches = 0;
 const referencedLemmas = new Set();
 for (const id of allSpeechIds) {
@@ -181,7 +186,7 @@ for (const id of allSpeechIds) {
     const pair = `${norm(surface)}\u0000${norm(lemma)}`;
     if (seen.has(pair)) fail(`Duplicate vocabulary pair: ${id}/${surface}/${lemma}`);
     seen.add(pair);
-    const dict = dictionaryByNorm.get(norm(lemma));
+    const dict = dictionaryEntryForLemma(lemma);
     if (!dict) fail(`Missing dictionary lemma: ${id}/${lemma}`);
     if (String(dict.meaning || '').trim() !== meaning) fail(`Meaning mismatch: ${id}/${lemma}`);
     if (Object.prototype.hasOwnProperty.call(item, 'inThisPlay')) {
