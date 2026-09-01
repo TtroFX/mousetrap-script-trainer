@@ -19,7 +19,7 @@ async function swipe(page,fromX,toX,pointerId,y=300){
   },{fromX,toX,pointerId,y});
 }
 
-test('committed swipes reopen adjacent pages at the top and keep vertical scrolling unlocked',async({page})=>{
+test('swipe preview keeps remembered vertical position until completion, then destination opens at top and remains scrollable',async({page})=>{
   await ready(page);
   const target=await page.evaluate(()=>{
     for(const scene of ['act1-scene1','act1-scene2','act2']){
@@ -97,7 +97,7 @@ test('committed swipes reopen adjacent pages at the top and keep vertical scroll
     previousTransform:getComputedStyle(document.querySelector('.focus-page-preview')).transform
   }));
   expect(backDrag.currentTop).toBeGreaterThan(160);
-  expect(backDrag.previousTop).toBeLessThan(3);
+  expect(backDrag.previousTop).toBeGreaterThan(400);
   expect(backDrag.currentTransform).not.toBe('none');
   expect(backDrag.previousTransform).not.toBe('none');
 
@@ -105,6 +105,10 @@ test('committed swipes reopen adjacent pages at the top and keep vertical scroll
     const surface=document.querySelector('.line-page-surface');
     surface.dispatchEvent(new PointerEvent('pointerup',{bubbles:true,cancelable:true,pointerType:'touch',pointerId:702,clientX:330,clientY:303}));
   });
+  await page.waitForSelector('.line-nav-v2-overlay .focus-page-preview',{timeout:4000});
+  const duringCompletion=await page.locator('.line-nav-v2-overlay .focus-page-preview').evaluate(node=>node.scrollTop);
+  expect(duringCompletion).toBeGreaterThan(400);
+
   await expect(page).toHaveURL(new RegExp(target.line));
   await page.waitForFunction(line=>location.hash.includes(line)&&!document.querySelector('.line-nav-v2-overlay'),target.line,{timeout:12000});
   expect(await page.evaluate(()=>document.querySelector('.line-page-surface')?.scrollTop||0)).toBeLessThan(3);

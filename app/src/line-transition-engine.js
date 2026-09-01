@@ -2,6 +2,7 @@ import {
   PENDING_CLASS,motionProfile,nextFrame,twoFrames,routeHash,adjacentRoute,
   prepareSurface,clearSurfaceMotion,actualPageReady,resetFocusScroll
 } from './line-page-runtime.js';
+import {bindSurfaceScroll,resetRouteScroll} from './line-independent-scroll.js';
 
 const MOTION_MODEL='velocity-continuous-in-out-v1';
 const MOTION_X1=.3;
@@ -138,6 +139,10 @@ export async function runTransition(state,direction,origin,preview){
   await t.motionFinished;
   if(active!==t)return true;
   if(t.interrupted){finishInterrupted(t);return true}
+  if(t.origin==='swipe'){
+    resetRouteScroll(target);
+    bindSurfaceScroll(ready.surface,target);
+  }
   releaseActualNav(t.heldNav);t.heldNav=null;
   document.documentElement.classList.remove(PENDING_CLASS);
   clearSurfaceMotion(ready.surface);cleanup(t);active=null;t.phase='complete';

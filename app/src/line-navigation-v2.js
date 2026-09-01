@@ -4,7 +4,7 @@ import {
   syncFocusRole,resetFocusScroll
 } from './line-page-runtime.js';
 import {
-  activateLineScroll,bindSurfaceScroll,preparePreviewScroll,resetRouteScroll,scheduleLineScroll
+  activateLineScroll,bindSurfaceScroll,preparePreviewScroll,scheduleLineScroll
 } from './line-independent-scroll.js';
 import {transitionActive,transitionState,setRestartHandler,interruptTransition,runTransition} from './line-transition-engine.js';
 
@@ -48,7 +48,6 @@ let swipe=null,lastTap=null,suppressClickUntil=0,committing=false,settling=null;
 const interactiveSwipeBlock=target=>!!target.closest?.('input,select,textarea,[contenteditable="true"],[data-no-page-swipe]');
 const interactiveTapBlock=target=>!!target.closest?.('button,a,summary,input,select,textarea,[role="button"],[contenteditable="true"],[data-no-page-doubletap]');
 const previewTransform=(direction,dx)=>`translate3d(calc(${direction>0?'100%':'-100%'} + ${dx}px),0,0)`;
-const previewScrollTop=state=>state?.freshPreview?0:null;
 
 const animation=(element,keyframes,options)=>{
   if(element?.animate)return element.animate(keyframes,{...options,fill:'forwards'});
@@ -62,7 +61,7 @@ function attachPreview(state,node,direction,dx){
   state.activePreview=node;node.dataset.direction=String(direction);
   if(!node.isConnected)state.layer.insertBefore(node,state.surface);
   const target=adjacentRoute(state.route,direction);
-  if(target)preparePreviewScroll(node,target,previewScrollTop(state));
+  if(target)preparePreviewScroll(node,target);
   node.style.transform=previewTransform(direction,dx);node.style.opacity='1';
 }
 function removePreviews(state,keep=null){
@@ -104,7 +103,7 @@ function getPreview(state,direction,dx){
   let node=state.previews.get(direction);
   if(!node&&visualDataReady()){
     node=buildVisualPreview(target,direction);
-    if(node){preparePreviewScroll(node,target,previewScrollTop(state));state.previews.set(direction,node)}
+    if(node){preparePreviewScroll(node,target);state.previews.set(direction,node)}
   }
   if(node)attachPreview(state,node,direction,dx);
   else if(!state.previewPromises.has(direction)){
@@ -112,7 +111,7 @@ function getPreview(state,direction,dx){
       if(state.cancelled)return null;
       const built=buildVisualPreview(target,direction);
       if(built){
-        preparePreviewScroll(built,target,previewScrollTop(state));state.previews.set(direction,built);
+        preparePreviewScroll(built,target);state.previews.set(direction,built);
         if(swipe===state&&state.axis==='x'&&state.direction===direction)attachPreview(state,built,direction,state.currentDx);
       }
       return built;
@@ -148,7 +147,7 @@ function newState(page,route){
   if(!prepared)return null;
   bindSurfaceScroll(prepared.surface,route);
   prepared.surface.style.willChange='transform, opacity';
-  return{route,page:prepared.page,layer:prepared.layer,surface:prepared.surface,nav:prepared.nav,currentDx:0,displayDx:0,direction:0,activePreview:null,previews:new Map(),previewPromises:new Map(),cancelled:false,captured:false,velocityX:0,velocitySamples:0,releaseVelocityX:0,freshPreview:false};
+  return{route,page:prepared.page,layer:prepared.layer,surface:prepared.surface,nav:prepared.nav,currentDx:0,displayDx:0,direction:0,activePreview:null,previews:new Map(),previewPromises:new Map(),cancelled:false,captured:false,velocityX:0,velocitySamples:0,releaseVelocityX:0};
 }
 function begin(event){
   const page=event.target.closest?.('.line-page');
@@ -157,7 +156,6 @@ function begin(event){
   cancelSettling();
   const route=readRoute();if(!route)return;
   const state=newState(page,route);if(!state)return;
-  state.freshPreview=true;
   const now=event.timeStamp||performance.now();
   Object.assign(state,{pointerId:event.pointerId,originTarget:event.target,startX:event.clientX,startY:event.clientY,lastX:event.clientX,lastY:event.clientY,startTime:now,lastTime:now,axis:null,moved:false});
   swipe=state;ensureRequiredData().catch(()=>{});
@@ -186,10 +184,8 @@ function tap(event,state){
 async function commit(state,direction,origin){
   committing=true;
   try{
-    const target=adjacentRoute(state.route,direction);
     const preview=await awaitPreview(state,direction,state.currentDx||0);
     if(!preview){await settleBack(state);return false}
-    if(origin==='swipe'&&target)resetRouteScroll(target,preview);
     removePreviews(state,preview);
     return await runTransition(state,direction,origin,preview);
   }finally{committing=false}
