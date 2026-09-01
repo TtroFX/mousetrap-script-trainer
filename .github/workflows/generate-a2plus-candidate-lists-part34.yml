@@ -1,0 +1,51 @@
+name: Generate A2+ vocabulary candidate lists Part 3-4
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate-a2plus-candidate-lists-part34.mjs'
+      - '.github/workflows/generate-a2plus-candidate-lists-part34.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Generate Part 3 and Part 4 candidate lists
+        run: node scripts/generate-a2plus-candidate-lists-part34.mjs
+
+      - name: Verify no production vocabulary files changed
+        run: |
+          git diff --exit-code -- mousetrap_line_vocabulary.json mousetrap_word_dictionary.json mousetrap_script_data.json
+          test -s data/a2plus-candidate-lists/part-03.txt
+          test -s data/a2plus-candidate-lists/part-04.txt
+          test -s data/a2plus-candidate-lists/part-03-04-unique.txt
+          test -s data/a2plus-candidate-lists/summary-part-03-04.json
+          node -e "const s=require('./data/a2plus-candidate-lists/summary-part-03-04.json'); if(s.status!=='PASS'||s.parts.part3.scope[0]!==583||s.parts.part3.scope[1]!==873||s.parts.part4.scope[0]!==874||s.parts.part4.scope[1]!==1164) process.exit(1)"
+
+      - name: Commit candidate lists
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/a2plus-candidate-lists/part-03.txt data/a2plus-candidate-lists/part-04.txt data/a2plus-candidate-lists/part-03-04-unique.txt data/a2plus-candidate-lists/summary-part-03-04.json
+          if git diff --cached --quiet; then
+            echo "No candidate-list changes to commit"
+            exit 0
+          fi
+          git commit -m "Generate A2+ candidate lists for final two quarters"
+          git push
