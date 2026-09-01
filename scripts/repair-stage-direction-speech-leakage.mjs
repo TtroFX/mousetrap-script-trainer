@@ -25,11 +25,12 @@ if(afterLeaks.length)fail(`stage delimiters remain in spoken text: ${JSON.string
 write('mousetrap_script_data.json',script);
 
 const stage=read('mousetrap_stage_directions.json');
+const stageMatches=(stage.entries||[]).filter(e=>String(e?.text||'').trim()===STAGE_TEXT);
+if(stageMatches.length!==1)fail(`stage-direction text match count ${stageMatches.length}/1; matches=${JSON.stringify(stageMatches)}`);
+const recovered=stageMatches[0];
+if(recovered.speechId!==TARGET_ID||recovered.placement!=='after')fail(`wrong recovered stage anchor: ${JSON.stringify(recovered)}`);
 const malformed=(stage.entries||[]).filter(e=>e?.malformedSourceBracket===true);
-if(malformed.length!==1)fail(`malformed stage-direction recovery count ${malformed.length}/1`);
-const recovered=malformed[0];
-if(String(recovered.text||'').trim()!==STAGE_TEXT)fail(`wrong recovered stage text: ${JSON.stringify(recovered.text)}`);
-if(recovered.speechId!==TARGET_ID||recovered.placement!=='after')fail(`wrong recovered stage anchor: ${JSON.stringify({speechId:recovered.speechId,placement:recovered.placement})}`);
+if(malformed.length!==1)fail(`declared malformed stage-direction count ${malformed.length}/1`);
 
 const translations=read('mousetrap_line_translations.json');
 if(translations[TARGET_ID]?.translation!=='ああ。')fail(`${TARGET_ID}: translation is not the spoken line translation`);
@@ -46,7 +47,8 @@ const report={
   status:'PASS',
   issue:'stage-direction text leaked into canonical spoken text',
   repairedSpeech:{id:TARGET_ID,before:BAD,after:GOOD},
-  recoveredStageDirection:{id:recovered.id,text:STAGE_TEXT,speechId:recovered.speechId,placement:recovered.placement,malformedSourceBracket:true},
+  recoveredStageDirection:{id:recovered.id,text:STAGE_TEXT,speechId:recovered.speechId,placement:recovered.placement,malformedSourceBracket:recovered.malformedSourceBracket===true},
+  existingMalformedFlaggedEntries:malformed.map(e=>({id:e.id,text:e.text,speechId:e.speechId,placement:e.placement})),
   speechDelimiterAudit:{speechCount:speeches.length,beforeCount:beforeLeaks.length,unexpectedBeforeCount:unexpectedBefore.length,afterCount:afterLeaks.length},
   removedLineVocabularyEntries:removedVocabulary,
   canonicalSpeechSha256:sha('mousetrap_script_data.json')
