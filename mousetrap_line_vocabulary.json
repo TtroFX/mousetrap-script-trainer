@@ -18862,6 +18862,12 @@
       "lemma": "cupboard",
       "meaning": "【名詞】\n食器・衣類などをしまう戸棚、収納棚。",
       "playMeaning": true
+    },
+    {
+      "surface": "cupboard door",
+      "lemma": "cupboard door",
+      "meaning": "戸棚・物入れの扉。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0353": [],
@@ -19038,6 +19044,12 @@
       "meaning": "【形容詞】\nスキーが隠しにくいほど非常に大きい、と英国口語で強調している。",
       "playMeaning": true,
       "inThisPlay": "スキーが「ものすごく大きい物」なのだから見つけやすい、という英国口語の強調。"
+    },
+    {
+      "surface": "Thimble",
+      "lemma": "thimble",
+      "meaning": "【名詞】\n裁縫で指先にはめる指ぬき。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0368": [
@@ -19105,6 +19117,13 @@
       "meaning": "～の立場になって考える",
       "playMeaning": true,
       "inThisPlay": "Trotterは犯人の考え方を予測するため、犯人の立場に自分を置いて考えると言っている。"
+    },
+    {
+      "surface": "brain",
+      "lemma": "brain",
+      "meaning": "【名詞】\n脳；頭脳、知能。",
+      "playMeaning": true,
+      "inThisPlay": "cunning brain で、犯人の狡猾な「頭脳・思考」を指す。"
     }
   ],
   "act2-speech-0371": [],
@@ -19244,6 +19263,13 @@
       "lemma": "come out with something",
       "meaning": "隠していたこと・言いにくいことを口に出す。",
       "playMeaning": true
+    },
+    {
+      "surface": "bygone business",
+      "lemma": "bygone business",
+      "meaning": "過去の出来事、以前の一件。",
+      "playMeaning": true,
+      "inThisPlay": "ここではLongridge Farmに関する昔の一件を指す。"
     }
   ],
   "act2-speech-0373": [
@@ -19312,6 +19338,31 @@
       "surface": "rasher of bacon",
       "lemma": "rasher",
       "meaning": "【名詞】\nベーコンなどの薄切り一枚。",
+      "playMeaning": true
+    },
+    {
+      "surface": "chickens' livers",
+      "lemma": "chicken liver",
+      "meaning": "鶏の肝臓、鶏レバー。",
+      "playMeaning": true
+    },
+    {
+      "surface": "toast",
+      "lemma": "toast",
+      "meaning": "【名詞】\n焼いたパン、トースト；乾杯。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは料理の土台にする焼いたパンの「トースト」。"
+    },
+    {
+      "surface": "rasher",
+      "lemma": "rasher",
+      "meaning": "【名詞】\nベーコンなどの薄切り一枚。",
+      "playMeaning": true
+    },
+    {
+      "surface": "bacon",
+      "lemma": "bacon",
+      "meaning": "【名詞】\nベーコン、塩漬け・燻製にした豚肉。",
       "playMeaning": true
     }
   ],
@@ -19501,6 +19552,12 @@
       "lemma": "adore",
       "meaning": "【動詞】\n崇拝するほどではなく、料理が大好きだというChristopherらしい強い口語的表現。",
       "playMeaning": true
+    },
+    {
+      "surface": "carving knife",
+      "lemma": "carving knife",
+      "meaning": "肉などを切り分けるための長い包丁、カービングナイフ。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0380": [
@@ -19547,6 +19604,18 @@
       "meaning": "① 壊れてばらばらになる、崩れる\n② 精神的に取り乱す。",
       "playMeaning": true,
       "inThisPlay": "ここでは人が取り乱す意味ではなく、ゆでたジャガイモが崩れて形がなくなりかけているという文字どおりの意味。"
+    },
+    {
+      "surface": "potatoes",
+      "lemma": "potato",
+      "meaning": "【名詞】\nじゃがいも。",
+      "playMeaning": true
+    },
+    {
+      "surface": "dinner",
+      "lemma": "dinner",
+      "meaning": "【名詞】\n夕食；その日の主要な食事。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0384": [
@@ -19688,6 +19757,13 @@
       "lemma": "be bound for",
       "meaning": "～へ向かっている、～行きである。",
       "playMeaning": true
+    },
+    {
+      "surface": "accident",
+      "lemma": "accident",
+      "meaning": "【名詞】\n事故；偶然の出来事。",
+      "playMeaning": true,
+      "inThisPlay": "ここではParaviciniの車が雪で横転した「事故」。"
     }
   ],
   "act2-speech-0393": [
@@ -19866,6 +19942,13 @@
       "meaning": "金融市場で売買・投機を行う。",
       "playMeaning": true,
       "inThisPlay": "Paraviciniは曖昧に「市場で勝負する」と答え、Trotterの「株式仲買人か」という解釈を否定して身元をはぐらかしている。"
+    },
+    {
+      "surface": "markets",
+      "lemma": "market",
+      "meaning": "【名詞】\n市場；金融・株式などの市場。",
+      "playMeaning": true,
+      "inThisPlay": "play the markets で、株式などの市場で投機するという意味。"
     }
   ],
   "act2-speech-0418": [
@@ -19920,6 +20003,12 @@
       "surface": "mixed up in",
       "lemma": "be mixed up in",
       "meaning": "好ましくない事件・状況などに巻き込まれている、関係している。",
+      "playMeaning": true
+    },
+    {
+      "surface": "murder case",
+      "lemma": "murder case",
+      "meaning": "殺人事件。",
       "playMeaning": true
     }
   ],
@@ -20026,7 +20115,14 @@
     }
   ],
   "act2-speech-0438": [],
-  "act2-speech-0439": [],
+  "act2-speech-0439": [
+    {
+      "surface": "island",
+      "lemma": "island",
+      "meaning": "【名詞】\n島。",
+      "playMeaning": true
+    }
+  ],
   "act2-speech-0440": [],
   "act2-speech-0441": [
     {
@@ -20053,6 +20149,13 @@
       "lemma": "Leadenhall Street",
       "meaning": "【固有名詞】\nロンドンのシティにある通り。",
       "playMeaning": true
+    },
+    {
+      "surface": "bank",
+      "lemma": "bank",
+      "meaning": "【名詞】\n銀行；土手、堤。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは金融機関の「銀行」。"
     }
   ],
   "act2-speech-0442": [],
@@ -20279,6 +20382,13 @@
       "meaning": "【名詞】\n① 参照、言及\n② 人物の経歴・信用を証明する推薦状・照会先",
       "playMeaning": true,
       "inThisPlay": "ここでは社会的信用・身元を保証してくれる人物や照会先の意味。"
+    },
+    {
+      "surface": "bank",
+      "lemma": "bank",
+      "meaning": "【名詞】\n銀行；土手、堤。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは金融機関の「銀行」。"
     }
   ],
   "act2-speech-0466": [
@@ -20380,6 +20490,12 @@
       "surface": "despair",
       "lemma": "despair",
       "meaning": "【名詞・動詞】\n希望を失った絶望、絶望する。",
+      "playMeaning": true
+    },
+    {
+      "surface": "Unhappiness",
+      "lemma": "unhappiness",
+      "meaning": "【名詞】\n不幸、悲しみ、不満。",
       "playMeaning": true
     }
   ],
@@ -20535,6 +20651,12 @@
       "meaning": "非常に驚いたり青ざめたりした様子に見える。",
       "playMeaning": true,
       "inThisPlay": "ChristopherがTrotterの表情を、非常に驚き動揺しているようだと比喩的に評している。"
+    },
+    {
+      "surface": "ghost",
+      "lemma": "ghost",
+      "meaning": "【名詞】\n幽霊、亡霊。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0498": [
@@ -20592,6 +20714,12 @@
       "lemma": "all to no avail",
       "meaning": "まったく効果なく",
       "playMeaning": true
+    },
+    {
+      "surface": "no avail",
+      "lemma": "to no avail",
+      "meaning": "スキーをいろいろな場所で探したが、結局何の成果もなかったという意味。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0502": [],
@@ -20624,6 +20752,12 @@
       "surface": "for instance",
       "lemma": "for instance",
       "meaning": "例えば",
+      "playMeaning": true
+    },
+    {
+      "surface": "meals",
+      "lemma": "meal",
+      "meaning": "【名詞】\n食事、一回分の食事。",
       "playMeaning": true
     }
   ],
@@ -20879,6 +21013,13 @@
       "meaning": "一通り行う／経験する",
       "playMeaning": true,
       "inThisPlay": "各人が殺人時刻にした動作をもう一度順に再現する、という意味。"
+    },
+    {
+      "surface": "actions",
+      "lemma": "action",
+      "meaning": "【名詞】\n行動、動作；措置。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは事件当時に各人がした「動作・行動」。"
     }
   ],
   "act2-speech-0524": [
@@ -20949,6 +21090,19 @@
       "meaning": "【副詞】\n① 見たところでは\n② 一見",
       "playMeaning": true,
       "inThisPlay": "「外見上は無実に見える人々」という、疑いを残した表現。"
+    },
+    {
+      "surface": "movements",
+      "lemma": "movement",
+      "meaning": "【名詞】\n動き、移動；行動の経路。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは事件当時に各人がどこをどう移動したかという「行動・移動」。"
+    },
+    {
+      "surface": "innocent persons",
+      "lemma": "innocent person",
+      "meaning": "無実の人、罪を犯していない人。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0527": [],
@@ -21105,7 +21259,15 @@
   "act2-speech-0545": [],
   "act2-speech-0546": [],
   "act2-speech-0547": [],
-  "act2-speech-0548": [],
+  "act2-speech-0548": [
+    {
+      "surface": "actions",
+      "lemma": "action",
+      "meaning": "【名詞】\n行動、動作；措置。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは事件当時に各人がした「動作・行動」。"
+    }
+  ],
   "act2-speech-0549": [
     {
       "surface": "signature",
@@ -21198,6 +21360,13 @@
       "lemma": "not necessarily",
       "meaning": "必ずしもそうではない",
       "playMeaning": true
+    },
+    {
+      "surface": "actions",
+      "lemma": "action",
+      "meaning": "【名詞】\n行動、動作；措置。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは事件当時に各人がした「動作・行動」。"
     }
   ],
   "act2-speech-0557": [
@@ -21374,6 +21543,25 @@
       "meaning": "【動詞】\n再現する、再び作り出す",
       "playMeaning": true,
       "inThisPlay": "Trotter自身が前に行った動きを別の人物に再現してもらう意味。"
+    },
+    {
+      "surface": "actions",
+      "lemma": "action",
+      "meaning": "【名詞】\n行動、動作；措置。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは事件当時に各人がした「動作・行動」。"
+    },
+    {
+      "surface": "dinner",
+      "lemma": "dinner",
+      "meaning": "【名詞】\n夕食；その日の主要な食事。",
+      "playMeaning": true
+    },
+    {
+      "surface": "telephone wire",
+      "lemma": "telephone wire",
+      "meaning": "有線電話の信号を伝える電線。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0559": [],
@@ -21632,6 +21820,13 @@
       "lemma": "beg for",
       "meaning": "～を切実に頼む、懇願する。",
       "playMeaning": true
+    },
+    {
+      "surface": "letter",
+      "lemma": "letter",
+      "meaning": "【名詞】\n手紙；文字。",
+      "playMeaning": true,
+      "inThisPlay": "ここではJimmyが助けを求めて送った「手紙」。"
     }
   ],
   "act2-speech-0582": [],
@@ -21713,6 +21908,13 @@
       "meaning": "【動詞】\n記憶・不安などが長く心につきまとい、苦しめる；場所に幽霊が出る。",
       "playMeaning": true,
       "inThisPlay": "助けられなかった記憶と罪悪感がMollieを長く苦しめ続けた、という比喩。"
+    },
+    {
+      "surface": "letter",
+      "lemma": "letter",
+      "meaning": "【名詞】\n手紙；文字。",
+      "playMeaning": true,
+      "inThisPlay": "ここではJimmyが助けを求めて送った「手紙」。"
     }
   ],
   "act2-speech-0585": [
@@ -21723,7 +21925,14 @@
       "playMeaning": true
     }
   ],
-  "act2-speech-0586": [],
+  "act2-speech-0586": [
+    {
+      "surface": "revolvers",
+      "lemma": "revolver",
+      "meaning": "【名詞】\n回転式拳銃",
+      "playMeaning": true
+    }
+  ],
   "act2-speech-0587": [
     {
       "surface": "policeman",
@@ -21832,6 +22041,18 @@
       "lemma": "grown-up",
       "meaning": "【名詞】\n大人。\n【形容詞】\n成人した、大人向けの。",
       "playMeaning": true
+    },
+    {
+      "surface": "prison",
+      "lemma": "prison",
+      "meaning": "【名詞】\n刑務所、監獄。",
+      "playMeaning": true
+    },
+    {
+      "surface": "fog",
+      "lemma": "fog",
+      "meaning": "【名詞】\n霧。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0590": [
@@ -21895,6 +22116,12 @@
       "meaning": "【形容詞】\nいつもの、通常の。",
       "playMeaning": true,
       "inThisPlay": "犯人がこれまでと同じ方法をほのめかす不穏な表現。"
+    },
+    {
+      "surface": "neck",
+      "lemma": "neck",
+      "meaning": "【名詞】\n首、首の部分。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0594": [
@@ -21903,6 +22130,19 @@
       "lemma": "chase",
       "meaning": "【動】\n人や動物を追いかける。",
       "playMeaning": false
+    },
+    {
+      "surface": "bull",
+      "lemma": "bull",
+      "meaning": "【名詞】\n雄牛。",
+      "playMeaning": true
+    },
+    {
+      "surface": "field",
+      "lemma": "field",
+      "meaning": "【名詞】\n① 野原、畑\n② 活動・研究などの分野\n③ 候補・参加者などの範囲・一団",
+      "playMeaning": true,
+      "inThisPlay": "ここでは農場の「野原・牧草地」。"
     }
   ],
   "act2-speech-0595": [],
@@ -22283,6 +22523,13 @@
       "meaning": "職業・商売の分野、通常扱っている仕事の種類。",
       "playMeaning": true,
       "inThisPlay": "GilesはParaviciniの「商売」を、表向きではない怪しい取引だと見ている。"
+    },
+    {
+      "surface": "bit of goods",
+      "lemma": "bit of goods",
+      "meaning": "【英・古風・口語】人を品物になぞらえて評する表現。",
+      "playMeaning": true,
+      "inThisPlay": "nasty little bit of goods で、Paraviciniを「嫌な小人物」のように評するくだけた言い方。"
     }
   ],
   "act2-speech-0621": [],
@@ -22314,7 +22561,14 @@
   ],
   "act2-speech-0623": [],
   "act2-speech-0624": [],
-  "act2-speech-0625": [],
+  "act2-speech-0625": [
+    {
+      "surface": "cigars",
+      "lemma": "cigar",
+      "meaning": "【名詞】\n葉巻。",
+      "playMeaning": true
+    }
+  ],
   "act2-speech-0626": [
     {
       "surface": "splendid",
@@ -22339,6 +22593,12 @@
       "lemma": "present",
       "meaning": "【形容詞】\n「目の前・今ここにある」が形容詞の中心。\n【名詞】\n名詞では贈り物。",
       "playMeaning": true
+    },
+    {
+      "surface": "hat",
+      "lemma": "hat",
+      "meaning": "【名詞】\n帽子。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0631": [
@@ -22346,6 +22606,12 @@
       "surface": "practically",
       "lemma": "practically",
       "meaning": "【副詞】\nほとんど、実質的に",
+      "playMeaning": true
+    },
+    {
+      "surface": "hat",
+      "lemma": "hat",
+      "meaning": "【名詞】\n帽子。",
       "playMeaning": true
     }
   ],
@@ -22397,5 +22663,12 @@
       "playMeaning": true
     }
   ],
-  "act2-speech-0638": []
+  "act2-speech-0638": [
+    {
+      "surface": "pie",
+      "lemma": "pie",
+      "meaning": "【名詞】\nパイ。",
+      "playMeaning": true
+    }
+  ]
 }

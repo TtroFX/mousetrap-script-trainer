@@ -16176,5 +16176,252 @@
       "body"
     ],
     "meaning": "【名詞】\n声、発声。"
+  },
+  "cupboard door": {
+    "lemma": "cupboard door",
+    "pos": "名詞句",
+    "coreMeaning": "戸棚・物入れの扉。",
+    "tags": [
+      "household"
+    ],
+    "meaning": "戸棚・物入れの扉。"
+  },
+  "thimble": {
+    "lemma": "thimble",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n裁縫で指先にはめる指ぬき。",
+    "tags": [
+      "household"
+    ],
+    "meaning": "【名詞】\n裁縫で指先にはめる指ぬき。"
+  },
+  "bygone business": {
+    "lemma": "bygone business",
+    "pos": "名詞句",
+    "coreMeaning": "過去の出来事、以前の一件。",
+    "tags": [
+      "dated"
+    ],
+    "meaning": "過去の出来事、以前の一件。"
+  },
+  "chicken liver": {
+    "lemma": "chicken liver",
+    "pos": "名詞句",
+    "coreMeaning": "鶏の肝臓、鶏レバー。",
+    "tags": [
+      "food"
+    ],
+    "meaning": "鶏の肝臓、鶏レバー。"
+  },
+  "toast": {
+    "lemma": "toast",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n焼いたパン、トースト；乾杯。",
+    "tags": [
+      "food",
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n焼いたパン、トースト；乾杯。"
+  },
+  "bacon": {
+    "lemma": "bacon",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nベーコン、塩漬け・燻製にした豚肉。",
+    "tags": [
+      "food"
+    ],
+    "meaning": "【名詞】\nベーコン、塩漬け・燻製にした豚肉。"
+  },
+  "carving knife": {
+    "lemma": "carving knife",
+    "pos": "名詞句",
+    "coreMeaning": "肉などを切り分けるための長い包丁、カービングナイフ。",
+    "tags": [
+      "household",
+      "food"
+    ],
+    "meaning": "肉などを切り分けるための長い包丁、カービングナイフ。"
+  },
+  "accident": {
+    "lemma": "accident",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n事故；偶然の出来事。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n事故；偶然の出来事。"
+  },
+  "market": {
+    "lemma": "market",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n市場；金融・株式などの市場。",
+    "tags": [
+      "finance",
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n市場；金融・株式などの市場。"
+  },
+  "island": {
+    "lemma": "island",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n島。",
+    "tags": [
+      "geography"
+    ],
+    "meaning": "【名詞】\n島。"
+  },
+  "bank": {
+    "lemma": "bank",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n銀行；土手、堤。",
+    "tags": [
+      "finance",
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n銀行；土手、堤。"
+  },
+  "unhappiness": {
+    "lemma": "unhappiness",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n不幸、悲しみ、不満。",
+    "tags": [],
+    "meaning": "【名詞】\n不幸、悲しみ、不満。"
+  },
+  "third degree": {
+    "lemma": "third degree",
+    "pos": "名詞句",
+    "coreMeaning": "【口語】厳しい尋問、強圧的な取り調べ。",
+    "tags": [
+      "idiom",
+      "police"
+    ],
+    "meaning": "【口語】厳しい尋問、強圧的な取り調べ。"
+  },
+  "ghost": {
+    "lemma": "ghost",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n幽霊、亡霊。",
+    "tags": [],
+    "meaning": "【名詞】\n幽霊、亡霊。"
+  },
+  "meal": {
+    "lemma": "meal",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n食事、一回分の食事。",
+    "tags": [
+      "food"
+    ],
+    "meaning": "【名詞】\n食事、一回分の食事。"
+  },
+  "movement": {
+    "lemma": "movement",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n動き、移動；行動の経路。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n動き、移動；行動の経路。"
+  },
+  "innocent person": {
+    "lemma": "innocent person",
+    "pos": "名詞句",
+    "coreMeaning": "無実の人、罪を犯していない人。",
+    "tags": [
+      "law"
+    ],
+    "meaning": "無実の人、罪を犯していない人。"
+  },
+  "action": {
+    "lemma": "action",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n行動、動作；措置。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n行動、動作；措置。"
+  },
+  "former role": {
+    "lemma": "former role",
+    "pos": "名詞句",
+    "coreMeaning": "以前の役割、前に担っていた役。",
+    "tags": [
+      "theatre"
+    ],
+    "meaning": "以前の役割、前に担っていた役。"
+  },
+  "dinner": {
+    "lemma": "dinner",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n夕食；その日の主要な食事。",
+    "tags": [
+      "food"
+    ],
+    "meaning": "【名詞】\n夕食；その日の主要な食事。"
+  },
+  "fog": {
+    "lemma": "fog",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n霧。",
+    "tags": [
+      "weather"
+    ],
+    "meaning": "【名詞】\n霧。"
+  },
+  "neck": {
+    "lemma": "neck",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n首、首の部分。",
+    "tags": [
+      "body"
+    ],
+    "meaning": "【名詞】\n首、首の部分。"
+  },
+  "bull": {
+    "lemma": "bull",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n雄牛。",
+    "tags": [
+      "animal",
+      "farming"
+    ],
+    "meaning": "【名詞】\n雄牛。"
+  },
+  "Swiss watch": {
+    "lemma": "Swiss watch",
+    "pos": "名詞句",
+    "coreMeaning": "スイス製の時計。",
+    "tags": [
+      "goods"
+    ],
+    "meaning": "スイス製の時計。"
+  },
+  "bit of goods": {
+    "lemma": "bit of goods",
+    "pos": "名詞句",
+    "coreMeaning": "【英・古風・口語】人を品物になぞらえて評する表現。",
+    "tags": [
+      "British English",
+      "dated",
+      "informal"
+    ],
+    "meaning": "【英・古風・口語】人を品物になぞらえて評する表現。"
+  },
+  "cigar": {
+    "lemma": "cigar",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n葉巻。",
+    "tags": [
+      "daily-life"
+    ],
+    "meaning": "【名詞】\n葉巻。"
+  },
+  "hat": {
+    "lemma": "hat",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n帽子。",
+    "tags": [
+      "clothing"
+    ],
+    "meaning": "【名詞】\n帽子。"
   }
 }

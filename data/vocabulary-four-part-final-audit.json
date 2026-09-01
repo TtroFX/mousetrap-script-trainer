@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "scope": {
+    "globalSpeechRange": [
+      1,
+      1164
+    ],
+    "speechCount": 1164,
+    "quarters": [
+      [
+        1,
+        291
+      ],
+      [
+        292,
+        582
+      ],
+      [
+        583,
+        873
+      ],
+      [
+        874,
+        1164
+      ]
+    ]
+  },
+  "quarterReports": [
+    {
+      "patchId": "first-quarter-noun-expansion-v2-2026-09-01",
+      "range": [
+        1,
+        291
+      ],
+      "newVocabularyItems": 118,
+      "newDictionaryEntries": 66,
+      "outOfScopeLineMutations": 0
+    },
+    {
+      "patchId": "second-quarter-noun-expansion-v2-2026-09-01",
+      "range": [
+        292,
+        582
+      ],
+      "newVocabularyItems": 170,
+      "newDictionaryEntries": 81,
+      "outOfScopeLineMutations": 0
+    },
+    {
+      "patchId": "third-quarter-noun-expansion-v2-2026-09-01",
+      "range": [
+        583,
+        873
+      ],
+      "newVocabularyItems": 51,
+      "newDictionaryEntries": 31,
+      "outOfScopeLineMutations": 0
+    },
+    {
+      "patchId": "fourth-quarter-noun-expansion-v2-2026-09-01",
+      "range": [
+        874,
+        1164
+      ],
+      "newVocabularyItems": 42,
+      "newDictionaryEntries": 27,
+      "outOfScopeLineMutations": 0
+    }
+  ],
+  "global": {
+    "vocabularyItems": 3307,
+    "dictionaryEntries": 1580,
+    "referencedDictionaryLemmas": 1503,
+    "inThisPlayItems": 831,
+    "duplicateVocabularyPairs": 0,
+    "missingDictionaryReferences": 0,
+    "dictionaryMeaningMismatches": 0
+  },
+  "qa": {
+    "quarterCoverageNoGapsOrOverlaps": "PASS",
+    "canonicalSpeechCoverage": "PASS",
+    "dictionaryMeaningConsistency": "PASS",
+    "duplicateVocabularyPairs": "PASS",
+    "missingDictionaryReferences": "PASS",
+    "semanticValidator": {
+      "status": "PASS",
+      "dictionary": 1580,
+      "vocabularyItems": 3307,
+      "inThisPlay": 831,
+      "polysemyItems": 361,
+      "unclassifiedDictionary": 0,
+      "genericInThisPlay": 0,
+      "playSpecificDictionaryMeanings": 0,
+      "surfaceLemmaConflicts": 0,
+      "duplicateSurfaceLemmaPairs": 0,
+      "singleWordDictionaryEntries": 938,
+      "singleWordWithoutHeading": 0,
+      "multiPosSingleWords": 97,
+      "multiPosSingleWordsWithoutSeparateHeadings": 0
+    },
+    "productionVerifier": {
+      "status": "PASS",
+      "runtime": "index-zero",
+      "buildId": "index-zero-2026-09-01-r32",
+      "mode": "verify-only",
+      "qa": {
+        "speeches": 1164,
+        "translations": 1164,
+        "interpretationCoverage": 1164,
+        "interpretationSpeeches": 747,
+        "interpretationNotes": 887,
+        "vocabulary": 3307,
+        "vocabularyDisplayed": 2900,
+        "vocabularyNeutralOnly": 407,
+        "grammar": 692,
+        "dictionary": 1580,
+        "structureSentences": 2334,
+        "structureClauses": 2939,
+        "structureChunks": 11810,
+        "stageDirections": 777,
+        "stageStandalone": 5,
+        "stageAttached": 772,
+        "stageActorCues": 611,
+        "stageJapaneseParaphrases": 777,
+        "stageCategories": {
+          "scene-setting": 5,
+          "radio": 9,
+          "delivery": 411,
+          "gesture": 34,
+          "action": 96,
+          "entrance": 44,
+          "movement": 95,
+          "exit": 41,
+          "sound": 6,
+          "light": 8,
+          "curtain": 8,
+          "music": 8,
+          "pause": 12
+        }
+      }
+    }
+  }
+}
