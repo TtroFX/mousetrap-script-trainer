@@ -1,0 +1,77 @@
+name: Apply third-quarter noun expansion v2
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/third-quarter-noun-expansion-v2/**'
+      - '.github/workflows/third-quarter-noun-expansion-v2.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Generate third-quarter applicator from verified Part 2 template
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          src = Path('scripts/apply-second-quarter-noun-expansion-v2.mjs')
+          dst = Path('scripts/apply-third-quarter-noun-expansion-v2.mjs')
+          s = src.read_text()
+          replacements = [
+              ("data/second-quarter-noun-expansion-v2/meta.json", "data/third-quarter-noun-expansion-v2/meta.json"),
+              ("data/second-quarter-noun-expansion-v2/part-01.json", "data/third-quarter-noun-expansion-v2/part-01.json"),
+              ("data/second-quarter-noun-expansion-v2/part-02.json", "data/third-quarter-noun-expansion-v2/part-02.json"),
+              ("data/second-quarter-noun-expansion-v2/part-03.json", "data/third-quarter-noun-expansion-v2/part-03.json"),
+              ("data/second-quarter-noun-expansion-v2/part-04.json", "data/third-quarter-noun-expansion-v2/part-04.json"),
+              ("data/second-quarter-noun-expansion-v2-qa.json", "data/third-quarter-noun-expansion-v2-qa.json"),
+              ("second-quarter-noun-expansion-v2-2026-09-01", "third-quarter-noun-expansion-v2-2026-09-01"),
+              ("if (JSON.stringify(scope.globalSpeechRange) !== JSON.stringify([292, 582]) || scope.speechCount !== 291) fail('Unexpected patch scope');", "if (JSON.stringify(scope.globalSpeechRange) !== JSON.stringify([583, 873]) || scope.speechCount !== 291) fail('Unexpected patch scope');"),
+              ("if (scope.first !== 'act1-scene2-speech-0102' || scope.last !== 'act2-speech-0056' || scope.nextExcluded !== 'act2-speech-0057') fail('Unexpected scope boundary');", "if (scope.first !== 'act2-speech-0057' || scope.last !== 'act2-speech-0347' || scope.nextExcluded !== 'act2-speech-0348') fail('Unexpected scope boundary');"),
+              ("if (!Array.isArray(patch.lineRules) || patch.lineRules.length < 150) fail('Part 2 expansion rule set unexpectedly small');", "if (!Array.isArray(patch.lineRules) || patch.lineRules.length < 80) fail('Part 3 expansion rule set unexpectedly small');"),
+              ("const targetSpeeches = [...script['act1-scene2'].speeches.slice(101), ...script['act2'].speeches.slice(0, 56)];", "const targetSpeeches = script['act2'].speeches.slice(56, 347);"),
+              ("Rule speechIds escape Part 2", "Rule speechIds escape Part 3"),
+              ("Part 2 expansion produced no new line vocabulary", "Part 3 expansion produced no new line vocabulary"),
+              ("exactPart2Boundary", "exactPart3Boundary")
+          ]
+          for old, new in replacements:
+              if old not in s:
+                  raise SystemExit(f'missing template fragment: {old}')
+              s = s.replace(old, new)
+          dst.write_text(s)
+          PY
+
+      - name: Apply expansion and run canonical QA
+        run: node scripts/apply-third-quarter-noun-expansion-v2.mjs
+
+      - name: Commit verified generated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            scripts/apply-third-quarter-noun-expansion-v2.mjs \
+            mousetrap_line_vocabulary.json \
+            mousetrap_word_dictionary.json \
+            data/canonical-production-contract.json \
+            data/canonical-integration-manifest.json \
+            data/third-quarter-noun-expansion-v2-qa.json
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit"
+            exit 0
+          fi
+          git commit -m "Expand third-quarter vocabulary with everyday nouns"
+          git push
