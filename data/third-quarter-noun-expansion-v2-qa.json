@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "patchId": "third-quarter-noun-expansion-v2-2026-09-01",
+  "status": "PASS",
+  "scope": {
+    "globalSpeechRange": [
+      583,
+      873
+    ],
+    "speechCount": 291,
+    "first": "act2-speech-0057",
+    "last": "act2-speech-0347",
+    "nextExcluded": "act2-speech-0348"
+  },
+  "policy": {
+    "focus": "Second-pass expansion for Japanese English learners, emphasizing everyday concrete nouns, British English, household vocabulary, police/institutional vocabulary, and culturally opaque expressions.",
+    "meaning": "Neutral dictionary Japanese; single words use POS headings.",
+    "inThisPlay": "Only when materially context-dependent, polysemous, idiomatic, ironic, culturally specific, or historically specific.",
+    "existing": "Preserve all existing line vocabulary and dictionary entries; never duplicate an existing surface on the same speech.",
+    "source": "Canonical dialogue only; stage-direction-only matches must not create line vocabulary or dictionary entries."
+  },
+  "before": {
+    "targetVocabularyItems": 713,
+    "allVocabularyItems": 3214,
+    "dictionaryEntries": 1522
+  },
+  "stats": {
+    "reviewedSpeeches": 291,
+    "candidateRules": 100,
+    "matchedRules": 100,
+    "matchedOccurrences": 125,
+    "newVocabularyItems": 51,
+    "alreadyPresentOccurrences": 74,
+    "polysemySkippedWithoutCuratedContext": 0,
+    "newDictionaryEntries": 31,
+    "nounFocusedRules": 77,
+    "multiwordRules": 48,
+    "inThisPlayAdded": 11
+  },
+  "after": {
+    "targetVocabularyItems": 764,
+    "allVocabularyItems": 3265,
+    "dictionaryEntries": 1553,
+    "annotatedSpeeches": 830,
+    "playMeaningItems": 2858,
+    "neutralOnlyItems": 407,
+    "inThisPlayItems": 815,
+    "referencedDictionaryLemmas": 1478
+  },
+  "qa": {
+    "canonicalSpeechCoverage": "PASS",
+    "exactPart3Boundary": "PASS",
+    "allCandidateRulesMatchedSource": "PASS",
+    "outOfScopeLineMutationCheck": "PASS",
+    "outOfScopeLineMutations": 0,
+    "duplicateVocabularyPairs": 0,
+    "missingDictionaryReferences": 0,
+    "dictionaryMeaningConsistency": "PASS",
+    "optionalInThisPlayContract": "PASS",
+    "semanticValidator": {
+      "status": "PASS",
+      "dictionary": 1553,
+      "vocabularyItems": 3265,
+      "inThisPlay": 815,
+      "polysemyItems": 347,
+      "unclassifiedDictionary": 0,
+      "genericInThisPlay": 0,
+      "playSpecificDictionaryMeanings": 0,
+      "surfaceLemmaConflicts": 0,
+      "duplicateSurfaceLemmaPairs": 0,
+      "singleWordDictionaryEntries": 920,
+      "singleWordWithoutHeading": 0,
+      "multiPosSingleWords": 97,
+      "multiPosSingleWordsWithoutSeparateHeadings": 0
+    },
+    "productionVerifier": {
+      "status": "PASS",
+      "runtime": "index-zero",
+      "buildId": "index-zero-2026-09-01-r32",
+      "mode": "verify-only",
+      "qa": {
+        "speeches": 1164,
+        "translations": 1164,
+        "interpretationCoverage": 1164,
+        "interpretationSpeeches": 747,
+        "interpretationNotes": 887,
+        "vocabulary": 3265,
+        "vocabularyDisplayed": 2858,
+        "vocabularyNeutralOnly": 407,
+        "grammar": 692,
+        "dictionary": 1553,
+        "structureSentences": 2334,
+        "structureClauses": 2939,
+        "structureChunks": 11810,
+        "stageDirections": 777,
+        "stageStandalone": 5,
+        "stageAttached": 772,
+        "stageActorCues": 611,
+        "stageJapaneseParaphrases": 777,
+        "stageCategories": {
+          "scene-setting": 5,
+          "radio": 9,
+          "delivery": 411,
+          "gesture": 34,
+          "action": 96,
+          "entrance": 44,
+          "movement": 95,
+          "exit": 41,
+          "sound": 6,
+          "light": 8,
+          "curtain": 8,
+          "music": 8,
+          "pause": 12
+        }
+      }
+    },
+    "protectedCanonicalSourcesUnchanged": true
+  },
+  "skippedPolysemyWithoutCuratedContext": [],
+  "hashes": {
+    "vocabulary": "a50ddc4f01035c4dd4a47a2eff721fe8d022b9b0158d2d9c01aa3be52a903869",
+    "dictionary": "41a0d22c7bcd56c6b3be56210957180f393c8f905fa6c5f91ba34d65c64b0e0d"
+  }
+}

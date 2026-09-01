@@ -15892,5 +15892,289 @@
       "household"
     ],
     "meaning": "【名詞】\n階段。"
+  },
+  "writing desk": {
+    "lemma": "writing desk",
+    "pos": "名詞句",
+    "coreMeaning": "書き物用の机、書斎机。",
+    "tags": [
+      "furniture"
+    ],
+    "meaning": "書き物用の机、書斎机。"
+  },
+  "unfinished letter": {
+    "lemma": "unfinished letter",
+    "pos": "名詞句",
+    "coreMeaning": "書き終えていない手紙、書きかけの手紙。",
+    "tags": [
+      "daily-life"
+    ],
+    "meaning": "書き終えていない手紙、書きかけの手紙。"
+  },
+  "handbag": {
+    "lemma": "handbag",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nハンドバッグ、手提げかばん。",
+    "tags": [
+      "daily-life",
+      "clothing"
+    ],
+    "meaning": "【名詞】\nハンドバッグ、手提げかばん。"
+  },
+  "creak": {
+    "lemma": "creak",
+    "pos": "名詞・動詞",
+    "coreMeaning": "【名詞】\nきしむ音。\n【動詞】\nきしむ音を立てる。",
+    "tags": [
+      "sound"
+    ],
+    "meaning": "【名詞】\nきしむ音。\n【動詞】\nきしむ音を立てる。"
+  },
+  "staircase": {
+    "lemma": "staircase",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n階段、階段部分。",
+    "tags": [
+      "building"
+    ],
+    "meaning": "【名詞】\n階段、階段部分。"
+  },
+  "murder case": {
+    "lemma": "murder case",
+    "pos": "名詞句",
+    "coreMeaning": "殺人事件。",
+    "tags": [
+      "crime"
+    ],
+    "meaning": "殺人事件。"
+  },
+  "eldest": {
+    "lemma": "eldest",
+    "pos": "名詞・形容詞",
+    "coreMeaning": "【名詞】\n最年長の人、長子。\n【形容詞】\n最年長の。",
+    "tags": [
+      "family"
+    ],
+    "meaning": "【名詞】\n最年長の人、長子。\n【形容詞】\n最年長の。"
+  },
+  "eventuality": {
+    "lemma": "eventuality",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n起こり得る事態、不測の事態。",
+    "tags": [
+      "formal"
+    ],
+    "meaning": "【名詞】\n起こり得る事態、不測の事態。"
+  },
+  "poker": {
+    "lemma": "poker",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n暖炉の火をかき回す火かき棒；ポーカー。",
+    "tags": [
+      "household",
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n暖炉の火をかき回す火かき棒；ポーカー。"
+  },
+  "means": {
+    "lemma": "means",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n手段、方法；資力。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n手段、方法；資力。"
+  },
+  "Army training": {
+    "lemma": "Army training",
+    "pos": "名詞句",
+    "coreMeaning": "陸軍での訓練、軍事訓練。",
+    "tags": [
+      "military"
+    ],
+    "meaning": "陸軍での訓練、軍事訓練。"
+  },
+  "absconding bank clerk": {
+    "lemma": "absconding bank clerk",
+    "pos": "名詞句",
+    "coreMeaning": "金銭などを持ち逃げして逃亡している銀行員。",
+    "tags": [
+      "crime",
+      "occupation"
+    ],
+    "meaning": "金銭などを持ち逃げして逃亡している銀行員。"
+  },
+  "Army deserter": {
+    "lemma": "Army deserter",
+    "pos": "名詞句",
+    "coreMeaning": "陸軍から無断で離脱した脱走兵。",
+    "tags": [
+      "military",
+      "crime"
+    ],
+    "meaning": "陸軍から無断で離脱した脱走兵。"
+  },
+  "sale": {
+    "lemma": "sale",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n販売、売却；特売；競売。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n販売、売却；特売；競売。"
+  },
+  "wire netting": {
+    "lemma": "wire netting",
+    "pos": "名詞句",
+    "coreMeaning": "針金を網状に編んだ金網。",
+    "tags": [
+      "household",
+      "farming"
+    ],
+    "meaning": "針金を網状に編んだ金網。"
+  },
+  "ABC railway guide": {
+    "lemma": "ABC railway guide",
+    "pos": "名詞句",
+    "coreMeaning": "【英・旧】鉄道時刻表として使われたABC Railway Guide。",
+    "tags": [
+      "British English",
+      "dated",
+      "transport",
+      "culture"
+    ],
+    "meaning": "【英・旧】鉄道時刻表として使われたABC Railway Guide。"
+  },
+  "Evening News": {
+    "lemma": "Evening News",
+    "pos": "固有名詞",
+    "coreMeaning": "英国の夕刊新聞名として用いられた名称『Evening News』。",
+    "tags": [
+      "British English",
+      "media"
+    ],
+    "meaning": "英国の夕刊新聞名として用いられた名称『Evening News』。"
+  },
+  "association of ideas": {
+    "lemma": "association of ideas",
+    "pos": "名詞句",
+    "coreMeaning": "ある考えから別の考えが連想されること、観念連合。",
+    "tags": [
+      "psychology"
+    ],
+    "meaning": "ある考えから別の考えが連想されること、観念連合。"
+  },
+  "Army service": {
+    "lemma": "Army service",
+    "pos": "名詞句",
+    "coreMeaning": "陸軍での兵役、軍務。",
+    "tags": [
+      "military"
+    ],
+    "meaning": "陸軍での兵役、軍務。"
+  },
+  "London bus ticket": {
+    "lemma": "London bus ticket",
+    "pos": "名詞句",
+    "coreMeaning": "ロンドンのバスの乗車券。",
+    "tags": [
+      "transport",
+      "British English"
+    ],
+    "meaning": "ロンドンのバスの乗車券。"
+  },
+  "overcoat pocket": {
+    "lemma": "overcoat pocket",
+    "pos": "名詞句",
+    "coreMeaning": "オーバーコートのポケット。",
+    "tags": [
+      "clothing"
+    ],
+    "meaning": "オーバーコートのポケット。"
+  },
+  "police station": {
+    "lemma": "police station",
+    "pos": "名詞句",
+    "coreMeaning": "警察署。",
+    "tags": [
+      "police"
+    ],
+    "meaning": "警察署。"
+  },
+  "situation": {
+    "lemma": "situation",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n状況、事態；位置。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n状況、事態；位置。"
+  },
+  "outside world": {
+    "lemma": "outside world",
+    "pos": "名詞句",
+    "coreMeaning": "外の世界、外界。",
+    "tags": [
+      "daily-life"
+    ],
+    "meaning": "外の世界、外界。"
+  },
+  "pair of skis": {
+    "lemma": "pair of skis",
+    "pos": "名詞句",
+    "coreMeaning": "一組のスキー板。",
+    "tags": [
+      "sports"
+    ],
+    "meaning": "一組のスキー板。"
+  },
+  "frame": {
+    "lemma": "frame",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n枠にはめる；人にぬれぎぬを着せる、罪をでっち上げる。",
+    "tags": [
+      "crime",
+      "polysemy"
+    ],
+    "meaning": "【動詞】\n枠にはめる；人にぬれぎぬを着せる、罪をでっち上げる。"
+  },
+  "take into account": {
+    "lemma": "take into account",
+    "pos": "慣用表現",
+    "coreMeaning": "考慮に入れる、計算に入れる。",
+    "tags": [],
+    "meaning": "考慮に入れる、計算に入れる。"
+  },
+  "put out of one's mind": {
+    "lemma": "put out of one's mind",
+    "pos": "慣用表現",
+    "coreMeaning": "意識から追い出す、考えないようにする。",
+    "tags": [],
+    "meaning": "意識から追い出す、考えないようにする。"
+  },
+  "come over": {
+    "lemma": "come over",
+    "pos": "句動詞",
+    "coreMeaning": "【句動詞】\n人に突然ある感情・状態が起こる；こちらへ来る。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【句動詞】\n人に突然ある感情・状態が起こる；こちらへ来る。"
+  },
+  "see to it": {
+    "lemma": "see to it",
+    "pos": "慣用表現",
+    "coreMeaning": "確実にそうなるよう取り計らう。",
+    "tags": [],
+    "meaning": "確実にそうなるよう取り計らう。"
+  },
+  "voice": {
+    "lemma": "voice",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n声、発声。",
+    "tags": [
+      "body"
+    ],
+    "meaning": "【名詞】\n声、発声。"
   }
 }

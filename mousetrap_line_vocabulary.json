@@ -13471,6 +13471,12 @@
       "lemma": "go on",
       "meaning": "続く／続ける",
       "playMeaning": true
+    },
+    {
+      "surface": "piano",
+      "lemma": "piano",
+      "meaning": "【名詞】\nピアノ。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0060": [
@@ -13573,6 +13579,12 @@
       "lemma": "come in",
       "meaning": "入ってくる／中に入る",
       "playMeaning": true
+    },
+    {
+      "surface": "writing table",
+      "lemma": "writing table",
+      "meaning": "書き物用の机、ライティングデスク。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0072": [],
@@ -13582,6 +13594,18 @@
       "lemma": "yet",
       "meaning": "【接続詞】\nそれにもかかわらず、しかし。それまでの内容と対照を示す。",
       "playMeaning": false
+    },
+    {
+      "surface": "writing desk",
+      "lemma": "writing desk",
+      "meaning": "書き物用の机、書斎机。",
+      "playMeaning": true
+    },
+    {
+      "surface": "unfinished letter",
+      "lemma": "unfinished letter",
+      "meaning": "書き終えていない手紙、書きかけの手紙。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0074": [
@@ -13713,6 +13737,18 @@
       "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": true,
       "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "unfinished letter",
+      "lemma": "unfinished letter",
+      "meaning": "書き終えていない手紙、書きかけの手紙。",
+      "playMeaning": true
+    },
+    {
+      "surface": "handbag",
+      "lemma": "handbag",
+      "meaning": "【名詞】\nハンドバッグ、手提げかばん。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0078": [
@@ -13797,6 +13833,12 @@
       "meaning": "【副詞】\n感じよく、愛想よく、心地よく",
       "playMeaning": true,
       "inThisPlay": "Metcalfが感じよく、穏やかな調子で話す演技指示。"
+    },
+    {
+      "surface": "cupboard",
+      "lemma": "cupboard",
+      "meaning": "【名詞】\n食器・衣類などをしまう戸棚、収納棚。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0081": [
@@ -13899,6 +13941,19 @@
       "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": true,
       "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "cupboard",
+      "lemma": "cupboard",
+      "meaning": "【名詞】\n食器・衣類などをしまう戸棚、収納棚。",
+      "playMeaning": true
+    },
+    {
+      "surface": "creak",
+      "lemma": "creak",
+      "meaning": "【名詞】\nきしむ音。\n【動詞】\nきしむ音を立てる。",
+      "playMeaning": true,
+      "inThisPlay": "ここではドアが閉まるときの小さな「きしみ音」。"
     }
   ],
   "act2-speech-0084": [
@@ -13936,6 +13991,12 @@
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは座っている状態などから立ち上がる動作。"
+    },
+    {
+      "surface": "cupboard",
+      "lemma": "cupboard",
+      "meaning": "【名詞】\n食器・衣類などをしまう戸棚、収納棚。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0086": [
@@ -14193,6 +14254,12 @@
       "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": true,
       "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "staircases",
+      "lemma": "staircase",
+      "meaning": "【名詞】\n階段、階段部分。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0093": [
@@ -14219,6 +14286,12 @@
       "lemma": "sergeant",
       "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
       "playMeaning": false
+    },
+    {
+      "surface": "suspicion",
+      "lemma": "suspicion",
+      "meaning": "【名詞】\n疑い",
+      "playMeaning": true
     }
   ],
   "act2-speech-0094": [
@@ -14238,6 +14311,18 @@
       "surface": "under suspicion",
       "lemma": "under suspicion",
       "meaning": "疑いをかけられて",
+      "playMeaning": true
+    },
+    {
+      "surface": "suspicion",
+      "lemma": "suspicion",
+      "meaning": "【名詞】\n疑い",
+      "playMeaning": true
+    },
+    {
+      "surface": "murder case",
+      "lemma": "murder case",
+      "meaning": "殺人事件。",
       "playMeaning": true
     }
   ],
@@ -14267,6 +14352,13 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "eldest",
+      "lemma": "eldest",
+      "meaning": "【名詞】\n最年長の人、長子。\n【形容詞】\n最年長の。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは三人の子どものうち「一番上の子」を指す。"
     }
   ],
   "act2-speech-0096": [
@@ -14314,6 +14406,13 @@
       "meaning": "修道院の食堂などに由来する、長く頑丈な大型食卓の様式。",
       "playMeaning": true,
       "inThisPlay": "舞台装置として置かれている大きな食卓を指す。移動位置を示す基準物にもなっている。"
+    },
+    {
+      "surface": "frame me",
+      "lemma": "frame",
+      "meaning": "【動詞】\n枠にはめる；人にぬれぎぬを着せる、罪をでっち上げる。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは『殺人の犯人に仕立て上げる、ぬれぎぬを着せる』という意味。"
     }
   ],
   "act2-speech-0097": [
@@ -14656,6 +14755,13 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "eldest",
+      "lemma": "eldest",
+      "meaning": "【名詞】\n最年長の人、長子。\n【形容詞】\n最年長の。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは三人の子どものうち「一番上の子」を指す。"
     }
   ],
   "act2-speech-0111": [
@@ -14714,6 +14820,12 @@
       "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": true,
       "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "telephone wire",
+      "lemma": "telephone wire",
+      "meaning": "有線電話の信号を伝える電線。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0112": [
@@ -14946,6 +15058,12 @@
       "lemma": "take every eventuality into account",
       "meaning": "あらゆる可能性を考慮に入れる",
       "playMeaning": true
+    },
+    {
+      "surface": "eventuality",
+      "lemma": "eventuality",
+      "meaning": "【名詞】\n起こり得る事態、不測の事態。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0126": [
@@ -15136,6 +15254,13 @@
       "lemma": "ring up",
       "meaning": "電話をかける",
       "playMeaning": true
+    },
+    {
+      "surface": "poker",
+      "lemma": "poker",
+      "meaning": "【名詞】\n暖炉の火をかき回す火かき棒；ポーカー。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは暖炉で使う「火かき棒」。"
     }
   ],
   "act2-speech-0139": [
@@ -15279,6 +15404,19 @@
       "lemma": "give something away",
       "meaning": "隠している情報・正体・感情などを意図せず明らかにする。",
       "playMeaning": true
+    },
+    {
+      "surface": "felt",
+      "lemma": "felt hat",
+      "meaning": "フェルト製の帽子。",
+      "playMeaning": true,
+      "inThisPlay": "man's felt で、省略された hat を補って『男性用のフェルト帽』を指す。"
+    },
+    {
+      "surface": "voice",
+      "lemma": "voice",
+      "meaning": "【名詞】\n声、発声。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0146": [],
@@ -15322,6 +15460,13 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "wide field",
+      "lemma": "wide field",
+      "meaning": "候補範囲が広いこと",
+      "playMeaning": true,
+      "inThisPlay": "ここでは容疑者となり得る対象が広い、という意味。"
     }
   ],
   "act2-speech-0148": [],
@@ -15371,6 +15516,13 @@
       "meaning": "【動詞】\n抗議する、異議を唱える。\n【名詞】\n抗議、異議。",
       "playMeaning": true,
       "inThisPlay": "ここでは抗議運動ではなく、Trotterの疑いに対して異議・反論を述べようとすること。"
+    },
+    {
+      "surface": "means",
+      "lemma": "means",
+      "meaning": "【名詞】\n手段、方法；資力。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは情報を確認するための「手段」。"
     }
   ],
   "act2-speech-0150": [
@@ -15480,6 +15632,12 @@
   "act2-speech-0163": [
     {
       "surface": "of your own knowledge",
+      "lemma": "of one's own knowledge",
+      "meaning": "他人から聞いただけでなく、自分自身の直接の知識・経験として。",
+      "playMeaning": true
+    },
+    {
+      "surface": "own knowledge",
       "lemma": "of one's own knowledge",
       "meaning": "他人から聞いただけでなく、自分自身の直接の知識・経験として。",
       "playMeaning": true
@@ -15615,6 +15773,24 @@
       "lemma": "fellow",
       "meaning": "【名詞】\n男性・人をくだけた調子で指す語。",
       "playMeaning": false
+    },
+    {
+      "surface": "Army training",
+      "lemma": "Army training",
+      "meaning": "陸軍での訓練、軍事訓練。",
+      "playMeaning": true
+    },
+    {
+      "surface": "absconding bank clerk",
+      "lemma": "absconding bank clerk",
+      "meaning": "金銭などを持ち逃げして逃亡している銀行員。",
+      "playMeaning": true
+    },
+    {
+      "surface": "Army deserter",
+      "lemma": "Army deserter",
+      "meaning": "陸軍から無断で離脱した脱走兵。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0166": [
@@ -15701,6 +15877,19 @@
       "surface": "netting",
       "lemma": "netting",
       "meaning": "【名詞】\n網、ネット状の材料",
+      "playMeaning": true
+    },
+    {
+      "surface": "sale",
+      "lemma": "sale",
+      "meaning": "【名詞】\n販売、売却；特売；競売。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは品物を買うために出向いた「売り立て・競売」の意味。"
+    },
+    {
+      "surface": "wire netting",
+      "lemma": "wire netting",
+      "meaning": "針金を網状に編んだ金網。",
       "playMeaning": true
     }
   ],
@@ -15821,7 +16010,14 @@
       "inThisPlay": "Trotterがコートのポケットから折り畳まれた夕刊を取り出す動作。"
     }
   ],
-  "act2-speech-0177": [],
+  "act2-speech-0177": [
+    {
+      "surface": "Evening News",
+      "lemma": "Evening News",
+      "meaning": "英国の夕刊新聞名として用いられた名称『Evening News』。",
+      "playMeaning": true
+    }
+  ],
   "act2-speech-0178": [],
   "act2-speech-0179": [
     {
@@ -16153,6 +16349,12 @@
       "meaning": "【形容詞】\n突然驚いた、ぎょっとした。",
       "playMeaning": true,
       "inThisPlay": "突然の驚きが表情・身体に出る反応の指示。"
+    },
+    {
+      "surface": "association of ideas",
+      "lemma": "association of ideas",
+      "meaning": "ある考えから別の考えが連想されること、観念連合。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0203": [],
@@ -16265,6 +16467,12 @@
       "meaning": "【名詞】\n不安、落ち着かなさ。",
       "playMeaning": true,
       "inThisPlay": "人物に急に不安が走る、という内面反応を演技に表す指示。"
+    },
+    {
+      "surface": "Army service",
+      "lemma": "Army service",
+      "meaning": "陸軍での兵役、軍務。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0205": [],
@@ -16458,6 +16666,12 @@
       "surface": "quite",
       "lemma": "quite",
       "meaning": "【副詞】\n① かなり\n② 完全に",
+      "playMeaning": true
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
       "playMeaning": true
     }
   ],
@@ -16876,6 +17090,12 @@
       "meaning": "【動詞】\n上がる、立ち上がる。\n【名詞】\n上昇、増加。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは座っている状態などから立ち上がる動作。"
+    },
+    {
+      "surface": "give you a hand",
+      "lemma": "give someone a hand",
+      "meaning": "人を手伝う、力を貸す。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0247": [
@@ -17429,6 +17649,12 @@
       "meaning": "【句動詞】\n① ～を中から取り出す\n② ～を外へ連れ出す",
       "playMeaning": true,
       "inThisPlay": "GilesがポケットからMollieの手袋を取り出す動作。"
+    },
+    {
+      "surface": "London bus ticket",
+      "lemma": "London bus ticket",
+      "meaning": "ロンドンのバスの乗車券。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0283": [
@@ -17550,6 +17776,12 @@
       "surface": "overcoat",
       "lemma": "overcoat",
       "meaning": "【名詞】\nオーバーコート、厚手の外套",
+      "playMeaning": true
+    },
+    {
+      "surface": "overcoat pocket",
+      "lemma": "overcoat pocket",
+      "meaning": "オーバーコートのポケット。",
       "playMeaning": true
     }
   ],
@@ -17747,6 +17979,13 @@
       "lemma": "suffer",
       "meaning": "【動詞】\n苦痛・損害・つらい経験を受ける。",
       "playMeaning": false
+    },
+    {
+      "surface": "felt",
+      "lemma": "felt hat",
+      "meaning": "フェルト製の帽子。",
+      "playMeaning": true,
+      "inThisPlay": "man's felt で、省略された hat を補って『男性用のフェルト帽』を指す。"
     }
   ],
   "act2-speech-0308": [],
@@ -17943,6 +18182,12 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0316": [
@@ -18027,7 +18272,20 @@
       "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
     }
   ],
-  "act2-speech-0320": [],
+  "act2-speech-0320": [
+    {
+      "surface": "cupboard",
+      "lemma": "cupboard",
+      "meaning": "【名詞】\n食器・衣類などをしまう戸棚、収納棚。",
+      "playMeaning": true
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": true
+    }
+  ],
   "act2-speech-0321": [
     {
       "surface": "certainly",
@@ -18067,6 +18325,19 @@
       "meaning": "【名詞】\n増援、補強",
       "playMeaning": true,
       "inThisPlay": "軍事だけの「援軍」ではなく、孤立した館で捜査を助ける追加の警察要員という意味。"
+    },
+    {
+      "surface": "police station",
+      "lemma": "police station",
+      "meaning": "警察署。",
+      "playMeaning": true
+    },
+    {
+      "surface": "situation",
+      "lemma": "situation",
+      "meaning": "【名詞】\n状況、事態；位置。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは館で起きている事件の『状況・事態』。"
     }
   ],
   "act2-speech-0325": [
@@ -18234,6 +18505,12 @@
       "meaning": "【舞台用語】\n俳優が客席を向いたときの舞台右側、またはその方向へ。",
       "playMeaning": true,
       "inThisPlay": "ト書きの Right は俳優が客席を向いた基準での舞台右側。日常の「右」と違い、舞台上の位置指定。"
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0334": [
@@ -18249,6 +18526,12 @@
       "meaning": "【形容詞】\n驚いた、意外に思った",
       "playMeaning": true,
       "inThisPlay": "Christopherがスキーについて尋ねられて驚いた反応で答える。"
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0335": [
@@ -18332,6 +18615,12 @@
       "lemma": "matter",
       "meaning": "【名詞】\n問題、事柄、案件。",
       "playMeaning": false
+    },
+    {
+      "surface": "outside world",
+      "lemma": "outside world",
+      "meaning": "外の世界、外界。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0339": [],
@@ -18447,7 +18736,14 @@
       "playMeaning": true
     }
   ],
-  "act2-speech-0344": [],
+  "act2-speech-0344": [
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": true
+    }
+  ],
   "act2-speech-0345": [
     {
       "surface": "Left",
@@ -18462,6 +18758,12 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "ト書きでは指定された舞台位置へ俳優が移動すること。"
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0346": [
@@ -18508,7 +18810,26 @@
       "inThisPlay": "このト書きの up は単なる「上」ではなく、舞台奥方向を示す舞台用語。"
     }
   ],
-  "act2-speech-0347": [],
+  "act2-speech-0347": [
+    {
+      "surface": "cupboard",
+      "lemma": "cupboard",
+      "meaning": "【名詞】\n食器・衣類などをしまう戸棚、収納棚。",
+      "playMeaning": true
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": true
+    },
+    {
+      "surface": "pair of skis",
+      "lemma": "pair of skis",
+      "meaning": "一組のスキー板。",
+      "playMeaning": true
+    }
+  ],
   "act2-speech-0348": [
     {
       "surface": "Good Lord",
