@@ -35,19 +35,24 @@ for(const row of rows){
   const forms=String(row.surfaceForms||'').split(',').map(x=>x.trim()).filter(Boolean);
   const contexts=[];
   const coveringLemmas=new Set();
+  const exactSurfaceLemmas=new Set();
   for(const speech of target){
     const matched=forms.filter(form=>new RegExp(`(^|[^A-Za-z])${esc(form)}(?=$|[^A-Za-z])`,'i').test(String(speech.text||'')));
     if(!matched.length) continue;
-    const covering=(vocabulary[speech.id]||[]).filter(item=>{
+    const rowsForSpeech=vocabulary[speech.id]||[];
+    const exact=rowsForSpeech.filter(item=>matched.some(form=>norm(item?.surface)===norm(form))).map(item=>String(item.lemma||'')).filter(Boolean);
+    const covering=rowsForSpeech.filter(item=>{
       const surface=String(item?.surface||'');
       return matched.some(form=>norm(surface)!==norm(form) && hasToken(surface,form));
     }).map(item=>String(item.lemma||'')).filter(Boolean);
+    exact.forEach(x=>exactSurfaceLemmas.add(x));
     covering.forEach(x=>coveringLemmas.add(x));
-    contexts.push({speechId:speech.id,speaker:speech.speaker,matchedForms:matched,coveringLemmas:[...new Set(covering)],text:speech.text});
+    contexts.push({speechId:speech.id,speaker:speech.speaker,matchedForms:matched,exactSurfaceLemmas:[...new Set(exact)],coveringLemmas:[...new Set(covering)],text:speech.text});
   }
-  const uncoveredSpeechCount=contexts.filter(x=>x.coveringLemmas.length===0).length;
-  const coveredSpeechCount=contexts.length-uncoveredSpeechCount;
-  const item={...row,mixedA1:String(row.allOxfordLevels||'').split('/').includes('A1'),coveringLemmas:[...coveringLemmas].sort(),matchedSpeechCount:contexts.length,uncoveredSpeechCount,coveredSpeechCount,contexts};
+  const uncoveredSpeechCount=contexts.filter(x=>x.coveringLemmas.length===0&&x.exactSurfaceLemmas.length===0).length;
+  const exactCoveredSpeechCount=contexts.filter(x=>x.exactSurfaceLemmas.length>0).length;
+  const phraseCoveredSpeechCount=contexts.filter(x=>x.exactSurfaceLemmas.length===0&&x.coveringLemmas.length>0).length;
+  const item={...row,mixedA1:String(row.allOxfordLevels||'').split('/').includes('A1'),exactSurfaceLemmas:[...exactSurfaceLemmas].sort(),coveringLemmas:[...coveringLemmas].sort(),matchedSpeechCount:contexts.length,uncoveredSpeechCount,exactCoveredSpeechCount,phraseCoveredSpeechCount,contexts};
   if(existing) present.push({...item,existingLemma:existing});
   else unresolved.push(item);
 }
@@ -66,11 +71,11 @@ const groups=[['a-d', /^[a-d]/i],['e-h', /^[e-h]/i],['i-m', /^[i-m]/i],['n-r', /
 for(const [name,re] of groups){
   const items=unresolved.filter(x=>re.test(x.word));
   fs.writeFileSync(`${outDir}/review-${name}.json`,JSON.stringify({schemaVersion:1,group:name,count:items.length,items},null,2)+'\n');
-  const compact=['word\tcefr\tallOxfordLevels\tsurfaceForms\tmatchedSpeeches\tuncoveredSpeeches\tcoveringLemmas\tfirstSpeechId\tfirstContext'];
+  const compact=['word\tcefr\tallOxfordLevels\tsurfaceForms\tmatched\tuncovered\texactCovered\tphraseCovered\texactSurfaceLemmas\tcoveringLemmas\tfirstSpeechId\tfirstContext'];
   for(const item of items){
     const first=item.contexts[0];
-    const text=String(first?.text||'').replace(/\s+/g,' ').replace(/\t/g,' ').slice(0,210);
-    compact.push([item.word,item.cefr,item.allOxfordLevels,item.surfaceForms,item.matchedSpeechCount,item.uncoveredSpeechCount,item.coveringLemmas.join(' | '),item.firstSpeechId,text].join('\t'));
+    const text=String(first?.text||'').replace(/\s+/g,' ').replace(/\t/g,' ').slice(0,180);
+    compact.push([item.word,item.cefr,item.allOxfordLevels,item.surfaceForms,item.matchedSpeechCount,item.uncoveredSpeechCount,item.exactCoveredSpeechCount,item.phraseCoveredSpeechCount,item.exactSurfaceLemmas.join(' | '),item.coveringLemmas.join(' | '),item.firstSpeechId,text].join('\t'));
   }
   fs.writeFileSync(`${outDir}/compact-${name}.tsv`,compact.join('\n')+'\n');
 }
