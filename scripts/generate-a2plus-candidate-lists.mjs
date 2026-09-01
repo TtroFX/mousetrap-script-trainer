@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 
+const OXFORD_URL = 'https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000';
 const script = JSON.parse(fs.readFileSync('mousetrap_script_data.json', 'utf8'));
 const dictionary = JSON.parse(fs.readFileSync('mousetrap_word_dictionary.json', 'utf8'));
 const lineVocabulary = JSON.parse(fs.readFileSync('mousetrap_line_vocabulary.json', 'utf8'));
@@ -11,70 +12,70 @@ const allSpeeches = [
 ];
 if (allSpeeches.length !== 1164) throw new Error(`Expected 1164 speeches, got ${allSpeeches.length}`);
 
-// Screening policy, not an official CEFR classifier:
-// keep broadly all content-word candidates and exclude only clear A1/basic items.
-// This intentionally errs on the side of inclusion so A2-ish words such as "abuse" are not missed.
-const A1_EXCLUDE = new Set(`
- a an the this that these those i me my mine you your yours he him his she her hers it its we us our ours they them their theirs
- who whom whose what which where when why how
- am is are was were be been being have has had having do does did doing
- can could may might must shall should will would
- and or but if because so than as while although though not no yes
- in on at by for from to of with without into onto over under above below between among through across around before after during about against
- here there now then today tomorrow yesterday
- one two three four five six seven eight nine ten first second third
- all any some many much more most few little less least another other same each every both either neither
- very too quite really just only even also again still already yet
- go come get make take give put keep let bring leave find know think say tell ask answer see look watch hear listen feel want need like love hate help use try work play live move stop start begin end open close turn
- good bad big small long short high low old young new nice great right wrong easy hard hot cold warm happy sad sorry sure ready busy free full empty
- man woman boy girl child children person people friend family mother father mum dad husband wife son daughter brother sister
- house home room door window table chair bed school class teacher student job money food water tea coffee milk bread day night morning afternoon evening week month year time hour minute place way thing stuff name number part kind lot
- red blue green black white hand head face eye eyes ear ears nose mouth hair arm leg foot feet back side car road street town city country world
- come go went gone made took taken gave given saw seen knew known thought said told found felt left brought kept got
-`.trim().split(/\s+/));
-
-const IRREGULAR = new Map(Object.entries({
-  men:'man', women:'woman', children:'child', people:'person', feet:'foot', teeth:'tooth', mice:'mouse', geese:'goose',
-  better:'good', best:'good', worse:'bad', worst:'bad',
-  went:'go', gone:'go', came:'come', got:'get', gotten:'get', made:'make', took:'take', taken:'take', gave:'give', given:'give',
-  saw:'see', seen:'see', knew:'know', known:'know', thought:'think', said:'say', told:'tell', found:'find', felt:'feel', left:'leave', brought:'bring', kept:'keep',
-  did:'do', done:'do', had:'have', was:'be', were:'be', been:'be',
-}));
-
 function norm(s) {
-  return String(s ?? '')
-    .normalize('NFKC')
-    .toLowerCase()
-    .replace(/[‘’]/g, "'")
-    .replace(/^'+|'+$/g, '')
-    .trim();
+  return String(s ?? '').toLowerCase().normalize('NFKC').replace(/[‘’]/g, "'")
+    .replace(/^'+|'+$/g, '').trim();
+}
+function decodeHtml(s) {
+  return s.replace(/&nbsp;/gi,' ').replace(/&amp;/gi,'&').replace(/&quot;/gi,'"').replace(/&#39;|&apos;/gi,"'")
+    .replace(/&ndash;|&mdash;/gi,'-').replace(/&[a-z]+;/gi,' ').replace(/&#(\d+);/g,(_,n)=>String.fromCodePoint(Number(n)));
+}
+function tokenise(text) {
+  return String(text ?? '').replace(/[‘’]/g, "'").match(/[A-Za-z]+(?:'[A-Za-z]+)?/g) ?? [];
 }
 
-function plausibleBases(word) {
-  const w = norm(word).replace(/'s$/, '');
-  const out = new Set([w]);
-  if (IRREGULAR.has(w)) out.add(IRREGULAR.get(w));
-  if (w.length > 4 && w.endsWith('ies')) out.add(w.slice(0, -3) + 'y');
-  if (w.length > 4 && w.endsWith('es')) {
-    out.add(w.slice(0, -2));
-    out.add(w.slice(0, -1));
-  } else if (w.length > 3 && w.endsWith('s') && !w.endsWith('ss')) {
-    out.add(w.slice(0, -1));
+const response = await fetch(OXFORD_URL, { headers: { 'user-agent': 'Mozilla/5.0 mousetrap-vocabulary-audit' } });
+if (!response.ok) throw new Error(`Oxford word list HTTP ${response.status}`);
+const html = await response.text();
+const visible = decodeHtml(html.replace(/<script\b[\s\S]*?<\/script>/gi,'\n').replace(/<style\b[\s\S]*?<\/style>/gi,'\n').replace(/<[^>]+>/g,'\n'));
+const lines = visible.split(/\n+/).map(s=>s.trim()).filter(Boolean);
+const posTerms = new Set(['noun','verb','adjective','adverb','preposition','conjunction','pronoun','determiner','exclamation','number','modal verb','indefinite article','auxiliary verb']);
+const oxford = new Map();
+for (let i=0;i<lines.length;i++) {
+  const level = lines[i].toLowerCase();
+  if (!/^[abc][12]$/.test(level)) continue;
+  let p=i-1;
+  while (p>=0 && p>=i-4 && !posTerms.has(lines[p].toLowerCase())) p--;
+  if (p<1 || !posTerms.has(lines[p].toLowerCase())) continue;
+  const word=norm(lines[p-1]);
+  const pos=lines[p].toLowerCase();
+  if (!word || word.includes(' ')) continue;
+  const arr=oxford.get(word)||[];
+  if (!arr.some(x=>x.pos===pos&&x.level===level)) arr.push({pos,level});
+  oxford.set(word,arr);
+}
+if (oxford.size < 3000) throw new Error(`Oxford parser extracted only ${oxford.size} words`);
+
+const A2PLUS_LEVELS = new Set(['a2','b1','b2','c1','c2']);
+const LEVEL_ORDER = new Map([['a1',1],['a2',2],['b1',3],['b2',4],['c1',5],['c2',6]]);
+const IRREGULAR = new Map(Object.entries({
+  men:'man', women:'woman', children:'child', people:'person', feet:'foot', teeth:'tooth', mice:'mouse', geese:'goose',
+  went:'go', gone:'go', came:'come', got:'get', gotten:'get', made:'make', took:'take', taken:'take', gave:'give', given:'give',
+  saw:'see', seen:'see', knew:'know', known:'know', thought:'think', said:'say', told:'tell', found:'find', felt:'feel', left:'leave', brought:'bring', kept:'keep',
+  ran:'run', begun:'begin', began:'begin', heard:'hear', held:'hold', meant:'mean', sent:'send', built:'build', drove:'drive', written:'write', wrote:'write',
+  did:'do', done:'do', had:'have', was:'be', were:'be', been:'be',
+}));
+function variants(token) {
+  const w=norm(token).replace(/'s$/,'');
+  const out=[];
+  const add=x=>{ if(x && !out.includes(x)) out.push(x); };
+  add(w);
+  if (IRREGULAR.has(w)) add(IRREGULAR.get(w));
+  if (w.length>4 && w.endsWith('ies')) add(w.slice(0,-3)+'y');
+  if (w.length>4 && w.endsWith('ied')) add(w.slice(0,-3)+'y');
+  if (w.length>4 && w.endsWith('es')) { add(w.slice(0,-1)); add(w.slice(0,-2)); }
+  if (w.length>3 && w.endsWith('s') && !w.endsWith('ss')) add(w.slice(0,-1));
+  if (w.length>4 && w.endsWith('ed')) {
+    const stem=w.slice(0,-2); add(stem); add(w.slice(0,-1)); add(stem+'e');
+    if (stem.length>2 && stem.at(-1)===stem.at(-2)) add(stem.slice(0,-1));
   }
-  if (w.length > 5 && w.endsWith('ied')) out.add(w.slice(0, -3) + 'y');
-  if (w.length > 4 && w.endsWith('ed')) {
-    const stem = w.slice(0, -2);
-    out.add(stem);
-    out.add(stem + 'e');
-    if (stem.length > 2 && stem.at(-1) === stem.at(-2)) out.add(stem.slice(0, -1));
+  if (w.length>5 && w.endsWith('ing')) {
+    const stem=w.slice(0,-3); add(stem); add(stem+'e');
+    if (stem.length>2 && stem.at(-1)===stem.at(-2)) add(stem.slice(0,-1));
   }
-  if (w.length > 5 && w.endsWith('ing')) {
-    const stem = w.slice(0, -3);
-    out.add(stem);
-    out.add(stem + 'e');
-    if (stem.length > 2 && stem.at(-1) === stem.at(-2)) out.add(stem.slice(0, -1));
-  }
-  return [...out].filter(Boolean);
+  if (w.length>4 && w.endsWith('er')) add(w.slice(0,-2));
+  if (w.length>5 && w.endsWith('est')) add(w.slice(0,-3));
+  return out;
 }
 
 const implemented = new Set(Object.keys(dictionary).map(norm));
@@ -82,111 +83,148 @@ for (const rows of Object.values(lineVocabulary)) {
   if (!Array.isArray(rows)) continue;
   for (const row of rows) {
     if (row?.lemma) implemented.add(norm(row.lemma));
-    if (row?.surface && /^[A-Za-z][A-Za-z'’-]*$/.test(row.surface.trim())) implemented.add(norm(row.surface));
+    if (row?.surface && /^[A-Za-z][A-Za-z'’-]*$/.test(String(row.surface).trim())) implemented.add(norm(row.surface));
   }
 }
 
-const properNames = new Set([
-  'mollie','giles','christopher','wren','boyle','metcalf','casewell','paravicini','trotter','ralston','barlow','maureen','lyon','culver','paddington',
-  'monkswell','monkwell','scotland','scottish','england','english','london','berkshire','benares','dickens','scrooge','harriet','india','indian',
-  'aga','bbc','blenheim','stalingrad','stamford','norfolk','longridge','corrigan','georgie','jimmy','kathy','john','mary','mrs','mr','miss','major','sergeant',
-]);
+const BASIC_OR_NOISE = new Set(`
+a an the this that these those i me my mine you your yours he him his she her hers it its we us our ours they them their theirs
+who whom whose what which where when why how am is are was were be been being have has had do does did can could may might must shall should will would
+and or but if because so than as not no yes in on at by for from to of with into over under before after about here there now then very too just only also
+one two three four five six seven eight nine ten first second all any some many much more most few little another other same each every both
+man woman boy girl child person people friend family mother father husband wife son daughter brother sister house home room door window table chair bed
+school teacher student job money food water day night morning evening week month year time hour minute place way thing name number car road street town city
+be have do go come get make take give put keep let bring leave find know think say tell ask see look hear feel want need like love help use try work play live
+open close turn good bad big small long short high low old young new nice great right wrong easy hard hot cold warm happy sad sorry sure ready
+oh ah er uh um ha brr humph hullo hello gosh god
+`.trim().split(/\s+/));
+const PROPER_NAMES = new Set(`
+mollie giles christopher wren boyle metcalf casewell paravicini trotter ralston barlow maureen lyon culver paddington monkswell monkwell
+scotland scottish england english london berkshire benares dickens scrooge harriet india indian blenheim stalingrad stamford norfolk longridge corrigan
+georgie jimmy kathy john mary hogben hampstead kensington bournemouth edinburgh leamington paul leslie chris
+`.trim().split(/\s+/));
+const CONTRACTION = /(?:n't|'re|'ve|'ll|'d|'m)$/;
 
-function tokenise(text) {
-  return String(text ?? '').replace(/[‘’]/g, "'").match(/[A-Za-z]+(?:'[A-Za-z]+)?/g) ?? [];
+function classifyOxfordToken(token) {
+  const matches=[];
+  for (const v of variants(token)) {
+    const entries=oxford.get(v);
+    if (!entries) continue;
+    const qualifying=entries.filter(e=>A2PLUS_LEVELS.has(e.level));
+    if (qualifying.length) matches.push({word:v, entries, qualifying});
+  }
+  if (!matches.length) return null;
+  // Prefer exact surface, then irregular/base candidates in variant order.
+  return matches[0];
+}
+function displayLevels(entries) {
+  return [...new Set(entries.map(e=>e.level.toUpperCase()))]
+    .sort((a,b)=>(LEVEL_ORDER.get(a.toLowerCase())??99)-(LEVEL_ORDER.get(b.toLowerCase())??99)).join('/');
 }
 
-function chooseHeadword(surface, corpusSet) {
-  const options = plausibleBases(surface);
-  if (IRREGULAR.has(norm(surface))) return IRREGULAR.get(norm(surface));
-  // Prefer a form that actually occurs independently in this quarter.
-  for (const candidate of options.slice(1)) if (corpusSet.has(candidate)) return candidate;
-  // Conservative morphology only when unambiguous enough.
-  const w = norm(surface).replace(/'s$/, '');
-  if (w.length > 4 && w.endsWith('ies')) return w.slice(0, -3) + 'y';
-  if (w.length > 3 && w.endsWith('s') && !w.endsWith('ss') && !w.endsWith('us') && !w.endsWith('is')) return w.slice(0, -1);
-  return w;
-}
-
-function analyseQuarter(startGlobal, endGlobal, label) {
-  const speeches = allSpeeches.slice(startGlobal - 1, endGlobal);
-  if (speeches.length !== endGlobal - startGlobal + 1) throw new Error(`${label}: speech range mismatch`);
-
-  const raw = [];
-  const corpusSet = new Set();
-  for (const speech of speeches) for (const token of tokenise(speech.text)) corpusSet.add(norm(token));
-
+function analyseQuarter(startGlobal,endGlobal,label) {
+  const speeches=allSpeeches.slice(startGlobal-1,endGlobal);
+  const extracted=[];
+  const unclassified=[];
   for (const speech of speeches) {
-    for (const surface of tokenise(speech.text)) {
-      const lower = norm(surface).replace(/'s$/, '');
-      if (!lower || lower.length < 2) continue;
-      if (properNames.has(lower)) continue;
-      if (A1_EXCLUDE.has(lower)) continue;
-      if (/^(?:i'm|i've|i'll|i'd|you're|you've|you'll|you'd|he's|she's|it's|we're|we've|we'll|they're|they've|they'll|that's|there's|what's|who's|don't|doesn't|didn't|isn't|aren't|wasn't|weren't|haven't|hasn't|hadn't|can't|couldn't|won't|wouldn't|shouldn't|mustn't|shan't|let's)$/.test(lower)) continue;
-      raw.push({ surface: lower, speechId: speech.id });
+    for (const raw of tokenise(speech.text)) {
+      const surface=norm(raw);
+      const ox=classifyOxfordToken(surface);
+      if (ox) {
+        extracted.push({word:ox.word,surface,speechId:speech.id,levels:displayLevels(ox.qualifying),allLevels:displayLevels(ox.entries)});
+        continue;
+      }
+      if (surface.length<3 || BASIC_OR_NOISE.has(surface) || PROPER_NAMES.has(surface) || CONTRACTION.test(surface)) continue;
+      if (variants(surface).some(v=>implemented.has(v))) continue;
+      if (variants(surface).some(v=>oxford.has(v))) continue; // Oxford A1-only: deliberately excluded from A2+.
+      unclassified.push({word:surface,surface,speechId:speech.id});
     }
   }
 
-  const byHeadword = new Map();
-  for (const item of raw) {
-    const headword = chooseHeadword(item.surface, corpusSet);
-    if (!headword || A1_EXCLUDE.has(headword) || properNames.has(headword)) continue;
-    const entry = byHeadword.get(headword) ?? { count: 0, surfaces: new Set(), firstSpeechId: item.speechId };
-    entry.count += 1;
-    entry.surfaces.add(item.surface);
-    byHeadword.set(headword, entry);
+  const dedupeMap=new Map();
+  for (const row of extracted) {
+    const e=dedupeMap.get(row.word) ?? {word:row.word,count:0,surfaces:new Set(),firstSpeechId:row.speechId,levels:new Set(),allLevels:new Set()};
+    e.count++; e.surfaces.add(row.surface); for(const x of row.levels.split('/')) e.levels.add(x); for(const x of row.allLevels.split('/')) e.allLevels.add(x); dedupeMap.set(row.word,e);
   }
+  const deduped=[...dedupeMap.values()].sort((a,b)=>a.word.localeCompare(b.word));
+  const final=deduped.filter(row=>!implemented.has(row.word) && ![...row.surfaces].some(s=>implemented.has(s)));
 
-  const deduped = [...byHeadword.entries()].sort((a,b)=>a[0].localeCompare(b[0]));
-  const finalRows = deduped.filter(([headword, data]) => {
-    const forms = new Set([headword, ...data.surfaces]);
-    for (const form of forms) for (const base of plausibleBases(form)) if (implemented.has(base)) return false;
-    return true;
-  });
-
-  const lines = [];
-  lines.push(`THE MOUSETRAP — A2+ ADDITION CANDIDATES — ${label}`);
-  lines.push(`Scope: global speeches ${startGlobal}-${endGlobal} (${speeches.length} speeches)`);
-  lines.push('Policy: screening list, not official CEFR certification. Clear A1/basic items are excluded; uncertain content words are kept to minimize omissions.');
-  lines.push('Dictionary definitions are NOT created in this phase. Existing vocabulary/dictionary data are NOT modified.');
-  lines.push('');
-  lines.push('PIPELINE');
-  lines.push(`1. Extracted non-A1 candidate occurrences: ${raw.length}`);
-  lines.push(`2. After normalized/headword deduplication: ${deduped.length}`);
-  lines.push(`3. After removing already-implemented dictionary/vocabulary items: ${finalRows.length}`);
-  lines.push('');
-  lines.push('FINAL ADDITION CANDIDATES');
-  lines.push('word\toccurrences\tfirstSpeechId\tsurfaceForms');
-  for (const [headword, data] of finalRows) {
-    lines.push(`${headword}\t${data.count}\t${data.firstSpeechId}\t${[...data.surfaces].sort().join(', ')}`);
+  const unknownMap=new Map();
+  for(const row of unclassified){
+    const e=unknownMap.get(row.word)??{word:row.word,count:0,surfaces:new Set(),firstSpeechId:row.speechId};
+    e.count++;e.surfaces.add(row.surface);unknownMap.set(row.word,e);
   }
-  lines.push('');
-  lines.push('NOTE');
-  lines.push('- This is deliberately over-inclusive. Final dictionary-writing pass should manually reject proper names, OCR/tokenization artifacts, and words that are actually A1 in the relevant sense.');
-  lines.push('- Polysemy must be judged by the sense used in the play; an A1-looking word can still remain if the play uses a harder sense.');
-  lines.push('');
+  const manual=[...unknownMap.values()].sort((a,b)=>a.word.localeCompare(b.word));
 
-  return { text: lines.join('\n'), stats: { raw: raw.length, deduped: deduped.length, final: finalRows.length }, finalRows };
+  const out=[];
+  out.push(`THE MOUSETRAP — A2+ ADDITION CANDIDATES — ${label}`);
+  out.push(`Scope: global speeches ${startGlobal}-${endGlobal} (${speeches.length} speeches)`);
+  out.push(`CEFR source: Oxford 3000 and 5000 (${oxford.size} parsed headwords)`);
+  out.push('Dictionary definitions are NOT created in this phase. Production vocabulary/dictionary files are NOT modified.');
+  out.push('');
+  out.push('PIPELINE — OXFORD A2+');
+  out.push(`1. Extracted A2+ candidate occurrences: ${extracted.length}`);
+  out.push(`2. After headword deduplication: ${deduped.length}`);
+  out.push(`3. Already-implemented headwords removed: ${deduped.length-final.length}`);
+  out.push(`4. Final Oxford A2+ addition candidates: ${final.length}`);
+  out.push('');
+  out.push('FINAL OXFORD A2+ ADDITION CANDIDATES');
+  out.push('word\tcefr\toccurrences\tfirstSpeechId\tsurfaceForms\tallOxfordLevels');
+  for(const row of final){
+    const lev=[...row.levels].sort((a,b)=>(LEVEL_ORDER.get(a.toLowerCase())??99)-(LEVEL_ORDER.get(b.toLowerCase())??99)).join('/');
+    const all=[...row.allLevels].sort((a,b)=>(LEVEL_ORDER.get(a.toLowerCase())??99)-(LEVEL_ORDER.get(b.toLowerCase())??99)).join('/');
+    out.push(`${row.word}\t${lev}\t${row.count}\t${row.firstSpeechId}\t${[...row.surfaces].sort().join(', ')}\t${all}`);
+  }
+  out.push('');
+  out.push('OXFORD-UNCLASSIFIED / MANUAL REVIEW');
+  out.push('These are non-basic-looking script tokens not found in the Oxford 3000/5000 parser after removing implemented items.');
+  out.push('They are NOT automatically classified as A2+; retain them for later manual review so British/dated/rare words are not silently lost.');
+  out.push('word\toccurrences\tfirstSpeechId\tsurfaceForms');
+  for(const row of manual) out.push(`${row.word}\t${row.count}\t${row.firstSpeechId}\t${[...row.surfaces].sort().join(', ')}`);
+  out.push('');
+  return {text:out.join('\n'),final,manual,stats:{extractedOccurrences:extracted.length,deduped:deduped.length,implementedRemoved:deduped.length-final.length,finalOxfordA2Plus:final.length,manualUnclassified:manual.length}};
 }
 
-const part1 = analyseQuarter(1, 291, 'PART 1 / 1-291');
-const part2 = analyseQuarter(292, 582, 'PART 2 / 292-582');
+const part1=analyseQuarter(1,291,'PART 1 / 1-291');
+const part2=analyseQuarter(292,582,'PART 2 / 292-582');
 
-fs.mkdirSync('data/a2plus-candidate-lists', { recursive: true });
-fs.writeFileSync('data/a2plus-candidate-lists/part-01.txt', part1.text + '\n');
-fs.writeFileSync('data/a2plus-candidate-lists/part-02.txt', part2.text + '\n');
+function combine(parts){
+  const m=new Map();
+  for(const [partName,result] of parts){
+    for(const row of result.final){
+      const e=m.get(row.word)??{word:row.word,parts:new Set(),count:0,surfaces:new Set(),firstSpeechId:row.firstSpeechId,levels:new Set(),allLevels:new Set()};
+      e.parts.add(partName);e.count+=row.count;for(const s of row.surfaces)e.surfaces.add(s);for(const l of row.levels)e.levels.add(l);for(const l of row.allLevels)e.allLevels.add(l);m.set(row.word,e);
+    }
+  }
+  return [...m.values()].sort((a,b)=>a.word.localeCompare(b.word));
+}
+const combined=combine([['1',part1],['2',part2]]);
+const combinedText=[
+  'THE MOUSETRAP — A2+ ADDITION CANDIDATES — PARTS 1+2 UNIQUE',
+  'Scope: global speeches 1-582',
+  'Pipeline: extract Oxford A2+ occurrences -> deduplicate by headword -> remove currently implemented dictionary/vocabulary headwords -> deduplicate across Parts 1 and 2.',
+  `Unique final Oxford A2+ candidates across Parts 1+2: ${combined.length}`,
+  '',
+  'word\tcefr\tparts\toccurrences\tfirstSpeechId\tsurfaceForms\tallOxfordLevels',
+  ...combined.map(row=>{
+    const lev=[...row.levels].sort((a,b)=>(LEVEL_ORDER.get(a.toLowerCase())??99)-(LEVEL_ORDER.get(b.toLowerCase())??99)).join('/');
+    const all=[...row.allLevels].sort((a,b)=>(LEVEL_ORDER.get(a.toLowerCase())??99)-(LEVEL_ORDER.get(b.toLowerCase())??99)).join('/');
+    return `${row.word}\t${lev}\t${[...row.parts].join(',')}\t${row.count}\t${row.firstSpeechId}\t${[...row.surfaces].sort().join(', ')}\t${all}`;
+  }),
+  ''
+].join('\n');
 
-const overlap = part1.finalRows.map(([w])=>w).filter(w => new Set(part2.finalRows.map(([x])=>x)).has(w));
-const summary = {
-  schemaVersion: 1,
-  status: 'PASS',
-  policy: 'A2+ screening by conservative A1 exclusion; intentionally over-inclusive',
-  parts: {
-    part1: { scope:[1,291], ...part1.stats },
-    part2: { scope:[292,582], ...part2.stats },
-  },
-  crossPartOverlapCandidates: overlap.length,
-  note: 'Each TXT is independently deduplicated and filtered against current implemented dictionary/vocabulary. Cross-part overlap is intentionally reported, not silently removed, so each quarter remains auditable.'
+fs.mkdirSync('data/a2plus-candidate-lists',{recursive:true});
+fs.writeFileSync('data/a2plus-candidate-lists/part-01.txt',part1.text+'\n');
+fs.writeFileSync('data/a2plus-candidate-lists/part-02.txt',part2.text+'\n');
+fs.writeFileSync('data/a2plus-candidate-lists/part-01-02-unique.txt',combinedText+'\n');
+const summary={
+  schemaVersion:2,status:'PASS',source:OXFORD_URL,parsedOxfordWords:oxford.size,
+  policy:'Oxford A2+ (A2/B1/B2/C1/C2) automatic candidate extraction plus separate Oxford-unclassified manual-review bucket; current implemented dictionary/vocabulary removed; no dictionary definitions generated.',
+  parts:{part1:{scope:[1,291],...part1.stats},part2:{scope:[292,582],...part2.stats}},
+  uniqueOxfordA2PlusAcrossParts1And2:combined.length,
+  abusePresentInFinal:combined.some(x=>x.word==='abuse')
 };
-fs.writeFileSync('data/a2plus-candidate-lists/summary.json', JSON.stringify(summary, null, 2) + '\n');
-console.log(JSON.stringify(summary, null, 2));
+fs.writeFileSync('data/a2plus-candidate-lists/summary.json',JSON.stringify(summary,null,2)+'\n');
+console.log(JSON.stringify(summary,null,2));
+if(!summary.abusePresentInFinal) throw new Error('Expected missing target word "abuse" to be present in final Parts 1+2 candidate list');
