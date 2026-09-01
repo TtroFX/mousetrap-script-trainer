@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "scope": {"globalSpeechRange":[1,582],"candidateFile":"data/a2plus-candidate-lists/part-01-02-unique.txt"},
+  "policy": {
+    "a2plus": "A2/B1/B2/C1/C2の実際の語義を原則収録する。",
+    "mixedA1": "A1とA2+が同じheadwordにある場合、台本中の実際の語義がA2+と確認できた場合だけ収録する。",
+    "phrases": "既存の句・複合語で意味を取るべき単語断片は単語として重複追加しない。",
+    "morphology": "機械的な語尾除去で別語になった候補は除外する。"
+  },
+  "excludeFromPureA2Plus": {
+    "boil": "surfaceはboilerのみ。-er除去による誤lemma。",
+    "bound": "ice-boundの構成要素。既存lemma ice-boundで収録済み。",
+    "hook": "hooked itは既存のBritish口語 hook it として収録済み。",
+    "net": "surfaceはnettingで、既存lemma nettingとして収録済み。",
+    "opening": "2件ともopenの動名詞で、B2名詞openingではない。",
+    "particular": "surfaceはfull particulars内のparticularsで、既存句full particularsとして収録済み。",
+    "prayer": "answer to prayerの構成要素で、既存句として収録済み。",
+    "rate": "at any rateの構成要素で、既存句として収録済み。",
+    "running": "running concernまたはrunの-ing形で、独立したA2名詞として扱わない。",
+    "standing": "standing byは既存句stand byとして収録済み。",
+    "thinking": "thinkの-ing形。独立したA2名詞として扱わない。",
+    "thought": "台本中の候補はthinkの過去形として現れ、独立したA2名詞として扱わない。"
+  },
+  "restoreFromMixedA1A2Plus": {
+    "book": {
+      "reason": "台本中のbookedは部屋を予約するA2動詞用法。A1名詞booksは対象外。",
+      "surfaceWhitelist": ["booked"]
+    }
+  },
+  "surfaceOverrides": {
+    "book": ["booked"],
+    "rose": ["roses"]
+  },
+  "contextOverrides": {
+    "asylum": "ここでは古い表現lunatic asylumの一部で、精神科施設を指す歴史的な用法。現代ではこの表現は避けられる。",
+    "wind": "ここでは童謡中のNorth Windで、名詞の『風』。動詞wind（曲がる・巻く）ではない。"
+  }
+}
