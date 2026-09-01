@@ -24,7 +24,23 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
+
+      - name: Remove obsolete fixed-count rewrite
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('scripts/apply-first-quarter-noun-expansion-v2.mjs')
+          s = p.read_text()
+          start_marker = '// Refresh generated exact vocabulary presentation count invariant.'
+          end_marker = '// Independent validators used by the repository.'
+          start = s.find(start_marker)
+          end = s.find(end_marker)
+          if start < 0 or end < 0 or end <= start:
+              raise SystemExit('Unable to locate obsolete fixed-count rewrite block')
+          s = s[:start] + '// The production assembler validates vocabulary counts dynamically; no generated count constant needs rewriting.\n\n' + s[end:]
+          p.write_text(s)
+          PY
 
       - name: Apply expansion and run canonical QA
         run: node scripts/apply-first-quarter-noun-expansion-v2.mjs
@@ -34,11 +50,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
+            scripts/apply-first-quarter-noun-expansion-v2.mjs \
             mousetrap_line_vocabulary.json \
             mousetrap_word_dictionary.json \
             data/canonical-production-contract.json \
             data/canonical-integration-manifest.json \
-            app/scripts/assemble-production.mjs \
             data/first-quarter-noun-expansion-v2-qa.json
           if git diff --cached --quiet; then
             echo "No generated changes to commit"
