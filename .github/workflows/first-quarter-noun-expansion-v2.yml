@@ -32,13 +32,14 @@ jobs:
           from pathlib import Path
           p = Path('scripts/apply-first-quarter-noun-expansion-v2.mjs')
           s = p.read_text()
-          start_marker = '// Refresh generated exact vocabulary presentation count invariant.'
-          end_marker = '// Independent validators used by the repository.'
+          start_marker = "let assembler = fs.readFileSync(abs(FILES.assembler), 'utf8');"
+          end_marker = "fs.writeFileSync(abs(FILES.assembler), assembler);"
           start = s.find(start_marker)
-          end = s.find(end_marker)
+          end = s.find(end_marker, start if start >= 0 else 0)
           if start < 0 or end < 0 or end <= start:
-              raise SystemExit('Unable to locate obsolete fixed-count rewrite block')
-          s = s[:start] + '// The production assembler validates vocabulary counts dynamically; no generated count constant needs rewriting.\n\n' + s[end:]
+              raise SystemExit('Unable to locate obsolete fixed-count rewrite code')
+          end += len(end_marker)
+          s = s[:start] + "// The production assembler validates vocabulary counts dynamically; no generated count constant needs rewriting." + s[end:]
           p.write_text(s)
           PY
 
