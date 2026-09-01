@@ -26,8 +26,10 @@ jobs:
           git fetch origin main
           git merge --no-edit origin/main
 
-      - name: Repair canonical spoken text and audit leakage
-        run: node scripts/repair-stage-direction-speech-leakage.mjs
+      - name: Repair canonical spoken text and recover stage cue
+        run: |
+          node scripts/repair-stage-direction-speech-leakage.mjs
+          node scripts/canonicalize-stage-directions.mjs
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -48,72 +50,71 @@ jobs:
         run: |
           python - <<'PY'
           import hashlib,json,re
+          from collections import Counter
           from pathlib import Path
           def load(p): return json.loads(Path(p).read_text(encoding='utf-8'))
           def dump(p,v): Path(p).write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
           def sha(p): return hashlib.sha256(Path(p).read_bytes()).hexdigest()
-          structure=load('app/mousetrap_line_structure.json')
-          c=structure['counts']; s=int(c['sentences']); cl=int(c['clauses']); ch=int(c['chunks'])
-          if c['speeches']!=1164: raise SystemExit(c)
-          replacements={
-            'app/src/data-store.js':[
-              (r'counts\.sentences !== \d+',f'counts.sentences !== {s}'),
-              (r'counts\.clauses !== \d+',f'counts.clauses !== {cl}'),
-              (r'counts\.chunks !== \d+',f'counts.chunks !== {ch}')],
-            'app/scripts/assemble-production.mjs':[
-              (r'structure\.counts\?\.sentences!==\d+',f'structure.counts?.sentences!=={s}'),
-              (r'structure\.counts\?\.clauses!==\d+',f'structure.counts?.clauses!=={cl}'),
-              (r'structure\.counts\?\.chunks!==\d+',f'structure.counts?.chunks!=={ch}'),
-              (r'structureSentences:\d+',f'structureSentences:{s}'),
-              (r'structureClauses:\d+',f'structureClauses:{cl}'),
-              (r'structureChunks:\d+',f'structureChunks:{ch}')],
-            '.github/workflows/pages.yml':[
-              (r"p\['counts'\]\['sentences'\]==\d+",f"p['counts']['sentences']=={s}"),
-              (r"p\['counts'\]\['clauses'\]==\d+",f"p['counts']['clauses']=={cl}"),
-              (r"p\['counts'\]\['chunks'\]==\d+",f"p['counts']['chunks']=={ch}")],
-            'materials/000_MATERIAL_INDEX.txt':[
-              (r'(?m)^- sentences: \d+$',f'- sentences: {s}'),
-              (r'(?m)^- clauses: \d+$',f'- clauses: {cl}'),
-              (r'(?m)^- chunks: \d+$',f'- chunks: {ch}')],
-          }
-          for p,rules in replacements.items():
+          def patch(p,rules):
             text=Path(p).read_text(encoding='utf-8')
             for pattern,repl in rules:
               text,n=re.subn(pattern,repl,text)
               if n<1: raise SystemExit(f'{p}: pattern not found: {pattern}')
             Path(p).write_text(text,encoding='utf-8')
 
+          structure=load('app/mousetrap_line_structure.json')
+          c=structure['counts']; s=int(c['sentences']); cl=int(c['clauses']); ch=int(c['chunks'])
+          if c['speeches']!=1164: raise SystemExit(c)
+
+          stage=load('mousetrap_stage_directions.json'); entries=stage['entries']
+          total=len(entries); standalone=sum(e['kind']=='scene-setting' for e in entries); attached=sum(e['kind']=='stage-direction' for e in entries)
+          actor=sum(bool(e.get('actorCueForSpeech')) for e in entries); malformed=sum(e.get('malformedSourceBracket') is True for e in entries)
+          scene_counts=Counter(e['sceneId'] for e in entries); placements=Counter(e.get('placement') for e in entries if e['kind']=='stage-direction')
+          expected=(total,standalone,attached,actor,malformed,scene_counts['act1-scene1'],scene_counts['act1-scene2'],scene_counts['act2'],placements['before'],placements['delivery'],placements['after'])
+          if expected!=(778,5,773,612,1,185,230,363,236,411,126): raise SystemExit(f'unexpected repaired stage metrics {expected}')
+          scene_csv=f"{scene_counts['act1-scene1']},{scene_counts['act1-scene2']},{scene_counts['act2']}"
+
+          patch('app/src/data-store.js',[
+            (r'counts\.sentences !== \d+',f'counts.sentences !== {s}'),(r'counts\.clauses !== \d+',f'counts.clauses !== {cl}'),(r'counts\.chunks !== \d+',f'counts.chunks !== {ch}'),
+            (r'value\.entries\.length!==\d+',f'value.entries.length!=={total}'),(r'value\.counts\?\.attached!==\d+',f'value.counts?.attached!=={attached}'),(r'value\.counts\?\.total!==\d+',f'value.counts?.total!=={total}'),
+            (r'actorCues!==\d+',f'actorCues!=={actor}')])
+          patch('app/scripts/assemble-production.mjs',[
+            (r'structure\.counts\?\.sentences!==\d+',f'structure.counts?.sentences!=={s}'),(r'structure\.counts\?\.clauses!==\d+',f'structure.counts?.clauses!=={cl}'),(r'structure\.counts\?\.chunks!==\d+',f'structure.counts?.chunks!=={ch}'),
+            (r'structureSentences:\d+',f'structureSentences:{s}'),(r'structureClauses:\d+',f'structureClauses:{cl}'),(r'structureChunks:\d+',f'structureChunks:{ch}'),
+            (r'stageDirections\.entries\?\.length!==\d+',f'stageDirections.entries?.length!=={total}'),(r'stageDirections\.counts\?\.attached!==\d+',f'stageDirections.counts?.attached!=={attached}'),(r'stageDirections\.counts\?\.total!==\d+',f'stageDirections.counts?.total!=={total}'),
+            (r'stageAttached!==\d+',f'stageAttached!=={attached}'),(r'stageActorCues!==\d+',f'stageActorCues!=={actor}'),(r"join\(','\)!=='\d+,\d+,\d+'",f"join(',')!=='{scene_csv}'"),
+            (r'stageDirections:\d+',f'stageDirections:{total}'),(r'stageJapaneseParaphrases:\d+',f'stageJapaneseParaphrases:{total}')])
+          patch('scripts/validate-stage-directions.mjs',[
+            (r"\{id:'act1-scene2',act:1,scene:2,count:336,stageCount:\d+\}",f"{{id:'act1-scene2',act:1,scene:2,count:336,stageCount:{scene_counts['act1-scene2']}}}"),
+            (r'stage\.counts\?\.attached!==\d+',f'stage.counts?.attached!=={attached}'),(r'stage\.counts\?\.total!==\d+',f'stage.counts?.total!=={total}'),(r'stage\.entries\.length!==\d+',f'stage.entries.length!=={total}'),
+            (r'entries\.length}/\d+',f'entries.length}}/{total}'),(r'attached!==\d+\|\|malformed!==\d+',f'attached!=={attached}||malformed!=={malformed}'),(r'actorCues!==\d+',f'actorCues!=={actor}'),
+            (r'placements\.before!==\d+\|\|placements\.delivery!==\d+\|\|placements\.after!==\d+',f"placements.before!=={placements['before']}||placements.delivery!=={placements['delivery']}||placements.after!=={placements['after']}")])
+          patch('app/tests/stage_directions_static.mjs',[
+            (r'stage\.entries\?\.length!==\d+',f'stage.entries?.length!=={total}'),(r'stage\.counts\?\.attached!==\d+',f'stage.counts?.attached!=={attached}'),(r'stage\.counts\?\.total!==\d+',f'stage.counts?.total!=={total}'),
+            (r"join\(','\)!=='\d+,\d+,\d+'",f"join(',')!=='{scene_csv}'"),(r'actorCues!==\d+',f'actorCues!=={actor}'),(r'actor cue count \$\{actorCues\}/\d+',f'actor cue count ${{actorCues}}/{actor}')])
+          patch('app/tests/stage_directions.e2e.spec.js',[(r'stageCount:\d+',f'stageCount:{total}')])
+          patch('.github/workflows/pages.yml',[
+            (r"p\['counts'\]\['sentences'\]==\d+",f"p['counts']['sentences']=={s}"),(r"p\['counts'\]\['clauses'\']==\d+",f"p['counts']['clauses']=={cl}"),(r"p\['counts'\]\['chunks'\']==\d+",f"p['counts']['chunks']=={ch}")])
+          patch('materials/000_MATERIAL_INDEX.txt',[
+            (r'(?m)^- sentences: \d+$',f'- sentences: {s}'),(r'(?m)^- clauses: \d+$',f'- clauses: {cl}'),(r'(?m)^- chunks: \d+$',f'- chunks: {ch}')])
+
           manifest=load('data/canonical-integration-manifest.json')
-          manifest['schemaVersion']=2
-          manifest['status']='CHUNKING_V1_CANONICAL'
-          manifest['productionState']='READY_FOR_MAIN'
-          manifest['chunking']['schemaVersion']=2
-          manifest['chunking']['ruleSet']='chunking-v1'
-          manifest['chunking']['sourceSha256']=structure['sourceSha256']
-          manifest['chunking']['structureSha256']=sha('app/mousetrap_line_structure.json')
-          manifest['chunking']['qaStatus']='PASS'
-          manifest['chunking']['qaErrorCount']=0
-          manifest['chunking']['counts']=structure['counts']
-          manifest['chunking']['sceneStats']=structure['sceneStats']
+          manifest['schemaVersion']=2; manifest['status']='CHUNKING_V1_CANONICAL'; manifest['productionState']='READY_FOR_MAIN'
+          manifest['chunking']['schemaVersion']=2; manifest['chunking']['ruleSet']='chunking-v1'; manifest['chunking']['sourceSha256']=structure['sourceSha256']; manifest['chunking']['structureSha256']=sha('app/mousetrap_line_structure.json'); manifest['chunking']['qaStatus']='PASS'; manifest['chunking']['qaErrorCount']=0; manifest['chunking']['counts']=structure['counts']; manifest['chunking']['sceneStats']=structure['sceneStats']
           dump('data/canonical-integration-manifest.json',manifest)
 
           contract=load('data/canonical-production-contract.json')
           for item in contract['files']: item['sha256']=sha(item['path'])
           dump('data/canonical-production-contract.json',contract)
 
-          version=load('app/pwa-version.json')
-          old=version['buildId']
-          m=re.fullmatch(r'(.+-r)(\d+)',old)
+          version=load('app/pwa-version.json'); old=version['buildId']; m=re.fullmatch(r'(.+-r)(\d+)',old)
           if not m: raise SystemExit(f'unexpected build id {old}')
-          new=m.group(1)+str(int(m.group(2))+1)
-          version['buildId']=new
-          version['dataVersion']='canonical-2026-09-02-stage-direction-speech-fix-v1'
-          dump('app/pwa-version.json',version)
+          new=m.group(1)+str(int(m.group(2))+1); version['buildId']=new; version['dataVersion']='canonical-2026-09-02-stage-direction-speech-fix-v1'; dump('app/pwa-version.json',version)
           for p in ['app/src/config.js','app/sw.js']:
             text=Path(p).read_text(encoding='utf-8')
             if old not in text: raise SystemExit(f'{p}: old build id absent')
             Path(p).write_text(text.replace(old,new),encoding='utf-8')
-          print(json.dumps({'counts':{'sentences':s,'clauses':cl,'chunks':ch},'buildId':new,'scriptSha256':sha('mousetrap_script_data.json'),'structureSha256':sha('app/mousetrap_line_structure.json')},indent=2))
+          print(json.dumps({'structureCounts':{'sentences':s,'clauses':cl,'chunks':ch},'stage':{'total':total,'attached':attached,'actorCues':actor,'scenes':dict(scene_counts),'placements':dict(placements)},'buildId':new,'scriptSha256':sha('mousetrap_script_data.json'),'structureSha256':sha('app/mousetrap_line_structure.json')},indent=2))
           PY
 
       - name: Regenerate A2+ candidate lists from corrected spoken text
@@ -132,7 +133,7 @@ jobs:
           node tests/offline_pwa_static.mjs
           node scripts/assemble-production.mjs --verify-only
 
-      - name: Assert corrected line and no spoken stage delimiters
+      - name: Assert corrected line and recovered stage cue
         run: |
           node - <<'NODE'
           const fs=require('fs');
@@ -144,7 +145,7 @@ jobs:
           if(bad.length) throw new Error(JSON.stringify(bad));
           const st=JSON.parse(fs.readFileSync('mousetrap_stage_directions.json','utf8')).entries.filter(x=>x.malformedSourceBracket===true);
           if(st.length!==1||st[0].text.trim()!=='He moves above the sofa table.'||st[0].speechId!==t.id||st[0].placement!=='after') throw new Error(JSON.stringify(st));
-          console.log('spoken/stage separation PASS',t,st[0].id);
+          console.log('spoken/stage separation PASS',t,st[0]);
           NODE
 
       - name: Commit and push repaired canonical state
