@@ -1,0 +1,615 @@
+{
+  "schemaVersion": 1,
+  "patchId": "back-half-a2plus-vocabulary-2026-09-02",
+  "status": "PASS",
+  "scope": {
+    "globalSpeechRange": [
+      583,
+      1164
+    ],
+    "speechCount": 582,
+    "first": "act2-speech-0057",
+    "last": "act2-speech-0638",
+    "previousExcluded": "act2-speech-0056"
+  },
+  "policy": {
+    "a2plus": "A2/B1/B2/C1/C2の実際の語義を原則収録する。既存の正しい辞書・句注釈で同じ用法が完全に説明されている場合は重複追加しない。",
+    "mixedA1": "A1とA2+が同じheadwordにある場合、台本中の実際の語義がA2+と確認できた場合だけ収録する。A1でも熟語・句動詞として独立して学習価値がある場合は句として収録する。",
+    "phrases": "既存の句・複合語で意味を取るべき単語断片は単語として重複追加しない。未収録の重要な句動詞・定型表現は句単位で補う。",
+    "morphology": "機械的な語尾除去・活用形誤認・複合語分割で別lexemeになった候補は除外する。"
+  },
+  "review": {
+    "candidateCount": 250,
+    "selectedCandidateLemmas": 43,
+    "customPhraseAdditions": 5,
+    "totalIntegratedLemmas": 48,
+    "mixedA1CandidateExceptions": [
+      "line"
+    ]
+  },
+  "before": {
+    "dictionaryEntries": 1759,
+    "allVocabularyItems": 3683,
+    "targetVocabularyItems": 1309
+  },
+  "stats": {
+    "newDictionaryEntries": 48,
+    "newVocabularyItems": 72,
+    "alreadyPresent": 0,
+    "exactSurfaceCoveredByOtherLemma": 0,
+    "phraseCoveredOccurrences": 13,
+    "matchedSpeechSurfaces": 80,
+    "inThisPlayAdded": 9
+  },
+  "after": {
+    "dictionaryEntries": 1807,
+    "allVocabularyItems": 3755,
+    "targetVocabularyItems": 1381,
+    "annotatedSpeeches": 874,
+    "playMeaningItems": 2911,
+    "neutralOnlyItems": 844,
+    "inThisPlayItems": 842,
+    "referencedDictionaryLemmas": 1727
+  },
+  "qa": {
+    "candidateDefinitionReconciliation": "PASS",
+    "backHalfBoundary": "PASS",
+    "sourceMatchForEverySelectedLemma": "PASS",
+    "frontHalfMutationCheck": "PASS",
+    "duplicateVocabularyPairs": 0,
+    "surfaceLemmaConflicts": 0,
+    "missingDictionaryReferences": 0,
+    "dictionaryMeaningConsistency": "PASS",
+    "optionalInThisPlayContract": "PASS",
+    "semanticValidator": {
+      "status": "PASS",
+      "dictionary": 1807,
+      "vocabularyItems": 3755,
+      "inThisPlay": 842,
+      "polysemyItems": 362,
+      "unclassifiedDictionary": 0,
+      "genericInThisPlay": 0,
+      "playSpecificDictionaryMeanings": 0,
+      "surfaceLemmaConflicts": 0,
+      "duplicateSurfaceLemmaPairs": 0,
+      "singleWordDictionaryEntries": 1160,
+      "singleWordWithoutHeading": 0,
+      "multiPosSingleWords": 172,
+      "multiPosSingleWordsWithoutSeparateHeadings": 0
+    },
+    "dictionaryStyleAudit": {
+      "counts": {
+        "dictionaryEntries": 1807,
+        "singleTokenEntries": 1160,
+        "singleWordNoHeader": 0,
+        "multiPosSingleWords": 172,
+        "multiPosCombinedHeader": 0,
+        "multiPosWithoutSeparateHeaders": 0
+      },
+      "compact": {
+        "singleWordNoHeader": [],
+        "multiPosCombinedHeader": [],
+        "multiPosWithoutSeparateHeaders": []
+      }
+    },
+    "productionVerifier": {
+      "status": "PASS",
+      "runtime": "index-zero",
+      "buildId": "index-zero-2026-09-02-r36",
+      "mode": "verify-only",
+      "qa": {
+        "speeches": 1164,
+        "translations": 1164,
+        "interpretationCoverage": 1164,
+        "interpretationSpeeches": 747,
+        "interpretationNotes": 887,
+        "vocabulary": 3755,
+        "vocabularyDisplayed": 2911,
+        "vocabularyNeutralOnly": 844,
+        "grammar": 692,
+        "dictionary": 1807,
+        "structureSentences": 2334,
+        "structureClauses": 2939,
+        "structureChunks": 11810,
+        "stageDirections": 777,
+        "stageStandalone": 5,
+        "stageAttached": 772,
+        "stageActorCues": 611,
+        "stageJapaneseParaphrases": 777,
+        "stageCategories": {
+          "scene-setting": 5,
+          "radio": 9,
+          "delivery": 411,
+          "gesture": 34,
+          "action": 96,
+          "entrance": 44,
+          "movement": 95,
+          "exit": 41,
+          "sound": 6,
+          "light": 8,
+          "curtain": 8,
+          "music": 8,
+          "pause": 12
+        }
+      }
+    },
+    "protectedCanonicalSourcesUnchanged": true
+  },
+  "selectedDetails": [
+    {
+      "lemma": "alive",
+      "surfaces": [
+        "alive"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "anywhere",
+      "surfaces": [
+        "anywhere"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "argue",
+      "surfaces": [
+        "argue"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "arrest",
+      "surfaces": [
+        "arrest",
+        "arresting"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 2,
+      "exactCovered": 0,
+      "phraseCovered": 1
+    },
+    {
+      "lemma": "careful",
+      "surfaces": [
+        "careful"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "clear",
+      "surfaces": [
+        "clear"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "count",
+      "surfaces": [
+        "count"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 2
+    },
+    {
+      "lemma": "discover",
+      "surfaces": [
+        "discover"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "drag",
+      "surfaces": [
+        "dragging"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "drop",
+      "surfaces": [
+        "drop",
+        "dropped"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "especially",
+      "surfaces": [
+        "especially"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "exactly",
+      "surfaces": [
+        "exactly"
+      ],
+      "matchedSpeechSurfaces": 4,
+      "newVocabularyItems": 4,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "fair",
+      "surfaces": [
+        "fair"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "fortunately",
+      "surfaces": [
+        "fortunately"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "lead",
+      "surfaces": [
+        "leads"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "line",
+      "surfaces": [
+        "line"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "link",
+      "surfaces": [
+        "links"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "manage",
+      "surfaces": [
+        "managed"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "middle",
+      "surfaces": [
+        "middle"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 2
+    },
+    {
+      "lemma": "nasty",
+      "surfaces": [
+        "nasty"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 1
+    },
+    {
+      "lemma": "normal",
+      "surfaces": [
+        "normal"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "offer",
+      "surfaces": [
+        "offer"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "particular",
+      "surfaces": [
+        "particular"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 1
+    },
+    {
+      "lemma": "pass",
+      "surfaces": [
+        "passed"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 1
+    },
+    {
+      "lemma": "perform",
+      "surfaces": [
+        "performed"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "pick",
+      "surfaces": [
+        "pick",
+        "picked"
+      ],
+      "matchedSpeechSurfaces": 4,
+      "newVocabularyItems": 2,
+      "exactCovered": 0,
+      "phraseCovered": 2
+    },
+    {
+      "lemma": "pleased",
+      "surfaces": [
+        "pleased"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "pocket",
+      "surfaces": [
+        "pocket"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 1
+    },
+    {
+      "lemma": "possibility",
+      "surfaces": [
+        "possibilities",
+        "possibility"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "pull",
+      "surfaces": [
+        "pulled",
+        "pulling"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "realize",
+      "surfaces": [
+        "realize",
+        "realized"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "rest",
+      "surfaces": [
+        "rest"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "round",
+      "surfaces": [
+        "round"
+      ],
+      "matchedSpeechSurfaces": 4,
+      "newVocabularyItems": 4,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "shout",
+      "surfaces": [
+        "shouting"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 1
+    },
+    {
+      "lemma": "smoke",
+      "surfaces": [
+        "smoke"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "soldier",
+      "surfaces": [
+        "soldier"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "sort",
+      "surfaces": [
+        "sort"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "suddenly",
+      "surfaces": [
+        "suddenly"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 2,
+      "exactCovered": 0,
+      "phraseCovered": 1
+    },
+    {
+      "lemma": "suggestion",
+      "surfaces": [
+        "suggestions"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "touch",
+      "surfaces": [
+        "touch",
+        "touched"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "unfortunately",
+      "surfaces": [
+        "unfortunately"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "war",
+      "surfaces": [
+        "war",
+        "waring"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    },
+    {
+      "lemma": "worry",
+      "surfaces": [
+        "worry",
+        "worrying"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3,
+      "exactCovered": 0,
+      "phraseCovered": 0
+    }
+  ],
+  "customDetails": [
+    {
+      "speechId": "act2-speech-0165",
+      "surface": "broken up",
+      "lemma": "break up",
+      "status": "added"
+    },
+    {
+      "speechId": "act2-speech-0272",
+      "surface": "cooked up",
+      "lemma": "cook up",
+      "status": "added"
+    },
+    {
+      "speechId": "act2-speech-0111",
+      "surface": "so far",
+      "lemma": "so far",
+      "status": "added"
+    },
+    {
+      "speechId": "act2-speech-0087",
+      "surface": "sooner or later",
+      "lemma": "sooner or later",
+      "status": "added"
+    },
+    {
+      "speechId": "act2-speech-0573",
+      "surface": "run a very good chance of",
+      "lemma": "run a chance of",
+      "status": "added"
+    }
+  ],
+  "hashes": {
+    "vocabulary": "4053491691dfb99a7fe7c4afce240c627f2c529d68839071eee976dadab5f0fd",
+    "dictionary": "ad57c129b0a1de3e88a1c04b65f1ef72f61bd5f5441f9a686492fcb03073ab2a"
+  }
+}

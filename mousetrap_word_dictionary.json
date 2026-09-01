@@ -493,6 +493,13 @@
     ],
     "meaning": "【間投詞】\nああ、残念ながら"
   },
+  "alive": {
+    "lemma": "alive",
+    "pos": "形容詞",
+    "coreMeaning": "【形容詞】\n生きている、生存している。",
+    "tags": [],
+    "meaning": "【形容詞】\n生きている、生存している。"
+  },
   "all along": {
     "lemma": "all along",
     "ipa": "/ˈɔːl ɐlˈɒŋ/",
@@ -771,6 +778,13 @@
     "tags": [],
     "meaning": "【副詞】\nとにかく、いずれにせよ；それでも。"
   },
+  "anywhere": {
+    "lemma": "anywhere",
+    "pos": "副詞",
+    "coreMeaning": "【副詞】\nどこかに、どこへでも；否定文・疑問文で『どこにも／どこかに』。",
+    "tags": [],
+    "meaning": "【副詞】\nどこかに、どこへでも；否定文・疑問文で『どこにも／どこかに』。"
+  },
   "apart": {
     "lemma": "apart",
     "pos": "副詞",
@@ -877,6 +891,13 @@
     ],
     "meaning": "【名詞】\nアーチ形の開口部・通路。"
   },
+  "argue": {
+    "lemma": "argue",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n議論する、言い争う；理由を挙げて主張する。",
+    "tags": [],
+    "meaning": "【動詞】\n議論する、言い争う；理由を挙げて主張する。"
+  },
   "armchair": {
     "lemma": "armchair",
     "pos": "名詞",
@@ -933,6 +954,16 @@
       "military"
     ],
     "meaning": "陸軍での訓練、軍事訓練。"
+  },
+  "arrest": {
+    "lemma": "arrest",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n人を逮捕する、法的に拘束する。",
+    "tags": [
+      "law",
+      "police"
+    ],
+    "meaning": "【動詞】\n人を逮捕する、法的に拘束する。"
   },
   "arrival": {
     "lemma": "arrival",
@@ -1975,6 +2006,13 @@
     ],
     "meaning": "【句動】途中でやめる、中断する。"
   },
+  "break up": {
+    "lemma": "break up",
+    "pos": "句動詞",
+    "coreMeaning": "家庭・関係・集団などが崩壊する、ばらばらになる；それらを終わらせる。",
+    "tags": [],
+    "meaning": "家庭・関係・集団などが崩壊する、ばらばらになる；それらを終わらせる。"
+  },
   "breakfast": {
     "lemma": "breakfast",
     "pos": "名詞",
@@ -2264,6 +2302,13 @@
       "address"
     ],
     "meaning": "郵便物の宛先で、指定した人・組織を経由して受け取ることを示す「～方、～気付」。"
+  },
+  "careful": {
+    "lemma": "careful",
+    "pos": "形容詞",
+    "coreMeaning": "【形容詞】\n注意深い、慎重な。",
+    "tags": [],
+    "meaning": "【形容詞】\n注意深い、慎重な。"
   },
   "carefully": {
     "lemma": "carefully",
@@ -2728,6 +2773,13 @@
       "context"
     ],
     "meaning": "【名詞】\n文明社会"
+  },
+  "clear": {
+    "lemma": "clear",
+    "pos": "形容詞",
+    "coreMeaning": "【形容詞】\n明確な、はっきりした、分かりやすい。",
+    "tags": [],
+    "meaning": "【形容詞】\n明確な、はっきりした、分かりやすい。"
   },
   "clearly": {
     "lemma": "clearly",
@@ -3290,6 +3342,13 @@
     "tags": [],
     "meaning": "【副詞】\n都合よく、好都合な形で。文脈によっては『都合がよすぎるほど』という皮肉を含み得る。"
   },
+  "cook up": {
+    "lemma": "cook up",
+    "pos": "句動詞",
+    "coreMeaning": "話・計画・説明などをでっち上げる、作り上げる。",
+    "tags": [],
+    "meaning": "話・計画・説明などをでっち上げる、作り上げる。"
+  },
   "cooperate": {
     "lemma": "cooperate",
     "ipa": "",
@@ -3363,6 +3422,13 @@
       "chunk"
     ],
     "meaning": "これ以上ないほど私に都合がよい"
+  },
+  "count": {
+    "lemma": "count",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n数える；あるものを数・対象に含める。",
+    "tags": [],
+    "meaning": "【動詞】\n数える；あるものを数・対象に含める。"
   },
   "count someone out": {
     "lemma": "count someone out",
@@ -4090,6 +4156,13 @@
     "tags": [],
     "meaning": "【動詞】\n職務・拘束・軍務などから正式に解放する。"
   },
+  "discover": {
+    "lemma": "discover",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n～を発見する、見つける；～だと分かる。",
+    "tags": [],
+    "meaning": "【動詞】\n～を発見する、見つける；～だと分かる。"
+  },
   "discreet": {
     "lemma": "discreet",
     "ipa": "/dɪskɹˈiːt/",
@@ -4382,6 +4455,13 @@
     ],
     "meaning": "【舞台】舞台前方の右側（俳優から見た右）。"
   },
+  "drag": {
+    "lemma": "drag",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n～を引きずる、引っ張って動かす。",
+    "tags": [],
+    "meaning": "【動詞】\n～を引きずる、引っ張って動かす。"
+  },
   "dramatic": {
     "lemma": "dramatic",
     "ipa": "",
@@ -4500,6 +4580,13 @@
       "polysemy"
     ],
     "meaning": "【名詞】\n私道、車寄せまでの進入路；運転。"
+  },
+  "drop": {
+    "lemma": "drop",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n～を落とす、手から放す；落ちる。",
+    "tags": [],
+    "meaning": "【動詞】\n～を落とす、手から放す；落ちる。"
   },
   "drunk": {
     "lemma": "drunk",
@@ -4905,6 +4992,13 @@
     ],
     "meaning": "精神科施設を指す古い表現の場所から逃げ出す。現代では表現自体が不適切とされることがある。"
   },
+  "especially": {
+    "lemma": "especially",
+    "pos": "副詞",
+    "coreMeaning": "【副詞】\n特に、とりわけ。",
+    "tags": [],
+    "meaning": "【副詞】\n特に、とりわけ。"
+  },
   "essential": {
     "lemma": "essential",
     "ipa": "/ɪsˈɛnʃəl/",
@@ -5016,6 +5110,13 @@
       "crime"
     ],
     "meaning": "【名詞】\n証拠"
+  },
+  "exactly": {
+    "lemma": "exactly",
+    "pos": "副詞",
+    "coreMeaning": "【副詞】\n正確に、厳密に；まさに、そのとおり。",
+    "tags": [],
+    "meaning": "【副詞】\n正確に、厳密に；まさに、そのとおり。"
   },
   "examine": {
     "lemma": "examine",
@@ -5168,6 +5269,13 @@
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
     "meaning": "【形容詞】\n色があせたというより、疲れや年齢で華やかさを失った母親という戯画的描写。"
+  },
+  "fair": {
+    "lemma": "fair",
+    "pos": "形容詞",
+    "coreMeaning": "【形容詞】\n公平な、公正な；状況に照らして妥当な。",
+    "tags": [],
+    "meaning": "【形容詞】\n公平な、公正な；状況に照らして妥当な。"
   },
   "fake": {
     "lemma": "fake",
@@ -5768,6 +5876,13 @@
       "theatre"
     ],
     "meaning": "以前の役割、前に担っていた役。"
+  },
+  "fortunately": {
+    "lemma": "fortunately",
+    "pos": "副詞",
+    "coreMeaning": "【副詞】\n幸いにも、運よく。",
+    "tags": [],
+    "meaning": "【副詞】\n幸いにも、運よく。"
   },
   "fortune": {
     "lemma": "fortune",
@@ -8965,6 +9080,13 @@
     ],
     "meaning": "土地・場所の様子、状況の全体像。"
   },
+  "lead": {
+    "lemma": "lead",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n～へ導く、先導する；道・階段などが～へ通じる。",
+    "tags": [],
+    "meaning": "【動詞】\n～へ導く、先導する；道・階段などが～へ通じる。"
+  },
   "Leadenhall Street": {
     "lemma": "Leadenhall Street",
     "pos": "固有名詞",
@@ -9130,6 +9252,13 @@
     ],
     "meaning": "ものすごく／ひどく"
   },
+  "line": {
+    "lemma": "line",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n線、列；電話・通信の回線；一続きの経路。",
+    "tags": [],
+    "meaning": "【名詞】\n線、列；電話・通信の回線；一続きの経路。"
+  },
   "line of business": {
     "lemma": "line of business",
     "ipa": "",
@@ -9138,6 +9267,13 @@
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
     "meaning": "職業・商売の分野、通常扱っている仕事の種類。"
+  },
+  "link": {
+    "lemma": "link",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n～をつなぐ、結び付ける、関連させる。",
+    "tags": [],
+    "meaning": "【動詞】\n～をつなぐ、結び付ける、関連させる。"
   },
   "liquor": {
     "lemma": "liquor",
@@ -9678,6 +9814,13 @@
     "tags": [],
     "meaning": "自分の素性を明かさず、謎めいた人物としてわざと演じている。"
   },
+  "manage": {
+    "lemma": "manage",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n何とか～する、うまくやり遂げる；管理する。",
+    "tags": [],
+    "meaning": "【動詞】\n何とか～する、うまくやり遂げる；管理する。"
+  },
   "manager": {
     "lemma": "manager",
     "ipa": "",
@@ -9987,6 +10130,13 @@
       "formal"
     ],
     "meaning": "【副詞】\n単に～にすぎない"
+  },
+  "middle": {
+    "lemma": "middle",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n中央、中間；物事や集団のただ中。",
+    "tags": [],
+    "meaning": "【名詞】\n中央、中間；物事や集団のただ中。"
   },
   "middle-aged": {
     "lemma": "middle-aged",
@@ -10383,6 +10533,13 @@
     "tags": [],
     "meaning": "【名詞】\n謎、不思議な事柄；推理もの。"
   },
+  "nasty": {
+    "lemma": "nasty",
+    "pos": "形容詞",
+    "coreMeaning": "【形容詞】\n不快な、意地の悪い、ひどい。",
+    "tags": [],
+    "meaning": "【形容詞】\n不快な、意地の悪い、ひどい。"
+  },
   "naturally": {
     "lemma": "naturally",
     "ipa": "",
@@ -10649,6 +10806,13 @@
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
     "meaning": "【名詞】\n意味をなさないこと、ばかげたこと・発言。"
+  },
+  "normal": {
+    "lemma": "normal",
+    "pos": "形容詞",
+    "coreMeaning": "【形容詞】\n普通の、正常な、通常どおりの。",
+    "tags": [],
+    "meaning": "【形容詞】\n普通の、正常な、通常どおりの。"
   },
   "not a hope": {
     "lemma": "not a hope",
@@ -10940,6 +11104,13 @@
     "forms": "offend · offended · offended",
     "tags": [],
     "meaning": "【形容詞】\n気分を害した"
+  },
+  "offer": {
+    "lemma": "offer",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n～を申し出る、提供する、差し出す。",
+    "tags": [],
+    "meaning": "【動詞】\n～を申し出る、提供する、差し出す。"
   },
   "offhand": {
     "lemma": "offhand",
@@ -11425,6 +11596,13 @@
     ],
     "coreMeaning": "【名詞】\n① 部分、一部\n② 役割、役目\n③ 演劇・映画などの役、配役"
   },
+  "particular": {
+    "lemma": "particular",
+    "pos": "形容詞",
+    "coreMeaning": "【形容詞】\n特定の、特にその；個別の。",
+    "tags": [],
+    "meaning": "【形容詞】\n特定の、特にその；個別の。"
+  },
   "particularly": {
     "lemma": "particularly",
     "ipa": "/pətˈɪkjʊləli/",
@@ -11452,6 +11630,13 @@
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
     "meaning": "【名詞】\n共同で責任・利益を分ける協力関係、共同事業。"
+  },
+  "pass": {
+    "lemma": "pass",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n～を通り過ぎる、通過する；そばを通る。",
+    "tags": [],
+    "meaning": "【動詞】\n～を通り過ぎる、通過する；そばを通る。"
   },
   "pass through": {
     "lemma": "pass through",
@@ -11593,6 +11778,13 @@
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
     "meaning": "【副詞】\n① 完全に、まったく\n② 非常にという強調にも使う"
+  },
+  "perform": {
+    "lemma": "perform",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n行動・作業などを行う、実行する；演じる。",
+    "tags": [],
+    "meaning": "【動詞】\n行動・作業などを行う、実行する；演じる。"
   },
   "performance": {
     "lemma": "performance",
@@ -11736,6 +11928,13 @@
     ],
     "meaning": "【名詞】\nピアノ。"
   },
+  "pick": {
+    "lemma": "pick",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n～を選ぶ；つまみ取る、拾い上げる。",
+    "tags": [],
+    "meaning": "【動詞】\n～を選ぶ；つまみ取る、拾い上げる。"
+  },
   "pick out a tune": {
     "lemma": "pick out a tune",
     "pos": "動詞句",
@@ -11853,6 +12052,13 @@
     ],
     "coreMeaning": "【副詞】\n感じよく、愛想よく、心地よく"
   },
+  "pleased": {
+    "lemma": "pleased",
+    "pos": "形容詞",
+    "coreMeaning": "【形容詞】\nうれしい、満足している、喜んでいる。",
+    "tags": [],
+    "meaning": "【形容詞】\nうれしい、満足している、喜んでいる。"
+  },
   "pleasure": {
     "lemma": "pleasure",
     "pos": "名詞",
@@ -11890,6 +12096,13 @@
       "medical"
     ],
     "meaning": "【名詞】\n肺炎"
+  },
+  "pocket": {
+    "lemma": "pocket",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n衣服などに付いたポケット、物を入れる小袋状の部分。",
+    "tags": [],
+    "meaning": "【名詞】\n衣服などに付いたポケット、物を入れる小袋状の部分。"
   },
   "poet": {
     "lemma": "poet",
@@ -12099,6 +12312,13 @@
       "context"
     ],
     "meaning": "【副詞】\n① 実に\n② はっきりと"
+  },
+  "possibility": {
+    "lemma": "possibility",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n可能性；起こり得る事柄・選択肢。",
+    "tags": [],
+    "meaning": "【名詞】\n可能性；起こり得る事柄・選択肢。"
   },
   "possibly": {
     "lemma": "possibly",
@@ -12528,6 +12748,13 @@
     "tags": [],
     "meaning": "社会・公的立場のために果たすべき義務。"
   },
+  "pull": {
+    "lemma": "pull",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n～を引く、引っ張る。",
+    "tags": [],
+    "meaning": "【動詞】\n～を引く、引っ張る。"
+  },
   "pure": {
     "lemma": "pure",
     "ipa": "",
@@ -12865,6 +13092,13 @@
     "coreMeaning": "本名、実名。",
     "tags": [],
     "meaning": "本名、実名。"
+  },
+  "realize": {
+    "lemma": "realize",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n～に気づく、理解する；～を実現する。",
+    "tags": [],
+    "meaning": "【動詞】\n～に気づく、理解する；～を実現する。"
   },
   "reassure": {
     "lemma": "reassure",
@@ -13269,6 +13503,13 @@
     "tags": [],
     "meaning": "【形容詞】\n行為・結果について責任がある、または責任を負う立場の。"
   },
+  "rest": {
+    "lemma": "rest",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n残り、残りの人・物；休息。",
+    "tags": [],
+    "meaning": "【名詞】\n残り、残りの人・物；休息。"
+  },
   "retired": {
     "lemma": "retired",
     "ipa": "/ɹɪtˈaɪəd/",
@@ -13428,6 +13669,15 @@
     ],
     "meaning": "【名詞】\n頬紅"
   },
+  "round": {
+    "lemma": "round",
+    "pos": "前置詞・副詞",
+    "coreMeaning": "【前置詞】\n～の周りに、～のあちこちを。\n【副詞】\n周囲を、ぐるりと；あちこちに。",
+    "tags": [
+      "British English"
+    ],
+    "meaning": "【前置詞】\n～の周りに、～のあちこちを。\n【副詞】\n周囲を、ぐるりと；あちこちに。"
+  },
   "rubbish": {
     "lemma": "rubbish",
     "pos": "名詞・間投詞",
@@ -13449,6 +13699,15 @@
       "dated"
     ],
     "meaning": "【形容詞】\n① いまいましい\n② ひどい（婉曲強調）"
+  },
+  "run a chance of": {
+    "lemma": "run a chance of",
+    "pos": "慣用表現",
+    "coreMeaning": "～する可能性・危険性がある、～する危険を冒す。",
+    "tags": [
+      "dated"
+    ],
+    "meaning": "～する可能性・危険性がある、～する危険を冒す。"
   },
   "run around with": {
     "lemma": "run around with",
@@ -14089,6 +14348,13 @@
     "tags": [],
     "meaning": "【名詞】\n肩；道路の路肩。\n【動詞】\n肩で押す；責任を引き受ける。"
   },
+  "shout": {
+    "lemma": "shout",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n大声で叫ぶ、怒鳴る。",
+    "tags": [],
+    "meaning": "【動詞】\n大声で叫ぶ、怒鳴る。"
+  },
   "show": {
     "lemma": "show",
     "ipa": "/ʃəʊ/",
@@ -14427,6 +14693,13 @@
     ],
     "meaning": "【動】ほほえむ。【名】ほほえみ。"
   },
+  "smoke": {
+    "lemma": "smoke",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\nたばこ・葉巻などを吸う；煙を出す。",
+    "tags": [],
+    "meaning": "【動詞】\nたばこ・葉巻などを吸う；煙を出す。"
+  },
   "snick": {
     "lemma": "snick",
     "pos": "間投詞・名詞",
@@ -14480,6 +14753,13 @@
       "chunk"
     ],
     "meaning": "雪で閉じ込められた／交通が遮断された"
+  },
+  "so far": {
+    "lemma": "so far",
+    "pos": "副詞句",
+    "coreMeaning": "これまでのところ、今までに。",
+    "tags": [],
+    "meaning": "これまでのところ、今までに。"
   },
   "so long as": {
     "lemma": "so long as",
@@ -14544,6 +14824,13 @@
     ],
     "meaning": "【副】静かに、やさしく、小声で。"
   },
+  "soldier": {
+    "lemma": "soldier",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n軍人、兵士。",
+    "tags": [],
+    "meaning": "【名詞】\n軍人、兵士。"
+  },
   "solicitor": {
     "lemma": "solicitor",
     "ipa": "/səlˈɪsɪtə/",
@@ -14587,6 +14874,20 @@
     "coreMeaning": "【副詞】\nどこかに、どこかで。\n【代名詞】\nどこかの場所。",
     "tags": [],
     "meaning": "【副詞】\nどこかに、どこかで。\n【代名詞】\nどこかの場所。"
+  },
+  "sooner or later": {
+    "lemma": "sooner or later",
+    "pos": "定型表現",
+    "coreMeaning": "遅かれ早かれ、いつかは。",
+    "tags": [],
+    "meaning": "遅かれ早かれ、いつかは。"
+  },
+  "sort": {
+    "lemma": "sort",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n種類、タイプ、類。",
+    "tags": [],
+    "meaning": "【名詞】\n種類、タイプ、類。"
   },
   "sound cue": {
     "lemma": "sound cue",
@@ -15225,6 +15526,13 @@
     ],
     "meaning": "例えば～のような"
   },
+  "suddenly": {
+    "lemma": "suddenly",
+    "pos": "副詞",
+    "coreMeaning": "【副詞】\n突然、急に。",
+    "tags": [],
+    "meaning": "【副詞】\n突然、急に。"
+  },
   "suffer": {
     "lemma": "suffer",
     "ipa": "",
@@ -15240,6 +15548,13 @@
     "coreMeaning": "【動詞】\n提案する；示唆する、～らしいことを示す。",
     "tags": [],
     "meaning": "【動詞】\n提案する；示唆する、～らしいことを示す。"
+  },
+  "suggestion": {
+    "lemma": "suggestion",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n提案、意見；示唆。",
+    "tags": [],
+    "meaning": "【名詞】\n提案、意見；示唆。"
   },
   "suit": {
     "lemma": "suit",
@@ -16214,6 +16529,13 @@
     ],
     "meaning": "【名詞】\n①（英国英語）懐中電灯\n② たいまつ。"
   },
+  "touch": {
+    "lemma": "touch",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n～に触れる、触る。",
+    "tags": [],
+    "meaning": "【動詞】\n～に触れる、触る。"
+  },
   "tough": {
     "lemma": "tough",
     "ipa": "/tˈʌf/",
@@ -16661,6 +16983,13 @@
     "tags": [],
     "meaning": "【形容詞】\n不運な、残念な；好ましくない。"
   },
+  "unfortunately": {
+    "lemma": "unfortunately",
+    "pos": "副詞",
+    "coreMeaning": "【副詞】\n残念ながら、不運にも。",
+    "tags": [],
+    "meaning": "【副詞】\n残念ながら、不運にも。"
+  },
   "unhappiness": {
     "lemma": "unhappiness",
     "pos": "名詞",
@@ -17024,6 +17353,13 @@
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
     "meaning": "【動詞】\n欲する、必要とする。\n【名詞】\n名詞で必要・不足・要求。"
+  },
+  "war": {
+    "lemma": "war",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n戦争、国家・集団間の武力による争い。",
+    "tags": [],
+    "meaning": "【名詞】\n戦争、国家・集団間の武力による争い。"
   },
   "warily": {
     "lemma": "warily",
@@ -17580,6 +17916,13 @@
       "context"
     ],
     "meaning": "【名詞】\n① 木食い虫\n② 虫害"
+  },
+  "worry": {
+    "lemma": "worry",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n心配する、気にかける、不安に思う。",
+    "tags": [],
+    "meaning": "【動詞】\n心配する、気にかける、不安に思う。"
   },
   "worst": {
     "lemma": "worst",
