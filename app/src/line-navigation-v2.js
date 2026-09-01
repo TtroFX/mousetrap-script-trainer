@@ -14,11 +14,11 @@ document.head.append(navStyle);
 
 const AXIS_LOCK_PX=8;
 const AXIS_DOMINANCE=1.08;
-const COMMIT_MIN_PX=30;
-const COMMIT_MAX_PX=56;
-const COMMIT_RATIO=.075;
-const FLICK_MIN_PX=18;
-const FLICK_VELOCITY=.18;
+const COMMIT_MIN_PX=22;
+const COMMIT_MAX_PX=42;
+const COMMIT_RATIO=.055;
+const FLICK_MIN_PX=14;
+const FLICK_VELOCITY=.11;
 const MOTION_MODEL='velocity-continuous-in-out-v1';
 const MOTION_X1=.3;
 const MOTION_X2=.7;

@@ -17,7 +17,7 @@ async function routeFixture(page){
   });
 }
 
-test('a short deliberate swipe commits without requiring a hard flick',async({page})=>{
+test('a 24px slow deliberate swipe commits with the relaxed threshold',async({page})=>{
   await ready(page);
   const target=await routeFixture(page);
   expect(target).toBeTruthy();
@@ -31,12 +31,12 @@ test('a short deliberate swipe commits without requiring a hard flick',async({pa
   await page.waitForTimeout(180);
   await page.evaluate(()=>{
     const root=document.querySelector('.line-page');
-    root.dispatchEvent(new PointerEvent('pointermove',{bubbles:true,cancelable:true,pointerType:'touch',pointerId:801,clientX:270,clientY:263}));
+    root.dispatchEvent(new PointerEvent('pointermove',{bubbles:true,cancelable:true,pointerType:'touch',pointerId:801,clientX:306,clientY:263}));
   });
   await page.waitForTimeout(140);
   await page.evaluate(()=>{
     const root=document.querySelector('.line-page');
-    root.dispatchEvent(new PointerEvent('pointerup',{bubbles:true,cancelable:true,pointerType:'touch',pointerId:801,clientX:270,clientY:263}));
+    root.dispatchEvent(new PointerEvent('pointerup',{bubbles:true,cancelable:true,pointerType:'touch',pointerId:801,clientX:306,clientY:263}));
   });
 
   await expect(page).toHaveURL(new RegExp(target.next),{timeout:12000});
