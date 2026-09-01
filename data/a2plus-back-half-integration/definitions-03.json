@@ -1,0 +1,11 @@
+{
+  "touch": {"pos":"動詞","meaning":"【動詞】\n～に触れる、触る。"},
+  "unfortunately": {"pos":"副詞","meaning":"【副詞】\n残念ながら、不運にも。"},
+  "war": {"pos":"名詞","meaning":"【名詞】\n戦争、国家・集団間の武力による争い。"},
+  "worry": {"pos":"動詞","meaning":"【動詞】\n心配する、気にかける、不安に思う。"},
+  "break up": {"pos":"句動詞","meaning":"家庭・関係・集団などが崩壊する、ばらばらになる；それらを終わらせる。"},
+  "cook up": {"pos":"句動詞","meaning":"話・計画・説明などをでっち上げる、作り上げる。"},
+  "so far": {"pos":"副詞句","meaning":"これまでのところ、今までに。"},
+  "sooner or later": {"pos":"定型表現","meaning":"遅かれ早かれ、いつかは。"},
+  "run a chance of": {"pos":"慣用表現","meaning":"～する可能性・危険性がある、～する危険を冒す。","tags":["dated"]}
+}
