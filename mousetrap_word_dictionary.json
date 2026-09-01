@@ -14600,5 +14600,609 @@
       "chunk"
     ],
     "meaning": "【句動】途中でやめる、中断する。"
+  },
+  "scarf": {
+    "lemma": "scarf",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n首に巻く防寒・装飾用の布、スカーフ、マフラー。",
+    "tags": [
+      "clothing"
+    ],
+    "meaning": "【名詞】\n首に巻く防寒・装飾用の布、スカーフ、マフラー。"
+  },
+  "felt hat": {
+    "lemma": "felt hat",
+    "pos": "名詞句",
+    "coreMeaning": "フェルト製の帽子。",
+    "tags": [
+      "clothing"
+    ],
+    "meaning": "フェルト製の帽子。"
+  },
+  "motorist": {
+    "lemma": "motorist",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n自動車を運転する人、ドライバー。",
+    "tags": [
+      "transport"
+    ],
+    "meaning": "【名詞】\n自動車を運転する人、ドライバー。"
+  },
+  "coast": {
+    "lemma": "coast",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n海岸、沿岸地方。",
+    "tags": [
+      "geography"
+    ],
+    "meaning": "【名詞】\n海岸、沿岸地方。"
+  },
+  "village": {
+    "lemma": "village",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n村、村落。",
+    "tags": [
+      "place"
+    ],
+    "meaning": "【名詞】\n村、村落。"
+  },
+  "stuff": {
+    "lemma": "stuff",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n物、品物、ものごと。",
+    "tags": [
+      "informal",
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n物、品物、ものごと。"
+  },
+  "chicken netting": {
+    "lemma": "chicken netting",
+    "pos": "名詞句",
+    "coreMeaning": "鶏小屋などに使う金網、チキンワイヤー。",
+    "tags": [
+      "household",
+      "farming"
+    ],
+    "meaning": "鶏小屋などに使う金網、チキンワイヤー。"
+  },
+  "aunt": {
+    "lemma": "aunt",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nおば。",
+    "tags": [],
+    "meaning": "【名詞】\nおば。"
+  },
+  "guest house": {
+    "lemma": "guest house",
+    "pos": "名詞句",
+    "coreMeaning": "小規模な宿泊施設、ゲストハウス。",
+    "tags": [
+      "British English",
+      "lodging"
+    ],
+    "meaning": "小規模な宿泊施設、ゲストハウス。"
+  },
+  "four-poster bed": {
+    "lemma": "four-poster bed",
+    "pos": "名詞句",
+    "coreMeaning": "四隅に柱が立つ天蓋付きの四柱式ベッド。",
+    "tags": [
+      "furniture",
+      "British English"
+    ],
+    "meaning": "四隅に柱が立つ天蓋付きの四柱式ベッド。"
+  },
+  "address": {
+    "lemma": "address",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n住所；宛先。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n住所；宛先。"
+  },
+  "gate": {
+    "lemma": "gate",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n門、出入口。",
+    "tags": [],
+    "meaning": "【名詞】\n門、出入口。"
+  },
+  "taxi": {
+    "lemma": "taxi",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nタクシー。",
+    "tags": [
+      "transport"
+    ],
+    "meaning": "【名詞】\nタクシー。"
+  },
+  "widow": {
+    "lemma": "widow",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n夫に先立たれた女性、未亡人。",
+    "tags": [
+      "family"
+    ],
+    "meaning": "【名詞】\n夫に先立たれた女性、未亡人。"
+  },
+  "fruit": {
+    "lemma": "fruit",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n果物；植物の実。",
+    "tags": [],
+    "meaning": "【名詞】\n果物；植物の実。"
+  },
+  "bedrock": {
+    "lemma": "bedrock",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n岩盤；物事の揺るがない基礎。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n岩盤；物事の揺るがない基礎。"
+  },
+  "beard": {
+    "lemma": "beard",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nあごひげ。",
+    "tags": [
+      "body"
+    ],
+    "meaning": "【名詞】\nあごひげ。"
+  },
+  "cigarette": {
+    "lemma": "cigarette",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n紙巻きたばこ。",
+    "tags": [
+      "daily-life"
+    ],
+    "meaning": "【名詞】\n紙巻きたばこ。"
+  },
+  "portrait painter": {
+    "lemma": "portrait painter",
+    "pos": "名詞句",
+    "coreMeaning": "人物の肖像画を描く画家。",
+    "tags": [
+      "art"
+    ],
+    "meaning": "人物の肖像画を描く画家。"
+  },
+  "canvas": {
+    "lemma": "canvas",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nキャンバス、画布；丈夫な帆布。",
+    "tags": [
+      "art",
+      "polysemy"
+    ],
+    "meaning": "【名詞】\nキャンバス、画布；丈夫な帆布。"
+  },
+  "parent": {
+    "lemma": "parent",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n親、父母の一方。",
+    "tags": [
+      "family"
+    ],
+    "meaning": "【名詞】\n親、父母の一方。"
+  },
+  "boiler": {
+    "lemma": "boiler",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n湯や暖房用の水を加熱するボイラー、給湯設備。",
+    "tags": [
+      "household"
+    ],
+    "meaning": "【名詞】\n湯や暖房用の水を加熱するボイラー、給湯設備。"
+  },
+  "major": {
+    "lemma": "major",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n陸軍などの少佐。",
+    "tags": [
+      "military",
+      "rank"
+    ],
+    "meaning": "【名詞】\n陸軍などの少佐。"
+  },
+  "bag": {
+    "lemma": "bag",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n袋、かばん、バッグ。",
+    "tags": [],
+    "meaning": "【名詞】\n袋、かばん、バッグ。"
+  },
+  "drive": {
+    "lemma": "drive",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n私道、車寄せまでの進入路；運転。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n私道、車寄せまでの進入路；運転。"
+  },
+  "experience": {
+    "lemma": "experience",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n経験、体験。",
+    "tags": [],
+    "meaning": "【名詞】\n経験、体験。"
+  },
+  "coat of paint": {
+    "lemma": "coat of paint",
+    "pos": "名詞句",
+    "coreMeaning": "一度塗りした塗料の層；塗装一回分。",
+    "tags": [
+      "building",
+      "household"
+    ],
+    "meaning": "一度塗りした塗料の層；塗装一回分。"
+  },
+  "advertisement": {
+    "lemma": "advertisement",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n広告、宣伝。",
+    "tags": [],
+    "meaning": "【名詞】\n広告、宣伝。"
+  },
+  "hen": {
+    "lemma": "hen",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n雌鶏。",
+    "tags": [
+      "animal",
+      "farming"
+    ],
+    "meaning": "【名詞】\n雌鶏。"
+  },
+  "robbery": {
+    "lemma": "robbery",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n強盗、強盗罪。",
+    "tags": [
+      "crime"
+    ],
+    "meaning": "【名詞】\n強盗、強盗罪。"
+  },
+  "bath": {
+    "lemma": "bath",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n入浴；浴槽。",
+    "tags": [
+      "household"
+    ],
+    "meaning": "【名詞】\n入浴；浴槽。"
+  },
+  "minced beef": {
+    "lemma": "minced beef",
+    "pos": "名詞句",
+    "coreMeaning": "【英】牛ひき肉。",
+    "tags": [
+      "British English",
+      "food"
+    ],
+    "meaning": "【英】牛ひき肉。"
+  },
+  "pea": {
+    "lemma": "pea",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nエンドウ豆、グリーンピース。",
+    "tags": [
+      "food"
+    ],
+    "meaning": "【名詞】\nエンドウ豆、グリーンピース。"
+  },
+  "potato": {
+    "lemma": "potato",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nじゃがいも。",
+    "tags": [
+      "food"
+    ],
+    "meaning": "【名詞】\nじゃがいも。"
+  },
+  "stewed figs": {
+    "lemma": "stewed figs",
+    "pos": "名詞句",
+    "coreMeaning": "煮たイチジク、イチジクの煮物。",
+    "tags": [
+      "food"
+    ],
+    "meaning": "煮たイチジク、イチジクの煮物。"
+  },
+  "bottle": {
+    "lemma": "bottle",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n瓶、ボトル。",
+    "tags": [],
+    "meaning": "【名詞】\n瓶、ボトル。"
+  },
+  "wine": {
+    "lemma": "wine",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nワイン、ぶどう酒。",
+    "tags": [
+      "food"
+    ],
+    "meaning": "【名詞】\nワイン、ぶどう酒。"
+  },
+  "butcher": {
+    "lemma": "butcher",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n肉屋、食肉販売業者。",
+    "tags": [
+      "occupation",
+      "daily-life"
+    ],
+    "meaning": "【名詞】\n肉屋、食肉販売業者。"
+  },
+  "baker": {
+    "lemma": "baker",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nパン屋、パン職人。",
+    "tags": [
+      "occupation",
+      "daily-life"
+    ],
+    "meaning": "【名詞】\nパン屋、パン職人。"
+  },
+  "milkman": {
+    "lemma": "milkman",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n牛乳配達員。",
+    "tags": [
+      "dated",
+      "occupation",
+      "British English"
+    ],
+    "meaning": "【名詞】\n牛乳配達員。"
+  },
+  "postman": {
+    "lemma": "postman",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n郵便配達員。",
+    "tags": [
+      "occupation",
+      "British English"
+    ],
+    "meaning": "【名詞】\n郵便配達員。"
+  },
+  "daily paper": {
+    "lemma": "daily paper",
+    "pos": "名詞句",
+    "coreMeaning": "日刊新聞。",
+    "tags": [
+      "media",
+      "British English"
+    ],
+    "meaning": "日刊新聞。"
+  },
+  "breakfast": {
+    "lemma": "breakfast",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n朝食。",
+    "tags": [
+      "food"
+    ],
+    "meaning": "【名詞】\n朝食。"
+  },
+  "coffee": {
+    "lemma": "coffee",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nコーヒー。",
+    "tags": [
+      "food"
+    ],
+    "meaning": "【名詞】\nコーヒー。"
+  },
+  "lunch": {
+    "lemma": "lunch",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n昼食。",
+    "tags": [
+      "food"
+    ],
+    "meaning": "【名詞】\n昼食。"
+  },
+  "pie": {
+    "lemma": "pie",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nパイ。",
+    "tags": [
+      "food"
+    ],
+    "meaning": "【名詞】\nパイ。"
+  },
+  "bed": {
+    "lemma": "bed",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nベッド、寝床。",
+    "tags": [
+      "furniture",
+      "household"
+    ],
+    "meaning": "【名詞】\nベッド、寝床。"
+  },
+  "bedroom": {
+    "lemma": "bedroom",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n寝室。",
+    "tags": [
+      "household"
+    ],
+    "meaning": "【名詞】\n寝室。"
+  },
+  "writing room": {
+    "lemma": "writing room",
+    "pos": "名詞句",
+    "coreMeaning": "手紙を書いたり読書したりするための部屋。",
+    "tags": [
+      "lodging",
+      "dated"
+    ],
+    "meaning": "手紙を書いたり読書したりするための部屋。"
+  },
+  "tabby": {
+    "lemma": "tabby",
+    "pos": "名詞",
+    "coreMeaning": "【英・古風】年配女性をからかって呼ぶ語；本来はトラ猫。",
+    "tags": [
+      "British English",
+      "dated",
+      "potentially-offensive",
+      "polysemy"
+    ],
+    "meaning": "【英・古風】年配女性をからかって呼ぶ語；本来はトラ猫。"
+  },
+  "front hall": {
+    "lemma": "front hall",
+    "pos": "名詞句",
+    "coreMeaning": "玄関ホール、正面玄関側の廊下・広間。",
+    "tags": [
+      "household"
+    ],
+    "meaning": "玄関ホール、正面玄関側の廊下・広間。"
+  },
+  "radio": {
+    "lemma": "radio",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nラジオ；無線通信。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\nラジオ；無線通信。"
+  },
+  "writing table": {
+    "lemma": "writing table",
+    "pos": "名詞句",
+    "coreMeaning": "書き物用の机、ライティングデスク。",
+    "tags": [
+      "furniture"
+    ],
+    "meaning": "書き物用の机、ライティングデスク。"
+  },
+  "chair": {
+    "lemma": "chair",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n椅子。",
+    "tags": [
+      "furniture"
+    ],
+    "meaning": "【名詞】\n椅子。"
+  },
+  "ice": {
+    "lemma": "ice",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n氷。",
+    "tags": [],
+    "meaning": "【名詞】\n氷。"
+  },
+  "jug": {
+    "lemma": "jug",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n水差し、ピッチャー。",
+    "tags": [
+      "household",
+      "British English"
+    ],
+    "meaning": "【名詞】\n水差し、ピッチャー。"
+  },
+  "novel": {
+    "lemma": "novel",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n小説。",
+    "tags": [
+      "literature"
+    ],
+    "meaning": "【名詞】\n小説。"
+  },
+  "spade": {
+    "lemma": "spade",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n土・雪などを掘るための平たい刃のシャベル、鋤。",
+    "tags": [
+      "tool",
+      "British English"
+    ],
+    "meaning": "【名詞】\n土・雪などを掘るための平たい刃のシャベル、鋤。"
+  },
+  "jeep": {
+    "lemma": "jeep",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nジープ型の四輪駆動車。",
+    "tags": [
+      "transport"
+    ],
+    "meaning": "【名詞】\nジープ型の四輪駆動車。"
+  },
+  "dresser": {
+    "lemma": "dresser",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n食器棚、キッチン用の戸棚。",
+    "tags": [
+      "British English",
+      "furniture",
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n食器棚、キッチン用の戸棚。"
+  },
+  "wood": {
+    "lemma": "wood",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n木材、薪；森。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n木材、薪；森。"
+  },
+  "manners": {
+    "lemma": "manners",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n行儀、礼儀作法。",
+    "tags": [
+      "daily-life"
+    ],
+    "meaning": "【名詞】\n行儀、礼儀作法。"
+  },
+  "tie": {
+    "lemma": "tie",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nネクタイ；結びつき。",
+    "tags": [
+      "clothing",
+      "polysemy"
+    ],
+    "meaning": "【名詞】\nネクタイ；結びつき。"
+  },
+  "snow up": {
+    "lemma": "snow up",
+    "pos": "句動詞",
+    "coreMeaning": "雪で道・建物が閉ざされ、動けなくなる。",
+    "tags": [
+      "British English",
+      "weather"
+    ],
+    "meaning": "雪で道・建物が閉ざされ、動けなくなる。"
+  },
+  "forge": {
+    "lemma": "forge",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\n文書・署名などを偽造する。",
+    "tags": [
+      "crime"
+    ],
+    "meaning": "【動詞】\n文書・署名などを偽造する。"
+  },
+  "bog": {
+    "lemma": "bog",
+    "pos": "動詞",
+    "coreMeaning": "【動詞】\nぬかるみなどにはまり動けなくする／なる。",
+    "tags": [
+      "transport"
+    ],
+    "meaning": "【動詞】\nぬかるみなどにはまり動けなくする／なる。"
   }
 }

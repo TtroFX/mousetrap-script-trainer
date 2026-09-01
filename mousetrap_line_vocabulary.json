@@ -457,6 +457,36 @@
       "lemma": "place",
       "meaning": "【動】置く、配置する。【名】場所。",
       "playMeaning": true
+    },
+    {
+      "surface": "scarf",
+      "lemma": "scarf",
+      "meaning": "【名詞】\n首に巻く防寒・装飾用の布、スカーフ、マフラー。",
+      "playMeaning": true
+    },
+    {
+      "surface": "felt hat",
+      "lemma": "felt hat",
+      "meaning": "フェルト製の帽子。",
+      "playMeaning": true
+    },
+    {
+      "surface": "Motorists",
+      "lemma": "motorist",
+      "meaning": "【名詞】\n自動車を運転する人、ドライバー。",
+      "playMeaning": true
+    },
+    {
+      "surface": "coast",
+      "lemma": "coast",
+      "meaning": "【名詞】\n海岸、沿岸地方。",
+      "playMeaning": true
+    },
+    {
+      "surface": "Ice",
+      "lemma": "ice",
+      "meaning": "【名詞】\n氷。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0002": [
@@ -813,6 +843,25 @@
       "lemma": "netting",
       "meaning": "【名詞】\n網、ネット状の材料",
       "playMeaning": true
+    },
+    {
+      "surface": "village",
+      "lemma": "village",
+      "meaning": "【名詞】\n村、村落。",
+      "playMeaning": true
+    },
+    {
+      "surface": "stuff",
+      "lemma": "stuff",
+      "meaning": "【名詞】\n物、品物、ものごと。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは村で買う必要があった「物・品物」という意味。"
+    },
+    {
+      "surface": "chicken netting",
+      "lemma": "chicken netting",
+      "meaning": "鶏小屋などに使う金網、チキンワイヤー。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0011": [
@@ -903,6 +952,12 @@
       "meaning": "【形】\n不機嫌な、怒った。\n【動】\n① 横切る、渡る\n② 交差する。\n【名】\n十字形、十字架。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】ここでは形容詞の「不機嫌な」ではなく、俳優が舞台上を横切って別の位置へ移動する、という動詞の舞台指示。"
+    },
+    {
+      "surface": "pipes",
+      "lemma": "pipe",
+      "meaning": "【名詞】\n水・ガスなどを通す管、パイプ。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0013": [
@@ -1127,6 +1182,18 @@
       "lemma": "cold feet",
       "meaning": "怖気、尻込み",
       "playMeaning": true
+    },
+    {
+      "surface": "aunt",
+      "lemma": "aunt",
+      "meaning": "【名詞】\nおば。",
+      "playMeaning": true
+    },
+    {
+      "surface": "guest house",
+      "lemma": "guest house",
+      "meaning": "小規模な宿泊施設、ゲストハウス。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0022": [
@@ -1164,6 +1231,12 @@
       "surface": "indicates",
       "lemma": "indicate",
       "meaning": "【動】指し示す、合図する。",
+      "playMeaning": true
+    },
+    {
+      "surface": "guest house",
+      "lemma": "guest house",
+      "meaning": "小規模な宿泊施設、ゲストハウス。",
       "playMeaning": true
     }
   ],
@@ -1263,6 +1336,13 @@
       "meaning": "火を長持ちさせるよう燃料を積む／雪などが堆積する",
       "playMeaning": true,
       "inThisPlay": "ここでは炉・暖房の火が夜通し保つよう燃料を多めに入れ、燃え方を抑えておくこと。"
+    },
+    {
+      "surface": "yard",
+      "lemma": "yard",
+      "meaning": "【名詞】\n① 庭・囲まれた屋外の場所\n② 長さの単位ヤード",
+      "playMeaning": true,
+      "inThisPlay": "ここでは建物の外にある中庭・作業用の屋外部分。"
     }
   ],
   "act1-scene1-speech-0028": [],
@@ -1322,6 +1402,12 @@
       "surface": "Fourposter",
       "lemma": "four-poster",
       "meaning": "【名詞】\n四隅に高い柱があり、上部の枠や天蓋を支える大型ベッド。",
+      "playMeaning": true
+    },
+    {
+      "surface": "Major",
+      "lemma": "major",
+      "meaning": "【名詞】\n陸軍などの少佐。",
       "playMeaning": true
     }
   ],
@@ -1452,7 +1538,15 @@
       "playMeaning": true
     }
   ],
-  "act1-scene1-speech-0038": [],
+  "act1-scene1-speech-0038": [
+    {
+      "surface": "addresses",
+      "lemma": "address",
+      "meaning": "【名詞】\n住所；宛先。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは客が手紙に記した「住所」。"
+    }
+  ],
   "act1-scene1-speech-0039": [
     {
       "surface": "forged references",
@@ -1485,6 +1579,18 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "servants",
+      "lemma": "servant",
+      "meaning": "【名詞】\n家庭などで雇われ、家事や身の回りの仕事をする人。",
+      "playMeaning": true
+    },
+    {
+      "surface": "forged",
+      "lemma": "forge",
+      "meaning": "【動詞】\n文書・署名などを偽造する。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0040": [
@@ -1737,6 +1843,24 @@
       "lemma": "offstage",
       "meaning": "【舞台】舞台外で・舞台外から。台詞や音が舞台上ではなく見えない場所から発せられること。",
       "playMeaning": true
+    },
+    {
+      "surface": "scarf",
+      "lemma": "scarf",
+      "meaning": "【名詞】\n首に巻く防寒・装飾用の布、スカーフ、マフラー。",
+      "playMeaning": true
+    },
+    {
+      "surface": "felt hat",
+      "lemma": "felt hat",
+      "meaning": "フェルト製の帽子。",
+      "playMeaning": true
+    },
+    {
+      "surface": "Motorists",
+      "lemma": "motorist",
+      "meaning": "【名詞】\n自動車を運転する人、ドライバー。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0043": [
@@ -1879,6 +2003,25 @@
       "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    },
+    {
+      "surface": "gate",
+      "lemma": "gate",
+      "meaning": "【名詞】\n門、出入口。",
+      "playMeaning": true
+    },
+    {
+      "surface": "taxi",
+      "lemma": "taxi",
+      "meaning": "【名詞】\nタクシー。",
+      "playMeaning": true
+    },
+    {
+      "surface": "drive",
+      "lemma": "drive",
+      "meaning": "【名詞】\n私道、車寄せまでの進入路；運転。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは門から建物まで続く「私道・進入路」。"
     }
   ],
   "act1-scene1-speech-0045": [],
@@ -2008,6 +2151,12 @@
       "lemma": "wax flower",
       "meaning": "蝋で作った装飾用の造花。",
       "playMeaning": true
+    },
+    {
+      "surface": "General's widow",
+      "lemma": "widow",
+      "meaning": "【名詞】\n夫に先立たれた女性、未亡人。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0047": [],
@@ -2035,6 +2184,12 @@
       "lemma": "solid",
       "meaning": "【形】\n固体の、頑丈な、中身の詰まった。\n【名】\n固体。",
       "playMeaning": false
+    },
+    {
+      "surface": "fruits",
+      "lemma": "fruit",
+      "meaning": "【名詞】\n果物；植物の実。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0049": [
@@ -2248,6 +2403,13 @@
       "lemma": "stand",
       "meaning": "【動】立つ、立っている。",
       "playMeaning": true
+    },
+    {
+      "surface": "bedrock",
+      "lemma": "bedrock",
+      "meaning": "【名詞】\n岩盤；物事の揺るがない基礎。",
+      "playMeaning": true,
+      "inThisPlay": "bedrock respectability で、非常に堅固で典型的な「立派さ」の基盤という比喩。"
     }
   ],
   "act1-scene1-speech-0053": [],
@@ -2410,6 +2572,12 @@
       "meaning": "時代物の家具への好みに夢中になりすぎ、実用性を忘れて話していたこと。",
       "playMeaning": true,
       "inThisPlay": "ここでは時代物の家具への熱中に『つい夢中になって言い過ぎた』という意味。"
+    },
+    {
+      "surface": "beard",
+      "lemma": "beard",
+      "meaning": "【名詞】\nあごひげ。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0055": [
@@ -2431,6 +2599,12 @@
       "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    },
+    {
+      "surface": "suitcase",
+      "lemma": "suitcase",
+      "meaning": "【名詞】\n旅行用の手提げかばん。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0056": [],
@@ -2563,6 +2737,12 @@
       "lemma": "take",
       "meaning": "【動】取る、手に取る、持っていく。",
       "playMeaning": true
+    },
+    {
+      "surface": "Cigarette",
+      "lemma": "cigarette",
+      "meaning": "【名詞】\n紙巻きたばこ。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0065": [
@@ -2603,6 +2783,19 @@
       "lemma": "sit",
       "meaning": "【動詞】\n座る、腰掛ける",
       "playMeaning": true
+    },
+    {
+      "surface": "portrait painters",
+      "lemma": "portrait painter",
+      "meaning": "人物の肖像画を描く画家。",
+      "playMeaning": true
+    },
+    {
+      "surface": "canvas",
+      "lemma": "canvas",
+      "meaning": "【名詞】\nキャンバス、画布；丈夫な帆布。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは絵を描く「画布」。"
     }
   ],
   "act1-scene1-speech-0066": [
@@ -2728,6 +2921,12 @@
       "meaning": "【舞台用語】\n台詞・視線・動作を特定の人物や場所へ向ける指示。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】誰に向けて台詞・動作を行うかを指定する演技上のキュー。"
+    },
+    {
+      "surface": "parents",
+      "lemma": "parent",
+      "meaning": "【名詞】\n親、父母の一方。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0068": [
@@ -2963,6 +3162,18 @@
       "lemma": "pause",
       "meaning": "【動詞】\n一時止まる、間を置く。\n【名詞】\n短い中断、間。",
       "playMeaning": true
+    },
+    {
+      "surface": "hot-water boiler",
+      "lemma": "boiler",
+      "meaning": "【名詞】\n湯や暖房用の水を加熱するボイラー、給湯設備。",
+      "playMeaning": true
+    },
+    {
+      "surface": "boiler",
+      "lemma": "boiler",
+      "meaning": "【名詞】\n湯や暖房用の水を加熱するボイラー、給湯設備。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0075": [
@@ -3086,6 +3297,12 @@
       "lemma": "see to",
       "meaning": "～を処理する／面倒を見る",
       "playMeaning": true
+    },
+    {
+      "surface": "Major",
+      "lemma": "major",
+      "meaning": "【名詞】\n陸軍などの少佐。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0080": [
@@ -3133,6 +3350,25 @@
       "lemma": "accusingly",
       "meaning": "【副】非難するように、責める調子で。",
       "playMeaning": true
+    },
+    {
+      "surface": "gate",
+      "lemma": "gate",
+      "meaning": "【名詞】\n門、出入口。",
+      "playMeaning": true
+    },
+    {
+      "surface": "taxi",
+      "lemma": "taxi",
+      "meaning": "【名詞】\nタクシー。",
+      "playMeaning": true
+    },
+    {
+      "surface": "drive",
+      "lemma": "drive",
+      "meaning": "【名詞】\n私道、車寄せまでの進入路；運転。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは門から建物まで続く「私道・進入路」。"
     }
   ],
   "act1-scene1-speech-0082": [
@@ -3194,6 +3430,12 @@
       "meaning": "【動詞】\n外へ出る、退出する。\n【名詞】\n出口、退出・退場。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】俳優・人物が舞台から退場する指示。"
+    },
+    {
+      "surface": "bags",
+      "lemma": "bag",
+      "meaning": "【名詞】\n袋、かばん、バッグ。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0085": [
@@ -3259,6 +3501,13 @@
       "lemma": "breathless",
       "meaning": "【形】息を切らした、息せき切った。",
       "playMeaning": true
+    },
+    {
+      "surface": "drive",
+      "lemma": "drive",
+      "meaning": "【名詞】\n私道、車寄せまでの進入路；運転。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは門から建物まで続く「私道・進入路」。"
     }
   ],
   "act1-scene1-speech-0086": [],
@@ -3310,6 +3559,12 @@
       "surface": "establishment",
       "lemma": "establishment",
       "meaning": "【名詞】\n施設、事業所",
+      "playMeaning": true
+    },
+    {
+      "surface": "experience",
+      "lemma": "experience",
+      "meaning": "【名詞】\n経験、体験。",
       "playMeaning": true
     }
   ],
@@ -3422,6 +3677,12 @@
       "lemma": "could do with",
       "meaning": "～があるとよい、～が必要だ。",
       "playMeaning": true
+    },
+    {
+      "surface": "coat of paint",
+      "lemma": "coat of paint",
+      "meaning": "一度塗りした塗料の層；塗装一回分。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0098": [
@@ -3485,6 +3746,12 @@
       "surface": "puts down a suitcase he is carrying and moves above the armchair Centre; MOLLIE moves up",
       "lemma": "hold up",
       "meaning": "【句動】持ち上げる、掲げる；遅らせる。",
+      "playMeaning": true
+    },
+    {
+      "surface": "Major",
+      "lemma": "major",
+      "meaning": "【名詞】\n陸軍などの少佐。",
       "playMeaning": true
     }
   ],
@@ -3613,6 +3880,12 @@
       "lemma": "four-poster",
       "meaning": "【名詞】\n四隅に高い柱があり、上部の枠や天蓋を支える大型ベッド。",
       "playMeaning": true
+    },
+    {
+      "surface": "Major",
+      "lemma": "major",
+      "meaning": "【名詞】\n陸軍などの少佐。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0102": [
@@ -3628,6 +3901,12 @@
       "meaning": "【動詞】\n動く、移動する、動かす。\n【名詞】\n動き、移動、行動。",
       "playMeaning": true,
       "inThisPlay": "【ト書き】俳優の舞台上での位置移動を指定する語。"
+    },
+    {
+      "surface": "Major",
+      "lemma": "major",
+      "meaning": "【名詞】\n陸軍などの少佐。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0103": [
@@ -3697,6 +3976,12 @@
       "lemma": "come in",
       "meaning": "入ってくる／中に入る",
       "playMeaning": true
+    },
+    {
+      "surface": "village",
+      "lemma": "village",
+      "meaning": "【名詞】\n村、村落。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0106": [
@@ -3759,6 +4044,12 @@
       "meaning": "設備が動くというだけでなく、宿が必要な人員や仕組みを備えて通常営業している状態。",
       "playMeaning": true,
       "inThisPlay": "ここでは宿泊施設が必要な設備・人員を備えて通常営業できる状態。"
+    },
+    {
+      "surface": "guest house",
+      "lemma": "guest house",
+      "meaning": "小規模な宿泊施設、ゲストハウス。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0109": [
@@ -3812,6 +4103,24 @@
       "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
       "playMeaning": true,
       "inThisPlay": "Monkswell Manorの宿泊客で、Majorの軍階級で呼ばれる人物。"
+    },
+    {
+      "surface": "servants",
+      "lemma": "servant",
+      "meaning": "【名詞】\n家庭などで雇われ、家事や身の回りの仕事をする人。",
+      "playMeaning": true
+    },
+    {
+      "surface": "Major",
+      "lemma": "major",
+      "meaning": "【名詞】\n陸軍などの少佐。",
+      "playMeaning": true
+    },
+    {
+      "surface": "advertisement",
+      "lemma": "advertisement",
+      "meaning": "【名詞】\n広告、宣伝。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0111": [],
@@ -3867,6 +4176,12 @@
       "surface": "singing",
       "lemma": "sing",
       "meaning": "【動】歌う。",
+      "playMeaning": true
+    },
+    {
+      "surface": "nursery rhymes",
+      "lemma": "nursery rhyme",
+      "meaning": "童謡／わらべ歌",
       "playMeaning": true
     }
   ],
@@ -4103,6 +4418,12 @@
       "lemma": "fill someone's place",
       "meaning": "人が空けた役割・位置・場所を別の人で補う。",
       "playMeaning": true
+    },
+    {
+      "surface": "taxi",
+      "lemma": "taxi",
+      "meaning": "【名詞】\nタクシー。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0122": [
@@ -4137,6 +4458,12 @@
       "meaning": "人を追い出す",
       "playMeaning": true,
       "inThisPlay": "人を追い出す、退去させる。"
+    },
+    {
+      "surface": "bedroom",
+      "lemma": "bedroom",
+      "meaning": "【名詞】\n寝室。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0123": [
@@ -4318,6 +4645,13 @@
       "lemma": "take",
       "meaning": "【動】取る、手に取る、持っていく。",
       "playMeaning": true
+    },
+    {
+      "surface": "stuff",
+      "lemma": "stuff",
+      "meaning": "【名詞】\n物、品物、ものごと。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは村で買う必要があった「物・品物」という意味。"
     }
   ],
   "act1-scene1-speech-0128": [
@@ -4464,6 +4798,12 @@
       "lemma": "take",
       "meaning": "【動】取る、手に取る、持っていく。",
       "playMeaning": true
+    },
+    {
+      "surface": "Motorists",
+      "lemma": "motorist",
+      "meaning": "【名詞】\n自動車を運転する人、ドライバー。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0133": [
@@ -4471,6 +4811,12 @@
       "surface": "manager",
       "lemma": "manager",
       "meaning": "【名詞】\n管理・運営を担当する人。",
+      "playMeaning": true
+    },
+    {
+      "surface": "hens",
+      "lemma": "hen",
+      "meaning": "【名詞】\n雌鶏。",
       "playMeaning": true
     }
   ],
@@ -4747,6 +5093,18 @@
       "lemma": "sit",
       "meaning": "【動詞】\n座る、腰掛ける",
       "playMeaning": true
+    },
+    {
+      "surface": "scarf",
+      "lemma": "scarf",
+      "meaning": "【名詞】\n首に巻く防寒・装飾用の布、スカーフ、マフラー。",
+      "playMeaning": true
+    },
+    {
+      "surface": "felt hat",
+      "lemma": "felt hat",
+      "meaning": "フェルト製の帽子。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0140": [
@@ -4823,7 +5181,14 @@
     }
   ],
   "act1-scene1-speech-0145": [],
-  "act1-scene1-speech-0146": [],
+  "act1-scene1-speech-0146": [
+    {
+      "surface": "robbery",
+      "lemma": "robbery",
+      "meaning": "【名詞】\n強盗、強盗罪。",
+      "playMeaning": true
+    }
+  ],
   "act1-scene1-speech-0147": [
     {
       "surface": "maniac",
@@ -4920,6 +5285,12 @@
       "surface": "come up",
       "lemma": "come up",
       "meaning": "上がってくる／近づいてくる",
+      "playMeaning": true
+    },
+    {
+      "surface": "bath",
+      "lemma": "bath",
+      "meaning": "【名詞】\n入浴；浴槽。",
       "playMeaning": true
     }
   ],
@@ -5085,6 +5456,36 @@
       "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
       "playMeaning": true,
       "inThisPlay": "Monkswell Manorの宿泊客で、Majorの軍階級で呼ばれる人物。"
+    },
+    {
+      "surface": "Major",
+      "lemma": "major",
+      "meaning": "【名詞】\n陸軍などの少佐。",
+      "playMeaning": true
+    },
+    {
+      "surface": "minced beef",
+      "lemma": "minced beef",
+      "meaning": "【英】牛ひき肉。",
+      "playMeaning": true
+    },
+    {
+      "surface": "peas",
+      "lemma": "pea",
+      "meaning": "【名詞】\nエンドウ豆、グリーンピース。",
+      "playMeaning": true
+    },
+    {
+      "surface": "potatoes",
+      "lemma": "potato",
+      "meaning": "【名詞】\nじゃがいも。",
+      "playMeaning": true
+    },
+    {
+      "surface": "stewed figs",
+      "lemma": "stewed figs",
+      "meaning": "煮たイチジク、イチジクの煮物。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0153": [
@@ -5193,6 +5594,24 @@
       "meaning": "おそらく～だろう、たぶんね。",
       "playMeaning": true,
       "inThisPlay": "『たぶん～だろう』『～と思う』という英国的・やや古風な言い方。"
+    },
+    {
+      "surface": "minced beef",
+      "lemma": "minced beef",
+      "meaning": "【英】牛ひき肉。",
+      "playMeaning": true
+    },
+    {
+      "surface": "bottle",
+      "lemma": "bottle",
+      "meaning": "【名詞】\n瓶、ボトル。",
+      "playMeaning": true
+    },
+    {
+      "surface": "wine",
+      "lemma": "wine",
+      "meaning": "【名詞】\nワイン、ぶどう酒。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0157": [
@@ -5432,6 +5851,12 @@
       "lemma": "hotel keeper",
       "meaning": "ホテル経営者／宿屋の主人",
       "playMeaning": true
+    },
+    {
+      "surface": "weight",
+      "lemma": "weight",
+      "meaning": "【名詞】\n重さ、重量。重要性・負担を表すこともある。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0165": [
@@ -5468,6 +5893,12 @@
       "meaning": "【名詞】\n女性・雌。\n【形容詞】\n女性の・雌の。",
       "playMeaning": true,
       "inThisPlay": "Miss Casewellの外見や振る舞いが当時の女性らしさの規範から外れているとして、Gilesが失礼にからかっている。事実として性別を疑っていると断定すべきではない。"
+    },
+    {
+      "surface": "female",
+      "lemma": "female",
+      "meaning": "【名詞】\n女性・雌。\n【形容詞】\n女性の・雌の。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0167": [
@@ -5483,6 +5914,12 @@
       "meaning": "【固有名詞】Major Metcalfという人名・呼称。Majorは軍の階級名。",
       "playMeaning": true,
       "inThisPlay": "Monkswell Manorの宿泊客で、Majorの軍階級で呼ばれる人物。"
+    },
+    {
+      "surface": "Major",
+      "lemma": "major",
+      "meaning": "【名詞】\n陸軍などの少佐。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0168": [
@@ -5678,6 +6115,12 @@
       "meaning": "【固有名詞】\nMonkswell Manor Guest Houseという宿泊施設名。",
       "playMeaning": true,
       "inThisPlay": "MollieとGilesが始めたゲストハウスの名称。"
+    },
+    {
+      "surface": "guest house",
+      "lemma": "guest house",
+      "meaning": "小規模な宿泊施設、ゲストハウス。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0177": [
@@ -5830,6 +6273,31 @@
       "lemma": "answer to prayer",
       "meaning": "願ってもないもの／祈りへの答え",
       "playMeaning": true
+    },
+    {
+      "surface": "guest house",
+      "lemma": "guest house",
+      "meaning": "小規模な宿泊施設、ゲストハウス。",
+      "playMeaning": true
+    },
+    {
+      "surface": "drive",
+      "lemma": "drive",
+      "meaning": "【名詞】\n私道、車寄せまでの進入路；運転。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは門から建物まで続く「私道・進入路」。"
+    },
+    {
+      "surface": "snowdrift",
+      "lemma": "snowdrift",
+      "meaning": "【名詞】\n雪の吹きだまり",
+      "playMeaning": true
+    },
+    {
+      "surface": "gates",
+      "lemma": "gate",
+      "meaning": "【名詞】\n門、出入口。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0178": [],
@@ -5859,6 +6327,12 @@
       "surface": "just",
       "lemma": "just",
       "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
+      "playMeaning": true
+    },
+    {
+      "surface": "guest house",
+      "lemma": "guest house",
+      "meaning": "小規模な宿泊施設、ゲストハウス。",
       "playMeaning": true
     }
   ],
@@ -6002,6 +6476,12 @@
       "meaning": "【固有名詞】Miss Casewellという人名・呼称。",
       "playMeaning": true,
       "inThisPlay": "Monkswell Manorの宿泊客の一人。"
+    },
+    {
+      "surface": "Major",
+      "lemma": "major",
+      "meaning": "【名詞】\n陸軍などの少佐。",
+      "playMeaning": true
     }
   ],
   "act1-scene1-speech-0190": [
@@ -6222,6 +6702,42 @@
       "lemma": "look",
       "meaning": "【動】見る、目を向ける。",
       "playMeaning": true
+    },
+    {
+      "surface": "guest house",
+      "lemma": "guest house",
+      "meaning": "小規模な宿泊施設、ゲストハウス。",
+      "playMeaning": true
+    },
+    {
+      "surface": "butcher",
+      "lemma": "butcher",
+      "meaning": "【名詞】\n肉屋、食肉販売業者。",
+      "playMeaning": true
+    },
+    {
+      "surface": "baker",
+      "lemma": "baker",
+      "meaning": "【名詞】\nパン屋、パン職人。",
+      "playMeaning": true
+    },
+    {
+      "surface": "milkman",
+      "lemma": "milkman",
+      "meaning": "【名詞】\n牛乳配達員。",
+      "playMeaning": true
+    },
+    {
+      "surface": "postman",
+      "lemma": "postman",
+      "meaning": "【名詞】\n郵便配達員。",
+      "playMeaning": true
+    },
+    {
+      "surface": "daily papers",
+      "lemma": "daily paper",
+      "meaning": "日刊新聞。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0001": [
@@ -6312,6 +6828,18 @@
       "lemma": "got to",
       "meaning": "～しなければならない／～する必要がある",
       "playMeaning": true
+    },
+    {
+      "surface": "breakfast",
+      "lemma": "breakfast",
+      "meaning": "【名詞】\n朝食。",
+      "playMeaning": true
+    },
+    {
+      "surface": "coffee",
+      "lemma": "coffee",
+      "meaning": "【名詞】\nコーヒー。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0003": [
@@ -6340,7 +6868,14 @@
       "playMeaning": true
     }
   ],
-  "act1-scene2-speech-0004": [],
+  "act1-scene2-speech-0004": [
+    {
+      "surface": "lunch",
+      "lemma": "lunch",
+      "meaning": "【名詞】\n昼食。",
+      "playMeaning": true
+    }
+  ],
   "act1-scene2-speech-0005": [
     {
       "surface": "Cornbeef",
@@ -6369,6 +6904,18 @@
       "meaning": "【名】塩漬け牛肉、コーンビーフ。",
       "playMeaning": true,
       "inThisPlay": "劇中の綴りはCornbeef。塩漬け牛肉（corned beef）を指す。"
+    },
+    {
+      "surface": "wine",
+      "lemma": "wine",
+      "meaning": "【名詞】\nワイン、ぶどう酒。",
+      "playMeaning": true
+    },
+    {
+      "surface": "pie",
+      "lemma": "pie",
+      "meaning": "【名詞】\nパイ。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0007": [
@@ -6405,6 +6952,12 @@
       "lemma": "at least",
       "meaning": "少なくとも",
       "playMeaning": true
+    },
+    {
+      "surface": "beds",
+      "lemma": "bed",
+      "meaning": "【名詞】\nベッド、寝床。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0009": [
@@ -6436,6 +6989,12 @@
       "surface": "returns",
       "lemma": "return",
       "meaning": "【動詞】\n戻る、返す。\n【名詞】\n戻ること。",
+      "playMeaning": true
+    },
+    {
+      "surface": "bedroom",
+      "lemma": "bedroom",
+      "meaning": "【名詞】\n寝室。",
       "playMeaning": true
     }
   ],
@@ -6490,6 +7049,18 @@
       "lemma": "amenity",
       "meaning": "【名詞】\n快適設備、便益",
       "playMeaning": true
+    },
+    {
+      "surface": "advertisement",
+      "lemma": "advertisement",
+      "meaning": "【名詞】\n広告、宣伝。",
+      "playMeaning": true
+    },
+    {
+      "surface": "writing room",
+      "lemma": "writing room",
+      "meaning": "手紙を書いたり読書したりするための部屋。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0012": [
@@ -6506,6 +7077,13 @@
       "meaning": "【名】tabby は猫；古風な俗語で年配の女性を指すことがあり、軽蔑的に響く。",
       "playMeaning": true,
       "inThisPlay": "年配女性を指す古風で軽蔑的な口語。Major MetcalfがMrs Boyleのような客層をからかっている。"
+    },
+    {
+      "surface": "tabbies'",
+      "lemma": "tabby",
+      "meaning": "【英・古風】年配女性をからかって呼ぶ語；本来はトラ猫。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは年配の女性客をからかって言う古風な表現。"
     }
   ],
   "act1-scene2-speech-0013": [
@@ -6819,6 +7397,12 @@
       "lemma": "back stairs",
       "meaning": "建物の裏側・使用人用などに設けられた裏階段。",
       "playMeaning": true
+    },
+    {
+      "surface": "front hall",
+      "lemma": "front hall",
+      "meaning": "玄関ホール、正面玄関側の廊下・広間。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0028": [
@@ -6848,7 +7432,20 @@
       "playMeaning": true
     }
   ],
-  "act1-scene2-speech-0029": [],
+  "act1-scene2-speech-0029": [
+    {
+      "surface": "lunch",
+      "lemma": "lunch",
+      "meaning": "【名詞】\n昼食。",
+      "playMeaning": true
+    },
+    {
+      "surface": "housework",
+      "lemma": "housework",
+      "meaning": "【名詞】\n掃除、洗濯、料理など家庭を維持するための日常的な仕事。",
+      "playMeaning": true
+    }
+  ],
   "act1-scene2-speech-0030": [
     {
       "surface": "gather",
@@ -6861,6 +7458,12 @@
       "surface": "hostess",
       "lemma": "hostess",
       "meaning": "【名詞】\n① 女性の主人役\n② もてなす女性",
+      "playMeaning": true
+    },
+    {
+      "surface": "lunch",
+      "lemma": "lunch",
+      "meaning": "【名詞】\n昼食。",
       "playMeaning": true
     }
   ],
@@ -7036,6 +7639,13 @@
       "lemma": "abroad",
       "meaning": "【副詞】\n海外へ、海外で。",
       "playMeaning": true
+    },
+    {
+      "surface": "conditions",
+      "lemma": "condition",
+      "meaning": "【名詞】\n① 状態、状況\n② 条件",
+      "playMeaning": true,
+      "inThisPlay": "ここでは海外での生活・労働などの「事情・状況」。"
     }
   ],
   "act1-scene2-speech-0038": [
@@ -7177,6 +7787,13 @@
       "lemma": "annoyed",
       "meaning": "【形】\nいら立った、腹を立てた。",
       "playMeaning": true
+    },
+    {
+      "surface": "radio",
+      "lemma": "radio",
+      "meaning": "【名詞】\nラジオ；無線通信。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは放送を聞くラジオ受信機・放送。"
     }
   ],
   "act1-scene2-speech-0048": [],
@@ -7217,6 +7834,12 @@
       "surface": "nods",
       "lemma": "nod",
       "meaning": "【動】うなずく。【名】うなずき。",
+      "playMeaning": true
+    },
+    {
+      "surface": "writing table",
+      "lemma": "writing table",
+      "meaning": "書き物用の机、ライティングデスク。",
       "playMeaning": true
     }
   ],
@@ -7449,6 +8072,12 @@
       "meaning": "【動詞】\n指などでつまむ。\n【名詞】\nまた口語では、物を盗む・無断で取るという意味になることがある。",
       "playMeaning": true,
       "inThisPlay": "英国口語で『盗む・勝手に取る』。ここではMrs Boyleが一番よい椅子を取ったという意味。"
+    },
+    {
+      "surface": "chair",
+      "lemma": "chair",
+      "meaning": "【名詞】\n椅子。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0063": [
@@ -7598,6 +8227,25 @@
       "meaning": "【形】ぼろぼろの、擦り切れた；不ぞろいな。",
       "playMeaning": true,
       "inThisPlay": "ここではぼろぼろに擦り切れた毛布。"
+    },
+    {
+      "surface": "bedroom",
+      "lemma": "bedroom",
+      "meaning": "【名詞】\n寝室。",
+      "playMeaning": true
+    },
+    {
+      "surface": "Ice",
+      "lemma": "ice",
+      "meaning": "【名詞】\n氷。",
+      "playMeaning": true
+    },
+    {
+      "surface": "bedroom jug",
+      "lemma": "jug",
+      "meaning": "【名詞】\n水差し、ピッチャー。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは寝室に置く洗面用などの水差し。"
     }
   ],
   "act1-scene2-speech-0073": [
@@ -7605,6 +8253,12 @@
       "surface": "grim",
       "lemma": "grim",
       "meaning": "【形容詞】\n厳しい、陰気な、いかめしい",
+      "playMeaning": true
+    },
+    {
+      "surface": "novel",
+      "lemma": "novel",
+      "meaning": "【名詞】\n小説。",
       "playMeaning": true
     }
   ],
@@ -7840,9 +8494,22 @@
       "lemma": "remove",
       "meaning": "【動】取り除く、脱ぐ、移動させる。",
       "playMeaning": true
+    },
+    {
+      "surface": "guest house",
+      "lemma": "guest house",
+      "meaning": "小規模な宿泊施設、ゲストハウス。",
+      "playMeaning": true
     }
   ],
-  "act1-scene2-speech-0078": [],
+  "act1-scene2-speech-0078": [
+    {
+      "surface": "spade",
+      "lemma": "spade",
+      "meaning": "【名詞】\n土・雪などを掘るための平たい刃のシャベル、鋤。",
+      "playMeaning": true
+    }
+  ],
   "act1-scene2-speech-0079": [
     {
       "surface": "just",
@@ -7917,6 +8584,12 @@
       "lemma": "inspector",
       "meaning": "【名詞】\n① 警部\n② 検査官",
       "playMeaning": true
+    },
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0082": [
@@ -7953,6 +8626,12 @@
       "surface": "get through",
       "lemma": "get through",
       "meaning": "通り抜ける／電話がつながる",
+      "playMeaning": true
+    },
+    {
+      "surface": "jeep",
+      "lemma": "jeep",
+      "meaning": "【名詞】\nジープ型の四輪駆動車。",
       "playMeaning": true
     }
   ],
@@ -7998,6 +8677,12 @@
       "surface": "implicitly",
       "lemma": "implicitly",
       "meaning": "【副詞】\n① 暗に、明示せずに\n② 古い・限定的用法で、完全に・無条件に",
+      "playMeaning": true
+    },
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
       "playMeaning": true
     }
   ],
@@ -8072,7 +8757,15 @@
       "inThisPlay": "英国でラジオ（wireless）受信機の使用に必要だった受信許可証・免許。"
     }
   ],
-  "act1-scene2-speech-0089": [],
+  "act1-scene2-speech-0089": [
+    {
+      "surface": "kitchen dresser",
+      "lemma": "dresser",
+      "meaning": "【名詞】\n食器棚、キッチン用の戸棚。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは寝室用の鏡台ではなく、台所の食器棚。"
+    }
+  ],
   "act1-scene2-speech-0090": [
     {
       "surface": "rather",
@@ -8356,6 +9049,31 @@
       "meaning": "【名】暖炉用の石炭を入れて運ぶ容器、石炭入れ。",
       "playMeaning": true,
       "inThisPlay": "暖炉用の石炭を入れて運ぶ容器、石炭入れ。"
+    },
+    {
+      "surface": "hens",
+      "lemma": "hen",
+      "meaning": "【名詞】\n雌鶏。",
+      "playMeaning": true
+    },
+    {
+      "surface": "sergeant",
+      "lemma": "sergeant",
+      "meaning": "【名詞】\n警察・軍隊などの階級の一つ。英国警察では巡査より上の階級。",
+      "playMeaning": true
+    },
+    {
+      "surface": "wood",
+      "lemma": "wood",
+      "meaning": "【名詞】\n木材、薪；森。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは燃料として持ち込んだ「薪・木材」。"
+    },
+    {
+      "surface": "boiler",
+      "lemma": "boiler",
+      "meaning": "【名詞】\n湯や暖房用の水を加熱するボイラー、給湯設備。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0095": [
@@ -8383,6 +9101,13 @@
       "lemma": "refectory table",
       "meaning": "修道院の食堂などに由来する、長く頑丈な大型食卓の様式。",
       "playMeaning": true
+    },
+    {
+      "surface": "library",
+      "lemma": "library",
+      "meaning": "【名】書斎・図書室、図書館。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは邸宅内の「図書室・書斎」。"
     }
   ],
   "act1-scene2-speech-0096": [
@@ -8460,6 +9185,13 @@
       "lemma": "manner",
       "meaning": "【名詞】\n物事のやり方、態度、振る舞い。複数形 manners では礼儀作法を表すことがある。",
       "playMeaning": false
+    },
+    {
+      "surface": "ties",
+      "lemma": "tie",
+      "meaning": "【名詞】\nネクタイ；結びつき。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは服装の「ネクタイ」。"
     }
   ],
   "act1-scene2-speech-0100": [

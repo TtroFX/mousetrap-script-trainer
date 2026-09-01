@@ -142,7 +142,7 @@ for (const rule of patch.lineRules) {
 
   for (const speech of matches) {
     const rows = vocabulary[speech.id];
-    const existing = rows.find(item => norm(item?.surface) === norm(surface) && norm(item?.lemma) === norm(lemma));
+    const existing = rows.find(item => norm(item?.surface) === norm(surface));
     if (existing) {
       stats.alreadyPresentOccurrences += 1;
       continue;
@@ -235,11 +235,7 @@ if (manifest.studyAssets?.wordDictionary) Object.assign(manifest.studyAssets.wor
 });
 writeJson(FILES.manifest, manifest);
 
-let assembler = fs.readFileSync(abs(FILES.assembler), 'utf8');
-const countPattern = /if\(vocabularyDisplayed!==\d+\|\|vocabularyNeutralOnly!==\d+\)fail\(`vocabulary presentation counts invalid \(\$\{vocabularyDisplayed\}\/\$\{vocabularyNeutralOnly\}\)`\);/;
-if (!countPattern.test(assembler)) fail('Unable to locate assembler vocabulary count invariant');
-assembler = assembler.replace(countPattern, `if(vocabularyDisplayed!==${playMeaningItems}||vocabularyNeutralOnly!==${neutralOnlyItems})fail(\`vocabulary presentation counts invalid (\${vocabularyDisplayed}/\${vocabularyNeutralOnly})\`);`);
-fs.writeFileSync(abs(FILES.assembler), assembler);
+// The production assembler validates vocabulary counts dynamically; no generated count constant needs rewriting.
 
 const semanticOutput = execFileSync(process.execPath, ['scripts/validate-vocabulary-semantics.mjs'], { cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }).trim();
 const semanticJson = JSON.parse(semanticOutput);

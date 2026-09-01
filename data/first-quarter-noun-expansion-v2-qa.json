@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "patchId": "first-quarter-noun-expansion-v2-2026-09-01",
+  "status": "PASS",
+  "scope": {
+    "globalSpeechRange": [
+      1,
+      291
+    ],
+    "speechCount": 291,
+    "first": "act1-scene1-speech-0001",
+    "last": "act1-scene2-speech-0101",
+    "nextExcluded": "act1-scene2-speech-0102"
+  },
+  "policy": {
+    "focus": "Broaden vocabulary for Japanese English learners, with especially permissive inclusion of everyday nouns.",
+    "meaning": "Neutral dictionary Japanese; single words use POS headings.",
+    "inThisPlay": "Only when materially context-dependent, polysemous, idiomatic, ironic, or culturally specific.",
+    "existing": "Preserve all existing line vocabulary and dictionary entries unless semantic synchronization is required."
+  },
+  "before": {
+    "targetVocabularyItems": 1268,
+    "allVocabularyItems": 2926,
+    "dictionaryEntries": 1375
+  },
+  "stats": {
+    "reviewedSpeeches": 291,
+    "candidateRules": 189,
+    "matchedRules": 189,
+    "matchedOccurrences": 274,
+    "newVocabularyItems": 118,
+    "alreadyPresentOccurrences": 156,
+    "polysemySkippedWithoutCuratedContext": 0,
+    "newDictionaryEntries": 66,
+    "nounFocusedRules": 174,
+    "multiwordRules": 40,
+    "inThisPlayAdded": 18
+  },
+  "after": {
+    "targetVocabularyItems": 1386,
+    "allVocabularyItems": 3044,
+    "dictionaryEntries": 1441,
+    "annotatedSpeeches": 801,
+    "playMeaningItems": 2637,
+    "neutralOnlyItems": 407,
+    "inThisPlayItems": 772,
+    "referencedDictionaryLemmas": 1373
+  },
+  "qa": {
+    "canonicalSpeechCoverage": "PASS",
+    "exactPart1Boundary": "PASS",
+    "allCandidateRulesMatchedSource": "PASS",
+    "outOfScopeLineMutationCheck": "PASS",
+    "outOfScopeLineMutations": 0,
+    "duplicateVocabularyPairs": 0,
+    "missingDictionaryReferences": 0,
+    "dictionaryMeaningConsistency": "PASS",
+    "optionalInThisPlayContract": "PASS",
+    "semanticValidator": {
+      "status": "PASS",
+      "dictionary": 1441,
+      "vocabularyItems": 3044,
+      "inThisPlay": 772,
+      "polysemyItems": 315,
+      "unclassifiedDictionary": 0,
+      "genericInThisPlay": 0,
+      "playSpecificDictionaryMeanings": 0,
+      "surfaceLemmaConflicts": 0,
+      "duplicateSurfaceLemmaPairs": 0,
+      "singleWordDictionaryEntries": 852,
+      "singleWordWithoutHeading": 0,
+      "multiPosSingleWords": 95,
+      "multiPosSingleWordsWithoutSeparateHeadings": 0
+    },
+    "productionVerifier": {
+      "status": "PASS",
+      "runtime": "index-zero",
+      "buildId": "index-zero-2026-09-01-r32",
+      "mode": "verify-only",
+      "qa": {
+        "speeches": 1164,
+        "translations": 1164,
+        "interpretationCoverage": 1164,
+        "interpretationSpeeches": 747,
+        "interpretationNotes": 887,
+        "vocabulary": 3044,
+        "vocabularyDisplayed": 2637,
+        "vocabularyNeutralOnly": 407,
+        "grammar": 692,
+        "dictionary": 1441,
+        "structureSentences": 2334,
+        "structureClauses": 2939,
+        "structureChunks": 11810,
+        "stageDirections": 777,
+        "stageStandalone": 5,
+        "stageAttached": 772,
+        "stageActorCues": 611,
+        "stageJapaneseParaphrases": 777,
+        "stageCategories": {
+          "scene-setting": 5,
+          "radio": 9,
+          "delivery": 411,
+          "gesture": 34,
+          "action": 96,
+          "entrance": 44,
+          "movement": 95,
+          "exit": 41,
+          "sound": 6,
+          "light": 8,
+          "curtain": 8,
+          "music": 8,
+          "pause": 12
+        }
+      }
+    },
+    "protectedCanonicalSourcesUnchanged": true
+  },
+  "skippedPolysemyWithoutCuratedContext": [],
+  "hashes": {
+    "vocabulary": "21012f1437e0e2f17c2da2b45bdb3fde3dd57e143b5dfc6eaeed61c1ce89ea3d",
+    "dictionary": "65cadb1abc660240d9592a57620d7c7f32324e6ea4263a6c0d596cf164514715"
+  }
+}
