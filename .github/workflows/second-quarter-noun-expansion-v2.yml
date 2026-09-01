@@ -1,0 +1,77 @@
+name: Apply second-quarter noun expansion v2
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/second-quarter-noun-expansion-v2/**'
+      - '.github/workflows/second-quarter-noun-expansion-v2.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Generate second-quarter applicator from verified Part 1 template
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          src = Path('scripts/apply-first-quarter-noun-expansion-v2.mjs')
+          dst = Path('scripts/apply-second-quarter-noun-expansion-v2.mjs')
+          s = src.read_text()
+          s = s.replace('first-quarter-noun-expansion-v2', 'second-quarter-noun-expansion-v2')
+          s = s.replace('First quarter', 'Second quarter').replace('first quarter', 'second quarter')
+          s = s.replace('Part 1', 'Part 2')
+          s = s.replace('exactPart1Boundary', 'exactPart2Boundary')
+          s = s.replace("JSON.stringify(scope.globalSpeechRange) !== JSON.stringify([1, 291])", "JSON.stringify(scope.globalSpeechRange) !== JSON.stringify([292, 582])")
+          s = s.replace("scope.first !== 'act1-scene1-speech-0001' || scope.last !== 'act1-scene2-speech-0101' || scope.nextExcluded !== 'act1-scene2-speech-0102'", "scope.first !== 'act1-scene2-speech-0102' || scope.last !== 'act2-speech-0056' || scope.nextExcluded !== 'act2-speech-0057'")
+          s = s.replace("const targetSpeeches = [...script['act1-scene1'].speeches, ...script['act1-scene2'].speeches.slice(0, 101)];", "const targetSpeeches = [...script['act1-scene2'].speeches.slice(101), ...script['act2'].speeches.slice(0, 56)];")
+          s = s.replace("const expectedMin = Number.isInteger(rule.expectedMin) ? rule.expectedMin : 1;", "const expectedMin = Math.max(1, Number.isInteger(rule.expectedMin) ? rule.expectedMin : 1);")
+          required = [
+            "second-quarter-noun-expansion-v2-2026-09-01",
+            "[292, 582]",
+            "act1-scene2-speech-0102",
+            "act2-speech-0056",
+            "script['act1-scene2'].speeches.slice(101)",
+            "script['act2'].speeches.slice(0, 56)",
+            "exactPart2Boundary"
+          ]
+          missing = [x for x in required if x not in s]
+          if missing:
+            raise SystemExit(f'Generated applicator missing expected replacements: {missing}')
+          dst.write_text(s)
+          PY
+
+      - name: Apply expansion and run canonical QA
+        run: node scripts/apply-second-quarter-noun-expansion-v2.mjs
+
+      - name: Commit verified generated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            scripts/apply-second-quarter-noun-expansion-v2.mjs \
+            mousetrap_line_vocabulary.json \
+            mousetrap_word_dictionary.json \
+            data/canonical-production-contract.json \
+            data/canonical-integration-manifest.json \
+            data/second-quarter-noun-expansion-v2-qa.json
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit"
+            exit 0
+          fi
+          git commit -m "Expand second-quarter vocabulary with everyday nouns"
+          git push
