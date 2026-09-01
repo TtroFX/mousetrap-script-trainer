@@ -1,0 +1,6646 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "scope": {
+    "globalSpeeches": [
+      1,
+      582
+    ],
+    "candidateCount": 297
+  },
+  "policy": {
+    "pureA2Plus": "include by default",
+    "mixedA1A2Plus": "require prior sense approval or later manual sense review before integration",
+    "existingNeutralDefinitions": "reuse learner-friendly neutral Block dictionaries/reviews before writing new definitions"
+  },
+  "counts": {
+    "total": 297,
+    "include": 190,
+    "includeWithReusableDefinition": 5,
+    "includeNeedingNewDefinition": 185,
+    "needsSenseReview": 80,
+    "excludeReviewed": 26,
+    "alreadyCurrent": 1
+  },
+  "missingDefinitionWords": [
+    "able",
+    "act",
+    "actually",
+    "advance",
+    "affect",
+    "against",
+    "ah",
+    "allow",
+    "almost",
+    "alone",
+    "along",
+    "already",
+    "anybody",
+    "anyway",
+    "apart",
+    "asylum",
+    "avoid",
+    "awful",
+    "bar",
+    "beef",
+    "beg",
+    "behave",
+    "bet",
+    "bit",
+    "block",
+    "boil",
+    "bottom",
+    "bound",
+    "brilliant",
+    "brush",
+    "care",
+    "carefully",
+    "carpet",
+    "central",
+    "certain",
+    "chance",
+    "cheer",
+    "clearly",
+    "closed",
+    "comfort",
+    "completely",
+    "consequence",
+    "continue",
+    "correspondence",
+    "crazy",
+    "daily",
+    "dead",
+    "deadly",
+    "deed",
+    "delight",
+    "depend",
+    "dry",
+    "duty",
+    "earth",
+    "easily",
+    "either",
+    "ensure",
+    "equip",
+    "escape",
+    "everywhere",
+    "excellent",
+    "excuse",
+    "expected",
+    "extremely",
+    "file",
+    "force",
+    "fresh",
+    "fully",
+    "general",
+    "god",
+    "goodness",
+    "guest",
+    "halfway",
+    "heating",
+    "heavy",
+    "herself",
+    "hide",
+    "himself",
+    "hold",
+    "hook",
+    "human",
+    "hunt",
+    "identify",
+    "ill",
+    "immediately",
+    "impress",
+    "indoor",
+    "inside",
+    "instead",
+    "invite",
+    "iron",
+    "joke",
+    "joy",
+    "justice",
+    "kill",
+    "lady",
+    "least",
+    "less",
+    "lock",
+    "loud",
+    "lovely",
+    "lucky",
+    "mad",
+    "marry",
+    "might",
+    "mind",
+    "myself",
+    "mystery",
+    "nearly",
+    "neglect",
+    "nest",
+    "net",
+    "noise",
+    "nowhere",
+    "nursery",
+    "opening",
+    "ourselves",
+    "painter",
+    "pale",
+    "particular",
+    "perhaps",
+    "persistent",
+    "pity",
+    "pleasure",
+    "political",
+    "portrait",
+    "prayer",
+    "prevent",
+    "promise",
+    "provision",
+    "public",
+    "rate",
+    "receive",
+    "record",
+    "regular",
+    "ring",
+    "roll",
+    "rose",
+    "rubbish",
+    "running",
+    "sadly",
+    "safe",
+    "scene",
+    "serve",
+    "several",
+    "shall",
+    "shoulder",
+    "shut",
+    "sign",
+    "simple",
+    "sir",
+    "skiing",
+    "slip",
+    "soft",
+    "solve",
+    "somewhere",
+    "spoil",
+    "stair",
+    "standing",
+    "stone",
+    "storm",
+    "straight",
+    "stupid",
+    "such",
+    "suggest",
+    "suppose",
+    "sweet",
+    "swing",
+    "switch",
+    "themselves",
+    "thick",
+    "thin",
+    "thinking",
+    "though",
+    "thought",
+    "throughout",
+    "tidy",
+    "tiny",
+    "unhappy",
+    "welfare",
+    "wind",
+    "wish",
+    "worst",
+    "wrap",
+    "yours"
+  ],
+  "needsSenseReviewWords": [
+    {
+      "word": "after",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene2-speech-0207",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "age",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene1-speech-0054",
+      "reviewedExcludes": [
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The occurrence is the A1 noun meaning a person's age, not the B1 verb age."
+          }
+        }
+      ]
+    },
+    {
+      "word": "all",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0004",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "any",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0011",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "as",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0019",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "back",
+      "allOxfordLevels": "A1/A2/B2",
+      "firstSpeechId": "act1-scene1-speech-0054",
+      "reviewedExcludes": [
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are back stairs/back as a direction or return adverb; no B2 verb back occurs."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are adverb/adjectival uses such as brought back/back stairs, all lower-level uses, not B2 verb back."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The observed 'back stairs' is the lower-level spatial modifier, not the B2 verb back."
+          }
+        }
+      ]
+    },
+    {
+      "word": "before",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0110",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "best",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0158",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "better",
+      "allOxfordLevels": "A1/A2/B1",
+      "firstSpeechId": "act1-scene1-speech-0121",
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Use is 'That's better', the elementary comparative/evaluative adjective use, not the B1 noun."
+        }
+      ]
+    },
+    {
+      "word": "between",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene2-speech-0034",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "book",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene2-speech-0223",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "but",
+      "allOxfordLevels": "A1/B2",
+      "firstSpeechId": "act1-scene1-speech-0011",
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses conjunction A1; Oxford B2 candidate is preposition."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "All uses are the A1 conjunction; no B2 preposition use occurs."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are the A1 conjunction but, not the B2 preposition."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "All occurrences are the A1 conjunction, not Oxford B2 preposition but."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "All occurrences are the A1 conjunction, not the B2 preposition but."
+          }
+        }
+      ]
+    },
+    {
+      "word": "by",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene1-speech-0054",
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are prepositional, including by phone/by accident/passive agent; unresolved B1 candidate is adverb by."
+        }
+      ]
+    },
+    {
+      "word": "can",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0122",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "cheap",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene1-speech-0156",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "cook",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0019",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "cut",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene1-speech-0190",
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are the A1 verb cut; unresolved B1 candidate is the noun."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are the A1 verb cut, not the B1 noun cut."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "The occurrence is A1 verb 'cut off', not Oxford B1 noun cut."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The occurrence is the A1 verb cut, not the B1 noun cut."
+          }
+        }
+      ]
+    },
+    {
+      "word": "dark",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0001",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "dear",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0012",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "downstairs",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene2-speech-0136",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "even",
+      "allOxfordLevels": "A1/B2",
+      "firstSpeechId": "act1-scene1-speech-0190",
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses adverb A1; Oxford B2 candidate is adjective."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are the A1 adverb even; evening is also a morphology false match. No B2 adjective even occurs."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are the A1 adverb even; evening is also a morphology false match. No B2 adjective even occurs."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Actual 'even' is A1 adverb; 'evening' occurrences are morphology noise, not B2 adjective even."
+          }
+        }
+      ]
+    },
+    {
+      "word": "fall",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0132",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "far",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene2-speech-0133",
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Use is adverbial distance; far-fetched is already selected as a separate phrase. No B1 adjective far use is needed."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Use is the A1 distance adverb in 'so far', not the B1 adjective far."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 adverb far, not B1 adjective far."
+          }
+        }
+      ]
+    },
+    {
+      "word": "feel",
+      "allOxfordLevels": "A1/B2",
+      "firstSpeechId": "act1-scene1-speech-0001",
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Use is the elementary verb 'feel my hands'; unresolved B2 candidate is the noun feel."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "All occurrences are A1 verb feel, not B2 noun feel."
+          }
+        }
+      ]
+    },
+    {
+      "word": "first",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0014",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "go",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene1-speech-0010",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "good",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0011",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "half",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0011",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "have",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0009",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "head",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene2-speech-0211",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "his",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0162",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "hope",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0012",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "house",
+      "allOxfordLevels": "A1/B2",
+      "firstSpeechId": "act1-scene1-speech-0021",
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses noun A1; Oxford B2 candidate is verb."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "All uses are the A1 noun house, not the B2 verb."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 noun house, not B2 verb house."
+          }
+        }
+      ]
+    },
+    {
+      "word": "it",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene1-speech-0002",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "land",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene2-speech-0296",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "last",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0067",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "leave",
+      "allOxfordLevels": "A1/B2",
+      "firstSpeechId": "act1-scene1-speech-0005",
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Use is the A1 verb leave, not the B2 noun leave."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "The occurrence is A1 verb leave, not B2 noun leave."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The occurrence 'Leave them alone' is the A1 verb leave, not the B2 noun leave."
+          }
+        }
+      ]
+    },
+    {
+      "word": "like",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene1-speech-0011",
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses verb/preposition A1; Oxford B1 candidate is noun."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are the A1 verb/preposition like, not the B1 noun."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are elementary verb/preposition like, not the B1 noun like."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 preposition/verb like, not B1 noun like."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "Observed uses are A1 verb/preposition uses, not the B1 noun like."
+          }
+        }
+      ]
+    },
+    {
+      "word": "line",
+      "allOxfordLevels": "A1/B2",
+      "firstSpeechId": "act1-scene2-speech-0166",
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are the A1 noun telephone line, not the B2 verb line."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Use is the A1 noun telephone line, not the B2 verb line."
+        }
+      ]
+    },
+    {
+      "word": "little",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0052",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "live",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene2-speech-0036",
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses verb A1; Oxford B1 candidates are adjective/adverb."
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The observed 'have lived' is the A1 verb live, not the B1 adjective/adverb live."
+          }
+        }
+      ]
+    },
+    {
+      "word": "make",
+      "allOxfordLevels": "A1/B2",
+      "firstSpeechId": "act1-scene1-speech-0067",
+      "reviewedExcludes": [
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 verb make, not B2 noun make."
+          }
+        }
+      ]
+    },
+    {
+      "word": "may",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0030",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "minute",
+      "allOxfordLevels": "A1/C1",
+      "firstSpeechId": "act1-scene1-speech-0030",
+      "reviewedExcludes": [
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "All uses are the A1 time noun minute, not the C1 adjective minute meaning extremely small."
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "All occurrences mean a unit/short period of time, the A1 noun, not the C1 adjective minute."
+          }
+        }
+      ]
+    },
+    {
+      "word": "need",
+      "allOxfordLevels": "A1/A2/B1",
+      "firstSpeechId": "act1-scene1-speech-0186",
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses ordinary verb A1; Oxford B1 candidate is modal verb."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are ordinary A1 lexical verb need, not B1 modal-verb use."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The observed 'I need someone' is the ordinary A1 lexical verb, not the B1 modal use."
+          }
+        }
+      ]
+    },
+    {
+      "word": "next",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene1-speech-0121",
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses adverb A1; Oxford B1 candidate is noun."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 adjective/adverb next, not B1 noun next."
+          }
+        }
+      ]
+    },
+    {
+      "word": "now",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene1-speech-0021",
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Occurrences are adverb/discourse uses, not Oxford B1 conjunction use."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are temporal/discourse adverb now, not the B1 conjunction sense."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 adverb/discourse-marker now, not B1 conjunction now."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "Observed uses are temporal/discourse adverb uses, not the B1 conjunction now."
+          }
+        }
+      ]
+    },
+    {
+      "word": "once",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act2-speech-0024",
+      "reviewedExcludes": [
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "Observed uses are A1 adverb uses such as 'once again' and 'more than once', not the B1 conjunction."
+          }
+        }
+      ]
+    },
+    {
+      "word": "outside",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0099",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "own",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene2-speech-0170",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "past",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene2-speech-0293",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "pay",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0036",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "please",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene2-speech-0221",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "question",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene2-speech-0285",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "result",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene2-speech-0187",
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Use is the A1 noun in 'as the result of', not the B1 verb result."
+        }
+      ]
+    },
+    {
+      "word": "run",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0126",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "say",
+      "allOxfordLevels": "A1/C1",
+      "firstSpeechId": "act1-scene1-speech-0055",
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses verb A1; Oxford C1 candidate is noun."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "All uses are the A1 verb say, not the C1 noun say."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "All uses are the A1 verb say, not the C1 noun say."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 verb say, not C1 noun say."
+          }
+        }
+      ]
+    },
+    {
+      "word": "sleep",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene2-speech-0130",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "sound",
+      "allOxfordLevels": "A1/C1",
+      "firstSpeechId": "act1-scene1-speech-0190",
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses linking verb A1; Oxford C1 candidate is adjective."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are the A1 verb sound, not the C1 adjective sound."
+        }
+      ]
+    },
+    {
+      "word": "stay",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene2-speech-0015",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "still",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene2-speech-0311",
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are adverbial/discourse still, not the B1 adjective."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Use is the A1 adverb still, not the B1 adjective."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 adverb still, not B1 adjective still."
+          }
+        }
+      ]
+    },
+    {
+      "word": "sure",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0037",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "talk",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0022",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "that",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene1-speech-0011",
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses determiner/pronoun/conjunction A1 in audited occurrences; Oxford B1 candidate is adverb."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are elementary determiner/pronoun/conjunction forms, not the B1 adverb that."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are elementary determiner/pronoun/conjunction forms, not the B1 degree adverb that."
+        }
+      ]
+    },
+    {
+      "word": "this",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene1-speech-0009",
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses determiner/pronoun A1; Oxford B1 candidate is adverb."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are A1 determiner/pronoun forms, not the B1 adverb this."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 determiner/pronoun this, not B1 adverb this."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "All occurrences are A1 determiner/pronoun uses, not the B1 adverb this."
+          }
+        }
+      ]
+    },
+    {
+      "word": "time",
+      "allOxfordLevels": "A1/B2",
+      "firstSpeechId": "act1-scene1-speech-0099",
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses noun A1; Oxford B2 candidate is verb."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "All uses are the A1 noun time, not the B2 verb time."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 noun time, not B2 verb time."
+          }
+        }
+      ]
+    },
+    {
+      "word": "train",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0082",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "try",
+      "allOxfordLevels": "A1/B2",
+      "firstSpeechId": "act1-scene1-speech-0122",
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Observed trying is verb A1; Oxford B2 candidate is noun."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "All uses are the A1 verb try, not the B2 noun try."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "All uses are the A1 verb try, not the B2 noun try."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 verb try, not B2 noun try."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The observed 'trying to prove' is the A1 verb try, not the B2 noun try."
+          }
+        }
+      ]
+    },
+    {
+      "word": "type",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene1-speech-0156",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "upstairs",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0055",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "use",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene1-speech-0162",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "very",
+      "allOxfordLevels": "A1/B2",
+      "firstSpeechId": "act1-scene1-speech-0038",
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses adverb A1; Oxford B2 candidate is adjective."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are the A1 degree adverb very, not the B2 adjective very."
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "All observed uses are the A1 degree adverb very, not the B2 adjective very."
+          }
+        }
+      ]
+    },
+    {
+      "word": "wait",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene2-speech-0241",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "warm",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene1-speech-0051",
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Observed warmer is adjective A1; Oxford B1 candidate is verb."
+        }
+      ]
+    },
+    {
+      "word": "water",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene1-speech-0074",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "way",
+      "allOxfordLevels": "A1/B2",
+      "firstSpeechId": "act1-scene1-speech-0037",
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are the A1 noun way, not the B2 adverb way."
+        }
+      ]
+    },
+    {
+      "word": "welcome",
+      "allOxfordLevels": "A1/A2",
+      "firstSpeechId": "act1-scene2-speech-0107",
+      "reviewedExcludes": []
+    },
+    {
+      "word": "well",
+      "allOxfordLevels": "A1/C1",
+      "firstSpeechId": "act1-scene1-speech-0013",
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses adverb/exclamation A1; Oxford C1 candidate is noun."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are A1 adverb/exclamation forms, not the C1 noun well."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are A1 adverb/exclamation forms, not the C1 noun well."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 adverb/exclamation well, not C1 noun well."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "Observed uses are A1 adverb/exclamation forms, not the C1 noun well."
+          }
+        }
+      ]
+    },
+    {
+      "word": "wrong",
+      "allOxfordLevels": "A1/B1/B2",
+      "firstSpeechId": "act1-scene2-speech-0290",
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Use is the A1 adjective wrong, not the B1 adverb or B2 noun."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are the A1 adjective wrong, not the B1 adverb or B2 noun."
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The occurrence 'you are wrong' is the A1 adjective wrong, not the B1 adverb or B2 noun."
+          }
+        }
+      ]
+    },
+    {
+      "word": "young",
+      "allOxfordLevels": "A1/B1",
+      "firstSpeechId": "act1-scene1-speech-0089",
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses adjective A1; Oxford B1 candidate is noun."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are the A1 adjective young/younger, not the B1 noun young."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 adjective young, not B1 noun young."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The occurrence 'young teacher' is the A1 adjective young, not the B1 noun young."
+          }
+        }
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "word": "able",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0121",
+      "surfaceForms": "able",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "act",
+      "cefr": "A2/B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0054",
+      "surfaceForms": "acts",
+      "allOxfordLevels": "A2/B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "actually",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0067",
+      "surfaceForms": "actually",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "advance",
+      "cefr": "B2",
+      "parts": "1,2",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0033",
+      "surfaceForms": "advance",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "affect",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0293",
+      "surfaceForms": "affect",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "after",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 5,
+      "firstSpeechId": "act1-scene2-speech-0207",
+      "surfaceForms": "after",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "against",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0001",
+      "surfaceForms": "against",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "age",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0054",
+      "surfaceForms": "ages",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The occurrence is the A1 noun meaning a person's age, not the B1 verb age."
+          }
+        }
+      ]
+    },
+    {
+      "word": "ah",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 4,
+      "firstSpeechId": "act1-scene1-speech-0046",
+      "surfaceForms": "ah",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "all",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 70,
+      "firstSpeechId": "act1-scene1-speech-0004",
+      "surfaceForms": "all",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "allow",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0135",
+      "surfaceForms": "allow",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "almost",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0266",
+      "surfaceForms": "almost",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "alone",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 4,
+      "firstSpeechId": "act1-scene2-speech-0172",
+      "surfaceForms": "alone",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "along",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 4,
+      "firstSpeechId": "act1-scene1-speech-0013",
+      "surfaceForms": "along",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "already",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 4,
+      "firstSpeechId": "act1-scene1-speech-0190",
+      "surfaceForms": "already",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "any",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 19,
+      "firstSpeechId": "act1-scene1-speech-0011",
+      "surfaceForms": "any",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "anybody",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 2,
+      "firstSpeechId": "act2-speech-0003",
+      "surfaceForms": "anybody",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "anyway",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 8,
+      "firstSpeechId": "act1-scene1-speech-0020",
+      "surfaceForms": "anyway",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "apart",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0135",
+      "surfaceForms": "apart",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "as",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 37,
+      "firstSpeechId": "act1-scene1-speech-0019",
+      "surfaceForms": "as",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "asylum",
+      "cefr": "C1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0018",
+      "surfaceForms": "asylum",
+      "allOxfordLevels": "C1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "avoid",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0092",
+      "surfaceForms": "avoid",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "awful",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 4,
+      "firstSpeechId": "act1-scene1-speech-0044",
+      "surfaceForms": "awful",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "back",
+      "cefr": "A2/B2",
+      "parts": "1,2",
+      "occurrences": 13,
+      "firstSpeechId": "act1-scene1-speech-0054",
+      "surfaceForms": "back",
+      "allOxfordLevels": "A1/A2/B2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are back stairs/back as a direction or return adverb; no B2 verb back occurs."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are adverb/adjectival uses such as brought back/back stairs, all lower-level uses, not B2 verb back."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The observed 'back stairs' is the lower-level spatial modifier, not the B2 verb back."
+          }
+        }
+      ]
+    },
+    {
+      "word": "bar",
+      "cefr": "A2/B2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0206",
+      "surfaceForms": "bar",
+      "allOxfordLevels": "A2/B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "beef",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0152",
+      "surfaceForms": "beef",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "before",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 6,
+      "firstSpeechId": "act1-scene1-speech-0110",
+      "surfaceForms": "before",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "beg",
+      "cefr": "B2",
+      "parts": "1,2",
+      "occurrences": 5,
+      "firstSpeechId": "act1-scene1-speech-0099",
+      "surfaceForms": "beg",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "behave",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0248",
+      "surfaceForms": "behaving",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "being",
+      "cefr": "B2",
+      "parts": "1,2",
+      "occurrences": 4,
+      "firstSpeechId": "act1-scene1-speech-0054",
+      "surfaceForms": "being",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Script uses being as the participle of be in a progressive construction; Oxford B2 candidate is the noun being."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Both uses are participial forms of be in verbal constructions; Oxford B2 candidate is the lexical noun being."
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The script has 'being killed', the -ing form of be in a passive construction, not Oxford B2 noun being."
+          }
+        }
+      ]
+    },
+    {
+      "word": "best",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0158",
+      "surfaceForms": "best",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "bet",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0011",
+      "surfaceForms": "bet",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "better",
+      "cefr": "A2/B1",
+      "parts": "1,2",
+      "occurrences": 5,
+      "firstSpeechId": "act1-scene1-speech-0121",
+      "surfaceForms": "better",
+      "allOxfordLevels": "A1/A2/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Use is 'That's better', the elementary comparative/evaluative adjective use, not the B1 noun."
+        }
+      ]
+    },
+    {
+      "word": "between",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene2-speech-0034",
+      "surfaceForms": "between",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "bit",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 8,
+      "firstSpeechId": "act1-scene2-speech-0034",
+      "surfaceForms": "bit",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "block",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0121",
+      "surfaceForms": "blocked",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "boil",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0074",
+      "surfaceForms": "boiler",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "book",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene2-speech-0223",
+      "surfaceForms": "booked, books",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "bottom",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0014",
+      "surfaceForms": "bottom",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "bound",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0001",
+      "surfaceForms": "bound",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "brilliant",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0100",
+      "surfaceForms": "brilliant",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "brush",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene2-speech-0099",
+      "surfaceForms": "brush",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "but",
+      "cefr": "B2",
+      "parts": "1,2",
+      "occurrences": 56,
+      "firstSpeechId": "act1-scene1-speech-0011",
+      "surfaceForms": "but",
+      "allOxfordLevels": "A1/B2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses conjunction A1; Oxford B2 candidate is preposition."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "All uses are the A1 conjunction; no B2 preposition use occurs."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are the A1 conjunction but, not the B2 preposition."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "All occurrences are the A1 conjunction, not Oxford B2 preposition but."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "All occurrences are the A1 conjunction, not the B2 preposition but."
+          }
+        }
+      ]
+    },
+    {
+      "word": "by",
+      "cefr": "B1",
+      "parts": "1,2",
+      "occurrences": 16,
+      "firstSpeechId": "act1-scene1-speech-0054",
+      "surfaceForms": "by",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are prepositional, including by phone/by accident/passive agent; unresolved B1 candidate is adverb by."
+        }
+      ]
+    },
+    {
+      "word": "can",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 18,
+      "firstSpeechId": "act1-scene1-speech-0122",
+      "surfaceForms": "can",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "care",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0040",
+      "surfaceForms": "care",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "carefully",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0085",
+      "surfaceForms": "carefully",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "carpet",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0027",
+      "surfaceForms": "carpet",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "carve",
+      "cefr": "C1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0048",
+      "surfaceForms": "carved",
+      "allOxfordLevels": "C1",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": {
+        "pos": "動詞",
+        "meaning": "木・石などを削って形や模様を作る。",
+        "tags": [],
+        "cefr": null,
+        "source": "data/vocabulary-rebuild/block-1-dictionary.json"
+      },
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "'carving knife' is a lexical compound modifier here, not the C1 verb carve in use."
+          }
+        }
+      ]
+    },
+    {
+      "word": "central",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0013",
+      "surfaceForms": "central",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "certain",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0001",
+      "surfaceForms": "certain",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "chance",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0021",
+      "surfaceForms": "chance",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "cheap",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0156",
+      "surfaceForms": "cheap",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "cheer",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0094",
+      "surfaceForms": "cheer",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "clear",
+      "cefr": "A2/B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0085",
+      "surfaceForms": "cleared",
+      "allOxfordLevels": "A2/B1",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The observed 'make that clear' uses A2 adjective clear, not B1 verb clear."
+          }
+        }
+      ]
+    },
+    {
+      "word": "clearly",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 2,
+      "firstSpeechId": "act2-speech-0005",
+      "surfaceForms": "clearly",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "closed",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0025",
+      "surfaceForms": "closed",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "comfort",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0118",
+      "surfaceForms": "comfort",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "completely",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0077",
+      "surfaceForms": "completely",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "consequence",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0184",
+      "surfaceForms": "consequence",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "continue",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0001",
+      "surfaceForms": "continue",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "cook",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 8,
+      "firstSpeechId": "act1-scene1-speech-0019",
+      "surfaceForms": "cook, cooking",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "correspondence",
+      "cefr": "C1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0037",
+      "surfaceForms": "correspondence",
+      "allOxfordLevels": "C1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "crazy",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene2-speech-0200",
+      "surfaceForms": "crazy",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "cut",
+      "cefr": "B1",
+      "parts": "1,2",
+      "occurrences": 8,
+      "firstSpeechId": "act1-scene1-speech-0190",
+      "surfaceForms": "cut",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are the A1 verb cut; unresolved B1 candidate is the noun."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are the A1 verb cut, not the B1 noun cut."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "The occurrence is A1 verb 'cut off', not Oxford B1 noun cut."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The occurrence is the A1 verb cut, not the B1 noun cut."
+          }
+        }
+      ]
+    },
+    {
+      "word": "daily",
+      "cefr": "A2/B1",
+      "parts": "1",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0017",
+      "surfaceForms": "daily",
+      "allOxfordLevels": "A2/B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "dark",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 5,
+      "firstSpeechId": "act1-scene1-speech-0001",
+      "surfaceForms": "dark",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "dead",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 7,
+      "firstSpeechId": "act1-scene2-speech-0164",
+      "surfaceForms": "dead",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "deadly",
+      "cefr": "B2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0226",
+      "surfaceForms": "deadly",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "dear",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 9,
+      "firstSpeechId": "act1-scene1-speech-0012",
+      "surfaceForms": "dear, dears",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "deed",
+      "cefr": "C1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0108",
+      "surfaceForms": "deed",
+      "allOxfordLevels": "C1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "deep",
+      "cefr": "A2/B1",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0143",
+      "surfaceForms": "deep",
+      "allOxfordLevels": "A2/B1",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses adjective in 'five feet deep' A2; Oxford B1 candidate is adverb."
+        }
+      ]
+    },
+    {
+      "word": "delight",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0012",
+      "surfaceForms": "delight",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "depend",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene2-speech-0042",
+      "surfaceForms": "depends",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "depressed",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0170",
+      "surfaceForms": "depressed",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": {
+        "pos": "形容詞",
+        "meaning": "気分が落ち込んだ、意気消沈した。",
+        "tags": [],
+        "cefr": null,
+        "source": "data/vocabulary-rebuild/block-1-dictionary.json"
+      },
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "downstairs",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene2-speech-0136",
+      "surfaceForms": "downstairs",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "dry",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0093",
+      "surfaceForms": "dry",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "duty",
+      "cefr": "B1",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0258",
+      "surfaceForms": "duty",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "earth",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0158",
+      "surfaceForms": "earth",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "easily",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0121",
+      "surfaceForms": "easily",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "either",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0011",
+      "surfaceForms": "either",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "ensure",
+      "cefr": "B2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0195",
+      "surfaceForms": "ensure",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "equip",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0118",
+      "surfaceForms": "equipped",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "escape",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0018",
+      "surfaceForms": "escaped",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "even",
+      "cefr": "B2",
+      "parts": "1,2",
+      "occurrences": 8,
+      "firstSpeechId": "act1-scene1-speech-0190",
+      "surfaceForms": "even, evening",
+      "allOxfordLevels": "A1/B2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses adverb A1; Oxford B2 candidate is adjective."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are the A1 adverb even; evening is also a morphology false match. No B2 adjective even occurs."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are the A1 adverb even; evening is also a morphology false match. No B2 adjective even occurs."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Actual 'even' is A1 adverb; 'evening' occurrences are morphology noise, not B2 adjective even."
+          }
+        }
+      ]
+    },
+    {
+      "word": "everywhere",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0177",
+      "surfaceForms": "everywhere",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "excellent",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0133",
+      "surfaceForms": "excellent",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "except",
+      "cefr": "A2/B1",
+      "parts": "2",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene2-speech-0224",
+      "surfaceForms": "except",
+      "allOxfordLevels": "A2/B1",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are prepositional constructions such as all except/except for/except in, not the B1 conjunction sense."
+        }
+      ]
+    },
+    {
+      "word": "excuse",
+      "cefr": "B2",
+      "parts": "2",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene2-speech-0143",
+      "surfaceForms": "excuse",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "expected",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0001",
+      "surfaceForms": "expected",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "extremely",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0100",
+      "surfaceForms": "extremely",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "fall",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0132",
+      "surfaceForms": "fall, falls",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "far",
+      "cefr": "B1",
+      "parts": "2",
+      "occurrences": 4,
+      "firstSpeechId": "act1-scene2-speech-0133",
+      "surfaceForms": "far",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Use is adverbial distance; far-fetched is already selected as a separate phrase. No B1 adjective far use is needed."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Use is the A1 distance adverb in 'so far', not the B1 adjective far."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 adverb far, not B1 adjective far."
+          }
+        }
+      ]
+    },
+    {
+      "word": "feel",
+      "cefr": "B2",
+      "parts": "1,2",
+      "occurrences": 8,
+      "firstSpeechId": "act1-scene1-speech-0001",
+      "surfaceForms": "feel, feeling, felt",
+      "allOxfordLevels": "A1/B2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Use is the elementary verb 'feel my hands'; unresolved B2 candidate is the noun feel."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "All occurrences are A1 verb feel, not B2 noun feel."
+          }
+        }
+      ]
+    },
+    {
+      "word": "file",
+      "cefr": "B1/B2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0183",
+      "surfaceForms": "file",
+      "allOxfordLevels": "B1/B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "first",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 8,
+      "firstSpeechId": "act1-scene1-speech-0014",
+      "surfaceForms": "first",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "following",
+      "cefr": "A2/B1/B2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0226",
+      "surfaceForms": "following",
+      "allOxfordLevels": "A2/B1/B2",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Use is the participle of follow in 'been following you around', not the B1 noun or B2 preposition following."
+        }
+      ]
+    },
+    {
+      "word": "force",
+      "cefr": "B1",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0149",
+      "surfaceForms": "force",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "found",
+      "cefr": "B2",
+      "parts": "2",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene2-speech-0187",
+      "surfaceForms": "found",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Script uses found as the past participle of find; Oxford B2 candidate found is the separate verb meaning establish."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "All observed forms are past participles of find; Oxford B2 found is the separate verb meaning establish/create."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "'I found her' is the past form of find, not Oxford B2 verb found meaning establish."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "All observed forms are past tense/participles of find, not the B2 verb found meaning establish."
+          }
+        }
+      ]
+    },
+    {
+      "word": "fresh",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0254",
+      "surfaceForms": "fresh",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "fully",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0118",
+      "surfaceForms": "fully",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "general",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0046",
+      "surfaceForms": "general, general's",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "go",
+      "cefr": "B1",
+      "parts": "1,2",
+      "occurrences": 33,
+      "firstSpeechId": "act1-scene1-speech-0010",
+      "surfaceForms": "go, gone, went",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "god",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0011",
+      "surfaceForms": "god",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "good",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 17,
+      "firstSpeechId": "act1-scene1-speech-0011",
+      "surfaceForms": "good",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "goodness",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0016",
+      "surfaceForms": "goodness",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "guest",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 24,
+      "firstSpeechId": "act1-scene1-speech-0021",
+      "surfaceForms": "guest, guests",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "half",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 5,
+      "firstSpeechId": "act1-scene1-speech-0011",
+      "surfaceForms": "half",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "halfway",
+      "cefr": "C1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0067",
+      "surfaceForms": "halfway",
+      "allOxfordLevels": "C1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "have",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 91,
+      "firstSpeechId": "act1-scene1-speech-0009",
+      "surfaceForms": "had, have, having",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "head",
+      "cefr": "B1",
+      "parts": "2",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene2-speech-0211",
+      "surfaceForms": "head, head's",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "hearing",
+      "cefr": "B2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0235",
+      "surfaceForms": "hearing",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Script uses hearing as a gerund form of hear in 'remember ... hearing'; unresolved Oxford B2 candidate is the lexical noun hearing."
+        }
+      ]
+    },
+    {
+      "word": "heating",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0013",
+      "surfaceForms": "heating",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "heavy",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0001",
+      "surfaceForms": "heavy",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "herself",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0002",
+      "surfaceForms": "herself",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "hide",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0039",
+      "surfaceForms": "hiding",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "himself",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene2-speech-0113",
+      "surfaceForms": "himself",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "his",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 8,
+      "firstSpeechId": "act1-scene1-speech-0162",
+      "surfaceForms": "his",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "hold",
+      "cefr": "A2/B2",
+      "parts": "2",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene2-speech-0254",
+      "surfaceForms": "held",
+      "allOxfordLevels": "A2/B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "hook",
+      "cefr": "B2/C1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0016",
+      "surfaceForms": "hooked",
+      "allOxfordLevels": "B2/C1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "hope",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 9,
+      "firstSpeechId": "act1-scene1-speech-0012",
+      "surfaceForms": "hope, hoped",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "house",
+      "cefr": "B2",
+      "parts": "1,2",
+      "occurrences": 21,
+      "firstSpeechId": "act1-scene1-speech-0021",
+      "surfaceForms": "house, houses",
+      "allOxfordLevels": "A1/B2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses noun A1; Oxford B2 candidate is verb."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "All uses are the A1 noun house, not the B2 verb."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 noun house, not B2 verb house."
+          }
+        }
+      ]
+    },
+    {
+      "word": "human",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0334",
+      "surfaceForms": "human",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "hunt",
+      "cefr": "B1/B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0055",
+      "surfaceForms": "hunt",
+      "allOxfordLevels": "B1/B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "identify",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0183",
+      "surfaceForms": "identify",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "ill",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene2-speech-0187",
+      "surfaceForms": "ill",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "immediately",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0177",
+      "surfaceForms": "immediately",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "impress",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0085",
+      "surfaceForms": "impress",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "indoor",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0106",
+      "surfaceForms": "indoor",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "inside",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0164",
+      "surfaceForms": "inside",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "instead",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0021",
+      "surfaceForms": "instead",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "invite",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0190",
+      "surfaceForms": "invite",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "iron",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0177",
+      "surfaceForms": "iron",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "it",
+      "cefr": "B1",
+      "parts": "1,2",
+      "occurrences": 187,
+      "firstSpeechId": "act1-scene1-speech-0002",
+      "surfaceForms": "it, it's",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "joke",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 5,
+      "firstSpeechId": "act1-scene1-speech-0067",
+      "surfaceForms": "joke, jokes",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "joy",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0177",
+      "surfaceForms": "joy",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "justice",
+      "cefr": "B2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0130",
+      "surfaceForms": "justice",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "kill",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 6,
+      "firstSpeechId": "act1-scene2-speech-0196",
+      "surfaceForms": "kill, killed",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "lady",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 4,
+      "firstSpeechId": "act1-scene2-speech-0114",
+      "surfaceForms": "ladies, lady",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "land",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0296",
+      "surfaceForms": "land",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "last",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 6,
+      "firstSpeechId": "act1-scene1-speech-0067",
+      "surfaceForms": "last",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "least",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0064",
+      "surfaceForms": "least",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "leave",
+      "cefr": "B2",
+      "parts": "1,2",
+      "occurrences": 12,
+      "firstSpeechId": "act1-scene1-speech-0005",
+      "surfaceForms": "leave, leaves, left",
+      "allOxfordLevels": "A1/B2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Use is the A1 verb leave, not the B2 noun leave."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "The occurrence is A1 verb leave, not B2 noun leave."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The occurrence 'Leave them alone' is the A1 verb leave, not the B2 noun leave."
+          }
+        }
+      ]
+    },
+    {
+      "word": "less",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0112",
+      "surfaceForms": "less",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "like",
+      "cefr": "B1",
+      "parts": "1,2",
+      "occurrences": 29,
+      "firstSpeechId": "act1-scene1-speech-0011",
+      "surfaceForms": "like, liked",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses verb/preposition A1; Oxford B1 candidate is noun."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are the A1 verb/preposition like, not the B1 noun."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are elementary verb/preposition like, not the B1 noun like."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 preposition/verb like, not B1 noun like."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "Observed uses are A1 verb/preposition uses, not the B1 noun like."
+          }
+        }
+      ]
+    },
+    {
+      "word": "line",
+      "cefr": "B2",
+      "parts": "2",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene2-speech-0166",
+      "surfaceForms": "line's, lines",
+      "allOxfordLevels": "A1/B2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are the A1 noun telephone line, not the B2 verb line."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Use is the A1 noun telephone line, not the B2 verb line."
+        }
+      ]
+    },
+    {
+      "word": "little",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 15,
+      "firstSpeechId": "act1-scene1-speech-0052",
+      "surfaceForms": "little",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "live",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0036",
+      "surfaceForms": "live",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses verb A1; Oxford B1 candidates are adjective/adverb."
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The observed 'have lived' is the A1 verb live, not the B1 adjective/adverb live."
+          }
+        }
+      ]
+    },
+    {
+      "word": "lock",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0184",
+      "surfaceForms": "locked",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "loud",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene2-speech-0047",
+      "surfaceForms": "loud",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "lovely",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0046",
+      "surfaceForms": "lovely",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "lucky",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0271",
+      "surfaceForms": "lucky",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "mad",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0021",
+      "surfaceForms": "mad",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "make",
+      "cefr": "B2",
+      "parts": "1,2",
+      "occurrences": 15,
+      "firstSpeechId": "act1-scene1-speech-0067",
+      "surfaceForms": "made, make, makes",
+      "allOxfordLevels": "A1/B2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 verb make, not B2 noun make."
+          }
+        }
+      ]
+    },
+    {
+      "word": "marry",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0059",
+      "surfaceForms": "married",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "may",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 16,
+      "firstSpeechId": "act1-scene1-speech-0030",
+      "surfaceForms": "may",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "mechanic",
+      "cefr": "B2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0334",
+      "surfaceForms": "mechanics",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Script has mechanics in the phrase 'mechanics of fear' meaning workings; Oxford B2 mechanic is the person who repairs machines. The phrase is already selected separately."
+        }
+      ]
+    },
+    {
+      "word": "might",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 7,
+      "firstSpeechId": "act1-scene1-speech-0037",
+      "surfaceForms": "might",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "mind",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 6,
+      "firstSpeechId": "act1-scene2-speech-0047",
+      "surfaceForms": "mind",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "mine",
+      "cefr": "A2/B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0008",
+      "surfaceForms": "mine",
+      "allOxfordLevels": "A2/B1",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses possessive pronoun A2; Oxford B1 candidate is noun."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Use is the A2 possessive pronoun mine, not the B1 noun mine."
+        }
+      ]
+    },
+    {
+      "word": "minute",
+      "cefr": "C1",
+      "parts": "1",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0030",
+      "surfaceForms": "minute",
+      "allOxfordLevels": "A1/C1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "All uses are the A1 time noun minute, not the C1 adjective minute meaning extremely small."
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "All occurrences mean a unit/short period of time, the A1 noun, not the C1 adjective minute."
+          }
+        }
+      ]
+    },
+    {
+      "word": "myself",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 4,
+      "firstSpeechId": "act1-scene1-speech-0132",
+      "surfaceForms": "myself",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "mystery",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0190",
+      "surfaceForms": "mystery",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "nearly",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0104",
+      "surfaceForms": "nearly",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "need",
+      "cefr": "A2/B1",
+      "parts": "1,2",
+      "occurrences": 4,
+      "firstSpeechId": "act1-scene1-speech-0186",
+      "surfaceForms": "need",
+      "allOxfordLevels": "A1/A2/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses ordinary verb A1; Oxford B1 candidate is modal verb."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are ordinary A1 lexical verb need, not B1 modal-verb use."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The observed 'I need someone' is the ordinary A1 lexical verb, not the B1 modal use."
+          }
+        }
+      ]
+    },
+    {
+      "word": "neglect",
+      "cefr": "C1",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0187",
+      "surfaceForms": "neglect",
+      "allOxfordLevels": "C1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "nest",
+      "cefr": "C1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0067",
+      "surfaceForms": "nests",
+      "allOxfordLevels": "C1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "net",
+      "cefr": "B1/C1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0010",
+      "surfaceForms": "netting",
+      "allOxfordLevels": "B1/C1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "next",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0121",
+      "surfaceForms": "next",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses adverb A1; Oxford B1 candidate is noun."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 adjective/adverb next, not B1 noun next."
+          }
+        }
+      ]
+    },
+    {
+      "word": "noise",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0336",
+      "surfaceForms": "noise",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "now",
+      "cefr": "B1",
+      "parts": "1,2",
+      "occurrences": 31,
+      "firstSpeechId": "act1-scene1-speech-0021",
+      "surfaceForms": "now",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Occurrences are adverb/discourse uses, not Oxford B1 conjunction use."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are temporal/discourse adverb now, not the B1 conjunction sense."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 adverb/discourse-marker now, not B1 conjunction now."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "Observed uses are temporal/discourse adverb uses, not the B1 conjunction now."
+          }
+        }
+      ]
+    },
+    {
+      "word": "nowhere",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0190",
+      "surfaceForms": "nowhere",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "nursery",
+      "cefr": "C1",
+      "parts": "1,2",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0114",
+      "surfaceForms": "nursery",
+      "allOxfordLevels": "C1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "once",
+      "cefr": "B1",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0024",
+      "surfaceForms": "once",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "Observed uses are A1 adverb uses such as 'once again' and 'more than once', not the B1 conjunction."
+          }
+        }
+      ]
+    },
+    {
+      "word": "opening",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0110",
+      "surfaceForms": "opening",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "ourselves",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0190",
+      "surfaceForms": "ourselves",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "outside",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0099",
+      "surfaceForms": "outside",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "own",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0170",
+      "surfaceForms": "own",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "painter",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0065",
+      "surfaceForms": "painter, painters",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "pale",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0036",
+      "surfaceForms": "pale",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "particular",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0195",
+      "surfaceForms": "particulars",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "pass",
+      "cefr": "A2/B1",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0152",
+      "surfaceForms": "passed",
+      "allOxfordLevels": "A2/B1",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Observed passed is verb A2; Oxford B1 candidate is noun."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A2 verb pass, not B1 noun pass."
+          }
+        }
+      ]
+    },
+    {
+      "word": "past",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0293",
+      "surfaceForms": "past",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "pay",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 5,
+      "firstSpeechId": "act1-scene1-speech-0036",
+      "surfaceForms": "pay, paying",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "perhaps",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 15,
+      "firstSpeechId": "act1-scene1-speech-0060",
+      "surfaceForms": "perhaps",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "persistent",
+      "cefr": "C1",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0187",
+      "surfaceForms": "persistent",
+      "allOxfordLevels": "C1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "pick",
+      "cefr": "A2/B2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0191",
+      "surfaceForms": "picked",
+      "allOxfordLevels": "A2/B2",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "'picked it up' is A2 verb pick, not B2 noun pick."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "Observed 'pick it out' uses the A2 verb pick, not the B2 noun pick."
+          }
+        }
+      ]
+    },
+    {
+      "word": "pity",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0048",
+      "surfaceForms": "pity",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "please",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0221",
+      "surfaceForms": "please",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "pleasure",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0125",
+      "surfaceForms": "pleasure",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "political",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0136",
+      "surfaceForms": "political",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "portrait",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0065",
+      "surfaceForms": "portrait",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "power",
+      "cefr": "A2/B2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0285",
+      "surfaceForms": "power",
+      "allOxfordLevels": "A2/B2",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Use is the A2 noun in 'will power', not the B2 verb power."
+        }
+      ]
+    },
+    {
+      "word": "prayer",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0177",
+      "surfaceForms": "prayer",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "prevent",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0320",
+      "surfaceForms": "prevent",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "produce",
+      "cefr": "A2/B2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0334",
+      "surfaceForms": "produced",
+      "allOxfordLevels": "A2/B2",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Use is the A2 verb in 'effect produced', not the B2 noun produce."
+        }
+      ]
+    },
+    {
+      "word": "promise",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0006",
+      "surfaceForms": "promised",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "provision",
+      "cefr": "C1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0132",
+      "surfaceForms": "provisions",
+      "allOxfordLevels": "C1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "public",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0258",
+      "surfaceForms": "public",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "question",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0285",
+      "surfaceForms": "question",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "rate",
+      "cefr": "A2/B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0170",
+      "surfaceForms": "rate",
+      "allOxfordLevels": "A2/B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "receive",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0193",
+      "surfaceForms": "receiving",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "record",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0183",
+      "surfaceForms": "record",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "regular",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0012",
+      "surfaceForms": "regular",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "result",
+      "cefr": "B1",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0187",
+      "surfaceForms": "result",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Use is the A1 noun in 'as the result of', not the B1 verb result."
+        }
+      ]
+    },
+    {
+      "word": "ring",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0121",
+      "surfaceForms": "ring",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "roll",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0177",
+      "surfaceForms": "rolls",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "rose",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0057",
+      "surfaceForms": "rose, roses",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "round",
+      "cefr": "A2/B2",
+      "parts": "1,2",
+      "occurrences": 4,
+      "firstSpeechId": "act1-scene1-speech-0054",
+      "surfaceForms": "round",
+      "allOxfordLevels": "A2/B2",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses adverb/preposition A2; Oxford B2 candidate is noun."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A2 adverb/preposition round, not B2 noun round."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The observed spatial use is lower-level adverb/preposition round, not the B2 noun."
+          }
+        }
+      ]
+    },
+    {
+      "word": "rubbish",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0240",
+      "surfaceForms": "rubbish",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "run",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 5,
+      "firstSpeechId": "act1-scene1-speech-0126",
+      "surfaceForms": "ran, run, runs",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "running",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 6,
+      "firstSpeechId": "act1-scene1-speech-0021",
+      "surfaceForms": "running",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "sadly",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0039",
+      "surfaceForms": "sadly",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "safe",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0313",
+      "surfaceForms": "safe",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "satisfied",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0119",
+      "surfaceForms": "satisfied",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": {
+        "pos": "形容詞",
+        "meaning": "必要・期待が満たされて満足している。",
+        "tags": [],
+        "cefr": null,
+        "source": "data/vocabulary-rebuild/block-1-dictionary.json"
+      },
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "say",
+      "cefr": "C1",
+      "parts": "1,2",
+      "occurrences": 37,
+      "firstSpeechId": "act1-scene1-speech-0055",
+      "surfaceForms": "said, say, saying, says",
+      "allOxfordLevels": "A1/C1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses verb A1; Oxford C1 candidate is noun."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "All uses are the A1 verb say, not the C1 noun say."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "All uses are the A1 verb say, not the C1 noun say."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 verb say, not C1 noun say."
+          }
+        }
+      ]
+    },
+    {
+      "word": "scene",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0191",
+      "surfaceForms": "scene",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "serve",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 6,
+      "firstSpeechId": "act1-scene1-speech-0124",
+      "surfaceForms": "serve, served, serving",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "several",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0111",
+      "surfaceForms": "several",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "shall",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 13,
+      "firstSpeechId": "act1-scene1-speech-0005",
+      "surfaceForms": "shall",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "shoulder",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0017",
+      "surfaceForms": "shoulders",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "shut",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene2-speech-0295",
+      "surfaceForms": "shut, shutting",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "sign",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0025",
+      "surfaceForms": "sign",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "simple",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0036",
+      "surfaceForms": "simple",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "sir",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 10,
+      "firstSpeechId": "act1-scene1-speech-0103",
+      "surfaceForms": "sir",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "skiing",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0153",
+      "surfaceForms": "skiing",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "sleep",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0130",
+      "surfaceForms": "sleep",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "slip",
+      "cefr": "B2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0007",
+      "surfaceForms": "slipped",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "soft",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 4,
+      "firstSpeechId": "act1-scene1-speech-0001",
+      "surfaceForms": "soft",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "solve",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0041",
+      "surfaceForms": "solve",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "sometime",
+      "cefr": "B2",
+      "parts": "2",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene2-speech-0288",
+      "surfaceForms": "sometimes",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Audit produced sometime from the observed word sometimes via broad morphology; these are different lexemes."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Observed word is sometimes; audit derived the separate lexeme sometime by stripping final s."
+        }
+      ]
+    },
+    {
+      "word": "somewhere",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0138",
+      "surfaceForms": "somewhere",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "sort",
+      "cefr": "A2/B1",
+      "parts": "1,2",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene2-speech-0071",
+      "surfaceForms": "sort",
+      "allOxfordLevels": "A2/B1",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses noun A2 in 'what sort of'; Oxford B1 candidate is verb."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Use is the A2 noun in 'that sort of thing', not the B1 verb sort."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Use is the A2 noun in 'the sort of person', not the B1 verb sort."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "'a sort of' is A2 noun sort, not B1 verb sort."
+          }
+        }
+      ]
+    },
+    {
+      "word": "sound",
+      "cefr": "C1",
+      "parts": "1,2",
+      "occurrences": 4,
+      "firstSpeechId": "act1-scene1-speech-0190",
+      "surfaceForms": "sound, sounds",
+      "allOxfordLevels": "A1/C1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses linking verb A1; Oxford C1 candidate is adjective."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are the A1 verb sound, not the C1 adjective sound."
+        }
+      ]
+    },
+    {
+      "word": "spoil",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0052",
+      "surfaceForms": "spoil",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "spoken",
+      "cefr": "B1",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0256",
+      "surfaceForms": "spoken",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Script uses spoken as a participial complement modified by civilly; it is not the Oxford B1 adjective sense contrasted with written language."
+        }
+      ]
+    },
+    {
+      "word": "stair",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 9,
+      "firstSpeechId": "act1-scene2-speech-0027",
+      "surfaceForms": "stairs",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "standing",
+      "cefr": "C1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0082",
+      "surfaceForms": "standing",
+      "allOxfordLevels": "C1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "stay",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 4,
+      "firstSpeechId": "act1-scene2-speech-0015",
+      "surfaceForms": "stay, staying",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "still",
+      "cefr": "B1",
+      "parts": "2",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene2-speech-0311",
+      "surfaceForms": "still",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are adverbial/discourse still, not the B1 adjective."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Use is the A1 adverb still, not the B1 adjective."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 adverb still, not B1 adjective still."
+          }
+        }
+      ]
+    },
+    {
+      "word": "stone",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene2-speech-0095",
+      "surfaceForms": "stone, stones",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "storm",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0190",
+      "surfaceForms": "storm",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "straight",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0283",
+      "surfaceForms": "straight",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "stupid",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0002",
+      "surfaceForms": "stupid",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "such",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 4,
+      "firstSpeechId": "act1-scene1-speech-0041",
+      "surfaceForms": "such",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "suggest",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0196",
+      "surfaceForms": "suggesting",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "suppose",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 11,
+      "firstSpeechId": "act1-scene1-speech-0015",
+      "surfaceForms": "suppose",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "sure",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 6,
+      "firstSpeechId": "act1-scene1-speech-0037",
+      "surfaceForms": "sure",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "sweep",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0027",
+      "surfaceForms": "sweeper",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Observed form is noun sweeper in carpet sweeper; broad -er morphology falsely mapped it to verb sweep B2. Carpet sweeper is separately included."
+        }
+      ]
+    },
+    {
+      "word": "sweet",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0157",
+      "surfaceForms": "sweet",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "swing",
+      "cefr": "C1",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0022",
+      "surfaceForms": "swing",
+      "allOxfordLevels": "C1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "switch",
+      "cefr": "B1/B2",
+      "parts": "2",
+      "occurrences": 2,
+      "firstSpeechId": "act2-speech-0022",
+      "surfaceForms": "switched",
+      "allOxfordLevels": "B1/B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "talk",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 5,
+      "firstSpeechId": "act1-scene1-speech-0022",
+      "surfaceForms": "talk, talking",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "that",
+      "cefr": "B1",
+      "parts": "1,2",
+      "occurrences": 120,
+      "firstSpeechId": "act1-scene1-speech-0011",
+      "surfaceForms": "that, that's",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses determiner/pronoun/conjunction A1 in audited occurrences; Oxford B1 candidate is adverb."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are elementary determiner/pronoun/conjunction forms, not the B1 adverb that."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are elementary determiner/pronoun/conjunction forms, not the B1 degree adverb that."
+        }
+      ]
+    },
+    {
+      "word": "themselves",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0157",
+      "surfaceForms": "themselves",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "thick",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0011",
+      "surfaceForms": "thick",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "thin",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0072",
+      "surfaceForms": "thin",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "thinking",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 8,
+      "firstSpeechId": "act1-scene1-speech-0037",
+      "surfaceForms": "thinking",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "this",
+      "cefr": "B1",
+      "parts": "1,2",
+      "occurrences": 67,
+      "firstSpeechId": "act1-scene1-speech-0009",
+      "surfaceForms": "this",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses determiner/pronoun A1; Oxford B1 candidate is adverb."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are A1 determiner/pronoun forms, not the B1 adverb this."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 determiner/pronoun this, not B1 adverb this."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "All occurrences are A1 determiner/pronoun uses, not the B1 adverb this."
+          }
+        }
+      ]
+    },
+    {
+      "word": "though",
+      "cefr": "B1",
+      "parts": "1,2",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0132",
+      "surfaceForms": "though",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "thought",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 6,
+      "firstSpeechId": "act1-scene1-speech-0046",
+      "surfaceForms": "thought",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "throughout",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0001",
+      "surfaceForms": "throughout",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "tidy",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act2-speech-0035",
+      "surfaceForms": "tidy",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "time",
+      "cefr": "B2",
+      "parts": "1,2",
+      "occurrences": 12,
+      "firstSpeechId": "act1-scene1-speech-0099",
+      "surfaceForms": "time",
+      "allOxfordLevels": "A1/B2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses noun A1; Oxford B2 candidate is verb."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "All uses are the A1 noun time, not the B2 verb time."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 noun time, not B2 verb time."
+          }
+        }
+      ]
+    },
+    {
+      "word": "tiny",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0054",
+      "surfaceForms": "tiny",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "tour",
+      "cefr": "A2/B1",
+      "parts": "2",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene2-speech-0247",
+      "surfaceForms": "tour",
+      "allOxfordLevels": "A2/B1",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are the A2 noun tour, not the B1 verb."
+        }
+      ]
+    },
+    {
+      "word": "tragic",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0114",
+      "surfaceForms": "tragic",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": {
+        "pos": "形容詞",
+        "meaning": "悲劇的な、非常に悲しい。",
+        "tags": [],
+        "cefr": null,
+        "source": "data/vocabulary-rebuild/block-1-dictionary.json"
+      },
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "train",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0082",
+      "surfaceForms": "train, trains",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "trouble",
+      "cefr": "A2/B2",
+      "parts": "1",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0157",
+      "surfaceForms": "trouble",
+      "allOxfordLevels": "A2/B2",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses noun A2; Oxford B2 candidate is verb."
+        }
+      ]
+    },
+    {
+      "word": "try",
+      "cefr": "B2",
+      "parts": "1,2",
+      "occurrences": 10,
+      "firstSpeechId": "act1-scene1-speech-0122",
+      "surfaceForms": "tried, tries, try, trying",
+      "allOxfordLevels": "A1/B2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Observed trying is verb A1; Oxford B2 candidate is noun."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "All uses are the A1 verb try, not the B2 noun try."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "All uses are the A1 verb try, not the B2 noun try."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 verb try, not B2 noun try."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The observed 'trying to prove' is the A1 verb try, not the B2 noun try."
+          }
+        }
+      ]
+    },
+    {
+      "word": "type",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0156",
+      "surfaceForms": "type",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "unfortunate",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0112",
+      "surfaceForms": "unfortunate",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": {
+        "pos": "形容詞",
+        "meaning": "不運な、残念な。",
+        "tags": [],
+        "cefr": null,
+        "source": "data/vocabulary-rebuild/block-1-dictionary.json"
+      },
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "unhappy",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0269",
+      "surfaceForms": "unhappy",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "unpleasant",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0167",
+      "surfaceForms": "unpleasant",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": {
+        "pos": "形容詞",
+        "meaning": "不快な、感じの悪い。",
+        "tags": [],
+        "cefr": null,
+        "source": "data/vocabulary-rebuild/block-1-dictionary.json"
+      },
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "upstairs",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 6,
+      "firstSpeechId": "act1-scene1-speech-0055",
+      "surfaceForms": "upstairs",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "use",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 4,
+      "firstSpeechId": "act1-scene1-speech-0162",
+      "surfaceForms": "use",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "used",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0039",
+      "surfaceForms": "used",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "The audit candidate is adjective B1, while the script uses the grammatical expression used to; that expression is separately included."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Use is the grammatical construction used to make, not the Oxford B1 adjective used."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "'used to laugh' is the grammatical used-to construction, not the B1 adjective used."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The observed 'used to do' is the past-habit construction, not Oxford B1 adjective used."
+          }
+        }
+      ]
+    },
+    {
+      "word": "very",
+      "cefr": "B2",
+      "parts": "1,2",
+      "occurrences": 42,
+      "firstSpeechId": "act1-scene1-speech-0038",
+      "surfaceForms": "very",
+      "allOxfordLevels": "A1/B2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses adverb A1; Oxford B2 candidate is adjective."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are the A1 degree adverb very, not the B2 adjective very."
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "All observed uses are the A1 degree adverb very, not the B2 adjective very."
+          }
+        }
+      ]
+    },
+    {
+      "word": "wait",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0241",
+      "surfaceForms": "wait",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "warm",
+      "cefr": "B1",
+      "parts": "1,2",
+      "occurrences": 6,
+      "firstSpeechId": "act1-scene1-speech-0051",
+      "surfaceForms": "warm, warmer",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Observed warmer is adjective A1; Oxford B1 candidate is verb."
+        }
+      ]
+    },
+    {
+      "word": "warn",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0001",
+      "surfaceForms": "warned",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Observed warning is noun B1; broad -ing morphology also generated verb warn. Warning is directly included."
+        }
+      ]
+    },
+    {
+      "word": "water",
+      "cefr": "B1",
+      "parts": "1",
+      "occurrences": 2,
+      "firstSpeechId": "act1-scene1-speech-0074",
+      "surfaceForms": "water, water's",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "way",
+      "cefr": "B2",
+      "parts": "1,2",
+      "occurrences": 9,
+      "firstSpeechId": "act1-scene1-speech-0037",
+      "surfaceForms": "way",
+      "allOxfordLevels": "A1/B2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are the A1 noun way, not the B2 adverb way."
+        }
+      ]
+    },
+    {
+      "word": "welcome",
+      "cefr": "A2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0107",
+      "surfaceForms": "welcome",
+      "allOxfordLevels": "A1/A2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "welfare",
+      "cefr": "B2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0254",
+      "surfaceForms": "welfare",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "well",
+      "cefr": "C1",
+      "parts": "1,2",
+      "occurrences": 22,
+      "firstSpeechId": "act1-scene1-speech-0013",
+      "surfaceForms": "well",
+      "allOxfordLevels": "A1/C1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses adverb/exclamation A1; Oxford C1 candidate is noun."
+        },
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Uses are A1 adverb/exclamation forms, not the C1 noun well."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are A1 adverb/exclamation forms, not the C1 noun well."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 adverb/exclamation well, not C1 noun well."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "Observed uses are A1 adverb/exclamation forms, not the C1 noun well."
+          }
+        }
+      ]
+    },
+    {
+      "word": "whole",
+      "cefr": "A2/B1",
+      "parts": "1,2",
+      "occurrences": 5,
+      "firstSpeechId": "act1-scene1-speech-0011",
+      "surfaceForms": "whole",
+      "allOxfordLevels": "A2/B1",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Use is the A2 adjective whole, not the B1 noun."
+        }
+      ]
+    },
+    {
+      "word": "wind",
+      "cefr": "A2/B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0114",
+      "surfaceForms": "wind",
+      "allOxfordLevels": "A2/B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "wish",
+      "cefr": "A2",
+      "parts": "1",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene1-speech-0013",
+      "surfaceForms": "wish",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "worry",
+      "cefr": "A2/B1",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0326",
+      "surfaceForms": "worries",
+      "allOxfordLevels": "A2/B1",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Use is the A2 verb worries, not the B1 noun worry."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "'I'm worrying' is A2 verb worry, not B1 noun worry."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "Observed occurrences are the A2 verb worry, not the B1 noun worry."
+          }
+        }
+      ]
+    },
+    {
+      "word": "worst",
+      "cefr": "A2/B1/B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0170",
+      "surfaceForms": "worst",
+      "allOxfordLevels": "A2/B1/B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "wrap",
+      "cefr": "B2",
+      "parts": "1",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene1-speech-0037",
+      "surfaceForms": "wrapped",
+      "allOxfordLevels": "B2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "written",
+      "cefr": "B1",
+      "parts": "2",
+      "occurrences": 3,
+      "firstSpeechId": "act1-scene2-speech-0191",
+      "surfaceForms": "written",
+      "allOxfordLevels": "B1",
+      "mixedA1": false,
+      "disposition": "exclude-reviewed",
+      "reason": "prior-oxford-sense-review-excluded",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Script uses written in passive verb constructions; it is not the Oxford B1 adjective sense."
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The observed 'Monkswell Manor written in it' is the participle of write, not the B1 adjective written."
+          }
+        }
+      ]
+    },
+    {
+      "word": "wrong",
+      "cefr": "B1/B2",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0290",
+      "surfaceForms": "wrong",
+      "allOxfordLevels": "A1/B1/B2",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "reason": "Use is the A1 adjective wrong, not the B1 adverb or B2 noun."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are the A1 adjective wrong, not the B1 adverb or B2 noun."
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The occurrence 'you are wrong' is the A1 adjective wrong, not the B1 adverb or B2 noun."
+          }
+        }
+      ]
+    },
+    {
+      "word": "young",
+      "cefr": "B1",
+      "parts": "1,2",
+      "occurrences": 20,
+      "firstSpeechId": "act1-scene1-speech-0089",
+      "surfaceForms": "young, youngest",
+      "allOxfordLevels": "A1/B1",
+      "mixedA1": true,
+      "disposition": "needs-sense-review",
+      "reason": "headword-has-a1-and-a2plus-senses",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": [
+        {
+          "block": 2,
+          "source": "data/vocabulary-rebuild/block-2-oxford-review.json",
+          "reason": "Script uses adjective A1; Oxford B1 candidate is noun."
+        },
+        {
+          "block": 4,
+          "source": "data/vocabulary-rebuild/block-4-oxford-review.json",
+          "reason": "Uses are the A1 adjective young/younger, not the B1 noun young."
+        },
+        {
+          "block": 5,
+          "source": "data/vocabulary-rebuild/block-5-oxford-review.json",
+          "reason": {
+            "reason": "Occurrences are A1 adjective young, not B1 noun young."
+          }
+        },
+        {
+          "block": 6,
+          "source": "data/vocabulary-rebuild/block-6-oxford-review.json",
+          "reason": {
+            "reason": "The occurrence 'young teacher' is the A1 adjective young, not the B1 noun young."
+          }
+        }
+      ]
+    },
+    {
+      "word": "yours",
+      "cefr": "A2",
+      "parts": "1,2",
+      "occurrences": 4,
+      "firstSpeechId": "act1-scene1-speech-0018",
+      "surfaceForms": "yours",
+      "allOxfordLevels": "A2",
+      "mixedA1": false,
+      "disposition": "include",
+      "reason": "pure-a2plus-candidate",
+      "reusableDefinition": null,
+      "reviewedIncludes": [],
+      "reviewedExcludes": []
+    },
+    {
+      "word": "abuse",
+      "cefr": "C1",
+      "parts": "2",
+      "occurrences": 1,
+      "firstSpeechId": "act1-scene2-speech-0258",
+      "surfaceForms": "abuse",
+      "allOxfordLevels": "C1",
+      "mixedA1": false,
+      "disposition": "already-current",
+      "reason": "candidate-staleness",
+      "reusableDefinition": {
+        "pos": "名詞・動詞",
+        "meaning": "人をひどく扱うこと、虐待・悪用・罵倒。また、そのように扱う。",
+        "tags": [],
+        "cefr": "C1",
+        "source": "data/vocabulary-rebuild/block-3-oxford-review.json"
+      },
+      "reviewedIncludes": [
+        {
+          "block": 3,
+          "source": "data/vocabulary-rebuild/block-3-oxford-review.json",
+          "pos": "名詞・動詞",
+          "meaning": "人をひどく扱うこと、虐待・悪用・罵倒。また、そのように扱う。",
+          "cefr": "C1",
+          "speechIds": null
+        }
+      ],
+      "reviewedExcludes": []
+    }
+  ]
+}
