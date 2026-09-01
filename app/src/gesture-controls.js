@@ -2,17 +2,39 @@ const overlay=document.getElementById('word-overlay');
 const sheet=overlay?.querySelector('.word-sheet');
 
 // Fallback for browsers where overscroll-behavior alone does not fully suppress
-// pull-to-refresh on a short/empty page.
-let rootStartY=null;
+// pull-to-refresh. Respect nested scroll containers: a downward finger drag must
+// remain native while that container still has content above it.
+const verticalScrollerFor=target=>{
+  let node=target instanceof Element?target:null;
+  while(node&&node!==document.body&&node!==document.documentElement){
+    const style=getComputedStyle(node),overflowY=style.overflowY;
+    if((overflowY==='auto'||overflowY==='scroll'||overflowY==='overlay')&&node.scrollHeight>node.clientHeight+1)return node;
+    node=node.parentElement;
+  }
+  return null;
+};
+let rootGesture=null;
 document.addEventListener('touchstart',event=>{
-  if(event.touches.length!==1||event.target.closest?.('.word-sheet')){rootStartY=null;return}
-  rootStartY=window.scrollY<=0?event.touches[0].clientY:null;
+  if(event.touches.length!==1||event.target.closest?.('.word-sheet')){rootGesture=null;return}
+  const scroller=verticalScrollerFor(event.target),touch=event.touches[0];
+  rootGesture={
+    startY:touch.clientY,
+    scroller,
+    startedAtTop:scroller?scroller.scrollTop<=0:window.scrollY<=0,
+  };
 },{passive:true,capture:true});
 document.addEventListener('touchmove',event=>{
-  if(rootStartY==null||event.touches.length!==1)return;
-  if(window.scrollY<=0&&event.touches[0].clientY>rootStartY+2)event.preventDefault();
+  const gesture=rootGesture;
+  if(!gesture||event.touches.length!==1)return;
+  const y=event.touches[0].clientY;
+  if(y<=gesture.startY+2||!gesture.startedAtTop)return;
+  if(gesture.scroller){
+    if(gesture.scroller.scrollTop<=0)event.preventDefault();
+    return;
+  }
+  if(window.scrollY<=0)event.preventDefault();
 },{passive:false,capture:true});
-for(const type of ['touchend','touchcancel'])document.addEventListener(type,()=>{rootStartY=null},{passive:true,capture:true});
+for(const type of ['touchend','touchcancel'])document.addEventListener(type,()=>{rootGesture=null},{passive:true,capture:true});
 
 const resetSheet=()=>{
   if(!sheet||!overlay)return;
@@ -66,4 +88,4 @@ if(sheet&&overlay){
   sheet.addEventListener('pointercancel',event=>{if(event.pointerType!=='touch')cancel()});
 }
 
-window.MTS_GESTURES=Object.freeze({version:10,closeSheet,resetSheet});
+window.MTS_GESTURES=Object.freeze({version:11,closeSheet,resetSheet});

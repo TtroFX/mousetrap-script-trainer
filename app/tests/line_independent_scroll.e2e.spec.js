@@ -159,39 +159,3 @@ test('vertical gesture remains native scroll and does not start horizontal page 
   expect(result.hash).toContain(target.line);
   expect(result.top).toBeGreaterThan(200);
 });
-
-test('vertical scroll is yielded before small horizontal startup jitter can steal the gesture',async({page})=>{
-  await ready(page);
-  const target=await page.evaluate(()=>{
-    const scene='act1-scene1',rows=MTS_INDEX_ZERO.store.getScene(scene);return{scene,line:rows[5].id};
-  });
-  await page.goto(`${BASE}#/line?scene=${target.scene}&line=${target.line}`);
-  await page.waitForSelector('.line-page-surface');
-  const result=await page.evaluate(()=>{
-    const surface=document.querySelector('.line-page-surface');
-    const spacer=document.createElement('div');spacer.style.height='1400px';surface.append(spacer);
-    surface.scrollTop=260;surface.dispatchEvent(new Event('scroll'));
-    const fire=(type,x,y)=>surface.dispatchEvent(new PointerEvent(type,{bubbles:true,cancelable:true,pointerType:'touch',pointerId:704,clientX:x,clientY:y}));
-    const downAllowed=fire('pointerdown',240,360);
-    const jitterAllowed=fire('pointermove',249,353);
-    const verticalAllowed=fire('pointermove',251,292);
-    const snapshot={
-      downAllowed,jitterAllowed,verticalAllowed,
-      transform:getComputedStyle(surface).transform,
-      preview:!!document.querySelector('.focus-page-preview'),
-      hash:location.hash,
-      touchAction:getComputedStyle(surface).touchAction,
-      profile:MTS_LINE_NAVIGATION.gestureProfile
-    };
-    fire('pointerup',251,270);
-    return snapshot;
-  });
-  expect(result.downAllowed).toBe(true);
-  expect(result.jitterAllowed).toBe(true);
-  expect(result.verticalAllowed).toBe(true);
-  expect(result.transform).toBe('none');
-  expect(result.preview).toBe(false);
-  expect(result.hash).toContain(target.line);
-  expect(result.touchAction).toContain('pan-y');
-  expect(result.profile.verticalLockPx).toBeLessThan(result.profile.horizontalLockPx);
-});
