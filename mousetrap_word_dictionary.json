@@ -15204,5 +15204,693 @@
       "transport"
     ],
     "meaning": "【動詞】\nぬかるみなどにはまり動けなくする／なる。"
+  },
+  "law": {
+    "lemma": "law",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n法律、法。",
+    "tags": [],
+    "meaning": "【名詞】\n法律、法。"
+  },
+  "bench": {
+    "lemma": "bench",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nベンチ、長椅子；法廷では裁判官席・裁判官団。",
+    "tags": [
+      "polysemy",
+      "law"
+    ],
+    "meaning": "【名詞】\nベンチ、長椅子；法廷では裁判官席・裁判官団。"
+  },
+  "tiptoe": {
+    "lemma": "tiptoe",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nつま先。",
+    "tags": [
+      "daily-life"
+    ],
+    "meaning": "【名詞】\nつま先。"
+  },
+  "letter": {
+    "lemma": "letter",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n手紙；文字。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n手紙；文字。"
+  },
+  "word of warning": {
+    "lemma": "word of warning",
+    "pos": "名詞句",
+    "coreMeaning": "ちょっとした忠告、警告の言葉。",
+    "tags": [],
+    "meaning": "ちょっとした忠告、警告の言葉。"
+  },
+  "roof": {
+    "lemma": "roof",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n屋根；家・建物。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n屋根；家・建物。"
+  },
+  "madman": {
+    "lemma": "madman",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n【旧・不適切になり得る表現】正気でないとされた男性。",
+    "tags": [
+      "dated",
+      "potentially-offensive"
+    ],
+    "meaning": "【名詞】\n【旧・不適切になり得る表現】正気でないとされた男性。"
+  },
+  "price": {
+    "lemma": "price",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n価格、値段。",
+    "tags": [],
+    "meaning": "【名詞】\n価格、値段。"
+  },
+  "road": {
+    "lemma": "road",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n道路、道。",
+    "tags": [],
+    "meaning": "【名詞】\n道路、道。"
+  },
+  "winter sports": {
+    "lemma": "winter sports",
+    "pos": "名詞句",
+    "coreMeaning": "スキーなどの冬季スポーツ。",
+    "tags": [
+      "sport"
+    ],
+    "meaning": "スキーなどの冬季スポーツ。"
+  },
+  "brain": {
+    "lemma": "brain",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n脳；頭脳、知能。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n脳；頭脳、知能。"
+  },
+  "telephone": {
+    "lemma": "telephone",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n電話、電話機。",
+    "tags": [
+      "daily-life"
+    ],
+    "meaning": "【名詞】\n電話、電話機。"
+  },
+  "private joke": {
+    "lemma": "private joke",
+    "pos": "名詞句",
+    "coreMeaning": "当人だけ、または内輪だけに分かる冗談。",
+    "tags": [],
+    "meaning": "当人だけ、または内輪だけに分かる冗談。"
+  },
+  "police protection": {
+    "lemma": "police protection",
+    "pos": "名詞句",
+    "coreMeaning": "警察による保護、警護。",
+    "tags": [
+      "police"
+    ],
+    "meaning": "警察による保護、警護。"
+  },
+  "death": {
+    "lemma": "death",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n死、死亡。",
+    "tags": [],
+    "meaning": "【名詞】\n死、死亡。"
+  },
+  "farmer": {
+    "lemma": "farmer",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n農場経営者、農家。",
+    "tags": [
+      "occupation"
+    ],
+    "meaning": "【名詞】\n農場経営者、農家。"
+  },
+  "care and protection": {
+    "lemma": "care and protection",
+    "pos": "名詞句",
+    "coreMeaning": "保護と養育。",
+    "tags": [
+      "law",
+      "welfare"
+    ],
+    "meaning": "保護と養育。"
+  },
+  "term of imprisonment": {
+    "lemma": "term of imprisonment",
+    "pos": "名詞句",
+    "coreMeaning": "一定期間の禁錮・懲役刑。",
+    "tags": [
+      "law"
+    ],
+    "meaning": "一定期間の禁錮・懲役刑。"
+  },
+  "prison": {
+    "lemma": "prison",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n刑務所、監獄。",
+    "tags": [
+      "law"
+    ],
+    "meaning": "【名詞】\n刑務所、監獄。"
+  },
+  "scene of the crime": {
+    "lemma": "scene of the crime",
+    "pos": "名詞句",
+    "coreMeaning": "犯罪現場。",
+    "tags": [
+      "crime",
+      "police"
+    ],
+    "meaning": "犯罪現場。"
+  },
+  "information": {
+    "lemma": "information",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n情報、知らせ。",
+    "tags": [],
+    "meaning": "【名詞】\n情報、知らせ。"
+  },
+  "particulars": {
+    "lemma": "particulars",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n詳細事項、個人情報などの具体的内容。",
+    "tags": [
+      "formal",
+      "British English"
+    ],
+    "meaning": "【名詞】\n詳細事項、個人情報などの具体的内容。"
+  },
+  "danger": {
+    "lemma": "danger",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n危険。",
+    "tags": [],
+    "meaning": "【名詞】\n危険。"
+  },
+  "farmer's wife": {
+    "lemma": "farmer's wife",
+    "pos": "名詞句",
+    "coreMeaning": "農夫・農場経営者の妻。",
+    "tags": [],
+    "meaning": "農夫・農場経営者の妻。"
+  },
+  "elder boy": {
+    "lemma": "elder boy",
+    "pos": "名詞句",
+    "coreMeaning": "年上の少年、兄のほうの少年。",
+    "tags": [],
+    "meaning": "年上の少年、兄のほうの少年。"
+  },
+  "army psychologist": {
+    "lemma": "army psychologist",
+    "pos": "名詞句",
+    "coreMeaning": "軍で心理評価などを担当する心理学者。",
+    "tags": [
+      "military",
+      "occupation"
+    ],
+    "meaning": "軍で心理評価などを担当する心理学者。"
+  },
+  "local affairs": {
+    "lemma": "local affairs",
+    "pos": "名詞句",
+    "coreMeaning": "その土地・地域の事情、地域の出来事。",
+    "tags": [],
+    "meaning": "その土地・地域の事情、地域の出来事。"
+  },
+  "personal knowledge": {
+    "lemma": "personal knowledge",
+    "pos": "名詞句",
+    "coreMeaning": "自分自身の直接的な知識・経験。",
+    "tags": [],
+    "meaning": "自分自身の直接的な知識・経験。"
+  },
+  "blame": {
+    "lemma": "blame",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n責任、非難。",
+    "tags": [],
+    "meaning": "【名詞】\n責任、非難。"
+  },
+  "hard-boiled": {
+    "lemma": "hard-boiled",
+    "pos": "形容詞",
+    "coreMeaning": "【形容詞】\n感傷的でなく冷徹な、タフな。",
+    "tags": [
+      "informal"
+    ],
+    "meaning": "【形容詞】\n感傷的でなく冷徹な、タフな。"
+  },
+  "kick": {
+    "lemma": "kick",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n蹴ること；刺激、快感、スリル。",
+    "tags": [
+      "informal",
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n蹴ること；刺激、快感、スリル。"
+  },
+  "conducted tour": {
+    "lemma": "conducted tour",
+    "pos": "名詞句",
+    "coreMeaning": "案内人付きの見学、ガイドツアー。",
+    "tags": [],
+    "meaning": "案内人付きの見学、ガイドツアー。"
+  },
+  "abnormal manner": {
+    "lemma": "abnormal manner",
+    "pos": "名詞句",
+    "coreMeaning": "普通とは違う振る舞い方、異常に見える態度。",
+    "tags": [],
+    "meaning": "普通とは違う振る舞い方、異常に見える態度。"
+  },
+  "nerves": {
+    "lemma": "nerves",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n神経；緊張や不安、神経過敏。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n神経；緊張や不安、神経過敏。"
+  },
+  "report": {
+    "lemma": "report",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n報告、報告書。",
+    "tags": [],
+    "meaning": "【名詞】\n報告、報告書。"
+  },
+  "pen": {
+    "lemma": "pen",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nペン、筆記具。",
+    "tags": [],
+    "meaning": "【名詞】\nペン、筆記具。"
+  },
+  "piano": {
+    "lemma": "piano",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nピアノ。",
+    "tags": [
+      "music"
+    ],
+    "meaning": "【名詞】\nピアノ。"
+  },
+  "willpower": {
+    "lemma": "willpower",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n意志力、自制心。",
+    "tags": [],
+    "meaning": "【名詞】\n意志力、自制心。"
+  },
+  "lay of the land": {
+    "lemma": "lay of the land",
+    "pos": "名詞句",
+    "coreMeaning": "土地・場所の様子、状況の全体像。",
+    "tags": [
+      "idiom"
+    ],
+    "meaning": "土地・場所の様子、状況の全体像。"
+  },
+  "Bournemouth hotel": {
+    "lemma": "Bournemouth hotel",
+    "pos": "名詞句",
+    "coreMeaning": "ボーンマスにあるホテル。",
+    "tags": [
+      "place",
+      "lodging"
+    ],
+    "meaning": "ボーンマスにあるホテル。"
+  },
+  "private hotel": {
+    "lemma": "private hotel",
+    "pos": "名詞句",
+    "coreMeaning": "【英・旧】小規模で家庭的な私営ホテル・宿。",
+    "tags": [
+      "British English",
+      "dated",
+      "lodging"
+    ],
+    "meaning": "【英・旧】小規模で家庭的な私営ホテル・宿。"
+  },
+  "vegetable": {
+    "lemma": "vegetable",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n野菜。",
+    "tags": [
+      "food"
+    ],
+    "meaning": "【名詞】\n野菜。"
+  },
+  "human mind": {
+    "lemma": "human mind",
+    "pos": "名詞句",
+    "coreMeaning": "人間の心、精神。",
+    "tags": [],
+    "meaning": "人間の心、精神。"
+  },
+  "instance": {
+    "lemma": "instance",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n例、事例。",
+    "tags": [
+      "formal"
+    ],
+    "meaning": "【名詞】\n例、事例。"
+  },
+  "hallway": {
+    "lemma": "hallway",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n廊下、通路。",
+    "tags": [
+      "household"
+    ],
+    "meaning": "【名詞】\n廊下、通路。"
+  },
+  "door creak": {
+    "lemma": "door creak",
+    "pos": "名詞句",
+    "coreMeaning": "ドアがきしむ音。",
+    "tags": [
+      "sound"
+    ],
+    "meaning": "ドアがきしむ音。"
+  },
+  "bottom of something": {
+    "lemma": "bottom of something",
+    "pos": "定型表現",
+    "coreMeaning": "物事の真相・根本。",
+    "tags": [
+      "idiom"
+    ],
+    "meaning": "物事の真相・根本。"
+  },
+  "direction": {
+    "lemma": "direction",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n方向、方角；指示。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n方向、方角；指示。"
+  },
+  "hair": {
+    "lemma": "hair",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n髪、毛。",
+    "tags": [
+      "body"
+    ],
+    "meaning": "【名詞】\n髪、毛。"
+  },
+  "finger": {
+    "lemma": "finger",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n指。",
+    "tags": [
+      "body"
+    ],
+    "meaning": "【名詞】\n指。"
+  },
+  "haunting": {
+    "lemma": "haunting",
+    "pos": "形容詞",
+    "coreMeaning": "【形容詞】\nいつまでも心に残る、忘れがたい；不気味につきまとうような。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【形容詞】\nいつまでも心に残る、忘れがたい；不気味につきまとうような。"
+  },
+  "traveller": {
+    "lemma": "traveller",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n旅行者。",
+    "tags": [
+      "British English"
+    ],
+    "meaning": "【名詞】\n旅行者。"
+  },
+  "devil": {
+    "lemma": "devil",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n悪魔。",
+    "tags": [
+      "religion/culture"
+    ],
+    "meaning": "【名詞】\n悪魔。"
+  },
+  "husband": {
+    "lemma": "husband",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n夫。",
+    "tags": [
+      "family"
+    ],
+    "meaning": "【名詞】\n夫。"
+  },
+  "detective sergeant": {
+    "lemma": "detective sergeant",
+    "pos": "名詞句",
+    "coreMeaning": "【英警察】刑事巡査部長。",
+    "tags": [
+      "British English",
+      "police",
+      "rank"
+    ],
+    "meaning": "【英警察】刑事巡査部長。"
+  },
+  "real name": {
+    "lemma": "real name",
+    "pos": "名詞句",
+    "coreMeaning": "本名、実名。",
+    "tags": [],
+    "meaning": "本名、実名。"
+  },
+  "farm": {
+    "lemma": "farm",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n農場。",
+    "tags": [
+      "farming"
+    ],
+    "meaning": "【名詞】\n農場。"
+  },
+  "boy": {
+    "lemma": "boy",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n少年、男の子。",
+    "tags": [],
+    "meaning": "【名詞】\n少年、男の子。"
+  },
+  "girl": {
+    "lemma": "girl",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n少女、女の子。",
+    "tags": [],
+    "meaning": "【名詞】\n少女、女の子。"
+  },
+  "home": {
+    "lemma": "home",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n家、家庭、住居。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n家、家庭、住居。"
+  },
+  "army": {
+    "lemma": "army",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n陸軍、軍隊。",
+    "tags": [
+      "military"
+    ],
+    "meaning": "【名詞】\n陸軍、軍隊。"
+  },
+  "body": {
+    "lemma": "body",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n身体、遺体。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n身体、遺体。"
+  },
+  "word": {
+    "lemma": "word",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n言葉、単語。",
+    "tags": [],
+    "meaning": "【名詞】\n言葉、単語。"
+  },
+  "drawing": {
+    "lemma": "drawing",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n絵、図；製図。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n絵、図；製図。"
+  },
+  "mouse": {
+    "lemma": "mouse",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nネズミ。",
+    "tags": [
+      "animal"
+    ],
+    "meaning": "【名詞】\nネズミ。"
+  },
+  "paper": {
+    "lemma": "paper",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n新聞；紙、書類。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n新聞；紙、書類。"
+  },
+  "knowledge": {
+    "lemma": "knowledge",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n知識、認識。",
+    "tags": [],
+    "meaning": "【名詞】\n知識、認識。"
+  },
+  "friend": {
+    "lemma": "friend",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n友人。",
+    "tags": [],
+    "meaning": "【名詞】\n友人。"
+  },
+  "farm people": {
+    "lemma": "farm people",
+    "pos": "名詞句",
+    "coreMeaning": "農場で暮らす人々、農場の家族。",
+    "tags": [],
+    "meaning": "農場で暮らす人々、農場の家族。"
+  },
+  "egg": {
+    "lemma": "egg",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n卵。",
+    "tags": [
+      "food"
+    ],
+    "meaning": "【名詞】\n卵。"
+  },
+  "fresh milk": {
+    "lemma": "fresh milk",
+    "pos": "名詞句",
+    "coreMeaning": "新鮮な牛乳。",
+    "tags": [
+      "food"
+    ],
+    "meaning": "新鮮な牛乳。"
+  },
+  "couple": {
+    "lemma": "couple",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n二人組、夫婦；一対。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n二人組、夫婦；一対。"
+  },
+  "light": {
+    "lemma": "light",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n照明、明かり；光。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n照明、明かり；光。"
+  },
+  "hotel": {
+    "lemma": "hotel",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\nホテル。",
+    "tags": [
+      "lodging"
+    ],
+    "meaning": "【名詞】\nホテル。"
+  },
+  "height": {
+    "lemma": "height",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n高さ、身長。",
+    "tags": [],
+    "meaning": "【名詞】\n高さ、身長。"
+  },
+  "build": {
+    "lemma": "build",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n体格、体つき；構造。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n体格、体つき；構造。"
+  },
+  "hall": {
+    "lemma": "hall",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n玄関ホール、廊下；大広間。",
+    "tags": [
+      "household",
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n玄関ホール、廊下；大広間。"
+  },
+  "kitchen": {
+    "lemma": "kitchen",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n台所、キッチン。",
+    "tags": [
+      "household"
+    ],
+    "meaning": "【名詞】\n台所、キッチン。"
+  },
+  "window": {
+    "lemma": "window",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n窓。",
+    "tags": [
+      "household"
+    ],
+    "meaning": "【名詞】\n窓。"
+  },
+  "account": {
+    "lemma": "account",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n説明、報告；口座。",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【名詞】\n説明、報告；口座。"
+  },
+  "stairs": {
+    "lemma": "stairs",
+    "pos": "名詞",
+    "coreMeaning": "【名詞】\n階段。",
+    "tags": [
+      "household"
+    ],
+    "meaning": "【名詞】\n階段。"
   }
 }

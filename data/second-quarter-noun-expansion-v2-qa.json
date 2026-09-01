@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "patchId": "second-quarter-noun-expansion-v2-2026-09-01",
+  "status": "PASS",
+  "scope": {
+    "globalSpeechRange": [
+      292,
+      582
+    ],
+    "speechCount": 291,
+    "first": "act1-scene2-speech-0102",
+    "last": "act2-speech-0056",
+    "nextExcluded": "act2-speech-0057"
+  },
+  "policy": {
+    "focus": "Second-pass expansion for Japanese English learners, with permissive inclusion of everyday nouns, British daily-life terms, institutional vocabulary, and culturally opaque expressions.",
+    "meaning": "Neutral dictionary Japanese; single words use POS headings.",
+    "inThisPlay": "Only when materially context-dependent, polysemous, idiomatic, ironic, culturally specific, or historically specific.",
+    "existing": "Preserve all existing line vocabulary and dictionary entries; never duplicate an existing surface on the same speech.",
+    "source": "Canonical dialogue only; stage-direction-only matches must not create line vocabulary or dictionary entries."
+  },
+  "before": {
+    "targetVocabularyItems": 442,
+    "allVocabularyItems": 3044,
+    "dictionaryEntries": 1441
+  },
+  "stats": {
+    "reviewedSpeeches": 291,
+    "candidateRules": 164,
+    "matchedRules": 164,
+    "matchedOccurrences": 261,
+    "newVocabularyItems": 170,
+    "alreadyPresentOccurrences": 90,
+    "polysemySkippedWithoutCuratedContext": 1,
+    "newDictionaryEntries": 81,
+    "nounFocusedRules": 157,
+    "multiwordRules": 46,
+    "inThisPlayAdded": 32
+  },
+  "after": {
+    "targetVocabularyItems": 612,
+    "allVocabularyItems": 3214,
+    "dictionaryEntries": 1522,
+    "annotatedSpeeches": 826,
+    "playMeaningItems": 2807,
+    "neutralOnlyItems": 407,
+    "inThisPlayItems": 804,
+    "referencedDictionaryLemmas": 1452
+  },
+  "qa": {
+    "canonicalSpeechCoverage": "PASS",
+    "exactPart2Boundary": "PASS",
+    "allCandidateRulesMatchedSource": "PASS",
+    "outOfScopeLineMutationCheck": "PASS",
+    "outOfScopeLineMutations": 0,
+    "duplicateVocabularyPairs": 0,
+    "missingDictionaryReferences": 0,
+    "dictionaryMeaningConsistency": "PASS",
+    "optionalInThisPlayContract": "PASS",
+    "semanticValidator": {
+      "status": "PASS",
+      "dictionary": 1522,
+      "vocabularyItems": 3214,
+      "inThisPlay": 804,
+      "polysemyItems": 342,
+      "unclassifiedDictionary": 0,
+      "genericInThisPlay": 0,
+      "playSpecificDictionaryMeanings": 0,
+      "surfaceLemmaConflicts": 0,
+      "duplicateSurfaceLemmaPairs": 0,
+      "singleWordDictionaryEntries": 909,
+      "singleWordWithoutHeading": 0,
+      "multiPosSingleWords": 95,
+      "multiPosSingleWordsWithoutSeparateHeadings": 0
+    },
+    "productionVerifier": {
+      "status": "PASS",
+      "runtime": "index-zero",
+      "buildId": "index-zero-2026-09-01-r32",
+      "mode": "verify-only",
+      "qa": {
+        "speeches": 1164,
+        "translations": 1164,
+        "interpretationCoverage": 1164,
+        "interpretationSpeeches": 747,
+        "interpretationNotes": 887,
+        "vocabulary": 3214,
+        "vocabularyDisplayed": 2807,
+        "vocabularyNeutralOnly": 407,
+        "grammar": 692,
+        "dictionary": 1522,
+        "structureSentences": 2334,
+        "structureClauses": 2939,
+        "structureChunks": 11810,
+        "stageDirections": 777,
+        "stageStandalone": 5,
+        "stageAttached": 772,
+        "stageActorCues": 611,
+        "stageJapaneseParaphrases": 777,
+        "stageCategories": {
+          "scene-setting": 5,
+          "radio": 9,
+          "delivery": 411,
+          "gesture": 34,
+          "action": 96,
+          "entrance": 44,
+          "movement": 95,
+          "exit": 41,
+          "sound": 6,
+          "light": 8,
+          "curtain": 8,
+          "music": 8,
+          "pause": 12
+        }
+      }
+    },
+    "protectedCanonicalSourcesUnchanged": true
+  },
+  "skippedPolysemyWithoutCuratedContext": [
+    {
+      "speechId": "act1-scene2-speech-0309",
+      "surface": "address",
+      "lemma": "address"
+    }
+  ],
+  "hashes": {
+    "vocabulary": "57fa4c050184d907ab748fd5b00a3a77487bf9f0893f7e10585b4ecef88635a6",
+    "dictionary": "2f7f2ae72b21299dfc3cf03ccca702e760553bbe7299b0627e29d73c688e266d"
+  }
+}

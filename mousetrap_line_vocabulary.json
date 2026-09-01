@@ -9351,6 +9351,18 @@
       "lemma": "against the law",
       "meaning": "法律に反して",
       "playMeaning": true
+    },
+    {
+      "surface": "law",
+      "lemma": "law",
+      "meaning": "【名詞】\n法律、法。",
+      "playMeaning": true
+    },
+    {
+      "surface": "traveller",
+      "lemma": "traveller",
+      "meaning": "【名詞】\n旅行者。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0111": [],
@@ -9366,6 +9378,13 @@
       "lemma": "sit on the Bench",
       "meaning": "裁判官・治安判事として法廷で職務を行う。",
       "playMeaning": true
+    },
+    {
+      "surface": "Bench",
+      "lemma": "bench",
+      "meaning": "【名詞】\nベンチ、長椅子；法廷では裁判官席・裁判官団。",
+      "playMeaning": true,
+      "inThisPlay": "sitting on the Bench で「判事として法廷に座る・判事を務める」。"
     }
   ],
   "act1-scene2-speech-0113": [
@@ -9381,6 +9400,12 @@
       "surface": "talk of the devil",
       "lemma": "talk of the devil",
       "meaning": "噂をしていた本人がちょうど現れた時に使う表現。",
+      "playMeaning": true
+    },
+    {
+      "surface": "devil",
+      "lemma": "devil",
+      "meaning": "【名詞】\n悪魔。",
       "playMeaning": true
     }
   ],
@@ -9410,6 +9435,12 @@
       "lemma": "amusing",
       "meaning": "【形容詞】\n面白く、笑いや楽しさを感じさせる。",
       "playMeaning": false
+    },
+    {
+      "surface": "tiptoe",
+      "lemma": "tiptoe",
+      "meaning": "【名詞】\nつま先。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0117": [
@@ -9427,6 +9458,26 @@
       "lemma": "get on with",
       "meaning": "～を進める／続ける",
       "playMeaning": true
+    },
+    {
+      "surface": "letters",
+      "lemma": "letter",
+      "meaning": "【名詞】\n手紙；文字。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは書き物としての「手紙」。"
+    },
+    {
+      "surface": "drawing room",
+      "lemma": "drawing room",
+      "meaning": "【名】応接間、客間。",
+      "playMeaning": true
+    },
+    {
+      "surface": "drawing",
+      "lemma": "drawing",
+      "meaning": "【名詞】\n絵、図；製図。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは紙に描かれた「絵」。"
     }
   ],
   "act1-scene2-speech-0120": [
@@ -9515,6 +9566,18 @@
       "lemma": "reference",
       "meaning": "【名詞】\n① 参照、言及\n② 人物の経歴・信用を証明する推薦状・照会先",
       "playMeaning": true
+    },
+    {
+      "surface": "word of warning",
+      "lemma": "word of warning",
+      "meaning": "ちょっとした忠告、警告の言葉。",
+      "playMeaning": true
+    },
+    {
+      "surface": "husband",
+      "lemma": "husband",
+      "meaning": "【名詞】\n夫。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0129": [
@@ -9586,6 +9649,19 @@
       "meaning": "【名詞】\n殺人犯",
       "playMeaning": true,
       "inThisPlay": "Paraviciniが自分にもあり得る身元としてわざと挙げる『殺人犯』。自分が殺人犯だと認めた発言ではない。"
+    },
+    {
+      "surface": "roof",
+      "lemma": "roof",
+      "meaning": "【名詞】\n屋根；家・建物。",
+      "playMeaning": true,
+      "inThisPlay": "sleep under your roof で「あなたの家・宿に泊まる」。"
+    },
+    {
+      "surface": "madman",
+      "lemma": "madman",
+      "meaning": "【名詞】\n【旧・不適切になり得る表現】正気でないとされた男性。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0131": [],
@@ -9605,7 +9681,28 @@
       "playMeaning": true
     }
   ],
-  "act1-scene2-speech-0134": [],
+  "act1-scene2-speech-0134": [
+    {
+      "surface": "letters",
+      "lemma": "letter",
+      "meaning": "【名詞】\n手紙；文字。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは書き物としての「手紙」。"
+    },
+    {
+      "surface": "drawing room",
+      "lemma": "drawing room",
+      "meaning": "【名】応接間、客間。",
+      "playMeaning": true
+    },
+    {
+      "surface": "drawing",
+      "lemma": "drawing",
+      "meaning": "【名詞】\n絵、図；製図。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは紙に描かれた「絵」。"
+    }
+  ],
   "act1-scene2-speech-0135": [],
   "act1-scene2-speech-0136": [
     {
@@ -9625,6 +9722,12 @@
       "lemma": "frozen",
       "meaning": "【形容詞】\n凍った、凍結した、非常に冷たい。",
       "playMeaning": false
+    },
+    {
+      "surface": "husband",
+      "lemma": "husband",
+      "meaning": "【名詞】\n夫。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0137": [
@@ -9675,6 +9778,12 @@
       "lemma": "Hullo",
       "meaning": "【間投詞】\n① やあ\n② もしもし",
       "playMeaning": true
+    },
+    {
+      "surface": "price",
+      "lemma": "price",
+      "meaning": "【名詞】\n価格、値段。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0142": [
@@ -9703,6 +9812,12 @@
       "lemma": "bank up",
       "meaning": "火を長持ちさせるよう燃料を積む／雪などが堆積する",
       "playMeaning": true
+    },
+    {
+      "surface": "roads",
+      "lemma": "road",
+      "meaning": "【名詞】\n道路、道。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0144": [],
@@ -9725,9 +9840,22 @@
       "lemma": "ski",
       "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
       "playMeaning": false
+    },
+    {
+      "surface": "detective sergeant",
+      "lemma": "detective sergeant",
+      "meaning": "【英警察】刑事巡査部長。",
+      "playMeaning": true
     }
   ],
-  "act1-scene2-speech-0147": [],
+  "act1-scene2-speech-0147": [
+    {
+      "surface": "front door",
+      "lemma": "front door",
+      "meaning": "【名】玄関の正面扉。",
+      "playMeaning": true
+    }
+  ],
   "act1-scene2-speech-0148": [],
   "act1-scene2-speech-0149": [
     {
@@ -9748,6 +9876,12 @@
       "meaning": "スキーなどの冬季スポーツを楽しむ。",
       "playMeaning": true,
       "inThisPlay": "Mrs. Boyleが、警官がスキーで来たことを「税金で冬のスポーツを楽しんでいる」と皮肉っている。Trotterは遊びに来たのではない。"
+    },
+    {
+      "surface": "winter sports",
+      "lemma": "winter sports",
+      "meaning": "スキーなどの冬季スポーツ。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0150": [],
@@ -9765,6 +9899,31 @@
       "meaning": "【形容詞】\n元気で活力があり、健康的・陽気な印象の。",
       "playMeaning": true,
       "inThisPlay": "Christopherが、雪まみれで元気そうなTrotterを「いかにも健康的で快活そう」と少しからかう調子で評している。"
+    },
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": true
+    },
+    {
+      "surface": "drawing room",
+      "lemma": "drawing room",
+      "meaning": "【名】応接間、客間。",
+      "playMeaning": true
+    },
+    {
+      "surface": "drawing",
+      "lemma": "drawing",
+      "meaning": "【名詞】\n絵、図；製図。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは紙に描かれた「絵」。"
+    },
+    {
+      "surface": "window",
+      "lemma": "window",
+      "meaning": "【名詞】\n窓。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0153": [
@@ -9781,7 +9940,20 @@
       "playMeaning": true
     }
   ],
-  "act1-scene2-speech-0154": [],
+  "act1-scene2-speech-0154": [
+    {
+      "surface": "detective sergeant",
+      "lemma": "detective sergeant",
+      "meaning": "【英警察】刑事巡査部長。",
+      "playMeaning": true
+    },
+    {
+      "surface": "detective",
+      "lemma": "detective",
+      "meaning": "【名詞】\n犯罪を捜査する刑事・探偵。\n【形容詞】\n捜査の。",
+      "playMeaning": true
+    }
+  ],
   "act1-scene2-speech-0155": [],
   "act1-scene2-speech-0156": [
     {
@@ -9814,8 +9986,28 @@
       "inThisPlay": "Christopherが先ほどと同じくTrotterの健康的で活動的な印象をからかい気味に繰り返している。"
     }
   ],
-  "act1-scene2-speech-0159": [],
-  "act1-scene2-speech-0160": [],
+  "act1-scene2-speech-0159": [
+    {
+      "surface": "skis",
+      "lemma": "ski",
+      "meaning": "【名詞】\n雪上を滑走するための細長い板。\n【動詞】\nまたスキーで滑る。",
+      "playMeaning": true
+    },
+    {
+      "surface": "stairs",
+      "lemma": "stairs",
+      "meaning": "【名詞】\n階段。",
+      "playMeaning": true
+    }
+  ],
+  "act1-scene2-speech-0160": [
+    {
+      "surface": "telephone",
+      "lemma": "telephone",
+      "meaning": "【名詞】\n電話、電話機。",
+      "playMeaning": true
+    }
+  ],
   "act1-scene2-speech-0161": [],
   "act1-scene2-speech-0162": [
     {
@@ -9831,7 +10023,21 @@
       "playMeaning": true
     }
   ],
-  "act1-scene2-speech-0163": [],
+  "act1-scene2-speech-0163": [
+    {
+      "surface": "brains",
+      "lemma": "brain",
+      "meaning": "【名詞】\n脳；頭脳、知能。",
+      "playMeaning": true,
+      "inThisPlay": "No brains で「頭がよくない」という意味。"
+    },
+    {
+      "surface": "glance",
+      "lemma": "glance",
+      "meaning": "【動】ちらりと見る。【名】一瞥。",
+      "playMeaning": true
+    }
+  ],
   "act1-scene2-speech-0164": [
     {
       "surface": "Hullo",
@@ -9849,6 +10055,12 @@
       "surface": "quite",
       "lemma": "quite",
       "meaning": "【副詞】\n① かなり\n② 完全に",
+      "playMeaning": true
+    },
+    {
+      "surface": "telephone",
+      "lemma": "telephone",
+      "meaning": "【名詞】\n電話、電話機。",
       "playMeaning": true
     }
   ],
@@ -9898,6 +10110,12 @@
       "meaning": "【名詞】\n探偵、捜査をする人。しばしば冗談めいた語。",
       "playMeaning": true,
       "inThisPlay": "Trotterを探偵役のように芝居がかって呼ぶ、Christopherの冗談めいた表現。"
+    },
+    {
+      "surface": "private joke",
+      "lemma": "private joke",
+      "meaning": "当人だけ、または内輪だけに分かる冗談。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0171": [
@@ -9964,6 +10182,12 @@
       "lemma": "protection",
       "meaning": "【名詞】\n保護",
       "playMeaning": true
+    },
+    {
+      "surface": "police protection",
+      "lemma": "police protection",
+      "meaning": "警察による保護、警護。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0178": [
@@ -9971,6 +10195,12 @@
       "surface": "protection",
       "lemma": "protection",
       "meaning": "【名詞】\n保護",
+      "playMeaning": true
+    },
+    {
+      "surface": "police protection",
+      "lemma": "police protection",
+      "meaning": "警察による保護、警護。",
       "playMeaning": true
     }
   ],
@@ -9998,6 +10228,19 @@
       "lemma": "case",
       "meaning": "【名詞】\n事件、事例",
       "playMeaning": true
+    },
+    {
+      "surface": "death",
+      "lemma": "death",
+      "meaning": "【名詞】\n死、死亡。",
+      "playMeaning": true
+    },
+    {
+      "surface": "fifteenth instant",
+      "lemma": "instant",
+      "meaning": "【名詞】\n当月（文書日付表現）",
+      "playMeaning": true,
+      "inThisPlay": "the fifteenth instant で「今月15日」。"
     }
   ],
   "act1-scene2-speech-0180": [
@@ -10053,14 +10296,57 @@
       "lemma": "reside",
       "meaning": "【動詞】\nある場所に居住する、住む。",
       "playMeaning": false
+    },
+    {
+      "surface": "on file",
+      "lemma": "on file",
+      "meaning": "指紋が警察の記録として登録・保管されていたため、別名を使っていた女性の身元を確認できたという意味。",
+      "playMeaning": true
+    },
+    {
+      "surface": "farmer",
+      "lemma": "farmer",
+      "meaning": "【名詞】\n農場経営者、農家。",
+      "playMeaning": true
+    },
+    {
+      "surface": "husband",
+      "lemma": "husband",
+      "meaning": "【名詞】\n夫。",
+      "playMeaning": true
+    },
+    {
+      "surface": "real name",
+      "lemma": "real name",
+      "meaning": "本名、実名。",
+      "playMeaning": true
+    },
+    {
+      "surface": "farm",
+      "lemma": "farm",
+      "meaning": "【名詞】\n農場。",
+      "playMeaning": true
     }
   ],
-  "act1-scene2-speech-0184": [],
+  "act1-scene2-speech-0184": [
+    {
+      "surface": "farm",
+      "lemma": "farm",
+      "meaning": "【名詞】\n農場。",
+      "playMeaning": true
+    }
+  ],
   "act1-scene2-speech-0185": [
     {
       "surface": "case",
       "lemma": "case",
       "meaning": "【名詞】\n事件、事例",
+      "playMeaning": true
+    },
+    {
+      "surface": "farm",
+      "lemma": "farm",
+      "meaning": "【名詞】\n農場。",
       "playMeaning": true
     }
   ],
@@ -10119,6 +10405,37 @@
       "lemma": "sensation",
       "meaning": "【名詞】\n① 大評判\n② 強い感覚",
       "playMeaning": true
+    },
+    {
+      "surface": "care and protection",
+      "lemma": "care and protection",
+      "meaning": "保護と養育。",
+      "playMeaning": true
+    },
+    {
+      "surface": "farm",
+      "lemma": "farm",
+      "meaning": "【名詞】\n農場。",
+      "playMeaning": true
+    },
+    {
+      "surface": "boys",
+      "lemma": "boy",
+      "meaning": "【名詞】\n少年、男の子。",
+      "playMeaning": true
+    },
+    {
+      "surface": "girl",
+      "lemma": "girl",
+      "meaning": "【名詞】\n少女、女の子。",
+      "playMeaning": true
+    },
+    {
+      "surface": "home",
+      "lemma": "home",
+      "meaning": "【名詞】\n家、家庭、住居。",
+      "playMeaning": true,
+      "inThisPlay": "a home was found for them で「子どもたちの受け入れ先の家庭」。"
     }
   ],
   "act1-scene2-speech-0188": [
@@ -10177,6 +10494,18 @@
       "lemma": "strangle",
       "meaning": "【動詞】\n① 絞殺する\n② 首を絞めて殺す",
       "playMeaning": true
+    },
+    {
+      "surface": "terms of imprisonment",
+      "lemma": "term of imprisonment",
+      "meaning": "一定期間の禁錮・懲役刑。",
+      "playMeaning": true
+    },
+    {
+      "surface": "prison",
+      "lemma": "prison",
+      "meaning": "【名詞】\n刑務所、監獄。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0190": [],
@@ -10191,6 +10520,12 @@
       "surface": "picked up",
       "lemma": "pick up",
       "meaning": "拾う／手に取る",
+      "playMeaning": true
+    },
+    {
+      "surface": "scene of the crime",
+      "lemma": "scene of the crime",
+      "meaning": "犯罪現場。",
       "playMeaning": true
     }
   ],
@@ -10236,6 +10571,18 @@
       "surface": "case",
       "lemma": "case",
       "meaning": "【名詞】\n事件、事例",
+      "playMeaning": true
+    },
+    {
+      "surface": "information",
+      "lemma": "information",
+      "meaning": "【名詞】\n情報、知らせ。",
+      "playMeaning": true
+    },
+    {
+      "surface": "farm",
+      "lemma": "farm",
+      "meaning": "【名詞】\n農場。",
       "playMeaning": true
     }
   ],
@@ -10313,6 +10660,24 @@
       "lemma": "household",
       "meaning": "【名詞】\n同じ住居で暮らす人々・世帯。\n【形容詞】\nまた、家庭の。",
       "playMeaning": false
+    },
+    {
+      "surface": "particulars",
+      "lemma": "particulars",
+      "meaning": "【名詞】\n詳細事項、個人情報などの具体的内容。",
+      "playMeaning": true
+    },
+    {
+      "surface": "safety",
+      "lemma": "safety",
+      "meaning": "【名】\n危険がなく安全であること、安全。",
+      "playMeaning": true
+    },
+    {
+      "surface": "report",
+      "lemma": "report",
+      "meaning": "【名詞】\n報告、報告書。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0196": [
@@ -10320,6 +10685,18 @@
       "surface": "Good Lord",
       "lemma": "Good Lord",
       "meaning": "驚き・いらだち・強調を表す「なんてことだ」「まったく」。",
+      "playMeaning": true
+    },
+    {
+      "surface": "safety",
+      "lemma": "safety",
+      "meaning": "【名】\n危険がなく安全であること、安全。",
+      "playMeaning": true
+    },
+    {
+      "surface": "danger",
+      "lemma": "danger",
+      "meaning": "【名詞】\n危険。",
       "playMeaning": true
     }
   ],
@@ -10391,6 +10768,32 @@
       "lemma": "nursery rhyme",
       "meaning": "童謡／わらべ歌",
       "playMeaning": true
+    },
+    {
+      "surface": "body",
+      "lemma": "body",
+      "meaning": "【名詞】\n身体、遺体。",
+      "playMeaning": true,
+      "inThisPlay": "on the dead woman's body で「遺体」。"
+    },
+    {
+      "surface": "words",
+      "lemma": "word",
+      "meaning": "【名詞】\n言葉、単語。",
+      "playMeaning": true
+    },
+    {
+      "surface": "drawing",
+      "lemma": "drawing",
+      "meaning": "【名詞】\n絵、図；製図。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは紙に描かれた「絵」。"
+    },
+    {
+      "surface": "mice",
+      "lemma": "mouse",
+      "meaning": "【名詞】\nネズミ。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0207": [
@@ -10399,6 +10802,18 @@
       "lemma": "horrible",
       "meaning": "【形容詞】\nとても不快な、恐ろしい、ひどい。",
       "playMeaning": false
+    },
+    {
+      "surface": "farmer's wife",
+      "lemma": "farmer's wife",
+      "meaning": "農夫・農場経営者の妻。",
+      "playMeaning": true
+    },
+    {
+      "surface": "mice",
+      "lemma": "mouse",
+      "meaning": "【名詞】\nネズミ。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0208": [],
@@ -10494,6 +10909,30 @@
       "lemma": "queer in the head",
       "meaning": "精神状態がおかしいという意味で用いられた古い侮蔑的な言い方。",
       "playMeaning": true
+    },
+    {
+      "surface": "elder boy",
+      "lemma": "elder boy",
+      "meaning": "年上の少年、兄のほうの少年。",
+      "playMeaning": true
+    },
+    {
+      "surface": "Army psychologist",
+      "lemma": "army psychologist",
+      "meaning": "軍で心理評価などを担当する心理学者。",
+      "playMeaning": true
+    },
+    {
+      "surface": "girl",
+      "lemma": "girl",
+      "meaning": "【名詞】\n少女、女の子。",
+      "playMeaning": true
+    },
+    {
+      "surface": "army",
+      "lemma": "army",
+      "meaning": "【名詞】\n陸軍、軍隊。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0212": [],
@@ -10548,6 +10987,12 @@
       "lemma": "case",
       "meaning": "【名詞】\n事件、事例",
       "playMeaning": true
+    },
+    {
+      "surface": "farm",
+      "lemma": "farm",
+      "meaning": "【名詞】\n農場。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0216": [],
@@ -10586,6 +11031,12 @@
       "lemma": "would you mind",
       "meaning": "～していただけますか／～は気になりますか",
       "playMeaning": true
+    },
+    {
+      "surface": "kitchen",
+      "lemma": "kitchen",
+      "meaning": "【名詞】\n台所、キッチン。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0221": [
@@ -10613,6 +11064,12 @@
       "surface": "merely",
       "lemma": "merely",
       "meaning": "【副詞】\n単に～にすぎない",
+      "playMeaning": true
+    },
+    {
+      "surface": "hotel",
+      "lemma": "hotel",
+      "meaning": "【名詞】\nホテル。",
       "playMeaning": true
     }
   ],
@@ -10693,6 +11150,18 @@
       "lemma": "more or less",
       "meaning": "だいたい／ほぼ",
       "playMeaning": true
+    },
+    {
+      "surface": "danger",
+      "lemma": "danger",
+      "meaning": "【名詞】\n危険。",
+      "playMeaning": true
+    },
+    {
+      "surface": "farm",
+      "lemma": "farm",
+      "meaning": "【名詞】\n農場。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0227": [
@@ -10720,6 +11189,12 @@
       "lemma": "bygone years",
       "meaning": "ずっと以前の過ぎ去った年月・時代。",
       "playMeaning": true
+    },
+    {
+      "surface": "local affairs",
+      "lemma": "local affairs",
+      "meaning": "その土地・地域の事情、地域の出来事。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0228": [],
@@ -10744,7 +11219,14 @@
     }
   ],
   "act1-scene2-speech-0230": [],
-  "act1-scene2-speech-0231": [],
+  "act1-scene2-speech-0231": [
+    {
+      "surface": "farm",
+      "lemma": "farm",
+      "meaning": "【名詞】\n農場。",
+      "playMeaning": true
+    }
+  ],
   "act1-scene2-speech-0232": [],
   "act1-scene2-speech-0233": [
     {
@@ -10757,6 +11239,25 @@
       "surface": "personal",
       "lemma": "personal",
       "meaning": "【形容詞】\n個人的な",
+      "playMeaning": true
+    },
+    {
+      "surface": "personal knowledge",
+      "lemma": "personal knowledge",
+      "meaning": "自分自身の直接的な知識・経験。",
+      "playMeaning": true
+    },
+    {
+      "surface": "papers",
+      "lemma": "paper",
+      "meaning": "【名詞】\n新聞；紙、書類。",
+      "playMeaning": true,
+      "inThisPlay": "read about the case in the papers で「新聞」。"
+    },
+    {
+      "surface": "knowledge",
+      "lemma": "knowledge",
+      "meaning": "【名詞】\n知識、認識。",
       "playMeaning": true
     }
   ],
@@ -10792,6 +11293,12 @@
       "surface": "look round",
       "lemma": "look round",
       "meaning": "見て回る／調べて回る",
+      "playMeaning": true
+    },
+    {
+      "surface": "blame",
+      "lemma": "blame",
+      "meaning": "【名詞】\n責任、非難。",
       "playMeaning": true
     }
   ],
@@ -10849,6 +11356,12 @@
       "lemma": "tune",
       "meaning": "【名詞】\n旋律、曲",
       "playMeaning": true
+    },
+    {
+      "surface": "mice",
+      "lemma": "mouse",
+      "meaning": "【名詞】\nネズミ。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0238": [],
@@ -10900,6 +11413,13 @@
       "lemma": "get a kick out of",
       "meaning": "～を面白がる／～から快感を得る",
       "playMeaning": true
+    },
+    {
+      "surface": "kick",
+      "lemma": "kick",
+      "meaning": "【名詞】\n蹴ること；刺激、快感、スリル。",
+      "playMeaning": true,
+      "inThisPlay": "get a kick out of it で「それを面白がる・スリルを感じる」。"
     }
   ],
   "act1-scene2-speech-0240": [
@@ -10993,6 +11513,12 @@
       "lemma": "conduct",
       "meaning": "【動詞】\n活動・調査などを行う、実施する。\n【名詞】\nまた、人を案内する。",
       "playMeaning": false
+    },
+    {
+      "surface": "conducted tour",
+      "lemma": "conducted tour",
+      "meaning": "案内人付きの見学、ガイドツアー。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0248": [
@@ -11000,6 +11526,18 @@
       "surface": "architect",
       "lemma": "architect",
       "meaning": "【名詞】\n建築家",
+      "playMeaning": true
+    },
+    {
+      "surface": "abnormal manner",
+      "lemma": "abnormal manner",
+      "meaning": "普通とは違う振る舞い方、異常に見える態度。",
+      "playMeaning": true
+    },
+    {
+      "surface": "friend",
+      "lemma": "friend",
+      "meaning": "【名詞】\n友人。",
       "playMeaning": true
     }
   ],
@@ -11064,6 +11602,19 @@
       "lemma": "in fact",
       "meaning": "実際には／実は",
       "playMeaning": true
+    },
+    {
+      "surface": "Bench",
+      "lemma": "bench",
+      "meaning": "【名詞】\nベンチ、長椅子；法廷では裁判官席・裁判官団。",
+      "playMeaning": true,
+      "inThisPlay": "sitting on the Bench で「判事として法廷に座る・判事を務める」。"
+    },
+    {
+      "surface": "farm",
+      "lemma": "farm",
+      "meaning": "【名詞】\n農場。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0254": [
@@ -11109,6 +11660,36 @@
       "lemma": "out-of-doors life",
       "meaning": "戸外中心の生活",
       "playMeaning": true
+    },
+    {
+      "surface": "reports",
+      "lemma": "report",
+      "meaning": "【名詞】\n報告、報告書。",
+      "playMeaning": true
+    },
+    {
+      "surface": "farm",
+      "lemma": "farm",
+      "meaning": "【名詞】\n農場。",
+      "playMeaning": true
+    },
+    {
+      "surface": "farm people",
+      "lemma": "farm people",
+      "meaning": "農場で暮らす人々、農場の家族。",
+      "playMeaning": true
+    },
+    {
+      "surface": "eggs",
+      "lemma": "egg",
+      "meaning": "【名詞】\n卵。",
+      "playMeaning": true
+    },
+    {
+      "surface": "fresh milk",
+      "lemma": "fresh milk",
+      "meaning": "新鮮な牛乳。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0255": [
@@ -11135,6 +11716,13 @@
       "lemma": "vicious",
       "meaning": "【形容詞】\n悪意のある、凶暴な",
       "playMeaning": true
+    },
+    {
+      "surface": "couple",
+      "lemma": "couple",
+      "meaning": "【名詞】\n二人組、夫婦；一対。",
+      "playMeaning": true,
+      "inThisPlay": "ここではLongridge Farmの夫婦。"
     }
   ],
   "act1-scene2-speech-0256": [],
@@ -11247,9 +11835,23 @@
       "lemma": "yet",
       "meaning": "【接続詞】\nそれにもかかわらず、しかし。それまでの内容と対照を示す。",
       "playMeaning": false
+    },
+    {
+      "surface": "lights",
+      "lemma": "light",
+      "meaning": "【名詞】\n照明、明かり；光。",
+      "playMeaning": true,
+      "inThisPlay": "turn the lights on で「照明をつける」。"
     }
   ],
-  "act1-scene2-speech-0267": [],
+  "act1-scene2-speech-0267": [
+    {
+      "surface": "pen",
+      "lemma": "pen",
+      "meaning": "【名詞】\nペン、筆記具。",
+      "playMeaning": true
+    }
+  ],
   "act1-scene2-speech-0268": [
     {
       "surface": "tune",
@@ -11327,6 +11929,12 @@
       "lemma": "psychologist",
       "meaning": "【名詞】\n心理学者",
       "playMeaning": true
+    },
+    {
+      "surface": "psychiatrists",
+      "lemma": "psychiatrist",
+      "meaning": "【名詞】\n精神科医",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0282": [],
@@ -11369,6 +11977,12 @@
       "lemma": "will",
       "meaning": "【名詞】\n何かをしようと決める意志、意志力。",
       "playMeaning": false
+    },
+    {
+      "surface": "will power",
+      "lemma": "willpower",
+      "meaning": "【名詞】\n意志力、自制心。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0286": [],
@@ -11430,7 +12044,21 @@
     }
   ],
   "act1-scene2-speech-0293": [],
-  "act1-scene2-speech-0294": [],
+  "act1-scene2-speech-0294": [
+    {
+      "surface": "drawing room",
+      "lemma": "drawing room",
+      "meaning": "【名】応接間、客間。",
+      "playMeaning": true
+    },
+    {
+      "surface": "drawing",
+      "lemma": "drawing",
+      "meaning": "【名詞】\n絵、図；製図。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは紙に描かれた「絵」。"
+    }
+  ],
   "act1-scene2-speech-0295": [
     {
       "surface": "Would you mind",
@@ -11457,6 +12085,13 @@
       "lemma": "get the lay of the land",
       "meaning": "状況・地形を把握する",
       "playMeaning": true
+    },
+    {
+      "surface": "lay of the land",
+      "lemma": "lay of the land",
+      "meaning": "土地・場所の様子、状況の全体像。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは家の間取りや場所の配置を把握するという意味。"
     }
   ],
   "act1-scene2-speech-0297": [],
@@ -11472,9 +12107,22 @@
       "lemma": "superintendent",
       "meaning": "【名詞】\n① 警視級の警察幹部\n② 管理責任者",
       "playMeaning": true
+    },
+    {
+      "surface": "report",
+      "lemma": "report",
+      "meaning": "【名詞】\n報告、報告書。",
+      "playMeaning": true
     }
   ],
-  "act1-scene2-speech-0299": [],
+  "act1-scene2-speech-0299": [
+    {
+      "surface": "telephone",
+      "lemma": "telephone",
+      "meaning": "【名詞】\n電話、電話機。",
+      "playMeaning": true
+    }
+  ],
   "act1-scene2-speech-0300": [],
   "act1-scene2-speech-0301": [
     {
@@ -11518,7 +12166,20 @@
   ],
   "act1-scene2-speech-0307": [],
   "act1-scene2-speech-0308": [],
-  "act1-scene2-speech-0309": [],
+  "act1-scene2-speech-0309": [
+    {
+      "surface": "Bournemouth hotel",
+      "lemma": "Bournemouth hotel",
+      "meaning": "ボーンマスにあるホテル。",
+      "playMeaning": true
+    },
+    {
+      "surface": "hotel",
+      "lemma": "hotel",
+      "meaning": "【名詞】\nホテル。",
+      "playMeaning": true
+    }
+  ],
   "act1-scene2-speech-0310": [],
   "act1-scene2-speech-0311": [
     {
@@ -11549,6 +12210,18 @@
       "surface": "ration books",
       "lemma": "ration book",
       "meaning": "配給手帳",
+      "playMeaning": true
+    },
+    {
+      "surface": "private hotel",
+      "lemma": "private hotel",
+      "meaning": "【英・旧】小規模で家庭的な私営ホテル・宿。",
+      "playMeaning": true
+    },
+    {
+      "surface": "hotel",
+      "lemma": "hotel",
+      "meaning": "【名詞】\nホテル。",
       "playMeaning": true
     }
   ],
@@ -11628,8 +12301,22 @@
     }
   ],
   "act1-scene2-speech-0317": [],
-  "act1-scene2-speech-0318": [],
-  "act1-scene2-speech-0319": [],
+  "act1-scene2-speech-0318": [
+    {
+      "surface": "crimes",
+      "lemma": "crime",
+      "meaning": "【名詞】\n法律に反する犯罪、罪。",
+      "playMeaning": true
+    }
+  ],
+  "act1-scene2-speech-0319": [
+    {
+      "surface": "crimes",
+      "lemma": "crime",
+      "meaning": "【名詞】\n法律に反する犯罪、罪。",
+      "playMeaning": true
+    }
+  ],
   "act1-scene2-speech-0320": [
     {
       "surface": "attempted",
@@ -11721,6 +12408,32 @@
       "lemma": "lightish",
       "meaning": "【形容詞】\nやや明るい色の",
       "playMeaning": true
+    },
+    {
+      "surface": "overcoats",
+      "lemma": "overcoat",
+      "meaning": "【名詞】\nオーバーコート、厚手の外套",
+      "playMeaning": true
+    },
+    {
+      "surface": "height",
+      "lemma": "height",
+      "meaning": "【名詞】\n高さ、身長。",
+      "playMeaning": true
+    },
+    {
+      "surface": "build",
+      "lemma": "build",
+      "meaning": "【名詞】\n体格、体つき；構造。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは人物の「体格」。"
+    },
+    {
+      "surface": "hall",
+      "lemma": "hall",
+      "meaning": "【名詞】\n玄関ホール、廊下；大広間。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは建物内の玄関ホール。"
     }
   ],
   "act1-scene2-speech-0325": [],
@@ -11730,6 +12443,18 @@
       "lemma": "wire",
       "meaning": "【名詞】\n金属を細長く伸ばした線。電気・通信を伝える線にも使う。",
       "playMeaning": false
+    },
+    {
+      "surface": "telephone",
+      "lemma": "telephone",
+      "meaning": "【名詞】\n電話、電話機。",
+      "playMeaning": true
+    },
+    {
+      "surface": "telephone wire",
+      "lemma": "telephone wire",
+      "meaning": "有線電話の信号を伝える電線。",
+      "playMeaning": true
     }
   ],
   "act1-scene2-speech-0327": [
@@ -11737,6 +12462,12 @@
       "surface": "get on with",
       "lemma": "get on with",
       "meaning": "～を進める／続ける",
+      "playMeaning": true
+    },
+    {
+      "surface": "vegetables",
+      "lemma": "vegetable",
+      "meaning": "【名詞】\n野菜。",
       "playMeaning": true
     }
   ],
@@ -11764,9 +12495,23 @@
       "playMeaning": false
     }
   ],
-  "act1-scene2-speech-0331": [],
+  "act1-scene2-speech-0331": [
+    {
+      "surface": "bedroom",
+      "lemma": "bedroom",
+      "meaning": "【名詞】\n寝室。",
+      "playMeaning": true
+    }
+  ],
   "act1-scene2-speech-0332": [],
-  "act1-scene2-speech-0333": [],
+  "act1-scene2-speech-0333": [
+    {
+      "surface": "window",
+      "lemma": "window",
+      "meaning": "【名詞】\n窓。",
+      "playMeaning": true
+    }
+  ],
   "act1-scene2-speech-0334": [
     {
       "surface": "term",
@@ -11790,6 +12535,18 @@
       "surface": "for instance",
       "lemma": "for instance",
       "meaning": "例えば",
+      "playMeaning": true
+    },
+    {
+      "surface": "human mind",
+      "lemma": "human mind",
+      "meaning": "人間の心、精神。",
+      "playMeaning": true
+    },
+    {
+      "surface": "instance",
+      "lemma": "instance",
+      "meaning": "【名詞】\n例、事例。",
       "playMeaning": true
     }
   ],
@@ -11827,6 +12584,18 @@
       "surface": "got to",
       "lemma": "got to",
       "meaning": "～しなければならない／～する必要がある",
+      "playMeaning": true
+    },
+    {
+      "surface": "hallway",
+      "lemma": "hallway",
+      "meaning": "【名詞】\n廊下、通路。",
+      "playMeaning": true
+    },
+    {
+      "surface": "kitchen",
+      "lemma": "kitchen",
+      "meaning": "【名詞】\n台所、キッチン。",
       "playMeaning": true
     }
   ],
@@ -11871,6 +12640,31 @@
       "lemma": "murderer",
       "meaning": "【名詞】\n殺人犯",
       "playMeaning": true
+    },
+    {
+      "surface": "hall",
+      "lemma": "hall",
+      "meaning": "【名詞】\n玄関ホール、廊下；大広間。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは建物内の玄関ホール。"
+    },
+    {
+      "surface": "kitchen",
+      "lemma": "kitchen",
+      "meaning": "【名詞】\n台所、キッチン。",
+      "playMeaning": true
+    },
+    {
+      "surface": "dining room",
+      "lemma": "dining room",
+      "meaning": "【名】食堂、ダイニングルーム。",
+      "playMeaning": true
+    },
+    {
+      "surface": "stairs",
+      "lemma": "stairs",
+      "meaning": "【名詞】\n階段。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0008": [
@@ -11884,6 +12678,18 @@
       "surface": "came out",
       "lemma": "come out",
       "meaning": "出てくる／外へ出る",
+      "playMeaning": true
+    },
+    {
+      "surface": "door creak",
+      "lemma": "door creak",
+      "meaning": "ドアがきしむ音。",
+      "playMeaning": true
+    },
+    {
+      "surface": "kitchen",
+      "lemma": "kitchen",
+      "meaning": "【名詞】\n台所、キッチン。",
       "playMeaning": true
     }
   ],
@@ -11960,6 +12766,25 @@
       "lemma": "get to the bottom of",
       "meaning": "真相を突き止める",
       "playMeaning": true
+    },
+    {
+      "surface": "death",
+      "lemma": "death",
+      "meaning": "【名詞】\n死、死亡。",
+      "playMeaning": true
+    },
+    {
+      "surface": "information",
+      "lemma": "information",
+      "meaning": "【名詞】\n情報、知らせ。",
+      "playMeaning": true
+    },
+    {
+      "surface": "bottom of this",
+      "lemma": "bottom of something",
+      "meaning": "物事の真相・根本。",
+      "playMeaning": true,
+      "inThisPlay": "get to the bottom of this で「この件の真相を突き止める」。"
     }
   ],
   "act2-speech-0015": [
@@ -11976,6 +12801,12 @@
       "lemma": "blind",
       "meaning": "【形容詞】\n目が見えない、視覚を失っている。",
       "playMeaning": false
+    },
+    {
+      "surface": "mice",
+      "lemma": "mouse",
+      "meaning": "【名詞】\nネズミ。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0017": [
@@ -11990,10 +12821,29 @@
       "lemma": "business",
       "meaning": "【名詞】\n① 用事\n② 事件\n③ 本題\n④ 仕事",
       "playMeaning": true
+    },
+    {
+      "surface": "death",
+      "lemma": "death",
+      "meaning": "【名詞】\n死、死亡。",
+      "playMeaning": true
+    },
+    {
+      "surface": "farm",
+      "lemma": "farm",
+      "meaning": "【名詞】\n農場。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0018": [],
-  "act2-speech-0019": [],
+  "act2-speech-0019": [
+    {
+      "surface": "death",
+      "lemma": "death",
+      "meaning": "【名詞】\n死、死亡。",
+      "playMeaning": true
+    }
+  ],
   "act2-speech-0020": [
     {
       "surface": "notebook",
@@ -12013,6 +12863,13 @@
       "meaning": "【名詞句】\nより広い範囲、より多くの対象・選択肢がある範囲。",
       "playMeaning": true,
       "inThisPlay": "Culver Streetでは被害者候補が一人だったのに対し、Monkswell Manorには次の標的になり得る人物が複数いる、という意味。"
+    },
+    {
+      "surface": "wider field",
+      "lemma": "field",
+      "meaning": "【名詞】\n① 野原、畑\n② 活動・研究などの分野\n③ 候補・参加者などの範囲・一団",
+      "playMeaning": true,
+      "inThisPlay": "a wider field で「候補となる人の範囲がより広い」という意味。"
     }
   ],
   "act2-speech-0021": [
@@ -12056,6 +12913,12 @@
       "surface": "case",
       "lemma": "case",
       "meaning": "【名詞】\n事件、事例",
+      "playMeaning": true
+    },
+    {
+      "surface": "farm",
+      "lemma": "farm",
+      "meaning": "【名詞】\n農場。",
       "playMeaning": true
     }
   ],
@@ -12125,6 +12988,25 @@
       "lemma": "switch off",
       "meaning": "スイッチを切る",
       "playMeaning": true
+    },
+    {
+      "surface": "vegetables",
+      "lemma": "vegetable",
+      "meaning": "【名詞】\n野菜。",
+      "playMeaning": true
+    },
+    {
+      "surface": "hall",
+      "lemma": "hall",
+      "meaning": "【名詞】\n玄関ホール、廊下；大広間。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは建物内の玄関ホール。"
+    },
+    {
+      "surface": "kitchen",
+      "lemma": "kitchen",
+      "meaning": "【名詞】\n台所、キッチン。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0023": [],
@@ -12164,6 +13046,38 @@
       "lemma": "extension telephone",
       "meaning": "内線電話",
       "playMeaning": true
+    },
+    {
+      "surface": "telephone",
+      "lemma": "telephone",
+      "meaning": "【名詞】\n電話、電話機。",
+      "playMeaning": true
+    },
+    {
+      "surface": "telephone wire",
+      "lemma": "telephone wire",
+      "meaning": "有線電話の信号を伝える電線。",
+      "playMeaning": true
+    },
+    {
+      "surface": "extension",
+      "lemma": "extension",
+      "meaning": "【名詞】\n範囲・長さ・期間などを延ばすこと、または延長された部分。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは別室にある「内線電話」。"
+    },
+    {
+      "surface": "different directions",
+      "lemma": "direction",
+      "meaning": "【名詞】\n方向、方角；指示。",
+      "playMeaning": true,
+      "inThisPlay": "from different directions で「それぞれ違う方向から」。"
+    },
+    {
+      "surface": "window",
+      "lemma": "window",
+      "meaning": "【名詞】\n窓。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0025": [
@@ -12196,6 +13110,31 @@
       "lemma": "rush",
       "meaning": "【動詞】\n非常に急いで移動・行動する。\n【名詞】\nまた、急ぐこと・急激な動き。",
       "playMeaning": false
+    },
+    {
+      "surface": "telephone",
+      "lemma": "telephone",
+      "meaning": "【名詞】\n電話、電話機。",
+      "playMeaning": true
+    },
+    {
+      "surface": "extension",
+      "lemma": "extension",
+      "meaning": "【名詞】\n範囲・長さ・期間などを延ばすこと、または延長された部分。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは別室にある「内線電話」。"
+    },
+    {
+      "surface": "window",
+      "lemma": "window",
+      "meaning": "【名詞】\n窓。",
+      "playMeaning": true
+    },
+    {
+      "surface": "bedroom",
+      "lemma": "bedroom",
+      "meaning": "【名詞】\n寝室。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0026": [
@@ -12222,8 +13161,29 @@
     }
   ],
   "act2-speech-0029": [],
-  "act2-speech-0030": [],
-  "act2-speech-0031": [],
+  "act2-speech-0030": [
+    {
+      "surface": "account of where you were",
+      "lemma": "account",
+      "meaning": "【名詞】\n説明、報告；口座。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは「その時どこにいたかについての説明」。"
+    }
+  ],
+  "act2-speech-0031": [
+    {
+      "surface": "kitchen",
+      "lemma": "kitchen",
+      "meaning": "【名詞】\n台所、キッチン。",
+      "playMeaning": true
+    },
+    {
+      "surface": "bedroom",
+      "lemma": "bedroom",
+      "meaning": "【名詞】\n寝室。",
+      "playMeaning": true
+    }
+  ],
   "act2-speech-0032": [],
   "act2-speech-0033": [
     {
@@ -12231,11 +13191,38 @@
       "lemma": "quite",
       "meaning": "【副詞】\n① かなり\n② 完全に",
       "playMeaning": true
+    },
+    {
+      "surface": "bedroom",
+      "lemma": "bedroom",
+      "meaning": "【名詞】\n寝室。",
+      "playMeaning": true
     }
   ],
-  "act2-speech-0034": [],
-  "act2-speech-0035": [],
-  "act2-speech-0036": [],
+  "act2-speech-0034": [
+    {
+      "surface": "bedroom",
+      "lemma": "bedroom",
+      "meaning": "【名詞】\n寝室。",
+      "playMeaning": true
+    }
+  ],
+  "act2-speech-0035": [
+    {
+      "surface": "hair",
+      "lemma": "hair",
+      "meaning": "【名詞】\n髪、毛。",
+      "playMeaning": true
+    }
+  ],
+  "act2-speech-0036": [
+    {
+      "surface": "hair",
+      "lemma": "hair",
+      "meaning": "【名詞】\n髪、毛。",
+      "playMeaning": true
+    }
+  ],
   "act2-speech-0037": [],
   "act2-speech-0038": [],
   "act2-speech-0039": [],
@@ -12254,6 +13241,12 @@
       "lemma": "curious",
       "meaning": "【形容詞】\n① 知りたい気持ちが強い\n② 奇妙で注意を引く",
       "playMeaning": false
+    },
+    {
+      "surface": "stairs",
+      "lemma": "stairs",
+      "meaning": "【名詞】\n階段。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0043": [
@@ -12262,14 +13255,33 @@
       "lemma": "come down",
       "meaning": "下りてくる",
       "playMeaning": true
+    },
+    {
+      "surface": "stairs",
+      "lemma": "stairs",
+      "meaning": "【名詞】\n階段。",
+      "playMeaning": true
     }
   ],
-  "act2-speech-0044": [],
+  "act2-speech-0044": [
+    {
+      "surface": "stairs",
+      "lemma": "stairs",
+      "meaning": "【名詞】\n階段。",
+      "playMeaning": true
+    }
+  ],
   "act2-speech-0045": [
     {
       "surface": "went up",
       "lemma": "go up",
       "meaning": "上へ行く／上階へ行く",
+      "playMeaning": true
+    },
+    {
+      "surface": "stairs",
+      "lemma": "stairs",
+      "meaning": "【名詞】\n階段。",
       "playMeaning": true
     }
   ],
@@ -12280,6 +13292,25 @@
       "lemma": "inspector",
       "meaning": "【名詞】\n① 警部\n② 検査官",
       "playMeaning": true
+    },
+    {
+      "surface": "piano",
+      "lemma": "piano",
+      "meaning": "【名詞】\nピアノ。",
+      "playMeaning": true
+    },
+    {
+      "surface": "drawing room",
+      "lemma": "drawing room",
+      "meaning": "【名】応接間、客間。",
+      "playMeaning": true
+    },
+    {
+      "surface": "drawing",
+      "lemma": "drawing",
+      "meaning": "【名詞】\n絵、図；製図。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは紙に描かれた「絵」。"
     }
   ],
   "act2-speech-0048": [
@@ -12294,15 +13325,34 @@
       "lemma": "just",
       "meaning": "【副詞】\n① ちょうど\n② たった\n③ ただ",
       "playMeaning": true
+    },
+    {
+      "surface": "piano",
+      "lemma": "piano",
+      "meaning": "【名詞】\nピアノ。",
+      "playMeaning": true
     }
   ],
-  "act2-speech-0049": [],
+  "act2-speech-0049": [
+    {
+      "surface": "one finger",
+      "lemma": "finger",
+      "meaning": "【名詞】\n指。",
+      "playMeaning": true
+    }
+  ],
   "act2-speech-0050": [
     {
       "surface": "Blind",
       "lemma": "blind",
       "meaning": "【形容詞】\n目が見えない、視覚を失っている。",
       "playMeaning": false
+    },
+    {
+      "surface": "mice",
+      "lemma": "mouse",
+      "meaning": "【名詞】\nネズミ。",
+      "playMeaning": true
     }
   ],
   "act2-speech-0051": [],
@@ -12312,6 +13362,13 @@
       "lemma": "tune",
       "meaning": "【名詞】\n旋律、曲",
       "playMeaning": true
+    },
+    {
+      "surface": "haunting little tune",
+      "lemma": "haunting",
+      "meaning": "【形容詞】\nいつまでも心に残る、忘れがたい；不気味につきまとうような。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは曲について「耳について離れない、印象に残る」。"
     }
   ],
   "act2-speech-0053": [
@@ -12338,7 +13395,27 @@
     }
   ],
   "act2-speech-0055": [],
-  "act2-speech-0056": [],
+  "act2-speech-0056": [
+    {
+      "surface": "hall",
+      "lemma": "hall",
+      "meaning": "【名詞】\n玄関ホール、廊下；大広間。",
+      "playMeaning": true,
+      "inThisPlay": "ここでは建物内の玄関ホール。"
+    },
+    {
+      "surface": "stairs",
+      "lemma": "stairs",
+      "meaning": "【名詞】\n階段。",
+      "playMeaning": true
+    },
+    {
+      "surface": "bedroom",
+      "lemma": "bedroom",
+      "meaning": "【名詞】\n寝室。",
+      "playMeaning": true
+    }
+  ],
   "act2-speech-0057": [
     {
       "surface": "Blind",
