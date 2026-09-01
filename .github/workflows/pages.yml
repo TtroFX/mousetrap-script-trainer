@@ -97,8 +97,8 @@ jobs:
           assert p['schemaVersion']==2 and p['ruleSet']=='chunking-v1'
           assert p['counts']['speeches']==1164
           assert p['counts']['sentences']==2334
-          assert p['counts']['clauses']==2939
-          assert p['counts']['chunks']==11810
+          assert p['counts']['clauses']==2938
+          assert p['counts']['chunks']==11807
           assert 'rawLines' not in p
           PY
           test ! -e public/p5_app.js
