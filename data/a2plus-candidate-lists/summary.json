@@ -1,27 +1,41 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 3,
   "status": "PASS",
-  "policy": "A2+ screening by conservative A1 exclusion; intentionally over-inclusive",
+  "source": "https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000",
+  "parsedOxfordWords": 4941,
+  "policy": "Oxford A2+ (A2/B1/B2/C1/C2) extraction -> headword dedupe -> remove current dictionary headwords. Oxford-unclassified tokens are retained separately for manual review. No dictionary definitions or production vocabulary data are generated. Stored reviewed Oxford classifications are used as a fallback when the live Oxford HTML parser misses a previously verified headword.",
   "parts": {
     "part1": {
       "scope": [
         1,
         291
       ],
-      "raw": 1313,
-      "deduped": 686,
-      "final": 314
+      "extractedOccurrences": 1247,
+      "deduped": 416,
+      "implementedDictionaryRemoved": 205,
+      "finalOxfordA2Plus": 211,
+      "manualUnclassified": 61
     },
     "part2": {
       "scope": [
         292,
         582
       ],
-      "raw": 1156,
-      "deduped": 552,
-      "final": 267
+      "extractedOccurrences": 1215,
+      "deduped": 372,
+      "implementedDictionaryRemoved": 191,
+      "finalOxfordA2Plus": 182,
+      "manualUnclassified": 49
     }
   },
-  "crossPartOverlapCandidates": 106,
-  "note": "Each TXT is independently deduplicated and filtered against current implemented dictionary/vocabulary. Cross-part overlap is intentionally reported, not silently removed, so each quarter remains auditable."
+  "uniqueOxfordA2PlusAcrossParts1And2": 297,
+  "abusePresentInFinal": true,
+  "reviewedOxfordSupplements": [
+    {
+      "word": "abuse",
+      "cefr": "C1",
+      "speechId": "act1-scene2-speech-0258",
+      "source": "data/vocabulary-rebuild/block-3-oxford-review.json"
+    }
+  ]
 }

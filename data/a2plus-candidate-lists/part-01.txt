@@ -1,331 +1,291 @@
 THE MOUSETRAP — A2+ ADDITION CANDIDATES — PART 1 / 1-291
 Scope: global speeches 1-291 (291 speeches)
-Policy: screening list, not official CEFR certification. Clear A1/basic items are excluded; uncertain content words are kept to minimize omissions.
-Dictionary definitions are NOT created in this phase. Existing vocabulary/dictionary data are NOT modified.
+CEFR source: Oxford 3000 and 5000 (4941 parsed headwords)
+Dictionary definitions are NOT created in this phase. Production vocabulary/dictionary files are NOT modified.
 
-PIPELINE
-1. Extracted non-A1 candidate occurrences: 1313
-2. After normalized/headword deduplication: 686
-3. After removing already-implemented dictionary/vocabulary items: 314
+PIPELINE — OXFORD A2+
+1. Extracted A2+ candidate occurrences: 1247
+2. After headword deduplication: 416
+3. Already-implemented dictionary headwords removed: 205
+4. Final Oxford A2+ addition candidates: 211
 
-FINAL ADDITION CANDIDATES
+FINAL OXFORD A2+ ADDITION CANDIDATES
+word	cefr	occurrences	firstSpeechId	surfaceForms	allOxfordLevels
+able	A2	1	act1-scene1-speech-0121	able	A2
+act	A2/B1	1	act1-scene1-speech-0054	acts	A2/B1
+actually	A2	2	act1-scene1-speech-0067	actually	A2
+advance	B2	1	act1-scene1-speech-0033	advance	B2
+against	A2	2	act1-scene1-speech-0001	against	A2
+age	B1	1	act1-scene1-speech-0054	ages	A1/B1
+ah	A2	2	act1-scene1-speech-0046	ah	A2
+all	A2	35	act1-scene1-speech-0004	all	A1/A2
+along	A2	2	act1-scene1-speech-0013	along	A2
+already	A2	1	act1-scene1-speech-0190	already	A2
+any	A2	11	act1-scene1-speech-0011	any	A1/A2
+anyway	A2	5	act1-scene1-speech-0020	anyway	A2
+apart	B1	1	act1-scene1-speech-0135	apart	B1
+as	A2	17	act1-scene1-speech-0019	as	A1/A2
+asylum	C1	1	act1-scene2-speech-0018	asylum	C1
+avoid	A2	1	act1-scene2-speech-0092	avoid	A2
+awful	A2	3	act1-scene1-speech-0044	awful	A2
+back	A2/B2	5	act1-scene1-speech-0054	back	A1/A2/B2
+beef	A2	2	act1-scene1-speech-0152	beef	A2
+before	A2	5	act1-scene1-speech-0110	before	A1/A2
+beg	B2	3	act1-scene1-speech-0099	beg	B2
+being	B2	2	act1-scene1-speech-0054	being	B2
+best	A2	3	act1-scene1-speech-0158	best	A1/A2
+bet	B2	1	act1-scene1-speech-0011	bet	B2
+better	A2/B1	4	act1-scene1-speech-0121	better	A1/A2/B1
+between	A2	1	act1-scene2-speech-0034	between	A1/A2
+bit	A2	4	act1-scene2-speech-0034	bit	A2
+block	B1	1	act1-scene1-speech-0121	blocked	B1
+boil	A2	2	act1-scene1-speech-0074	boiler	A2
+bound	B2	1	act1-scene1-speech-0001	bound	B2
+brilliant	A2	1	act1-scene2-speech-0100	brilliant	A2
+brush	A2	1	act1-scene2-speech-0099	brush	A2
+but	B2	24	act1-scene1-speech-0011	but	A1/B2
+by	B1	7	act1-scene1-speech-0054	by	A1/B1
+can	A2	8	act1-scene1-speech-0122	can	A1/A2
+care	A2	1	act1-scene1-speech-0040	care	A2
+carefully	A2	1	act1-scene2-speech-0085	carefully	A2
+carpet	A2	1	act1-scene2-speech-0027	carpet	A2
+carve	C1	1	act1-scene1-speech-0048	carved	C1
+central	B1	3	act1-scene1-speech-0013	central	B1
+certain	A2	1	act1-scene1-speech-0001	certain	A2
+cheap	B1	1	act1-scene1-speech-0156	cheap	A1/B1
+cheer	B2	1	act1-scene2-speech-0094	cheer	B2
+clear	A2/B1	1	act1-scene1-speech-0085	cleared	A2/B1
+comfort	B2	1	act1-scene1-speech-0118	comfort	B2
+completely	A2	1	act1-scene2-speech-0077	completely	A2
+consequence	B1	1	act1-scene1-speech-0184	consequence	B1
+continue	A2	2	act1-scene1-speech-0001	continue	A2
+cook	A2	5	act1-scene1-speech-0019	cook, cooking	A1/A2
+correspondence	C1	1	act1-scene1-speech-0037	correspondence	C1
+cut	B1	1	act1-scene1-speech-0190	cut	A1/B1
+daily	A2/B1	2	act1-scene1-speech-0017	daily	A2/B1
+dark	A2	2	act1-scene1-speech-0001	dark	A1/A2
+dear	A2	3	act1-scene1-speech-0012	dear	A1/A2
+deed	C1	1	act1-scene1-speech-0108	deed	C1
+delight	B2	1	act1-scene2-speech-0012	delight	B2
+depend	A2	1	act1-scene2-speech-0042	depends	A2
+depressed	B2	1	act1-scene1-speech-0170	depressed	B2
+dry	A2	2	act1-scene1-speech-0093	dry	A2
+earth	A2	2	act1-scene1-speech-0158	earth	A2
+easily	A2	1	act1-scene1-speech-0121	easily	A2
+either	A2	3	act1-scene1-speech-0011	either	A2
+equip	B2	1	act1-scene1-speech-0118	equipped	B2
+escape	B1	1	act1-scene2-speech-0018	escaped	B1
+even	B2	2	act1-scene1-speech-0190	even	A1/B2
+everywhere	A2	1	act1-scene1-speech-0177	everywhere	A2
+excellent	A2	3	act1-scene1-speech-0133	excellent	A2
+expected	B1	3	act1-scene1-speech-0001	expected	B1
+extremely	A2	1	act1-scene2-speech-0100	extremely	A2
+fall	A2	2	act1-scene1-speech-0132	fall, falls	A1/A2
+feel	B2	5	act1-scene1-speech-0001	feeling, felt	A1/B2
+first	A2	4	act1-scene1-speech-0014	first	A1/A2
+fully	B2	1	act1-scene1-speech-0118	fully	B2
+general	A2	2	act1-scene1-speech-0046	general, general's	A2
+go	B1	16	act1-scene1-speech-0010	go, gone, went	A1/B1
+god	A2	1	act1-scene1-speech-0011	god	A2
+good	A2	14	act1-scene1-speech-0011	good	A1/A2
+goodness	B2	1	act1-scene1-speech-0016	goodness	B2
+guest	A2	19	act1-scene1-speech-0021	guest, guests	A2
+half	A2	3	act1-scene1-speech-0011	half	A1/A2
+halfway	C1	1	act1-scene1-speech-0067	halfway	C1
+have	A2	59	act1-scene1-speech-0009	had, have, having	A1/A2
+heating	B1	3	act1-scene1-speech-0013	heating	B1
+heavy	A2	3	act1-scene1-speech-0001	heavy	A2
+herself	A2	1	act1-scene2-speech-0002	herself	A2
+hide	A2	1	act1-scene1-speech-0039	hiding	A2
+his	A2	5	act1-scene1-speech-0162	his	A1/A2
+hook	B2/C1	1	act1-scene1-speech-0016	hooked	B2/C1
+hope	A2	7	act1-scene1-speech-0012	hope	A1/A2
+house	B2	14	act1-scene1-speech-0021	house, houses	A1/B2
+hunt	B1/B2	1	act1-scene2-speech-0055	hunt	B1/B2
+immediately	A2	1	act1-scene1-speech-0177	immediately	A2
+impress	B2	1	act1-scene2-speech-0085	impress	B2
+indoor	B1	2	act1-scene1-speech-0106	indoor	B1
+inside	A2	1	act1-scene1-speech-0164	inside	A2
+instead	A2	3	act1-scene1-speech-0021	instead	A2
+invite	A2	1	act1-scene1-speech-0190	invite	A2
+iron	B1	1	act1-scene1-speech-0177	iron	B1
+it	B1	97	act1-scene1-speech-0002	it, it's	A1/B1
+joke	A2	1	act1-scene1-speech-0067	jokes	A2
+joy	B2	1	act1-scene1-speech-0177	joy	B2
+last	A2	3	act1-scene1-speech-0067	last	A1/A2
+least	A2	3	act1-scene1-speech-0064	least	A2
+leave	B2	8	act1-scene1-speech-0005	leave, leaves, left	A1/B2
+less	A2	1	act1-scene1-speech-0112	less	A2
+like	B1	23	act1-scene1-speech-0011	like, liked	A1/B1
+little	A2	6	act1-scene1-speech-0052	little	A1/A2
+live	B1	1	act1-scene2-speech-0036	live	A1/B1
+lock	A2	1	act1-scene1-speech-0184	locked	A2
+loud	A2	1	act1-scene2-speech-0047	loud	A2
+lovely	A2	2	act1-scene1-speech-0046	lovely	A2
+mad	B1	1	act1-scene1-speech-0021	mad	B1
+make	B2	5	act1-scene1-speech-0067	make, makes	A1/B2
+marry	A2	2	act1-scene1-speech-0059	married	A2
+may	A2	7	act1-scene1-speech-0030	may	A1/A2
+might	A2	2	act1-scene1-speech-0037	might	A2
+mind	A2	2	act1-scene2-speech-0047	mind	A2
+mine	A2/B1	1	act1-scene2-speech-0008	mine	A2/B1
+minute	C1	2	act1-scene1-speech-0030	minute	A1/C1
+myself	A2	2	act1-scene1-speech-0132	myself	A2
+mystery	B1	1	act1-scene1-speech-0190	mystery	B1
+need	A2/B1	2	act1-scene1-speech-0186	need	A1/A2/B1
+nest	C1	1	act1-scene1-speech-0067	nests	C1
+net	B1/C1	1	act1-scene1-speech-0010	netting	B1/C1
+next	B1	2	act1-scene1-speech-0121	next	A1/B1
+now	B1	12	act1-scene1-speech-0021	now	A1/B1
+nowhere	A2	1	act1-scene1-speech-0190	nowhere	A2
+nursery	C1	1	act1-scene1-speech-0114	nursery	C1
+opening	B2	2	act1-scene1-speech-0110	opening	B2
+ourselves	A2	1	act1-scene1-speech-0190	ourselves	A2
+outside	A2	1	act1-scene1-speech-0099	outside	A1/A2
+painter	A2	2	act1-scene1-speech-0065	painter, painters	A2
+pale	B1	1	act1-scene2-speech-0036	pale	B1
+pay	A2	3	act1-scene1-speech-0036	pay, paying	A1/A2
+perhaps	A2	6	act1-scene1-speech-0060	perhaps	A2
+pity	B2	1	act1-scene1-speech-0048	pity	B2
+pleasure	B1	1	act1-scene1-speech-0125	pleasure	B1
+political	B1	1	act1-scene1-speech-0136	political	B1
+portrait	B1	1	act1-scene1-speech-0065	portrait	B1
+prayer	B1	1	act1-scene1-speech-0177	prayer	B1
+promise	A2	1	act1-scene2-speech-0006	promised	A2
+provision	C1	1	act1-scene1-speech-0132	provisions	C1
+rate	A2/B2	1	act1-scene1-speech-0170	rate	A2/B2
+regular	A2	1	act1-scene2-speech-0012	regular	A2
+ring	A2	1	act1-scene1-speech-0121	ring	A2
+roll	B1	1	act1-scene1-speech-0177	rolls	B1
+rose	B2	3	act1-scene1-speech-0057	rose, roses	B2
+round	A2/B2	1	act1-scene1-speech-0054	round	A2/B2
+run	A2	2	act1-scene1-speech-0126	ran, run	A1/A2
+running	A2	5	act1-scene1-speech-0021	running	A2
+sadly	A2	1	act1-scene2-speech-0039	sadly	A2
+satisfied	B2	1	act1-scene1-speech-0119	satisfied	B2
+say	C1	17	act1-scene1-speech-0055	said, say, saying, says	A1/C1
+serve	A2	5	act1-scene1-speech-0124	serve, served, serving	A2
+several	A2	2	act1-scene1-speech-0111	several	A2
+shall	A2	10	act1-scene1-speech-0005	shall	A2
+shoulder	A2	1	act1-scene1-speech-0017	shoulders	A2
+simple	A2	2	act1-scene1-speech-0036	simple	A2
+sir	A2	1	act1-scene1-speech-0103	sir	A2
+soft	A2	3	act1-scene1-speech-0001	soft	A2
+solve	A2	1	act1-scene2-speech-0041	solve	A2
+somewhere	A2	1	act1-scene1-speech-0138	somewhere	A2
+sort	A2/B1	1	act1-scene2-speech-0071	sort	A2/B1
+sound	C1	3	act1-scene1-speech-0190	sound, sounds	A1/C1
+spoil	B2	1	act1-scene1-speech-0052	spoil	B2
+stair	A2	2	act1-scene2-speech-0027	stairs	A2
+standing	C1	1	act1-scene1-speech-0082	standing	C1
+stay	A2	2	act1-scene2-speech-0015	stay, staying	A1/A2
+stone	A2	1	act1-scene2-speech-0095	stone	A2
+storm	A2	1	act1-scene1-speech-0190	storm	A2
+stupid	A2	1	act1-scene1-speech-0002	stupid	A2
+such	A2	2	act1-scene1-speech-0041	such	A2
+suppose	A2	6	act1-scene1-speech-0015	suppose	A2
+sure	A2	1	act1-scene1-speech-0037	sure	A1/A2
+sweep	B2	1	act1-scene2-speech-0027	sweeper	B2
+sweet	A2	1	act1-scene1-speech-0157	sweet	A2
+talk	A2	1	act1-scene1-speech-0022	talking	A1/A2
+that	B1	45	act1-scene1-speech-0011	that, that's	A1/B1
+themselves	A2	1	act1-scene1-speech-0157	themselves	A2
+thick	A2	1	act1-scene1-speech-0011	thick	A2
+thin	A2	1	act1-scene2-speech-0072	thin	A2
+thinking	A2	7	act1-scene1-speech-0037	thinking	A2
+this	B1	38	act1-scene1-speech-0009	this	A1/B1
+though	B1	1	act1-scene1-speech-0132	though	B1
+thought	A2	3	act1-scene1-speech-0046	thought	A2
+throughout	B1	3	act1-scene1-speech-0001	throughout	B1
+time	B2	3	act1-scene1-speech-0099	time	A1/B2
+tiny	B1	1	act1-scene1-speech-0054	tiny	B1
+tragic	B2	1	act1-scene1-speech-0114	tragic	B2
+train	A2	2	act1-scene1-speech-0082	train, trains	A1/A2
+trouble	A2/B2	2	act1-scene1-speech-0157	trouble	A2/B2
+try	B2	2	act1-scene1-speech-0122	tried, trying	A1/B2
+type	B1	1	act1-scene1-speech-0156	type	A1/B1
+unfortunate	B2	1	act1-scene1-speech-0112	unfortunate	B2
+unpleasant	B1	1	act1-scene1-speech-0167	unpleasant	B1
+upstairs	A2	1	act1-scene1-speech-0055	upstairs	A1/A2
+use	A2	2	act1-scene1-speech-0162	use	A1/A2
+used	B1	1	act1-scene2-speech-0039	used	B1
+very	B2	25	act1-scene1-speech-0038	very	A1/B2
+warm	B1	5	act1-scene1-speech-0051	warm, warmer	A1/B1
+warn	B1	3	act1-scene1-speech-0001	warned	B1
+water	B1	2	act1-scene1-speech-0074	water, water's	A1/B1
+way	B2	4	act1-scene1-speech-0037	way	A1/B2
+well	C1	11	act1-scene1-speech-0013	well	A1/C1
+whole	A2/B1	2	act1-scene1-speech-0011	whole	A2/B1
+wind	A2/B2	1	act1-scene1-speech-0114	wind	A2/B2
+wish	A2	3	act1-scene1-speech-0013	wish	A2
+worst	A2/B1/B2	1	act1-scene1-speech-0170	worst	A2/B1/B2
+wrap	B2	1	act1-scene1-speech-0037	wrapped	B2
+young	B1	10	act1-scene1-speech-0089	young	A1/B1
+yours	A2	2	act1-scene1-speech-0018	yours	A2
+
+OXFORD-UNCLASSIFIED / MANUAL REVIEW
+These are non-basic-looking script tokens not found in the Oxford 3000/5000 parser after removing implemented dictionary headwords.
+They are NOT automatically classified as A2+; retain them for later manual review so British/dated/rare words are not silently lost.
 word	occurrences	firstSpeechId	surfaceForms
-able	1	act1-scene1-speech-0121	able
 according	2	act1-scene1-speech-0001	according
-act	1	act1-scene1-speech-0054	acts
-actually	2	act1-scene1-speech-0067	actually
-add	1	act1-scene1-speech-0156	add
-advance	1	act1-scene1-speech-0033	advance
-afraid	8	act1-scene1-speech-0016	afraid
-age	1	act1-scene1-speech-0054	ages
-agree	2	act1-scene1-speech-0063	agree
-ah	2	act1-scene1-speech-0046	ah
-along	2	act1-scene1-speech-0013	along
-alway	4	act1-scene1-speech-0071	always
-anyone	2	act1-scene1-speech-0063	anyone
-anything	4	act1-scene1-speech-0011	anything
-anyway	5	act1-scene1-speech-0020	anyway
-apart	1	act1-scene1-speech-0135	apart
-arrive	5	act1-scene1-speech-0015	arrive, arrived
-asylum	1	act1-scene2-speech-0018	asylum
-avoid	1	act1-scene2-speech-0092	avoid
-away	4	act1-scene1-speech-0052	away
-awful	3	act1-scene1-speech-0044	awful
 baptized	1	act1-scene1-speech-0067	baptized
-beautiful	2	act1-scene1-speech-0069	beautiful
-beef	2	act1-scene1-speech-0152	beef
-beg	3	act1-scene1-speech-0099	beg
-beginning	2	act1-scene1-speech-0092	beginning
-believe	3	act1-scene1-speech-0059	believe, believed
-bet	1	act1-scene1-speech-0011	bet
-bird	1	act1-scene1-speech-0046	birds
-bit	4	act1-scene2-speech-0034	bit
+barlow's	1	act1-scene1-speech-0016	barlow's
 bitch	1	act1-scene2-speech-0052	bitch
 bloody	1	act1-scene2-speech-0052	bloody
-bound	1	act1-scene1-speech-0001	bound
 brass	1	act1-scene1-speech-0046	brass
-brilliant	1	act1-scene2-speech-0100	brilliant
-brr	1	act1-scene1-speech-0002	brr
-brush	1	act1-scene2-speech-0099	brush
-called	2	act1-scene1-speech-0054	called
-care	1	act1-scene1-speech-0040	care
-carefully	1	act1-scene2-speech-0085	carefully
-carpet	1	act1-scene2-speech-0027	carpet
-carved	1	act1-scene1-speech-0048	carved
-central	3	act1-scene1-speech-0013	central
-certain	1	act1-scene1-speech-0001	certain
-cheap	1	act1-scene1-speech-0156	cheap
-cheer	1	act1-scene2-speech-0094	cheer
-chicken	1	act1-scene1-speech-0010	chicken
-chris	1	act1-scene1-speech-0067	chris
-classe	2	act1-scene2-speech-0033	classes
-clean	1	act1-scene2-speech-0038	clean
-cleared	1	act1-scene1-speech-0085	cleared
-coat	2	act1-scene1-speech-0084	coat
-comfort	1	act1-scene1-speech-0118	comfort
-complete	1	act1-scene1-speech-0190	complete
-completely	1	act1-scene2-speech-0077	completely
-consequence	1	act1-scene1-speech-0184	consequence
-continue	2	act1-scene1-speech-0001	continue
-cook	5	act1-scene1-speech-0019	cook, cooking
-correspondence	1	act1-scene1-speech-0037	correspondence
-cut	1	act1-scene1-speech-0190	cut
+casewell's	1	act1-scene1-speech-0165	casewell's
 d'you	3	act1-scene1-speech-0099	d'you
-daily	2	act1-scene1-speech-0017	daily
-dark	2	act1-scene1-speech-0001	dark
 darling	2	act1-scene1-speech-0123	darling
-dear	3	act1-scene1-speech-0012	dear
-deed	1	act1-scene1-speech-0108	deed
-delight	1	act1-scene2-speech-0012	delight
 delightful	1	act1-scene1-speech-0044	delightful
-depend	1	act1-scene2-speech-0042	depends
-depressed	1	act1-scene1-speech-0170	depressed
-different	1	act1-scene2-speech-0011	different
 dining	2	act1-scene1-speech-0049	dining
+doing	2	act1-scene1-speech-0004	doing
 doth	1	act1-scene1-speech-0114	doth
 downhill	1	act1-scene2-speech-0039	downhill
-drove	1	act1-scene2-speech-0063	drove
-dry	2	act1-scene1-speech-0093	dry
-early	1	act1-scene1-speech-0016	early
-earth	2	act1-scene1-speech-0158	earth
 easier	2	act1-scene2-speech-0037	easier
-easily	1	act1-scene1-speech-0121	easily
-east	1	act1-scene1-speech-0032	east
-eat	2	act1-scene1-speech-0133	eat, eating
-eh	2	act1-scene1-speech-0134	eh
-eleven	2	act1-scene1-speech-0028	eleven
 englishwoman	1	act1-scene1-speech-0071	englishwoman
 englishwomen	1	act1-scene1-speech-0071	englishwomen
-er	3	act1-scene1-speech-0082	er
-escaped	1	act1-scene2-speech-0018	escaped
-ever	1	act1-scene2-speech-0099	ever
-everyone	2	act1-scene1-speech-0067	everyone
-everything	8	act1-scene1-speech-0014	everything
-everywhere	1	act1-scene1-speech-0177	everywhere
-excellent	3	act1-scene1-speech-0133	excellent
-extremely	1	act1-scene2-speech-0100	extremely
-fall	2	act1-scene1-speech-0132	fall, falls
-feeling	2	act1-scene1-speech-0054	feeling
-fig	1	act1-scene1-speech-0152	figs
-fill	2	act1-scene1-speech-0121	fill, filled
-flower	1	act1-scene1-speech-0046	flowers
-forget	2	act1-scene2-speech-0067	forget
+figs	1	act1-scene1-speech-0152	figs
 forgotten	1	act1-scene1-speech-0010	forgotten
-forty	1	act1-scene1-speech-0099	forty
-front	2	act1-scene1-speech-0032	front
-fully	1	act1-scene1-speech-0118	fully
-game	1	act1-scene1-speech-0035	game
-general	2	act1-scene1-speech-0046	general
-god	1	act1-scene1-speech-0011	god
-goe	1	act1-scene1-speech-0099	goes
+goes	1	act1-scene1-speech-0099	goes
 going	8	act1-scene1-speech-0020	going
-goodness	1	act1-scene1-speech-0016	goodness
-guest	19	act1-scene1-speech-0021	guest, guests
-h'm	2	act1-scene1-speech-0013	h'm
-ha	1	act1-scene1-speech-0128	ha
-half	3	act1-scene1-speech-0011	half
-halfway	1	act1-scene1-speech-0067	halfway
 handsome	1	act1-scene1-speech-0054	handsome
-happened	1	act1-scene2-speech-0066	happened
-he'd	1	act1-scene2-speech-0077	he'd
-he'll	1	act1-scene2-speech-0082	he'll
-heating	3	act1-scene1-speech-0013	heating
-heavy	3	act1-scene1-speech-0001	heavy
-herself	1	act1-scene2-speech-0002	herself
-hiding	1	act1-scene1-speech-0039	hiding
-hogben	1	act1-scene2-speech-0077	hogben
-hooked	1	act1-scene1-speech-0016	hooked
-hope	7	act1-scene1-speech-0012	hope
-however	2	act1-scene1-speech-0025	however
-hunt	1	act1-scene2-speech-0055	hunt
+icebound	1	act1-scene1-speech-0042	icebound
 icy	1	act1-scene1-speech-0027	icy
-idea	2	act1-scene1-speech-0021	idea
-immediately	1	act1-scene1-speech-0177	immediately
-important	2	act1-scene1-speech-0014	important
-impress	1	act1-scene2-speech-0085	impress
-indoor	2	act1-scene1-speech-0106	indoor
-inside	1	act1-scene1-speech-0164	inside
-instead	3	act1-scene1-speech-0021	instead
-interest	3	act1-scene1-speech-0061	interest, interesting
-interview	4	act1-scene1-speech-0001	interview
-introduce	1	act1-scene1-speech-0115	introduce
-invite	1	act1-scene1-speech-0190	invite
-iron	1	act1-scene1-speech-0177	iron
-joke	1	act1-scene1-speech-0067	jokes
-joy	1	act1-scene1-speech-0177	joy
-keeper	1	act1-scene1-speech-0164	keepers
+keepers	1	act1-scene1-speech-0164	keepers
 larger	1	act1-scene2-speech-0011	larger
-last	3	act1-scene1-speech-0067	last
-late	1	act1-scene1-speech-0095	late
-life	1	act1-scene1-speech-0118	life
-locked	1	act1-scene1-speech-0184	locked
-loud	1	act1-scene2-speech-0047	loud
-lovely	2	act1-scene1-speech-0046	lovely
-mad	1	act1-scene1-speech-0021	mad
 madame	1	act1-scene1-speech-0177	madame
 manor	5	act1-scene1-speech-0075	manor
-married	2	act1-scene1-speech-0059	married
-mean	4	act1-scene1-speech-0061	mean
-meet	1	act1-scene1-speech-0081	meet
-message	1	act1-scene1-speech-0139	messages
 met	1	act1-scene1-speech-0083	met
-mile	1	act1-scene1-speech-0126	mile
+metcalf's	1	act1-scene1-speech-0167	metcalf's
 minced	2	act1-scene1-speech-0152	minced
-mind	2	act1-scene2-speech-0047	mind
-moment	2	act1-scene1-speech-0084	moment
-music	1	act1-scene2-speech-0050	music
-myself	2	act1-scene1-speech-0132	myself
-mystery	1	act1-scene1-speech-0190	mystery
-near	2	act1-scene1-speech-0138	near
-needn't	1	act1-scene1-speech-0122	needn't
-nest	1	act1-scene1-speech-0067	nests
-never	5	act1-scene1-speech-0063	never
-next	2	act1-scene1-speech-0121	next
+mrs	25	act1-scene1-speech-0001	mrs
 nicely	1	act1-scene2-speech-0002	nicely
-nineteen	1	act1-scene1-speech-0099	nineteen
-nobody	2	act1-scene1-speech-0015	nobody
-north	3	act1-scene1-speech-0001	north
 northeast	1	act1-scene1-speech-0001	northeast
-nothing	4	act1-scene1-speech-0081	nothing
-nowhere	1	act1-scene1-speech-0190	nowhere
-nursery	1	act1-scene1-speech-0114	nursery
-o'clock	1	act1-scene1-speech-0028	o'clock
 oak	4	act1-scene1-speech-0032	oak
-oh	25	act1-scene1-speech-0002	oh
-opened	1	act1-scene1-speech-0181	opened
-opening	2	act1-scene1-speech-0110	opening
-order	3	act1-scene1-speech-0016	order, ordered
-oughtn't	1	act1-scene1-speech-0033	oughtn't
-ourselve	1	act1-scene1-speech-0190	ourselves
-out	13	act1-scene1-speech-0009	out
-outside	1	act1-scene1-speech-0099	outside
-paint	1	act1-scene1-speech-0097	paint
-painter	2	act1-scene1-speech-0065	painter, painters
-pale	1	act1-scene2-speech-0036	pale
 paradise	1	act1-scene1-speech-0046	paradise
-paul	1	act1-scene1-speech-0067	paul
-pay	3	act1-scene1-speech-0036	pay, paying
-perfect	4	act1-scene1-speech-0052	perfect
-perhap	6	act1-scene1-speech-0060	perhaps
-pink	1	act1-scene2-speech-0036	pink
-pity	1	act1-scene1-speech-0048	pity
-pleasure	1	act1-scene1-speech-0125	pleasure
-police	10	act1-scene1-speech-0001	police
-political	1	act1-scene1-speech-0136	political
-poor	4	act1-scene1-speech-0054	poor
-portrait	1	act1-scene1-speech-0065	portrait
-prayer	1	act1-scene1-speech-0177	prayer
-prefer	1	act1-scene1-speech-0053	prefer
-pretty	4	act1-scene1-speech-0023	pretty
-problem	1	act1-scene2-speech-0041	problems
-promised	1	act1-scene2-speech-0006	promised
-purple	1	act1-scene1-speech-0048	purple
-ran	1	act1-scene1-speech-0126	ran
-rate	1	act1-scene1-speech-0170	rate
-real	1	act1-scene1-speech-0052	real
-regular	1	act1-scene2-speech-0012	regular
-remember	1	act1-scene2-speech-0088	remember
-rhyme	1	act1-scene1-speech-0114	rhymes
-ring	1	act1-scene1-speech-0121	ring
+paul's	1	act1-scene1-speech-0067	paul's
+rhymes	1	act1-scene1-speech-0114	rhymes
 robin	1	act1-scene1-speech-0114	robin
-roll	1	act1-scene1-speech-0177	rolls
-rose	3	act1-scene1-speech-0057	rose, roses
 rot	2	act1-scene1-speech-0093	rot
-round	1	act1-scene1-speech-0054	round
 royce	1	act1-scene1-speech-0177	royce
-run	6	act1-scene1-speech-0021	run, running
 rung	1	act1-scene2-speech-0079	rung
-sadly	1	act1-scene2-speech-0039	sadly
-satisfied	1	act1-scene1-speech-0119	satisfied
 scrambled	1	act1-scene2-speech-0002	scrambled
 securely	1	act1-scene1-speech-0184	securely
-seem	7	act1-scene1-speech-0081	seem, seemed, seems
-sell	1	act1-scene1-speech-0021	sell
-send	3	act1-scene1-speech-0013	send, sending
-serve	5	act1-scene1-speech-0124	serve, served, serving
-several	2	act1-scene1-speech-0111	several
+seem	3	act1-scene1-speech-0138	seem
+seemed	1	act1-scene2-speech-0083	seemed
+seems	3	act1-scene1-speech-0081	seems
 shave	1	act1-scene2-speech-0090	shave
-she'd	2	act1-scene2-speech-0062	she'd
 shivering	1	act1-scene2-speech-0072	shivering
-shoulder	1	act1-scene1-speech-0017	shoulders
 shovel	1	act1-scene2-speech-0022	shovel
-simple	2	act1-scene1-speech-0036	simple
-sir	1	act1-scene1-speech-0103	sir
-snow	20	act1-scene1-speech-0001	snow, snowed
-soft	3	act1-scene1-speech-0001	soft
 sold	1	act1-scene2-speech-0039	sold
-solve	1	act1-scene2-speech-0041	solve
-somebody	1	act1-scene1-speech-0054	somebody
-someone	3	act1-scene1-speech-0030	someone
-something	6	act1-scene1-speech-0071	something
-somewhere	1	act1-scene1-speech-0138	somewhere
-sort	1	act1-scene2-speech-0071	sort
-sound	3	act1-scene1-speech-0190	sound, sounds
-speak	2	act1-scene2-speech-0007	speak, speaking
-spoil	1	act1-scene1-speech-0052	spoil
-st	1	act1-scene1-speech-0067	st
-stay	2	act1-scene2-speech-0015	stay, staying
 stewed	1	act1-scene1-speech-0152	stewed
-stone	1	act1-scene2-speech-0095	stone
-stopped	1	act1-scene1-speech-0081	stopped
-storm	1	act1-scene1-speech-0190	storm
-stupid	1	act1-scene1-speech-0002	stupid
-such	2	act1-scene1-speech-0041	such
-suppose	6	act1-scene1-speech-0015	suppose
-sweet	1	act1-scene1-speech-0157	sweet
 sweetheart	1	act1-scene1-speech-0007	sweetheart
-talking	1	act1-scene1-speech-0022	talking
-terrible	2	act1-scene1-speech-0054	terrible
-thank	3	act1-scene1-speech-0016	thank, thanks
-themselve	1	act1-scene1-speech-0157	themselves
-they'd	1	act1-scene1-speech-0013	they'd
-thick	1	act1-scene1-speech-0011	thick
-thin	1	act1-scene2-speech-0072	thin
-thousand	1	act1-scene1-speech-0175	thousand
-throughout	3	act1-scene1-speech-0001	throughout
+thieves	1	act1-scene1-speech-0186	thieves
 ticked	1	act1-scene1-speech-0061	ticked
 tim	1	act1-scene1-speech-0054	tim
-tiny	1	act1-scene1-speech-0054	tiny
-together	1	act1-scene1-speech-0157	together
-tonight	1	act1-scene2-speech-0006	tonight
-tooth	1	act1-scene2-speech-0034	teeth
-tragic	1	act1-scene1-speech-0114	tragic
-train	2	act1-scene1-speech-0082	train, trains
-travel	1	act1-scene1-speech-0128	travel
-tried	1	act1-scene1-speech-0122	tried
-trouble	2	act1-scene1-speech-0157	trouble
-true	1	act1-scene2-speech-0067	true
-trying	1	act1-scene2-speech-0047	trying
-twenty	2	act1-scene1-speech-0001	twenty
-twice	1	act1-scene1-speech-0177	twice
-type	1	act1-scene1-speech-0156	type
 ugh	1	act1-scene1-speech-0027	ugh
-understand	1	act1-scene1-speech-0118	understand
 understood	1	act1-scene1-speech-0108	understood
-unfortunate	1	act1-scene1-speech-0112	unfortunate
-unpleasant	1	act1-scene1-speech-0167	unpleasant
-until	2	act1-scene1-speech-0028	until
-upstair	1	act1-scene1-speech-0055	upstairs
-used	1	act1-scene2-speech-0039	used
 vicinity	3	act1-scene1-speech-0001	vicinity
-warmer	2	act1-scene2-speech-0051	warmer
-warned	3	act1-scene1-speech-0001	warned
 wax	1	act1-scene1-speech-0046	wax
-we'd	2	act1-scene1-speech-0082	we'd
-wearing	3	act1-scene1-speech-0001	wearing
-weather	9	act1-scene1-speech-0009	weather
-well	11	act1-scene1-speech-0013	well
-whole	2	act1-scene1-speech-0011	whole
-wind	1	act1-scene1-speech-0114	wind
-wish	3	act1-scene1-speech-0013	wish
-wonderful	2	act1-scene1-speech-0041	wonderful
-wrapped	1	act1-scene1-speech-0037	wrapped
-write	3	act1-scene2-speech-0011	write, writing
-writer	1	act1-scene2-speech-0074	writer
-wrote	1	act1-scene1-speech-0038	wrote
-yourself	1	act1-scene1-speech-0051	yourself
-
-NOTE
-- This is deliberately over-inclusive. Final dictionary-writing pass should manually reject proper names, OCR/tokenization artifacts, and words that are actually A1 in the relevant sense.
-- Polysemy must be judged by the sense used in the play; an A1-looking word can still remain if the play uses a harder sense.
+wren's	1	act1-scene1-speech-0067	wren's
 
