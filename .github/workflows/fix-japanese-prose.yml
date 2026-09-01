@@ -5,6 +5,7 @@ on:
     branches: ["main"]
     paths:
       - "scripts/fix-japanese-prose.mjs"
+      - "scripts/fix-japanese-prose-residual.mjs"
       - ".github/workflows/fix-japanese-prose.yml"
 
 permissions:
@@ -26,10 +27,14 @@ jobs:
           node-version: '22'
 
       - name: Check cleanup script syntax
-        run: node --check scripts/fix-japanese-prose.mjs
+        run: |
+          node --check scripts/fix-japanese-prose.mjs
+          node --check scripts/fix-japanese-prose-residual.mjs
 
       - name: Apply complete Japanese prose cleanup
-        run: node scripts/fix-japanese-prose.mjs
+        run: |
+          node scripts/fix-japanese-prose.mjs
+          node scripts/fix-japanese-prose-residual.mjs
 
       - name: Verify no accidental English remains
         run: node scripts/audit-japanese-prose.mjs
@@ -41,9 +46,10 @@ jobs:
           (cd app && npm run test:static)
           (cd app && npm run verify:production)
 
-      - name: Commit fixed data and remove one-shot workflow
+      - name: Commit fixed data and remove one-shot tooling
         run: |
           rm .github/workflows/fix-japanese-prose.yml
+          rm scripts/fix-japanese-prose.mjs scripts/fix-japanese-prose-residual.mjs
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
