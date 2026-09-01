@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "patchId": "second-quarter-noun-expansion-v2-2026-09-01",
+  "scope": {
+    "globalSpeechRange": [292, 582],
+    "speechCount": 291,
+    "first": "act1-scene2-speech-0102",
+    "last": "act2-speech-0056",
+    "nextExcluded": "act2-speech-0057"
+  },
+  "policy": {
+    "focus": "Second-pass expansion for Japanese English learners, with permissive inclusion of everyday nouns, British daily-life terms, institutional vocabulary, and culturally opaque expressions.",
+    "meaning": "Neutral dictionary Japanese; single words use POS headings.",
+    "inThisPlay": "Only when materially context-dependent, polysemous, idiomatic, ironic, culturally specific, or historically specific.",
+    "existing": "Preserve all existing line vocabulary and dictionary entries; never duplicate an existing surface on the same speech.",
+    "source": "Canonical dialogue only; stage-direction-only matches must not create line vocabulary or dictionary entries."
+  }
+}
