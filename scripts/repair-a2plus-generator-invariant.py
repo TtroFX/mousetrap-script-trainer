@@ -1,5 +1,6 @@
 from pathlib import Path
 
+# Keep the generator invariant aligned with the current dictionary, not historical coverage state.
 path = Path('scripts/generate-a2plus-candidate-lists.mjs')
 text = path.read_text(encoding='utf-8')
 old = "if(!summary.abusePresentInFinal) throw new Error('Expected missing dictionary headword \"abuse\" to be present in final Parts 1+2 candidate list');"
