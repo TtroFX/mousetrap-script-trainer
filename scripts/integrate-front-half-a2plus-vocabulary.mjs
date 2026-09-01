@@ -188,7 +188,7 @@ writeJson(FILES.dictionary, dictionary);
 writeJson(FILES.vocabulary, vocabulary);
 
 const allSpeechIds = allSpeeches.map(s => s.id);
-const dictionaryByNormAfter = new Map(Object.entries(dictionary).map(([k,v]) => [norm(k), v]));
+const dictionaryByExactKeyAfter = new Map(Object.entries(dictionary).map(([k,v]) => [String(k).trim().toLowerCase(), v]));
 let vocabItems=0, annotatedSpeeches=0, playMeaningItems=0, neutralOnlyItems=0, inThisPlayItems=0;
 const referenced = new Set();
 for (const id of allSpeechIds) {
@@ -203,7 +203,7 @@ for (const id of allSpeechIds) {
     const pair = `${norm(surface)}\0${norm(lemma)}`;
     if (seen.has(pair)) fail(`Duplicate pair ${id}/${surface}/${lemma}`);
     seen.add(pair);
-    const de = dictionaryByNormAfter.get(norm(lemma));
+    const de = dictionaryByExactKeyAfter.get(String(lemma).trim().toLowerCase());
     if (!de) fail(`Missing dictionary ref ${id}/${lemma}`);
     if (String(de.meaning || '').trim() !== meaning) fail(`Meaning mismatch ${id}/${lemma}`);
     if ('inThisPlay' in item) {

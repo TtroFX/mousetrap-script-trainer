@@ -1,0 +1,1584 @@
+{
+  "schemaVersion": 1,
+  "patchId": "front-half-a2plus-vocabulary-2026-09-02",
+  "status": "PASS",
+  "scope": {
+    "globalSpeechRange": [
+      1,
+      582
+    ],
+    "speechCount": 582,
+    "first": "act1-scene1-speech-0001",
+    "last": "act2-speech-0056",
+    "nextExcluded": "act2-speech-0057"
+  },
+  "policy": {
+    "a2plus": "A2/B1/B2/C1/C2の実際の語義を原則収録する。",
+    "mixedA1": "A1とA2+が同じheadwordにある場合、台本中の実際の語義がA2+と確認できた場合だけ収録する。",
+    "phrases": "既存の句・複合語で意味を取るべき単語断片は単語として重複追加しない。",
+    "morphology": "機械的な語尾除去で別語になった候補は除外する。"
+  },
+  "review": {
+    "candidateCount": 297,
+    "selectedLemmas": 179,
+    "pureCandidateExclusions": 12,
+    "restoredMixedLemmas": [
+      "book"
+    ],
+    "otherMixedAndReviewedExclusions": 106
+  },
+  "before": {
+    "dictionaryEntries": 1580,
+    "allVocabularyItems": 3307,
+    "targetVocabularyItems": 1998
+  },
+  "stats": {
+    "newDictionaryEntries": 179,
+    "newVocabularyItems": 376,
+    "alreadyPresent": 0,
+    "exactSurfaceCoveredByOtherLemma": 12,
+    "matchedSpeechSurfaces": 388,
+    "inThisPlayAdded": 2
+  },
+  "after": {
+    "dictionaryEntries": 1759,
+    "allVocabularyItems": 3683,
+    "targetVocabularyItems": 2374,
+    "annotatedSpeeches": 861,
+    "playMeaningItems": 2902,
+    "neutralOnlyItems": 781,
+    "inThisPlayItems": 833,
+    "referencedDictionaryLemmas": 1679
+  },
+  "qa": {
+    "candidateDefinitionReconciliation": "PASS",
+    "frontHalfBoundary": "PASS",
+    "sourceMatchForEverySelectedLemma": "PASS",
+    "outOfScopeLineMutationCheck": "PASS",
+    "duplicateVocabularyPairs": 0,
+    "missingDictionaryReferences": 0,
+    "dictionaryMeaningConsistency": "PASS",
+    "optionalInThisPlayContract": "PASS",
+    "semanticValidator": {
+      "status": "PASS",
+      "dictionary": 1759,
+      "vocabularyItems": 3683,
+      "inThisPlay": 833,
+      "polysemyItems": 362,
+      "unclassifiedDictionary": 0,
+      "genericInThisPlay": 0,
+      "playSpecificDictionaryMeanings": 0,
+      "surfaceLemmaConflicts": 0,
+      "duplicateSurfaceLemmaPairs": 0,
+      "singleWordDictionaryEntries": 1117,
+      "singleWordWithoutHeading": 0,
+      "multiPosSingleWords": 171,
+      "multiPosSingleWordsWithoutSeparateHeadings": 0
+    },
+    "dictionaryStyleAudit": {
+      "counts": {
+        "dictionaryEntries": 1759,
+        "singleTokenEntries": 1117,
+        "singleWordNoHeader": 0,
+        "multiPosSingleWords": 171,
+        "multiPosCombinedHeader": 0,
+        "multiPosWithoutSeparateHeaders": 0
+      },
+      "compact": {
+        "singleWordNoHeader": [],
+        "multiPosCombinedHeader": [],
+        "multiPosWithoutSeparateHeaders": []
+      }
+    },
+    "productionVerifier": {
+      "status": "PASS",
+      "runtime": "index-zero",
+      "buildId": "index-zero-2026-09-02-r35",
+      "mode": "verify-only",
+      "qa": {
+        "speeches": 1164,
+        "translations": 1164,
+        "interpretationCoverage": 1164,
+        "interpretationSpeeches": 747,
+        "interpretationNotes": 887,
+        "vocabulary": 3683,
+        "vocabularyDisplayed": 2902,
+        "vocabularyNeutralOnly": 781,
+        "grammar": 692,
+        "dictionary": 1759,
+        "structureSentences": 2334,
+        "structureClauses": 2939,
+        "structureChunks": 11810,
+        "stageDirections": 777,
+        "stageStandalone": 5,
+        "stageAttached": 772,
+        "stageActorCues": 611,
+        "stageJapaneseParaphrases": 777,
+        "stageCategories": {
+          "scene-setting": 5,
+          "radio": 9,
+          "delivery": 411,
+          "gesture": 34,
+          "action": 96,
+          "entrance": 44,
+          "movement": 95,
+          "exit": 41,
+          "sound": 6,
+          "light": 8,
+          "curtain": 8,
+          "music": 8,
+          "pause": 12
+        }
+      }
+    },
+    "protectedCanonicalSourcesUnchanged": true
+  },
+  "selectedDetails": [
+    {
+      "lemma": "able",
+      "surfaces": [
+        "able"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3
+    },
+    {
+      "lemma": "act",
+      "surfaces": [
+        "acts"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "actually",
+      "surfaces": [
+        "actually"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3
+    },
+    {
+      "lemma": "advance",
+      "surfaces": [
+        "advance"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "affect",
+      "surfaces": [
+        "affect"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "against",
+      "surfaces": [
+        "against"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3
+    },
+    {
+      "lemma": "ah",
+      "surfaces": [
+        "ah"
+      ],
+      "matchedSpeechSurfaces": 4,
+      "newVocabularyItems": 4
+    },
+    {
+      "lemma": "allow",
+      "surfaces": [
+        "allow"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "almost",
+      "surfaces": [
+        "almost"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "alone",
+      "surfaces": [
+        "alone"
+      ],
+      "matchedSpeechSurfaces": 4,
+      "newVocabularyItems": 4
+    },
+    {
+      "lemma": "along",
+      "surfaces": [
+        "along"
+      ],
+      "matchedSpeechSurfaces": 4,
+      "newVocabularyItems": 4
+    },
+    {
+      "lemma": "already",
+      "surfaces": [
+        "already"
+      ],
+      "matchedSpeechSurfaces": 4,
+      "newVocabularyItems": 4
+    },
+    {
+      "lemma": "anybody",
+      "surfaces": [
+        "anybody"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "anyway",
+      "surfaces": [
+        "anyway"
+      ],
+      "matchedSpeechSurfaces": 8,
+      "newVocabularyItems": 8
+    },
+    {
+      "lemma": "apart",
+      "surfaces": [
+        "apart"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "asylum",
+      "surfaces": [
+        "asylum"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "avoid",
+      "surfaces": [
+        "avoid"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "awful",
+      "surfaces": [
+        "awful"
+      ],
+      "matchedSpeechSurfaces": 4,
+      "newVocabularyItems": 4
+    },
+    {
+      "lemma": "bar",
+      "surfaces": [
+        "bar"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "beef",
+      "surfaces": [
+        "beef"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "beg",
+      "surfaces": [
+        "beg"
+      ],
+      "matchedSpeechSurfaces": 5,
+      "newVocabularyItems": 5
+    },
+    {
+      "lemma": "behave",
+      "surfaces": [
+        "behaving"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "bet",
+      "surfaces": [
+        "bet"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "bit",
+      "surfaces": [
+        "bit"
+      ],
+      "matchedSpeechSurfaces": 8,
+      "newVocabularyItems": 8
+    },
+    {
+      "lemma": "block",
+      "surfaces": [
+        "blocked"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 0
+    },
+    {
+      "lemma": "book",
+      "surfaces": [
+        "booked"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "bottom",
+      "surfaces": [
+        "bottom"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "brilliant",
+      "surfaces": [
+        "brilliant"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "brush",
+      "surfaces": [
+        "brush"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3
+    },
+    {
+      "lemma": "care",
+      "surfaces": [
+        "care"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "carefully",
+      "surfaces": [
+        "carefully"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "carpet",
+      "surfaces": [
+        "carpet"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "central",
+      "surfaces": [
+        "central"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3
+    },
+    {
+      "lemma": "certain",
+      "surfaces": [
+        "certain"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "chance",
+      "surfaces": [
+        "chance"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "cheer",
+      "surfaces": [
+        "cheer"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "clearly",
+      "surfaces": [
+        "clearly"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "closed",
+      "surfaces": [
+        "closed"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "comfort",
+      "surfaces": [
+        "comfort"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "completely",
+      "surfaces": [
+        "completely"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "consequence",
+      "surfaces": [
+        "consequence"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "continue",
+      "surfaces": [
+        "continue"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "correspondence",
+      "surfaces": [
+        "correspondence"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "crazy",
+      "surfaces": [
+        "crazy"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "daily",
+      "surfaces": [
+        "daily"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "dead",
+      "surfaces": [
+        "dead"
+      ],
+      "matchedSpeechSurfaces": 6,
+      "newVocabularyItems": 6
+    },
+    {
+      "lemma": "deadly",
+      "surfaces": [
+        "deadly"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "deed",
+      "surfaces": [
+        "deed"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "delight",
+      "surfaces": [
+        "delight"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "depend",
+      "surfaces": [
+        "depends"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "depressed",
+      "surfaces": [
+        "depressed"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "dry",
+      "surfaces": [
+        "dry"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "duty",
+      "surfaces": [
+        "duty"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "earth",
+      "surfaces": [
+        "earth"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3
+    },
+    {
+      "lemma": "easily",
+      "surfaces": [
+        "easily"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "either",
+      "surfaces": [
+        "either"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3
+    },
+    {
+      "lemma": "ensure",
+      "surfaces": [
+        "ensure"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "equip",
+      "surfaces": [
+        "equipped"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 0
+    },
+    {
+      "lemma": "escape",
+      "surfaces": [
+        "escaped"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "everywhere",
+      "surfaces": [
+        "everywhere"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "excellent",
+      "surfaces": [
+        "excellent"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3
+    },
+    {
+      "lemma": "excuse",
+      "surfaces": [
+        "excuse"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "expected",
+      "surfaces": [
+        "expected"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "extremely",
+      "surfaces": [
+        "extremely"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "file",
+      "surfaces": [
+        "file"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "force",
+      "surfaces": [
+        "force"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "fresh",
+      "surfaces": [
+        "fresh"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "fully",
+      "surfaces": [
+        "fully"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "general",
+      "surfaces": [
+        "general",
+        "general's"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3
+    },
+    {
+      "lemma": "god",
+      "surfaces": [
+        "god"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "goodness",
+      "surfaces": [
+        "goodness"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "guest",
+      "surfaces": [
+        "guest",
+        "guests"
+      ],
+      "matchedSpeechSurfaces": 20,
+      "newVocabularyItems": 20
+    },
+    {
+      "lemma": "halfway",
+      "surfaces": [
+        "halfway"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "heating",
+      "surfaces": [
+        "heating"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3
+    },
+    {
+      "lemma": "heavy",
+      "surfaces": [
+        "heavy"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3
+    },
+    {
+      "lemma": "herself",
+      "surfaces": [
+        "herself"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "hide",
+      "surfaces": [
+        "hiding"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "himself",
+      "surfaces": [
+        "himself"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "hold",
+      "surfaces": [
+        "held"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "human",
+      "surfaces": [
+        "human"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "hunt",
+      "surfaces": [
+        "hunt"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "identify",
+      "surfaces": [
+        "identify"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "ill",
+      "surfaces": [
+        "ill"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "immediately",
+      "surfaces": [
+        "immediately"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "impress",
+      "surfaces": [
+        "impress"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "indoor",
+      "surfaces": [
+        "indoor"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "inside",
+      "surfaces": [
+        "inside"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "instead",
+      "surfaces": [
+        "instead"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3
+    },
+    {
+      "lemma": "invite",
+      "surfaces": [
+        "invite"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "iron",
+      "surfaces": [
+        "iron"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "joke",
+      "surfaces": [
+        "joke",
+        "jokes"
+      ],
+      "matchedSpeechSurfaces": 4,
+      "newVocabularyItems": 4
+    },
+    {
+      "lemma": "joy",
+      "surfaces": [
+        "joy"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "justice",
+      "surfaces": [
+        "justice"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "kill",
+      "surfaces": [
+        "kill",
+        "killed"
+      ],
+      "matchedSpeechSurfaces": 6,
+      "newVocabularyItems": 6
+    },
+    {
+      "lemma": "lady",
+      "surfaces": [
+        "ladies",
+        "lady"
+      ],
+      "matchedSpeechSurfaces": 4,
+      "newVocabularyItems": 4
+    },
+    {
+      "lemma": "least",
+      "surfaces": [
+        "least"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3
+    },
+    {
+      "lemma": "less",
+      "surfaces": [
+        "less"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3
+    },
+    {
+      "lemma": "lock",
+      "surfaces": [
+        "locked"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "loud",
+      "surfaces": [
+        "loud"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "lovely",
+      "surfaces": [
+        "lovely"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "lucky",
+      "surfaces": [
+        "lucky"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "mad",
+      "surfaces": [
+        "mad"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "marry",
+      "surfaces": [
+        "married"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "might",
+      "surfaces": [
+        "might"
+      ],
+      "matchedSpeechSurfaces": 5,
+      "newVocabularyItems": 5
+    },
+    {
+      "lemma": "mind",
+      "surfaces": [
+        "mind"
+      ],
+      "matchedSpeechSurfaces": 6,
+      "newVocabularyItems": 6
+    },
+    {
+      "lemma": "myself",
+      "surfaces": [
+        "myself"
+      ],
+      "matchedSpeechSurfaces": 4,
+      "newVocabularyItems": 4
+    },
+    {
+      "lemma": "mystery",
+      "surfaces": [
+        "mystery"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "nearly",
+      "surfaces": [
+        "nearly"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "neglect",
+      "surfaces": [
+        "neglect"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "nest",
+      "surfaces": [
+        "nests"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "noise",
+      "surfaces": [
+        "noise"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "nowhere",
+      "surfaces": [
+        "nowhere"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "nursery",
+      "surfaces": [
+        "nursery"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "ourselves",
+      "surfaces": [
+        "ourselves"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "painter",
+      "surfaces": [
+        "painter",
+        "painters"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "pale",
+      "surfaces": [
+        "pale"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "perhaps",
+      "surfaces": [
+        "perhaps"
+      ],
+      "matchedSpeechSurfaces": 12,
+      "newVocabularyItems": 12
+    },
+    {
+      "lemma": "persistent",
+      "surfaces": [
+        "persistent"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "pity",
+      "surfaces": [
+        "pity"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "pleasure",
+      "surfaces": [
+        "pleasure"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "political",
+      "surfaces": [
+        "political"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "portrait",
+      "surfaces": [
+        "portrait"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "prevent",
+      "surfaces": [
+        "prevent"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "promise",
+      "surfaces": [
+        "promised"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "provision",
+      "surfaces": [
+        "provisions"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 0
+    },
+    {
+      "lemma": "public",
+      "surfaces": [
+        "public"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "receive",
+      "surfaces": [
+        "receiving"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "record",
+      "surfaces": [
+        "record"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "regular",
+      "surfaces": [
+        "regular"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "ring",
+      "surfaces": [
+        "ring"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "roll",
+      "surfaces": [
+        "rolls"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "rose",
+      "surfaces": [
+        "roses"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "rubbish",
+      "surfaces": [
+        "rubbish"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "sadly",
+      "surfaces": [
+        "sadly"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "safe",
+      "surfaces": [
+        "safe"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "satisfied",
+      "surfaces": [
+        "satisfied"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "scene",
+      "surfaces": [
+        "scene"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "serve",
+      "surfaces": [
+        "serve",
+        "served",
+        "serving"
+      ],
+      "matchedSpeechSurfaces": 6,
+      "newVocabularyItems": 6
+    },
+    {
+      "lemma": "several",
+      "surfaces": [
+        "several"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "shall",
+      "surfaces": [
+        "shall"
+      ],
+      "matchedSpeechSurfaces": 13,
+      "newVocabularyItems": 13
+    },
+    {
+      "lemma": "shoulder",
+      "surfaces": [
+        "shoulders"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "shut",
+      "surfaces": [
+        "shut",
+        "shutting"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "sign",
+      "surfaces": [
+        "sign"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "simple",
+      "surfaces": [
+        "simple"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3
+    },
+    {
+      "lemma": "sir",
+      "surfaces": [
+        "sir"
+      ],
+      "matchedSpeechSurfaces": 10,
+      "newVocabularyItems": 10
+    },
+    {
+      "lemma": "skiing",
+      "surfaces": [
+        "skiing"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "slip",
+      "surfaces": [
+        "slipped"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "soft",
+      "surfaces": [
+        "soft"
+      ],
+      "matchedSpeechSurfaces": 4,
+      "newVocabularyItems": 4
+    },
+    {
+      "lemma": "solve",
+      "surfaces": [
+        "solve"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "somewhere",
+      "surfaces": [
+        "somewhere"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "spoil",
+      "surfaces": [
+        "spoil"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "stair",
+      "surfaces": [
+        "stairs"
+      ],
+      "matchedSpeechSurfaces": 9,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "stone",
+      "surfaces": [
+        "stone",
+        "stones"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "storm",
+      "surfaces": [
+        "storm"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "straight",
+      "surfaces": [
+        "straight"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "stupid",
+      "surfaces": [
+        "stupid"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "such",
+      "surfaces": [
+        "such"
+      ],
+      "matchedSpeechSurfaces": 4,
+      "newVocabularyItems": 4
+    },
+    {
+      "lemma": "suggest",
+      "surfaces": [
+        "suggesting"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "suppose",
+      "surfaces": [
+        "suppose"
+      ],
+      "matchedSpeechSurfaces": 11,
+      "newVocabularyItems": 11
+    },
+    {
+      "lemma": "sweet",
+      "surfaces": [
+        "sweet"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "swing",
+      "surfaces": [
+        "swing"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "switch",
+      "surfaces": [
+        "switched"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "themselves",
+      "surfaces": [
+        "themselves"
+      ],
+      "matchedSpeechSurfaces": 2,
+      "newVocabularyItems": 2
+    },
+    {
+      "lemma": "thick",
+      "surfaces": [
+        "thick"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "thin",
+      "surfaces": [
+        "thin"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "though",
+      "surfaces": [
+        "though"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3
+    },
+    {
+      "lemma": "throughout",
+      "surfaces": [
+        "throughout"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3
+    },
+    {
+      "lemma": "tidy",
+      "surfaces": [
+        "tidy"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "tiny",
+      "surfaces": [
+        "tiny"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "tragic",
+      "surfaces": [
+        "tragic"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "unfortunate",
+      "surfaces": [
+        "unfortunate"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "unhappy",
+      "surfaces": [
+        "unhappy"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "unpleasant",
+      "surfaces": [
+        "unpleasant"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "welfare",
+      "surfaces": [
+        "welfare"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "wind",
+      "surfaces": [
+        "wind"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "wish",
+      "surfaces": [
+        "wish"
+      ],
+      "matchedSpeechSurfaces": 3,
+      "newVocabularyItems": 3
+    },
+    {
+      "lemma": "worst",
+      "surfaces": [
+        "worst"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "wrap",
+      "surfaces": [
+        "wrapped"
+      ],
+      "matchedSpeechSurfaces": 1,
+      "newVocabularyItems": 1
+    },
+    {
+      "lemma": "yours",
+      "surfaces": [
+        "yours"
+      ],
+      "matchedSpeechSurfaces": 4,
+      "newVocabularyItems": 4
+    }
+  ],
+  "hashes": {
+    "vocabulary": "278b07edb9a57bfd4cba702b2ab98470a497d81020eed1887b6e81e9f1ceebb3",
+    "dictionary": "d0dfaaab3d22e52232aaba22311709685978c1f4989559012a50675bfae7e1fe"
+  }
+}
