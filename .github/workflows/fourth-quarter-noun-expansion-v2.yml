@@ -31,6 +31,7 @@ jobs:
           from pathlib import Path
           src = Path('scripts/apply-third-quarter-noun-expansion-v2.mjs').read_text()
           s = src.replace('third-quarter', 'fourth-quarter').replace('Part 3', 'Part 4')
+          s = s.replace('exactPart3Boundary', 'exactPart4Boundary')
           s = s.replace("[583, 873]", "[874, 1164]")
           s = s.replace("if (scope.first !== 'act2-speech-0057' || scope.last !== 'act2-speech-0347' || scope.nextExcluded !== 'act2-speech-0348') fail('Unexpected scope boundary');", "if (scope.first !== 'act2-speech-0348' || scope.last !== 'act2-speech-0638') fail('Unexpected scope boundary');")
           s = s.replace("const targetSpeeches = script['act2'].speeches.slice(56, 347);", "const targetSpeeches = script['act2'].speeches.slice(347);")
