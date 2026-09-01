@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "issue": "stage-direction text leaked into canonical spoken text and was absent from its correct stage anchor",
+  "repairedSpeech": {
+    "id": "act1-scene2-speech-0308",
+    "before": "Ah. {He moves above the sofa table.)",
+    "after": "Ah."
+  },
+  "recoveredStageDirection": {
+    "id": "sd-act1-scene2-recovered-0308",
+    "text": "He moves above the sofa table.",
+    "speechId": "act1-scene2-speech-0308",
+    "placement": "after",
+    "sourcePages": [
+      40
+    ],
+    "malformedSourceBracket": true
+  },
+  "stageCounts": {
+    "standalone": 5,
+    "attached": 773,
+    "total": 778,
+    "malformedBracketRecovered": 1
+  },
+  "speechDelimiterAudit": {
+    "speechCount": 1164,
+    "beforeCount": 1,
+    "unexpectedBeforeCount": 0,
+    "afterCount": 0
+  },
+  "removedLineVocabularyEntries": 0,
+  "canonicalSpeechSha256": "135793ba4d38c75517ef1baf51965e3d2ea5e5e96e9df373bc9044eeb193188f"
+}

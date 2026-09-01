@@ -30,7 +30,7 @@ const stagePath=path.join(rootDir,'mousetrap_stage_directions.json');
 const stageRuntimePath=path.join(appDir,'src/mousetrap_stage_directions.json');
 if(!fs.existsSync(stagePath)||!fs.existsSync(stageRuntimePath)||sha(stagePath)!==sha(stageRuntimePath))fail('canonical/runtime stage directions differ');
 const stageDirections=readJson(stagePath);
-if(stageDirections.schemaVersion!==2||stageDirections.entries?.length!==777||stageDirections.counts?.standalone!==5||stageDirections.counts?.attached!==772||stageDirections.counts?.total!==777)fail('stage direction schema/counts invalid');
+if(stageDirections.schemaVersion!==2||stageDirections.entries?.length!==778||stageDirections.counts?.standalone!==5||stageDirections.counts?.attached!==773||stageDirections.counts?.total!==778)fail('stage direction schema/counts invalid');
 if(stageDirections.policy?.canonicalSpeechCountUnchanged!==1164||stageDirections.policy?.orderedScriptStream!==true||stageDirections.policy?.explicitSourceOrder!==true||stageDirections.policy?.stageDirectionsAreNotSpeeches!==true)fail('stage direction policy invalid');
 if(stageDirections.policy?.attachedAboveTranslation!==false||stageDirections.policy?.summaryJaKind!=='minimal-paraphrase'||stageDirections.policy?.summaryJaMaxChars!==64||stageDirections.policy?.readerShowsJapaneseFirst!==true||stageDirections.policy?.lineDetailStageLayout!=='actor-cues-before-translation; remainder-collapsed-after-structure')fail('stage Japanese-first policy invalid');
 const stageIds=new Set(),stageSceneCounts=new Map(),stageCategories=new Map();
@@ -47,7 +47,7 @@ for(const entry of stageDirections.entries){
   else fail(`stage direction kind/anchor invalid ${entry.id}`);
   stageIds.add(entry.id);stageSceneCounts.set(entry.sceneId,entry.sourceOrder);stageCategories.set(entry.category,(stageCategories.get(entry.category)||0)+1);
 }
-if(stageStandalone!==5||stageAttached!==772||stageActorCues!==611||[...stageSceneCounts.values()].join(',')!=='185,229,363')fail('stage direction derived counts/order invalid');
+if(stageStandalone!==5||stageAttached!==773||stageActorCues!==612||[...stageSceneCounts.values()].join(',')!=='185,230,363')fail('stage direction derived counts/order invalid');
 const translations=readJson(path.join(rootDir,'mousetrap_line_translations.json'));
 const vocabulary=readJson(path.join(rootDir,'mousetrap_line_vocabulary.json'));
 const grammar=readJson(path.join(rootDir,'mousetrap_line_grammar.json'));
@@ -90,7 +90,7 @@ const structure=readJson(structurePath);
 if(structure.schemaVersion!==2||structure.ruleSet!=='chunking-v1')fail('chunking-v1 structure schema required');
 if('rawLines' in structure)fail('legacy structure fallback forbidden');
 if(structure.sourceSha256!==sha(scriptPath))fail('structure/script SHA mismatch');
-if(structure.counts?.speeches!==1164||structure.counts?.sentences!==2334||structure.counts?.clauses!==2939||structure.counts?.chunks!==11810)fail('chunking-v1 count contract invalid');
+if(structure.counts?.speeches!==1164||structure.counts?.sentences!==2334||structure.counts?.clauses!==2938||structure.counts?.chunks!==11807)fail('chunking-v1 count contract invalid');
 if(!structure.lines||Object.keys(structure.lines).length!==1164)fail('chunking-v1 speech coverage invalid');
 if(Object.keys(structure.lines).some((id,i)=>id!==expectedIds[i]))fail('chunking-v1 speech order invalid');
 for(const line of Object.values(structure.lines))for(const sentence of line.sentences||[])for(const chunk of sentence.chunks||[]){const marker=String(chunk.marker||'');if(marker.startsWith('Vi')||marker.startsWith('Vt')||marker.includes('VBN')||/^HV\d/.test(marker))fail(`legacy chunk marker ${marker}`)}
@@ -113,6 +113,6 @@ if(!verifyOnly){
   files['mousetrap_line_interpretation.json']=sha(interpretationPath);
   files['mousetrap_line_structure.json']=sha(path.join(outDir,'mousetrap_line_structure.json'));
   files['src/mousetrap_stage_directions.json']=sha(path.join(outDir,'src/mousetrap_stage_directions.json'));
-  fs.writeFileSync(path.join(outDir,'production-bundle.json'),JSON.stringify({schemaVersion:2,buildId:version.buildId,runtime:'index-zero',verifiedAt:new Date().toISOString(),qa:{speeches:1164,translations:1164,interpretationCoverage:1164,interpretationSpeeches,interpretationNotes,vocabulary:vocabItems,vocabularyDisplayed,vocabularyNeutralOnly,grammar:grammarItems,dictionary:Object.keys(dictionary).length,structureSentences:2334,structureClauses:2939,structureChunks:11810,stageDirections:777,stageStandalone,stageAttached,stageActorCues,stageJapaneseParaphrases:777,stageCategories:Object.fromEntries(stageCategories)},files},null,2)+'\n');
+  fs.writeFileSync(path.join(outDir,'production-bundle.json'),JSON.stringify({schemaVersion:2,buildId:version.buildId,runtime:'index-zero',verifiedAt:new Date().toISOString(),qa:{speeches:1164,translations:1164,interpretationCoverage:1164,interpretationSpeeches,interpretationNotes,vocabulary:vocabItems,vocabularyDisplayed,vocabularyNeutralOnly,grammar:grammarItems,dictionary:Object.keys(dictionary).length,structureSentences:2334,structureClauses:2938,structureChunks:11807,stageDirections:778,stageStandalone,stageAttached,stageActorCues,stageJapaneseParaphrases:778,stageCategories:Object.fromEntries(stageCategories)},files},null,2)+'\n');
 }
-console.log(JSON.stringify({status:'PASS',runtime:'index-zero',buildId:version.buildId,mode:verifyOnly?'verify-only':'assembled',qa:{speeches:1164,translations:1164,interpretationCoverage:1164,interpretationSpeeches,interpretationNotes,vocabulary:vocabItems,vocabularyDisplayed,vocabularyNeutralOnly,grammar:grammarItems,dictionary:Object.keys(dictionary).length,structureSentences:2334,structureClauses:2939,structureChunks:11810,stageDirections:777,stageStandalone,stageAttached,stageActorCues,stageJapaneseParaphrases:777,stageCategories:Object.fromEntries(stageCategories)}},null,2));
+console.log(JSON.stringify({status:'PASS',runtime:'index-zero',buildId:version.buildId,mode:verifyOnly?'verify-only':'assembled',qa:{speeches:1164,translations:1164,interpretationCoverage:1164,interpretationSpeeches,interpretationNotes,vocabulary:vocabItems,vocabularyDisplayed,vocabularyNeutralOnly,grammar:grammarItems,dictionary:Object.keys(dictionary).length,structureSentences:2334,structureClauses:2938,structureChunks:11807,stageDirections:778,stageStandalone,stageAttached,stageActorCues,stageJapaneseParaphrases:778,stageCategories:Object.fromEntries(stageCategories)}},null,2));

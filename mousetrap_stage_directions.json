@@ -9,8 +9,8 @@
   },
   "counts": {
     "standalone": 5,
-    "attached": 772,
-    "total": 777,
+    "attached": 773,
+    "total": 778,
     "malformedBracketRecovered": 1
   },
   "policy": {
@@ -112,7 +112,8 @@
       "scene": 1,
       "sourceOrder": 1,
       "category": "scene-setting",
-      "actorCueForSpeech": false
+      "actorCueForSpeech": false,
+      "malformedSourceBracket": false
     },
     {
       "id": "stage-act1-scene1-opening",
@@ -174,7 +175,8 @@
       "scene": 1,
       "sourceOrder": 2,
       "category": "scene-setting",
-      "actorCueForSpeech": false
+      "actorCueForSpeech": false,
+      "malformedSourceBracket": false
     },
     {
       "id": "stage-act1-scene1-lights-up",
@@ -242,7 +244,8 @@
       "scene": 1,
       "sourceOrder": 3,
       "category": "scene-setting",
-      "actorCueForSpeech": false
+      "actorCueForSpeech": false,
+      "malformedSourceBracket": false
     },
     {
       "id": "sd-act1-scene1-0001",
@@ -2921,7 +2924,7 @@
         8
       ],
       "sourceSpeakerOrdinal": 60,
-      "malformedSourceBracket": true,
+      "malformedSourceBracket": false,
       "vocabulary": [
         {
           "surface": "moving towards the stairs Left",
@@ -7818,7 +7821,8 @@
       "scene": 2,
       "sourceOrder": 1,
       "category": "scene-setting",
-      "actorCueForSpeech": false
+      "actorCueForSpeech": false,
+      "malformedSourceBracket": false
     },
     {
       "id": "sd-act1-scene2-0001",
@@ -16545,6 +16549,48 @@
       "actorCueForSpeech": true
     },
     {
+      "id": "sd-act1-scene2-recovered-0308",
+      "sceneId": "act1-scene2",
+      "kind": "stage-direction",
+      "speechId": "act1-scene2-speech-0308",
+      "placement": "after",
+      "text": "He moves above the sofa table.",
+      "summaryJa": "彼がソファテーブルの奥側へ移動する。",
+      "sourcePages": [
+        40
+      ],
+      "sourceSpeakerOrdinal": 308,
+      "malformedSourceBracket": true,
+      "vocabulary": [
+        {
+          "surface": "move",
+          "lemma": "move",
+          "meaning": "移動する",
+          "note": "舞台上の位置取りを変える動作。"
+        },
+        {
+          "surface": "sofa",
+          "lemma": "sofa",
+          "meaning": "ソファ",
+          "note": "舞台家具。"
+        }
+      ],
+      "notes": [
+        "舞台脚本のト書きでは、現在形や現在分詞を使って舞台上の動作・状態を簡潔に記述する。",
+        "この指示は台詞の途中または直後に置かれており、発話と並行する動作を補足する。"
+      ],
+      "act": 1,
+      "scene": 2,
+      "sourceOrder": 211,
+      "category": "movement",
+      "anchor": {
+        "type": "after",
+        "speechId": "act1-scene2-speech-0308",
+        "order": 211
+      },
+      "actorCueForSpeech": true
+    },
+    {
       "id": "sd-act1-scene2-0210",
       "sceneId": "act1-scene2",
       "kind": "stage-direction",
@@ -16572,12 +16618,12 @@
       ],
       "act": 1,
       "scene": 2,
-      "sourceOrder": 211,
+      "sourceOrder": 212,
       "category": "delivery",
       "anchor": {
         "type": "delivery",
         "speechId": "act1-scene2-speech-0309",
-        "order": 211
+        "order": 212
       },
       "actorCueForSpeech": true
     },
@@ -16609,12 +16655,12 @@
       ],
       "act": 1,
       "scene": 2,
-      "sourceOrder": 212,
+      "sourceOrder": 213,
       "category": "delivery",
       "anchor": {
         "type": "delivery",
         "speechId": "act1-scene2-speech-0310",
-        "order": 212
+        "order": 213
       },
       "actorCueForSpeech": true
     },
@@ -16645,12 +16691,12 @@
       ],
       "act": 1,
       "scene": 2,
-      "sourceOrder": 213,
+      "sourceOrder": 214,
       "category": "delivery",
       "anchor": {
         "type": "delivery",
         "speechId": "act1-scene2-speech-0321",
-        "order": 213
+        "order": 214
       },
       "actorCueForSpeech": true
     },
@@ -16700,12 +16746,12 @@
       ],
       "act": 1,
       "scene": 2,
-      "sourceOrder": 214,
+      "sourceOrder": 215,
       "category": "movement",
       "anchor": {
         "type": "after",
         "speechId": "act1-scene2-speech-0324",
-        "order": 214
+        "order": 215
       },
       "actorCueForSpeech": true
     },
@@ -16749,12 +16795,12 @@
       ],
       "act": 1,
       "scene": 2,
-      "sourceOrder": 215,
+      "sourceOrder": 216,
       "category": "movement",
       "anchor": {
         "type": "before",
         "speechId": "act1-scene2-speech-0325",
-        "order": 215
+        "order": 216
       },
       "actorCueForSpeech": true
     },
@@ -16785,12 +16831,12 @@
       ],
       "act": 1,
       "scene": 2,
-      "sourceOrder": 216,
+      "sourceOrder": 217,
       "category": "delivery",
       "anchor": {
         "type": "delivery",
         "speechId": "act1-scene2-speech-0326",
-        "order": 216
+        "order": 217
       },
       "actorCueForSpeech": true
     },
@@ -16858,12 +16904,12 @@
       ],
       "act": 1,
       "scene": 2,
-      "sourceOrder": 217,
+      "sourceOrder": 218,
       "category": "exit",
       "anchor": {
         "type": "before",
         "speechId": "act1-scene2-speech-0328",
-        "order": 217
+        "order": 218
       },
       "actorCueForSpeech": false
     },
@@ -16894,12 +16940,12 @@
       ],
       "act": 1,
       "scene": 2,
-      "sourceOrder": 218,
+      "sourceOrder": 219,
       "category": "gesture",
       "anchor": {
         "type": "before",
         "speechId": "act1-scene2-speech-0329",
-        "order": 218
+        "order": 219
       },
       "actorCueForSpeech": true
     },
@@ -16937,12 +16983,12 @@
       ],
       "act": 1,
       "scene": 2,
-      "sourceOrder": 219,
+      "sourceOrder": 220,
       "category": "delivery",
       "anchor": {
         "type": "delivery",
         "speechId": "act1-scene2-speech-0330",
-        "order": 219
+        "order": 220
       },
       "actorCueForSpeech": true
     },
@@ -17028,12 +17074,12 @@
       ],
       "act": 1,
       "scene": 2,
-      "sourceOrder": 220,
+      "sourceOrder": 221,
       "category": "curtain",
       "anchor": {
         "type": "before",
         "speechId": "act1-scene2-speech-0333",
-        "order": 220
+        "order": 221
       },
       "actorCueForSpeech": true
     },
@@ -17064,12 +17110,12 @@
       ],
       "act": 1,
       "scene": 2,
-      "sourceOrder": 221,
+      "sourceOrder": 222,
       "category": "delivery",
       "anchor": {
         "type": "delivery",
         "speechId": "act1-scene2-speech-0333",
-        "order": 221
+        "order": 222
       },
       "actorCueForSpeech": true
     },
@@ -17118,12 +17164,12 @@
       ],
       "act": 1,
       "scene": 2,
-      "sourceOrder": 222,
+      "sourceOrder": 223,
       "category": "delivery",
       "anchor": {
         "type": "delivery",
         "speechId": "act1-scene2-speech-0333",
-        "order": 222
+        "order": 223
       },
       "actorCueForSpeech": true
     },
@@ -17154,12 +17200,12 @@
       ],
       "act": 1,
       "scene": 2,
-      "sourceOrder": 223,
+      "sourceOrder": 224,
       "category": "radio",
       "anchor": {
         "type": "before",
         "speechId": "act1-scene2-speech-0334",
-        "order": 223
+        "order": 224
       },
       "actorCueForSpeech": false
     },
@@ -17191,12 +17237,12 @@
       ],
       "act": 1,
       "scene": 2,
-      "sourceOrder": 224,
+      "sourceOrder": 225,
       "category": "music",
       "anchor": {
         "type": "before",
         "speechId": "act1-scene2-speech-0335",
-        "order": 224
+        "order": 225
       },
       "actorCueForSpeech": true
     },
@@ -17227,12 +17273,12 @@
       ],
       "act": 1,
       "scene": 2,
-      "sourceOrder": 225,
+      "sourceOrder": 226,
       "category": "delivery",
       "anchor": {
         "type": "delivery",
         "speechId": "act1-scene2-speech-0335",
-        "order": 225
+        "order": 226
       },
       "actorCueForSpeech": true
     },
@@ -17263,12 +17309,12 @@
       ],
       "act": 1,
       "scene": 2,
-      "sourceOrder": 226,
+      "sourceOrder": 227,
       "category": "radio",
       "anchor": {
         "type": "after",
         "speechId": "act1-scene2-speech-0335",
-        "order": 226
+        "order": 227
       },
       "actorCueForSpeech": true
     },
@@ -17299,12 +17345,12 @@
       ],
       "act": 1,
       "scene": 2,
-      "sourceOrder": 227,
+      "sourceOrder": 228,
       "category": "light",
       "anchor": {
         "type": "before",
         "speechId": "act1-scene2-speech-0336",
-        "order": 227
+        "order": 228
       },
       "actorCueForSpeech": false
     },
@@ -17360,12 +17406,12 @@
       ],
       "act": 1,
       "scene": 2,
-      "sourceOrder": 228,
+      "sourceOrder": 229,
       "category": "radio",
       "anchor": {
         "type": "before",
         "speechId": "act1-scene2-speech-0336",
-        "order": 228
+        "order": 229
       },
       "actorCueForSpeech": true
     },
@@ -17415,12 +17461,12 @@
       ],
       "act": 1,
       "scene": 2,
-      "sourceOrder": 229,
+      "sourceOrder": 230,
       "category": "curtain",
       "anchor": {
         "type": "after",
         "speechId": "act1-scene2-speech-0336",
-        "order": 229
+        "order": 230
       },
       "actorCueForSpeech": true
     },
@@ -17496,7 +17542,8 @@
       "scene": null,
       "sourceOrder": 1,
       "category": "scene-setting",
-      "actorCueForSpeech": false
+      "actorCueForSpeech": false,
+      "malformedSourceBracket": false
     },
     {
       "id": "sd-act2-0001",

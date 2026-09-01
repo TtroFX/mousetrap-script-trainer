@@ -4,9 +4,9 @@ CEFR source: Oxford 3000 and 5000 (4941 parsed headwords)
 Dictionary definitions are NOT created in this phase. Production vocabulary/dictionary files are NOT modified.
 
 PIPELINE — OXFORD A2+
-1. Extracted A2+ candidate occurrences: 1215
-2. After headword deduplication: 372
-3. Already-implemented dictionary headwords removed: 191
+1. Extracted A2+ candidate occurrences: 1214
+2. After headword deduplication: 371
+3. Already-implemented dictionary headwords removed: 190
 4. Final Oxford A2+ addition candidates: 181
 
 FINAL OXFORD A2+ ADDITION CANDIDATES
@@ -193,7 +193,6 @@ wrong	B1/B2	1	act1-scene2-speech-0290	wrong	A1/B1/B2
 young	B1	10	act1-scene2-speech-0103	young, youngest	A1/B1
 yours	A2	2	act1-scene2-speech-0128	yours	A2
 
-abuse	C1	1	act1-scene2-speech-0258	abuse	C1
 OXFORD-UNCLASSIFIED / MANUAL REVIEW
 These are non-basic-looking script tokens not found in the Oxford 3000/5000 parser after removing implemented dictionary headwords.
 They are NOT automatically classified as A2+; retain them for later manual review so British/dated/rare words are not silently lost.
@@ -239,7 +238,6 @@ rhyme	1	act1-scene2-speech-0206	rhyme
 seem	3	act1-scene2-speech-0103	seem
 seemed	2	act1-scene2-speech-0254	seemed
 seems	2	act1-scene2-speech-0113	seems
-sofa	1	act1-scene2-speech-0308	sofa
 spoke	1	act1-scene2-speech-0324	spoke
 stanning	7	act1-scene2-speech-0183	stanning
 stannings	1	act1-scene2-speech-0189	stannings

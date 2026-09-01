@@ -10,8 +10,8 @@ const config=text('src/config.js'),dataStore=text('src/data-store.js'),stateStor
 const index=text('index.html'),sw=text('sw.js'),module=text('src/stage-directions.js'),css=text('src/stage-directions.css');
 const version=JSON.parse(text('pwa-version.json'));
 
-if(stage.schemaVersion!==2||stage.entries?.length!==777)fail('stage schema/count invalid');
-if(stage.counts?.standalone!==5||stage.counts?.attached!==772||stage.counts?.total!==777)fail('stage declared counts invalid');
+if(stage.schemaVersion!==2||stage.entries?.length!==778)fail('stage schema/count invalid');
+if(stage.counts?.standalone!==5||stage.counts?.attached!==773||stage.counts?.total!==778)fail('stage declared counts invalid');
 if(stage.policy?.canonicalSpeechCountUnchanged!==1164||stage.policy?.orderedScriptStream!==true||stage.policy?.explicitSourceOrder!==true||stage.policy?.stageDirectionsAreNotSpeeches!==true)fail('stage policy invalid');
 if(stage.policy?.attachedAboveTranslation!==false||stage.policy?.summaryJaKind!=='minimal-paraphrase'||stage.policy?.summaryJaMaxChars!==64||stage.policy?.readerShowsJapaneseFirst!==true||stage.policy?.lineDetailStageLayout!=='actor-cues-before-translation; remainder-collapsed-after-structure')fail('Japanese-first stage policy invalid');
 if(JSON.stringify(stage)!==JSON.stringify(runtime))fail('runtime stage mirror differs from canonical');
@@ -28,8 +28,8 @@ for(const entry of stage.entries){
   if(entry.kind==='stage-direction'&&(entry.anchor.type!==entry.placement||entry.anchor.speechId!==entry.speechId))fail(`invalid normalized anchor ${entry.id}`);
   ids.add(entry.id);sceneCounts.set(entry.sceneId,entry.sourceOrder);
 }
-if([...sceneCounts.values()].join(',')!=='185,229,363')fail('stage scene counts/order invalid');
-if(actorCues!==611)fail(`actor cue count ${actorCues}/611`);
+if([...sceneCounts.values()].join(',')!=='185,230,363')fail('stage scene counts/order invalid');
+if(actorCues!==612)fail(`actor cue count ${actorCues}/612`);
 if(!config.includes("stageDirections: './src/mousetrap_stage_directions.json'")||!config.includes('STAGE_TIMEOUT_MS'))fail('stage DataStore config missing');
 for(const token of ['loadStageDirections','validateStageDirections','getReaderSequence','getStageDirectionsForSpeech','readerSequenceByScene'])if(!dataStore.includes(token))fail(`DataStore stage API missing ${token}`);
 if(!stateStore.includes('stageDirectionsVisible()')||!stateStore.includes('setStageDirectionsVisible(visible)'))fail('practice visibility persistence missing');
@@ -37,7 +37,7 @@ if(!index.includes('./src/stage-directions.js')||!index.includes('./src/stage-di
 for(const asset of ['./src/stage-directions.js','./src/stage-directions.css','src/mousetrap_stage_directions.json'])if(!sw.includes(`'${asset}'`))fail(`precache missing ${asset}`);
 const configBuild=config.match(/BUILD_ID = '([^']+)'/)?.[1];
 const swBuild=sw.match(/const BUILD_ID='([^']+)'/)?.[1];
-if(!configBuild||configBuild!==swBuild||configBuild!==version.buildId||version.dataVersion!=='canonical-2026-09-01-japanese-prose-v1')fail(`release PWA metadata inconsistent (${configBuild}/${swBuild}/${version.buildId}/${version.dataVersion})`);
+if(!configBuild||configBuild!==swBuild||configBuild!==version.buildId||version.dataVersion!=='canonical-2026-09-02-stage-direction-speech-fix-v1')fail(`release PWA metadata inconsistent (${configBuild}/${swBuild}/${version.buildId}/${version.dataVersion})`);
 for(const token of ['dataset.stageReader','dataset.stageActorCues','dataset.stageContextDetails','data-stage-reveal','data-stage-page','data-stage-visibility','data-practice-stage','data-stage-search-results','getReaderSequence'])if(!module.includes(token))fail(`stage runtime contract missing ${token}`);
 const readerSource=module.slice(module.indexOf('function readerRow'),module.indexOf('function enhanceScriptList'));
 if(/Stage direction|Open context|stage-context-link/.test(readerSource))fail('Script reader stage notes contain forbidden labels/actions');
@@ -45,4 +45,4 @@ if(/\bfetch\s*\(/.test(module))fail('stage runtime must consume DataStore, not f
 for(const token of ['.stage-original','.stage-direction-card','.stage-reader-row','.stage-note-ja','.stage-note-en[hidden]','.stage-actor-cues','.stage-context-details','.stage-situation-page','.practice-stage-toggle','user-select:text','overflow-wrap:anywhere'])if(!css.includes(token))fail(`stage style contract missing ${token}`);
 if(/apply-stage-directions-integration|stage-directions-integrate/.test(index+module+sw))fail('source-mutation integration leaked into production');
 
-console.log(JSON.stringify({status:'PASS',schemaVersion:2,stageEntries:777,standalone:5,attached:772,actorCues,japaneseParaphrases:777,readerStream:true,lineDetail:true,practice:true,search:true,offline:true,buildId:version.buildId},null,2));
+console.log(JSON.stringify({status:'PASS',schemaVersion:2,stageEntries:778,standalone:5,attached:773,actorCues,japaneseParaphrases:778,readerStream:true,lineDetail:true,practice:true,search:true,offline:true,buildId:version.buildId},null,2));
