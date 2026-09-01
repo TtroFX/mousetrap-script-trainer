@@ -1,5 +1,5 @@
 import {
-  COMMIT_EASING,SETTLE_EASING,motionProfile,apiReady,ensureRequiredData,visualDataReady,
+  COMMIT_EASING,motionProfile,apiReady,ensureRequiredData,visualDataReady,
   readRoute,adjacentRoute,buildVisualPreview,currentPage,prepareSurface,clearSurfaceMotion,
   syncFocusRole,resetFocusScroll
 } from './line-page-runtime.js';
@@ -19,6 +19,10 @@ const COMMIT_MAX_PX=56;
 const COMMIT_RATIO=.075;
 const FLICK_MIN_PX=18;
 const FLICK_VELOCITY=.18;
+const MOTION_MODEL='velocity-continuous-in-out-v1';
+const MOTION_X1=.3;
+const MOTION_X2=.7;
+const clamp=(value,min,max)=>Math.min(max,Math.max(min,value));
 const resolveAxis=(ax,ay)=>{
   if(Math.max(ax,ay)<AXIS_LOCK_PX)return null;
   if(ax>ay*AXIS_DOMINANCE)return'x';
@@ -26,6 +30,19 @@ const resolveAxis=(ax,ay)=>{
   return null;
 };
 const commitThreshold=width=>Math.min(COMMIT_MAX_PX,Math.max(COMMIT_MIN_PX,width*COMMIT_RATIO));
+const continuityEasing=(distance,velocity,duration)=>{
+  const d=Number(distance)||0,t=Math.max(1,Number(duration)||1);
+  let slope=Math.abs(d)<.5?0:(Number(velocity)||0)*t/d;
+  slope=clamp(slope,-1.6,2.45);
+  const y1=Number((MOTION_X1*slope).toFixed(3));
+  return`cubic-bezier(${MOTION_X1},${y1},${MOTION_X2},1)`;
+};
+const settleDuration=(distance,velocity,base)=>{
+  const d=Math.abs(Number(distance)||0),speed=Math.abs(Number(velocity)||0);
+  let duration=base*(.72+.28*Math.sqrt(clamp(d/96,0,1)));
+  if(speed>.01&&d>1)duration=Math.min(duration,Math.max(56,1.65*d/speed));
+  return Math.round(clamp(duration,56,base+24));
+};
 
 let swipe=null,lastTap=null,suppressClickUntil=0,committing=false,settling=null;
 const interactiveSwipeBlock=target=>!!target.closest?.('input,select,textarea,[contenteditable="true"],[data-no-page-swipe]');
@@ -63,6 +80,23 @@ function cancelSettling(){
   clearSurfaceMotion(task.state.surface);removePreviews(task.state);
   return true;
 }
+function sampleVelocity(state,x,time){
+  const now=Number(time)||performance.now(),lastTime=Number(state.lastTime)||state.startTime||now;
+  const dt=now-lastTime,delta=x-state.lastX;
+  if(Math.abs(delta)>=.5&&dt>=4&&dt<=180){
+    const sample=clamp(delta/dt,-4,4);
+    state.velocityX=state.velocitySamples?state.velocityX*.58+sample*.42:sample;
+    state.velocitySamples+=1;
+  }
+  state.lastX=x;state.lastTime=now;
+}
+function releaseVelocity(state,x,time){
+  const now=Number(time)||performance.now();
+  if(Math.abs(x-state.lastX)>=.5)sampleVelocity(state,x,now);
+  const idle=Math.max(0,now-(Number(state.lastTime)||now));
+  const retention=idle<=32?1:idle>=140?0:(140-idle)/108;
+  return(Number(state.velocityX)||0)*retention;
+}
 function getPreview(state,direction,dx){
   const target=adjacentRoute(state.route,direction);
   if(!target)return null;
@@ -95,12 +129,13 @@ async function awaitPreview(state,direction,dx){
 async function settleBack(state){
   state.cancelled=true;releaseCapture(state);cancelSettling();
   const profile=motionProfile(),surface=state.surface,preview=state.activePreview,direction=Number(preview?.dataset.direction)||state.direction||1;
+  const fromX=Number(state.displayDx)||0,velocity=Number(state.releaseVelocityX)||0,distance=-fromX;
+  const duration=settleDuration(distance,velocity,profile.settle),easing=continuityEasing(distance,velocity,duration);
   surface.classList.remove('is-focus-swiping');surface.classList.add('is-focus-settling');
-  const from=getComputedStyle(surface).transform==='none'?'translate3d(0,0,0)':getComputedStyle(surface).transform;
-  const jobs=[animation(surface,[{transform:from},{transform:'translate3d(0,0,0)'}],{duration:profile.settle,easing:SETTLE_EASING})];
+  const jobs=[animation(surface,[{transform:`translate3d(${fromX}px,0,0)`},{transform:'translate3d(0,0,0)'}],{duration,easing})];
   if(preview){
-    const pfrom=getComputedStyle(preview).transform==='none'?previewTransform(direction,state.currentDx):getComputedStyle(preview).transform;
-    jobs.push(animation(preview,[{transform:pfrom},{transform:direction>0?'translate3d(100%,0,0)':'translate3d(-100%,0,0)'}],{duration:profile.settle,easing:SETTLE_EASING}));
+    const pdistance=-(Number(state.currentDx)||0),peasing=continuityEasing(pdistance,velocity,duration);
+    jobs.push(animation(preview,[{transform:previewTransform(direction,state.currentDx)},{transform:direction>0?'translate3d(100%,0,0)':'translate3d(-100%,0,0)'}],{duration,easing:peasing}));
   }
   const task={state,jobs};settling=task;
   await Promise.allSettled(jobs.map(job=>job.finished));
@@ -112,7 +147,7 @@ function newState(page,route){
   if(!prepared)return null;
   bindSurfaceScroll(prepared.surface,route);
   prepared.surface.style.willChange='transform, opacity';
-  return{route,page:prepared.page,layer:prepared.layer,surface:prepared.surface,nav:prepared.nav,currentDx:0,direction:0,activePreview:null,previews:new Map(),previewPromises:new Map(),cancelled:false,captured:false};
+  return{route,page:prepared.page,layer:prepared.layer,surface:prepared.surface,nav:prepared.nav,currentDx:0,displayDx:0,direction:0,activePreview:null,previews:new Map(),previewPromises:new Map(),cancelled:false,captured:false,velocityX:0,velocitySamples:0,releaseVelocityX:0};
 }
 function begin(event){
   const page=event.target.closest?.('.line-page');
@@ -121,20 +156,22 @@ function begin(event){
   cancelSettling();
   const route=readRoute();if(!route)return;
   const state=newState(page,route);if(!state)return;
-  Object.assign(state,{pointerId:event.pointerId,originTarget:event.target,startX:event.clientX,startY:event.clientY,lastX:event.clientX,lastY:event.clientY,startTime:event.timeStamp||performance.now(),axis:null,moved:false});
+  const now=event.timeStamp||performance.now();
+  Object.assign(state,{pointerId:event.pointerId,originTarget:event.target,startX:event.clientX,startY:event.clientY,lastX:event.clientX,lastY:event.clientY,startTime:now,lastTime:now,axis:null,moved:false});
   swipe=state;ensureRequiredData().catch(()=>{});
 }
 function move(event){
   const state=swipe;if(!state||event.pointerId!==state.pointerId)return;
+  const now=event.timeStamp||performance.now();sampleVelocity(state,event.clientX,now);
   const dx=event.clientX-state.startX,dy=event.clientY-state.startY,ax=Math.abs(dx),ay=Math.abs(dy);
   if(!state.axis)state.axis=resolveAxis(ax,ay);
-  state.lastX=event.clientX;state.lastY=event.clientY;state.lastTime=event.timeStamp||performance.now();state.currentDx=dx;
+  state.lastY=event.clientY;state.currentDx=dx;
   if(state.axis!=='x')return;
   event.stopImmediatePropagation();event.preventDefault();
   if(!state.captured){try{state.page.setPointerCapture?.(event.pointerId);state.captured=!!state.page.hasPointerCapture?.(event.pointerId)}catch{state.captured=false}}
   state.moved=state.moved||ax>=12;if(state.moved)lastTap=null;
   const direction=dx<0?1:-1,target=adjacentRoute(state.route,direction),resisted=target?dx:dx*.28;
-  state.direction=direction;state.surface.classList.add('is-focus-swiping');state.surface.style.transform=`translate3d(${resisted}px,0,0)`;state.surface.style.opacity='1';
+  state.direction=direction;state.displayDx=resisted;state.surface.classList.add('is-focus-swiping');state.surface.style.transform=`translate3d(${resisted}px,0,0)`;state.surface.style.opacity='1';
   if(target)getPreview(state,direction,dx);else{state.activePreview?.remove();state.activePreview=null}
 }
 function tap(event,state){
@@ -155,13 +192,15 @@ async function commit(state,direction,origin){
 }
 function finishGesture(state,{x=state.lastX,y=state.lastY,time=state.lastTime||performance.now(),allowTap=false,tapEvent=null}={}){
   const dx=x-state.startX,dy=y-state.startY,ax=Math.abs(dx),ay=Math.abs(dy),duration=Math.max(1,time-state.startTime);
-  const axis=state.axis??resolveAxis(ax,ay);
+  const axis=state.axis??resolveAxis(ax,ay),direction=dx<0?1:-1;
+  const rawRelease=releaseVelocity(state,x,time),hasTarget=!!adjacentRoute(state.route,direction);
+  state.releaseVelocityX=rawRelease*(hasTarget?1:.28);
   if(axis==='y'){lastTap=null;state.cancelled=true;clearSurfaceMotion(state.surface);removePreviews(state);return false}
   if(allowTap&&!axis&&ax<=12&&ay<=12&&duration<=460){state.cancelled=true;clearSurfaceMotion(state.surface);removePreviews(state);tap(tapEvent||{clientX:x,clientY:y},state);return false}
   if(axis==='x'&&(state.moved||ax>=12))suppressClickUntil=performance.now()+360;
   const width=Math.max(320,state.surface.clientWidth||innerWidth||320),threshold=commitThreshold(width),velocity=ax/duration;
-  const shouldCommit=axis==='x'&&(ax>=threshold||(ax>=FLICK_MIN_PX&&velocity>=FLICK_VELOCITY)),direction=dx<0?1:-1;
-  if(shouldCommit&&adjacentRoute(state.route,direction)){commit(state,direction,'swipe');return true}
+  const shouldCommit=axis==='x'&&(ax>=threshold||(ax>=FLICK_MIN_PX&&velocity>=FLICK_VELOCITY));
+  if(shouldCommit&&hasTarget){commit(state,direction,'swipe');return true}
   settleBack(state);return false;
 }
 function end(event){
@@ -211,4 +250,4 @@ const scheduleRoleSync=()=>requestAnimationFrame(syncFocusRole);
 window.addEventListener('hashchange',()=>{lastTap=null;cancelSettling();scheduleRoleSync();resetFocusScroll();scheduleLineScroll();if(readRoute())ensureRequiredData().catch(()=>{})});
 apiReady.then(api=>{scheduleRoleSync();scheduleLineScroll();api.store?.addEventListener?.('ready',()=>{scheduleRoleSync();scheduleLineScroll()})}).catch(()=>{});
 
-window.MTS_LINE_NAVIGATION=Object.freeze({version:2,easing:COMMIT_EASING,navigate:direction=>buttonNavigate(Math.sign(direction)||1,'api'),transitionState,gestureProfile:Object.freeze({axisLockPx:AXIS_LOCK_PX,axisDominance:AXIS_DOMINANCE,commitMinPx:COMMIT_MIN_PX,commitMaxPx:COMMIT_MAX_PX,commitRatio:COMMIT_RATIO,flickMinPx:FLICK_MIN_PX,flickVelocity:FLICK_VELOCITY})});
+window.MTS_LINE_NAVIGATION=Object.freeze({version:2,easing:COMMIT_EASING,motionModel:MOTION_MODEL,navigate:direction=>buttonNavigate(Math.sign(direction)||1,'api'),transitionState,gestureProfile:Object.freeze({axisLockPx:AXIS_LOCK_PX,axisDominance:AXIS_DOMINANCE,commitMinPx:COMMIT_MIN_PX,commitMaxPx:COMMIT_MAX_PX,commitRatio:COMMIT_RATIO,flickMinPx:FLICK_MIN_PX,flickVelocity:FLICK_VELOCITY})});

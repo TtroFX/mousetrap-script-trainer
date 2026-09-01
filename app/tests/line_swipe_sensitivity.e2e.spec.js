@@ -108,3 +108,40 @@ test('a large horizontal swipe still commits when the pointer sequence is cancel
 
   await expect(page).toHaveURL(new RegExp(target.next),{timeout:12000});
 });
+
+test('release motion preserves finger velocity and immediately continues with in-out acceleration',async({page})=>{
+  await ready(page);
+  const target=await routeFixture(page);
+  await page.goto(`${BASE}#/line?scene=${target.scene}&line=${target.line}`);
+  await page.waitForSelector('.line-page-surface');
+  await page.evaluate(()=>{
+    window.__continuityEvents=[];
+    window.addEventListener('mts:focus-transition',event=>window.__continuityEvents.push({...event.detail}));
+    const root=document.querySelector('.line-page');
+    root.dispatchEvent(new PointerEvent('pointerdown',{bubbles:true,cancelable:true,pointerType:'touch',pointerId:806,clientX:340,clientY:260}));
+  });
+  await page.waitForTimeout(30);
+  await page.evaluate(()=>document.querySelector('.line-page').dispatchEvent(new PointerEvent('pointermove',{bubbles:true,cancelable:true,pointerType:'touch',pointerId:806,clientX:330,clientY:260})));
+  await page.waitForTimeout(30);
+  await page.evaluate(()=>document.querySelector('.line-page').dispatchEvent(new PointerEvent('pointermove',{bubbles:true,cancelable:true,pointerType:'touch',pointerId:806,clientX:318,clientY:261})));
+  await page.waitForTimeout(30);
+  await page.evaluate(()=>document.querySelector('.line-page').dispatchEvent(new PointerEvent('pointermove',{bubbles:true,cancelable:true,pointerType:'touch',pointerId:806,clientX:300,clientY:261})));
+  const before=await page.locator('.line-page-surface').evaluate(node=>node.getBoundingClientRect().left);
+  await page.evaluate(()=>document.querySelector('.line-page').dispatchEvent(new PointerEvent('pointerup',{bubbles:true,cancelable:true,pointerType:'touch',pointerId:806,clientX:300,clientY:261})));
+  await page.waitForSelector('.line-nav-v2-overlay .line-page-surface',{timeout:4000});
+  await page.waitForTimeout(24);
+  const movingLeft=await page.locator('.line-nav-v2-overlay .line-page-surface').evaluate(node=>node.getBoundingClientRect().left);
+  expect(movingLeft).toBeLessThan(before-2);
+  await page.waitForFunction(()=>window.__continuityEvents?.some(event=>event.phase==='animationstart'),null,{timeout:4000});
+  const motion=await page.evaluate(()=>{
+    const event=window.__continuityEvents.find(item=>item.phase==='animationstart');
+    const match=event?.easing?.match(/cubic-bezier\(0\.3,([^,]+),0\.7,1\)/);
+    return{event,y1:match?Number(match[1]):null};
+  });
+  expect(motion.event.motionModel).toBe('velocity-continuous-in-out-v1');
+  expect(motion.event.releaseVelocityX).toBeLessThan(-.05);
+  expect(motion.y1).not.toBeNull();
+  expect(motion.y1).toBeGreaterThan(0);
+  expect(motion.y1).toBeLessThan(.7);
+  await expect(page).toHaveURL(new RegExp(target.next),{timeout:12000});
+});

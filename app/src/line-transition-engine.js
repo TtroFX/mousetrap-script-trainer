@@ -1,11 +1,30 @@
 import {
-  PENDING_CLASS,COMMIT_EASING,motionProfile,nextFrame,twoFrames,routeHash,adjacentRoute,
+  PENDING_CLASS,motionProfile,nextFrame,twoFrames,routeHash,adjacentRoute,
   prepareSurface,clearSurfaceMotion,actualPageReady,resetFocusScroll
 } from './line-page-runtime.js';
 
+const MOTION_MODEL='velocity-continuous-in-out-v1';
+const MOTION_X1=.3;
+const MOTION_X2=.7;
+const clamp=(value,min,max)=>Math.min(max,Math.max(min,value));
+const continuityEasing=(distance,velocity,duration)=>{
+  const d=Number(distance)||0,t=Math.max(1,Number(duration)||1);
+  let slope=Math.abs(d)<.5?0:(Number(velocity)||0)*t/d;
+  slope=clamp(slope,-1.6,2.45);
+  const y1=Number((MOTION_X1*slope).toFixed(3));
+  return`cubic-bezier(${MOTION_X1},${y1},${MOTION_X2},1)`;
+};
+const completionDuration=(distance,width,velocity,base)=>{
+  const d=Math.max(1,Math.abs(Number(distance)||0)),w=Math.max(1,Math.abs(Number(width)||1)),speed=Math.abs(Number(velocity)||0);
+  const fraction=clamp(d/w,.04,1.15);
+  let duration=base*(.62+.38*Math.sqrt(fraction));
+  if(speed>.01)duration=Math.min(duration,Math.max(72,2.35*d/speed));
+  return Math.round(clamp(duration,72,base+24));
+};
+
 let active=null,id=0,restartHandler=()=>{};
 export const transitionActive=()=>!!active;
-export const transitionState=()=>active?{id:active.id,phase:active.phase,direction:active.direction,source:{...active.source},target:{...active.target}}:null;
+export const transitionState=()=>active?{id:active.id,phase:active.phase,direction:active.direction,source:{...active.source},target:{...active.target},motion:active.motion?{...active.motion}:null}:null;
 export const setRestartHandler=handler=>{restartHandler=typeof handler==='function'?handler:()=>{}};
 
 const emit=(phase,t,extra={})=>{
@@ -32,6 +51,18 @@ function makeOverlay(state,preview){
   if(state.nav&&navRect){fixedize(state.nav,navRect,3);state.nav.style.willChange='';state.nav.style.pointerEvents='auto';element.append(state.nav)}
   document.body.append(element);
   return{element,outgoing:state.surface,incoming:preview,nav:state.nav,layerRect,outgoingRect,incomingRect};
+}
+function startMotion(t,state,direction){
+  const profile=motionProfile(),out=t.overlay.outgoingRect,inc=t.overlay.incomingRect,base=t.overlay.layerRect;
+  const exitX=direction>0?-(out.right+16):(innerWidth-out.left+16),enterX=base.left-inc.left,enterY=base.top-inc.top;
+  const releaseVelocityX=Number(state.releaseVelocityX)||0,duration=completionDuration(enterX,base.width||innerWidth,releaseVelocityX,profile.commit);
+  const easing=continuityEasing(enterX,releaseVelocityX,duration),timing={duration,easing};
+  t.motion={model:MOTION_MODEL,duration,easing,releaseVelocityX,enterX,enterY,exitX,startedAt:performance.now()};
+  t.animations=[
+    animate(t.overlay.outgoing,[{transform:'translate3d(0,0,0)',opacity:1},{transform:`translate3d(${exitX}px,0,0)`,opacity:1}],timing),
+    animate(t.overlay.incoming,[{transform:'translate3d(0,0,0)',opacity:1},{transform:`translate3d(${enterX}px,${enterY}px,0)`,opacity:1}],timing)
+  ];
+  t.motionFinished=Promise.allSettled(t.animations.map(animation=>animation.finished));
 }
 function holdActualNav(page){
   const nav=page?.querySelector(':scope > .floating-nav');
@@ -62,9 +93,10 @@ async function waitReady(t){
   return null;
 }
 const cleanup=t=>{try{t.overlay?.element?.remove()}catch{}t.overlay=null};
+function cancelMotion(t){for(const animation of t.animations||[]){try{animation.cancel()}catch{}}}
 function finishInterrupted(t){
   if(active!==t)return;
-  for(const animation of t.animations||[]){try{animation.cancel()}catch{}}
+  cancelMotion(t);
   releaseActualNav(t.heldNav);t.heldNav=null;
   document.documentElement.classList.remove(PENDING_CLASS);
   cleanup(t);
@@ -84,11 +116,10 @@ export async function runTransition(state,direction,origin,preview){
   if(active)return false;
   const target=adjacentRoute(state.route,direction);
   if(!target||!preview)return false;
-  const t={id:++id,direction,source:state.route,target,origin,phase:'preparing',overlay:null,heldNav:null,ready:null,animations:[],interrupted:false,nextDirection:0,interruptedEmitted:false};
+  const t={id:++id,direction,source:state.route,target,origin,phase:'preparing',overlay:null,heldNav:null,ready:null,animations:[],motion:null,motionFinished:null,interrupted:false,nextDirection:0,interruptedEmitted:false};
   active=t;emit('preload',t);
-  await nextFrame();
-  if(active!==t)return false;
   t.overlay=makeOverlay(state,preview);
+  startMotion(t,state,direction);
   t.phase='routing';
   document.documentElement.classList.add(PENDING_CLASS);
   location.hash=routeHash(target);
@@ -96,26 +127,20 @@ export async function runTransition(state,direction,origin,preview){
   resetFocusScroll();
   const ready=await waitReady(t);
   if(active!==t)return false;
-  if(!ready){document.documentElement.classList.remove(PENDING_CLASS);cleanup(t);active=null;emit('failed',t);return false}
+  if(!ready){cancelMotion(t);document.documentElement.classList.remove(PENDING_CLASS);cleanup(t);active=null;emit('failed',t);return false}
   const prepared=prepareSurface(ready.page);
-  if(!prepared){document.documentElement.classList.remove(PENDING_CLASS);cleanup(t);active=null;emit('failed',t);return false}
+  if(!prepared){cancelMotion(t);document.documentElement.classList.remove(PENDING_CLASS);cleanup(t);active=null;emit('failed',t);return false}
   ready.surface=prepared.surface;ready.page.dataset.focusDestinationLine=target.line;ready.surface.dataset.focusLoadedTransition=String(t.id);
   t.ready=ready;t.heldNav=holdActualNav(ready.page);t.phase='loaded';emit('loaded',t,{surfaceLine:target.line});
   if(t.interrupted){finishInterrupted(t);return true}
-  const profile=motionProfile(),actualRect=ready.surface.getBoundingClientRect(),out=t.overlay.outgoingRect,inc=t.overlay.incomingRect;
-  const exitX=direction>0?-(out.right+16):(innerWidth-out.left+16),enterX=actualRect.left-inc.left,enterY=actualRect.top-inc.top;
-  const timing={duration:profile.commit,easing:COMMIT_EASING};
-  t.phase='animating';emit('animationstart',t,{surfaceLine:target.line,duration:profile.commit,easing:COMMIT_EASING});
-  t.animations=[
-    animate(t.overlay.outgoing,[{transform:'translate3d(0,0,0)',opacity:1},{transform:`translate3d(${exitX}px,0,0)`,opacity:1}],timing),
-    animate(t.overlay.incoming,[{transform:'translate3d(0,0,0)',opacity:1},{transform:`translate3d(${enterX}px,${enterY}px,0)`,opacity:1}],timing)
-  ];
-  await Promise.allSettled(t.animations.map(animation=>animation.finished));
+  const elapsed=Math.max(0,performance.now()-(t.motion?.startedAt||performance.now()));
+  t.phase='animating';emit('animationstart',t,{surfaceLine:target.line,duration:t.motion.duration,easing:t.motion.easing,motionModel:MOTION_MODEL,releaseVelocityX:t.motion.releaseVelocityX,elapsed});
+  await t.motionFinished;
   if(active!==t)return true;
   if(t.interrupted){finishInterrupted(t);return true}
   releaseActualNav(t.heldNav);t.heldNav=null;
   document.documentElement.classList.remove(PENDING_CLASS);
   clearSurfaceMotion(ready.surface);cleanup(t);active=null;t.phase='complete';
-  emit('complete',t,{surfaceLine:target.line});
+  emit('complete',t,{surfaceLine:target.line,motionModel:MOTION_MODEL});
   return true;
 }

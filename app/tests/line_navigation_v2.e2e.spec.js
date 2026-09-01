@@ -110,7 +110,8 @@ test('v2 swipe follows the finger and never reveals a partially decorated destin
   expect(during.outDuration).toBe(during.start.duration);
   expect(during.inDuration).toBe(during.start.duration);
   expect(during.outEasing).toBe(during.inEasing);
-  expect(during.outEasing).toBe('cubic-bezier(0.2, 0.78, 0.2, 1)');
+  expect(during.outEasing).toBe('cubic-bezier(0.3, 0, 0.7, 1)');
+  expect(during.start.motionModel).toBe('velocity-continuous-in-out-v1');
 
   await page.waitForFunction(line=>location.hash.includes(line)&&window.__v2Transitions?.some(event=>event.phase==='complete'&&event.line===line),target.next,{timeout:12000});
   await expect(page).toHaveURL(new RegExp(target.next));
