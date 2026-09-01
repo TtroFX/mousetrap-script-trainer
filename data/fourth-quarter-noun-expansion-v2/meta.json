@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "patchId": "fourth-quarter-noun-expansion-v2-2026-09-01",
+  "scope": {
+    "globalSpeechRange": [874, 1164],
+    "speechCount": 291,
+    "first": "act2-speech-0348",
+    "last": "act2-speech-0638"
+  },
+  "policy": {
+    "focus": "Broad final-quarter vocabulary expansion for Japanese English learners, emphasizing concrete everyday nouns, British English, household/food vocabulary, police/institutional terms, travel/finance vocabulary, and culturally opaque expressions.",
+    "meaning": "Neutral dictionary Japanese; single words use POS headings.",
+    "inThisPlay": "Only when materially context-dependent, polysemous, idiomatic, ironic, culturally specific, or historically specific.",
+    "existing": "Preserve all existing line vocabulary and dictionary entries; never duplicate an existing surface on the same speech.",
+    "source": "Canonical dialogue only; stage-direction-only matches must not create line vocabulary or dictionary entries."
+  }
+}
