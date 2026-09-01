@@ -37,7 +37,7 @@ if(!index.includes('./src/stage-directions.js')||!index.includes('./src/stage-di
 for(const asset of ['./src/stage-directions.js','./src/stage-directions.css','src/mousetrap_stage_directions.json'])if(!sw.includes(`'${asset}'`))fail(`precache missing ${asset}`);
 const configBuild=config.match(/BUILD_ID = '([^']+)'/)?.[1];
 const swBuild=sw.match(/const BUILD_ID='([^']+)'/)?.[1];
-if(!configBuild||configBuild!==swBuild||configBuild!==version.buildId||version.dataVersion!=='canonical-2026-08-30-stage-directions-ja-v3')fail(`release PWA metadata inconsistent (${configBuild}/${swBuild}/${version.buildId}/${version.dataVersion})`);
+if(!configBuild||configBuild!==swBuild||configBuild!==version.buildId||version.dataVersion!=='canonical-2026-09-01-japanese-prose-v1')fail(`release PWA metadata inconsistent (${configBuild}/${swBuild}/${version.buildId}/${version.dataVersion})`);
 for(const token of ['dataset.stageReader','dataset.stageActorCues','dataset.stageContextDetails','data-stage-reveal','data-stage-page','data-stage-visibility','data-practice-stage','data-stage-search-results','getReaderSequence'])if(!module.includes(token))fail(`stage runtime contract missing ${token}`);
 const readerSource=module.slice(module.indexOf('function readerRow'),module.indexOf('function enhanceScriptList'));
 if(/Stage direction|Open context|stage-context-link/.test(readerSource))fail('Script reader stage notes contain forbidden labels/actions');
