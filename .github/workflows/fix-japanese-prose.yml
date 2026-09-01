@@ -35,6 +35,7 @@ jobs:
         run: |
           node scripts/fix-japanese-prose.mjs
           node scripts/fix-japanese-prose-residual.mjs
+          sed -i "s/canonical-2026-08-30-stage-directions-ja-v3/canonical-2026-09-01-japanese-prose-v1/g" app/tests/stage_directions_static.mjs
 
       - name: Verify no accidental English remains
         run: node scripts/audit-japanese-prose.mjs
