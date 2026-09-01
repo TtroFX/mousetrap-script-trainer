@@ -61,5 +61,12 @@ const groups=[
 for(const [name,re] of groups){
   const items=unresolved.filter(x=>re.test(x.word));
   fs.writeFileSync(`${outDir}/review-${name}.json`,JSON.stringify({schemaVersion:1,group:name,count:items.length,items},null,2)+'\n');
+  const compact=['word\tcefr\tallOxfordLevels\tsurfaceForms\tfirstSpeechId\tfirstContext'];
+  for(const item of items){
+    const first=item.contexts[0];
+    const text=String(first?.text||'').replace(/\s+/g,' ').replace(/\t/g,' ').slice(0,260);
+    compact.push([item.word,item.cefr,item.allOxfordLevels,item.surfaceForms,item.firstSpeechId,text].join('\t'));
+  }
+  fs.writeFileSync(`${outDir}/compact-${name}.tsv`,compact.join('\n')+'\n');
 }
 console.log(JSON.stringify(report.counts));
