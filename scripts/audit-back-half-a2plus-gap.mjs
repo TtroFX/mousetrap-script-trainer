@@ -45,7 +45,9 @@ for(const row of rows){
     covering.forEach(x=>coveringLemmas.add(x));
     contexts.push({speechId:speech.id,speaker:speech.speaker,matchedForms:matched,coveringLemmas:[...new Set(covering)],text:speech.text});
   }
-  const item={...row,mixedA1:String(row.allOxfordLevels||'').split('/').includes('A1'),coveringLemmas:[...coveringLemmas].sort(),contexts};
+  const uncoveredSpeechCount=contexts.filter(x=>x.coveringLemmas.length===0).length;
+  const coveredSpeechCount=contexts.length-uncoveredSpeechCount;
+  const item={...row,mixedA1:String(row.allOxfordLevels||'').split('/').includes('A1'),coveringLemmas:[...coveringLemmas].sort(),matchedSpeechCount:contexts.length,uncoveredSpeechCount,coveredSpeechCount,contexts};
   if(existing) present.push({...item,existingLemma:existing});
   else unresolved.push(item);
 }
@@ -64,11 +66,11 @@ const groups=[['a-d', /^[a-d]/i],['e-h', /^[e-h]/i],['i-m', /^[i-m]/i],['n-r', /
 for(const [name,re] of groups){
   const items=unresolved.filter(x=>re.test(x.word));
   fs.writeFileSync(`${outDir}/review-${name}.json`,JSON.stringify({schemaVersion:1,group:name,count:items.length,items},null,2)+'\n');
-  const compact=['word\tcefr\tallOxfordLevels\tsurfaceForms\tcoveringLemmas\tfirstSpeechId\tfirstContext'];
+  const compact=['word\tcefr\tallOxfordLevels\tsurfaceForms\tmatchedSpeeches\tuncoveredSpeeches\tcoveringLemmas\tfirstSpeechId\tfirstContext'];
   for(const item of items){
     const first=item.contexts[0];
-    const text=String(first?.text||'').replace(/\s+/g,' ').replace(/\t/g,' ').slice(0,230);
-    compact.push([item.word,item.cefr,item.allOxfordLevels,item.surfaceForms,item.coveringLemmas.join(' | '),item.firstSpeechId,text].join('\t'));
+    const text=String(first?.text||'').replace(/\s+/g,' ').replace(/\t/g,' ').slice(0,210);
+    compact.push([item.word,item.cefr,item.allOxfordLevels,item.surfaceForms,item.matchedSpeechCount,item.uncoveredSpeechCount,item.coveringLemmas.join(' | '),item.firstSpeechId,text].join('\t'));
   }
   fs.writeFileSync(`${outDir}/compact-${name}.tsv`,compact.join('\n')+'\n');
 }
