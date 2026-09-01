@@ -44,7 +44,7 @@ jobs:
           test -s data/a2plus-candidate-lists/part-02.txt
           test -s data/a2plus-candidate-lists/part-01-02-unique.txt
           test -s data/a2plus-candidate-lists/summary.json
-          grep -q $'^abuse\\tC1\\t' data/a2plus-candidate-lists/part-02.txt
+          grep -Eq '^abuse[[:space:]]+C1[[:space:]]+' data/a2plus-candidate-lists/part-02.txt
           grep -q '"abusePresentInFinal": true' data/a2plus-candidate-lists/summary.json
 
       - name: Commit candidate lists
