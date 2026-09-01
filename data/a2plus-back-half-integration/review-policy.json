@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "scope": {
+    "globalSpeechRange": [583, 1164],
+    "candidateFile": "data/a2plus-candidate-lists/part-03-04-unique.txt"
+  },
+  "policy": {
+    "a2plus": "A2/B1/B2/C1/C2の実際の語義を原則収録する。既存の正しい辞書・句注釈で同じ用法が完全に説明されている場合は重複追加しない。",
+    "mixedA1": "A1とA2+が同じheadwordにある場合、台本中の実際の語義がA2+と確認できた場合だけ収録する。A1でも熟語・句動詞として独立して学習価値がある場合は句として収録する。",
+    "phrases": "既存の句・複合語で意味を取るべき単語断片は単語として重複追加しない。未収録の重要な句動詞・定型表現は句単位で補う。",
+    "morphology": "機械的な語尾除去・活用形誤認・複合語分割で別lexemeになった候補は除外する。"
+  },
+  "selectedCandidateLemmas": [
+    "alive",
+    "anywhere",
+    "argue",
+    "arrest",
+    "careful",
+    "clear",
+    "count",
+    "discover",
+    "drag",
+    "drop",
+    "especially",
+    "exactly",
+    "fair",
+    "fortunately",
+    "lead",
+    "line",
+    "link",
+    "manage",
+    "middle",
+    "nasty",
+    "normal",
+    "offer",
+    "particular",
+    "pass",
+    "perform",
+    "pick",
+    "pleased",
+    "pocket",
+    "possibility",
+    "pull",
+    "realize",
+    "rest",
+    "round",
+    "shout",
+    "smoke",
+    "soldier",
+    "sort",
+    "suddenly",
+    "suggestion",
+    "touch",
+    "unfortunately",
+    "war",
+    "worry"
+  ],
+  "mixedA1CandidateExceptions": {
+    "line": {
+      "reason": "act2-speech-0113のlineは電話回線を指す専門的なB2側の語義。line of businessの出現は既存句で別途カバー済み。",
+      "speechIds": ["act2-speech-0113"]
+    }
+  },
+  "excludeFalseOrCovered": {
+    "aged": "middle-agedの構成要素のみ。",
+    "being": "beの分詞・受動構文で、独立名詞beingではない。",
+    "broken": "broken upは句動詞break upとして収録する。",
+    "driving": "driveの進行形で、独立名詞drivingではない。",
+    "found": "findの過去形・過去分詞で、B2動詞found（設立する）ではない。",
+    "frightening": "既存lemma frightenで同一surfaceを収録済み。",
+    "killing": "killの動名詞・分詞で、独立名詞killingではない。",
+    "lost": "loseの過去分詞で、独立形容詞lostとして追加しない。",
+    "making": "makeの-ing形。make something upの出現は既存句でカバー済み。",
+    "mine": "所有代名詞であり、今回の内容語A2+追加対象外。",
+    "net": "netting / wire nettingとして既存収録済み。",
+    "operation": "co-operation内部の誤分割。",
+    "planning": "planの進行形で、独立名詞planningではない。",
+    "racing": "raceの進行形で、独立名詞racingではない。",
+    "related": "既存lemma relateで同一surfaceを収録済み。",
+    "running": "runの進行形・既存句動詞内の形で、独立名詞runningではない。",
+    "side": "country-side/countryside内部の誤分割。",
+    "sometime": "実際のsurfaceはsometimesで、s語尾除去による別lexeme誤認。",
+    "thinking": "thinkの-ing形で、独立名詞thinkingとして追加しない。",
+    "thought": "thinkの過去形・過去分詞としての使用で、独立名詞thoughtではない。",
+    "training": "Army trainingは既存句で収録済み。もう一方はtrainの進行形。",
+    "treat": "ill-treating内の構成要素で、既存lemma ill-treatで収録済み。",
+    "used": "used to構文またはuseの活用で、B1形容詞usedではない。",
+    "written": "writeの過去分詞で、独立形容詞writtenとして追加しない。"
+  },
+  "customPhraseAdditions": [
+    {
+      "speechId": "act2-speech-0165",
+      "surface": "broken up",
+      "lemma": "break up",
+      "inThisPlay": "ここでは戦争などによって家庭が崩壊し、家族がばらばらになること。"
+    },
+    {
+      "speechId": "act2-speech-0272",
+      "surface": "cooked up",
+      "lemma": "cook up",
+      "inThisPlay": "ここでは二人で前もって筋書きをでっち上げたのではないか、という疑い。料理する意味ではない。"
+    },
+    {
+      "speechId": "act2-speech-0111",
+      "surface": "so far",
+      "lemma": "so far",
+      "inThisPlay": "ここでは距離ではなく、捜査で『これまでに分かっている範囲では』という意味。"
+    },
+    {
+      "speechId": "act2-speech-0087",
+      "surface": "sooner or later",
+      "lemma": "sooner or later"
+    },
+    {
+      "speechId": "act2-speech-0573",
+      "surface": "run a very good chance of",
+      "lemma": "run a chance of",
+      "inThisPlay": "ここでは『殺される危険がかなり高かった』という意味。"
+    }
+  ],
+  "contextOverrides": {
+    "line": "ここでは電話の『回線』。商売の種類を表すline of businessの用法とは別。",
+    "round": "ここではBritish Englishの用法で、場所の周囲・一帯を『あちこち回って』という意味。"
+  }
+}
