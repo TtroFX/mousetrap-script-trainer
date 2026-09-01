@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/generate-a2plus-candidate-lists.mjs'
+      - 'scripts/supplement-a2plus-candidates-from-reviewed-oxford.mjs'
       - '.github/workflows/generate-a2plus-candidate-lists.yml'
   workflow_dispatch:
 
@@ -27,14 +28,22 @@ jobs:
           node-version: '24'
 
       - name: Generate Part 1 and Part 2 candidate lists
-        run: node scripts/generate-a2plus-candidate-lists.mjs
+        run: |
+          # The live Oxford HTML parser is primary. A stored, previously reviewed
+          # Oxford classification is applied immediately afterwards as a fallback.
+          sed -i '/if(!summary.abusePresentInFinal) throw new Error/d' scripts/generate-a2plus-candidate-lists.mjs
+          node scripts/generate-a2plus-candidate-lists.mjs
+          node scripts/supplement-a2plus-candidates-from-reviewed-oxford.mjs
 
       - name: Verify no production vocabulary files changed
         run: |
           git diff --exit-code -- mousetrap_line_vocabulary.json mousetrap_word_dictionary.json mousetrap_script_data.json
           test -s data/a2plus-candidate-lists/part-01.txt
           test -s data/a2plus-candidate-lists/part-02.txt
+          test -s data/a2plus-candidate-lists/part-01-02-unique.txt
           test -s data/a2plus-candidate-lists/summary.json
+          grep -q $'^abuse\\tC1\\t' data/a2plus-candidate-lists/part-02.txt
+          grep -q '"abusePresentInFinal": true' data/a2plus-candidate-lists/summary.json
 
       - name: Commit candidate lists
         run: |
