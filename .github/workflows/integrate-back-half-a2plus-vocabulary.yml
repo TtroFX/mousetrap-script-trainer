@@ -1,0 +1,54 @@
+name: Integrate back-half A2+ vocabulary
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/a2plus-back-half-integration/definitions-*.json'
+      - 'data/a2plus-back-half-integration/review-policy.json'
+      - 'scripts/integrate-back-half-a2plus-vocabulary.mjs'
+      - '.github/workflows/integrate-back-half-a2plus-vocabulary.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  integrate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Apply reviewed back-half A2+ vocabulary
+        run: node scripts/integrate-back-half-a2plus-vocabulary.mjs
+      - name: Verify expected outputs
+        run: |
+          test -s data/a2plus-back-half-integration/integration-qa.json
+          grep -q '"status": "PASS"' data/a2plus-back-half-integration/integration-qa.json
+          grep -q '"selectedCandidateLemmas": 43' data/a2plus-back-half-integration/integration-qa.json
+          grep -q '"customPhraseAdditions": 5' data/a2plus-back-half-integration/integration-qa.json
+          grep -q '"totalIntegratedLemmas": 48' data/a2plus-back-half-integration/integration-qa.json
+      - name: Commit verified integration
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            mousetrap_line_vocabulary.json \
+            mousetrap_word_dictionary.json \
+            data/canonical-production-contract.json \
+            data/canonical-integration-manifest.json \
+            data/vocabulary-dictionary-style-audit.json \
+            data/a2plus-back-half-integration/integration-qa.json
+          if git diff --cached --quiet; then
+            echo "No integration changes to commit"
+            exit 0
+          fi
+          git commit -m "Integrate back-half A2+ vocabulary"
+          git push
