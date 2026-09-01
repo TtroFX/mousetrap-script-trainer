@@ -15,6 +15,9 @@
       "coveringLemmas": [
         "a bit of goods"
       ],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0589",
@@ -50,6 +53,9 @@
       "coveringLemmas": [
         "not necessarily"
       ],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 2,
       "contexts": [
         {
           "speechId": "act2-speech-0520",
@@ -85,6 +91,9 @@
       "allOxfordLevels": "A1/A2/B1",
       "mixedA1": true,
       "coveringLemmas": [],
+      "matchedSpeechCount": 3,
+      "uncoveredSpeechCount": 3,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0324",
@@ -127,6 +136,9 @@
       "coveringLemmas": [
         "prove a negative"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0377",
@@ -153,6 +165,9 @@
       "coveringLemmas": [
         "wire netting"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0170",
@@ -177,6 +192,9 @@
       "allOxfordLevels": "A1/B1",
       "mixedA1": true,
       "coveringLemmas": [],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 2,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0251",
@@ -211,6 +229,9 @@
         "none of someone's business",
         "none of your business"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0076",
@@ -236,6 +257,9 @@
       "allOxfordLevels": "A2/B1",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0134",
@@ -258,6 +282,9 @@
       "allOxfordLevels": "A1/B1",
       "mixedA1": true,
       "coveringLemmas": [],
+      "matchedSpeechCount": 25,
+      "uncoveredSpeechCount": 25,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0079",
@@ -496,6 +523,9 @@
       "allOxfordLevels": "A2",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0465",
@@ -520,6 +550,9 @@
       "coveringLemmas": [
         "at once"
       ],
+      "matchedSpeechCount": 6,
+      "uncoveredSpeechCount": 3,
+      "coveredSpeechCount": 3,
       "contexts": [
         {
           "speechId": "act2-speech-0067",
@@ -595,6 +628,9 @@
       "coveringLemmas": [
         "co-operation"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0509",
@@ -622,6 +658,9 @@
         "just outside",
         "outside world"
       ],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 2,
       "contexts": [
         {
           "speechId": "act2-speech-0113",
@@ -661,6 +700,9 @@
         "reproduce",
         "settle one’s own affairs"
       ],
+      "matchedSpeechCount": 3,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 3,
       "contexts": [
         {
           "speechId": "act2-speech-0163",
@@ -709,6 +751,9 @@
       "coveringLemmas": [
         "in particular"
       ],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0083",
@@ -744,6 +789,9 @@
       "coveringLemmas": [
         "pass through"
       ],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0352",
@@ -779,6 +827,9 @@
       "coveringLemmas": [
         "pay attention"
       ],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 2,
       "contexts": [
         {
           "speechId": "act2-speech-0517",
@@ -814,6 +865,9 @@
       "allOxfordLevels": "A2",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 2,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0548",
@@ -848,6 +902,9 @@
         "pick out a tune",
         "pick up"
       ],
+      "matchedSpeechCount": 4,
+      "uncoveredSpeechCount": 2,
+      "coveredSpeechCount": 2,
       "contexts": [
         {
           "speechId": "act2-speech-0077",
@@ -903,6 +960,9 @@
       "coveringLemmas": [
         "Spot and Plain"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0596",
@@ -927,6 +987,9 @@
       "allOxfordLevels": "B1",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0370",
@@ -949,6 +1012,9 @@
       "allOxfordLevels": "A1/A2",
       "mixedA1": true,
       "coveringLemmas": [],
+      "matchedSpeechCount": 13,
+      "uncoveredSpeechCount": 13,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0090",
@@ -1079,6 +1145,9 @@
       "allOxfordLevels": "A2",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0566",
@@ -1103,6 +1172,9 @@
       "coveringLemmas": [
         "overcoat pocket"
       ],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0235",
@@ -1136,6 +1208,9 @@
       "allOxfordLevels": "A2",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 3,
+      "uncoveredSpeechCount": 3,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0118",
@@ -1178,6 +1253,9 @@
       "coveringLemmas": [
         "go by probability"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0117",
@@ -1202,6 +1280,9 @@
       "allOxfordLevels": "A2/B1",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 2,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0083",
@@ -1235,6 +1316,9 @@
       "coveringLemmas": [
         "Red Queen"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0495",
@@ -1259,6 +1343,9 @@
       "allOxfordLevels": "A1/A2",
       "mixedA1": true,
       "coveringLemmas": [],
+      "matchedSpeechCount": 7,
+      "uncoveredSpeechCount": 7,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0243",
@@ -1335,6 +1422,9 @@
       "allOxfordLevels": "B1",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 2,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0286",
@@ -1366,6 +1456,9 @@
       "allOxfordLevels": "A2",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 2,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0364",
@@ -1399,6 +1492,9 @@
       "coveringLemmas": [
         "refer someone to"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0465",
@@ -1425,6 +1521,9 @@
       "coveringLemmas": [
         "relate to"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0517",
@@ -1451,6 +1550,9 @@
       "coveringLemmas": [
         "repeat performance"
       ],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0529",
@@ -1486,6 +1588,9 @@
       "coveringLemmas": [
         "antiquarian research"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0083",
@@ -1510,6 +1615,9 @@
       "allOxfordLevels": "A2",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 2,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0102",
@@ -1543,6 +1651,9 @@
       "coveringLemmas": [
         "as a result"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0573",
@@ -1569,6 +1680,9 @@
       "coveringLemmas": [
         "former"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0555",
@@ -1593,6 +1707,9 @@
       "allOxfordLevels": "A2/B2",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 4,
+      "uncoveredSpeechCount": 4,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0239",
@@ -1644,6 +1761,9 @@
       "coveringLemmas": [
         "run away"
       ],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0204",
@@ -1682,6 +1802,9 @@
         "run away",
         "run away from something"
       ],
+      "matchedSpeechCount": 4,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 3,
       "contexts": [
         {
           "speechId": "act2-speech-0191",

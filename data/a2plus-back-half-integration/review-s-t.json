@@ -16,6 +16,9 @@
         "speak up",
         "what someone says goes"
       ],
+      "matchedSpeechCount": 29,
+      "uncoveredSpeechCount": 27,
+      "coveredSpeechCount": 2,
       "contexts": [
         {
           "speechId": "act2-speech-0069",
@@ -296,6 +299,9 @@
       "coveringLemmas": [
         "go through"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0523",
@@ -322,6 +328,9 @@
       "coveringLemmas": [
         "sense of humour"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0421",
@@ -348,6 +357,9 @@
       "coveringLemmas": [
         "Army service"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0204",
@@ -375,6 +387,9 @@
         "set eyes on",
         "set to"
       ],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 2,
       "contexts": [
         {
           "speechId": "act2-speech-0277",
@@ -412,6 +427,9 @@
       "coveringLemmas": [
         "settle one’s own affairs"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0165",
@@ -438,6 +456,9 @@
       "coveringLemmas": [
         "no good doing something"
       ],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0060",
@@ -471,6 +492,9 @@
       "allOxfordLevels": "A2",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0287",
@@ -495,6 +519,9 @@
       "coveringLemmas": [
         "smell of burning"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0637",
@@ -519,6 +546,9 @@
       "allOxfordLevels": "A2",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 2,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0627",
@@ -552,6 +582,9 @@
       "coveringLemmas": [
         "social reference"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0465",
@@ -576,6 +609,9 @@
       "allOxfordLevels": "A2",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0134",
@@ -598,6 +634,9 @@
       "allOxfordLevels": "B2",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0165",
@@ -620,6 +659,9 @@
       "allOxfordLevels": "A2/B1",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 2,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0168",
@@ -651,6 +693,9 @@
       "allOxfordLevels": "A1/C1",
       "mixedA1": true,
       "coveringLemmas": [],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 2,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0140",
@@ -682,6 +727,9 @@
       "allOxfordLevels": "A1/C1",
       "mixedA1": true,
       "coveringLemmas": [],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0435",
@@ -707,6 +755,9 @@
         "Spot and Plain",
         "on the spot"
       ],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 2,
       "contexts": [
         {
           "speechId": "act2-speech-0596",
@@ -742,6 +793,9 @@
       "allOxfordLevels": "A1/A2",
       "mixedA1": true,
       "coveringLemmas": [],
+      "matchedSpeechCount": 6,
+      "uncoveredSpeechCount": 6,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0105",
@@ -813,6 +867,9 @@
         "keep one step ahead",
         "one step ahead of"
       ],
+      "matchedSpeechCount": 3,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 3,
       "contexts": [
         {
           "speechId": "act2-speech-0080",
@@ -862,6 +919,9 @@
       "coveringLemmas": [
         "stick it out"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0222",
@@ -886,6 +946,9 @@
       "allOxfordLevels": "A1/B1",
       "mixedA1": true,
       "coveringLemmas": [],
+      "matchedSpeechCount": 3,
+      "uncoveredSpeechCount": 3,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0324",
@@ -928,6 +991,9 @@
       "coveringLemmas": [
         "all of a sudden"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0306",
@@ -954,6 +1020,9 @@
       "coveringLemmas": [
         "come over someone"
       ],
+      "matchedSpeechCount": 3,
+      "uncoveredSpeechCount": 2,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0060",
@@ -996,6 +1065,9 @@
       "allOxfordLevels": "A2",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0137",
@@ -1018,6 +1090,9 @@
       "allOxfordLevels": "A1/A2",
       "mixedA1": true,
       "coveringLemmas": [],
+      "matchedSpeechCount": 4,
+      "uncoveredSpeechCount": 4,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0297",
@@ -1069,6 +1144,9 @@
       "coveringLemmas": [
         "sports tackle"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0080",
@@ -1095,6 +1173,9 @@
       "coveringLemmas": [
         "talking of"
       ],
+      "matchedSpeechCount": 4,
+      "uncoveredSpeechCount": 3,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0245",
@@ -1153,6 +1234,9 @@
         "old chestnut",
         "see to it that"
       ],
+      "matchedSpeechCount": 100,
+      "uncoveredSpeechCount": 93,
+      "coveredSpeechCount": 7,
       "contexts": [
         {
           "speechId": "act2-speech-0058",
@@ -2106,6 +2190,9 @@
       "allOxfordLevels": "A2",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 4,
+      "uncoveredSpeechCount": 4,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0363",
@@ -2157,6 +2244,9 @@
       "coveringLemmas": [
         "the third degree"
       ],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0372",
@@ -2192,6 +2282,9 @@
       "coveringLemmas": [
         "make something up"
       ],
+      "matchedSpeechCount": 33,
+      "uncoveredSpeechCount": 32,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0057",
@@ -2504,6 +2597,9 @@
       "allOxfordLevels": "A2",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 9,
+      "uncoveredSpeechCount": 9,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0307",
@@ -2602,6 +2698,9 @@
         "go through",
         "just in time"
       ],
+      "matchedSpeechCount": 14,
+      "uncoveredSpeechCount": 11,
+      "coveredSpeechCount": 3,
       "contexts": [
         {
           "speechId": "act2-speech-0077",
@@ -2749,6 +2848,9 @@
       "coveringLemmas": [
         "on top of"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0618",
@@ -2773,6 +2875,9 @@
       "allOxfordLevels": "A2/B1",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 3,
+      "uncoveredSpeechCount": 3,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0301",
@@ -2813,6 +2918,9 @@
       "allOxfordLevels": "A1/A2",
       "mixedA1": true,
       "coveringLemmas": [],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0173",
@@ -2837,6 +2945,9 @@
       "coveringLemmas": [
         "Army training"
       ],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0165",
@@ -2872,6 +2983,9 @@
       "coveringLemmas": [
         "ill-treat"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0111",
@@ -2898,6 +3012,9 @@
       "coveringLemmas": [
         "speak the truth"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0519",
@@ -2922,6 +3039,9 @@
       "allOxfordLevels": "A1/B2",
       "mixedA1": true,
       "coveringLemmas": [],
+      "matchedSpeechCount": 7,
+      "uncoveredSpeechCount": 7,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0217",

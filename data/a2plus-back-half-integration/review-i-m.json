@@ -28,6 +28,9 @@
         "stick it out",
         "trap"
       ],
+      "matchedSpeechCount": 121,
+      "uncoveredSpeechCount": 106,
+      "coveredSpeechCount": 15,
       "contexts": [
         {
           "speechId": "act2-speech-0060",
@@ -1202,6 +1205,9 @@
       "allOxfordLevels": "B1",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0083",
@@ -1226,6 +1232,9 @@
       "coveringLemmas": [
         "carving knife"
       ],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0379",
@@ -1252,6 +1261,9 @@
       "coveringLemmas": [
         "the last thing in"
       ],
+      "matchedSpeechCount": 6,
+      "uncoveredSpeechCount": 5,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0410",
@@ -1321,6 +1333,9 @@
       "allOxfordLevels": "A1/A2",
       "mixedA1": true,
       "coveringLemmas": [],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 2,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0087",
@@ -1352,6 +1367,9 @@
       "allOxfordLevels": "A2/B1",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0092",
@@ -1374,6 +1392,9 @@
       "allOxfordLevels": "A1/B2",
       "mixedA1": true,
       "coveringLemmas": [],
+      "matchedSpeechCount": 5,
+      "uncoveredSpeechCount": 5,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0258",
@@ -1432,6 +1453,9 @@
       "allOxfordLevels": "A1/B1",
       "mixedA1": true,
       "coveringLemmas": [],
+      "matchedSpeechCount": 12,
+      "uncoveredSpeechCount": 12,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0058",
@@ -1555,6 +1579,9 @@
       "coveringLemmas": [
         "line of business"
       ],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0113",
@@ -1588,6 +1615,9 @@
       "allOxfordLevels": "A2",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0111",
@@ -1614,6 +1644,9 @@
         "a bit of goods",
         "gay"
       ],
+      "matchedSpeechCount": 13,
+      "uncoveredSpeechCount": 10,
+      "coveredSpeechCount": 3,
       "contexts": [
         {
           "speechId": "act2-speech-0173",
@@ -1750,6 +1783,9 @@
       "allOxfordLevels": "A1/B1",
       "mixedA1": true,
       "coveringLemmas": [],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0465",
@@ -1772,6 +1808,9 @@
       "allOxfordLevels": "A2",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0503",
@@ -1797,6 +1836,9 @@
         "make it",
         "make someone out"
       ],
+      "matchedSpeechCount": 9,
+      "uncoveredSpeechCount": 7,
+      "coveredSpeechCount": 2,
       "contexts": [
         {
           "speechId": "act2-speech-0160",
@@ -1897,6 +1939,9 @@
       "coveringLemmas": [
         "make something up"
       ],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 1,
       "contexts": [
         {
           "speechId": "act2-speech-0057",
@@ -1930,6 +1975,9 @@
       "allOxfordLevels": "A2",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0581",
@@ -1952,6 +2000,9 @@
       "allOxfordLevels": "A1/A2",
       "mixedA1": true,
       "coveringLemmas": [],
+      "matchedSpeechCount": 13,
+      "uncoveredSpeechCount": 13,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0112",
@@ -2084,6 +2135,9 @@
       "coveringLemmas": [
         "middle-aged"
       ],
+      "matchedSpeechCount": 3,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 2,
       "contexts": [
         {
           "speechId": "act2-speech-0132",
@@ -2128,6 +2182,9 @@
       "allOxfordLevels": "A2/B1",
       "mixedA1": false,
       "coveringLemmas": [],
+      "matchedSpeechCount": 1,
+      "uncoveredSpeechCount": 1,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0086",
@@ -2150,6 +2207,9 @@
       "allOxfordLevels": "A1/C1",
       "mixedA1": true,
       "coveringLemmas": [],
+      "matchedSpeechCount": 6,
+      "uncoveredSpeechCount": 6,
+      "coveredSpeechCount": 0,
       "contexts": [
         {
           "speechId": "act2-speech-0103",
@@ -2220,6 +2280,9 @@
         "be mixed up in",
         "mixed up in"
       ],
+      "matchedSpeechCount": 2,
+      "uncoveredSpeechCount": 0,
+      "coveredSpeechCount": 2,
       "contexts": [
         {
           "speechId": "act2-speech-0420",
