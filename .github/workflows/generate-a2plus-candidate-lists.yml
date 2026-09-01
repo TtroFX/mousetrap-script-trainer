@@ -1,0 +1,49 @@
+name: Generate A2+ vocabulary candidate lists
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate-a2plus-candidate-lists.mjs'
+      - '.github/workflows/generate-a2plus-candidate-lists.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Generate Part 1 and Part 2 candidate lists
+        run: node scripts/generate-a2plus-candidate-lists.mjs
+
+      - name: Verify no production vocabulary files changed
+        run: |
+          git diff --exit-code -- mousetrap_line_vocabulary.json mousetrap_word_dictionary.json mousetrap_script_data.json
+          test -s data/a2plus-candidate-lists/part-01.txt
+          test -s data/a2plus-candidate-lists/part-02.txt
+          test -s data/a2plus-candidate-lists/summary.json
+
+      - name: Commit candidate lists
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/a2plus-candidate-lists/part-01.txt data/a2plus-candidate-lists/part-02.txt data/a2plus-candidate-lists/summary.json
+          if git diff --cached --quiet; then
+            echo "No candidate-list changes to commit"
+            exit 0
+          fi
+          git commit -m "Generate A2+ candidate lists for first two quarters"
+          git push
