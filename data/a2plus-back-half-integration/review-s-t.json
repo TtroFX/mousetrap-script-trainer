@@ -12,6 +12,10 @@
       "surfaceForms": "said, say, saying, says",
       "allOxfordLevels": "A1/C1",
       "mixedA1": true,
+      "coveringLemmas": [
+        "speak up",
+        "what someone says goes"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0069",
@@ -19,6 +23,7 @@
           "matchedForms": [
             "say"
           ],
+          "coveringLemmas": [],
           "text": "You say you were writing letters when you heard Mrs. Ralston scream?"
         },
         {
@@ -27,6 +32,7 @@
           "matchedForms": [
             "say"
           ],
+          "coveringLemmas": [],
           "text": "Now, Major Metcalf, what about you? You say you were in the cellar. Why?"
         },
         {
@@ -35,6 +41,7 @@
           "matchedForms": [
             "say"
           ],
+          "coveringLemmas": [],
           "text": "Not at all. Crypt of an old monastery, I should say. Probably why this place is called \"Monkswell.\""
         },
         {
@@ -43,6 +50,7 @@
           "matchedForms": [
             "say"
           ],
+          "coveringLemmas": [],
           "text": "Yes, Mrs. Ralston, what is it you want to say to me?"
         },
         {
@@ -51,6 +59,7 @@
           "matchedForms": [
             "said"
           ],
+          "coveringLemmas": [],
           "text": "So the murderer may be middle-aged, or even old. When I said the police had rung up, Major Metcalf was frightfully upset. He really was. I saw his face."
         },
         {
@@ -59,6 +68,7 @@
           "matchedForms": [
             "said"
           ],
+          "coveringLemmas": [],
           "text": "Well, Mr. Paravicini did drop the poker when I said the police had rung up."
         },
         {
@@ -67,6 +77,7 @@
           "matchedForms": [
             "say"
           ],
+          "coveringLemmas": [],
           "text": "He and Christopher Wren are much of an age. Say your husband looks older than his years, and Christopher Wren looks younger. Actual age is very hard to tell. How much do you know about your husband, Mrs. Ralston?"
         },
         {
@@ -75,6 +86,7 @@
           "matchedForms": [
             "says"
           ],
+          "coveringLemmas": [],
           "text": "You'd be surprised, Mrs. Ralston, if you knew how many cases rather like yours we get. Especially since the war. Homes broken up and families dead. Fellow says he's been in the Air Force, or just finished his Army training. Parents killed ― no relations. There aren't any backgrounds nowadays and young people settle their own affairs ― they meet and marry. It's parents and relatives who used to make the enquiries before they consented to an engagement. That's all done away with. Girl just marries her man. Sometimes she doesn't find out for a year or two that he's an absconding bank clerk, or an Army deserter or something equally undesirable. How long had you known Giles Ralston when you married him?"
         },
         {
@@ -83,6 +95,7 @@
           "matchedForms": [
             "say"
           ],
+          "coveringLemmas": [],
           "text": "But, darling, they're all so frightfully against me. They're going to say I committed these murders ― particularly your husband."
         },
         {
@@ -91,6 +104,7 @@
           "matchedForms": [
             "say"
           ],
+          "coveringLemmas": [],
           "text": "Why do you say that?"
         },
         {
@@ -99,6 +113,7 @@
           "matchedForms": [
             "said"
           ],
+          "coveringLemmas": [],
           "text": "I've already said so, haven't I? There's a killer loose in this house ― and it seems to me you fit the bill."
         },
         {
@@ -107,6 +122,7 @@
           "matchedForms": [
             "said"
           ],
+          "coveringLemmas": [],
           "text": "That's what Mrs. Boyle said!"
         },
         {
@@ -115,6 +131,7 @@
           "matchedForms": [
             "say"
           ],
+          "coveringLemmas": [],
           "text": "That's what you say. Perhaps you've been running up to London to meet him on the sly."
         },
         {
@@ -123,6 +140,7 @@
           "matchedForms": [
             "saying"
           ],
+          "coveringLemmas": [],
           "text": "Now, now. I do hope you young people are not both saying a little more than you mean. One is so apt to in these lovers' quarrels."
         },
         {
@@ -131,6 +149,7 @@
           "matchedForms": [
             "says"
           ],
+          "coveringLemmas": [],
           "text": "Quite so. Quite so. I know just how you feel. I have been through all this myself when I was a younger man. Jeunesse ― jeunesse ― as the poet says. Not been married long, I imagine?"
         },
         {
@@ -139,6 +158,7 @@
           "matchedForms": [
             "say"
           ],
+          "coveringLemmas": [],
           "text": "No, no, no business at all. But I just came in to say that the Sergeant cannot find his skis and I'm afraid he is very annoyed."
         },
         {
@@ -147,6 +167,7 @@
           "matchedForms": [
             "said"
           ],
+          "coveringLemmas": [],
           "text": "What did you mean when you said \"Christopher\" just now?"
         },
         {
@@ -155,6 +176,7 @@
           "matchedForms": [
             "say"
           ],
+          "coveringLemmas": [],
           "text": "If you say so ― I've no idea where your skis are."
         },
         {
@@ -163,6 +185,7 @@
           "matchedForms": [
             "say"
           ],
+          "coveringLemmas": [],
           "text": "What did you say to the lady to upset her, sir?"
         },
         {
@@ -171,6 +194,7 @@
           "matchedForms": [
             "say"
           ],
+          "coveringLemmas": [],
           "text": "We always like the fullest information. What did you say this friend's name was?"
         },
         {
@@ -179,6 +203,7 @@
           "matchedForms": [
             "say"
           ],
+          "coveringLemmas": [],
           "text": "I didn't say."
         },
         {
@@ -187,6 +212,7 @@
           "matchedForms": [
             "say"
           ],
+          "coveringLemmas": [],
           "text": "No, you didn't say. And it seems you're not going to say. Now that's very interesting."
         },
         {
@@ -195,6 +221,7 @@
           "matchedForms": [
             "say"
           ],
+          "coveringLemmas": [],
           "text": "No, Mrs. Ralston, but I may say I have a very shrewd suspicion of who took them, and of why they were taken. I won't say any more at the present moment."
         },
         {
@@ -203,6 +230,7 @@
           "matchedForms": [
             "said"
           ],
+          "coveringLemmas": [],
           "text": "But what's the idea? You've just said you had no means of checking these statements."
         },
         {
@@ -210,6 +238,9 @@
           "speaker": "GILES",
           "matchedForms": [
             "say"
+          ],
+          "coveringLemmas": [
+            "what someone says goes"
           ],
           "text": "Of course, what you say goes, Sergeant. We'll all cooperate. Eh, Mollie?"
         },
@@ -219,6 +250,9 @@
           "matchedForms": [
             "say"
           ],
+          "coveringLemmas": [
+            "speak up"
+          ],
           "text": "Come now, Mrs. Ralston. We policemen aren't quite so dumb as you think. All along I've realized that you had firsthand knowledge of the Longridge Farm affair. You knew Mrs. Boyle was the magistrate concerned. In fact, you knew all about it. Why didn't you speak up and say so?"
         },
         {
@@ -227,6 +261,7 @@
           "matchedForms": [
             "said"
           ],
+          "coveringLemmas": [],
           "text": "The police don't... I'm not a policeman, Mrs. Ralston. You thought I was a policeman because I rang up from a call box and said I was speaking from police headquarters and that Sergeant Trotter was on his way. I cut the telephone wires before I came to the front door. You know who I am, Mrs. Ralston? I'm Georgie ― I'm Jimmy's brother, Georgie."
         },
         {
@@ -235,6 +270,7 @@
           "matchedForms": [
             "said"
           ],
+          "coveringLemmas": [],
           "text": "You'd better not scream, Mrs. Ralston ― because if you do I shall fire this revolver...I'd like to talk to you a little. I said I'd like to talk to you a little. Jimmy died. That nasty cruel woman killed him. They put her in prison. Prison wasn't bad enough for her. I said I'd kill her one day...I did, too. In the fog. It was great fun. I hope Jimmy knows. \"I'll kill them all when I've grown up.\" That's what I said to myself. Because grown-ups can do anything they like. I'm going to kill you in a minute."
         },
         {
@@ -243,6 +279,7 @@
           "matchedForms": [
             "said"
           ],
+          "coveringLemmas": [],
           "text": "It is all right, isn't it? The girl in the shop said it was the last thing in hats."
         }
       ]
@@ -256,12 +293,18 @@
       "surfaceForms": "second",
       "allOxfordLevels": "A1/A2",
       "mixedA1": true,
+      "coveringLemmas": [
+        "go through"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0523",
           "speaker": "TROTTER",
           "matchedForms": [
             "second"
+          ],
+          "coveringLemmas": [
+            "go through"
           ],
           "text": "No, but supposing everyone was to go through these actions a second time."
         }
@@ -276,12 +319,18 @@
       "surfaceForms": "sense",
       "allOxfordLevels": "A2/B2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "sense of humour"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0421",
           "speaker": "PARAVICINI",
           "matchedForms": [
             "sense"
+          ],
+          "coveringLemmas": [
+            "sense of humour"
           ],
           "text": "Not even this murder? Dear me, you're very serious, Sergeant Trotter. I always have thought policemen have no sense of humour. Is the inquisition over ― for the moment?"
         }
@@ -296,12 +345,18 @@
       "surfaceForms": "service",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "Army service"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0204",
           "speaker": "CHRISTOPHER",
           "matchedForms": [
             "service"
+          ],
+          "coveringLemmas": [
+            "Army service"
           ],
           "text": "We needn't go into that. I ran away whilst I was doing my Army service. It was all so beastly ― I hated it. Yes, I'm just like the unknown murderer. I told you I was the one the specification fitted. You see, my mother my mother..."
         }
@@ -316,12 +371,19 @@
       "surfaceForms": "set",
       "allOxfordLevels": "B1",
       "mixedA1": false,
+      "coveringLemmas": [
+        "set eyes on",
+        "set to"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0277",
           "speaker": "MOLLIE",
           "matchedForms": [
             "set"
+          ],
+          "coveringLemmas": [
+            "set eyes on"
           ],
           "text": "You're being absolutely ridiculous. I never set eyes on Christopher Wren until he arrived yesterday."
         },
@@ -330,6 +392,9 @@
           "speaker": "MAJOR METCALF",
           "matchedForms": [
             "set"
+          ],
+          "coveringLemmas": [
+            "set to"
           ],
           "text": "Ought to be able to find them if we all set to. Not a case of \"Hunt the Thimble.\" Whacking great things, skis. Supposing we all set to."
         }
@@ -344,12 +409,18 @@
       "surfaceForms": "settle",
       "allOxfordLevels": "B2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "settle one’s own affairs"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0165",
           "speaker": "TROTTER",
           "matchedForms": [
             "settle"
+          ],
+          "coveringLemmas": [
+            "settle one’s own affairs"
           ],
           "text": "You'd be surprised, Mrs. Ralston, if you knew how many cases rather like yours we get. Especially since the war. Homes broken up and families dead. Fellow says he's been in the Air Force, or just finished his Army training. Parents killed ― no relations. There aren't any backgrounds nowadays and young people settle their own affairs ― they meet and marry. It's parents and relatives who used to make the enquiries before they consented to an engagement. That's all done away with. Girl just marries her man. Sometimes she doesn't find out for a year or two that he's an absconding bank clerk, or an Army deserter or something equally undesirable. How long had you known Giles Ralston when you married him?"
         }
@@ -364,6 +435,9 @@
       "surfaceForms": "shouting",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "no good doing something"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0060",
@@ -371,6 +445,7 @@
           "matchedForms": [
             "shouting"
           ],
+          "coveringLemmas": [],
           "text": "With one finger so...And then I hear the radio ― playing very loud ― someone is shouting on it. It offended my ears. And after that ― suddenly ― I hear Mrs. Ralston scream."
         },
         {
@@ -378,6 +453,9 @@
           "speaker": "MAJOR METCALF",
           "matchedForms": [
             "shouting"
+          ],
+          "coveringLemmas": [
+            "no good doing something"
           ],
           "text": "No good shouting at me, young fellow. I wasn't thinking about any damned skis. I was interested in the cellars. Architecture of this place is very interesting. I opened the other door and I went on down. So I can't tell you whether the skis were there or not."
         }
@@ -392,6 +470,7 @@
       "surfaceForms": "side",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "contexts": [
         {
           "speechId": "act2-speech-0287",
@@ -399,6 +478,7 @@
           "matchedForms": [
             "side"
           ],
+          "coveringLemmas": [],
           "text": "Whilst you were racing round the country-side..."
         }
       ]
@@ -412,12 +492,18 @@
       "surfaceForms": "smell",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "smell of burning"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0637",
           "speaker": "MAJOR METCALF",
           "matchedForms": [
             "smell"
+          ],
+          "coveringLemmas": [
+            "smell of burning"
           ],
           "text": "Mrs. Ralston! Mrs. Ralston! There's a terrible smell of burning coming from the kitchen."
         }
@@ -432,6 +518,7 @@
       "surfaceForms": "smoke",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "contexts": [
         {
           "speechId": "act2-speech-0627",
@@ -439,6 +526,7 @@
           "matchedForms": [
             "smoke"
           ],
+          "coveringLemmas": [],
           "text": "You will smoke them?"
         },
         {
@@ -447,6 +535,7 @@
           "matchedForms": [
             "smoke"
           ],
+          "coveringLemmas": [],
           "text": "I'll smoke them."
         }
       ]
@@ -460,12 +549,18 @@
       "surfaceForms": "social",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "social reference"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0465",
           "speaker": "MISS CASEWELL",
           "matchedForms": [
             "social"
+          ],
+          "coveringLemmas": [
+            "social reference"
           ],
           "text": "My bank will reassure you as to my financial position. I can also refer you to a solicitor ― a very discreet man. I am not in a position to offer you a social reference. I have lived most of my life abroad."
         }
@@ -480,6 +575,7 @@
       "surfaceForms": "soldier",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "contexts": [
         {
           "speechId": "act2-speech-0134",
@@ -487,6 +583,7 @@
           "matchedForms": [
             "soldier"
           ],
+          "coveringLemmas": [],
           "text": "Middle-aged. A soldier. He seems quite nice and perfectly normal ― but it mightn't show, might it?"
         }
       ]
@@ -500,6 +597,7 @@
       "surfaceForms": "sometimes",
       "allOxfordLevels": "B2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "contexts": [
         {
           "speechId": "act2-speech-0165",
@@ -507,6 +605,7 @@
           "matchedForms": [
             "sometimes"
           ],
+          "coveringLemmas": [],
           "text": "You'd be surprised, Mrs. Ralston, if you knew how many cases rather like yours we get. Especially since the war. Homes broken up and families dead. Fellow says he's been in the Air Force, or just finished his Army training. Parents killed ― no relations. There aren't any backgrounds nowadays and young people settle their own affairs ― they meet and marry. It's parents and relatives who used to make the enquiries before they consented to an engagement. That's all done away with. Girl just marries her man. Sometimes she doesn't find out for a year or two that he's an absconding bank clerk, or an Army deserter or something equally undesirable. How long had you known Giles Ralston when you married him?"
         }
       ]
@@ -520,6 +619,7 @@
       "surfaceForms": "sort",
       "allOxfordLevels": "A2/B1",
       "mixedA1": false,
+      "coveringLemmas": [],
       "contexts": [
         {
           "speechId": "act2-speech-0168",
@@ -527,6 +627,7 @@
           "matchedForms": [
             "sort"
           ],
+          "coveringLemmas": [],
           "text": "That's not true. I know everything about him! I know exactly the sort of person he is. He's Giles. And it's absolutely absurd to suggest that he's some horrible crazy homicidal maniac. Why, he wasn't even in London yesterday when the murder took place."
         },
         {
@@ -535,6 +636,7 @@
           "matchedForms": [
             "sort"
           ],
+          "coveringLemmas": [],
           "text": "I don't know. I suppose there's a sort of ― sympathy between us."
         }
       ]
@@ -548,6 +650,7 @@
       "surfaceForms": "sound, sounds",
       "allOxfordLevels": "A1/C1",
       "mixedA1": true,
+      "coveringLemmas": [],
       "contexts": [
         {
           "speechId": "act2-speech-0140",
@@ -555,6 +658,7 @@
           "matchedForms": [
             "sounds"
           ],
+          "coveringLemmas": [],
           "text": "I know he seems quite old ― and foreign and everything, but he mightn't really be as old as he looks. He moves like a much younger man, and he's definitely got makeup on his face. Miss Casewell noticed it, too. He might be ― oh, I know it sounds very melodramatic ― but he might be disguised."
         },
         {
@@ -563,6 +667,7 @@
           "matchedForms": [
             "sound"
           ],
+          "coveringLemmas": [],
           "text": "Yes ― but oh, you make it sound all wrong. His father was a barrister and his mother died when he was a baby."
         }
       ]
@@ -576,6 +681,7 @@
       "surfaceForms": "spell",
       "allOxfordLevels": "A1/C1",
       "mixedA1": true,
+      "coveringLemmas": [],
       "contexts": [
         {
           "speechId": "act2-speech-0435",
@@ -583,6 +689,7 @@
           "matchedForms": [
             "spell"
           ],
+          "coveringLemmas": [],
           "text": "I spell it with a \"K.\""
         }
       ]
@@ -596,12 +703,19 @@
       "surfaceForms": "spot",
       "allOxfordLevels": "B1/B2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "Spot and Plain",
+        "on the spot"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0596",
           "speaker": "MISS CASEWELL",
           "matchedForms": [
             "spot"
+          ],
+          "coveringLemmas": [
+            "Spot and Plain"
           ],
           "text": "Yes, Spot and Plain."
         },
@@ -610,6 +724,9 @@
           "speaker": "MAJOR METCALF",
           "matchedForms": [
             "spot"
+          ],
+          "coveringLemmas": [
+            "on the spot"
           ],
           "text": "As soon as we got hold of that notebook with \"Monkswell Manor\" written in it, we saw it was vital to have someone on the spot. When it was put to him, Major Metcalf agreed to let me take his place. I couldn't understand it when Trotter turned up."
         }
@@ -624,6 +741,7 @@
       "surfaceForms": "stay, staying",
       "allOxfordLevels": "A1/A2",
       "mixedA1": true,
+      "coveringLemmas": [],
       "contexts": [
         {
           "speechId": "act2-speech-0105",
@@ -631,6 +749,7 @@
           "matchedForms": [
             "staying"
           ],
+          "coveringLemmas": [],
           "text": "I'm staying."
         },
         {
@@ -639,6 +758,7 @@
           "matchedForms": [
             "staying"
           ],
+          "coveringLemmas": [],
           "text": "I'm staying. I don't know what's come over you, Mollie."
         },
         {
@@ -647,6 +767,7 @@
           "matchedForms": [
             "stay"
           ],
+          "coveringLemmas": [],
           "text": "Rather odd, isn't it, that he should come and stay at an out-of-the-way place like this?"
         },
         {
@@ -655,6 +776,7 @@
           "matchedForms": [
             "stay"
           ],
+          "coveringLemmas": [],
           "text": "I always stay at the Ritz Hotel."
         },
         {
@@ -663,6 +785,7 @@
           "matchedForms": [
             "staying"
           ],
+          "coveringLemmas": [],
           "text": "And you have been staying since your arrival...?"
         },
         {
@@ -671,6 +794,7 @@
           "matchedForms": [
             "stay"
           ],
+          "coveringLemmas": [],
           "text": "You will all stay in your places and remain there until you hear me call you."
         }
       ]
@@ -684,12 +808,20 @@
       "surfaceForms": "step, steps",
       "allOxfordLevels": "A2/B2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "flight of steps",
+        "keep one step ahead",
+        "one step ahead of"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0080",
           "speaker": "MAJOR METCALF",
           "matchedForms": [
             "steps"
+          ],
+          "coveringLemmas": [
+            "flight of steps"
           ],
           "text": "Looking around. Just looking around. I looked into that cupboard place under the stairs near the kitchen. Lot of junk and sports tackle. And I noticed there was another door inside it, and I opened it and saw a flight of steps. I was curious and I went down. Nice cellars you've got."
         },
@@ -699,6 +831,9 @@
           "matchedForms": [
             "steps"
           ],
+          "coveringLemmas": [
+            "flight of steps"
+          ],
           "text": "Mr. Ralston! Thank you. We've got to establish opportunity, you know, as well as motive. And now let me tell you this ― you all had opportunity. There are two staircases ― anyone could go up by one and come down by the other. Anyone could go down to the cellars by the door near the kitchen and come up by a flight of steps that leads up through a trapdoor to the foot of the stairs over there. The vital fact was that every one of you was alone at the time the murder was committed."
         },
         {
@@ -706,6 +841,10 @@
           "speaker": "TROTTER",
           "matchedForms": [
             "step"
+          ],
+          "coveringLemmas": [
+            "keep one step ahead",
+            "one step ahead of"
           ],
           "text": "I'm in the position now where I've got to put myself in the place of a crazy cunning brain. I've got to ask myself what he wants us to do and what he, himself, is planning to do next. I've got to try and keep just one step ahead of him. Because if I don't, there's going to be another death."
         }
@@ -720,12 +859,18 @@
       "surfaceForms": "stick",
       "allOxfordLevels": "B1",
       "mixedA1": false,
+      "coveringLemmas": [
+        "stick it out"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0222",
           "speaker": "CHRISTOPHER",
           "matchedForms": [
             "stick"
+          ],
+          "coveringLemmas": [
+            "stick it out"
           ],
           "text": "Anyway, you think I ought to stick it out."
         }
@@ -740,6 +885,7 @@
       "surfaceForms": "still",
       "allOxfordLevels": "A1/B1",
       "mixedA1": true,
+      "coveringLemmas": [],
       "contexts": [
         {
           "speechId": "act2-speech-0324",
@@ -747,6 +893,7 @@
           "matchedForms": [
             "still"
           ],
+          "coveringLemmas": [],
           "text": "The snow is still lying. I need help here, reinforcements. I was going to ski over to the police station at Market Hampton to report on the situation."
         },
         {
@@ -755,6 +902,7 @@
           "matchedForms": [
             "still"
           ],
+          "coveringLemmas": [],
           "text": "You still don't believe that?"
         },
         {
@@ -763,6 +911,7 @@
           "matchedForms": [
             "still"
           ],
+          "coveringLemmas": [],
           "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
         }
       ]
@@ -776,12 +925,18 @@
       "surfaceForms": "sudden",
       "allOxfordLevels": "B1",
       "mixedA1": false,
+      "coveringLemmas": [
+        "all of a sudden"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0306",
           "speaker": "GILES",
           "matchedForms": [
             "sudden"
+          ],
+          "coveringLemmas": [
+            "all of a sudden"
           ],
           "text": "Mollie, what's come over you? You're different all of a sudden. I feel as though I don't know you any more."
         }
@@ -796,6 +951,9 @@
       "surfaceForms": "suddenly",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "come over someone"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0060",
@@ -803,6 +961,7 @@
           "matchedForms": [
             "suddenly"
           ],
+          "coveringLemmas": [],
           "text": "With one finger so...And then I hear the radio ― playing very loud ― someone is shouting on it. It offended my ears. And after that ― suddenly ― I hear Mrs. Ralston scream."
         },
         {
@@ -811,6 +970,7 @@
           "matchedForms": [
             "suddenly"
           ],
+          "coveringLemmas": [],
           "text": "I don't know what the Sergeant thinks. And he can make you think things about people. You ask yourself questions and you begin to doubt. You feel that somebody you love and know well might be ― a stranger. That's what happens in a nightmare. You're somewhere in the middle of friends and then you suddenly look at their faces and they're not your friends any longer ― they're different people ― just pretending. Perhaps you can't trust anybody ― perhaps everybody's a stranger."
         },
         {
@@ -818,6 +978,9 @@
           "speaker": "MISS CASEWELL",
           "matchedForms": [
             "suddenly"
+          ],
+          "coveringLemmas": [
+            "come over someone"
           ],
           "text": "No, it's nothing. It's just ― all this ― murder ― it's so horrible. It came over me suddenly. I'll go up to my room."
         }
@@ -832,6 +995,7 @@
       "surfaceForms": "suggestions",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "contexts": [
         {
           "speechId": "act2-speech-0137",
@@ -839,6 +1003,7 @@
           "matchedForms": [
             "suggestions"
           ],
+          "coveringLemmas": [],
           "text": "Any other suggestions?"
         }
       ]
@@ -852,6 +1017,7 @@
       "surfaceForms": "sure",
       "allOxfordLevels": "A1/A2",
       "mixedA1": true,
+      "coveringLemmas": [],
       "contexts": [
         {
           "speechId": "act2-speech-0297",
@@ -859,6 +1025,7 @@
           "matchedForms": [
             "sure"
           ],
+          "coveringLemmas": [],
           "text": "Didn't you ― are you sure you didn't?"
         },
         {
@@ -867,6 +1034,7 @@
           "matchedForms": [
             "sure"
           ],
+          "coveringLemmas": [],
           "text": "I'm sure Giles doesn't think..."
         },
         {
@@ -875,6 +1043,7 @@
           "matchedForms": [
             "sure"
           ],
+          "coveringLemmas": [],
           "text": "Very nice, too, I'm sure. What is your permanent address?"
         },
         {
@@ -883,6 +1052,7 @@
           "matchedForms": [
             "sure"
           ],
+          "coveringLemmas": [],
           "text": "Enjoying this little game, aren't you? Sure of yourself, too. But I shouldn't be too sure. You're mixed up in a murder case, and don't you forget it. Murder isn't just fun and games."
         }
       ]
@@ -896,12 +1066,18 @@
       "surfaceForms": "tackle",
       "allOxfordLevels": "B2/C1",
       "mixedA1": false,
+      "coveringLemmas": [
+        "sports tackle"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0080",
           "speaker": "MAJOR METCALF",
           "matchedForms": [
             "tackle"
+          ],
+          "coveringLemmas": [
+            "sports tackle"
           ],
           "text": "Looking around. Just looking around. I looked into that cupboard place under the stairs near the kitchen. Lot of junk and sports tackle. And I noticed there was another door inside it, and I opened it and saw a flight of steps. I was curious and I went down. Nice cellars you've got."
         }
@@ -916,6 +1092,9 @@
       "surfaceForms": "talk, talking",
       "allOxfordLevels": "A1/A2",
       "mixedA1": true,
+      "coveringLemmas": [
+        "talking of"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0245",
@@ -923,6 +1102,7 @@
           "matchedForms": [
             "talking"
           ],
+          "coveringLemmas": [],
           "text": "No, we were ― just talking. I must go to the kitchen ― there's the pie and potatoes ― and I must do ― do the spinach."
         },
         {
@@ -931,6 +1111,7 @@
           "matchedForms": [
             "talking"
           ],
+          "coveringLemmas": [],
           "text": "Is it? Then what's this? This is one of the gloves you were wearing yesterday. You dropped it. I picked it up this afternoon when I was talking to Sergeant Trotter. You see what's inside it ― a London bus ticket!"
         },
         {
@@ -938,6 +1119,9 @@
           "speaker": "PARAVICINI",
           "matchedForms": [
             "talking"
+          ],
+          "coveringLemmas": [
+            "talking of"
           ],
           "text": "Talking of chicken, dear lady, have you ever tried chickens' livers served on toast that has been thickly smeared with foie gras, with a very thin rasher of bacon just touched with a soupçon of fresh mustard? I will come with you to the kitchen and we will see what we can concoct together. A charming occupation."
         },
@@ -947,6 +1131,7 @@
           "matchedForms": [
             "talk"
           ],
+          "coveringLemmas": [],
           "text": "You'd better not scream, Mrs. Ralston ― because if you do I shall fire this revolver...I'd like to talk to you a little. I said I'd like to talk to you a little. Jimmy died. That nasty cruel woman killed him. They put her in prison. Prison wasn't bad enough for her. I said I'd kill her one day...I did, too. In the fog. It was great fun. I hope Jimmy knows. \"I'll kill them all when I've grown up.\" That's what I said to myself. Because grown-ups can do anything they like. I'm going to kill you in a minute."
         }
       ]
@@ -960,6 +1145,14 @@
       "surfaceForms": "that, that's",
       "allOxfordLevels": "A1/B1",
       "mixedA1": true,
+      "coveringLemmas": [
+        "get hold of",
+        "go into something",
+        "grant someone that",
+        "none of your business",
+        "old chestnut",
+        "see to it that"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0058",
@@ -967,6 +1160,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "No, no, Inspector ― I beg your pardon ― Sergeant, I would not do a thing like that."
         },
         {
@@ -975,6 +1169,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "With one finger so...And then I hear the radio ― playing very loud ― someone is shouting on it. It offended my ears. And after that ― suddenly ― I hear Mrs. Ralston scream."
         },
         {
@@ -984,6 +1179,9 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [
+            "none of your business"
+          ],
           "text": "That's none of your damned business."
         },
         {
@@ -992,6 +1190,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Looking around. Just looking around. I looked into that cupboard place under the stairs near the kitchen. Lot of junk and sports tackle. And I noticed there was another door inside it, and I opened it and saw a flight of steps. I was curious and I went down. Nice cellars you've got."
         },
         {
@@ -1000,6 +1199,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "We're not engaged in antiquarian research, Major Metcalf. We're investigating a murder. Mrs. Ralston has told us that she heard a door shut with a faint creak. That particular door shuts with a creak. It could be, you know, that after killing Mrs. Boyle, the murderer heard Mrs. Ralston coming from the kitchen and slipped into the cupboard pulling the door to after him."
         },
         {
@@ -1009,6 +1209,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "I wonder, Sergeant, if that's really true?"
         },
         {
@@ -1017,6 +1218,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Mr. Ralston! Thank you. We've got to establish opportunity, you know, as well as motive. And now let me tell you this ― you all had opportunity. There are two staircases ― anyone could go up by one and come down by the other. Anyone could go down to the cellars by the door near the kitchen and come up by a flight of steps that leads up through a trapdoor to the foot of the stairs over there. The vital fact was that every one of you was alone at the time the murder was committed."
         },
         {
@@ -1026,6 +1228,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "But look here, Sergeant, you speak as though we were all under suspicion. That's absurd!"
         },
         {
@@ -1034,6 +1237,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "But you know pretty well who killed that woman in Culver Street. You think it's the eldest of those three children at the farm. A mentally abnormal young man who is now twenty-three years of age. Well, damn it all, there's only one person here who fits the bill."
         },
         {
@@ -1043,6 +1247,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "It's not true ― it's not true! You're all against me. Everyone's always been against me. You're going to frame me for a murder. It's persecution, that's what it is ― persecution."
         },
         {
@@ -1051,6 +1256,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "I'm not arresting anyone. To do that, I've got to have evidence. I haven't got any evidence ― yet."
         },
         {
@@ -1059,6 +1265,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Sergeant Trotter, you think that this ― this crazy killer must be the ― eldest of those three boys at the Farm ― but you don't know that, do you?"
         },
         {
@@ -1067,6 +1274,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "We don't actually know a thing. All we've got so far is that the woman who joined with her husband in ill-treating and starving those children has been killed, and that the woman magistrate who was responsible for placing them there has been killed. The telephone wire that links me with police headquarters has been cut..."
         },
         {
@@ -1075,6 +1283,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "You don't even know that. It may have been just the snow."
         },
         {
@@ -1083,6 +1292,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "We've no information. To trace him may take some time, but I can assure you, Mrs. Ralston, that the police take every eventuality into account."
         },
         {
@@ -1091,6 +1301,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "If he came home, after being a prisoner with the Japs, perhaps, and having suffered terribly ― if he came home and found his wife dead and that his children had gone through some terrible experience, and one of them had died through it, he might go off his head a bit and want ― revenge!"
         },
         {
@@ -1100,6 +1311,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "That's only surmise."
         },
         {
@@ -1108,6 +1320,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "You're very anxious, aren't you, that it shouldn't be young Mr. Wren?"
         },
         {
@@ -1116,6 +1329,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "It could have been a woman who killed Maureen Lyon. A woman. The muffler pulled up and the man's felt that pulled well down, and the killer whispered, you know. It's the voice that gives the sex away. Yes, it might have been a woman."
         },
         {
@@ -1124,6 +1338,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "It's outrageous that..."
         },
         {
@@ -1133,6 +1348,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "You'd be surprised, Mrs. Ralston, if you knew how many cases rather like yours we get. Especially since the war. Homes broken up and families dead. Fellow says he's been in the Air Force, or just finished his Army training. Parents killed ― no relations. There aren't any backgrounds nowadays and young people settle their own affairs ― they meet and marry. It's parents and relatives who used to make the enquiries before they consented to an engagement. That's all done away with. Girl just marries her man. Sometimes she doesn't find out for a year or two that he's an absconding bank clerk, or an Army deserter or something equally undesirable. How long had you known Giles Ralston when you married him?"
         },
         {
@@ -1142,6 +1358,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "That's not true. I know everything about him! I know exactly the sort of person he is. He's Giles. And it's absolutely absurd to suggest that he's some horrible crazy homicidal maniac. Why, he wasn't even in London yesterday when the murder took place."
         },
         {
@@ -1150,6 +1367,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Oh, he went out that way."
         },
         {
@@ -1158,6 +1376,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Why do you say that?"
         },
         {
@@ -1165,6 +1384,9 @@
           "speaker": "CHRISTOPHER",
           "matchedForms": [
             "that"
+          ],
+          "coveringLemmas": [
+            "go into something"
           ],
           "text": "We needn't go into that. I ran away whilst I was doing my Army service. It was all so beastly ― I hated it. Yes, I'm just like the unknown murderer. I told you I was the one the specification fitted. You see, my mother my mother..."
         },
@@ -1174,6 +1396,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "One can't do that."
         },
         {
@@ -1183,6 +1406,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "Perhaps that's why it was so ― awful. It was horrible ― horrible...I try to put it out of my mind. I try never to think about it."
         },
         {
@@ -1191,6 +1415,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Yes ― perhaps, in a way, I am. Considering that I never saw you until yesterday, we seem to know each other rather well."
         },
         {
@@ -1199,6 +1424,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "That would be frightfully stupid. It would be almost like admitting you're guilty."
         },
         {
@@ -1207,6 +1433,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Sergeant Trotter. He puts things into your head. Things that aren't true, that can't possibly be true."
         },
         {
@@ -1215,6 +1442,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "You see that?"
         },
         {
@@ -1224,6 +1452,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "Well, that's all right. Probably he did go up to London after all."
         },
         {
@@ -1233,6 +1462,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "I don't know what the Sergeant thinks. And he can make you think things about people. You ask yourself questions and you begin to doubt. You feel that somebody you love and know well might be ― a stranger. That's what happens in a nightmare. You're somewhere in the middle of friends and then you suddenly look at their faces and they're not your friends any longer ― they're different people ― just pretending. Perhaps you can't trust anybody ― perhaps everybody's a stranger."
         },
         {
@@ -1242,6 +1472,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "So that's what you think about me."
         },
         {
@@ -1251,6 +1482,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "That's what Mrs. Boyle said!"
         },
         {
@@ -1259,6 +1491,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Look here, what is there between you and that wretched boy?"
         },
         {
@@ -1268,6 +1501,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "What do you mean by between us? I'm sorry for him ― that's all."
         },
         {
@@ -1276,6 +1510,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Perhaps you'd met him before. Perhaps you suggested to him to come here and that you'd both pretend to meet for the first time. All cooked up between you, was it?"
         },
         {
@@ -1284,6 +1519,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Rather odd, isn't it, that he should come and stay at an out-of-the-way place like this?"
         },
         {
@@ -1292,6 +1528,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "No odder than that Miss Casewell and Major Metcalf and Mrs. Boyle should."
         },
         {
@@ -1300,6 +1537,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "I read once in a paper that these homicidal cases were able to attract women. Looks as though it were true. Where did you first know him? How long has this been going on?"
         },
         {
@@ -1309,6 +1547,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "That's what you say. Perhaps you've been running up to London to meet him on the sly."
         },
         {
@@ -1317,6 +1556,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "You know perfectly well that I haven't been up to London for weeks."
         },
         {
@@ -1325,6 +1565,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "You haven't been up to London for weeks. Is ― that ― so?"
         },
         {
@@ -1333,6 +1574,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Oh ― that..."
         },
         {
@@ -1341,6 +1583,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "So it seems that you didn't only go to the village yesterday, you went to London as well."
         },
         {
@@ -1348,6 +1591,9 @@
           "speaker": "GILES",
           "matchedForms": [
             "that"
+          ],
+          "coveringLemmas": [
+            "get hold of"
           ],
           "text": "Where did you get hold of that?"
         },
@@ -1357,6 +1603,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "I ― shan't tell you that. Perhaps ― now ― I've forgotten why I went..."
         },
         {
@@ -1366,6 +1613,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "\"Lovers' quarrels!\" That's good."
         },
         {
@@ -1374,6 +1622,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "No, no, no business at all. But I just came in to say that the Sergeant cannot find his skis and I'm afraid he is very annoyed."
         },
         {
@@ -1382,6 +1631,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "What's that?"
         },
         {
@@ -1389,6 +1639,9 @@
           "speaker": "PARAVICINI",
           "matchedForms": [
             "that"
+          ],
+          "coveringLemmas": [
+            "see to it that"
           ],
           "text": "And now you can't ― dear, dear...Somebody's seen to it that you certainly shan't do that. But there could be another reason, couldn't there?"
         },
@@ -1398,6 +1651,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "You were actually in that cupboard today."
         },
         {
@@ -1406,6 +1660,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "You realize that you, yourself, had an excellent opportunity of taking them?"
         },
         {
@@ -1413,6 +1668,9 @@
           "speaker": "MAJOR METCALF",
           "matchedForms": [
             "that"
+          ],
+          "coveringLemmas": [
+            "grant someone that"
           ],
           "text": "Yes, yes, I grant you that. If I wanted to, that is."
         },
@@ -1422,6 +1680,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Not quite so fast, Major Metcalf. That maybe, you know, what we are meant to do."
         },
         {
@@ -1430,6 +1689,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "You still don't believe that?"
         },
         {
@@ -1439,6 +1699,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
         },
         {
@@ -1447,6 +1708,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Talking of chicken, dear lady, have you ever tried chickens' livers served on toast that has been thickly smeared with foie gras, with a very thin rasher of bacon just touched with a soupçon of fresh mustard? I will come with you to the kitchen and we will see what we can concoct together. A charming occupation."
         },
         {
@@ -1455,6 +1717,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "He is very wise. Take no chances. Can I prove to you or to him or to our dogged Sergeant that I am not a homicidal maniac? So difficult to prove a negative. And suppose that instead I am really..."
         },
         {
@@ -1464,6 +1727,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "There's nice fun ― and there's fun that's not so nice."
         },
         {
@@ -1472,6 +1736,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Now I do wonder what you mean by that, Sergeant?"
         },
         {
@@ -1480,6 +1745,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "I've been wondering about that car of yours, and how it happened to overturn in a snowdrift so conveniently."
         },
         {
@@ -1488,6 +1754,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "That rather depends on the way you're looking at it. Just where were you bound for, by the way, when you had this ― accident?"
         },
         {
@@ -1496,6 +1763,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Now really, Sergeant Trotter, does that matter now? I mean, it has nothing to do with this predicament, has it?"
         },
         {
@@ -1505,6 +1773,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "No, you didn't say. And it seems you're not going to say. Now that's very interesting."
         },
         {
@@ -1514,6 +1783,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "That's just what I've been thinking, sir."
         },
         {
@@ -1522,6 +1792,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "That you may not be as old as you ― try to look. There's a lot of people trying to look younger than they are. If somebody goes about trying to look older ― well, it does make one ask oneself why."
         },
         {
@@ -1530,6 +1801,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Having asked questions of so many people ― you ask questions of yourself as well? Isn't that overdoing things?"
         },
         {
@@ -1538,6 +1810,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Well, well ― try again ― that is, if you have any more questions to ask."
         },
         {
@@ -1546,6 +1819,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "That is simple ― from London."
         },
         {
@@ -1555,6 +1829,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "That's in Italy?"
         },
         {
@@ -1563,6 +1838,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "And what was that? And what was that?"
         },
         {
@@ -1571,6 +1847,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "I really don't see, you know, why I should. It's a matter that concerns me alone. A strictly private affair."
         },
         {
@@ -1579,6 +1856,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "You were thinking I look older. That is quite true."
         },
         {
@@ -1587,6 +1865,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Oh yes. It's rather like that."
         },
         {
@@ -1596,6 +1875,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "That's a very tactless way of putting things, Sergeant."
         },
         {
@@ -1604,6 +1884,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Please don't. I always think explanations should be kept to the very end. That exciting last chapter, you know."
         },
         {
@@ -1612,6 +1893,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Sit down, Miss Casewell, Mrs. Ralston... Will you all pay attention, please? You may remember that after the murder of Mrs. Boyle, I took statements from you all. Those statements related to your positions at the time the murder was committed. These statements were as follows: Mrs. Ralston in the kitchen, Mr. Paravicini playing the piano in the drawing room, Mr. Ralston in his bedroom. Mr. Wren ditto. Miss Casewell in the library. Major Metcalf in the cellar."
         },
         {
@@ -1620,6 +1902,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Those were the statements you made. I had no means of checking these statements. They may be true ― they may not. To put it quite clearly, five of those statements are true, but one is false ― which one? Five of you were speaking the truth, one of you was lying. I have a plan that may help me to discover the liar. And if I discover that one of you lied to me ― then I know who the murderer is."
         },
         {
@@ -1628,6 +1911,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "I rather doubt that."
         },
         {
@@ -1635,6 +1919,9 @@
           "speaker": "PARAVICINI",
           "matchedForms": [
             "that"
+          ],
+          "coveringLemmas": [
+            "old chestnut"
           ],
           "text": "Ah, that old chestnut. Reconstruction of the crime."
         },
@@ -1645,6 +1932,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "That's a foreign idea."
         },
         {
@@ -1653,6 +1941,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "And what do you expect to learn from that?"
         },
         {
@@ -1661,6 +1950,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "You will forgive me if I don't make that clear just at the moment."
         },
         {
@@ -1669,6 +1959,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "I can't count anybody out. One might almost believe that you're all guilty by the looks of you. Why are you all so unwilling?"
         },
         {
@@ -1677,6 +1968,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "But, Sergeant, I understood that we were each to repeat our former roles."
         },
         {
@@ -1685,6 +1977,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "There is a point. It is a means of checking up on the original statements, and maybe one statement in particular. Now then, will you all pay attention, please. I will assign each of you your new stations. Mr. Wren, will you kindly go to the kitchen. Just keep an eye on Mrs. Ralston's dinner for her. You're very fond of cooking, I believe. Mr. Paravicini, will you go up to Mr. Wren's room. By the back stairs is the most convenient way. Major Metcalf, will you go up to Mr. Ralston's room and examine the telephone there. Miss Casewell, would you mind going down to the cellars? Mr. Wren will show you the way. Unfortunately, I need someone to reproduce my own actions. I am sorry to ask it of you, Mr. Ralston, but would you go out by that window and follow the telephone wire round to near the front door. Rather a chilly job ― but you're probably the toughest person here."
         },
         {
@@ -1693,6 +1986,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Come now, Mrs. Ralston. We policemen aren't quite so dumb as you think. All along I've realized that you had firsthand knowledge of the Longridge Farm affair. You knew Mrs. Boyle was the magistrate concerned. In fact, you knew all about it. Why didn't you speak up and say so?"
         },
         {
@@ -1701,6 +1995,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "It's true, isn't it, that Jimmy, the child who died, managed to get a letter posted to you? The letter begged for help ― help from his kind young teacher. You never answered that letter."
         },
         {
@@ -1710,6 +2005,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "That's not true. I was ill. I went down with pneumonia that very day. The letter was put aside with others. It was weeks afterwards that I found it with a lot of other letters. And by then that poor child was dead... Dead ― dead...Waiting for me to do something ― hoping ― gradually losing hope...Oh, it's haunted me ever since...If only I hadn't been ill ― if only I'd known...Oh, it's monstrous that such things should happen."
         },
         {
@@ -1718,6 +2014,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "The police don't... I'm not a policeman, Mrs. Ralston. You thought I was a policeman because I rang up from a call box and said I was speaking from police headquarters and that Sergeant Trotter was on his way. I cut the telephone wires before I came to the front door. You know who I am, Mrs. Ralston? I'm Georgie ― I'm Jimmy's brother, Georgie."
         },
         {
@@ -1727,6 +2024,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "You'd better not scream, Mrs. Ralston ― because if you do I shall fire this revolver...I'd like to talk to you a little. I said I'd like to talk to you a little. Jimmy died. That nasty cruel woman killed him. They put her in prison. Prison wasn't bad enough for her. I said I'd kill her one day...I did, too. In the fog. It was great fun. I hope Jimmy knows. \"I'll kill them all when I've grown up.\" That's what I said to myself. Because grown-ups can do anything they like. I'm going to kill you in a minute."
         },
         {
@@ -1735,6 +2033,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "That revolver will make a lot of noise."
         },
         {
@@ -1743,6 +2042,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "Georgie, Georgie, you know me, don't you? Don't you remember the farm, Georgie? The animals, that fat old pig, and the day the bull chased us across the field. And the dogs."
         },
         {
@@ -1751,6 +2051,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "It's all right, Georgie. I'm taking you somewhere where they will look after you, and see that you won't do any more harm."
         },
         {
@@ -1759,6 +2060,7 @@
           "matchedForms": [
             "that"
           ],
+          "coveringLemmas": [],
           "text": "I was mixed up in it all, I taught in the school. It wasn't my fault ― but he thought I could have saved that child."
         },
         {
@@ -1766,6 +2068,9 @@
           "speaker": "MAJOR METCALF",
           "matchedForms": [
             "that"
+          ],
+          "coveringLemmas": [
+            "get hold of"
           ],
           "text": "As soon as we got hold of that notebook with \"Monkswell Manor\" written in it, we saw it was vital to have someone on the spot. When it was put to him, Major Metcalf agreed to let me take his place. I couldn't understand it when Trotter turned up."
         },
@@ -1776,6 +2081,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "I gather they'll examine that car of his rather carefully. I shouldn't be surprised if they found a thousand or so Swiss watches in the spare wheel. Yes, that's his line of business, nasty little bit of goods. Mollie, I believe you thought I was..."
         },
         {
@@ -1785,6 +2091,7 @@
             "that",
             "that's"
           ],
+          "coveringLemmas": [],
           "text": "Oh. That's what I went to London for, and I didn't want you to know."
         }
       ]
@@ -1798,6 +2105,7 @@
       "surfaceForms": "thinking",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "contexts": [
         {
           "speechId": "act2-speech-0363",
@@ -1805,6 +2113,7 @@
           "matchedForms": [
             "thinking"
           ],
+          "coveringLemmas": [],
           "text": "No good shouting at me, young fellow. I wasn't thinking about any damned skis. I was interested in the cellars. Architecture of this place is very interesting. I opened the other door and I went on down. So I can't tell you whether the skis were there or not."
         },
         {
@@ -1813,6 +2122,7 @@
           "matchedForms": [
             "thinking"
           ],
+          "coveringLemmas": [],
           "text": "That's just what I've been thinking, sir."
         },
         {
@@ -1821,6 +2131,7 @@
           "matchedForms": [
             "thinking"
           ],
+          "coveringLemmas": [],
           "text": "I beg your pardon. I was thinking of something else."
         },
         {
@@ -1829,6 +2140,7 @@
           "matchedForms": [
             "thinking"
           ],
+          "coveringLemmas": [],
           "text": "You were thinking I look older. That is quite true."
         }
       ]
@@ -1842,6 +2154,9 @@
       "surfaceForms": "third",
       "allOxfordLevels": "A1/A2",
       "mixedA1": true,
+      "coveringLemmas": [
+        "the third degree"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0372",
@@ -1849,6 +2164,7 @@
           "matchedForms": [
             "third"
           ],
+          "coveringLemmas": [],
           "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
         },
         {
@@ -1856,6 +2172,9 @@
           "speaker": "CHRISTOPHER",
           "matchedForms": [
             "third"
+          ],
+          "coveringLemmas": [
+            "the third degree"
           ],
           "text": "I always thought the police weren't allowed to give people the third degree."
         }
@@ -1870,12 +2189,18 @@
       "surfaceForms": "this",
       "allOxfordLevels": "A1/B1",
       "mixedA1": true,
+      "coveringLemmas": [
+        "make something up"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0057",
           "speaker": "TROTTER",
           "matchedForms": [
             "this"
+          ],
+          "coveringLemmas": [
+            "make something up"
           ],
           "text": "Who was whistling Three Blind Mice? Are you making this up, Mr. Paravicini?"
         },
@@ -1885,6 +2210,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "Not at all. Crypt of an old monastery, I should say. Probably why this place is called \"Monkswell.\""
         },
         {
@@ -1893,6 +2219,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "Please, Mr. Ralston, I'm in charge of this investigation."
         },
         {
@@ -1901,6 +2228,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "Mr. Ralston! Thank you. We've got to establish opportunity, you know, as well as motive. And now let me tell you this ― you all had opportunity. There are two staircases ― anyone could go up by one and come down by the other. Anyone could go down to the cellars by the door near the kitchen and come up by a flight of steps that leads up through a trapdoor to the foot of the stairs over there. The vital fact was that every one of you was alone at the time the murder was committed."
         },
         {
@@ -1909,6 +2237,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "Sergeant Trotter, you think that this ― this crazy killer must be the ― eldest of those three boys at the Farm ― but you don't know that, do you?"
         },
         {
@@ -1917,6 +2246,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "But you don't know where he may be at this minute, and if the son is mentally unstable, the father may have been unstable, too."
         },
         {
@@ -1925,6 +2255,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "You're about the right age. No, no. Whatever you tell me about yourself, I've got no means of checking it at this moment, remember. And then there's your husband."
         },
         {
@@ -1933,6 +2264,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "Just a minute, Mrs. Ralston. This your husband's coat?"
         },
         {
@@ -1941,6 +2273,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "What is all this?"
         },
         {
@@ -1949,6 +2282,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "Perhaps, with the news of this murder..."
         },
         {
@@ -1957,6 +2291,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "I've already said so, haven't I? There's a killer loose in this house ― and it seems to me you fit the bill."
         },
         {
@@ -1965,6 +2300,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "What is all this? Mollie, you must be crazy. Perfectly prepared to shut yourself up in the kitchen with a homicidal maniac."
         },
         {
@@ -1973,6 +2309,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "Rather odd, isn't it, that he should come and stay at an out-of-the-way place like this?"
         },
         {
@@ -1981,6 +2318,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "I read once in a paper that these homicidal cases were able to attract women. Looks as though it were true. Where did you first know him? How long has this been going on?"
         },
         {
@@ -1989,6 +2327,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "Is it? Then what's this? This is one of the gloves you were wearing yesterday. You dropped it. I picked it up this afternoon when I was talking to Sergeant Trotter. You see what's inside it ― a London bus ticket!"
         },
         {
@@ -1997,6 +2336,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "Quite so. Quite so. I know just how you feel. I have been through all this myself when I was a younger man. Jeunesse ― jeunesse ― as the poet says. Not been married long, I imagine?"
         },
         {
@@ -2005,6 +2345,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "Is this true, Mrs. Ralston?"
         },
         {
@@ -2013,6 +2354,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "Now, listen, you people. This is a serious matter. Somebody has removed my only chance of communication with the outside world. I want everybody here ― at once."
         },
         {
@@ -2021,6 +2363,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "No good shouting at me, young fellow. I wasn't thinking about any damned skis. I was interested in the cellars. Architecture of this place is very interesting. I opened the other door and I went on down. So I can't tell you whether the skis were there or not."
         },
         {
@@ -2029,6 +2372,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
         },
         {
@@ -2037,6 +2381,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "That rather depends on the way you're looking at it. Just where were you bound for, by the way, when you had this ― accident?"
         },
         {
@@ -2045,6 +2390,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "In this neighbourhood?"
         },
         {
@@ -2053,6 +2399,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "And what was the name and address of this friend?"
         },
         {
@@ -2061,6 +2408,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "Now really, Sergeant Trotter, does that matter now? I mean, it has nothing to do with this predicament, has it?"
         },
         {
@@ -2069,6 +2417,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "We always like the fullest information. What did you say this friend's name was?"
         },
         {
@@ -2077,6 +2426,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "Enjoying this little game, aren't you? Sure of yourself, too. But I shouldn't be too sure. You're mixed up in a murder case, and don't you forget it. Murder isn't just fun and games."
         },
         {
@@ -2085,6 +2435,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "Not even this murder? Dear me, you're very serious, Sergeant Trotter. I always have thought policemen have no sense of humour. Is the inquisition over ― for the moment?"
         },
         {
@@ -2093,6 +2444,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "Is there anyone in this country who can ― vouch for you?"
         },
         {
@@ -2101,6 +2453,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "No, it's nothing. It's just ― all this ― murder ― it's so horrible. It came over me suddenly. I'll go up to my room."
         },
         {
@@ -2109,6 +2462,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "What is all this?"
         },
         {
@@ -2117,6 +2471,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "This isn't a game, sir."
         },
         {
@@ -2125,6 +2480,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "You'd better not scream, Mrs. Ralston ― because if you do I shall fire this revolver...I'd like to talk to you a little. I said I'd like to talk to you a little. Jimmy died. That nasty cruel woman killed him. They put her in prison. Prison wasn't bad enough for her. I said I'd kill her one day...I did, too. In the fog. It was great fun. I hope Jimmy knows. \"I'll kill them all when I've grown up.\" That's what I said to myself. Because grown-ups can do anything they like. I'm going to kill you in a minute."
         },
         {
@@ -2133,6 +2489,7 @@
           "matchedForms": [
             "this"
           ],
+          "coveringLemmas": [],
           "text": "Yes, it seems she recognized him just before this last business. Didn't know what to do, but fortunately came to me about it, just in time. Well, it's started to thaw, help should be here pretty soon. Oh, by the way, Mrs. Ralston, I'll remove those skis. I hid them on top of the fourposter."
         }
       ]
@@ -2146,6 +2503,7 @@
       "surfaceForms": "thought",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "contexts": [
         {
           "speechId": "act2-speech-0307",
@@ -2153,6 +2511,7 @@
           "matchedForms": [
             "thought"
           ],
+          "coveringLemmas": [],
           "text": "Perhaps you never did know me. We've been married how long ― a year? But you don't really know anything about me. What I'd done or thought or felt or suffered before you knew me."
         },
         {
@@ -2161,6 +2520,7 @@
           "matchedForms": [
             "thought"
           ],
+          "coveringLemmas": [],
           "text": "Mr. Wren is very fond of ski-ing. I thought he might have taken them just to ― get a little exercise."
         },
         {
@@ -2169,6 +2529,7 @@
           "matchedForms": [
             "thought"
           ],
+          "coveringLemmas": [],
           "text": "Not even this murder? Dear me, you're very serious, Sergeant Trotter. I always have thought policemen have no sense of humour. Is the inquisition over ― for the moment?"
         },
         {
@@ -2177,6 +2538,7 @@
           "matchedForms": [
             "thought"
           ],
+          "coveringLemmas": [],
           "text": "I always thought the police weren't allowed to give people the third degree."
         },
         {
@@ -2185,6 +2547,7 @@
           "matchedForms": [
             "thought"
           ],
+          "coveringLemmas": [],
           "text": "I thought the police didn't carry revolvers..."
         },
         {
@@ -2193,6 +2556,7 @@
           "matchedForms": [
             "thought"
           ],
+          "coveringLemmas": [],
           "text": "The police don't... I'm not a policeman, Mrs. Ralston. You thought I was a policeman because I rang up from a call box and said I was speaking from police headquarters and that Sergeant Trotter was on his way. I cut the telephone wires before I came to the front door. You know who I am, Mrs. Ralston? I'm Georgie ― I'm Jimmy's brother, Georgie."
         },
         {
@@ -2201,6 +2565,7 @@
           "matchedForms": [
             "thought"
           ],
+          "coveringLemmas": [],
           "text": "I was mixed up in it all, I taught in the school. It wasn't my fault ― but he thought I could have saved that child."
         },
         {
@@ -2209,6 +2574,7 @@
           "matchedForms": [
             "thought"
           ],
+          "coveringLemmas": [],
           "text": "And I thought it was Paravicini."
         },
         {
@@ -2217,6 +2583,7 @@
           "matchedForms": [
             "thought"
           ],
+          "coveringLemmas": [],
           "text": "I gather they'll examine that car of his rather carefully. I shouldn't be surprised if they found a thousand or so Swiss watches in the spare wheel. Yes, that's his line of business, nasty little bit of goods. Mollie, I believe you thought I was..."
         }
       ]
@@ -2230,6 +2597,11 @@
       "surfaceForms": "time",
       "allOxfordLevels": "A1/B2",
       "mixedA1": true,
+      "coveringLemmas": [
+        "at one’s time of life",
+        "go through",
+        "just in time"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0077",
@@ -2237,6 +2609,7 @@
           "matchedForms": [
             "time"
           ],
+          "coveringLemmas": [],
           "text": "Perhaps not. You know if I were to hear someone screaming blue murder when I was writing a letter, I don't believe I'd take the time to pick up my unfinished letter, fold it and put it in my handbag before going to see what was the matter."
         },
         {
@@ -2245,6 +2618,7 @@
           "matchedForms": [
             "time"
           ],
+          "coveringLemmas": [],
           "text": "Look here, aren't we wasting time? There's one person who..."
         },
         {
@@ -2253,6 +2627,7 @@
           "matchedForms": [
             "time"
           ],
+          "coveringLemmas": [],
           "text": "Mr. Ralston! Thank you. We've got to establish opportunity, you know, as well as motive. And now let me tell you this ― you all had opportunity. There are two staircases ― anyone could go up by one and come down by the other. Anyone could go down to the cellars by the door near the kitchen and come up by a flight of steps that leads up through a trapdoor to the foot of the stairs over there. The vital fact was that every one of you was alone at the time the murder was committed."
         },
         {
@@ -2261,6 +2636,7 @@
           "matchedForms": [
             "time"
           ],
+          "coveringLemmas": [],
           "text": "We've no information. To trace him may take some time, but I can assure you, Mrs. Ralston, that the police take every eventuality into account."
         },
         {
@@ -2269,6 +2645,7 @@
           "matchedForms": [
             "time"
           ],
+          "coveringLemmas": [],
           "text": "You've got to grow up some time, Chris."
         },
         {
@@ -2277,6 +2654,7 @@
           "matchedForms": [
             "time"
           ],
+          "coveringLemmas": [],
           "text": "Perhaps you'd met him before. Perhaps you suggested to him to come here and that you'd both pretend to meet for the first time. All cooked up between you, was it?"
         },
         {
@@ -2285,6 +2663,7 @@
           "matchedForms": [
             "time"
           ],
+          "coveringLemmas": [],
           "text": "At the time Mrs. Boyle was killed."
         },
         {
@@ -2293,6 +2672,7 @@
           "matchedForms": [
             "time"
           ],
+          "coveringLemmas": [],
           "text": "At the time Mrs. Boyle was killed I'd gone down to the cellar."
         },
         {
@@ -2301,6 +2681,7 @@
           "matchedForms": [
             "time"
           ],
+          "coveringLemmas": [],
           "text": "Yes, Miss Casewell. I do. Three blind mice. Two mice cancelled out ― a third mouse still to be dealt with. There are six of you here listening to me. One of you's a killer! One of you's a killer. I don't know which yet, but I shall. And another of you is the killer's prospective victim. That's the person I'm speaking to. Mrs. Boyle held out on me ― Mrs. Boyle is dead. You ― whoever you are ― are holding out on me. Well ― don't. Because you're in danger. Nobody who's killed twice is going to hesitate to kill a third time. And as it is, I don't know which of you it is who needs protection. Come on, now, anybody here who has anything, however slight, to reproach themselves for in that bygone business, had better come out with it. All right ― you won't. I'll get the killer ― I've no doubt of that ― but it may be too late for one of you. And I'll tell you another thing. The killer's enjoying this. Yes, he's enjoying himself a good deal... All right ― you can go."
         },
         {
@@ -2308,6 +2689,9 @@
           "speaker": "TROTTER",
           "matchedForms": [
             "time"
+          ],
+          "coveringLemmas": [
+            "at one’s time of life"
           ],
           "text": "Rather old to be running around with the ladies at your time of life, aren't you?"
         },
@@ -2317,6 +2701,7 @@
           "matchedForms": [
             "time"
           ],
+          "coveringLemmas": [],
           "text": "It's a long time ago. I've forgotten."
         },
         {
@@ -2325,6 +2710,7 @@
           "matchedForms": [
             "time"
           ],
+          "coveringLemmas": [],
           "text": "Sit down, Miss Casewell, Mrs. Ralston... Will you all pay attention, please? You may remember that after the murder of Mrs. Boyle, I took statements from you all. Those statements related to your positions at the time the murder was committed. These statements were as follows: Mrs. Ralston in the kitchen, Mr. Paravicini playing the piano in the drawing room, Mr. Ralston in his bedroom. Mr. Wren ditto. Miss Casewell in the library. Major Metcalf in the cellar."
         },
         {
@@ -2333,6 +2719,9 @@
           "matchedForms": [
             "time"
           ],
+          "coveringLemmas": [
+            "go through"
+          ],
           "text": "No, but supposing everyone was to go through these actions a second time."
         },
         {
@@ -2340,6 +2729,9 @@
           "speaker": "MAJOR METCALF",
           "matchedForms": [
             "time"
+          ],
+          "coveringLemmas": [
+            "just in time"
           ],
           "text": "Yes, it seems she recognized him just before this last business. Didn't know what to do, but fortunately came to me about it, just in time. Well, it's started to thaw, help should be here pretty soon. Oh, by the way, Mrs. Ralston, I'll remove those skis. I hid them on top of the fourposter."
         }
@@ -2354,12 +2746,18 @@
       "surfaceForms": "top",
       "allOxfordLevels": "A2/C1",
       "mixedA1": false,
+      "coveringLemmas": [
+        "on top of"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0618",
           "speaker": "MAJOR METCALF",
           "matchedForms": [
             "top"
+          ],
+          "coveringLemmas": [
+            "on top of"
           ],
           "text": "Yes, it seems she recognized him just before this last business. Didn't know what to do, but fortunately came to me about it, just in time. Well, it's started to thaw, help should be here pretty soon. Oh, by the way, Mrs. Ralston, I'll remove those skis. I hid them on top of the fourposter."
         }
@@ -2374,6 +2772,7 @@
       "surfaceForms": "touch, touched",
       "allOxfordLevels": "A2/B1",
       "mixedA1": false,
+      "coveringLemmas": [],
       "contexts": [
         {
           "speechId": "act2-speech-0301",
@@ -2381,6 +2780,7 @@
           "matchedForms": [
             "touch"
           ],
+          "coveringLemmas": [],
           "text": "Don't touch me."
         },
         {
@@ -2389,6 +2789,7 @@
           "matchedForms": [
             "touch"
           ],
+          "coveringLemmas": [],
           "text": "And I didn't touch 'em."
         },
         {
@@ -2397,6 +2798,7 @@
           "matchedForms": [
             "touched"
           ],
+          "coveringLemmas": [],
           "text": "Talking of chicken, dear lady, have you ever tried chickens' livers served on toast that has been thickly smeared with foie gras, with a very thin rasher of bacon just touched with a soupçon of fresh mustard? I will come with you to the kitchen and we will see what we can concoct together. A charming occupation."
         }
       ]
@@ -2410,6 +2812,7 @@
       "surfaceForms": "train",
       "allOxfordLevels": "A1/A2",
       "mixedA1": true,
+      "coveringLemmas": [],
       "contexts": [
         {
           "speechId": "act2-speech-0173",
@@ -2417,6 +2820,7 @@
           "matchedForms": [
             "train"
           ],
+          "coveringLemmas": [],
           "text": "Only thirty miles from London, aren't you? Oh, you got an ABC? Only an hour by train ― a little longer by car."
         }
       ]
@@ -2430,12 +2834,18 @@
       "surfaceForms": "training",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "Army training"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0165",
           "speaker": "TROTTER",
           "matchedForms": [
             "training"
+          ],
+          "coveringLemmas": [
+            "Army training"
           ],
           "text": "You'd be surprised, Mrs. Ralston, if you knew how many cases rather like yours we get. Especially since the war. Homes broken up and families dead. Fellow says he's been in the Air Force, or just finished his Army training. Parents killed ― no relations. There aren't any backgrounds nowadays and young people settle their own affairs ― they meet and marry. It's parents and relatives who used to make the enquiries before they consented to an engagement. That's all done away with. Girl just marries her man. Sometimes she doesn't find out for a year or two that he's an absconding bank clerk, or an Army deserter or something equally undesirable. How long had you known Giles Ralston when you married him?"
         },
@@ -2445,6 +2855,7 @@
           "matchedForms": [
             "training"
           ],
+          "coveringLemmas": [],
           "text": "And you're not really training to be an architect?"
         }
       ]
@@ -2458,12 +2869,18 @@
       "surfaceForms": "treating",
       "allOxfordLevels": "B1",
       "mixedA1": false,
+      "coveringLemmas": [
+        "ill-treat"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0111",
           "speaker": "TROTTER",
           "matchedForms": [
             "treating"
+          ],
+          "coveringLemmas": [
+            "ill-treat"
           ],
           "text": "We don't actually know a thing. All we've got so far is that the woman who joined with her husband in ill-treating and starving those children has been killed, and that the woman magistrate who was responsible for placing them there has been killed. The telephone wire that links me with police headquarters has been cut..."
         }
@@ -2478,12 +2895,18 @@
       "surfaceForms": "truth",
       "allOxfordLevels": "B1",
       "mixedA1": false,
+      "coveringLemmas": [
+        "speak the truth"
+      ],
       "contexts": [
         {
           "speechId": "act2-speech-0519",
           "speaker": "TROTTER",
           "matchedForms": [
             "truth"
+          ],
+          "coveringLemmas": [
+            "speak the truth"
           ],
           "text": "Those were the statements you made. I had no means of checking these statements. They may be true ― they may not. To put it quite clearly, five of those statements are true, but one is false ― which one? Five of you were speaking the truth, one of you was lying. I have a plan that may help me to discover the liar. And if I discover that one of you lied to me ― then I know who the murderer is."
         }
@@ -2498,6 +2921,7 @@
       "surfaceForms": "tried, try, trying",
       "allOxfordLevels": "A1/B2",
       "mixedA1": true,
+      "coveringLemmas": [],
       "contexts": [
         {
           "speechId": "act2-speech-0217",
@@ -2505,6 +2929,7 @@
           "matchedForms": [
             "try"
           ],
+          "coveringLemmas": [],
           "text": "Perhaps that's why it was so ― awful. It was horrible ― horrible...I try to put it out of my mind. I try never to think about it."
         },
         {
@@ -2513,6 +2938,7 @@
           "matchedForms": [
             "try"
           ],
+          "coveringLemmas": [],
           "text": "I'll try and find him."
         },
         {
@@ -2521,6 +2947,7 @@
           "matchedForms": [
             "try"
           ],
+          "coveringLemmas": [],
           "text": "I'm in the position now where I've got to put myself in the place of a crazy cunning brain. I've got to ask myself what he wants us to do and what he, himself, is planning to do next. I've got to try and keep just one step ahead of him. Because if I don't, there's going to be another death."
         },
         {
@@ -2529,6 +2956,7 @@
           "matchedForms": [
             "tried"
           ],
+          "coveringLemmas": [],
           "text": "Talking of chicken, dear lady, have you ever tried chickens' livers served on toast that has been thickly smeared with foie gras, with a very thin rasher of bacon just touched with a soupçon of fresh mustard? I will come with you to the kitchen and we will see what we can concoct together. A charming occupation."
         },
         {
@@ -2538,6 +2966,7 @@
             "try",
             "trying"
           ],
+          "coveringLemmas": [],
           "text": "That you may not be as old as you ― try to look. There's a lot of people trying to look younger than they are. If somebody goes about trying to look older ― well, it does make one ask oneself why."
         },
         {
@@ -2546,6 +2975,7 @@
           "matchedForms": [
             "try"
           ],
+          "coveringLemmas": [],
           "text": "Well, well ― try again ― that is, if you have any more questions to ask."
         },
         {
@@ -2554,6 +2984,7 @@
           "matchedForms": [
             "trying"
           ],
+          "coveringLemmas": [],
           "text": "What are you trying to prove?"
         }
       ]

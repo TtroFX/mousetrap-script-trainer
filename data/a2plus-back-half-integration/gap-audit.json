@@ -36,6 +36,7 @@
       "surfaceForms": "able",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "able"
     },
     {
@@ -47,6 +48,7 @@
       "surfaceForms": "actually",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "actually"
     },
     {
@@ -58,6 +60,7 @@
       "surfaceForms": "against",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "against"
     },
     {
@@ -69,6 +72,7 @@
       "surfaceForms": "ah",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "ah"
     },
     {
@@ -80,6 +84,7 @@
       "surfaceForms": "allowed",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "allow"
     },
     {
@@ -91,6 +96,7 @@
       "surfaceForms": "almost",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "almost"
     },
     {
@@ -102,6 +108,11 @@
       "surfaceForms": "alone",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "concern someone",
+        "fancy someone doing something",
+        "fancy someone's doing"
+      ],
       "existingLemma": "alone"
     },
     {
@@ -113,6 +124,9 @@
       "surfaceForms": "along",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "all along"
+      ],
       "existingLemma": "along"
     },
     {
@@ -124,6 +138,7 @@
       "surfaceForms": "already",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "already"
     },
     {
@@ -135,6 +150,7 @@
       "surfaceForms": "anybody",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "anybody"
     },
     {
@@ -146,6 +162,7 @@
       "surfaceForms": "anyway",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "anyway"
     },
     {
@@ -157,6 +174,7 @@
       "surfaceForms": "awful",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "awful"
     },
     {
@@ -168,6 +186,10 @@
       "surfaceForms": "beg, begged",
       "allOxfordLevels": "B2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "beg for",
+        "beg your pardon"
+      ],
       "existingLemma": "beg"
     },
     {
@@ -179,6 +201,11 @@
       "surfaceForms": "bit",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "a bit of goods",
+        "bit of goods",
+        "take a risk"
+      ],
       "existingLemma": "bit"
     },
     {
@@ -190,6 +217,9 @@
       "surfaceForms": "care",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "care of"
+      ],
       "existingLemma": "care"
     },
     {
@@ -201,6 +231,7 @@
       "surfaceForms": "carefully",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "carefully"
     },
     {
@@ -212,6 +243,10 @@
       "surfaceForms": "chance, chances",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "by any chance",
+        "take no chances"
+      ],
       "existingLemma": "chance"
     },
     {
@@ -223,6 +258,9 @@
       "surfaceForms": "clearly",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "put it quite clearly"
+      ],
       "existingLemma": "clearly"
     },
     {
@@ -234,6 +272,7 @@
       "surfaceForms": "crazy",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "crazy"
     },
     {
@@ -245,6 +284,7 @@
       "surfaceForms": "dead",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "dead"
     },
     {
@@ -256,6 +296,9 @@
       "surfaceForms": "depends",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "depend on how one looks at it"
+      ],
       "existingLemma": "depend"
     },
     {
@@ -267,6 +310,9 @@
       "surfaceForms": "earth",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "on earth"
+      ],
       "existingLemma": "earth"
     },
     {
@@ -278,6 +324,7 @@
       "surfaceForms": "either",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "either"
     },
     {
@@ -289,6 +336,9 @@
       "surfaceForms": "excellent",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "opportunity"
+      ],
       "existingLemma": "excellent"
     },
     {
@@ -300,6 +350,9 @@
       "surfaceForms": "force",
       "allOxfordLevels": "B1",
       "mixedA1": false,
+      "coveringLemmas": [
+        "Air Force"
+      ],
       "existingLemma": "force"
     },
     {
@@ -311,6 +364,7 @@
       "surfaceForms": "fresh",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "fresh"
     },
     {
@@ -322,6 +376,7 @@
       "surfaceForms": "god",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "god"
     },
     {
@@ -333,6 +388,9 @@
       "surfaceForms": "goodness",
       "allOxfordLevels": "B2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "thank goodness"
+      ],
       "existingLemma": "goodness"
     },
     {
@@ -344,6 +402,7 @@
       "surfaceForms": "hide",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "hide"
     },
     {
@@ -355,6 +414,7 @@
       "surfaceForms": "himself",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "himself"
     },
     {
@@ -366,6 +426,11 @@
       "surfaceForms": "held, hold, holding",
       "allOxfordLevels": "A2/B2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "get hold of",
+        "hold out on",
+        "hold out on someone"
+      ],
       "existingLemma": "hold"
     },
     {
@@ -377,6 +442,9 @@
       "surfaceForms": "hunt",
       "allOxfordLevels": "B1/B2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "Hunt the Thimble"
+      ],
       "existingLemma": "hunt"
     },
     {
@@ -388,6 +456,9 @@
       "surfaceForms": "ill",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "ill-treat"
+      ],
       "existingLemma": "ill"
     },
     {
@@ -399,6 +470,7 @@
       "surfaceForms": "inside",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "inside"
     },
     {
@@ -410,6 +482,7 @@
       "surfaceForms": "instead",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "instead"
     },
     {
@@ -421,6 +494,7 @@
       "surfaceForms": "joke",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "joke"
     },
     {
@@ -432,6 +506,7 @@
       "surfaceForms": "kill, killed, killer, killer's",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "kill"
     },
     {
@@ -443,6 +518,9 @@
       "surfaceForms": "ladies, lady",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "run around with someone"
+      ],
       "existingLemma": "lady"
     },
     {
@@ -454,6 +532,11 @@
       "surfaceForms": "least",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "at least",
+        "not have the least idea",
+        "not in the least"
+      ],
       "existingLemma": "least"
     },
     {
@@ -465,6 +548,7 @@
       "surfaceForms": "loud",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "loud"
     },
     {
@@ -476,6 +560,7 @@
       "surfaceForms": "lovely",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "lovely"
     },
     {
@@ -487,6 +572,9 @@
       "surfaceForms": "mad",
       "allOxfordLevels": "B1",
       "mixedA1": false,
+      "coveringLemmas": [
+        "mad as a hatter"
+      ],
       "existingLemma": "mad"
     },
     {
@@ -498,6 +586,7 @@
       "surfaceForms": "married, marries, marry",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "marry"
     },
     {
@@ -509,6 +598,7 @@
       "surfaceForms": "might",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "might"
     },
     {
@@ -520,6 +610,11 @@
       "surfaceForms": "mind",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "go out of one’s mind",
+        "put something out of one's mind",
+        "would you mind"
+      ],
       "existingLemma": "mind"
     },
     {
@@ -531,6 +626,9 @@
       "surfaceForms": "myself",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "put oneself in the place of"
+      ],
       "existingLemma": "myself"
     },
     {
@@ -542,6 +640,7 @@
       "surfaceForms": "noise",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "noise"
     },
     {
@@ -553,6 +652,7 @@
       "surfaceForms": "perhaps",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "perhaps"
     },
     {
@@ -564,6 +664,7 @@
       "surfaceForms": "served, serving",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "serve"
     },
     {
@@ -575,6 +676,7 @@
       "surfaceForms": "shall",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "shall"
     },
     {
@@ -586,6 +688,7 @@
       "surfaceForms": "shut, shuts",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "shut"
     },
     {
@@ -597,6 +700,7 @@
       "surfaceForms": "simple",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "simple"
     },
     {
@@ -608,6 +712,7 @@
       "surfaceForms": "sir",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "sir"
     },
     {
@@ -619,6 +724,9 @@
       "surfaceForms": "slip, slipped",
       "allOxfordLevels": "B2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "slip up"
+      ],
       "existingLemma": "slip"
     },
     {
@@ -630,6 +738,9 @@
       "surfaceForms": "somewhere",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "get somewhere"
+      ],
       "existingLemma": "somewhere"
     },
     {
@@ -641,6 +752,9 @@
       "surfaceForms": "stairs",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "back stairs"
+      ],
       "existingLemma": "stair"
     },
     {
@@ -652,6 +766,7 @@
       "surfaceForms": "stupid",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "stupid"
     },
     {
@@ -663,6 +778,9 @@
       "surfaceForms": "such",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "such as"
+      ],
       "existingLemma": "such"
     },
     {
@@ -674,6 +792,7 @@
       "surfaceForms": "suggest, suggested",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "suggest"
     },
     {
@@ -685,6 +804,7 @@
       "surfaceForms": "suppose, supposing",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "suppose"
     },
     {
@@ -696,6 +816,7 @@
       "surfaceForms": "sweet",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "sweet"
     },
     {
@@ -707,6 +828,9 @@
       "surfaceForms": "themselves",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [
+        "reproach oneself for"
+      ],
       "existingLemma": "themselves"
     },
     {
@@ -718,6 +842,7 @@
       "surfaceForms": "thin",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "thin"
     },
     {
@@ -729,6 +854,10 @@
       "surfaceForms": "though",
       "allOxfordLevels": "B1",
       "mixedA1": false,
+      "coveringLemmas": [
+        "as though",
+        "look as though"
+      ],
       "existingLemma": "though"
     },
     {
@@ -740,6 +869,7 @@
       "surfaceForms": "unhappy",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "unhappy"
     },
     {
@@ -751,6 +881,7 @@
       "surfaceForms": "wish",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "wish"
     },
     {
@@ -762,6 +893,7 @@
       "surfaceForms": "yours",
       "allOxfordLevels": "A2",
       "mixedA1": false,
+      "coveringLemmas": [],
       "existingLemma": "yours"
     }
   ],
@@ -774,7 +906,11 @@
       "firstSpeechId": "act2-speech-0060",
       "surfaceForms": "after",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "after all",
+        "look after"
+      ]
     },
     {
       "word": "age",
@@ -784,7 +920,10 @@
       "firstSpeechId": "act2-speech-0095",
       "surfaceForms": "age",
       "allOxfordLevels": "A1/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "much of an age"
+      ]
     },
     {
       "word": "aged",
@@ -794,7 +933,10 @@
       "firstSpeechId": "act2-speech-0132",
       "surfaceForms": "aged",
       "allOxfordLevels": "B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "middle-aged"
+      ]
     },
     {
       "word": "alive",
@@ -804,7 +946,8 @@
       "firstSpeechId": "act2-speech-0123",
       "surfaceForms": "alive",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "all",
@@ -814,7 +957,14 @@
       "firstSpeechId": "act2-speech-0082",
       "surfaceForms": "all",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "after all",
+        "all along",
+        "all of a sudden",
+        "all the same",
+        "all to no avail"
+      ]
     },
     {
       "word": "any",
@@ -824,7 +974,11 @@
       "firstSpeechId": "act2-speech-0073",
       "surfaceForms": "any",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "by any chance",
+        "do harm"
+      ]
     },
     {
       "word": "anywhere",
@@ -834,7 +988,8 @@
       "firstSpeechId": "act2-speech-0186",
       "surfaceForms": "anywhere",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "argue",
@@ -844,7 +999,8 @@
       "firstSpeechId": "act2-speech-0459",
       "surfaceForms": "argue",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "arrest",
@@ -854,7 +1010,10 @@
       "firstSpeechId": "act2-speech-0100",
       "surfaceForms": "arrest, arresting",
       "allOxfordLevels": "B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "under arrest"
+      ]
     },
     {
       "word": "as",
@@ -864,7 +1023,17 @@
       "firstSpeechId": "act2-speech-0092",
       "surfaceForms": "as",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "as a result",
+        "as though",
+        "as to",
+        "blind as a bat",
+        "go on as usual",
+        "look as though",
+        "mad as a hatter",
+        "such as"
+      ]
     },
     {
       "word": "aside",
@@ -874,7 +1043,10 @@
       "firstSpeechId": "act2-speech-0584",
       "surfaceForms": "aside",
       "allOxfordLevels": "B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "put aside"
+      ]
     },
     {
       "word": "attention",
@@ -884,7 +1056,10 @@
       "firstSpeechId": "act2-speech-0517",
       "surfaceForms": "attention",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "pay attention"
+      ]
     },
     {
       "word": "back",
@@ -894,7 +1069,10 @@
       "firstSpeechId": "act2-speech-0171",
       "surfaceForms": "back",
       "allOxfordLevels": "A1/A2/B2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "back stairs"
+      ]
     },
     {
       "word": "bat",
@@ -904,7 +1082,10 @@
       "firstSpeechId": "act2-speech-0498",
       "surfaceForms": "bat",
       "allOxfordLevels": "B2/C1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "blind as a bat"
+      ]
     },
     {
       "word": "before",
@@ -914,7 +1095,10 @@
       "firstSpeechId": "act2-speech-0077",
       "surfaceForms": "before",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "just before"
+      ]
     },
     {
       "word": "being",
@@ -924,7 +1108,11 @@
       "firstSpeechId": "act2-speech-0128",
       "surfaceForms": "being",
       "allOxfordLevels": "B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "fancy someone doing something",
+        "fancy someone's doing"
+      ]
     },
     {
       "word": "best",
@@ -934,7 +1122,10 @@
       "firstSpeechId": "act2-speech-0632",
       "surfaceForms": "best",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "for best"
+      ]
     },
     {
       "word": "better",
@@ -944,7 +1135,10 @@
       "firstSpeechId": "act2-speech-0372",
       "surfaceForms": "better",
       "allOxfordLevels": "A1/A2/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "had better"
+      ]
     },
     {
       "word": "between",
@@ -954,7 +1148,8 @@
       "firstSpeechId": "act2-speech-0221",
       "surfaceForms": "between",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "bill",
@@ -964,7 +1159,10 @@
       "firstSpeechId": "act2-speech-0095",
       "surfaceForms": "bill",
       "allOxfordLevels": "A1/B2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "fit the bill"
+      ]
     },
     {
       "word": "bound",
@@ -974,7 +1172,10 @@
       "firstSpeechId": "act2-speech-0392",
       "surfaceForms": "bound",
       "allOxfordLevels": "B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "be bound for"
+      ]
     },
     {
       "word": "broken",
@@ -984,7 +1185,8 @@
       "firstSpeechId": "act2-speech-0165",
       "surfaceForms": "broken",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "burn",
@@ -994,7 +1196,10 @@
       "firstSpeechId": "act2-speech-0637",
       "surfaceForms": "burning",
       "allOxfordLevels": "A2/B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "smell of burning"
+      ]
     },
     {
       "word": "but",
@@ -1004,7 +1209,8 @@
       "firstSpeechId": "act2-speech-0086",
       "surfaceForms": "but",
       "allOxfordLevels": "A1/B2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "by",
@@ -1014,7 +1220,12 @@
       "firstSpeechId": "act2-speech-0092",
       "surfaceForms": "by",
       "allOxfordLevels": "A1/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "by any chance",
+        "by the way",
+        "go by probability"
+      ]
     },
     {
       "word": "can",
@@ -1024,7 +1235,10 @@
       "firstSpeechId": "act2-speech-0103",
       "surfaceForms": "can",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "make someone out"
+      ]
     },
     {
       "word": "cancel",
@@ -1034,7 +1248,10 @@
       "firstSpeechId": "act2-speech-0372",
       "surfaceForms": "cancelled",
       "allOxfordLevels": "B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "cancel out"
+      ]
     },
     {
       "word": "careful",
@@ -1044,7 +1261,8 @@
       "firstSpeechId": "act2-speech-0086",
       "surfaceForms": "careful",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "carve",
@@ -1054,7 +1272,10 @@
       "firstSpeechId": "act2-speech-0379",
       "surfaceForms": "carving",
       "allOxfordLevels": "C1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "carving knife"
+      ]
     },
     {
       "word": "clear",
@@ -1064,7 +1285,8 @@
       "firstSpeechId": "act2-speech-0528",
       "surfaceForms": "clear",
       "allOxfordLevels": "A2/B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "control",
@@ -1074,7 +1296,10 @@
       "firstSpeechId": "act2-speech-0612",
       "surfaceForms": "control",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "under control"
+      ]
     },
     {
       "word": "cook",
@@ -1084,7 +1309,8 @@
       "firstSpeechId": "act2-speech-0272",
       "surfaceForms": "cooked, cooking",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "count",
@@ -1094,7 +1320,11 @@
       "firstSpeechId": "act2-speech-0537",
       "surfaceForms": "count",
       "allOxfordLevels": "A2/B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "count someone out",
+        "count to twenty"
+      ]
     },
     {
       "word": "cut",
@@ -1104,7 +1334,10 @@
       "firstSpeechId": "act2-speech-0111",
       "surfaceForms": "cut",
       "allOxfordLevels": "A1/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "cut off"
+      ]
     },
     {
       "word": "deal",
@@ -1114,7 +1347,10 @@
       "firstSpeechId": "act2-speech-0372",
       "surfaceForms": "deal",
       "allOxfordLevels": "A2/B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "a good deal"
+      ]
     },
     {
       "word": "dear",
@@ -1124,7 +1360,8 @@
       "firstSpeechId": "act2-speech-0075",
       "surfaceForms": "dear, dearest",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "degree",
@@ -1134,7 +1371,10 @@
       "firstSpeechId": "act2-speech-0490",
       "surfaceForms": "degree",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "the third degree"
+      ]
     },
     {
       "word": "discover",
@@ -1144,7 +1384,8 @@
       "firstSpeechId": "act2-speech-0519",
       "surfaceForms": "discover",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "drag",
@@ -1154,7 +1395,8 @@
       "firstSpeechId": "act2-speech-0503",
       "surfaceForms": "dragging",
       "allOxfordLevels": "B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "driving",
@@ -1164,7 +1406,8 @@
       "firstSpeechId": "act2-speech-0239",
       "surfaceForms": "driving",
       "allOxfordLevels": "A2/C1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "drop",
@@ -1174,7 +1417,8 @@
       "firstSpeechId": "act2-speech-0138",
       "surfaceForms": "drop, dropped",
       "allOxfordLevels": "A2/B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "especially",
@@ -1184,7 +1428,8 @@
       "firstSpeechId": "act2-speech-0165",
       "surfaceForms": "especially",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "even",
@@ -1194,7 +1439,11 @@
       "firstSpeechId": "act2-speech-0112",
       "surfaceForms": "even, evening",
       "allOxfordLevels": "A1/B2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "Evening News",
+        "evening paper"
+      ]
     },
     {
       "word": "exactly",
@@ -1204,7 +1453,8 @@
       "firstSpeechId": "act2-speech-0168",
       "surfaceForms": "exactly",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "fair",
@@ -1214,7 +1464,8 @@
       "firstSpeechId": "act2-speech-0102",
       "surfaceForms": "fair",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "far",
@@ -1224,7 +1475,8 @@
       "firstSpeechId": "act2-speech-0111",
       "surfaceForms": "far",
       "allOxfordLevels": "A1/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "fat",
@@ -1234,7 +1486,8 @@
       "firstSpeechId": "act2-speech-0594",
       "surfaceForms": "fat",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "feel",
@@ -1244,7 +1497,8 @@
       "firstSpeechId": "act2-speech-0145",
       "surfaceForms": "feel, felt",
       "allOxfordLevels": "A1/B2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "financial",
@@ -1254,7 +1508,11 @@
       "firstSpeechId": "act2-speech-0465",
       "surfaceForms": "financial",
       "allOxfordLevels": "B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "as to",
+        "financial position"
+      ]
     },
     {
       "word": "finish",
@@ -1264,7 +1522,8 @@
       "firstSpeechId": "act2-speech-0165",
       "surfaceForms": "finished",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "first",
@@ -1274,7 +1533,8 @@
       "firstSpeechId": "act2-speech-0272",
       "surfaceForms": "first",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "fortunately",
@@ -1284,7 +1544,8 @@
       "firstSpeechId": "act2-speech-0618",
       "surfaceForms": "fortunately",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "found",
@@ -1294,7 +1555,8 @@
       "firstSpeechId": "act2-speech-0113",
       "surfaceForms": "found",
       "allOxfordLevels": "B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "frightening",
@@ -1304,7 +1566,8 @@
       "firstSpeechId": "act2-speech-0380",
       "surfaceForms": "frightening",
       "allOxfordLevels": "B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "fun",
@@ -1314,7 +1577,11 @@
       "firstSpeechId": "act2-speech-0309",
       "surfaceForms": "fun",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "fun and games",
+        "innocent fun"
+      ]
     },
     {
       "word": "go",
@@ -1324,7 +1591,20 @@
       "firstSpeechId": "act2-speech-0059",
       "surfaceForms": "go, gone, went",
       "allOxfordLevels": "A1/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "go down to",
+        "go down with",
+        "go into",
+        "go into something",
+        "go off",
+        "go off one's head",
+        "go on",
+        "go on as usual",
+        "go out of one’s mind",
+        "go through",
+        "go up"
+      ]
     },
     {
       "word": "good",
@@ -1334,7 +1614,13 @@
       "firstSpeechId": "act2-speech-0242",
       "surfaceForms": "good",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "Good Lord",
+        "a good deal",
+        "no good",
+        "no good doing something"
+      ]
     },
     {
       "word": "goods",
@@ -1344,7 +1630,11 @@
       "firstSpeechId": "act2-speech-0620",
       "surfaceForms": "goods",
       "allOxfordLevels": "B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "a bit of goods",
+        "bit of goods"
+      ]
     },
     {
       "word": "grand",
@@ -1354,7 +1644,10 @@
       "firstSpeechId": "act2-speech-0423",
       "surfaceForms": "grand",
       "allOxfordLevels": "B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "grand piano"
+      ]
     },
     {
       "word": "grant",
@@ -1364,7 +1657,10 @@
       "firstSpeechId": "act2-speech-0365",
       "surfaceForms": "grant",
       "allOxfordLevels": "B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "grant someone that"
+      ]
     },
     {
       "word": "hate",
@@ -1374,7 +1670,8 @@
       "firstSpeechId": "act2-speech-0204",
       "surfaceForms": "hate, hated",
       "allOxfordLevels": "A1/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "have",
@@ -1384,7 +1681,10 @@
       "firstSpeechId": "act2-speech-0092",
       "surfaceForms": "had, have, having",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "had better"
+      ]
     },
     {
       "word": "head",
@@ -1394,7 +1694,11 @@
       "firstSpeechId": "act2-speech-0128",
       "surfaceForms": "head",
       "allOxfordLevels": "A1/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "go off one's head",
+        "put something into someone's head"
+      ]
     },
     {
       "word": "his",
@@ -1404,7 +1708,13 @@
       "firstSpeechId": "act2-speech-0128",
       "surfaceForms": "his",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "go off one's head",
+        "line of business",
+        "on one’s way",
+        "take someone’s place"
+      ]
     },
     {
       "word": "hook",
@@ -1414,7 +1724,10 @@
       "firstSpeechId": "act2-speech-0330",
       "surfaceForms": "hooked",
       "allOxfordLevels": "B2/C1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "hook it"
+      ]
     },
     {
       "word": "hope",
@@ -1424,7 +1737,8 @@
       "firstSpeechId": "act2-speech-0311",
       "surfaceForms": "hope, hoping",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "house",
@@ -1434,7 +1748,8 @@
       "firstSpeechId": "act2-speech-0186",
       "surfaceForms": "house",
       "allOxfordLevels": "A1/B2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "it",
@@ -1444,7 +1759,23 @@
       "firstSpeechId": "act2-speech-0060",
       "surfaceForms": "it, it's",
       "allOxfordLevels": "A1/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "come out with something",
+        "depend on how one looks at it",
+        "draw out",
+        "hook it",
+        "it doesn’t matter",
+        "make it",
+        "means of checking",
+        "out with it",
+        "pick out a tune",
+        "put it quite clearly",
+        "put something out of one's mind",
+        "see to it that",
+        "stick it out",
+        "trap"
+      ]
     },
     {
       "word": "killing",
@@ -1454,7 +1785,8 @@
       "firstSpeechId": "act2-speech-0083",
       "surfaceForms": "killing",
       "allOxfordLevels": "B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "knife",
@@ -1464,7 +1796,10 @@
       "firstSpeechId": "act2-speech-0379",
       "surfaceForms": "knife",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "carving knife"
+      ]
     },
     {
       "word": "last",
@@ -1474,7 +1809,10 @@
       "firstSpeechId": "act2-speech-0410",
       "surfaceForms": "last",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "the last thing in"
+      ]
     },
     {
       "word": "later",
@@ -1484,7 +1822,8 @@
       "firstSpeechId": "act2-speech-0087",
       "surfaceForms": "later",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "lead",
@@ -1494,7 +1833,8 @@
       "firstSpeechId": "act2-speech-0092",
       "surfaceForms": "leads",
       "allOxfordLevels": "A2/B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "leave",
@@ -1504,7 +1844,8 @@
       "firstSpeechId": "act2-speech-0258",
       "surfaceForms": "leave, left",
       "allOxfordLevels": "A1/B2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "like",
@@ -1514,7 +1855,8 @@
       "firstSpeechId": "act2-speech-0058",
       "surfaceForms": "like",
       "allOxfordLevels": "A1/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "line",
@@ -1524,7 +1866,10 @@
       "firstSpeechId": "act2-speech-0113",
       "surfaceForms": "line",
       "allOxfordLevels": "A1/B2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "line of business"
+      ]
     },
     {
       "word": "link",
@@ -1534,7 +1879,8 @@
       "firstSpeechId": "act2-speech-0111",
       "surfaceForms": "links",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "little",
@@ -1544,7 +1890,12 @@
       "firstSpeechId": "act2-speech-0173",
       "surfaceForms": "little",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "Little Bo Peep",
+        "a bit of goods",
+        "gay"
+      ]
     },
     {
       "word": "live",
@@ -1554,7 +1905,8 @@
       "firstSpeechId": "act2-speech-0465",
       "surfaceForms": "lived",
       "allOxfordLevels": "A1/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "lost",
@@ -1564,7 +1916,8 @@
       "firstSpeechId": "act2-speech-0503",
       "surfaceForms": "lost",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "make",
@@ -1574,7 +1927,11 @@
       "firstSpeechId": "act2-speech-0160",
       "surfaceForms": "made, make",
       "allOxfordLevels": "A1/B2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "make it",
+        "make someone out"
+      ]
     },
     {
       "word": "making",
@@ -1584,7 +1941,10 @@
       "firstSpeechId": "act2-speech-0057",
       "surfaceForms": "making",
       "allOxfordLevels": "B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "make something up"
+      ]
     },
     {
       "word": "manage",
@@ -1594,7 +1954,8 @@
       "firstSpeechId": "act2-speech-0581",
       "surfaceForms": "managed",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "may",
@@ -1604,7 +1965,8 @@
       "firstSpeechId": "act2-speech-0112",
       "surfaceForms": "may",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "middle",
@@ -1614,7 +1976,10 @@
       "firstSpeechId": "act2-speech-0132",
       "surfaceForms": "middle",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "middle-aged"
+      ]
     },
     {
       "word": "mine",
@@ -1624,7 +1989,8 @@
       "firstSpeechId": "act2-speech-0086",
       "surfaceForms": "mine",
       "allOxfordLevels": "A2/B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "minute",
@@ -1634,7 +2000,8 @@
       "firstSpeechId": "act2-speech-0103",
       "surfaceForms": "minute, minutes",
       "allOxfordLevels": "A1/C1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "mixed",
@@ -1644,7 +2011,11 @@
       "firstSpeechId": "act2-speech-0420",
       "surfaceForms": "mixed",
       "allOxfordLevels": "B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "be mixed up in",
+        "mixed up in"
+      ]
     },
     {
       "word": "nasty",
@@ -1654,7 +2025,10 @@
       "firstSpeechId": "act2-speech-0589",
       "surfaceForms": "nasty",
       "allOxfordLevels": "B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "a bit of goods"
+      ]
     },
     {
       "word": "necessarily",
@@ -1664,7 +2038,10 @@
       "firstSpeechId": "act2-speech-0520",
       "surfaceForms": "necessarily",
       "allOxfordLevels": "B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "not necessarily"
+      ]
     },
     {
       "word": "need",
@@ -1674,7 +2051,8 @@
       "firstSpeechId": "act2-speech-0324",
       "surfaceForms": "need, needs",
       "allOxfordLevels": "A1/A2/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "negative",
@@ -1684,7 +2062,10 @@
       "firstSpeechId": "act2-speech-0377",
       "surfaceForms": "negative",
       "allOxfordLevels": "A1/B2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "prove a negative"
+      ]
     },
     {
       "word": "net",
@@ -1694,7 +2075,10 @@
       "firstSpeechId": "act2-speech-0170",
       "surfaceForms": "netting",
       "allOxfordLevels": "B1/C1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "wire netting"
+      ]
     },
     {
       "word": "next",
@@ -1704,7 +2088,8 @@
       "firstSpeechId": "act2-speech-0251",
       "surfaceForms": "next",
       "allOxfordLevels": "A1/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "none",
@@ -1714,7 +2099,11 @@
       "firstSpeechId": "act2-speech-0076",
       "surfaceForms": "none",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "none of someone's business",
+        "none of your business"
+      ]
     },
     {
       "word": "normal",
@@ -1724,7 +2113,8 @@
       "firstSpeechId": "act2-speech-0134",
       "surfaceForms": "normal",
       "allOxfordLevels": "A2/B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "now",
@@ -1734,7 +2124,8 @@
       "firstSpeechId": "act2-speech-0079",
       "surfaceForms": "now",
       "allOxfordLevels": "A1/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "offer",
@@ -1744,7 +2135,8 @@
       "firstSpeechId": "act2-speech-0465",
       "surfaceForms": "offer",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "once",
@@ -1754,7 +2146,10 @@
       "firstSpeechId": "act2-speech-0067",
       "surfaceForms": "once",
       "allOxfordLevels": "A1/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "at once"
+      ]
     },
     {
       "word": "operation",
@@ -1764,7 +2159,10 @@
       "firstSpeechId": "act2-speech-0509",
       "surfaceForms": "operation",
       "allOxfordLevels": "B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "co-operation"
+      ]
     },
     {
       "word": "outside",
@@ -1774,7 +2172,11 @@
       "firstSpeechId": "act2-speech-0113",
       "surfaceForms": "outside",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "just outside",
+        "outside world"
+      ]
     },
     {
       "word": "own",
@@ -1784,7 +2186,12 @@
       "firstSpeechId": "act2-speech-0163",
       "surfaceForms": "own",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "of one's own knowledge",
+        "reproduce",
+        "settle one’s own affairs"
+      ]
     },
     {
       "word": "particular",
@@ -1794,7 +2201,10 @@
       "firstSpeechId": "act2-speech-0083",
       "surfaceForms": "particular",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "in particular"
+      ]
     },
     {
       "word": "pass",
@@ -1804,7 +2214,10 @@
       "firstSpeechId": "act2-speech-0352",
       "surfaceForms": "passed",
       "allOxfordLevels": "A2/B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "pass through"
+      ]
     },
     {
       "word": "pay",
@@ -1814,7 +2227,10 @@
       "firstSpeechId": "act2-speech-0517",
       "surfaceForms": "pay",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "pay attention"
+      ]
     },
     {
       "word": "perform",
@@ -1824,7 +2240,8 @@
       "firstSpeechId": "act2-speech-0548",
       "surfaceForms": "performed",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "pick",
@@ -1834,7 +2251,11 @@
       "firstSpeechId": "act2-speech-0077",
       "surfaceForms": "pick, picked",
       "allOxfordLevels": "A2/B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "pick out a tune",
+        "pick up"
+      ]
     },
     {
       "word": "plain",
@@ -1844,7 +2265,10 @@
       "firstSpeechId": "act2-speech-0596",
       "surfaceForms": "plain",
       "allOxfordLevels": "B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "Spot and Plain"
+      ]
     },
     {
       "word": "planning",
@@ -1854,7 +2278,8 @@
       "firstSpeechId": "act2-speech-0370",
       "surfaceForms": "planning",
       "allOxfordLevels": "B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "please",
@@ -1864,7 +2289,8 @@
       "firstSpeechId": "act2-speech-0090",
       "surfaceForms": "please",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "pleased",
@@ -1874,7 +2300,8 @@
       "firstSpeechId": "act2-speech-0566",
       "surfaceForms": "pleased",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "pocket",
@@ -1884,7 +2311,10 @@
       "firstSpeechId": "act2-speech-0235",
       "surfaceForms": "pocket",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "overcoat pocket"
+      ]
     },
     {
       "word": "possibility",
@@ -1894,7 +2324,8 @@
       "firstSpeechId": "act2-speech-0118",
       "surfaceForms": "possibilities, possibility",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "probability",
@@ -1904,7 +2335,10 @@
       "firstSpeechId": "act2-speech-0117",
       "surfaceForms": "probability",
       "allOxfordLevels": "B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "go by probability"
+      ]
     },
     {
       "word": "pull",
@@ -1914,7 +2348,8 @@
       "firstSpeechId": "act2-speech-0083",
       "surfaceForms": "pulled, pulling",
       "allOxfordLevels": "A2/B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "queen",
@@ -1924,7 +2359,10 @@
       "firstSpeechId": "act2-speech-0495",
       "surfaceForms": "queen",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "Red Queen"
+      ]
     },
     {
       "word": "question",
@@ -1934,7 +2372,8 @@
       "firstSpeechId": "act2-speech-0243",
       "surfaceForms": "question, questions",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "racing",
@@ -1944,7 +2383,8 @@
       "firstSpeechId": "act2-speech-0286",
       "surfaceForms": "racing",
       "allOxfordLevels": "B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "realize",
@@ -1954,7 +2394,8 @@
       "firstSpeechId": "act2-speech-0364",
       "surfaceForms": "realize, realized",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "refer",
@@ -1964,7 +2405,10 @@
       "firstSpeechId": "act2-speech-0465",
       "surfaceForms": "refer",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "refer someone to"
+      ]
     },
     {
       "word": "related",
@@ -1974,7 +2418,10 @@
       "firstSpeechId": "act2-speech-0517",
       "surfaceForms": "related",
       "allOxfordLevels": "B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "relate to"
+      ]
     },
     {
       "word": "repeat",
@@ -1984,7 +2431,10 @@
       "firstSpeechId": "act2-speech-0529",
       "surfaceForms": "repeat",
       "allOxfordLevels": "A1/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "repeat performance"
+      ]
     },
     {
       "word": "research",
@@ -1994,7 +2444,10 @@
       "firstSpeechId": "act2-speech-0083",
       "surfaceForms": "research",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "antiquarian research"
+      ]
     },
     {
       "word": "rest",
@@ -2004,7 +2457,8 @@
       "firstSpeechId": "act2-speech-0102",
       "surfaceForms": "rest",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "result",
@@ -2014,7 +2468,10 @@
       "firstSpeechId": "act2-speech-0573",
       "surfaceForms": "result",
       "allOxfordLevels": "A1/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "as a result"
+      ]
     },
     {
       "word": "role",
@@ -2024,7 +2481,10 @@
       "firstSpeechId": "act2-speech-0555",
       "surfaceForms": "roles",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "former"
+      ]
     },
     {
       "word": "round",
@@ -2034,7 +2494,8 @@
       "firstSpeechId": "act2-speech-0239",
       "surfaceForms": "round",
       "allOxfordLevels": "A2/B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "run",
@@ -2044,7 +2505,10 @@
       "firstSpeechId": "act2-speech-0204",
       "surfaceForms": "ran, run",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "run away"
+      ]
     },
     {
       "word": "running",
@@ -2054,7 +2518,13 @@
       "firstSpeechId": "act2-speech-0191",
       "surfaceForms": "running",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "run around with",
+        "run around with someone",
+        "run away",
+        "run away from something"
+      ]
     },
     {
       "word": "say",
@@ -2064,7 +2534,11 @@
       "firstSpeechId": "act2-speech-0069",
       "surfaceForms": "said, say, saying, says",
       "allOxfordLevels": "A1/C1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "speak up",
+        "what someone says goes"
+      ]
     },
     {
       "word": "second",
@@ -2074,7 +2548,10 @@
       "firstSpeechId": "act2-speech-0523",
       "surfaceForms": "second",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "go through"
+      ]
     },
     {
       "word": "sense",
@@ -2084,7 +2561,10 @@
       "firstSpeechId": "act2-speech-0421",
       "surfaceForms": "sense",
       "allOxfordLevels": "A2/B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "sense of humour"
+      ]
     },
     {
       "word": "service",
@@ -2094,7 +2574,10 @@
       "firstSpeechId": "act2-speech-0204",
       "surfaceForms": "service",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "Army service"
+      ]
     },
     {
       "word": "set",
@@ -2104,7 +2587,11 @@
       "firstSpeechId": "act2-speech-0277",
       "surfaceForms": "set",
       "allOxfordLevels": "B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "set eyes on",
+        "set to"
+      ]
     },
     {
       "word": "settle",
@@ -2114,7 +2601,10 @@
       "firstSpeechId": "act2-speech-0165",
       "surfaceForms": "settle",
       "allOxfordLevels": "B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "settle one’s own affairs"
+      ]
     },
     {
       "word": "shout",
@@ -2124,7 +2614,10 @@
       "firstSpeechId": "act2-speech-0060",
       "surfaceForms": "shouting",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "no good doing something"
+      ]
     },
     {
       "word": "side",
@@ -2134,7 +2627,8 @@
       "firstSpeechId": "act2-speech-0287",
       "surfaceForms": "side",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "smell",
@@ -2144,7 +2638,10 @@
       "firstSpeechId": "act2-speech-0637",
       "surfaceForms": "smell",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "smell of burning"
+      ]
     },
     {
       "word": "smoke",
@@ -2154,7 +2651,8 @@
       "firstSpeechId": "act2-speech-0627",
       "surfaceForms": "smoke",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "social",
@@ -2164,7 +2662,10 @@
       "firstSpeechId": "act2-speech-0465",
       "surfaceForms": "social",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "social reference"
+      ]
     },
     {
       "word": "soldier",
@@ -2174,7 +2675,8 @@
       "firstSpeechId": "act2-speech-0134",
       "surfaceForms": "soldier",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "sometime",
@@ -2184,7 +2686,8 @@
       "firstSpeechId": "act2-speech-0165",
       "surfaceForms": "sometimes",
       "allOxfordLevels": "B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "sort",
@@ -2194,7 +2697,8 @@
       "firstSpeechId": "act2-speech-0168",
       "surfaceForms": "sort",
       "allOxfordLevels": "A2/B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "sound",
@@ -2204,7 +2708,8 @@
       "firstSpeechId": "act2-speech-0140",
       "surfaceForms": "sound, sounds",
       "allOxfordLevels": "A1/C1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "spell",
@@ -2214,7 +2719,8 @@
       "firstSpeechId": "act2-speech-0435",
       "surfaceForms": "spell",
       "allOxfordLevels": "A1/C1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "spot",
@@ -2224,7 +2730,11 @@
       "firstSpeechId": "act2-speech-0596",
       "surfaceForms": "spot",
       "allOxfordLevels": "B1/B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "Spot and Plain",
+        "on the spot"
+      ]
     },
     {
       "word": "stay",
@@ -2234,7 +2744,8 @@
       "firstSpeechId": "act2-speech-0105",
       "surfaceForms": "stay, staying",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "step",
@@ -2244,7 +2755,12 @@
       "firstSpeechId": "act2-speech-0080",
       "surfaceForms": "step, steps",
       "allOxfordLevels": "A2/B2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "flight of steps",
+        "keep one step ahead",
+        "one step ahead of"
+      ]
     },
     {
       "word": "stick",
@@ -2254,7 +2770,10 @@
       "firstSpeechId": "act2-speech-0222",
       "surfaceForms": "stick",
       "allOxfordLevels": "B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "stick it out"
+      ]
     },
     {
       "word": "still",
@@ -2264,7 +2783,8 @@
       "firstSpeechId": "act2-speech-0324",
       "surfaceForms": "still",
       "allOxfordLevels": "A1/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "sudden",
@@ -2274,7 +2794,10 @@
       "firstSpeechId": "act2-speech-0306",
       "surfaceForms": "sudden",
       "allOxfordLevels": "B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "all of a sudden"
+      ]
     },
     {
       "word": "suddenly",
@@ -2284,7 +2807,10 @@
       "firstSpeechId": "act2-speech-0060",
       "surfaceForms": "suddenly",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "come over someone"
+      ]
     },
     {
       "word": "suggestion",
@@ -2294,7 +2820,8 @@
       "firstSpeechId": "act2-speech-0137",
       "surfaceForms": "suggestions",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "sure",
@@ -2304,7 +2831,8 @@
       "firstSpeechId": "act2-speech-0297",
       "surfaceForms": "sure",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "tackle",
@@ -2314,7 +2842,10 @@
       "firstSpeechId": "act2-speech-0080",
       "surfaceForms": "tackle",
       "allOxfordLevels": "B2/C1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "sports tackle"
+      ]
     },
     {
       "word": "talk",
@@ -2324,7 +2855,10 @@
       "firstSpeechId": "act2-speech-0245",
       "surfaceForms": "talk, talking",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "talking of"
+      ]
     },
     {
       "word": "that",
@@ -2334,7 +2868,15 @@
       "firstSpeechId": "act2-speech-0058",
       "surfaceForms": "that, that's",
       "allOxfordLevels": "A1/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "get hold of",
+        "go into something",
+        "grant someone that",
+        "none of your business",
+        "old chestnut",
+        "see to it that"
+      ]
     },
     {
       "word": "thinking",
@@ -2344,7 +2886,8 @@
       "firstSpeechId": "act2-speech-0363",
       "surfaceForms": "thinking",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "third",
@@ -2354,7 +2897,10 @@
       "firstSpeechId": "act2-speech-0372",
       "surfaceForms": "third",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "the third degree"
+      ]
     },
     {
       "word": "this",
@@ -2364,7 +2910,10 @@
       "firstSpeechId": "act2-speech-0057",
       "surfaceForms": "this",
       "allOxfordLevels": "A1/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "make something up"
+      ]
     },
     {
       "word": "thought",
@@ -2374,7 +2923,8 @@
       "firstSpeechId": "act2-speech-0307",
       "surfaceForms": "thought",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "time",
@@ -2384,7 +2934,12 @@
       "firstSpeechId": "act2-speech-0077",
       "surfaceForms": "time",
       "allOxfordLevels": "A1/B2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "at one’s time of life",
+        "go through",
+        "just in time"
+      ]
     },
     {
       "word": "top",
@@ -2394,7 +2949,10 @@
       "firstSpeechId": "act2-speech-0618",
       "surfaceForms": "top",
       "allOxfordLevels": "A2/C1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "on top of"
+      ]
     },
     {
       "word": "touch",
@@ -2404,7 +2962,8 @@
       "firstSpeechId": "act2-speech-0301",
       "surfaceForms": "touch, touched",
       "allOxfordLevels": "A2/B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "train",
@@ -2414,7 +2973,8 @@
       "firstSpeechId": "act2-speech-0173",
       "surfaceForms": "train",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "training",
@@ -2424,7 +2984,10 @@
       "firstSpeechId": "act2-speech-0165",
       "surfaceForms": "training",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "Army training"
+      ]
     },
     {
       "word": "treat",
@@ -2434,7 +2997,10 @@
       "firstSpeechId": "act2-speech-0111",
       "surfaceForms": "treating",
       "allOxfordLevels": "B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "ill-treat"
+      ]
     },
     {
       "word": "truth",
@@ -2444,7 +3010,10 @@
       "firstSpeechId": "act2-speech-0519",
       "surfaceForms": "truth",
       "allOxfordLevels": "B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "speak the truth"
+      ]
     },
     {
       "word": "try",
@@ -2454,7 +3023,8 @@
       "firstSpeechId": "act2-speech-0217",
       "surfaceForms": "tried, try, trying",
       "allOxfordLevels": "A1/B2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "unfortunately",
@@ -2464,7 +3034,8 @@
       "firstSpeechId": "act2-speech-0558",
       "surfaceForms": "unfortunately",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "upstairs",
@@ -2474,7 +3045,8 @@
       "firstSpeechId": "act2-speech-0061",
       "surfaceForms": "upstairs",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "used",
@@ -2484,7 +3056,8 @@
       "firstSpeechId": "act2-speech-0165",
       "surfaceForms": "used",
       "allOxfordLevels": "B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "very",
@@ -2494,7 +3067,11 @@
       "firstSpeechId": "act2-speech-0060",
       "surfaceForms": "very",
       "allOxfordLevels": "A1/B2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "be fond of",
+        "wide field"
+      ]
     },
     {
       "word": "wait",
@@ -2504,7 +3081,8 @@
       "firstSpeechId": "act2-speech-0103",
       "surfaceForms": "wait, waiting",
       "allOxfordLevels": "A1/A2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "war",
@@ -2514,7 +3092,8 @@
       "firstSpeechId": "act2-speech-0165",
       "surfaceForms": "war, waring",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "way",
@@ -2524,7 +3103,15 @@
       "firstSpeechId": "act2-speech-0117",
       "surfaceForms": "way",
       "allOxfordLevels": "A1/B2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": [
+        "by the way",
+        "depend on how one looks at it",
+        "on one’s way",
+        "out-of-the-way",
+        "point one way",
+        "usual"
+      ]
     },
     {
       "word": "well",
@@ -2534,7 +3121,8 @@
       "firstSpeechId": "act2-speech-0059",
       "surfaceForms": "well",
       "allOxfordLevels": "A1/C1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "wheel",
@@ -2544,7 +3132,10 @@
       "firstSpeechId": "act2-speech-0620",
       "surfaceForms": "wheel",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "spare wheel"
+      ]
     },
     {
       "word": "wide",
@@ -2554,7 +3145,10 @@
       "firstSpeechId": "act2-speech-0147",
       "surfaceForms": "wide",
       "allOxfordLevels": "A2",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": [
+        "wide field"
+      ]
     },
     {
       "word": "worry",
@@ -2564,7 +3158,8 @@
       "firstSpeechId": "act2-speech-0257",
       "surfaceForms": "worry, worrying",
       "allOxfordLevels": "A2/B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "written",
@@ -2574,7 +3169,8 @@
       "firstSpeechId": "act2-speech-0616",
       "surfaceForms": "written",
       "allOxfordLevels": "B1",
-      "mixedA1": false
+      "mixedA1": false,
+      "coveringLemmas": []
     },
     {
       "word": "wrong",
@@ -2584,7 +3180,8 @@
       "firstSpeechId": "act2-speech-0160",
       "surfaceForms": "wrong",
       "allOxfordLevels": "A1/B1/B2",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     },
     {
       "word": "young",
@@ -2594,7 +3191,8 @@
       "firstSpeechId": "act2-speech-0095",
       "surfaceForms": "young, younger",
       "allOxfordLevels": "A1/B1",
-      "mixedA1": true
+      "mixedA1": true,
+      "coveringLemmas": []
     }
   ]
 }
