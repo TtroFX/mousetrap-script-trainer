@@ -6,6 +6,7 @@ on:
     paths:
       - "scripts/repair-stage-direction-speech-leakage.mjs"
       - "scripts/finalize-stage-direction-repair.py"
+      - "scripts/repair-a2plus-generator-invariant.py"
       - ".github/workflows/repair-stage-direction-speech-leakage.yml"
 
 permissions:
@@ -51,13 +52,17 @@ jobs:
         run: python scripts/finalize-stage-direction-repair.py
 
       - name: Regenerate A2+ candidate lists from corrected spoken text
-        run: node scripts/generate-a2plus-candidate-lists.mjs
+        run: |
+          python scripts/repair-a2plus-generator-invariant.py
+          node scripts/generate-a2plus-candidate-lists.mjs
 
       - name: Validate canonical and runtime data
         run: |
-          python -m py_compile scripts/finalize-stage-direction-repair.py
+          python -m py_compile scripts/finalize-stage-direction-repair.py scripts/repair-a2plus-generator-invariant.py
+          rm -rf scripts/__pycache__
           node scripts/validate-stage-directions.mjs
           node --check scripts/repair-stage-direction-speech-leakage.mjs
+          node --check scripts/generate-a2plus-candidate-lists.mjs
           node --check app/src/data-store.js
           node --check app/scripts/assemble-production.mjs
           cd app
