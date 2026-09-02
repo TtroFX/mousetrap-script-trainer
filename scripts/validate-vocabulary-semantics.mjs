@@ -144,6 +144,16 @@ requireContext('act2-speech-0612', 'unconscious', text => /意識/.test(text), '
 requireContext('act1-scene1-speech-0001', 'rise', text => /幕が上が/.test(text), 'Act I Scene I curtain-rise context regressed');
 requireContext('act1-scene2-speech-0001', 'rise', text => /幕が上が/.test(text), 'Act I Scene II curtain-rise context regressed');
 requireContext('act2-speech-0379', 'cut off', text => /尾を切り落とす/.test(text), 'cut off tails context regressed');
+requireContext('act2-speech-0307', 'feel', text => /過去分詞/.test(text) && /感情/.test(text), 'felt emotional sense regressed');
+requireContext('act2-speech-0577', 'Waring', text => /姓/.test(text) && /戦争.*無関係/.test(text), 'Waring surname sense regressed');
+requireContext('act1-scene1-speech-0108', 'indeed', text => /deed/.test(text), 'In-deed/indeed sense regressed');
+
+if ((bySpeechLemma.get('act2-speech-0307\u0000felt hat') || []).length) fail('emotional felt mapped to felt hat');
+if ((bySpeechLemma.get('act2-speech-0577\u0000war') || []).length) fail('Waring surname mapped to war');
+if ((bySpeechLemma.get('act1-scene1-speech-0108\u0000deed') || []).length) fail('In-deed mapped to deed');
+if ((vocab['act1-scene1-speech-0098'] || []).some(item => item.lemma === 'hold up' && /puts down a suitcase/.test(item.surface))) {
+  fail('puts down stage direction mapped to hold up');
+}
 
 console.log(JSON.stringify({
   status: 'PASS',

@@ -8,14 +8,14 @@
     "dictionaryMustRemainNeutral": true
   },
   "counts": {
-    "dictionaryEntries": 1375,
-    "vocabularyItems": 2926,
-    "contextItems": 754,
-    "properNounOccurrences": 99,
-    "properNounMissingContext": 17,
+    "dictionaryEntries": 1809,
+    "vocabularyItems": 3754,
+    "contextItems": 869,
+    "properNounOccurrences": 102,
+    "properNounMissingContext": 18,
     "genericProperNounMissingContext": 0,
     "dictionaryPlayContextCandidates": 0,
-    "repeatedContextGroups": 29
+    "repeatedContextGroups": 34
   },
   "compact": {
     "genericProperNounMissingContext": [],
@@ -91,6 +91,10 @@
         "context": "Monkswell Manorの宿泊客で、Majorの軍階級で呼ばれる人物。"
       },
       {
+        "count": 6,
+        "context": "ここでは紙に描かれた「絵」。"
+      },
+      {
         "count": 5,
         "context": "ここでは「不安な」ではなく、anxious to ... の形で「ぜひ~したい/強く望む」の意味。"
       },
@@ -109,6 +113,22 @@
       {
         "count": 4,
         "context": "ここでは「集める」ではなく、I gather ... の形で「話や状況から~だと理解する/推測する」の意味。"
+      },
+      {
+        "count": 4,
+        "context": "ここではBritish Englishの用法で、場所の周囲・一帯を『あちこち回って』という意味。"
+      },
+      {
+        "count": 4,
+        "context": "ここでは事件当時に各人がした「動作・行動」。"
+      },
+      {
+        "count": 4,
+        "context": "ここでは建物内の玄関ホール。"
+      },
+      {
+        "count": 4,
+        "context": "ここでは門から建物まで続く「私道・進入路」。"
       },
       {
         "count": 4,
@@ -2102,6 +2122,42 @@
       ]
     },
     {
+      "context": "ここでは紙に描かれた「絵」。",
+      "count": 6,
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0119",
+          "lemma": "drawing",
+          "surface": "drawing"
+        },
+        {
+          "speechId": "act1-scene2-speech-0134",
+          "lemma": "drawing",
+          "surface": "drawing"
+        },
+        {
+          "speechId": "act1-scene2-speech-0152",
+          "lemma": "drawing",
+          "surface": "drawing"
+        },
+        {
+          "speechId": "act1-scene2-speech-0206",
+          "lemma": "drawing",
+          "surface": "drawing"
+        },
+        {
+          "speechId": "act1-scene2-speech-0294",
+          "lemma": "drawing",
+          "surface": "drawing"
+        },
+        {
+          "speechId": "act2-speech-0047",
+          "lemma": "drawing",
+          "surface": "drawing"
+        }
+      ]
+    },
+    {
       "context": "ここでは「不安な」ではなく、anxious to ... の形で「ぜひ~したい/強く望む」の意味。",
       "count": 5,
       "occurrences": [
@@ -2243,6 +2299,110 @@
           "speechId": "act2-speech-0620",
           "lemma": "gather",
           "surface": "gather"
+        }
+      ]
+    },
+    {
+      "context": "ここではBritish Englishの用法で、場所の周囲・一帯を『あちこち回って』という意味。",
+      "count": 4,
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0239",
+          "lemma": "round",
+          "surface": "round"
+        },
+        {
+          "speechId": "act2-speech-0286",
+          "lemma": "round",
+          "surface": "round"
+        },
+        {
+          "speechId": "act2-speech-0287",
+          "lemma": "round",
+          "surface": "round"
+        },
+        {
+          "speechId": "act2-speech-0558",
+          "lemma": "round",
+          "surface": "round"
+        }
+      ]
+    },
+    {
+      "context": "ここでは事件当時に各人がした「動作・行動」。",
+      "count": 4,
+      "occurrences": [
+        {
+          "speechId": "act2-speech-0523",
+          "lemma": "action",
+          "surface": "actions"
+        },
+        {
+          "speechId": "act2-speech-0548",
+          "lemma": "action",
+          "surface": "actions"
+        },
+        {
+          "speechId": "act2-speech-0556",
+          "lemma": "action",
+          "surface": "actions"
+        },
+        {
+          "speechId": "act2-speech-0558",
+          "lemma": "action",
+          "surface": "actions"
+        }
+      ]
+    },
+    {
+      "context": "ここでは建物内の玄関ホール。",
+      "count": 4,
+      "occurrences": [
+        {
+          "speechId": "act1-scene2-speech-0324",
+          "lemma": "hall",
+          "surface": "hall"
+        },
+        {
+          "speechId": "act2-speech-0007",
+          "lemma": "hall",
+          "surface": "hall"
+        },
+        {
+          "speechId": "act2-speech-0022",
+          "lemma": "hall",
+          "surface": "hall"
+        },
+        {
+          "speechId": "act2-speech-0056",
+          "lemma": "hall",
+          "surface": "hall"
+        }
+      ]
+    },
+    {
+      "context": "ここでは門から建物まで続く「私道・進入路」。",
+      "count": 4,
+      "occurrences": [
+        {
+          "speechId": "act1-scene1-speech-0044",
+          "lemma": "drive",
+          "surface": "drive"
+        },
+        {
+          "speechId": "act1-scene1-speech-0081",
+          "lemma": "drive",
+          "surface": "drive"
+        },
+        {
+          "speechId": "act1-scene1-speech-0085",
+          "lemma": "drive",
+          "surface": "drive"
+        },
+        {
+          "speechId": "act1-scene1-speech-0177",
+          "lemma": "drive",
+          "surface": "drive"
         }
       ]
     },

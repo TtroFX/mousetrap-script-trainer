@@ -6,10 +6,10 @@
     "expectation": "Single words should read like dictionary entries. Multi-POS single words should normally separate meanings by part of speech rather than collapse them into one combined header."
   },
   "counts": {
-    "dictionaryEntries": 1807,
-    "singleTokenEntries": 1160,
+    "dictionaryEntries": 1809,
+    "singleTokenEntries": 1162,
     "singleWordNoHeader": 0,
-    "multiPosSingleWords": 172,
+    "multiPosSingleWords": 173,
     "multiPosCombinedHeader": 0,
     "multiPosWithoutSeparateHeaders": 0
   },
@@ -19,13 +19,13 @@
     "multiPosWithoutSeparateHeaders": []
   },
   "headerLabelCounts": {
-    "名詞": 525,
+    "名詞": 526,
     "形容詞": 230,
-    "動詞": 214,
+    "動詞": 215,
     "副詞": 111,
     "名": 92,
     "動": 69,
-    "固有名詞": 42,
+    "固有名詞": 43,
     "形": 41,
     "副": 26,
     "代名詞": 17,

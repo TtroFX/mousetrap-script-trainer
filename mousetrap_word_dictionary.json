@@ -35,10 +35,10 @@
     "lemma": "a lot may happen",
     "ipa": "",
     "pos": "定型表現",
-    "coreMeaning": "雪が解けるまでに状況が大きく変わっているかもしれない、という意図的に不穏で曖昧な言い方。何が起こるかは明言していない。",
+    "coreMeaning": "多くのことが起こるかもしれない、状況が大きく変わる可能性がある。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "雪が解けるまでに状況が大きく変わっているかもしれない、という意図的に不穏で曖昧な言い方。何が起こるかは明言していない。"
+    "meaning": "多くのことが起こるかもしれない、状況が大きく変わる可能性がある。"
   },
   "a policeman skiing": {
     "lemma": "a policeman skiing",
@@ -323,10 +323,10 @@
     "lemma": "adore",
     "ipa": "",
     "pos": "動詞",
-    "coreMeaning": "【動詞】\n崇拝するほどではなく、料理が大好きだというChristopherらしい強い口語的表現。",
+    "coreMeaning": "【動詞】\n① 崇拝する\n② 大好きである、非常に好む。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【動詞】\n崇拝するほどではなく、料理が大好きだというChristopherらしい強い口語的表現。"
+    "meaning": "【動詞】\n① 崇拝する\n② 大好きである、非常に好む。"
   },
   "advance": {
     "lemma": "advance",
@@ -1548,10 +1548,10 @@
     "lemma": "bedrock respectability",
     "ipa": "",
     "pos": "名詞句",
-    "coreMeaning": "古風な家具が醸し出す、揺るぎない『ちゃんとした中流・上流家庭らしさ』をChristopherが大げさに称賛している。",
+    "coreMeaning": "揺るぎない、根本的な社会的信用・体面。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "古風な家具が醸し出す、揺るぎない『ちゃんとした中流・上流家庭らしさ』をChristopherが大げさに称賛している。"
+    "meaning": "揺るぎない、根本的な社会的信用・体面。"
   },
   "bedroom": {
     "lemma": "bedroom",
@@ -4327,13 +4327,13 @@
     "lemma": "dogsbody",
     "ipa": "",
     "pos": "名詞",
-    "coreMeaning": "【名詞】\n家族の中で、誰もやりたがらない雑用を何でも押しつけられる人。Christopherの架空のヴィクトリア朝家庭像の一部。",
+    "coreMeaning": "【名詞】\n雑用を何でもさせられる人、下働き。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [
       "British",
       "informal"
     ],
-    "meaning": "【名詞】\n家族の中で、誰もやりたがらない雑用を何でも押しつけられる人。Christopherの架空のヴィクトリア朝家庭像の一部。"
+    "meaning": "【名詞】\n雑用を何でもさせられる人、下働き。"
   },
   "door creak": {
     "lemma": "door creak",
@@ -4466,10 +4466,10 @@
     "lemma": "dramatic",
     "ipa": "",
     "pos": "形容詞",
-    "coreMeaning": "【形容詞】\n単に劇に関するという意味ではなく、自分の登場がいかにも芝居がかっていて面白い状況だという自己演出。",
+    "coreMeaning": "【形容詞】\n① 劇・演劇の\n② 劇的な、印象的な、芝居がかった。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【形容詞】\n単に劇に関するという意味ではなく、自分の登場がいかにも芝居がかっていて面白い状況だという自己演出。"
+    "meaning": "【形容詞】\n① 劇・演劇の\n② 劇的な、印象的な、芝居がかった。"
   },
   "draught": {
     "lemma": "draught",
@@ -5265,10 +5265,10 @@
     "lemma": "faded",
     "ipa": "",
     "pos": "形容詞",
-    "coreMeaning": "【形容詞】\n色があせたというより、疲れや年齢で華やかさを失った母親という戯画的描写。",
+    "coreMeaning": "【形容詞】\n色・新鮮さ・活力などが薄れた、色あせた。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【形容詞】\n色があせたというより、疲れや年齢で華やかさを失った母親という戯画的描写。"
+    "meaning": "【形容詞】\n色・新鮮さ・活力などが薄れた、色あせた。"
   },
   "fair": {
     "lemma": "fair",
@@ -5389,6 +5389,17 @@
     "tags": [],
     "meaning": "【名詞】\n危険や悪い結果を予想して感じる恐れ、不安。\n【動詞】\nまた、それを恐れる。"
   },
+  "feel": {
+    "lemma": "feel",
+    "ipa": "/fiːl/",
+    "pos": "動詞・名詞",
+    "coreMeaning": "【動詞】\n① 感じる、感覚・感情を覚える\n② 触って確かめる。\n【名詞】\n感触、感じ。",
+    "forms": "feel - felt - felt",
+    "tags": [
+      "polysemy"
+    ],
+    "meaning": "【動詞】\n① 感じる、感覚・感情を覚える\n② 触って確かめる。\n【名詞】\n感触、感じ。"
+  },
   "fellow": {
     "lemma": "fellow",
     "ipa": "",
@@ -5443,10 +5454,10 @@
     "lemma": "feminine spirit",
     "ipa": "",
     "pos": "名詞句",
-    "coreMeaning": "女性らしい自信や魅力を発揮する気質、というChristopherの誇張された一般論。",
+    "coreMeaning": "伝統的に女性らしいと見なされてきた気質・魅力・自信。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "女性らしい自信や魅力を発揮する気質、というChristopherの誇張された一般論。"
+    "meaning": "伝統的に女性らしいと見なされてきた気質・魅力・自信。"
   },
   "field": {
     "lemma": "field",
@@ -5953,10 +5964,10 @@
     "lemma": "frame someone for",
     "ipa": "",
     "pos": "動詞句",
-    "coreMeaning": "Christopherが、自分が犯していない殺人の犯人に仕立て上げられると恐れている。事実として警察がそうしているという意味ではない。",
+    "coreMeaning": "人にぬれぎぬを着せ、していない犯罪の犯人に仕立てる。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "Christopherが、自分が犯していない殺人の犯人に仕立て上げられると恐れている。事実として警察がそうしているという意味ではない。"
+    "meaning": "人にぬれぎぬを着せ、していない犯罪の犯人に仕立てる。"
   },
   "France": {
     "lemma": "France",
@@ -6164,12 +6175,12 @@
     "lemma": "full particulars",
     "ipa": "",
     "pos": "名詞句",
-    "coreMeaning": "館内にいる全員について、捜査に必要な詳しい身元・事情を集めるという警察上の意味。",
+    "coreMeaning": "必要な事項を漏れなく含む詳しい情報、詳細。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [
       "formal"
     ],
-    "meaning": "館内にいる全員について、捜査に必要な詳しい身元・事情を集めるという警察上の意味。"
+    "meaning": "必要な事項を漏れなく含む詳しい情報、詳細。"
   },
   "fully": {
     "lemma": "fully",
@@ -6447,10 +6458,10 @@
     "lemma": "get somewhere",
     "ipa": "",
     "pos": "慣用表現",
-    "coreMeaning": "新しい気づきによって捜査がようやく前進しそうだ、という意味。物理的にどこかへ移動することではない。",
+    "coreMeaning": "進展する、成果を上げる、目的に近づく。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "新しい気づきによって捜査がようやく前進しそうだ、という意味。物理的にどこかへ移動することではない。"
+    "meaning": "進展する、成果を上げる、目的に近づく。"
   },
   "get the bit between one's teeth": {
     "lemma": "get the bit between one's teeth",
@@ -6494,10 +6505,10 @@
     "lemma": "get to business",
     "ipa": "",
     "pos": "定型表現",
-    "coreMeaning": "雑談や到着の処理を終えて、警察官として来た本来の用件の説明を始めること。",
+    "coreMeaning": "本題・仕事に取りかかる。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "雑談や到着の処理を終えて、警察官として来た本来の用件の説明を始めること。"
+    "meaning": "本題・仕事に取りかかる。"
   },
   "get to the bottom of": {
     "lemma": "get to the bottom of",
@@ -6775,10 +6786,10 @@
     "lemma": "go into something",
     "ipa": "",
     "pos": "句動詞",
-    "coreMeaning": "Christopherが本名について詳しく話すことを避け、話題を打ち切ろうとしている。",
+    "coreMeaning": "① ～の中へ入る\n② ～を詳しく論じる・調べる。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "Christopherが本名について詳しく話すことを避け、話題を打ち切ろうとしている。"
+    "meaning": "① ～の中へ入る\n② ～を詳しく論じる・調べる。"
   },
   "go off": {
     "lemma": "go off",
@@ -8367,12 +8378,12 @@
     "lemma": "indeterminate build",
     "ipa": "",
     "pos": "名詞句",
-    "coreMeaning": "目撃情報から体格をはっきり特定できず、容疑者を絞る特徴にならないという意味。",
+    "coreMeaning": "はっきり分類・特定できない体格。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [
       "formal"
     ],
-    "meaning": "目撃情報から体格をはっきり特定できず、容疑者を絞る特徴にならないという意味。"
+    "meaning": "はっきり分類・特定できない体格。"
   },
   "Indian Army": {
     "lemma": "Indian Army",
@@ -8905,10 +8916,10 @@
     "lemma": "keep one step ahead",
     "ipa": "",
     "pos": "慣用表現",
-    "coreMeaning": "犯人が動く前に意図を読み、次の殺人を防げる程度に先回りすること。",
+    "coreMeaning": "相手・状況より一歩先を行き、先回りする。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "犯人が動く前に意図を読み、次の殺人を防げる程度に先回りすること。"
+    "meaning": "相手・状況より一歩先を行き、先回りする。"
   },
   "kick": {
     "lemma": "kick",
@@ -9623,10 +9634,10 @@
     "lemma": "madly",
     "ipa": "",
     "pos": "副詞",
-    "coreMeaning": "【副詞】\n『狂ったように』ではなく、非常に・ものすごく面白いというChristopherらしい誇張。",
+    "coreMeaning": "【副詞】\n① 狂ったように\n② 口語で、非常に・ものすごく。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【副詞】\n『狂ったように』ではなく、非常に・ものすごく面白いというChristopherらしい誇張。"
+    "meaning": "【副詞】\n① 狂ったように\n② 口語で、非常に・ものすごく。"
   },
   "madman": {
     "lemma": "madman",
@@ -11210,10 +11221,10 @@
     "lemma": "on file",
     "ipa": "",
     "pos": "定型表現",
-    "coreMeaning": "指紋が警察の記録として登録・保管されていたため、別名を使っていた女性の身元を確認できたという意味。",
+    "coreMeaning": "記録として保管・登録されていて、参照できる状態で。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "指紋が警察の記録として登録・保管されていたため、別名を使っていた女性の身元を確認できたという意味。"
+    "meaning": "記録として保管・登録されていて、参照できる状態で。"
   },
   "on leave": {
     "lemma": "on leave",
@@ -12017,12 +12028,12 @@
     "lemma": "place reliance on",
     "ipa": "",
     "pos": "動詞句",
-    "coreMeaning": "住所や配給手帳のような情報だけでは、宿泊客の本当の身元を保証する証拠として十分信用できない、という捜査上の意味。",
+    "coreMeaning": "～を信頼する、～を頼りにする。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [
       "formal"
     ],
-    "meaning": "住所や配給手帳のような情報だけでは、宿泊客の本当の身元を保証する証拠として十分信用できない、という捜査上の意味。"
+    "meaning": "～を信頼する、～を頼りにする。"
   },
   "play the market": {
     "lemma": "play the market",
@@ -12079,12 +12090,12 @@
     "lemma": "plummy",
     "ipa": "",
     "pos": "形容詞",
-    "coreMeaning": "【形容詞】\nマホガニーの濃く赤紫がかった、重厚で少しけばけばしい色合いをChristopherが面白がって表現している。",
+    "coreMeaning": "【形容詞】\n① プラムのような濃い赤紫色の\n② 声が豊かで気取った響きの。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [
       "British"
     ],
-    "meaning": "【形容詞】\nマホガニーの濃く赤紫がかった、重厚で少しけばけばしい色合いをChristopherが面白がって表現している。"
+    "meaning": "【形容詞】\n① プラムのような濃い赤紫色の\n② 声が豊かで気取った響きの。"
   },
   "pneumonia": {
     "lemma": "pneumonia",
@@ -12940,13 +12951,13 @@
     "lemma": "queer in the head",
     "ipa": "",
     "pos": "古い口語表現",
-    "coreMeaning": "精神状態がおかしいという意味で用いられた古い侮蔑的な言い方。",
+    "coreMeaning": "精神状態が正常でないと決めつける、古く侮蔑的な口語表現。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [
       "dated",
       "offensive"
     ],
-    "meaning": "精神状態がおかしいという意味で用いられた古い侮蔑的な言い方。"
+    "meaning": "精神状態が正常でないと決めつける、古く侮蔑的な口語表現。"
   },
   "quick curtain": {
     "lemma": "quick curtain",
@@ -13884,10 +13895,10 @@
     "lemma": "save",
     "ipa": "",
     "pos": "動詞",
-    "coreMeaning": "【動詞】\n命を救われたという大げさな自己演出で、宿を見つけて凍死を免れたという意味。",
+    "coreMeaning": "【動詞】\n① 危険・死などから救う\n② 保存する、取っておく\n③ 節約する。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【動詞】\n命を救われたという大げさな自己演出で、宿を見つけて凍死を免れたという意味。"
+    "meaning": "【動詞】\n① 危険・死などから救う\n② 保存する、取っておく\n③ 節約する。"
   },
   "scarf": {
     "lemma": "scarf",
@@ -14663,10 +14674,10 @@
     "lemma": "slip up",
     "ipa": "",
     "pos": "句動詞",
-    "coreMeaning": "犯罪者もいずれ捜査上の手掛かりになるミスを犯す、という意味。",
+    "coreMeaning": "不注意から間違いをする、しくじる。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "犯罪者もいずれ捜査上の手掛かりになるミスを犯す、という意味。"
+    "meaning": "不注意から間違いをする、しくじる。"
   },
   "smear with": {
     "lemma": "smear with",
@@ -15031,10 +15042,10 @@
     "lemma": "spoil the effect",
     "ipa": "",
     "pos": "動詞句",
-    "coreMeaning": "小さなテーブルが、Christopherの好む古風で統一された室内の雰囲気を台無しにすること。",
+    "coreMeaning": "意図した印象・効果を損なう、台無しにする。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "小さなテーブルが、Christopherの好む古風で統一された室内の雰囲気を台無しにすること。"
+    "meaning": "意図した印象・効果を損なう、台無しにする。"
   },
   "sporting": {
     "lemma": "sporting",
@@ -16215,12 +16226,12 @@
     "lemma": "the last thing in",
     "ipa": "",
     "pos": "古風な慣用表現",
-    "coreMeaning": "店員がその帽子を「最新流行の型」だと説明した、という意味。最後に残った帽子という意味ではない。",
+    "coreMeaning": "（古風）～における最新の流行・型・技術。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [
       "dated"
     ],
-    "meaning": "店員がその帽子を「最新流行の型」だと説明した、という意味。最後に残った帽子という意味ではない。"
+    "meaning": "（古風）～における最新の流行・型・技術。"
   },
   "the third degree": {
     "lemma": "the third degree",
@@ -16490,12 +16501,12 @@
     "lemma": "to no avail",
     "ipa": "",
     "pos": "定型表現",
-    "coreMeaning": "スキーをいろいろな場所で探したが、結局何の成果もなかったという意味。",
+    "coreMeaning": "何の効果・成果もなく、むだに。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [
       "formal"
     ],
-    "meaning": "スキーをいろいろな場所で探したが、結局何の成果もなかったという意味。"
+    "meaning": "何の効果・成果もなく、むだに。"
   },
   "to this effect": {
     "lemma": "to this effect",
@@ -16560,10 +16571,10 @@
     "lemma": "trace someone's whereabouts",
     "ipa": "",
     "pos": "動詞句",
-    "coreMeaning": "養女となったCorrigan家の少女が現在どこにいるのか、警察が追跡して確認すること。",
+    "coreMeaning": "人の現在の居場所を追跡して突き止める。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "養女となったCorrigan家の少女が現在どこにいるのか、警察が追跡して確認すること。"
+    "meaning": "人の現在の居場所を追跡して突き止める。"
   },
   "tragic": {
     "lemma": "tragic",
@@ -17371,6 +17382,17 @@
     ],
     "meaning": "【副詞】\n警戒しながら、用心深く。"
   },
+  "Waring": {
+    "lemma": "Waring",
+    "ipa": "",
+    "pos": "固有名詞",
+    "coreMeaning": "【固有名詞】\n英語圏の姓 Waring。",
+    "forms": "固有名詞のため語形変化なし",
+    "tags": [
+      "proper-noun"
+    ],
+    "meaning": "【固有名詞】\n英語圏の姓 Waring。"
+  },
   "warm one’s hands": {
     "lemma": "warm one’s hands",
     "ipa": "/wˈɔːm wˈɒnz hˈandz/",
@@ -17513,10 +17535,10 @@
     "lemma": "what someone is like",
     "ipa": "",
     "pos": "定型表現",
-    "coreMeaning": "外見ではなく、その人の本当の性格・人間性がどんなものかという意味。",
+    "coreMeaning": "人の性格・特徴・様子がどのようなものか。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "外見ではなく、その人の本当の性格・人間性がどんなものかという意味。"
+    "meaning": "人の性格・特徴・様子がどのようなものか。"
   },
   "what someone says goes": {
     "lemma": "what someone says goes",
@@ -17874,10 +17896,10 @@
     "lemma": "woodworm",
     "ipa": "",
     "pos": "名詞",
-    "coreMeaning": "【名詞】\nミミズではなく、オーク材に木食い虫の被害があるという意味。",
+    "coreMeaning": "【名詞】\n木材を食害する甲虫の幼虫、またはその虫害。",
     "forms": "文脈に応じた語形・活用を取る。",
     "tags": [],
-    "meaning": "【名詞】\nミミズではなく、オーク材に木食い虫の被害があるという意味。"
+    "meaning": "【名詞】\n木材を食害する甲虫の幼虫、またはその虫害。"
   },
   "word": {
     "lemma": "word",
