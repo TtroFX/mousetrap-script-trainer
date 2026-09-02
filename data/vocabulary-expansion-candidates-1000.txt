@@ -1,0 +1,1008 @@
+# The Mousetrap - vocabulary expansion candidates
+# Generated from 1164 canonical speech lines
+# Existing dictionary entries and vocabulary already listed for each speech were excluded
+# Candidates: 1000 (single words: 456, phrases: 544)
+# LINE = global speech line (1-based); SPEECH_ID = canonical script ID; OCCURRENCES = normalized count
+# Candidate list only: verify context and part of speech before dictionary integration.
+
+NO	LINE	SPEECH_ID	TYPE	LEMMA	SURFACE	OCCURRENCES
+1	1	act1-scene1-speech-0001	WORD	accord	according, According	3
+2	1	act1-scene1-speech-0001	WORD	bind	bound	2
+3	1	act1-scene1-speech-0001	PHRASE-2	bind road	bound roads	1
+4	1	act1-scene1-speech-0001	PHRASE-2	certain freezing	certain freezing	1
+5	1	act1-scene1-speech-0001	WORD	country	country	9
+6	1	act1-scene1-speech-0001	PHRASE-3	crime take place	crime took place	2
+7	1	act1-scene1-speech-0001	WORD	dark	dark	5
+8	1	act1-scene1-speech-0001	PHRASE-2	dark overcoat	dark overcoat	2
+9	1	act1-scene1-speech-0001	PHRASE-3	dark overcoat light	dark overcoat light	1
+10	1	act1-scene1-speech-0001	PHRASE-2	heavy snow	heavy snow	2
+11	1	act1-scene1-speech-0001	PHRASE-3	ice bind road	ice bound roads	1
+12	1	act1-scene1-speech-0001	WORD	interview	interview	4
+13	1	act1-scene1-speech-0001	PHRASE-3	interview a man	interview a man	3
+14	1	act1-scene1-speech-0001	PHRASE-2	light scarf	light scarf	2
+15	1	act1-scene1-speech-0001	WORD	man	man, men	20
+16	1	act1-scene1-speech-0001	PHRASE-2	murder woman	murdered woman	2
+17	1	act1-scene1-speech-0001	WORD	north	north, North	3
+18	1	act1-scene1-speech-0001	WORD	northeast	northeast	1
+19	1	act1-scene1-speech-0001	PHRASE-2	northeast coast	northeast coast	1
+20	1	act1-scene1-speech-0001	PHRASE-2	overcoat light	overcoat light	1
+21	1	act1-scene1-speech-0001	PHRASE-3	place at twenty	place at twenty	2
+22	1	act1-scene1-speech-0001	WORD	police	police	26
+23	1	act1-scene1-speech-0001	WORD	snow	snow, snowed	26
+24	1	act1-scene1-speech-0001	WORD	twenty	twenty	10
+25	1	act1-scene1-speech-0001	WORD	vicinity	vicinity	3
+26	1	act1-scene1-speech-0001	WORD	warn	warned	3
+27	1	act1-scene1-speech-0001	PHRASE-3	warn against ice	warned against ice	1
+28	1	act1-scene1-speech-0001	WORD	wear	wearing, wear	7
+29	1	act1-scene1-speech-0001	WORD	woman	woman, women	25
+30	2	act1-scene1-speech-0002	WORD	cold	cold	7
+31	2	act1-scene1-speech-0002	WORD	nice	nice	9
+32	4	act1-scene1-speech-0004	WORD	work	work, worked	2
+33	5	act1-scene1-speech-0005	WORD	leave	leave, left, Left, Leave	16
+34	7	act1-scene1-speech-0007	WORD	nose	nose	1
+35	7	act1-scene1-speech-0007	WORD	sweetheart	sweetheart	1
+36	8	act1-scene1-speech-0008	WORD	come	come, coming, comes, Come	79
+37	9	act1-scene1-speech-0009	WORD	weather	weather	8
+38	10	act1-scene1-speech-0010	WORD	chicken	chicken, chickens	5
+39	10	act1-scene1-speech-0010	WORD	forget	forgotten, forget, forgetting, forgot	12
+40	10	act1-scene1-speech-0010	WORD	get	get, got, Got, getting	109
+41	10	act1-scene1-speech-0010	PHRASE-3	get the chicken	get the chicken	1
+42	10	act1-scene1-speech-0010	WORD	go	go, went, going, Go	122
+43	11	act1-scene1-speech-0011	WORD	anything	anything	18
+44	11	act1-scene1-speech-0011	WORD	day	day, days	9
+45	11	act1-scene1-speech-0011	WORD	good	good, better, best, goods	27
+46	11	act1-scene1-speech-0011	WORD	half	half	5
+47	11	act1-scene1-speech-0011	WORD	right	right	40
+48	11	act1-scene1-speech-0011	PHRASE-2	right kind	right kind	1
+49	11	act1-scene1-speech-0011	PHRASE-3	skid like anything	skidding like anything	1
+50	11	act1-scene1-speech-0011	PHRASE-3	snow up tomorrow	snowed up tomorrow	1
+51	11	act1-scene1-speech-0011	WORD	tomorrow	tomorrow	2
+52	11	act1-scene1-speech-0011	WORD	whole	whole	5
+53	11	act1-scene1-speech-0011	PHRASE-2	whole day	whole day	1
+54	12	act1-scene1-speech-0012	WORD	dear	dear, dears	13
+55	12	act1-scene1-speech-0012	WORD	hope	hope, Hope	13
+56	13	act1-scene1-speech-0013	WORD	keep	keep, keeping, kept	9
+57	13	act1-scene1-speech-0013	WORD	much	much, Much	23
+58	13	act1-scene1-speech-0013	WORD	send	send, sending, sent	7
+59	13	act1-scene1-speech-0013	PHRASE-3	send the coke	send the coke	1
+60	14	act1-scene1-speech-0014	WORD	everything	everything	10
+61	14	act1-scene1-speech-0014	WORD	first	first	6
+62	14	act1-scene1-speech-0014	WORD	important	important	3
+63	14	act1-scene1-speech-0014	PHRASE-2	want everything	want everything	1
+64	15	act1-scene1-speech-0015	WORD	arrive	arrived, arrive, arriving	11
+65	15	act1-scene1-speech-0015	WORD	ready	ready	2
+66	16	act1-scene1-speech-0016	WORD	early	early	1
+67	16	act1-scene1-speech-0016	PHRASE-3	everything in order	everything in order	1
+68	16	act1-scene1-speech-0016	WORD	hook	hooked	2
+69	16	act1-scene1-speech-0016	WORD	order	order, ordered	3
+70	16	act1-scene1-speech-0016	WORD	thank	thank, Thank	9
+71	16	act1-scene1-speech-0016	WORD	think	think, thinking, thought, Thought	96
+72	16	act1-scene1-speech-0016	PHRASE-2	think everything	think everything	1
+73	17	act1-scene1-speech-0017	WORD	leaf	leaves	1
+74	17	act1-scene1-speech-0017	PHRASE-2	leaf everything	leaves everything	1
+75	19	act1-scene1-speech-0019	WORD	ask	ask, asked, asking	14
+76	19	act1-scene1-speech-0019	WORD	cook	cook, cooking, cooked	7
+77	19	act1-scene1-speech-0019	WORD	long	long	16
+78	20	act1-scene1-speech-0020	PHRASE-2	get lot	got lots	1
+79	20	act1-scene1-speech-0020	WORD	lot	lots, lot	14
+80	20	act1-scene1-speech-0020	PHRASE-3	lot of tin	lots of tins	1
+81	21	act1-scene1-speech-0021	WORD	foot	feet, foot	4
+82	21	act1-scene1-speech-0021	WORD	house	house, houses	19
+83	21	act1-scene1-speech-0021	WORD	idea	idea, ideas	9
+84	21	act1-scene1-speech-0021	PHRASE-2	mad idea	mad idea	1
+85	21	act1-scene1-speech-0021	WORD	run	running, ran, run, runs	17
+86	21	act1-scene1-speech-0021	WORD	sell	sell, sold, Sold	3
+87	21	act1-scene1-speech-0021	PHRASE-3	sell the place	sell the place	1
+88	21	act1-scene1-speech-0021	WORD	sorry	sorry	7
+89	22	act1-scene1-speech-0022	WORD	love	love	5
+90	22	act1-scene1-speech-0022	WORD	talk	talking, talk, Talking	10
+91	23	act1-scene1-speech-0023	WORD	pretty	Pretty, pretty	6
+92	23	act1-scene1-speech-0023	PHRASE-2	pretty good	Pretty good	1
+93	25	act1-scene1-speech-0025	WORD	however	However, however	3
+94	25	act1-scene1-speech-0025	WORD	name	name, names	19
+95	27	act1-scene1-speech-0027	WORD	icy	icy	1
+96	27	act1-scene1-speech-0027	PHRASE-2	icy yard	icy yard	1
+97	27	act1-scene1-speech-0027	WORD	night	night	7
+98	28	act1-scene1-speech-0028	WORD	eleven	eleven	3
+99	28	act1-scene1-speech-0028	PHRASE-3	eleven at night	eleven at night	1
+100	30	act1-scene1-speech-0030	WORD	minute	minute, minutes	8
+101	31	act1-scene1-speech-0031	WORD	room	rooms, room	35
+102	33	act1-scene1-speech-0033	PHRASE-2	get rent	got rent	1
+103	33	act1-scene1-speech-0033	WORD	people	people	34
+104	33	act1-scene1-speech-0033	PHRASE-3	rent in advance	rent in advance	1
+105	35	act1-scene1-speech-0035	WORD	game	game, games	6
+106	36	act1-scene1-speech-0036	WORD	bring	bring, brought, Brought, Bring	9
+107	36	act1-scene1-speech-0036	PHRASE-2	bring luggage	bring luggage	1
+108	36	act1-scene1-speech-0036	WORD	pay	pay, paying	7
+109	37	act1-scene1-speech-0037	PHRASE-3	course in hotel	course in hotel	1
+110	37	act1-scene1-speech-0037	WORD	help	help, helping	11
+111	37	act1-scene1-speech-0037	WORD	sure	sure	10
+112	37	act1-scene1-speech-0037	PHRASE-3	take a correspondence	taken a correspondence	1
+113	37	act1-scene1-speech-0037	WORD	way	way	25
+114	38	act1-scene1-speech-0038	PHRASE-2	good address	good addresses	1
+115	38	act1-scene1-speech-0038	WORD	write	wrote, write, writing, written	15
+116	40	act1-scene1-speech-0040	WORD	week	week, weeks	8
+117	41	act1-scene1-speech-0041	WORD	wonderful	wonderful	3
+118	41	act1-scene1-speech-0041	PHRASE-2	wonderful woman	wonderful woman	1
+119	42	act1-scene1-speech-0042	PHRASE-2	icebound road	icebound roads	1
+120	42	act1-scene1-speech-0042	PHRASE-3	warn against icebound	warned against icebound	1
+121	44	act1-scene1-speech-0044	PHRASE-3	attempt the drive	attempt the drive	1
+122	44	act1-scene1-speech-0044	WORD	delightful	delightful	1
+123	44	act1-scene1-speech-0044	WORD	give	gave, given, give, Give	14
+124	44	act1-scene1-speech-0044	PHRASE-2	simply awful	simply awful	1
+125	46	act1-scene1-speech-0046	WORD	bird	birds	1
+126	46	act1-scene1-speech-0046	WORD	brass	brass	1
+127	46	act1-scene1-speech-0046	WORD	flower	flowers	1
+128	46	act1-scene1-speech-0046	PHRASE-3	get any wax	got any wax	1
+129	46	act1-scene1-speech-0046	WORD	know	know, knowing, knows, known	124
+130	46	act1-scene1-speech-0046	PHRASE-3	love this place	love this place	1
+131	46	act1-scene1-speech-0046	WORD	table	table, tables	9
+132	46	act1-scene1-speech-0046	PHRASE-2	terrifically grim	terrifically grim	1
+133	46	act1-scene1-speech-0046	WORD	wax	wax	1
+134	46	act1-scene1-speech-0046	PHRASE-2	whole place	whole place	1
+135	47	act1-scene1-speech-0047	WORD	afraid	afraid	9
+136	48	act1-scene1-speech-0048	WORD	carve	carved, carving	2
+137	48	act1-scene1-speech-0048	PHRASE-2	carve fruit	carved fruits	1
+138	48	act1-scene1-speech-0048	WORD	great	great	4
+139	48	act1-scene1-speech-0048	PHRASE-2	mahogany sideboard	mahogany sideboard	1
+140	48	act1-scene1-speech-0048	PHRASE-2	plummy mahogany	plummy mahogany	1
+141	48	act1-scene1-speech-0048	WORD	purple	purple	2
+142	48	act1-scene1-speech-0048	PHRASE-2	purple plummy	purple plummy	1
+143	48	act1-scene1-speech-0048	PHRASE-3	purple plummy mahogany	purple plummy mahogany	1
+144	49	act1-scene1-speech-0049	WORD	dining	dining	5
+145	51	act1-scene1-speech-0051	WORD	warm	warm	3
+146	52	act1-scene1-speech-0052	PHRASE-2	absolutely perfect	Absolutely perfect	1
+147	52	act1-scene1-speech-0052	WORD	away	away	22
+148	52	act1-scene1-speech-0052	PHRASE-2	centre mahogany	centre mahogany	1
+149	52	act1-scene1-speech-0052	PHRASE-2	mahogany table	mahogany table	1
+150	52	act1-scene1-speech-0052	WORD	perfect	perfect	2
+151	53	act1-scene1-speech-0053	WORD	prefer	prefer	1
+152	53	act1-scene1-speech-0053	PHRASE-2	think guest	thought guests	1
+153	54	act1-scene1-speech-0054	WORD	age	ages, age, aged	8
+154	54	act1-scene1-speech-0054	PHRASE-2	assort age	assorted ages	1
+155	54	act1-scene1-speech-0054	WORD	back	back	18
+156	54	act1-scene1-speech-0054	WORD	call	called, calls, Call, call	9
+157	54	act1-scene1-speech-0054	WORD	child	children, child	24
+158	54	act1-scene1-speech-0054	PHRASE-2	dining table	dining table	1
+159	54	act1-scene1-speech-0054	PHRASE-2	eleven child	eleven children	1
+160	54	act1-scene1-speech-0054	PHRASE-2	fade mother	faded mother	1
+161	54	act1-scene1-speech-0054	WORD	family	family, families	2
+162	54	act1-scene1-speech-0054	WORD	father	father	5
+163	54	act1-scene1-speech-0054	WORD	feeling	feeling	2
+164	54	act1-scene1-speech-0054	PHRASE-3	feeling for period	feeling for period	1
+165	54	act1-scene1-speech-0054	PHRASE-2	good home	good home	1
+166	54	act1-scene1-speech-0054	PHRASE-2	grim governess	grim governess	1
+167	54	act1-scene1-speech-0054	WORD	handsome	handsome	1
+168	54	act1-scene1-speech-0054	PHRASE-2	handsome father	handsome father	1
+169	54	act1-scene1-speech-0054	WORD	little	little	28
+170	54	act1-scene1-speech-0054	PHRASE-2	little table	little tables	1
+171	54	act1-scene1-speech-0054	PHRASE-2	mahogany dining	mahogany dining	1
+172	54	act1-scene1-speech-0054	WORD	mother	mother	6
+173	54	act1-scene1-speech-0054	PHRASE-2	mother eleven	mother eleven	1
+174	54	act1-scene1-speech-0054	WORD	poor	poor	5
+175	54	act1-scene1-speech-0054	PHRASE-2	right family	right family	1
+176	54	act1-scene1-speech-0054	WORD	somebody	somebody	5
+177	55	act1-scene1-speech-0055	WORD	say	say, said, says, saying	70
+178	55	act1-scene1-speech-0055	PHRASE-2	suitcase upstairs	suitcase upstairs	1
+179	55	act1-scene1-speech-0055	WORD	upstairs	upstairs	8
+180	57	act1-scene1-speech-0057	PHRASE-2	chintz rose	chintz roses	1
+181	57	act1-scene1-speech-0057	PHRASE-2	little chintz	little chintz	1
+182	57	act1-scene1-speech-0057	PHRASE-3	little chintz rose	little chintz roses	1
+183	59	act1-scene1-speech-0059	WORD	believe	believe, believed	20
+184	60	act1-scene1-speech-0060	WORD	like	like, liked	9
+185	60	act1-scene1-speech-0060	WORD	year	year, years	9
+186	61	act1-scene1-speech-0061	WORD	interesting	interesting	6
+187	61	act1-scene1-speech-0061	WORD	mean	mean, meant	24
+188	61	act1-scene1-speech-0061	PHRASE-2	think people	think people, thought people	2
+189	61	act1-scene1-speech-0061	WORD	tick	Ticked	1
+190	63	act1-scene1-speech-0063	WORD	agree	agree, agreed	4
+191	63	act1-scene1-speech-0063	WORD	anyone	anyone	7
+192	63	act1-scene1-speech-0063	WORD	never	never, Never	22
+193	67	act1-scene1-speech-0067	WORD	baptize	baptized	1
+194	67	act1-scene1-speech-0067	WORD	christopher	Christopher	3
+195	67	act1-scene1-speech-0067	PHRASE-2	course everyone	course everyone	1
+196	67	act1-scene1-speech-0067	WORD	everyone	everyone	7
+197	67	act1-scene1-speech-0067	WORD	find	find, found	26
+198	67	act1-scene1-speech-0067	WORD	last	last	12
+199	67	act1-scene1-speech-0067	WORD	make	makes, make, made, Makes	26
+200	67	act1-scene1-speech-0067	PHRASE-2	make joke	makes jokes	1
+201	67	act1-scene1-speech-0067	WORD	wife	wife	13
+202	69	act1-scene1-speech-0069	WORD	beautiful	beautiful	2
+203	71	act1-scene1-speech-0071	WORD	always	always, Always	17
+204	71	act1-scene1-speech-0071	PHRASE-3	matter of course	matter of course	1
+205	71	act1-scene1-speech-0071	WORD	something	something	16
+206	71	act1-scene1-speech-0071	PHRASE-2	take compliment	take compliments	1
+207	71	act1-scene1-speech-0071	PHRASE-3	woman take compliment	women take compliments	1
+208	74	act1-scene1-speech-0074	WORD	hot	hot	3
+209	74	act1-scene1-speech-0074	PHRASE-2	hot water	hot water	1
+210	74	act1-scene1-speech-0074	PHRASE-3	hot water boiler	hot water boiler	1
+211	74	act1-scene1-speech-0074	WORD	water	water	2
+212	74	act1-scene1-speech-0074	PHRASE-2	water boiler	water boiler	1
+213	80	act1-scene1-speech-0080	WORD	door	door, doors	20
+214	80	act1-scene1-speech-0080	PHRASE-3	leave the door	leave the door	1
+215	81	act1-scene1-speech-0081	PHRASE-2	great difficulty	great difficulty	1
+216	81	act1-scene1-speech-0081	WORD	meet	meet, met	13
+217	81	act1-scene1-speech-0081	WORD	seem	seems, seem, seemed	28
+218	81	act1-scene1-speech-0081	PHRASE-3	share a taxi	share a taxi	1
+219	81	act1-scene1-speech-0081	WORD	stop	stopped, Stop, stop	4
+220	82	act1-scene1-speech-0082	PHRASE-3	see that someone	seen that someone	1
+221	82	act1-scene1-speech-0082	WORD	someone	someone	11
+222	82	act1-scene1-speech-0082	WORD	train	train, trains	3
+223	84	act1-scene1-speech-0084	WORD	coat	coat	4
+224	84	act1-scene1-speech-0084	WORD	moment	moment	7
+225	85	act1-scene1-speech-0085	PHRASE-3	clear of snow	cleared of snow	1
+226	89	act1-scene1-speech-0089	WORD	young	young, youngest, younger	29
+227	91	act1-scene1-speech-0091	PHRASE-2	much experience	much experience	1
+228	91	act1-scene1-speech-0091	PHRASE-3	run an establishment	running an establishment	1
+229	92	act1-scene1-speech-0092	WORD	begin	beginning, begin	5
+230	92	act1-scene1-speech-0092	PHRASE-3	begin for everything	beginning for everything	1
+231	93	act1-scene1-speech-0093	PHRASE-3	get dry rot	got dry rot	2
+232	93	act1-scene1-speech-0093	WORD	old	old, older	20
+233	93	act1-scene1-speech-0093	PHRASE-2	old house	old house	1
+234	93	act1-scene1-speech-0093	PHRASE-3	old old house	old old house	1
+235	93	act1-scene1-speech-0093	WORD	rot	rot	2
+236	95	act1-scene1-speech-0095	WORD	late	late	3
+237	95	act1-scene1-speech-0095	PHRASE-3	lot of people	lot of people	3
+238	96	act1-scene1-speech-0096	PHRASE-2	perfect condition	perfect condition	1
+239	97	act1-scene1-speech-0097	PHRASE-2	get worm	got worm	1
+240	97	act1-scene1-speech-0097	WORD	oak	oak	1
+241	97	act1-scene1-speech-0097	WORD	paint	paint	1
+242	99	act1-scene1-speech-0099	PHRASE-3	foot of snow	feet of snow	1
+243	99	act1-scene1-speech-0099	WORD	forty	forty	1
+244	99	act1-scene1-speech-0099	PHRASE-3	leave in nineteen	leave in nineteen	1
+245	99	act1-scene1-speech-0099	WORD	morning	morning	4
+246	99	act1-scene1-speech-0099	WORD	nineteen	nineteen	1
+247	99	act1-scene1-speech-0099	PHRASE-2	nineteen forty	nineteen forty	1
+248	99	act1-scene1-speech-0099	PHRASE-2	see anything	seen anything, see anything	2
+249	99	act1-scene1-speech-0099	PHRASE-3	snow by morning	snow by morning	1
+250	99	act1-scene1-speech-0099	WORD	time	time	26
+251	101	act1-scene1-speech-0101	WORD	put	put, puts, putting, Put	17
+252	104	act1-scene1-speech-0104	PHRASE-2	much servant	much servant	1
+253	104	act1-scene1-speech-0104	PHRASE-3	much servant difficulty	much servant difficulty	1
+254	105	act1-scene1-speech-0105	PHRASE-3	good local woman	good local woman	1
+255	105	act1-scene1-speech-0105	PHRASE-2	local woman	local woman	1
+256	108	act1-scene1-speech-0108	WORD	full	full, fullest	4
+257	108	act1-scene1-speech-0108	PHRASE-2	full running	full running	1
+258	108	act1-scene1-speech-0108	WORD	running	running	1
+259	108	act1-scene1-speech-0108	PHRASE-2	running order	running order	1
+260	108	act1-scene1-speech-0108	WORD	understand	understood, understand	7
+261	110	act1-scene1-speech-0110	PHRASE-3	kind of establishment	kind of establishment	1
+262	110	act1-scene1-speech-0110	WORD	open	opening, opened, open, opens	6
+263	110	act1-scene1-speech-0110	PHRASE-3	open this kind	opening this kind	1
+264	110	act1-scene1-speech-0110	PHRASE-3	staff of servant	staff of servants	1
+265	114	act1-scene1-speech-0114	PHRASE-2	adore nursery	adore nursery	1
+266	114	act1-scene1-speech-0114	PHRASE-2	poor thing	poor thing	1
+267	114	act1-scene1-speech-0114	WORD	rhyme	rhymes, rhyme	2
+268	114	act1-scene1-speech-0114	WORD	robin	robin	1
+269	114	act1-scene1-speech-0114	WORD	thing	thing, things	39
+270	115	act1-scene1-speech-0115	WORD	introduce	introduce	1
+271	117	act1-scene1-speech-0117	PHRASE-2	beautiful house	beautiful house	1
+272	118	act1-scene1-speech-0118	WORD	life	life	6
+273	121	act1-scene1-speech-0121	WORD	fill	fill, filled	2
+274	121	act1-scene1-speech-0121	WORD	many	many	5
+275	121	act1-scene1-speech-0121	PHRASE-2	many application	many applications	1
+276	121	act1-scene1-speech-0121	WORD	month	month	1
+277	121	act1-scene1-speech-0121	PHRASE-3	term next month	terms next month	1
+278	122	act1-scene1-speech-0122	WORD	need	need, needs	9
+279	122	act1-scene1-speech-0122	WORD	try	tried, trying, try, tries	20
+280	123	act1-scene1-speech-0123	WORD	darling	Darling, darling	8
+281	124	act1-scene1-speech-0124	PHRASE-2	horrible woman	horrible woman	1
+282	124	act1-scene1-speech-0124	PHRASE-2	perfectly horrible	perfectly horrible	1
+283	124	act1-scene1-speech-0124	PHRASE-3	perfectly horrible woman	perfectly horrible woman	1
+284	126	act1-scene1-speech-0126	WORD	car	car	10
+285	126	act1-scene1-speech-0126	WORD	mile	mile, miles	2
+286	128	act1-scene1-speech-0128	PHRASE-2	good fire	good fire	1
+287	128	act1-scene1-speech-0128	WORD	travel	travel	1
+288	132	act1-scene1-speech-0132	WORD	fall	falls, fall	2
+289	132	act1-scene1-speech-0132	PHRASE-2	get plenty	got plenty	2
+290	132	act1-scene1-speech-0132	PHRASE-2	heavy fall	heavy falls	1
+291	132	act1-scene1-speech-0132	PHRASE-3	plenty of provision	plenty of provisions	1
+292	132	act1-scene1-speech-0132	PHRASE-3	say heavy fall	says heavy falls	1
+293	132	act1-scene1-speech-0132	PHRASE-2	warn etcetera	warned etcetera	1
+294	133	act1-scene1-speech-0133	WORD	eat	eat, eating	2
+295	133	act1-scene1-speech-0133	PHRASE-2	excellent manager	excellent manager	1
+296	135	act1-scene1-speech-0135	WORD	news	news	2
+297	138	act1-scene1-speech-0138	PHRASE-3	strangle a woman	Strangled a woman	1
+298	139	act1-scene1-speech-0139	PHRASE-2	darkish overcoat	darkish overcoat, darkish overcoats	3
+299	139	act1-scene1-speech-0139	WORD	message	messages	1
+300	139	act1-scene1-speech-0139	PHRASE-3	wear darkish overcoat	wearing darkish overcoat	1
+301	141	act1-scene1-speech-0141	PHRASE-2	interview someone	interview someone	1
+302	141	act1-scene1-speech-0141	PHRASE-2	polite way	polite way	1
+303	147	act1-scene1-speech-0147	WORD	tell	told, tell, Tell, telling	32
+304	150	act1-scene1-speech-0150	PHRASE-2	awful night	awful night	1
+305	150	act1-scene1-speech-0150	PHRASE-3	like a bath	like a bath	1
+306	152	act1-scene1-speech-0152	WORD	fig	figs	1
+307	152	act1-scene1-speech-0152	PHRASE-3	mash the potato	mashing the potatoes	1
+308	152	act1-scene1-speech-0152	WORD	mince	minced	2
+309	152	act1-scene1-speech-0152	PHRASE-2	nice dinner	nice dinner	1
+310	152	act1-scene1-speech-0152	WORD	opening	opening	1
+311	152	act1-scene1-speech-0152	WORD	stew	stewed	1
+312	152	act1-scene1-speech-0152	PHRASE-3	think of opening	thinking of opening	1
+313	152	act1-scene1-speech-0152	PHRASE-3	tin of pea	tin of peas	1
+314	154	act1-scene1-speech-0154	PHRASE-2	adore cooking	adore cooking	2
+315	154	act1-scene1-speech-0154	WORD	cooking	cooking	3
+316	154	act1-scene1-speech-0154	PHRASE-2	get egg	got eggs	1
+317	155	act1-scene1-speech-0155	PHRASE-2	keep lot	keep lots	1
+318	155	act1-scene1-speech-0155	PHRASE-3	lot of egg	lot of eggs	1
+319	155	act1-scene1-speech-0155	PHRASE-3	lot of fowl	lots of fowls	1
+320	155	act1-scene1-speech-0155	PHRASE-3	plenty of egg	plenty of eggs	1
+321	156	act1-scene1-speech-0156	WORD	add	add	1
+322	156	act1-scene1-speech-0156	WORD	cheap	cheap	1
+323	156	act1-scene1-speech-0156	PHRASE-3	get a bottle	got a bottle	1
+324	156	act1-scene1-speech-0156	WORD	type	type	1
+325	156	act1-scene1-speech-0156	PHRASE-2	type wine	type wine	1
+326	157	act1-scene1-speech-0157	WORD	hour	hour, hours	4
+327	157	act1-scene1-speech-0157	PHRASE-3	lot of trouble	lot of trouble	1
+328	157	act1-scene1-speech-0157	PHRASE-3	save a lot	save a lot	1
+329	157	act1-scene1-speech-0157	WORD	together	together	2
+330	157	act1-scene1-speech-0157	WORD	trouble	trouble	1
+331	158	act1-scene1-speech-0158	PHRASE-2	good room	best room	1
+332	162	act1-scene1-speech-0162	PHRASE-3	get no use	got no use	1
+333	162	act1-scene1-speech-0162	WORD	use	use, used	8
+334	163	act1-scene1-speech-0163	PHRASE-2	get brick	got bricks	1
+335	164	act1-scene1-speech-0164	PHRASE-2	bilk hotel	bilking hotel	1
+336	164	act1-scene1-speech-0164	WORD	keeper	keepers	1
+337	164	act1-scene1-speech-0164	WORD	nothing	nothing	12
+338	164	act1-scene1-speech-0164	PHRASE-2	young man	young men, young man, younger man	8
+339	167	act1-scene1-speech-0167	WORD	hard	hard	3
+340	170	act1-scene1-speech-0170	WORD	rate	rate	1
+341	177	act1-scene1-speech-0177	WORD	answer	answer, answered	4
+342	177	act1-scene1-speech-0177	WORD	big	big	1
+343	177	act1-scene1-speech-0177	PHRASE-2	big iron	big iron	1
+344	177	act1-scene1-speech-0177	PHRASE-3	big iron gate	big iron gates	1
+345	177	act1-scene1-speech-0177	PHRASE-2	charming hostess	charming hostess	2
+346	177	act1-scene1-speech-0177	PHRASE-2	good fortune	good fortune	1
+347	177	act1-scene1-speech-0177	PHRASE-2	iron gate	iron gates	1
+348	177	act1-scene1-speech-0177	PHRASE-2	little bag	little bag	2
+349	177	act1-scene1-speech-0177	WORD	prayer	prayer	1
+350	177	act1-scene1-speech-0177	WORD	twice	Twice, twice	2
+351	179	act1-scene1-speech-0179	WORD	small	small	1
+352	181	act1-scene1-speech-0181	PHRASE-2	house today	house today	1
+353	181	act1-scene1-speech-0181	WORD	new	new	2
+354	181	act1-scene1-speech-0181	PHRASE-3	open this place	opened this place	1
+355	181	act1-scene1-speech-0181	WORD	today	today	5
+356	184	act1-scene1-speech-0184	PHRASE-3	lock the car	locked the car	1
+357	184	act1-scene1-speech-0184	WORD	securely	securely	1
+358	187	act1-scene1-speech-0187	PHRASE-2	cold room	cold room	1
+359	187	act1-scene1-speech-0187	WORD	others	others	3
+360	187	act1-scene1-speech-0187	PHRASE-2	thoroughly warm	thoroughly warm	1
+361	188	act1-scene1-speech-0188	PHRASE-2	several guest	several guests	1
+362	190	act1-scene1-speech-0190	WORD	complete	complete, completes	2
+363	190	act1-scene1-speech-0190	WORD	cut	cut, Cut	13
+364	190	act1-scene1-speech-0190	WORD	even	even, Even	11
+365	190	act1-scene1-speech-0190	WORD	nobody	nobody	2
+366	190	act1-scene1-speech-0190	WORD	sound	sounds, sound, Sounds	6
+367	191	act1-scene2-speech-0001	PHRASE-3	start this place	starting this place, started this place	2
+368	192	act1-scene2-speech-0002	PHRASE-2	egg homemade	eggs homemade	1
+369	192	act1-scene2-speech-0002	PHRASE-2	homemade marmalade	homemade marmalade	1
+370	192	act1-scene2-speech-0002	WORD	nicely	nicely	1
+371	192	act1-scene2-speech-0002	WORD	scramble	Scrambled	1
+372	196	act1-scene2-speech-0006	PHRASE-3	make a pie	make a pie	1
+373	196	act1-scene2-speech-0006	WORD	tonight	tonight	1
+374	197	act1-scene2-speech-0007	WORD	speak	speak, speaking, Spoke	10
+375	198	act1-scene2-speech-0008	PHRASE-2	comfortable bed	comfortable beds	1
+376	198	act1-scene2-speech-0008	PHRASE-2	least mine	least mine	1
+377	198	act1-scene2-speech-0008	WORD	mine	mine	1
+378	199	act1-scene2-speech-0009	PHRASE-2	good bedroom	best bedroom	1
+379	201	act1-scene2-speech-0011	PHRASE-2	comfortable writing	comfortable writing	1
+380	201	act1-scene2-speech-0011	PHRASE-3	comfortable writing room	comfortable writing room	1
+381	201	act1-scene2-speech-0011	WORD	different	different	5
+382	201	act1-scene2-speech-0011	PHRASE-2	different impression	different impression	1
+383	201	act1-scene2-speech-0011	WORD	large	larger	1
+384	201	act1-scene2-speech-0011	PHRASE-2	large place	larger place	1
+385	201	act1-scene2-speech-0011	PHRASE-2	much large	much larger	1
+386	201	act1-scene2-speech-0011	PHRASE-3	much large place	much larger place	1
+387	201	act1-scene2-speech-0011	WORD	writing	writing	1
+388	202	act1-scene2-speech-0012	PHRASE-3	old tabby delight	old tabbies delight	1
+389	202	act1-scene2-speech-0012	PHRASE-2	tabby delight	tabbies delight	1
+390	205	act1-scene2-speech-0015	WORD	stay	stay, staying	10
+391	212	act1-scene2-speech-0022	PHRASE-2	back door	back door	1
+392	212	act1-scene2-speech-0022	WORD	shovel	shovel	1
+393	212	act1-scene2-speech-0022	PHRASE-3	shovel the snow	shovel the snow	1
+394	217	act1-scene2-speech-0027	PHRASE-3	anything about housework	anything about housework	1
+395	217	act1-scene2-speech-0027	PHRASE-3	carry a carpet	Carrying a carpet	1
+396	217	act1-scene2-speech-0027	WORD	front	front	6
+397	217	act1-scene2-speech-0027	PHRASE-3	incredible young woman	incredible young woman	1
+398	217	act1-scene2-speech-0027	PHRASE-2	know anything	know anything	4
+399	217	act1-scene2-speech-0027	PHRASE-2	young woman	young woman	2
+400	218	act1-scene2-speech-0028	PHRASE-2	nice stair	nice stairs	1
+401	219	act1-scene2-speech-0029	PHRASE-3	morning before lunch	morning before lunch	1
+402	220	act1-scene2-speech-0030	PHRASE-3	cook the lunch	cook the lunch	1
+403	222	act1-scene2-speech-0032	WORD	easy	easy, easier	4
+404	222	act1-scene2-speech-0032	PHRASE-2	get nowadays	get nowadays	1
+405	223	act1-scene2-speech-0033	WORD	class	classes	2
+406	224	act1-scene2-speech-0034	PHRASE-3	get the bit	Got the bit	1
+407	224	act1-scene2-speech-0034	PHRASE-3	old low class	old lower classes	1
+408	224	act1-scene2-speech-0034	WORD	tooth	teeth	1
+409	226	act1-scene2-speech-0036	WORD	interest	interest	1
+410	226	act1-scene2-speech-0036	PHRASE-3	interest in politics	interest in politics	1
+411	226	act1-scene2-speech-0036	WORD	live	live, lived	2
+412	226	act1-scene2-speech-0036	PHRASE-2	much interest	much interest	1
+413	226	act1-scene2-speech-0036	WORD	pink	pink	1
+414	226	act1-scene2-speech-0036	PHRASE-3	take much interest	take much interest	1
+415	227	act1-scene2-speech-0037	WORD	easier	easier	1
+416	227	act1-scene2-speech-0037	PHRASE-2	suppose condition	suppose conditions	1
+417	228	act1-scene2-speech-0038	WORD	clean	clean	1
+418	229	act1-scene2-speech-0039	WORD	downhill	downhill	1
+419	229	act1-scene2-speech-0039	PHRASE-2	last year	last year	1
+420	231	act1-scene2-speech-0041	WORD	problem	problems	1
+421	232	act1-scene2-speech-0042	PHRASE-3	get some business	got some business	1
+422	237	act1-scene2-speech-0047	PHRASE-3	find the radio	find the radio	1
+423	237	act1-scene2-speech-0047	PHRASE-2	write letter	write letters, writing letters	3
+424	239	act1-scene2-speech-0049	WORD	listen	listen, Listen, listening	5
+425	240	act1-scene2-speech-0050	PHRASE-2	favourite music	favourite music	1
+426	240	act1-scene2-speech-0050	WORD	music	music	3
+427	241	act1-scene2-speech-0051	PHRASE-2	much warmer	much warmer	1
+428	241	act1-scene2-speech-0051	WORD	warmer	warmer	3
+429	242	act1-scene2-speech-0052	WORD	bitch	bitch	1
+430	242	act1-scene2-speech-0052	PHRASE-2	old bitch	old bitch	1
+431	245	act1-scene2-speech-0055	PHRASE-3	go that woman	go that woman	1
+432	252	act1-scene2-speech-0062	PHRASE-2	good chair	best chair	1
+433	253	act1-scene2-speech-0063	PHRASE-2	go away	go away, Go away	2
+434	253	act1-scene2-speech-0063	PHRASE-3	think of thing	think of things	1
+435	256	act1-scene2-speech-0066	WORD	happen	happened, happen, happens, happening	11
+436	256	act1-scene2-speech-0066	PHRASE-3	lot of thing	lots of things, lot of things	2
+437	256	act1-scene2-speech-0066	PHRASE-2	melt lot	melts lots	1
+438	256	act1-scene2-speech-0066	PHRASE-3	snow melt lot	snow melts lots	1
+439	257	act1-scene2-speech-0067	PHRASE-2	forget thing	forget things	2
+440	257	act1-scene2-speech-0067	WORD	true	true	17
+441	262	act1-scene2-speech-0072	PHRASE-2	jug chilblain	jug chilblains	1
+442	262	act1-scene2-speech-0072	WORD	shiver	shivering	1
+443	264	act1-scene2-speech-0074	WORD	writer	writer	1
+444	269	act1-scene2-speech-0079	WORD	rung	rung	3
+445	270	act1-scene2-speech-0080	PHRASE-2	serve liquor	Serving liquor	1
+446	274	act1-scene2-speech-0084	PHRASE-3	get through today	get through today	1
+447	278	act1-scene2-speech-0088	WORD	remember	remember	10
+448	280	act1-scene2-speech-0090	PHRASE-2	fellow fault	fellow fault	1
+449	280	act1-scene2-speech-0090	WORD	shave	shave	1
+450	282	act1-scene2-speech-0092	PHRASE-3	ignore some tinpot	ignored some tinpot	1
+451	282	act1-scene2-speech-0092	PHRASE-3	run this place	running this place	1
+452	284	act1-scene2-speech-0094	PHRASE-2	darling everything	darling everything	1
+453	284	act1-scene2-speech-0094	WORD	next	next	3
+454	284	act1-scene2-speech-0094	PHRASE-2	pretty serious	pretty serious	1
+455	284	act1-scene2-speech-0094	PHRASE-3	send a police	send a police	1
+456	286	act1-scene2-speech-0096	PHRASE-2	bit short	bit short	1
+457	286	act1-scene2-speech-0096	WORD	short	short	1
+458	286	act1-scene2-speech-0096	PHRASE-3	short of coke	short of coke	1
+459	287	act1-scene2-speech-0097	PHRASE-3	guineas a week	guineas a week	2
+460	289	act1-scene2-speech-0099	WORD	ever	ever	6
+461	290	act1-scene2-speech-0100	PHRASE-3	brilliant young architect	brilliant young architect	1
+462	290	act1-scene2-speech-0100	PHRASE-2	extremely brilliant	extremely brilliant	1
+463	290	act1-scene2-speech-0100	PHRASE-2	young architect	young architect	2
+464	293	act1-scene2-speech-0103	PHRASE-3	dear young woman	dear young woman	1
+465	293	act1-scene2-speech-0103	WORD	hear	heard, hear, hears	29
+466	293	act1-scene2-speech-0103	PHRASE-2	young people	young people	3
+467	294	act1-scene2-speech-0104	WORD	hop	hoped, hoping	2
+468	295	act1-scene2-speech-0105	WORD	fishy	fishy	1
+469	295	act1-scene2-speech-0105	PHRASE-3	make some enquiry	make some enquiries	1
+470	295	act1-scene2-speech-0105	PHRASE-3	sound a fishy	Sounds a fishy	1
+471	295	act1-scene2-speech-0105	WORD	story	story	1
+472	297	act1-scene2-speech-0107	PHRASE-3	advice from someone	advice from someone	1
+473	297	act1-scene2-speech-0107	WORD	welcome	welcome	1
+474	297	act1-scene2-speech-0107	PHRASE-2	welcome advice	welcome advice	1
+475	304	act1-scene2-speech-0114	PHRASE-2	dear lady	dear lady	3
+476	308	act1-scene2-speech-0118	PHRASE-2	young lady	young lady	1
+477	309	act1-scene2-speech-0119	PHRASE-2	little warmer	little warmer	1
+478	312	act1-scene2-speech-0122	WORD	else	else	8
+479	312	act1-scene2-speech-0122	PHRASE-2	make thing	makes things	1
+480	314	act1-scene2-speech-0124	PHRASE-3	run a guest	running a guest	1
+481	315	act1-scene2-speech-0125	PHRASE-3	make a go	make a go	1
+482	316	act1-scene2-speech-0126	WORD	bravo	bravo	1
+483	317	act1-scene2-speech-0127	WORD	bad	bad	3
+484	317	act1-scene2-speech-0127	PHRASE-2	bad cook	bad cook	1
+485	318	act1-scene2-speech-0128	WORD	enchant	enchanting	1
+486	318	act1-scene2-speech-0128	PHRASE-2	enchant cook	enchanting cook	1
+487	318	act1-scene2-speech-0128	PHRASE-2	little word	little word	1
+488	320	act1-scene2-speech-0130	WORD	example	example	1
+489	320	act1-scene2-speech-0130	WORD	sleep	sleep	1
+490	320	act1-scene2-speech-0130	PHRASE-3	take for example	Take for example	1
+491	323	act1-scene2-speech-0133	WORD	far	far	7
+492	325	act1-scene2-speech-0135	WORD	poke	poke	1
+493	325	act1-scene2-speech-0135	PHRASE-3	poke the fire	poke the fire	1
+494	326	act1-scene2-speech-0136	WORD	downstairs	downstairs	1
+495	327	act1-scene2-speech-0137	PHRASE-2	awful day	awful day	1
+496	331	act1-scene2-speech-0141	PHRASE-2	half stone	half stones	1
+497	331	act1-scene2-speech-0141	PHRASE-2	ruddy coke	ruddy coke	1
+498	332	act1-scene2-speech-0142	PHRASE-3	hear the police	hear the police	1
+499	333	act1-scene2-speech-0143	WORD	deep	deep	1
+500	336	act1-scene2-speech-0146	PHRASE-3	get these ski	get these skis	1
+501	336	act1-scene2-speech-0146	WORD	stow	stow	2
+502	337	act1-scene2-speech-0147	PHRASE-2	go round	Go round, go round	2
+503	339	act1-scene2-speech-0149	WORD	enjoy	enjoying, enjoy, Enjoying	6
+504	339	act1-scene2-speech-0149	PHRASE-3	force for nowadays	force for nowadays	1
+505	339	act1-scene2-speech-0149	WORD	sport	sports	2
+506	339	act1-scene2-speech-0149	WORD	winter	winter	1
+507	342	act1-scene2-speech-0152	PHRASE-2	room window	room window	1
+508	342	act1-scene2-speech-0152	PHRASE-3	window on ski	window on skis	1
+509	345	act1-scene2-speech-0155	WORD	afternoon	afternoon	5
+510	352	act1-scene2-speech-0162	PHRASE-3	think that policemen	think that policemen	1
+511	355	act1-scene2-speech-0165	WORD	ago	ago	3
+512	355	act1-scene2-speech-0165	PHRASE-3	right about half	right about half	1
+513	357	act1-scene2-speech-0167	WORD	funny	funny	1
+514	363	act1-scene2-speech-0173	WORD	everybody	everybody	3
+515	363	act1-scene2-speech-0173	PHRASE-3	time if everybody	time if everybody	1
+516	367	act1-scene2-speech-0177	PHRASE-3	matter of police	matter of police	1
+517	369	act1-scene2-speech-0179	WORD	fifteenth	fifteenth	1
+518	369	act1-scene2-speech-0179	PHRASE-2	murder yesterday	murdered yesterday	1
+519	369	act1-scene2-speech-0179	WORD	read	read, Read	3
+520	369	act1-scene2-speech-0179	WORD	yesterday	yesterday	12
+521	371	act1-scene2-speech-0181	PHRASE-2	first thing	first thing	1
+522	373	act1-scene2-speech-0183	WORD	real	real	4
+523	377	act1-scene2-speech-0187	WORD	die	died	9
+524	377	act1-scene2-speech-0187	PHRASE-2	ill treatment	ill treatment	1
+525	377	act1-scene2-speech-0187	PHRASE-3	make a bit	made a bit	1
+526	377	act1-scene2-speech-0187	PHRASE-3	need of care	need of care	1
+527	377	act1-scene2-speech-0187	PHRASE-3	persistent ill treatment	persistent ill treatment	1
+528	377	act1-scene2-speech-0187	WORD	result	result	2
+529	379	act1-scene2-speech-0189	PHRASE-3	die in prison	died in prison	1
+530	379	act1-scene2-speech-0189	PHRASE-3	strangle at twenty	strangled at twenty	1
+531	383	act1-scene2-speech-0193	PHRASE-3	receive this information	receiving this information	1
+532	385	act1-scene2-speech-0195	PHRASE-2	anyway possible	anyway possible	1
+533	385	act1-scene2-speech-0195	PHRASE-3	ensure the safety	ensure the safety	1
+534	385	act1-scene2-speech-0195	PHRASE-3	particular of everyone	particulars of everyone	1
+535	385	act1-scene2-speech-0195	WORD	phone	phone	1
+536	385	act1-scene2-speech-0195	WORD	possible	possible	4
+537	385	act1-scene2-speech-0195	PHRASE-2	weather condition	weather conditions	1
+538	386	act1-scene2-speech-0196	PHRASE-3	suggest that somebody	suggesting that somebody	1
+539	390	act1-scene2-speech-0200	PHRASE-2	whole thing	whole thing	2
+540	391	act1-scene2-speech-0201	WORD	dangerous	dangerous	3
+541	393	act1-scene2-speech-0203	WORD	fetch	fetched	1
+542	393	act1-scene2-speech-0203	PHRASE-3	seem a bit	seems a bit	1
+543	396	act1-scene2-speech-0206	PHRASE-2	dead woman	dead woman	1
+544	396	act1-scene2-speech-0206	PHRASE-3	dead woman body	dead woman body	1
+545	396	act1-scene2-speech-0206	PHRASE-2	little mouse	little mice, little mouse	2
+546	396	act1-scene2-speech-0206	PHRASE-2	woman body	woman body	1
+547	397	act1-scene2-speech-0207	PHRASE-2	farmer wife	farmer wife	1
+548	399	act1-scene2-speech-0209	PHRASE-3	boy of eleven	boy of eleven	1
+549	401	act1-scene2-speech-0211	PHRASE-3	adopt by someone	adopted by someone	1
+550	401	act1-scene2-speech-0211	PHRASE-2	bit queer	bit queer	1
+551	401	act1-scene2-speech-0211	PHRASE-2	definitely schizophrenic	definitely schizophrenic	1
+552	401	act1-scene2-speech-0211	WORD	head	head	5
+553	401	act1-scene2-speech-0211	PHRASE-2	present whereabouts	present whereabouts	1
+554	404	act1-scene2-speech-0214	PHRASE-2	kill someone	kill someone	1
+555	410	act1-scene2-speech-0220	PHRASE-3	get any servant	got any servants	1
+556	412	act1-scene2-speech-0222	PHRASE-2	arrive yesterday	arrived yesterday	2
+557	412	act1-scene2-speech-0222	PHRASE-3	kind of hotel	kind of hotel	1
+558	413	act1-scene2-speech-0223	WORD	plan	planned, planning, plan	4
+559	416	act1-scene2-speech-0226	WORD	quick	quick	1
+560	417	act1-scene2-speech-0227	PHRASE-3	affair of bygone	affairs of bygone	1
+561	417	act1-scene2-speech-0227	PHRASE-2	know nothing	know nothing	3
+562	419	act1-scene2-speech-0229	PHRASE-2	distress business	distressing business	1
+563	425	act1-scene2-speech-0235	WORD	hearing	hearing	1
+564	425	act1-scene2-speech-0235	PHRASE-2	mere child	mere child	1
+565	427	act1-scene2-speech-0237	PHRASE-3	admire the police	admire the police	1
+566	427	act1-scene2-speech-0237	PHRASE-2	tune go	tune go	1
+567	427	act1-scene2-speech-0237	PHRASE-2	whole business	whole business	1
+568	430	act1-scene2-speech-0240	PHRASE-3	believe a word	believe a word	1
+569	431	act1-scene2-speech-0241	WORD	wait	wait, Wait, Waiting	4
+570	433	act1-scene2-speech-0243	WORD	fact	fact, facts	5
+571	433	act1-scene2-speech-0243	PHRASE-2	poor joke	poor joke	1
+572	434	act1-scene2-speech-0244	WORD	deliciously	deliciously	1
+573	434	act1-scene2-speech-0244	PHRASE-2	madman joke	madman joke	1
+574	435	act1-scene2-speech-0245	WORD	mannered	mannered	1
+575	435	act1-scene2-speech-0245	PHRASE-2	singularly ill	singularly ill	1
+576	437	act1-scene2-speech-0247	WORD	tour	tour	2
+577	438	act1-scene2-speech-0248	WORD	abnormal	abnormal	2
+578	439	act1-scene2-speech-0249	PHRASE-3	fellow seem nervy	fellows seem nervy	1
+579	439	act1-scene2-speech-0249	WORD	grow	grow, grown	5
+580	439	act1-scene2-speech-0249	PHRASE-2	nervy nowadays	nervy nowadays	1
+581	439	act1-scene2-speech-0249	PHRASE-2	seem nervy	seem nervy	1
+582	440	act1-scene2-speech-0250	PHRASE-3	patience with people	patience with people	1
+583	444	act1-scene2-speech-0254	PHRASE-2	door life	doors life	1
+584	444	act1-scene2-speech-0254	WORD	healthy	healthy	2
+585	444	act1-scene2-speech-0254	WORD	milk	milk	1
+586	444	act1-scene2-speech-0254	PHRASE-3	report from welfare	reports from welfare	1
+587	444	act1-scene2-speech-0254	WORD	worker	workers	1
+588	445	act1-scene2-speech-0255	PHRASE-2	blow starvation	blows starvation	1
+589	445	act1-scene2-speech-0255	PHRASE-2	kick blow	Kicks blows	1
+590	445	act1-scene2-speech-0255	PHRASE-2	thoroughly vicious	thoroughly vicious	1
+591	445	act1-scene2-speech-0255	PHRASE-3	thoroughly vicious couple	thoroughly vicious couple	1
+592	445	act1-scene2-speech-0255	PHRASE-2	vicious couple	vicious couple	1
+593	446	act1-scene2-speech-0256	WORD	civilly	civilly	1
+594	446	act1-scene2-speech-0256	WORD	spoken	spoken	1
+595	451	act1-scene2-speech-0261	PHRASE-2	last night	last night	3
+596	453	act1-scene2-speech-0263	WORD	disgust	Disgusting	1
+597	453	act1-scene2-speech-0263	PHRASE-3	look a bit	Looks a bit, looks a bit	2
+598	455	act1-scene2-speech-0265	PHRASE-3	want more wood	wanting more wood	1
+599	456	act1-scene2-speech-0266	PHRASE-2	almost dark	almost dark	1
+600	456	act1-scene2-speech-0266	PHRASE-3	turn the light	turn the lights	1
+601	458	act1-scene2-speech-0268	WORD	horrid	horrid	1
+602	458	act1-scene2-speech-0268	PHRASE-2	little tune	little tune	4
+603	459	act1-scene2-speech-0269	PHRASE-2	unhappy childhood	unhappy childhood	1
+604	460	act1-scene2-speech-0270	WORD	happy	happy	2
+605	465	act1-scene2-speech-0275	PHRASE-2	long time	long time	3
+606	468	act1-scene2-speech-0278	PHRASE-2	child matter	child matters	1
+607	471	act1-scene2-speech-0281	PHRASE-2	damned lot	damned lot	1
+608	471	act1-scene2-speech-0281	PHRASE-3	lot of nonsense	lot of nonsense	1
+609	471	act1-scene2-speech-0281	PHRASE-3	use for psychologist	use for psychologists	1
+610	473	act1-scene2-speech-0283	PHRASE-2	good thing	good thing	1
+611	473	act1-scene2-speech-0283	PHRASE-3	lot of hooey	lot of hooey	1
+612	475	act1-scene2-speech-0285	WORD	power	power	1
+613	475	act1-scene2-speech-0285	WORD	question	question, questions	9
+614	478	act1-scene2-speech-0288	PHRASE-2	expect right	expect right	1
+615	478	act1-scene2-speech-0288	WORD	sometimes	sometimes, Sometimes	4
+616	480	act1-scene2-speech-0290	PHRASE-2	right way	right way	1
+617	480	act1-scene2-speech-0290	WORD	wrong	wrong	4
+618	483	act1-scene2-speech-0293	WORD	past	past	1
+619	484	act1-scene2-speech-0294	PHRASE-2	right upstairs	right upstairs	1
+620	485	act1-scene2-speech-0295	PHRASE-3	shut that door	shutting that door	1
+621	486	act1-scene2-speech-0296	WORD	land	land	1
+622	488	act1-scene2-speech-0298	PHRASE-3	complete the tour	completes the tour	1
+623	492	act1-scene2-speech-0302	WORD	earlier	earlier	1
+624	498	act1-scene2-speech-0308	WORD	sofa	sofa	1
+625	501	act1-scene2-speech-0311	WORD	blue	blue	2
+626	501	act1-scene2-speech-0311	PHRASE-3	blue last night	blue last night	1
+627	501	act1-scene2-speech-0311	PHRASE-2	get ration	got ration	1
+628	501	act1-scene2-speech-0311	WORD	ration	ration	1
+629	501	act1-scene2-speech-0311	PHRASE-3	sort of thing	sort of thing	1
+630	501	act1-scene2-speech-0311	WORD	still	Still, still	6
+631	502	act1-scene2-speech-0312	PHRASE-2	much reliance	much reliance	1
+632	502	act1-scene2-speech-0312	PHRASE-3	sort of evidence	sort of evidence	1
+633	506	act1-scene2-speech-0316	WORD	evening	evening	3
+634	506	act1-scene2-speech-0316	PHRASE-2	yesterday evening	yesterday evening	1
+635	507	act1-scene2-speech-0317	WORD	beforehand	beforehand	1
+636	507	act1-scene2-speech-0317	PHRASE-2	book beforehand	booked beforehand	1
+637	511	act1-scene2-speech-0321	WORD	fantastic	fantastic	2
+638	513	act1-scene2-speech-0323	PHRASE-3	get a description	got a description	1
+639	514	act1-scene2-speech-0324	PHRASE-2	feel hat	felt hats	1
+640	514	act1-scene2-speech-0324	PHRASE-2	hat face	hat face	1
+641	514	act1-scene2-speech-0324	PHRASE-2	height indeterminate	height indeterminate	1
+642	519	act1-scene2-speech-0329	PHRASE-2	say something	say something	1
+643	523	act1-scene2-speech-0333	PHRASE-3	leave this window	left this window	1
+644	524	act1-scene2-speech-0334	WORD	imagine	Imagine, imagine	2
+645	524	act1-scene2-speech-0334	PHRASE-3	imagine for instance	Imagine for instance	1
+646	524	act1-scene2-speech-0334	WORD	mechanic	mechanics	1
+647	524	act1-scene2-speech-0334	PHRASE-2	precise effect	precise effect	1
+648	524	act1-scene2-speech-0334	WORD	produce	produced	1
+649	524	act1-scene2-speech-0334	WORD	study	study	1
+650	525	act1-scene2-speech-0335	PHRASE-3	find any programme	find any programme	1
+651	525	act1-scene2-speech-0335	WORD	listening	listening	1
+652	525	act1-scene2-speech-0335	PHRASE-2	worth listening	worth listening	1
+653	528	act2-speech-0002	WORD	numb	numbed	1
+654	529	act2-speech-0003	PHRASE-2	hear anybody	hear anybody	1
+655	530	act2-speech-0004	PHRASE-2	hear anything	hear anything, heard anything	4
+656	531	act2-speech-0005	PHRASE-2	murderer idea	murderer idea	1
+657	533	act2-speech-0007	PHRASE-3	leave the hall	left the hall	1
+658	534	act2-speech-0008	PHRASE-3	hear a door	heard a door	2
+659	537	act2-speech-0011	PHRASE-3	close at hand	Close at hand	1
+660	538	act2-speech-0012	PHRASE-2	even sure	even sure	1
+661	539	act2-speech-0013	WORD	bully	bullying	1
+662	540	act2-speech-0014	PHRASE-3	investigate a murder	investigating a murder	2
+663	540	act2-speech-0014	WORD	quickly	quickly	1
+664	540	act2-speech-0014	PHRASE-3	take this thing	taken this thing	1
+665	542	act2-speech-0016	PHRASE-2	blind mouse	blind mice	2
+666	542	act2-speech-0016	PHRASE-3	little blind mouse	little blind mice	1
+667	543	act2-speech-0017	PHRASE-3	mean another connection	mean another connection	1
+668	546	act2-speech-0020	PHRASE-2	possible victim	possible victim	1
+669	546	act2-speech-0020	WORD	wide	wider, wide	2
+670	547	act2-speech-0021	PHRASE-2	unlikely coincidence	unlikely coincidence	1
+671	548	act2-speech-0022	PHRASE-2	certain circumstance	certain circumstances	1
+672	548	act2-speech-0022	PHRASE-3	kitchen prepare vegetable	kitchen preparing vegetables	1
+673	548	act2-speech-0022	WORD	prepare	preparing, prepare	2
+674	548	act2-speech-0022	PHRASE-2	prepare vegetable	preparing vegetables	1
+675	548	act2-speech-0022	PHRASE-3	switch the light	switched the light	1
+676	550	act2-speech-0024	PHRASE-2	go upstairs	went upstairs, gone upstairs	3
+677	550	act2-speech-0024	PHRASE-2	say people	say people	1
+678	550	act2-speech-0024	PHRASE-3	trace the telephone	trace the telephone	1
+679	550	act2-speech-0024	PHRASE-3	try the extension	try the extension	1
+680	551	act2-speech-0025	PHRASE-3	close the window	closed the window	1
+681	551	act2-speech-0025	PHRASE-3	see any sign	see any sign	1
+682	552	act2-speech-0026	PHRASE-2	simple action	simple actions	1
+683	555	act2-speech-0029	PHRASE-3	think about something	thinking about something	1
+684	559	act2-speech-0033	WORD	natural	natural	2
+685	559	act2-speech-0033	PHRASE-2	natural thing	natural thing	1
+686	569	act2-speech-0043	WORD	nearer	nearer	1
+687	573	act2-speech-0047	WORD	play	playing, play	11
+688	573	act2-speech-0047	PHRASE-3	play the piano	playing the piano, play the piano	5
+689	578	act2-speech-0052	WORD	catchy	catchy	1
+690	580	act2-speech-0054	PHRASE-2	people head	people head	1
+691	580	act2-speech-0054	PHRASE-3	run in people	runs in people	1
+692	580	act2-speech-0054	WORD	whistle	whistling, Whistling	3
+693	586	act2-speech-0060	WORD	ear	ears	1
+694	586	act2-speech-0060	PHRASE-3	hear the radio	hear the radio	1
+695	597	act2-speech-0071	WORD	hurriedly	hurriedly	1
+696	599	act2-speech-0073	WORD	desk	desk	1
+697	599	act2-speech-0073	WORD	unfinished	unfinished	2
+698	602	act2-speech-0076	PHRASE-2	damned business	damned business	1
+699	602	act2-speech-0076	WORD	none	none	1
+700	603	act2-speech-0077	PHRASE-2	blue murder	blue murder	1
+701	603	act2-speech-0077	PHRASE-2	hear someone	hear someone	1
+702	603	act2-speech-0077	PHRASE-3	take the time	take the time	1
+703	603	act2-speech-0077	PHRASE-3	write a letter	writing a letter	1
+704	606	act2-speech-0080	PHRASE-2	cupboard place	cupboard place	1
+705	606	act2-speech-0080	WORD	flight	flight	2
+706	606	act2-speech-0080	PHRASE-3	see a flight	saw a flight	1
+707	606	act2-speech-0080	WORD	step	steps, step	3
+708	606	act2-speech-0080	WORD	tackle	tackle	1
+709	608	act2-speech-0082	PHRASE-2	old monastery	old monastery	1
+710	609	act2-speech-0083	PHRASE-3	engage in antiquarian	engaged in antiquarian	1
+711	609	act2-speech-0083	WORD	faint	faint	1
+712	609	act2-speech-0083	PHRASE-2	faint creak	faint creak	1
+713	609	act2-speech-0083	PHRASE-2	particular door	particular door	1
+714	609	act2-speech-0083	PHRASE-3	pull the door	pulling the door	1
+715	609	act2-speech-0083	WORD	research	research	1
+716	612	act2-speech-0086	PHRASE-2	wear glove	wear gloves	1
+717	613	act2-speech-0087	WORD	later	later, Later	2
+718	613	act2-speech-0087	WORD	sooner	sooner	1
+719	615	act2-speech-0089	WORD	person	person, persons	7
+720	615	act2-speech-0089	PHRASE-2	waste time	wasting time	1
+721	618	act2-speech-0092	PHRASE-3	step that lead	steps that leads	1
+722	618	act2-speech-0092	PHRASE-2	vital fact	vital fact	1
+723	620	act2-speech-0094	PHRASE-2	case everyone	case everyone	1
+724	621	act2-speech-0095	PHRASE-3	abnormal young man	abnormal young man	1
+725	621	act2-speech-0095	WORD	bill	bill	4
+726	621	act2-speech-0095	WORD	damn	damn	1
+727	621	act2-speech-0095	PHRASE-3	kill that woman	killed that woman	1
+728	621	act2-speech-0095	PHRASE-2	mentally abnormal	mentally abnormal	1
+729	621	act2-speech-0095	PHRASE-3	year of age	years of age	1
+730	625	act2-speech-0099	PHRASE-2	frame people	frame people	1
+731	627	act2-speech-0101	PHRASE-2	arrest anyone	arresting anyone	1
+732	627	act2-speech-0101	PHRASE-3	get any evidence	got any evidence	1
+733	628	act2-speech-0102	PHRASE-3	put under arrest	put under arrest	1
+734	636	act2-speech-0110	PHRASE-2	crazy killer	crazy killer	1
+735	636	act2-speech-0110	WORD	killer	killer	8
+736	637	act2-speech-0111	WORD	join	joined	1
+737	637	act2-speech-0111	PHRASE-3	know a thing	know a thing	1
+738	637	act2-speech-0111	PHRASE-3	starve those child	starving those children	1
+739	637	act2-speech-0111	WORD	treat	treating	1
+740	637	act2-speech-0111	PHRASE-2	woman magistrate	woman magistrate	1
+741	639	act2-speech-0113	PHRASE-3	find the place	found the place	1
+742	643	act2-speech-0117	PHRASE-2	childish mentality	childish mentality	1
+743	643	act2-speech-0117	PHRASE-3	childish mentality desertion	childish mentality desertion	1
+744	643	act2-speech-0117	PHRASE-2	mental instability	mental instability	1
+745	643	act2-speech-0117	PHRASE-2	mentality desertion	mentality desertion	1
+746	643	act2-speech-0117	WORD	probability	probability	1
+747	643	act2-speech-0117	PHRASE-2	psychiatrist report	psychiatrist report	1
+748	647	act2-speech-0121	WORD	soon	soon	4
+749	647	act2-speech-0121	PHRASE-2	take away	taken away	1
+750	651	act2-speech-0125	PHRASE-3	eventuality into account	eventuality into account	1
+751	651	act2-speech-0125	PHRASE-2	police take	police take	1
+752	651	act2-speech-0125	PHRASE-3	take some time	take some time	1
+753	652	act2-speech-0126	PHRASE-2	mentally unstable	mentally unstable	1
+754	652	act2-speech-0126	WORD	son	son	1
+755	652	act2-speech-0126	WORD	unstable	unstable	2
+756	654	act2-speech-0128	PHRASE-2	come home	came home	2
+757	654	act2-speech-0128	WORD	terrible	terrible	2
+758	654	act2-speech-0128	PHRASE-2	terrible experience	terrible experience	1
+759	658	act2-speech-0132	PHRASE-2	even old	even old	1
+760	658	act2-speech-0132	PHRASE-3	police have rung	police had rung	2
+761	658	act2-speech-0132	PHRASE-3	say the police	said the police	2
+762	660	act2-speech-0134	PHRASE-2	perfectly normal	perfectly normal	1
+763	661	act2-speech-0135	WORD	often	often	1
+764	666	act2-speech-0140	PHRASE-2	get makeup	got makeup	1
+765	666	act2-speech-0140	PHRASE-2	much young	much younger	1
+766	666	act2-speech-0140	PHRASE-3	much young man	much younger man	1
+767	668	act2-speech-0142	WORD	helpless	helpless	1
+768	669	act2-speech-0143	PHRASE-3	possibility in mind	possibilities in mind	1
+769	669	act2-speech-0143	WORD	sister	sister	4
+770	671	act2-speech-0145	PHRASE-3	give the sex	gives the sex	1
+771	675	act2-speech-0149	PHRASE-3	get no mean	got no means	1
+772	675	act2-speech-0149	PHRASE-2	right age	right age	1
+773	682	act2-speech-0156	WORD	party	party	1
+774	686	act2-speech-0160	WORD	baby	baby	1
+775	691	act2-speech-0165	PHRASE-2	abscond bank	absconding bank	1
+776	691	act2-speech-0165	PHRASE-2	background nowadays	backgrounds nowadays	1
+777	691	act2-speech-0165	PHRASE-2	bank clerk	bank clerk	1
+778	691	act2-speech-0165	WORD	break	broken	1
+779	691	act2-speech-0165	PHRASE-2	equally undesirable	equally undesirable	1
+780	691	act2-speech-0165	WORD	finish	finished	2
+781	691	act2-speech-0165	PHRASE-3	make the enquiry	make the enquiries	1
+782	691	act2-speech-0165	PHRASE-2	many case	many cases	1
+783	691	act2-speech-0165	WORD	settle	settle	1
+784	691	act2-speech-0165	WORD	training	training	2
+785	694	act2-speech-0168	PHRASE-3	crazy homicidal maniac	crazy homicidal maniac	1
+786	694	act2-speech-0168	PHRASE-2	know everything	know everything	1
+787	694	act2-speech-0168	PHRASE-3	murder take place	murder took place	1
+788	694	act2-speech-0168	PHRASE-3	sort of person	sort of person	1
+789	696	act2-speech-0170	PHRASE-3	get some wire	get some wire	1
+790	696	act2-speech-0170	PHRASE-3	go across country	went across country	1
+791	698	act2-speech-0172	PHRASE-2	wrong kind	wrong kind	1
+792	699	act2-speech-0173	PHRASE-3	hour by train	hour by train	1
+793	699	act2-speech-0173	WORD	longer	longer	2
+794	699	act2-speech-0173	WORD	thirty	thirty	2
+795	699	act2-speech-0173	PHRASE-2	thirty mile	thirty miles	1
+796	701	act2-speech-0175	PHRASE-2	husband coat	husband coat	1
+797	703	act2-speech-0177	WORD	street	streets	1
+798	703	act2-speech-0177	PHRASE-2	thirty yesterday	thirty yesterday	1
+799	703	act2-speech-0177	PHRASE-2	yesterday afternoon	yesterday afternoon	1
+800	716	act2-speech-0190	PHRASE-3	commit these murder	committed these murders	1
+801	728	act2-speech-0202	WORD	amuse	amused	1
+802	728	act2-speech-0202	WORD	school	school	5
+803	730	act2-speech-0204	WORD	service	service	1
+804	730	act2-speech-0204	PHRASE-2	unknown murderer	unknown murderer	1
+805	732	act2-speech-0206	PHRASE-2	take care	taken care	1
+806	739	act2-speech-0213	WORD	forgotten	forgotten	3
+807	748	act2-speech-0222	WORD	stick	stick	1
+808	751	act2-speech-0225	PHRASE-2	frightfully stupid	frightfully stupid	1
+809	753	act2-speech-0227	WORD	hate	hate	3
+810	755	act2-speech-0229	PHRASE-2	put thing	puts things, putting things	2
+811	763	act2-speech-0237	PHRASE-3	look for chicken	look for chicken	1
+812	765	act2-speech-0239	PHRASE-3	drive all round	driving all round	1
+813	769	act2-speech-0243	PHRASE-2	different people	different people	1
+814	769	act2-speech-0243	PHRASE-3	feel that somebody	feel that somebody	1
+815	769	act2-speech-0243	PHRASE-3	middle of friend	middle of friends	1
+816	769	act2-speech-0243	PHRASE-3	thing about people	things about people	1
+817	769	act2-speech-0243	PHRASE-2	think thing	think things	1
+818	769	act2-speech-0243	PHRASE-2	trust anybody	trust anybody	1
+819	770	act2-speech-0244	PHRASE-2	interrupt something	interrupting something	1
+820	775	act2-speech-0249	PHRASE-2	healthy thing	healthy things	1
+821	775	act2-speech-0249	PHRASE-2	keep away	keep away	2
+822	777	act2-speech-0251	PHRASE-2	next victim	next victim	1
+823	783	act2-speech-0257	PHRASE-2	wife safety	wife safety	1
+824	796	act2-speech-0270	PHRASE-2	wretched boy	wretched boy	1
+825	798	act2-speech-0272	PHRASE-2	first time	first time	1
+826	799	act2-speech-0273	PHRASE-3	suggest these thing	suggest these things	1
+827	800	act2-speech-0274	PHRASE-2	way place	way place	1
+828	802	act2-speech-0276	PHRASE-2	attract woman	attract women	1
+829	802	act2-speech-0276	PHRASE-2	homicidal case	homicidal cases	1
+830	803	act2-speech-0277	PHRASE-2	absolutely ridiculous	absolutely ridiculous	1
+831	803	act2-speech-0277	WORD	eye	eyes, eye	2
+832	803	act2-speech-0277	WORD	set	set	3
+833	803	act2-speech-0277	PHRASE-2	set eye	set eyes	1
+834	804	act2-speech-0278	WORD	sly	sly	1
+835	808	act2-speech-0282	WORD	bus	bus	1
+836	808	act2-speech-0282	WORD	ticket	ticket	1
+837	808	act2-speech-0282	PHRASE-2	wear yesterday	wearing yesterday	1
+838	810	act2-speech-0284	PHRASE-2	village yesterday	village yesterday	1
+839	812	act2-speech-0286	WORD	race	racing	2
+840	812	act2-speech-0286	PHRASE-2	race round	racing round	2
+841	812	act2-speech-0286	WORD	safely	safely	2
+842	813	act2-speech-0287	PHRASE-2	country side	country side	1
+843	813	act2-speech-0287	WORD	side	side	1
+844	817	act2-speech-0291	PHRASE-2	bring back	brought back	1
+845	822	act2-speech-0296	PHRASE-3	meet a woman	meet a woman	1
+846	832	act2-speech-0306	WORD	sudden	sudden	1
+847	835	act2-speech-0309	WORD	fun	fun	7
+848	837	act2-speech-0311	WORD	apt	apt	1
+849	837	act2-speech-0311	WORD	lover	lovers	1
+850	837	act2-speech-0311	PHRASE-2	lover quarrel	lovers quarrels	1
+851	837	act2-speech-0311	WORD	quarrel	quarrels	2
+852	850	act2-speech-0324	WORD	lie	lying, lied	4
+853	851	act2-speech-0325	WORD	reason	reason, reasons	3
+854	862	act2-speech-0336	PHRASE-3	fond of ski	fond of ski	1
+855	862	act2-speech-0336	PHRASE-2	little exercise	little exercise	1
+856	864	act2-speech-0338	PHRASE-3	chance of communication	chance of communication	1
+857	864	act2-speech-0338	WORD	outside	outside	1
+858	864	act2-speech-0338	PHRASE-2	serious matter	serious matter	1
+859	864	act2-speech-0338	PHRASE-2	want everybody	want everybody	1
+860	864	act2-speech-0338	WORD	world	world	1
+861	873	act2-speech-0347	PHRASE-2	kitchen door	kitchen door	1
+862	873	act2-speech-0347	WORD	pair	pair	1
+863	873	act2-speech-0347	PHRASE-3	remove a pair	remove a pair	1
+864	878	act2-speech-0352	PHRASE-3	pass the cupboard	passed the cupboard	1
+865	880	act2-speech-0354	PHRASE-2	cupboard today	cupboard today	1
+866	885	act2-speech-0359	PHRASE-2	least idea	least idea	1
+867	889	act2-speech-0363	PHRASE-2	damned ski	damned skis	1
+868	889	act2-speech-0363	PHRASE-2	good shouting	good shouting	1
+869	889	act2-speech-0363	WORD	interested	interested	1
+870	889	act2-speech-0363	WORD	shouting	shouting	1
+871	889	act2-speech-0363	PHRASE-2	young fellow	young fellow	1
+872	891	act2-speech-0365	WORD	grant	grant	1
+873	893	act2-speech-0367	PHRASE-2	great thing	great things	1
+874	893	act2-speech-0367	PHRASE-3	great thing ski	great things skis	1
+875	893	act2-speech-0367	PHRASE-2	thing ski	things skis	1
+876	894	act2-speech-0368	WORD	fast	fast	2
+877	894	act2-speech-0368	WORD	maybe	maybe, Maybe	4
+878	896	act2-speech-0370	PHRASE-2	cunning brain	cunning brain	1
+879	898	act2-speech-0372	WORD	cancel	cancelled	1
+880	898	act2-speech-0372	WORD	deal	deal	1
+881	898	act2-speech-0372	WORD	dealt	dealt	1
+882	898	act2-speech-0372	PHRASE-3	get the killer	get the killer	1
+883	898	act2-speech-0372	PHRASE-2	good deal	good deal	1
+884	898	act2-speech-0372	PHRASE-2	need protection	needs protection	1
+885	898	act2-speech-0372	WORD	third	third	3
+886	898	act2-speech-0372	PHRASE-2	third mouse	third mouse	1
+887	898	act2-speech-0372	PHRASE-2	third time	third time	1
+888	899	act2-speech-0373	PHRASE-2	charming occupation	charming occupation	1
+889	899	act2-speech-0373	PHRASE-2	fresh mustard	fresh mustard	1
+890	899	act2-speech-0373	PHRASE-3	serve on toast	served on toast	1
+891	899	act2-speech-0373	WORD	smear	smeared	1
+892	899	act2-speech-0373	PHRASE-3	talk of chicken	Talking of chicken	1
+893	899	act2-speech-0373	WORD	thickly	thickly	1
+894	899	act2-speech-0373	PHRASE-2	thin rasher	thin rasher	1
+895	899	act2-speech-0373	PHRASE-2	try chicken	tried chickens	1
+896	901	act2-speech-0375	PHRASE-2	dishonourable one	dishonourable ones	1
+897	901	act2-speech-0375	WORD	one	ones	1
+898	903	act2-speech-0377	WORD	negative	negative	1
+899	905	act2-speech-0379	WORD	delicious	delicious	1
+900	905	act2-speech-0379	WORD	knife	knife	1
+901	905	act2-speech-0379	PHRASE-2	little thing	little things	1
+902	905	act2-speech-0379	PHRASE-3	little thing child	little things children	1
+903	905	act2-speech-0379	PHRASE-2	snick snick	snick snick	2
+904	905	act2-speech-0379	PHRASE-2	thing child	things children	1
+905	908	act2-speech-0382	PHRASE-2	forget kind	forgetting kind	1
+906	909	act2-speech-0383	WORD	food	food	1
+907	909	act2-speech-0383	WORD	piece	pieces	1
+908	909	act2-speech-0383	PHRASE-3	prepare the spinach	prepare the spinach	1
+909	911	act2-speech-0385	PHRASE-3	little innocent fun	little innocent fun	1
+910	911	act2-speech-0385	PHRASE-2	little joke	little joke	1
+911	912	act2-speech-0386	PHRASE-2	nice fun	nice fun	1
+912	914	act2-speech-0388	PHRASE-2	little wondering	little wondering	1
+913	917	act2-speech-0391	WORD	inconveniently	Inconveniently	1
+914	919	act2-speech-0393	PHRASE-3	see a friend	see a friend	1
+915	924	act2-speech-0398	PHRASE-2	friend name	friend name	1
+916	924	act2-speech-0398	PHRASE-3	say this friend	say this friend	1
+917	927	act2-speech-0401	PHRASE-2	jealous husband	jealous husbands	1
+918	927	act2-speech-0401	PHRASE-2	many reason	many reasons	1
+919	933	act2-speech-0407	PHRASE-2	ask question	asked questions, ask questions	2
+920	933	act2-speech-0407	PHRASE-2	many people	many people	1
+921	933	act2-speech-0407	WORD	overdo	overdoing	1
+922	933	act2-speech-0407	PHRASE-2	overdo thing	overdoing things	1
+923	934	act2-speech-0408	PHRASE-3	get an answer	get an answer	1
+924	946	act2-speech-0420	PHRASE-2	little game	little game	1
+925	947	act2-speech-0421	WORD	sense	sense	1
+926	947	act2-speech-0421	PHRASE-2	think policemen	thought policemen	1
+927	949	act2-speech-0423	PHRASE-2	case someone	case someone	1
+928	949	act2-speech-0423	WORD	grand	grand	1
+929	956	act2-speech-0430	PHRASE-2	little information	little information	1
+930	961	act2-speech-0435	WORD	spell	spell	1
+931	975	act2-speech-0449	WORD	quiet	quiet	1
+932	975	act2-speech-0449	PHRASE-2	somewhere quiet	somewhere quiet	1
+933	981	act2-speech-0455	PHRASE-3	think of something	thinking of something	1
+934	983	act2-speech-0457	PHRASE-3	strictly private affair	strictly private affair	1
+935	990	act2-speech-0464	WORD	vouch	vouch	1
+936	991	act2-speech-0465	WORD	also	also	1
+937	991	act2-speech-0465	PHRASE-2	discreet man	discreet man	1
+938	991	act2-speech-0465	WORD	financial	financial	1
+939	991	act2-speech-0465	WORD	refer	refer	1
+940	991	act2-speech-0465	WORD	social	social	1
+941	995	act2-speech-0469	WORD	thirteen	thirteen	3
+942	1016	act2-speech-0490	WORD	degree	degree	1
+943	1016	act2-speech-0490	PHRASE-2	give people	give people	1
+944	1016	act2-speech-0490	PHRASE-3	think the police	thought the police	2
+945	1021	act2-speech-0495	PHRASE-2	impossible thing	impossible things	1
+946	1021	act2-speech-0495	PHRASE-3	thing before breakfast	things before breakfast	1
+947	1023	act2-speech-0497	PHRASE-3	see a ghost	seen a ghost	1
+948	1024	act2-speech-0498	WORD	bat	bat	1
+949	1024	act2-speech-0498	PHRASE-2	see something	seen something	1
+950	1026	act2-speech-0500	PHRASE-2	want everyone	want everyone	1
+951	1027	act2-speech-0501	WORD	avail	avail	1
+952	1027	act2-speech-0501	PHRASE-2	entertain place	entertaining places	1
+953	1028	act2-speech-0502	PHRASE-3	get the others	get the others	1
+954	1029	act2-speech-0503	PHRASE-3	drag a murderer	dragging a murderer	1
+955	1029	act2-speech-0503	WORD	lose	lost, losing	2
+956	1032	act2-speech-0506	WORD	inconvenient	inconvenient	1
+957	1033	act2-speech-0507	PHRASE-2	important thing	important things	1
+958	1035	act2-speech-0509	WORD	operation	operation	1
+959	1038	act2-speech-0512	WORD	end	end	1
+960	1038	act2-speech-0512	WORD	exciting	exciting	1
+961	1043	act2-speech-0517	WORD	attention	attention	2
+962	1045	act2-speech-0519	PHRASE-3	check these statement	checking these statements	2
+963	1045	act2-speech-0519	WORD	false	false	1
+964	1045	act2-speech-0519	WORD	truth	truth	1
+965	1046	act2-speech-0520	WORD	necessarily	necessarily	2
+966	1049	act2-speech-0523	WORD	second	second	1
+967	1050	act2-speech-0524	WORD	chestnut	chestnut	1
+968	1053	act2-speech-0527	WORD	learn	learn	1
+969	1055	act2-speech-0529	WORD	repeat	repeat	2
+970	1063	act2-speech-0537	WORD	busy	busy	1
+971	1081	act2-speech-0555	WORD	role	roles	1
+972	1084	act2-speech-0558	WORD	chilly	chilly	1
+973	1084	act2-speech-0558	WORD	job	job	1
+974	1084	act2-speech-0558	WORD	kindly	kindly	1
+975	1103	act2-speech-0577	WORD	maiden	maiden	1
+976	1105	act2-speech-0579	WORD	teach	taught	2
+977	1107	act2-speech-0581	WORD	post	posted	1
+978	1107	act2-speech-0581	WORD	teacher	teacher	1
+979	1110	act2-speech-0584	WORD	aside	aside	1
+980	1113	act2-speech-0587	WORD	box	box	1
+981	1113	act2-speech-0587	WORD	brother	brother	1
+982	1115	act2-speech-0589	WORD	better	better	2
+983	1115	act2-speech-0589	WORD	enough	enough	1
+984	1115	act2-speech-0589	WORD	ups	ups	1
+985	1117	act2-speech-0591	WORD	tire	tired	1
+986	1117	act2-speech-0591	WORD	watch	Watching, watches	2
+987	1120	act2-speech-0594	WORD	animal	animals	1
+988	1120	act2-speech-0594	WORD	dog	dogs	1
+989	1120	act2-speech-0594	WORD	fat	fat	1
+990	1120	act2-speech-0594	WORD	pig	pig	1
+991	1132	act2-speech-0606	WORD	dream	dreamt	1
+992	1138	act2-speech-0612	WORD	control	control	1
+993	1138	act2-speech-0612	WORD	hatter	hatter	1
+994	1142	act2-speech-0616	WORD	spot	spot	1
+995	1144	act2-speech-0618	WORD	top	top	1
+996	1146	act2-speech-0620	WORD	wheel	wheel	1
+997	1148	act2-speech-0622	WORD	buy	buying	1
+998	1162	act2-speech-0636	WORD	shop	shop	1
+999	1163	act2-speech-0637	WORD	burn	burning	1
+1000	1163	act2-speech-0637	WORD	smell	smell	1
