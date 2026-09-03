@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 1,
+  "patchId": "reviewed-vocabulary-expansion-2026-09-03",
+  "status": "PASS",
+  "review": {
+    "candidates": 1000,
+    "accepted": 452,
+    "rejected": 548,
+    "acceptedWords": 446,
+    "acceptedPhrases": 6,
+    "uniqueAcceptedLemmas": 447
+  },
+  "before": {
+    "dictionaryEntries": 1809,
+    "vocabularyItems": 3754
+  },
+  "changes": {
+    "newDictionaryEntries": 447,
+    "existingDictionaryEntries": 5,
+    "newVocabularyItems": 300,
+    "existingVocabularyPairs": 0,
+    "coveredByExistingPhrase": 152,
+    "surfaceConflicts": 0,
+    "inThisPlayAdded": 21
+  },
+  "after": {
+    "dictionaryEntries": 2256,
+    "vocabularyItems": 4054,
+    "annotatedSpeeches": 898,
+    "referencedDictionaryLemmas": 2025
+  },
+  "rejectedByReason": {
+    "reject-alias": 10,
+    "reject-ngram": 538
+  },
+  "coverageExamples": [
+    {
+      "candidate": 12,
+      "speechId": "act1-scene1-speech-0001",
+      "surface": "interview",
+      "dictionaryLemma": "interview",
+      "coveredBy": "are anxious to interview",
+      "coveredByLemma": "be anxious to interview"
+    },
+    {
+      "candidate": 22,
+      "speechId": "act1-scene1-speech-0001",
+      "surface": "police",
+      "dictionaryLemma": "police",
+      "coveredBy": "police whistles",
+      "coveredByLemma": "police whistle"
+    },
+    {
+      "candidate": 25,
+      "speechId": "act1-scene1-speech-0001",
+      "surface": "vicinity",
+      "dictionaryLemma": "vicinity",
+      "coveredBy": "in the vicinity",
+      "coveredByLemma": "in the vicinity"
+    },
+    {
+      "candidate": 26,
+      "speechId": "act1-scene1-speech-0001",
+      "surface": "warned",
+      "dictionaryLemma": "warn",
+      "coveredBy": "warned against",
+      "coveredByLemma": "warn against"
+    },
+    {
+      "candidate": 33,
+      "speechId": "act1-scene1-speech-0005",
+      "surface": "leave",
+      "dictionaryLemma": "leave",
+      "coveredBy": "leave it all to me",
+      "coveredByLemma": "leave it to someone"
+    },
+    {
+      "candidate": 36,
+      "speechId": "act1-scene1-speech-0008",
+      "surface": "come",
+      "dictionaryLemma": "come",
+      "coveredBy": "come in",
+      "coveredByLemma": "come in"
+    },
+    {
+      "candidate": 38,
+      "speechId": "act1-scene1-speech-0010",
+      "surface": "chicken",
+      "dictionaryLemma": "chicken",
+      "coveredBy": "chicken netting",
+      "coveredByLemma": "chicken netting"
+    },
+    {
+      "candidate": 42,
+      "speechId": "act1-scene1-speech-0010",
+      "surface": "go",
+      "dictionaryLemma": "go",
+      "coveredBy": "go down to",
+      "coveredByLemma": "go down to"
+    },
+    {
+      "candidate": 43,
+      "speechId": "act1-scene1-speech-0011",
+      "surface": "anything",
+      "dictionaryLemma": "anything",
+      "coveredBy": "like anything",
+      "coveredByLemma": "like anything"
+    },
+    {
+      "candidate": 45,
+      "speechId": "act1-scene1-speech-0011",
+      "surface": "good",
+      "dictionaryLemma": "good",
+      "coveredBy": "any good",
+      "coveredByLemma": "any good"
+    },
+    {
+      "candidate": 68,
+      "speechId": "act1-scene1-speech-0016",
+      "surface": "hooked",
+      "dictionaryLemma": "hook",
+      "coveredBy": "hooked it",
+      "coveredByLemma": "hook it"
+    },
+    {
+      "candidate": 70,
+      "speechId": "act1-scene1-speech-0016",
+      "surface": "thank",
+      "dictionaryLemma": "thank",
+      "coveredBy": "thank goodness",
+      "coveredByLemma": "thank goodness"
+    },
+    {
+      "candidate": 77,
+      "speechId": "act1-scene1-speech-0019",
+      "surface": "long",
+      "dictionaryLemma": "long",
+      "coveredBy": "So long as",
+      "coveredByLemma": "so long as"
+    },
+    {
+      "candidate": 81,
+      "speechId": "act1-scene1-speech-0021",
+      "surface": "feet",
+      "dictionaryLemma": "foot",
+      "coveredBy": "Got cold feet",
+      "coveredByLemma": "get cold feet"
+    },
+    {
+      "candidate": 82,
+      "speechId": "act1-scene1-speech-0021",
+      "surface": "house",
+      "dictionaryLemma": "house",
+      "coveredBy": "guest house",
+      "coveredByLemma": "guest house"
+    },
+    {
+      "candidate": 90,
+      "speechId": "act1-scene1-speech-0022",
+      "surface": "talking",
+      "dictionaryLemma": "talk",
+      "coveredBy": "talking of",
+      "coveredByLemma": "talking of"
+    },
+    {
+      "candidate": 105,
+      "speechId": "act1-scene1-speech-0035",
+      "surface": "game",
+      "dictionaryLemma": "game",
+      "coveredBy": "mugs at this game",
+      "coveredByLemma": "mug"
+    },
+    {
+      "candidate": 123,
+      "speechId": "act1-scene1-speech-0044",
+      "surface": "gave",
+      "dictionaryLemma": "give",
+      "coveredBy": "gave up",
+      "coveredByLemma": "give up"
+    },
+    {
+      "candidate": 125,
+      "speechId": "act1-scene1-speech-0046",
+      "surface": "birds",
+      "dictionaryLemma": "bird",
+      "coveredBy": "birds of Paradise",
+      "coveredByLemma": "bird of paradise"
+    },
+    {
+      "candidate": 126,
+      "speechId": "act1-scene1-speech-0046",
+      "surface": "brass",
+      "dictionaryLemma": "brass",
+      "coveredBy": "Benares brass",
+      "coveredByLemma": "Benares brass"
+    },
+    {
+      "candidate": 127,
+      "speechId": "act1-scene1-speech-0046",
+      "surface": "flowers",
+      "dictionaryLemma": "flower",
+      "coveredBy": "wax flowers",
+      "coveredByLemma": "wax flower"
+    },
+    {
+      "candidate": 133,
+      "speechId": "act1-scene1-speech-0046",
+      "surface": "wax",
+      "dictionaryLemma": "wax",
+      "coveredBy": "wax flowers",
+      "coveredByLemma": "wax flower"
+    },
+    {
+      "candidate": 144,
+      "speechId": "act1-scene1-speech-0049",
+      "surface": "dining",
+      "dictionaryLemma": "dining",
+      "coveredBy": "dining room",
+      "coveredByLemma": "dining room"
+    },
+    {
+      "candidate": 147,
+      "speechId": "act1-scene1-speech-0052",
+      "surface": "away",
+      "dictionaryLemma": "away",
+      "coveredBy": "do away with",
+      "coveredByLemma": "do away with"
+    },
+    {
+      "candidate": 155,
+      "speechId": "act1-scene1-speech-0054",
+      "surface": "back",
+      "dictionaryLemma": "back",
+      "coveredBy": "Takes one back to",
+      "coveredByLemma": "take one back to"
+    },
+    {
+      "candidate": 174,
+      "speechId": "act1-scene1-speech-0054",
+      "surface": "poor",
+      "dictionaryLemma": "poor",
+      "coveredBy": "poor relation",
+      "coveredByLemma": "poor relation"
+    },
+    {
+      "candidate": 186,
+      "speechId": "act1-scene1-speech-0061",
+      "surface": "interesting",
+      "dictionaryLemma": "interesting",
+      "coveredBy": "madly interesting",
+      "coveredByLemma": "madly"
+    },
+    {
+      "candidate": 191,
+      "speechId": "act1-scene1-speech-0063",
+      "surface": "anyone",
+      "dictionaryLemma": "anyone",
+      "coveredBy": "what anyone is like",
+      "coveredByLemma": "what someone is like"
+    },
+    {
+      "candidate": 194,
+      "speechId": "act1-scene1-speech-0067",
+      "surface": "Christopher",
+      "dictionaryLemma": "Christopher",
+      "coveredBy": "Christopher Wren",
+      "coveredByLemma": "Christopher Wren"
+    },
+    {
+      "candidate": 198,
+      "speechId": "act1-scene1-speech-0067",
+      "surface": "last",
+      "dictionaryLemma": "last",
+      "coveredBy": "have the last laugh",
+      "coveredByLemma": "have the last laugh"
+    }
+  ],
+  "qa": {
+    "all1000CandidatesReviewed": true,
+    "incorrectLemmasRejectedOrCanonicalized": true,
+    "nonLexicalNgramsRejected": true,
+    "existingLinePhraseContainmentChecked": true,
+    "dictionaryMeaningMatchesLineVocabulary": true,
+    "semanticValidator": {
+      "status": "PASS",
+      "dictionary": 2256,
+      "vocabularyItems": 4054,
+      "inThisPlay": 890,
+      "polysemyItems": 363,
+      "unclassifiedDictionary": 0,
+      "genericInThisPlay": 0,
+      "playSpecificDictionaryMeanings": 0,
+      "surfaceLemmaConflicts": 0,
+      "duplicateSurfaceLemmaPairs": 0,
+      "singleWordDictionaryEntries": 1603,
+      "singleWordWithoutHeading": 0,
+      "multiPosSingleWords": 174,
+      "multiPosSingleWordsWithoutSeparateHeadings": 0
+    },
+    "productionVerifier": {
+      "status": "PASS",
+      "runtime": "index-zero",
+      "buildId": "index-zero-2026-09-02-r36",
+      "mode": "verify-only",
+      "qa": {
+        "speeches": 1164,
+        "translations": 1164,
+        "interpretationCoverage": 1164,
+        "interpretationSpeeches": 747,
+        "interpretationNotes": 887,
+        "vocabulary": 4054,
+        "vocabularyDisplayed": 2934,
+        "vocabularyNeutralOnly": 1120,
+        "grammar": 692,
+        "dictionary": 2256,
+        "structureSentences": 2334,
+        "structureClauses": 2939,
+        "structureChunks": 11810,
+        "stageDirections": 777,
+        "stageStandalone": 5,
+        "stageAttached": 772,
+        "stageActorCues": 611,
+        "stageJapaneseParaphrases": 777,
+        "stageCategories": {
+          "scene-setting": 5,
+          "radio": 9,
+          "delivery": 411,
+          "gesture": 34,
+          "action": 96,
+          "entrance": 44,
+          "movement": 95,
+          "exit": 41,
+          "sound": 6,
+          "light": 8,
+          "curtain": 8,
+          "music": 8,
+          "pause": 12
+        }
+      }
+    }
+  },
+  "hashes": {
+    "dictionary": "f26658cbe068293d3ab720b2f92ddf1f39a284cf96e5b02e856ee5dce9831bb7",
+    "vocabulary": "3ecbf5cd698de2b707ef0daa4d5e8da7b6e2e7fd32320f7f1fa79fdb0a33d455"
+  }
+}

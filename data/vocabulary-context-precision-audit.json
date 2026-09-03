@@ -8,11 +8,11 @@
     "dictionaryMustRemainNeutral": true
   },
   "counts": {
-    "dictionaryEntries": 1809,
-    "vocabularyItems": 3754,
-    "contextItems": 869,
-    "properNounOccurrences": 102,
-    "properNounMissingContext": 18,
+    "dictionaryEntries": 2256,
+    "vocabularyItems": 4054,
+    "contextItems": 890,
+    "properNounOccurrences": 103,
+    "properNounMissingContext": 19,
     "genericProperNounMissingContext": 0,
     "dictionaryPlayContextCandidates": 0,
     "repeatedContextGroups": 34
