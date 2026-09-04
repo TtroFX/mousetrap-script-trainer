@@ -219,4 +219,5 @@ const summary={
 };
 fs.writeFileSync('data/a2plus-candidate-lists/summary.json',JSON.stringify(summary,null,2)+'\n');
 console.log(JSON.stringify(summary,null,2));
-if(!summary.abusePresentInFinal) throw new Error('Expected missing dictionary headword "abuse" to be present in final Parts 1+2 candidate list');
+const abuseImplemented=implementedDictionary.has('abuse');
+if(summary.abusePresentInFinal===abuseImplemented) throw new Error(`"abuse" dictionary/candidate exclusion invariant failed (implemented=${abuseImplemented}, candidate=${summary.abusePresentInFinal})`);

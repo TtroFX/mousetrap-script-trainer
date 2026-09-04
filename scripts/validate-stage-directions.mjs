@@ -9,7 +9,7 @@ const script=read('mousetrap_script_data.json');
 const stage=read('mousetrap_stage_directions.json');
 const scenes=[
   {id:'act1-scene1',act:1,scene:1,count:190,stageCount:185},
-  {id:'act1-scene2',act:1,scene:2,count:336,stageCount:229},
+  {id:'act1-scene2',act:1,scene:2,count:336,stageCount:230},
   {id:'act2',act:2,scene:null,count:638,stageCount:363},
 ];
 const sceneById=new Map(scenes.map(scene=>[scene.id,scene]));
@@ -26,8 +26,8 @@ for(const scene of scenes){
 if(speechById.size!==1164)fail(`script speech total ${speechById.size}/1164`);
 if(stage?.schemaVersion!==2||!Array.isArray(stage.entries))fail('stage schema invalid');
 if(stage.source?.pdfSha256!=='94d46d2afe7504d2010c10b3ef4f1017bc3adfe0c09ab86bfd837167357c397b'||stage.source?.pdfPages!==84)fail('stage source authority mismatch');
-if(stage.counts?.standalone!==5||stage.counts?.attached!==772||stage.counts?.total!==777||stage.counts?.malformedBracketRecovered!==1)fail(`stage declared counts invalid ${JSON.stringify(stage.counts)}`);
-if(stage.entries.length!==777)fail(`stage entries ${stage.entries.length}/777`);
+if(stage.counts?.standalone!==5||stage.counts?.attached!==773||stage.counts?.total!==778||stage.counts?.malformedBracketRecovered!==1)fail(`stage declared counts invalid ${JSON.stringify(stage.counts)}`);
+if(stage.entries.length!==778)fail(`stage entries ${stage.entries.length}/778`);
 if(stage.policy?.canonicalSpeechCountUnchanged!==1164||stage.policy?.orderedScriptStream!==true||stage.policy?.explicitSourceOrder!==true||stage.policy?.stageDirectionsAreNotSpeeches!==true)fail('stage policy contract invalid');
 if(stage.policy?.attachedAboveTranslation!==false||stage.policy?.summaryJaKind!=='minimal-paraphrase'||stage.policy?.summaryJaMaxChars!==64||stage.policy?.readerShowsJapaneseFirst!==true||stage.policy?.lineDetailStageLayout!=='actor-cues-before-translation; remainder-collapsed-after-structure')fail('stage Japanese-first display policy invalid');
 
@@ -79,16 +79,22 @@ for(const entry of stage.entries){
     if(entry.malformedSourceBracket===true)malformed+=1;
   }else fail(`stage kind ${entry.id}`);
 }
-if(standalone!==5||attached!==772||malformed!==1)fail(`stage derived counts ${standalone}/${attached}/${malformed}`);
-if(actorCues!==611)fail(`stage actor cue count ${actorCues}/611`);
-if(placements.before!==236||placements.delivery!==411||placements.after!==125)fail(`stage placement counts ${JSON.stringify(placements)}`);
+if(standalone!==5||attached!==773||malformed!==1)fail(`stage derived counts ${standalone}/${attached}/${malformed}`);
+if(actorCues!==612)fail(`stage actor cue count ${actorCues}/612`);
+if(placements.before!==236||placements.delivery!==411||placements.after!==126)fail(`stage placement counts ${JSON.stringify(placements)}`);
 for(const scene of scenes)if(sceneCounts.get(scene.id)!==scene.stageCount)fail(`stage scene count ${scene.id}: ${sceneCounts.get(scene.id)}/${scene.stageCount}`);
 for(const category of allowedCategories)if(!categories.get(category))fail(`stage category coverage missing ${category}`);
 
+const spokenDelimiterLeaks=[...speechById.values()].filter(({speech})=>/[\[\]{}]/.test(String(speech?.text||'')));
+if(spokenDelimiterLeaks.length)fail(`stage delimiter leaked into spoken text: ${spokenDelimiterLeaks.map(({speech})=>speech.id).join(',')}`);
+const recoveredMalformed=stage.entries.filter(entry=>entry.malformedSourceBracket===true);
+if(recoveredMalformed.length!==1||recoveredMalformed[0].speechId!=='act1-scene2-speech-0308'||recoveredMalformed[0].placement!=='after'||String(recoveredMalformed[0].text||'').trim()!=='He moves above the sofa table.')fail('malformed stage recovery anchor invalid');
+if(speechById.get('act1-scene2-speech-0308')?.speech?.text!=='Ah.')fail('Trotter speech/stage separation regression');
+
 console.log(JSON.stringify({
-  status:'PASS',speeches:1164,speechIdSequence:'PASS',stageEntries:777,
+  status:'PASS',speeches:1164,speechIdSequence:'PASS',stageEntries:778,
   duplicateStageIds:0,brokenAnchors:0,orderInversions:0,invalidSceneAssociations:0,
   standalone,attached,malformedRecovered:malformed,placements,
   scenes:Object.fromEntries(sceneCounts),categories:Object.fromEntries(categories),
-  vocabularyItems,noteItems,actorCues,japaneseParaphrases:777,pdfSha256:stage.source.pdfSha256,
+  vocabularyItems,noteItems,actorCues,japaneseParaphrases:778,pdfSha256:stage.source.pdfSha256,
 },null,2));

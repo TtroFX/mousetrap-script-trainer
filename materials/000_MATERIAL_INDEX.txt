@@ -17,8 +17,8 @@ CANONICAL CHUNK STRUCTURE
 - ruleSet: chunking-v1
 - speeches: 1164
 - sentences: 2334
-- clauses: 2939
-- chunks: 11810
+- clauses: 2938
+- chunks: 11807
 - exact-offset coverage: 1164 / 1164
 - raw fallback data: forbidden
 - legacy Vi / Vt / VBN / numbered-HV markers: forbidden

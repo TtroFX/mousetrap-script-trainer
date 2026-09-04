@@ -1,7 +1,7 @@
 THE MOUSETRAP — A2+ ADDITION CANDIDATES — PARTS 1+2 UNIQUE
 Scope: global speeches 1-582
 Pipeline: extract Oxford A2+ occurrences -> deduplicate by headword -> remove currently implemented dictionary headwords -> deduplicate across Parts 1 and 2.
-Unique final Oxford A2+ candidates across Parts 1+2: 297
+Unique final Oxford A2+ candidates across Parts 1+2: 296
 
 word	cefr	parts	occurrences	firstSpeechId	surfaceForms	allOxfordLevels
 able	A2	1,2	3	act1-scene1-speech-0121	able	A2
@@ -301,4 +301,3 @@ wrong	B1/B2	2	1	act1-scene2-speech-0290	wrong	A1/B1/B2
 young	B1	1,2	20	act1-scene1-speech-0089	young, youngest	A1/B1
 yours	A2	1,2	4	act1-scene1-speech-0018	yours	A2
 
-abuse	C1	2	1	act1-scene2-speech-0258	abuse	C1

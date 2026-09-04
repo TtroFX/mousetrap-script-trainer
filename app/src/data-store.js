@@ -115,7 +115,7 @@ function validateStructure(value, script) {
   if ('rawLines' in value) throw new Error('structure: legacy rawLines/fallback is forbidden');
   if (!script) throw new Error('structure: canonical script must be loaded first');
   const counts = value.counts || {};
-  if (counts.speeches !== 1164 || counts.sentences !== 2334 || counts.clauses !== 2939 || counts.chunks !== 11810) throw new Error('structure: canonical counts invalid');
+  if (counts.speeches !== 1164 || counts.sentences !== 2334 || counts.clauses !== 2938 || counts.chunks !== 11807) throw new Error('structure: canonical counts invalid');
   const lines = value.lines;
   if (!lines || typeof lines !== 'object' || Array.isArray(lines)) throw new Error('structure.lines: object required');
   const expected = expectedSpeechIds();
@@ -182,8 +182,8 @@ function validateStructure(value, script) {
 
 function validateStageDirections(value,script){
   if(!script)throw new Error('stage directions: canonical script must be loaded first');
-  if(value?.schemaVersion!==2||!Array.isArray(value.entries)||value.entries.length!==777)throw new Error('stage directions: schema/count invalid');
-  if(value.counts?.standalone!==5||value.counts?.attached!==772||value.counts?.total!==777)throw new Error('stage directions: declared counts invalid');
+  if(value?.schemaVersion!==2||!Array.isArray(value.entries)||value.entries.length!==778)throw new Error('stage directions: schema/count invalid');
+  if(value.counts?.standalone!==5||value.counts?.attached!==773||value.counts?.total!==778)throw new Error('stage directions: declared counts invalid');
   if(value.policy?.attachedAboveTranslation!==false||value.policy?.summaryJaKind!=='minimal-paraphrase'||value.policy?.summaryJaMaxChars!==64||value.policy?.readerShowsJapaneseFirst!==true||value.policy?.lineDetailStageLayout!=='actor-cues-before-translation; remainder-collapsed-after-structure')throw new Error('stage directions: Japanese-first display policy invalid');
   const expectedScenes=new Map(SCENES.map(scene=>[scene.id,scene]));
   const speechScene=new Map();
@@ -207,7 +207,7 @@ function validateStageDirections(value,script){
       if(entry.placement==='delivery'&&!entry.actorCueForSpeech)throw new Error(`stage directions: delivery actor cue missing ${entry.id}`);
     }else throw new Error(`stage directions: invalid kind ${entry.id}`);
   }
-  if(actorCues!==611)throw new Error(`stage directions: actor cue count invalid ${actorCues}/611`);
+  if(actorCues!==612)throw new Error(`stage directions: actor cue count invalid ${actorCues}/612`);
   return value;
 }
 

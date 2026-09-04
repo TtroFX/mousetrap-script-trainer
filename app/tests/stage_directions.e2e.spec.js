@@ -79,7 +79,7 @@ test('Line Detail keeps actor cues by the speech and folds the remainder below S
   await expect(details).toHaveAttribute('open','');
   await expect(remainderCard.locator('.stage-note-en')).toBeVisible();
   await expect(page.locator('[data-stage-direction-group]')).toHaveCount(0);
-  expect(await page.evaluate(()=>({speechCount:MTS_INDEX_ZERO.store.speechById.size,stageCount:MTS_STAGE.diagnostics().total}))).toEqual({speechCount:1164,stageCount:777});
+  expect(await page.evaluate(()=>({speechCount:MTS_INDEX_ZERO.store.speechById.size,stageCount:MTS_STAGE.diagnostics().total}))).toEqual({speechCount:1164,stageCount:778});
 });
 
 test('scene-setting context and mixed previous/next navigation use canonical stream order',async({page,request})=>{
