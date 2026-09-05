@@ -17,6 +17,8 @@ for (const file of ['src/speech-controller.js', 'src/line-read-aloud.js']) {
 for (const token of [
   "import { speechController } from './speech-controller.js'",
   "const OWNER_PREFIX = 'line-detail:'",
+  'readAloudPreviewHtml',
+  'data-line-read-aloud-preview',
   'createLineReadAloudButton',
   'mountLineReadAloud',
   "lang: 'en-GB'",
@@ -50,6 +52,8 @@ console.log(JSON.stringify({
   implementationReady: true,
   canonicalTextSource: 'store.getSpeech(...).text',
   placementContract: 'immediately-left-of-shiori',
+  swipePreviewVisualParity: true,
+  swipePreviewInteractive: false,
   language: 'en-GB',
   toggleStop: true,
   routeAndBackgroundCancellation: true,
