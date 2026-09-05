@@ -13,15 +13,15 @@ const clamp = (value, min, max, fallback) => {
   return Number.isFinite(number) ? Math.max(min, Math.min(max, number)) : fallback;
 };
 
-function refreshVoices() {
-  if (!synth?.getVoices) return [];
-  try {
-    voices = Array.from(synth.getVoices() || []);
-  } catch {
-    voices = [];
-  }
-  events.dispatchEvent(new CustomEvent('voices', { detail: diagnostics() }));
-  return voices;
+function voiceInfo(voice) {
+  if (!voice) return null;
+  return {
+    name: voice.name || '',
+    lang: voice.lang || '',
+    localService: voice.localService === true,
+    default: voice.default === true,
+    voiceURI: voice.voiceURI || '',
+  };
 }
 
 function voiceScore(voice, lang = DEFAULT_LANG) {
@@ -30,19 +30,20 @@ function voiceScore(voice, lang = DEFAULT_LANG) {
   const name = String(voice?.name || '').toLowerCase();
   let score = 0;
 
+  // Accent/language match is more important than local-vs-remote delivery.
   if (actual === wanted) score += 1000;
   else if (wanted.startsWith('en-') && actual.startsWith('en-')) score += 450;
   else if (actual && actual.split('-')[0] === wanted.split('-')[0]) score += 250;
   else return -1;
 
+  // Within the best language class, prefer an offline/local voice.
   if (voice?.localService === true) score += 120;
   if (/british|united kingdom|\buk\b|england/.test(name)) score += 80;
   if (voice?.default === true) score += 10;
   return score;
 }
 
-function preferredVoice(lang = DEFAULT_LANG) {
-  if (!voices.length) refreshVoices();
+function preferredVoiceWithoutRefresh(lang = DEFAULT_LANG) {
   let best = null;
   let bestScore = -1;
   for (const voice of voices) {
@@ -55,6 +56,40 @@ function preferredVoice(lang = DEFAULT_LANG) {
   return best;
 }
 
+function snapshot(extra = {}) {
+  return {
+    supported: supported(),
+    voiceCount: voices.length,
+    preferredVoice: voiceInfo(preferredVoiceWithoutRefresh(DEFAULT_LANG)),
+    active: !!current,
+    speaking: current?.phase === 'speaking',
+    phase: current?.phase || 'idle',
+    owner: current?.owner || null,
+    voice: voiceInfo(current?.voice || null),
+    ...extra,
+  };
+}
+
+function emitState(extra = {}) {
+  events.dispatchEvent(new CustomEvent('state', { detail: snapshot(extra) }));
+}
+
+function refreshVoices() {
+  if (!synth?.getVoices) return [];
+  try {
+    voices = Array.from(synth.getVoices() || []);
+  } catch {
+    voices = [];
+  }
+  events.dispatchEvent(new CustomEvent('voices', { detail: snapshot() }));
+  return voices;
+}
+
+function preferredVoice(lang = DEFAULT_LANG) {
+  if (!voices.length) refreshVoices();
+  return preferredVoiceWithoutRefresh(lang);
+}
+
 function supported() {
   return !!(synth && hasUtterance && typeof synth.speak === 'function');
 }
@@ -64,9 +99,10 @@ function isSpeaking(owner = null) {
   return owner == null || current.owner === owner;
 }
 
-function cancel(owner = null) {
+function cancel(owner = null, reason = 'cancelled') {
   if (!synth) return false;
   if (owner != null && current?.owner !== owner) return false;
+  const previousOwner = current?.owner || null;
   generation += 1;
   current = null;
   try {
@@ -74,7 +110,7 @@ function cancel(owner = null) {
   } catch {
     return false;
   }
-  events.dispatchEvent(new CustomEvent('state', { detail: { state: 'idle', owner: null } }));
+  emitState({ reason, previousOwner });
   return true;
 }
 
@@ -92,7 +128,7 @@ function speak({
   const value = String(text || '').trim();
   if (!value || !supported()) return false;
 
-  cancel();
+  cancel(null, 'replaced');
   const id = ++generation;
   const utterance = new SpeechSynthesisUtterance(value);
   utterance.lang = lang;
@@ -103,69 +139,42 @@ function speak({
   const voice = preferredVoice(lang);
   if (voice) utterance.voice = voice;
 
-  current = { id, owner, utterance, voice: voice || null };
+  current = { id, owner, utterance, voice: voice || null, phase: 'queued' };
   utterance.onstart = event => {
     if (current?.id !== id) return;
-    events.dispatchEvent(new CustomEvent('state', { detail: { state: 'speaking', owner, voice: voiceInfo(voice) } }));
+    current.phase = 'speaking';
+    emitState();
     onStart?.(event);
   };
   utterance.onend = event => {
     if (current?.id !== id) return;
+    const previousOwner = current.owner;
     current = null;
-    events.dispatchEvent(new CustomEvent('state', { detail: { state: 'idle', owner: null } }));
+    emitState({ reason: 'ended', previousOwner });
     onEnd?.(event);
   };
   utterance.onerror = event => {
     if (current?.id !== id) return;
+    const previousOwner = current.owner;
     current = null;
-    events.dispatchEvent(new CustomEvent('state', { detail: { state: 'idle', owner: null, error: event?.error || 'speech-error' } }));
+    emitState({ reason: 'error', previousOwner, error: event?.error || 'speech-error' });
     onError?.(event);
   };
 
   try {
     synth.speak(utterance);
+    emitState();
     return true;
   } catch (error) {
     if (current?.id === id) current = null;
-    events.dispatchEvent(new CustomEvent('state', { detail: { state: 'idle', owner: null, error: 'speak-threw' } }));
+    emitState({ reason: 'error', previousOwner: owner, error: 'speak-threw' });
     onError?.(error);
     return false;
   }
 }
 
-function voiceInfo(voice) {
-  if (!voice) return null;
-  return {
-    name: voice.name || '',
-    lang: voice.lang || '',
-    localService: voice.localService === true,
-    default: voice.default === true,
-    voiceURI: voice.voiceURI || '',
-  };
-}
-
 function diagnostics() {
-  const preferred = preferredVoiceWithoutRefresh(DEFAULT_LANG);
-  return {
-    supported: supported(),
-    voiceCount: voices.length,
-    preferredVoice: voiceInfo(preferred),
-    speaking: !!current,
-    owner: current?.owner || null,
-  };
-}
-
-function preferredVoiceWithoutRefresh(lang = DEFAULT_LANG) {
-  let best = null;
-  let bestScore = -1;
-  for (const voice of voices) {
-    const score = voiceScore(voice, lang);
-    if (score > bestScore) {
-      best = voice;
-      bestScore = score;
-    }
-  }
-  return best;
+  return snapshot();
 }
 
 export const speechController = Object.freeze({
@@ -184,9 +193,12 @@ export const speechController = Object.freeze({
 refreshVoices();
 if (synth?.addEventListener) synth.addEventListener('voiceschanged', refreshVoices);
 
-// A route change must never leave an utterance from the previous screen playing.
-window.addEventListener('hashchange', () => cancel());
-window.addEventListener('pagehide', () => cancel());
+// Any navigation/background transition must not leave a stale utterance playing.
+window.addEventListener('hashchange', () => cancel(null, 'route-change'));
+window.addEventListener('pagehide', () => cancel(null, 'pagehide'));
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) cancel(null, 'hidden');
+});
 
-// Exposed only for diagnostics and the later Line Detail read-aloud control.
+// Diagnostics plus the future Line Detail read-aloud control share this owner.
 window.MTS_SPEECH = speechController;
