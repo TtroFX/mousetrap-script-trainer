@@ -1,4 +1,4 @@
-export const BUILD_ID = 'index-zero-2026-09-06-r38';
+export const BUILD_ID = 'index-zero-2026-09-06-r39';
 
 export const SCENES = Object.freeze([
   { id: 'act1-scene1', label: 'Act I · Scene I', count: 190 },
