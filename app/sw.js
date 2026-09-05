@@ -1,5 +1,5 @@
 'use strict';
-const BUILD_ID='index-zero-2026-09-06-r38';
+const BUILD_ID='index-zero-2026-09-06-r39';
 const SHELL_CACHE=`mts-zero-shell-${BUILD_ID}`;
 const DATA_CACHE=`mts-zero-data-${BUILD_ID}`;
 const SHELL=[
