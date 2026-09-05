@@ -12,6 +12,11 @@ function speakerGlyph(active = false) {
   </svg>`;
 }
 
+export function readAloudPreviewHtml(lineId = '') {
+  const id = String(lineId || '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  return `<span class="bookmark-toggle line-read-aloud-toggle line-detail-read-aloud" data-line-read-aloud-preview="${id}" aria-hidden="true">${speakerGlyph(false)}</span>`;
+}
+
 function applyButtonState(button) {
   if (!button) return;
   const status = speechController.diagnostics();
@@ -106,6 +111,7 @@ speechController.addEventListener('voices', () => syncReadAloudControls());
 
 window.MTS_LINE_READ_ALOUD = Object.freeze({
   lineSpeechOwner,
+  readAloudPreviewHtml,
   createLineReadAloudButton,
   mountLineReadAloud,
   syncReadAloudControls,
