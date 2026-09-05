@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import { spawnSync } from 'node:child_process';
 
+// QA branch trigger only; production contract is identical to main r39.
 const fail = message => { throw new Error(message); };
 const read = path => fs.readFileSync(path, 'utf8');
 const lineRead = read('src/line-read-aloud.js');
