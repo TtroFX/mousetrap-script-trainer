@@ -43,6 +43,8 @@ jobs:
           node --check src/config.js
           node --check src/data-store.js
           node --check src/main.js
+          node --check src/speech-controller.js
+          node --check src/line-read-aloud.js
           node --check src/stage-directions.js
           node --check src/study/structure-model.js
           node --check src/study/structure-view.js
@@ -52,12 +54,16 @@ jobs:
           node tests/index_zero_static.mjs
           node tests/stage_directions_static.mjs
           node tests/offline_pwa_static.mjs
+          node tests/speech_controller_static.mjs
+          node tests/line_read_aloud_static.mjs
           node scripts/assemble-production.mjs --verify-only
           node scripts/assemble-production.mjs --out-dir ../public
           test -e ../public/mousetrap_line_interpretation.json
           test -e ../public/src/mousetrap_stage_directions.json
           test -e ../public/src/stage-directions.js
           test -e ../public/src/stage-directions.css
+          test -e ../public/src/speech-controller.js
+          test -e ../public/src/line-read-aloud.js
           test -e ../public/src/study/structure-view.js
           test -e ../public/src/study/dictionary-sheet.js
       - name: Install browser QA
